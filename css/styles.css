@@ -1,0 +1,546 @@
+/* ADT Trainer – Styles. iOS-natives Design nach Apple HIG (Light/Dark).
+   Prinzipien: Clarity · Deference · Depth · ≥44pt-Tap-Ziele · 8pt-Raster. */
+:root {
+  --bg: #f2f2f7;              /* systemGroupedBackground */
+  --bg-elev: #ffffff;         /* Karten / Zeilen-Hintergrund */
+  --bg-elev-2: #e9e9ef;       /* Fills */
+  --text: #1c1c1e;            /* label */
+  --text-dim: #636366;        /* secondary label */
+  --text-faint: #6d6d72;      /* tertiary label (Kontrast ≥4,5:1 auf Weiß) */
+  --border: #d6d6dc;
+  --separator: rgba(60, 60, 67, 0.16);
+  --primary: #007aff;         /* system blue */
+  --primary-ink: #ffffff;
+  --success: #34c759;
+  --success-bg: #e5f8ea;
+  --danger: #ff3b30;
+  --danger-bg: #ffe9e7;
+  --warn: #ff9500;
+  --gold: #ffcc00;
+  --hero-a: #0a84ff;
+  --hero-b: #5e5ce6;          /* indigo */
+  --shadow: 0 1px 2px rgba(0,0,0,.05), 0 8px 22px rgba(20,30,55,.06);
+  --backdrop: #e2e2e8;         /* Feld hinter der App-Spalte (nur Desktop/breite Fenster) */
+  --radius: 16px;
+  --radius-sm: 12px;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+}
+/* Dunkle Farbwerte. Zwei Auslöser mit identischem Satz:
+   1) feste Umschaltung  :root[data-theme="dark"]
+   2) „Auto" folgt dem System  – aber nur, wenn KEINE feste Wahl gesetzt ist
+      (:root:not([data-theme])), damit eine Nutzerwahl das System überstimmt. */
+:root[data-theme="dark"] {
+  --bg: #000000;            /* OLED-Schwarz, iOS dark grouped */
+  --bg-elev: #1c1c1e;
+  --bg-elev-2: #2c2c2e;
+  --text: #ffffff;
+  --text-dim: #98989f;
+  --text-faint: #9a9aa2;
+  --border: #38383a;
+  --separator: rgba(84, 84, 88, 0.55);
+  --primary: #0a84ff;
+  --success: #30d158;
+  --success-bg: #0f3320;
+  --danger: #ff453a;
+  --danger-bg: #3a1512;
+  --warn: #ff9f0a;
+  --hero-a: #0a84ff;
+  --hero-b: #6a5cff;
+  --shadow: 0 1px 2px rgba(0,0,0,.5), 0 8px 24px rgba(0,0,0,.4);
+  --backdrop: #2c2c2e;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --bg: #000000;
+    --bg-elev: #1c1c1e;
+    --bg-elev-2: #2c2c2e;
+    --text: #ffffff;
+    --text-dim: #98989f;
+    --text-faint: #9a9aa2;
+    --border: #38383a;
+    --separator: rgba(84, 84, 88, 0.55);
+    --primary: #0a84ff;
+    --success: #30d158;
+    --success-bg: #0f3320;
+    --danger: #ff453a;
+    --danger-bg: #3a1512;
+    --warn: #ff9f0a;
+    --hero-a: #0a84ff;
+    --hero-b: #6a5cff;
+    --shadow: 0 1px 2px rgba(0,0,0,.5), 0 8px 24px rgba(0,0,0,.4);
+    --backdrop: #2c2c2e;
+  }
+}
+
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+html, body {
+  margin: 0; padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.47;
+  -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;
+  overscroll-behavior-y: none;
+}
+body {
+  max-width: 640px;
+  margin: 0 auto;
+  min-height: 100vh;
+  padding: var(--safe-top) 16px calc(100px + var(--safe-bottom)) 16px;
+}
+button { font-family: inherit; font-size: inherit; cursor: pointer; border: none; background: none; color: inherit; }
+h1, h2, h3 { line-height: 1.2; }
+
+/* ---------- Navigationsleiste (kollabierender Titel) ---------- */
+.appbar {
+  position: sticky; top: 0; z-index: 20;
+  display: flex; align-items: center; gap: 8px; min-height: 44px;
+  padding: calc(6px + var(--safe-top)) 16px 6px 16px;
+  margin: 0 -16px 4px -16px;
+  background: color-mix(in srgb, var(--bg) 82%, transparent);
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  border-bottom: 0.5px solid transparent;
+  transition: border-color .2s ease;
+}
+.appbar.scrolled { border-bottom-color: var(--separator); }
+.appbar h1 {
+  position: absolute; left: 60px; right: 60px; text-align: center;
+  font-size: 17px; font-weight: 600; margin: 0; letter-spacing: .2px;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  opacity: 0; transform: translateY(6px); pointer-events: none;
+  transition: opacity .2s ease, transform .2s ease;
+}
+.appbar.scrolled h1 { opacity: 1; transform: none; }
+.appbar .spacer { flex: 1; }
+.streak-pill {
+  display: inline-flex; align-items: center; gap: 5px;
+  background: var(--bg-elev); border: 0.5px solid var(--border);
+  padding: 7px 12px; border-radius: 999px; font-size: 14px; font-weight: 600;
+  box-shadow: var(--shadow); z-index: 1;
+}
+.back-btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 44px; height: 44px; margin-left: -8px; border-radius: 12px;
+  color: var(--primary); font-size: 28px; z-index: 1;
+}
+.back-btn:active { opacity: .5; }
+
+/* ---------- Large Title ---------- */
+.large-title { font-size: 34px; font-weight: 800; letter-spacing: -0.6px; margin: 4px 2px 16px; }
+.large-title .sub { display: block; font-size: 15px; font-weight: 500; color: var(--text-dim); letter-spacing: 0; margin-top: 4px; }
+
+/* ---------- Icons (Flat, monochrom) ----------
+   Reine Glyphen ohne Hintergrundkachel – Glyph in Labelfarbe. Die feste Box-Breite
+   bleibt nur zur sauberen Ausrichtung des Texts. Tint (--tint) wird ignoriert. */
+.icon-tile {
+  width: 30px; height: 30px; flex-shrink: 0;
+  display: grid; place-items: center;
+  background: none; color: var(--text);
+}
+.icon-tile svg { width: 22px; height: 22px; display: block; }
+.icon-tile svg * { vector-effect: non-scaling-stroke; }
+
+/* ---------- Inset-gruppierte Liste (iOS) ---------- */
+.ios-group {
+  background: var(--bg-elev); border-radius: 14px; overflow: hidden;
+  box-shadow: var(--shadow); margin-bottom: 20px;
+}
+.ios-group > * + * { border-top: 0.5px solid var(--separator); }
+.ios-group .mode-btn,
+.ios-group .topic-row {
+  background: transparent; border: 0; border-radius: 0; box-shadow: none; margin: 0;
+}
+.ios-group .mode-btn:active,
+.ios-group .topic-row:active { transform: none; background: var(--bg-elev-2); }
+
+/* ---------- Level / XP (Hero) ---------- */
+.level-card {
+  background: linear-gradient(135deg, var(--hero-a), var(--hero-b));
+  color: #fff; border-radius: var(--radius); padding: 20px;
+  box-shadow: 0 10px 30px color-mix(in srgb, var(--hero-b) 35%, transparent); margin-bottom: 18px;
+}
+.level-card .row { display: flex; align-items: baseline; justify-content: space-between; }
+.level-card .lvl { font-size: 15px; opacity: .92; font-weight: 600; }
+.level-card .xp { font-size: 13px; opacity: .85; font-variant-numeric: tabular-nums; }
+.level-card h2 { margin: 4px 0 14px; font-size: 24px; font-weight: 800; letter-spacing: -.3px; }
+.xp-bar { height: 10px; border-radius: 999px; background: rgba(255,255,255,.3); overflow: hidden; }
+.xp-bar > span { display: block; height: 100%; background: #fff; border-radius: 999px; transition: width .6s cubic-bezier(.2,.8,.2,1); }
+
+/* ---------- Stat-Kacheln ---------- */
+.stat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 20px; }
+.stat-grid.two { grid-template-columns: repeat(2, 1fr); }
+
+/* ---------- Tagesziel-Karte (Heute) ---------- */
+.today-card { display: flex; align-items: stretch; background: var(--bg-elev); border-radius: var(--radius); box-shadow: var(--shadow); margin-bottom: 18px; overflow: hidden; }
+.today-main { flex: 1; display: flex; align-items: center; gap: 14px; padding: 12px 14px; text-align: left; min-height: 60px; background: transparent; }
+.today-main:active { background: var(--bg-elev-2); }
+.today-main .txt { flex: 1; min-width: 0; }
+.today-main .txt b { font-size: 17px; font-weight: 600; }
+.today-main .txt p { margin: 1px 0 0; font-size: 13px; color: var(--text-dim); }
+.today-main .chev { color: var(--text-faint); font-size: 18px; font-weight: 600; opacity: .55; }
+.ring-mini { position: relative; width: 58px; height: 58px; flex-shrink: 0; display: grid; place-items: center; }
+.ring-mini .ring-num { position: absolute; inset: 0; display: grid; place-items: center; font-size: 17px; font-weight: 800; font-variant-numeric: tabular-nums; }
+.today-edit { flex-shrink: 0; padding: 0 14px; font-size: 13px; font-weight: 600; color: var(--primary); border-left: 0.5px solid var(--separator); background: transparent; }
+.today-edit:active { background: var(--bg-elev-2); }
+
+/* ---------- Onboarding (Erststart) ---------- */
+.modal-overlay.onboard .modal-card { text-align: center; }
+.onboard-card .onboard-hero { display: flex; justify-content: center; margin-bottom: 8px; }
+.onboard-card .onboard-hero .icon-tile { width: 54px; height: 54px; border-radius: 15px; }
+.onboard-card .onboard-hero .icon-tile svg { width: 32px; height: 32px; }
+.onboard-goal { margin-top: 16px; text-align: left; }
+.onboard-goal label { font-size: 13px; color: var(--text-dim); display: block; margin-bottom: 8px; }
+.goal-chips { display: flex; gap: 8px; }
+.goal-chip { flex: 1; min-width: 0; padding: 13px 0; border-radius: 12px; border: 1.5px solid var(--border); background: var(--bg-elev); color: var(--text); font-size: 17px; font-weight: 700; }
+.goal-chip.sel { border-color: var(--primary); background: color-mix(in srgb, var(--primary) 10%, var(--bg-elev)); color: var(--primary); }
+.stat {
+  background: var(--bg-elev); border-radius: var(--radius-sm);
+  padding: 14px 10px; text-align: center; box-shadow: var(--shadow);
+}
+.stat .num { font-size: 24px; font-weight: 800; letter-spacing: -.4px; font-variant-numeric: tabular-nums; }
+.stat .lbl { font-size: 12px; color: var(--text-dim); margin-top: 3px; }
+
+/* ---------- Sektionstitel ---------- */
+.section-title { font-size: 13px; text-transform: uppercase; letter-spacing: .4px; color: var(--text-dim); margin: 24px 16px 8px; font-weight: 600; }
+
+/* ---------- Zeilen (Mode / Themen) ---------- */
+.mode-btn {
+  display: flex; align-items: center; gap: 14px; width: 100%;
+  background: var(--bg-elev); border-radius: var(--radius);
+  padding: 13px 14px; margin-bottom: 12px; box-shadow: var(--shadow); text-align: left;
+  transition: transform .12s ease, background .12s ease; min-height: 60px;
+}
+.mode-btn:active { transform: scale(.99); }
+.mode-btn .txt { flex: 1; min-width: 0; }
+.mode-btn .txt b { font-size: 17px; font-weight: 600; }
+.mode-btn .txt p { margin: 1px 0 0; font-size: 13px; color: var(--text-dim); }
+.mode-btn .chev { color: var(--text-faint); font-size: 18px; font-weight: 600; opacity: .55; }
+.mode-btn[disabled] { opacity: .5; }
+
+.topic-row {
+  display: flex; align-items: center; gap: 12px; width: 100%;
+  background: var(--bg-elev); border-radius: var(--radius-sm);
+  padding: 13px 14px; margin-bottom: 10px; box-shadow: var(--shadow); text-align: left; min-height: 56px;
+}
+.topic-row .emoji { font-size: 20px; width: 36px; height: 36px; display: grid; place-items: center; border-radius: 9px; flex-shrink: 0; }
+.topic-row .info { flex: 1; min-width: 0; }
+.topic-row .info b { font-size: 16px; font-weight: 500; display: block; }
+.topic-row .bar { height: 6px; border-radius: 999px; background: var(--bg-elev-2); overflow: hidden; margin-top: 8px; }
+.topic-row .bar > span { display: block; height: 100%; border-radius: 999px; transition: width .5s; }
+.topic-row .pct { font-size: 15px; color: var(--text-dim); font-variant-numeric: tabular-nums; min-width: 44px; text-align: right; }
+
+/* ---------- Quiz ---------- */
+.quiz-top { display: flex; align-items: center; gap: 12px; margin: 4px 0 16px; }
+.progress-track { flex: 1; height: 7px; background: var(--bg-elev-2); border-radius: 999px; overflow: hidden; }
+.progress-track > span { display: block; height: 100%; background: var(--primary); border-radius: 999px; transition: width .4s; }
+.q-count { font-size: 15px; color: var(--text-dim); font-variant-numeric: tabular-nums; }
+
+.q-card { background: var(--bg-elev); border-radius: var(--radius); padding: 20px; box-shadow: var(--shadow); margin-bottom: 16px; }
+.q-meta { display: flex; gap: 8px; align-items: center; margin-bottom: 14px; flex-wrap: wrap; }
+.chip { font-size: 12px; font-weight: 600; padding: 5px 11px; border-radius: 999px; background: var(--bg-elev-2); color: var(--text-dim); }
+.chip.multi { background: color-mix(in srgb, var(--primary) 16%, transparent); color: var(--primary); }
+.q-text { font-size: 21px; font-weight: 700; letter-spacing: -.3px; margin: 0 0 4px; line-height: 1.3; }
+.q-hint { font-size: 13px; color: var(--text-faint); margin: 8px 0 0; }
+
+.options { margin-top: 16px; display: flex; flex-direction: column; gap: 10px; }
+.opt {
+  display: flex; align-items: flex-start; gap: 12px; width: 100%;
+  background: var(--bg-elev); border: 1.5px solid var(--border); border-radius: 14px;
+  padding: 15px; text-align: left; transition: border-color .12s, background .12s, transform .1s;
+}
+.opt:active { transform: scale(.99); }
+.opt .box { width: 26px; height: 26px; border-radius: 8px; border: 2px solid var(--text-faint); flex-shrink: 0; display: grid; place-items: center; font-size: 15px; color: transparent; margin-top: 1px; transition: all .12s; }
+.opt.type-single .box { border-radius: 50%; }
+.opt.selected { border-color: var(--primary); background: color-mix(in srgb, var(--primary) 7%, var(--bg-elev)); }
+.opt.selected .box { background: var(--primary); border-color: var(--primary); color: #fff; }
+.opt .otext { flex: 1; }
+.opt.correct { border-color: var(--success); background: var(--success-bg); }
+.opt.correct .box { background: var(--success); border-color: var(--success); color: #fff; }
+.opt.wrong { border-color: var(--danger); background: var(--danger-bg); }
+.opt.wrong .box { background: var(--danger); border-color: var(--danger); color: #fff; }
+.opt.missed { border-color: var(--success); border-style: dashed; }
+.opt.missed .box { border-color: var(--success); color: var(--success); background: transparent; }
+.opt-note { display: block; font-size: 12px; font-weight: 600; color: var(--success); margin-top: 4px; }
+.opt[disabled] { cursor: default; }
+
+/* ---------- Freie Zahl-Eingabe (Rechenaufgabe) ---------- */
+.num-input { margin-top: 16px; display: flex; align-items: center; gap: 10px; }
+.num-input input {
+  flex: 1; min-width: 0; font-size: 20px; font-weight: 700; letter-spacing: .5px;
+  padding: 15px 16px; border-radius: 14px; border: 1.5px solid var(--border);
+  background: var(--bg-elev); color: var(--text); -webkit-appearance: none; appearance: none;
+  transition: border-color .12s, background .12s;
+}
+.num-input input:focus { outline: none; border-color: var(--primary); background: color-mix(in srgb, var(--primary) 6%, var(--bg-elev)); }
+.num-input input:disabled { opacity: 1; }
+.num-input.correct input { border-color: var(--success); background: var(--success-bg); }
+.num-input.wrong input { border-color: var(--danger); background: var(--danger-bg); }
+.num-input .num-unit { font-size: 16px; font-weight: 600; color: var(--text-faint); flex-shrink: 0; }
+.explain .solved { margin: 2px 0 8px; font-size: 15px; }
+
+.explain { margin-top: 16px; border-radius: 14px; padding: 16px; font-size: 15px; line-height: 1.55; }
+.explain.ok { background: var(--success-bg); }
+.explain.no { background: var(--danger-bg); }
+.explain b.verdict { display: block; margin-bottom: 4px; font-size: 15px; }
+
+/* ---------- Feste Aktionsleiste unten ---------- */
+.actionbar {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 30;
+  padding: 12px 16px calc(14px + var(--safe-bottom));
+  background: color-mix(in srgb, var(--bg) 86%, transparent);
+  backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px);
+  border-top: 0.5px solid var(--separator);
+}
+.actionbar .inner { max-width: 640px; margin: 0 auto; }
+.btn-primary {
+  width: 100%; background: var(--primary); color: var(--primary-ink);
+  padding: 16px; border-radius: 14px; font-size: 17px; font-weight: 600;
+  transition: transform .1s, opacity .2s; min-height: 52px;
+}
+.btn-primary:active { transform: scale(.98); opacity: .9; }
+.btn-primary[disabled] { opacity: .4; }
+.btn-ghost { width: 100%; padding: 15px; border-radius: 14px; font-weight: 600; color: var(--primary); background: var(--bg-elev); box-shadow: var(--shadow); min-height: 52px; }
+.btn-ghost:active { opacity: .6; }
+
+/* ---------- Ergebnis ---------- */
+.result-hero { text-align: center; padding: 20px 16px 10px; }
+.result-hero .big { font-size: 64px; line-height: 1; }
+.result-hero h2 { font-size: 28px; font-weight: 800; letter-spacing: -.4px; margin: 12px 0 4px; }
+.result-hero p { color: var(--text-dim); margin: 0; }
+.score-ring { width: 172px; height: 172px; margin: 10px auto 18px; position: relative; }
+.score-ring svg { transform: rotate(-90deg); }
+.score-ring .center { position: absolute; inset: 0; display: grid; place-items: center; text-align: center; }
+.score-ring .center .pc { font-size: 44px; font-weight: 800; letter-spacing: -1px; }
+.score-ring .center .sub { font-size: 13px; color: var(--text-dim); }
+.pass-badge { display: inline-block; padding: 9px 20px; border-radius: 999px; font-weight: 700; font-size: 15px; margin-top: 8px; }
+.pass-badge.pass { background: var(--success-bg); color: var(--success); }
+.pass-badge.fail { background: var(--danger-bg); color: var(--danger); }
+
+/* ---------- Badges / Erfolge ---------- */
+.badge-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); gap: 12px; }
+.badge {
+  background: var(--bg-elev); border-radius: var(--radius-sm);
+  padding: 16px 8px; text-align: center; box-shadow: var(--shadow); position: relative;
+}
+.badge .bt { font-size: 12px; font-weight: 600; margin-top: 8px; }
+.badge .bd { font-size: 11px; color: var(--text-faint); margin-top: 2px; line-height: 1.3; }
+
+/* ---------- Toast ---------- */
+.toast {
+  position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(104px + var(--safe-bottom));
+  background: color-mix(in srgb, #1c1c1e 92%, transparent); color: #fff; padding: 12px 18px; border-radius: 14px; font-weight: 600; font-size: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.35); z-index: 60; opacity: 0; pointer-events: none;
+  backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+  transition: opacity .25s, transform .25s; display: flex; align-items: center; gap: 8px;
+}
+.toast.show { opacity: 1; transform: translateX(-50%) translateY(-6px); }
+@media (prefers-color-scheme: dark) { .toast { background: color-mix(in srgb, #2c2c2e 92%, transparent); } }
+
+/* ---------- Diverses ---------- */
+.empty { text-align: center; color: var(--text-dim); padding: 40px 20px; }
+.empty .ic { font-size: 46px; }
+.muted { color: var(--text-dim); font-size: 14px; }
+.center { text-align: center; }
+.spacer-lg { height: 20px; }
+.hidden { display: none !important; }
+.install-tip {
+  background: var(--bg-elev); border-radius: var(--radius-sm); box-shadow: var(--shadow);
+  padding: 14px 16px; font-size: 14px; color: var(--text-dim); margin-bottom: 18px; display: flex; gap: 12px; align-items: flex-start;
+}
+.install-tip b { color: var(--text); }
+.install-tip .tip-ic { flex-shrink: 0; color: var(--text); }
+.install-tip .tip-ic svg { width: 22px; height: 22px; display: block; }
+
+/* Größere Schrift (Barrierefreiheit): gezielt die Lese-Flächen anheben – bewusst
+   begrenzt statt globalem Skalieren, um das Layout stabil zu halten. */
+:root[data-fontsize="large"] body { font-size: 18px; }
+:root[data-fontsize="large"] .q-text { font-size: 23px; }
+:root[data-fontsize="large"] .opt { font-size: 18px; }
+:root[data-fontsize="large"] .explain, :root[data-fontsize="large"] .explain .solved { font-size: 17px; }
+:root[data-fontsize="large"] .q-hint { font-size: 14px; }
+:root[data-fontsize="large"] .num-input input { font-size: 22px; }
+:root[data-fontsize="large"] .modal-msg { font-size: 16px; }
+:root[data-fontsize="large"] .mode-btn .txt b { font-size: 18px; }
+:root[data-fontsize="large"] .mode-btn .txt p { font-size: 14px; }
+:root[data-fontsize="large"] .ri-q, :root[data-fontsize="large"] .ri-line, :root[data-fontsize="large"] .ri-exp { font-size: 15.5px; }
+:root[data-fontsize="large"] .q-card p { font-size: 16.5px; }
+
+/* Sanfte Einblendung einer neuen Frage */
+.q-anim { animation: cardIn .22s ease both; }
+@keyframes cardIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+
+/* Konfetti bei Erfolgsmomenten (bestandene Prüfung / starkes Ergebnis) */
+.confetti { position: fixed; inset: 0; pointer-events: none; z-index: 60; overflow: hidden; }
+.confetti i { position: absolute; top: -12px; width: 8px; height: 13px; border-radius: 2px; opacity: .95; animation: confettiFall linear forwards; }
+@keyframes confettiFall { to { transform: translateY(106vh) rotate(680deg); } }
+.link { color: var(--primary); font-weight: 600; }
+
+@keyframes pop { 0% { transform: scale(.8); opacity: 0; } 60% { transform: scale(1.05); } 100% { transform: scale(1); opacity: 1; } }
+.pop { animation: pop .35s ease; }
+
+/* ============================================================
+   Modal-Dialog · iOS-Alert-Stil
+   ============================================================ */
+.modal-overlay {
+  position: fixed; inset: 0; z-index: 80;
+  display: flex; align-items: center; justify-content: center;
+  padding: calc(24px + var(--safe-top)) 24px calc(24px + var(--safe-bottom));
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px);
+  opacity: 0; transition: opacity .2s ease;
+}
+.modal-overlay.show { opacity: 1; }
+.modal-card {
+  width: 100%; max-width: 400px;
+  background: var(--bg-elev); border-radius: 20px; padding: 24px;
+  box-shadow: 0 24px 64px rgba(0,0,0,.34);
+  transform: scale(.92); transition: transform .22s cubic-bezier(.2,.9,.3,1.1);
+}
+.modal-overlay.show .modal-card { transform: scale(1); }
+.modal-title { font-size: 19px; font-weight: 700; margin: 0 0 8px; }
+.modal-msg { font-size: 15px; color: var(--text-dim); margin: 0 0 20px; line-height: 1.5; }
+.modal-actions { display: flex; flex-direction: column; gap: 10px; }
+.modal-actions .modal-btn { width: 100%; min-height: 50px; border-radius: 14px; font-size: 16px; font-weight: 600; }
+.btn-danger {
+  width: 100%; min-height: 50px; background: var(--danger); color: #fff;
+  padding: 14px 16px; border-radius: 14px; font-size: 16px; font-weight: 600;
+  transition: transform .1s, opacity .2s;
+}
+.btn-danger:active { transform: scale(.98); opacity: .9; }
+
+/* ============================================================
+   Update-Banner „neue Version verfügbar"
+   ============================================================ */
+.update-banner {
+  position: fixed; left: 50%; z-index: 70;
+  bottom: calc(16px + var(--safe-bottom));
+  transform: translateX(-50%) translateY(160%);
+  display: flex; align-items: center; gap: 14px;
+  max-width: min(560px, calc(100vw - 32px));
+  background: var(--bg-elev); color: var(--text);
+  border-radius: 16px; padding: 12px 12px 12px 18px;
+  box-shadow: 0 12px 34px rgba(0,0,0,.28);
+  backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+  transition: transform .35s cubic-bezier(.2,.8,.2,1);
+}
+.update-banner.show { transform: translateX(-50%) translateY(0); }
+.update-banner span { font-size: 15px; font-weight: 600; white-space: nowrap; }
+.update-banner button {
+  min-height: 40px; padding: 8px 18px; border-radius: 11px;
+  background: var(--primary); color: #fff; font-weight: 600; font-size: 15px;
+  white-space: nowrap;
+}
+.update-banner button:active { transform: scale(.97); }
+
+/* ---------- Icon-Feinheiten ---------- */
+.streak-pill { gap: 4px; }
+.streak-pill .streak-flame { display: inline-flex; }
+.streak-pill .streak-flame svg { width: 15px; height: 15px; color: currentColor; }
+.chip .cdot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; margin-right: 6px; vertical-align: middle; }
+.badge .icon-tile { width: 46px; height: 46px; margin: 0 auto; }
+.badge .icon-tile svg { width: 30px; height: 30px; }
+/* Freigeschaltet = voller Glyph; noch nicht erreicht = blass. */
+.badge:not(.earned) .icon-tile { opacity: .28; }
+.btn-ghost svg { width: 17px; height: 17px; vertical-align: -3px; margin-right: 5px; }
+
+/* ---------- Auswahlfeld (iOS) ---------- */
+.ios-select {
+  margin-top: 6px; width: 100%; padding: 13px 14px; border-radius: 12px;
+  border: 1px solid var(--border); background: var(--bg-elev-2); color: var(--text);
+  font-size: 16px; font-family: inherit; -webkit-appearance: none; appearance: none;
+}
+/* Einstellungs-Zeile: Label links, kompaktes Auswahlfeld rechts */
+.set-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 9px 0; margin: 0; }
+.set-row + .set-row { border-top: 0.5px solid var(--separator); }
+.set-row > span { font-size: 16px; }
+.set-row .ios-select { margin-top: 0; width: auto; min-width: 172px; }
+
+/* ---------- Info-Zeilen (nicht interaktiv) ---------- */
+.mode-btn.info-row { cursor: default; }
+.mode-btn.info-row:active { transform: none; background: transparent; }
+.ios-group .mode-btn.info-row:active { background: transparent; }
+
+/* ---------- Barrierefreiheit: sichtbarer Fokus + Bewegungsreduktion ---------- */
+:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+  border-radius: 8px;
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ---------- Reset-Button (destruktiv, dezent) ---------- */
+.link-danger {
+  display: block; margin: 0 auto; padding: 12px 18px; min-height: 44px;
+  color: var(--danger); font-weight: 600; font-size: 15px; background: transparent;
+}
+.link-danger:active { opacity: .55; }
+
+/* ============================================================
+   Prüfungsmodus
+   ============================================================ */
+.exam-bar { display: flex; align-items: center; gap: 12px; margin: 4px 0 14px; }
+.exam-timer {
+  font-variant-numeric: tabular-nums; font-weight: 700; font-size: 17px;
+  background: var(--bg-elev-2); padding: 6px 12px; border-radius: 10px; letter-spacing: .5px;
+}
+.exam-timer.low { color: #fff; background: var(--danger); }
+.exam-count { flex: 1; text-align: center; font-size: 15px; color: var(--text-dim); font-variant-numeric: tabular-nums; }
+.exam-flag {
+  width: 40px; height: 40px; border-radius: 10px; display: grid; place-items: center;
+  background: var(--bg-elev-2); color: var(--text-dim);
+}
+.exam-flag svg { width: 20px; height: 20px; }
+.exam-flag.on { background: var(--warn); color: #fff; }
+
+.exam-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 8px; }
+.exam-cell {
+  aspect-ratio: 1; border-radius: 10px; font-weight: 700; font-size: 15px;
+  background: var(--bg-elev-2); color: var(--text); border: 2px solid transparent;
+  font-variant-numeric: tabular-nums;
+}
+.exam-cell.answered { background: var(--primary); color: #fff; }
+.exam-cell.flagged { border-color: var(--warn); }
+.exam-cell.current { outline: 2px solid var(--text); outline-offset: 1px; }
+
+/* Themenprofil */
+.theme-row { display: flex; align-items: center; gap: 10px; padding: 7px 0; }
+.theme-row + .theme-row { border-top: 0.5px solid var(--separator); }
+.theme-row .tn { flex: 1; font-size: 14px; }
+.theme-row .tbar { width: 90px; height: 7px; border-radius: 999px; background: var(--bg-elev-2); overflow: hidden; }
+.theme-row .tbar > span { display: block; height: 100%; border-radius: 999px; }
+.theme-row .tp { width: 44px; text-align: right; font-size: 14px; color: var(--text-dim); font-variant-numeric: tabular-nums; }
+
+/* Review */
+.review-item { background: var(--bg-elev); border-radius: var(--radius-sm); padding: 14px; margin-bottom: 10px; box-shadow: var(--shadow); border-left: 3px solid var(--success); }
+.review-item.no { border-left-color: var(--danger); }
+.review-item .ri-head { font-size: 13px; color: var(--text-dim); margin-bottom: 6px; }
+.review-item .ri-q { font-weight: 600; margin: 0 0 8px; }
+.review-item .ri-line { margin: 2px 0; font-size: 14px; }
+.review-item .ri-lab { color: var(--text-dim); }
+.review-item .ri-exp { margin: 8px 0 0; font-size: 14px; color: var(--text-dim); line-height: 1.5; }
+
+/* ---------- Breite Fenster / Desktop: App als zentrierte Spalte darstellen ----------
+   Nur ab 700px aktiv – die iPhone-Darstellung (schmales Vollbild) bleibt unangetastet.
+   Sticky-Appbar und fixe Aktionsleiste werden auf die Spaltenbreite ausgerichtet. */
+@media (min-width: 700px) {
+  html { background: var(--backdrop); }
+  body {
+    max-width: 430px;
+    min-height: 100vh;
+    box-shadow: 0 0 0 0.5px var(--separator), 0 24px 60px rgba(0, 0, 0, 0.18);
+  }
+  .actionbar {
+    left: 50%; right: auto; transform: translateX(-50%);
+    width: 430px; max-width: 430px;
+  }
+}

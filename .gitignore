@@ -1,0 +1,12 @@
+# Renders/Extrakte sind regenerierbar und groß -> nicht committen
+scratch/
+__pycache__/
+*.pyc
+.DS_Store
+*.json.tmp
+*.tmp
+
+# Roh-PDFs liegen bewusst IM Repo (Ordner raw/), damit Multi-Agent-Workflows
+# autark laufen. Nur die unkomprimierten Originale sollen nie versehentlich
+# hineinrutschen – sie kommen ausschließlich komprimiert über den Importer rein.
+raw/_orig/

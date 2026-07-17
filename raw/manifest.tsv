@@ -1,0 +1,13 @@
+# Roh-PDF-Manifest — eine Zeile pro Skript, Tab-getrennt:
+#   <code>	<zieldateiname.pdf>	<quelle>
+#
+# code    = kurzes, stabiles Kürzel (a-z0-9), wird ID- und topic-Präfix in der Pipeline.
+# datei   = Dateiname unter raw/ (nach Import & Kompression).
+# quelle  = http(s)://…  (Download)  |  /pfad oder ./pfad  (lokal kopieren)  |  leer (liegt schon in raw/).
+#
+# Danach:  python3 pipeline/import_raw.py     (holt + komprimiert alles)
+#
+# --- Beispiele (löschen/ersetzen durch die echten Mathematik-Skripte) ---
+# analysis1	01_Analysis_Grundlagen.pdf	https://example.org/skripte/analysis1.pdf
+# lineare	02_Lineare_Algebra.pdf	/home/user/quellen/lin_alg_handschrift.pdf
+# didaktik	03_Fachdidaktik_Mathematik.pdf	./raw/_orig/didaktik_ppt_export.pdf
