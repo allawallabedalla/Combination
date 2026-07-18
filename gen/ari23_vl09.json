@@ -1,0 +1,774 @@
+[
+ {
+  "id": "ari23_vl09-b1-001",
+  "topic": "ari23_vl09_rueckblick_pythagoras",
+  "difficulty": 1,
+  "type": "multi",
+  "question": "Rückblick (Folie 4): Was sollten Sie laut „Das können/wissen Sie“ können bzw. wissen?",
+  "options": [
+   "den Begriff des Flächeninhalts",
+   "die Satzgruppe des Pythagoras",
+   "die Umkehrung des Satzes des Pythagoras (Satz des Thales)",
+   "die Sinus- und Kosinussätze"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Die Folie nennt den Begriff des Flächeninhalts, die Satzgruppe des Pythagoras und die Umkehrung des Satzes des Pythagoras (Satz des Thales); Sinus-/Kosinussätze stehen nicht auf der Folie. 📄 Quelle: ari23_vl09, Folie 4 (S.4)",
+  "source": "ari23_vl09, Folie 4 (S.4, Rückblick)"
+ },
+ {
+  "id": "ari23_vl09-b1-002",
+  "topic": "ari23_vl09_rueckblick_pythagoras",
+  "difficulty": 1,
+  "type": "multi",
+  "question": "Welche Sätze gehören laut Folie 4 zur Satzgruppe des Pythagoras?",
+  "options": [
+   "Satz des Pythagoras",
+   "Kathetensatz",
+   "Höhensatz",
+   "Strahlensatz"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Die Folie listet unter der Satzgruppe des Pythagoras: Satz des Pythagoras, Kathetensatz und Höhensatz. 📄 Quelle: ari23_vl09, Folie 4 (S.4)",
+  "source": "ari23_vl09, Folie 4 (S.4, Rückblick)"
+ },
+ {
+  "id": "ari23_vl09-b1-003",
+  "topic": "ari23_vl09_rueckblick_pythagoras",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Als welchen Satz bezeichnet Folie 4 die Umkehrung des Satzes des Pythagoras?",
+  "options": [
+   "Satz des Thales",
+   "Höhensatz",
+   "Kathetensatz",
+   "Kosinussatz"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Auf der Folie steht: „Umkehrung des Satzes des Pythagoras (Satz des Thales)“. 📄 Quelle: ari23_vl09, Folie 4 (S.4)",
+  "source": "ari23_vl09, Folie 4 (S.4, Rückblick)"
+ },
+ {
+  "id": "ari23_vl09-b1-004",
+  "topic": "ari23_vl09_rueckblick_konstruktion",
+  "difficulty": 1,
+  "type": "multi",
+  "question": "Rückblick (Folie 5): Was sollten Sie laut „Das können/wissen Sie“ können?",
+  "options": [
+   "Konstruktionen mit Zirkel und Lineal ausführen",
+   "mit Hilfe der Satzgruppe des Pythagoras Quadrate und Rechtecke gleichen Flächeninhalts konstruieren",
+   "Flächenumwandlungen als Anwendung der Satzgruppe des Pythagoras",
+   "Winkel mit dem Geodreieck halbieren"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Die Folie nennt Konstruktionen mit Zirkel und Lineal sowie die Konstruktion flächengleicher Quadrate und Rechtecke mit der Satzgruppe des Pythagoras (Flächenumwandlungen als Anwendung der Satzgruppe des Pythagoras). 📄 Quelle: ari23_vl09, Folie 5 (S.5)",
+  "source": "ari23_vl09, Folie 5 (S.5, Rückblick)"
+ },
+ {
+  "id": "ari23_vl09-b1-005",
+  "topic": "ari23_vl09_rueckblick_konstruktion",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Womit lassen sich laut Folie 5 Quadrate und Rechtecke gleichen Flächeninhalts konstruieren?",
+  "options": [
+   "mit Hilfe der Satzgruppe des Pythagoras",
+   "mit dem Strahlensatz",
+   "mit der Kreiszahl π",
+   "mit dem Sinussatz"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Folie beschreibt die Konstruktion flächengleicher Quadrate und Rechtecke „mit Hilfe der Satzgruppe des Pythagoras (Flächenumwandlungen als Anwendung der Satzgruppe des Pythagoras)“. 📄 Quelle: ari23_vl09, Folie 5 (S.5)",
+  "source": "ari23_vl09, Folie 5 (S.5, Rückblick)"
+ },
+ {
+  "id": "ari23_vl09-b1-006",
+  "topic": "ari23_vl09_aehnliche_figuren",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Wie lautet die Voraussetzung des Satzes zur Verallgemeinerung des Satzes des Pythagoras für ähnliche Figuren (Folie 6)?",
+  "options": [
+   "ABC ist ein rechtwinkliges Dreieck",
+   "ABC ist ein gleichseitiges Dreieck",
+   "ABC ist ein beliebiges Dreieck",
+   "ABC ist ein stumpfwinkliges Dreieck"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Der Satz beginnt mit der Voraussetzung „Wenn ABC ein rechtwinkliges Dreieck ist“. 📄 Quelle: ari23_vl09, Folie 6 (S.6)",
+  "source": "ari23_vl09, Folie 6 (S.6, Rückblick – ähnliche Figuren)"
+ },
+ {
+  "id": "ari23_vl09-b1-007",
+  "topic": "ari23_vl09_aehnliche_figuren",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Was besagt der Satz „Für alle ähnlichen Figuren gilt“ auf Folie 6?",
+  "options": [
+   "Der Flächeninhalt der über den Katheten errichteten ähnlichen Figuren ist zusammen gleich dem Flächeninhalt der ebenfalls ähnlichen Figur über der Hypotenuse",
+   "Die Aussage gilt für alle ähnlichen Figuren",
+   "Voraussetzung ist, dass ABC ein rechtwinkliges Dreieck ist",
+   "Die errichteten Figuren müssen Quadrate sein"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Der Satz gilt für alle ähnlichen Figuren, setzt ein rechtwinkliges Dreieck ABC voraus und stellt die Flächengleichheit (Summe über den Katheten = Figur über der Hypotenuse) fest; auf Quadrate ist er nicht beschränkt. 📄 Quelle: ari23_vl09, Folie 6 (S.6)",
+  "source": "ari23_vl09, Folie 6 (S.6, Rückblick – ähnliche Figuren)"
+ },
+ {
+  "id": "ari23_vl09-b1-008",
+  "topic": "ari23_vl09_division_mit_rest",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Wie lautet der „Satz von der eindeutigen Division mit Rest“ (Folie 8)?",
+  "options": [
+   "Für alle Natürlichen Zahlen n, m gilt: Wenn n ≥ m, dann gibt es genau ein Paar Natürlicher Zahlen q und r mit n = q·m + r und 0 ≤ r < m",
+   "Für alle Natürlichen Zahlen n, m gilt: Wenn n ≥ m, dann gibt es q, r mit n = q·m + r und 0 < r ≤ m",
+   "Für alle Natürlichen Zahlen n, m gilt: Es gibt q, r mit n = q·m + r und r < m (ohne Untergrenze)",
+   "Für alle Natürlichen Zahlen n, m gilt: n = m·q + r mit 0 ≤ r < q"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Der Satz lautet: Wenn n ≥ m ist, dann gibt es genau ein Paar Natürlicher Zahlen q und r, so dass n = q·m + r mit 0 ≤ r < m gilt. 📄 Quelle: ari23_vl09, Folie 8 (S.8)",
+  "source": "ari23_vl09, Folie 8 (S.8, Erkundung II – Vorbemerkungen)"
+ },
+ {
+  "id": "ari23_vl09-b1-009",
+  "topic": "ari23_vl09_division_mit_rest",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Bedingungen/Voraussetzungen nennt der Satz von der eindeutigen Division mit Rest (Folie 8)?",
+  "options": [
+   "Er gilt für alle Natürlichen Zahlen n, m",
+   "Es muss n ≥ m gelten",
+   "Es gibt genau ein Paar Natürlicher Zahlen q und r",
+   "Es muss 0 ≤ r < m gelten"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explanation": "Der Satz fordert: für alle Natürlichen Zahlen n, m, Voraussetzung n ≥ m, dann genau ein Paar q, r mit n = q·m + r und 0 ≤ r < m. 📄 Quelle: ari23_vl09, Folie 8 (S.8)",
+  "source": "ari23_vl09, Folie 8 (S.8, Erkundung II – Vorbemerkungen)"
+ },
+ {
+  "id": "ari23_vl09-b1-010",
+  "topic": "ari23_vl09_division_mit_rest",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "In der Grundschule schreibt man laut Folie 8 „7 : 2 = 3 Rest r“. Wie groß ist r?",
+  "answer": 1,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Auf der Folie steht das Beispiel 7 : 2 = 3 Rest 1, also r = 1. 📄 Quelle: ari23_vl09, Folie 8 (S.8)",
+  "source": "ari23_vl09, Folie 8 (S.8, Erkundung II – Vorbemerkungen)"
+ },
+ {
+  "id": "ari23_vl09-b1-011",
+  "topic": "ari23_vl09_division_mit_rest",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Wie wird „3 Rest 1“ auf Folie 8 (als eigentlich nötige Definition) festgelegt?",
+  "options": [
+   "3 Rest 1 := 3 + (1/2)",
+   "3 Rest 1 := 3 + 1",
+   "3 Rest 1 := 3 · (1/2)",
+   "3 Rest 1 := 3 − (1/2)"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Folie definiert beispielhaft 3 Rest 1 := 3 + (1/2); ohne weitere Definition kann man 7 = 3·2 + 1 schreiben. 📄 Quelle: ari23_vl09, Folie 8 (S.8)",
+  "source": "ari23_vl09, Folie 8 (S.8, Erkundung II – Vorbemerkungen)"
+ },
+ {
+  "id": "ari23_vl09-b1-012",
+  "topic": "ari23_vl09_stellenwertsystem",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Wie lässt sich eine Natürliche Zahl n im b-adischen Stellenwertsystem schreiben (Folie 9)?",
+  "options": [
+   "n = a_m·b^m + a_{m-1}·b^{m-1} + … + a_1·b^1 + a_0·b^0",
+   "n = a_m·b + a_{m-1}·b + … + a_1·b + a_0·b",
+   "n = b^m + b^{m-1} + … + b^1 + b^0",
+   "n = a_0·b^m + a_1·b^{m-1} + … + a_m·b^0"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Folie gibt n = a_m·b^m + a_{m-1}·b^{m-1} + … + a_1·b^1 + a_0·b^0. 📄 Quelle: ari23_vl09, Folie 9 (S.9)",
+  "source": "ari23_vl09, Folie 9 (S.9, Erkundung II – Stellenwertsystem)"
+ },
+ {
+  "id": "ari23_vl09-b1-013",
+  "topic": "ari23_vl09_stellenwertsystem",
+  "difficulty": 1,
+  "type": "multi",
+  "question": "Welche Aussagen zum b-adischen Stellenwertsystem stehen auf Folie 9?",
+  "options": [
+   "m ist eine Natürliche Zahl (inklusive 0)",
+   "Die Darstellung gilt für das b-adische Stellenwertsystem, z. B. das dekadische",
+   "Der letzte Summand ist a_0·b^0",
+   "m muss ungerade sein"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Laut Folie ist m eine Natürliche Zahl inklusive 0, die Darstellung gilt für das b-adische (z. B. dekadische) Stellenwertsystem, und der letzte Summand ist a_0·b^0. 📄 Quelle: ari23_vl09, Folie 9 (S.9)",
+  "source": "ari23_vl09, Folie 9 (S.9, Erkundung II – Stellenwertsystem)"
+ },
+ {
+  "id": "ari23_vl09-b1-014",
+  "topic": "ari23_vl09_stellenwertsystem",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Wie wird 1123 im Beispiel der Folie 9 im dekadischen Stellenwertsystem geschrieben?",
+  "options": [
+   "1123 = 1·10^3 + 1·10^2 + 2·10^1 + 3·10^0",
+   "1123 = 1·10^3 + 1·10^2 + 2·10^1 + 3·10^1",
+   "1123 = 1·10^2 + 1·10^1 + 2·10^0 + 3",
+   "1123 = 1·10^3 + 2·10^2 + 1·10^1 + 3·10^0"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Das Beispiel lautet 1123 = 1·10^3 + 1·10^2 + 2·10^1 + 3·10^0. 📄 Quelle: ari23_vl09, Folie 9 (S.9)",
+  "source": "ari23_vl09, Folie 9 (S.9, Erkundung II – Stellenwertsystem)"
+ },
+ {
+  "id": "ari23_vl09-b1-015",
+  "topic": "ari23_vl09_teilen_durch_2",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "In der Tabelle für m = 2 (Folie 10) steht in der Einer-Spalte „3 = 1·2 + r“. Wie groß ist der Rest r?",
+  "answer": 1,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "In der Tabelle steht 3 = 1·2 + 1, also r = 1. 📄 Quelle: ari23_vl09, Folie 10 (S.10)",
+  "source": "ari23_vl09, Folie 10 (S.10, Erkundung II – Teilen durch m)"
+ },
+ {
+  "id": "ari23_vl09-b1-016",
+  "topic": "ari23_vl09_teilen_durch_2",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Gleichungen stehen in der Einer-Spalte der Tabelle für m = 2 (Folie 10)?",
+  "options": [
+   "1 = 0·2 + 1",
+   "2 = 1·2 + 0",
+   "3 = 1·2 + 1",
+   "4 = 2·2 + 1"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Die Tabelle zeigt 1 = 0·2 + 1, 2 = 1·2 + 0, 3 = 1·2 + 1 und 4 = 2·2 + 0 (nicht 4 = 2·2 + 1). 📄 Quelle: ari23_vl09, Folie 10 (S.10)",
+  "source": "ari23_vl09, Folie 10 (S.10, Erkundung II – Teilen durch m)"
+ },
+ {
+  "id": "ari23_vl09-b1-017",
+  "topic": "ari23_vl09_teilen_durch_2",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "In der Zehner-Spalte der Tabelle (m = 2, Folie 10) steht „10 = q·2 + 0“. Wie groß ist q?",
+  "answer": 5,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "In der Tabelle steht 10 = 5·2 + 0, also q = 5. 📄 Quelle: ari23_vl09, Folie 10 (S.10)",
+  "source": "ari23_vl09, Folie 10 (S.10, Erkundung II – Teilen durch m)"
+ },
+ {
+  "id": "ari23_vl09-b1-018",
+  "topic": "ari23_vl09_teilen_durch_2",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Welche Schlussfolgerung zieht Folie 10 unter der Tabelle für m = 2?",
+  "options": [
+   "Zehner und Hunderter (Tausender …) braucht man gar nicht mehr zu beachten",
+   "Nur die Hunderter sind entscheidend",
+   "Man muss alle Stellen einzeln prüfen",
+   "Der Rest ist immer 0"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Unter der Tabelle steht: „Zehner und Hunderter (Tausender …) braucht man gar nicht mehr zu beachten.“ 📄 Quelle: ari23_vl09, Folie 10 (S.10)",
+  "source": "ari23_vl09, Folie 10 (S.10, Erkundung II – Teilen durch m)"
+ },
+ {
+  "id": "ari23_vl09-b1-019",
+  "topic": "ari23_vl09_endstellenregel_2",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Wie lautet die Endstellenregel als Satz auf Folie 11?",
+  "options": [
+   "Wenn die Zahl n₁, die aus der letzten Ziffer einer Zahl n besteht, durch 2 teilbar ist, dann ist die Zahl n durch 2 teilbar",
+   "Wenn n durch 2 teilbar ist, dann ist die Quersumme von n durch 2 teilbar",
+   "Wenn die letzte Ziffer durch 5 teilbar ist, dann ist n durch 2 teilbar",
+   "Wenn n₁ durch 2 teilbar ist, dann ist n durch 4 teilbar"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Der Satz lautet: Für alle natürlichen Zahlen n gilt: Wenn die Zahl n₁, die aus der letzten Ziffer einer Zahl n besteht, durch 2 teilbar ist, dann ist die Zahl n durch 2 teilbar. 📄 Quelle: ari23_vl09, Folie 11 (S.11)",
+  "source": "ari23_vl09, Folie 11 (S.11, Teilbarkeitsregeln – Endstellenregeln)"
+ },
+ {
+  "id": "ari23_vl09-b1-020",
+  "topic": "ari23_vl09_endstellenregel_2",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Erläuterungen stehen im grauen Kasten der Folie 11?",
+  "options": [
+   "2 teilt jeden 10er, 100er, 1000er usw.",
+   "Es kommt nur darauf an, ob 2 die letzte Ziffer als Zahl gelesen teilt",
+   "n₁ besteht aus der letzten Ziffer der Zahl n",
+   "Es kommt auf die Quersumme an"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Der Kasten erklärt: 2 teilt jeden 10er, 100er, 1000er usw., also kommt es nur darauf an, ob 2 die letzte Ziffer als Zahl gelesen teilt; n₁ ist die letzte Ziffer von n. Die Quersumme spielt hier keine Rolle. 📄 Quelle: ari23_vl09, Folie 11 (S.11)",
+  "source": "ari23_vl09, Folie 11 (S.11, Teilbarkeitsregeln – Endstellenregeln)"
+ },
+ {
+  "id": "ari23_vl09-b1-021",
+  "topic": "ari23_vl09_endstellenregel_2",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Welche Aufgabe stellt Folie 11 im blau umrandeten Kasten?",
+  "options": [
+   "Beweisen Sie den Satz!",
+   "Widerlegen Sie den Satz durch ein Gegenbeispiel",
+   "Berechnen Sie n₁ für n = 1123",
+   "Formulieren Sie eine Quersummenregel"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Im Aufgabenkasten steht: „Beweisen Sie den Satz!“ 📄 Quelle: ari23_vl09, Folie 11 (S.11)",
+  "source": "ari23_vl09, Folie 11 (S.11, Teilbarkeitsregeln – Endstellenregeln)"
+ },
+ {
+  "id": "ari23_vl09-b1-022",
+  "topic": "ari23_vl09_endstellenregel_2",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Mit welcher Darstellung wird der Beweis der Endstellenregel auf Folie 12 geführt?",
+  "options": [
+   "mit figurierten Zahlen",
+   "rein algebraisch",
+   "mit vollständiger Induktion",
+   "mit einem Gegenbeispiel"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Folie ist überschrieben mit „Beweis (figurierte Zahlen)“ und zeigt eine Punktdarstellung. 📄 Quelle: ari23_vl09, Folie 12 (S.12)",
+  "source": "ari23_vl09, Folie 12 (S.12, Teilbarkeitsregeln – Beweis figurierte Zahlen)"
+ },
+ {
+  "id": "ari23_vl09-b1-023",
+  "topic": "ari23_vl09_endstellenregel_2",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Wie wird n im Beweis mit figurierten Zahlen auf Folie 12 zerlegt?",
+  "options": [
+   "n = ??? + n₁",
+   "n = n₁ · 2",
+   "n = ??? − n₁",
+   "n = a_0 · n₁"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Auf der Folie steht n = ??? + n₁ = ??? + (Punktbild), also die Zerlegung in einen Rest und den Endstellenanteil n₁. 📄 Quelle: ari23_vl09, Folie 12 (S.12)",
+  "source": "ari23_vl09, Folie 12 (S.12, Teilbarkeitsregeln – Beweis figurierte Zahlen)"
+ },
+ {
+  "id": "ari23_vl09-b1-024",
+  "topic": "ari23_vl09_endstellenregel_2_formal",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Welche Zerlegung von 10 nutzt der formale Beweis der Endstellenregel (Folie 13)?",
+  "options": [
+   "10 = 2·5",
+   "10 = 2 + 5",
+   "10 = 2·5·1 mit Rest",
+   "10 = 5²"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Der Beweis schreibt die Zehnerpotenzen mit 10 = 2·5, z. B. n = a_m·(2·5)^m + … 📄 Quelle: ari23_vl09, Folie 13 (S.13)",
+  "source": "ari23_vl09, Folie 13 (S.13, Teilbarkeitsregeln – Beweis formal)"
+ },
+ {
+  "id": "ari23_vl09-b1-025",
+  "topic": "ari23_vl09_endstellenregel_2_formal",
+  "difficulty": 3,
+  "type": "single",
+  "question": "Wie lautet die ausgeklammerte Darstellung von n im formalen Beweis (Folie 13)?",
+  "options": [
+   "n = 2·(a_m·2^{m-1}·5^m + a_{m-1}·2^{m-2}·5^{m-1} + … + a_1·5) + a_0",
+   "n = 2·(a_m·5^m + a_{m-1}·5^{m-1} + … + a_1·5) + a_0",
+   "n = 5·(a_m·2^m + a_{m-1}·2^{m-1} + … + a_1·2) + a_0",
+   "n = 2·(a_m·2^{m-1}·5^m + … + a_1·5) + a_1"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Nach Ausklammern von 2 steht n = 2·(a_m·2^{m-1}·5^m + a_{m-1}·2^{m-2}·5^{m-1} + … + a_1·5) + a_0. 📄 Quelle: ari23_vl09, Folie 13 (S.13)",
+  "source": "ari23_vl09, Folie 13 (S.13, Teilbarkeitsregeln – Beweis formal)"
+ },
+ {
+  "id": "ari23_vl09-b1-026",
+  "topic": "ari23_vl09_endstellenregel_2_formal",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Welche Schlussfolgerung zieht der formale Beweis auf Folie 13?",
+  "options": [
+   "Es entscheidet also nur a₀, da der erste Term durch 2 teilbar ist",
+   "Es entscheidet nur a_m",
+   "Der erste Term ist nie durch 2 teilbar",
+   "Es entscheidet die Quersumme"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Am Ende steht: „Es entscheidet also nur a₀, da der erste Term durch 2 teilbar ist.“ 📄 Quelle: ari23_vl09, Folie 13 (S.13)",
+  "source": "ari23_vl09, Folie 13 (S.13, Teilbarkeitsregeln – Beweis formal)"
+ },
+ {
+  "id": "ari23_vl09-b1-027",
+  "topic": "ari23_vl09_endstellenregel_aufgabe",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Aufgabe stellt Folie 14 im blau umrandeten Kasten?",
+  "options": [
+   "Suchen Sie alle weiteren Divisoren m, für die es eine Endstellenregel gibt",
+   "Formulieren Sie einen möglichst allgemeinen Satz",
+   "Beweisen Sie die Quersummenregel",
+   "Berechnen Sie 7 : 2"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "explanation": "Der Aufgabenkasten fordert: „Suchen Sie alle weiteren Divisoren m, für die es eine Endstellenregel gibt. Formulieren Sie einen möglichst allgemeinen Satz.“ 📄 Quelle: ari23_vl09, Folie 14 (S.14)",
+  "source": "ari23_vl09, Folie 14 (S.14, Teilbarkeitsregeln – Endstellenregeln)"
+ },
+ {
+  "id": "ari23_vl09-b1-028",
+  "topic": "ari23_vl09_endstellenregel_aufgabe",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Wie lautet die Voraussetzung des auf Folie 14 wiederholten Satzes zur Endstellenregel?",
+  "options": [
+   "Wenn die Zahl n₁, die aus der letzten Ziffer einer Zahl n besteht, durch 2 teilbar ist",
+   "Wenn die Zahl n₁ durch 3 teilbar ist",
+   "Wenn n₁ aus den ersten Ziffern von n besteht",
+   "Wenn n₁ durch 2 teilbar ist, dann ist n₁ durch 2 teilbar"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Der wiederholte Satz lautet: Für alle natürlichen Zahlen n gilt: Wenn die Zahl n₁, die aus der letzten Ziffer einer Zahl n besteht, durch 2 teilbar ist, dann ist die Zahl n durch 2 teilbar. 📄 Quelle: ari23_vl09, Folie 14 (S.14)",
+  "source": "ari23_vl09, Folie 14 (S.14, Teilbarkeitsregeln – Endstellenregeln)"
+ },
+ {
+  "id": "ari23_vl09-b2-001",
+  "topic": "ari23_vl09_teilbarkeit_2er",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche der folgenden Endstellenregeln für das Dezimalsystem nennt die Folie als Sätze (für alle natürlichen Zahlen n)?",
+  "options": [
+   "Wenn die aus der letzten Ziffer bestehende Zahl n1 durch 2 teilbar ist, dann ist n durch 2 teilbar.",
+   "Wenn die aus den letzten zwei Ziffern bestehende Zahl n1 durch 4 teilbar ist, dann ist n durch 4 teilbar.",
+   "Wenn die aus den letzten drei Ziffern bestehende Zahl n1 durch 8 teilbar ist, dann ist n durch 8 teilbar.",
+   "Wenn die letzte Ziffer durch 4 teilbar ist, dann ist n durch 4 teilbar."
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Die Folie formuliert drei Sätze: durch 2 entscheidet die letzte Ziffer, durch 4 die letzten zwei Ziffern, durch 8 die letzten drei Ziffern. Für die Teilbarkeit durch 4 genügt die letzte Ziffer NICHT. 📄 Quelle: ari23_vl09, Folie 15 (S.15)",
+  "source": "ari23_vl09, Folie 15 (S.15, Teilbarkeitsregeln – Endstellenregeln)"
+ },
+ {
+  "id": "ari23_vl09-b2-002",
+  "topic": "ari23_vl09_teilbarkeit_2er",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Aus wie vielen der letzten Ziffern muss die Zahl n1 gebildet werden, um mit der Endstellenregel die Teilbarkeit durch 8 zu entscheiden?",
+  "answer": 3,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Für die Teilbarkeit durch 8 betrachtet man die aus den letzten drei Ziffern bestehende Zahl n1. 📄 Quelle: ari23_vl09, Folie 15 (S.15)",
+  "source": "ari23_vl09, Folie 15 (S.15, Teilbarkeitsregeln – Endstellenregeln)"
+ },
+ {
+  "id": "ari23_vl09-b2-003",
+  "topic": "ari23_vl09_teilbarkeit_2er",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Die Folie fasst die Regeln für Potenzen von 2 allgemein zusammen. Welche Aussagen sind laut dieser allgemeinen Endstellenregel korrekt?",
+  "options": [
+   "Wenn die aus den letzten k Ziffern bestehende Zahl n1 durch 2^k teilbar ist, dann ist n durch 2^k teilbar.",
+   "Für k=1 erhält man die Regel für die Teilbarkeit durch 2.",
+   "Für k=3 erhält man die Regel für die Teilbarkeit durch 8.",
+   "Wenn n1 aus den letzten k Ziffern durch 2·k teilbar ist, dann ist n durch 2·k teilbar."
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Die allgemeine Regel lautet: Ist die aus den letzten k Ziffern bestehende Zahl n1 durch 2^k teilbar, so ist n durch 2^k teilbar. Für k=1 folgt die 2er-Regel (2^1=2), für k=3 die 8er-Regel (2^3=8). Es geht um 2^k, nicht um 2·k. 📄 Quelle: ari23_vl09, Folie 16 (S.16)",
+  "source": "ari23_vl09, Folie 16 (S.16, Teilbarkeitsregeln – Endstellenregeln)"
+ },
+ {
+  "id": "ari23_vl09-b2-004",
+  "topic": "ari23_vl09_teilbarkeit_2er",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Wie viele der letzten Ziffern muss man gemäß der allgemeinen Regel (2^k) betrachten, um die Teilbarkeit durch 16 zu entscheiden?",
+  "answer": 4,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Es ist 16 = 2^4, also k=4: Man betrachtet die aus den letzten vier Ziffern bestehende Zahl n1. 📄 Quelle: ari23_vl09, Folie 16 (S.16)",
+  "source": "ari23_vl09, Folie 16 (S.16, Teilbarkeitsregeln – Endstellenregeln)"
+ },
+ {
+  "id": "ari23_vl09-b2-005",
+  "topic": "ari23_vl09_teilbarkeit_2er",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Wie begründet die Folie (Aufgabe/Idee) die Endstellenregel für die Teilbarkeit durch 4?",
+  "options": [
+   "4 teilt jeden 100er, 1000er usw., also kommt es nur darauf an, ob 4 die letzten beiden Ziffern als Zahl gelesen teilt.",
+   "4 teilt jede Zehnerzahl, also entscheidet nur die letzte Ziffer.",
+   "4 ist eine Primzahl, deshalb entscheidet die Quersumme.",
+   "Weil die Zahl gerade sein muss, entscheidet die letzte Ziffer."
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Folie begründet: 4 teilt jeden 100er, 1000er usw.; daher kommt es nur auf die aus den letzten beiden Ziffern gelesene Zahl an. 📄 Quelle: ari23_vl09, Folie 17 (S.17)",
+  "source": "ari23_vl09, Folie 17 (S.17, Teilbarkeitsregeln – Endstellenregeln)"
+ },
+ {
+  "id": "ari23_vl09-b2-006",
+  "topic": "ari23_vl09_teilbarkeit_2er",
+  "difficulty": 3,
+  "type": "multi",
+  "question": "Im formalen Beweis wird n umgeformt zu n = 4·(a_m·2^(m-2)·5^m + a_(m-1)·2^(m-3)·5^(m-1) + ... + a_2·5^2) + a_1·10 + a_0. Welche Aussagen treffen zu?",
+  "options": [
+   "Der Klammerterm mal 4 ist durch 4 teilbar.",
+   "Über die Teilbarkeit durch 4 entscheidet nur der Rest a_1·10 + a_0, also die letzten beiden Ziffern.",
+   "Im Beweis wird 10 = 2·5 verwendet.",
+   "Der Term a_1·10 + a_0 ist stets durch 4 teilbar."
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Durch Ausklammern von 4 (unter Verwendung von 10=2·5) ist der erste Term durch 4 teilbar; es entscheidet also nur a_1·10 + a_0, die letzten beiden Ziffern. Dieser Rest ist nicht automatisch durch 4 teilbar. 📄 Quelle: ari23_vl09, Folie 19 (S.19)",
+  "source": "ari23_vl09, Folie 19 (S.19, Teilbarkeitsregeln – formaler Beweis)"
+ },
+ {
+  "id": "ari23_vl09-b2-007",
+  "topic": "ari23_vl09_teilbarkeit_2er",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Welchen gemeinsamen Faktor klammert der formale Beweis aus den ersten Summanden aus, um die Teilbarkeit durch 4 zu zeigen?",
+  "answer": 4,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Wegen 10=2·5 wird aus den vorderen Summanden der Faktor 2^2 = 4 ausgeklammert. 📄 Quelle: ari23_vl09, Folie 19 (S.19)",
+  "source": "ari23_vl09, Folie 19 (S.19, Teilbarkeitsregeln – formaler Beweis)"
+ },
+ {
+  "id": "ari23_vl09-b2-008",
+  "topic": "ari23_vl09_teilbarkeit_5er",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Endstellenregeln für Potenzen von 5 nennt die Folie als Sätze?",
+  "options": [
+   "Ist die aus der letzten Ziffer bestehende Zahl n1 durch 5 teilbar, so ist n durch 5 teilbar.",
+   "Ist die aus den letzten zwei Ziffern bestehende Zahl n1 durch 25 teilbar, so ist n durch 25 teilbar.",
+   "Ist die aus den letzten drei Ziffern bestehende Zahl n1 durch 125 teilbar, so ist n durch 125 teilbar.",
+   "Ist die aus den letzten zwei Ziffern bestehende Zahl n1 durch 5 teilbar, so ist n durch 25 teilbar."
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Die Folie formuliert: durch 5 entscheidet die letzte Ziffer, durch 25 die letzten zwei Ziffern, durch 125 die letzten drei Ziffern. 📄 Quelle: ari23_vl09, Folie 21 (S.21)",
+  "source": "ari23_vl09, Folie 21 (S.21, Teilbarkeitsregeln – Endstellenregeln)"
+ },
+ {
+  "id": "ari23_vl09-b2-009",
+  "topic": "ari23_vl09_teilbarkeit_5er",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Aus wie vielen der letzten Ziffern gebildete Zahl entscheidet über die Teilbarkeit durch 125?",
+  "answer": 3,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Für die Teilbarkeit durch 125 (=5^3) betrachtet man die aus den letzten drei Ziffern bestehende Zahl n1. 📄 Quelle: ari23_vl09, Folie 21 (S.21)",
+  "source": "ari23_vl09, Folie 21 (S.21, Teilbarkeitsregeln – Endstellenregeln)"
+ },
+ {
+  "id": "ari23_vl09-b2-010",
+  "topic": "ari23_vl09_teilbarkeit_5er",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Wie lautet die allgemeine Endstellenregel für Potenzen von 5 laut Folie, und welche Spezialfälle folgen daraus?",
+  "options": [
+   "Ist die aus den letzten k Ziffern bestehende Zahl n1 durch 5^k teilbar, dann ist n durch 5^k teilbar.",
+   "Für k=2 folgt die Regel für die Teilbarkeit durch 25.",
+   "Für k=3 folgt die Regel für die Teilbarkeit durch 125.",
+   "Für k=1 folgt die Regel für die Teilbarkeit durch 10."
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Allgemein: Ist n1 aus den letzten k Ziffern durch 5^k teilbar, so ist n durch 5^k teilbar. k=2 → 25, k=3 → 125; für k=1 ergibt sich 5 (nicht 10). 📄 Quelle: ari23_vl09, Folie 22 (S.22)",
+  "source": "ari23_vl09, Folie 22 (S.22, Teilbarkeitsregeln – Endstellenregeln)"
+ },
+ {
+  "id": "ari23_vl09-b2-011",
+  "topic": "ari23_vl09_teilbarkeit_5er",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Durch welche Zahl ist n teilbar, wenn die aus den letzten zwei Ziffern bestehende Zahl durch 5^2 teilbar ist?",
+  "answer": 25,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "5^2 = 25: Ist n1 aus den letzten zwei Ziffern durch 25 teilbar, so ist n durch 25 teilbar. 📄 Quelle: ari23_vl09, Folie 22 (S.22)",
+  "source": "ari23_vl09, Folie 22 (S.22, Teilbarkeitsregeln – Endstellenregeln)"
+ },
+ {
+  "id": "ari23_vl09-b2-012",
+  "topic": "ari23_vl09_teilbarkeit_5er",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Wie begründet die Folie (Aufgabe/Idee) die Endstellenregel für die Teilbarkeit durch 5?",
+  "options": [
+   "5 teilt jeden 10er, 100er, 1000er usw., also kommt es nur darauf an, ob 5 die letzte Ziffer als Zahl gelesen teilt.",
+   "5 teilt jeden 100er, also entscheiden die letzten beiden Ziffern.",
+   "5 ist ungerade, deshalb entscheidet die Quersumme.",
+   "5 teilt jede gerade Zahl, deshalb entscheidet die letzte Ziffer."
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Folie begründet: 5 teilt jeden 10er, 100er, 1000er usw.; daher kommt es nur auf die letzte Ziffer an. 📄 Quelle: ari23_vl09, Folie 23 (S.23)",
+  "source": "ari23_vl09, Folie 23 (S.23, Teilbarkeitsregeln – Endstellenregeln)"
+ },
+ {
+  "id": "ari23_vl09-b2-013",
+  "topic": "ari23_vl09_teilbarkeit_5er",
+  "difficulty": 3,
+  "type": "multi",
+  "question": "Im formalen Beweis wird n umgeformt zu n = 5·(a_m·2^m·5^(m-1) + a_(m-1)·2^(m-1)·5^(m-2) + ... + a_1·2) + a_0. Welche Aussagen treffen zu?",
+  "options": [
+   "Der ausgeklammerte erste Term (Klammer mal 5) ist durch 5 teilbar.",
+   "Über die Teilbarkeit durch 5 entscheidet nur a_0, die letzte Ziffer.",
+   "Im Beweis wird 10 = 2·5 verwendet.",
+   "Auch a_0 ist stets durch 5 teilbar."
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Durch Ausklammern von 5 (mit 10=2·5) ist der erste Term durch 5 teilbar; es entscheidet also nur a_0, die letzte Ziffer. a_0 selbst ist nicht automatisch durch 5 teilbar. 📄 Quelle: ari23_vl09, Folie 25 (S.25)",
+  "source": "ari23_vl09, Folie 25 (S.25, Teilbarkeitsregeln – formaler Beweis)"
+ },
+ {
+  "id": "ari23_vl09-b2-014",
+  "topic": "ari23_vl09_teilbarkeit_5er",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Welchen Faktor klammert der formale Beweis aus den vorderen Summanden aus, um die Teilbarkeit durch 5 zu zeigen?",
+  "answer": 5,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Wegen 10=2·5 wird aus den vorderen Summanden der Faktor 5 ausgeklammert; es entscheidet nur a_0. 📄 Quelle: ari23_vl09, Folie 25 (S.25)",
+  "source": "ari23_vl09, Folie 25 (S.25, Teilbarkeitsregeln – formaler Beweis)"
+ },
+ {
+  "id": "ari23_vl09-b2-015",
+  "topic": "ari23_vl09_gerade_ungerade",
+  "difficulty": 1,
+  "type": "multi",
+  "question": "Was gilt laut Erkundung VIII (\"Gerade Zahlen, ungerade Zahlen\") über Summen?",
+  "options": [
+   "Die Summe zweier gerader Zahlen ist immer gerade.",
+   "Die Summe zweier ungerader Zahlen ist immer gerade.",
+   "Die Summe einer geraden und einer ungeraden Zahl ist immer ungerade.",
+   "Die Summe zweier ungerader Zahlen ist immer ungerade."
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Die Erkundung nennt: gerade + gerade = gerade, ungerade + ungerade = gerade, gerade + ungerade = ungerade. 📄 Quelle: ari23_vl09, Folie 28 (S.28)",
+  "source": "ari23_vl09, Folie 28 (S.28, Erkundung VIII)"
+ },
+ {
+  "id": "ari23_vl09-b2-016",
+  "topic": "ari23_vl09_gerade_ungerade",
+  "difficulty": 1,
+  "type": "multi",
+  "question": "Wie werden gerade und ungerade Zahlen in der Erkundung VIII mit Plättchen dargestellt?",
+  "options": [
+   "Gerade Zahlen lassen sich als Doppelreihe legen.",
+   "Ungerade Zahlen lassen sich als Doppelreihe plus 1 Plättchen extra legen.",
+   "24 ist ein Beispiel für eine gerade Zahl.",
+   "45 ist ein Beispiel für eine gerade Zahl."
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Gerade Zahlen bilden eine Doppelreihe, ungerade eine Doppelreihe plus 1 Plättchen extra; als Beispiele dienen 24 (gerade) und 45 (ungerade). 📄 Quelle: ari23_vl09, Folie 28 (S.28)",
+  "source": "ari23_vl09, Folie 28 (S.28, Erkundung VIII)"
+ }
+]
