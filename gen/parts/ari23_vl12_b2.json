@@ -1,0 +1,230 @@
+[
+  {
+    "id": "ari23_vl12-b2-001",
+    "topic": "ari23_vl12_euklid_beispiel",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Bestimmen Sie mit dem Euklidischen Algorithmus den ggT(108, 42).",
+    "answer": 6,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Die Folie führt den Algorithmus durch: 108 = 2·42 + 24, 42 = 1·24 + 18, 24 = 1·18 + 6, 18 = 3·6 + 0. Der letzte von Null verschiedene Rest ist 6, also ggT(108, 42) = 6. 📄 Quelle: ari23_vl12, Folie 13 (S.13)",
+    "source": "ari23_vl12, Folie 13 (S.13, Euklidischer Algorithmus - Beispiel)"
+  },
+  {
+    "id": "ari23_vl12-b2-002",
+    "topic": "ari23_vl12_euklid_beispiel",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Erster Schritt des Euklidischen Algorithmus für 108 und 42: 108 = 2·42 + r mit 0 ≤ r < 42. Welchen Wert hat der Rest r?",
+    "answer": 24,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Laut Folie gilt 108 = 2·42 + 24 mit 0 ≤ 24 < 42, also r = 24. 📄 Quelle: ari23_vl12, Folie 13 (S.13)",
+    "source": "ari23_vl12, Folie 13 (S.13, Euklidischer Algorithmus - Beispiel)"
+  },
+  {
+    "id": "ari23_vl12-b2-003",
+    "topic": "ari23_vl12_euklid_beispiel",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Gleichungen gehören zum auf der Folie gezeigten Euklidischen Algorithmus für 108 und 42?",
+    "options": [
+      "108 = 2·42 + 24 mit 0 ≤ 24 < 42",
+      "42 = 1·24 + 18 mit 0 ≤ 18 < 24",
+      "24 = 1·18 + 6 mit 0 ≤ 6 < 18",
+      "18 = 3·6 + 0 (Rest 0)",
+      "42 = 2·24 + 6 mit 0 ≤ 6 < 24"
+    ],
+    "correct": [0, 1, 2, 3],
+    "explanation": "Die Folie zeigt genau die Kette 108 = 2·42 + 24, 42 = 1·24 + 18, 24 = 1·18 + 6, 18 = 3·6 + 0. Die Gleichung 42 = 2·24 + 6 ist falsch (2·24 = 48 > 42). 📄 Quelle: ari23_vl12, Folie 13 (S.13)",
+    "source": "ari23_vl12, Folie 13 (S.13, Euklidischer Algorithmus - Beispiel)"
+  },
+  {
+    "id": "ari23_vl12-b2-004",
+    "topic": "ari23_vl12_euklid_allgemein",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Womit ist der ggT(a, b) im allgemeinen Euklidischen Algorithmus (a > b) identisch?",
+    "options": [
+      "r_{n+1} (der letzte von Null verschiedene Rest)",
+      "r_n",
+      "r_{n+2}",
+      "q_{n+2}"
+    ],
+    "correct": [0],
+    "explanation": "Die Folie hält fest: Insgesamt gilt ggT(a, b) = r_{n+1}. 📄 Quelle: ari23_vl12, Folie 16 (S.16)",
+    "source": "ari23_vl12, Folie 16 (S.16, Euklidischer Algorithmus - allgemein)"
+  },
+  {
+    "id": "ari23_vl12-b2-005",
+    "topic": "ari23_vl12_euklid_allgemein",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aussagen zum allgemeinen Euklidischen Algorithmus (wie auf der Folie formuliert) sind korrekt?",
+    "options": [
+      "a und b sind natürliche Zahlen mit a > b",
+      "Es gilt a = q_1·b + r_1 mit 0 ≤ r_1 < b",
+      "Für die Reste gilt 0 ≤ r_2 < r_1, 0 ≤ r_3 < r_2 usw.",
+      "Der Algorithmus endet mit r_n = q_{n+2}·r_{n+1} + 0, wobei r_{n+2} = 0",
+      "Vorausgesetzt wird, dass a und b teilerfremd (ggT = 1) sind"
+    ],
+    "correct": [0, 1, 2, 3],
+    "explanation": "Die Folie setzt a > b voraus und listet a = q_1·b + r_1 mit 0 ≤ r_1 < b, die absteigenden Restbedingungen sowie die Abbruchgleichung r_n = q_{n+2}·r_{n+1} + 0 mit r_{n+2} = 0. Teilerfremdheit wird nicht vorausgesetzt. 📄 Quelle: ari23_vl12, Folie 16 (S.16)",
+    "source": "ari23_vl12, Folie 16 (S.16, Euklidischer Algorithmus - allgemein)"
+  },
+  {
+    "id": "ari23_vl12-b2-006",
+    "topic": "ari23_vl12_euklid_allgemein",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Der allgemeine Euklidische Algorithmus endet mit der Gleichung r_n = q_{n+2}·r_{n+1} + r_{n+2}. Welchen Wert nimmt der Rest r_{n+2} dabei an?",
+    "answer": 0,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Die Folie gibt die Abbruchgleichung r_n = q_{n+2}·r_{n+1} + 0 mit r_{n+2} = 0 an. 📄 Quelle: ari23_vl12, Folie 16 (S.16)",
+    "source": "ari23_vl12, Folie 16 (S.16, Euklidischer Algorithmus - allgemein)"
+  },
+  {
+    "id": "ari23_vl12-b2-007",
+    "topic": "ari23_vl12_gemeinsamer_teiler_beweis",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Im Beweis, dass d = r_{n+1} ein gemeinsamer Teiler von a und b ist: Womit wird in der letzten (n-ten) Gleichung begründet, dass mit d = r_{n+1} auch d | r_n gilt?",
+    "options": [
+      "Weil r_n ein Vielfaches von r_{n+1} ist",
+      "Weil r_n eine Primzahl ist",
+      "Weil r_{n+1} ein Vielfaches von r_n ist",
+      "Weil r_n = r_{n+1} gilt"
+    ],
+    "correct": [0],
+    "explanation": "Die Folie begründet: Da r_n ein Vielfaches von r_{n+1} ist, gilt mit d = r_{n+1} auch d | r_n. 📄 Quelle: ari23_vl12, Folie 18 (S.18)",
+    "source": "ari23_vl12, Folie 18 (S.18, Warum ist d = r_{n+1} ein gemeinsamer Teiler von a und b?)"
+  },
+  {
+    "id": "ari23_vl12-b2-008",
+    "topic": "ari23_vl12_gemeinsamer_teiler_beweis",
+    "difficulty": 3,
+    "type": "multi",
+    "question": "Welche Argumentationsschritte gehören zum Beweis, dass d = r_{n+1} ein gemeinsamer Teiler von a und b ist (von unten nach oben)?",
+    "options": [
+      "Da r_n ein Vielfaches von r_{n+1} ist, gilt mit d = r_{n+1} auch d | r_n",
+      "Da d | r_n und d | r_{n+1} gilt, gilt auch d | r_{n-1}",
+      "So fortfahrend ergibt sich, dass d sowohl a als auch b teilt",
+      "Am Ende gilt d | a und d | b",
+      "Aus diesen Gleichungen folgt sofort, dass d = ggT(a, b) ist"
+    ],
+    "correct": [0, 1, 2, 3],
+    "explanation": "Die Folie arbeitet sich von der letzten Gleichung nach oben: d | r_n, dann d | r_{n-1}, usw., bis d sowohl a als auch b teilt, also d | a und d | b. Dass d = ggT(a, b) ist, wird hier ausdrücklich noch offen gelassen ('aber ist d = ggT(a, b)?'). 📄 Quelle: ari23_vl12, Folie 18 (S.18)",
+    "source": "ari23_vl12, Folie 18 (S.18, Warum ist d = r_{n+1} ein gemeinsamer Teiler von a und b?)"
+  },
+  {
+    "id": "ari23_vl12-b2-009",
+    "topic": "ari23_vl12_gemeinsamer_teiler_beweis",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Was ist am Ende dieses Beweisteils gezeigt – und was bleibt zunächst offen?",
+    "options": [
+      "Gezeigt ist d | a und d | b; offen bleibt, ob d = ggT(a, b) ist",
+      "Gezeigt ist bereits d = ggT(a, b); es bleibt nichts offen",
+      "Gezeigt ist, dass d weder a noch b teilt",
+      "Gezeigt ist, dass a und b teilerfremd sind"
+    ],
+    "correct": [0],
+    "explanation": "Die Folie schließt: 'Es gilt also d | a und d | b, aber ist d = ggT(a, b)?' – der gemeinsame Teiler ist gezeigt, die Maximalität noch nicht. 📄 Quelle: ari23_vl12, Folie 18 (S.18)",
+    "source": "ari23_vl12, Folie 18 (S.18, Warum ist d = r_{n+1} ein gemeinsamer Teiler von a und b?)"
+  },
+  {
+    "id": "ari23_vl12-b2-010",
+    "topic": "ari23_vl12_ggt_maximal_beispiel",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Angenommen, d' sei ein Teiler von 108 und 42. Was folgt gemäß der ersten Gleichung 108 = 2·42 + 24?",
+    "options": [
+      "d' | 24",
+      "d' | 18",
+      "d' | 6",
+      "d' ist kein Teiler von 24"
+    ],
+    "correct": [0],
+    "explanation": "Die Folie argumentiert: aus d' | 108 und d' | 42 folgt d' | 2·42 und schließlich d' | 24. 📄 Quelle: ari23_vl12, Folie 19 (S.19)",
+    "source": "ari23_vl12, Folie 19 (S.19, Warum ist d = 6 der ggT(108, 42)?)"
+  },
+  {
+    "id": "ari23_vl12-b2-011",
+    "topic": "ari23_vl12_ggt_maximal_beispiel",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Im Beweis der Maximalität ergibt die letzte Gleichung d' | 6. Welche obere Schranke folgt daraus für jeden gemeinsamen Teiler d' von 108 und 42?",
+    "answer": 6,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Die Folie schließt: d' | 6 und damit ist d' ≤ 6, also ist ggT(108, 42) = 6. 📄 Quelle: ari23_vl12, Folie 19 (S.19)",
+    "source": "ari23_vl12, Folie 19 (S.19, Warum ist d = 6 der ggT(108, 42)?)"
+  },
+  {
+    "id": "ari23_vl12-b2-012",
+    "topic": "ari23_vl12_ggt_maximal_beispiel",
+    "difficulty": 3,
+    "type": "single",
+    "question": "Warum ist d = 6 tatsächlich der größte gemeinsame Teiler von 108 und 42 (und nicht nur irgendein gemeinsamer Teiler)?",
+    "options": [
+      "Weil jeder gemeinsame Teiler d' die Zahl 6 teilt und damit d' ≤ 6 gilt",
+      "Weil 6 eine Primzahl ist",
+      "Weil 6 der kleinste Teiler von 108 ist",
+      "Weil 108 und 42 beide gerade Zahlen sind"
+    ],
+    "correct": [0],
+    "explanation": "Die Folie zeigt, dass ein beliebiger Teiler d' von 108 und 42 letztlich d' | 6 erfüllt, also d' ≤ 6; damit ist 6 der größte gemeinsame Teiler. 📄 Quelle: ari23_vl12, Folie 19 (S.19)",
+    "source": "ari23_vl12, Folie 19 (S.19, Warum ist d = 6 der ggT(108, 42)?)"
+  },
+  {
+    "id": "ari23_vl12-b2-013",
+    "topic": "ari23_vl12_ggt_maximal_allgemein",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Angenommen, d' sei ein Teiler von a und b. Was folgt gemäß der ersten Gleichung a = q_1·b + r_1?",
+    "options": [
+      "d' | r_1",
+      "d' | r_2",
+      "d' | q_1",
+      "d' teilt r_1 nicht"
+    ],
+    "correct": [0],
+    "explanation": "Die Folie argumentiert: aus d' | a und d' | b folgt d' | q_1·b und schließlich d' | r_1. 📄 Quelle: ari23_vl12, Folie 20 (S.20)",
+    "source": "ari23_vl12, Folie 20 (S.20, Warum ist d = r_{n+1} der ggT(a, b)?)"
+  },
+  {
+    "id": "ari23_vl12-b2-014",
+    "topic": "ari23_vl12_ggt_maximal_allgemein",
+    "difficulty": 3,
+    "type": "multi",
+    "question": "Welche Schritte gehören zum allgemeinen Beweis, dass r_{n+1} der ggT(a, b) ist?",
+    "options": [
+      "Angenommen, d' sei ein Teiler von a und b",
+      "Aus der ersten Gleichung folgt: aus d' | a und d' | b ergibt sich d' | r_1",
+      "Aus der zweiten Gleichung folgt: aus d' | b und d' | r_1 ergibt sich d' | r_2",
+      "Aus der letzten Gleichung folgt d' | r_{n+1}, also d' ≤ r_{n+1}",
+      "Es folgt d' ≥ r_{n+1}, also ist r_{n+1} der kleinste gemeinsame Teiler"
+    ],
+    "correct": [0, 1, 2, 3],
+    "explanation": "Die Folie nimmt einen beliebigen Teiler d' von a und b an und zeigt über die Gleichungen der Reihe nach d' | r_1, d' | r_2, ... , d' | r_{n+1}, also d' ≤ r_{n+1}. Damit ist r_{n+1} der GRÖSSTE gemeinsame Teiler; d' ≥ r_{n+1} ist falsch. 📄 Quelle: ari23_vl12, Folie 20 (S.20)",
+    "source": "ari23_vl12, Folie 20 (S.20, Warum ist d = r_{n+1} der ggT(a, b)?)"
+  },
+  {
+    "id": "ari23_vl12-b2-015",
+    "topic": "ari23_vl12_ggt_maximal_allgemein",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welche Schlussfolgerung liefert die letzte Gleichung im allgemeinen Beweis, dass r_{n+1} der ggT ist?",
+    "options": [
+      "d' | r_{n+1}, also d' ≤ r_{n+1}; daher ist ggT(a, b) = r_{n+1}",
+      "d' | r_{n+1}, also d' ≥ r_{n+1}",
+      "r_{n+1} | d', also r_{n+1} ≤ d'",
+      "r_{n+1} ist teilerfremd zu a und b"
+    ],
+    "correct": [0],
+    "explanation": "Die Folie schließt: d' | r_{n+1} und damit ist d' ≤ r_{n+1}, also ist ggT(a, b) = r_{n+1}. 📄 Quelle: ari23_vl12, Folie 20 (S.20)",
+    "source": "ari23_vl12, Folie 20 (S.20, Warum ist d = r_{n+1} der ggT(a, b)?)"
+  }
+]
