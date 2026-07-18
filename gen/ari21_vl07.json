@@ -1,0 +1,627 @@
+[
+ {
+  "id": "ari21_vl07-b1-001",
+  "topic": "ari21_vl07_mengen",
+  "difficulty": 1,
+  "type": "multi",
+  "question": "Welche Zuordnungen zur Mengennotation sind laut Folie korrekt?",
+  "options": [
+   "x ∈ M bedeutet: x ist Element von M",
+   "A ⊂ M bedeutet: A ist Teilmenge von M",
+   "M = {a, b, c, ...} ist die aufzählende Schreibweise",
+   "x ∉ M bedeutet: x ist eine Teilmenge von M"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Die Folie nennt: Elemente von Mengen (x ∈ M; x ∉ M), Teilmengen (A ⊂ M) und die aufzählende Schreibweise M = {a, b, c, ...}. x ∉ M bedeutet, dass x kein Element von M ist – nicht, dass es eine Teilmenge ist. 📄 Quelle: ari21_vl07, Folie 4 (S.4)",
+  "source": "ari21_vl07, Folie 4 (S.4, Rückblick – Mengen)"
+ },
+ {
+  "id": "ari21_vl07-b1-002",
+  "topic": "ari21_vl07_mengen",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Was bedeutet die Schreibweise x ∉ M?",
+  "options": [
+   "x ist kein Element von M",
+   "x ist ein Element von M",
+   "x ist eine Teilmenge von M",
+   "M ist eine Teilmenge von x"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Auf der Folie steht x ∈ M (x ist Element von M) und x ∉ M als Gegenstück, also: x ist kein Element von M. 📄 Quelle: ari21_vl07, Folie 4 (S.4)",
+  "source": "ari21_vl07, Folie 4 (S.4, Rückblick – Mengen)"
+ },
+ {
+  "id": "ari21_vl07-b1-003",
+  "topic": "ari21_vl07_mengen",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Wie heißt laut Folie die Schreibweise M = {a, b, c, ...}?",
+  "options": [
+   "aufzählende Schreibweise",
+   "beschreibende Schreibweise",
+   "Intervallschreibweise",
+   "Mengendiagramm"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Folie bezeichnet M = {a, b, c, ...} als die aufzählende Schreibweise einer Menge. 📄 Quelle: ari21_vl07, Folie 4 (S.4)",
+  "source": "ari21_vl07, Folie 4 (S.4, Rückblick – Mengen)"
+ },
+ {
+  "id": "ari21_vl07-b1-004",
+  "topic": "ari21_vl07_aussagen",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Welche Eigenschaft haben Aussagen laut Folie?",
+  "options": [
+   "Sie sind entweder richtig (wahr) oder falsch",
+   "Sie sind immer wahr",
+   "Sie sind weder wahr noch falsch",
+   "Sie können gleichzeitig wahr und falsch sein"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Folie hält fest: Aussagen sind entweder richtig (wahr) oder falsch. 📄 Quelle: ari21_vl07, Folie 5 (S.5)",
+  "source": "ari21_vl07, Folie 5 (S.5, Rückblick – Aussagen)"
+ },
+ {
+  "id": "ari21_vl07-b1-005",
+  "topic": "ari21_vl07_aussagen",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Wie lautet zur Aussage A: „Es regnet.“ das sprachliche Gegenteil ¬A?",
+  "options": [
+   "„Es regnet nicht.“",
+   "„Es schneit.“",
+   "„Die Straße ist nass.“",
+   "„Es regnet immer.“"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Als Beispiel für die Bildung sprachlicher Gegenteile gibt die Folie A: „Es regnet.“ und ¬A: „Es regnet nicht.“ an. 📄 Quelle: ari21_vl07, Folie 5 (S.5)",
+  "source": "ari21_vl07, Folie 5 (S.5, Rückblick – Aussagen)"
+ },
+ {
+  "id": "ari21_vl07-b1-006",
+  "topic": "ari21_vl07_aussagen",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Punkte zum Thema Gegenteile werden auf der Folie genannt?",
+  "options": [
+   "Man kann sprachliche Gegenteile bilden (z. B. ¬A: „Es regnet nicht.“)",
+   "Es gibt einen Unterschied zwischen dem kontradiktorischen und dem konträren Gegenteil",
+   "Als Beispiel dazu dient die Aussage A: „Alle sind da“",
+   "Kontradiktorisches und konträres Gegenteil sind immer identisch"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Die Folie nennt die Bildung sprachlicher Gegenteile, den Unterschied zwischen kontradiktorischem und konträrem Gegenteil sowie das Beispiel A: „Alle sind da“. Dass beide identisch seien, wird gerade nicht behauptet (es besteht ein Unterschied). 📄 Quelle: ari21_vl07, Folie 5 (S.5)",
+  "source": "ari21_vl07, Folie 5 (S.5, Rückblick – Aussagen)"
+ },
+ {
+  "id": "ari21_vl07-b1-007",
+  "topic": "ari21_vl07_verknuepfungen",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "In welchen Zeilen der Wahrheitswertetafel (konventionelle Reihenfolge) ist die Verknüpfung A ∨ ¬B wahr? (A: Es regnet, B: Die Straße ist nass)",
+  "options": [
+   "A = w, B = w",
+   "A = w, B = f",
+   "A = f, B = w",
+   "A = f, B = f"
+  ],
+  "correct": [
+   0,
+   1,
+   3
+  ],
+  "explanation": "Die Wahrheitswertetafel der Folie zeigt für A ∨ ¬B die Werte w, w, f, w (Zeilen ww, wf, fw, ff). Nur bei A = f, B = w ist die Verknüpfung falsch. 📄 Quelle: ari21_vl07, Folie 6 (S.6)",
+  "source": "ari21_vl07, Folie 6 (S.6, Rückblick – Aussagen verknüpfen)"
+ },
+ {
+  "id": "ari21_vl07-b1-008",
+  "topic": "ari21_vl07_verknuepfungen",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Wie lautet laut Folie die Versprachlichung der Verknüpfung A ∨ ¬B? (A: Es regnet, B: Die Straße ist nass)",
+  "options": [
+   "„Es regnet oder die Straße ist nicht nass.“",
+   "„Es regnet und die Straße ist nass.“",
+   "„Es regnet nicht oder die Straße ist nass.“",
+   "„Es regnet nicht und die Straße ist nicht nass.“"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Folie versprachlicht A ∨ ¬B als „Es regnet oder die Straße ist nicht nass.“ 📄 Quelle: ari21_vl07, Folie 6 (S.6)",
+  "source": "ari21_vl07, Folie 6 (S.6, Rückblick – Aussagen verknüpfen)"
+ },
+ {
+  "id": "ari21_vl07-b1-009",
+  "topic": "ari21_vl07_verknuepfungen",
+  "difficulty": 1,
+  "type": "multi",
+  "question": "Welche Fähigkeiten zum Verknüpfen von Aussagen werden auf dieser Rückblick-Folie genannt?",
+  "options": [
+   "Aussagen mit „nicht“ (¬), „und“ und „oder“ verknüpfen",
+   "Passende Wahrheitswertetafeln (mit konventioneller Reihenfolge) bilden",
+   "Darstellung im Mengendiagramm",
+   "Versprachlichung der Aussage"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explanation": "Die Folie listet alle vier Punkte auf: Verknüpfen mit nicht/und/oder, Bildung passender Wahrheitswertetafeln, Darstellung im Mengendiagramm und Versprachlichung der Aussage. 📄 Quelle: ari21_vl07, Folie 6 (S.6)",
+  "source": "ari21_vl07, Folie 6 (S.6, Rückblick – Aussagen verknüpfen)"
+ },
+ {
+  "id": "ari21_vl07-b1-010",
+  "topic": "ari21_vl07_verknuepfungen",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Welche Verknüpfung ist nur in der Zeile (A = w, B = w) wahr, sonst überall falsch („ein Feld wahr“)?",
+  "options": [
+   "A ∧ B",
+   "A ∨ B",
+   "¬A ∧ ¬B",
+   "A ∧ ¬B"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "In der Übersicht „ein Feld wahr“ hat A ∧ B nur in der Zeile ww den Wert w (sonst f). 📄 Quelle: ari21_vl07, Folie 8 (S.8)",
+  "source": "ari21_vl07, Folie 8 (S.8, Aussagen verknüpfen – ein Feld wahr)"
+ },
+ {
+  "id": "ari21_vl07-b1-011",
+  "topic": "ari21_vl07_verknuepfungen",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Welche Verknüpfung entspricht der Versprachlichung „Es regnet nicht und die Straße ist nass.“? (A: Es regnet, B: Die Straße ist nass)",
+  "options": [
+   "¬A ∧ B",
+   "A ∧ ¬B",
+   "A ∧ B",
+   "¬A ∧ ¬B"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Auf der Folie wird „Es regnet nicht und die Straße ist nass.“ als ¬A ∧ B dargestellt (¬A = „Es regnet nicht“, B = „die Straße ist nass“). 📄 Quelle: ari21_vl07, Folie 8 (S.8)",
+  "source": "ari21_vl07, Folie 8 (S.8, Aussagen verknüpfen – ein Feld wahr)"
+ },
+ {
+  "id": "ari21_vl07-b1-012",
+  "topic": "ari21_vl07_verknuepfungen",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Verknüpfungen mit genau einem wahren Feld werden auf der Folie „Aussagen verknüpfen – ein Feld wahr“ gezeigt?",
+  "options": [
+   "A ∧ B",
+   "A ∧ ¬B",
+   "¬A ∧ B",
+   "¬A ∧ ¬B"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explanation": "Die Folie zeigt vier Wahrheitswertetafeln mit jeweils genau einem wahren Feld: A ∧ B, A ∧ ¬B, ¬A ∧ B und ¬A ∧ ¬B. 📄 Quelle: ari21_vl07, Folie 8 (S.8)",
+  "source": "ari21_vl07, Folie 8 (S.8, Aussagen verknüpfen – ein Feld wahr)"
+ },
+ {
+  "id": "ari21_vl07-b1-013",
+  "topic": "ari21_vl07_de_morgan",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "In welchen Zeilen (konventionelle Reihenfolge) ist die Verknüpfung A ∨ B wahr („drei Felder wahr“)?",
+  "options": [
+   "A = w, B = w",
+   "A = w, B = f",
+   "A = f, B = w",
+   "A = f, B = f"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Die Wahrheitswertetafel für A ∨ B auf der Folie zeigt w, w, w, f – nur bei A = f, B = f ist A ∨ B falsch. 📄 Quelle: ari21_vl07, Folie 9 (S.9)",
+  "source": "ari21_vl07, Folie 9 (S.9, Aussagen verknüpfen – drei Felder wahr)"
+ },
+ {
+  "id": "ari21_vl07-b1-014",
+  "topic": "ari21_vl07_de_morgan",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Wie lautet nach dem Rechengesetz auf der Folie die Verneinung ¬(A ∨ B)?",
+  "options": [
+   "¬A ∧ ¬B",
+   "¬A ∨ ¬B",
+   "A ∧ B",
+   "¬A ∧ B"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Folie notiert ¬(A ∨ B) = ¬A ∧ ¬B (Gegenteil / De-Morgan-Regel), veranschaulicht am Mengendiagramm. 📄 Quelle: ari21_vl07, Folie 9 (S.9)",
+  "source": "ari21_vl07, Folie 9 (S.9, Aussagen verknüpfen – drei Felder wahr)"
+ },
+ {
+  "id": "ari21_vl07-b1-015",
+  "topic": "ari21_vl07_de_morgan",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Wozu ist ¬(¬A ∧ ¬B) laut Folie gleich?",
+  "options": [
+   "A ∨ B",
+   "A ∧ B",
+   "¬A ∨ ¬B",
+   "¬A ∧ ¬B"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Folie hält fest: ¬(¬A ∧ ¬B) = A ∨ B. 📄 Quelle: ari21_vl07, Folie 9 (S.9)",
+  "source": "ari21_vl07, Folie 9 (S.9, Aussagen verknüpfen – drei Felder wahr)"
+ },
+ {
+  "id": "ari21_vl07-b2-001",
+  "topic": "ari21_vl07_implikation",
+  "difficulty": 2,
+  "type": "single",
+  "question": "In welchem Fall ist die Aussage A ⇒ B (wenn A, dann B) falsch?",
+  "options": [
+   "Wenn A wahr ist, aber B falsch ist (A ∧ ¬B).",
+   "Wenn A falsch ist und B wahr ist.",
+   "Wenn A und B beide wahr sind.",
+   "Wenn A und B beide falsch sind."
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Laut Folie ist A ⇒ B genau dann falsch, wenn A wahr ist, aber B falsch (A ∧ ¬B). 📄 Quelle: ari21_vl07, Folie 14 (S.14)",
+  "source": "ari21_vl07, Folie 14 (S.14, Arithmetik)"
+ },
+ {
+  "id": "ari21_vl07-b2-002",
+  "topic": "ari21_vl07_implikation",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Welche verknüpfte Aussage muss wahr sein, damit A ⇒ B falsch ist?",
+  "options": [
+   "A ∧ ¬B",
+   "¬A ∨ B",
+   "A ∨ B",
+   "¬A ∧ B"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "A ⇒ B ist genau dann falsch, wenn A wahr und B falsch ist, also wenn A ∧ ¬B wahr ist. 📄 Quelle: ari21_vl07, Folie 14 (S.14)",
+  "source": "ari21_vl07, Folie 14 (S.14, Arithmetik)"
+ },
+ {
+  "id": "ari21_vl07-b2-003",
+  "topic": "ari21_vl07_implikation",
+  "difficulty": 2,
+  "type": "single",
+  "question": "A ⇒ B (wenn A, dann B) ist genau dann wahr, wenn welche Aussage wahr ist?",
+  "options": [
+   "¬A ∨ B",
+   "A ∧ ¬B",
+   "A ∧ B",
+   "¬A ∧ ¬B"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Aus der Falsch-Bedingung ergibt sich: A ⇒ B ist genau dann wahr, wenn ¬A ∨ B wahr ist. 📄 Quelle: ari21_vl07, Folie 15 (S.15)",
+  "source": "ari21_vl07, Folie 15 (S.15, Arithmetik)"
+ },
+ {
+  "id": "ari21_vl07-b2-004",
+  "topic": "ari21_vl07_implikation",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Aussagen über A ⇒ B (wenn A, dann B) stimmen laut Folie?",
+  "options": [
+   "A ⇒ B ist genau dann falsch, wenn A ∧ ¬B wahr ist.",
+   "A ⇒ B ist genau dann wahr, wenn ¬A ∨ B wahr ist.",
+   "A ⇒ B ist genau dann wahr, wenn A ∧ ¬B wahr ist.",
+   "A ⇒ B ist genau dann falsch, wenn ¬A ∨ B wahr ist."
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "explanation": "Die Folie hält beide Bedingungen fest: falsch bei A ∧ ¬B, wahr bei ¬A ∨ B. 📄 Quelle: ari21_vl07, Folie 15 (S.15)",
+  "source": "ari21_vl07, Folie 15 (S.15, Arithmetik)"
+ },
+ {
+  "id": "ari21_vl07-b2-005",
+  "topic": "ari21_vl07_implikation",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Wie ist die Aussage A ⇒ B mathematisch definiert?",
+  "options": [
+   "A ⇒ B :⇔ ¬A ∨ B",
+   "A ⇒ B :⇔ A ∧ ¬B",
+   "A ⇒ B :⇔ A ∨ B",
+   "A ⇒ B :⇔ ¬A ∧ B"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Definition der Folie: Die Aussage A ⇒ B ist mathematisch definiert als ¬A ∨ B, d. h. A ⇒ B :⇔ ¬A ∨ B. 📄 Quelle: ari21_vl07, Folie 16 (S.16)",
+  "source": "ari21_vl07, Folie 16 (S.16, Arithmetik)"
+ },
+ {
+  "id": "ari21_vl07-b2-006",
+  "topic": "ari21_vl07_implikation",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Womit ist die Aussage A ⇒ B laut Definition gleichbedeutend?",
+  "options": [
+   "¬A ∨ B",
+   "A ∧ B",
+   "¬A ∧ B",
+   "A ∨ ¬B"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Folie definiert A ⇒ B als ¬A ∨ B; beide sind damit gleichbedeutend. 📄 Quelle: ari21_vl07, Folie 16 (S.16)",
+  "source": "ari21_vl07, Folie 16 (S.16, Arithmetik)"
+ },
+ {
+  "id": "ari21_vl07-b2-007",
+  "topic": "ari21_vl07_implikation",
+  "difficulty": 1,
+  "type": "multi",
+  "question": "Im Beispiel 'Wenn die Sonne scheint, dann gehe ich joggen' — welche Zuordnungen sind laut Folie korrekt?",
+  "options": [
+   "A := die Sonne scheint",
+   "B := ich gehe joggen",
+   "A := ich gehe joggen",
+   "B := die Sonne scheint"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "explanation": "Zur Versprachlichung setzt die Folie A := die Sonne scheint und B := ich gehe joggen. 📄 Quelle: ari21_vl07, Folie 17 (S.17)",
+  "source": "ari21_vl07, Folie 17 (S.17, Arithmetik)"
+ },
+ {
+  "id": "ari21_vl07-b2-008",
+  "topic": "ari21_vl07_implikation",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Welcher logischen Form entspricht der Satz 'Wenn die Sonne scheint, dann gehe ich joggen'?",
+  "options": [
+   "A ⇒ B",
+   "A ∧ B",
+   "A ⇔ B",
+   "B ⇒ A"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Der Satz 'Wenn A, dann B' ist die Versprachlichung von A ⇒ B. 📄 Quelle: ari21_vl07, Folie 17 (S.17)",
+  "source": "ari21_vl07, Folie 17 (S.17, Arithmetik)"
+ },
+ {
+  "id": "ari21_vl07-b2-009",
+  "topic": "ari21_vl07_implikation",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Wann ist die Aussage 'Wenn die Sonne scheint, dann gehe ich joggen' (A ⇒ B) nicht wahr (falsch)?",
+  "options": [
+   "Die Sonne scheint und ich gehe nicht joggen.",
+   "Die Sonne scheint nicht und ich gehe joggen.",
+   "Die Sonne scheint und ich gehe joggen.",
+   "Die Sonne scheint nicht und ich gehe nicht joggen."
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Laut Folie ist A ⇒ B falsch, wenn die Sonne scheint UND ich NICHT joggen gehe (A ∧ ¬B ist wahr). 📄 Quelle: ari21_vl07, Folie 19 (S.19)",
+  "source": "ari21_vl07, Folie 19 (S.19, Arithmetik)"
+ },
+ {
+  "id": "ari21_vl07-b2-010",
+  "topic": "ari21_vl07_implikation",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Welche verknüpfte Aussage ist im Beispiel wahr, wenn A ⇒ B falsch ist?",
+  "options": [
+   "A ∧ ¬B",
+   "¬A ∨ B",
+   "¬A ∧ ¬B",
+   "A ∧ B"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Wenn A ⇒ B falsch ist, ist A ∧ ¬B wahr ('die Sonne scheint und ich gehe nicht joggen'). 📄 Quelle: ari21_vl07, Folie 19 (S.19)",
+  "source": "ari21_vl07, Folie 19 (S.19, Arithmetik)"
+ },
+ {
+  "id": "ari21_vl07-b2-011",
+  "topic": "ari21_vl07_implikation",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Zu welchem Ausdruck ist ¬(A ∧ ¬B) laut Folie äquivalent?",
+  "options": [
+   "¬A ∨ B",
+   "A ∨ ¬B",
+   "¬A ∧ B",
+   "A ∧ B"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Folie hält die Umformung ¬(A ∧ ¬B) = ¬A ∨ B fest. 📄 Quelle: ari21_vl07, Folie 20 (S.20)",
+  "source": "ari21_vl07, Folie 20 (S.20, Arithmetik)"
+ },
+ {
+  "id": "ari21_vl07-b2-012",
+  "topic": "ari21_vl07_implikation",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Welche Gleichung steht auf der Folie?",
+  "options": [
+   "¬(A ∧ ¬B) = ¬A ∨ B",
+   "¬(A ∧ ¬B) = A ∨ ¬B",
+   "¬(A ∨ B) = ¬A ∨ ¬B",
+   "A ∧ ¬B = ¬A ∨ B"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Folie zeigt die De-Morgan-Umformung ¬(A ∧ ¬B) = ¬A ∨ B. 📄 Quelle: ari21_vl07, Folie 20 (S.20)",
+  "source": "ari21_vl07, Folie 20 (S.20, Arithmetik)"
+ },
+ {
+  "id": "ari21_vl07-b2-013",
+  "topic": "ari21_vl07_wahrheitstafel",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "In welchen Fällen (A, B) ist die Aussage A ⇒ B wahr?",
+  "options": [
+   "A = w, B = w",
+   "A = w, B = f",
+   "A = f, B = w",
+   "A = f, B = f"
+  ],
+  "correct": [
+   0,
+   2,
+   3
+  ],
+  "explanation": "A ⇒ B ist genau dann wahr, wenn ¬A ∨ B wahr ist — das trifft in allen Fällen außer A = w, B = f zu. 📄 Quelle: ari21_vl07, Folie 21 (S.21)",
+  "source": "ari21_vl07, Folie 21 (S.21, Arithmetik)"
+ },
+ {
+  "id": "ari21_vl07-b2-014",
+  "topic": "ari21_vl07_wahrheitstafel",
+  "difficulty": 1,
+  "type": "single",
+  "question": "In welchem einzigen Fall ist A ⇒ B falsch?",
+  "options": [
+   "A = w, B = f",
+   "A = w, B = w",
+   "A = f, B = w",
+   "A = f, B = f"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "A ⇒ B ist nur falsch, wenn A wahr und B falsch ist (¬A ∨ B ist dann falsch). 📄 Quelle: ari21_vl07, Folie 21 (S.21)",
+  "source": "ari21_vl07, Folie 21 (S.21, Arithmetik)"
+ },
+ {
+  "id": "ari21_vl07-b2-015",
+  "topic": "ari21_vl07_saetze",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Wie ist der auf der Folie betrachtete Satz aufgebaut?",
+  "options": [
+   "Für alle Elemente einer Menge M gilt: Wenn A, dann B (A ⇒ B).",
+   "Es gibt ein Element einer Menge M mit: Wenn A, dann B.",
+   "Für alle Elemente einer Menge M gilt: A und B (A ∧ B).",
+   "Für kein Element einer Menge M gilt: Wenn A, dann B."
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Der Satz lautet: 'Für alle Elemente einer Menge M gilt: Wenn A, dann B.' (A ⇒ B). 📄 Quelle: ari21_vl07, Folie 22 (S.22)",
+  "source": "ari21_vl07, Folie 22 (S.22, Arithmetik)"
+ },
+ {
+  "id": "ari21_vl07-b2-016",
+  "topic": "ari21_vl07_saetze",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Aus wie vielen Elementen soll die Menge M in der Aufgabe bestehen?",
+  "answer": 6,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Die Folie gibt vor: M soll nur 6 Elemente haben (M = {· · · · · ·}). 📄 Quelle: ari21_vl07, Folie 22 (S.22)",
+  "source": "ari21_vl07, Folie 22 (S.22, Arithmetik)"
+ },
+ {
+  "id": "ari21_vl07-b2-017",
+  "topic": "ari21_vl07_aequivalenz",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Wann ist die Aussage A ⇔ B (genau dann wenn A, dann B) wahr?",
+  "options": [
+   "Wenn A ⇒ B und B ⇒ A beide wahr sind.",
+   "Wenn A ⇒ B oder B ⇒ A wahr ist.",
+   "Wenn nur A ⇒ B wahr ist.",
+   "Wenn A ∧ B wahr ist."
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "A ⇔ B ist genau dann wahr, wenn A ⇒ B und B ⇒ A wahr sind (sonst falsch). 📄 Quelle: ari21_vl07, Folie 23 (S.23)",
+  "source": "ari21_vl07, Folie 23 (S.23, Arithmetik)"
+ },
+ {
+  "id": "ari21_vl07-b2-018",
+  "topic": "ari21_vl07_aequivalenz",
+  "difficulty": 3,
+  "type": "multi",
+  "question": "In welchen Fällen (A, B) ist die Aussage A ⇔ B wahr?",
+  "options": [
+   "A = w, B = w",
+   "A = w, B = f",
+   "A = f, B = w",
+   "A = f, B = f"
+  ],
+  "correct": [
+   0,
+   3
+  ],
+  "explanation": "A ⇔ B ist wahr, wenn (A ⇒ B) ∧ (B ⇒ A) wahr ist — also genau dann, wenn A und B denselben Wahrheitswert haben (w/w und f/f). 📄 Quelle: ari21_vl07, Folie 23 (S.23)",
+  "source": "ari21_vl07, Folie 23 (S.23, Arithmetik)"
+ },
+ {
+  "id": "ari21_vl07-b2-019",
+  "topic": "ari21_vl07_wahrheitstafel",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Laut Tabelle auf der Folie: Welchen Wahrheitswert hat A ⇒ B, wenn A falsch und B wahr ist?",
+  "options": [
+   "wahr (w)",
+   "falsch (f)",
+   "unbestimmt",
+   "abhängig von B ⇒ A"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "In der Spalte A ⇒ B der Tabelle steht für A = f, B = w der Wert w (wahr). 📄 Quelle: ari21_vl07, Folie 23 (S.23)",
+  "source": "ari21_vl07, Folie 23 (S.23, Arithmetik)"
+ }
+]
