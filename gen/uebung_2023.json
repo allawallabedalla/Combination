@@ -1,0 +1,335 @@
+[
+ {
+  "id": "uebung_2023-b1-001",
+  "topic": "uebung_2023_summenfolgen",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Welchen geschlossenen Wert hat die Summe der ersten n ungeraden Zahlen 1+3+5+…+(2n−1) laut Aufgabe 1a?",
+  "options": [
+   "n^2",
+   "n·(n+1)",
+   "2n−1",
+   "n(n+1)/2"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Auf der Folie steht: 1+3+5+…+(2n−1)=∑_{i=1}^{n}(2i−1)=n^2. 📄 Quelle: uebung_2023, Folie 1 (S.1)",
+  "source": "uebung_2023, Folie 1 (S.1, VL 1-4, Aufgabe 1a)"
+ },
+ {
+  "id": "uebung_2023-b1-002",
+  "topic": "uebung_2023_summenfolgen",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Berechne mit der Formel aus Aufgabe 1a den Wert der Summe 1+3+5+…+19 (also der ersten 10 ungeraden Zahlen).",
+  "answer": 100,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Für n=10 gilt 1+3+…+(2·10−1)=1+3+…+19=n^2=10^2=100. 📄 Quelle: uebung_2023, Folie 1 (S.1)",
+  "source": "uebung_2023, Folie 1 (S.1, VL 1-4, Aufgabe 1a)"
+ },
+ {
+  "id": "uebung_2023-b1-003",
+  "topic": "uebung_2023_dreieckszahlen",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Berechne mit der auf der Folie angegebenen Formel Δ_n=∑_{i=1}^{n} i = n(n+1)/2 die 5-te Dreieckszahl Δ_5.",
+  "answer": 15,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Δ_5 = 5·(5+1)/2 = 5·6/2 = 15. 📄 Quelle: uebung_2023, Folie 1 (S.1)",
+  "source": "uebung_2023, Folie 1 (S.1, VL 1-4, Aufgabe 1b)"
+ },
+ {
+  "id": "uebung_2023-b1-004",
+  "topic": "uebung_2023_dreieckszahlen",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Welche Aussage soll in Aufgabe 1b als mathematischer Satz formuliert und bewiesen werden?",
+  "options": [
+   "Die Summe der n-ten und (n+1)-ten Dreieckszahl ist eine Quadratzahl.",
+   "Das Produkt zweier aufeinanderfolgender Dreieckszahlen ist eine Quadratzahl.",
+   "Jede Dreieckszahl ist eine Quadratzahl.",
+   "Die Differenz zweier aufeinanderfolgender Dreieckszahlen ist eine Quadratzahl."
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Folie sagt: 'Es gilt, dass die Summe der n-ten und (n+1)-ten Dreieckszahl eine Quadratzahl ist.' 📄 Quelle: uebung_2023, Folie 1 (S.1)",
+  "source": "uebung_2023, Folie 1 (S.1, VL 1-4, Aufgabe 1b)"
+ },
+ {
+  "id": "uebung_2023-b1-005",
+  "topic": "uebung_2023_teilbarkeit",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "In Aufgabe 2a soll bewiesen werden, dass n^3−n für alle natürlichen Zahlen n durch welche Zahl teilbar ist?",
+  "answer": 6,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Die Aussage der Folie lautet: 'Für alle natürlichen Zahlen n gilt: n^3−n ist durch 6 teilbar.' 📄 Quelle: uebung_2023, Folie 1 (S.1)",
+  "source": "uebung_2023, Folie 1 (S.1, VL 1-4, Aufgabe 2a)"
+ },
+ {
+  "id": "uebung_2023-b1-006",
+  "topic": "uebung_2023_summenfolgen",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Welcher geschlossene Ausdruck wird in Aufgabe 2b für die Summe ∑_{k=1}^{n} k = 1+2+3+…+n angegeben?",
+  "options": [
+   "(n^2+n)/2",
+   "(n^2−n)/2",
+   "n^2/2",
+   "n^2"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Folie gibt an: ∑_{k=1}^{n} k = 1+2+3+…+n = (n^2+n)/2. 📄 Quelle: uebung_2023, Folie 1 (S.1)",
+  "source": "uebung_2023, Folie 1 (S.1, VL 1-4, Aufgabe 2b)"
+ },
+ {
+  "id": "uebung_2023-b1-007",
+  "topic": "uebung_2023_summenfolgen",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Berechne mit der Formel aus Aufgabe 2b den Wert der Summe 1+2+3+…+10.",
+  "answer": 55,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "∑_{k=1}^{10} k = (n^2+n)/2 = (10^2+10)/2 = 110/2 = 55. 📄 Quelle: uebung_2023, Folie 1 (S.1)",
+  "source": "uebung_2023, Folie 1 (S.1, VL 1-4, Aufgabe 2b)"
+ },
+ {
+  "id": "uebung_2023-b1-008",
+  "topic": "uebung_2023_fibonacci",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Welchen Wert hat die rechte Seite der in Aufgabe 2c angegebenen Fibonacci-Aussage f_n^2 + f_n·f_{n+1} − f_{n+1}^2 = … ?",
+  "options": [
+   "(−1)^{n+1}",
+   "(−1)^{n}",
+   "n+1",
+   "1"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Folie gibt die Identität f_n^2 + f_n·f_{n+1} − f_{n+1}^2 = (−1)^{n+1} an. 📄 Quelle: uebung_2023, Folie 1 (S.1)",
+  "source": "uebung_2023, Folie 1 (S.1, VL 1-4, Aufgabe 2c)"
+ },
+ {
+  "id": "uebung_2023-b1-009",
+  "topic": "uebung_2023_flaecheninhalt",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Wie lautet die in Aufgabe 4 gegebene Flächeninhaltsformel für das Trapez (mit Höhe h und parallelen Seiten a und c)?",
+  "options": [
+   "A=(a+c)·h/2",
+   "A=(a+c)·h",
+   "A=a·c/2",
+   "A=(a−c)·h/2"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Folie gibt A=((a+c)·h)/2 = ((a+c)/2)·h = (a+c)·(h/2) an. 📄 Quelle: uebung_2023, Folie 2 (S.2)",
+  "source": "uebung_2023, Folie 2 (S.2, VL 5-6, Aufgabe 4)"
+ },
+ {
+  "id": "uebung_2023-b1-010",
+  "topic": "uebung_2023_flaecheninhalt",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Berechne mit der Trapezformel aus Aufgabe 4 den Flächeninhalt eines Trapezes mit den parallelen Seiten a=6 cm und c=4 cm sowie der Höhe h=3 cm.",
+  "answer": 15,
+  "tolerance": 0,
+  "unit": "cm²",
+  "explanation": "A=(a+c)·h/2 = (6+4)·3/2 = 10·3/2 = 15 cm². 📄 Quelle: uebung_2023, Folie 2 (S.2)",
+  "source": "uebung_2023, Folie 2 (S.2, VL 5-6, Aufgabe 4)"
+ },
+ {
+  "id": "uebung_2023-b1-011",
+  "topic": "uebung_2023_vierecke",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Aussagen entsprechen den in Aufgabe 5 gegebenen Definitionen von Drachen?",
+  "options": [
+   "Bei einem schiefen Drachen stehen die Symmetrieachsen nicht orthogonal zueinander.",
+   "Bei einem symmetrischen Drachen stehen die Symmetrieachsen orthogonal zueinander.",
+   "Ein symmetrischer Drache besitzt keine Symmetrieachsen.",
+   "Bei einem schiefen Drachen stehen die Symmetrieachsen orthogonal zueinander."
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "explanation": "Die Folie definiert: 'Ein schiefer Drache ist ein Drache, bei dem die Symmetrieachsen nicht orthogonal zueinanderstehen. Im Falle der Orthogonalität der Symmetrieachsen spricht man von einem symmetrischen Drachen.' 📄 Quelle: uebung_2023, Folie 2 (S.2)",
+  "source": "uebung_2023, Folie 2 (S.2, VL 5-6, Aufgabe 5)"
+ },
+ {
+  "id": "uebung_2023-b1-012",
+  "topic": "uebung_2023_restklassen",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Löse in Aufgabe 7b die Gleichung x + 4̄ = 1̄ für m=6. Gib den kleinsten nichtnegativen Vertreter der Lösungs-Restklasse an.",
+  "answer": 3,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "x ≡ 1 − 4 = −3 ≡ 3 (mod 6); die Lösung ist die Restklasse 3̄. Probe: 3+4=7≡1 (mod 6). 📄 Quelle: uebung_2023, Folie 3 (S.3)",
+  "source": "uebung_2023, Folie 3 (S.3, VL 9-11, Aufgabe 7b)"
+ },
+ {
+  "id": "uebung_2023-b1-013",
+  "topic": "uebung_2023_restklassen",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Löse in Aufgabe 7b die Gleichung x · 3̄ = 2̄ für m=4. Gib den kleinsten nichtnegativen Vertreter der Lösungs-Restklasse an.",
+  "answer": 2,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "3 ist invertierbar mod 4 (3·3≡1), also x ≡ 3·2 = 6 ≡ 2 (mod 4); Lösung 2̄. Probe: 3·2=6≡2 (mod 4). 📄 Quelle: uebung_2023, Folie 3 (S.3)",
+  "source": "uebung_2023, Folie 3 (S.3, VL 9-11, Aufgabe 7b)"
+ },
+ {
+  "id": "uebung_2023-b1-014",
+  "topic": "uebung_2023_restklassen",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Löse in Aufgabe 7b die Gleichung x − 3 ≡ 2 mod 4. Gib den kleinsten nichtnegativen Vertreter der Lösungs-Restklasse an.",
+  "answer": 1,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "x ≡ 2 + 3 = 5 ≡ 1 (mod 4); Lösung 1̄. Probe: 1−3=−2≡2 (mod 4). 📄 Quelle: uebung_2023, Folie 3 (S.3)",
+  "source": "uebung_2023, Folie 3 (S.3, VL 9-11, Aufgabe 7b)"
+ },
+ {
+  "id": "uebung_2023-b1-015",
+  "topic": "uebung_2023_restklassen",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche der folgenden Kongruenzen (angelehnt an Aufgabe 7c) sind korrekt?",
+  "options": [
+   "17 ≡ 3 (mod 7)",
+   "1234 ≡ 4 (mod 10)",
+   "221 ≡ 6 (mod 4)",
+   "17 ≡ 11 (mod 3)"
+  ],
+  "correct": [
+   0,
+   1,
+   3
+  ],
+  "explanation": "17−3=14=2·7 ✓; 1234 endet auf 4, also ≡4 (mod 10) ✓; 221≡1 und 6≡2 (mod 4), daher 221≢6 (mod 4) ✗; 17−11=6=2·3, also 17≡11 (mod 3) ✓. 📄 Quelle: uebung_2023, Folie 3 (S.3)",
+  "source": "uebung_2023, Folie 3 (S.3, VL 9-11, Aufgabe 7c)"
+ },
+ {
+  "id": "uebung_2023-b1-016",
+  "topic": "uebung_2023_restklassen",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Bestimme in Aufgabe 7d den Wert X mit 2·3·5·7 ≡ X mod 4 (kleinster nichtnegativer Vertreter).",
+  "answer": 2,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "2·3·5·7 = 210, und 210 = 52·4 + 2, also 210 ≡ 2 (mod 4). 📄 Quelle: uebung_2023, Folie 3 (S.3)",
+  "source": "uebung_2023, Folie 3 (S.3, VL 9-11, Aufgabe 7d)"
+ },
+ {
+  "id": "uebung_2023-b1-017",
+  "topic": "uebung_2023_restklassen",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Bestimme in Aufgabe 7d den Wert X mit 3^2·5·11 ≡ X mod 11 (kleinster nichtnegativer Vertreter).",
+  "answer": 0,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Das Produkt enthält den Faktor 11, ist also durch 11 teilbar: 3^2·5·11 ≡ 0 (mod 11). 📄 Quelle: uebung_2023, Folie 3 (S.3)",
+  "source": "uebung_2023, Folie 3 (S.3, VL 9-11, Aufgabe 7d)"
+ },
+ {
+  "id": "uebung_2023-b1-018",
+  "topic": "uebung_2023_restklassen",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Bestimme in Aufgabe 7d den Wert X mit 5^4 ≡ X mod 4 (kleinster nichtnegativer Vertreter).",
+  "answer": 1,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "5 ≡ 1 (mod 4), also 5^4 ≡ 1^4 = 1 (mod 4). (Kontrolle: 5^4=625=156·4+1.) 📄 Quelle: uebung_2023, Folie 3 (S.3)",
+  "source": "uebung_2023, Folie 3 (S.3, VL 9-11, Aufgabe 7d)"
+ },
+ {
+  "id": "uebung_2023-b1-019",
+  "topic": "uebung_2023_restklassen",
+  "difficulty": 3,
+  "type": "numeric",
+  "question": "Bestimme in Aufgabe 7d den Wert X mit 38^7·39^2 ≡ X mod 37 (kleinster nichtnegativer Vertreter).",
+  "answer": 4,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "38 ≡ 1 und 39 ≡ 2 (mod 37), also 38^7·39^2 ≡ 1^7·2^2 = 4 (mod 37). 📄 Quelle: uebung_2023, Folie 3 (S.3)",
+  "source": "uebung_2023, Folie 3 (S.3, VL 9-11, Aufgabe 7d)"
+ },
+ {
+  "id": "uebung_2023-b1-020",
+  "topic": "uebung_2023_euklidischer_algorithmus",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Bestimme in Aufgabe 8a den größten gemeinsamen Teiler von 76 und 209 (zum Kürzen von 76/209).",
+  "answer": 19,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Euklidischer Algorithmus: 209=2·76+57, 76=1·57+19, 57=3·19+0 ⇒ ggT=19. 📄 Quelle: uebung_2023, Folie 4 (S.4)",
+  "source": "uebung_2023, Folie 4 (S.4, VL 12, Aufgabe 8a)"
+ },
+ {
+  "id": "uebung_2023-b1-021",
+  "topic": "uebung_2023_euklidischer_algorithmus",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Zu welchem vollständig gekürzten Bruch lässt sich 76/209 aus Aufgabe 8a kürzen?",
+  "options": [
+   "4/11",
+   "4/19",
+   "3/11",
+   "8/22"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "ggT(76,209)=19; 76/19=4 und 209/19=11, also 76/209 = 4/11. 📄 Quelle: uebung_2023, Folie 4 (S.4)",
+  "source": "uebung_2023, Folie 4 (S.4, VL 12, Aufgabe 8a)"
+ },
+ {
+  "id": "uebung_2023-b1-022",
+  "topic": "uebung_2023_euklidischer_algorithmus",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Bestimme in Aufgabe 8a den größten gemeinsamen Teiler von 105 und 330 (zum Kürzen von 105/330).",
+  "answer": 15,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Euklidischer Algorithmus: 330=3·105+15, 105=7·15+0 ⇒ ggT=15. 📄 Quelle: uebung_2023, Folie 4 (S.4)",
+  "source": "uebung_2023, Folie 4 (S.4, VL 12, Aufgabe 8a)"
+ },
+ {
+  "id": "uebung_2023-b1-023",
+  "topic": "uebung_2023_euklidischer_algorithmus",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Zu welchem vollständig gekürzten Bruch lässt sich 105/330 aus Aufgabe 8a kürzen?",
+  "options": [
+   "7/22",
+   "7/20",
+   "3/11",
+   "15/22"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "ggT(105,330)=15; 105/15=7 und 330/15=22, also 105/330 = 7/22. 📄 Quelle: uebung_2023, Folie 4 (S.4)",
+  "source": "uebung_2023, Folie 4 (S.4, VL 12, Aufgabe 8a)"
+ }
+]
