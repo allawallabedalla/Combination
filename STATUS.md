@@ -1,9 +1,9 @@
 # STATUS — Combination: Mathematik-Fragenkatalog (Pipeline, pro-Skript persistiert)
 
-- **Stand:** 2026-07-18 17:06 UTC
+- **Stand:** 2026-07-18 17:08 UTC
 - **Branch:** `claude/repo-combination-raw-data-vbf3hw`
-- **HEAD:** `90ca198`
-- **Fertige Skripte:** 19 / 70
+- **HEAD:** `4bf8c8f`
+- **Fertige Skripte:** 20 / 70
 - **Fragen gesamt (fertig + laufend, roh):** 466
 
 ## Fortschritt
@@ -12,7 +12,7 @@
 |---|---|---:|---|
 | `did_vl02_einf` | offen |  | 1_Did_Ari_Geo_Einführung_BS_VL2.pdf |
 | `did_vl01_ueberblick` | offen |  | 1_Did_Ari_Geo_Einführung_Überblick_120422 VL1.pd |
-| `themen_uebersicht` | offen |  | CamScanner 27.06.2023 15.38.pdf |
+| `themen_uebersicht` | FERTIG |  | CamScanner 27.06.2023 15.38.pdf |
 | `erk_hand` | offen |  | Erkundung 1.pdf |
 | `klausur_ss20` | offen |  | Klausur Arithmetik und Geometrie Vertiefung SS20 |
 | `klausur_sose22` | offen |  | Klausur Vertiefung SoSe22.pdf |
@@ -102,5 +102,5 @@
 - Alles Fertige liegt auf origin; ein Stopp kostet höchstens den einen laufenden Block.
 - Skripte mit `gen/<code>.json` überspringen; für `laufend`-Skript fehlende Blöcke neu erzeugen → `finalize.sh`.
 
-**Offen:** `did_vl02_einf`, `did_vl01_ueberblick`, `themen_uebersicht`, `erk_hand`, `klausur_ss20`, `klausur_sose22`, `klausur_wise20`, `did_vl05_begriffe`, `skript12_live`, `skript01_live23`, `skript02_liveolz`, `skript05_live`, `skript08_live`, `skript09_live`, `did_vl04_ebenefiguren`, `did_vl04_inhalte`, `did_vl07_raum1`, `did_vl08_raum2`, `did_vl08_zr100`, `uebung_2023`, `uebung_gesamt`, `did_vl03_geohintergr`, `did_vl03_bildungsstd`, `erk01`, `erk10`, `erk02`, `erk03`, `erk04`, `erk05`, `erk06`, `erk07`, `erk08`, `erk09`, `ari20_vl10`, `ari23_vl10`, `ari20_vl11`, `ari23_vl11`, `ari20_vl12`, `ari23_vl01`, `ari21_vl01`, `ari21_vl02`, `ari21_vl03`, `ari23_vl04`, `ari21_vl04`, `ari21_vl05`, `ari23_vl06`, `ari21_vl06`, `ari23_vl07`, `ari21_vl07`, `ari21_vl08`, `ari21_vl09`
+**Offen:** `did_vl02_einf`, `did_vl01_ueberblick`, `erk_hand`, `klausur_ss20`, `klausur_sose22`, `klausur_wise20`, `did_vl05_begriffe`, `skript12_live`, `skript01_live23`, `skript02_liveolz`, `skript05_live`, `skript08_live`, `skript09_live`, `did_vl04_ebenefiguren`, `did_vl04_inhalte`, `did_vl07_raum1`, `did_vl08_raum2`, `did_vl08_zr100`, `uebung_2023`, `uebung_gesamt`, `did_vl03_geohintergr`, `did_vl03_bildungsstd`, `erk01`, `erk10`, `erk02`, `erk03`, `erk04`, `erk05`, `erk06`, `erk07`, `erk08`, `erk09`, `ari20_vl10`, `ari23_vl10`, `ari20_vl11`, `ari23_vl11`, `ari20_vl12`, `ari23_vl01`, `ari21_vl01`, `ari21_vl02`, `ari21_vl03`, `ari23_vl04`, `ari21_vl04`, `ari21_vl05`, `ari23_vl06`, `ari21_vl06`, `ari23_vl07`, `ari21_vl07`, `ari21_vl08`, `ari21_vl09`
 
