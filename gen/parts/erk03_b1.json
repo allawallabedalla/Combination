@@ -1,0 +1,117 @@
+[
+  {
+    "id": "erk03-b1-001",
+    "topic": "erk03_pascal_biografie",
+    "difficulty": 1,
+    "type": "multi",
+    "question": "Was steht auf der Schulbuchseite über Blaise Pascal und das Zahlendreieck?",
+    "options": [
+      "Pascal lebte von 1623 bis 1662 in Frankreich.",
+      "Pascal war ein mathematisches Wunderkind.",
+      "Die Zahlenanordnung stammte aus China und war schon ein paar hundert Jahre alt.",
+      "Pascal erfand die Zahlenanordnung selbst; sie war zuvor völlig unbekannt."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Laut Text lebte Pascal 1623 bis 1662 in Frankreich und war ein mathematisches Wunderkind; die Zahlenanordnung stammte aus China und war damals schon ein paar hundert Jahre alt. Pascal entdeckte an ihr Regeln und Muster, erfand sie aber nicht neu. 📄 Quelle: erk03, Folie 1 (S.1)",
+    "source": "erk03, Folie 1 (S.1, Ein ganz besonderer Zahlenturm)"
+  },
+  {
+    "id": "erk03-b1-002",
+    "topic": "erk03_pascalsches_dreieck",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Welchen größten Wert enthält die auf der Schulbuchseite vollständig ausgefüllte untere Zeile des Pascalschen Dreiecks (1, 9, 36, 84, 126, 126, 84, 36, 9, 1)?",
+    "answer": 126,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Die abgedruckte vollständig ausgefüllte Zeile lautet 1, 9, 36, 84, 126, 126, 84, 36, 9, 1; der größte (mittlere) Eintrag ist 126. 📄 Quelle: erk03, Folie 1 (S.1)",
+    "source": "erk03, Folie 1 (S.1, Ein ganz besonderer Zahlenturm)"
+  },
+  {
+    "id": "erk03-b1-003",
+    "topic": "erk03_pascalsches_dreieck",
+    "difficulty": 1,
+    "type": "multi",
+    "question": "Welche Zahlen kommen in der abgebildeten Zeile \"1, 5, 10, 10, 5, 1\" des Pascalschen Dreiecks vor?",
+    "options": ["1", "5", "10", "15", "20"],
+    "correct": [0, 1, 2],
+    "explanation": "Die abgedruckte Zeile lautet 1, 5, 10, 10, 5, 1; sie enthält die Zahlen 1, 5 und 10, jedoch nicht 15 oder 20. 📄 Quelle: erk03, Folie 1 (S.1)",
+    "source": "erk03, Folie 1 (S.1, Ein ganz besonderer Zahlenturm)"
+  },
+  {
+    "id": "erk03-b1-004",
+    "topic": "erk03_pascalsches_dreieck",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Wie werden die Spalten und Zeilen des Pascalschen Dreiecks im Abschnitt \"Formalisieren (siehe Vorlesung)\" festgelegt?",
+    "options": [
+      "Die Reihe von Einsen von der Spitze am linken Rand herunter heißt die 0. Spalte.",
+      "Die Reihe 1, 2, 3, 4, … von rechts oben nach links unten heißt die 1. Spalte.",
+      "Die Zeilen werden ab 0 gezählt (von oben nach unten); die 3. Zeile hat die Einträge 1, 3, 3, 1.",
+      "Die Zeilen werden ab 1 gezählt; die 1. Zeile hat die Einträge 1, 3, 3, 1."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Laut Folie heißt die Reihe von Einsen am linken Rand die 0. Spalte, die Reihe 1, 2, 3, 4, … von rechts oben nach links unten die 1. Spalte. Die Zeilen werden ab 0 gezählt; die 3. Zeile hat die Einträge 1, 3, 3, 1. Die Zählung ab 1 ist falsch. 📄 Quelle: erk03, Folie 3 (S.3)",
+    "source": "erk03, Folie 3 (S.3, Formalisieren)"
+  },
+  {
+    "id": "erk03-b1-005",
+    "topic": "erk03_binomialkoeffizient",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wie ist der Binomialkoeffizient (n über k) laut Folie definiert?",
+    "options": [
+      "(n über k) = n! / (k! · (n−k)!)",
+      "(n über k) = n! / (k! · n!)",
+      "(n über k) = (n−k)! / (k! · n!)",
+      "(n über k) = n! · k! · (n−k)!"
+    ],
+    "correct": [0],
+    "explanation": "Die Folie definiert den Binomialkoeffizienten als (n über k) = n! / (k! · (n−k)!). 📄 Quelle: erk03, Folie 3 (S.3)",
+    "source": "erk03, Folie 3 (S.3, Formalisieren)"
+  },
+  {
+    "id": "erk03-b1-006",
+    "topic": "erk03_binomialkoeffizient",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Was bezeichnen n und k im Binomialkoeffizienten (n über k) laut Folie?",
+    "options": [
+      "n die Zeile und k die Spalte",
+      "n die Spalte und k die Zeile",
+      "n die Anzahl der Einträge und k die Zeilensumme",
+      "n den größten Eintrag und k den kleinsten Eintrag"
+    ],
+    "correct": [0],
+    "explanation": "Auf der Folie steht: \"Dabei bezeichnet n die Zeile und k die Spalte.\" 📄 Quelle: erk03, Folie 3 (S.3)",
+    "source": "erk03, Folie 3 (S.3, Formalisieren)"
+  },
+  {
+    "id": "erk03-b1-007",
+    "topic": "erk03_pascal_regel",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aussagen zur Entstehung der Zahlen im Pascalschen Dreieck stehen auf der Folie \"Formalisieren\"?",
+    "options": [
+      "Eine Zahl entsteht stets durch die Summe der beiden darüber stehenden Zahlen.",
+      "Es gilt (n+1 über k+1) = (n über k) + (n über k+1).",
+      "Eine Zahl entsteht durch das Produkt der beiden darüber stehenden Zahlen.",
+      "Es gilt (n+1 über k+1) = (n über k) · (n über k+1)."
+    ],
+    "correct": [0, 1],
+    "explanation": "Die Folie hält fest, dass eine Zahl stets durch die Summe der beiden darüber stehenden Zahlen entsteht, und dass deshalb (n+1 über k+1) = (n über k) + (n über k+1) gilt. Produkt-Varianten sind falsch. 📄 Quelle: erk03, Folie 3 (S.3)",
+    "source": "erk03, Folie 3 (S.3, Formalisieren)"
+  },
+  {
+    "id": "erk03-b1-008",
+    "topic": "erk03_binomialkoeffizient",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Berechnen Sie mit der auf der Folie angegebenen Definition den Binomialkoeffizienten (4 über 2) = 4! / (2! · 2!).",
+    "answer": 6,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Mit (n über k) = n!/(k!·(n−k)!) ergibt sich (4 über 2) = 24/(2·2) = 6; dies entspricht dem mittleren Eintrag der Zeile 1, 4, 6, 4, 1. 📄 Quelle: erk03, Folie 3 (S.3)",
+    "source": "erk03, Folie 3 (S.3, Formalisieren)"
+  }
+]
