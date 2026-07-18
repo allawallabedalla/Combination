@@ -1,10 +1,10 @@
 # STATUS — Combination: Mathematik-Fragenkatalog (Pipeline, pro-Skript persistiert)
 
-- **Stand:** 2026-07-18 22:28 UTC
+- **Stand:** 2026-07-18 22:29 UTC
 - **Branch:** `claude/repo-combination-raw-data-vbf3hw`
-- **HEAD:** `cf36b70`
-- **Fertige Skripte:** 61 / 70
-- **Fragen gesamt (fertig + laufend, roh):** 1673
+- **HEAD:** `960df72`
+- **Fertige Skripte:** 62 / 70
+- **Fragen gesamt (fertig + laufend, roh):** 1747
 
 ## Fortschritt
 
@@ -63,15 +63,15 @@
 | `ari20_vl12` | offen |  | vl_12_ari20_Folien-cs.pdf |
 | `ari23_vl13` | FERTIG | 30 | vl_13_ari2023.pdf |
 | `ari23_vl01` | FERTIG | 72 | vl_1_ari2023.pdf |
-| `ari21_vl01` | laufend (1 Blöcke, 4 Fragen, nicht gemergt) | 4 | vl_1_ari21-Folien.pdf |
+| `ari21_vl01` | laufend (2 Blöcke, 31 Fragen, nicht gemergt) | 31 | vl_1_ari21-Folien.pdf |
 | `ari23_vl02` | FERTIG | 54 | vl_2_ari2023.pdf |
 | `ari21_vl02` | FERTIG | 49 | vl_2_ari21-Folien.pdf |
 | `ari23_vl03` | FERTIG | 24 | vl_3_ari2023-gekürzt.pdf |
-| `ari21_vl03` | offen |  | vl_3_ari21-Folien.pdf |
+| `ari21_vl03` | laufend (1 Blöcke, 18 Fragen, nicht gemergt) | 18 | vl_3_ari21-Folien.pdf |
 | `ari23_vl04` | FERTIG | 97 | vl_4_ari2023-gekürzt.pdf |
 | `ari21_vl04` | FERTIG | 35 | vl_4_ari21-Folien.pdf |
 | `ari23_vl05` | FERTIG | 45 | vl_5_ari2023-gekürzt.pdf |
-| `ari21_vl05` | offen |  | vl_5_ari21-Folien.pdf |
+| `ari21_vl05` | FERTIG | 29 | vl_5_ari21-Folien.pdf |
 | `ari23_vl06` | FERTIG | 68 | vl_6_ari2023-gekürzt.pdf |
 | `ari21_vl06` | offen |  | vl_6_ari21-Folien.pdf |
 | `ari23_vl07` | FERTIG | 66 | vl_7_ari2023-inkl_TdW-Folien.pdf |
@@ -102,6 +102,6 @@
 - Alles Fertige liegt auf origin; ein Stopp kostet höchstens den einen laufenden Block.
 - Skripte mit `gen/<code>.json` überspringen; für `laufend`-Skript fehlende Blöcke neu erzeugen → `finalize.sh`.
 
-**Laufend:** `ari21_vl01`
-**Offen:** `ari20_vl10`, `ari20_vl11`, `ari20_vl12`, `ari21_vl03`, `ari21_vl05`, `ari21_vl06`, `ari21_vl07`, `ari21_vl08`
+**Laufend:** `ari21_vl01`, `ari21_vl03`
+**Offen:** `ari20_vl10`, `ari20_vl11`, `ari20_vl12`, `ari21_vl06`, `ari21_vl07`, `ari21_vl08`
 
