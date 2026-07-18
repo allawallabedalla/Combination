@@ -20,15 +20,25 @@ Ergebnis: verkleinerte Kopien im Unterordner `verkleinert/` (oder --inplace).
 Nur wenn das Ergebnis wirklich kleiner & lesbar ist, wird es verwendet.
 
 VORAUSSETZUNG (eines von beiden — beides offline nach einmaliger Installation):
-  - Ghostscript (beste Qualität):   macOS: brew install ghostscript
-                                    Linux: sudo apt-get install ghostscript
-  - oder PyMuPDF (Python):          pip install pymupdf
+  - Ghostscript (beste Qualität):   Windows: winget install ArtifexSoftware.GhostScript
+                                    macOS:   brew install ghostscript
+                                    Linux:   sudo apt-get install ghostscript
+  - oder PyMuPDF (Python):          py -m pip install pymupdf   (Win)  ·  pip3 install pymupdf
 Fehlt beides, sagt dir das Skript genau, was zu tun ist.
+(Windows-Doppelklick: PDF_verkleinern.bat · macOS: PDF_verkleinern.command)
 """
 import argparse, os, shutil, subprocess, sys
 
 def mb(n): return f"{n/1024/1024:.1f} MB"
 def have(cmd): return shutil.which(cmd) is not None
+
+def gs_exe():
+    """Ghostscript-Programm finden — heißt je nach OS anders.
+    Windows: gswin64c / gswin32c · macOS/Linux: gs."""
+    for name in ("gs", "gswin64c", "gswin32c"):
+        if shutil.which(name):
+            return name
+    return None
 
 def have_fitz():
     try:
@@ -51,9 +61,12 @@ def valid_pdf(path):
         return False
 
 def compress_gs(src, dst, dpi):
+    gs = gs_exe()
+    if not gs:
+        return False
     try:
         r = subprocess.run(
-            ["gs", "-sDEVICE=pdfwrite", "-dCompatibilityLevel=1.5",
+            [gs, "-sDEVICE=pdfwrite", "-dCompatibilityLevel=1.5",
              "-dPDFSETTINGS=/ebook", "-dNOPAUSE", "-dBATCH", "-dQUIET",
              "-dDetectDuplicateImages=true",
              f"-dColorImageResolution={dpi}", f"-dGrayImageResolution={dpi}",
@@ -101,11 +114,12 @@ def main():
     ap.add_argument("--outdir", default="verkleinert", help="Ausgabeordner (Standard: verkleinert/)")
     args = ap.parse_args()
 
-    gs_ok, fitz_ok = have("gs"), have_fitz()
+    gs_ok, fitz_ok = gs_exe() is not None, have_fitz()
     if not gs_ok and not fitz_ok:
         print("✗ Weder Ghostscript noch PyMuPDF gefunden. Installiere EINES davon (offline danach):")
-        print("    macOS:  brew install ghostscript      (oder:  pip3 install pymupdf)")
-        print("    Linux:  sudo apt-get install ghostscript   (oder:  pip3 install pymupdf)")
+        print("    Windows: winget install ArtifexSoftware.GhostScript   (oder:  py -m pip install pymupdf)")
+        print("    macOS:   brew install ghostscript                     (oder:  pip3 install pymupdf)")
+        print("    Linux:   sudo apt-get install ghostscript             (oder:  pip3 install pymupdf)")
         sys.exit(2)
     print(f"Methode: {'Ghostscript' if gs_ok else 'PyMuPDF (Fallback)'} · Schwelle {args.mb} MB · Ziel {args.dpi} dpi\n")
 
