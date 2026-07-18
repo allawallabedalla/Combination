@@ -1,0 +1,258 @@
+[
+  {
+    "id": "ari20_vl12-b2-001",
+    "topic": "ari20_vl12_verkettung_zwei",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Der Satz auf Folie 21 ('Phänomsätze der Verkettung') behandelt zwei Geradenspiegelungen S_g und S_h an den Geraden g und h. Welche Voraussetzungen müssen für zwei weitere Geraden g' und h' erfüllt sein, damit S_h ∘ S_g = S_h' ∘ S_g' gilt?",
+    "options": [
+      "g ∥ h und g ∥ g' und g ∥ h' (alle Geraden parallel)",
+      "d(g,h) = d(g',h') (gleicher Abstand der Geradenpaare)",
+      "g und h schneiden sich in einem Punkt S",
+      "∡(g;h) = ∡(g';h') als gemeinsamer Schnittwinkel"
+    ],
+    "correct": [0, 1],
+    "explanation": "Der Parallelfall des Phänomsatzes fordert g ∥ h und g ∥ g' und g ∥ h' sowie den gleichen Abstand d(g,h) = d(g',h'). Ein gemeinsamer Schnittpunkt bzw. ein gleicher Schnittwinkel gehören zum anderen (Schnitt-)Fall. 📄 Quelle: ari20_vl12, Folie 21 (S.21)",
+    "source": "ari20_vl12, Folie 21 (S.21, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b2-002",
+    "topic": "ari20_vl12_verkettung_zwei",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Sind im Parallelfall (Folie 21) die Voraussetzungen g ∥ h ∥ g' ∥ h' und d(g,h) = d(g',h') erfüllt, was folgt für die Verkettungen der Geradenspiegelungen?",
+    "options": [
+      "S_h ∘ S_g = S_h' ∘ S_g'",
+      "S_h ∘ S_g = S_g ∘ S_h",
+      "S_h ∘ S_g ≠ S_h' ∘ S_g'",
+      "S_g = S_h"
+    ],
+    "correct": [0],
+    "explanation": "Der Satz schließt: dann ist S_h ∘ S_g = S_h' ∘ S_g'. Die doppelte Geradenspiegelung bleibt also gleich. 📄 Quelle: ari20_vl12, Folie 21 (S.21)",
+    "source": "ari20_vl12, Folie 21 (S.21, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b2-003",
+    "topic": "ari20_vl12_verkettung_zwei",
+    "difficulty": 3,
+    "type": "multi",
+    "question": "Folie 27 formuliert den Phänomsatz für den Fall sich schneidender Geraden. Welche Bedingungen müssen g' und h' erfüllen, damit S_h ∘ S_g = S_h' ∘ S_g' gilt?",
+    "options": [
+      "g ∩ h = {S} mit ∡(g;h) = α",
+      "g' ∩ h' = {S}, also derselbe Schnittpunkt wie g ∩ h",
+      "∡(g';h') = α, also der gleiche Schnittwinkel wie bei g und h",
+      "d(g,h) = d(g',h') (gleicher Abstand der Geradenpaare)"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Im Schnittfall gilt: Wenn g ∩ h = {S} mit ∡(g;h) = α und g' ∩ h' = {S} (=g ∩ h) mit ∡g'h' = α (=∡(g;h)), dann ist S_h ∘ S_g = S_h' ∘ S_g'. Die Abstandsbedingung d(g,h) = d(g',h') gehört zum Parallelfall. 📄 Quelle: ari20_vl12, Folie 27 (S.27)",
+    "source": "ari20_vl12, Folie 27 (S.27, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b2-004",
+    "topic": "ari20_vl12_verkettung_zwei",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Im Schnittfall (Folie 27) dürfen die beiden Geraden g und h zu g' und h' verändert werden, ohne dass sich die Verkettung ändert. Welche zwei Größen müssen dabei gleich bleiben?",
+    "options": [
+      "Der gemeinsame Schnittpunkt S und der Schnittwinkel α",
+      "Der Abstand der Geraden und ihre Richtung",
+      "Nur der Schnittpunkt S",
+      "Nur der Schnittwinkel α"
+    ],
+    "correct": [0],
+    "explanation": "Der Satz verlangt g' ∩ h' = {S} (=g ∩ h) und ∡g'h' = α (=∡(g;h)) — gleichbleibender Schnittpunkt UND gleichbleibender Schnittwinkel. 📄 Quelle: ari20_vl12, Folie 27 (S.27)",
+    "source": "ari20_vl12, Folie 27 (S.27, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b2-005",
+    "topic": "ari20_vl12_verkettung_drei",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Der Satz auf Folie 29 ('Verknüpfung von drei Abbildungen') gilt für alle Bewegungen (Kongruenzabbildungen) f, g und h. Welche Aussagen sind laut Satz korrekt?",
+    "options": [
+      "Für die Verkettung dreier Bewegungen gilt das Assoziativgesetz: (h ∘ g) ∘ f = h ∘ (g ∘ f)",
+      "Das Kommutativgesetz gilt nicht: im Allgemeinen ist f ∘ g ≠ g ∘ f",
+      "Für Bewegungen gilt stets f ∘ g = g ∘ f",
+      "Die Reihenfolge der Klammerung verändert das Ergebnis"
+    ],
+    "correct": [0, 1],
+    "explanation": "Der Satz besagt: Für die Verkettung dreier Bewegungen gilt das Assoziativgesetz (h ∘ g) ∘ f = h ∘ (g ∘ f); das Kommutativgesetz gilt jedoch nicht (im Allgemeinen f ∘ g ≠ g ∘ f). 📄 Quelle: ari20_vl12, Folie 29 (S.29)",
+    "source": "ari20_vl12, Folie 29 (S.29, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b2-006",
+    "topic": "ari20_vl12_verkettung_drei",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Was besagt Folie 29 zum Kommutativgesetz bei der Verkettung von Bewegungen?",
+    "options": [
+      "Es gilt im Allgemeinen nicht (f ∘ g ≠ g ∘ f)",
+      "Es gilt immer",
+      "Es gilt nur bei Geradenspiegelungen",
+      "Es gilt nur bei Drehungen"
+    ],
+    "correct": [0],
+    "explanation": "Auf der Folie steht: 'Das Kommutativgesetz gilt nicht: im Allgemeinen ist f ∘ g ≠ g ∘ f.' 📄 Quelle: ari20_vl12, Folie 29 (S.29)",
+    "source": "ari20_vl12, Folie 29 (S.29, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b2-007",
+    "topic": "ari20_vl12_verkettung_drei",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Im Beispiel auf Folie 33 sind f, g und h drei Geradenspiegelungen, bei denen je zwei der Geraden einen Schnittpunkt haben. Welche Aussagen treffen laut Folie zu?",
+    "options": [
+      "Die Verknüpfung g ∘ f ergibt eine Drehung",
+      "Auch die Verknüpfung h ∘ g ergibt eine Drehung",
+      "Ob erst Spiegelung f und dann Drehung (h ∘ g) oder erst Drehung (g ∘ f) und dann Spiegelung h ausgeführt wird, es ergibt die gleiche Abbildung",
+      "Die Verknüpfung g ∘ f ergibt eine Verschiebung"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Da je zwei Geraden einen Schnittpunkt haben, ergeben g ∘ f und h ∘ g jeweils eine Drehung; das Beispiel zeigt (h ∘ g) ∘ f = h ∘ (g ∘ f), also gleiche Gesamtabbildung. Eine Verschiebung entstünde bei parallelen Geraden, nicht hier. 📄 Quelle: ari20_vl12, Folie 33 (S.33)",
+    "source": "ari20_vl12, Folie 33 (S.33, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b2-008",
+    "topic": "ari20_vl12_verkettung_drei",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Das Beispiel auf Folie 33 illustriert konkret welches Gesetz für die Verkettung von Bewegungen?",
+    "options": [
+      "Das Assoziativgesetz: (h ∘ g) ∘ f = h ∘ (g ∘ f)",
+      "Das Kommutativgesetz",
+      "Das Distributivgesetz",
+      "Das Inversengesetz"
+    ],
+    "correct": [0],
+    "explanation": "Das Beispiel schließt mit '(h ∘ g) ∘ f = h ∘ (g ∘ f)' und veranschaulicht damit das Assoziativgesetz. 📄 Quelle: ari20_vl12, Folie 33 (S.33)",
+    "source": "ari20_vl12, Folie 33 (S.33, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b2-009",
+    "topic": "ari20_vl12_spielregeln",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche 'Spielregeln' für das Verändern von Geraden nennt Folie 35?",
+    "options": [
+      "Bewege immer nur ZWEI Geraden gemeinsam",
+      "Die beiden bewegten Geraden müssen aufeinanderfolgende Buchstaben haben",
+      "Sich schneidende Geraden darf man um den Schnittpunkt drehen",
+      "Parallele Geraden darf man beliebig drehen"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Die Regeln lauten: a) immer nur ZWEI Geraden gemeinsam bewegen, b) die beiden Geraden müssen aufeinanderfolgende Buchstaben haben, c) sich schneidende Geraden um den Schnittpunkt drehen, d) parallele Geraden parallel verschieben (nicht drehen). 📄 Quelle: ari20_vl12, Folie 35 (S.35)",
+    "source": "ari20_vl12, Folie 35 (S.35, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b2-010",
+    "topic": "ari20_vl12_spielregeln",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Was darf man laut den Spielregeln (Folie 35) mit zwei parallelen Geraden tun?",
+    "options": [
+      "Sie parallel verschieben",
+      "Sie um einen Schnittpunkt drehen",
+      "Sie senkrecht zueinander stellen",
+      "Sie beliebig gegeneinander verdrehen"
+    ],
+    "correct": [0],
+    "explanation": "Regel d): 'Parallele Geraden darf man parallel verschieben.' Drehen um einen Schnittpunkt gilt nur für sich schneidende Geraden (Regel c). 📄 Quelle: ari20_vl12, Folie 35 (S.35)",
+    "source": "ari20_vl12, Folie 35 (S.35, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b2-011",
+    "topic": "ari20_vl12_spielregeln",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Was ist das 'Ziel' beim Verändern von Geradenpaaren nach den Spielregeln auf Folie 35?",
+    "options": [
+      "Zwei Geraden, an denen Spiegelungen hintereinander ausgeführt werden, übereinander zu bringen, sodass sie wegfallen (klapp-klapp)",
+      "Möglichst viele zusätzliche Geraden zu erzeugen",
+      "Alle Geraden senkrecht zueinander zu stellen",
+      "Den Schnittwinkel der Geraden zu halbieren"
+    ],
+    "correct": [0],
+    "explanation": "Ziel: eine bekannte Konfiguration herstellen bzw. Geradenpaare so verändern, dass zwei Geraden, an denen Spiegelungen hintereinander ausgeführt werden, übereinander liegen — die fallen dann weg (klapp-klapp). 📄 Quelle: ari20_vl12, Folie 35 (S.35)",
+    "source": "ari20_vl12, Folie 35 (S.35, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b2-012",
+    "topic": "ari20_vl12_dreifach_ersetzen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Folie 36 behandelt die Fälle 1, 2 und 3 der dreifachen Geradenspiegelung. Welche Aussagen treffen zu?",
+    "options": [
+      "Die Konfigurationen sind: g = h = i, oder g = h mit Parallele i, oder drei Parallelen",
+      "Die dreifache Geradenspiegelung lässt sich durch eine einfache Geradenspiegelung ersetzen",
+      "Die drei Geraden haben genau einen gemeinsamen Schnittpunkt",
+      "Das Ergebnis ist eine Drehung"
+    ],
+    "correct": [0, 1],
+    "explanation": "Fall 1, 2 und 3 (g = h = i oder g = h und Parallele i oder drei Parallelen): Die dreifache Geradenspiegelung lässt sich durch eine einfache Geradenspiegelung ersetzen. Ein gemeinsamer Schnittpunkt ist Fall 4. 📄 Quelle: ari20_vl12, Folie 36 (S.36)",
+    "source": "ari20_vl12, Folie 36 (S.36, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b2-013",
+    "topic": "ari20_vl12_dreifach_ersetzen",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Wodurch lässt sich in den Fällen 1–3 (Folie 36) die dreifache Geradenspiegelung ersetzen?",
+    "options": [
+      "Durch eine einfache Geradenspiegelung",
+      "Durch eine Drehung",
+      "Durch eine Verschiebung",
+      "Durch eine Punktspiegelung"
+    ],
+    "correct": [0],
+    "explanation": "Laut Folie: 'Die dreifache Geradenspiegelung lässt sich durch eine einfache Geradenspiegelung ersetzen.' 📄 Quelle: ari20_vl12, Folie 36 (S.36)",
+    "source": "ari20_vl12, Folie 36 (S.36, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b2-014",
+    "topic": "ari20_vl12_dreifach_ersetzen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Folie 37 behandelt Fall 4 der dreifachen Geradenspiegelung. Welche Aussagen zu Voraussetzung, Ergebnis und Vorgehen sind korrekt?",
+    "options": [
+      "g, h und i haben einen gemeinsamen Schnittpunkt",
+      "Die dreifache Geradenspiegelung lässt sich durch eine einfache Geradenspiegelung ersetzen",
+      "Man dreht g, h um ihren Schnittpunkt so, dass h' auf i liegt (h' und i heben sich auf)",
+      "Die drei Geraden sind zueinander parallel"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Fall 4: g, h und i haben einen gemeinsamen Schnittpunkt; die dreifache Geradenspiegelung lässt sich durch eine einfache ersetzen, indem man g, h um ihren Schnittpunkt dreht, bis h' auf i liegt (h' und i heben sich auf). Parallelität gehört nicht zu Fall 4. 📄 Quelle: ari20_vl12, Folie 37 (S.37)",
+    "source": "ari20_vl12, Folie 37 (S.37, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b2-015",
+    "topic": "ari20_vl12_dreifach_ersetzen",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welches Vorgehen wird in Fall 4 (Folie 37) beschrieben, um zwei Spiegelungen wegfallen zu lassen?",
+    "options": [
+      "g und h um ihren Schnittpunkt drehen, bis h' auf i liegt",
+      "g und h parallel verschieben, bis sie zusammenfallen",
+      "i senkrecht zu g stellen",
+      "alle drei Geraden zu einer einzigen zusammenfallen lassen"
+    ],
+    "correct": [0],
+    "explanation": "Folie 37: 'Drehe g, h um ihren Schnittpunkt so, dass h' auf i liegt (h' und i heben sich auf).' 📄 Quelle: ari20_vl12, Folie 37 (S.37)",
+    "source": "ari20_vl12, Folie 37 (S.37, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b2-016",
+    "topic": "ari20_vl12_dreifach_ersetzen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Wie sind die drei Geraden g, h und i in Fall 5 (Folie 38) angeordnet?",
+    "options": [
+      "g und h sind parallel",
+      "i steht senkrecht zu g und h",
+      "alle drei Geraden schneiden sich in einem gemeinsamen Punkt",
+      "g, h und i sind paarweise parallel"
+    ],
+    "correct": [0, 1],
+    "explanation": "Fall 5: g und h sind parallel, i steht senkrecht zu g und h. (Womit sich die dreifache Geradenspiegelung ersetzen lässt, bleibt auf der Folie als offene Frage '???' stehen.) 📄 Quelle: ari20_vl12, Folie 38 (S.38)",
+    "source": "ari20_vl12, Folie 38 (S.38, Geometrie)"
+  }
+]
