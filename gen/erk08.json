@@ -1,0 +1,272 @@
+[
+ {
+  "id": "erk08-b1-001",
+  "topic": "erk08_anna_zahlen",
+  "difficulty": 1,
+  "type": "multi",
+  "question": "Welche der folgenden vierstelligen Zahlen sind laut Arbeitsblatt ANNA-Zahlen?",
+  "options": [
+   "3 663",
+   "1 001",
+   "3 636",
+   "8 585"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "explanation": "Vierstellige Zahlen wie 3 663, 8 558, 1 001 heißen ANNA-Zahlen (Ziffernmuster ABBA). 3 636 und 8 585 sind dagegen NANA-Zahlen (ABAB). 📄 Quelle: erk08, Folie 1 (S.1)",
+  "source": "erk08, Folie 1 (S.1, Zahlenmuster / ANNA-Zahlen)"
+ },
+ {
+  "id": "erk08-b1-002",
+  "topic": "erk08_anna_zahlen",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Welches Ergebnis liefert die auf dem Blatt gezeigte Subtraktion der ANNA-Zahlen 7 227 − 2 772?",
+  "answer": 4455,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Die auf dem Blatt notierte Rechnung ergibt 7 227 − 2 772 = 4 455. 📄 Quelle: erk08, Folie 1 (S.1)",
+  "source": "erk08, Folie 1 (S.1, Zahlenmuster / ANNA-Zahlen)"
+ },
+ {
+  "id": "erk08-b1-003",
+  "topic": "erk08_anna_zahlen",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Welches Ergebnis liefert die auf dem Blatt gezeigte Subtraktion der ANNA-Zahlen 8 558 − 5 885?",
+  "answer": 2673,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Die auf dem Blatt notierte Rechnung ergibt 8 558 − 5 885 = 2 673. 📄 Quelle: erk08, Folie 1 (S.1)",
+  "source": "erk08, Folie 1 (S.1, Zahlenmuster / ANNA-Zahlen)"
+ },
+ {
+  "id": "erk08-b1-004",
+  "topic": "erk08_anna_zahlen",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Auf dem Blatt wird begründet: 3 223 ist um 891 größer als 2 332, denn 1 000 − 100 − 10 + 1 = ? Welcher Wert steht rechts?",
+  "answer": 891,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Für ANNA-Zahlen gilt: 3 223 ist um 891 größer als 2 332, denn 1 000 − 100 − 10 + 1 = 891. 📄 Quelle: erk08, Folie 1 (S.1)",
+  "source": "erk08, Folie 1 (S.1, Zahlenmuster / ANNA-Zahlen)"
+ },
+ {
+  "id": "erk08-b1-005",
+  "topic": "erk08_anna_zahlen",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Aufgabe 2 fordert, 891 mit 2, 3, …, 9 zu multiplizieren. Welches Ergebnis gehört zu 891 · 4?",
+  "answer": 3564,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Die auf dem Blatt aufgelisteten Ergebnisse sind 1 782, 2 673, 3 564, 4 455, 5 346, 6 237, 7 128, 8 019; 891 · 4 = 3 564. 📄 Quelle: erk08, Folie 1 (S.1)",
+  "source": "erk08, Folie 1 (S.1, Zahlenmuster / ANNA-Zahlen)"
+ },
+ {
+  "id": "erk08-b1-006",
+  "topic": "erk08_anna_zahlen",
+  "difficulty": 3,
+  "type": "multi",
+  "question": "Aufgabe 2 zeigt die Ergebnisse von 891 · 2, 3, …, 9 (1 782, 2 673, …, 8 019). Was gilt laut Blatt für die Ergebnisse, die beim Subtrahieren zweier ANNA-Zahlen auftreten können?",
+  "options": [
+   "Es sind Vielfache von 891",
+   "Zusammen mit 891 sind es genau diese aufgelisteten Ergebnisse",
+   "Es sind Vielfache von 909",
+   "Sie sind stets ungerade"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "explanation": "Auf dem Blatt steht: „Zusammen mit 891 sind dies die Ergebnisse, die bei Aufgabe 1 auftreten können.“ Die möglichen Differenzen sind also die Vielfachen von 891 (891, 1 782, …, 8 019). 909 gehört zu den NANA-Zahlen; ungerade sind sie nicht (z. B. 1 782, 4 455). 📄 Quelle: erk08, Folie 1 (S.1)",
+  "source": "erk08, Folie 1 (S.1, Zahlenmuster / ANNA-Zahlen)"
+ },
+ {
+  "id": "erk08-b1-007",
+  "topic": "erk08_nana_zahlen",
+  "difficulty": 1,
+  "type": "multi",
+  "question": "Welche der folgenden vierstelligen Zahlen sind laut Arbeitsblatt NANA-Zahlen?",
+  "options": [
+   "3 636",
+   "8 585",
+   "3 663",
+   "1 001"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "explanation": "Vierstellige Zahlen wie 3 636, 8 585, 1 010 heißen NANA-Zahlen (Ziffernmuster ABAB). 3 663 und 1 001 sind dagegen ANNA-Zahlen (ABBA). 📄 Quelle: erk08, Folie 1 (S.1)",
+  "source": "erk08, Folie 1 (S.1, Zahlenmuster / NANA-Zahlen)"
+ },
+ {
+  "id": "erk08-b1-008",
+  "topic": "erk08_nana_zahlen",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Welches Ergebnis liefert die auf dem Blatt gezeigte Subtraktion der NANA-Zahlen 7 272 − 2 727?",
+  "answer": 4545,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Die auf dem Blatt notierte Rechnung ergibt 7 272 − 2 727 = 4 545. 📄 Quelle: erk08, Folie 1 (S.1)",
+  "source": "erk08, Folie 1 (S.1, Zahlenmuster / NANA-Zahlen)"
+ },
+ {
+  "id": "erk08-b1-009",
+  "topic": "erk08_nana_zahlen",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Welches Ergebnis liefert die auf dem Blatt gezeigte Subtraktion der NANA-Zahlen 6 363 − 3 636?",
+  "answer": 2727,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Die auf dem Blatt notierte Rechnung ergibt 6 363 − 3 636 = 2 727. 📄 Quelle: erk08, Folie 1 (S.1)",
+  "source": "erk08, Folie 1 (S.1, Zahlenmuster / NANA-Zahlen)"
+ },
+ {
+  "id": "erk08-b1-010",
+  "topic": "erk08_nana_zahlen",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Auf dem Blatt wird begründet: 3 232 ist um 909 größer als 2 323, denn 1 000 − 100 + 10 − 1 = ? Welcher Wert steht rechts?",
+  "answer": 909,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Für NANA-Zahlen gilt: 3 232 ist um 909 größer als 2 323, denn 1 000 − 100 + 10 − 1 = 909. 📄 Quelle: erk08, Folie 1 (S.1)",
+  "source": "erk08, Folie 1 (S.1, Zahlenmuster / NANA-Zahlen)"
+ },
+ {
+  "id": "erk08-b1-011",
+  "topic": "erk08_nana_zahlen",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Aufgabe 2 fordert, 909 mit 2, 3, …, 9 zu multiplizieren. Welches Ergebnis gehört zu 909 · 6?",
+  "answer": 5454,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Die auf dem Blatt aufgelisteten Ergebnisse sind 1 818, 2 727, 3 636, 4 545, 5 454, 6 363, 7 272, 8 181; 909 · 6 = 5 454. 📄 Quelle: erk08, Folie 1 (S.1)",
+  "source": "erk08, Folie 1 (S.1, Zahlenmuster / NANA-Zahlen)"
+ },
+ {
+  "id": "erk08-b1-012",
+  "topic": "erk08_gerade_ungerade",
+  "difficulty": 1,
+  "type": "multi",
+  "question": "Wie lassen sich gerade bzw. ungerade Zahlen laut Blatt mit Plättchen legen?",
+  "options": [
+   "Gerade Zahlen als Doppelreihe",
+   "Ungerade Zahlen als Doppelreihe plus 1 Plättchen extra",
+   "Ungerade Zahlen als vollständige Doppelreihe",
+   "Gerade Zahlen als Doppelreihe plus 1 Plättchen extra"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "explanation": "Auf dem Blatt steht: Gerade Zahlen lassen sich als Doppelreihe legen, ungerade Zahlen als Doppelreihe plus 1 Plättchen extra. 📄 Quelle: erk08, Folie 1 (S.1)",
+  "source": "erk08, Folie 1 (S.1, Gerade Zahlen, ungerade Zahlen)"
+ },
+ {
+  "id": "erk08-b1-013",
+  "topic": "erk08_gerade_ungerade",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Aussagen über Summen sollen auf dem Blatt mit Hilfe der Doppelreihe begründet werden (und sind korrekt)?",
+  "options": [
+   "Die Summe zweier gerader Zahlen ist immer gerade",
+   "Die Summe zweier ungerader Zahlen ist immer gerade",
+   "Die Summe einer geraden und einer ungeraden Zahl ist immer ungerade",
+   "Die Summe zweier ungerader Zahlen ist immer ungerade"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Die drei zu begründenden Aussagen lauten: a) gerade + gerade = gerade, b) ungerade + ungerade = gerade, c) gerade + ungerade = ungerade. Die vierte Aussage widerspricht b) und ist falsch. 📄 Quelle: erk08, Folie 1 (S.1)",
+  "source": "erk08, Folie 1 (S.1, Gerade Zahlen, ungerade Zahlen)"
+ },
+ {
+  "id": "erk08-b1-014",
+  "topic": "erk08_gerade_ungerade",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Wie werden die beiden Plättchenbilder auf dem Blatt beschriftet?",
+  "options": [
+   "24, gerade und 45, ungerade",
+   "24, ungerade und 45, gerade",
+   "24, gerade und 45, gerade",
+   "24, ungerade und 45, ungerade"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Plättchenbilder sind mit „24, gerade“ und „45, ungerade“ beschriftet. 📄 Quelle: erk08, Folie 1 (S.1)",
+  "source": "erk08, Folie 1 (S.1, Gerade Zahlen, ungerade Zahlen)"
+ },
+ {
+  "id": "erk08-b1-015",
+  "topic": "erk08_verknuepfungstafel",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Was ist laut Erkundung II eine „erzeugende“ Zahl einer Verknüpfung?",
+  "options": [
+   "Eine Zahl, mit der man durch fortwährende Verknüpfung mit sich selbst alle zu verknüpfenden Elemente erhält",
+   "Die kleinste Zahl in der Verknüpfungstafel",
+   "Eine Zahl, die beim Teilen durch 5 den Rest 0 lässt",
+   "Das neutrale Element der Verknüpfung"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Erkundung II definiert: Eine „erzeugende“ Zahl solch einer Verknüpfung nennt man eine Zahl, mit der man durch fortwährende Verknüpfung mit sich selbst alle zu verknüpfenden Elemente erhält. 📄 Quelle: erk08, Folie 2 (S.2)",
+  "source": "erk08, Folie 2 (S.2, Erkundung VIII / Erkundung II)"
+ },
+ {
+  "id": "erk08-b1-016",
+  "topic": "erk08_verknuepfungstafel",
+  "difficulty": 1,
+  "type": "multi",
+  "question": "Welche Reste können beim Teilen durch 5 auftreten (Grundlage der Verknüpfungstafel für das Teilen mit 5)?",
+  "options": [
+   "0",
+   "1",
+   "2",
+   "3",
+   "4",
+   "5"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "explanation": "Erkundung II nennt die möglichen Reste beim Teilen durch 5 ausdrücklich: 0, 1, 2, 3, 4 (der Rest 5 kann nicht auftreten). 📄 Quelle: erk08, Folie 2 (S.2)",
+  "source": "erk08, Folie 2 (S.2, Erkundung VIII / Erkundung II)"
+ },
+ {
+  "id": "erk08-b1-017",
+  "topic": "erk08_verknuepfungstafel",
+  "difficulty": 2,
+  "type": "single",
+  "question": "In der Verknüpfungstafel mit den Elementen g und u und der Verknüpfung „+“: Welches Ergebnis steht laut Blatt im Feld der zweiten Zeile und dritten Spalte?",
+  "options": [
+   "das Ergebnis von „gerade Zahl + ungerade Zahl“",
+   "das Ergebnis von „gerade Zahl + gerade Zahl“",
+   "das Ergebnis von „ungerade Zahl + ungerade Zahl“",
+   "das Ergebnis von „ungerade Zahl + gerade Zahl“"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Auf dem Blatt steht: In dem Feld in der zweiten Zeile und dritten Spalte steht das Ergebnis der Rechnung „gerade Zahl + ungerade Zahl“ (Zeile g, Spalte u). 📄 Quelle: erk08, Folie 2 (S.2)",
+  "source": "erk08, Folie 2 (S.2, Erkundung VIII / Erkundung I a)"
+ }
+]
