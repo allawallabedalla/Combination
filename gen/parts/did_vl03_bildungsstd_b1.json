@@ -1,0 +1,183 @@
+[
+  {
+    "id": "did_vl03_bildungsstd-b1-001",
+    "topic": "did_vl03_bildungsstd_problemloesen",
+    "difficulty": 1,
+    "type": "multi",
+    "question": "Welche Aussagen treffen auf die Problemlöse-Lernumgebung aus Klasse 4 zu, die als Beispiel vorgestellt wird?",
+    "options": ["Sie trägt den Namen Zahlengitter", "Die Kinder sollen möglichst viele Pluszahl-Paare finden, die zur Zielzahl 20 führen", "Die Zielzahl beträgt 30", "Es geht um das Spiegeln von Figuren in der Geometrie"],
+    "correct": [0, 1],
+    "explanation": "Die Lernumgebung heißt Zahlengitter; die Aufgabe für Klasse 4 lautet: Finde möglichst viele Pluszahl-Paare, die zur Zielzahl 20 führen. 📄 Quelle: did_vl03_bildungsstd, Folie 3 (S.3)",
+    "source": "did_vl03_bildungsstd, Folie 3 (S.3, Einführung – Problemlösen Beispiel Klasse 4)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b1-002",
+    "topic": "did_vl03_bildungsstd_problemloesen",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Welche Zielzahl ist bei der vorgestellten Zahlengitter-Aufgabe (Klasse 4) vorgegeben?",
+    "answer": 20,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Die Aufgabe lautet: Finde möglichst viele Pluszahl-Paare, die zur Zielzahl 20 führen. 📄 Quelle: did_vl03_bildungsstd, Folie 3 (S.3)",
+    "source": "did_vl03_bildungsstd, Folie 3 (S.3, Einführung – Problemlösen Beispiel Klasse 4)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b1-003",
+    "topic": "did_vl03_bildungsstd_loesungsstrategien",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche unterschiedlichen Vorgehensweisen (Nutzung und Entwicklung von Lösungsstrategien) zeigten die Kinder beim Finden der Pluszahlen-Paare?",
+    "options": ["Unsystematisches oder unsystematisch erscheinendes Probieren", "Ableiten eines Pluszahlen-Paares aus seinem Tauschpaar", "Zerlegen der Mittelzahl 10 in zwei Summanden, die dann als Pluszahlen dienen", "Operatives Verändern der Pluszahlen", "Nachschlagen der Lösungen in einer Formelsammlung"],
+    "correct": [0, 1, 2, 3],
+    "explanation": "Auf der Folie werden vier Vorgehensweisen genannt: unsystematisches Probieren, Ableiten aus dem Tauschpaar, Zerlegen der Mittelzahl 10 in zwei Summanden und operatives Verändern der Pluszahlen. Das Nachschlagen in einer Formelsammlung gehört nicht dazu. 📄 Quelle: did_vl03_bildungsstd, Folie 4 (S.4)",
+    "source": "did_vl03_bildungsstd, Folie 4 (S.4, Einführung – Problemlösen Beispiel Klasse 4)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b1-004",
+    "topic": "did_vl03_bildungsstd_loesungsstrategien",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Was entsteht laut Folie beim 'Ableiten eines Pluszahlen-Paares aus seinem Tauschpaar' aus dem Paar (+2; +8)?",
+    "options": ["(+8; +2)", "(+2; +8) bleibt unverändert", "(+3; +7)", "(+10; +10)"],
+    "correct": [0],
+    "explanation": "Als Beispiel wird angegeben: aus (+2; +8) wird (+8; +2) gewonnen. 📄 Quelle: did_vl03_bildungsstd, Folie 4 (S.4)",
+    "source": "did_vl03_bildungsstd, Folie 4 (S.4, Einführung – Problemlösen Beispiel Klasse 4)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b1-005",
+    "topic": "did_vl03_bildungsstd_loesungsstrategien",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Beim 'operativen Verändern der Pluszahlen' wird auf der Folie als Beispiel genannt: die linke Pluszahl um 1 erhöhen und ...",
+    "options": ["die obere um 1 vermindern", "die obere um 1 erhöhen", "die rechte um 2 vermindern", "die Zielzahl um 1 erhöhen"],
+    "correct": [0],
+    "explanation": "Beispiel für operatives Verändern: linke Pluszahl um 1 erhöhen, obere um 1 vermindern. 📄 Quelle: did_vl03_bildungsstd, Folie 4 (S.4)",
+    "source": "did_vl03_bildungsstd, Folie 4 (S.4, Einführung – Problemlösen Beispiel Klasse 4)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b1-006",
+    "topic": "did_vl03_bildungsstd_auffaelligkeiten",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Auffälligkeiten wurden in der Zusammenschau der Zahlengitter (Zielzahl 20) benannt?",
+    "options": ["Als Mittelzahl kommt immer die 10 (bzw. die 11) heraus", "Wenn die linke Pluszahl um 1 größer wird, wird die obere um 1 kleiner", "Rechts oben (bzw. links unten bzw. rechts unten / Zielzahl) steht immer eine gerade Zahl", "Die rechte mittlere und die untere Mittelzahl sind zusammen immer 30", "Als Mittelzahl kommt immer eine ungerade Primzahl heraus"],
+    "correct": [0, 1, 2, 3],
+    "explanation": "Genannt wurden u.a.: Mittelzahl immer 10 (bzw. 11); linke Pluszahl +1 → obere −1; rechts oben/links unten/rechts unten steht eine gerade Zahl; rechte mittlere und untere Mittelzahl zusammen immer 30. Die Aussage zur ungeraden Primzahl steht nicht auf der Folie. 📄 Quelle: did_vl03_bildungsstd, Folie 5 (S.5)",
+    "source": "did_vl03_bildungsstd, Folie 5 (S.5, Einführung – Problemlösen Beispiel Klasse 4)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b1-007",
+    "topic": "did_vl03_bildungsstd_auffaelligkeiten",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Welche Mittelzahl kommt laut den benannten Auffälligkeiten bei den Zahlengittern immer heraus?",
+    "options": ["Immer die 10 (bzw. die 11)", "Immer die 20", "Immer die 30", "Immer die 0"],
+    "correct": [0],
+    "explanation": "Auffälligkeit: 'Als Mittelzahl kommt immer die 10 (bzw. die 11) heraus.' 📄 Quelle: did_vl03_bildungsstd, Folie 5 (S.5)",
+    "source": "did_vl03_bildungsstd, Folie 5 (S.5, Einführung – Problemlösen Beispiel Klasse 4)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b1-008",
+    "topic": "did_vl03_bildungsstd_auffaelligkeiten",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Bei der Zielzahl 20 ergibt sich laut Folie immer welche Summe, wenn man die Zahlen von links oben nach rechts unten (bzw. von rechts oben nach links unten) addiert?",
+    "answer": 30,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Auffälligkeit: 'Bei der Zielzahl 20 sind es immer 30, wenn man die Zahlen von links oben nach rechts unten (bzw. von rechts oben nach links unten) addiert.' 📄 Quelle: did_vl03_bildungsstd, Folie 5 (S.5)",
+    "source": "did_vl03_bildungsstd, Folie 5 (S.5, Einführung – Problemlösen Beispiel Klasse 4)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b1-009",
+    "topic": "did_vl03_bildungsstd_zielzahl22",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Beobachtungen notierte das Kind (Elisabeth) zu allen Zahlengittern mit der Zielzahl 22?",
+    "options": ["Die 11 ist immer in der Mitte", "Die Startzahl ist immer 0", "Es kommt immer 22 heraus", "Wenn die 11 nicht in der Mitte steht, ist die Lösung falsch", "Die Startzahl ist immer 11"],
+    "correct": [0, 1, 2, 3],
+    "explanation": "Elisabeth notierte u.a.: Die 11 ist immer in der Mitte; die Startzahl ist immer 0; es kommt immer 22 heraus; wenn die 11 nicht in der Mitte steht, ist die Lösung falsch. Die Startzahl ist 0, nicht 11. 📄 Quelle: did_vl03_bildungsstd, Folie 8 (S.8)",
+    "source": "did_vl03_bildungsstd, Folie 8 (S.8, Einführung – Problemlösen Beispiel Klasse 4, Zielzahl 22)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b1-010",
+    "topic": "did_vl03_bildungsstd_zielzahl22",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Welche Zahl steht laut der Schülerbeobachtung bei den Zahlengittern mit Zielzahl 22 immer in der Mitte?",
+    "answer": 11,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Beobachtung: 'Die 11 ist immer in der Mitte.' 📄 Quelle: did_vl03_bildungsstd, Folie 8 (S.8)",
+    "source": "did_vl03_bildungsstd, Folie 8 (S.8, Einführung – Problemlösen Beispiel Klasse 4, Zielzahl 22)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b1-011",
+    "topic": "did_vl03_bildungsstd_kommunizieren",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aspekte gehören laut Folie zur allgemeinen Kompetenz 'Kommunizieren'?",
+    "options": ["Eigene Vorgehensweisen beschreiben, Lösungswege anderer verstehen und gemeinsam darüber reflektieren", "Mathematische Fachbegriffe und Zeichen sachgerecht verwenden", "Aufgaben gemeinsam bearbeiten, dabei Verabredungen treffen und einhalten", "Formeln auswendig lernen und Rechenverfahren automatisieren"],
+    "correct": [0, 1, 2],
+    "explanation": "Zur Kompetenz Kommunizieren zählen: eigene Vorgehensweisen beschreiben und Lösungswege anderer verstehen/reflektieren, mathematische Fachbegriffe und Zeichen sachgerecht verwenden sowie Aufgaben gemeinsam bearbeiten und Verabredungen treffen/einhalten. Das Automatisieren von Rechenverfahren ist hier nicht genannt. 📄 Quelle: did_vl03_bildungsstd, Folie 9 (S.9)",
+    "source": "did_vl03_bildungsstd, Folie 9 (S.9, Einführung – Kommunizieren)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b1-012",
+    "topic": "did_vl03_bildungsstd_kommunizieren",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Wie sollen Lernende gemäß der Kompetenz 'Kommunizieren' mit mathematischen Fachbegriffen und Zeichen umgehen?",
+    "options": ["Sie sachgerecht verwenden", "Sie möglichst vermeiden", "Sie nur mündlich, nie schriftlich benutzen", "Sie durch Alltagssprache ersetzen"],
+    "correct": [0],
+    "explanation": "Folie: 'mathematische Fachbegriffe und Zeichen sachgerecht verwenden'. 📄 Quelle: did_vl03_bildungsstd, Folie 9 (S.9)",
+    "source": "did_vl03_bildungsstd, Folie 9 (S.9, Einführung – Kommunizieren)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b1-013",
+    "topic": "did_vl03_bildungsstd_kommunizieren",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Beim Schulfest wurden 956 Euro eingenommen und gleichmäßig auf vier Klassen verteilt. Wie viel Euro erhält jede Klasse?",
+    "answer": 239,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "Die Aufgabe (vor der Behandlung der Division mit großen Zahlen) lautet: 956 Euro werden auf vier Klassen verteilt; 956 : 4 = 239. 📄 Quelle: did_vl03_bildungsstd, Folie 10 (S.10)",
+    "source": "did_vl03_bildungsstd, Folie 10 (S.10, Einführung – Kommunizieren Beispiel Klasse 4)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b1-014",
+    "topic": "did_vl03_bildungsstd_kommunizieren",
+    "difficulty": 2,
+    "type": "single",
+    "question": "In welchem unterrichtlichen Zusammenhang wird die Schulfest-Aufgabe (956 Euro auf vier Klassen) laut Folie eingesetzt?",
+    "options": ["Vor der Behandlung der Division mit großen Zahlen", "Nach der Einführung des schriftlichen Wurzelziehens", "Als Einstieg in die Bruchrechnung", "Zur Wiederholung der schriftlichen Multiplikation"],
+    "correct": [0],
+    "explanation": "Die Folie kennzeichnet die Aufgabe ausdrücklich als 'vor der Behandlung der Division mit großen Zahlen'. 📄 Quelle: did_vl03_bildungsstd, Folie 10 (S.10)",
+    "source": "did_vl03_bildungsstd, Folie 10 (S.10, Einführung – Kommunizieren Beispiel Klasse 4)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b1-015",
+    "topic": "did_vl03_bildungsstd_kommunizieren",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Lösungswege für 956 : 4 dokumentieren die gezeigten Kinderlösungen (Nicole und Mira)?",
+    "options": ["Aufteilen der Aufgabe in Teilschritte (z. B. 800 : 4 = 200 usw.)", "Zweimaliges Halbieren: 956 : 2 = 478 und 478 : 2 = 239", "Schriftliche Division mit ausführlichem Rest-Verfahren", "Runden auf 1000 und anschließendes Multiplizieren"],
+    "correct": [0, 1],
+    "explanation": "Nicole teilte die Aufgabe in Teilschritte auf (u.a. 800 : 4 = 200); Mira rechnete durch zweimaliges Halbieren: 956 : 2 = 478, dann 478 : 2 = 239. 📄 Quelle: did_vl03_bildungsstd, Folie 11 (S.11)",
+    "source": "did_vl03_bildungsstd, Folie 11 (S.11, Einführung – Kommunizieren Beispiel Klasse 4)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b1-016",
+    "topic": "did_vl03_bildungsstd_kommunizieren",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Zu welchem Ergebnis kommt Miras Lösungsweg (956 : 2 = 478; 478 : 2 = ...) für die Aufgabe 956 : 4?",
+    "answer": 239,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Mira halbiert zweimal: 956 : 2 = 478 und 478 : 2 = 239; das Ergebnis ist 239. 📄 Quelle: did_vl03_bildungsstd, Folie 11 (S.11)",
+    "source": "did_vl03_bildungsstd, Folie 11 (S.11, Einführung – Kommunizieren Beispiel Klasse 4)"
+  }
+]
