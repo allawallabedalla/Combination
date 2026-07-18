@@ -1,0 +1,132 @@
+[
+ {
+  "id": "erk06-b1-001",
+  "topic": "erk06_kunstwerk",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Von wem stammt das auf der Schulbuchseite abgebildete Kunstwerk laut Bildunterschrift („… : Konstruktionen um das Thema 3:4:5\")?",
+  "options": [
+   "Max Bill",
+   "Piet Mondrian",
+   "Wassily Kandinsky",
+   "Paul Klee"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Bildunterschrift lautet „Max Bill: Konstruktionen um das Thema 3:4:5\". 📄 Quelle: erk06, Folie 1 (S.1)",
+  "source": "erk06, Folie 1 (S.1, Erkundung VI – Entdeckungen an einem Kunstwerk)"
+ },
+ {
+  "id": "erk06-b1-002",
+  "topic": "erk06_umfang",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Was nennt man laut Aufgabe 5 der Schulbuchseite „Umfang\" eines Quadrats?",
+  "options": [
+   "Die Gesamtlänge der durch das Umfahren des Quadrats zurückgelegten Strecke",
+   "Den Flächeninhalt des Quadrats",
+   "Die Länge einer Diagonale des Quadrats",
+   "Die Länge einer einzelnen Seite des Quadrats"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Aufgabe 5: „Die Gesamtlänge dieser durch das Umfahren zurückgelegten Strecke nennt man Umfang.\" 📄 Quelle: erk06, Folie 1 (S.1)",
+  "source": "erk06, Folie 1 (S.1, Schulbuchseite Aufgabe 5)"
+ },
+ {
+  "id": "erk06-b1-003",
+  "topic": "erk06_umfang",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Welchen Umfang hat laut Aufgabe 5 das kleinste Quadrat (gemessen in Seitenlängen des kleinsten Quadrats)?",
+  "answer": 4,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Aufgabe 5: „Das kleinste Quadrat hat den Umfang 4 (4-mal die Seitenlänge des kleinsten Quadrats).\" 📄 Quelle: erk06, Folie 1 (S.1)",
+  "source": "erk06, Folie 1 (S.1, Schulbuchseite Aufgabe 5)"
+ },
+ {
+  "id": "erk06-b1-004",
+  "topic": "erk06_verhaeltnis_345",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Was bedeutet laut Erkundung I das Verhältnis 3:4:5 im Titel des Werks?",
+  "options": [
+   "Auf eine Seite des Dreiecks passen drei Quadrate, auf die nächste vier und auf die letzte fünf",
+   "Die Seitenlängen des Dreiecks betragen genau 3 cm, 4 cm und 5 cm",
+   "Das Bild ist aus 3·4·5 = 60 gleich großen Quadraten zusammengesetzt",
+   "Das Dreieck wird in die Verhältnisse 3, 4 und 5 zerschnitten"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Erkundung I: 3:4:5 im Titel meint, dass auf eine Seite des Dreiecks drei Quadrate, auf die nächste vier und auf die letzte fünf passen. 📄 Quelle: erk06, Folie 2 (S.2)",
+  "source": "erk06, Folie 2 (S.2, Erkundung I)"
+ },
+ {
+  "id": "erk06-b1-005",
+  "topic": "erk06_verhaeltnis_345",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Aussagen zur Konstruktion des Werks sind laut Erkundung I korrekt?",
+  "options": [
+   "Alle Quadrate sind gleich groß",
+   "Zwischen den kleineren Seiten des Dreiecks ist ein rechter Winkel",
+   "In das Quadrat über der größten Dreiecksseite passen genauso viele kleine Quadrate (25) wie in die Quadrate über den kleineren Seiten (9 und 16)",
+   "Das zugrunde liegende Dreieck ist gleichseitig"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Erkundung I: Alle Quadrate sind gleich groß; zwischen den kleineren Seiten ist ein rechter Winkel; über der größten Seite passen 25 kleine Quadrate, ebenso viele wie über den kleineren Seiten zusammen (9 und 16). Ein gleichseitiges Dreieck ist nicht genannt. 📄 Quelle: erk06, Folie 2 (S.2)",
+  "source": "erk06, Folie 2 (S.2, Erkundung I)"
+ },
+ {
+  "id": "erk06-b1-006",
+  "topic": "erk06_verhaeltnis_345",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Wie viele kleine Quadrate passen laut Erkundung I in das Quadrat über der größten Dreiecksseite (bei 9 und 16 über den kleineren Seiten)?",
+  "answer": 25,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Erkundung I: In das Quadrat über der größten Dreiecksseite passen genauso viele kleine Quadrate (25) wie in die Quadrate über den kleineren Seiten (9 und 16); 9 + 16 = 25. 📄 Quelle: erk06, Folie 2 (S.2)",
+  "source": "erk06, Folie 2 (S.2, Erkundung I)"
+ },
+ {
+  "id": "erk06-b1-007",
+  "topic": "erk06_pythagoreische_tripel",
+  "difficulty": 3,
+  "type": "multi",
+  "question": "In Aufgabe c) wird für zwei natürliche Zahlen u und v mit u > v eine Methode festgelegt. Welche Festlegungen trifft diese Methode?",
+  "options": [
+   "x = u² − v²",
+   "y = 2·u·v",
+   "z² = x² + y²",
+   "u < v"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Aufgabe c): mit u > v gilt 1) x = u² − v² und 2) y = 2·u·v; dann ist z² = x² + y² das Quadrat einer natürlichen Zahl z. Die Bedingung lautet u > v, nicht u < v. 📄 Quelle: erk06, Folie 2 (S.2)",
+  "source": "erk06, Folie 2 (S.2, Erkundung I, Aufgabe c)"
+ },
+ {
+  "id": "erk06-b1-008",
+  "topic": "erk06_pythagoreische_tripel",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Wendet man die Methode aus Aufgabe c) mit u = 2 und v = 1 an (x = u² − v², y = 2·u·v, z² = x² + y²), welchen Wert hat z?",
+  "answer": 5,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Mit u = 2, v = 1: x = 4 − 1 = 3, y = 2·2·1 = 4, z² = 3² + 4² = 9 + 16 = 25, also z = 5 (Tripel 3, 4, 5). 📄 Quelle: erk06, Folie 2 (S.2)",
+  "source": "erk06, Folie 2 (S.2, Erkundung I, Aufgabe c)"
+ }
+]
