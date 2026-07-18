@@ -1,0 +1,417 @@
+[
+ {
+  "id": "ari23_vl03-b1-001",
+  "topic": "ari23_vl03_fachdidaktik",
+  "difficulty": 1,
+  "type": "multi",
+  "question": "Im Zitat „Mathematik ist wie Kunst und Musik\" (Spiegel & Selter 2003) steht „Mathematik\" für eine Tätigkeit. Welche Aspekte werden dieser Tätigkeit laut Folie zugeschrieben?",
+  "options": [
+   "Intuition, Phantasie und schöpferisches Denken",
+   "Einsichten durch eigenes und gemeinschaftliches Nachdenken erwerben",
+   "Selbstständig Entdeckungen machen und Freude am Denken aufbauen",
+   "Ausschließlich das fehlerfreie Reproduzieren bereits fertiger Formeln"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Laut Zitat steht „Mathematik\" für eine Tätigkeit, bei der Intuition, Phantasie und schöpferisches Denken beteiligt sind, man durch eigenes und gemeinschaftliches Nachdenken Einsichten erwirbt, selbstständig Entdeckungen macht und Freude am Denken aufbaut. Das reine Reproduzieren fertiger Formeln wird gerade nicht gemeint. 📄 Quelle: ari23_vl03, Folie 3 (S.3)",
+  "source": "ari23_vl03, Folie 3 (S.3, Mathematik ist wie Kunst und Musik)"
+ },
+ {
+  "id": "ari23_vl03-b1-002",
+  "topic": "ari23_vl03_peano_axiome",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Welches Peano-Axiom sichert (zusammen mit dem 1-Element und der Eindeutigkeit des Nachfolgers), dass eine Teilmenge der Natürlichen Zahlen gleich den Natürlichen Zahlen ist?",
+  "options": [
+   "Axiom 1",
+   "Axiom 2",
+   "Axiom 5",
+   "Axiom 3"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Das 1-Element (Axiom 1) und die Eindeutigkeit des Nachfolgers (Axiom 2) sichern, dass eine Teilmenge der Natürlichen Zahlen gleich den Natürlichen Zahlen ist (Axiom 5). 📄 Quelle: ari23_vl03, Folie 5 (S.5)",
+  "source": "ari23_vl03, Folie 5 (S.5, Rückblick)"
+ },
+ {
+  "id": "ari23_vl03-b1-003",
+  "topic": "ari23_vl03_peano_axiome",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Was sollten Sie laut Rückblick über die Natürlichen Zahlen können/wissen?",
+  "options": [
+   "Die fünf Axiome (Peano-Axiome) der Natürlichen Zahlen",
+   "Das 1-Element wird durch Axiom 1 festgelegt",
+   "Die Eindeutigkeit des Nachfolgers wird durch Axiom 2 gesichert",
+   "Eine Vorstellung davon haben, wann die Axiome verletzt werden (anhand konkreter Beispiele)"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explanation": "Der Rückblick nennt: die fünf Axiome (Peano-Axiome), eine Vorstellung davon, wann die Axiome verletzt werden (anhand konkreter Beispiele), sowie dass Axiom 1 (1-Element) und Axiom 2 (Eindeutigkeit des Nachfolgers) zusammen mit Axiom 5 wirken. 📄 Quelle: ari23_vl03, Folie 5 (S.5)",
+  "source": "ari23_vl03, Folie 5 (S.5, Rückblick)"
+ },
+ {
+  "id": "ari23_vl03-b1-004",
+  "topic": "ari23_vl03_vollstaendige_induktion",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Was besagt der Induktionsanfang bei der vollständigen Induktion?",
+  "options": [
+   "A(n) ist wahr für n=1 (bzw. die kleinste natürliche Zahl, für die die Aussage gelten soll)",
+   "A(n) sei wahr für ein festes, aber beliebiges n∈ℕ",
+   "Man zeigt, dass die Aussage für A(n+1) wahr ist",
+   "A(n) ist für alle n∈ℕ falsch"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Induktionsanfang: A(n) ist wahr für n=1 (bzw. die kleinste natürliche Zahl, für die die Aussage gelten soll). Die zweite Option beschreibt die Induktionsvoraussetzung, die dritte den Induktionsschluss. 📄 Quelle: ari23_vl03, Folie 6 (S.6)",
+  "source": "ari23_vl03, Folie 6 (S.6, Rückblick)"
+ },
+ {
+  "id": "ari23_vl03-b1-005",
+  "topic": "ari23_vl03_vollstaendige_induktion",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Aussagen zur Technik der vollständigen Induktion sind laut Folie korrekt?",
+  "options": [
+   "Induktionsvoraussetzung: A(n) sei wahr für ein festes, aber beliebiges n∈ℕ",
+   "Induktionsschluss: n → (n+1) — man zeigt, dass A(n+1) wahr ist",
+   "Beim Induktionsschluss darf die Induktionsvoraussetzung verwendet werden",
+   "Beim Induktionsschluss darf die Induktionsvoraussetzung nicht verwendet werden"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Induktionsvoraussetzung: A(n) sei wahr für ein festes, aber beliebiges n∈ℕ. Induktionsschluss: n → (n+1); man zeigt, dass A(n+1) wahr ist, und darf dabei die I.V. verwenden. Die letzte Option ist daher falsch. 📄 Quelle: ari23_vl03, Folie 6 (S.6)",
+  "source": "ari23_vl03, Folie 6 (S.6, Rückblick)"
+ },
+ {
+  "id": "ari23_vl03-b1-006",
+  "topic": "ari23_vl03_folgen_summen",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Für die Folge 1, 4, 7, 10, … gilt a(n) = 3n − 2. Berechnen Sie a(20).",
+  "answer": 58,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "a(n) = 3n − 2, also a(20) = 3·20 − 2 = 60 − 2 = 58. 📄 Quelle: ari23_vl03, Folie 8 (S.8)",
+  "source": "ari23_vl03, Folie 8 (S.8, Rückblick: Entdeckung)"
+ },
+ {
+  "id": "ari23_vl03-b1-007",
+  "topic": "ari23_vl03_folgen_summen",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Für die Folge 1, 4, 7, 10, … gilt für die Summe der ersten n Glieder Sₙ = n·(3n−1)/2. Berechnen Sie S₆ (Summe der ersten 6 Glieder).",
+  "answer": 51,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Sₙ = n·(3n−1)/2, also S₆ = 6·(3·6−1)/2 = 6·17/2 = 51. Dies stimmt mit dem Tabellenwert S(6) = 51 überein. 📄 Quelle: ari23_vl03, Folie 8 (S.8)",
+  "source": "ari23_vl03, Folie 8 (S.8, Rückblick: Entdeckung)"
+ },
+ {
+  "id": "ari23_vl03-b1-008",
+  "topic": "ari23_vl03_folgen_summen",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Ergebnisse wurden bei der Untersuchung der Folge 1, 4, 7, 10, … gefunden?",
+  "options": [
+   "Die n-te Zahl lautet a(n) = 3n − 2",
+   "Die Summe der ersten n Glieder lautet Sₙ = n·(3n−1)/2",
+   "Die Herleitung der Summenformel erfolgt analog zum „kleinen Gauß\"",
+   "Die n-te Zahl lautet a(n) = 3n + 2"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Frage 1: a(n) = 3n − 2. Frage 2: Sₙ = n·(3n−1)/2, hergeleitet analog zum kleinen Gauß (Umkehrung der Reihe und paarweises Addieren). a(n) = 3n + 2 ist falsch. 📄 Quelle: ari23_vl03, Folie 8 (S.8)",
+  "source": "ari23_vl03, Folie 8 (S.8, Rückblick: Entdeckung)"
+ },
+ {
+  "id": "ari23_vl03-b1-009",
+  "topic": "ari23_vl03_vollstaendige_induktion",
+  "difficulty": 2,
+  "type": "single",
+  "question": "In der Übung zur vollständigen Induktion für Sₙ = n·(3n−1)/2: Womit soll man den Induktionsschritt laut Tipp beginnen?",
+  "options": [
+   "Damit, A(n+1) aufzuschreiben",
+   "Damit, A(n) aufzuschreiben",
+   "Damit, den Induktionsanfang zu wiederholen",
+   "Damit, die Startzahlen zu bestimmen"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Der Tipp auf der Folie lautet: „Starte damit A(n+1) aufzuschreiben!\" 📄 Quelle: ari23_vl03, Folie 9 (S.9)",
+  "source": "ari23_vl03, Folie 9 (S.9, Vollständige Induktion – Übung)"
+ },
+ {
+  "id": "ari23_vl03-b1-010",
+  "topic": "ari23_vl03_vollstaendige_induktion",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Induktionsanfang der Übung: Prüfen Sie den zu beweisenden Satz Sₙ = n·(3n−1)/2 für n=1. Welchen Wert liefert die Formel für S₁?",
+  "answer": 1,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Für n=1: S₁ = 1·(3·1−1)/2 = 1·2/2 = 1. Das entspricht dem ersten Folgenglied (1), also ist der Induktionsanfang erfüllt. 📄 Quelle: ari23_vl03, Folie 9 (S.9)",
+  "source": "ari23_vl03, Folie 9 (S.9, Vollständige Induktion – Übung)"
+ },
+ {
+  "id": "ari23_vl03-b1-011",
+  "topic": "ari23_vl03_fibonacci",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Die „neue\" Fibonacci-Folge hat die Startzahlen f̃₁ = 4 und f̃₂ = 7 und die Regel f̃ₙ = f̃₍ₙ₋₂₎ + f̃₍ₙ₋₁₎ (für n > 2). Wie lautet f̃₅?",
+  "answer": 29,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Die Folge lautet 4, 7, 11, 18, 29, … Also f̃₃ = 4+7 = 11, f̃₄ = 7+11 = 18, f̃₅ = 11+18 = 29. 📄 Quelle: ari23_vl03, Folie 11 (S.11)",
+  "source": "ari23_vl03, Folie 11 (S.11, Erkundung II)"
+ },
+ {
+  "id": "ari23_vl03-b1-012",
+  "topic": "ari23_vl03_fibonacci",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Aussagen zur „neuen\" (modifizierten) Fibonacci-Folge sind laut Folie korrekt?",
+  "options": [
+   "Die Startzahlen sind f̃₁ = 4 und f̃₂ = 7",
+   "Die Bildungsregel lautet f̃ₙ = f̃₍ₙ₋₂₎ + f̃₍ₙ₋₁₎ für n > 2",
+   "Die Schlange (Tilde) über dem f markiert den Unterschied zu den echten Fibonacci-Zahlen",
+   "Die neue Folge lautet 4, 7, 11, 18, 29, 47, 76, …"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explanation": "Die echte Folge 1,1,2,3,5,8,13,… wird mit Startzahlen f̃₁ = 4 und f̃₂ = 7 sowie der Regel f̃ₙ = f̃₍ₙ₋₂₎ + f̃₍ₙ₋₁₎ (n>2) verändert; die neue Folge lautet 4, 7, 11, 18, 29, 47, 76, … Die Tilde („Schlange\") kennzeichnet den Unterschied zu den echten Fibonacci-Zahlen. 📄 Quelle: ari23_vl03, Folie 11 (S.11)",
+  "source": "ari23_vl03, Folie 11 (S.11, Erkundung II)"
+ },
+ {
+  "id": "ari23_vl03-b1-013",
+  "topic": "ari23_vl03_fibonacci",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Die „neue\" Fibonacci-Summenfolge lautet 4, 11, 22, 40, 69, … Wie lautet ihr 4. Wert?",
+  "answer": 40,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Die neue Fibonacci-Summenfolge ist 4, 11, 22, 40, 69, … Der 4. Wert ist 40. 📄 Quelle: ari23_vl03, Folie 11 (S.11)",
+  "source": "ari23_vl03, Folie 11 (S.11, Erkundung II)"
+ },
+ {
+  "id": "ari23_vl03-b1-014",
+  "topic": "ari23_vl03_fibonacci",
+  "difficulty": 3,
+  "type": "multi",
+  "question": "Wie lässt sich das n-te Glied f̃ₙ der modifizierten Folge mit den echten Fibonacci-Zahlen fₙ darstellen?",
+  "options": [
+   "f̃ₙ = f₍ₙ₋₂₎·4 + f₍ₙ₋₁₎·7",
+   "Allgemein: f̃ₙ = f₍ₙ₋₂₎·s₁ + f₍ₙ₋₁₎·s₂ mit den Startzahlen s₁ und s₂",
+   "Die Koeffizienten sind die echten Fibonacci-Zahlen",
+   "f̃ₙ = f₍ₙ₋₂₎·7 + f₍ₙ₋₁₎·4"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Schreibt man die Glieder als Vielfache der Startzahlen, ergibt sich f̃ₙ = f₍ₙ₋₂₎·4 + f₍ₙ₋₁₎·7; die Koeffizienten sind die echten Fibonacci-Zahlen. Verallgemeinert für beliebige Startzahlen: f̃ₙ = f₍ₙ₋₂₎·s₁ + f₍ₙ₋₁₎·s₂. Die Vertauschung der Faktoren (7 und 4) ist falsch. 📄 Quelle: ari23_vl03, Folie 12 (S.12)",
+  "source": "ari23_vl03, Folie 12 (S.12, Erkundung II)"
+ },
+ {
+  "id": "ari23_vl03-b1-015",
+  "topic": "ari23_vl03_fibonacci",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Laut Tabelle (Startzahlen 4 und 7): Wie groß ist die Summe der ersten 6 Glieder der modifizierten Fibonacci-Folge?",
+  "answer": 116,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Die Summenspalte der Tabelle lautet 4, 11, 22, 40, 69, 116, … Die Summe der ersten 6 Glieder ist 116. 📄 Quelle: ari23_vl03, Folie 12 (S.12)",
+  "source": "ari23_vl03, Folie 12 (S.12, Erkundung II)"
+ },
+ {
+  "id": "ari23_vl03-b1-016",
+  "topic": "ari23_vl03_fibonacci",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Die Strategie „Anders darstellen: die Summe mit den einzelnen Summanden aufschreiben\" — was hat sie bei der Erkundung geleistet?",
+  "options": [
+   "Das Problem der Folgenglieder wurde gelöst",
+   "Die Lösung gelang sogar verallgemeinert für beliebige Startzahlen s₁ und s₂",
+   "Das Problem der Summe der ersten n Folgeglieder wurde damit bereits gelöst",
+   "Die Strategie half beim Bestimmen der einzelnen Folgenglieder"
+  ],
+  "correct": [
+   0,
+   1,
+   3
+  ],
+  "explanation": "Die Strategie half, das Problem der Folgenglieder zu lösen — sogar verallgemeinert für beliebige Startzahlen s₁ und s₂. Das Problem der Summe der ersten n Folgeglieder war damit jedoch noch nicht gelöst. 📄 Quelle: ari23_vl03, Folie 13 (S.13)",
+  "source": "ari23_vl03, Folie 13 (S.13, Erkundung II)"
+ },
+ {
+  "id": "ari23_vl03-b1-017",
+  "topic": "ari23_vl03_fibonacci",
+  "difficulty": 3,
+  "type": "multi",
+  "question": "Bei der Herleitung der Summenformel S̃ₙ (Summe der ersten n Glieder) — welche Zwischenschritte sind laut Folie korrekt?",
+  "options": [
+   "S̃ₙ = f̃₍ₙ₊₂₎ − s₂",
+   "Mit (GL1): f̃₍ₙ₊₂₎ = fₙ·s₁ + f₍ₙ₊₁₎·s₂",
+   "S̃ₙ = fₙ·s₁ + (f₍ₙ₊₁₎ − 1)·s₂",
+   "S̃ₙ = f̃₍ₙ₊₂₎ + s₂"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Es gilt S̃ₙ = f̃₍ₙ₊₂₎ − 7 bzw. allgemein S̃ₙ = f̃₍ₙ₊₂₎ − s₂. Mit (GL1) f̃₍ₙ₊₂₎ = fₙ·s₁ + f₍ₙ₊₁₎·s₂ folgt S̃ₙ = fₙ·s₁ + f₍ₙ₊₁₎·s₂ − s₂ = fₙ·s₁ + (f₍ₙ₊₁₎ − 1)·s₂. Die Variante mit „+ s₂\" ist falsch. 📄 Quelle: ari23_vl03, Folie 14 (S.14)",
+  "source": "ari23_vl03, Folie 14 (S.14, Erkundung II)"
+ },
+ {
+  "id": "ari23_vl03-b1-018",
+  "topic": "ari23_vl03_fibonacci",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Wie lautet die auf Folie 14 hergeleitete Formel für die Summe S̃ₙ der ersten n Glieder der modifizierten Fibonacci-Folge?",
+  "options": [
+   "S̃ₙ = fₙ·s₁ + (f₍ₙ₊₁₎ − 1)·s₂",
+   "S̃ₙ = fₙ·s₁ + f₍ₙ₊₁₎·s₂",
+   "S̃ₙ = f₍ₙ₋₂₎·s₁ + f₍ₙ₋₁₎·s₂",
+   "S̃ₙ = fₙ·s₁ − (f₍ₙ₊₁₎ − 1)·s₂"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die hergeleitete Summenformel lautet S̃ₙ = fₙ·s₁ + (f₍ₙ₊₁₎ − 1)·s₂. 📄 Quelle: ari23_vl03, Folie 14 (S.14)",
+  "source": "ari23_vl03, Folie 14 (S.14, Erkundung II)"
+ },
+ {
+  "id": "ari23_vl03-b1-019",
+  "topic": "ari23_vl03_fachdidaktik",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Nachdem die Formel für S̃ₙ als Vermutung gefunden wurde: Welche drei Schritte nennt die Folie für das weitere Vorgehen?",
+  "options": [
+   "Beispiele machen, um die gefundene Formel (Vermutung) zu testen",
+   "Einen mathematischen Satz formulieren",
+   "Diesen mathematischen Satz beweisen",
+   "Die Vermutung sofort ohne weitere Prüfung als bewiesen ansehen"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Die drei Schritte lauten: 1. Beispiele machen, um die gefundene Formel (die bisher nur eine Vermutung ist) zu testen; 2. einen mathematischen Satz formulieren; 3. diesen Satz beweisen. 📄 Quelle: ari23_vl03, Folie 15 (S.15)",
+  "source": "ari23_vl03, Folie 15 (S.15, Erkundung II)"
+ },
+ {
+  "id": "ari23_vl03-b1-020",
+  "topic": "ari23_vl03_fachdidaktik",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Welchen Status hat die gefundene Formel S̃ₙ = fₙ·s₁ + (f₍ₙ₊₁₎ − 1)·s₂ laut Folie zunächst?",
+  "options": [
+   "Sie ist bis jetzt nur eine Vermutung",
+   "Sie ist bereits vollständig bewiesen",
+   "Sie ist ein Axiom",
+   "Sie ist ein Gegenbeispiel"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Folie betont, dass die gefundene Formel bis jetzt nur eine Vermutung ist, die erst getestet, als Satz formuliert und bewiesen werden muss. 📄 Quelle: ari23_vl03, Folie 15 (S.15)",
+  "source": "ari23_vl03, Folie 15 (S.15, Erkundung II)"
+ },
+ {
+  "id": "ari23_vl03-b1-021",
+  "topic": "ari23_vl03_fibonacci",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Beim Testen der Vermutung an drei Beispielen mit unterschiedlichen Startzahlen: Was zeigt der Vergleich der Spalten „Summe\" und „Probe\"?",
+  "options": [
+   "Die Werte stimmen in allen Beispielen überein, was die Vermutung bestätigt",
+   "Die Werte weichen voneinander ab, was die Vermutung widerlegt",
+   "Die Probe ist nur bei den echten Fibonacci-Zahlen (Startzahlen 1 und 1) gültig",
+   "Die Vermutung gilt nur für gerade n"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "In allen drei Beispielen (u. a. Startzahlen 1/1, 4/7 und 13/9) stimmen die tatsächliche Summe und die mit der Formel berechnete Probe überein; das bestätigt die Vermutung. 📄 Quelle: ari23_vl03, Folie 16 (S.16)",
+  "source": "ari23_vl03, Folie 16 (S.16, Erkundung II)"
+ },
+ {
+  "id": "ari23_vl03-b1-022",
+  "topic": "ari23_vl03_pascalsches_dreieck",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Wie ist das Pascal'sche Dreieck laut Folie aufgebaut?",
+  "options": [
+   "Die Reihe von Einsen am linken Rand ist die 0. Spalte",
+   "Die 1. Spalte enthält die Zahlen 1, 2, 3, 4, …",
+   "Die 3. Zeile hat die Einträge 1, 3, 3, 1",
+   "Zeilen und Spalten werden ab 0 gezählt"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explanation": "Die Reihe von Einsen von der Spitze am linken Rand ist die 0. Spalte; die nächste Reihe (1, 2, 3, 4, …) die 1. Spalte. Zeilen werden ebenfalls ab 0 von oben nach unten gezählt; die 3. Zeile hat die Einträge 1, 3, 3, 1. 📄 Quelle: ari23_vl03, Folie 20 (S.20)",
+  "source": "ari23_vl03, Folie 20 (S.20, Erkundung 2 – Pascal'sches Dreieck)"
+ },
+ {
+  "id": "ari23_vl03-b1-023",
+  "topic": "ari23_vl03_pascalsches_dreieck",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Die Einträge im Pascal'schen Dreieck sind Binomialkoeffizienten (n über k) = n!/(k!·(n−k)!), wobei n die Zeile und k die Spalte bezeichnet. Berechnen Sie (4 über 2).",
+  "answer": 6,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "(4 über 2) = 4!/(2!·2!) = 24/(2·2) = 24/4 = 6. 📄 Quelle: ari23_vl03, Folie 20 (S.20)",
+  "source": "ari23_vl03, Folie 20 (S.20, Erkundung 2 – Pascal'sches Dreieck)"
+ },
+ {
+  "id": "ari23_vl03-b1-024",
+  "topic": "ari23_vl03_pascalsches_dreieck",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Da eine Zahl im Pascal'schen Dreieck stets durch die Summe der beiden darüber stehenden Zahlen entsteht, gilt welche Gleichung (und Begründung)?",
+  "options": [
+   "(n+1 über k+1) = (n über k) + (n über k+1)",
+   "Jede Zahl ist die Summe der beiden darüber stehenden Zahlen",
+   "n bezeichnet die Zeile, k die Spalte",
+   "(n+1 über k+1) = (n über k) · (n über k+1)"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Weil jede Zahl im Pascal'schen Dreieck die Summe der beiden darüber stehenden Zahlen ist, gilt (n+1 über k+1) = (n über k) + (n über k+1); dabei bezeichnet n die Zeile und k die Spalte. Die multiplikative Variante ist falsch. 📄 Quelle: ari23_vl03, Folie 20 (S.20)",
+  "source": "ari23_vl03, Folie 20 (S.20, Erkundung 2 – Pascal'sches Dreieck)"
+ }
+]
