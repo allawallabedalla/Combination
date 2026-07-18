@@ -1,0 +1,218 @@
+[
+  {
+    "id": "ari23_vl08-b2-001",
+    "topic": "ari23_vl08_flaechen_griechen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Wie messen die Griechen zwei Rechtecke A und B als direkten Vergleich, wenn das Rechteck A eine Seitenlänge a hat? Welche Schritte gehören zum Verfahren?",
+    "options": [
+      "Forme das Rechteck B in ein Quadrat mit gleichem Flächeninhalt um.",
+      "Forme das entstandene Quadrat in ein Rechteck (B') mit gleichem Flächeninhalt und Seitenlänge a um.",
+      "Vergleiche die Höhen des Rechtecks A und des umgeformten Rechtecks B'.",
+      "Miss die Diagonalen beider Rechtecke und bilde ihren Quotienten."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Das Verfahren umfasst drei Schritte: B in ein flächengleiches Quadrat umformen, dieses Quadrat in ein flächengleiches Rechteck B' mit Seitenlänge a umformen und dann die Höhen von A und B' vergleichen. 📄 Quelle: ari23_vl08, Folie 15 (S.15)",
+    "source": "ari23_vl08, Folie 15 (S.15, Geometrie – Flächeninhalte bei den Griechen)"
+  },
+  {
+    "id": "ari23_vl08-b2-002",
+    "topic": "ari23_vl08_flaechen_griechen",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Auf welche Seitenlänge wird das aus dem Quadrat umgeformte Rechteck B' gebracht, damit ein direkter Vergleich mit Rechteck A möglich ist?",
+    "options": [
+      "Auf die Seitenlänge a (die Seitenlänge von Rechteck A)",
+      "Auf die Diagonale von Rechteck A",
+      "Auf die halbe Seitenlänge a",
+      "Auf eine beliebige neue Seitenlänge"
+    ],
+    "correct": [0],
+    "explanation": "Das entstandene Quadrat wird in ein Rechteck B' mit gleichem Flächeninhalt und der Seitenlänge a umgeformt, sodass anschließend die Höhen von A und B' verglichen werden können. 📄 Quelle: ari23_vl08, Folie 15 (S.15)",
+    "source": "ari23_vl08, Folie 15 (S.15, Geometrie – Flächeninhalte bei den Griechen)"
+  },
+  {
+    "id": "ari23_vl08-b2-003",
+    "topic": "ari23_vl08_pythagoras_verallgemeinerung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Was besagt die Flächenformulierung des Satzes des Pythagoras (Ausgangspunkt der Aufgabe) und was soll in der Aufgabe untersucht werden?",
+    "options": [
+      "Die Flächeninhalte der Quadrate über den Katheten eines rechtwinkligen Dreiecks entsprechen dem Flächeninhalt des Quadrats über der Hypotenuse.",
+      "Es soll ermittelt werden, ob dies auch mit anderen Figuren funktioniert, die an den Katheten und der Hypotenuse anliegen.",
+      "Der Satz gilt nur für gleichschenklige Dreiecke.",
+      "Die Flächen über den Katheten sind stets größer als die Fläche über der Hypotenuse."
+    ],
+    "correct": [0, 1],
+    "explanation": "Die Aufgabe geht von der Flächenaussage des Satzes des Pythagoras (Quadrate über den Katheten = Quadrat über der Hypotenuse) aus und fragt, ob dies auch für andere an den Seiten anliegende Figuren gilt. 📄 Quelle: ari23_vl08, Folie 17 (S.17)",
+    "source": "ari23_vl08, Folie 17 (S.17, Geometrie – Satz des Pythagoras: Verallgemeinerung?)"
+  },
+  {
+    "id": "ari23_vl08-b2-004",
+    "topic": "ari23_vl08_pythagoras_verallgemeinerung",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Für welche Figuren gilt die Pythagoras-Beziehung laut Folie ebenfalls, wenn man statt der Quadrate „halbe Quadrate\" über den Seiten errichtet?",
+    "options": [
+      "Dreiecke",
+      "Kreise",
+      "Trapeze",
+      "Regelmäßige Sechsecke"
+    ],
+    "correct": [0],
+    "explanation": "Man kann zeigen, dass es auch für „halbe Quadrate\", also Dreiecke, klappt. 📄 Quelle: ari23_vl08, Folie 18 (S.18)",
+    "source": "ari23_vl08, Folie 18 (S.18, Geometrie – Satz des Pythagoras: Verallgemeinerung?)"
+  },
+  {
+    "id": "ari23_vl08-b2-005",
+    "topic": "ari23_vl08_pythagoras_verallgemeinerung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welche Beziehung gilt bei den „halben Quadraten\" (Dreiecken) über den Seiten a, b und c des rechtwinkligen Dreiecks?",
+    "options": [
+      "a²/2 + b²/2 = c²/2",
+      "a/2 + b/2 = c/2",
+      "a² + b² = 2·c²",
+      "a²·b² = c²"
+    ],
+    "correct": [0],
+    "explanation": "Für die halben Quadrate (Dreiecke) gilt laut Folie: a²/2 + b²/2 = c²/2. 📄 Quelle: ari23_vl08, Folie 18 (S.18)",
+    "source": "ari23_vl08, Folie 18 (S.18, Geometrie – Satz des Pythagoras: Verallgemeinerung?)"
+  },
+  {
+    "id": "ari23_vl08-b2-006",
+    "topic": "ari23_vl08_aehnliche_figuren",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Für welche Figuren wurde laut Folie ausprobiert, dass stets die gleiche Beziehung wie bei den Quadraten gilt?",
+    "options": [
+      "Regelmäßige Polygone (Fünfeck, Sechseck, …)",
+      "Nur Kreise",
+      "Nur rechtwinklige Dreiecke",
+      "Unregelmäßige Vierecke"
+    ],
+    "correct": [0],
+    "explanation": "Probiert man es für unterschiedliche Figuren aus, z.B. regelmäßige Polygone (Fünfeck, Sechseck, …), so gilt stets die gleiche Beziehung wie bei den Quadraten. 📄 Quelle: ari23_vl08, Folie 19 (S.19)",
+    "source": "ari23_vl08, Folie 19 (S.19, Geometrie – Satz des Pythagoras: Verallgemeinerung?)"
+  },
+  {
+    "id": "ari23_vl08-b2-007",
+    "topic": "ari23_vl08_aehnliche_figuren",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Wie lautet der allgemeine Satz für ähnliche Figuren (Voraussetzungen und Aussage)?",
+    "options": [
+      "Voraussetzung: ABC ist ein rechtwinkliges Dreieck.",
+      "Die über den Seiten errichteten Figuren müssen zueinander ähnlich sein.",
+      "Der Flächeninhalt der über den Katheten errichteten ähnlichen Figuren ist zusammen gleich dem Flächeninhalt der ebenfalls ähnlichen Figur über der Hypotenuse.",
+      "Der Satz gilt für beliebige, auch nicht zueinander ähnliche Figuren."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Für alle ähnlichen Figuren gilt: Wenn ABC ein rechtwinkliges Dreieck ist, dann ist der Flächeninhalt der über den Katheten errichteten ähnlichen Figuren zusammen gleich dem Flächeninhalt der ebenfalls ähnlichen Figur über der Hypotenuse. 📄 Quelle: ari23_vl08, Folie 19 (S.19)",
+    "source": "ari23_vl08, Folie 19 (S.19, Geometrie – Satz des Pythagoras: Verallgemeinerung?)"
+  },
+  {
+    "id": "ari23_vl08-b2-008",
+    "topic": "ari23_vl08_aehnliche_figuren_beweis",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Annahmen und Beziehungen bilden den Ansatz des Beweises (a Kathete, c Hypotenuse)?",
+    "options": [
+      "c = k·a bzw. k = c/a",
+      "k ist der Streckfaktor einer Ähnlichkeitsabbildung.",
+      "A(F_c) = k²·A(F_a)",
+      "A(F_c) = k·A(F_a)"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Sei a eine Kathete und c die Hypotenuse. Man nimmt an c = k·a bzw. k = c/a (k = Streckfaktor einer Ähnlichkeitsabbildung). Für die Flächeninhalte gilt A(F_c) = k²·A(F_a). 📄 Quelle: ari23_vl08, Folie 20 (S.20)",
+    "source": "ari23_vl08, Folie 20 (S.20, Geometrie – Satz des Pythagoras: Verallgemeinerung?, Beweis)"
+  },
+  {
+    "id": "ari23_vl08-b2-009",
+    "topic": "ari23_vl08_aehnliche_figuren_beweis",
+    "difficulty": 3,
+    "type": "single",
+    "question": "Welchen Wert hat das Verhältnis A(F_a)/A(F_c) der Flächeninhalte der ähnlichen Figuren über der Kathete a und über der Hypotenuse c?",
+    "options": [
+      "(a/c)²  (= 1/k²)",
+      "(c/a)²  (= k²)",
+      "a/c",
+      "k"
+    ],
+    "correct": [0],
+    "explanation": "Aus A(F_c) = k²·A(F_a) folgt A(F_a)/A(F_c) = 1/k² = (a/c)²; analog A(F_b)/A(F_c) = (b/c)². 📄 Quelle: ari23_vl08, Folie 20 (S.20)",
+    "source": "ari23_vl08, Folie 20 (S.20, Geometrie – Satz des Pythagoras: Verallgemeinerung?, Beweis)"
+  },
+  {
+    "id": "ari23_vl08-b2-010",
+    "topic": "ari23_vl08_aehnliche_figuren_beweis",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Da ABC rechtwinklig ist (a² + b² = c²): Welchen Wert hat der Term (a² + b²)/c² im Beweis?",
+    "answer": 1,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Da ABC rechtwinklig ist, gilt a² + b² = c², also (a² + b²)/c² = c²/c² = 1. Daraus folgt A(F_a) + A(F_b) = A(F_c). 📄 Quelle: ari23_vl08, Folie 21 (S.21)",
+    "source": "ari23_vl08, Folie 21 (S.21, Geometrie – Satz des Pythagoras: Verallgemeinerung?, Beweis)"
+  },
+  {
+    "id": "ari23_vl08-b2-011",
+    "topic": "ari23_vl08_aehnliche_figuren_beweis",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Mit welcher Schlussgleichung endet der Beweis für die ähnlichen Figuren über den Dreiecksseiten?",
+    "options": [
+      "A(F_a) + A(F_b) = A(F_c)",
+      "A(F_a) · A(F_b) = A(F_c)",
+      "A(F_a) + A(F_b) = 2·A(F_c)",
+      "a + b = c"
+    ],
+    "correct": [0],
+    "explanation": "Aus (a² + b²)/c² = 1 folgt A(F_a) + A(F_b) = A(F_c) – die Flächen der ähnlichen Figuren über den Katheten ergeben zusammen die Fläche der ähnlichen Figur über der Hypotenuse. 📄 Quelle: ari23_vl08, Folie 21 (S.21)",
+    "source": "ari23_vl08, Folie 21 (S.21, Geometrie – Satz des Pythagoras: Verallgemeinerung?, Beweis)"
+  },
+  {
+    "id": "ari23_vl08-b2-012",
+    "topic": "ari23_vl08_pythagoras_historisch",
+    "difficulty": 1,
+    "type": "multi",
+    "question": "Welche biografischen Angaben werden auf der Folie zu Pythagoras genannt?",
+    "options": [
+      "(vermutlich) Mathematiker und Philosoph",
+      "570 – 510 v. Chr. (in Griechenland und Süditalien)",
+      "Gründung der Pythagoreer in Kroton (Süditalien)",
+      "lebte um 300 n. Chr. in Ägypten"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Pythagoras war (vermutlich) Mathematiker und Philosoph, 570–510 v. Chr. in Griechenland und Süditalien, und gründete die Pythagoreer in Kroton (Süditalien). Er gilt zudem als (fraglicher) Begründer der Mathematik. 📄 Quelle: ari23_vl08, Folie 25 (S.25)",
+    "source": "ari23_vl08, Folie 25 (S.25, Geometrie – Pythagoras)"
+  },
+  {
+    "id": "ari23_vl08-b2-013",
+    "topic": "ari23_vl08_pythagoras_historisch",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Erkenntnis wird mit Hippasos von Metapont verbunden?",
+    "options": [
+      "Er zerstört die Gewissheit, dass alle Phänomene durch Verhältnisse natürlicher Zahlen gedeutet werden können.",
+      "Die Diagonale im Einheitsquadrat kann nicht durch einen Bruch dargestellt werden.",
+      "Die Diagonale im Einheitsquadrat hat die Länge √2.",
+      "Jede Streckenlänge lässt sich als Bruch natürlicher Zahlen schreiben."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Hippasos von Metapont zerstört die Gewissheit, dass alle Phänomene durch Verhältnisse natürlicher Zahlen gedeutet werden können: Die Diagonale im Einheitsquadrat (Länge √2 bei Seiten der Länge 1) kann nicht durch einen Bruch dargestellt werden. 📄 Quelle: ari23_vl08, Folie 25 (S.25)",
+    "source": "ari23_vl08, Folie 25 (S.25, Geometrie – Pythagoras)"
+  },
+  {
+    "id": "ari23_vl08-b2-014",
+    "topic": "ari23_vl08_pythagoras_historisch",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Welche Länge hat die Diagonale im Einheitsquadrat (Seitenlängen jeweils 1)? Gib den Näherungswert an.",
+    "answer": 1.414,
+    "tolerance": 0.01,
+    "unit": "",
+    "explanation": "Im Einheitsquadrat mit Seitenlängen 1 hat die Diagonale die Länge √2 ≈ 1,414; sie lässt sich nicht als Bruch darstellen. 📄 Quelle: ari23_vl08, Folie 25 (S.25)",
+    "source": "ari23_vl08, Folie 25 (S.25, Geometrie – Pythagoras)"
+  }
+]

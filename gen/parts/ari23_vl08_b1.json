@@ -1,0 +1,214 @@
+[
+  {
+    "id": "ari23_vl08-b1-001",
+    "topic": "ari23_vl08_satzgruppe_pythagoras",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Was besagt der Satz des Pythagoras gemäß Folie? (Mehrfachauswahl)",
+    "options": [
+      "Voraussetzung: Das Dreieck ABC ist rechtwinklig",
+      "Die Summe der Flächeninhalte der Quadrate über den Katheten ist gleich dem Flächeninhalt des Quadrats über der Hypotenuse",
+      "Es gilt a^2 + b^2 = c^2",
+      "Die Aussage gilt für alle Dreiecke ohne jede Voraussetzung"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Der Satz gilt fuer alle Dreiecke ABC unter der Voraussetzung, dass ABC rechtwinklig ist; dann gilt a^2 + b^2 = c^2 (Katheten a, b; Hypotenuse c). 📄 Quelle: ari23_vl08, Folie 5 (S.5)",
+    "source": "ari23_vl08, Folie 5 (S.5, Rueckblick Satzgruppe des Pythagoras)"
+  },
+  {
+    "id": "ari23_vl08-b1-002",
+    "topic": "ari23_vl08_satzgruppe_pythagoras",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Welche Formel gehoert laut Folie zum Satz des Pythagoras?",
+    "options": [
+      "a^2 + b^2 = c^2",
+      "a^2 = p·c",
+      "h_c^2 = p·q",
+      "a + b = c"
+    ],
+    "correct": [0],
+    "explanation": "Der Satz des Pythagoras lautet a^2 + b^2 = c^2. 📄 Quelle: ari23_vl08, Folie 5 (S.5)",
+    "source": "ari23_vl08, Folie 5 (S.5, Rueckblick Satzgruppe des Pythagoras)"
+  },
+  {
+    "id": "ari23_vl08-b1-003",
+    "topic": "ari23_vl08_kathetensatz",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Was besagt der (Katheten-)Satz gemaess Folie? (Mehrfachauswahl)",
+    "options": [
+      "Voraussetzung: Das Dreieck ABC ist rechtwinklig",
+      "Der Flächeninhalt des Quadrats über einer Kathete ist gleich dem Flächeninhalt des Rechtecks aus anliegendem Hypotenusenabschnitt und Hypotenuse",
+      "Es gilt a^2 = p·c",
+      "Es gilt h_c^2 = p·q"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Kathetensatz: Wenn ABC rechtwinklig ist, ist die Summe der Flaecheninhalte des Quadrats ueber einer Kathete gleich dem Flaecheninhalt des Rechtecks aus anliegendem Hypotenusenabschnitt und Hypotenuse (a^2 = p·c). h_c^2 = p·q ist der Hoehensatz. 📄 Quelle: ari23_vl08, Folie 6 (S.6)",
+    "source": "ari23_vl08, Folie 6 (S.6, Rueckblick Kathetensatz)"
+  },
+  {
+    "id": "ari23_vl08-b1-004",
+    "topic": "ari23_vl08_kathetensatz",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Welche Formel gehoert laut Folie zum Kathetensatz?",
+    "options": [
+      "a^2 = p·c",
+      "h_c^2 = p·q",
+      "a^2 + b^2 = c^2",
+      "c^2 = p + q"
+    ],
+    "correct": [0],
+    "explanation": "Der Kathetensatz lautet a^2 = p·c (Kathetenquadrat = Rechteck aus anliegendem Hypotenusenabschnitt p und Hypotenuse c). 📄 Quelle: ari23_vl08, Folie 6 (S.6)",
+    "source": "ari23_vl08, Folie 6 (S.6, Rueckblick Kathetensatz)"
+  },
+  {
+    "id": "ari23_vl08-b1-005",
+    "topic": "ari23_vl08_hoehensatz",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Was besagt der (Hoehen-)Satz gemaess Folie? (Mehrfachauswahl)",
+    "options": [
+      "Voraussetzung: Das Dreieck ABC ist rechtwinklig",
+      "Der Flächeninhalt des Quadrats über der Höhe zur Hypotenuse ist gleich dem Flächeninhalt des Rechtecks aus den beiden Hypotenusenabschnitten",
+      "Es gilt h_c^2 = p·q",
+      "Es gilt a^2 = p·c"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Hoehensatz: Wenn ABC rechtwinklig ist, ist der Flaecheninhalt des Quadrats ueber der Hoehe zur Hypotenuse gleich dem Flaecheninhalt des Rechtecks aus den beiden Hypotenusenabschnitten (h_c^2 = p·q). a^2 = p·c ist der Kathetensatz. 📄 Quelle: ari23_vl08, Folie 7 (S.7)",
+    "source": "ari23_vl08, Folie 7 (S.7, Rueckblick Hoehensatz)"
+  },
+  {
+    "id": "ari23_vl08-b1-006",
+    "topic": "ari23_vl08_hoehensatz",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Welche Formel gehoert laut Folie zum Hoehensatz?",
+    "options": [
+      "h_c^2 = p·q",
+      "a^2 = p·c",
+      "a^2 + b^2 = c^2",
+      "h_c = p + q"
+    ],
+    "correct": [0],
+    "explanation": "Der Hoehensatz lautet h_c^2 = p·q. 📄 Quelle: ari23_vl08, Folie 7 (S.7)",
+    "source": "ari23_vl08, Folie 7 (S.7, Rueckblick Hoehensatz)"
+  },
+  {
+    "id": "ari23_vl08-b1-007",
+    "topic": "ari23_vl08_umkehrung_pythagoras",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Was besagt die Umkehrung des Satzes von Pythagoras gemaess Folie? (Mehrfachauswahl)",
+    "options": [
+      "Die Aussage gilt für alle Dreiecke ABC",
+      "Voraussetzung ist, dass für die Flächeninhalte der Quadrate über den Seiten a, b und c die Beziehung a^2 + b^2 = c^2 gilt",
+      "Dann hat das Dreieck ABC bei C einen rechten Winkel",
+      "Dann hat das Dreieck ABC bei A einen rechten Winkel"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Umkehrung: Fuer alle Dreiecke ABC gilt: Wenn a^2 + b^2 = c^2 gilt, dann hat das Dreieck ABC bei C einen rechten Winkel. 📄 Quelle: ari23_vl08, Folie 8 (S.8)",
+    "source": "ari23_vl08, Folie 8 (S.8, Umkehrung des Satzes von Pythagoras)"
+  },
+  {
+    "id": "ari23_vl08-b1-008",
+    "topic": "ari23_vl08_pythagoras_aequivalenz",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Die Folie fasst den Satz des Pythagoras und seine Umkehrung zu einer 'genau dann, wenn'-Aussage zusammen. Welche Aussagen treffen zu? (Mehrfachauswahl)",
+    "options": [
+      "Genau dann, wenn ein Dreieck ABC rechtwinklig ist, ist die Summe der Flächeninhalte der Quadrate über den Katheten gleich dem Flächeninhalt des Quadrats über der Hypotenuse (a^2 + b^2 = c^2)",
+      "Es handelt sich um die Zusammenfassung der beiden wenn-dann-Richtungen",
+      "Die Rückrichtung wird auf der Folie ohne Beweis angegeben",
+      "Die Aussage gilt nur für gleichseitige Dreiecke"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Die Folie fasst beide wenn-dann-Richtungen zusammen: Genau dann, wenn ABC rechtwinklig ist, gilt a^2 + b^2 = c^2. Die Rueckrichtung wird ohne Beweis angegeben. 📄 Quelle: ari23_vl08, Folie 9 (S.9)",
+    "source": "ari23_vl08, Folie 9 (S.9, Satz - Zusammenfassung Pythagoras)"
+  },
+  {
+    "id": "ari23_vl08-b1-009",
+    "topic": "ari23_vl08_satz_thales",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Was besagt die Umkehrung (Satz des Thales) gemaess Folie? (Mehrfachauswahl)",
+    "options": [
+      "Voraussetzung: Der Punkt C des Dreiecks ABC liegt auf dem Halbkreis mit dem Mittelpunkt der Strecke AB als Mittelpunkt",
+      "Dann ist ABC ein rechtwinkliges Dreieck mit rechtem Winkel in C",
+      "Dann ist ABC ein rechtwinkliges Dreieck mit rechtem Winkel in A",
+      "Die Aussage gilt für alle Dreiecke ABC"
+    ],
+    "correct": [0, 1, 3],
+    "explanation": "Satz des Thales: Fuer alle Dreiecke ABC gilt: Wenn C auf dem Halbkreis mit dem Mittelpunkt der Strecke AB als Mittelpunkt liegt, dann ist ABC rechtwinklig mit rechtem Winkel in C. 📄 Quelle: ari23_vl08, Folie 10 (S.10)",
+    "source": "ari23_vl08, Folie 10 (S.10, Umkehrung: Satz des Thales)"
+  },
+  {
+    "id": "ari23_vl08-b1-010",
+    "topic": "ari23_vl08_satz_thales",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Aufgabe (Folie 10): Ein rechtwinkliges Dreieck hat eine Kathete der Länge 3 cm und eine Hypotenuse der Länge 8 cm. Wie lang ist die andere Kathete? (Ergebnis nach Satz des Pythagoras, in cm, auf 2 Nachkommastellen)",
+    "answer": 7.42,
+    "tolerance": 0.05,
+    "unit": "cm",
+    "explanation": "Nach Pythagoras ist die zweite Kathete sqrt(8^2 - 3^2) = sqrt(64 - 9) = sqrt(55) ≈ 7.42 cm. Die Aufgabe gibt Kathete 3 cm und Hypotenuse 8 cm vor. 📄 Quelle: ari23_vl08, Folie 10 (S.10)",
+    "source": "ari23_vl08, Folie 10 (S.10, Aufgabe rechtwinkliges Dreieck)"
+  },
+  {
+    "id": "ari23_vl08-b1-011",
+    "topic": "ari23_vl08_flaechenverwandlung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Aufgabe a) (Folie 12): Ein Rechteck mit A(F_R) = 24 cm^2 und einer Seitenlänge a = 6 cm soll durch Konstruktion (nur Zirkel und Lineal) in ein Quadrat verwandelt werden. Welcher Satz wird laut Folie verwendet?",
+    "options": [
+      "Höhensatz",
+      "Kathetensatz",
+      "Satz des Pythagoras",
+      "Satz des Thales"
+    ],
+    "correct": [0],
+    "explanation": "Die Verwandlung eines Rechtecks in ein flaechengleiches Quadrat erfolgt mit dem Hoehensatz (auf der Folie ausdruecklich '(Hoehensatz!)'). 📄 Quelle: ari23_vl08, Folie 12 (S.12)",
+    "source": "ari23_vl08, Folie 12 (S.12, Flaecheninhalte bei den Griechen, Aufgabe a)"
+  },
+  {
+    "id": "ari23_vl08-b1-012",
+    "topic": "ari23_vl08_flaechenverwandlung",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Aufgabe a) (Folie 12): Ein Rechteck mit A(F_R) = 24 cm^2 wird flächengleich in ein Quadrat verwandelt. Welche Seitenlänge hat dieses Quadrat? (in cm, auf 2 Nachkommastellen)",
+    "answer": 4.90,
+    "tolerance": 0.05,
+    "unit": "cm",
+    "explanation": "Bei flaechengleicher Verwandlung bleibt der Flaecheninhalt 24 cm^2 erhalten; die Quadratseite ist sqrt(24) ≈ 4.90 cm. 📄 Quelle: ari23_vl08, Folie 12 (S.12)",
+    "source": "ari23_vl08, Folie 12 (S.12, Flaecheninhalte bei den Griechen, Aufgabe a)"
+  },
+  {
+    "id": "ari23_vl08-b1-013",
+    "topic": "ari23_vl08_flaechenverwandlung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Aufgabe b) (Folie 13): Ein Quadrat mit A(F_Q) = 36 cm^2 soll durch Konstruktion (nur Zirkel und Lineal) in ein Rechteck der Länge 3 cm verwandelt werden. Welcher Satz wird laut Folie verwendet?",
+    "options": [
+      "Kathetensatz",
+      "Höhensatz",
+      "Satz des Pythagoras",
+      "Satz des Thales"
+    ],
+    "correct": [0],
+    "explanation": "Die Verwandlung eines Quadrats in ein flaechengleiches Rechteck mit vorgegebener Seitenlaenge erfolgt mit dem Kathetensatz (auf der Folie ausdruecklich '(Kathetensatz!)'). 📄 Quelle: ari23_vl08, Folie 13 (S.13)",
+    "source": "ari23_vl08, Folie 13 (S.13, Flaecheninhalte bei den Griechen, Aufgabe b)"
+  },
+  {
+    "id": "ari23_vl08-b1-014",
+    "topic": "ari23_vl08_flaechenverwandlung",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Aufgabe b) (Folie 13): Ein Quadrat mit A(F_Q) = 36 cm^2 wird flächengleich in ein Rechteck der Länge 3 cm verwandelt. Wie lang ist die andere Rechteckseite? (in cm)",
+    "answer": 12,
+    "tolerance": 0,
+    "unit": "cm",
+    "explanation": "Bei flaechengleicher Verwandlung bleibt der Flaecheninhalt 36 cm^2 erhalten; bei Laenge 3 cm ist die andere Seite 36 / 3 = 12 cm. 📄 Quelle: ari23_vl08, Folie 13 (S.13)",
+    "source": "ari23_vl08, Folie 13 (S.13, Flaecheninhalte bei den Griechen, Aufgabe b)"
+  }
+]
