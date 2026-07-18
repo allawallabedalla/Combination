@@ -2,8 +2,8 @@
 
 - **Stand:** 2026-07-18 17:56 UTC
 - **Branch:** `claude/repo-combination-raw-data-vbf3hw`
-- **HEAD:** `cd674f0`
-- **Fertige Skripte:** 57 / 70
+- **HEAD:** `0566b2a`
+- **Fertige Skripte:** 58 / 70
 - **Fragen gesamt (fertig + laufend, roh):** 1548
 
 ## Fortschritt
@@ -72,7 +72,7 @@
 | `ari21_vl04` | offen |  | vl_4_ari21-Folien.pdf |
 | `ari23_vl05` | FERTIG | 45 | vl_5_ari2023-gekürzt.pdf |
 | `ari21_vl05` | offen |  | vl_5_ari21-Folien.pdf |
-| `ari23_vl06` | laufend (3 Blöcke, 68 Fragen, nicht gemergt) | 68 | vl_6_ari2023-gekürzt.pdf |
+| `ari23_vl06` | FERTIG | 68 | vl_6_ari2023-gekürzt.pdf |
 | `ari21_vl06` | offen |  | vl_6_ari21-Folien.pdf |
 | `ari23_vl07` | FERTIG | 66 | vl_7_ari2023-inkl_TdW-Folien.pdf |
 | `ari21_vl07` | offen |  | vl_7_ari21-Folien.pdf |
@@ -102,6 +102,5 @@
 - Alles Fertige liegt auf origin; ein Stopp kostet höchstens den einen laufenden Block.
 - Skripte mit `gen/<code>.json` überspringen; für `laufend`-Skript fehlende Blöcke neu erzeugen → `finalize.sh`.
 
-**Laufend:** `ari23_vl06`
 **Offen:** `ari20_vl10`, `ari20_vl11`, `ari20_vl12`, `ari21_vl01`, `ari21_vl02`, `ari21_vl03`, `ari21_vl04`, `ari21_vl05`, `ari21_vl06`, `ari21_vl07`, `ari21_vl08`, `ari21_vl09`
 

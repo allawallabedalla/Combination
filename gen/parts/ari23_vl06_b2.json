@@ -1,0 +1,267 @@
+[
+  {
+    "id": "ari23_vl06-b2-001",
+    "topic": "ari23_vl06_parkettierung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Wann besteht laut Definition (Erkundung II) eine \"gleiche Parkettierung\" bei zwei Rechtecken A und B?",
+    "options": [
+      "Die Parkettierungen der beiden Teilquadrate von A sind jeweils kongruent zu einem der Teilquadrate von B.",
+      "Die Bedingung muss in beide Richtungen gelten, also auch von B nach A (\"und umgekehrt\").",
+      "Es genügt, dass ein einziges Teilquadrat von A kongruent zu einem Teilquadrat von B ist.",
+      "Die Rechtecke A und B müssen denselben Umfang besitzen."
+    ],
+    "correct": [0, 1],
+    "explanation": "Auf der Folie steht: Eine gleiche Parkettierung besteht bei zwei Rechtecken A und B genau dann, wenn die Parkettierungen der beiden Teilquadrate des Rechtecks A jeweils kongruent zu einem der Teilquadrate des Rechtecks B (und umgekehrt) sind. Es müssen also beide Teilquadrate passen und die Bedingung in beide Richtungen gelten. 📄 Quelle: ari23_vl06, Folie 23 (S.23)",
+    "source": "ari23_vl06, Folie 23 (S.23, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl06-b2-002",
+    "topic": "ari23_vl06_parkettierung",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Worauf bezieht sich die Definition der gleichen Parkettierung zweier Rechtecke (Erkundung II)?",
+    "options": [
+      "Auf die beiden Teilquadrate, in die jedes Rechteck zerlegt wird.",
+      "Auf die Diagonalen der beiden Rechtecke.",
+      "Auf die Innenwinkelsumme der beiden Rechtecke.",
+      "Auf die Umfänge der beiden Rechtecke."
+    ],
+    "correct": [0],
+    "explanation": "Die Definition vergleicht die Parkettierungen der beiden Teilquadrate des Rechtecks A mit denen der Teilquadrate des Rechtecks B (Kongruenz der Teilquadrat-Parkettierungen). 📄 Quelle: ari23_vl06, Folie 23 (S.23)",
+    "source": "ari23_vl06, Folie 23 (S.23, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl06-b2-003",
+    "topic": "ari23_vl06_gauss_summen",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Für alle Rechtecke mit zwei Teilquadraten gilt: Wenn es n Möglichkeiten für das Parkettieren eines Teilquadrats gibt, dann gibt es n·(n+1)/2 Möglichkeiten, das Rechteck zu parkettieren. Wie viele Möglichkeiten ergeben sich für n = 7?",
+    "answer": 28,
+    "tolerance": 0,
+    "unit": ""
+  },
+  {
+    "id": "ari23_vl06-b2-004",
+    "topic": "ari23_vl06_gauss_summen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche der folgenden Aussagen stimmen mit der Regel und den Gauß-Summen auf der Folie (Erkundung II) überein?",
+    "options": [
+      "1 + 2 + 3 + 4 = 4·5/2 = 10",
+      "Die Anzahl der Parkettierungen des Rechtecks ist n·(n+1)/2.",
+      "1 + 2 + 3 + 4 + 5 + 6 + 7 = 28",
+      "Die Anzahl der Parkettierungen des Rechtecks ist n²."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Die Folie zeigt u. a. 1+2+3+4 = 10 = 4·5/2 und 1+2+3+4+5+6+7 = 28 = 7·8/2 sowie die Regel n·(n+1)/2. n² ist falsch. 📄 Quelle: ari23_vl06, Folie 27 (S.27)",
+    "source": "ari23_vl06, Folie 27 (S.27, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl06-b2-005",
+    "topic": "ari23_vl06_gauss_summen",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Gemäß der Regel n·(n+1)/2: Wie viele Möglichkeiten gibt es, das Rechteck mit zwei Teilquadraten zu parkettieren, wenn es n = 6 Möglichkeiten pro Teilquadrat gibt?",
+    "answer": 21,
+    "tolerance": 0,
+    "unit": ""
+  },
+  {
+    "id": "ari23_vl06-b2-006",
+    "topic": "ari23_vl06_gauss_summen",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Die Gauß-Summe S_n = 1 + 2 + ... + n lässt sich laut Folie als Binomialkoeffizient schreiben. Berechne 8·7/2 = 8! / ((8−2)!·2!), also den Wert des Binomialkoeffizienten \"8 über 2\".",
+    "answer": 28,
+    "tolerance": 0,
+    "unit": ""
+  },
+  {
+    "id": "ari23_vl06-b2-007",
+    "topic": "ari23_vl06_gauss_summen",
+    "difficulty": 3,
+    "type": "multi",
+    "question": "Welche Darstellungen der Gauß-Summe S_n = 1 + 2 + 3 + ... + n nennt bzw. verwendet die Folie (Dominospiel / Pascal'sches Dreieck)?",
+    "options": [
+      "S_n = n·(n+1)/2",
+      "S_n = \"n+1 über 2\" (Binomialkoeffizient)",
+      "Die Werte der Gauß-Summen stehen im Pascal'schen Dreieck.",
+      "S_n = 2^n"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Die Folie gibt S_n = 1+2+...+n = n·(n+1)/2 = (n+1 über 2) an, verweist auf das Pascal'sche Dreieck (z. B. 28 in der 8. Zeile) und stellt den Zusammenhang zum Dominospiel her. 2^n kommt nicht vor. 📄 Quelle: ari23_vl06, Folie 28 (S.28)",
+    "source": "ari23_vl06, Folie 28 (S.28, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl06-b2-008",
+    "topic": "ari23_vl06_flaechenmessung",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Welches erste Konzept zur Bestimmung eines Flächeninhalts schlägt der Lehrer auf dieser Folie (Allgemeine Verunsicherung) vor?",
+    "options": [
+      "Das Rechteck bzw. die Figur mit Einheitsquadraten auslegen und diese zählen.",
+      "Den Umfang der Figur messen.",
+      "Die Länge der Diagonale bestimmen.",
+      "Die Figur wiegen."
+    ],
+    "correct": [0],
+    "explanation": "Der Lehrer sagt: \"Nun ist es ja klar, dass man das Rechteck mit Einheitsquadraten auslegen kann.\" Das Auslegen (Überdecken) mit Einheitsquadraten ist das vorgeschlagene Konzept. 📄 Quelle: ari23_vl06, Folie 34 (S.34)",
+    "source": "ari23_vl06, Folie 34 (S.34, Messen von Flächeninhalten – Allgemeine Verunsicherung)"
+  },
+  {
+    "id": "ari23_vl06-b2-009",
+    "topic": "ari23_vl06_flaechenmessung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wie groß ist laut Folie 34 der Flächeninhalt der aus Einheitsquadraten (Kantenlänge e) gelegten Figur F_X?",
+    "options": [
+      "A(F_X) = 4·e²",
+      "A(F_X) = e²",
+      "A(F_X) = 3·e²",
+      "A(F_X) = 4·e"
+    ],
+    "correct": [0],
+    "explanation": "Auf der Folie ist zur Figur die Formel A(F_X) = 4·e² angegeben. 📄 Quelle: ari23_vl06, Folie 34 (S.34)",
+    "source": "ari23_vl06, Folie 34 (S.34, Messen von Flächeninhalten – Allgemeine Verunsicherung)"
+  },
+  {
+    "id": "ari23_vl06-b2-010",
+    "topic": "ari23_vl06_flaechenmessung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Was behauptet der Lehrer auf Folie 35 (Allgemeine Verunsicherung) über das Einheitsquadrat?",
+    "options": [
+      "Man kann das Einheitsquadrat beliebig verfeinern und so jeden Flächeninhalt bestimmen.",
+      "Flächeninhalte lassen sich nur bei ganzzahligen Seitenlängen bestimmen.",
+      "Das Einheitsquadrat darf nicht verändert werden.",
+      "Nur Kreise lassen sich exakt vermessen."
+    ],
+    "correct": [0],
+    "explanation": "Der Lehrer sagt: \"Natürlich kann man das Einheitsquadrat (etwa mit Länge 1m) beliebig verfeinern und so natürlich jeden Flächeninhalt bestimmen.\" 📄 Quelle: ari23_vl06, Folie 35 (S.35)",
+    "source": "ari23_vl06, Folie 35 (S.35, Messen von Flächeninhalten – Allgemeine Verunsicherung)"
+  },
+  {
+    "id": "ari23_vl06-b2-011",
+    "topic": "ari23_vl06_flaechenmessung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welchen kritischen Fall bringt Karla auf Folie 35 als Nachfrage ein, um das Konzept des Auslegens/Verfeinerns zu hinterfragen?",
+    "options": [
+      "Ein Rechteck mit der Seitenlänge π.",
+      "Ein Rechteck mit der Seitenlänge 2.",
+      "Ein Kreis mit Radius 1.",
+      "Ein gleichseitiges Dreieck."
+    ],
+    "correct": [0],
+    "explanation": "Karla fragt: \"Prima, ich habe ein Rechteck mit der Länge π Meter konstruiert, geht das dann genauso?\" – die irrationale Seitenlänge π stellt das Verfeinern von Einheitsquadraten infrage. 📄 Quelle: ari23_vl06, Folie 35 (S.35)",
+    "source": "ari23_vl06, Folie 35 (S.35, Messen von Flächeninhalten – Allgemeine Verunsicherung)"
+  },
+  {
+    "id": "ari23_vl06-b2-012",
+    "topic": "ari23_vl06_flaechenmessung",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Welchen Flächeninhalt des Kreises nennt der Lehrer auf Folie 36?",
+    "options": [
+      "π·r²",
+      "2·π·r",
+      "π·d",
+      "r²"
+    ],
+    "correct": [0],
+    "explanation": "Der Lehrer sagt: \"Wie wir wissen, ist der Flächeninhalt des Kreises π·r².\" 📄 Quelle: ari23_vl06, Folie 36 (S.36)",
+    "source": "ari23_vl06, Folie 36 (S.36, Messen von Flächeninhalten – Allgemeine Verunsicherung)"
+  },
+  {
+    "id": "ari23_vl06-b2-013",
+    "topic": "ari23_vl06_flaechenmessung",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Berechne mit der auf Folie 36 genannten Formel A = π·r² den Flächeninhalt eines Kreises mit Radius r = 2 (Einheiten). Gib den Zahlenwert an.",
+    "answer": 12.566,
+    "tolerance": 0.05,
+    "unit": ""
+  },
+  {
+    "id": "ari23_vl06-b2-014",
+    "topic": "ari23_vl06_flaechenmessung",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Was behauptet der Lehrer auf Folie 37 über die beiden dargestellten Figuren (links ein Quadrat, rechts zwei Quadrate)?",
+    "options": [
+      "Die rechte Figur hat den doppelten Flächeninhalt wie die linke.",
+      "Beide Figuren haben denselben Flächeninhalt.",
+      "Die rechte Figur hat den halben Flächeninhalt der linken.",
+      "Die rechte Figur hat den dreifachen Flächeninhalt der linken."
+    ],
+    "correct": [0],
+    "explanation": "Der Lehrer sagt: \"Wir sehen also, die rechte Figur hat den doppelten Flächeninhalt wie die linke.\" 📄 Quelle: ari23_vl06, Folie 37 (S.37)",
+    "source": "ari23_vl06, Folie 37 (S.37, Messen von Flächeninhalten – Allgemeine Verunsicherung)"
+  },
+  {
+    "id": "ari23_vl06-b2-015",
+    "topic": "ari23_vl06_flaechenmessung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welche fehlerhafte Vorstellung liegt Karlas Einwand \"Das kann doch nicht stimmen! Beide haben doch denselben Rand.\" auf Folie 37 zugrunde?",
+    "options": [
+      "Sie schließt vom (vermeintlich) gleichen Rand auf gleichen Flächeninhalt und verwechselt so Umfang und Flächeninhalt.",
+      "Sie meint, der Flächeninhalt hänge nur von der Farbe der Figur ab.",
+      "Sie hat richtig erkannt, dass beide Figuren gleich groß sind.",
+      "Sie verwechselt Länge mit Volumen."
+    ],
+    "correct": [0],
+    "explanation": "Karlas Einwand koppelt den Rand (Umfang) an den Flächeninhalt – die typische Verwechslung von Umfang und Flächeninhalt, die zur \"Verunsicherung\" gehört. 📄 Quelle: ari23_vl06, Folie 37 (S.37)",
+    "source": "ari23_vl06, Folie 37 (S.37, Messen von Flächeninhalten – Allgemeine Verunsicherung)"
+  },
+  {
+    "id": "ari23_vl06-b2-016",
+    "topic": "ari23_vl06_flaechenmessung",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Was besagt die \"Setzung\" auf Folie 40 (Ein erstes Konzept für ein Maß)?",
+    "options": [
+      "Zwei kongruente Figuren haben denselben Flächeninhalt.",
+      "Zwei ähnliche Figuren haben denselben Flächeninhalt.",
+      "Zwei Figuren mit gleichem Umfang haben denselben Flächeninhalt.",
+      "Nur deckungsgleiche Rechtecke haben denselben Flächeninhalt."
+    ],
+    "correct": [0],
+    "explanation": "Die Setzung lautet: \"Zwei kongruente Figuren haben den selben Flächeninhalt.\" 📄 Quelle: ari23_vl06, Folie 40 (S.40)",
+    "source": "ari23_vl06, Folie 40 (S.40, Messen von Flächeninhalten – Ein erstes Konzept für ein Maß)"
+  },
+  {
+    "id": "ari23_vl06-b2-017",
+    "topic": "ari23_vl06_flaechenmessung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Abbildungen zählt Folie 40 zu den Kongruenzabbildungen, durch die sich zwei kongruente Figuren aufeinander abbilden lassen?",
+    "options": [
+      "Geradenspiegelung",
+      "Drehung",
+      "Verschiebung",
+      "Schubspiegelung",
+      "Zentrische Streckung"
+    ],
+    "correct": [0, 1, 2, 3],
+    "explanation": "Die Folie nennt als Kongruenzabbildungen: Geradenspiegelung, Drehung, Verschiebung und Schubspiegelung. Die zentrische Streckung ist keine Kongruenzabbildung. 📄 Quelle: ari23_vl06, Folie 40 (S.40)",
+    "source": "ari23_vl06, Folie 40 (S.40, Messen von Flächeninhalten – Ein erstes Konzept für ein Maß)"
+  },
+  {
+    "id": "ari23_vl06-b2-018",
+    "topic": "ari23_vl06_flaechenmessung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aussagen sind laut der Setzung auf Folie 40 korrekt?",
+    "options": [
+      "Kongruente Figuren haben denselben Flächeninhalt.",
+      "Kongruente Figuren lassen sich durch eine Kongruenzabbildung aufeinander abbilden.",
+      "Die zentrische Streckung ist eine Kongruenzabbildung.",
+      "Eine Verschiebung verändert den Flächeninhalt einer Figur."
+    ],
+    "correct": [0, 1],
+    "explanation": "Die Setzung definiert kongruente Figuren über Kongruenzabbildungen und setzt fest, dass sie denselben Flächeninhalt haben. Die zentrische Streckung gehört nicht dazu; eine Verschiebung (als Kongruenzabbildung) verändert den Flächeninhalt nicht. 📄 Quelle: ari23_vl06, Folie 40 (S.40)",
+    "source": "ari23_vl06, Folie 40 (S.40, Messen von Flächeninhalten – Ein erstes Konzept für ein Maß)"
+  }
+]
