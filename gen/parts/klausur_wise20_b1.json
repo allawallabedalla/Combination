@@ -1,0 +1,170 @@
+[
+  {
+    "id": "klausur_wise20-b1-001",
+    "topic": "klausur_wise20_natuerliche_zahlen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Eine Zahlenmenge N heißt laut Aufgabe 1a) genau dann Natürliche Zahlen, wenn sie bestimmte Eigenschaften hat. Welche der folgenden Aussagen gehören zu diesen Eigenschaften?",
+    "options": [
+      "1 ist eine Natürliche Zahl.",
+      "Zu jeder natürlichen Zahl n gibt es genau einen Nachfolger n'.",
+      "Kein Element von N hat als Nachfolger die 1.",
+      "Kein Element ist Nachfolger zweier verschiedener Elemente von N.",
+      "0 ist eine Natürliche Zahl.",
+      "Jede natürliche Zahl hat genau einen Vorgänger."
+    ],
+    "correct": [0, 1, 2, 3],
+    "explanation": "Die Aufgabe nennt genau die vier Peano-Eigenschaften i)–iv): 1 ist Natürliche Zahl; jede Zahl hat genau einen Nachfolger; die 1 ist kein Nachfolger; der Nachfolger ist eindeutig (Injektivität). 0 als Startelement und die Vorgänger-Eigenschaft werden hier nicht gefordert. 📄 Quelle: klausur_wise20, Folie 2 (S.2)",
+    "source": "klausur_wise20, Folie 2 (S.2, Aufgabe 1a: Grundbegriffe Arithmetik)"
+  },
+  {
+    "id": "klausur_wise20-b1-002",
+    "topic": "klausur_wise20_natuerliche_zahlen",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Welches der in Aufgabe 1a) genannten Axiome sichert, dass die 1 kein Nachfolger irgendeiner natürlichen Zahl ist?",
+    "options": [
+      "Kein Element von N hat als Nachfolger die 1.",
+      "1 ist eine Natürliche Zahl.",
+      "Zu jeder natürlichen Zahl n gibt es genau einen Nachfolger n'.",
+      "Kein Element ist Nachfolger zweier verschiedener Elemente von N."
+    ],
+    "correct": [0],
+    "explanation": "Axiom iii) 'Kein Element von N hat als Nachfolger die 1' stellt sicher, dass die 1 das Anfangselement ist und selbst kein Nachfolger. 📄 Quelle: klausur_wise20, Folie 2 (S.2)",
+    "source": "klausur_wise20, Folie 2 (S.2, Aufgabe 1a: Grundbegriffe Arithmetik)"
+  },
+  {
+    "id": "klausur_wise20-b1-003",
+    "topic": "klausur_wise20_verknuepfungen",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Die Operation 'Binomieren' ist definiert durch x◆y := (x + y)·(x − y). Ist diese Operation kommutativ?",
+    "options": [
+      "Nein, denn x◆y = x² − y², während y◆x = y² − x²; beide sind im Allgemeinen verschieden.",
+      "Ja, weil die Multiplikation kommutativ ist.",
+      "Ja, weil x◆y = y◆x für alle x, y gilt.",
+      "Ja, weil (x + y)·(x − y) symmetrisch in x und y ist."
+    ],
+    "correct": [0],
+    "explanation": "Es gilt x◆y = (x+y)(x−y) = x²−y², aber y◆x = (y+x)(y−x) = y²−x² = −(x²−y²). Für x ≠ y ist x◆y ≠ y◆x, die Operation ist also nicht kommutativ. 📄 Quelle: klausur_wise20, Folie 3 (S.3)",
+    "source": "klausur_wise20, Folie 3 (S.3, Aufgabe 1c: Grundbegriffe Arithmetik)"
+  },
+  {
+    "id": "klausur_wise20-b1-004",
+    "topic": "klausur_wise20_verknuepfungen",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Die Operation 'Binomieren' ist definiert durch x◆y := (x + y)·(x − y). Berechnen Sie 5◆3.",
+    "answer": 16,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "5◆3 = (5+3)·(5−3) = 8·2 = 16. 📄 Quelle: klausur_wise20, Folie 3 (S.3)",
+    "source": "klausur_wise20, Folie 3 (S.3, Aufgabe 1c: Grundbegriffe Arithmetik)"
+  },
+  {
+    "id": "klausur_wise20-b1-005",
+    "topic": "klausur_wise20_stellenwertsysteme",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Ein Hunderterfeld mit 100 Kreisen wird vollständig im Dreiersystem gebündelt. Wie lautet die Ziffernfolge der Zahl 100 im Dreiersystem?",
+    "answer": 10201,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "100 = 1·81 + 0·27 + 2·9 + 0·3 + 1·1 = 81 + 18 + 1. Die Ziffern von 3^4 bis 3^0 sind 1,0,2,0,1, also 10201 im Dreiersystem. 📄 Quelle: klausur_wise20, Folie 3 (S.3)",
+    "source": "klausur_wise20, Folie 3 (S.3, Aufgabe 1d: Grundbegriffe Arithmetik)"
+  },
+  {
+    "id": "klausur_wise20-b1-006",
+    "topic": "klausur_wise20_stellenwertsysteme",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aussagen zur vollständigen Dreierbündelung der 100 Kreise sind korrekt?",
+    "options": [
+      "Im Dreiersystem lautet die Zahl 100 gleich 10201.",
+      "In Potenzschreibweise gilt 100 = 1·3⁴ + 2·3² + 1·3⁰.",
+      "Es entstehen ein Bündel zu 81, zwei Bündel zu 9 und ein einzelner Kreis.",
+      "Im Dreiersystem lautet die Zahl 100 gleich 10001.",
+      "In Potenzschreibweise gilt 100 = 2·3⁴ + 1·3²."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "100 = 1·3⁴ + 0·3³ + 2·3² + 0·3¹ + 1·3⁰ = 81 + 18 + 1, also 10201₃. Das entspricht einem 81er-Bündel, zwei 9er-Bündeln und einem Einzelkreis. 10001₃ = 82 und 2·3⁴+1·3² = 171 sind falsch. 📄 Quelle: klausur_wise20, Folie 3 (S.3)",
+    "source": "klausur_wise20, Folie 3 (S.3, Aufgabe 1d: Grundbegriffe Arithmetik)"
+  },
+  {
+    "id": "klausur_wise20-b1-007",
+    "topic": "klausur_wise20_logik",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Aufgabe 2 nennt den Satz: 'Für alle natürlichen Zahlen a und b gilt: Wenn a|b, dann a|(b − a).' Wie lautet die korrekte Verneinung dieses Satzes?",
+    "options": [
+      "Es gibt natürliche Zahlen a und b mit a|b und a∤(b − a).",
+      "Für alle natürlichen Zahlen a und b gilt: Wenn a∤b, dann a∤(b − a).",
+      "Es gibt natürliche Zahlen a und b mit a∤b und a|(b − a).",
+      "Für alle natürlichen Zahlen a und b gilt a|b und a∤(b − a)."
+    ],
+    "correct": [0],
+    "explanation": "Die Negation einer Allaussage der Form ∀a,b: (a|b ⇒ a|(b−a)) ist eine Existenzaussage, bei der die Prämisse gilt und die Konklusion verletzt ist: ∃a,b: a|b ∧ a∤(b−a). 📄 Quelle: klausur_wise20, Folie 4 (S.4)",
+    "source": "klausur_wise20, Folie 4 (S.4, Aufgabe 2b: Logik und Beweise)"
+  },
+  {
+    "id": "klausur_wise20-b1-008",
+    "topic": "klausur_wise20_abbildungsgeometrie",
+    "difficulty": 3,
+    "type": "single",
+    "question": "In Aufgabe 3a) verlaufen die drei Spiegelachsen f, g und h durch einen gemeinsamen Punkt S. Durch welche einfache (nicht verkettete) Bewegung lässt sich die dreifache Geradenspiegelung S_h ∘ S_g ∘ S_f ersetzen?",
+    "options": [
+      "Durch eine Geradenspiegelung, da die drei Achsen kopunktal sind (gemeinsamer Punkt S).",
+      "Durch eine Verschiebung.",
+      "Durch eine Drehung.",
+      "Durch eine Schubspiegelung."
+    ],
+    "correct": [0],
+    "explanation": "Die Verkettung von drei Geradenspiegelungen ist wieder eine ungerade (achsen-umkehrende) Bewegung. Verlaufen die drei Achsen durch einen gemeinsamen Punkt (kopunktal), so lässt sie sich zu einer einzigen Geradenspiegelung durch S zusammenfassen (nur bei nicht kopunktalen/nicht parallelen Achsen entstünde eine Schubspiegelung). 📄 Quelle: klausur_wise20, Folie 5 (S.5)",
+    "source": "klausur_wise20, Folie 5 (S.5, Aufgabe 3a: Geometrie)"
+  },
+  {
+    "id": "klausur_wise20-b1-009",
+    "topic": "klausur_wise20_logik",
+    "difficulty": 2,
+    "type": "single",
+    "question": "In Aufgabe 4b) werden A: 'Zahl a ist gerade' und B: 'Quadratzahl a² ist gerade' betrachtet. Zu welcher Implikation ist die Implikation A ⇒ B logisch äquivalent (gleiche Wahrheitstafel)?",
+    "options": [
+      "¬B ⇒ ¬A (Kontraposition)",
+      "B ⇒ A (Umkehrung)",
+      "¬A ⇒ ¬B",
+      "A ∧ B"
+    ],
+    "correct": [0],
+    "explanation": "Eine Implikation A ⇒ B ist stets logisch äquivalent zu ihrer Kontraposition ¬B ⇒ ¬A; beide besitzen dieselbe Wahrheitstafel. Die Umkehrung B ⇒ A und ¬A ⇒ ¬B sind dagegen nicht äquivalent zu A ⇒ B. 📄 Quelle: klausur_wise20, Folie 7 (S.7)",
+    "source": "klausur_wise20, Folie 7 (S.7, Aufgabe 4b: Erkundungen)"
+  },
+  {
+    "id": "klausur_wise20-b1-010",
+    "topic": "klausur_wise20_quadratzahlen",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Gemäß dem Vorgehen in Aufgabe 5a) geht man von 6·6 = 36 aus, verringert den ersten Faktor um 1 und erhöht den zweiten um 1. Berechnen Sie das entstehende Produkt 5·7.",
+    "answer": 35,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "5·7 = 35, also genau 1 kleiner als die Ausgangsquadratzahl 36 (= 6²). 📄 Quelle: klausur_wise20, Folie 8 (S.8)",
+    "source": "klausur_wise20, Folie 8 (S.8, Aufgabe 5a: Erkundung)"
+  },
+  {
+    "id": "klausur_wise20-b1-011",
+    "topic": "klausur_wise20_quadratzahlen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "In Aufgabe 5 wird ausgehend von einer Quadratzahl a·a der erste Faktor um k verringert und der zweite um k erhöht. Welche Aussagen beschreiben das entstehende Muster korrekt?",
+    "options": [
+      "(a − 1)·(a + 1) = a² − 1.",
+      "(a − k)·(a + k) = a² − k².",
+      "Das Produkt ist gegenüber der Quadratzahl a² um k² kleiner.",
+      "(a − k)·(a + k) = a² + k².",
+      "Das Produkt bleibt stets gleich a²."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Nach der dritten binomischen Formel gilt (a − k)(a + k) = a² − k². Das Produkt ist also um k² kleiner als die Quadratzahl a² (für k = 1 um 1, für k = 2 um 4, usw.). Die Varianten a² + k² und 'bleibt gleich a²' sind falsch. 📄 Quelle: klausur_wise20, Folie 8 (S.8)",
+    "source": "klausur_wise20, Folie 8 (S.8, Aufgabe 5a/b: Erkundung)"
+  }
+]
