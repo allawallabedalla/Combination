@@ -1,10 +1,10 @@
 # STATUS — Combination: Mathematik-Fragenkatalog (Pipeline, pro-Skript persistiert)
 
-- **Stand:** 2026-07-18 17:25 UTC
+- **Stand:** 2026-07-18 17:29 UTC
 - **Branch:** `claude/repo-combination-raw-data-vbf3hw`
-- **HEAD:** `ec88cf4`
-- **Fertige Skripte:** 43 / 70
-- **Fragen gesamt (fertig + laufend, roh):** 739
+- **HEAD:** `b948007`
+- **Fertige Skripte:** 44 / 70
+- **Fragen gesamt (fertig + laufend, roh):** 807
 
 ## Fortschritt
 
@@ -43,8 +43,8 @@
 | `did_vl08_zr100` | FERTIG | 22 | St_Did_Ari_Geo_Zahlenraum_100_1_VL8.pdf |
 | `uebung_2023` | FERTIG | 23 | Vermischte Übungen_2023.pdf |
 | `uebung_gesamt` | FERTIG | 27 | Vermischte Übungen_Gesamt.pdf |
-| `did_vl03_geohintergr` | offen |  | Vorlesung3StM_Hintergründe_Geometrieunterricht_V |
-| `did_vl03_bildungsstd` | offen |  | Vorlesung3_Bildungsstandards_Teil2_VL3.pdf |
+| `did_vl03_geohintergr` | FERTIG | 27 | Vorlesung3StM_Hintergründe_Geometrieunterricht_V |
+| `did_vl03_bildungsstd` | laufend (2 Blöcke, 41 Fragen, nicht gemergt) | 41 | Vorlesung3_Bildungsstandards_Teil2_VL3.pdf |
 | `erk01` | FERTIG | 7 | erkundung1.pdf |
 | `erk10` | FERTIG |  | erkundung10.pdf |
 | `erk02` | FERTIG | 6 | erkundung2.pdf |
@@ -102,5 +102,6 @@
 - Alles Fertige liegt auf origin; ein Stopp kostet höchstens den einen laufenden Block.
 - Skripte mit `gen/<code>.json` überspringen; für `laufend`-Skript fehlende Blöcke neu erzeugen → `finalize.sh`.
 
-**Offen:** `did_vl02_einf`, `did_vl01_ueberblick`, `did_vl05_begriffe`, `skript01_live23`, `did_vl04_ebenefiguren`, `did_vl07_raum1`, `did_vl08_raum2`, `did_vl03_geohintergr`, `did_vl03_bildungsstd`, `ari20_vl10`, `ari23_vl10`, `ari20_vl11`, `ari23_vl11`, `ari20_vl12`, `ari23_vl01`, `ari21_vl01`, `ari21_vl02`, `ari21_vl03`, `ari23_vl04`, `ari21_vl04`, `ari21_vl05`, `ari23_vl06`, `ari21_vl06`, `ari23_vl07`, `ari21_vl07`, `ari21_vl08`, `ari21_vl09`
+**Laufend:** `did_vl03_bildungsstd`
+**Offen:** `did_vl02_einf`, `did_vl01_ueberblick`, `did_vl05_begriffe`, `skript01_live23`, `did_vl04_ebenefiguren`, `did_vl07_raum1`, `did_vl08_raum2`, `ari20_vl10`, `ari23_vl10`, `ari20_vl11`, `ari23_vl11`, `ari20_vl12`, `ari23_vl01`, `ari21_vl01`, `ari21_vl02`, `ari21_vl03`, `ari23_vl04`, `ari21_vl04`, `ari21_vl05`, `ari23_vl06`, `ari21_vl06`, `ari23_vl07`, `ari21_vl07`, `ari21_vl08`, `ari21_vl09`
 
