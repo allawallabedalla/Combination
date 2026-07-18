@@ -1,0 +1,158 @@
+[
+  {
+    "id": "ari20_vl10-b1-001",
+    "topic": "ari20_vl10_grundbegriffe",
+    "difficulty": 1,
+    "type": "multi",
+    "question": "Welche der folgenden Objekte werden auf der Rückblick-Folie ausdrücklich als Grundbegriffe der Geometrie aufgeführt?",
+    "options": ["Punkt", "Gerade (durch zwei Punkte festgelegt)", "Winkel (rechter Winkel, senkrecht)", "Vektor", "Parabel"],
+    "correct": [0, 1, 2],
+    "explanation": "Als Grundbegriffe der Geometrie werden genannt: Punkt, Strecke (als Verbindung zweier Punkte), Gerade (durch zwei Punkte festgelegt), Ebene (Menge aller Punkte), Winkel (rechter Winkel, senkrecht), Länge einer Strecke und Kreis (mit Mittelpunkt und Radius). Vektor und Parabel kommen nicht vor. 📄 Quelle: ari20_vl10, Folie 4 (S.4)",
+    "source": "ari20_vl10, Folie 4 (S.4, Rückblick)"
+  },
+  {
+    "id": "ari20_vl10-b1-002",
+    "topic": "ari20_vl10_grundkonstruktionen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Grundkonstruktionen werden laut Folie mit dem Lineal ausgeführt?",
+    "options": ["Gerade durch zwei Punkte zeichnen", "Zwei Punkte durch eine Strecke verbinden", "Kreis um einen gegebenen Mittelpunkt M durch einen weiteren Punkt P zeichnen", "Kreis um M mit einem von zwei Punkten übernommenen Radius zeichnen"],
+    "correct": [0, 1],
+    "explanation": "Mit dem Lineal werden gezeichnet: 'Gerade durch zwei Punkte' (Nr. 3) und 'Zwei Punkte durch eine Strecke verbinden' (Nr. 4). Die Kreis-Konstruktionen (Nr. 6 und 7) erfolgen mit dem Zirkel. 📄 Quelle: ari20_vl10, Folie 4 (S.4)",
+    "source": "ari20_vl10, Folie 4 (S.4, Rückblick)"
+  },
+  {
+    "id": "ari20_vl10-b1-003",
+    "topic": "ari20_vl10_grundbegriffe",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wie wird auf der Folie eine Gerade charakterisiert?",
+    "options": ["Durch zwei Punkte festgelegt", "Als Menge aller Punkte", "Als Verbindung zweier Punkte", "Mit Mittelpunkt und Radius"],
+    "correct": [0],
+    "explanation": "Auf der Folie steht: Gerade (durch zwei Punkte festgelegt). 'Menge aller Punkte' bezeichnet die Ebene, 'Verbindung zweier Punkte' die Strecke und 'Mittelpunkt und Radius' den Kreis. 📄 Quelle: ari20_vl10, Folie 4 (S.4)",
+    "source": "ari20_vl10, Folie 4 (S.4, Rückblick)"
+  },
+  {
+    "id": "ari20_vl10-b1-004",
+    "topic": "ari20_vl10_abbildung",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Vervollständigen Sie die Definition: „Eine Zuordnung f, die jedem Punkt der Ebene E ____ Punkt der Ebene zuordnet, heißt Abbildung f der Ebene E auf E.“",
+    "options": ["genau einen", "mindestens einen", "höchstens einen", "beliebig viele"],
+    "correct": [0],
+    "explanation": "Die Definition verlangt, dass f jedem Punkt der Ebene E genau einen Punkt zuordnet. 📄 Quelle: ari20_vl10, Folie 5 (S.5)",
+    "source": "ari20_vl10, Folie 5 (S.5, Rückblick)"
+  },
+  {
+    "id": "ari20_vl10-b1-005",
+    "topic": "ari20_vl10_abbildung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aussagen treffen auf die Definition der Abbildung f (Folie 5) zu?",
+    "options": ["f ordnet jedem Punkt der Ebene E genau einen Punkt zu", "f ist eine Abbildung der Ebene E auf E", "f ordnet nur ausgewählten Punkten einen Bildpunkt zu", "f bildet die Ebene E auf eine andere Ebene F ab"],
+    "correct": [0, 1],
+    "explanation": "Nach der Definition ordnet f JEDEM Punkt der Ebene E genau einen Punkt zu und heißt Abbildung f der Ebene E auf E (nicht auf eine andere Ebene). 📄 Quelle: ari20_vl10, Folie 5 (S.5)",
+    "source": "ari20_vl10, Folie 5 (S.5, Rückblick)"
+  },
+  {
+    "id": "ari20_vl10-b1-006",
+    "topic": "ari20_vl10_kongruenzabbildung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Eigenschaften haben Kongruenzabbildungen gemäß der vorläufigen (informellen) Umschreibung auf Folie 7?",
+    "options": ["geradentreu", "winkeltreu", "längentreu", "flächenverdoppelnd"],
+    "correct": [0, 1, 2],
+    "explanation": "Kongruenzabbildungen werden als Bewegungen in der Ebene betrachtet, die deckungsgleich sind, d.h. Abbildungen f der Ebene E auf E, die geradentreu, winkeltreu und längentreu sind. 'flächenverdoppelnd' gehört nicht dazu. 📄 Quelle: ari20_vl10, Folie 7 (S.7)",
+    "source": "ari20_vl10, Folie 7 (S.7, Rückblick)"
+  },
+  {
+    "id": "ari20_vl10-b1-007",
+    "topic": "ari20_vl10_kongruenzabbildung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Als was werden Kongruenzabbildungen in der vorläufigen Umschreibung betrachtet?",
+    "options": ["Als Bewegungen in der Ebene, die deckungsgleich sind", "Als beliebige Zuordnungen der Ebene", "Als Streckungen mit einem Faktor k", "Als Projektionen auf eine Gerade"],
+    "correct": [0],
+    "explanation": "Laut Folie werden Kongruenzabbildungen als Bewegungen in der Ebene betrachtet, die deckungsgleich sind. 📄 Quelle: ari20_vl10, Folie 7 (S.7)",
+    "source": "ari20_vl10, Folie 7 (S.7, Rückblick)"
+  },
+  {
+    "id": "ari20_vl10-b1-008",
+    "topic": "ari20_vl10_kongruenzabbildung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welchen Status hat die auf Folie 7 gegebene Beschreibung der Kongruenzabbildung?",
+    "options": ["Es ist eine vorläufige, informelle Umschreibung; die übliche Definition folgt nach Untersuchung der Bewegungen", "Es ist bereits die endgültige, übliche Definition", "Sie gilt nur für Drehungen", "Kongruenzabbildungen müssen danach nicht längentreu sein"],
+    "correct": [0],
+    "explanation": "Die Folie kennzeichnet die Beschreibung als 'mögliche Definition, hier aber informelle Umschreibung'; die übliche Definition folgt, nachdem die Bewegungen untersucht wurden. 📄 Quelle: ari20_vl10, Folie 7 (S.7)",
+    "source": "ari20_vl10, Folie 7 (S.7, Rückblick)"
+  },
+  {
+    "id": "ari20_vl10-b1-009",
+    "topic": "ari20_vl10_achsenspiegelung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Achsenspiegelung – Grundaufgabe (Folie 9): Was ist gegeben und was ist zu tun?",
+    "options": ["Gegeben ist eine Gerade g; ein Objekt (z.B. ein Dreieck) ist an g zu spiegeln", "Gegeben sind zwei Punkte; die Verbindungsgerade ist zu zeichnen", "Gegeben ist ein Drehzentrum; das Objekt ist zu drehen", "Gegeben ist ein Objekt; seine Länge ist zu messen"],
+    "correct": [0],
+    "explanation": "Grundaufgabe: Gegeben ist eine Gerade g. Spiegeln Sie ein Objekt (z.B. ein Dreieck) an g. 📄 Quelle: ari20_vl10, Folie 9 (S.9)",
+    "source": "ari20_vl10, Folie 9 (S.9, Rückblick / Bewegungen)"
+  },
+  {
+    "id": "ari20_vl10-b1-010",
+    "topic": "ari20_vl10_achsenspiegelung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Achsenspiegelung – Umkehraufgabe (Folie 9): Was ist gegeben und was ist gesucht?",
+    "options": ["Gegeben sind zwei kongruente Objekte (z.B. zwei Punkte); gesucht ist die Spiegelachse", "Gegeben ist die Spiegelachse; gesucht ist das Bildobjekt", "Gegeben ist der Drehwinkel; gesucht ist das Drehzentrum", "Gegeben ist ein Kreis; gesucht ist sein Mittelpunkt"],
+    "correct": [0],
+    "explanation": "Umkehraufgabe: Gegeben sind zwei (kongruente) Objekte (z.B. auch zwei Punkte), ermitteln Sie die Spiegelachse. 📄 Quelle: ari20_vl10, Folie 9 (S.9)",
+    "source": "ari20_vl10, Folie 9 (S.9, Rückblick / Bewegungen)"
+  },
+  {
+    "id": "ari20_vl10-b1-011",
+    "topic": "ari20_vl10_drehung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Drehung – Grundaufgabe (Folie 11): Was ist gegeben?",
+    "options": ["Ein Drehzentrum Z und ein Drehwinkel α; ein Objekt wird um α an Z gedreht", "Zwei kongruente Strecken; gesucht sind Z und α", "Eine Spiegelachse g", "Nur ein Drehwinkel α ohne Drehzentrum"],
+    "correct": [0],
+    "explanation": "Grundaufgabe: Gegeben ist Drehzentrum Z und ein Drehwinkel α. Drehe ein Objekt (z.B. ein Dreieck) um α an Z. 📄 Quelle: ari20_vl10, Folie 11 (S.11)",
+    "source": "ari20_vl10, Folie 11 (S.11, Bewegungen in der Ebene)"
+  },
+  {
+    "id": "ari20_vl10-b1-012",
+    "topic": "ari20_vl10_drehung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Drehung – Umkehraufgabe (Folie 11): Was ist gegeben und was ist zu ermitteln?",
+    "options": ["Gegeben sind zwei kongruente Objekte (z.B. zwei Strecken); zu ermitteln sind Drehzentrum Z und Drehwinkel α", "Gegeben sind Z und α; zu ermitteln ist das Bildobjekt", "Gegeben ist eine Gerade g; zu ermitteln ist das Spiegelbild", "Gegeben ist nur α; zu ermitteln ist die Streckenlänge"],
+    "correct": [0],
+    "explanation": "Umkehraufgabe: Gegeben sind zwei (kongruente) Objekte (z.B. auch zwei Strecken), ermittle Z und α der zugehörigen Drehung. 📄 Quelle: ari20_vl10, Folie 11 (S.11)",
+    "source": "ari20_vl10, Folie 11 (S.11, Bewegungen in der Ebene)"
+  },
+  {
+    "id": "ari20_vl10-b1-013",
+    "topic": "ari20_vl10_drehung",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Welchen Drehwinkel α zeigt das Beispiel zur Drehung auf Folie 11?",
+    "answer": 70,
+    "tolerance": 0,
+    "unit": "°",
+    "explanation": "Im Beispiel ist der Drehwinkel mit 'Drehwinkel α = 70°' angegeben. 📄 Quelle: ari20_vl10, Folie 11 (S.11)",
+    "source": "ari20_vl10, Folie 11 (S.11, Bewegungen in der Ebene)"
+  },
+  {
+    "id": "ari20_vl10-b1-014",
+    "topic": "ari20_vl10_drehung",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Im Beispiel zur Drehung (Folie 11) ist die Strecke PZ = 3,36 lang. Welche Länge hat die Bildstrecke P'Z?",
+    "answer": 3.36,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Die Drehung erhält den Abstand zum Drehzentrum: die Folie zeigt PZ = 3.36 und P'Z = 3.36. 📄 Quelle: ari20_vl10, Folie 11 (S.11)",
+    "source": "ari20_vl10, Folie 11 (S.11, Bewegungen in der Ebene)"
+  }
+]
