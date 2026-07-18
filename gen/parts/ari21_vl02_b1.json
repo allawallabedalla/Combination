@@ -1,0 +1,238 @@
+[
+  {
+    "id": "ari21_vl02-b1-001",
+    "topic": "ari21_vl02_peano",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Nach Giuseppe Peano heißt eine Zahlenmenge N genau dann Natürliche Zahlen, wenn sie bestimmte Eigenschaften (Axiome) hat. Welche der folgenden Aussagen gehören zu diesen Peano-Axiomen?",
+    "options": [
+      "1 ist eine Natürliche Zahl.",
+      "Zu jeder natürlichen Zahl n gibt es genau einen Nachfolger n'.",
+      "Kein Element von N hat als Nachfolger die 1.",
+      "Jede natürliche Zahl hat genau einen Vorgänger."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Die Peano-Axiome auf der Folie lauten: 1 ist eine Natürliche Zahl; zu jeder Zahl n gibt es genau einen Nachfolger n'; kein Element hat als Nachfolger die 1; kein Element ist Nachfolger zweier verschiedener Elemente; sowie das Induktionsaxiom. Dass jede natürliche Zahl genau einen Vorgänger hat, gehört NICHT dazu (die 1 hat keinen Vorgänger). 📄 Quelle: ari21_vl02, Folie 5 (S.5)",
+    "source": "ari21_vl02, Folie 5 (S.5, Rückblick)"
+  },
+  {
+    "id": "ari21_vl02-b1-002",
+    "topic": "ari21_vl02_peano",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wie lautet das fünfte Peano-Axiom (Induktionsaxiom) auf der Folie?",
+    "options": [
+      "Wenn M eine Teilmenge von N ist und die ersten beiden Axiome erfüllt sind, dann ist M gleich N.",
+      "Wenn M eine Teilmenge von N ist, dann ist M gleich N.",
+      "Kein Element ist Nachfolger zweier verschiedener Elemente von N.",
+      "Zu jeder natürlichen Zahl n gibt es genau einen Nachfolger n'."
+    ],
+    "correct": [0],
+    "explanation": "Das fünfte Axiom lautet folientreu: 'Wenn M eine Teilmenge von N ist und die ersten beiden Axiome erfüllt sind, dann ist M gleich N.' Die Voraussetzung 'die ersten beiden Axiome erfüllt' darf nicht weggelassen werden. 📄 Quelle: ari21_vl02, Folie 5 (S.5)",
+    "source": "ari21_vl02, Folie 5 (S.5, Rückblick)"
+  },
+  {
+    "id": "ari21_vl02-b1-003",
+    "topic": "ari21_vl02_peano",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Von wem stammt das auf der Folie zitierte Wort „Die ganzen Zahlen hat der liebe Gott geschaffen, alles andere ist Menschenwerk.“?",
+    "options": [
+      "Leopold Kronecker (1823 – 1891)",
+      "Giuseppe Peano (1858 – 1932)",
+      "Andreas Eichler",
+      "Cosima Stylianou"
+    ],
+    "correct": [0],
+    "explanation": "Das Zitat wird auf der Folie Leopold Kronecker (1823 – 1891) zugeschrieben. 📄 Quelle: ari21_vl02, Folie 5 (S.5)",
+    "source": "ari21_vl02, Folie 5 (S.5, Rückblick)"
+  },
+  {
+    "id": "ari21_vl02-b1-004",
+    "topic": "ari21_vl02_addition",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Auf der Folie werden zwei Vorstellungen der Addition unterschieden. Welche Zuordnungen sind korrekt?",
+    "options": [
+      "„Addiert man drei Schritte, so hat man am Ende 7 Schritte“ ist die ordinale Vorstellung.",
+      "„Addiert man drei Kugeln zu vier Kugeln, hat man insgesamt 7 Kugeln“ ist die kardinale Vorstellung.",
+      "Die Schritt-Vorstellung (Schritte zählen) ist die kardinale Vorstellung.",
+      "Die Kugel-Vorstellung (Mengen zusammenlegen) ist die ordinale Vorstellung."
+    ],
+    "correct": [0, 1],
+    "explanation": "Die Folie ordnet das schrittweise Zählen der ordinalen Vorstellung zu und das Zusammenlegen von Mengen (Kugeln) der kardinalen Vorstellung. 📄 Quelle: ari21_vl02, Folie 9 (S.9)",
+    "source": "ari21_vl02, Folie 9 (S.9, Operationen (Vertiefung))"
+  },
+  {
+    "id": "ari21_vl02-b1-005",
+    "topic": "ari21_vl02_addition",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Welcher Vorstellung der Addition entspricht laut Folie die Aussage „Addiert man drei Kugeln zu vier Kugeln, hat man insgesamt 7 Kugeln“?",
+    "options": [
+      "der kardinalen Vorstellung",
+      "der ordinalen Vorstellung",
+      "der rekursiven Vorstellung",
+      "der axiomatischen Vorstellung"
+    ],
+    "correct": [0],
+    "explanation": "Das Zusammenlegen von Kugelmengen ist die kardinale Vorstellung der Addition. 📄 Quelle: ari21_vl02, Folie 9 (S.9)",
+    "source": "ari21_vl02, Folie 9 (S.9, Operationen (Vertiefung))"
+  },
+  {
+    "id": "ari21_vl02-b1-006",
+    "topic": "ari21_vl02_addition",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Wie wird die Addition auf der Folie (vor der Axiomatisierung) für beliebige Natürliche Zahlen definiert?",
+    "options": [
+      "n + 1 := n' (der Nachfolger von n)",
+      "n + (m + 1) := (n + m)' (der Nachfolger von n + m)",
+      "n · 1 := n (die Multiplikation mit 1)",
+      "n + (m + 1) := (n · m)' "
+    ],
+    "correct": [0, 1],
+    "explanation": "Die Folie setzt fest: 1) n + 1 := n' (Nachfolger von n) und 2) n + (m + 1) := (n + m)' (Nachfolger von n + m), rekursiv mit 1) bestimmbar. Die anderen Optionen sind falsch (n · 1 := n gehört zur Multiplikation). 📄 Quelle: ari21_vl02, Folie 10 (S.10)",
+    "source": "ari21_vl02, Folie 10 (S.10, Operationen (Vertiefung))"
+  },
+  {
+    "id": "ari21_vl02-b1-007",
+    "topic": "ari21_vl02_addition",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Was bedeutet das Zeichen „:=“, das in der Definition der Addition verwendet wird?",
+    "options": [
+      "definitorisches Gleichheitszeichen, „ist definiert als“",
+      "annähernd gleich",
+      "der Nachfolger von",
+      "ungleich"
+    ],
+    "correct": [0],
+    "explanation": "Auf der Folie wird „:=“ als definitorisches Gleichheitszeichen erklärt, gelesen „ist definiert als“. 📄 Quelle: ari21_vl02, Folie 10 (S.10)",
+    "source": "ari21_vl02, Folie 10 (S.10, Operationen (Vertiefung))"
+  },
+  {
+    "id": "ari21_vl02-b1-008",
+    "topic": "ari21_vl02_addition",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Berechnen Sie mit der Definition der Addition: 4 + 3 = ?",
+    "answer": 7,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Mit der rekursiven Definition der Addition ergibt sich 4 + 3 = 7. 📄 Quelle: ari21_vl02, Folie 11 (S.11)",
+    "source": "ari21_vl02, Folie 11 (S.11, Operationen (Vertiefung))"
+  },
+  {
+    "id": "ari21_vl02-b1-009",
+    "topic": "ari21_vl02_addition",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Berechnen Sie mit der Definition der Addition: 3 + 4 = ?",
+    "answer": 7,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Mit der rekursiven Definition der Addition ergibt sich 3 + 4 = 7. 📄 Quelle: ari21_vl02, Folie 11 (S.11)",
+    "source": "ari21_vl02, Folie 11 (S.11, Operationen (Vertiefung))"
+  },
+  {
+    "id": "ari21_vl02-b1-010",
+    "topic": "ari21_vl02_multiplikation",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Wie wird die Multiplikation auf der Folie für beliebige Natürliche Zahlen definiert?",
+    "options": [
+      "n · 1 := n (die Multiplikation mit 1)",
+      "n · (m + 1) := n · m + n (rekursiv)",
+      "n · 1 := n' (der Nachfolger von n)",
+      "n · (m + 1) := n · m + m"
+    ],
+    "correct": [0, 1],
+    "explanation": "Die Folie setzt fest: 1) n · 1 := n und 2) n · (m + 1) := n · m + n (rekursiv). Die Optionen n · 1 := n' und n · (m+1) := n·m + m sind falsch. 📄 Quelle: ari21_vl02, Folie 12 (S.12)",
+    "source": "ari21_vl02, Folie 12 (S.12, Operationen (Vertiefung))"
+  },
+  {
+    "id": "ari21_vl02-b1-011",
+    "topic": "ari21_vl02_multiplikation",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Berechnen Sie mit der Definition der Multiplikation: 4 · 3 = ?",
+    "answer": 12,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Mit der rekursiven Definition der Multiplikation ergibt sich 4 · 3 = 12. 📄 Quelle: ari21_vl02, Folie 12 (S.12)",
+    "source": "ari21_vl02, Folie 12 (S.12, Operationen (Vertiefung))"
+  },
+  {
+    "id": "ari21_vl02-b1-012",
+    "topic": "ari21_vl02_multiplikation",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Berechnen Sie mit der Definition der Multiplikation: 2 · 5 = ?",
+    "answer": 10,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Mit der rekursiven Definition der Multiplikation ergibt sich 2 · 5 = 10. 📄 Quelle: ari21_vl02, Folie 12 (S.12)",
+    "source": "ari21_vl02, Folie 12 (S.12, Operationen (Vertiefung))"
+  },
+  {
+    "id": "ari21_vl02-b1-013",
+    "topic": "ari21_vl02_abblitzation",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Auf der Folie wird die „Abblitzation“ am Beispiel 12 ⚡ 2 = (12 + 2) · 2 vorgeführt. Welches Ergebnis liefert diese Abblitzation?",
+    "answer": 28,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Laut Folie ist 12 ⚡ 2 = (12 + 2) · 2 = 28. 📄 Quelle: ari21_vl02, Folie 14 (S.14)",
+    "source": "ari21_vl02, Folie 14 (S.14, Erkundung)"
+  },
+  {
+    "id": "ari21_vl02-b1-014",
+    "topic": "ari21_vl02_abblitzation",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Wie werden in der Abblitzation 12 ⚡ 2 = (12 + 2) · 2 = 28 die einzelnen Bestandteile auf der Folie benannt?",
+    "options": [
+      "12 heißt Abblitzent.",
+      "2 heißt Abblitzator.",
+      "28 heißt Ergebnis der Abblitzation.",
+      "12 heißt Abblitzator."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Die Folie beschriftet 12 als Abblitzent, 2 als Abblitzator und 28 als Ergebnis der Abblitzation. „12 heißt Abblitzator“ ist damit falsch. 📄 Quelle: ari21_vl02, Folie 14 (S.14)",
+    "source": "ari21_vl02, Folie 14 (S.14, Erkundung)"
+  },
+  {
+    "id": "ari21_vl02-b1-015",
+    "topic": "ari21_vl02_abblitzation",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Eigenschaften nennt die Folie zur Abblitzation und zur (normalen) Addition bezüglich der einsetzbaren Zahlen?",
+    "options": [
+      "Alle Natürlichen Zahlen können in die Abblitzation eingesetzt werden, so dass das Ergebnis auch eine natürliche Zahl ist.",
+      "Bei der (normalen) Addition können auch alle natürlichen Zahlen eingesetzt werden.",
+      "Bei der einfachen Operation Addition lassen sich alle natürlichen Zahlen einsetzen (auch die 0).",
+      "Bei der Abblitzation ist das Ergebnis nicht immer eine natürliche Zahl."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Die Folie hält fest: alle Natürlichen Zahlen sind in die Abblitzation einsetzbar und das Ergebnis ist wieder eine natürliche Zahl; auch bei der (normalen) Addition sind alle natürlichen Zahlen (auch die 0) einsetzbar. Die Aussage, das Ergebnis der Abblitzation sei nicht immer eine natürliche Zahl, widerspricht der Folie. 📄 Quelle: ari21_vl02, Folie 17 (S.17)",
+    "source": "ari21_vl02, Folie 17 (S.17, Operationen (Vertiefung))"
+  },
+  {
+    "id": "ari21_vl02-b1-016",
+    "topic": "ari21_vl02_abblitzation",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Welche Zahlen lassen sich laut Folie in die einfache Operation Addition (a + b, z. B. 2 + 3 = 5) einsetzen?",
+    "options": [
+      "alle natürlichen Zahlen (auch die 0)",
+      "nur die natürlichen Zahlen ohne die 0",
+      "nur gerade natürliche Zahlen",
+      "nur Zahlen bis 10"
+    ],
+    "correct": [0],
+    "explanation": "Die Folie stellt zur einfachen Operation Addition fest: „Es lassen sich alle natürlichen Zahlen einsetzen (auch die 0).“ 📄 Quelle: ari21_vl02, Folie 17 (S.17)",
+    "source": "ari21_vl02, Folie 17 (S.17, Operationen (Vertiefung))"
+  }
+]

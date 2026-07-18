@@ -1,10 +1,10 @@
 # STATUS — Combination: Mathematik-Fragenkatalog (Pipeline, pro-Skript persistiert)
 
-- **Stand:** 2026-07-18 17:56 UTC
+- **Stand:** 2026-07-18 22:03 UTC
 - **Branch:** `claude/repo-combination-raw-data-vbf3hw`
-- **HEAD:** `0566b2a`
-- **Fertige Skripte:** 58 / 70
-- **Fragen gesamt (fertig + laufend, roh):** 1548
+- **HEAD:** `22f3880`
+- **Fertige Skripte:** 59 / 70
+- **Fragen gesamt (fertig + laufend, roh):** 1621
 
 ## Fortschritt
 
@@ -65,7 +65,7 @@
 | `ari23_vl01` | FERTIG | 72 | vl_1_ari2023.pdf |
 | `ari21_vl01` | offen |  | vl_1_ari21-Folien.pdf |
 | `ari23_vl02` | FERTIG | 54 | vl_2_ari2023.pdf |
-| `ari21_vl02` | offen |  | vl_2_ari21-Folien.pdf |
+| `ari21_vl02` | FERTIG | 49 | vl_2_ari21-Folien.pdf |
 | `ari23_vl03` | FERTIG | 24 | vl_3_ari2023-gekürzt.pdf |
 | `ari21_vl03` | offen |  | vl_3_ari21-Folien.pdf |
 | `ari23_vl04` | FERTIG | 97 | vl_4_ari2023-gekürzt.pdf |
@@ -79,7 +79,7 @@
 | `ari23_vl08` | FERTIG | 28 | vl_8_ari2023.pdf |
 | `ari21_vl08` | offen |  | vl_8_ari21-Folien.pdf |
 | `ari23_vl09` | FERTIG | 44 | vl_9_ari2023.pdf |
-| `ari21_vl09` | offen |  | vl_9_ari21-Folien.pdf |
+| `ari21_vl09` | laufend (1 Blöcke, 24 Fragen, nicht gemergt) | 24 | vl_9_ari21-Folien.pdf |
 
 ## Wo liegt was
 
@@ -102,5 +102,6 @@
 - Alles Fertige liegt auf origin; ein Stopp kostet höchstens den einen laufenden Block.
 - Skripte mit `gen/<code>.json` überspringen; für `laufend`-Skript fehlende Blöcke neu erzeugen → `finalize.sh`.
 
-**Offen:** `ari20_vl10`, `ari20_vl11`, `ari20_vl12`, `ari21_vl01`, `ari21_vl02`, `ari21_vl03`, `ari21_vl04`, `ari21_vl05`, `ari21_vl06`, `ari21_vl07`, `ari21_vl08`, `ari21_vl09`
+**Laufend:** `ari21_vl09`
+**Offen:** `ari20_vl10`, `ari20_vl11`, `ari20_vl12`, `ari21_vl01`, `ari21_vl03`, `ari21_vl04`, `ari21_vl05`, `ari21_vl06`, `ari21_vl07`, `ari21_vl08`
 
