@@ -2,15 +2,15 @@
 
 - **Stand:** 2026-07-18 17:30 UTC
 - **Branch:** `claude/repo-combination-raw-data-vbf3hw`
-- **HEAD:** `4d2899c`
-- **Fertige Skripte:** 45 / 70
-- **Fragen gesamt (fertig + laufend, roh):** 807
+- **HEAD:** `30bb9f7`
+- **Fertige Skripte:** 46 / 70
+- **Fragen gesamt (fertig + laufend, roh):** 902
 
 ## Fortschritt
 
 | Code | Status | Fragen | PDF |
 |---|---|---:|---|
-| `did_vl02_einf` | offen |  | 1_Did_Ari_Geo_Einführung_BS_VL2.pdf |
+| `did_vl02_einf` | FERTIG | 63 | 1_Did_Ari_Geo_Einführung_BS_VL2.pdf |
 | `did_vl01_ueberblick` | offen |  | 1_Did_Ari_Geo_Einführung_Überblick_120422 VL1.pd |
 | `themen_uebersicht` | FERTIG |  | CamScanner 27.06.2023 15.38.pdf |
 | `erk_hand` | FERTIG | 23 | Erkundung 1.pdf |
@@ -38,7 +38,7 @@
 | `skript09_live` | FERTIG | 16 | Skript9-live.pdf |
 | `did_vl04_ebenefiguren` | offen |  | StDid_Ari_Geo_Ebene Figuren_VL4.pdf |
 | `did_vl04_inhalte` | FERTIG | 10 | St_Did_Ari_Geo_Inhalte_Geometrieunterricht_VL4.p |
-| `did_vl07_raum1` | offen |  | St_Did_Ari_Geo_Räumliche_Objekte1_VL7.pdf |
+| `did_vl07_raum1` | laufend (1 Blöcke, 32 Fragen, nicht gemergt) | 32 | St_Did_Ari_Geo_Räumliche_Objekte1_VL7.pdf |
 | `did_vl08_raum2` | offen |  | St_Did_Ari_Geo_Räumliche_Objekte_2_VL8.pdf |
 | `did_vl08_zr100` | FERTIG | 22 | St_Did_Ari_Geo_Zahlenraum_100_1_VL8.pdf |
 | `uebung_2023` | FERTIG | 23 | Vermischte Übungen_2023.pdf |
@@ -102,5 +102,6 @@
 - Alles Fertige liegt auf origin; ein Stopp kostet höchstens den einen laufenden Block.
 - Skripte mit `gen/<code>.json` überspringen; für `laufend`-Skript fehlende Blöcke neu erzeugen → `finalize.sh`.
 
-**Offen:** `did_vl02_einf`, `did_vl01_ueberblick`, `did_vl05_begriffe`, `skript01_live23`, `did_vl04_ebenefiguren`, `did_vl07_raum1`, `did_vl08_raum2`, `ari20_vl10`, `ari23_vl10`, `ari20_vl11`, `ari23_vl11`, `ari20_vl12`, `ari23_vl01`, `ari21_vl01`, `ari21_vl02`, `ari21_vl03`, `ari23_vl04`, `ari21_vl04`, `ari21_vl05`, `ari23_vl06`, `ari21_vl06`, `ari23_vl07`, `ari21_vl07`, `ari21_vl08`, `ari21_vl09`
+**Laufend:** `did_vl07_raum1`
+**Offen:** `did_vl01_ueberblick`, `did_vl05_begriffe`, `skript01_live23`, `did_vl04_ebenefiguren`, `did_vl08_raum2`, `ari20_vl10`, `ari23_vl10`, `ari20_vl11`, `ari23_vl11`, `ari20_vl12`, `ari23_vl01`, `ari21_vl01`, `ari21_vl02`, `ari21_vl03`, `ari23_vl04`, `ari21_vl04`, `ari21_vl05`, `ari23_vl06`, `ari21_vl06`, `ari23_vl07`, `ari21_vl07`, `ari21_vl08`, `ari21_vl09`
 
