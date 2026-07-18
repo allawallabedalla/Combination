@@ -37,6 +37,25 @@ if [ -z "$PY" ]; then
   read -r -p "Enter zum Schließen…" _; exit 1
 fi
 
+# PDF-Motor prüfen; fehlt er, Auto-Install von PyMuPDF anbieten
+have_engine() { command -v gs >/dev/null 2>&1 || "$PY" -c "import fitz" >/dev/null 2>&1; }
+if ! have_engine; then
+  echo "Kein PDF-Motor gefunden (Ghostscript oder PyMuPDF)."
+  read -r -p "Jetzt PyMuPDF automatisch installieren? (j/n): " ans
+  case "$ans" in
+    j|J|ja|Ja|JA)
+      echo "Installiere PyMuPDF (einmalig, braucht Internet)…"
+      "$PY" -m pip install pymupdf ;;
+    *)
+      echo "Abgebrochen. Alternativ: brew install ghostscript"
+      read -r -p "Enter zum Schließen…" _; exit 1 ;;
+  esac
+  if ! have_engine; then
+    echo "Installation hat nicht geklappt. Alternativ: brew install ghostscript"
+    read -r -p "Enter zum Schließen…" _; exit 1
+  fi
+fi
+
 echo "Verkleinere PDFs in: $PWD"
 "$PY" "$SCRIPT" .
 echo

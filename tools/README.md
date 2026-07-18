@@ -25,6 +25,10 @@ python3 tools/pdf_verkleinern.py datei.pdf --inplace
 python3 tools/pdf_verkleinern.py raw/ --mb 30 --dpi 120
 ```
 
+> **Bequem:** Fehlt beim Doppelklick ein PDF-Motor, fragt die `.bat`/`.command`
+> „Jetzt PyMuPDF automatisch installieren? (j/n)" und erledigt es auf Wunsch selbst
+> (einmalig Internet nötig). Danach läuft alles offline.
+
 ### Voraussetzung (einmalig, danach offline)
 Eines davon genügt — das Skript nennt dir sonst den genauen Befehl:
 
