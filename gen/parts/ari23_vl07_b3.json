@@ -1,0 +1,410 @@
+[
+  {
+    "id": "ari23_vl07-b3-001",
+    "topic": "ari23_vl07_kathetensatz",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Was besagt der (Katheten-)Satz gemaess Folie? (Mehrfachauswahl)",
+    "options": [
+      "Voraussetzung: Das Dreieck ABC ist rechtwinklig",
+      "Der Flaecheninhalt des Quadrats ueber einer Kathete ist gleich dem Flaecheninhalt des Rechtecks aus anliegendem Hypotenusenabschnitt und Hypotenuse",
+      "Es gilt a^2 = p·c",
+      "Die Aussage gilt fuer beliebige Dreiecke ohne jede Voraussetzung"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Der Katheten-Satz gilt unter der Voraussetzung, dass ABC rechtwinklig ist; dann ist das Quadrat ueber einer Kathete flaechengleich dem Rechteck aus anliegendem Hypotenusenabschnitt und Hypotenuse, also a^2 = p·c. 📄 Quelle: ari23_vl07, Folie 31 (S.31)",
+    "source": "ari23_vl07, Folie 31 (S.31, Satzgruppe des Pythagoras - Kathetensatz)"
+  },
+  {
+    "id": "ari23_vl07-b3-002",
+    "topic": "ari23_vl07_kathetensatz",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Welche Formel gibt der (Katheten-)Satz laut Folie an?",
+    "options": [
+      "a^2 = p·c",
+      "a^2 = p·q",
+      "h_c^2 = p·q",
+      "a^2 + b^2 = c^2"
+    ],
+    "correct": [0],
+    "explanation": "Der Katheten-Satz lautet auf der Folie a^2 = p·c (Quadrat ueber der Kathete gleich Rechteck aus anliegendem Hypotenusenabschnitt p und Hypotenuse c). 📄 Quelle: ari23_vl07, Folie 31 (S.31)",
+    "source": "ari23_vl07, Folie 31 (S.31, Satzgruppe des Pythagoras - Kathetensatz)"
+  },
+  {
+    "id": "ari23_vl07-b3-003",
+    "topic": "ari23_vl07_kathetensatz",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Von welchen Beziehungen geht der Beweis des Kathetensatzes auf Folie 31 ('Wir wissen, dass ...') aus?",
+    "options": [
+      "a^2 + b^2 = c^2 (Satz des Pythagoras)",
+      "c = p + q",
+      "a^2 = h_c^2 + p^2",
+      "c = p - q"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Der Beweis startet mit a^2 + b^2 = c^2 (Satz des Pythagoras), mit c = p + q und erhaelt daraus b^2 = h_c^2 + q^2 sowie a^2 = h_c^2 + p^2. c = p - q ist falsch. 📄 Quelle: ari23_vl07, Folie 31 (S.31)",
+    "source": "ari23_vl07, Folie 31 (S.31, Satzgruppe des Pythagoras - Kathetensatz, Beweis)"
+  },
+  {
+    "id": "ari23_vl07-b3-004",
+    "topic": "ari23_vl07_kathetensatz",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Hilfsgleichungen (1)-(4) werden im Kathetensatz-Beweis auf Folie 32 verwendet?",
+    "options": [
+      "(1) a^2 + b^2 = c^2",
+      "(2) c = p + q",
+      "(3) b^2 = h_c^2 + q^2",
+      "(4) a^2 = h_c^2 - p^2"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Die Folie nummeriert (1) a^2+b^2=c^2, (2) c=p+q, (3) b^2=h_c^2+q^2 und (4) a^2=h_c^2+p^2. Die Variante mit Minus (h_c^2 - p^2) ist falsch. 📄 Quelle: ari23_vl07, Folie 32 (S.32)",
+    "source": "ari23_vl07, Folie 32 (S.32, Satzgruppe des Pythagoras - Kathetensatz, Beweis)"
+  },
+  {
+    "id": "ari23_vl07-b3-005",
+    "topic": "ari23_vl07_kathetensatz",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Umformungen werden im Kathetensatz-Beweis auf Folie 32 vorgenommen?",
+    "options": [
+      "Mit (1) ergibt sich a^2 = c^2 - b^2",
+      "Mit (2) und (3) folgt a^2 = (p+q)^2 - (h_c^2 + q^2)",
+      "Ausmultipliziert erhaelt man p^2 + 2pq - h_c^2",
+      "Mit (1) ergibt sich a^2 = c^2 + b^2"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Aus (1) folgt a^2 = c^2 - b^2; Einsetzen von (2) und (3) liefert a^2 = (p+q)^2 - (h_c^2 + q^2) = p^2 + 2pq + q^2 - h_c^2 - q^2 = p^2 + 2pq - h_c^2. a^2 = c^2 + b^2 ist falsch. 📄 Quelle: ari23_vl07, Folie 32 (S.32)",
+    "source": "ari23_vl07, Folie 32 (S.32, Satzgruppe des Pythagoras - Kathetensatz, Beweis)"
+  },
+  {
+    "id": "ari23_vl07-b3-006",
+    "topic": "ari23_vl07_kathetensatz",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Nach Einsetzen von (4) a^2 = h_c^2 + p^2 ergibt sich auf Folie 32 fuer a^2 der Ausdruck:",
+    "options": [
+      "2p^2 + 2pq - a^2",
+      "p^2 + 2pq - a^2",
+      "2p^2 + 2pq + a^2",
+      "p^2 + 2pq"
+    ],
+    "correct": [0],
+    "explanation": "Aus p^2 + 2pq - h_c^2 wird mit (4) h_c^2 = a^2 - p^2: p^2 + 2pq - (a^2 - p^2) = p^2 + 2pq - a^2 + p^2 = 2p^2 + 2pq - a^2. 📄 Quelle: ari23_vl07, Folie 32 (S.32)",
+    "source": "ari23_vl07, Folie 32 (S.32, Satzgruppe des Pythagoras - Kathetensatz, Beweis)"
+  },
+  {
+    "id": "ari23_vl07-b3-007",
+    "topic": "ari23_vl07_kathetensatz",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Schritte fuehren im Kathetensatz-Beweis auf Folie 33 zum Ergebnis?",
+    "options": [
+      "Aus a^2 = 2p^2 + 2pq - a^2 folgt 2a^2 = 2p^2 + 2pq",
+      "2a^2 = 2p·(p+q), also a^2 = p·(p+q)",
+      "Mit (2) c = p + q folgt a^2 = p·c",
+      "Es folgt a^2 = p + c"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Aus a^2 = 2p^2 + 2pq - a^2 folgt 2a^2 = 2p^2 + 2pq = 2p·(p+q), also a^2 = p·(p+q); mit (2) c = p+q ergibt sich a^2 = p·c. a^2 = p + c ist falsch. 📄 Quelle: ari23_vl07, Folie 33 (S.33)",
+    "source": "ari23_vl07, Folie 33 (S.33, Satzgruppe des Pythagoras - Kathetensatz, Beweis)"
+  },
+  {
+    "id": "ari23_vl07-b3-008",
+    "topic": "ari23_vl07_kathetensatz",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Was gilt laut Folie 33 entsprechend fuer b^2?",
+    "options": [
+      "b^2 = q·c",
+      "b^2 = p·c",
+      "b^2 = p·q",
+      "b^2 = q + c"
+    ],
+    "correct": [0],
+    "explanation": "Die Folie haelt fest: 'Entsprechend zeigt man, dass auch b^2 = q·c gilt.' 📄 Quelle: ari23_vl07, Folie 33 (S.33)",
+    "source": "ari23_vl07, Folie 33 (S.33, Satzgruppe des Pythagoras - Kathetensatz, Beweis)"
+  },
+  {
+    "id": "ari23_vl07-b3-009",
+    "topic": "ari23_vl07_hoehensatz",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Was besagt der (Hoehen-)Satz gemaess Folie 34? (Mehrfachauswahl)",
+    "options": [
+      "Voraussetzung: Das Dreieck ABC ist rechtwinklig",
+      "Der Flaecheninhalt des Quadrats ueber der Hoehe zur Hypotenuse ist gleich dem Flaecheninhalt des Rechtecks aus den beiden Hypotenusenabschnitten",
+      "Es gilt h_c^2 = p·q",
+      "Es gilt h_c^2 = p·c"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Der Hoehensatz gilt unter der Voraussetzung, dass ABC rechtwinklig ist; dann ist das Quadrat ueber der Hoehe h_c flaechengleich dem Rechteck aus den beiden Hypotenusenabschnitten p und q, also h_c^2 = p·q. h_c^2 = p·c ist falsch. 📄 Quelle: ari23_vl07, Folie 34 (S.34)",
+    "source": "ari23_vl07, Folie 34 (S.34, Satzgruppe des Pythagoras - Hoehensatz)"
+  },
+  {
+    "id": "ari23_vl07-b3-010",
+    "topic": "ari23_vl07_hoehensatz",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Welche Formel gehoert laut Folie zum (Hoehen-)Satz?",
+    "options": [
+      "h_c^2 = p·q",
+      "h_c^2 = p·c",
+      "a^2 = p·c",
+      "h_c^2 = a^2 + p^2"
+    ],
+    "correct": [0],
+    "explanation": "Der Hoehensatz lautet auf der Folie h_c^2 = p·q. 📄 Quelle: ari23_vl07, Folie 34 (S.34)",
+    "source": "ari23_vl07, Folie 34 (S.34, Satzgruppe des Pythagoras - Hoehensatz)"
+  },
+  {
+    "id": "ari23_vl07-b3-011",
+    "topic": "ari23_vl07_hoehensatz",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Von welchen Beziehungen geht der Beweis des Hoehensatzes auf Folie 35 aus ('Wir wissen, dass ...')?",
+    "options": [
+      "c = p + q",
+      "a^2 = p·c (Katheten-Satz)",
+      "h_c^2 = p·q",
+      "c = p·q"
+    ],
+    "correct": [0, 1],
+    "explanation": "Der Beweis geht aus von c = p + q und a^2 = p·c (Katheten-Satz). h_c^2 = p·q ist erst die zu beweisende Behauptung; c = p·q ist falsch. 📄 Quelle: ari23_vl07, Folie 35 (S.35)",
+    "source": "ari23_vl07, Folie 35 (S.35, Satzgruppe des Pythagoras - Hoehensatz, Beweis)"
+  },
+  {
+    "id": "ari23_vl07-b3-012",
+    "topic": "ari23_vl07_hoehensatz",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Welcher Satz wird auf Folie 35 herangezogen, um a^2 = p·c zu begruenden?",
+    "options": [
+      "Katheten-Satz",
+      "Hoehen-Satz",
+      "Satz des Thales",
+      "Satz des Pythagoras"
+    ],
+    "correct": [0],
+    "explanation": "Die Folie kennzeichnet a^2 = p·c ausdruecklich als Katheten-Satz. 📄 Quelle: ari23_vl07, Folie 35 (S.35)",
+    "source": "ari23_vl07, Folie 35 (S.35, Satzgruppe des Pythagoras - Hoehensatz, Beweis)"
+  },
+  {
+    "id": "ari23_vl07-b3-013",
+    "topic": "ari23_vl07_hoehensatz",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Schritte enthaelt der Hoehensatz-Beweis auf Folie 36?",
+    "options": [
+      "a^2 = h_c^2 + p^2 (Satz des Pythagoras), also h_c^2 = a^2 - p^2",
+      "Mit (2) a^2 = p·c folgt h_c^2 = p·c - p^2 = p·(c - p)",
+      "Mit (1) c = p + q folgt h_c^2 = p·q",
+      "Mit (1) folgt h_c^2 = p + q"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Aus a^2 = h_c^2 + p^2 folgt h_c^2 = a^2 - p^2; mit (2) a^2 = p·c wird daraus p·c - p^2 = p·(c - p); mit (1) c = p + q folgt c - p = q, also h_c^2 = p·q. h_c^2 = p + q ist falsch. 📄 Quelle: ari23_vl07, Folie 36 (S.36)",
+    "source": "ari23_vl07, Folie 36 (S.36, Satzgruppe des Pythagoras - Hoehensatz, Beweis)"
+  },
+  {
+    "id": "ari23_vl07-b3-014",
+    "topic": "ari23_vl07_hoehensatz",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Welches Ergebnis liefert der Beweis des Hoehensatzes auf Folie 36?",
+    "options": [
+      "h_c^2 = p·q",
+      "h_c^2 = p·c",
+      "h_c^2 = a^2 - q^2",
+      "h_c^2 = p·(p + q)"
+    ],
+    "correct": [0],
+    "explanation": "Der Beweis endet mit 'mit (1) folgt h_c^2 = p·q'. 📄 Quelle: ari23_vl07, Folie 36 (S.36)",
+    "source": "ari23_vl07, Folie 36 (S.36, Satzgruppe des Pythagoras - Hoehensatz, Beweis)"
+  },
+  {
+    "id": "ari23_vl07-b3-015",
+    "topic": "ari23_vl07_umkehrung_pythagoras",
+    "difficulty": 1,
+    "type": "multi",
+    "question": "Was steht auf Folie 38 (Einstieg 'Umkehrung: Satz des Thales')?",
+    "options": [
+      "Bauarbeiter verwenden pythagoreische Tripel, um rechte Winkel herzustellen",
+      "Ein Holzdreieck wurde mit Seitenlaengen 5:4:3 hergestellt",
+      "Es soll begruendet werden, dass dieses Vorgehen (bis auf Ungenauigkeiten) hilft, einen rechten Winkel zu erzeugen",
+      "Bauarbeiter verwenden ein gleichseitiges Dreieck mit Seitenlaengen 5:5:5"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Die Folie nennt pythagoreische Tripel und ein Holzdreieck mit Seitenlaengen 5:4:3; die Aufgabe verlangt zu begruenden, dass dies (bis auf Ungenauigkeiten) einen rechten Winkel erzeugt. Ein gleichseitiges 5:5:5-Dreieck ist falsch. 📄 Quelle: ari23_vl07, Folie 38 (S.38)",
+    "source": "ari23_vl07, Folie 38 (S.38, Umkehrung: Satz des Thales)"
+  },
+  {
+    "id": "ari23_vl07-b3-016",
+    "topic": "ari23_vl07_umkehrung_pythagoras",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Pruefen Sie das auf Folie 38 genannte Tripel mit Seitenlaengen 5:4:3: Berechnen Sie 3^2 + 4^2.",
+    "answer": 25,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "3^2 + 4^2 = 9 + 16 = 25 = 5^2, also ist 3:4:5 ein pythagoreisches Tripel. 📄 Quelle: ari23_vl07, Folie 38 (S.38)",
+    "source": "ari23_vl07, Folie 38 (S.38, Umkehrung: Satz des Thales)"
+  },
+  {
+    "id": "ari23_vl07-b3-017",
+    "topic": "ari23_vl07_umkehrung_pythagoras",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Wie werden auf Folie 39 der Satz des Pythagoras und der 'Bauarbeitersatz' unterschieden?",
+    "options": [
+      "Satz (Pythagoras): Wenn rechter Winkel, dann a^2 + b^2 = c^2",
+      "Bauarbeitersatz: Wenn a^2 + b^2 = c^2, dann rechter Winkel",
+      "Der Bauarbeitersatz ist die Umkehrung des Satzes von Pythagoras",
+      "Beide Aussagen sind identisch und folgen unmittelbar auseinander"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Die Folie stellt gegenueber: Pythagoras 'Wenn rechter Winkel, dann a^2+b^2=c^2' und Bauarbeitersatz 'Wenn a^2+b^2=c^2, dann rechter Winkel' - also Voraussetzung und Folgerung vertauscht (Umkehrung). Sie sind nicht identisch. 📄 Quelle: ari23_vl07, Folie 39 (S.39)",
+    "source": "ari23_vl07, Folie 39 (S.39, Umkehrung: Satz des Thales)"
+  },
+  {
+    "id": "ari23_vl07-b3-018",
+    "topic": "ari23_vl07_umkehrung_pythagoras",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Warum muss man laut Folie 39 sagen 'das stimmt so nicht', als Karl den Bauarbeitersatz fuer 'eben bewiesen' haelt?",
+    "options": [
+      "Weil der Bauarbeitersatz die Umkehrung ist und die Umkehrung eines Satzes nicht automatisch mitbewiesen ist",
+      "Weil der Satz des Pythagoras falsch ist",
+      "Weil a^2 + b^2 = c^2 nur fuer gleichschenklige Dreiecke gilt",
+      "Weil Bauarbeiter keine Mathematiker sind"
+    ],
+    "correct": [0],
+    "explanation": "Die Folie stellt Satz und Umkehrung (Bauarbeitersatz) gegenueber: Voraussetzung und Folgerung sind vertauscht, daher ist mit dem Satz des Pythagoras die Umkehrung noch nicht bewiesen. 📄 Quelle: ari23_vl07, Folie 39 (S.39)",
+    "source": "ari23_vl07, Folie 39 (S.39, Umkehrung: Satz des Thales)"
+  },
+  {
+    "id": "ari23_vl07-b3-019",
+    "topic": "ari23_vl07_umkehrung_pythagoras",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Was besagt die 'Umkehrung des Satzes von Pythagoras' auf Folie 40?",
+    "options": [
+      "Fuer alle Dreiecke ABC gilt: Wenn fuer die Flaecheninhalte der Quadrate ueber den Seiten a, b und c die Beziehung a^2 + b^2 = c^2 gilt, dann hat das Dreieck bei C einen rechten Winkel",
+      "Die Voraussetzung ist a^2 + b^2 = c^2, die Folgerung ist ein rechter Winkel bei C",
+      "Der Beweis wird auf der Folie mit dem Satz des Thales angekuendigt (nicht in der Vorlesung)",
+      "Die Voraussetzung ist der rechte Winkel, die Folgerung ist a^2 + b^2 = c^2"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Die Umkehrung setzt a^2 + b^2 = c^2 voraus und folgert einen rechten Winkel bei C; der Beweis 'nicht in der Vorlesung' wird mit dem Satz des Thales angekuendigt. Die letzte Option vertauscht Voraussetzung und Folgerung (das ist der Satz des Pythagoras selbst). 📄 Quelle: ari23_vl07, Folie 40 (S.40)",
+    "source": "ari23_vl07, Folie 40 (S.40, Umkehrung: Satz des Thales)"
+  },
+  {
+    "id": "ari23_vl07-b3-020",
+    "topic": "ari23_vl07_umkehrung_pythagoras",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Womit wird auf Folie 40 der Beweis der Umkehrung angekuendigt (nicht in der Vorlesung ausgefuehrt)?",
+    "options": [
+      "mit Satz des Thales",
+      "mit dem Hoehensatz",
+      "mit dem Kathetensatz",
+      "mit vollstaendiger Induktion"
+    ],
+    "correct": [0],
+    "explanation": "Die Folie vermerkt: 'Beweis (nicht in der Vorlesung): mit Satz des Thales...'. 📄 Quelle: ari23_vl07, Folie 40 (S.40)",
+    "source": "ari23_vl07, Folie 40 (S.40, Umkehrung: Satz des Thales)"
+  },
+  {
+    "id": "ari23_vl07-b3-021",
+    "topic": "ari23_vl07_umkehrung_pythagoras",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Was fasst der 'Satz' auf Folie 41 zusammen?",
+    "options": [
+      "Genau dann, wenn ein Dreieck ABC rechtwinklig ist, gilt a^2 + b^2 = c^2",
+      "Er fasst beide wenn-dann-Richtungen (Hin- und Rueckrichtung) zusammen",
+      "Die Rueckrichtung wird ohne Beweis angegeben",
+      "Die Aussage gilt nur, wenn zusaetzlich der Hoehensatz vorausgesetzt wird"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Die Folie formuliert 'Genau dann, wenn ABC rechtwinklig ist, ist a^2 + b^2 = c^2' und vermerkt: Zusammenfassung beider wenn-dann-Richtungen, Rueckrichtung ohne Beweis. Der Hoehensatz ist keine Voraussetzung. 📄 Quelle: ari23_vl07, Folie 41 (S.41)",
+    "source": "ari23_vl07, Folie 41 (S.41, Umkehrung: Satz des Thales - Zusammenfassung)"
+  },
+  {
+    "id": "ari23_vl07-b3-022",
+    "topic": "ari23_vl07_umkehrung_pythagoras",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Wird die Rueckrichtung des Satzes auf Folie 41 bewiesen?",
+    "options": [
+      "Nein, die Rueckrichtung wird ohne Beweis angegeben",
+      "Ja, mit vollstaendiger Induktion",
+      "Ja, mit dem Hoehensatz",
+      "Ja, mit dem Kathetensatz"
+    ],
+    "correct": [0],
+    "explanation": "Die Folie vermerkt ausdruecklich '(Zusammenfassung der beiden wenn-dann-Richtungen. Rueckrichtung ohne Beweis)'. 📄 Quelle: ari23_vl07, Folie 41 (S.41)",
+    "source": "ari23_vl07, Folie 41 (S.41, Umkehrung: Satz des Thales - Zusammenfassung)"
+  },
+  {
+    "id": "ari23_vl07-b3-023",
+    "topic": "ari23_vl07_satz_thales",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Was besagt der Satz des Thales auf Folie 42?",
+    "options": [
+      "Voraussetzung: Punkt C liegt auf dem Halbkreis mit Mittelpunkt im Mittelpunkt der Strecke AB",
+      "Folgerung: ABC ist ein rechtwinkliges Dreieck mit rechtem Winkel in C",
+      "Die Aussage gilt fuer alle Dreiecke ABC",
+      "Folgerung: ABC ist ein gleichseitiges Dreieck"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Der Satz des Thales: Fuer alle Dreiecke ABC gilt - wenn C auf dem Halbkreis mit Mittelpunkt im Mittelpunkt der Strecke AB liegt, dann ist ABC rechtwinklig mit rechtem Winkel in C. Gleichseitigkeit folgt nicht. 📄 Quelle: ari23_vl07, Folie 42 (S.42)",
+    "source": "ari23_vl07, Folie 42 (S.42, Umkehrung: Satz des Thales)"
+  },
+  {
+    "id": "ari23_vl07-b3-024",
+    "topic": "ari23_vl07_satz_thales",
+    "difficulty": 1,
+    "type": "multi",
+    "question": "Welche Vorgaben macht die Konstruktionsaufgabe auf Folie 42?",
+    "options": [
+      "Konstruktion nur mit Zirkel und Lineal",
+      "Eine Kathete hat die Laenge 3 cm",
+      "Die Hypotenuse ist 8 cm lang",
+      "Der Umfang betraegt 8 cm"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Die Aufgabe verlangt, nur mit Zirkel und Lineal ein rechtwinkliges Dreieck zu konstruieren, dessen eine Kathete 3 cm und dessen Hypotenuse 8 cm lang ist. Eine Angabe zum Umfang gibt es nicht. 📄 Quelle: ari23_vl07, Folie 42 (S.42)",
+    "source": "ari23_vl07, Folie 42 (S.42, Umkehrung: Satz des Thales, Aufgabe)"
+  },
+  {
+    "id": "ari23_vl07-b3-025",
+    "topic": "ari23_vl07_vollstaendige_induktion",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Vertiefende Uebung zur Induktion (Folie 45): Werten Sie die zu beweisende Formel n·(2n-1)·(2n+1)/3 fuer n = 3 aus (Summe 1^2 + 3^2 + 5^2).",
+    "answer": 35,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Fuer n = 3: 3·(2·3-1)·(2·3+1)/3 = 3·5·7/3 = 35; Probe 1^2 + 3^2 + 5^2 = 1 + 9 + 25 = 35. 📄 Quelle: ari23_vl07, Folie 45 (S.45)",
+    "source": "ari23_vl07, Folie 45 (S.45, Erkundungspause - Vertiefende Uebungen zur Induktion)"
+  },
+  {
+    "id": "ari23_vl07-b3-026",
+    "topic": "ari23_vl07_vollstaendige_induktion",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Was ist Inhalt der 'Vertiefenden Uebungen zur Induktion' auf Folie 45?",
+    "options": [
+      "Das Prinzip der vollstaendigen Induktion soll einem/r Kommilitonen/in schriftlich erlaeutert werden",
+      "Es soll erklaert werden, worin das Prinzip begruendet liegt und wie es sich auf die Struktur der vollstaendigen Induktion uebertraegt",
+      "Die Aussage Summe von (2i-1)^2 = 1^2 + 3^2 + 5^2 + ... + (2n-1)^2 = n·(2n-1)·(2n+1)/3 soll fuer alle natuerlichen Zahlen mit vollstaendiger Induktion bewiesen werden",
+      "Die Formel soll nur fuer n = 10 durch Einsetzen ueberprueft werden"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Teil (a) verlangt eine schriftliche Erlaeuterung des Prinzips der vollstaendigen Induktion (worin es begruendet liegt, wie es sich auf die Struktur uebertraegt); Teil (b) verlangt den Beweis der Summenformel fuer alle natuerlichen Zahlen mit vollstaendiger Induktion. Eine blosse Ueberpruefung fuer n = 10 ist nicht verlangt. 📄 Quelle: ari23_vl07, Folie 45 (S.45)",
+    "source": "ari23_vl07, Folie 45 (S.45, Erkundungspause - Vertiefende Uebungen zur Induktion)"
+  }
+]
