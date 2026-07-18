@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ari21_vl01-b3-001",
+    "topic": "ari21_vl01_rechenoperationen",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Auf der Folie wird die (fiktive) Rechenoperation „Abblitzation\" eingeführt: 12 ▽ 2 = (12+2)·2. Welches Ergebnis der Abblitzation ergibt sich?",
+    "answer": 28,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Laut Folie gilt 12 ▽ 2 = (12+2)·2 = 14·2 = 28; 28 ist das Ergebnis der Abblitzation. 📄 Quelle: ari21_vl01, Folie 45 (S.45)",
+    "source": "ari21_vl01, Folie 45 (S.45, Vorlesung 1 / Erkundung 1, nach Leuders 2010)"
+  },
+  {
+    "id": "ari21_vl01-b3-002",
+    "topic": "ari21_vl01_rechenoperationen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Bei der Abblitzation 12 ▽ 2 = (12+2)·2 = 28 werden auf der Folie Fachbegriffe eingeführt. Welche Zuordnungen sind korrekt?",
+    "options": [
+      "12 ist der Abblitzent",
+      "2 ist der Abblitzator",
+      "28 ist das Ergebnis der Abblitzation",
+      "14 ist der Abblitzator"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Die Folie beschriftet 12 als Abblitzent, 2 als Abblitzator und 28 als Ergebnis der Abblitzation. Die 14 (= 12+2) ist ein Zwischenwert und nicht der Abblitzator. 📄 Quelle: ari21_vl01, Folie 45 (S.45)",
+    "source": "ari21_vl01, Folie 45 (S.45, Vorlesung 1 / Erkundung 1, nach Leuders 2010)"
+  },
+  {
+    "id": "ari21_vl01-b3-003",
+    "topic": "ari21_vl01_rechenoperationen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Eigenschaften der Abblitzation sollen laut den Erkundungsaufträgen (Erkundung I) untersucht werden?",
+    "options": [
+      "Ob die Abblitzation kommutativ ist (Tauschaufgabe)",
+      "Ob die Abblitzation assoziativ ist",
+      "Wie die Umkehroperation aussieht (Umkehraufgabe)",
+      "Ob die Abblitzation ein neutrales Element besitzt"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Die Erkundungsaufträge fragen u. a., ob die Abblitzation kommutativ (Tauschaufgabe) und assoziativ ist und wie die Umkehroperation (Umkehraufgabe) aussieht. Ein neutrales Element wird auf der Folie nicht thematisiert. 📄 Quelle: ari21_vl01, Folie 45 (S.45)",
+    "source": "ari21_vl01, Folie 45 (S.45, Vorlesung 1 / Erkundung 1)"
+  },
+  {
+    "id": "ari21_vl01-b3-004",
+    "topic": "ari21_vl01_umkehraufgaben",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "In der Schulbuchaufgabe „Üben für den Rechenmeister\" (Die Matheprofis 1, S. 96) bildet Paula aus nur 3 Zahlen die Aufgaben 3+4=7, 4+3=7, 7−3=4 und 7−4=3. Welche Aussagen treffen laut Folie zu?",
+    "options": [
+      "Die zweite Rechnung (4+3=7) heißt Tauschaufgabe",
+      "Die dritte und vierte Rechnung (7−3=4, 7−4=3) sind Umkehraufgaben zu den ersten beiden",
+      "Paula macht die Aufgaben mit nur 3 Zahlen",
+      "Die erste Rechnung (3+4=7) ist eine Umkehraufgabe"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Laut Folie ist die zweite Rechnung eine Tauschaufgabe, die dritte und vierte sind Umkehraufgaben zu den ersten beiden; Paula bildet die Aufgaben mit nur 3 Zahlen. Die erste Rechnung ist die Ausgangsaufgabe, keine Umkehraufgabe. 📄 Quelle: ari21_vl01, Folie 45 (S.45)",
+    "source": "ari21_vl01, Folie 45 (S.45, Vorlesung 1 / Erkundung 1, Die Matheprofis 1)"
+  }
+]
