@@ -1,0 +1,112 @@
+[
+  {
+    "id": "did_vl04_ebenefiguren-b2-001",
+    "topic": "did_vl04_ebenefiguren_darstellungsformen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Darstellungsformen zeigt das Modell zur Frage „Wie sieht die Darstellungsform für die Aufgabenstellung aus?“?",
+    "options": ["Bilder", "sprachliches Symbol", "mathematisches Symbol", "Handlungen am Material", "Rechengeschichten", "Zahlenstrahl"],
+    "correct": [0, 1, 2, 3],
+    "explanation": "Das Modell verbindet die vier Darstellungsformen Bilder, sprachliches Symbol, mathematisches Symbol und Handlungen am Material. Rechengeschichten und Zahlenstrahl kommen auf der Folie nicht vor. 📄 Quelle: did_vl04_ebenefiguren, Folie 15 (S.15)",
+    "source": "did_vl04_ebenefiguren, Folie 15 (S.15, 1.2 Ebene Figuren)"
+  },
+  {
+    "id": "did_vl04_ebenefiguren-b2-002",
+    "topic": "did_vl04_ebenefiguren_darstellungsformen",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Der Sprechblasentext „Ich habe einen Einling und einen Zwilling zusammengelegt.“ ist auf der Folie ein Beispiel für welche Darstellungsform?",
+    "options": ["sprachliches Symbol", "mathematisches Symbol", "Bilder", "Handlungen am Material"],
+    "correct": [0],
+    "explanation": "Die verbale Äußerung in der Sprechblase steht im Modell an der Position „sprachliches Symbol“. 📄 Quelle: did_vl04_ebenefiguren, Folie 15 (S.15)",
+    "source": "did_vl04_ebenefiguren, Folie 15 (S.15, 1.2 Ebene Figuren)"
+  },
+  {
+    "id": "did_vl04_ebenefiguren-b2-003",
+    "topic": "did_vl04_ebenefiguren_darstellungsformen",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Was drücken die Doppelpfeile zwischen den Darstellungsformen im Modell aus?",
+    "options": ["Zwischen allen Darstellungsformen ist ein Wechsel in beide Richtungen möglich.", "Ein Wechsel ist nur von den Handlungen am Material zu den Bildern möglich.", "Die Darstellungsformen stehen in keiner Beziehung zueinander.", "Es gibt nur eine Übersetzungsrichtung, vom mathematischen Symbol zum sprachlichen Symbol."],
+    "correct": [0],
+    "explanation": "Die Doppelpfeile verbinden alle vier Darstellungsformen wechselseitig; ein Übersetzen ist in beide Richtungen zwischen allen Formen möglich. 📄 Quelle: did_vl04_ebenefiguren, Folie 15 (S.15)",
+    "source": "did_vl04_ebenefiguren, Folie 15 (S.15, 1.2 Ebene Figuren)"
+  },
+  {
+    "id": "did_vl04_ebenefiguren-b2-004",
+    "topic": "did_vl04_ebenefiguren_tangram_aktivitaeten",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aktivitäten mit dem Tangram nennt die Folie „Aktivitäten mit Tangram“?",
+    "options": ["Figuren legen", "Nachlegen von Figuren", "Auslegen des Ausgangsquadrats", "Figur nach verbaler Beschreibung legen", "Tangram-Teile mit dem Lineal ausmessen", "Tangram-Figuren aus Papier ausschneiden"],
+    "correct": [0, 1, 2, 3],
+    "explanation": "Genannt werden: Figuren legen, Nachlegen von Figuren, Auslegen des Ausgangsquadrats sowie Figur nach verbaler Beschreibung legen. Ausmessen mit dem Lineal und Ausschneiden stehen nicht auf der Folie. 📄 Quelle: did_vl04_ebenefiguren, Folie 23 (S.23)",
+    "source": "did_vl04_ebenefiguren, Folie 23 (S.23, 1.2 Ebene Figuren)"
+  },
+  {
+    "id": "did_vl04_ebenefiguren-b2-005",
+    "topic": "did_vl04_ebenefiguren_tangram_aktivitaeten",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Wie wird das Tangram in der Folienüberschrift eingeordnet?",
+    "options": ["als heterogenes Material", "als homogenes Material", "als digitales Material", "als strukturiertes Zehnersystem-Material"],
+    "correct": [0],
+    "explanation": "Die Folie steht unter der Überschrift „Legen mit heterogenem Material – Aktivitäten mit Tangram“; das Tangram wird also als heterogenes Material eingeordnet. 📄 Quelle: did_vl04_ebenefiguren, Folie 23 (S.23)",
+    "source": "did_vl04_ebenefiguren, Folie 23 (S.23, 1.2 Ebene Figuren)"
+  },
+  {
+    "id": "did_vl04_ebenefiguren-b2-006",
+    "topic": "did_vl04_ebenefiguren_tangram_aktivitaeten",
+    "difficulty": 3,
+    "type": "single",
+    "question": "Was soll laut Folie beim „Nachlegen von Figuren“ vorgegeben werden?",
+    "options": ["Abbildungen mit sichtbaren Teilen zum Nachlegen", "Umrissfiguren (nur der Umriss) zum Auslegen", "ausschließlich eine verbale Beschreibung", "die fertige farbige Lösung"],
+    "correct": [0],
+    "explanation": "Zum „Nachlegen von Figuren“ sollen „Abbildungen mit sichtbaren Teilen zum Nachlegen“ vorgegeben werden. Umrissfiguren gehören dagegen zum „Auslegen des Ausgangsquadrats“. 📄 Quelle: did_vl04_ebenefiguren, Folie 23 (S.23)",
+    "source": "did_vl04_ebenefiguren, Folie 23 (S.23, 1.2 Ebene Figuren)"
+  },
+  {
+    "id": "did_vl04_ebenefiguren-b2-007",
+    "topic": "did_vl04_ebenefiguren_tangram_aktivitaeten",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Was soll beim „Auslegen des Ausgangsquadrats“ vorgegeben werden?",
+    "options": ["Umrissfiguren zum Auslegen", "Abbildungen mit sichtbaren Teilen", "eine Rätselkarte mit Quadratlingen", "eine verbale Beschreibung"],
+    "correct": [0],
+    "explanation": "Für das Auslegen des Ausgangsquadrats sollen „Umrissfiguren zum Auslegen“ vorgegeben werden. 📄 Quelle: did_vl04_ebenefiguren, Folie 23 (S.23)",
+    "source": "did_vl04_ebenefiguren, Folie 23 (S.23, 1.2 Ebene Figuren)"
+  },
+  {
+    "id": "did_vl04_ebenefiguren-b2-008",
+    "topic": "did_vl04_ebenefiguren_graf_typo",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aussagen zum Lernangebot „Graf Typo“ treffen laut Folie zu?",
+    "options": ["Es beruht auf der Geschichte von Lia Tschornaja.", "Es ist als Partneraktivität für die Schule angelegt.", "Die geometrischen Formen sollen selbst hergestellt werden.", "Die eigenen Figuren werden einem anderen Tandem zum Nachlegen gegeben.", "Die Figuren sollen mit dem Lineal exakt gezeichnet werden."],
+    "correct": [0, 1, 2, 3],
+    "explanation": "Graf Typo (Geschichte von Lia Tschornaja) ist eine Partneraktivität für die Schule: geometrische Formen selbst herstellen und ausprobieren, Figuren aufzeichnen und einem anderen Tandem zum Nachlegen geben. Das Zeichnen erfolgt jedoch OHNE Lineal. 📄 Quelle: did_vl04_ebenefiguren, Folie 24 (S.24)",
+    "source": "did_vl04_ebenefiguren, Folie 24 (S.24, 1.2 Ebene Figuren)"
+  },
+  {
+    "id": "did_vl04_ebenefiguren-b2-009",
+    "topic": "did_vl04_ebenefiguren_graf_typo",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Wie sollen die Kinder bei „Graf Typo“ ihre Figuren aufzeichnen?",
+    "options": ["ohne Lineal", "mit Lineal und Geodreieck", "am Computer", "ausschließlich durch Falten"],
+    "correct": [0],
+    "explanation": "Auf der Folie heißt es: „Zeichnet eure Figuren ohne Lineal auf …“. 📄 Quelle: did_vl04_ebenefiguren, Folie 24 (S.24)",
+    "source": "did_vl04_ebenefiguren, Folie 24 (S.24, 1.2 Ebene Figuren)"
+  },
+  {
+    "id": "did_vl04_ebenefiguren-b2-010",
+    "topic": "did_vl04_ebenefiguren_graf_typo",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Wer erhält bei der Partneraktivität „Graf Typo“ die aufgezeichneten Figuren zum Nachlegen?",
+    "options": ["ein anderes Tandem", "die Lehrkraft zur Korrektur", "die gesamte Klasse gemeinsam", "niemand, sie werden nur aufgehängt"],
+    "correct": [0],
+    "explanation": "Die Kinder geben ihre aufgezeichneten Figuren „einem anderen Tandem zum Nachlegen“. 📄 Quelle: did_vl04_ebenefiguren, Folie 24 (S.24)",
+    "source": "did_vl04_ebenefiguren, Folie 24 (S.24, 1.2 Ebene Figuren)"
+  }
+]
