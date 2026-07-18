@@ -1,0 +1,242 @@
+[
+  {
+    "id": "ari21_vl06-b2-001",
+    "topic": "ari21_vl06_aussagen",
+    "difficulty": 1,
+    "type": "multi",
+    "question": "Was gilt laut Folie für den Begriff der Aussage?",
+    "options": [
+      "Nach Festlegung ist eine Aussage entweder wahr oder falsch.",
+      "Der Grundsatz „Tertium non datur“ bedeutet „Ein Drittes ist nicht gegeben.“",
+      "Eine Aussage kann einen dritten Wahrheitswert zwischen wahr und falsch annehmen.",
+      "„A: Es regnet.“ ist ein Beispiel für eine Aussage."
+    ],
+    "correct": [0, 1, 3],
+    "explanation": "Eine Aussage ist nach Festlegung entweder richtig (wahr) oder falsch; ein Drittes ist nicht gegeben (Tertium non datur). „A: Es regnet.“ dient als Beispiel. 📄 Quelle: ari21_vl06, Folie 21 (S.21)",
+    "source": "ari21_vl06, Folie 21 (S.21, Aussagen)"
+  },
+  {
+    "id": "ari21_vl06-b2-002",
+    "topic": "ari21_vl06_aussagen",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Wie wird der Grundsatz „Tertium non datur“ auf der Folie übersetzt?",
+    "options": [
+      "Ein Drittes ist nicht gegeben.",
+      "Das Dritte ist immer gegeben.",
+      "Ein Zweites ist ausgeschlossen.",
+      "Die Wahrheit liegt in der Mitte."
+    ],
+    "correct": [0],
+    "explanation": "„Tertium non datur“ wird auf der Folie mit „Ein Drittes ist nicht gegeben“ übersetzt: eine Aussage ist entweder wahr oder falsch. 📄 Quelle: ari21_vl06, Folie 21 (S.21)",
+    "source": "ari21_vl06, Folie 21 (S.21, Aussagen)"
+  },
+  {
+    "id": "ari21_vl06-b2-003",
+    "topic": "ari21_vl06_verneinung",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Mit welchem Zeichen wird laut Folie die Verneinung (das Gegenteil) einer Aussage A notiert?",
+    "options": [
+      "¬A",
+      "A*",
+      "−A",
+      "1/A"
+    ],
+    "correct": [0],
+    "explanation": "Die Verneinung einer Aussage A wird auf der Folie in Zeichen als ¬A geschrieben. 📄 Quelle: ari21_vl06, Folie 22 (S.22)",
+    "source": "ari21_vl06, Folie 22 (S.22, Aussagen)"
+  },
+  {
+    "id": "ari21_vl06-b2-004",
+    "topic": "ari21_vl06_verneinung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Für die Aussage A: „Alle sind da.“ – welche Zuordnungen von Gegenteilen zeigt die Folie?",
+    "options": [
+      "Kontradiktorisch: ¬A: Nicht alle sind da (also z.B. manche).",
+      "Konträr: ¬A: Niemand ist da.",
+      "Kontradiktorisch: ¬A: Niemand ist da.",
+      "Konträr: ¬A: Manche sind da."
+    ],
+    "correct": [0, 1],
+    "explanation": "Die Folie unterscheidet das kontradiktorische Gegenteil („Nicht alle sind da, also z.B. manche“) vom konträren Gegenteil („Niemand ist da“). 📄 Quelle: ari21_vl06, Folie 27 (S.27)",
+    "source": "ari21_vl06, Folie 27 (S.27, Aussagen)"
+  },
+  {
+    "id": "ari21_vl06-b2-005",
+    "topic": "ari21_vl06_verneinung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wie lautet das kontradiktorische Gegenteil von A: „Alle sind da.“ laut Folie?",
+    "options": [
+      "Nicht alle sind da (also z.B. manche).",
+      "Niemand ist da.",
+      "Alle fehlen.",
+      "Genau die Hälfte ist da."
+    ],
+    "correct": [0],
+    "explanation": "Das kontradiktorische Gegenteil verneint nur „alle“: „Nicht alle sind da (also z.B. manche)“. 📄 Quelle: ari21_vl06, Folie 27 (S.27)",
+    "source": "ari21_vl06, Folie 27 (S.27, Aussagen)"
+  },
+  {
+    "id": "ari21_vl06-b2-006",
+    "topic": "ari21_vl06_verneinung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wie lautet das konträre Gegenteil von A: „Alle sind da.“ laut Folie?",
+    "options": [
+      "Niemand ist da.",
+      "Nicht alle sind da.",
+      "Manche sind da.",
+      "Einige fehlen."
+    ],
+    "correct": [0],
+    "explanation": "Das konträre Gegenteil ist die stärkere Verneinung „Niemand ist da“. 📄 Quelle: ari21_vl06, Folie 27 (S.27)",
+    "source": "ari21_vl06, Folie 27 (S.27, Aussagen)"
+  },
+  {
+    "id": "ari21_vl06-b2-007",
+    "topic": "ari21_vl06_verneinung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Für A: „Es gibt unendlich viele Primzahlen.“ nennt die Folie welche Gegenteile?",
+    "options": [
+      "Kontradiktorisch: Es gibt nicht unendlich (also endlich) viele Primzahlen.",
+      "Konträr: Es gibt keine Primzahlen.",
+      "Kontradiktorisch: Es gibt keine Primzahlen.",
+      "Konträr: Es gibt genau eine Primzahl."
+    ],
+    "correct": [0, 1],
+    "explanation": "Kontradiktorisch: „Es gibt nicht unendlich (also endlich) viele Primzahlen“; konträr: „Es gibt keine Primzahlen“. 📄 Quelle: ari21_vl06, Folie 32 (S.32)",
+    "source": "ari21_vl06, Folie 32 (S.32, Aussagen)"
+  },
+  {
+    "id": "ari21_vl06-b2-008",
+    "topic": "ari21_vl06_verneinung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wie lautet das konträre Gegenteil von „Es gibt unendlich viele Primzahlen.“ laut Folie?",
+    "options": [
+      "Es gibt keine Primzahlen.",
+      "Es gibt endlich viele Primzahlen.",
+      "Es gibt genau 100 Primzahlen.",
+      "Nicht alle Zahlen sind Primzahlen."
+    ],
+    "correct": [0],
+    "explanation": "Das konträre Gegenteil ist „Es gibt keine Primzahlen“; das kontradiktorische wäre „Es gibt endlich viele Primzahlen“. 📄 Quelle: ari21_vl06, Folie 32 (S.32)",
+    "source": "ari21_vl06, Folie 32 (S.32, Aussagen)"
+  },
+  {
+    "id": "ari21_vl06-b2-009",
+    "topic": "ari21_vl06_verneinung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Warum verwendet man in der mathematischen Logik das kontradiktorische (und nicht das konträre) Gegenteil als Verneinung?",
+    "options": [
+      "Damit ¬A automatisch falsch ist, wenn A wahr ist (und umgekehrt).",
+      "Beim konträren Gegenteil wäre dies nicht der Fall.",
+      "Weil das konträre Gegenteil grundsätzlich sinnlos ist.",
+      "Weil das kontradiktorische Gegenteil immer wahr ist."
+    ],
+    "correct": [0, 1],
+    "explanation": "Laut Folie nutzt man das kontradiktorische Gegenteil als Verneinung, damit ¬A automatisch falsch ist, wenn A wahr ist (und umgekehrt); beim konträren Gegenteil wäre das nicht der Fall. 📄 Quelle: ari21_vl06, Folie 33 (S.33)",
+    "source": "ari21_vl06, Folie 33 (S.33, Aussagen)"
+  },
+  {
+    "id": "ari21_vl06-b2-010",
+    "topic": "ari21_vl06_verneinung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Was gilt laut Folie für die als Verneinung verwendete Form ¬A, wenn A wahr ist?",
+    "options": [
+      "¬A ist automatisch falsch.",
+      "¬A ist automatisch wahr.",
+      "¬A ist unbestimmt.",
+      "¬A ist ebenfalls wahr."
+    ],
+    "correct": [0],
+    "explanation": "Beim kontradiktorischen Gegenteil (der verwendeten Verneinung) ist ¬A automatisch falsch, wenn A wahr ist. 📄 Quelle: ari21_vl06, Folie 33 (S.33)",
+    "source": "ari21_vl06, Folie 33 (S.33, Aussagen)"
+  },
+  {
+    "id": "ari21_vl06-b2-011",
+    "topic": "ari21_vl06_verneinung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Verneinungen (¬A) nennt die Folie zu den Beispielen?",
+    "options": [
+      "A: Es regnet. → ¬A: Es regnet nicht.",
+      "A: Es gibt unendlich viele Primzahlen. → ¬A: Es gibt endlich viele Primzahlen.",
+      "A: Es regnet. → ¬A: Es ist sonnig.",
+      "A: Es gibt unendlich viele Primzahlen. → ¬A: Es gibt keine Primzahlen."
+    ],
+    "correct": [0, 1],
+    "explanation": "Die Folie gibt als Verneinungen „Es regnet nicht“ und „Es gibt endlich viele Primzahlen“ an (jeweils das kontradiktorische Gegenteil). 📄 Quelle: ari21_vl06, Folie 34 (S.34)",
+    "source": "ari21_vl06, Folie 34 (S.34, Aussagen)"
+  },
+  {
+    "id": "ari21_vl06-b2-012",
+    "topic": "ari21_vl06_verneinung",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Wie lautet laut Folie die Verneinung ¬A der Aussage „Es regnet.“?",
+    "options": [
+      "Es regnet nicht.",
+      "Es ist trocken.",
+      "Die Sonne scheint.",
+      "Es schneit."
+    ],
+    "correct": [0],
+    "explanation": "Die Verneinung von „Es regnet“ ist auf der Folie „Es regnet nicht“. 📄 Quelle: ari21_vl06, Folie 34 (S.34)",
+    "source": "ari21_vl06, Folie 34 (S.34, Aussagen)"
+  },
+  {
+    "id": "ari21_vl06-b2-013",
+    "topic": "ari21_vl06_wahrheitstafel",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Was zeigt die Folie zur Kurzform-/Tabellendarstellung der Zustände von Aussagen?",
+    "options": [
+      "Die Zustände von Aussagen können in Kurzform in einer Tabelle/Tafel aufgeschrieben werden.",
+      "Für „wahr“ wird die Kurzform w, für „falsch“ die Kurzform f verwendet.",
+      "Die Tabelle enthält Spalten für Aussage A und Aussage ¬A.",
+      "Die Tabelle verwendet die Kurzformen 1 für wahr und 0 für falsch."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Die Folie zeigt eine Tabelle/Tafel mit den Spalten „Aussage A“ und „Aussage ¬A“ sowie die Kurzformen wahr (w) und falsch (f). 📄 Quelle: ari21_vl06, Folie 35 (S.35)",
+    "source": "ari21_vl06, Folie 35 (S.35, Aussagen)"
+  },
+  {
+    "id": "ari21_vl06-b2-014",
+    "topic": "ari21_vl06_wahrheitstafel",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Welche Kurzformen werden auf der Folie für die Wahrheitswerte angegeben?",
+    "options": [
+      "wahr = w und falsch = f",
+      "wahr = t und falsch = f",
+      "wahr = 1 und falsch = 0",
+      "wahr = j und falsch = n"
+    ],
+    "correct": [0],
+    "explanation": "Die Folie notiert die Zustände als wahr (w) und falsch (f). 📄 Quelle: ari21_vl06, Folie 35 (S.35)",
+    "source": "ari21_vl06, Folie 35 (S.35, Aussagen)"
+  },
+  {
+    "id": "ari21_vl06-b2-015",
+    "topic": "ari21_vl06_verknuepfte_aussagen",
+    "difficulty": 1,
+    "type": "multi",
+    "question": "Zum Thema „Verknüpfte Aussagen“: Welche zwei Aussagen gibt die Folie als Beispiel vor?",
+    "options": [
+      "A: Es regnet.",
+      "B: Die Straße ist nass.",
+      "B: Es ist bewölkt.",
+      "A: Die Sonne scheint."
+    ],
+    "correct": [0, 1],
+    "explanation": "Bei verknüpften Aussagen sind zwei Aussagen gegeben; die Folie nennt als Beispiel A: „Es regnet.“ und B: „Die Straße ist nass.“ 📄 Quelle: ari21_vl06, Folie 39 (S.39)",
+    "source": "ari21_vl06, Folie 39 (S.39, Verknüpfte Aussagen)"
+  }
+]
