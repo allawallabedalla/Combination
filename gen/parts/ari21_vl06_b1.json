@@ -1,0 +1,198 @@
+[
+  {
+    "id": "ari21_vl06-b1-001",
+    "topic": "ari21_vl06_teilbarkeit_summenregel",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Summenregel (Rückblick): Welche Aussage(n) geben den Satz für natürliche Zahlen a, b, c korrekt wieder?",
+    "options": [
+      "Wenn a|b und a|c, dann a|(b+c).",
+      "Wenn a Teiler von b und c ist, dann ist a auch Teiler von (b+c).",
+      "Wenn a|b und a|c, dann a|(b·c), aber nicht a|(b+c).",
+      "Wenn a|(b+c), dann gilt stets a|b und a|c."
+    ],
+    "correct": [0, 1],
+    "explanation": "Die Folie formuliert die Summenregel: „Für natürliche Zahlen a, b, c gilt: Wenn a|b und a|c, dann a|(b+c).“ In Worten: Wenn a Teiler von b und c ist, dann ist a auch Teiler von (b+c). Die Umkehrung wird nicht behauptet. 📄 Quelle: ari21_vl06, Folie 12 (S.12)",
+    "source": "ari21_vl06, Folie 12 (S.12, Rückblick)"
+  },
+  {
+    "id": "ari21_vl06-b1-002",
+    "topic": "ari21_vl06_teilbarkeit_summenregel",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Beispiel zur Summenregel (Folie 12): Für 2|4 und 2|12 gilt 2|(4+12). Berechne 4+12 (auf der Folie als 2·(2+6) dargestellt).",
+    "answer": 16,
+    "tolerance": 0,
+    "unit": ""
+  },
+  {
+    "id": "ari21_vl06-b1-003",
+    "topic": "ari21_vl06_teilbarkeit_summenregel",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Beispiel zur Summenregel (Folie 12): Für 7|21 und 7|63 gilt 7|(21+63). Berechne 21+63 (auf der Folie als 7·(3+9) dargestellt).",
+    "answer": 84,
+    "tolerance": 0,
+    "unit": ""
+  },
+  {
+    "id": "ari21_vl06-b1-004",
+    "topic": "ari21_vl06_teilbarkeit_transitiv",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Satz (Folie 11): „Die Teilbarkeitsrelation ist transitiv.“ Welche Formulierung(en) geben den Satz für natürliche Zahlen a, b, c korrekt wieder?",
+    "options": [
+      "Wenn a|b und b|c, dann a|c.",
+      "Wenn a Teiler von b ist und b Teiler von c, dann ist auch a Teiler von c.",
+      "Wenn a|b und b|c, dann c|a.",
+      "Wenn a|b und a|c, dann b|c."
+    ],
+    "correct": [0, 1],
+    "explanation": "Die Folie gibt den Satz zur Transitivität an: „Wenn a|b und b|c, dann a|c.“ In Worten: Wenn a Teiler von b ist und b Teiler von c, dann ist auch a Teiler von c. 📄 Quelle: ari21_vl06, Folie 11 (S.11)",
+    "source": "ari21_vl06, Folie 11 (S.11, Rückblick)"
+  },
+  {
+    "id": "ari21_vl06-b1-005",
+    "topic": "ari21_vl06_teilbarkeit_transitiv",
+    "difficulty": 3,
+    "type": "multi",
+    "question": "Welche der folgenden Schlüsse sind Beispiele für die Transitivität der Teilbarkeitsrelation (Folie 11)?",
+    "options": [
+      "2|4 und 4|12, dann auch 2|12.",
+      "7|21 und 21|63, dann auch 7|63.",
+      "2|4 und 2|12, dann auch 2|(4+12).",
+      "4|2 und 12|4, dann auch 12|2."
+    ],
+    "correct": [0, 1],
+    "explanation": "Die Folie nennt als Beispiele der Transitivität: „2|4 und 4|12, dann auch 2|12“ sowie „7|21 und 21|63, dann auch 7|63“. Der Schluss 2|4 und 2|12 ⇒ 2|(4+12) gehört zur Summenregel, nicht zur Transitivität; 4|2 und 12|4 sind falsch, da 4 kein Teiler von 2 ist. 📄 Quelle: ari21_vl06, Folie 11 (S.11)",
+    "source": "ari21_vl06, Folie 11 (S.11, Rückblick)"
+  },
+  {
+    "id": "ari21_vl06-b1-006",
+    "topic": "ari21_vl06_beweis",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Rückblick zum Beweisbegriff (Folie 8): Welche Aussagen stehen so auf der Folie?",
+    "options": [
+      "Ein Beweis ist eine glaubwürdige Geschichte, die symbolisch, aber auch grafisch akzeptiert wird.",
+      "„Ein Beweis ist keine logische Folge von Aussagen, sondern eine glaubwürdige Geschichte.“ (Ian Stewart)",
+      "Beispiele können Sicherheit erzeugen, sind aber kein Beweis einer allgemeingültigen Aussage.",
+      "Ein Beweis ist ausschließlich eine formal-symbolische, niemals eine grafische Argumentation."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Die Folie hält fest: „Ein Beweis ist eine glaubwürdige Geschichte, die symbolisch aber auch grafisch akzeptiert wird“, zitiert Ian Stewart („keine logische Folge von Aussagen, sondern eine glaubwürdige Geschichte“) und betont, dass Beispiele Sicherheit erzeugen können, aber kein Beweis sind. Die rein symbolische Deutung widerspricht der Folie (auch grafisch). 📄 Quelle: ari21_vl06, Folie 8 (S.8)",
+    "source": "ari21_vl06, Folie 8 (S.8, Rückblick)"
+  },
+  {
+    "id": "ari21_vl06-b1-007",
+    "topic": "ari21_vl06_beweis",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Warum sind Beispiele laut Folie 10 kein Beweis? Welche Begründungen nennt die Folie?",
+    "options": [
+      "Eine allgemeingültige Aussage soll für ALLE natürlichen Zahlen gelten; einzelne Beispiele zeigen das nicht.",
+      "Beispiele geben aber eine gewisse Sicherheit, ob eine Behauptung überhaupt stimmen kann.",
+      "Ein einziges passendes Beispiel genügt bereits als Beweis einer allgemeingültigen Aussage.",
+      "Beispiele sind in der Mathematik grundsätzlich wertlos."
+    ],
+    "correct": [0, 1],
+    "explanation": "Die Folie ergänzt „(Für ALLE natürlichen Zahlen soll etwas gelten.)“ und kennzeichnet die Beispiele als „kein Beweis, gibt aber gewisse Sicherheit“. Ein einzelnes Beispiel beweist eine Allaussage nicht; wertlos sind Beispiele aber ausdrücklich nicht. 📄 Quelle: ari21_vl06, Folie 10 (S.10)",
+    "source": "ari21_vl06, Folie 10 (S.10, Rückblick)"
+  },
+  {
+    "id": "ari21_vl06-b1-008",
+    "topic": "ari21_vl06_beweis",
+    "difficulty": 3,
+    "type": "multi",
+    "question": "Im Beweis mit figurierten Zahlen (Folie 7) zu „a|b und b|c ⇒ a|c“: Welche Schritte/Gleichungen werden gezeigt?",
+    "options": [
+      "Aus a|b folgt b = a·p, aus b|c folgt c = q·b (q mal b).",
+      "c = q·b = q·a·p = a·(q·p), also a|c.",
+      "c = a + b, also a|c.",
+      "Weil q·p keine natürliche Zahl ist, folgt a∤c."
+    ],
+    "correct": [0, 1],
+    "explanation": "Die figurierte Darstellung zeigt a|b als b = a·p und b|c als c = q·b (q mal b). Einsetzen ergibt c = q·b = q·a·p = a·(q·p); da q·p eine natürliche Zahl ist, folgt a|c. 📄 Quelle: ari21_vl06, Folie 7 (S.7)",
+    "source": "ari21_vl06, Folie 7 (S.7, Rückblick)"
+  },
+  {
+    "id": "ari21_vl06-b1-009",
+    "topic": "ari21_vl06_mengen",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Definition (Folie 14): Wie definiert Cantor (naiv) eine Menge M?",
+    "options": [
+      "Eine Menge M ist die Zusammenfassung unterscheidbarer Objekte (Elemente).",
+      "Eine Menge M ist eine geordnete Liste gleicher Objekte.",
+      "Eine Menge M ist eine Zahl, die aus Ziffern besteht.",
+      "Eine Menge M ist die Summe ihrer Elemente."
+    ],
+    "correct": [0],
+    "explanation": "Die Folie gibt die naive Mengendefinition nach Cantor an: „Eine Menge M ist die Zusammenfassung unterscheidbarer Objekte (Elemente).“ 📄 Quelle: ari21_vl06, Folie 14 (S.14)",
+    "source": "ari21_vl06, Folie 14 (S.14, Definitionen)"
+  },
+  {
+    "id": "ari21_vl06-b1-010",
+    "topic": "ari21_vl06_mengen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Element-Beziehung (Folie 15): Was gilt laut Folie?",
+    "options": [
+      "Man kann stets unterscheiden, ob ein Objekt Element einer Menge ist (x∈M) oder nicht (x∉M).",
+      "x∈M bedeutet: x ist Element der Menge M.",
+      "x∉M bedeutet: x ist Element der Menge M.",
+      "Ob ein Objekt zu einer Menge gehört, lässt sich grundsätzlich nicht entscheiden."
+    ],
+    "correct": [0, 1],
+    "explanation": "Die Folie stellt fest: „Man kann stets unterscheiden, ob ein Objekt Element einer Menge ist (x∈M) oder nicht (x∉M).“ Somit steht x∈M für Zugehörigkeit und x∉M für Nicht-Zugehörigkeit. 📄 Quelle: ari21_vl06, Folie 15 (S.15)",
+    "source": "ari21_vl06, Folie 15 (S.15, Definitionen)"
+  },
+  {
+    "id": "ari21_vl06-b1-011",
+    "topic": "ari21_vl06_mengen",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Teilmenge (Folie 16): Wie wird eine Teilmenge definiert?",
+    "options": [
+      "Mengen A, die nur aus Elementen einer Menge M bestehen, heißen Teilmengen (A⊆M).",
+      "A⊆M bedeutet, dass A mindestens ein Element enthält, das nicht in M liegt.",
+      "Jede Teilmenge A von M muss genauso viele Elemente wie M haben.",
+      "A⊆M bedeutet, dass A und M keine gemeinsamen Elemente haben."
+    ],
+    "correct": [0],
+    "explanation": "Die Folie definiert: „Mengen A, die nur aus Elementen einer Menge M bestehen, heißen Teilmengen (A⊆M).“ 📄 Quelle: ari21_vl06, Folie 16 (S.16)",
+    "source": "ari21_vl06, Folie 16 (S.16, Definitionen)"
+  },
+  {
+    "id": "ari21_vl06-b1-012",
+    "topic": "ari21_vl06_mengen",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Aufzählende Schreibweise (Folie 17): Wie wird eine Menge M aufzählend notiert?",
+    "options": [
+      "M = {a, b, c, ...}",
+      "M = (a, b, c, ...)",
+      "M = [a, b, c, ...]",
+      "M = a + b + c + ..."
+    ],
+    "correct": [0],
+    "explanation": "Die Folie gibt die aufzählende Schreibweise an: M = {a, b, c, ...}. 📄 Quelle: ari21_vl06, Folie 17 (S.17)",
+    "source": "ari21_vl06, Folie 17 (S.17, Definitionen)"
+  },
+  {
+    "id": "ari21_vl06-b1-013",
+    "topic": "ari21_vl06_aussagen",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Aussagen (Folie 20): Welches Beispiel für eine Aussage A wird auf der Folie genannt?",
+    "options": [
+      "A: Es regnet.",
+      "A: 2 + 2",
+      "A: Wie spät ist es?",
+      "A: x + 1"
+    ],
+    "correct": [0],
+    "explanation": "Die Folie führt den Begriff „Aussage“ ein und nennt als Beispiel „A: Es regnet.“ 📄 Quelle: ari21_vl06, Folie 20 (S.20)",
+    "source": "ari21_vl06, Folie 20 (S.20, Aussagen)"
+  }
+]

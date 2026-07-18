@@ -1,9 +1,9 @@
 # STATUS — Combination: Mathematik-Fragenkatalog (Pipeline, pro-Skript persistiert)
 
-- **Stand:** 2026-07-18 22:32 UTC
+- **Stand:** 2026-07-18 22:33 UTC
 - **Branch:** `claude/repo-combination-raw-data-vbf3hw`
-- **HEAD:** `ea63682`
-- **Fertige Skripte:** 66 / 70
+- **HEAD:** `ad32b90`
+- **Fertige Skripte:** 67 / 70
 - **Fragen gesamt (fertig + laufend, roh):** 1915
 
 ## Fortschritt
@@ -73,7 +73,7 @@
 | `ari23_vl05` | FERTIG | 45 | vl_5_ari2023-gekürzt.pdf |
 | `ari21_vl05` | FERTIG | 29 | vl_5_ari21-Folien.pdf |
 | `ari23_vl06` | FERTIG | 68 | vl_6_ari2023-gekürzt.pdf |
-| `ari21_vl06` | laufend (3 Blöcke, 42 Fragen, nicht gemergt) | 42 | vl_6_ari21-Folien.pdf |
+| `ari21_vl06` | FERTIG | 42 | vl_6_ari21-Folien.pdf |
 | `ari23_vl07` | FERTIG | 66 | vl_7_ari2023-inkl_TdW-Folien.pdf |
 | `ari21_vl07` | FERTIG | 34 | vl_7_ari21-Folien.pdf |
 | `ari23_vl08` | FERTIG | 28 | vl_8_ari2023.pdf |
@@ -102,6 +102,5 @@
 - Alles Fertige liegt auf origin; ein Stopp kostet höchstens den einen laufenden Block.
 - Skripte mit `gen/<code>.json` überspringen; für `laufend`-Skript fehlende Blöcke neu erzeugen → `finalize.sh`.
 
-**Laufend:** `ari21_vl06`
 **Offen:** `ari20_vl10`, `ari20_vl12`, `ari21_vl08`
 
