@@ -2,8 +2,8 @@
 
 - **Stand:** 2026-07-18 16:54 UTC
 - **Branch:** `claude/repo-combination-raw-data-vbf3hw`
-- **HEAD:** `21be03b`
-- **Fertige Skripte:** 5 / 70
+- **HEAD:** `5035e75`
+- **Fertige Skripte:** 6 / 70
 - **Fragen gesamt (fertig + laufend, roh):** 231
 
 ## Fortschritt
@@ -59,7 +59,7 @@
 | `ari23_vl10` | offen |  | vl_10_ari2023-Folien.pdf |
 | `ari20_vl11` | offen |  | vl_11_ari20-Folien-ae.pdf |
 | `ari23_vl11` | offen |  | vl_11_ari2023.pdf |
-| `ari23_vl12` | laufend (2 Blöcke, 34 Fragen, nicht gemergt) | 34 | vl_12_ari2023.pdf |
+| `ari23_vl12` | FERTIG | 34 | vl_12_ari2023.pdf |
 | `ari20_vl12` | offen |  | vl_12_ari20_Folien-cs.pdf |
 | `ari23_vl13` | FERTIG | 30 | vl_13_ari2023.pdf |
 | `ari23_vl01` | offen |  | vl_1_ari2023.pdf |
@@ -102,6 +102,6 @@
 - Alles Fertige liegt auf origin; ein Stopp kostet höchstens den einen laufenden Block.
 - Skripte mit `gen/<code>.json` überspringen; für `laufend`-Skript fehlende Blöcke neu erzeugen → `finalize.sh`.
 
-**Laufend:** `ari23_vl12`, `ari23_vl05`
+**Laufend:** `ari23_vl05`
 **Offen:** `did_vl02_einf`, `did_vl01_ueberblick`, `themen_uebersicht`, `erk_hand`, `klausur_ss20`, `klausur_sose22`, `klausur_wise20`, `did_vl05_begriffe`, `skript01_clean`, `skript10_live`, `skript11_live`, `skript12_live`, `skript01_live23`, `skript02_liveolz`, `skript02_live23`, `skript03_live`, `skript03_clean`, `skript04_live`, `skript04_clean`, `skript05_mit`, `skript05_live`, `skript06_live`, `skript07_mit`, `skript08_mit`, `skript08_live`, `skript09_live`, `did_vl04_ebenefiguren`, `did_vl04_inhalte`, `did_vl07_raum1`, `did_vl08_raum2`, `did_vl08_zr100`, `uebung_2023`, `uebung_gesamt`, `did_vl03_geohintergr`, `did_vl03_bildungsstd`, `erk01`, `erk10`, `erk02`, `erk03`, `erk04`, `erk05`, `erk06`, `erk07`, `erk08`, `erk09`, `ari20_vl10`, `ari23_vl10`, `ari20_vl11`, `ari23_vl11`, `ari20_vl12`, `ari23_vl01`, `ari21_vl01`, `ari21_vl02`, `ari21_vl03`, `ari23_vl04`, `ari21_vl04`, `ari21_vl05`, `ari23_vl06`, `ari21_vl06`, `ari23_vl07`, `ari21_vl07`, `ari21_vl08`, `ari21_vl09`
 

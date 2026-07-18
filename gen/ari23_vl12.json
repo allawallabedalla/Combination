@@ -1,0 +1,573 @@
+[
+ {
+  "id": "ari23_vl12-b1-001",
+  "topic": "ari23_vl12_amirima",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "AMIRIMA-Zahlen: Bilden Sie die Differenz der Zahl 8742478 mit ihrer Gegenzahl (RIMAMIR) 2478742. Wie lautet das Ergebnis?",
+  "answer": 6263736,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Auf der Folie wird gerechnet: 8742478 − 2478742 = 6263736. 📄 Quelle: ari23_vl12, Folie 6 (S.6)",
+  "source": "ari23_vl12, Folie 6 (S.6, AMIRIMA-Zahlen)"
+ },
+ {
+  "id": "ari23_vl12-b1-002",
+  "topic": "ari23_vl12_amirima",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "AMIRIMA-Zahlen: Bilden Sie die Differenz der Zahl 9621269 mit ihrer Gegenzahl (RIMAMIR) 1269621. Wie lautet das Ergebnis?",
+  "answer": 8351648,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Auf der Folie wird gerechnet: 9621269 − 1269621 = 8351648. 📄 Quelle: ari23_vl12, Folie 6 (S.6)",
+  "source": "ari23_vl12, Folie 6 (S.6, AMIRIMA-Zahlen)"
+ },
+ {
+  "id": "ari23_vl12-b1-003",
+  "topic": "ari23_vl12_amirima",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "AMIRIMA-Zahlen: Bilden Sie die Differenz der Zahl 7652567 mit ihrer Gegenzahl (RIMAMIR) 2567652. Wie lautet das Ergebnis?",
+  "answer": 5084915,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Auf der Folie wird gerechnet: 7652567 − 2567652 = 5084915. 📄 Quelle: ari23_vl12, Folie 6 (S.6)",
+  "source": "ari23_vl12, Folie 6 (S.6, AMIRIMA-Zahlen)"
+ },
+ {
+  "id": "ari23_vl12-b1-004",
+  "topic": "ari23_vl12_amirima",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Was soll laut der 'Mustersuche' auf der AMIRIMA-Folie untersucht werden?",
+  "options": [
+   "Ob es einen gemeinsamen Teiler der Differenzen gibt",
+   "Der größte gemeinsame Teiler der AMIRIMA-Zahlen und ihrer Gegenzahlen (RIMAMIR)",
+   "Ob die Differenzen Primzahlen sind",
+   "Ob die AMIRIMA-Zahlen Zahlpalindrome sind"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "explanation": "Die Mustersuche lautet: (1) Gibt es einen gemeinsamen Teiler der Differenzen? (2) Suchen Sie den größten gemeinsamen Teiler der AMIRIMA-Zahlen und ihrer Gegenzahlen (RIMAMIR). 📄 Quelle: ari23_vl12, Folie 6 (S.6)",
+  "source": "ari23_vl12, Folie 6 (S.6, AMIRIMA-Zahlen)"
+ },
+ {
+  "id": "ari23_vl12-b1-005",
+  "topic": "ari23_vl12_ggt",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Aussagen zu Primfaktorzerlegung und Teilern sind laut der Folie 'Erinnerung' korrekt?",
+  "options": [
+   "Jede natürliche Zahl n hat eine (bis auf Reihenfolge) eindeutige Primfaktorzerlegung",
+   "Jedes Produkt von Primfaktoren ergibt einen Teiler von n",
+   "Alle Teiler von n werden in der Teilermenge T(n) zusammengefasst",
+   "Nur Primzahlen besitzen eine Primfaktorzerlegung"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Die Folie nennt: eindeutige Primfaktorzerlegung (bis auf Reihenfolge), jedes Produkt von Primfaktoren ist ein Teiler von n, und alle Teiler werden in T(n) zusammengefasst. 📄 Quelle: ari23_vl12, Folie 7 (S.7)",
+  "source": "ari23_vl12, Folie 7 (S.7, Erinnerung – ggT)"
+ },
+ {
+  "id": "ari23_vl12-b1-006",
+  "topic": "ari23_vl12_ggt",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Wie ist der größte gemeinsame Teiler ggT(n,m) auf der Folie definiert?",
+  "options": [
+   "Die größte Zahl, die in den Teilmengen (Teilermengen) von zwei natürlichen Zahlen n und m enthalten ist",
+   "Das Produkt aller Primfaktoren von n und m",
+   "Die kleinste Zahl, die sowohl n als auch m teilt",
+   "Die Summe der gemeinsamen Teiler von n und m"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Definition: Die größte Zahl, die in den Teilmengen von zwei natürlichen Zahlen n und m enthalten ist, heißt größter gemeinsamer Teiler der Zahlen n und m. Man schreibt ggT(n,m). 📄 Quelle: ari23_vl12, Folie 7 (S.7)",
+  "source": "ari23_vl12, Folie 7 (S.7, Erinnerung – ggT)"
+ },
+ {
+  "id": "ari23_vl12-b1-007",
+  "topic": "ari23_vl12_ggt",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Welches Verfahren zur Bestimmung von ggT(n,m) über Primfaktorzerlegung nennt die Folie?",
+  "options": [
+   "Ermittle die Primfaktorzerlegungen von n und m; der ggT(n,m) ist das Produkt der gemeinsamen Primfaktoren",
+   "Ermittle die Primfaktorzerlegungen von n und m; der ggT(n,m) ist die Summe der gemeinsamen Primfaktoren",
+   "Ermittle die Primfaktorzerlegungen; der ggT(n,m) ist das Produkt aller vorkommenden Primfaktoren",
+   "Ermittle die Teilermengen; der ggT(n,m) ist der kleinste gemeinsame Teiler"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Verfahren: Ermittle die Primfaktorzerlegungen von n und m. Der ggT(n,m) ist das Produkt der gemeinsamen Primfaktoren. Für ggT(8351648, 6263736) wird jedoch ein neues Verfahren benötigt. 📄 Quelle: ari23_vl12, Folie 7 (S.7)",
+  "source": "ari23_vl12, Folie 7 (S.7, Erinnerung – ggT)"
+ },
+ {
+  "id": "ari23_vl12-b1-008",
+  "topic": "ari23_vl12_teilen_mit_rest",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Der Satz 'Teilen mit Rest' besagt: Für natürliche Zahlen n und m gibt es genau ein Paar natürlicher Zahlen q und r mit n = q·m + r. Welche Aussagen dazu sind korrekt?",
+  "options": [
+   "Für den Rest gilt 0 ≤ r < m",
+   "Das Paar (q, r) ist eindeutig bestimmt (genau ein Paar)",
+   "Es gilt n = q·m + r",
+   "Der Rest r darf beliebig groß sein, solange r ≥ m gilt"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Satz: Wenn n und m natürliche Zahlen sind, dann gibt es genau ein Paar q und r natürlicher Zahlen, sodass n = q·m + r mit 0 ≤ r < m (Teilen mit Rest). 📄 Quelle: ari23_vl12, Folie 8 (S.8)",
+  "source": "ari23_vl12, Folie 8 (S.8, Satz Teilen mit Rest)"
+ },
+ {
+  "id": "ari23_vl12-b1-009",
+  "topic": "ari23_vl12_teilen_mit_rest",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Wie kann man laut Folie den Satz 'Teilen mit Rest' beweisen?",
+  "options": [
+   "Die Existenz direkt, die Eindeutigkeit mit einem indirekten Beweis",
+   "Existenz und Eindeutigkeit beide durch vollständige Induktion",
+   "Die Existenz indirekt, die Eindeutigkeit direkt",
+   "Ausschließlich durch ein Gegenbeispiel"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Folie: 'Die Existenz kann man direkt beweisen, die Eindeutigkeit mit einem indirekten Beweis.' 📄 Quelle: ari23_vl12, Folie 8 (S.8)",
+  "source": "ari23_vl12, Folie 8 (S.8, Satz Teilen mit Rest)"
+ },
+ {
+  "id": "ari23_vl12-b1-010",
+  "topic": "ari23_vl12_teilen_mit_rest",
+  "difficulty": 1,
+  "type": "multi",
+  "question": "Wofür war das 'Teilen mit Rest' laut Folie Grundlage bzw. wie wird es weiter verwendet?",
+  "options": [
+   "Grundlage vorangegangener Überlegungen zu Resten (z. B. Teilbarkeitsregeln, Restklassen)",
+   "Es wird nun fortgesetzt – in Form eines Algorithmus – 'mit Rest' geteilt",
+   "Grundlage der Definition irrationaler Zahlen",
+   "Grundlage der Konstruktion regelmäßiger Vielecke"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "explanation": "Das 'Teilen mit Rest' war Grundlage aller vorangegangenen Überlegungen zu Resten (Teilbarkeitsregeln, Restklassen); nun wird fortgesetzt in Form eines Algorithmus 'mit Rest' geteilt. 📄 Quelle: ari23_vl12, Folie 8 (S.8)",
+  "source": "ari23_vl12, Folie 8 (S.8, Satz Teilen mit Rest)"
+ },
+ {
+  "id": "ari23_vl12-b1-011",
+  "topic": "ari23_vl12_euklid",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Beim geometrischen Beispiel zum Euklidischen Algorithmus wird ein 22 × 52-Rechteck in Quadrate zerlegt. Welche Quadratgrößen treten dabei auf?",
+  "options": [
+   "22 × 22",
+   "8 × 8",
+   "6 × 6",
+   "2 × 2"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explanation": "Die Zerlegung des 22 × 52-Rechtecks zeigt Quadrate der Größen 22 × 22, 8 × 8, 6 × 6 und 2 × 2. 📄 Quelle: ari23_vl12, Folie 9 (S.9)",
+  "source": "ari23_vl12, Folie 9 (S.9, Euklidischer Algorithmus – Beispiel)"
+ },
+ {
+  "id": "ari23_vl12-b1-012",
+  "topic": "ari23_vl12_euklid",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Wie viele 22 × 22-Quadrate passen im geometrischen Beispiel in das 22 × 52-Rechteck (entlang der langen Seite)?",
+  "answer": 2,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Das 22 × 52-Rechteck enthält zwei 22 × 22-Quadrate (52 = 2·22 + 8). 📄 Quelle: ari23_vl12, Folie 9 (S.9)",
+  "source": "ari23_vl12, Folie 9 (S.9, Euklidischer Algorithmus – Beispiel)"
+ },
+ {
+  "id": "ari23_vl12-b1-013",
+  "topic": "ari23_vl12_euklid",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Mit welchen Quadraten lässt sich laut Folie die ganze 22 × 52-Fläche parkettieren?",
+  "options": [
+   "Mit 2 × 2-Quadraten",
+   "Mit 22 × 22-Quadraten",
+   "Mit 6 × 6-Quadraten",
+   "Mit 8 × 8-Quadraten"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Folie: 'Mit 2 × 2-Quadraten lässt sich die ganze 22 × 52-Fläche parkettieren.' 2 ist der ggT von 52 und 22. 📄 Quelle: ari23_vl12, Folie 10 (S.10)",
+  "source": "ari23_vl12, Folie 10 (S.10, Euklidischer Algorithmus – Beispiel)"
+ },
+ {
+  "id": "ari23_vl12-b1-014",
+  "topic": "ari23_vl12_euklid",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Auf Folie 11 werden den Quadraten des 22 × 52-Beispiels Reste zugeordnet. Welche Zuordnungen sind korrekt?",
+  "options": [
+   "22 × 22-Quadrate → Rest 8",
+   "8 × 8-Quadrate → Rest 6",
+   "6 × 6-Quadrate → Rest 2",
+   "2 × 2-Quadrate → Rest 0"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explanation": "Die Folie zeigt: nach den 22×22-Quadraten Rest 8, nach den 8×8-Quadraten Rest 6, nach den 6×6-Quadraten Rest 2, nach den 2×2-Quadraten Rest 0. 📄 Quelle: ari23_vl12, Folie 11 (S.11)",
+  "source": "ari23_vl12, Folie 11 (S.11, Euklidischer Algorithmus – Beispiel)"
+ },
+ {
+  "id": "ari23_vl12-b1-015",
+  "topic": "ari23_vl12_euklid",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Der Euklidische Algorithmus wird für 52 und 22 durchgeführt. Wie lautet ggT(52, 22)?",
+  "answer": 2,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Aus den Schritten 52 = 2·22 + 8, 22 = 2·8 + 6, 8 = 1·6 + 2, 6 = 3·2 + 0 folgt ggT(52, 22) = 2. 📄 Quelle: ari23_vl12, Folie 12 (S.12)",
+  "source": "ari23_vl12, Folie 12 (S.12, Euklidischer Algorithmus – Beispiel)"
+ },
+ {
+  "id": "ari23_vl12-b1-016",
+  "topic": "ari23_vl12_euklid",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Im ersten Schritt des Euklidischen Algorithmus für 52 und 22 gilt 52 = q·22 + 8. Welchen Wert hat der Quotient q?",
+  "answer": 2,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Erster Schritt: 52 = 2·22 + 8 mit 0 ≤ 8 < 22, also q = 2. 📄 Quelle: ari23_vl12, Folie 12 (S.12)",
+  "source": "ari23_vl12, Folie 12 (S.12, Euklidischer Algorithmus – Beispiel)"
+ },
+ {
+  "id": "ari23_vl12-b1-017",
+  "topic": "ari23_vl12_euklid",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Im Schritt 8 = 1·6 + r des Euklidischen Algorithmus (52, 22): Welchen Wert hat der Rest r?",
+  "answer": 2,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Es gilt 8 = 1·6 + 2 mit 0 ≤ 2 < 6, also Rest r = 2. 📄 Quelle: ari23_vl12, Folie 12 (S.12)",
+  "source": "ari23_vl12, Folie 12 (S.12, Euklidischer Algorithmus – Beispiel)"
+ },
+ {
+  "id": "ari23_vl12-b1-018",
+  "topic": "ari23_vl12_euklid",
+  "difficulty": 3,
+  "type": "multi",
+  "question": "Welche Divisionsschritte des Euklidischen Algorithmus für 52 und 22 sind laut Folie korrekt?",
+  "options": [
+   "52 = 2·22 + 8 mit 0 ≤ 8 < 22",
+   "22 = 2·8 + 6 mit 0 ≤ 6 < 8",
+   "8 = 1·6 + 2 mit 0 ≤ 2 < 6",
+   "6 = 3·2 + 0 mit Rest 0"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explanation": "Die Folie zeigt genau diese vier Schritte: 52 = 2·22 + 8, 22 = 2·8 + 6, 8 = 1·6 + 2, 6 = 3·2 + 0. 📄 Quelle: ari23_vl12, Folie 12 (S.12)",
+  "source": "ari23_vl12, Folie 12 (S.12, Euklidischer Algorithmus – Beispiel)"
+ },
+ {
+  "id": "ari23_vl12-b1-019",
+  "topic": "ari23_vl12_euklid",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Im letzten Schritt des Euklidischen Algorithmus (52, 22) gilt 6 = q·2 + 0. Welchen Wert hat der Quotient q?",
+  "answer": 3,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Letzter Schritt: 6 = 3·2 + 0 (Rest 0), also q = 3; damit ist 2 der ggT. 📄 Quelle: ari23_vl12, Folie 12 (S.12)",
+  "source": "ari23_vl12, Folie 12 (S.12, Euklidischer Algorithmus – Beispiel)"
+ },
+ {
+  "id": "ari23_vl12-b2-001",
+  "topic": "ari23_vl12_euklid_beispiel",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Bestimmen Sie mit dem Euklidischen Algorithmus den ggT(108, 42).",
+  "answer": 6,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Die Folie führt den Algorithmus durch: 108 = 2·42 + 24, 42 = 1·24 + 18, 24 = 1·18 + 6, 18 = 3·6 + 0. Der letzte von Null verschiedene Rest ist 6, also ggT(108, 42) = 6. 📄 Quelle: ari23_vl12, Folie 13 (S.13)",
+  "source": "ari23_vl12, Folie 13 (S.13, Euklidischer Algorithmus - Beispiel)"
+ },
+ {
+  "id": "ari23_vl12-b2-002",
+  "topic": "ari23_vl12_euklid_beispiel",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Erster Schritt des Euklidischen Algorithmus für 108 und 42: 108 = 2·42 + r mit 0 ≤ r < 42. Welchen Wert hat der Rest r?",
+  "answer": 24,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Laut Folie gilt 108 = 2·42 + 24 mit 0 ≤ 24 < 42, also r = 24. 📄 Quelle: ari23_vl12, Folie 13 (S.13)",
+  "source": "ari23_vl12, Folie 13 (S.13, Euklidischer Algorithmus - Beispiel)"
+ },
+ {
+  "id": "ari23_vl12-b2-003",
+  "topic": "ari23_vl12_euklid_beispiel",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Gleichungen gehören zum auf der Folie gezeigten Euklidischen Algorithmus für 108 und 42?",
+  "options": [
+   "108 = 2·42 + 24 mit 0 ≤ 24 < 42",
+   "42 = 1·24 + 18 mit 0 ≤ 18 < 24",
+   "24 = 1·18 + 6 mit 0 ≤ 6 < 18",
+   "18 = 3·6 + 0 (Rest 0)",
+   "42 = 2·24 + 6 mit 0 ≤ 6 < 24"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explanation": "Die Folie zeigt genau die Kette 108 = 2·42 + 24, 42 = 1·24 + 18, 24 = 1·18 + 6, 18 = 3·6 + 0. Die Gleichung 42 = 2·24 + 6 ist falsch (2·24 = 48 > 42). 📄 Quelle: ari23_vl12, Folie 13 (S.13)",
+  "source": "ari23_vl12, Folie 13 (S.13, Euklidischer Algorithmus - Beispiel)"
+ },
+ {
+  "id": "ari23_vl12-b2-004",
+  "topic": "ari23_vl12_euklid_allgemein",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Womit ist der ggT(a, b) im allgemeinen Euklidischen Algorithmus (a > b) identisch?",
+  "options": [
+   "r_{n+1} (der letzte von Null verschiedene Rest)",
+   "r_n",
+   "r_{n+2}",
+   "q_{n+2}"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Folie hält fest: Insgesamt gilt ggT(a, b) = r_{n+1}. 📄 Quelle: ari23_vl12, Folie 16 (S.16)",
+  "source": "ari23_vl12, Folie 16 (S.16, Euklidischer Algorithmus - allgemein)"
+ },
+ {
+  "id": "ari23_vl12-b2-005",
+  "topic": "ari23_vl12_euklid_allgemein",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Aussagen zum allgemeinen Euklidischen Algorithmus (wie auf der Folie formuliert) sind korrekt?",
+  "options": [
+   "a und b sind natürliche Zahlen mit a > b",
+   "Es gilt a = q_1·b + r_1 mit 0 ≤ r_1 < b",
+   "Für die Reste gilt 0 ≤ r_2 < r_1, 0 ≤ r_3 < r_2 usw.",
+   "Der Algorithmus endet mit r_n = q_{n+2}·r_{n+1} + 0, wobei r_{n+2} = 0",
+   "Vorausgesetzt wird, dass a und b teilerfremd (ggT = 1) sind"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explanation": "Die Folie setzt a > b voraus und listet a = q_1·b + r_1 mit 0 ≤ r_1 < b, die absteigenden Restbedingungen sowie die Abbruchgleichung r_n = q_{n+2}·r_{n+1} + 0 mit r_{n+2} = 0. Teilerfremdheit wird nicht vorausgesetzt. 📄 Quelle: ari23_vl12, Folie 16 (S.16)",
+  "source": "ari23_vl12, Folie 16 (S.16, Euklidischer Algorithmus - allgemein)"
+ },
+ {
+  "id": "ari23_vl12-b2-006",
+  "topic": "ari23_vl12_euklid_allgemein",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Der allgemeine Euklidische Algorithmus endet mit der Gleichung r_n = q_{n+2}·r_{n+1} + r_{n+2}. Welchen Wert nimmt der Rest r_{n+2} dabei an?",
+  "answer": 0,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Die Folie gibt die Abbruchgleichung r_n = q_{n+2}·r_{n+1} + 0 mit r_{n+2} = 0 an. 📄 Quelle: ari23_vl12, Folie 16 (S.16)",
+  "source": "ari23_vl12, Folie 16 (S.16, Euklidischer Algorithmus - allgemein)"
+ },
+ {
+  "id": "ari23_vl12-b2-007",
+  "topic": "ari23_vl12_gemeinsamer_teiler_beweis",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Im Beweis, dass d = r_{n+1} ein gemeinsamer Teiler von a und b ist: Womit wird in der letzten (n-ten) Gleichung begründet, dass mit d = r_{n+1} auch d | r_n gilt?",
+  "options": [
+   "Weil r_n ein Vielfaches von r_{n+1} ist",
+   "Weil r_n eine Primzahl ist",
+   "Weil r_{n+1} ein Vielfaches von r_n ist",
+   "Weil r_n = r_{n+1} gilt"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Folie begründet: Da r_n ein Vielfaches von r_{n+1} ist, gilt mit d = r_{n+1} auch d | r_n. 📄 Quelle: ari23_vl12, Folie 18 (S.18)",
+  "source": "ari23_vl12, Folie 18 (S.18, Warum ist d = r_{n+1} ein gemeinsamer Teiler von a und b?)"
+ },
+ {
+  "id": "ari23_vl12-b2-008",
+  "topic": "ari23_vl12_gemeinsamer_teiler_beweis",
+  "difficulty": 3,
+  "type": "multi",
+  "question": "Welche Argumentationsschritte gehören zum Beweis, dass d = r_{n+1} ein gemeinsamer Teiler von a und b ist (von unten nach oben)?",
+  "options": [
+   "Da r_n ein Vielfaches von r_{n+1} ist, gilt mit d = r_{n+1} auch d | r_n",
+   "Da d | r_n und d | r_{n+1} gilt, gilt auch d | r_{n-1}",
+   "So fortfahrend ergibt sich, dass d sowohl a als auch b teilt",
+   "Am Ende gilt d | a und d | b",
+   "Aus diesen Gleichungen folgt sofort, dass d = ggT(a, b) ist"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explanation": "Die Folie arbeitet sich von der letzten Gleichung nach oben: d | r_n, dann d | r_{n-1}, usw., bis d sowohl a als auch b teilt, also d | a und d | b. Dass d = ggT(a, b) ist, wird hier ausdrücklich noch offen gelassen ('aber ist d = ggT(a, b)?'). 📄 Quelle: ari23_vl12, Folie 18 (S.18)",
+  "source": "ari23_vl12, Folie 18 (S.18, Warum ist d = r_{n+1} ein gemeinsamer Teiler von a und b?)"
+ },
+ {
+  "id": "ari23_vl12-b2-009",
+  "topic": "ari23_vl12_gemeinsamer_teiler_beweis",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Was ist am Ende dieses Beweisteils gezeigt – und was bleibt zunächst offen?",
+  "options": [
+   "Gezeigt ist d | a und d | b; offen bleibt, ob d = ggT(a, b) ist",
+   "Gezeigt ist bereits d = ggT(a, b); es bleibt nichts offen",
+   "Gezeigt ist, dass d weder a noch b teilt",
+   "Gezeigt ist, dass a und b teilerfremd sind"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Folie schließt: 'Es gilt also d | a und d | b, aber ist d = ggT(a, b)?' – der gemeinsame Teiler ist gezeigt, die Maximalität noch nicht. 📄 Quelle: ari23_vl12, Folie 18 (S.18)",
+  "source": "ari23_vl12, Folie 18 (S.18, Warum ist d = r_{n+1} ein gemeinsamer Teiler von a und b?)"
+ },
+ {
+  "id": "ari23_vl12-b2-010",
+  "topic": "ari23_vl12_ggt_maximal_beispiel",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Angenommen, d' sei ein Teiler von 108 und 42. Was folgt gemäß der ersten Gleichung 108 = 2·42 + 24?",
+  "options": [
+   "d' | 24",
+   "d' | 18",
+   "d' | 6",
+   "d' ist kein Teiler von 24"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Folie argumentiert: aus d' | 108 und d' | 42 folgt d' | 2·42 und schließlich d' | 24. 📄 Quelle: ari23_vl12, Folie 19 (S.19)",
+  "source": "ari23_vl12, Folie 19 (S.19, Warum ist d = 6 der ggT(108, 42)?)"
+ },
+ {
+  "id": "ari23_vl12-b2-011",
+  "topic": "ari23_vl12_ggt_maximal_beispiel",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Im Beweis der Maximalität ergibt die letzte Gleichung d' | 6. Welche obere Schranke folgt daraus für jeden gemeinsamen Teiler d' von 108 und 42?",
+  "answer": 6,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Die Folie schließt: d' | 6 und damit ist d' ≤ 6, also ist ggT(108, 42) = 6. 📄 Quelle: ari23_vl12, Folie 19 (S.19)",
+  "source": "ari23_vl12, Folie 19 (S.19, Warum ist d = 6 der ggT(108, 42)?)"
+ },
+ {
+  "id": "ari23_vl12-b2-012",
+  "topic": "ari23_vl12_ggt_maximal_beispiel",
+  "difficulty": 3,
+  "type": "single",
+  "question": "Warum ist d = 6 tatsächlich der größte gemeinsame Teiler von 108 und 42 (und nicht nur irgendein gemeinsamer Teiler)?",
+  "options": [
+   "Weil jeder gemeinsame Teiler d' die Zahl 6 teilt und damit d' ≤ 6 gilt",
+   "Weil 6 eine Primzahl ist",
+   "Weil 6 der kleinste Teiler von 108 ist",
+   "Weil 108 und 42 beide gerade Zahlen sind"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Folie zeigt, dass ein beliebiger Teiler d' von 108 und 42 letztlich d' | 6 erfüllt, also d' ≤ 6; damit ist 6 der größte gemeinsame Teiler. 📄 Quelle: ari23_vl12, Folie 19 (S.19)",
+  "source": "ari23_vl12, Folie 19 (S.19, Warum ist d = 6 der ggT(108, 42)?)"
+ },
+ {
+  "id": "ari23_vl12-b2-013",
+  "topic": "ari23_vl12_ggt_maximal_allgemein",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Angenommen, d' sei ein Teiler von a und b. Was folgt gemäß der ersten Gleichung a = q_1·b + r_1?",
+  "options": [
+   "d' | r_1",
+   "d' | r_2",
+   "d' | q_1",
+   "d' teilt r_1 nicht"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Folie argumentiert: aus d' | a und d' | b folgt d' | q_1·b und schließlich d' | r_1. 📄 Quelle: ari23_vl12, Folie 20 (S.20)",
+  "source": "ari23_vl12, Folie 20 (S.20, Warum ist d = r_{n+1} der ggT(a, b)?)"
+ },
+ {
+  "id": "ari23_vl12-b2-014",
+  "topic": "ari23_vl12_ggt_maximal_allgemein",
+  "difficulty": 3,
+  "type": "multi",
+  "question": "Welche Schritte gehören zum allgemeinen Beweis, dass r_{n+1} der ggT(a, b) ist?",
+  "options": [
+   "Angenommen, d' sei ein Teiler von a und b",
+   "Aus der ersten Gleichung folgt: aus d' | a und d' | b ergibt sich d' | r_1",
+   "Aus der zweiten Gleichung folgt: aus d' | b und d' | r_1 ergibt sich d' | r_2",
+   "Aus der letzten Gleichung folgt d' | r_{n+1}, also d' ≤ r_{n+1}",
+   "Es folgt d' ≥ r_{n+1}, also ist r_{n+1} der kleinste gemeinsame Teiler"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explanation": "Die Folie nimmt einen beliebigen Teiler d' von a und b an und zeigt über die Gleichungen der Reihe nach d' | r_1, d' | r_2, ... , d' | r_{n+1}, also d' ≤ r_{n+1}. Damit ist r_{n+1} der GRÖSSTE gemeinsame Teiler; d' ≥ r_{n+1} ist falsch. 📄 Quelle: ari23_vl12, Folie 20 (S.20)",
+  "source": "ari23_vl12, Folie 20 (S.20, Warum ist d = r_{n+1} der ggT(a, b)?)"
+ },
+ {
+  "id": "ari23_vl12-b2-015",
+  "topic": "ari23_vl12_ggt_maximal_allgemein",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Welche Schlussfolgerung liefert die letzte Gleichung im allgemeinen Beweis, dass r_{n+1} der ggT ist?",
+  "options": [
+   "d' | r_{n+1}, also d' ≤ r_{n+1}; daher ist ggT(a, b) = r_{n+1}",
+   "d' | r_{n+1}, also d' ≥ r_{n+1}",
+   "r_{n+1} | d', also r_{n+1} ≤ d'",
+   "r_{n+1} ist teilerfremd zu a und b"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Folie schließt: d' | r_{n+1} und damit ist d' ≤ r_{n+1}, also ist ggT(a, b) = r_{n+1}. 📄 Quelle: ari23_vl12, Folie 20 (S.20)",
+  "source": "ari23_vl12, Folie 20 (S.20, Warum ist d = r_{n+1} der ggT(a, b)?)"
+ }
+]
