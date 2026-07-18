@@ -1,10 +1,10 @@
 # STATUS — Combination: Mathematik-Fragenkatalog (Pipeline, pro-Skript persistiert)
 
-- **Stand:** 2026-07-18 17:36 UTC
+- **Stand:** 2026-07-18 17:37 UTC
 - **Branch:** `claude/repo-combination-raw-data-vbf3hw`
-- **HEAD:** `86e5982`
-- **Fertige Skripte:** 49 / 70
-- **Fragen gesamt (fertig + laufend, roh):** 975
+- **HEAD:** `3e71512`
+- **Fertige Skripte:** 50 / 70
+- **Fragen gesamt (fertig + laufend, roh):** 1042
 
 ## Fortschritt
 
@@ -17,7 +17,7 @@
 | `klausur_ss20` | FERTIG | 6 | Klausur Arithmetik und Geometrie Vertiefung SS20 |
 | `klausur_sose22` | FERTIG | 17 | Klausur Vertiefung SoSe22.pdf |
 | `klausur_wise20` | FERTIG | 11 | Klausur_Arithmetik_und_Geometrie_WiSe20-21.pdf |
-| `did_vl05_begriffe` | offen |  | ST_Did_Ari_Geo_Begriffsbildung_VL5.pdf |
+| `did_vl05_begriffe` | FERTIG | 67 | ST_Did_Ari_Geo_Begriffsbildung_VL5.pdf |
 | `skript01_clean` | FERTIG | 4 | Skript1.pdf |
 | `skript10_live` | FERTIG | 14 | Skript10-live.pdf |
 | `skript11_live` | FERTIG | 20 | Skript11-live.pdf |
@@ -102,5 +102,5 @@
 - Alles Fertige liegt auf origin; ein Stopp kostet höchstens den einen laufenden Block.
 - Skripte mit `gen/<code>.json` überspringen; für `laufend`-Skript fehlende Blöcke neu erzeugen → `finalize.sh`.
 
-**Offen:** `did_vl05_begriffe`, `skript01_live23`, `did_vl08_raum2`, `ari20_vl10`, `ari23_vl10`, `ari20_vl11`, `ari23_vl11`, `ari20_vl12`, `ari23_vl01`, `ari21_vl01`, `ari21_vl02`, `ari21_vl03`, `ari23_vl04`, `ari21_vl04`, `ari21_vl05`, `ari23_vl06`, `ari21_vl06`, `ari23_vl07`, `ari21_vl07`, `ari21_vl08`, `ari21_vl09`
+**Offen:** `skript01_live23`, `did_vl08_raum2`, `ari20_vl10`, `ari23_vl10`, `ari20_vl11`, `ari23_vl11`, `ari20_vl12`, `ari23_vl01`, `ari21_vl01`, `ari21_vl02`, `ari21_vl03`, `ari23_vl04`, `ari21_vl04`, `ari21_vl05`, `ari23_vl06`, `ari21_vl06`, `ari23_vl07`, `ari21_vl07`, `ari21_vl08`, `ari21_vl09`
 
