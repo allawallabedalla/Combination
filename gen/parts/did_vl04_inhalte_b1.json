@@ -1,0 +1,162 @@
+[
+  {
+    "id": "did_vl04_inhalte-b1-001",
+    "topic": "did_vl04_inhalte_ebene_figuren",
+    "difficulty": 1,
+    "type": "multi",
+    "question": "Das Rahmenthema „Ebene Figuren und Formen“ nennt konkrete Figuren, die erkannt, gelegt und hergestellt werden sollen. Welche Figuren werden auf der Folie genannt?",
+    "options": [
+      "Quadrate und Rechtecke",
+      "Dreiecke und Kreise",
+      "Würfel und Kugeln",
+      "Zylinder und Kegel"
+    ],
+    "correct": [0, 1],
+    "explanation": "Zu „Ebene Figuren und Formen“ gehören laut Folie das Erkennen, Legen und Herstellen von Quadraten, Rechtecken, Dreiecken und Kreisen. Würfel und Kugeln gehören dagegen zum Rahmenthema „Körperformen“. 📄 Quelle: did_vl04_inhalte, Folie 4 (S.4)",
+    "source": "did_vl04_inhalte, Folie 4 (S.4, 1.1 Hintergründe und Inhalte; nach Radatz & Rickmeyer 1991, S. 9 f.)"
+  },
+  {
+    "id": "did_vl04_inhalte-b1-002",
+    "topic": "did_vl04_inhalte_ebene_figuren",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Tätigkeiten sollen Schülerinnen und Schüler laut Folie mit ebenen Figuren und Formen ausführen?",
+    "options": [
+      "Erkennen, legen und herstellen",
+      "Zusammensetzen",
+      "Nach Eigenschaften unterscheiden",
+      "Ihren Rauminhalt (Volumen) berechnen"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Die Folie nennt: „Quadrate, Rechtecke, Dreiecke, Kreise erkennen, legen, herstellen, zusammensetzen und nach Eigenschaften unterscheiden.“ Eine Volumenberechnung wird nicht genannt. 📄 Quelle: did_vl04_inhalte, Folie 4 (S.4)",
+    "source": "did_vl04_inhalte, Folie 4 (S.4, 1.1 Hintergründe und Inhalte; nach Radatz & Rickmeyer 1991, S. 9 f.)"
+  },
+  {
+    "id": "did_vl04_inhalte-b1-003",
+    "topic": "did_vl04_inhalte_symmetrie",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Symmetrien nennt das Rahmenthema „Symmetrieeigenschaften“ ausdrücklich?",
+    "options": [
+      "Achsensymmetrie (insbesondere)",
+      "Drehsymmetrie",
+      "Punktsymmetrie",
+      "Schubsymmetrie"
+    ],
+    "correct": [0, 1],
+    "explanation": "Auf der Folie steht: „insbesondere der Achsensymmetrie aber auch der Drehsymmetrie entdecken, erkennen und bei Handlungserfahrungen anwenden bzw. nutzen.“ Punkt- und Schubsymmetrie werden nicht genannt. 📄 Quelle: did_vl04_inhalte, Folie 4 (S.4)",
+    "source": "did_vl04_inhalte, Folie 4 (S.4, 1.1 Hintergründe und Inhalte; nach Radatz & Rickmeyer 1991, S. 9 f.)"
+  },
+  {
+    "id": "did_vl04_inhalte-b1-004",
+    "topic": "did_vl04_inhalte_symmetrie",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Welche Symmetrie wird im Rahmenthema „Symmetrieeigenschaften“ besonders hervorgehoben („insbesondere“)?",
+    "options": [
+      "Achsensymmetrie",
+      "Drehsymmetrie",
+      "Punktsymmetrie",
+      "Verschiebungssymmetrie"
+    ],
+    "correct": [0],
+    "explanation": "Die Folie hebt „insbesondere der Achsensymmetrie“ hervor und nennt „aber auch“ die Drehsymmetrie. Besonders betont ist damit die Achsensymmetrie. 📄 Quelle: did_vl04_inhalte, Folie 4 (S.4)",
+    "source": "did_vl04_inhalte, Folie 4 (S.4, 1.1 Hintergründe und Inhalte; nach Radatz & Rickmeyer 1991, S. 9 f.)"
+  },
+  {
+    "id": "did_vl04_inhalte-b1-005",
+    "topic": "did_vl04_inhalte_abbildungen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Das Rahmenthema „Abbildungen und Bewegungen“ nennt Beispiele, die an und mit Objekten ausgeführt werden sollen. Welche Beispiele stehen auf der Folie?",
+    "options": [
+      "Vergrößern",
+      "Verkleinern",
+      "Verschieben",
+      "Wiegen"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Die Folie nennt: „an und mit Objekten (z.B. vergrößern – verkleinern, verschieben usw.) ausführen und im Hinblick auf die Eigenschaften betrachten“. Wiegen ist keine geometrische Abbildung/Bewegung. 📄 Quelle: did_vl04_inhalte, Folie 4 (S.4)",
+    "source": "did_vl04_inhalte, Folie 4 (S.4, 1.1 Hintergründe und Inhalte; nach Radatz & Rickmeyer 1991, S. 9 f.)"
+  },
+  {
+    "id": "did_vl04_inhalte-b1-006",
+    "topic": "did_vl04_inhalte_koerperformen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Was nennt das Rahmenthema „Körperformen“ an Objekten und Tätigkeiten?",
+    "options": [
+      "Würfel, Quader und Kugeln",
+      "In der Umwelt auffinden und benennen",
+      "Unterscheiden und als Modelle herstellen",
+      "Ihren Oberflächeninhalt formal berechnen"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Die Folie nennt: „Würfel, Quader, Kugeln in der Umwelt auffinden, benennen, unterscheiden und als Modelle herstellen.“ Eine formale Oberflächenberechnung wird nicht genannt. 📄 Quelle: did_vl04_inhalte, Folie 4 (S.4)",
+    "source": "did_vl04_inhalte, Folie 4 (S.4, 1.1 Hintergründe und Inhalte; nach Radatz & Rickmeyer 1991, S. 9 f.)"
+  },
+  {
+    "id": "did_vl04_inhalte-b1-007",
+    "topic": "did_vl04_inhalte_raeumliche_beziehungen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Was sollen Schülerinnen und Schüler laut Rahmenthema „Räumliche Beziehungen“ tun?",
+    "options": [
+      "Beziehungen wie „links von“ und „rechts von“ in der Umwelt erkennen, benennen und beschreiben",
+      "Diese Beziehungen als Orientierung nutzen",
+      "Flächeninhalte von Rechtecken formal berechnen",
+      "Körpernetze zu Körpern falten"
+    ],
+    "correct": [0, 1],
+    "explanation": "Die Folie nennt: räumliche Beziehungen „in der Umwelt wie z.B. links von, rechts von usw. erkennen, benennen, beschreiben und als Orientierung nutzen.“ Flächenberechnung und Netze gehören zu anderen Rahmenthemen. 📄 Quelle: did_vl04_inhalte, Folie 5 (S.5)",
+    "source": "did_vl04_inhalte, Folie 5 (S.5, 1.1 Hintergründe und Inhalte; nach Radatz & Rickmeyer 1991, S. 9 f.)"
+  },
+  {
+    "id": "did_vl04_inhalte-b1-008",
+    "topic": "did_vl04_inhalte_geom_zeichnen",
+    "difficulty": 1,
+    "type": "multi",
+    "question": "Mit welchen Werkzeugen soll laut Rahmenthema „Geometrisches Zeichnen“ gezeichnet werden?",
+    "options": [
+      "Lineal",
+      "Geodreieck",
+      "Zirkel und Schablonen",
+      "Taschenrechner"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Die Folie nennt das geometrische Zeichnen „mit Lineal, Geodreieck, Zirkel und Schablonen“. Der Taschenrechner wird nicht genannt. 📄 Quelle: did_vl04_inhalte, Folie 5 (S.5)",
+    "source": "did_vl04_inhalte, Folie 5 (S.5, 1.1 Hintergründe und Inhalte; nach Radatz & Rickmeyer 1991, S. 9 f.)"
+  },
+  {
+    "id": "did_vl04_inhalte-b1-009",
+    "topic": "did_vl04_inhalte_netze_wege",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wie beschreibt das Rahmenthema „Netze und Wege, Strecken und Linien“ den Umgang mit diesen?",
+    "options": [
+      "Unter räumlichen Beziehungen erkennen, beschreiben und zeichnerisch darstellen",
+      "Ihr Volumen in Litern bestimmen",
+      "Sie ausschließlich mit dem Zirkel halbieren",
+      "Ihre Winkelsumme berechnen"
+    ],
+    "correct": [0],
+    "explanation": "Die Folie formuliert: „unter räumlichen Beziehungen erkennen, beschreiben und zeichnerisch darstellen.“ 📄 Quelle: did_vl04_inhalte, Folie 5 (S.5)",
+    "source": "did_vl04_inhalte, Folie 5 (S.5, 1.1 Hintergründe und Inhalte; nach Radatz & Rickmeyer 1991, S. 9 f.)"
+  },
+  {
+    "id": "did_vl04_inhalte-b1-010",
+    "topic": "did_vl04_inhalte_geom_groessen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Das Rahmenthema „Geometrische Größen“ beschreibt, in welchem Zusammenhang und wie diese behandelt werden. Was steht auf der Folie?",
+    "options": [
+      "Beim Messen von Strecken, Flächen und Körpern kennenlernen",
+      "Mit ihrer Hilfe vergleichen sowie ordnen",
+      "Ausschließlich in der Sekundarstufe behandeln",
+      "Durch Wahrscheinlichkeitsrechnung bestimmen"
+    ],
+    "correct": [0, 1],
+    "explanation": "Die Folie nennt: geometrische Größen „beim Messen von Strecken, Flächen und Körpern kennen lernen und mit ihrer Hilfe vergleichen sowie ordnen.“ 📄 Quelle: did_vl04_inhalte, Folie 5 (S.5)",
+    "source": "did_vl04_inhalte, Folie 5 (S.5, 1.1 Hintergründe und Inhalte; nach Radatz & Rickmeyer 1991, S. 9 f.)"
+  }
+]
