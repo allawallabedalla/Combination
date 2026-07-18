@@ -1,0 +1,262 @@
+[
+  {
+    "id": "ari23_vl05-b2-001",
+    "topic": "ari23_vl05_teilbarkeit",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Erinnerung zur Teilbarkeit: Wann gilt a|b?",
+    "options": [
+      "Genau dann, wenn es eine natürliche Zahl x gibt mit a·x = b",
+      "Genau dann, wenn es eine natürliche Zahl x gibt mit b·x = a",
+      "Genau dann, wenn es eine reelle Zahl x gibt mit a·x = b",
+      "Genau dann, wenn für alle natürlichen Zahlen x gilt a·x = b"
+    ],
+    "correct": [0],
+    "explanation": "Laut Erinnerung gilt a|b genau dann, wenn es eine natürliche Zahl x gibt mit a·x = b. 📄 Quelle: ari23_vl05, Folie 18 (S.18)",
+    "source": "ari23_vl05, Folie 18 (S.18, n-Quadratlinge)"
+  },
+  {
+    "id": "ari23_vl05-b2-002",
+    "topic": "ari23_vl05_teilbarkeit",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aussagen zur Teilbarkeit a|b treffen gemäß der Erinnerung auf der Folie zu?",
+    "options": [
+      "x ist eine natürliche Zahl",
+      "Es gilt a·x = b",
+      "x muss eine Primzahl sein",
+      "Es gilt a + x = b"
+    ],
+    "correct": [0, 1],
+    "explanation": "Die Folie definiert: a|b genau dann, wenn es eine Natürliche Zahl x gibt mit a·x = b. Somit ist x natürlich und es gilt a·x = b; eine Primzahl-Bedingung oder eine Additionsgleichung stehen nicht auf der Folie. 📄 Quelle: ari23_vl05, Folie 18 (S.18)",
+    "source": "ari23_vl05, Folie 18 (S.18, n-Quadratlinge)"
+  },
+  {
+    "id": "ari23_vl05-b2-003",
+    "topic": "ari23_vl05_quadratlinge",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Bedingungen muss eine Figur laut Definition erfüllen, um ein n-Quadratling zu sein?",
+    "options": [
+      "Die Figur besteht aus n Quadraten",
+      "Jedes Quadrat hat mit mindestens einem weiteren Quadrat genau eine Seite (vollständig) gemeinsam",
+      "Die Quadrate berühren sich nur in einer Ecke",
+      "Jedes Quadrat hat mit jedem anderen Quadrat eine Seite gemeinsam"
+    ],
+    "correct": [0, 1],
+    "explanation": "Definition: Eine Figur heißt n-Quadratling genau dann, wenn die Figur aus n Quadraten besteht und jedes Quadrat mit mindestens einem weiteren Quadrat genau eine Seite (vollständig) gemeinsam hat. 📄 Quelle: ari23_vl05, Folie 20 (S.20)",
+    "source": "ari23_vl05, Folie 20 (S.20, n-Quadratlinge)"
+  },
+  {
+    "id": "ari23_vl05-b2-004",
+    "topic": "ari23_vl05_quadratlinge",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wie müssen sich zwei benachbarte Quadrate eines n-Quadratlings gemäß Definition berühren?",
+    "options": [
+      "Sie haben genau eine Seite vollständig gemeinsam",
+      "Sie haben genau eine Ecke gemeinsam",
+      "Sie überlappen sich teilweise",
+      "Sie haben genau eine halbe Seite gemeinsam"
+    ],
+    "correct": [0],
+    "explanation": "Jedes Quadrat muss mit mindestens einem weiteren Quadrat genau eine Seite (vollständig) gemeinsam haben. 📄 Quelle: ari23_vl05, Folie 20 (S.20)",
+    "source": "ari23_vl05, Folie 20 (S.20, n-Quadratlinge)"
+  },
+  {
+    "id": "ari23_vl05-b2-005",
+    "topic": "ari23_vl05_quadratlinge",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Aus wie vielen Quadraten besteht ein 5-Quadratling gemäß Definition?",
+    "answer": 5,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Laut Definition besteht ein n-Quadratling aus n Quadraten, ein 5-Quadratling also aus 5 Quadraten. 📄 Quelle: ari23_vl05, Folie 20 (S.20)",
+    "source": "ari23_vl05, Folie 20 (S.20, n-Quadratlinge)"
+  },
+  {
+    "id": "ari23_vl05-b2-006",
+    "topic": "ari23_vl05_quadratlinge",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Wie viele verschiedene 5-Quadratlinge gibt es laut Folie?",
+    "answer": 12,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Auf der Folie 'Zählen' ist angegeben: 5-Quadratlinge (12; sind das jetzt alle?). 📄 Quelle: ari23_vl05, Folie 22 (S.22)",
+    "source": "ari23_vl05, Folie 22 (S.22, n-Quadratlinge)"
+  },
+  {
+    "id": "ari23_vl05-b2-007",
+    "topic": "ari23_vl05_quadratlinge",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Wie viele verschiedene 6-Quadratlinge gibt es laut Folie?",
+    "answer": 35,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Auf der Folie 'Zählen' ist angegeben: 6-Quadratlinge (35; oh je). 📄 Quelle: ari23_vl05, Folie 22 (S.22)",
+    "source": "ari23_vl05, Folie 22 (S.22, n-Quadratlinge)"
+  },
+  {
+    "id": "ari23_vl05-b2-008",
+    "topic": "ari23_vl05_quadratlinge",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Zuordnungen 'n-Quadratlinge → Anzahl' sind laut Folie 'Zählen' korrekt?",
+    "options": [
+      "2-Quadratlinge: 1",
+      "3-Quadratlinge: 2",
+      "4-Quadratlinge: 5",
+      "5-Quadratlinge: 35"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Die Folie nennt: 2-Quadratlinge (1), 3-Quadratlinge (2), 4-Quadratlinge (5), 5-Quadratlinge (12) — nicht 35 (das ist die Anzahl der 6-Quadratlinge). 📄 Quelle: ari23_vl05, Folie 22 (S.22)",
+    "source": "ari23_vl05, Folie 22 (S.22, n-Quadratlinge)"
+  },
+  {
+    "id": "ari23_vl05-b2-009",
+    "topic": "ari23_vl05_quadratlinge",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Was gibt die Folie 'Zählen' für die Anzahl der 7-Quadratlinge an?",
+    "options": [
+      "107 oder 108 (unklar)",
+      "genau 107",
+      "genau 108",
+      "genau 35"
+    ],
+    "correct": [0],
+    "explanation": "Auf der Folie steht: 7-Quadratlinge (107 oder 108? oh je oh je) — die Anzahl wird also als unsicher dargestellt. 📄 Quelle: ari23_vl05, Folie 22 (S.22)",
+    "source": "ari23_vl05, Folie 22 (S.22, n-Quadratlinge)"
+  },
+  {
+    "id": "ari23_vl05-b2-010",
+    "topic": "ari23_vl05_quadratlinge",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Mit welchen n-Quadratlingen lässt sich im Tetris-Spiel laut Folie sicher (offenbar) mehrere Reihen auf einmal 'eliminieren'?",
+    "options": [
+      "Mit den 4-Quadratlingen",
+      "Mit den 3-Quadratlingen",
+      "Mit den 2-Quadratlingen",
+      "Mit den 1-Quadratlingen"
+    ],
+    "correct": [0],
+    "explanation": "Die Folie stellt fest: 'Mit den 4-Quadratlingen geht das offenbar, sonst gäbe es Tetris nicht.' 📄 Quelle: ari23_vl05, Folie 24 (S.24)",
+    "source": "ari23_vl05, Folie 24 (S.24, Parkettierung)"
+  },
+  {
+    "id": "ari23_vl05-b2-011",
+    "topic": "ari23_vl05_parkettierung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Was folgt laut Folie, wenn sich mit n-Quadratlingen ein lückenloses Rechteck bauen lässt?",
+    "options": [
+      "Dann lässt sich mit den n-Quadratlingen auch die Ebene parkettieren",
+      "Dann lässt sich damit kein Rechteck parkettieren",
+      "Dann muss n ungerade sein",
+      "Dann gibt es genau eine mögliche Parkettierung"
+    ],
+    "correct": [0],
+    "explanation": "Folie: 'Lässt sich mit n-Quadratlingen ein lückenloses Rechteck bauen, so lässt sich mit den n-Quadratlingen auch übergreifend die Ebene ... parkettieren.' 📄 Quelle: ari23_vl05, Folie 26 (S.26)",
+    "source": "ari23_vl05, Folie 26 (S.26, Parkettierung)"
+  },
+  {
+    "id": "ari23_vl05-b2-012",
+    "topic": "ari23_vl05_parkettierung",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Was ist auf der Folie 'Parkettierung der Ebene' mit der 'Ebene' gemeint?",
+    "options": [
+      "Die zu allen Seiten unendlich gedachte Fläche",
+      "Ein 6×8-Rechteck",
+      "Eine endliche, begrenzte Fläche",
+      "Die Oberfläche eines Würfels"
+    ],
+    "correct": [0],
+    "explanation": "Die Ebene wird auf der Folie beschrieben als 'die zu allen Seiten unendlich gedachte Fläche'. 📄 Quelle: ari23_vl05, Folie 26 (S.26)",
+    "source": "ari23_vl05, Folie 26 (S.26, Parkettierung)"
+  },
+  {
+    "id": "ari23_vl05-b2-013",
+    "topic": "ari23_vl05_parkettierung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Bedingungen muss eine Menge von Figuren laut Definition erfüllen, um eine Parkettierung zu sein?",
+    "options": [
+      "Sie besteht aus einer endlichen Zahl kongruenter Figuren",
+      "Sie füllt die Ebene überlappungsfrei aus",
+      "Sie füllt die Ebene lückenlos aus",
+      "Sie besteht aus unendlich vielen verschiedenen Figuren"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Definition: Genau dann heißt eine Menge von Figuren Parkettierung, wenn die Menge aus einer endlichen Zahl kongruenter Figuren besteht und die Menge die Ebene überlappungsfrei und lückenlos ausfüllt. 📄 Quelle: ari23_vl05, Folie 29 (S.29)",
+    "source": "ari23_vl05, Folie 29 (S.29, Parkettierung)"
+  },
+  {
+    "id": "ari23_vl05-b2-014",
+    "topic": "ari23_vl05_parkettierung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "In welcher Beziehung müssen die Figuren einer Parkettierung laut Definition zueinander stehen?",
+    "options": [
+      "Sie müssen kongruent sein",
+      "Sie müssen ähnlich, aber verschieden groß sein",
+      "Sie dürfen beliebig verschieden sein",
+      "Sie müssen spiegelverkehrt und größer sein"
+    ],
+    "correct": [0],
+    "explanation": "Die Definition verlangt eine endliche Zahl kongruenter Figuren. 📄 Quelle: ari23_vl05, Folie 29 (S.29)",
+    "source": "ari23_vl05, Folie 29 (S.29, Parkettierung)"
+  },
+  {
+    "id": "ari23_vl05-b2-015",
+    "topic": "ari23_vl05_parkettierung",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Wie füllt eine Parkettierung die Ebene laut Definition aus?",
+    "options": [
+      "Überlappungsfrei und lückenlos",
+      "Mit Überlappungen",
+      "Mit Lücken",
+      "Nur teilweise"
+    ],
+    "correct": [0],
+    "explanation": "Die Menge muss die Ebene überlappungsfrei und lückenlos ausfüllen. 📄 Quelle: ari23_vl05, Folie 29 (S.29)",
+    "source": "ari23_vl05, Folie 29 (S.29, Parkettierung)"
+  },
+  {
+    "id": "ari23_vl05-b2-016",
+    "topic": "ari23_vl05_parkettierung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Was kennzeichnet ein reguläres Polygon (regelmäßiges n-Eck) laut Folie?",
+    "options": [
+      "Gleiche Seitenlängen",
+      "Gleiche Innenwinkel",
+      "Verschiedene Seitenlängen",
+      "Es hat immer genau 4 Ecken"
+    ],
+    "correct": [0, 1],
+    "explanation": "Die Folie definiert reguläre Polygone (regelmäßige n-Ecke) über gleiche Seitenlängen und gleiche Innenwinkel. 📄 Quelle: ari23_vl05, Folie 30 (S.30)",
+    "source": "ari23_vl05, Folie 30 (S.30, Parkettierung)"
+  },
+  {
+    "id": "ari23_vl05-b2-017",
+    "topic": "ari23_vl05_parkettierung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Fälle unterscheidet die Folie 'Parkettierung' bei der Frage, womit sich die Ebene parkettieren lässt?",
+    "options": [
+      "Reguläre Polygone (regelmäßige n-Ecke)",
+      "Allgemeine Drei-, Vier-, Fünf-, n-Ecke",
+      "Nur Kreise",
+      "Nur gleichschenklige Dreiecke"
+    ],
+    "correct": [0, 1],
+    "explanation": "Die Fallunterscheidung fragt einerseits nach regulären Polygonen (regelmäßigen n-Ecken) und andererseits nach allgemeinen Drei-, Vier-, Fünf-, n-Ecken. 📄 Quelle: ari23_vl05, Folie 30 (S.30)",
+    "source": "ari23_vl05, Folie 30 (S.30, Parkettierung)"
+  }
+]
