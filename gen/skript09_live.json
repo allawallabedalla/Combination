@@ -1,0 +1,275 @@
+[
+ {
+  "id": "skript09_live-b1-001",
+  "topic": "skript09_live_teilbarkeit_2",
+  "difficulty": 1,
+  "type": "multi",
+  "question": "Was besagt der Satz zur Endstellenregel für die Teilbarkeit durch 2?",
+  "options": [
+   "Für alle natürlichen Zahlen n gilt: Wenn die Zahl n₁, die aus der letzten Ziffer von n besteht, durch 2 teilbar ist, dann ist n durch 2 teilbar.",
+   "Der Satz gilt für alle natürlichen Zahlen n.",
+   "Man muss die Quersumme von n betrachten.",
+   "Man muss die aus den letzten beiden Ziffern gebildete Zahl betrachten."
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "explanation": "Der Satz lautet: Für alle natürlichen Zahlen n gilt: Wenn die aus der letzten Ziffer bestehende Zahl n₁ durch 2 teilbar ist, dann ist n durch 2 teilbar. Es zählt nur die letzte Ziffer, nicht die Quersumme oder zwei Endziffern. 📄 Quelle: skript09_live, Folie 11 (S.1)",
+  "source": "skript09_live, Folie 11 (S.1, Teilbarkeitsregeln – Endstellenregeln)"
+ },
+ {
+  "id": "skript09_live-b1-002",
+  "topic": "skript09_live_teilbarkeit_2",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Für das handschriftliche Beispiel n = 1132 mit der Zerlegung n = n₄·10³ + n₃·10² + n₂·10¹ + n₁·10⁰: Welchen Wert hat die letzte Ziffer n₁?",
+  "answer": 2,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Im Beispiel n = 1132 ist n₁ die letzte Ziffer (Einerstelle), also n₁ = 2. Diese Ziffer entscheidet über die Teilbarkeit durch 2. 📄 Quelle: skript09_live, Folie 11 (S.1)",
+  "source": "skript09_live, Folie 11 (S.1, Teilbarkeitsregeln – Endstellenregeln)"
+ },
+ {
+  "id": "skript09_live-b1-003",
+  "topic": "skript09_live_teilbarkeit_2",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Aussagen gehören zur Beweisidee der Endstellenregel für 2 (n = nₘ·10^(m-1) + … + n₁ = 2·[nₘ·2^(m-2)·5^(m-1) + … + n₂·5] + n₁)?",
+  "options": [
+   "Es gilt 10 = 2·5, 100 = (2·5)², 1000 = (2·5)³.",
+   "Es wird das Potenzgesetz (2·5)^k = 2^k·5^k verwendet.",
+   "Die letzte Ziffer n₁ entscheidet, ob 2|n oder 2∤n.",
+   "Die Summe n₂ + n₃ + … + nₘ entscheidet über die Teilbarkeit durch 2."
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Aus 10 = 2·5 und dem Potenzgesetz (2·5)^k = 2^k·5^k lässt sich in allen Summanden außer n₁ der Faktor 2 ausklammern; somit entscheidet allein die letzte Ziffer n₁ über die Teilbarkeit durch 2. Die Summe der übrigen Ziffern ist irrelevant. 📄 Quelle: skript09_live, Folie 11 (S.1)",
+  "source": "skript09_live, Folie 11 (S.1, Teilbarkeitsregeln – Endstellenregeln)"
+ },
+ {
+  "id": "skript09_live-b1-004",
+  "topic": "skript09_live_endstellenregeln",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Endstellenregeln für Zweierpotenzen werden in der Mitschrift genannt?",
+  "options": [
+   "Teilbarkeit durch 4 (= 2²): die letzten beiden Ziffern betrachten.",
+   "Teilbarkeit durch 8 (= 2³): die letzten 3 Ziffern betrachten.",
+   "Teilbarkeit durch 16 (= 2⁴): die letzten 4 Ziffern betrachten.",
+   "Teilbarkeit durch 2^k: die letzten k Ziffern betrachten.",
+   "Teilbarkeit durch 6: nur die letzte Ziffer betrachten."
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explanation": "Die Mitschrift ordnet zu: 2² = 4 → letzte 2 Ziffern, 2³ = 8 → letzte 3 Ziffern, 2⁴ = 16 → letzte 4 Ziffern, allgemein 2^k → letzte k Ziffern. Eine Endstellenregel für 6 wird nicht angegeben. 📄 Quelle: skript09_live, Folie 14 (S.2)",
+  "source": "skript09_live, Folie 14 (S.2, Teilbarkeitsregeln – Endstellenregeln)"
+ },
+ {
+  "id": "skript09_live-b1-005",
+  "topic": "skript09_live_endstellenregeln",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Bei der Teilbarkeit durch 2^k betrachtet man die letzten k Ziffern. Wie viele Endziffern muss man laut Mitschrift für die Teilbarkeit durch 8 betrachten?",
+  "answer": 3,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Wegen 8 = 2³ ist k = 3, also entscheiden die letzten 3 Ziffern über die Teilbarkeit durch 8. 📄 Quelle: skript09_live, Folie 14 (S.2)",
+  "source": "skript09_live, Folie 14 (S.2, Teilbarkeitsregeln – Endstellenregeln)"
+ },
+ {
+  "id": "skript09_live-b1-006",
+  "topic": "skript09_live_endstellenregeln",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Vermutungen bzw. Regeln zu 5 und 10 hält die Mitschrift fest?",
+  "options": [
+   "25 = 5²: die letzten 2 Stellen betrachten.",
+   "125 = 5³: die letzten 3 Stellen betrachten.",
+   "Teilbarkeit durch 10: Ist die letzte Ziffer 0, dann ist n durch 10 teilbar.",
+   "Teilbarkeit durch 10: Ist die Quersumme durch 10 teilbar, dann ist n durch 10 teilbar."
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Zur Teilbarkeit durch 5 werden die Vermutungen 25 = 5² → letzte 2 Stellen und 125 = 5³ → letzte 3 Stellen notiert. Für 10 (= 2·5) gilt: ist die letzte Stelle durch 10 teilbar bzw. die letzte Ziffer 0, dann ist n durch 10 teilbar. Eine Quersummenregel für 10 wird nicht genannt. 📄 Quelle: skript09_live, Folie 14 (S.2)",
+  "source": "skript09_live, Folie 14 (S.2, Teilbarkeitsregeln – Endstellenregeln)"
+ },
+ {
+  "id": "skript09_live-b1-007",
+  "topic": "skript09_live_teilbarkeit_4",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Was besagt die Endstellenregel für die Teilbarkeit durch 4 (Folie 17)?",
+  "options": [
+   "Wenn die aus den letzten beiden Ziffern gebildete Zahl n₁ durch 4 teilbar ist, dann ist n durch 4 teilbar.",
+   "4 teilt jeden 100er, 1000er usw.",
+   "Die Zahl n₁ = x₁·10 + x₀ der letzten beiden Ziffern entscheidet über die Teilbarkeit durch 4.",
+   "Es genügt, die letzte Ziffer x₀ zu betrachten."
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Der Satz: Wenn die aus den letzten beiden Ziffern bestehende Zahl n₁ durch 4 teilbar ist, dann ist n durch 4 teilbar. Da 4 jeden 100er, 1000er usw. teilt, entscheidet n₁ = x₁·10 + x₀. Die letzte Ziffer allein reicht nicht. 📄 Quelle: skript09_live, Folie 17 (S.3)",
+  "source": "skript09_live, Folie 17 (S.3, Teilbarkeitsregeln – Endstellenregeln)"
+ },
+ {
+  "id": "skript09_live-b1-008",
+  "topic": "skript09_live_teilbarkeit_4",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche der handschriftlichen Umformungen ('Erinnerung') auf Folie 17 sind korrekt notiert?",
+  "options": [
+   "100 = 10² = 4·25 = 4·5²",
+   "1000 = 10³ = 4·2·5³",
+   "10.000 = 10⁴ = 4·2²·5⁴",
+   "10 = 4·… (10 ist durch 4 teilbar)"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Auf der Folie steht 100 = (2·5)² = 4·5², 1000 = (2·5)³ = 4·2·5³ und 10.000 = (2·5)⁴ = 4·2²·5⁴. Ab 100 lässt sich der Faktor 4 ausklammern; 10 dagegen ist nicht durch 4 teilbar. 📄 Quelle: skript09_live, Folie 17 (S.3)",
+  "source": "skript09_live, Folie 17 (S.3, Teilbarkeitsregeln – Endstellenregeln)"
+ },
+ {
+  "id": "skript09_live-b1-009",
+  "topic": "skript09_live_teilbarkeit_4",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Laut Erinnerung auf Folie 17 gilt 100 = 4·? . Welchen Wert hat der fehlende Faktor?",
+  "answer": 25,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Es gilt 100 = 4·25·10⁰ = 4·25, der fehlende Faktor ist also 25. Deshalb teilt 4 jeden 100er. 📄 Quelle: skript09_live, Folie 17 (S.3)",
+  "source": "skript09_live, Folie 17 (S.3, Teilbarkeitsregeln – Endstellenregeln)"
+ },
+ {
+  "id": "skript09_live-b1-010",
+  "topic": "skript09_live_teilbarkeit_2k",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Was besagt der allgemeine Satz zur Endstellenregel für 2^k (Folie 20)?",
+  "options": [
+   "Wenn die aus den letzten k Ziffern gebildete Zahl n₁ durch 2^k teilbar ist, dann ist n durch 2^k teilbar.",
+   "Die Übung verlangt, die Schritte aus den Beweisen für die Teilbarkeit durch 2 und 4 zu analogisieren.",
+   "Für k = 3 betrachtet man die Teilbarkeit durch 2³ = 8, also die letzten 3 Ziffern.",
+   "Man betrachtet die letzten 2^k Ziffern von n."
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Der Satz verallgemeinert die Regel: aus den letzten k Ziffern gebildete Zahl n₁ durch 2^k teilbar ⇒ n durch 2^k teilbar. Die Übung ('Analogisieren Sie die Schritte aus den Beweisen für 2 und 4') und der Hinweis für k = 3 (2³ = 8 → letzte 3 Ziffern) stehen handschriftlich dabei. Man betrachtet k Ziffern, nicht 2^k Ziffern. 📄 Quelle: skript09_live, Folie 20 (S.4)",
+  "source": "skript09_live, Folie 20 (S.4, Teilbarkeitsregeln – Endstellenregeln)"
+ },
+ {
+  "id": "skript09_live-b1-011",
+  "topic": "skript09_live_teilbarkeit_2k",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Laut Handschrift auf Folie 20 soll man den Beweis zuvor für k = 3 führen. Welchen Wert hat dann 2^k = 2³?",
+  "answer": 8,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Für k = 3 ist 2³ = 8; man betrachtet dann die letzten 3 Ziffern. 📄 Quelle: skript09_live, Folie 20 (S.4)",
+  "source": "skript09_live, Folie 20 (S.4, Teilbarkeitsregeln – Endstellenregeln)"
+ },
+ {
+  "id": "skript09_live-b1-012",
+  "topic": "skript09_live_teilbarkeit_5",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Was besagt die Endstellenregel für die Teilbarkeit durch 5 (Folie 23)?",
+  "options": [
+   "Wenn die aus der letzten Ziffer gebildete Zahl n₁ durch 5 teilbar ist, dann ist n durch 5 teilbar.",
+   "5 teilt jeden 10er, 100er, 1000er usw.",
+   "Die letzte Ziffer a₀ entscheidet, ob 5|n oder 5∤n.",
+   "Man muss die letzten beiden Ziffern betrachten."
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Der Satz: Wenn die letzte Ziffer durch 5 teilbar ist, dann ist n durch 5 teilbar. Da 5 jeden 10er, 100er, 1000er teilt, entscheidet allein die letzte Ziffer a₀. Zwei Endziffern sind nicht nötig. 📄 Quelle: skript09_live, Folie 23 (S.5)",
+  "source": "skript09_live, Folie 23 (S.5, Teilbarkeitsregeln – Endstellenregeln)"
+ },
+ {
+  "id": "skript09_live-b1-013",
+  "topic": "skript09_live_teilbarkeit_5",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Schritte gehören zur Beweisidee der Endstellenregel für 5 (n = 5·[aₘ·2^m·5^(m-1) + … + a₁·2] + a₀)?",
+  "options": [
+   "In der Zerlegung wird der Faktor 5 ausgeklammert.",
+   "Es wird 10 = 2·5 verwendet.",
+   "Der Term in der eckigen Klammer ist durch 5 teilbar, sodass nur a₀ übrig bleibt.",
+   "In der Zerlegung wird der Faktor 2 ausgeklammert."
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Mit 10 = 2·5 wird n = aₘ·(2·5)^m + … + a₁·(2·5) + a₀ = 5·[aₘ·2^m·5^(m-1) + … + a₁·2] + a₀. Der Klammerterm ist durch 5 teilbar; damit entscheidet die letzte Ziffer a₀. Ausgeklammert wird 5, nicht 2. 📄 Quelle: skript09_live, Folie 23 (S.5)",
+  "source": "skript09_live, Folie 23 (S.5, Teilbarkeitsregeln – Endstellenregeln)"
+ },
+ {
+  "id": "skript09_live-b1-014",
+  "topic": "skript09_live_teilbarkeit_5",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Welchen Wert hat der Faktor, der im Beweis der Endstellenregel für die Teilbarkeit durch 5 vor der eckigen Klammer ausgeklammert wird?",
+  "answer": 5,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Im Beweis wird n = 5·[…] + a₀ geschrieben; ausgeklammert wird der Faktor 5. 📄 Quelle: skript09_live, Folie 23 (S.5)",
+  "source": "skript09_live, Folie 23 (S.5, Teilbarkeitsregeln – Endstellenregeln)"
+ },
+ {
+  "id": "skript09_live-b1-015",
+  "topic": "skript09_live_teilbarkeit_5k",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Was besagt der allgemeine Satz zur Endstellenregel für 5^k (Folie 26)?",
+  "options": [
+   "Wenn die aus den letzten k Ziffern gebildete Zahl n₁ durch 5^k teilbar ist, dann ist n durch 5^k teilbar.",
+   "Die Übung verlangt, die Schritte aus dem Beweis für die Teilbarkeit durch 5 zu analogisieren.",
+   "Der Rat lautet, zuerst k = 2 zu betrachten: n₁ besteht aus den letzten 2 Ziffern, durch 5² teilbar.",
+   "Man betrachtet die letzten 5^k Ziffern von n."
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Der Satz verallgemeinert: aus den letzten k Ziffern gebildete Zahl n₁ durch 5^k teilbar ⇒ n durch 5^k teilbar. Die Übung ('Analogisieren Sie die Schritte aus dem Beweis für 5') und der handschriftliche Rat für k = 2 (letzte 2 Ziffern, durch 5² teilbar) stehen dabei. Man betrachtet k Ziffern, nicht 5^k Ziffern. 📄 Quelle: skript09_live, Folie 26 (S.6)",
+  "source": "skript09_live, Folie 26 (S.6, Teilbarkeitsregeln – Endstellenregeln)"
+ },
+ {
+  "id": "skript09_live-b1-016",
+  "topic": "skript09_live_teilbarkeit_5k",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Laut handschriftlichem Rat auf Folie 26 soll man den Beweis zuerst für k = 2 führen. Welchen Wert hat dann 5^k = 5²?",
+  "answer": 25,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Für k = 2 ist 5² = 25; man betrachtet dann die letzten 2 Ziffern. 📄 Quelle: skript09_live, Folie 26 (S.6)",
+  "source": "skript09_live, Folie 26 (S.6, Teilbarkeitsregeln – Endstellenregeln)"
+ }
+]
