@@ -1,0 +1,90 @@
+[
+  {
+    "id": "erk07-b1-001",
+    "topic": "erk07_resteschlange",
+    "difficulty": 1,
+    "type": "multi",
+    "question": "Was benötigt man laut der Spielanleitung für das Spiel „Resteschlange“?",
+    "options": [
+      "Zahlenkärtchen von 1 bis 9",
+      "Spielmarken",
+      "Zahlenkärtchen von 0 bis 9",
+      "Einen Würfel"
+    ],
+    "correct": [0, 1],
+    "explanation": "Unter „Ihr braucht“ steht: Zahlenkärtchen von 1 bis 9 und Spielmarken. Ein Würfel wird nicht benötigt; die Karten reichen von 1 bis 9 (nicht ab 0). 📄 Quelle: erk07, Folie 1 (S.1)",
+    "source": "erk07, Folie 1 (S.1, Spiele zum Teilen – Resteschlange)"
+  },
+  {
+    "id": "erk07-b1-002",
+    "topic": "erk07_resteschlange",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Schritte gehören laut Spielregel der „Resteschlange“ zu einem Zug?",
+    "options": [
+      "3 Karten ziehen",
+      "Eine Geteiltaufgabe legen",
+      "Aufgabe ausrechnen und mit dem Rest auf dem Spielplan vorwärts ziehen",
+      "Mit dem Ergebnis (Quotienten) auf dem Spielplan vorwärts ziehen"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Spielregel: Die Zahlenkarten liegen verdeckt, es werden 3 Karten gezogen, eine Geteiltaufgabe gelegt, die Aufgabe ausgerechnet und mit dem REST vorwärts gezogen – nicht mit dem Quotienten. 📄 Quelle: erk07, Folie 1 (S.1)",
+    "source": "erk07, Folie 1 (S.1, Spiele zum Teilen – Resteschlange)"
+  },
+  {
+    "id": "erk07-b1-003",
+    "topic": "erk07_resteschlange",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Wer ist laut Spielregel Sieger bei der „Resteschlange“?",
+    "options": [
+      "Wer zuerst das Ziel genau erreicht",
+      "Wer zuerst das Ziel erreicht oder überschreitet",
+      "Wer die meisten Karten gezogen hat",
+      "Wer den größten Rest würfelt"
+    ],
+    "correct": [0],
+    "explanation": "Am Ende der Spielregel steht: „Wer zuerst das Ziel genau erreicht, ist Sieger!“ – also genaues (nicht überschreitendes) Erreichen. 📄 Quelle: erk07, Folie 1 (S.1)",
+    "source": "erk07, Folie 1 (S.1, Spiele zum Teilen – Resteschlange)"
+  },
+  {
+    "id": "erk07-b1-004",
+    "topic": "erk07_resteschlange",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Aus den gezogenen Karten 3, 2 und 7 werden auf der Seite Beispiel-Geteiltaufgaben gebildet. Welche werden genannt?",
+    "options": [
+      "32 : 7",
+      "23 : 7",
+      "27 : 3",
+      "73 : 2"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Als Beispiele zu den Karten 3, 2 und 7 sind angegeben: 32 : 7 oder 23 : 7 oder 27 : 3. Die Aufgabe 73 : 2 wird nicht genannt. 📄 Quelle: erk07, Folie 1 (S.1)",
+    "source": "erk07, Folie 1 (S.1, Spiele zum Teilen – Resteschlange)"
+  },
+  {
+    "id": "erk07-b1-005",
+    "topic": "erk07_teilen_mit_rest",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Im Beispiel zu Aufgabe 1 steht: 34 : 5 = 6 R __ . Wie groß ist der Rest?",
+    "answer": 4,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Auf der Seite ist das Beispiel 34 : 5 = 6 R 4 angegeben. 📄 Quelle: erk07, Folie 1 (S.1)",
+    "source": "erk07, Folie 1 (S.1, Spiele zum Teilen – Aufgabe 1)"
+  },
+  {
+    "id": "erk07-b1-006",
+    "topic": "erk07_teilen_mit_rest",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Im Beispiel zu Aufgabe 1 steht: 18 : 7 = __ R 4 . Wie groß ist der ganzzahlige Quotient (die Zahl vor dem Rest)?",
+    "answer": 2,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Auf der Seite ist das Beispiel 18 : 7 = 2 R 4 angegeben. 📄 Quelle: erk07, Folie 1 (S.1)",
+    "source": "erk07, Folie 1 (S.1, Spiele zum Teilen – Aufgabe 1)"
+  }
+]
