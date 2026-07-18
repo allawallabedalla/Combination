@@ -1,0 +1,953 @@
+[
+ {
+  "id": "ari21_vl01-b1-001",
+  "topic": "ari21_vl01_plusaufgaben",
+  "difficulty": 1,
+  "type": "multi",
+  "question": "Wie lautet der Forscherauftrag „Besondere Additionsaufgaben“ auf der Schulbuchseite „Plusaufgaben erforschen“? Welche Aussagen geben ihn korrekt wieder?",
+  "options": [
+   "Addiere 3, 5, 7 oder 9 aufeinander folgende Zahlen.",
+   "Bilde immer mehrere Aufgaben.",
+   "Findest du einen Trick, wie du die Aufgaben schnell ausrechnen kannst?",
+   "Multipliziere jeweils zwei aufeinander folgende Zahlen."
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Der handschriftliche Forscherauftrag verlangt, 3, 5, 7 oder 9 aufeinander folgende Zahlen zu addieren, mehrere Aufgaben zu bilden und einen Trick zum schnellen Ausrechnen zu finden. Von Multiplikation ist keine Rede. 📄 Quelle: ari21_vl01, Folie 4 (S.4)",
+  "source": "ari21_vl01, Folie 4 (S.4, Plusaufgaben erforschen)"
+ },
+ {
+  "id": "ari21_vl01-b1-002",
+  "topic": "ari21_vl01_erkundung",
+  "difficulty": 1,
+  "type": "multi",
+  "question": "Auf der Folie „Bevor wir beginnen“ werden zwei Dokumenttypen der Veranstaltung gekennzeichnet. Welche sind es?",
+  "options": [
+   "Erkundung",
+   "Skript",
+   "Klausur",
+   "Musterlösung"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "explanation": "Die Folie markiert die Schulbuchseite als „Erkundung“ und das dazugehörige Blatt als „Skript“. 📄 Quelle: ari21_vl01, Folie 4 (S.4)",
+  "source": "ari21_vl01, Folie 4 (S.4, Plusaufgaben erforschen)"
+ },
+ {
+  "id": "ari21_vl01-b1-003",
+  "topic": "ari21_vl01_plusaufgaben",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Berechne die auf der Schulbuchseite als Beispiel gezeigte Dreier-Aufgabe 4 + 5 + 6.",
+  "answer": 15,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "4 + 5 + 6 = 15. Die Aufgabe 4 + 5 + 6 ist im gelben Forscherauftrag-Kasten als Beispiel abgebildet. 📄 Quelle: ari21_vl01, Folie 4 (S.4)",
+  "source": "ari21_vl01, Folie 4 (S.4, Plusaufgaben erforschen)"
+ },
+ {
+  "id": "ari21_vl01-b1-004",
+  "topic": "ari21_vl01_ich_phase",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Schritte umfasst die „Vorgehensweise in der Ich-Phase“?",
+  "options": [
+   "Lesen der Aufgaben und Verständnisnachfragen",
+   "Erkundung (zu Hause) und Dokumentation aller Schritte",
+   "Reflexion der Erkundung",
+   "Präsentation einer Musterlösung in der Übung"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Die Ich-Phase besteht aus: 1. Lesen der Aufgaben/Verständnisnachfragen, 2. Erkundung zu Hause und Dokumentation aller Schritte, 3. Reflexion der Erkundung. Eine Musterlösung wird nicht präsentiert. 📄 Quelle: ari21_vl01, Folie 6 (S.6)",
+  "source": "ari21_vl01, Folie 6 (S.6, Erkundung: ICH)"
+ },
+ {
+  "id": "ari21_vl01-b1-005",
+  "topic": "ari21_vl01_ich_phase",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Bis wann sollen Verständnisnachfragen laut Folie im moodle-Forum gestellt werden?",
+  "options": [
+   "bis Donnerstag 11:00 Uhr",
+   "bis Freitag 11:00 Uhr",
+   "bis Montag 09:00 Uhr",
+   "bis Sonntag 23:59 Uhr"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Folie nennt als Frist für Verständnisnachfragen im moodle-Forum Donnerstag 11:00 Uhr. 📄 Quelle: ari21_vl01, Folie 6 (S.6)",
+  "source": "ari21_vl01, Folie 6 (S.6, Erkundung: ICH)"
+ },
+ {
+  "id": "ari21_vl01-b1-006",
+  "topic": "ari21_vl01_ich_phase",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Was erhalten die Studierenden laut Folie in der Ich-Phase zu (fast) jedem Thema der Vorlesung?",
+  "options": [
+   "eine Seite aus einem Grundschulbuch sowie Erkundungsaufgaben",
+   "eine vollständige Musterlösung",
+   "eine Formelsammlung zur Analysis",
+   "eine Probeklausur"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Laut Folie erhalten Studierende zu (fast) jedem Thema eine Seite aus einem Grundschulbuch (i.d.R. am Ende einer VL) sowie Erkundungsaufgaben. 📄 Quelle: ari21_vl01, Folie 6 (S.6)",
+  "source": "ari21_vl01, Folie 6 (S.6, Erkundung: ICH)"
+ },
+ {
+  "id": "ari21_vl01-b1-007",
+  "topic": "ari21_vl01_plusaufgaben",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Was ist auf der Schulbuchseite eine „Dreier-Aufgabe“?",
+  "options": [
+   "die Addition von drei aufeinander folgenden Zahlen",
+   "die Multiplikation von drei aufeinander folgenden Zahlen",
+   "die Addition von drei beliebigen Zahlen",
+   "das Bilden der Quersumme einer dreistelligen Zahl"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Dreier-Aufgaben werden mit Zahlenfolgen wie 1|2|3, 2|3|4, 3|4|5 dargestellt: Es werden drei aufeinander folgende Zahlen addiert. 📄 Quelle: ari21_vl01, Folie 7 (S.7)",
+  "source": "ari21_vl01, Folie 7 (S.7, Erkundung: ICH)"
+ },
+ {
+  "id": "ari21_vl01-b1-008",
+  "topic": "ari21_vl01_plusaufgaben",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Aussagen zu den auf der Schulbuchseite gesuchten Zielergebnissen sind korrekt (Aufgaben 1c und 2c)?",
+  "options": [
+   "Dreier-Aufgaben mit den Ergebnissen 30, 60, 90 und 120 sind gesucht.",
+   "Fünfer-Aufgaben mit den Ergebnissen 50, 55, 100 und 1000 sind gesucht.",
+   "Dreier-Aufgaben mit den Ergebnissen 50, 55 und 100 sind gesucht.",
+   "Fünfer-Aufgaben mit dem Ergebnis 120 sind gesucht."
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "explanation": "Aufgabe 1c fragt nach Dreier-Aufgaben mit den Ergebnissen 30, 60, 90 und 120; Aufgabe 2c nach Fünfer-Aufgaben mit den Ergebnissen 50, 55, 100 und 1000. 📄 Quelle: ari21_vl01, Folie 7 (S.7)",
+  "source": "ari21_vl01, Folie 7 (S.7, Erkundung: ICH)"
+ },
+ {
+  "id": "ari21_vl01-b1-009",
+  "topic": "ari21_vl01_plusaufgaben",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Was verlangt die Erkundungsaufgabe I a) zusätzlich zur Schulbuchseite?",
+  "options": [
+   "Für verschiedene weitere natürliche Zahlen eine Dreier- oder Fünfer-Aufgabe finden und die Aufgaben grafisch darstellen.",
+   "Die Aufgaben auswendig lernen.",
+   "Nur die Ergebnisse ohne Rechnung notieren.",
+   "Ausschließlich gerade Zahlen als Ergebnis zulassen."
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Erkundung I a) verlangt, für verschiedene weitere natürliche Zahlen eine Dreier- oder Fünfer-Aufgabe zu finden und die Aufgaben grafisch darzustellen. 📄 Quelle: ari21_vl01, Folie 7 (S.7)",
+  "source": "ari21_vl01, Folie 7 (S.7, Erkundung: ICH)"
+ },
+ {
+  "id": "ari21_vl01-b1-010",
+  "topic": "ari21_vl01_plusaufgaben",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Wofür steht das „m“ in einer „m-Aufgabe“ (Erkundung I b)?",
+  "options": [
+   "für die Anzahl der aufeinander folgenden Zahlen, die addiert werden (m = 2, 3, 4, …)",
+   "für das Ergebnis der Addition",
+   "für die größte auftretende Zahl",
+   "für die Anzahl der Lösungen"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die m-Aufgabe verallgemeinert die Dreier-/Fünfer-Aufgabe: m (= 2, 3, 4, …) gibt die Anzahl der aufeinander folgenden Zahlen an, die addiert werden. 📄 Quelle: ari21_vl01, Folie 8 (S.8)",
+  "source": "ari21_vl01, Folie 8 (S.8, Erkundung: ICH)"
+ },
+ {
+  "id": "ari21_vl01-b1-011",
+  "topic": "ari21_vl01_plusaufgaben",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Fragen sollen bei der Untersuchung der „m-Aufgaben“ (Erkundung I b) geklärt werden?",
+  "options": [
+   "Kann jede natürliche Zahl n durch eine m-Aufgabe dargestellt werden?",
+   "Gibt es Zahlen, die mehr verschiedene m-Aufgaben haben als andere?",
+   "Die Erkenntnisse sollen in einem möglichst gut verständlichen Satz formuliert werden.",
+   "Wie lautet die Ableitung der Funktion f(n)?"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Untersucht werden soll, ob jede Zahl n durch eine m-Aufgabe darstellbar ist und ob es Zahlen mit mehr verschiedenen m-Aufgaben gibt; die Erkenntnisse sind in einem gut verständlichen Satz zu formulieren. Ableitungen sind nicht Thema. 📄 Quelle: ari21_vl01, Folie 8 (S.8)",
+  "source": "ari21_vl01, Folie 8 (S.8, Erkundung: ICH)"
+ },
+ {
+  "id": "ari21_vl01-b1-012",
+  "topic": "ari21_vl01_deg",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Wofür steht die Abkürzung „DeG“?",
+  "options": [
+   "Dokumentation der eigenen Gedanken beim Lösungsprozess",
+   "Darstellung eigener Grafiken",
+   "Diskussion eigener Gruppenarbeit",
+   "Dokumentation der Ergebnisse einer Gruppe"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "DeG steht für „Dokumentation der eigenen Gedanken beim Lösungsprozess“. 📄 Quelle: ari21_vl01, Folie 9 (S.9)",
+  "source": "ari21_vl01, Folie 9 (S.9, Erkundung: ICH)"
+ },
+ {
+  "id": "ari21_vl01-b1-013",
+  "topic": "ari21_vl01_deg",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Was sollen die Zettel einer DeG laut Folie enthalten?",
+  "options": [
+   "den Namen, das Datum und den Bezug zu einer Erkundung",
+   "Rechnungen, Texte, Bilder und Skizzen",
+   "die vorgegebene Musterlösung der Dozentin",
+   "eine Note bzw. Bewertung der Bearbeitung"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "explanation": "Die Zettel enthalten Name, Datum und Bezug zu einer Erkundung (z. B. „Erkundung 1“) sowie Rechnungen, Texte, Bilder und Skizzen. Eine Musterlösung oder Bewertung gehört nicht dazu. 📄 Quelle: ari21_vl01, Folie 9 (S.9)",
+  "source": "ari21_vl01, Folie 9 (S.9, Erkundung: ICH)"
+ },
+ {
+  "id": "ari21_vl01-b1-014",
+  "topic": "ari21_vl01_deg",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Anforderungen an die Dokumentation nennt die Folie zur DeG?",
+  "options": [
+   "Die Schritte bei der Erkundung sollen kurz kommentiert werden (Warum hat man was gemacht?).",
+   "Eine Lösung oder ein Lösungsansatz soll reflektiert werden (Welcher Ansatz hat warum geholfen?).",
+   "Die DeG besteht aus einer Mappe bzw. einem Ordner mit Zetteln zu den Erkundungsaufgaben.",
+   "Es soll nur das Endergebnis ohne Kommentar notiert werden."
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Die DeG ist eine Mappe/ein Ordner mit Zetteln; die Schritte sollen kurz kommentiert und ein Lösungsansatz reflektiert werden. Nur ein unkommentiertes Endergebnis widerspricht dem. 📄 Quelle: ari21_vl01, Folie 9 (S.9)",
+  "source": "ari21_vl01, Folie 9 (S.9, Erkundung: ICH)"
+ },
+ {
+  "id": "ari21_vl01-b1-015",
+  "topic": "ari21_vl01_plusaufgaben",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Beobachtungen dokumentiert das gezeigte Beispiel-DeG zu Summen aufeinander folgender Zahlen?",
+  "options": [
+   "Summen zweier aufeinander folgender Zahlen ergeben ungerade Zahlen.",
+   "Die Darstellbarkeit hat etwas mit Teilern zu tun; die Teiler müssen ungerade sein.",
+   "Jede gerade Zahl lässt sich als Summe zweier aufeinander folgender Zahlen schreiben.",
+   "Keine ungerade Zahl lässt sich als solche Summe darstellen."
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "explanation": "Das Beispiel-DeG notiert 1+2=3, 2+3=5, 3+4=7, … (also ungerade Zahlen) und die Erkenntnis „Hat was mit Teilern zu tun – Teiler müssen ungerade sein“. Ausdrücklich wird festgehalten, dass nicht alle geraden Zahlen so darstellbar sind. 📄 Quelle: ari21_vl01, Folie 10 (S.10)",
+  "source": "ari21_vl01, Folie 10 (S.10, Erkundung: ICH)"
+ },
+ {
+  "id": "ari21_vl01-b1-016",
+  "topic": "ari21_vl01_plusaufgaben",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Im Beispiel-DeG wird 12 als Summe aufeinander folgender Zahlen dargestellt: 3 + 4 + 5. Wie groß ist diese Summe?",
+  "answer": 12,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "3 + 4 + 5 = 12; genau diese Darstellung „12 = 3+4+5“ ist im Beispiel-DeG notiert. 📄 Quelle: ari21_vl01, Folie 10 (S.10)",
+  "source": "ari21_vl01, Folie 10 (S.10, Erkundung: ICH)"
+ },
+ {
+  "id": "ari21_vl01-b1-017",
+  "topic": "ari21_vl01_deg",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Arbeitsschritte bzw. Phasen zeigt der Ausschnitt eines Beispiel-DeG?",
+  "options": [
+   "Probieren",
+   "Systematik",
+   "Hypothesen",
+   "Prüfung",
+   "Erkenntnis",
+   "Reflexion",
+   "Benotung",
+   "Musterlösung"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "explanation": "Der Ausschnitt ist mit den Schritten Probieren, Systematik, Erkenntnis, Reflexion sowie Hypothesen, Prüfung und Erkenntnis beschriftet. Benotung und Musterlösung kommen nicht vor. 📄 Quelle: ari21_vl01, Folie 11 (S.11)",
+  "source": "ari21_vl01, Folie 11 (S.11, Erkundung: ICH)"
+ },
+ {
+  "id": "ari21_vl01-b1-018",
+  "topic": "ari21_vl01_deg",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Schritte ordnet das Beispiel dem Bereich „Erkundung“ (untere Reihe) zu?",
+  "options": [
+   "Hypothesen",
+   "Prüfung",
+   "Erkenntnis",
+   "Probieren"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "In der unteren Reihe („Erkundung“) sind Hypothesen, Prüfung und Erkenntnis beschriftet; „Probieren“ gehört zur oberen Reihe („Schulbuch“). 📄 Quelle: ari21_vl01, Folie 11 (S.11)",
+  "source": "ari21_vl01, Folie 11 (S.11, Erkundung: ICH)"
+ },
+ {
+  "id": "ari21_vl01-b1-019",
+  "topic": "ari21_vl01_du_phase",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Wozu dient der DeG laut Folie in der „Du-Phase“ (in den Übungen)?",
+  "options": [
+   "um Bestätigungen zu erhalten",
+   "um Ergebnisse und Wege auszutauschen",
+   "um Hilfestellungen für den Weg zu bekommen",
+   "um eine fertige Musterlösung präsentiert zu bekommen"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Mit dem DeG geht man in die Übungen, um Bestätigungen zu erhalten, Ergebnisse und Wege auszutauschen und Hilfestellungen für den Weg zu bekommen. Eine Musterlösung wird ausdrücklich nicht präsentiert. 📄 Quelle: ari21_vl01, Folie 14 (S.14)",
+  "source": "ari21_vl01, Folie 14 (S.14, Erkundung: DU)"
+ },
+ {
+  "id": "ari21_vl01-b1-020",
+  "topic": "ari21_vl01_du_phase",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Aussagen zur „Vorgehensweise in der Du-Phase“ treffen zu?",
+  "options": [
+   "Es werden Ansätze ausgetauscht, die im DeG vorhanden sind.",
+   "Ohne Ansätze gibt es keine Tutorien.",
+   "Es gibt keine Präsentation einer Musterlösung.",
+   "Die Tutor*innen präsentieren zu Beginn die Musterlösung."
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Die Du-Phase umfasst das Austauschen von Ansätzen aus dem DeG, „ohne Ansätze gibt es keine Tutorien“ und „keine Präsentation einer Musterlösung“ sowie das Einholen von Beratung. 📄 Quelle: ari21_vl01, Folie 14 (S.14)",
+  "source": "ari21_vl01, Folie 14 (S.14, Erkundung: DU)"
+ },
+ {
+  "id": "ari21_vl01-b1-021",
+  "topic": "ari21_vl01_du_phase",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Was gilt laut Folie, wenn keine Ansätze im DeG vorhanden sind?",
+  "options": [
+   "Ohne Ansätze gibt es keine Tutorien.",
+   "Die Tutor*innen rechnen die Aufgabe vor.",
+   "Die Erkundung wird übersprungen.",
+   "Es wird eine neue Musterlösung verteilt."
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Folie hält ausdrücklich fest: „Ohne Ansätze gibt es keine Tutorien!“ 📄 Quelle: ari21_vl01, Folie 14 (S.14)",
+  "source": "ari21_vl01, Folie 14 (S.14, Erkundung: DU)"
+ },
+ {
+  "id": "ari21_vl01-b2-001",
+  "topic": "ari21_vl01_erkundung",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Schritte umfasst der \"Dreischritt der Veranstaltung in den Erkundungen\"?",
+  "options": [
+   "Phänomene erzeugen, um ein Muster zu erkennen",
+   "Muster beschreiben (Satz formulieren)",
+   "Muster begründen (Beweis)",
+   "Muster auswendig lernen"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Der Dreischritt lautet: 1. Phänomene erzeugen, um ein Muster zu erkennen; 2. Muster beschreiben (Satz formulieren, allmählich); 3. Muster begründen (Beweis, auch allmählich). 📄 Quelle: ari21_vl01, Folie 17 (S.17)",
+  "source": "ari21_vl01, Folie 17 (S.17, Erkundung: WIR)"
+ },
+ {
+  "id": "ari21_vl01-b2-002",
+  "topic": "ari21_vl01_erkundung",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Wie wird die Phase \"Wir\" auf der Folie charakterisiert?",
+  "options": [
+   "Systematisierung, stark frontal, kleinere Eigenarbeiten",
+   "Reine Gruppenarbeit ohne frontale Anteile",
+   "Freies Erkunden ohne Systematisierung",
+   "Ausschließlich Prüfungsvorbereitung"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Auf der Folie steht: \"Wir: Systematisierung, stark frontal, kleinere Eigenarbeiten.\" 📄 Quelle: ari21_vl01, Folie 17 (S.17)",
+  "source": "ari21_vl01, Folie 17 (S.17, Erkundung: WIR)"
+ },
+ {
+  "id": "ari21_vl01-b2-003",
+  "topic": "ari21_vl01_erkundung",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Was enthält die Phase \"Wir\" laut Folie?",
+  "options": [
+   "Erkundung II",
+   "Fachliche Einordnungen und Formalisierungen",
+   "Begriffspräzision und geschichtliche Anmerkungen",
+   "Eine schriftliche Abschlussklausur"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Die Phase \"Wir\" enthält die Erkundung II, fachliche Einordnungen, Formalisierungen, Begriffspräzision, geschichtliche Anmerkungen, Lösungspräsentationen, ... 📄 Quelle: ari21_vl01, Folie 17 (S.17)",
+  "source": "ari21_vl01, Folie 17 (S.17, Erkundung: WIR)"
+ },
+ {
+  "id": "ari21_vl01-b2-004",
+  "topic": "ari21_vl01_plusaufgaben",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Wovon hängt laut der Vermutung (Erkundung I) die Anzahl k der m-Aufgaben einer Natürlichen Zahl n ab?",
+  "options": [
+   "Von der Anzahl der ungeraden Teiler von n",
+   "Von der Anzahl aller Teiler von n",
+   "Von der Anzahl der geraden Teiler von n",
+   "Von der Anzahl der Primteiler von n"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Vermutung: \"Wenn n eine gewisse Anzahl von ungeraden Teilern hat (die Anzahl kann man k nennen), dann hat die Zahl n genau k von den m-Aufgaben.\" 📄 Quelle: ari21_vl01, Folie 18 (S.18)",
+  "source": "ari21_vl01, Folie 18 (S.18, Erkundung: WIR)"
+ },
+ {
+  "id": "ari21_vl01-b2-005",
+  "topic": "ari21_vl01_plusaufgaben",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Für welche Zahlen wird die Vermutung der Erkundung I formuliert?",
+  "options": [
+   "Für jede Natürliche Zahl n",
+   "Nur für gerade Zahlen",
+   "Nur für Primzahlen",
+   "Nur für Quadratzahlen"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Folie beginnt mit \"Für jede Natürliche Zahl n gilt: ...\" 📄 Quelle: ari21_vl01, Folie 18 (S.18)",
+  "source": "ari21_vl01, Folie 18 (S.18, Erkundung: WIR)"
+ },
+ {
+  "id": "ari21_vl01-b2-006",
+  "topic": "ari21_vl01_quadratzahlen",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Welche Eigenschaft haben laut der Tabelle die Summen der aufeinanderfolgenden ungeraden Zahlen?",
+  "options": [
+   "Die Summen sind Quadrate",
+   "Die Summen sind Primzahlen",
+   "Die Summen sind ungerade",
+   "Die Summen sind Vielfache von 3"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Auf der Folie steht: \"Die Summen sind Quadrate.\" (z. B. 1, 4, 9, 16, 25, ...). 📄 Quelle: ari21_vl01, Folie 19 (S.19)",
+  "source": "ari21_vl01, Folie 19 (S.19, Erkundung: WIR)"
+ },
+ {
+  "id": "ari21_vl01-b2-007",
+  "topic": "ari21_vl01_quadratzahlen",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Welche Summe steht laut Tabelle in der Zeile n = 15 (Summe der ungeraden Zahlen von 1 bis 15)?",
+  "answer": 64,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "In der Tabelle steht für n = 15 die Summe 64 (= 8²). 📄 Quelle: ari21_vl01, Folie 19 (S.19)",
+  "source": "ari21_vl01, Folie 19 (S.19, Erkundung: WIR)"
+ },
+ {
+  "id": "ari21_vl01-b2-008",
+  "topic": "ari21_vl01_quadratzahlen",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Welchen Wert hat laut Tabelle die letzte angegebene Summe (Zeile n = 27)?",
+  "answer": 196,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "In der Tabelle steht für n = 27 die Summe 196 (= 14²). 📄 Quelle: ari21_vl01, Folie 19 (S.19)",
+  "source": "ari21_vl01, Folie 19 (S.19, Erkundung: WIR)"
+ },
+ {
+  "id": "ari21_vl01-b2-009",
+  "topic": "ari21_vl01_quadratzahlen",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Welche allgemeine Vermutung zur Differenz der Quadrate wird auf der Folie formuliert (für alle natürlichen Zahlen n)?",
+  "options": [
+   "(n+1)² − n² = (n+1) + n",
+   "(n+1)² − n² = (n+1) · n",
+   "n² − (n+1)² = (n+1) + n",
+   "(n+1)² + n² = (n+1) + n"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Folie formuliert die Vermutung: (n+1)² − n² = (n+1) + n, veranschaulicht durch 2²−1²=2+1, 3²−2²=3+2, ... 📄 Quelle: ari21_vl01, Folie 20 (S.20)",
+  "source": "ari21_vl01, Folie 20 (S.20, Erkundung: WIR)"
+ },
+ {
+  "id": "ari21_vl01-b2-010",
+  "topic": "ari21_vl01_quadratzahlen",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Welchen Wert hat 5² − 4² gemäß dem auf der Folie gezeigten Beispiel (5² − 4² = 5 + 4)?",
+  "answer": 9,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Auf der Folie steht 5² − 4² = 5 + 4 = 9. 📄 Quelle: ari21_vl01, Folie 20 (S.20)",
+  "source": "ari21_vl01, Folie 20 (S.20, Erkundung: WIR)"
+ },
+ {
+  "id": "ari21_vl01-b2-011",
+  "topic": "ari21_vl01_zahlbegriff",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Wie werden Zahlen auf der Folie \"Was sind Zahlen?\" beschrieben?",
+  "options": [
+   "Etwas, das Muster zeigt",
+   "Etwas, das man nicht untersuchen kann",
+   "Reine Rechenzeichen ohne Bedeutung",
+   "Ausschließlich Mengen von Objekten"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Auf der Folie steht: \"Etwas, das Muster zeigt.\" 📄 Quelle: ari21_vl01, Folie 22 (S.22)",
+  "source": "ari21_vl01, Folie 22 (S.22, Erkundung: WIR)"
+ },
+ {
+  "id": "ari21_vl01-b2-012",
+  "topic": "ari21_vl01_zahlbegriff",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Was ist laut Folie \"Muster zu untersuchen\"?",
+  "options": [
+   "Mathematik",
+   "Physik",
+   "Statistik",
+   "Philosophie"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Auf der Folie steht: \"Muster zu untersuchen ist Mathematik.\" (Das heißt: Sie werden Mathematiker*in.) 📄 Quelle: ari21_vl01, Folie 22 (S.22)",
+  "source": "ari21_vl01, Folie 22 (S.22, Erkundung: WIR)"
+ },
+ {
+  "id": "ari21_vl01-b2-013",
+  "topic": "ari21_vl01_zahlbegriff",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Von wem stammt das Zitat \"Die ganzen Zahlen hat der liebe Gott geschaffen, alles andere ist Menschenwerk\"?",
+  "options": [
+   "Leopold Kronecker (1823 – 1891)",
+   "Giuseppe Peano (1858 – 1932)",
+   "Hans Magnus Enzensberger",
+   "Keith Devlin"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Das Zitat wird Leopold Kronecker (1823 – 1891) zugeschrieben. 📄 Quelle: ari21_vl01, Folie 23 (S.23)",
+  "source": "ari21_vl01, Folie 23 (S.23, Erkundung: WIR)"
+ },
+ {
+  "id": "ari21_vl01-b2-014",
+  "topic": "ari21_vl01_zahlbegriff",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Wie heißt die im 19. Jahrhundert entstandene Bewegung, die Mathematik auf solidere Füße stellen wollte (z. T. Festlegung von intuitiv Klarem)?",
+  "options": [
+   "Axiomatisierung",
+   "Digitalisierung",
+   "Kalkülisierung",
+   "Modularisierung"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Folie nennt die \"sogenannte Axiomatisierung (z.T. Festlegung von intuitiv Klarem)\". 📄 Quelle: ari21_vl01, Folie 23 (S.23)",
+  "source": "ari21_vl01, Folie 23 (S.23, Erkundung: WIR)"
+ },
+ {
+  "id": "ari21_vl01-b2-015",
+  "topic": "ari21_vl01_peano_axiome",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Wer formulierte die auf der Folie angegebene Definition der Natürlichen Zahlen (Lebensdaten 1858 – 1932)?",
+  "options": [
+   "Giuseppe Peano",
+   "Leopold Kronecker",
+   "Ian Stewart",
+   "Hans Magnus Enzensberger"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Axiome werden Giuseppe Peano (1858 – 1932) zugeschrieben. 📄 Quelle: ari21_vl01, Folie 24 (S.24)",
+  "source": "ari21_vl01, Folie 24 (S.24, Erkundung: WIR)"
+ },
+ {
+  "id": "ari21_vl01-b2-016",
+  "topic": "ari21_vl01_peano_axiome",
+  "difficulty": 3,
+  "type": "multi",
+  "question": "Welche Eigenschaften muss eine Zahlenmenge N nach den angegebenen Axiomen (Peano) haben, um Natürliche Zahlen zu heißen?",
+  "options": [
+   "1 ist eine Natürliche Zahl",
+   "Zu jeder natürlichen Zahl n gibt es genau einen Nachfolger n'",
+   "Kein Element von N hat als Nachfolger die 1",
+   "Kein Element ist Nachfolger zweier verschiedener Elemente von N",
+   "Jede natürliche Zahl hat genau einen Vorgänger"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explanation": "Die Folie nennt: (1) 1 ist eine Natürliche Zahl; (2) zu jeder Zahl n genau ein Nachfolger n'; (3) kein Element hat als Nachfolger die 1; (4) kein Element ist Nachfolger zweier verschiedener Elemente von N. Ein \"eindeutiger Vorgänger jeder Zahl\" gehört nicht dazu. 📄 Quelle: ari21_vl01, Folie 24 (S.24)",
+  "source": "ari21_vl01, Folie 24 (S.24, Erkundung: WIR)"
+ },
+ {
+  "id": "ari21_vl01-b2-017",
+  "topic": "ari21_vl01_peano_axiome",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Welche Zahl ist laut dem 3. Axiom Nachfolger keines Elements von N?",
+  "options": [
+   "Die 1",
+   "Die 0",
+   "Die 2",
+   "Jede Primzahl"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "3. Axiom: \"Kein Element von N hat als Nachfolger die 1.\" 📄 Quelle: ari21_vl01, Folie 24 (S.24)",
+  "source": "ari21_vl01, Folie 24 (S.24, Erkundung: WIR)"
+ },
+ {
+  "id": "ari21_vl01-b2-018",
+  "topic": "ari21_vl01_addition",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Welche Vorstellung der Addition wird durch \"Addiert man drei Schritte, so hat man am Ende 7 Schritte\" illustriert?",
+  "options": [
+   "Ordinale Vorstellung",
+   "Kardinale Vorstellung",
+   "Axiomatische Vorstellung",
+   "Geometrische Vorstellung"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Folie bezeichnet das Zählen von Schritten als ordinale Vorstellung. 📄 Quelle: ari21_vl01, Folie 26 (S.26)",
+  "source": "ari21_vl01, Folie 26 (S.26, Erkundung: WIR)"
+ },
+ {
+  "id": "ari21_vl01-b2-019",
+  "topic": "ari21_vl01_addition",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Welche Vorstellung der Addition wird durch \"Addiert man drei Kugeln zu vier Kugeln, hat man insgesamt 7 Kugeln\" illustriert?",
+  "options": [
+   "Kardinale Vorstellung",
+   "Ordinale Vorstellung",
+   "Rekursive Vorstellung",
+   "Distributive Vorstellung"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Folie bezeichnet das Zusammenlegen von Kugeln (Mengen) als kardinale Vorstellung. 📄 Quelle: ari21_vl01, Folie 26 (S.26)",
+  "source": "ari21_vl01, Folie 26 (S.26, Erkundung: WIR)"
+ },
+ {
+  "id": "ari21_vl01-b2-020",
+  "topic": "ari21_vl01_rechengesetze",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Rechengesetze gelten laut Folie für alle Natürlichen Zahlen l, m und n?",
+  "options": [
+   "Assoziativgesetz der Addition",
+   "Kommutativgesetz der Addition",
+   "Assoziativgesetz der Multiplikation",
+   "Kommutativgesetz der Multiplikation",
+   "Distributivgesetz",
+   "Assoziativgesetz der Subtraktion"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "explanation": "Die Folie listet: Assoziativgesetz der Addition, Kommutativgesetz der Addition, Assoziativgesetz der Multiplikation, Kommutativgesetz der Multiplikation, Distributivgesetz. Ein Assoziativgesetz der Subtraktion wird nicht genannt. 📄 Quelle: ari21_vl01, Folie 27 (S.27)",
+  "source": "ari21_vl01, Folie 27 (S.27, Erkundung: WIR)"
+ },
+ {
+  "id": "ari21_vl01-b2-021",
+  "topic": "ari21_vl01_rechengesetze",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Für welche Zahlen werden die Rechengesetze auf der Folie formuliert?",
+  "options": [
+   "Für alle Natürlichen Zahlen l, m und n",
+   "Für alle reellen Zahlen",
+   "Nur für Primzahlen",
+   "Nur für gerade Zahlen"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Auf der Folie steht: \"Für alle Natürlichen Zahlen l, m und n gilt: ...\" 📄 Quelle: ari21_vl01, Folie 27 (S.27)",
+  "source": "ari21_vl01, Folie 27 (S.27, Erkundung: WIR)"
+ },
+ {
+  "id": "ari21_vl01-b2-022",
+  "topic": "ari21_vl01_rekursion",
+  "difficulty": 3,
+  "type": "multi",
+  "question": "Wie wird die Addition auf der Folie für beliebige Natürliche Zahlen rekursiv festgesetzt?",
+  "options": [
+   "n + 1 := n' (Nachfolger von n)",
+   "n + (m+1) := (n+m)'",
+   "n + 1 := n",
+   "n + (m+1) := n + m"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "explanation": "Rekursive Festsetzung der Addition: 1) n + 1 := n' (Nachfolger von n); 2) n + (m+1) := (n+m)' (Nachfolger von n+m), was schrittweise rückwärts mit 1) bestimmt werden kann. 📄 Quelle: ari21_vl01, Folie 28 (S.28)",
+  "source": "ari21_vl01, Folie 28 (S.28, Erkundung: WIR)"
+ },
+ {
+  "id": "ari21_vl01-b2-023",
+  "topic": "ari21_vl01_rekursion",
+  "difficulty": 3,
+  "type": "multi",
+  "question": "Wie wird die Multiplikation auf der Folie rekursiv definiert?",
+  "options": [
+   "n · 1 := n",
+   "n · (m+1) := n·m + n",
+   "n · 1 := 1",
+   "n · (m+1) := n·m · n"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "explanation": "Rekursive Definition der Multiplikation: 1) n · 1 := n; 2) n · (m+1) := n·m + n. 📄 Quelle: ari21_vl01, Folie 28 (S.28)",
+  "source": "ari21_vl01, Folie 28 (S.28, Erkundung: WIR)"
+ },
+ {
+  "id": "ari21_vl01-b2-024",
+  "topic": "ari21_vl01_rekursion",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Worüber lassen sich laut Folie die Natürlichen Zahlen definieren?",
+  "options": [
+   "Über Eigenschaften",
+   "Über Messungen",
+   "Über geometrische Figuren",
+   "Über Wahrscheinlichkeiten"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Auf der Folie steht: \"Die Natürlichen Zahlen lassen sich über Eigenschaften definieren.\" 📄 Quelle: ari21_vl01, Folie 28 (S.28)",
+  "source": "ari21_vl01, Folie 28 (S.28, Erkundung: WIR)"
+ },
+ {
+  "id": "ari21_vl01-b2-025",
+  "topic": "ari21_vl01_rekursion",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Von welchem bisherigen Wissen sollen laut der \"Setzung für die kommenden Veranstaltungen\" die Ausführungen ausgehen?",
+  "options": [
+   "Natürlichen Zahlen",
+   "Addition und Multiplikation",
+   "Rechengesetzen",
+   "Integralrechnung"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Setzung: \"Gehen Sie nur vom bisherigen Wissen aus, also von Natürlichen Zahlen, Addition und Multiplikation, Rechengesetze.\" 📄 Quelle: ari21_vl01, Folie 28 (S.28)",
+  "source": "ari21_vl01, Folie 28 (S.28, Erkundung: WIR)"
+ },
+ {
+  "id": "ari21_vl01-b2-026",
+  "topic": "ari21_vl01_didaktik",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Welche didaktische Leitidee wird im hervorgehobenen Kasten der Folie formuliert?",
+  "options": [
+   "Was uns \"klar\" ist, müssen Kinder erfahren",
+   "Was uns klar ist, ist auch Kindern klar",
+   "Kinder müssen alles selbst axiomatisieren",
+   "Nur Formeln zählen im Unterricht"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Im Kasten steht: \"Was uns 'klar' ist, müssen Kinder erfahren. Was ist uns nicht klar?\" 📄 Quelle: ari21_vl01, Folie 29 (S.29)",
+  "source": "ari21_vl01, Folie 29 (S.29, Erkundung: WIR)"
+ },
+ {
+  "id": "ari21_vl01-b2-027",
+  "topic": "ari21_vl01_didaktik",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Welche Reflexionsfrage schließt der Kasten der Folie an \"Was uns klar ist, müssen Kinder erfahren\" an?",
+  "options": [
+   "Was ist uns nicht klar?",
+   "Was ist den Kindern klar?",
+   "Was ist unwichtig?",
+   "Was ist beweisbar?"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Der Kasten ergänzt die Frage: \"Was ist uns nicht klar?\" 📄 Quelle: ari21_vl01, Folie 29 (S.29)",
+  "source": "ari21_vl01, Folie 29 (S.29, Erkundung: WIR)"
+ },
+ {
+  "id": "ari21_vl01-b3-001",
+  "topic": "ari21_vl01_rechenoperationen",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Auf der Folie wird die (fiktive) Rechenoperation „Abblitzation\" eingeführt: 12 ▽ 2 = (12+2)·2. Welches Ergebnis der Abblitzation ergibt sich?",
+  "answer": 28,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Laut Folie gilt 12 ▽ 2 = (12+2)·2 = 14·2 = 28; 28 ist das Ergebnis der Abblitzation. 📄 Quelle: ari21_vl01, Folie 45 (S.45)",
+  "source": "ari21_vl01, Folie 45 (S.45, Vorlesung 1 / Erkundung 1, nach Leuders 2010)"
+ },
+ {
+  "id": "ari21_vl01-b3-002",
+  "topic": "ari21_vl01_rechenoperationen",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Bei der Abblitzation 12 ▽ 2 = (12+2)·2 = 28 werden auf der Folie Fachbegriffe eingeführt. Welche Zuordnungen sind korrekt?",
+  "options": [
+   "12 ist der Abblitzent",
+   "2 ist der Abblitzator",
+   "28 ist das Ergebnis der Abblitzation",
+   "14 ist der Abblitzator"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Die Folie beschriftet 12 als Abblitzent, 2 als Abblitzator und 28 als Ergebnis der Abblitzation. Die 14 (= 12+2) ist ein Zwischenwert und nicht der Abblitzator. 📄 Quelle: ari21_vl01, Folie 45 (S.45)",
+  "source": "ari21_vl01, Folie 45 (S.45, Vorlesung 1 / Erkundung 1, nach Leuders 2010)"
+ },
+ {
+  "id": "ari21_vl01-b3-003",
+  "topic": "ari21_vl01_rechenoperationen",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Eigenschaften der Abblitzation sollen laut den Erkundungsaufträgen (Erkundung I) untersucht werden?",
+  "options": [
+   "Ob die Abblitzation kommutativ ist (Tauschaufgabe)",
+   "Ob die Abblitzation assoziativ ist",
+   "Wie die Umkehroperation aussieht (Umkehraufgabe)",
+   "Ob die Abblitzation ein neutrales Element besitzt"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Die Erkundungsaufträge fragen u. a., ob die Abblitzation kommutativ (Tauschaufgabe) und assoziativ ist und wie die Umkehroperation (Umkehraufgabe) aussieht. Ein neutrales Element wird auf der Folie nicht thematisiert. 📄 Quelle: ari21_vl01, Folie 45 (S.45)",
+  "source": "ari21_vl01, Folie 45 (S.45, Vorlesung 1 / Erkundung 1)"
+ },
+ {
+  "id": "ari21_vl01-b3-004",
+  "topic": "ari21_vl01_umkehraufgaben",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "In der Schulbuchaufgabe „Üben für den Rechenmeister\" (Die Matheprofis 1, S. 96) bildet Paula aus nur 3 Zahlen die Aufgaben 3+4=7, 4+3=7, 7−3=4 und 7−4=3. Welche Aussagen treffen laut Folie zu?",
+  "options": [
+   "Die zweite Rechnung (4+3=7) heißt Tauschaufgabe",
+   "Die dritte und vierte Rechnung (7−3=4, 7−4=3) sind Umkehraufgaben zu den ersten beiden",
+   "Paula macht die Aufgaben mit nur 3 Zahlen",
+   "Die erste Rechnung (3+4=7) ist eine Umkehraufgabe"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Laut Folie ist die zweite Rechnung eine Tauschaufgabe, die dritte und vierte sind Umkehraufgaben zu den ersten beiden; Paula bildet die Aufgaben mit nur 3 Zahlen. Die erste Rechnung ist die Ausgangsaufgabe, keine Umkehraufgabe. 📄 Quelle: ari21_vl01, Folie 45 (S.45)",
+  "source": "ari21_vl01, Folie 45 (S.45, Vorlesung 1 / Erkundung 1, Die Matheprofis 1)"
+ }
+]
