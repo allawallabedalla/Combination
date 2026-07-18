@@ -1,0 +1,118 @@
+[
+  {
+    "id": "skript06_live-b1-001",
+    "topic": "skript06_live_regulaere_polygone",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Mit welchen regulären (regelmäßigen) Polygonen kann laut Folie die Ebene parkettiert werden?",
+    "options": [
+      "gleichseitiges Dreieck (6·60° = 360°)",
+      "Quadrat (4·90° = 360°)",
+      "regelmäßiges Sechseck (3·120° = 360°)",
+      "regelmäßiges Fünfeck (3·108° = 360°)"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Bei gleichseitigem Dreieck (6·60°=360°), Quadrat (4·90°=360°) und regelmäßigem Sechseck (3·120°=360°) ergänzen sich die Innenwinkel an einer Ecke genau zu 360°. Beim regelmäßigen Fünfeck gilt 3·108° = 324° ≠ 360°, daher ist eine Parkettierung nicht möglich. 📄 Quelle: skript06_live, Folie 5 (S.1)",
+    "source": "skript06_live, Folie 5 (S.1, Arithmetik – Parkettierung)"
+  },
+  {
+    "id": "skript06_live-b1-002",
+    "topic": "skript06_live_innenwinkel",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Wie groß ist der Innenwinkel eines regelmäßigen Sechsecks (6-Eck) laut Folie?",
+    "answer": 120,
+    "tolerance": 0,
+    "unit": "°",
+    "explanation": "Auf der Folie steht: 'Innenwinkel vom 6-Eck ist 120°', und 3·120° = 360°. Zusätzlich wird begründet, dass in einer Ecke des reg. 6-Ecks zwei Ecken von 2 Dreiecken aufeinandertreffen (2·60° = 120°). 📄 Quelle: skript06_live, Folie 5 (S.1)",
+    "source": "skript06_live, Folie 5 (S.1, Arithmetik – Parkettierung)"
+  },
+  {
+    "id": "skript06_live-b1-003",
+    "topic": "skript06_live_innenwinkel",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Wie groß ist die Innenwinkelsumme eines regelmäßigen Fünfecks laut Folie?",
+    "answer": 540,
+    "tolerance": 0,
+    "unit": "°",
+    "explanation": "Ein Fünfeck lässt sich in 3 Dreiecke zerlegen (n Δe → (n+2)-Eck), daher Innenwinkelsumme = 3·Innenwinkelsumme eines Dreiecks = 3·180° = 540°. Jeder Innenwinkel ist somit 540°:5 = 108°. 📄 Quelle: skript06_live, Folie 5 (S.1)",
+    "source": "skript06_live, Folie 5 (S.1, Arithmetik – Parkettierung)"
+  },
+  {
+    "id": "skript06_live-b1-004",
+    "topic": "skript06_live_parkettierung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aussagen zur Parkettierung mit allgemeinen (nicht notwendig regelmäßigen) Vielecken stehen auf der Folie?",
+    "options": [
+      "Es geht mit allen Dreiecken.",
+      "Parallelogramme parkettieren die Ebene (Innenwinkelsumme 360°).",
+      "Mit regelmäßigen Fünfecken ist eine Parkettierung nicht möglich.",
+      "Mit regelmäßigen Fünfecken ist eine Parkettierung ohne Weiteres möglich."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Die Folie hält fest: 'Es geht mit allen Dreiecken'; Rechtecke und Parallelogramme parkettieren (Innenwinkelsumme 360°); mit regelmäßigen Fünfecken ist eine Parkettierung nicht möglich (3·108°=324°), aber mit bestimmten unregelmäßigen 5-Ecken geht es. 📄 Quelle: skript06_live, Folie 5 (S.1)",
+    "source": "skript06_live, Folie 5 (S.1, Arithmetik – Parkettierung)"
+  },
+  {
+    "id": "skript06_live-b1-005",
+    "topic": "skript06_live_gleiche_parkettierung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wann besteht laut Definition (Erkundung II) eine 'gleiche Parkettierung' bei zwei Rechtecken A und B?",
+    "options": [
+      "Genau dann, wenn die Parkettierungen der beiden Teilquadrate von A jeweils kongruent zu einem der Teilquadrate von B (und umgekehrt) sind.",
+      "Genau dann, wenn A und B denselben Flächeninhalt haben.",
+      "Genau dann, wenn die Rechtecke A und B insgesamt kongruent sind.",
+      "Genau dann, wenn die Teilquadrate von A und B jeweils verschieden groß sind."
+    ],
+    "correct": [0],
+    "explanation": "Die Folie definiert wörtlich: 'Eine gleiche Parkettierung besteht bei zwei Rechtecken A und B genau dann, wenn die Parkettierungen der beiden Teilquadrate des Rechtecks A jeweils kongruent zu einem der Teilquadrate des Rechtecks B (und umgekehrt) sind.' 📄 Quelle: skript06_live, Folie 24 (S.2)",
+    "source": "skript06_live, Folie 24 (S.2, Erkundung II, Vorlesung 6)"
+  },
+  {
+    "id": "skript06_live-b1-006",
+    "topic": "skript06_live_gleiche_parkettierung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aussagen treffen auf die Definition der 'gleichen Parkettierung' zweier Rechtecke A und B zu?",
+    "options": [
+      "Jedes der beiden Rechtecke wird über seine beiden Teilquadrate betrachtet.",
+      "Die Kongruenz-Bedingung muss in beide Richtungen gelten ('und umgekehrt').",
+      "Es handelt sich um eine 'genau dann, wenn'-Aussage (Äquivalenz).",
+      "Es genügt, dass ein einziges Teilquadrat von A zu einem Teilquadrat von B kongruent ist."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Die Definition bezieht sich auf 'die beiden Teilquadrate' jedes Rechtecks, verlangt Kongruenz 'jeweils' und 'umgekehrt' (beidseitig) und ist als 'genau dann, wenn' formuliert. Ein einzelnes kongruentes Teilquadrat reicht nicht – es müssen beide Teilquadrate passen. 📄 Quelle: skript06_live, Folie 24 (S.2)",
+    "source": "skript06_live, Folie 24 (S.2, Erkundung II, Vorlesung 6)"
+  },
+  {
+    "id": "skript06_live-b1-007",
+    "topic": "skript06_live_gleiche_parkettierung",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Wie viele (nach Definition nicht gleiche) Kombinationsmöglichkeiten für die unterschiedlichen Rechtecke ergibt der systematische Aufschrieb (1+2+3+4+5+6+7)?",
+    "answer": 28,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Im systematischen Aufschrieb ergibt sich die Anzahl als 1+2+3+4+5+6+7 = 28 = 7·8/2. 📄 Quelle: skript06_live, Folie 25 (S.2)",
+    "source": "skript06_live, Folie 25 (S.2, Erkundung II – Systematischer Aufschrieb, Vorlesung 6)"
+  },
+  {
+    "id": "skript06_live-b1-008",
+    "topic": "skript06_live_gleiche_parkettierung",
+    "difficulty": 3,
+    "type": "multi",
+    "question": "Warum wird im systematischen Aufschrieb die Summe 1+2+3+4+5+6+7 (statt aller 7·7 Felder) gebildet?",
+    "options": [
+      "Weil in den weggelassenen Feldern nur zu bereits existierenden Rechtecken kongruente (paarweise kongruente) Rechtecke lägen.",
+      "Weil die Summe sich als 7·8/2 = 28 schreiben lässt (Dreiecksschema).",
+      "Weil jedes Rechteck mit sich selbst kombiniert werden muss.",
+      "Weil die Rechtecke keine Teilquadrate besitzen."
+    ],
+    "correct": [0, 1],
+    "explanation": "Handschriftlich vermerkt: 'hier würden nur zu bereits existierenden Rechtecken kongruente Rechtecke liegen (paarweise kongruent)'. Daher wird nur das Dreiecksschema gezählt: 1+2+3+4+5+6+7 = 28 = 7·8/2. 📄 Quelle: skript06_live, Folie 25 (S.2)",
+    "source": "skript06_live, Folie 25 (S.2, Erkundung II – Systematischer Aufschrieb, Vorlesung 6)"
+  }
+]
