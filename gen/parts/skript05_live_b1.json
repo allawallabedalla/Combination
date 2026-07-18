@@ -1,0 +1,199 @@
+[
+  {
+    "id": "skript05_live-b1-001",
+    "topic": "skript05_live_vollstaendige_induktion",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Vollständige Induktion (Folie 11): Berechne im Induktionsanfang (n=4) die linke Seite S_{4-3} = 1 + 4 + 10 + 20.",
+    "answer": 35,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Im Induktionsanfang bei n=4 ist die linke Seite S_1 = 1 + 4 + 10 + 20 = 35 (letzter Summand 4·5·6/6 = 20). 📄 Quelle: skript05_live, Folie 11 (S.1)",
+    "source": "skript05_live, Folie 11 (S.1, Arithmetik – Erkundung II vollständige Induktion)"
+  },
+  {
+    "id": "skript05_live-b1-002",
+    "topic": "skript05_live_vollstaendige_induktion",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Vollständige Induktion (Folie 11): Berechne im Induktionsanfang (n=4) die rechte Seite (4·5·6·7)/24.",
+    "answer": 35,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Die rechte Seite bei n=4 ist 4·(4+1)·(4+2)·(4+3)/24 = 4·5·6·7/24 = 840/24 = 35; sie stimmt mit der linken Seite (35) überein. 📄 Quelle: skript05_live, Folie 11 (S.1)",
+    "source": "skript05_live, Folie 11 (S.1, Arithmetik – Erkundung II vollständige Induktion)"
+  },
+  {
+    "id": "skript05_live-b1-003",
+    "topic": "skript05_live_vollstaendige_induktion",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aussagen zur Induktion auf Folie 11 sind korrekt?",
+    "options": [
+      "Die Aussage A(n) soll für alle natürlichen Zahlen n ≥ 4 gezeigt werden.",
+      "Der Induktionsanfang wird bei n = 4 geführt (wegen n ≥ 4).",
+      "Der Induktionsanfang wird bei n = 1 geführt.",
+      "Behauptet wird die geschlossene Form S_{n-3} = n·(n+1)·(n+2)·(n+3)/24."
+    ],
+    "correct": [0, 1, 3],
+    "explanation": "Die Folie fordert 'Für alle natürlichen Zahlen n ≥ 4', daher startet der Induktionsanfang bei n = 4 (nicht bei n = 1), und behauptet wird S_{n-3} = n·(n+1)·(n+2)·(n+3)/24. 📄 Quelle: skript05_live, Folie 11 (S.1)",
+    "source": "skript05_live, Folie 11 (S.1, Arithmetik – Erkundung II vollständige Induktion)"
+  },
+  {
+    "id": "skript05_live-b1-004",
+    "topic": "skript05_live_vollstaendige_induktion",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Wie lautet auf Folie 11 die behauptete geschlossene Form für S_{n-3}?",
+    "options": [
+      "n·(n+1)·(n+2)·(n+3)/24",
+      "n·(n+1)·(n+2)/6",
+      "n·(n+1)·(n+2)·(n+3)/6",
+      "n·(n+1)·(n+2)·(n+3)/12"
+    ],
+    "correct": [0],
+    "explanation": "Aus der Voraussetzung S_{n-3} = 1 + 4 + 10 + 20 + ... + n·(n+1)·(n+2)/6 folgt die Behauptung S_{n-3} = n·(n+1)·(n+2)·(n+3)/24. 📄 Quelle: skript05_live, Folie 11 (S.1)",
+    "source": "skript05_live, Folie 11 (S.1, Arithmetik – Erkundung II vollständige Induktion)"
+  },
+  {
+    "id": "skript05_live-b1-005",
+    "topic": "skript05_live_vermutungen_beweise",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Muster/Vermutungen (Folie 15): Berechne laut Tabelle für n = 5 den Wert n² + n + 41.",
+    "answer": 71,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Für n = 5 ist 5² + 5 + 41 = 25 + 5 + 41 = 71 (Tabellenwert). 📄 Quelle: skript05_live, Folie 15 (S.2)",
+    "source": "skript05_live, Folie 15 (S.2, Arithmetik – Muster, Vermutungen, Sätze und Beweise)"
+  },
+  {
+    "id": "skript05_live-b1-006",
+    "topic": "skript05_live_vermutungen_beweise",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Zur Vermutung 'Wenn n eine natürliche Zahl ist, dann ist n² + n + 41 eine Primzahl' (Folie 15) – welche Aussagen sind laut Folie/Handschrift korrekt?",
+    "options": [
+      "Der Induktionsanfang n = 1 liefert 1² + 1 + 41 = 43, eine Primzahl.",
+      "Die Vermutung ist insgesamt falsch.",
+      "Als Gegenbeispiel dient 1763 = 41·43 (keine Primzahl).",
+      "Der Induktionsschritt gelingt und beweist die Vermutung."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Der Induktionsanfang n = 1 ergibt 43 (Primzahl), doch die Vermutung ist falsch ('Die Aussage ist ja falsch'); als Gegenbeispiel wird 1763 = 41·43 angeführt, ein zusammengesetzter Wert – ein vollständiger Induktionsbeweis gelingt daher nicht. 📄 Quelle: skript05_live, Folie 15 (S.2)",
+    "source": "skript05_live, Folie 15 (S.2, Arithmetik – Muster, Vermutungen, Sätze und Beweise)"
+  },
+  {
+    "id": "skript05_live-b1-007",
+    "topic": "skript05_live_vermutungen_beweise",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Gegenbeispiel zur Primzahl-Vermutung (Folie 15): Berechne 40² + 3·40 + 43.",
+    "answer": 1763,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "40² + 3·40 + 43 = 1600 + 120 + 43 = 1763 = 41·43, also keine Primzahl – das Gegenbeispiel widerlegt die Vermutung. 📄 Quelle: skript05_live, Folie 15 (S.2)",
+    "source": "skript05_live, Folie 15 (S.2, Arithmetik – Muster, Vermutungen, Sätze und Beweise)"
+  },
+  {
+    "id": "skript05_live-b1-008",
+    "topic": "skript05_live_teilbarkeit",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Erinnerung auf Folie 18: Wann gilt a | b (a teilt b)?",
+    "options": [
+      "Genau dann, wenn es eine natürliche Zahl x gibt mit a·x = b.",
+      "Genau dann, wenn es eine natürliche Zahl x gibt mit b·x = a.",
+      "Genau dann, wenn a·b = x für eine natürliche Zahl x gilt.",
+      "Genau dann, wenn a + x = b für eine natürliche Zahl x gilt."
+    ],
+    "correct": [0],
+    "explanation": "Laut Folie gilt: a | b genau dann, wenn es eine natürliche Zahl x gibt mit a·x = b. 📄 Quelle: skript05_live, Folie 18 (S.3)",
+    "source": "skript05_live, Folie 18 (S.3, Arithmetik – Definition n-Quadratling)"
+  },
+  {
+    "id": "skript05_live-b1-009",
+    "topic": "skript05_live_quadratling",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Bedingungen nennt Definition III eines n-Quadratlings (Folie 18, Handschrift)?",
+    "options": [
+      "Ein n-Quadratling besteht aus n vielen Quadraten mit n ≥ 2.",
+      "Die Quadrate müssen mindestens eine Seite vollständig teilen.",
+      "Quadrate dürfen nicht über Eckpunkte miteinander verbunden sein.",
+      "Die Quadrate dürfen unterschiedlich groß sein und nur über Eckpunkte verbunden sein."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Def III fordert: n viele Quadrate mit n ≥ 2, die mindestens eine (bzw. jede geteilte) Seite vollständig teilen, und die nicht über Eckpunkte verbunden sein dürfen. 📄 Quelle: skript05_live, Folie 18 (S.3)",
+    "source": "skript05_live, Folie 18 (S.3, Arithmetik – Definition n-Quadratling)"
+  },
+  {
+    "id": "skript05_live-b1-010",
+    "topic": "skript05_live_quadratling",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Bedingungen nennt Definition II eines n-Quadratlings (Folie 18, Handschrift)?",
+    "options": [
+      "Alle Quadrate müssen gleich groß sein.",
+      "Jedes Quadrat liegt an mindestens einer Kante an einem anderen Quadrat an.",
+      "Quadrate dürfen ausschließlich über Eckpunkte verbunden sein.",
+      "Die Anzahl der Quadrate muss ungerade sein."
+    ],
+    "correct": [0, 1],
+    "explanation": "Def II lautet: Alle Quadrate müssen gleich groß sein und an mindestens einer Kante an einem anderen Quadrat anliegen. 📄 Quelle: skript05_live, Folie 18 (S.3)",
+    "source": "skript05_live, Folie 18 (S.3, Arithmetik – Definition n-Quadratling)"
+  },
+  {
+    "id": "skript05_live-b1-011",
+    "topic": "skript05_live_parkettierung",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Parkettierung (Folie 30): Wie groß ist der Innenwinkel eines gleichseitigen Dreiecks?",
+    "answer": 60,
+    "tolerance": 0,
+    "unit": "°",
+    "explanation": "Beim gleichseitigen Dreieck sind alle Winkel gleich groß: 60°. Sechs davon ergeben um einen Punkt 6·60° = 360°. 📄 Quelle: skript05_live, Folie 30 (S.5)",
+    "source": "skript05_live, Folie 30 (S.5, Arithmetik – Parkettierung)"
+  },
+  {
+    "id": "skript05_live-b1-012",
+    "topic": "skript05_live_parkettierung",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Parkettierung (Folie 30): Wie viele gleichseitige Dreiecke treffen sich in einem Punkt, damit sich die Winkel zu 360° ergänzen?",
+    "answer": 6,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "6·60° = 360°, also treffen sich 6 gleichseitige Dreiecke lückenlos in einem Punkt. 📄 Quelle: skript05_live, Folie 30 (S.5)",
+    "source": "skript05_live, Folie 30 (S.5, Arithmetik – Parkettierung)"
+  },
+  {
+    "id": "skript05_live-b1-013",
+    "topic": "skript05_live_parkettierung",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Parkettierung (Folie 30): Wie groß ist der Innenwinkel eines regulären Sechsecks (6-Ecks)?",
+    "answer": 120,
+    "tolerance": 0,
+    "unit": "°",
+    "explanation": "Der Innenwinkel des regulären 6-Ecks ist 120°; 3·120° = 360°, daher parkettieren reguläre Sechsecke die Ebene. In einer Ecke treffen zwei Ecken zweier Dreiecke aufeinander: 2·60° = 120°. 📄 Quelle: skript05_live, Folie 30 (S.5)",
+    "source": "skript05_live, Folie 30 (S.5, Arithmetik – Parkettierung)"
+  },
+  {
+    "id": "skript05_live-b1-014",
+    "topic": "skript05_live_parkettierung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aussagen zur Parkettierung (Folie 30) sind korrekt?",
+    "options": [
+      "Ein reguläres Polygon hat gleiche Seitenlängen und gleiche Innenwinkel.",
+      "Mit gleichseitigen Dreiecken lässt sich die Ebene parkettieren (6·60° = 360°).",
+      "Mit regulären Sechsecken lässt sich die Ebene parkettieren (3·120° = 360°).",
+      "Mit regulären Fünfecken lässt sich die Ebene parkettieren.",
+      "Die Ebene lässt sich mit allen (allgemeinen) Dreiecken parkettieren."
+    ],
+    "correct": [0, 1, 2, 4],
+    "explanation": "Reguläre Polygone haben gleiche Seitenlängen und gleiche Innenwinkel; gleichseitige Dreiecke (6·60°=360°) und reguläre Sechsecke (3·120°=360°) parkettieren, ebenso alle allgemeinen Dreiecke ('Es geht mit allen Dreiecken'). Reguläre Fünfecke werden auf der Folie nicht als parkettierend genannt. 📄 Quelle: skript05_live, Folie 30 (S.5)",
+    "source": "skript05_live, Folie 30 (S.5, Arithmetik – Parkettierung)"
+  }
+]
