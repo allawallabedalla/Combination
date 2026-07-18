@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ari23_vl01-b3-001",
+    "topic": "ari23_vl01_figurierte_zahlen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Was leistet die Darstellung von Zahlenfolgen durch figurierte Zahlen laut Folie \"Die Technik der Woche\"?",
+    "options": [
+      "Sie kann wesentlich dazu beitragen, Muster und Strukturen zu erkennen",
+      "Sie kann helfen, eine Vermutung aufzustellen, die man in einem Satz formuliert",
+      "In Darstellungen durch figurierte Zahlen findet sich oft eine Idee für den Beweis (die Begründung)",
+      "Sie liefert stets das Endergebnis, sodass eine Begründung oder ein Beweis überflüssig wird"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Laut Folie kann die Darstellung durch figurierte Zahlen wesentlich dazu beitragen, Muster und Strukturen zu erkennen, um dann eine Vermutung (in einem Satz) aufzustellen und diese zu beweisen; auch für den Beweis (die Begründung, \"die gute Geschichte\") findet sich oft die Idee in solchen Darstellungen. Ein Beweis wird dadurch nicht überflüssig. 📄 Quelle: ari23_vl01, Folie 50 (S.50)",
+    "source": "ari23_vl01, Folie 50 (S.50, Die Technik der Woche: Figurierte Zahlen)"
+  },
+  {
+    "id": "ari23_vl01-b3-002",
+    "topic": "ari23_vl01_figurierte_zahlen",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Wie werden die auf der Folie \"Die Technik der Woche\" durch Plättchen abgebildeten figurierten Zahlen genannt?",
+    "options": [
+      "Dreieckszahlen",
+      "Quadratzahlen",
+      "Primzahlen",
+      "Rechteckszahlen"
+    ],
+    "correct": [0],
+    "explanation": "In der Übung auf der Folie sind die sogenannten Dreieckszahlen durch Plättchen abgebildet. 📄 Quelle: ari23_vl01, Folie 50 (S.50)",
+    "source": "ari23_vl01, Folie 50 (S.50, Die Technik der Woche: Figurierte Zahlen)"
+  },
+  {
+    "id": "ari23_vl01-b3-003",
+    "topic": "ari23_vl01_flaechen_verdoppeln",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "In der Tabelle zur Erkundung \"Flächen vergrößern und verkleinern\" hat Fläche 3 die Breite 4 mm und die Länge 4 mm. Welchen Flächeninhalt (in Millimeterquadraten) hat sie laut Tabelle?",
+    "answer": 16,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Die Tabelle nennt für Fläche 1 (2 mm × 2 mm) den Flächeninhalt 4, für Fläche 2 (2 mm × 4 mm) den Flächeninhalt 8 und für Fläche 3 (4 mm × 4 mm) den Flächeninhalt 16 Millimeterquadrate. 📄 Quelle: ari23_vl01, Folie 60 (S.60)",
+    "source": "ari23_vl01, Folie 60 (S.60, Erkundung 1: Flächen vergrößern und verkleinern)"
+  },
+  {
+    "id": "ari23_vl01-b3-004",
+    "topic": "ari23_vl01_flaechen_verdoppeln",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Wie lautet der Wunsch des Erfinders in der auf der Folie \"Erkundung 1\" abgedruckten Weizenkornlegende?",
+    "options": [
+      "Für das erste Feld des Schachbretts ein Weizenkorn",
+      "Für jedes folgende Feld doppelt so viel wie für das vorherige Feld",
+      "und so fort bis zum letzten der 64 Felder",
+      "Für jedes Feld die gleiche Anzahl Körner wie für das erste Feld"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "In der Legende wünscht sich der Erfinder: für das erste Feld ein Weizenkorn, für das zweite doppelt so viel wie für das erste, für das dritte wiederum doppelt so viel wie für das zweite und so fort bis zum letzten der 64 Felder. Es ist also gerade keine gleichbleibende Anzahl. 📄 Quelle: ari23_vl01, Folie 60 (S.60)",
+    "source": "ari23_vl01, Folie 60 (S.60, Erkundung 1: Flächen vergrößern und verkleinern)"
+  },
+  {
+    "id": "ari23_vl01-b3-005",
+    "topic": "ari23_vl01_flaechen_verdoppeln",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Laut Folie \"Erkundung 1\" entsteht durch fortgesetztes Verdoppeln vom kleinsten Quadrat aus zum Schluss ein Rechteck. Wie breit (in km) ist dieses Rechteck etwa?",
+    "answer": 4295,
+    "tolerance": 0,
+    "unit": "km",
+    "explanation": "Die Folie hält fest: Wenn man vom kleinsten Quadrat ausgehend fortgesetzt verdoppelt, entsteht zum Schluss ein Rechteck, das etwa 4295 km breit und doppelt so lang ist; Europa passt in dieses Rechteck hinein. 📄 Quelle: ari23_vl01, Folie 60 (S.60)",
+    "source": "ari23_vl01, Folie 60 (S.60, Erkundung 1: Flächen vergrößern und verkleinern)"
+  }
+]
