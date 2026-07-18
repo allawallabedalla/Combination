@@ -1,0 +1,306 @@
+[
+  {
+    "id": "ari23_vl07-b1-001",
+    "topic": "ari23_vl07_flaeche_rechteck",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aussagen zum Satz über den Flächeninhalt von Rechtecken (mit e := 1 als Länge des Einheitsquadrats) sind laut Folie korrekt?",
+    "options": [
+      "Voraussetzung ist, dass a = n·e und b = m·e gilt.",
+      "Für den Flächeninhalt gilt A(R) = (n · m) · e² = a · b.",
+      "e := 1 ist die Länge des Einheitsquadrats.",
+      "Der Satz gilt für beliebige reelle Seitenlängen ohne jede Einschränkung."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Der Satz setzt voraus, dass ein Rechteck R die Seitenlängen a und b mit a = n·e und b = m·e hat, und liefert dann A(R) = (n·m)·e² = a·b; dabei ist e := 1 die Länge des Einheitsquadrats. Eine uneingeschränkte Gültigkeit für beliebige Seitenlängen wird laut Anmerkung gerade nicht behauptet. 📄 Quelle: ari23_vl07, Folie 6 (S.6)",
+    "source": "ari23_vl07, Folie 6 (S.6, Anwenden des Maßes)"
+  },
+  {
+    "id": "ari23_vl07-b1-002",
+    "topic": "ari23_vl07_flaeche_rechteck",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Für welche Rechtecke gilt der Satz laut Anmerkung ohne Grenzprozess?",
+    "options": [
+      "Nur für Rechtecke, bei denen n und m Vielfache von e sind.",
+      "Für alle Rechtecke ausnahmslos.",
+      "Nur für Quadrate.",
+      "Nur für Rechtecke mit irrationalen Seitenlängen."
+    ],
+    "correct": [0],
+    "explanation": "Die Anmerkung stellt klar: Das gilt (ohne Grenzprozess) nur für solche Rechtecke, bei denen n und m Vielfache von e sind. 📄 Quelle: ari23_vl07, Folie 6 (S.6)",
+    "source": "ari23_vl07, Folie 6 (S.6, Anwenden des Maßes)"
+  },
+  {
+    "id": "ari23_vl07-b1-003",
+    "topic": "ari23_vl07_flaeche_rechteck",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Ein Rechteck R hat die Seitenlängen a = 4·e und b = 3·e mit e := 1. Wie groß ist A(R) = (n · m) · e²?",
+    "answer": 12,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Mit n = 4, m = 3 und e = 1 folgt A(R) = (n·m)·e² = (4·3)·1² = 12. 📄 Quelle: ari23_vl07, Folie 6 (S.6)",
+    "source": "ari23_vl07, Folie 6 (S.6, Anwenden des Maßes)"
+  },
+  {
+    "id": "ari23_vl07-b1-004",
+    "topic": "ari23_vl07_flaeche_parallelogramm",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Ein Parallelogramm P hat die Grundseite g und die Höhe h. Wie lautet sein Flächeninhalt A(F_P)?",
+    "options": [
+      "A(F_P) = g · h",
+      "A(F_P) = (g · h)/2",
+      "A(F_P) = g + h",
+      "A(F_P) = 2 · (g + h)"
+    ],
+    "correct": [0],
+    "explanation": "Laut Satz gilt für den Flächeninhalt eines Parallelogramms mit Grundseite g und Höhe h: A(F_P) = g · h. 📄 Quelle: ari23_vl07, Folie 7 (S.7)",
+    "source": "ari23_vl07, Folie 7 (S.7, Anwenden des Maßes)"
+  },
+  {
+    "id": "ari23_vl07-b1-005",
+    "topic": "ari23_vl07_flaeche_parallelogramm",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Wie wird der Flächeninhalt des Parallelogramms auf der Folie begründet?",
+    "options": [
+      "Das Parallelogramm ist zerlegungsgleich zu einem Rechteck R.",
+      "Das Rechteck R hat die Seitenlängen g (Grundseite) und h (Höhe).",
+      "Zerlegungsgleiche Figuren haben gleichen Flächeninhalt.",
+      "Das Parallelogramm ist ergänzungsgleich zu einem Dreieck."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Begründung: Das Parallelogramm ist zerlegungsgleich und damit flächeninhaltsgleich zu einem Rechteck R mit den Seitenlängen g (die der Grundseite entspricht) und h (die der Höhe entspricht). 📄 Quelle: ari23_vl07, Folie 7 (S.7)",
+    "source": "ari23_vl07, Folie 7 (S.7, Anwenden des Maßes)"
+  },
+  {
+    "id": "ari23_vl07-b1-006",
+    "topic": "ari23_vl07_flaeche_parallelogramm",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Ein Parallelogramm hat die Grundseite g = 6 und die Höhe h = 4. Wie groß ist sein Flächeninhalt A(F_P) = g · h?",
+    "answer": 24,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "A(F_P) = g · h = 6 · 4 = 24. 📄 Quelle: ari23_vl07, Folie 7 (S.7)",
+    "source": "ari23_vl07, Folie 7 (S.7, Anwenden des Maßes)"
+  },
+  {
+    "id": "ari23_vl07-b1-007",
+    "topic": "ari23_vl07_zerlegungsgleich",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Auf der Folie werden ein Parallelogramm und ein Rechteck mit gleicher Grundseite g und Höhe h in Teilfiguren zerlegt. Was zeigt diese Zerlegung?",
+    "options": [
+      "Beide Figuren werden in paarweise kongruente Teilfiguren (Dreiecke) zerlegt.",
+      "Die beiden Figuren sind zerlegungsgleich.",
+      "Die beiden Figuren sind flächeninhaltsgleich.",
+      "Die beiden Figuren sind nicht flächeninhaltsgleich."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Die Zerlegung in paarweise kongruente Teildreiecke zeigt, dass Parallelogramm und Rechteck zerlegungsgleich und damit flächeninhaltsgleich sind. 📄 Quelle: ari23_vl07, Folie 9 (S.9)",
+    "source": "ari23_vl07, Folie 9 (S.9, Anwenden des Maßes)"
+  },
+  {
+    "id": "ari23_vl07-b1-008",
+    "topic": "ari23_vl07_zerlegungsgleich",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Sind die beiden auf der Folie abgebildeten Figuren (Parallelogramm und Rechteck) flächeninhaltsgleich?",
+    "options": [
+      "Ja, denn sie sind zerlegungsgleich.",
+      "Nein, sie haben verschiedenen Flächeninhalt.",
+      "Nur wenn sie deckungsgleich sind.",
+      "Das lässt sich nicht entscheiden."
+    ],
+    "correct": [0],
+    "explanation": "Die Figuren lassen sich in paarweise kongruente Teilfiguren zerlegen, sind also zerlegungsgleich und damit flächeninhaltsgleich. 📄 Quelle: ari23_vl07, Folie 9 (S.9)",
+    "source": "ari23_vl07, Folie 9 (S.9, Anwenden des Maßes)"
+  },
+  {
+    "id": "ari23_vl07-b1-009",
+    "topic": "ari23_vl07_strategien_flaeche",
+    "difficulty": 1,
+    "type": "multi",
+    "question": "Welche Strategien werden auf der Folie genannt, um zum Flächeninhalt einer Figur (z. B. eines Dreiecks) zu kommen?",
+    "options": [
+      "Ergänze die Figur.",
+      "Teile die Figur.",
+      "Spiegle die Figur.",
+      "Miss die Figur mit dem Lineal aus."
+    ],
+    "correct": [0, 1],
+    "explanation": "Als Strategien werden genannt: 1. Ergänze die Figur, 2. Teile die Figur. 📄 Quelle: ari23_vl07, Folie 10 (S.10)",
+    "source": "ari23_vl07, Folie 10 (S.10, Anwenden des Maßes)"
+  },
+  {
+    "id": "ari23_vl07-b1-010",
+    "topic": "ari23_vl07_strategien_flaeche",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Welche Leitfrage wird auf der Folie zum Flächeninhalt des Dreiecks gestellt?",
+    "options": [
+      "Wie komme ich zum Flächeninhalt des Dreiecks?",
+      "Wie groß ist der Umfang des Dreiecks?",
+      "Welche Winkelsumme hat das Dreieck?",
+      "Ist das Dreieck rechtwinklig?"
+    ],
+    "correct": [0],
+    "explanation": "Die Frage lautet: Wie komme ich zum Flächeninhalt des Dreiecks? Welche Abbildungen benötige ich dazu? 📄 Quelle: ari23_vl07, Folie 10 (S.10)",
+    "source": "ari23_vl07, Folie 10 (S.10, Anwenden des Maßes)"
+  },
+  {
+    "id": "ari23_vl07-b1-011",
+    "topic": "ari23_vl07_flaeche_dreieck",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Ein Dreieck D hat die Grundseite g und die Höhe h. Wie lautet sein Flächeninhalt A(F_D)?",
+    "options": [
+      "A(F_D) = (g · h)/2",
+      "A(F_D) = g · h",
+      "A(F_D) = (g + h)/2",
+      "A(F_D) = g · h · 2"
+    ],
+    "correct": [0],
+    "explanation": "Laut Satz gilt für ein Dreieck D mit Grundseite g und Höhe h: A(F_D) = (g · h)/2. 📄 Quelle: ari23_vl07, Folie 11 (S.11)",
+    "source": "ari23_vl07, Folie 11 (S.11, Anwenden des Maßes)"
+  },
+  {
+    "id": "ari23_vl07-b1-012",
+    "topic": "ari23_vl07_flaeche_dreieck",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche der folgenden Schreibweisen für den Flächeninhalt des Dreiecks sind laut Folie äquivalent?",
+    "options": [
+      "(g · h)/2",
+      "(g/2) · h",
+      "g · (h/2)",
+      "(g + h)/2"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Auf der Folie wird umgeformt: A(F_D) = (g·h)/2 = (g/2)·h = g·(h/2). Die Summenform (g+h)/2 gehört nicht dazu. 📄 Quelle: ari23_vl07, Folie 11 (S.11)",
+    "source": "ari23_vl07, Folie 11 (S.11, Anwenden des Maßes)"
+  },
+  {
+    "id": "ari23_vl07-b1-013",
+    "topic": "ari23_vl07_flaeche_dreieck",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Ein Dreieck hat die Grundseite g = 8 und die Höhe h = 5. Wie groß ist sein Flächeninhalt A(F_D) = (g · h)/2?",
+    "answer": 20,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "A(F_D) = (g · h)/2 = (8 · 5)/2 = 40/2 = 20. 📄 Quelle: ari23_vl07, Folie 11 (S.11)",
+    "source": "ari23_vl07, Folie 11 (S.11, Anwenden des Maßes)"
+  },
+  {
+    "id": "ari23_vl07-b1-014",
+    "topic": "ari23_vl07_flaeche_drachenviereck",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Wie lautet der Flächeninhalt eines symmetrischen Drachenvierecks DR, wenn g und h seine Diagonalen sind?",
+    "options": [
+      "A(F_DR) = (g · h)/2",
+      "A(F_DR) = g · h",
+      "A(F_DR) = (g + h)/2",
+      "A(F_DR) = (g · h)/4"
+    ],
+    "correct": [0],
+    "explanation": "Für alle symmetrischen Drachenvierecke DR gilt, wenn g und h die Diagonalen sind: A(F_DR) = (g · h)/2. 📄 Quelle: ari23_vl07, Folie 12 (S.12)",
+    "source": "ari23_vl07, Folie 12 (S.12, Anwenden des Maßes)"
+  },
+  {
+    "id": "ari23_vl07-b1-015",
+    "topic": "ari23_vl07_flaeche_drachenviereck",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Voraussetzungen nennt der Satz zum Flächeninhalt des Drachenvierecks?",
+    "options": [
+      "Es handelt sich um ein symmetrisches Drachenviereck.",
+      "g und h sind die Diagonalen des Drachenvierecks.",
+      "g und h sind zwei benachbarte Seiten.",
+      "Das Drachenviereck ist ein Rechteck."
+    ],
+    "correct": [0, 1],
+    "explanation": "Der Satz gilt für alle symmetrischen Drachenvierecke DR und setzt voraus, dass g und h die Diagonalen des Drachenvierecks sind; dann gilt A(F_DR) = (g·h)/2. 📄 Quelle: ari23_vl07, Folie 12 (S.12)",
+    "source": "ari23_vl07, Folie 12 (S.12, Anwenden des Maßes)"
+  },
+  {
+    "id": "ari23_vl07-b1-016",
+    "topic": "ari23_vl07_flaeche_drachenviereck",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Ein symmetrisches Drachenviereck hat die Diagonalen g = 6 und h = 8. Wie groß ist A(F_DR) = (g · h)/2?",
+    "answer": 24,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "A(F_DR) = (g · h)/2 = (6 · 8)/2 = 48/2 = 24. 📄 Quelle: ari23_vl07, Folie 12 (S.12)",
+    "source": "ari23_vl07, Folie 12 (S.12, Anwenden des Maßes)"
+  },
+  {
+    "id": "ari23_vl07-b1-017",
+    "topic": "ari23_vl07_drache_allgemein",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wie wird auf der Folie ein allgemeiner Drache (Drachenviereck) definiert?",
+    "options": [
+      "Ein Viereck, bei dem eine Diagonale durch die andere halbiert wird.",
+      "Ein Viereck mit vier gleich langen Seiten.",
+      "Ein Viereck, bei dem zwei Seiten parallel sind.",
+      "Ein Viereck mit vier rechten Winkeln."
+    ],
+    "correct": [0],
+    "explanation": "Allgemeine Definition auf der Folie: Ein Drache ist ein Viereck, bei dem eine Diagonale durch die andere halbiert wird. 📄 Quelle: ari23_vl07, Folie 13 (S.13)",
+    "source": "ari23_vl07, Folie 13 (S.13, Anwenden des Maßes)"
+  },
+  {
+    "id": "ari23_vl07-b1-018",
+    "topic": "ari23_vl07_drache_allgemein",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Was zeigt das Beispiel auf der Folie zum allgemeinen Drachen (A(F_R) = 29,59 und A(F_Dr) = 29,59)?",
+    "options": [
+      "Auch im allgemeinen Fall ist der Drache flächengleich zum zugehörigen Rechteck.",
+      "Der Drache hat einen größeren Flächeninhalt als das Rechteck.",
+      "Der Flächeninhalt hängt vom gewählten Koordinatensystem ab.",
+      "Nur symmetrische Drachen sind flächengleich zu einem Rechteck."
+    ],
+    "correct": [0],
+    "explanation": "Die Frage, ob sich die Flächengleichheit auch im allgemeinen Fall nachweisen lässt, wird durch A(F_R) = A(F_Dr) = 29,59 bejaht. 📄 Quelle: ari23_vl07, Folie 13 (S.13)",
+    "source": "ari23_vl07, Folie 13 (S.13, Anwenden des Maßes)"
+  },
+  {
+    "id": "ari23_vl07-b1-019",
+    "topic": "ari23_vl07_trapez",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Wie wird auf der Folie ein Trapez definiert?",
+    "options": [
+      "Ein Viereck, bei dem zwei Seiten parallel sind.",
+      "Ein Viereck, bei dem eine Diagonale die andere halbiert.",
+      "Ein Viereck mit vier gleich langen Seiten.",
+      "Ein Viereck mit vier rechten Winkeln."
+    ],
+    "correct": [0],
+    "explanation": "Definition auf der Folie: Ein Trapez ist ein Viereck, bei dem zwei Seiten parallel sind. 📄 Quelle: ari23_vl07, Folie 15 (S.15)",
+    "source": "ari23_vl07, Folie 15 (S.15, Technik der Woche)"
+  },
+  {
+    "id": "ari23_vl07-b1-020",
+    "topic": "ari23_vl07_trapez",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welche Seiten sind bei dem auf der Folie abgebildeten Trapez ABCD durch Doppelstriche als parallel gekennzeichnet?",
+    "options": [
+      "Die Seiten a und c.",
+      "Die Seiten b und d.",
+      "Die Seiten a und b.",
+      "Die beiden Diagonalen."
+    ],
+    "correct": [0],
+    "explanation": "Im abgebildeten Trapez sind die Seite a (AB, unten) und die Seite c (DC, oben) durch Doppelstriche als die beiden parallelen Seiten markiert. 📄 Quelle: ari23_vl07, Folie 15 (S.15)",
+    "source": "ari23_vl07, Folie 15 (S.15, Technik der Woche)"
+  }
+]
