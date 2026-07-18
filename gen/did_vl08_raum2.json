@@ -1,0 +1,999 @@
+[
+ {
+  "id": "did_vl08_raum2-b1-001",
+  "topic": "did_vl08_raum2_wuerfelgebaeude_bauplan",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Wie viele Würfel sollen laut der Ausgangsaufgabe für die verschiedenen Würfelgebäude verwendet werden?",
+  "answer": 4,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Die Ausgangsaufgabe lautet: „Baue möglichst geschickt verschiedene Würfelgebäude mit vier Würfeln und schreibe zu jedem Gebäude den passenden Bauplan.“ 📄 Quelle: did_vl08_raum2, Folie 3 (S.3)",
+  "source": "did_vl08_raum2, Folie 3 (S.3, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b1-002",
+  "topic": "did_vl08_raum2_wuerfelgebaeude_bauplan",
+  "difficulty": 1,
+  "type": "multi",
+  "question": "Was verlangt die Ausgangsaufgabe zum Bauen mit Blankowürfeln?",
+  "options": [
+   "Möglichst geschickt verschiedene Würfelgebäude mit vier Würfeln bauen",
+   "Zu jedem Gebäude den passenden Bauplan schreiben",
+   "Alle Würfelgebäude aus genau zwölf Würfeln bauen",
+   "Die Würfelgebäude anschließend farbig anmalen"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "explanation": "Die Aufgabe fordert, geschickt verschiedene Würfelgebäude mit vier Würfeln zu bauen und zu jedem den passenden Bauplan zu schreiben. 📄 Quelle: did_vl08_raum2, Folie 3 (S.3)",
+  "source": "did_vl08_raum2, Folie 3 (S.3, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b1-003",
+  "topic": "did_vl08_raum2_wuerfelgebaeude_bauplan",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Welches Ziel verfolgt die Ausgangsaufgabe „Beschreibe einem anderen Kind, wie du dein Würfelgebäude baust“?",
+  "options": [
+   "Das andere Kind soll das Würfelgebäude genau nachbauen können",
+   "Das andere Kind soll einen Bauplan von oben zeichnen",
+   "Das andere Kind soll die Würfel zählen",
+   "Das andere Kind soll ein neues Gebäude erfinden"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Beschreibung soll so erfolgen, dass das andere Kind das Würfelgebäude genau nachbauen kann. 📄 Quelle: did_vl08_raum2, Folie 4 (S.4)",
+  "source": "did_vl08_raum2, Folie 4 (S.4, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b1-004",
+  "topic": "did_vl08_raum2_matheschwierigkeiten",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Ziele nennt die Folie unter „MATHESCHWIERIGKEITEN BEGEGNEN“?",
+  "options": [
+   "Dreidimensionale Würfelgebäude auf der Grundlage zweidimensionaler Vorlagen nachbauen",
+   "Dreidimensionale Würfelgebäude und ihre zweidimensionalen Abbildungen zueinander in Beziehung setzen",
+   "Beziehungen zwischen Würfelgebäuden erkennen und durch Umbauen von Würfeln neue finden",
+   "Würfelgebäude ausschließlich frei ohne Vorlagen bauen"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Die Folie nennt das Nachbauen 3D-Gebäude aus 2D-Vorlagen, das In-Beziehung-Setzen von 3D-Gebäuden und ihren 2D-Abbildungen beim Schreiben/Bauen nach Bauplänen sowie das Erkennen von Beziehungen und Finden neuer Gebäude durch Umbauen. 📄 Quelle: did_vl08_raum2, Folie 5 (S.5)",
+  "source": "did_vl08_raum2, Folie 5 (S.5, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b1-005",
+  "topic": "did_vl08_raum2_matheschwierigkeiten",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Wodurch sollen laut Folie geschickt neue Würfelgebäude gefunden werden?",
+  "options": [
+   "Durch das Umbauen von Würfeln",
+   "Durch das Anmalen der Würfel",
+   "Durch das Abzählen aller Ecken",
+   "Durch das Zeichnen von Netzen"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Beziehungen zwischen Würfelgebäuden sollen erkannt und durch das Umbauen von Würfeln geschickt neue Würfelgebäude gefunden werden. 📄 Quelle: did_vl08_raum2, Folie 5 (S.5)",
+  "source": "did_vl08_raum2, Folie 5 (S.5, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b1-006",
+  "topic": "did_vl08_raum2_bauplan",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Wie wird der Bauplan auf der Folie definiert?",
+  "options": [
+   "Der Blick von oben auf das Würfelgebäude",
+   "Die Seitenansicht des Würfelgebäudes",
+   "Das Schrägbild des Würfelgebäudes",
+   "Die Abwicklung (das Netz) des Würfels"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "„Der Bauplan – Der Blick von oben auf das Würfelgebäude“. In den Feldern steht die Anzahl der übereinander stehenden Würfel. 📄 Quelle: did_vl08_raum2, Folie 6 (S.6)",
+  "source": "did_vl08_raum2, Folie 6 (S.6, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b1-007",
+  "topic": "did_vl08_raum2_bauplan",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Lagebeziehungen von Würfeln werden auf der Bauplan-Folie dargestellt?",
+  "options": [
+   "zwei Würfel liegen übereinander",
+   "zwei Würfel liegen nebeneinander",
+   "ein Würfel liegt rechts daneben, davor oder dahinter",
+   "zwei Würfel liegen diagonal ineinander"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Die Folie zeigt die Lagebeziehungen: übereinander, nebeneinander sowie ein Würfel rechts daneben, davor bzw. dahinter. 📄 Quelle: did_vl08_raum2, Folie 6 (S.6)",
+  "source": "did_vl08_raum2, Folie 6 (S.6, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b1-008",
+  "topic": "did_vl08_raum2_prozesskompetenzen",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Teilkompetenzen des Problemlösens werden unter „PROZESSBEZOGENE KOMPETENZEN AUSBAUEN“ genannt?",
+  "options": [
+   "Erschließen",
+   "Lösen",
+   "Reflektieren und Überprüfen",
+   "Übertragen und Erfinden"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explanation": "Die Folie nennt beim Problemlösen: Erschließen, Lösen, Reflektieren und Überprüfen sowie Übertragen und Erfinden. 📄 Quelle: did_vl08_raum2, Folie 7 (S.7)",
+  "source": "did_vl08_raum2, Folie 7 (S.7, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b1-009",
+  "topic": "did_vl08_raum2_prozesskompetenzen",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Was beschreibt die Teilkompetenz „Erschließen“?",
+  "options": [
+   "Wichtige Begriffe klären, relevante Informationen entnehmen und in eigenen Worten wiedergeben",
+   "Ergebnisse auf Angemessenheit überprüfen und Lösungswege vergleichen",
+   "Eigene Aufgaben zu Würfelgebäuden erfinden",
+   "Vorgehensweisen auf weitere Würfelanzahlen übertragen"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "„Erschließen: Wichtige Begriffe klären, einer Problemstellung relevante Informationen entnehmen und in eigenen Worten wiedergeben.“ 📄 Quelle: did_vl08_raum2, Folie 7 (S.7)",
+  "source": "did_vl08_raum2, Folie 7 (S.7, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b1-010",
+  "topic": "did_vl08_raum2_prozesskompetenzen",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Was umfasst die Teilkompetenz „Übertragen und Erfinden“?",
+  "options": [
+   "Vorgehensweisen auf weitere Würfelanzahlen übertragen",
+   "Allgemeine Aussagen zu Baustrategien treffen",
+   "Eigene Aufgaben zu Würfelgebäuden erfinden",
+   "Wichtige Begriffe einer Problemstellung klären"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "„Übertragen und Erfinden: Vorgehensweisen auf weitere Würfelanzahlen übertragen; allgemeine Aussagen zu Baustrategien treffen; eigene Aufgaben zu Würfelgebäuden erfinden.“ Das Klären von Begriffen gehört zu „Erschließen“. 📄 Quelle: did_vl08_raum2, Folie 7 (S.7)",
+  "source": "did_vl08_raum2, Folie 7 (S.7, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b1-011",
+  "topic": "did_vl08_raum2_wuerfelgebaeude_anzahl",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Wie viele verschiedene Würfelgebäude mit drei Würfeln gibt es laut Folie?",
+  "answer": 4,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Auf der Folie heißt es: „Es gibt vier verschiedene Würfelgebäude mit drei Würfeln.“ 📄 Quelle: did_vl08_raum2, Folie 8 (S.8)",
+  "source": "did_vl08_raum2, Folie 8 (S.8, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b1-012",
+  "topic": "did_vl08_raum2_wuerfelgebaeude_anzahl",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Wofür kann die Sortierung der Würfelgebäude nach der Anzahl der bebauten Felder auf der Bauunterlage genutzt werden?",
+  "options": [
+   "Als Lösungsweg beim Bauen",
+   "Als Lösungsweg beim Schreiben der Baupläne",
+   "Als strukturiertes Tafelbild",
+   "Zur Berechnung des Volumens eines einzelnen Würfels"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Die Sortierung nach Anzahl der bebauten Felder kann als Lösungsweg beim Bauen, beim Schreiben der Baupläne sowie als strukturiertes Tafelbild genutzt werden. 📄 Quelle: did_vl08_raum2, Folie 8 (S.8)",
+  "source": "did_vl08_raum2, Folie 8 (S.8, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b1-013",
+  "topic": "did_vl08_raum2_sprachbildung",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Zugänge nennt die Folie „SPRACHBILDEND UNTERRICHTEN“?",
+  "options": [
+   "Wortspeicherarbeit und Einschleifübungen",
+   "Ganzheitliche Übungen und Eigenproduktionen",
+   "Verzicht auf Fachbegriffe im Anfangsunterricht",
+   "Ausschließlich stilles Bauen ohne Versprachlichung"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "explanation": "Die Folie nennt „Wortspeicherarbeit und Einschleifübungen“ sowie „Ganzheitliche Übungen und Eigenproduktionen“. 📄 Quelle: did_vl08_raum2, Folie 9 (S.9)",
+  "source": "did_vl08_raum2, Folie 9 (S.9, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b1-014",
+  "topic": "did_vl08_raum2_sprachbildung",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Welches Ziel haben Wortspeicherarbeit und Einschleifübungen?",
+  "options": [
+   "Mathe-Wörter und ihre sprachliche Einbettung kennenlernen, verstehen und behalten, um Würfelgebäude zu beschreiben, das Bauen zu versprachlichen und Baupläne zu lesen und umzusetzen",
+   "Würfelgebäude möglichst schnell auswendig zu bauen",
+   "Die Anzahl der Ecken und Kanten zu berechnen",
+   "Kunstwerke nach Vasarely zu gestalten"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Wortspeicherarbeit und Einschleifübungen dienen dazu, Mathe-Wörter und ihre sprachliche Einbettung kennenzulernen, zu verstehen und zu behalten, um Würfelgebäude zu beschreiben, den Vorgang des Bauens zu versprachlichen und Baupläne zu lesen und umzusetzen. 📄 Quelle: did_vl08_raum2, Folie 9 (S.9)",
+  "source": "did_vl08_raum2, Folie 9 (S.9, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b1-015",
+  "topic": "did_vl08_raum2_wuerfel_eigenschaften",
+  "difficulty": 1,
+  "type": "multi",
+  "question": "Welche Eigenschaften des Würfels nennt der Wortspeicher auf der Folie?",
+  "options": [
+   "Der Würfel hat 6 Flächen in Form eines Quadrates",
+   "Der Würfel hat 8 Ecken",
+   "Der Würfel hat 12 Kanten",
+   "Der Würfel hat 4 Flächen"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Der Wortspeicher „Würfel“ nennt: 6 Flächen (in Form eines Quadrates), 8 Ecken und 12 Kanten. 📄 Quelle: did_vl08_raum2, Folie 10 (S.10)",
+  "source": "did_vl08_raum2, Folie 10 (S.10, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b1-016",
+  "topic": "did_vl08_raum2_wuerfel_eigenschaften",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Wie viele Kanten hat ein Würfel laut Wortspeicher?",
+  "answer": 12,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "„Der Würfel hat 12 Kanten.“ 📄 Quelle: did_vl08_raum2, Folie 10 (S.10)",
+  "source": "did_vl08_raum2, Folie 10 (S.10, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b1-017",
+  "topic": "did_vl08_raum2_bauregeln",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Bauregeln nennt das Tafelbild „Unsere Bauregeln“?",
+  "options": [
+   "Fläche an Fläche",
+   "Kante an Kante",
+   "Bauunterlage benutzen",
+   "Alle Würfel müssen sich berühren"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explanation": "Die Bauregeln lauten: 1. Fläche an Fläche, 2. Kante an Kante, 3. Bauunterlage benutzen, 4. Alle Würfel müssen sich berühren. 📄 Quelle: did_vl08_raum2, Folie 10 (S.10)",
+  "source": "did_vl08_raum2, Folie 10 (S.10, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b1-018",
+  "topic": "did_vl08_raum2_differenzierung",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Differenzierungsrichtungen nennt die Folie „MATHESTÄRKEN FÖRDERN“?",
+  "options": [
+   "Tiefer: Grundaufgabe mit Begründungen und Darstellungswechseln durch systematisches Vorgehen tiefergehend thematisieren",
+   "Eher: Raum-Lage-Orientierung durch Legeübungen mit dem Soma-Würfel",
+   "Mehr: Knobelaufgaben zu komplexen Würfelgebäuden und Würfelgebäude-Folgen anbieten",
+   "Weniger: das Bauen mit Würfeln ganz weglassen"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Die Folie nennt „Tiefer“, „Eher“ und „Mehr“ als Differenzierungsrichtungen mit den jeweiligen Inhalten. 📄 Quelle: did_vl08_raum2, Folie 11 (S.11)",
+  "source": "did_vl08_raum2, Folie 11 (S.11, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b1-019",
+  "topic": "did_vl08_raum2_differenzierung",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Welche Maßnahme nennt die Folie unter „Eher“?",
+  "options": [
+   "Raum-Lage-Orientierung durch Legeübungen mit dem Soma-Würfel",
+   "Knobelaufgaben zu komplexen Würfelgebäuden anbieten",
+   "Grundaufgabe mit Begründungen und Darstellungswechseln vertiefen",
+   "Eigene Aufgaben erfinden lassen"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "„Eher: Raum-Lage-Orientierung durch Legeübungen mit dem Soma-Würfel.“ 📄 Quelle: did_vl08_raum2, Folie 11 (S.11)",
+  "source": "did_vl08_raum2, Folie 11 (S.11, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b1-020",
+  "topic": "did_vl08_raum2_knobelaufgaben",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Mit welchen Knobelaufgaben kann die Basisaufgabe laut Folie erweitert werden?",
+  "options": [
+   "„Baue geschickt möglichst viele Würfelquader mit genau 12 Würfeln.“",
+   "Würfelgebäude bauen, die wie eine auf- und absteigende Treppe aussehen",
+   "Eine Folge von Würfelgebäuden fortsetzen (z. B. „Wie würde das 5. Gebäude aussehen?“)",
+   "Die Baupläne farbig ausmalen lassen"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Als Erweiterungen werden genannt: Würfelquader mit genau 12 Würfeln bauen, auf- und absteigende Treppen bauen sowie eine Würfelgebäude-Folge fortsetzen. 📄 Quelle: did_vl08_raum2, Folie 12 (S.12)",
+  "source": "did_vl08_raum2, Folie 12 (S.12, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b1-021",
+  "topic": "did_vl08_raum2_knobelaufgaben",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Mit genau wie vielen Würfeln sollen bei der Knobelaufgabe möglichst viele Würfelquader gebaut werden?",
+  "answer": 12,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "„Baue geschickt möglichst viele Würfelquader mit genau 12 Würfeln.“ 📄 Quelle: did_vl08_raum2, Folie 12 (S.12)",
+  "source": "did_vl08_raum2, Folie 12 (S.12, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b1-022",
+  "topic": "did_vl08_raum2_aktivitaeten",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Aktivitäten mit Würfelgebäuden nennt die Folie?",
+  "options": [
+   "Würfelgebäude frei erfinden und Bauplan erstellen",
+   "Würfelgebäude nach Bauplan bzw. nach verbaler Beschreibung bauen",
+   "Würfelgebäude zeichnen und ausstellen",
+   "Würfelgebäude aus Papier ausschneiden und kleben"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Genannt werden u. a.: frei erfinden und Bauplan erstellen, nach Bauplan bauen, nach verbaler Beschreibung erstellen, nach Zeichnung bauen, Baupläne erstellen, zeichnen und ausstellen. 📄 Quelle: did_vl08_raum2, Folie 13 (S.13)",
+  "source": "did_vl08_raum2, Folie 13 (S.13, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b1-023",
+  "topic": "did_vl08_raum2_vasarely",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Angaben macht die Folie „Würfelgebäude untersuchen“ zu Victor Vasarely?",
+  "options": [
+   "Er war französischer Maler und Grafiker",
+   "Er wurde 1908 geboren",
+   "Er wurde vor allem für seine geometrischen Kunstwerke berühmt, die häufig verwirrende optische Wirkungen haben",
+   "Er erfand den Soma-Würfel"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Die Folie nennt: Victor Vasarely, frz. Maler und Grafiker, geb. 1908, berühmt für geometrische Kunstwerke mit häufig verwirrenden optischen Wirkungen (Werk: Axo 1/4). 📄 Quelle: did_vl08_raum2, Folie 14 (S.14)",
+  "source": "did_vl08_raum2, Folie 14 (S.14, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b1-024",
+  "topic": "did_vl08_raum2_vasarely",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "In welchem Jahr wurde Victor Vasarely laut Folie geboren?",
+  "answer": 1908,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "„Victor Vasarely, frz. Maler und Grafiker, geb. 1908.“ 📄 Quelle: did_vl08_raum2, Folie 14 (S.14)",
+  "source": "did_vl08_raum2, Folie 14 (S.14, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b1-025",
+  "topic": "did_vl08_raum2_untersuchen",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Untersuchungsfragen stellt die Folie zu einem Würfelgebäude?",
+  "options": [
+   "Wie viele Würfel wurden verbaut (nicht einzeln zählen, sondern geschickt ermitteln)?",
+   "Wie viele Klebeflächen hat das Würfelgebäude?",
+   "Wie viele Oberflächenquadrate hat das Würfelgebäude?",
+   "Wie schwer ist das Würfelgebäude in Gramm?"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Gefragt wird nach der Anzahl der verbauten Würfel (geschickt ermitteln), der Klebeflächen und der Oberflächenquadrate sowie danach, wie diese herausgefunden wurden. 📄 Quelle: did_vl08_raum2, Folie 15 (S.15)",
+  "source": "did_vl08_raum2, Folie 15 (S.15, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b1-026",
+  "topic": "did_vl08_raum2_untersuchen",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Welchen fachlichen Zusammenhang stellt das Untersuchen von Würfelgebäuden (Anzahl Würfel, Klebeflächen, Oberflächenquadrate) laut Folie her?",
+  "options": [
+   "Verbindung von Arithmetik und Geometrie",
+   "Verbindung von Geometrie und Stochastik",
+   "Verbindung von Algebra und Analysis",
+   "Verbindung von Geometrie und Kunstgeschichte"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Folie mündet in den Pfeil „Verbindung Arithmetik und Geometrie“. 📄 Quelle: did_vl08_raum2, Folie 15 (S.15)",
+  "source": "did_vl08_raum2, Folie 15 (S.15, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b1-027",
+  "topic": "did_vl08_raum2_arithmetik_geometrie",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Wie lässt sich die Verbindung von Arithmetik und Geometrie bei Würfelgebäuden laut Folie nutzen?",
+  "options": [
+   "Zahlenfolgen geometrisch veranschaulichen",
+   "Würfelgebäude arithmetisch interpretieren",
+   "Winkel in Grad messen",
+   "Wahrscheinlichkeiten berechnen"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "explanation": "Die Folie nennt: Zahlenfolgen geometrisch veranschaulichen und Würfelgebäude arithmetisch interpretieren. 📄 Quelle: did_vl08_raum2, Folie 16 (S.16)",
+  "source": "did_vl08_raum2, Folie 16 (S.16, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b1-028",
+  "topic": "did_vl08_raum2_blankowuerfel_aktivitaeten",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Aktivitäten bzw. Bausteine nennt die Folie „Bauen mit Blankowürfeln – Aktivitäten“?",
+  "options": [
+   "Freies Bauen",
+   "Würfelgebäude",
+   "Würfelvierlinge",
+   "Soma-Würfel"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explanation": "Die Folie listet: Freies Bauen, Würfelgebäude, Würfelvierlinge und Soma-Würfel. 📄 Quelle: did_vl08_raum2, Folie 17 (S.17)",
+  "source": "did_vl08_raum2, Folie 17 (S.17, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b1-029",
+  "topic": "did_vl08_raum2_blankowuerfel_aktivitaeten",
+  "difficulty": 3,
+  "type": "multi",
+  "question": "Welche Namen der Würfelvierlinge sind auf der Folie abgebildet?",
+  "options": [
+   "Fuß, Nase und Ecke",
+   "Hund, Stange und Platte",
+   "Rechts-Daumen und Links-Daumen",
+   "Turm und Brücke"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Abgebildet und benannt sind die Würfelvierlinge: Fuß, Nase, Ecke, Hund, Stange, Platte, Rechts-Daumen und Links-Daumen. 📄 Quelle: did_vl08_raum2, Folie 17 (S.17)",
+  "source": "did_vl08_raum2, Folie 17 (S.17, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b1-030",
+  "topic": "did_vl08_raum2_aktivitaeten_bauen",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Aktivitäten rund um das Bauen nennt die Folie „Räumliche Objekte – Aktivitäten rund um das Bauen“?",
+  "options": [
+   "Freies Bauen und Bauen nach vorgegebenem Thema",
+   "Bauen nach Vorlagen sowie nach verbaler Beschreibung",
+   "Bauen nach Ertasten",
+   "Verändern von Gebäuden durch Umbauen und Umordnen"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explanation": "Die Folie nennt: Freies Bauen, Bauen nach vorgegebenem Thema, Bauen nach Vorlagen, Bauen nach verbaler Beschreibung, Bauen nach Ertasten sowie Verändern von Gebäuden durch Umbauen und Umordnen. 📄 Quelle: did_vl08_raum2, Folie 18 (S.18)",
+  "source": "did_vl08_raum2, Folie 18 (S.18, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b1-031",
+  "topic": "did_vl08_raum2_aktivitaeten_bauen",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Arten von Vorlagen werden unter „Bauen nach Vorlagen“ unterschieden?",
+  "options": [
+   "Konkretes Gebäude",
+   "Abbildung",
+   "Bauplan",
+   "Verbale Beschreibung"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "„Bauen nach Vorlagen“ umfasst: konkretes Gebäude, Abbildung und Bauplan. Das „Bauen nach verbaler Beschreibung“ wird als eigener Punkt separat genannt. 📄 Quelle: did_vl08_raum2, Folie 18 (S.18)",
+  "source": "did_vl08_raum2, Folie 18 (S.18, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b2-001",
+  "topic": "did_vl08_raum2_kopfgeometrie",
+  "difficulty": 1,
+  "type": "multi",
+  "question": "Wie definiert Franke (1998) die Kopfgeometrie? Welche Aussagen treffen zu?",
+  "options": [
+   "Sie umfasst alle mündlich – im Kopf – zu lösenden geometrischen Aufgaben.",
+   "Sie schult das visuelle Wahrnehmungsvermögen.",
+   "Sie schult das räumliche Vorstellungsvermögen.",
+   "Sie umfasst ausschließlich schriftlich und mit Zirkel zu lösende Konstruktionsaufgaben."
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Nach Franke (1998) umfasst die Kopfgeometrie alle mündlich – im Kopf – zu lösenden geometrischen Aufgaben, die das visuelle Wahrnehmungs- und das räumliche Vorstellungsvermögen schulen. 📄 Quelle: did_vl08_raum2, Folie 19 (S.19)",
+  "source": "did_vl08_raum2, Folie 19 (S.19, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b2-002",
+  "topic": "did_vl08_raum2_kopfgeometrie",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Typen von Aufgabenstellungen zur Kopfgeometrie werden – je nach Einsatz von Hilfsmitteln – unterschieden?",
+  "options": [
+   "Reine Kopfgeometrie (ohne Hilfsmittel)",
+   "Kopfgeometrie mit Hilfsmitteln in Phase 1 (Aufgabenstellung)",
+   "Kopfgeometrie mit Hilfsmitteln in Phase 3 (bei der Ergebnisdarstellung)",
+   "Kopfgeometrie mit Hilfsmitteln in Phase 1 und 3",
+   "Kopfgeometrie mit Hilfsmitteln in Phase 2 (beim Operieren im Kopf)"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explanation": "Die Folie unterscheidet vier Typen: 1. Reine Kopfgeometrie (ohne Hilfsmittel), 2. mit Hilfsmitteln in Phase 1 (Aufgabenstellung), 3. mit Hilfsmitteln in Phase 3 (Ergebnisdarstellung), 4. mit Hilfsmitteln in Phase 1 und 3. Ein Typ 'in Phase 2' wird nicht genannt. 📄 Quelle: did_vl08_raum2, Folie 19 (S.19)",
+  "source": "did_vl08_raum2, Folie 19 (S.19, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b2-003",
+  "topic": "did_vl08_raum2_kopfgeometrie",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Welche Zuordnung von Phase und Funktion entspricht der Typisierung der Kopfgeometrie-Aufgaben?",
+  "options": [
+   "Phase 1 = Aufgabenstellung, Phase 3 = Ergebnisdarstellung",
+   "Phase 1 = Ergebnisdarstellung, Phase 3 = Aufgabenstellung",
+   "Phase 1 = Operieren im Kopf, Phase 3 = Aufgabenstellung",
+   "Phase 1 und Phase 3 bezeichnen beide die Ergebnisdarstellung"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "In der Typisierung steht Phase 1 für die Aufgabenstellung und Phase 3 für die Ergebnisdarstellung. 📄 Quelle: did_vl08_raum2, Folie 19 (S.19)",
+  "source": "did_vl08_raum2, Folie 19 (S.19, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b2-004",
+  "topic": "did_vl08_raum2_kopfgeom_phasen",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Reine Kopfgeometrie – welche Zuordnung der drei Phasen ist korrekt?",
+  "options": [
+   "1. Phase: Lehrer verbalisiert geometrische Fragestellungen",
+   "2. Phase: Räumliches Denken, Vorstellen, Operieren im Kopf",
+   "3. Phase: Schüler verbalisiert das Ergebnis seiner Überlegungen",
+   "3. Phase: Lehrer überprüft das Ergebnis mit einem Modell"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Bei der reinen Kopfgeometrie verbalisiert der Lehrer in Phase 1 geometrische Fragestellungen, in Phase 2 erfolgt räumliches Denken/Vorstellen/Operieren im Kopf, in Phase 3 verbalisiert der Schüler das Ergebnis seiner Überlegungen. 📄 Quelle: did_vl08_raum2, Folie 20 (S.20)",
+  "source": "did_vl08_raum2, Folie 20 (S.20, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b2-005",
+  "topic": "did_vl08_raum2_kopfgeom_phasen",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Was kennzeichnet 'Kopfgeometrie mit Hilfsmitteln in Phase 1' gegenüber der reinen Kopfgeometrie?",
+  "options": [
+   "In der 1. Phase erörtert der Lehrer seine Fragestellung unter Zuhilfenahme seines eigenen Körpers (z.B. Hände).",
+   "In der 2. Phase entfällt das Operieren im Kopf.",
+   "In der 3. Phase verbalisiert der Schüler weiterhin das Ergebnis seiner Überlegungen.",
+   "Die Aufgabe wird ausschließlich schriftlich gestellt."
+  ],
+  "correct": [
+   0,
+   2
+  ],
+  "explanation": "Bei Hilfsmitteln in Phase 1 erörtert der Lehrer die Fragestellung unter Zuhilfenahme seines eigenen Körpers (z.B. Hände); Phase 2 (Operieren im Kopf) und Phase 3 (Schüler verbalisiert das Ergebnis) bleiben erhalten. 📄 Quelle: did_vl08_raum2, Folie 20 (S.20)",
+  "source": "did_vl08_raum2, Folie 20 (S.20, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b2-006",
+  "topic": "did_vl08_raum2_kopfgeom_phasen",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Kopfgeometrie mit Hilfsmitteln in Phase 3 – welche Aussagen zu den Phasen treffen zu?",
+  "options": [
+   "1. Phase: Lehrer verbalisiert geometrische Fragestellungen",
+   "2. Phase: Räumliches Denken, Vorstellen, Operieren im Kopf",
+   "3. Phase: Schüler erläutert das Ergebnis unter Zuhilfenahme seines eigenen Körpers",
+   "1. Phase: Schüler baut das Ergebnis nach"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Bei Hilfsmitteln in Phase 3 verbalisiert der Lehrer in Phase 1 die geometrischen Fragestellungen, in Phase 2 folgt das Operieren im Kopf, und in Phase 3 erläutert der Schüler sein Ergebnis unter Zuhilfenahme seines eigenen Körpers. 📄 Quelle: did_vl08_raum2, Folie 21 (S.21)",
+  "source": "did_vl08_raum2, Folie 21 (S.21, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b2-007",
+  "topic": "did_vl08_raum2_kopfgeom_phasen",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "In der 3. Phase (Kopfgeometrie mit Hilfsmitteln in Phase 3) – was tut der Schüler laut Folie mit seinem Ergebnis?",
+  "options": [
+   "Er zeichnet das Ergebnis auf",
+   "Er baut nach",
+   "Er schneidet aus und bastelt",
+   "Er verzichtet auf jede Darstellung"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Laut Folie erläutert der Schüler in Phase 3 das Ergebnis unter Zuhilfenahme seines eigenen Körpers; er zeichnet das Ergebnis auf, baut nach, schneidet aus, bastelt usw. 📄 Quelle: did_vl08_raum2, Folie 21 (S.21)",
+  "source": "did_vl08_raum2, Folie 21 (S.21, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b2-008",
+  "topic": "did_vl08_raum2_kopfgeom_phasen",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Kopfgeometrie mit Hilfsmitteln in den Phasen 1 und 3 – wer setzt in welcher Phase Hilfsmittel ein?",
+  "options": [
+   "In Phase 1 setzt der Lehrer Hilfsmittel ein",
+   "In Phase 3 setzt der Schüler Hilfsmittel ein",
+   "In Phase 2 (Operieren im Kopf) werden Hilfsmittel eingesetzt",
+   "In Phase 1 und 3 werden keinerlei Hilfsmittel genutzt"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "explanation": "Bei Hilfsmitteln in den Phasen 1 und 3 nutzt der Lehrer in Phase 1 Hilfsmittel (eigener Körper, Bild/Zeichnung) und der Schüler in Phase 3; Phase 2 bleibt das Operieren im Kopf ohne Hilfsmittel. 📄 Quelle: did_vl08_raum2, Folie 22 (S.22)",
+  "source": "did_vl08_raum2, Folie 22 (S.22, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b2-009",
+  "topic": "did_vl08_raum2_kopfgeom_phasen",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Was tut der Lehrer in der 1. Phase bei 'Kopfgeometrie mit Hilfsmitteln in den Phasen 1 und 3'?",
+  "options": [
+   "Er erörtert seine Fragestellung unter Zuhilfenahme seines eigenen Körpers (z.B. Hände)",
+   "Er zeigt ein Bild bzw. eine Zeichnung",
+   "Er löst die Aufgabe im Kopf für die Schüler",
+   "Er verzichtet auf jede Veranschaulichung"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "explanation": "In Phase 1 erörtert der Lehrer seine Fragestellung unter Zuhilfenahme seines eigenen Körpers (z.B. Hände) und zeigt ein Bild bzw. eine Zeichnung. 📄 Quelle: did_vl08_raum2, Folie 22 (S.22)",
+  "source": "did_vl08_raum2, Folie 22 (S.22, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b2-010",
+  "topic": "did_vl08_raum2_kopfgeom_phasen",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Wie heißen die vier Phasen beim Lösen kopfgeometrischer Aufgaben (nach Senftleben)?",
+  "options": [
+   "Aufgabenstellung",
+   "Aufgabenlösung",
+   "Aufgabenauswertung",
+   "Aufgabenkontrolle",
+   "Aufgabenbewertung durch Noten"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explanation": "Nach Senftleben (Grundschule Mathematik Nr. 18, 2008, Kallmeyer) gibt es vier Phasen: 1. Aufgabenstellung, 2. Aufgabenlösung, 3. Aufgabenauswertung, 4. Aufgabenkontrolle. 📄 Quelle: did_vl08_raum2, Folie 23 (S.23)",
+  "source": "did_vl08_raum2, Folie 23 (S.23, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b2-011",
+  "topic": "did_vl08_raum2_kopfgeom_phasen",
+  "difficulty": 3,
+  "type": "multi",
+  "question": "Welche Zuordnung von Phase und Beschreibung ist korrekt (4 Phasen beim Lösen kopfgeometrischer Aufgaben nach Senftleben)?",
+  "options": [
+   "Aufgabenstellung: Fragestellung in rein mündlicher oder schriftlicher Form",
+   "Aufgabenlösung: Ergebnisfindung durch räumliches Denken",
+   "Aufgabenauswertung: Ergebnisdarstellung in rein mündlicher oder schriftlicher Form",
+   "Aufgabenkontrolle: Ergebnisüberprüfung anhand von Materialien (Modelle, Instrumente)",
+   "Aufgabenlösung: Ergebnisüberprüfung mit Lineal und Zirkel"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explanation": "Aufgabenstellung = Fragestellung mündlich/schriftlich (Worte, Begriffe), Aufgabenlösung = Ergebnisfindung durch räumliches Denken (Vorstellen, geistiges Operieren), Aufgabenauswertung = Ergebnisdarstellung mündlich/schriftlich, Aufgabenkontrolle = Ergebnisüberprüfung anhand von Materialien (Modelle, Instrumente). 📄 Quelle: did_vl08_raum2, Folie 23 (S.23)",
+  "source": "did_vl08_raum2, Folie 23 (S.23, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b2-012",
+  "topic": "did_vl08_raum2_kopfgeom_phasen",
+  "difficulty": 2,
+  "type": "single",
+  "question": "In welcher der vier Phasen erfolgt die Ergebnisüberprüfung anhand von Materialien (Modelle, Instrumente)?",
+  "options": [
+   "Aufgabenkontrolle (4. Phase)",
+   "Aufgabenstellung (1. Phase)",
+   "Aufgabenlösung (2. Phase)",
+   "Aufgabenauswertung (3. Phase)"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Ergebnisüberprüfung anhand von Materialien (Modelle, Instrumente) erfolgt in der 4. Phase, der Aufgabenkontrolle. 📄 Quelle: did_vl08_raum2, Folie 23 (S.23)",
+  "source": "did_vl08_raum2, Folie 23 (S.23, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b2-013",
+  "topic": "did_vl08_raum2_kopfgeometrie",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Die Aufgabe 'Der gekippte Würfel 1' wird auf der Folie welcher Kategorie zugeordnet?",
+  "options": [
+   "Reine Kopfgeometrie (ohne Hilfsmittel)",
+   "Kopfgeometrie mit Hilfsmitteln in Phase 1",
+   "Kopfgeometrie mit Hilfsmitteln in Phase 3",
+   "Kopfgeometrie mit Hilfsmitteln in Phase 1 und 3"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Folie ordnet 'Der gekippte Würfel 1' der Reinen Kopfgeometrie zu (ohne Hilfsmittel). 📄 Quelle: did_vl08_raum2, Folie 24 (S.24)",
+  "source": "did_vl08_raum2, Folie 24 (S.24, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b2-014",
+  "topic": "did_vl08_raum2_kopfgeometrie",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Was sollen die Lernenden bei 'Der gekippte Würfel 1' im Kopf leisten?",
+  "options": [
+   "Sich einen Spielwürfel mit der 6 oben vorstellen und bestimmen, welche Zahl nie sichtbar ist",
+   "Den Würfel gedanklich nach rechts kippen (4 oben) und die Lage der übrigen Augenzahlen bestimmen",
+   "Die Aufgabe mit einem realen Würfel in der Hand lösen",
+   "Das räumliche Vorstellungsvermögen ohne Hilfsmittel einsetzen"
+  ],
+  "correct": [
+   0,
+   1,
+   3
+  ],
+  "explanation": "Die Reine-Kopfgeometrie-Aufgabe verlangt, sich einen Spielwürfel (6 oben) vorzustellen und die nie sichtbare Zahl zu bestimmen sowie nach dem gedanklichen Kippen nach rechts (4 oben) die Lage der übrigen Augenzahlen anzugeben – ohne Hilfsmittel, allein im Kopf. 📄 Quelle: did_vl08_raum2, Folie 24 (S.24)",
+  "source": "did_vl08_raum2, Folie 24 (S.24, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b2-015",
+  "topic": "did_vl08_raum2_koerper_modelle",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Körperbezeichnungen stehen auf den Steckbrief-Kärtchen zum Zuordnen (Körper erforschen – Steckbriefe, Matheprofi 4) zur Verfügung?",
+  "options": [
+   "Quader, Würfel, Prisma, Pyramide",
+   "Kugel, Kegel",
+   "Walze / Zylinder / Rundsäule",
+   "Tetraeder / Dreieckspyramide",
+   "Torus, Kegelstumpf"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explanation": "Auf den Kärtchen stehen: Quader, Würfel, Prisma, Pyramide, Kugel, Kegel, Walze/Zylinder/Rundsäule sowie Tetraeder/Dreieckspyramide. Torus und Kegelstumpf kommen nicht vor. 📄 Quelle: did_vl08_raum2, Folie 28 (S.28)",
+  "source": "did_vl08_raum2, Folie 28 (S.28, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b2-016",
+  "topic": "did_vl08_raum2_koerper_modelle",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Bezeichnungen werden auf den Steckbrief-Kärtchen als Namen für denselben Körper zusammengefasst?",
+  "options": [
+   "Walze, Zylinder und Rundsäule",
+   "Tetraeder und Dreieckspyramide",
+   "Würfel und Kugel",
+   "Quader und Prisma"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "explanation": "Die Kärtchen fassen 'Walze / Zylinder / Rundsäule' sowie 'Tetraeder / Dreieckspyramide' jeweils als Namen für denselben Körper zusammen. 📄 Quelle: did_vl08_raum2, Folie 28 (S.28)",
+  "source": "did_vl08_raum2, Folie 28 (S.28, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b2-017",
+  "topic": "did_vl08_raum2_koerper_modelle",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Körper zeigt das Mobile auf der Folie 'Körper herstellen – Flächenmodelle'?",
+  "options": [
+   "Tetraeder",
+   "Ikosaeder",
+   "Dodekaeder",
+   "Hexaeder (Würfel) und Oktaeder",
+   "Zylinder und Kegel"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explanation": "Das Mobile ist mit Tetraeder, Ikosaeder, Dodekaeder, Hexaeder (Würfel) und Oktaeder beschriftet. 📄 Quelle: did_vl08_raum2, Folie 30 (S.30)",
+  "source": "did_vl08_raum2, Folie 30 (S.30, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b2-018",
+  "topic": "did_vl08_raum2_koerper_modelle",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Für welchen Körper steht laut Folie die Bezeichnung 'Hexaeder'?",
+  "options": [
+   "Würfel",
+   "Kugel",
+   "Pyramide",
+   "Kegel"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Folie beschriftet den Körper als 'Hexaeder (Würfel)'; Hexaeder ist also ein anderer Name für den Würfel. 📄 Quelle: did_vl08_raum2, Folie 30 (S.30)",
+  "source": "did_vl08_raum2, Folie 30 (S.30, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b2-019",
+  "topic": "did_vl08_raum2_koerper_modelle",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Wie stellen Felix und Olgun die Ecken für das Kantenmodell des Quaders her?",
+  "options": [
+   "Das Quadrat zwei Mal falten",
+   "Einschneiden",
+   "Übereinander schieben – fertige Ecke",
+   "Das Quadrat rund ausschneiden"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Die Ecken für den Quader werden hergestellt, indem das Quadrat zwei Mal gefaltet, eingeschnitten und übereinander geschoben wird (fertige Ecke). 📄 Quelle: did_vl08_raum2, Folie 32 (S.32)",
+  "source": "did_vl08_raum2, Folie 32 (S.32, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b2-020",
+  "topic": "did_vl08_raum2_koerper_modelle",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Welche Seitenlänge hat das quadratische Faltblatt, aus dem die Ecken des Quader-Kantenmodells hergestellt werden?",
+  "answer": 4,
+  "tolerance": 0,
+  "unit": "cm",
+  "explanation": "Das quadratische Faltblatt für die Ecken misst laut Folie 4 cm × 4 cm, hat also eine Seitenlänge von 4 cm. 📄 Quelle: did_vl08_raum2, Folie 32 (S.32)",
+  "source": "did_vl08_raum2, Folie 32 (S.32, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b2-021",
+  "topic": "did_vl08_raum2_koerper_modelle",
+  "difficulty": 1,
+  "type": "multi",
+  "question": "Welche drei Modellarten von Körpern werden auf der Reflexionsfolie 'Körper herstellen – Reflexion' unterschieden?",
+  "options": [
+   "Vollmodelle",
+   "Flächenmodelle",
+   "Kantenmodelle",
+   "Punktmodelle"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Unterschieden werden Vollmodelle, Flächenmodelle und Kantenmodelle. 📄 Quelle: did_vl08_raum2, Folie 35 (S.35)",
+  "source": "did_vl08_raum2, Folie 35 (S.35, 1.5 Räumliche Objekte)"
+ },
+ {
+  "id": "did_vl08_raum2-b2-022",
+  "topic": "did_vl08_raum2_koerper_modelle",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Unter welchen Gesichtspunkten sollen die Modellarten am Beispiel eines konkreten Körpers reflektiert werden?",
+  "options": [
+   "Wie und aus welchem Material die unterschiedlichen Modellarten hergestellt werden könnten",
+   "Welche Eigenschaften mit dem Herstellen verschiedener Modellarten in den Blick gerückt werden",
+   "Welche Erfahrungen Kinder machen können und welche Kompetenzen gefordert und gefördert werden",
+   "Welcher Modelltyp am billigsten im Handel zu kaufen ist"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Reflektiert werden soll, wie und aus welchem Material die Modellarten hergestellt werden könnten, welche Eigenschaften dabei in den Blick gerückt werden und welche Erfahrungen Kinder machen bzw. welche Kompetenzen gefordert und gefördert werden. 📄 Quelle: did_vl08_raum2, Folie 35 (S.35)",
+  "source": "did_vl08_raum2, Folie 35 (S.35, 1.5 Räumliche Objekte)"
+ }
+]

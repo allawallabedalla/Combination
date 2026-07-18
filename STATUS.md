@@ -2,8 +2,8 @@
 
 - **Stand:** 2026-07-18 17:43 UTC
 - **Branch:** `claude/repo-combination-raw-data-vbf3hw`
-- **HEAD:** `19705a1`
-- **Fertige Skripte:** 52 / 70
+- **HEAD:** `956a67f`
+- **Fertige Skripte:** 53 / 70
 - **Fragen gesamt (fertig + laufend, roh):** 1203
 
 ## Fortschritt
@@ -39,7 +39,7 @@
 | `did_vl04_ebenefiguren` | FERTIG | 28 | StDid_Ari_Geo_Ebene Figuren_VL4.pdf |
 | `did_vl04_inhalte` | FERTIG | 10 | St_Did_Ari_Geo_Inhalte_Geometrieunterricht_VL4.p |
 | `did_vl07_raum1` | FERTIG | 32 | St_Did_Ari_Geo_Räumliche_Objekte1_VL7.pdf |
-| `did_vl08_raum2` | laufend (2 Blöcke, 53 Fragen, nicht gemergt) | 53 | St_Did_Ari_Geo_Räumliche_Objekte_2_VL8.pdf |
+| `did_vl08_raum2` | FERTIG | 53 | St_Did_Ari_Geo_Räumliche_Objekte_2_VL8.pdf |
 | `did_vl08_zr100` | FERTIG | 22 | St_Did_Ari_Geo_Zahlenraum_100_1_VL8.pdf |
 | `uebung_2023` | FERTIG | 23 | Vermischte Übungen_2023.pdf |
 | `uebung_gesamt` | FERTIG | 27 | Vermischte Übungen_Gesamt.pdf |
@@ -102,6 +102,6 @@
 - Alles Fertige liegt auf origin; ein Stopp kostet höchstens den einen laufenden Block.
 - Skripte mit `gen/<code>.json` überspringen; für `laufend`-Skript fehlende Blöcke neu erzeugen → `finalize.sh`.
 
-**Laufend:** `did_vl08_raum2`, `ari23_vl10`
+**Laufend:** `ari23_vl10`
 **Offen:** `ari20_vl10`, `ari20_vl11`, `ari20_vl12`, `ari23_vl01`, `ari21_vl01`, `ari21_vl02`, `ari21_vl03`, `ari23_vl04`, `ari21_vl04`, `ari21_vl05`, `ari23_vl06`, `ari21_vl06`, `ari23_vl07`, `ari21_vl07`, `ari21_vl08`, `ari21_vl09`
 
