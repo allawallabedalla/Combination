@@ -1,0 +1,278 @@
+[
+  {
+    "id": "skript04_live-b1-001",
+    "topic": "skript04_live_mod_fibonacci",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Für die modifizierte Fibonacci-Folge gilt f̃₁=4, f̃₂=7 und f̃ₙ=f̃ₙ₋₂+f̃ₙ₋₁ für n>2. Berechnen Sie f̃₃.",
+    "answer": 11,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Nach der Bildungsregel gilt f̃₃ = f̃₁ + f̃₂ = 4 + 7 = 11. 📄 Quelle: skript04_live, Folie 9 (S.1)",
+    "source": "skript04_live, Folie 9 (S.1, Arithmetik)"
+  },
+  {
+    "id": "skript04_live-b1-002",
+    "topic": "skript04_live_mod_fibonacci",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Der auf der Folie formulierte Satz zur Summe S̃ₙ der ersten n modifizierten Fibonacci-Zahlen lautet: S̃ₙ = fₙ·s₁ + (fₙ₊₁−1)·s₂. Welche Aussagen treffen laut Folie zu?",
+    "options": [
+      "s₁ und s₂ sind die Startzahlen der modifizierten Fibonacci-Folge, also s₁=f̃₁ und s₂=f̃₂.",
+      "fₙ bezeichnet die Zahlen der ursprünglichen Fibonacci-Folge.",
+      "S̃ₙ = f̃₁+f̃₂+f̃₃+...+f̃ₙ₋₁+f̃ₙ (Summe der ersten n modifizierten Fibonacci-Zahlen).",
+      "Der Satz gilt nur für gerade natürliche Zahlen n."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Der Satz gilt für alle natürlichen Zahlen n; s₁=f̃₁, s₂=f̃₂ sind die Startzahlen, S̃ₙ ist die Summe der ersten n modifizierten Fibonacci-Zahlen und fₙ sind die ursprünglichen Fibonacci-Zahlen. 📄 Quelle: skript04_live, Folie 9 (S.1)",
+    "source": "skript04_live, Folie 9 (S.1, Arithmetik)"
+  },
+  {
+    "id": "skript04_live-b1-003",
+    "topic": "skript04_live_mod_fibonacci_beweis",
+    "difficulty": 3,
+    "type": "multi",
+    "question": "Im Induktionsschritt (n→n+1) des handschriftlichen Beweises von S̃ₙ₊₁ = fₙ₊₁·s₁ + (fₙ₊₂−1)·s₂ werden welche Beziehungen verwendet?",
+    "options": [
+      "S̃ₙ₊₁ = S̃ₙ + f̃ₙ₊₁",
+      "f̃ₙ₊₁ = fₙ₋₁·s₁ + fₙ·s₂ (in VL3 erarbeitet)",
+      "fₙ₊₁ = fₙ + fₙ₋₁ (Bildungsregel der Fibonacci-Zahlen)",
+      "f̃ₙ₊₁ = f̃ₙ · f̃ₙ₋₁"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Der Beweis nutzt S̃ₙ₊₁ = S̃ₙ + f̃ₙ₊₁, die Erinnerung f̃ₙ₊₁ = fₙ₋₁·s₁ + fₙ·s₂ und die Bildungsregel fₙ₊₁ = fₙ + fₙ₋₁ (bzw. fₙ₊₂ = fₙ₊₁ + fₙ). 📄 Quelle: skript04_live, Folie 9 (S.1)",
+    "source": "skript04_live, Folie 9 (S.1, Arithmetik)"
+  },
+  {
+    "id": "skript04_live-b1-004",
+    "topic": "skript04_live_fibonacci",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Laut der Fibonacci-Tabelle auf der Folie: Wie lautet die 10. Fibonacci-Zahl f₁₀?",
+    "answer": 55,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Die Tabelle listet f₁₀ = 55. 📄 Quelle: skript04_live, Folie 18 (S.2)",
+    "source": "skript04_live, Folie 18 (S.2, Arithmetik)"
+  },
+  {
+    "id": "skript04_live-b1-005",
+    "topic": "skript04_live_fibonacci",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Laut der Fibonacci-Tabelle auf der Folie: Wie lautet die 12. Fibonacci-Zahl f₁₂?",
+    "answer": 144,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Die Tabelle listet f₁₂ = 144. 📄 Quelle: skript04_live, Folie 18 (S.2)",
+    "source": "skript04_live, Folie 18 (S.2, Arithmetik)"
+  },
+  {
+    "id": "skript04_live-b1-006",
+    "topic": "skript04_live_fibonacci",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Als wer wird Fibonacci auf der Folie bezeichnet, und welche Lebensdaten sind angegeben?",
+    "options": [
+      "Leonardo von Pisa (1170–1240)",
+      "Leonardo da Vinci (1452–1519)",
+      "Leonardo von Pisa (1180–1250)",
+      "Leonardo Bonacci (1200–1280)"
+    ],
+    "correct": [0],
+    "explanation": "Auf der Folie ist neben dem Porträt 'Leonardo von Pisa (1170 – 1240)' angegeben. 📄 Quelle: skript04_live, Folie 18 (S.2)",
+    "source": "skript04_live, Folie 18 (S.2, Arithmetik)"
+  },
+  {
+    "id": "skript04_live-b1-007",
+    "topic": "skript04_live_fibonacci",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Werte der Fibonacci-Tabelle (f₁=1, f₂=1, f₃=2, ...) auf der Folie sind korrekt wiedergegeben?",
+    "options": [
+      "f₇ = 13",
+      "f₉ = 34",
+      "f₁₃ = 233",
+      "f₆ = 13"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Laut Tabelle gilt f₇=13, f₉=34, f₁₃=233; f₆ ist jedoch 8, nicht 13. 📄 Quelle: skript04_live, Folie 18 (S.2)",
+    "source": "skript04_live, Folie 18 (S.2, Arithmetik)"
+  },
+  {
+    "id": "skript04_live-b1-008",
+    "topic": "skript04_live_vollst_induktion",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Wie wird die vollständige Induktion auf der Folie charakterisiert?",
+    "options": [
+      "Sie ist ein Beweis, dass eine Behauptung/Aussage für alle natürlichen Zahlen gilt.",
+      "Sie erfolgt auf der Grundlage der Peano-Axiome.",
+      "Sie ist ein Beweis nur für endlich viele Einzelfälle.",
+      "Sie gilt nur für rationale Zahlen."
+    ],
+    "correct": [0, 1],
+    "explanation": "Auf der Folie: 'Die Vollständige Induktion ist ein Beweis, dass eine Behauptung/Aussage für alle Natürlichen Zahlen gilt (auf der Grundlage der Peano-Axiome).' 📄 Quelle: skript04_live, Folie 23 (S.3)",
+    "source": "skript04_live, Folie 23 (S.3, Arithmetik)"
+  },
+  {
+    "id": "skript04_live-b1-009",
+    "topic": "skript04_live_summe_quadrate",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Der Satz über die Summe Sₙ der Quadrate der ersten n Fibonacci-Zahlen (Sₙ = f₁²+f₂²+...+fₙ²) besagt:",
+    "options": [
+      "Sₙ = fₙ · fₙ₊₁",
+      "Sₙ = fₙ + fₙ₊₁",
+      "Sₙ = fₙ² · fₙ₊₁",
+      "Sₙ = fₙ₊₁ · fₙ₊₂"
+    ],
+    "correct": [0],
+    "explanation": "Der Satz auf der Folie: Wenn Sₙ die Summe der Quadrate der ersten n Fibonacci-Zahlen ist, dann ist Sₙ = fₙ·fₙ₊₁. 📄 Quelle: skript04_live, Folie 23 (S.3)",
+    "source": "skript04_live, Folie 23 (S.3, Arithmetik)"
+  },
+  {
+    "id": "skript04_live-b1-010",
+    "topic": "skript04_live_summe_quadrate",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Nach dem Satz gilt Sₙ = fₙ·fₙ₊₁ für die Summe der Quadrate der ersten n Fibonacci-Zahlen. Berechnen Sie S₄ (mit f₄=3, f₅=5).",
+    "answer": 15,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "S₄ = f₄·f₅ = 3·5 = 15 (Kontrolle: 1²+1²+2²+3² = 15). 📄 Quelle: skript04_live, Folie 23 (S.3)",
+    "source": "skript04_live, Folie 23 (S.3, Arithmetik)"
+  },
+  {
+    "id": "skript04_live-b1-011",
+    "topic": "skript04_live_summe_quadrate",
+    "difficulty": 3,
+    "type": "multi",
+    "question": "Im Induktionsschritt des Beweises (z.zg. Sₙ₊₁ = fₙ₊₁·fₙ₊₂) werden welche Umformungen verwendet?",
+    "options": [
+      "Sₙ₊₁ = Sₙ + fₙ₊₁²",
+      "Sₙ = fₙ·fₙ₊₁ (Induktionsvoraussetzung)",
+      "fₙ + fₙ₊₁ = fₙ₊₂",
+      "fₙ₊₁² = fₙ² + fₙ₊₁"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Sₙ₊₁ = Sₙ + fₙ₊₁² = fₙ·fₙ₊₁ + fₙ₊₁² = fₙ₊₁·(fₙ+fₙ₊₁) = fₙ₊₁·fₙ₊₂. 📄 Quelle: skript04_live, Folie 23 (S.3)",
+    "source": "skript04_live, Folie 23 (S.3, Arithmetik)"
+  },
+  {
+    "id": "skript04_live-b1-012",
+    "topic": "skript04_live_dreieckszahlen",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Für die Dreieckszahlen gilt laut Folie dₙ = n·(n+1)/2. Berechnen Sie d₅.",
+    "answer": 15,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "d₅ = 5·6/2 = 15 (stimmt mit der Tabelle überein). 📄 Quelle: skript04_live, Folie 36 (S.4)",
+    "source": "skript04_live, Folie 36 (S.4, Arithmetik)"
+  },
+  {
+    "id": "skript04_live-b1-013",
+    "topic": "skript04_live_dreieckszahlen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Die Folge Sₙ (Summe der Dreieckszahlen) hat laut Tabelle die Werte 1, 4, 10, 20, 35, ... Welche Zuordnungen sind korrekt?",
+    "options": [
+      "S₄ = 20",
+      "S₅ = 35",
+      "S₇ = 84",
+      "S₆ = 84"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Laut Tabelle: S₄=20, S₅=35, S₇=84; S₆ ist jedoch 56, nicht 84. 📄 Quelle: skript04_live, Folie 36 (S.4)",
+    "source": "skript04_live, Folie 36 (S.4, Arithmetik)"
+  },
+  {
+    "id": "skript04_live-b1-014",
+    "topic": "skript04_live_dreieckszahlen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche (rekursive) Beziehung für Sₙ (Summe der Dreieckszahlen) wird auf der Folie handschriftlich festgehalten?",
+    "options": [
+      "Sₙ = n² + Sₙ₋₂",
+      "S₇ = 7² + S₅ = 49 + 35 = 84",
+      "Sₙ = n² + Sₙ₋₁",
+      "Sₙ = n³ + Sₙ₋₂"
+    ],
+    "correct": [0, 1],
+    "explanation": "Handschriftlich: S₆ = 6² + S₄ = 36+20 = 56, S₇ = 7² + S₅ = 49+35 = 84, allgemein Sₙ = n² + Sₙ₋₂ ('leider rekursiv'). 📄 Quelle: skript04_live, Folie 36 (S.4)",
+    "source": "skript04_live, Folie 36 (S.4, Arithmetik)"
+  },
+  {
+    "id": "skript04_live-b1-015",
+    "topic": "skript04_live_dreieckszahlen",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Die handschriftlich hergeleitete geschlossene Formel lautet Sₙ = n·(n+1)·(n+2)/(2·3). Berechnen Sie damit S₆.",
+    "answer": 56,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "S₆ = 6·7·8/(2·3) = 336/6 = 56 (stimmt mit der Tabelle). 📄 Quelle: skript04_live, Folie 36 (S.4)",
+    "source": "skript04_live, Folie 36 (S.4, Arithmetik)"
+  },
+  {
+    "id": "skript04_live-b1-016",
+    "topic": "skript04_live_summe_dreieckszahlen",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wie kann die Folge 1, 4, 10, 20, 35, ... (Summe der Dreieckszahlen) laut Folie allgemein ausgedrückt werden?",
+    "options": [
+      "Sₙ = n·(n+1)·(n+2)/(3·2)",
+      "Sₙ = n·(n+1)/2",
+      "Sₙ = n·(n+1)·(n+2)/2",
+      "Sₙ = n²·(n+1)/3"
+    ],
+    "correct": [0],
+    "explanation": "Auf der Folie: 'kann durch Sₙ = n·(n+1)·(n+2)/(3·2) allgemein ausgedrückt werden'. 📄 Quelle: skript04_live, Folie 40 (S.5)",
+    "source": "skript04_live, Folie 40 (S.5, Arithmetik)"
+  },
+  {
+    "id": "skript04_live-b1-017",
+    "topic": "skript04_live_summe_dreieckszahlen",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Berechnen Sie mit der Formel Sₙ = n·(n+1)·(n+2)/(3·2) den Wert S₃.",
+    "answer": 10,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "S₃ = 3·4·5/6 = 60/6 = 10. 📄 Quelle: skript04_live, Folie 40 (S.5)",
+    "source": "skript04_live, Folie 40 (S.5, Arithmetik)"
+  },
+  {
+    "id": "skript04_live-b1-018",
+    "topic": "skript04_live_summe_dreieckszahlen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Der auf der Folie formulierte Satz lautet: 'Für alle natürlichen Zahlen n gilt: Wenn Sₙ die Summe der ersten n Dreieckszahlen ist, ...'. Welche Aussagen gehören laut Folie zu diesem Satz?",
+    "options": [
+      "Voraussetzung: Sₙ = 1 + 3 + 6 + ... + n·(n+1)/2",
+      "Behauptung: dann ist Sₙ = n·(n+1)·(n+2)/(2·3)",
+      "Der Satz gilt für alle natürlichen Zahlen n.",
+      "Behauptung: dann ist Sₙ = n·(n+1)/2"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Der Satz: Wenn Sₙ = 1+3+6+...+n·(n+1)/2 die Summe der ersten n Dreieckszahlen ist, dann ist Sₙ = n·(n+1)·(n+2)/(2·3); gültig für alle natürlichen Zahlen n. 📄 Quelle: skript04_live, Folie 40 (S.5)",
+    "source": "skript04_live, Folie 40 (S.5, Arithmetik)"
+  },
+  {
+    "id": "skript04_live-b1-019",
+    "topic": "skript04_live_summe_dreieckszahlen",
+    "difficulty": 3,
+    "type": "multi",
+    "question": "Im Induktionsschritt des Beweises (z.zg. Sₙ₊₁ = (n+1)·(n+2)·(n+3)/(2·3)) wird welche Zerlegung genutzt?",
+    "options": [
+      "Sₙ₊₁ = Sₙ + (n+1)·(n+2)/2",
+      "Der Term (n+1)·(n+2)/2 wird als 3·(n+1)·(n+2)/(2·3) geschrieben, um gleichnamig zu machen.",
+      "Ausklammern von (n+1)·(n+2) ergibt (n+3)·(n+1)·(n+2)/(2·3).",
+      "Sₙ₊₁ = Sₙ · (n+1)·(n+2)/2"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Sₙ₊₁ = Sₙ + (n+1)·(n+2)/2 = n·(n+1)·(n+2)/(2·3) + 3·(n+1)·(n+2)/(2·3) = (n+3)·(n+1)·(n+2)/(2·3) = (n+1)·(n+2)·(n+3)/(2·3). 📄 Quelle: skript04_live, Folie 40 (S.5)",
+    "source": "skript04_live, Folie 40 (S.5, Arithmetik)"
+  }
+]
