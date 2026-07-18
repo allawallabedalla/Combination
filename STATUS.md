@@ -1,9 +1,9 @@
 # STATUS — Combination: Mathematik-Fragenkatalog (Pipeline, pro-Skript persistiert)
 
-- **Stand:** 2026-07-18 17:30 UTC
+- **Stand:** 2026-07-18 17:31 UTC
 - **Branch:** `claude/repo-combination-raw-data-vbf3hw`
-- **HEAD:** `30bb9f7`
-- **Fertige Skripte:** 46 / 70
+- **HEAD:** `441128e`
+- **Fertige Skripte:** 47 / 70
 - **Fragen gesamt (fertig + laufend, roh):** 902
 
 ## Fortschritt
@@ -38,7 +38,7 @@
 | `skript09_live` | FERTIG | 16 | Skript9-live.pdf |
 | `did_vl04_ebenefiguren` | offen |  | StDid_Ari_Geo_Ebene Figuren_VL4.pdf |
 | `did_vl04_inhalte` | FERTIG | 10 | St_Did_Ari_Geo_Inhalte_Geometrieunterricht_VL4.p |
-| `did_vl07_raum1` | laufend (1 Blöcke, 32 Fragen, nicht gemergt) | 32 | St_Did_Ari_Geo_Räumliche_Objekte1_VL7.pdf |
+| `did_vl07_raum1` | FERTIG | 32 | St_Did_Ari_Geo_Räumliche_Objekte1_VL7.pdf |
 | `did_vl08_raum2` | offen |  | St_Did_Ari_Geo_Räumliche_Objekte_2_VL8.pdf |
 | `did_vl08_zr100` | FERTIG | 22 | St_Did_Ari_Geo_Zahlenraum_100_1_VL8.pdf |
 | `uebung_2023` | FERTIG | 23 | Vermischte Übungen_2023.pdf |
@@ -102,6 +102,5 @@
 - Alles Fertige liegt auf origin; ein Stopp kostet höchstens den einen laufenden Block.
 - Skripte mit `gen/<code>.json` überspringen; für `laufend`-Skript fehlende Blöcke neu erzeugen → `finalize.sh`.
 
-**Laufend:** `did_vl07_raum1`
 **Offen:** `did_vl01_ueberblick`, `did_vl05_begriffe`, `skript01_live23`, `did_vl04_ebenefiguren`, `did_vl08_raum2`, `ari20_vl10`, `ari23_vl10`, `ari20_vl11`, `ari23_vl11`, `ari20_vl12`, `ari23_vl01`, `ari21_vl01`, `ari21_vl02`, `ari21_vl03`, `ari23_vl04`, `ari21_vl04`, `ari21_vl05`, `ari23_vl06`, `ari21_vl06`, `ari23_vl07`, `ari21_vl07`, `ari21_vl08`, `ari21_vl09`
 
