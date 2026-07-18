@@ -1,0 +1,399 @@
+[
+ {
+  "id": "uebung_gesamt-b1-001",
+  "topic": "uebung_gesamt_dreieckszahlen",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Berechnen Sie mit der in Aufgabe 1 angegebenen Formel Δ_n = n(n+1)/2 die 5-te Dreieckszahl Δ_5.",
+  "answer": 15,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Δ_5 = 5·(5+1)/2 = 30/2 = 15. 📄 Quelle: uebung_gesamt, Folie 1 (S.1)",
+  "source": "uebung_gesamt, Folie 1 (S.1, VL 1-4, Aufgabe 1)"
+ },
+ {
+  "id": "uebung_gesamt-b1-002",
+  "topic": "uebung_gesamt_dreieckszahlen",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Wie ist in Aufgabe 1 die n-te Dreieckszahl Δ_n gegeben?",
+  "options": [
+   "Δ_n = n(n+1)/2",
+   "Δ_n = ∑_{i=1}^n i",
+   "Δ_n = n²/2",
+   "Δ_n = (n+1)/2"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "explanation": "Auf der Folie steht Δ_n = 1+2+3+...+n = ∑_{i=1}^n i = n(n+1)/2. 📄 Quelle: uebung_gesamt, Folie 1 (S.1)",
+  "source": "uebung_gesamt, Folie 1 (S.1, VL 1-4, Aufgabe 1)"
+ },
+ {
+  "id": "uebung_gesamt-b1-003",
+  "topic": "uebung_gesamt_induktion",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Wie groß ist die Summe der ersten 5 ungeraden Zahlen (1+3+5+7+9), also der in Aufgabe 1a) betrachteten Summe für n=5?",
+  "answer": 25,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "1+3+5+7+9 = 25 = 5². Nach Aufgabe 1a) gilt allgemein ∑_{i=1}^n (2i−1) = n². 📄 Quelle: uebung_gesamt, Folie 1 (S.1)",
+  "source": "uebung_gesamt, Folie 1 (S.1, VL 1-4, Aufgabe 1a)"
+ },
+ {
+  "id": "uebung_gesamt-b1-004",
+  "topic": "uebung_gesamt_induktion",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Aussage wird in Aufgabe 1a) für alle natürlichen Zahlen n durch vollständige Induktion bewiesen?",
+  "options": [
+   "1+3+5+...+(2n−1) = n²",
+   "∑_{i=1}^n (2i−1) = n²",
+   "1+3+5+...+(2n−1) = n(n+1)/2",
+   "∑_{i=1}^n (2i−1) = 2^n"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "explanation": "Die Folie gibt die Aussage 1+3+5+...+(2n−1) = ∑_{i=1}^n (2i−1) = n² an. 📄 Quelle: uebung_gesamt, Folie 1 (S.1)",
+  "source": "uebung_gesamt, Folie 1 (S.1, VL 1-4, Aufgabe 1a)"
+ },
+ {
+  "id": "uebung_gesamt-b1-005",
+  "topic": "uebung_gesamt_dreieckszahlen",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Aufgabe 1b) behauptet, dass die Summe der n-ten und der (n+1)-ten Dreieckszahl eine Quadratzahl ist. Welchen Wert hat diese Summe für n=3 (also Δ_3 + Δ_4)?",
+  "answer": 16,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Δ_3 = 6, Δ_4 = 10, Summe = 16 = 4². Allgemein ist Δ_n + Δ_{n+1} = (n+1)². 📄 Quelle: uebung_gesamt, Folie 1 (S.1)",
+  "source": "uebung_gesamt, Folie 1 (S.1, VL 1-4, Aufgabe 1b)"
+ },
+ {
+  "id": "uebung_gesamt-b1-006",
+  "topic": "uebung_gesamt_dreieckszahlen",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Was gilt laut Aufgabe 1b) für die Summe der n-ten und der (n+1)-ten Dreieckszahl?",
+  "options": [
+   "Sie ist stets eine Quadratzahl",
+   "Sie ist gleich (n+1)²",
+   "Sie ist stets eine Primzahl",
+   "Sie ist gleich Δ_{2n}"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "explanation": "Die Folie stellt fest, dass die Summe eine Quadratzahl ist; konkret gilt Δ_n + Δ_{n+1} = n(n+1)/2 + (n+1)(n+2)/2 = (n+1)². 📄 Quelle: uebung_gesamt, Folie 1 (S.1)",
+  "source": "uebung_gesamt, Folie 1 (S.1, VL 1-4, Aufgabe 1b)"
+ },
+ {
+  "id": "uebung_gesamt-b1-007",
+  "topic": "uebung_gesamt_induktion",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Aussage soll in Aufgabe 2a) für alle natürlichen Zahlen n bewiesen werden?",
+  "options": [
+   "n³ − n ist durch 6 teilbar",
+   "n³ − n ist durch 9 teilbar",
+   "n³ − n ist durch 4 teilbar",
+   "n³ − n ist niemals durch 6 teilbar"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Aufgabe 2a) lautet: Für alle natürlichen Zahlen n gilt, n³ − n ist durch 6 teilbar. 📄 Quelle: uebung_gesamt, Folie 1 (S.1)",
+  "source": "uebung_gesamt, Folie 1 (S.1, VL 1-4, Aufgabe 2a)"
+ },
+ {
+  "id": "uebung_gesamt-b1-008",
+  "topic": "uebung_gesamt_induktion",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Berechnen Sie mit der in Aufgabe 2b) bewiesenen Formel ∑_{k=1}^n k = (n²+n)/2 den Wert für n=10.",
+  "answer": 55,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "(10²+10)/2 = 110/2 = 55. 📄 Quelle: uebung_gesamt, Folie 1 (S.1)",
+  "source": "uebung_gesamt, Folie 1 (S.1, VL 1-4, Aufgabe 2b)"
+ },
+ {
+  "id": "uebung_gesamt-b1-009",
+  "topic": "uebung_gesamt_fibonacci",
+  "difficulty": 3,
+  "type": "multi",
+  "question": "Welche Aussagen über den Ausdruck f_n² + f_n·f_{n+1} − f_{n+1}² aus Aufgabe 2c) sind korrekt?",
+  "options": [
+   "Er ist gleich (−1)^{n+1}",
+   "Für gerade n hat er den Wert −1",
+   "Für ungerade n hat er den Wert +1",
+   "Er ist stets gleich 0"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Laut Aufgabe 2c) gilt f_n² + f_n·f_{n+1} − f_{n+1}² = (−1)^{n+1}; für gerades n ist (−1)^{n+1} = −1, für ungerades n ist (−1)^{n+1} = +1. 📄 Quelle: uebung_gesamt, Folie 1 (S.1)",
+  "source": "uebung_gesamt, Folie 1 (S.1, VL 1-4, Aufgabe 2c)"
+ },
+ {
+  "id": "uebung_gesamt-b1-010",
+  "topic": "uebung_gesamt_fibonacci",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Aufgabe 3a) verlangt, die ersten 16 Fibonacci-Zahlen f_1 bis f_16 (mit f_1 = f_2 = 1) aufzuschreiben. Wie lautet f_16?",
+  "answer": 987,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Die Folge lautet 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987; also f_16 = 987. 📄 Quelle: uebung_gesamt, Folie 2 (S.2)",
+  "source": "uebung_gesamt, Folie 2 (S.2, VL 1-4, Aufgabe 3a)"
+ },
+ {
+  "id": "uebung_gesamt-b1-011",
+  "topic": "uebung_gesamt_fibonacci",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Wie lautet die 10-te Fibonacci-Zahl f_10 (mit f_1 = f_2 = 1) aus der Liste in Aufgabe 3a)?",
+  "answer": 55,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "1, 1, 2, 3, 5, 8, 13, 21, 34, 55, ...; also f_10 = 55. 📄 Quelle: uebung_gesamt, Folie 2 (S.2)",
+  "source": "uebung_gesamt, Folie 2 (S.2, VL 1-4, Aufgabe 3a)"
+ },
+ {
+  "id": "uebung_gesamt-b1-012",
+  "topic": "uebung_gesamt_flaeche",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Ausdrücke sind laut Aufgabe 4 gleich dem Flächeninhalt A des Trapezes?",
+  "options": [
+   "((a+c)·h)/2",
+   "((a+c)/2)·h",
+   "(a+c)·(h/2)",
+   "(a·c·h)/2"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Die Folie gibt A = ((a+c)·h)/2 = ((a+c)/2)·h = (a+c)·(h/2) an. 📄 Quelle: uebung_gesamt, Folie 2 (S.2)",
+  "source": "uebung_gesamt, Folie 2 (S.2, VL 5-6, Aufgabe 4)"
+ },
+ {
+  "id": "uebung_gesamt-b1-013",
+  "topic": "uebung_gesamt_flaeche",
+  "difficulty": 1,
+  "type": "multi",
+  "question": "Was bezeichnen in der Trapezformel A = ((a+c)·h)/2 aus Aufgabe 4 die Größen a, c und h?",
+  "options": [
+   "a und c sind die zueinander parallelen Seiten",
+   "h ist die Höhe",
+   "a und c sind die Diagonalen",
+   "h ist der Umfang"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "explanation": "Laut Folie sind a und c die zueinander parallelen Seiten und h die Höhe. 📄 Quelle: uebung_gesamt, Folie 2 (S.2)",
+  "source": "uebung_gesamt, Folie 2 (S.2, VL 5-6, Aufgabe 4)"
+ },
+ {
+  "id": "uebung_gesamt-b1-014",
+  "topic": "uebung_gesamt_vierecke",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Wie werden in Aufgabe 5 ein schiefer und ein symmetrischer Drache definiert?",
+  "options": [
+   "Ein schiefer Drache ist ein Drache, bei dem die Symmetrieachsen nicht orthogonal zueinander stehen",
+   "Bei Orthogonalität der Symmetrieachsen spricht man von einem symmetrischen Drachen",
+   "Ein schiefer Drache ist ein Drache, bei dem die Symmetrieachsen orthogonal zueinander stehen",
+   "Ein schiefer Drache besitzt keine Symmetrieachsen"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "explanation": "Die Folie definiert: schiefer Drache = Symmetrieachsen nicht orthogonal; bei Orthogonalität spricht man von einem symmetrischen Drachen. 📄 Quelle: uebung_gesamt, Folie 2 (S.2)",
+  "source": "uebung_gesamt, Folie 2 (S.2, VL 5-6, Aufgabe 5)"
+ },
+ {
+  "id": "uebung_gesamt-b1-015",
+  "topic": "uebung_gesamt_pythagoras",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "In Aufgabe 6 ist ein Rechteck mit Länge 5 cm und Breite 3 cm gegeben. Wie groß ist sein Flächeninhalt?",
+  "answer": 15,
+  "tolerance": 0,
+  "unit": "cm²",
+  "explanation": "A = 5 cm · 3 cm = 15 cm². 📄 Quelle: uebung_gesamt, Folie 3 (S.3)",
+  "source": "uebung_gesamt, Folie 3 (S.3, VL 7-8, Aufgabe 6)"
+ },
+ {
+  "id": "uebung_gesamt-b1-016",
+  "topic": "uebung_gesamt_pythagoras",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "In Aufgabe 6 wird das Rechteck (5 cm × 3 cm) in ein flächengleiches Quadrat umgewandelt. Wie lang ist die Seite dieses Quadrats (in cm)?",
+  "answer": 3.873,
+  "tolerance": 0.01,
+  "unit": "cm",
+  "explanation": "Das Quadrat muss die Fläche 15 cm² haben, also Seitenlänge √15 ≈ 3.873 cm. 📄 Quelle: uebung_gesamt, Folie 3 (S.3)",
+  "source": "uebung_gesamt, Folie 3 (S.3, VL 7-8, Aufgabe 6)"
+ },
+ {
+  "id": "uebung_gesamt-b1-017",
+  "topic": "uebung_gesamt_restklassen",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Lösen Sie die Gleichung x + 4̄ = 1̄ für m = 6 (Aufgabe 7b). Geben Sie den Repräsentanten der Lösung x in {0,...,5} an.",
+  "answer": 3,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "x ≡ 1 − 4 ≡ −3 ≡ 3 (mod 6), also x = 3̄. 📄 Quelle: uebung_gesamt, Folie 3 (S.3)",
+  "source": "uebung_gesamt, Folie 3 (S.3, VL 9-11, Aufgabe 7b)"
+ },
+ {
+  "id": "uebung_gesamt-b1-018",
+  "topic": "uebung_gesamt_restklassen",
+  "difficulty": 3,
+  "type": "numeric",
+  "question": "Lösen Sie die Gleichung x · 3̄ = 2̄ für m = 4 (Aufgabe 7b). Geben Sie den Repräsentanten der Lösung x in {0,...,3} an.",
+  "answer": 2,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Da ggT(3,4)=1, ist 3 invertierbar (3·3 ≡ 1 mod 4). x ≡ 3·2 ≡ 6 ≡ 2 (mod 4); Probe 3·2 = 6 ≡ 2. 📄 Quelle: uebung_gesamt, Folie 3 (S.3)",
+  "source": "uebung_gesamt, Folie 3 (S.3, VL 9-11, Aufgabe 7b)"
+ },
+ {
+  "id": "uebung_gesamt-b1-019",
+  "topic": "uebung_gesamt_restklassen",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Lösen Sie x − 3 ≡ 2 (mod 4) aus Aufgabe 7b. Geben Sie den Repräsentanten der Lösung x in {0,...,3} an.",
+  "answer": 1,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "x ≡ 2 + 3 ≡ 5 ≡ 1 (mod 4). 📄 Quelle: uebung_gesamt, Folie 3 (S.3)",
+  "source": "uebung_gesamt, Folie 3 (S.3, VL 9-11, Aufgabe 7b)"
+ },
+ {
+  "id": "uebung_gesamt-b1-020",
+  "topic": "uebung_gesamt_restklassen",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche der in Aufgabe 7c) zu bestätigenden Kongruenzen sind wahr?",
+  "options": [
+   "17 ≡ 3 (mod 7)",
+   "1234 ≡ 4 (mod 10)",
+   "17 ≡ 11 (mod 3)",
+   "221 ≡ 5 (mod 4)"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explanation": "17−3=14=2·7; 1234 endet auf 4, also ≡ 4 mod 10; 17≡2 und 11≡2 mod 3; 221≡1 und 5≡1 mod 4. Alle vier Kongruenzen sind wahr. 📄 Quelle: uebung_gesamt, Folie 3 (S.3)",
+  "source": "uebung_gesamt, Folie 3 (S.3, VL 9-11, Aufgabe 7c)"
+ },
+ {
+  "id": "uebung_gesamt-b1-021",
+  "topic": "uebung_gesamt_restklassen",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Bestimmen Sie X in 2·3·5·7 ≡ X (mod 4) mit 0 ≤ X < 4 (Aufgabe 7d).",
+  "answer": 2,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "2·3·5·7 = 210, und 210 = 52·4 + 2, also 210 ≡ 2 (mod 4). 📄 Quelle: uebung_gesamt, Folie 3 (S.3)",
+  "source": "uebung_gesamt, Folie 3 (S.3, VL 9-11, Aufgabe 7d)"
+ },
+ {
+  "id": "uebung_gesamt-b1-022",
+  "topic": "uebung_gesamt_restklassen",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Bestimmen Sie X in 3²·5·11 ≡ X (mod 11) mit 0 ≤ X < 11 (Aufgabe 7d).",
+  "answer": 0,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Der Faktor 11 macht das Produkt durch 11 teilbar: 3²·5·11 = 495 = 45·11 ≡ 0 (mod 11). 📄 Quelle: uebung_gesamt, Folie 3 (S.3)",
+  "source": "uebung_gesamt, Folie 3 (S.3, VL 9-11, Aufgabe 7d)"
+ },
+ {
+  "id": "uebung_gesamt-b1-023",
+  "topic": "uebung_gesamt_restklassen",
+  "difficulty": 3,
+  "type": "numeric",
+  "question": "Bestimmen Sie X in 38^7·39^2 ≡ X (mod 37) mit 0 ≤ X < 37 (Aufgabe 7d).",
+  "answer": 4,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "38 ≡ 1 und 39 ≡ 2 (mod 37), daher 38^7·39^2 ≡ 1^7·2^2 = 4 (mod 37). 📄 Quelle: uebung_gesamt, Folie 3 (S.3)",
+  "source": "uebung_gesamt, Folie 3 (S.3, VL 9-11, Aufgabe 7d)"
+ },
+ {
+  "id": "uebung_gesamt-b1-024",
+  "topic": "uebung_gesamt_euklid",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Bestimmen Sie mit dem euklidischen Algorithmus den größten gemeinsamen Teiler von 76 und 209 (Aufgabe 8a).",
+  "answer": 19,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "209 = 2·76 + 57; 76 = 1·57 + 19; 57 = 3·19 + 0, also ggT(76,209) = 19. 📄 Quelle: uebung_gesamt, Folie 4 (S.4)",
+  "source": "uebung_gesamt, Folie 4 (S.4, VL 12, Aufgabe 8a)"
+ },
+ {
+  "id": "uebung_gesamt-b1-025",
+  "topic": "uebung_gesamt_euklid",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Auf welche vollständig gekürzten Brüche führen die beiden Aufgaben 8a)?",
+  "options": [
+   "76/209 = 4/11",
+   "105/330 = 7/22",
+   "76/209 = 3/11",
+   "105/330 = 7/21"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "explanation": "ggT(76,209)=19 → 76/209 = 4/11; ggT(105,330)=15 → 105/330 = 7/22. 📄 Quelle: uebung_gesamt, Folie 4 (S.4)",
+  "source": "uebung_gesamt, Folie 4 (S.4, VL 12, Aufgabe 8a)"
+ },
+ {
+  "id": "uebung_gesamt-b1-026",
+  "topic": "uebung_gesamt_euklid",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Ein Rechteck 120 cm × 45 cm soll einheitlich mit gleichgroßen Quadraten parkettiert werden (Aufgabe 8c). Welche maximale Seitenlänge (ggT der Seitenlängen, in cm) müsste ein passendes Quadrat haben?",
+  "answer": 15,
+  "tolerance": 0,
+  "unit": "cm",
+  "explanation": "Die Quadratseite muss ein gemeinsamer Teiler von 120 und 45 sein; ggT(120,45)=15. Die vorhandenen Quadrate (10, 20, 30) teilen 45 nicht, daher ist eine vollständige Parkettierung damit unmöglich. 📄 Quelle: uebung_gesamt, Folie 4 (S.4)",
+  "source": "uebung_gesamt, Folie 4 (S.4, VL 12, Aufgabe 8c)"
+ },
+ {
+  "id": "uebung_gesamt-b1-027",
+  "topic": "uebung_gesamt_euklid",
+  "difficulty": 3,
+  "type": "numeric",
+  "question": "Ein Rechteck 84 cm × 56 cm soll mit möglichst wenigen Quadraten vollständig parkettiert werden (Aufgabe 8b). Wie viele Quadrate benötigt man mindestens?",
+  "answer": 3,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Euklidisch: 84 = 1·56 + 28 (ein 56×56-Quadrat), Rest 56×28 = zwei 28×28-Quadrate, insgesamt 3. Mit 2 Quadraten ist es unmöglich, da dies ein Seitenverhältnis 2:1 erfordern würde, 84:56 aber 3:2 beträgt. 📄 Quelle: uebung_gesamt, Folie 4 (S.4)",
+  "source": "uebung_gesamt, Folie 4 (S.4, VL 12, Aufgabe 8b)"
+ }
+]
