@@ -1,0 +1,124 @@
+[
+ {
+  "id": "erk09-b1-001",
+  "topic": "erk09_iri_zahlen",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Berechne die auf der Tafel (Erfinderrunde) gezeigte Minus-Aufgabe mit IRI-Zahlen: 212 − 121 = ?",
+  "answer": 91,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Auf der Tafel der Erfinderrunde ist die Minus-Aufgabe 212 − 121 notiert. Es gilt 212 − 121 = 91. 📄 Quelle: erk09, Folie 1 (S.1)",
+  "source": "erk09, Folie 1 (S.1, IRI-Zahlen / Die Matheprofis 3, S. 85)"
+ },
+ {
+  "id": "erk09-b1-002",
+  "topic": "erk09_iri_zahlen",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Berechne die auf der Tafel (Erfinderrunde) gezeigte Minus-Aufgabe mit IRI-Zahlen: 828 − 282 = ?",
+  "answer": 546,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Auf der Tafel der Erfinderrunde ist die Minus-Aufgabe 828 − 282 notiert. Es gilt 828 − 282 = 546. 📄 Quelle: erk09, Folie 1 (S.1)",
+  "source": "erk09, Folie 1 (S.1, IRI-Zahlen / Die Matheprofis 3, S. 85)"
+ },
+ {
+  "id": "erk09-b1-003",
+  "topic": "erk09_iri_zahlen",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Berechne die in Aufgabe 3 a) abgedruckte Minus-Aufgabe: 323 − 232 = ?",
+  "answer": 91,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "In Aufgabe 3 a) der Schulbuchseite steht u. a. die Aufgabe 323 − 232. Es gilt 323 − 232 = 91. 📄 Quelle: erk09, Folie 1 (S.1)",
+  "source": "erk09, Folie 1 (S.1, IRI-Zahlen, Aufgabe 3a)"
+ },
+ {
+  "id": "erk09-b1-004",
+  "topic": "erk09_iri_zahlen",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Berechne die in Aufgabe 3 b) abgedruckte Minus-Aufgabe: 424 − 242 = ?",
+  "answer": 182,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "In Aufgabe 3 b) der Schulbuchseite steht u. a. die Aufgabe 424 − 242. Es gilt 424 − 242 = 182. 📄 Quelle: erk09, Folie 1 (S.1)",
+  "source": "erk09, Folie 1 (S.1, IRI-Zahlen, Aufgabe 3b)"
+ },
+ {
+  "id": "erk09-b1-005",
+  "topic": "erk09_iri_zahlen",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Berechne die in Aufgabe 3 c) abgedruckte Minus-Aufgabe: 636 − 363 = ?",
+  "answer": 273,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "In Aufgabe 3 c) der Schulbuchseite steht die Aufgabe 636 − 363. Es gilt 636 − 363 = 273. 📄 Quelle: erk09, Folie 1 (S.1)",
+  "source": "erk09, Folie 1 (S.1, IRI-Zahlen, Aufgabe 3c)"
+ },
+ {
+  "id": "erk09-b1-006",
+  "topic": "erk09_aal_zahlen",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Berechne die in Aufgabe 4 abgedruckte Minus-Aufgabe mit AAL-Zahlen: 665 − 556 = ?",
+  "answer": 109,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "In Aufgabe 4 zeigt die Katze ihre Minus-Aufgaben mit AAL-Zahlen, darunter 665 − 556. Es gilt 665 − 556 = 109. 📄 Quelle: erk09, Folie 1 (S.1)",
+  "source": "erk09, Folie 1 (S.1, AAL-Zahlen, Aufgabe 4)"
+ },
+ {
+  "id": "erk09-b1-007",
+  "topic": "erk09_aal_zahlen",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Berechne die in Aufgabe 4 abgedruckte Minus-Aufgabe mit AAL-Zahlen: 996 − 669 = ?",
+  "answer": 327,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "In Aufgabe 4 zeigt die Katze ihre Minus-Aufgaben mit AAL-Zahlen, darunter 996 − 669. Es gilt 996 − 669 = 327. 📄 Quelle: erk09, Folie 1 (S.1)",
+  "source": "erk09, Folie 1 (S.1, AAL-Zahlen, Aufgabe 4)"
+ },
+ {
+  "id": "erk09-b1-008",
+  "topic": "erk09_iri_zahlen",
+  "difficulty": 1,
+  "type": "multi",
+  "question": "Welche der folgenden Zahlen listet Irina auf der Schulbuchseite ausdrücklich als ihre IRI-Zahlen auf?",
+  "options": [
+   "303",
+   "757",
+   "456",
+   "202"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "explanation": "Irinas notierte IRI-Zahlen sind: 121, 212, 575, 757, 282, 828 und 303. Somit gehören 303 und 757 dazu; 456 und 202 stehen nicht auf ihrer Liste. 📄 Quelle: erk09, Folie 1 (S.1)",
+  "source": "erk09, Folie 1 (S.1, IRI-Zahlen, Erfinderrunde)"
+ },
+ {
+  "id": "erk09-b1-009",
+  "topic": "erk09_aal_zahlen",
+  "difficulty": 1,
+  "type": "multi",
+  "question": "Welche Zahlen kommen in den Minus-Aufgaben der Katze mit AAL-Zahlen (Aufgabe 4) vor?",
+  "options": [
+   "776",
+   "669",
+   "747",
+   "558"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "explanation": "Die AAL-Aufgaben in Aufgabe 4 lauten 665 − 556, 776 − 667, 996 − 669 und 331 − 113. Darin kommen 776 und 669 vor; 747 und 558 treten nicht auf. 📄 Quelle: erk09, Folie 1 (S.1)",
+  "source": "erk09, Folie 1 (S.1, AAL-Zahlen, Aufgabe 4)"
+ }
+]

@@ -2,8 +2,8 @@
 
 - **Stand:** 2026-07-18 17:18 UTC
 - **Branch:** `claude/repo-combination-raw-data-vbf3hw`
-- **HEAD:** `ff96917`
-- **Fertige Skripte:** 35 / 70
+- **HEAD:** `8ebe2bc`
+- **Fertige Skripte:** 36 / 70
 - **Fragen gesamt (fertig + laufend, roh):** 606
 
 ## Fortschritt
@@ -54,7 +54,7 @@
 | `erk06` | FERTIG | 8 | erkundung6.pdf |
 | `erk07` | FERTIG | 6 | erkundung7.pdf |
 | `erk08` | FERTIG | 17 | erkundung8.pdf |
-| `erk09` | laufend (1 Blöcke, 9 Fragen, nicht gemergt) | 9 | erkundung9.pdf |
+| `erk09` | FERTIG | 9 | erkundung9.pdf |
 | `ari20_vl10` | offen |  | vl_10_ari20-Folien-ae.pdf |
 | `ari23_vl10` | offen |  | vl_10_ari2023-Folien.pdf |
 | `ari20_vl11` | offen |  | vl_11_ari20-Folien-ae.pdf |
@@ -102,6 +102,5 @@
 - Alles Fertige liegt auf origin; ein Stopp kostet höchstens den einen laufenden Block.
 - Skripte mit `gen/<code>.json` überspringen; für `laufend`-Skript fehlende Blöcke neu erzeugen → `finalize.sh`.
 
-**Laufend:** `erk09`
 **Offen:** `did_vl02_einf`, `did_vl01_ueberblick`, `erk_hand`, `klausur_sose22`, `klausur_wise20`, `did_vl05_begriffe`, `skript01_live23`, `did_vl04_ebenefiguren`, `did_vl04_inhalte`, `did_vl07_raum1`, `did_vl08_raum2`, `did_vl08_zr100`, `uebung_2023`, `uebung_gesamt`, `did_vl03_geohintergr`, `did_vl03_bildungsstd`, `ari20_vl10`, `ari23_vl10`, `ari20_vl11`, `ari23_vl11`, `ari20_vl12`, `ari23_vl01`, `ari21_vl01`, `ari21_vl02`, `ari21_vl03`, `ari23_vl04`, `ari21_vl04`, `ari21_vl05`, `ari23_vl06`, `ari21_vl06`, `ari23_vl07`, `ari21_vl07`, `ari21_vl08`, `ari21_vl09`
 
