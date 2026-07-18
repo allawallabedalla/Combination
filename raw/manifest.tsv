@@ -1,13 +1,72 @@
-# Roh-PDF-Manifest — eine Zeile pro Skript, Tab-getrennt:
-#   <code>	<zieldateiname.pdf>	<quelle>
-#
-# code    = kurzes, stabiles Kürzel (a-z0-9), wird ID- und topic-Präfix in der Pipeline.
-# datei   = Dateiname unter raw/ (nach Import & Kompression).
-# quelle  = http(s)://…  (Download)  |  /pfad oder ./pfad  (lokal kopieren)  |  leer (liegt schon in raw/).
-#
-# Danach:  python3 pipeline/import_raw.py     (holt + komprimiert alles)
-#
-# --- Beispiele (löschen/ersetzen durch die echten Mathematik-Skripte) ---
-# analysis1	01_Analysis_Grundlagen.pdf	https://example.org/skripte/analysis1.pdf
-# lineare	02_Lineare_Algebra.pdf	/home/user/quellen/lin_alg_handschrift.pdf
-# didaktik	03_Fachdidaktik_Mathematik.pdf	./raw/_orig/didaktik_ppt_export.pdf
+# Roh-PDF-Manifest — code<TAB>datei.pdf<TAB>quelle (quelle leer = liegt in raw/)
+# generiert aus den vorhandenen raw/*.pdf; Codes = ID-/topic-Präfix der Pipeline
+did_vl02_einf	1_Did_Ari_Geo_Einführung_BS_VL2.pdf	
+did_vl01_ueberblick	1_Did_Ari_Geo_Einführung_Überblick_120422 VL1.pdf	
+themen_uebersicht	CamScanner 27.06.2023 15.38.pdf	
+erk_hand	Erkundung 1.pdf	
+klausur_ss20	Klausur Arithmetik und Geometrie Vertiefung SS20_and.pdf	
+klausur_sose22	Klausur Vertiefung SoSe22.pdf	
+klausur_wise20	Klausur_Arithmetik_und_Geometrie_WiSe20-21.pdf	
+did_vl05_begriffe	ST_Did_Ari_Geo_Begriffsbildung_VL5.pdf	
+skript01_clean	Skript1.pdf	
+skript10_live	Skript10-live.pdf	
+skript11_live	Skript11-live.pdf	
+skript12_live	Skript12-live.pdf	
+skript01_live23	Skript1_ari2023-live.pdf	
+skript02_liveolz	Skript2-live-ohneLeereSeiten.pdf	
+skript02_live23	Skript2-live_2023-04-18.pdf	
+skript03_live	Skript3-live.pdf	
+skript03_clean	Skript3.pdf	
+skript04_live	Skript4-live.pdf	
+skript04_clean	Skript4.pdf	
+skript05_mit	Skript5-live-Mitschrift-2021-11-23.pdf	
+skript05_live	Skript5-live.pdf	
+skript06_live	Skript6-live.pdf	
+skript07_mit	Skript7-live-Mitschrift-2021-12-07.pdf	
+skript08_mit	Skript8-live-Mitschrift-2021-12-14.pdf	
+skript08_live	Skript8-live.pdf	
+skript09_live	Skript9-live.pdf	
+did_vl04_ebenefiguren	StDid_Ari_Geo_Ebene Figuren_VL4.pdf	
+did_vl04_inhalte	St_Did_Ari_Geo_Inhalte_Geometrieunterricht_VL4.pdf	
+did_vl07_raum1	St_Did_Ari_Geo_Räumliche_Objekte1_VL7.pdf	
+did_vl08_raum2	St_Did_Ari_Geo_Räumliche_Objekte_2_VL8.pdf	
+did_vl08_zr100	St_Did_Ari_Geo_Zahlenraum_100_1_VL8.pdf	
+uebung_2023	Vermischte Übungen_2023.pdf	
+uebung_gesamt	Vermischte Übungen_Gesamt.pdf	
+did_vl03_geohintergr	Vorlesung3StM_Hintergründe_Geometrieunterricht_VL3.pdf	
+did_vl03_bildungsstd	Vorlesung3_Bildungsstandards_Teil2_VL3.pdf	
+erk01	erkundung1.pdf	
+erk10	erkundung10.pdf	
+erk02	erkundung2.pdf	
+erk03	erkundung3.pdf	
+erk04	erkundung4.pdf	
+erk05	erkundung5.pdf	
+erk06	erkundung6.pdf	
+erk07	erkundung7.pdf	
+erk08	erkundung8.pdf	
+erk09	erkundung9.pdf	
+ari20_vl10	vl_10_ari20-Folien-ae.pdf	
+ari23_vl10	vl_10_ari2023-Folien.pdf	
+ari20_vl11	vl_11_ari20-Folien-ae.pdf	
+ari23_vl11	vl_11_ari2023.pdf	
+ari23_vl12	vl_12_ari2023.pdf	
+ari20_vl12	vl_12_ari20_Folien-cs.pdf	
+ari23_vl13	vl_13_ari2023.pdf	
+ari23_vl01	vl_1_ari2023.pdf	
+ari21_vl01	vl_1_ari21-Folien.pdf	
+ari23_vl02	vl_2_ari2023.pdf	
+ari21_vl02	vl_2_ari21-Folien.pdf	
+ari23_vl03	vl_3_ari2023-gekürzt.pdf	
+ari21_vl03	vl_3_ari21-Folien.pdf	
+ari23_vl04	vl_4_ari2023-gekürzt.pdf	
+ari21_vl04	vl_4_ari21-Folien.pdf	
+ari23_vl05	vl_5_ari2023-gekürzt.pdf	
+ari21_vl05	vl_5_ari21-Folien.pdf	
+ari23_vl06	vl_6_ari2023-gekürzt.pdf	
+ari21_vl06	vl_6_ari21-Folien.pdf	
+ari23_vl07	vl_7_ari2023-inkl_TdW-Folien.pdf	
+ari21_vl07	vl_7_ari21-Folien.pdf	
+ari23_vl08	vl_8_ari2023.pdf	
+ari21_vl08	vl_8_ari21-Folien.pdf	
+ari23_vl09	vl_9_ari2023.pdf	
+ari21_vl09	vl_9_ari21-Folien.pdf	
