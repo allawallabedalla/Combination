@@ -1,0 +1,86 @@
+[
+  {
+    "id": "erk04-b1-001",
+    "topic": "erk04_vierlinge",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Aus wie vielen Quadraten besteht ein „Vierling“ laut Arbeitsblatt?",
+    "answer": 4,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Auf dem Schulbuchblatt steht ausdrücklich: „Vierlinge bestehen immer aus 4 Quadraten.“ 📄 Quelle: erk04, Folie 1 (S.1)",
+    "source": "erk04, Folie 1 (S.1, Das Mathehaus 1, S. 125, Werkstatt)"
+  },
+  {
+    "id": "erk04-b1-002",
+    "topic": "erk04_vierlinge",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Wie wird ein „Vierling“ auf dem Arbeitsblatt beschrieben?",
+    "options": [
+      "Eine Figur, die immer aus 4 Quadraten besteht",
+      "Eine Figur, die immer aus 4 Dreiecken besteht",
+      "Eine Figur aus genau 3 Quadraten",
+      "Eine Figur aus beliebig vielen Quadraten"
+    ],
+    "correct": [0],
+    "explanation": "Die Sprechblase auf der Schulbuchseite erklärt: „Vierlinge bestehen immer aus 4 Quadraten.“ 📄 Quelle: erk04, Folie 1 (S.1)",
+    "source": "erk04, Folie 1 (S.1, Das Mathehaus 1, S. 125, Werkstatt)"
+  },
+  {
+    "id": "erk04-b1-003",
+    "topic": "erk04_quadratlinge",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aussagen zu den „n-Quadratlingen“ (Erkundung I, Aufgabe 2a/c) sind korrekt?",
+    "options": [
+      "Ein Vier-Quadratling ist dasselbe wie ein Vierling",
+      "Untersucht werden n-Quadratlinge mit n = 3, 4, 5 oder 6",
+      "Man muss festlegen (definieren), wann zwei Quadratlinge gleich oder verschieden sind",
+      "Ein Sechs-Quadratling besteht aus acht Quadraten"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Aufgabe 2a nennt Drei-, Vier-, Fünf- und Sechs-Quadratlinge (ein Vier-Quadratling entspricht dem Vierling aus 4 Quadraten), fordert das Festlegen von Gleichheit/Verschiedenheit und Aufgabe 2c spricht von „alle n-Quadratlinge mit n = 3, 4, 5 oder 6“. Ein Sechs-Quadratling besteht aus 6 (nicht 8) Quadraten. 📄 Quelle: erk04, Folie 2 (S.2)",
+    "source": "erk04, Folie 2 (S.2, Erkundung IV zu Vierlingen, Erkundung I)"
+  },
+  {
+    "id": "erk04-b1-004",
+    "topic": "erk04_quadratlinge",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Aus wie vielen Quadraten besteht ein „Sechs-Quadratling“?",
+    "answer": 6,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Ein n-Quadratling besteht aus n Quadraten (vgl. Vier-Quadratling = Vierling aus 4 Quadraten); ein Sechs-Quadratling besteht daher aus 6 Quadraten. 📄 Quelle: erk04, Folie 2 (S.2)",
+    "source": "erk04, Folie 2 (S.2, Erkundung IV zu Vierlingen, Erkundung I, Aufgabe 2a)"
+  },
+  {
+    "id": "erk04-b1-005",
+    "topic": "erk04_flaeche",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Aus wie vielen Kästchen besteht das Rechteck aus Aufgabe 3 (6 x 8 Kästchen)?",
+    "answer": 48,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "In Erkundung II wird ein Rechteck mit 6 x 8 Kästchen betrachtet: 6 · 8 = 48 Kästchen. 📄 Quelle: erk04, Folie 2 (S.2)",
+    "source": "erk04, Folie 2 (S.2, Erkundung IV zu Vierlingen, Erkundung II, Aufgabe 3)"
+  },
+  {
+    "id": "erk04-b1-006",
+    "topic": "erk04_parkettierung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Was bedeutet „die Ebene parkettieren“ gemäß Erkundung II (Aufgabe 3b)?",
+    "options": [
+      "Die Steine so lückenlos aneinanderlegen, dass man dies prinzipiell zu allen Seiten endlos fortsetzen könnte",
+      "Nur ein einzelnes 6 x 8-Rechteck lückenlos ausfüllen",
+      "Die Steine mit möglichst wenig Farben einfärben",
+      "Die Steine überlappend übereinanderlegen"
+    ],
+    "correct": [0],
+    "explanation": "Aufgabe 3b definiert „die Ebene parkettieren, d.h. sie so lückenlos aneinanderlegen, dass man dieses prinzipiell zu allen Seiten endlos fortsetzen könnte“. 📄 Quelle: erk04, Folie 2 (S.2)",
+    "source": "erk04, Folie 2 (S.2, Erkundung IV zu Vierlingen, Erkundung II, Aufgabe 3b)"
+  }
+]

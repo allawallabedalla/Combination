@@ -1,0 +1,106 @@
+[
+  {
+    "id": "erk05-b1-001",
+    "topic": "erk05_flaechen_auslegen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Wie werden in der Erkundung I die Größen der Auslege-Figuren zueinander beschrieben? Welche Aussagen treffen zu?",
+    "options": [
+      "Das große Quadrat ist halb so groß wie das Rechteck, das ausgelegt (parkettiert) werden soll.",
+      "Das kleine Quadrat hat die halbe Seitenlänge des großen Quadrats.",
+      "Das große Dreieck entsteht, wenn man das große Quadrat in der Diagonalen teilt.",
+      "Das kleine Dreieck entsteht, wenn man das große Quadrat in der Höhe teilt."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Laut Erkundung I ist das große Quadrat halb so groß wie das Rechteck, das kleine Quadrat hat die halbe Seitenlänge des großen Quadrats und das große Dreieck entsteht durch Teilung des großen Quadrats in der Diagonalen. Das kleine Dreieck entsteht dagegen durch Teilung des großen Dreiecks in der Höhe (nicht des Quadrats). 📄 Quelle: erk05, Folie 2 (S.2)",
+    "source": "erk05, Folie 2 (S.2, Erkundung III zu Flächen auslegen)"
+  },
+  {
+    "id": "erk05-b1-002",
+    "topic": "erk05_flaechen_auslegen",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wie entsteht laut Erkundung I das kleine Dreieck?",
+    "options": [
+      "Man teilt das große Dreieck in der Höhe.",
+      "Man teilt das große Quadrat in der Diagonalen.",
+      "Man teilt das kleine Quadrat in der Diagonalen.",
+      "Man halbiert das Rechteck entlang der Länge."
+    ],
+    "correct": [0],
+    "explanation": "In Erkundung I heißt es: Das kleine Dreieck entsteht, wenn man das große Dreieck in der Höhe teilt. 📄 Quelle: erk05, Folie 2 (S.2)",
+    "source": "erk05, Folie 2 (S.2, Erkundung III zu Flächen auslegen)"
+  },
+  {
+    "id": "erk05-b1-003",
+    "topic": "erk05_parkettierung",
+    "difficulty": 3,
+    "type": "single",
+    "question": "Wann besteht laut Definition eine gleiche Parkettierung bei zwei Rechtecken A und B?",
+    "options": [
+      "Genau dann, wenn die Parkettierungen der beiden Teilquadrate des Rechtecks A jeweils kongruent zu einem der Teilquadrate des Rechtecks B sind.",
+      "Genau dann, wenn die Rechtecke A und B insgesamt kongruent zueinander sind.",
+      "Genau dann, wenn A und B denselben Flächeninhalt besitzen.",
+      "Genau dann, wenn A und B mit derselben Anzahl an Figuren ausgelegt werden."
+    ],
+    "correct": [0],
+    "explanation": "Definition: Eine gleiche Parkettierung besteht bei zwei Rechtecken A und B genau dann, wenn die Parkettierungen der beiden Teilquadrate des Rechtecks A jeweils kongruent zu einem der Teilquadrate des Rechtecks B sind. 📄 Quelle: erk05, Folie 2 (S.2)",
+    "source": "erk05, Folie 2 (S.2, Definition gleiche Parkettierung)"
+  },
+  {
+    "id": "erk05-b1-004",
+    "topic": "erk05_parkettierung",
+    "difficulty": 3,
+    "type": "multi",
+    "question": "Was gilt im abgebildeten Beispiel der beiden Rechtecke unten, die jeweils in zwei Teilquadrate geteilt sind?",
+    "options": [
+      "Die Parkettierungen sind kongruent, weil die Teilquadrate einzeln gesehen jeweils kongruente Parkettierungen enthalten.",
+      "Bezogen auf das Rechteck insgesamt besteht keine Kongruenz der Parkettierung.",
+      "Bezogen auf das Rechteck insgesamt besteht ebenfalls Kongruenz der Parkettierung.",
+      "Die Teilquadrate enthalten keine kongruenten Parkettierungen."
+    ],
+    "correct": [0, 1],
+    "explanation": "Im Beispiel wären die Parkettierungen kongruent, weil die Teilquadrate einzeln gesehen jeweils kongruente Parkettierungen enthalten; bezogen auf das Rechteck insgesamt bestünde jedoch keine Kongruenz der Parkettierung. 📄 Quelle: erk05, Folie 2 (S.2)",
+    "source": "erk05, Folie 2 (S.2, Definition gleiche Parkettierung)"
+  },
+  {
+    "id": "erk05-b1-005",
+    "topic": "erk05_groessen",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "In der verkleinerten Darstellung (handschriftliche Einträge) hat das Rechteck A die Höhe a und die Länge 2a. Wie groß ist sein Flächeninhalt als Vielfaches von a²?",
+    "answer": 2,
+    "tolerance": 0,
+    "unit": "a²",
+    "explanation": "Der Flächeninhalt eines Rechtecks ist Länge mal Höhe: 2a · a = 2a². Das Rechteck A hat also den Flächeninhalt 2a². 📄 Quelle: erk05, Folie 4 (S.4)",
+    "source": "erk05, Folie 4 (S.4, verkleinerte Darstellung mit handschriftlichen Größen)"
+  },
+  {
+    "id": "erk05-b1-006",
+    "topic": "erk05_groessen",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Das große Quadrat hat die Seitenlänge a. Welche Seitenlänge hat das kleine Quadrat als Vielfaches von a?",
+    "answer": 0.5,
+    "tolerance": 0,
+    "unit": "a",
+    "explanation": "Das kleine Quadrat hat die halbe Seitenlänge des großen Quadrats, also ½a = 0,5a. In der verkleinerten Darstellung ist das kleine Quadrat entsprechend mit ½a beschriftet. 📄 Quelle: erk05, Folie 4 (S.4)",
+    "source": "erk05, Folie 4 (S.4, verkleinerte Darstellung mit handschriftlichen Größen)"
+  },
+  {
+    "id": "erk05-b1-007",
+    "topic": "erk05_groessen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Größen sind in der verkleinerten Darstellung handschriftlich eingetragen?",
+    "options": [
+      "Das Rechteck A hat die Länge 2a und die Höhe a.",
+      "Das kleine Quadrat hat die Seitenlänge ½a.",
+      "Das große Quadrat hat die Seitenlänge 2a.",
+      "Die beiden gleich langen Seiten des Dreiecks B sind mit 2a beschriftet."
+    ],
+    "correct": [0, 1, 3],
+    "explanation": "Handschriftlich eingetragen sind für das Rechteck A die Länge 2a und die Höhe a, für das kleine Quadrat die Seitenlänge ½a und für die beiden gleich langen Seiten des Dreiecks B jeweils 2a. Das große Quadrat hat die Seitenlänge a (nicht 2a). 📄 Quelle: erk05, Folie 4 (S.4)",
+    "source": "erk05, Folie 4 (S.4, verkleinerte Darstellung mit handschriftlichen Größen)"
+  }
+]
