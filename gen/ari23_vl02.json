@@ -1,0 +1,923 @@
+[
+ {
+  "id": "ari23_vl02-b1-001",
+  "topic": "ari23_vl02_gauss_summe",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Rückblick: Was sollten Sie laut Folie (wieder) können?",
+  "options": [
+   "Wissen, dass die Natürlichen Zahlen aus der Menge mit den Elementen 1, 2, … besteht",
+   "Akzeptieren, dass man für eine Erkenntnis ausprobieren muss",
+   "Wissen, dass ein Beweis eine gute Geschichte ist, die in Worten, Symbolen oder grafisch (bspw. mit Hilfe figurierter Zahlen) erzählt werden kann",
+   "Wissen, dass die Natürlichen Zahlen das Element 0 enthalten"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Die Folie nennt genau diese drei Punkte; die Natürlichen Zahlen beginnen mit 1, 2, …, nicht mit 0. 📄 Quelle: ari23_vl02, Folie 4 (S.4)",
+  "source": "ari23_vl02, Folie 4 (S.4, Rückblick)"
+ },
+ {
+  "id": "ari23_vl02-b1-002",
+  "topic": "ari23_vl02_gauss_summe",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Wie lautet die auf der Folie formulierte Formel für die Summe Sₙ := 1 + 2 + 3 + … + (n-2) + (n-1) + n?",
+  "options": [
+   "Sₙ = n/2 · (n+1)",
+   "Sₙ = n · (n+1)",
+   "Sₙ = (n+1)/2",
+   "Sₙ = n² / 2"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Der handschriftliche Satz auf der Folie gibt Sₙ = n/2 · (n+1). 📄 Quelle: ari23_vl02, Folie 4 (S.4)",
+  "source": "ari23_vl02, Folie 4 (S.4, Rückblick)"
+ },
+ {
+  "id": "ari23_vl02-b1-003",
+  "topic": "ari23_vl02_gauss_summe",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Berechne mit der Formel Sₙ = n/2 · (n+1) den Wert von S₁₀ = 1 + 2 + 3 + … + 10.",
+  "answer": 55,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "S₁₀ = 10/2 · (10+1) = 5 · 11 = 55. 📄 Quelle: ari23_vl02, Folie 4 (S.4)",
+  "source": "ari23_vl02, Folie 4 (S.4, Rückblick)"
+ },
+ {
+  "id": "ari23_vl02-b1-004",
+  "topic": "ari23_vl02_satzstruktur",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Aussagen zur Struktur eines mathematischen Satzes stehen auf der Folie?",
+  "options": [
+   "In unseren Sätzen wird meistens eine Behauptung für alle Elemente einer Menge (z.B. alle natürlichen Zahlen) formuliert",
+   "Für welche Menge die Behauptung formuliert wird, gehört vor den Satz",
+   "Was man als Voraussetzung als gegeben betrachtet, gehört in den „Wenn“-Teil eines Satzes",
+   "Die Folgerung gehört in den „Wenn“-Teil eines Satzes"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Laut Folie gehört die Voraussetzung in den „Wenn“-Teil, die Folgerung dagegen in den „Dann“-Satz. 📄 Quelle: ari23_vl02, Folie 5 (S.5)",
+  "source": "ari23_vl02, Folie 5 (S.5, Rückblick)"
+ },
+ {
+  "id": "ari23_vl02-b1-005",
+  "topic": "ari23_vl02_satzstruktur",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Was ist laut Folie ein Beweis?",
+  "options": [
+   "Eine Argumentations-Kette von der Voraussetzung bis zur Folgerung",
+   "Eine Aufzählung aller möglichen Beispiele",
+   "Die bloße Wiederholung der Behauptung",
+   "Die Prämisse ohne eine Folgerung"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Folie definiert: „Ein Beweis ist dann eine Argumentations-Kette von der Voraussetzung bis zur Folgerung.“ 📄 Quelle: ari23_vl02, Folie 5 (S.5)",
+  "source": "ari23_vl02, Folie 5 (S.5, Rückblick)"
+ },
+ {
+  "id": "ari23_vl02-b1-006",
+  "topic": "ari23_vl02_satzstruktur",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Vervollständige die Wenn-Dann-Formulierung der Folie: „Für alle natürlichen Zahlen n gilt: Wenn Sₙ die Summe der ersten n natürlichen Zahlen ist, also Sₙ = 1 + 2 + 3 + … + (n-2) + (n-1) + n, dann ist Sₙ = …“",
+  "options": [
+   "n/2 · (n+1)",
+   "n · (n+1)",
+   "(n-1)/2 · n",
+   "2 · n + 1"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Der „Dann“-Teil des Satzes lautet Sₙ = n/2 · (n+1). 📄 Quelle: ari23_vl02, Folie 5 (S.5)",
+  "source": "ari23_vl02, Folie 5 (S.5, Rückblick)"
+ },
+ {
+  "id": "ari23_vl02-b1-007",
+  "topic": "ari23_vl02_verdopplung",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Erkundung I – Verdopplung der Reiskörner: Welche Summe steht in der Tabelle beim Verdopplungswert 64?",
+  "answer": 127,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Laut Tabelle gehört zum Verdopplungswert 64 die Summe 127. 📄 Quelle: ari23_vl02, Folie 7 (S.7)",
+  "source": "ari23_vl02, Folie 7 (S.7, Erkundung I – Verdopplung der Reiskörner)"
+ },
+ {
+  "id": "ari23_vl02-b1-008",
+  "topic": "ari23_vl02_verdopplung",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Wertepaare (Verdopplung → Summe) stehen so in der Tabelle der Reiskörner-Erkundung?",
+  "options": [
+   "32 → 63",
+   "512 → 1023",
+   "32768 → 65535",
+   "1024 → 2048"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Laut Tabelle: 32→63, 512→1023, 32768→65535; zum Verdopplungswert 1024 gehört die Summe 2047 (nicht 2048). 📄 Quelle: ari23_vl02, Folie 7 (S.7)",
+  "source": "ari23_vl02, Folie 7 (S.7, Erkundung I – Verdopplung der Reiskörner)"
+ },
+ {
+  "id": "ari23_vl02-b1-009",
+  "topic": "ari23_vl02_verdopplung",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Welche Summe steht in der Tabelle beim größten aufgeführten Verdopplungswert 32768?",
+  "answer": 65535,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Laut Tabelle gehört zum Verdopplungswert 32768 die Summe 65535. 📄 Quelle: ari23_vl02, Folie 7 (S.7)",
+  "source": "ari23_vl02, Folie 7 (S.7, Erkundung I – Verdopplung der Reiskörner)"
+ },
+ {
+  "id": "ari23_vl02-b1-010",
+  "topic": "ari23_vl02_phaenomene",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Erkundung II (Tabelle für verschiedene n): Wie groß ist bei der Ver-3-fachung der Wert im Feld 5?",
+  "answer": 81,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Laut Tabelle steht bei der Ver-3-fachung im Feld 5 der Wert 81. 📄 Quelle: ari23_vl02, Folie 8 (S.8)",
+  "source": "ari23_vl02, Folie 8 (S.8, Erkundung II – Phänomene erzeugen für verschiedene n)"
+ },
+ {
+  "id": "ari23_vl02-b1-011",
+  "topic": "ari23_vl02_phaenomene",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Erkundung II (Tabelle für verschiedene n): Wie groß ist bei der Ver-4-fachung die Summe im Feld 4?",
+  "answer": 85,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Laut Tabelle steht bei der Ver-4-fachung im Feld 4 die Summe 85. 📄 Quelle: ari23_vl02, Folie 8 (S.8)",
+  "source": "ari23_vl02, Folie 8 (S.8, Erkundung II – Phänomene erzeugen für verschiedene n)"
+ },
+ {
+  "id": "ari23_vl02-b1-012",
+  "topic": "ari23_vl02_phaenomene",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Beobachtung wird auf der Folie (Analogie) zu den Ver-3-/4-/5-fachungen festgehalten?",
+  "options": [
+   "Geht zunächst nicht wie bei der Verdopplung",
+   "So sehe ich erst einmal nichts",
+   "Die Summenformel ist sofort ablesbar",
+   "Es liegt sofort dieselbe Systematik wie bei der Verdopplung vor"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "explanation": "Der Kasten „Analogie“ notiert: „Geht zunächst nicht wie bei Verdopplung.“ und „So sehe ich erst einmal nichts.“ 📄 Quelle: ari23_vl02, Folie 8 (S.8)",
+  "source": "ari23_vl02, Folie 8 (S.8, Erkundung II – Phänomene erzeugen für verschiedene n)"
+ },
+ {
+  "id": "ari23_vl02-b1-013",
+  "topic": "ari23_vl02_formalisieren",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Wie lautet die auf der Folie formalisierte Summen-Folge GL1 für Sₙ (Ver-3-fachung)?",
+  "options": [
+   "Sₙ = 1 + 3¹ + 3² + … + 3^(n-2) + 3^(n-1)",
+   "Sₙ = 1 + 3¹ + 3² + … + 3^n",
+   "Sₙ = 3¹ + 3² + … + 3^(n-1)",
+   "Sₙ = 1 + 2¹ + 2² + … + 2^(n-1)"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "GL1 lautet Sₙ = 1 + 3¹ + 3² + … + 3^(n-2) + 3^(n-1). 📄 Quelle: ari23_vl02, Folie 9 (S.9)",
+  "source": "ari23_vl02, Folie 9 (S.9, Erkundung II)"
+ },
+ {
+  "id": "ari23_vl02-b1-014",
+  "topic": "ari23_vl02_formalisieren",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Wie lautet die andere Darstellung GL2 von Sₙ (auf der Folie: „hier 3 ausklammern“)?",
+  "options": [
+   "Sₙ = 1 + 3 · (1 + 3¹ + … + 3^(n-3) + 3^(n-2))",
+   "Sₙ = 3 · (1 + 3¹ + … + 3^(n-1))",
+   "Sₙ = 1 + 3 · (3¹ + 3² + … + 3^(n-1))",
+   "Sₙ = 1 + 3^(n-1) · (1 + 3 + 3²)"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "GL2 entsteht durch Ausklammern der 3: Sₙ = 1 + 3 · (1 + 3¹ + … + 3^(n-3) + 3^(n-2)). 📄 Quelle: ari23_vl02, Folie 9 (S.9)",
+  "source": "ari23_vl02, Folie 9 (S.9, Erkundung II)"
+ },
+ {
+  "id": "ari23_vl02-b1-015",
+  "topic": "ari23_vl02_formalisieren",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Was ist laut Folie die Strategie bzw. Idee der Erkundung II?",
+  "options": [
+   "Strategie: Anders darstellen",
+   "Ziel: auf einer Seite der Gleichung eine Summen-Folge, auf der anderen eine nur noch von n abhängige Zahl",
+   "Als Vorbild dient die Gauß-Formel Sₙ = n·(n+1)/2",
+   "Ziel ist es, beide Seiten der Gleichung als Summen-Folge zu behalten"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Die Folie nennt die Strategie „Anders darstellen“ und die Idee, eine Seite als Summen-Folge, die andere als nur von n abhängige Zahl (wie bei Gauß Sₙ = n·(n+1)/2) zu erhalten. 📄 Quelle: ari23_vl02, Folie 9 (S.9)",
+  "source": "ari23_vl02, Folie 9 (S.9, Erkundung II)"
+ },
+ {
+  "id": "ari23_vl02-b1-016",
+  "topic": "ari23_vl02_umformung",
+  "difficulty": 3,
+  "type": "single",
+  "question": "Erkundung II: Welche Gleichung ergibt sich nach dem ersten Umformungsschritt aus GL1 = GL2?",
+  "options": [
+   "3^(n-1) = 1 + 2 · (1 + 3¹ + … + 3^(n-3) + 3^(n-2))",
+   "3^(n-1) = 1 + 3 · (1 + 3¹ + … + 3^(n-2))",
+   "3^(n-1) = 2 · (1 + 3¹ + … + 3^(n-1))",
+   "3^n = 1 + 2 · (1 + 3¹ + … + 3^(n-2))"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Aus GL1 = GL2 folgt 3^(n-1) = 1 + 2 · (1 + 3¹ + … + 3^(n-3) + 3^(n-2)). 📄 Quelle: ari23_vl02, Folie 10 (S.10)",
+  "source": "ari23_vl02, Folie 10 (S.10, Erkundung II)"
+ },
+ {
+  "id": "ari23_vl02-b1-017",
+  "topic": "ari23_vl02_umformung",
+  "difficulty": 3,
+  "type": "single",
+  "question": "Zu welchem Ausdruck ist (3^(n-1) − 1)/2 laut Folie gleich?",
+  "options": [
+   "1 + 3¹ + … + 3^(n-3) + 3^(n-2) = Sₙ − 3^(n-1)",
+   "Sₙ",
+   "Sₙ + 3^(n-1)",
+   "3^(n-1)"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Nach den Umformungen gilt (3^(n-1) − 1)/2 = 1 + 3¹ + … + 3^(n-3) + 3^(n-2) = Sₙ − 3^(n-1). 📄 Quelle: ari23_vl02, Folie 10 (S.10)",
+  "source": "ari23_vl02, Folie 10 (S.10, Erkundung II)"
+ },
+ {
+  "id": "ari23_vl02-b1-018",
+  "topic": "ari23_vl02_umformung",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Schritte werden auf der Folie („Wir manipulieren die Gleichungen durch Umformungen“) durchgeführt?",
+  "options": [
+   "Es wird GL1 = GL2 gesetzt",
+   "Die Gleichungen werden durch Umformungen manipuliert",
+   "Aus 3^(n-1) = 1 + 2 · (…) wird durch Subtraktion von 1: 3^(n-1) − 1 = 2 · (…)",
+   "Es wird eine zusätzliche Voraussetzung neu erfunden"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Die Folie setzt GL1 = GL2 und formt durch Manipulation um: 3^(n-1) − 1 = 2 · (1 + 3¹ + … + 3^(n-2)). 📄 Quelle: ari23_vl02, Folie 10 (S.10)",
+  "source": "ari23_vl02, Folie 10 (S.10, Erkundung II)"
+ },
+ {
+  "id": "ari23_vl02-b1-019",
+  "topic": "ari23_vl02_summenformel",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Welches Endergebnis für Sₙ (Ver-3-fachung) wird auf der Folie durch die Umformungen erreicht?",
+  "options": [
+   "Sₙ = (3^n − 1)/2",
+   "Sₙ = (3^(n-1) − 1)/2",
+   "Sₙ = (3^n − 1)/3",
+   "Sₙ = 3^n − 1"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Am Ende der Umformungskette steht (3^n − 1)/2 = Sₙ. 📄 Quelle: ari23_vl02, Folie 11 (S.11)",
+  "source": "ari23_vl02, Folie 11 (S.11, Erkundung II)"
+ },
+ {
+  "id": "ari23_vl02-b1-020",
+  "topic": "ari23_vl02_summenformel",
+  "difficulty": 3,
+  "type": "single",
+  "question": "Wie wird der Zähler im Schritt (3 · 3^(n-1) − 1)/2 auf der Folie umgeschrieben?",
+  "options": [
+   "3 · 3^(n-1) − 1 = 3^(n-1) − 1 + 2 · 3^(n-1)",
+   "3 · 3^(n-1) − 1 = 3^(n-1) + 1",
+   "3 · 3^(n-1) − 1 = 2 · 3^(n-1) − 1",
+   "3 · 3^(n-1) − 1 = 3^(n-1) − 1"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Auf der Folie wird 3·3^(n-1) − 1 = 3^(n-1) − 1 + 2·3^(n-1) geschrieben, was zu (3^n − 1)/2 = Sₙ führt. 📄 Quelle: ari23_vl02, Folie 11 (S.11)",
+  "source": "ari23_vl02, Folie 11 (S.11, Erkundung II)"
+ },
+ {
+  "id": "ari23_vl02-b1-021",
+  "topic": "ari23_vl02_summenformel",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Setze die entdeckte Formel Sₙ = (3^n − 1)/2 für n = 4 ein. Ergebnis?",
+  "answer": 40,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "S₄ = (3⁴ − 1)/2 = (81 − 1)/2 = 40 (stimmt mit der Summe im Feld 4 der Ver-3-fachung überein). 📄 Quelle: ari23_vl02, Folie 11 (S.11)",
+  "source": "ari23_vl02, Folie 11 (S.11, Erkundung II)"
+ },
+ {
+  "id": "ari23_vl02-b1-022",
+  "topic": "ari23_vl02_verallgemeinerung",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche verallgemeinerten Summenformeln stehen auf der Folie?",
+  "options": [
+   "1 + 2¹ + 2² + … + 2^(n-1) = (2^n − 1)/1 = 2^n − 1",
+   "1 + 3¹ + 3² + … + 3^(n-1) = (3^n − 1)/2",
+   "1 + 4¹ + 4² + … + 4^(n-1) = (4^n − 1)/3",
+   "1 + 5¹ + 5² + … + 5^(n-1) = (5^n − 1)/5"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Laut Folie ist der Nenner bei der Ver-5-fachung 4, also (5^n − 1)/4, nicht /5. 📄 Quelle: ari23_vl02, Folie 12 (S.12)",
+  "source": "ari23_vl02, Folie 12 (S.12, Erkundung II)"
+ },
+ {
+  "id": "ari23_vl02-b1-023",
+  "topic": "ari23_vl02_verallgemeinerung",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Wie lautet die allgemeine Formel auf der Folie und für welche k gilt sie?",
+  "options": [
+   "1 + k¹ + k² + … + k^(n-1) = (k^n − 1)/(k − 1) für k ≥ 2",
+   "1 + k¹ + … + k^(n-1) = (k^n − 1)/k für k ≥ 1",
+   "1 + k¹ + … + k^(n-1) = (k^(n-1) − 1)/(k − 1) für k ≥ 2",
+   "1 + k¹ + … + k^(n-1) = k^n − 1 für alle k"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Folie gibt 1 + k¹ + k² + … + k^(n-1) = (k^n − 1)/(k − 1) für k ≥ 2. 📄 Quelle: ari23_vl02, Folie 12 (S.12)",
+  "source": "ari23_vl02, Folie 12 (S.12, Erkundung II)"
+ },
+ {
+  "id": "ari23_vl02-b1-024",
+  "topic": "ari23_vl02_verallgemeinerung",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Welcher Nenner steht laut Folie in der Summenformel für die Ver-6-fachung, also 1 + 6¹ + … + 6^(n-1) = (6^n − 1)/?",
+  "answer": 5,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Auf der Folie: 1 + 6¹ + 6² + … + 6^(n-1) = (6^n − 1)/5. 📄 Quelle: ari23_vl02, Folie 12 (S.12)",
+  "source": "ari23_vl02, Folie 12 (S.12, Erkundung II)"
+ },
+ {
+  "id": "ari23_vl02-b1-025",
+  "topic": "ari23_vl02_formel_anwendung",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Wie lautet die auf Folie 13 umrahmte Formel für Sₙ?",
+  "options": [
+   "Sₙ = 1 + k¹ + k² + k³ + … + k^(n-3) + k^(n-2) + k^(n-1) = (k^n − 1)/(k − 1)",
+   "Sₙ = 1 + k¹ + k² + … + k^(n-1) = (k^(n-1) − 1)/(k − 1)",
+   "Sₙ = k¹ + k² + … + k^n = (k^n − 1)/k",
+   "Sₙ = 1 + k¹ + … + k^n = k^n − 1"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Der Kasten auf der Folie zeigt Sₙ = 1 + k¹ + k² + k³ + … + k^(n-3) + k^(n-2) + k^(n-1) = (k^n − 1)/(k − 1). 📄 Quelle: ari23_vl02, Folie 13 (S.13)",
+  "source": "ari23_vl02, Folie 13 (S.13, Erkundung II)"
+ },
+ {
+  "id": "ari23_vl02-b1-026",
+  "topic": "ari23_vl02_formel_anwendung",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Laut Tabelle auf Folie 13: Wie groß ist bei der Ver-5-fachung die Summe im Feld 4?",
+  "answer": 156,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Laut Tabelle steht bei der Ver-5-fachung im Feld 4 die Summe 156. 📄 Quelle: ari23_vl02, Folie 13 (S.13)",
+  "source": "ari23_vl02, Folie 13 (S.13, Erkundung II)"
+ },
+ {
+  "id": "ari23_vl02-b1-027",
+  "topic": "ari23_vl02_formel_anwendung",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Welche Aufgabe wird auf Folie 13 gestellt?",
+  "options": [
+   "Bestimmen Sie mit Hilfe der entdeckten Formel für Sₙ die Summe der ersten 7 Felder bei einer Vervierfachung",
+   "Bestimmen Sie die Summe der ersten 5 Felder bei einer Verdreifachung",
+   "Bestimmen Sie die Summe der ersten 7 Felder bei einer Verfünffachung",
+   "Bestimmen Sie die Summe der ersten 10 Felder bei einer Verdopplung"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Aufgabe lautet: Summe der ersten 7 Felder bei einer Vervierfachung mit Hilfe der Formel für Sₙ. 📄 Quelle: ari23_vl02, Folie 13 (S.13)",
+  "source": "ari23_vl02, Folie 13 (S.13, Erkundung II)"
+ },
+ {
+  "id": "ari23_vl02-b1-028",
+  "topic": "ari23_vl02_formel_anwendung",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Berechne mit der Formel S₇ bei einer Vervierfachung: S₇ = (4⁷ − 1)/(4 − 1). Ergebnis?",
+  "answer": 5461,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "S₇ = (4⁷ − 1)/(4 − 1) = (16384 − 1)/3 = 5461. 📄 Quelle: ari23_vl02, Folie 14 (S.14)",
+  "source": "ari23_vl02, Folie 14 (S.14, Erkundung II)"
+ },
+ {
+  "id": "ari23_vl02-b1-029",
+  "topic": "ari23_vl02_formel_anwendung",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Wie wird S₇ (Vervierfachung) auf Folie 14 berechnet?",
+  "options": [
+   "S₇ = 1 + 4¹ + 4² + 4³ + 4⁴ + 4⁵ + 4⁶ = (4⁷ − 1)/(4 − 1) = (16384 − 1)/3 = 5461",
+   "S₇ = (4⁷ − 1)/4 = 4095,75",
+   "S₇ = 1 + 4¹ + 4² + … + 4⁷ = (4⁸ − 1)/3",
+   "S₇ = (4⁶ − 1)/3 = 1365"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Folie rechnet S₇ = 1 + 4¹ + 4² + 4³ + 4⁴ + 4⁵ + 4⁶ = (4⁷ − 1)/(4 − 1) = (16384 − 1)/3 = 5461. 📄 Quelle: ari23_vl02, Folie 14 (S.14)",
+  "source": "ari23_vl02, Folie 14 (S.14, Erkundung II)"
+ },
+ {
+  "id": "ari23_vl02-b1-030",
+  "topic": "ari23_vl02_formel_anwendung",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Welcher Zahlenwert für 4⁷ wird in der Rechnung auf Folie 14 verwendet?",
+  "answer": 16384,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "In der Rechnung steht (4⁷ − 1)/3 = (16384 − 1)/3, also 4⁷ = 16384. 📄 Quelle: ari23_vl02, Folie 14 (S.14)",
+  "source": "ari23_vl02, Folie 14 (S.14, Erkundung II)"
+ },
+ {
+  "id": "ari23_vl02-b1-031",
+  "topic": "ari23_vl02_satz_formulieren",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Wie beschreibt Folie 15 das Vorgehen für Sₙ (Aufsummierung bis zur (n-1)-ten Vervielfachung) in Worten?",
+  "options": [
+   "Man nehme die Vervielfachungszahl k hoch n",
+   "Ziehe 1 ab",
+   "Teile durch die Vervielfachungszahl minus 1, also k − 1",
+   "Multipliziere mit der Vervielfachungszahl k"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Die Folie beschreibt: k hoch n nehmen, 1 abziehen, durch k − 1 teilen. 📄 Quelle: ari23_vl02, Folie 15 (S.15)",
+  "source": "ari23_vl02, Folie 15 (S.15, Erkundung II)"
+ },
+ {
+  "id": "ari23_vl02-b1-032",
+  "topic": "ari23_vl02_satz_formulieren",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Bis zu welcher Vervielfachung wird laut Folie 15 aufsummiert?",
+  "options": [
+   "bis zur (n-1)-ten Vervielfachung",
+   "bis zur n-ten Vervielfachung",
+   "bis zur (n-2)-ten Vervielfachung",
+   "bis zur k-ten Vervielfachung"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Folie: „Man nehme bei der Aufsummierung bis zur (n-1)-ten Vervielfachung …“ 📄 Quelle: ari23_vl02, Folie 15 (S.15)",
+  "source": "ari23_vl02, Folie 15 (S.15, Erkundung II)"
+ },
+ {
+  "id": "ari23_vl02-b1-033",
+  "topic": "ari23_vl02_satz_formulieren",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Welche Formel steht im umrahmten Kasten auf Folie 15?",
+  "options": [
+   "Sₙ = 1 + k¹ + k² + k³ + … + k^(n-3) + k^(n-2) + k^(n-1) = (k^n − 1)/(k − 1)",
+   "Sₙ = (k^(n-1) − 1)/(k − 1)",
+   "Sₙ = k^n − 1",
+   "Sₙ = 1 + k + k² + … + k^n = (k^(n+1) − 1)/(k − 1)"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Der Kasten zeigt Sₙ = 1 + k¹ + k² + k³ + … + k^(n-3) + k^(n-2) + k^(n-1) = (k^n − 1)/(k − 1). 📄 Quelle: ari23_vl02, Folie 15 (S.15)",
+  "source": "ari23_vl02, Folie 15 (S.15, Erkundung II)"
+ },
+ {
+  "id": "ari23_vl02-b2-001",
+  "topic": "ari23_vl02_geometrische_summe",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Aussagen über den Satz zur Summe S_n = 1+k^1+k^2+k^3+…+k^(n-3)+k^(n-2)+k^(n-1) sind korrekt?",
+  "options": [
+   "Der Satz gilt für alle natürlichen Zahlen n.",
+   "Vorausgesetzt wird, dass k eine natürliche Zahl größer 1 ist.",
+   "Es gilt S_n = (k^n − 1)/(k − 1).",
+   "Es gilt S_n = (k^(n-1) − 1)/(k − 1)."
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Auf der Folie steht: „Für alle natürlichen Zahlen n gilt: Wenn k eine natürliche Zahl größer 1 ist, dann ist S_n = 1+k^1+…+k^(n-1) = (k^n − 1)/(k − 1).“ 📄 Quelle: ari23_vl02, Folie 16 (S.16)",
+  "source": "ari23_vl02, Folie 16 (S.16, Arithmetik)"
+ },
+ {
+  "id": "ari23_vl02-b2-002",
+  "topic": "ari23_vl02_geometrische_summe",
+  "difficulty": 1,
+  "type": "multi",
+  "question": "Nach welcher Vorschrift bildet man laut Folie die Summe S_n bis zur (n−1)-ten Vervielfachung?",
+  "options": [
+   "Man bildet die Vervielfachungszahl k hoch n.",
+   "Man zieht 1 ab.",
+   "Man teilt durch die Vervielfachungszahl k−1.",
+   "Man teilt durch die Vervielfachungszahl k."
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Die Folie beschreibt: die Vervielfachungszahl k hoch n, ziehe 1 ab und teile durch die Vervielfachungszahl k−1. 📄 Quelle: ari23_vl02, Folie 16 (S.16)",
+  "source": "ari23_vl02, Folie 16 (S.16, Arithmetik)"
+ },
+ {
+  "id": "ari23_vl02-b2-003",
+  "topic": "ari23_vl02_geometrische_summe",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Berechne S_n nach der Folienformel S_n = (k^n − 1)/(k − 1) für k = 3 und n = 5.",
+  "answer": 121,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "(3^5 − 1)/(3 − 1) = (243 − 1)/2 = 242/2 = 121 (vgl. Spalte „Ver-3-fachung, Summe“, Feld 5 der Tabelle). 📄 Quelle: ari23_vl02, Folie 16 (S.16)",
+  "source": "ari23_vl02, Folie 16 (S.16, Arithmetik)"
+ },
+ {
+  "id": "ari23_vl02-b2-004",
+  "topic": "ari23_vl02_geometrische_summe",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Schritte gehören zum Beweis „wie Konstruktion“ der Formel für S_n?",
+  "options": [
+   "Man stellt die gleiche Summen-Folge zweimal dar und klammert einmal aus.",
+   "Man bringt die „reduzierte“ Summen-Folge (bis (n−1)) auf eine Seite und den Rest auf die andere.",
+   "Man teilt zum Schluss durch (k−1).",
+   "Man quadriert am Ende beide Seiten der Gleichung."
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Der Beweis „wie Konstruktion“: gleiche Summen-Folge zweimal darstellen und ausklammern, reduzierte Folge auf eine Seite bringen, rechte Seite zusammenfassen, durch (k−1) teilen. 📄 Quelle: ari23_vl02, Folie 17 (S.17)",
+  "source": "ari23_vl02, Folie 17 (S.17, Arithmetik)"
+ },
+ {
+  "id": "ari23_vl02-b2-005",
+  "topic": "ari23_vl02_geometrische_summe",
+  "difficulty": 3,
+  "type": "multi",
+  "question": "Welche Gleichungen treten im Beweis „wie Konstruktion“ (Folie 17) auf?",
+  "options": [
+   "Aus dem Ausklammern: 1+k^1+…+k^(n-1)+k^n = 1 + k·(1+k^1+…+k^(n-1)).",
+   "Nach dem Zusammenfassen: k^n − 1 = (k−1)·(1+k^1+…+k^(n-1)).",
+   "Nach Division: (k^n − 1)/(k − 1) = 1+k^1+…+k^(n-1).",
+   "Es gilt k^n − 1 = (k+1)·(1+k^1+…+k^(n-1))."
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Die Folie zeigt genau diese Umformungen; rechte Seite wird zu (k−1)·(…) zusammengefasst und dann durch (k−1) geteilt. 📄 Quelle: ari23_vl02, Folie 17 (S.17)",
+  "source": "ari23_vl02, Folie 17 (S.17, Arithmetik)"
+ },
+ {
+  "id": "ari23_vl02-b2-006",
+  "topic": "ari23_vl02_geometrische_summe",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Für k = 2 vereinfacht sich die Formel S_n = (k^n − 1)/(k − 1) laut Folie zu:",
+  "options": [
+   "2^n − 1",
+   "2^n",
+   "2^(n-1) − 1",
+   "(2^n − 1)/2"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Für k=2: 1+2^1+2^2+…+2^(n-1) = (2^n − 1)/1 = 2^n − 1. 📄 Quelle: ari23_vl02, Folie 18 (S.18)",
+  "source": "ari23_vl02, Folie 18 (S.18, Arithmetik)"
+ },
+ {
+  "id": "ari23_vl02-b2-007",
+  "topic": "ari23_vl02_vollstaendige_induktion",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Welches Beweisverfahren wird auf der Folie als Alternative beim Beweis von Sätzen über natürliche Zahlen eingeführt?",
+  "options": [
+   "Die vollständige Induktion",
+   "Der Widerspruchsbeweis",
+   "Der direkte Beweis durch Ausklammern",
+   "Der Ringschluss"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "„Es gibt eine Klasse von Beweisen, die sich als Alternative … anbietet: Die vollständige Induktion.“ 📄 Quelle: ari23_vl02, Folie 18 (S.18)",
+  "source": "ari23_vl02, Folie 18 (S.18, Arithmetik)"
+ },
+ {
+  "id": "ari23_vl02-b2-008",
+  "topic": "ari23_vl02_natuerliche_zahlen",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Von wem stammt das Zitat „Die ganzen Zahlen hat der liebe Gott geschaffen, alles andere ist Menschenwerk.“?",
+  "options": [
+   "Leopold Kronecker (1823–1891)",
+   "Giuseppe Peano (1858–1932)",
+   "Carl Friedrich Gauß",
+   "Leonardo Fibonacci"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Das Zitat wird Leopold Kronecker (1823–1891) zugeschrieben. 📄 Quelle: ari23_vl02, Folie 20 (S.20)",
+  "source": "ari23_vl02, Folie 20 (S.20, Arithmetik)"
+ },
+ {
+  "id": "ari23_vl02-b2-009",
+  "topic": "ari23_vl02_natuerliche_zahlen",
+  "difficulty": 2,
+  "type": "single",
+  "question": "In welchem Jahrhundert entstand laut Folie die Bewegung, die Mathematik durch Axiomatisierung auf solidere Füße zu stellen?",
+  "options": [
+   "Im 19. Jahrhundert",
+   "Im 17. Jahrhundert",
+   "Im 20. Jahrhundert",
+   "Im 18. Jahrhundert"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "„Im 19. Jahrhundert entstand aber die Bewegung … die sogenannte Axiomatisierung.“ 📄 Quelle: ari23_vl02, Folie 20 (S.20)",
+  "source": "ari23_vl02, Folie 20 (S.20, Arithmetik)"
+ },
+ {
+  "id": "ari23_vl02-b2-010",
+  "topic": "ari23_vl02_peano_axiome",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Eigenschaften muss eine Zahlenmenge N nach Peano erfüllen, um „Natürliche Zahlen“ zu heißen?",
+  "options": [
+   "1 ist eine Natürliche Zahl.",
+   "Zu jeder natürlichen Zahl n gibt es genau einen Nachfolger n'.",
+   "Kein Element von N hat als Nachfolger die 1.",
+   "Jedes Element ist Nachfolger genau zweier verschiedener Elemente von N."
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Axiome 1–3 nach Peano; Axiom 4 lautet dagegen: „Kein Element ist Nachfolger zweier verschiedener Elemente von N.“ 📄 Quelle: ari23_vl02, Folie 21 (S.21)",
+  "source": "ari23_vl02, Folie 21 (S.21, Arithmetik)"
+ },
+ {
+  "id": "ari23_vl02-b2-011",
+  "topic": "ari23_vl02_peano_axiome",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Von wem stammt die axiomatische Charakterisierung der natürlichen Zahlen durch die fünf genannten Eigenschaften?",
+  "options": [
+   "Giuseppe Peano (1858–1932)",
+   "Leopold Kronecker (1823–1891)",
+   "Richard Dedekind",
+   "David Hilbert"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Die Axiome werden Giuseppe Peano (1858–1932) zugeordnet. 📄 Quelle: ari23_vl02, Folie 21 (S.21)",
+  "source": "ari23_vl02, Folie 21 (S.21, Arithmetik)"
+ },
+ {
+  "id": "ari23_vl02-b2-012",
+  "topic": "ari23_vl02_peano_axiome",
+  "difficulty": 3,
+  "type": "multi",
+  "question": "Welche Aussagen geben Peano-Axiome korrekt wieder?",
+  "options": [
+   "Kein Element ist Nachfolger zweier verschiedener Elemente von N (Axiom 4).",
+   "Ist M eine Teilmenge von N und erfüllt die ersten beiden Axiome, dann ist M gleich N (Axiom 5).",
+   "Jede natürliche Zahl n hat genau einen Nachfolger n' (Axiom 2).",
+   "Die 1 ist Nachfolger eines Elements von N."
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Axiome 4, 5 und 2. Die letzte Aussage widerspricht Axiom 3: „Kein Element von N hat als Nachfolger die 1.“ 📄 Quelle: ari23_vl02, Folie 21 (S.21)",
+  "source": "ari23_vl02, Folie 21 (S.21, Arithmetik)"
+ },
+ {
+  "id": "ari23_vl02-b2-013",
+  "topic": "ari23_vl02_vollstaendige_induktion",
+  "difficulty": 1,
+  "type": "single",
+  "question": "Was ist die vollständige Induktion laut Folie (Grundidee)?",
+  "options": [
+   "Ein Beweisverfahren für Aussagen, die von Natürlichen Zahlen abhängen.",
+   "Ein Verfahren zur Berechnung von Grenzwerten.",
+   "Ein Verfahren zum Lösen linearer Gleichungssysteme.",
+   "Ein Näherungsverfahren für Wurzeln."
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "„Ein Beweisverfahren für Aussagen, die von Natürlichen Zahlen abhängen.“ 📄 Quelle: ari23_vl02, Folie 25 (S.25)",
+  "source": "ari23_vl02, Folie 25 (S.25, Arithmetik)"
+ },
+ {
+  "id": "ari23_vl02-b2-014",
+  "topic": "ari23_vl02_vollstaendige_induktion",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Zuordnungen der Beweisschritte der vollständigen Induktion zu den Peano-Axiomen sind laut Folie korrekt?",
+  "options": [
+   "Induktionsanfang: man zeigt, dass A(1) wahr ist (Axiom 1).",
+   "Induktionsvoraussetzung: Annahme, dass A(n) für ein beliebiges, aber festes n wahr ist.",
+   "Induktionsschritt: aus A(n) folgt A(n+1) (Nachfolgereigenschaft, Axiom 2).",
+   "Induktionsschluss: der Induktionsanfang allein genügt bereits für alle n."
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Induktionsanfang = Axiom 1, Induktionsschritt = Axiom 2 (Nachfolgereigenschaft), Induktionsschluss nutzt Axiom 5; die Induktionsvoraussetzung ist die Annahme für festes n. 📄 Quelle: ari23_vl02, Folie 25 (S.25)",
+  "source": "ari23_vl02, Folie 25 (S.25, Arithmetik)"
+ },
+ {
+  "id": "ari23_vl02-b2-015",
+  "topic": "ari23_vl02_vollstaendige_induktion",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Welchen Wert hat S_1 im Induktionsanfang A(1) des Satzes S_n = 2^n − 1?",
+  "answer": 1,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "A(1): S_1 = 2^(1-1) = 2^0 = 1 = 2 − 1 = 2^1 − 1. 📄 Quelle: ari23_vl02, Folie 27 (S.27)",
+  "source": "ari23_vl02, Folie 27 (S.27, Arithmetik)"
+ },
+ {
+  "id": "ari23_vl02-b2-016",
+  "topic": "ari23_vl02_vollstaendige_induktion",
+  "difficulty": 3,
+  "type": "multi",
+  "question": "Welche Umformungen des Induktionsschritts (n → n+1) für S_n = 2^n − 1 sind laut Folie korrekt?",
+  "options": [
+   "S_(n+1) = 1+2^1+…+2^(n-1)+2^n = S_n + 2^n",
+   "S_n + 2^n = (2^n − 1) + 2^n (nach Induktionsvoraussetzung)",
+   "(2^n − 1) + 2^n = 2·2^n − 1 = 2^(n+1) − 1",
+   "S_(n+1) = S_n · 2^n"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Folie: S_(n+1) = S_n + 2^n = 2^n − 1 + 2^n = 2·2^n − 1 = 2^(n+1) − 1. 📄 Quelle: ari23_vl02, Folie 27 (S.27)",
+  "source": "ari23_vl02, Folie 27 (S.27, Arithmetik)"
+ },
+ {
+  "id": "ari23_vl02-b2-017",
+  "topic": "ari23_vl02_vollstaendige_induktion",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Was wird im Induktionsschluss (Folie 27) gefolgert?",
+  "options": [
+   "Da A(1) wahr ist und auch A(n) → A(n+1) wahr ist, ist A(n) für alle Natürlichen Zahlen n wahr.",
+   "Der Satz gilt nur für n = 1.",
+   "Der Satz gilt nur für gerade n.",
+   "Es folgt kein Ergebnis."
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "„Da A(1) wahr ist und auch A(n) → A(n+1) wahr ist, ist A(n) für alle Natürlichen Zahlen n wahr.“ 📄 Quelle: ari23_vl02, Folie 27 (S.27)",
+  "source": "ari23_vl02, Folie 27 (S.27, Arithmetik)"
+ },
+ {
+  "id": "ari23_vl02-b2-018",
+  "topic": "ari23_vl02_vollstaendige_induktion",
+  "difficulty": 2,
+  "type": "single",
+  "question": "Welche Formel gilt laut Übungsfolie für die Summe der ersten n natürlichen Zahlen S_n = 1 + 2 + 3 + … + (n−2) + (n−1) + n?",
+  "options": [
+   "S_n = (n/2) · (n+1)",
+   "S_n = n · (n+1)",
+   "S_n = (n/2) · (n−1)",
+   "S_n = (n+1)/2"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "„Wenn S_n = 1 + 2 + 3 + … + n, dann ist S_n = (n/2)·(n+1).“ 📄 Quelle: ari23_vl02, Folie 28 (S.28)",
+  "source": "ari23_vl02, Folie 28 (S.28, Arithmetik)"
+ },
+ {
+  "id": "ari23_vl02-b2-019",
+  "topic": "ari23_vl02_vollstaendige_induktion",
+  "difficulty": 2,
+  "type": "numeric",
+  "question": "Berechne mit der Folienformel S_n = (n/2)·(n+1) die Summe der ersten 5 natürlichen Zahlen (n = 5).",
+  "answer": 15,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "S_5 = (5/2)·(5+1) = (5/2)·6 = 15 (= 1+2+3+4+5). 📄 Quelle: ari23_vl02, Folie 28 (S.28)",
+  "source": "ari23_vl02, Folie 28 (S.28, Arithmetik)"
+ },
+ {
+  "id": "ari23_vl02-b2-020",
+  "topic": "ari23_vl02_zahlenfolgen",
+  "difficulty": 2,
+  "type": "multi",
+  "question": "Welche Aussagen zur Fibonacci-Folge auf der Erkundungsfolie sind korrekt?",
+  "options": [
+   "Die Folge stammt von Leonardo Fibonacci.",
+   "Sie wird nach der Regel f_n = f_(n-1) + f_(n-2) (für n > 2) gebildet.",
+   "Die auf der Folie gezeigten Anfangsglieder sind 1, 1, 2, 3, 5, 8, 13, 21, 34.",
+   "Jede Fibonacci-Zahl ist das Produkt der beiden vorangehenden Zahlen."
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Die Folge stammt von Leonardo Fibonacci; f_n = f_(n-1) + f_(n-2) (n>2), Startwerte f_1 = f_2 = 1, gezeigt: 1, 1, 2, 3, 5, 8, 13, 21, 34. Nicht das Produkt, sondern die Summe. 📄 Quelle: ari23_vl02, Folie 30 (S.30)",
+  "source": "ari23_vl02, Folie 30 (S.30, Arithmetik)"
+ },
+ {
+  "id": "ari23_vl02-b2-021",
+  "topic": "ari23_vl02_zahlenfolgen",
+  "difficulty": 1,
+  "type": "numeric",
+  "question": "Setze die auf der Folie gezeigte Fibonacci-Folge 1, 1, 2, 3, 5, 8, 13, 21, 34 nach der Fibonacci-Regel fort: Wie lautet die nächste Zahl?",
+  "answer": 55,
+  "tolerance": 0,
+  "unit": "",
+  "explanation": "Nach f_n = f_(n-1) + f_(n-2): 34 + 21 = 55. 📄 Quelle: ari23_vl02, Folie 30 (S.30)",
+  "source": "ari23_vl02, Folie 30 (S.30, Arithmetik)"
+ }
+]
