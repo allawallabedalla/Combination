@@ -1,0 +1,434 @@
+[
+  {
+    "id": "ari23_vl01-b1-001",
+    "topic": "ari23_vl01_ich_phase",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Was gehört laut Folie zur Vorgehensweise in der \"Ich-Phase\"?",
+    "options": [
+      "Lesen der Aufgaben und Verständnisnachfragen (nach der Vorlesung; Forum)",
+      "Erkundung (zu Hause) und Dokumentation aller Schritte",
+      "Reflexion der Erkundung",
+      "Präsentation einer Musterlösung im Plenum"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Die Folie nennt drei Schritte der Ich-Phase: 1. Lesen der Aufgaben, Verständnisnachfragen (nach der Vorlesung; Forum), 2. Erkundung (zu Hause) und Dokumentation aller Schritte, 3. Reflexion der Erkundung. Eine Musterlösungspräsentation gehört nicht dazu. 📄 Quelle: ari23_vl01, Folie 5 (S.5)",
+    "source": "ari23_vl01, Folie 5 (S.5, Erkundung: ICH)"
+  },
+  {
+    "id": "ari23_vl01-b1-002",
+    "topic": "ari23_vl01_ich_phase",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Woher stammen die Erkundungsaufgaben der Ich-Phase laut Folie?",
+    "options": [
+      "Aus einer Seite eines Grundschulbuchs (in der Regel am Ende einer VL)",
+      "Aus einem Hochschullehrbuch zur Analysis",
+      "Aus einer Klausursammlung",
+      "Aus einem Video-Tutorial"
+    ],
+    "correct": [0],
+    "explanation": "Laut Folie erhalten die Studierenden zu (fast) jedem Thema der Vorlesung eine Seite aus einem Grundschulbuch (in der Regel am Ende einer VL) mit Erkundungsaufgaben. 📄 Quelle: ari23_vl01, Folie 5 (S.5)",
+    "source": "ari23_vl01, Folie 5 (S.5, Erkundung: ICH)"
+  },
+  {
+    "id": "ari23_vl01-b1-003",
+    "topic": "ari23_vl01_ich_phase",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Bis wann sollen Verständnisnachfragen laut Folie im moodle-Forum gestellt werden?",
+    "options": [
+      "bis Do 11:00 Uhr",
+      "bis Mo 09:00 Uhr",
+      "bis Fr 12:00 Uhr",
+      "bis So 23:59 Uhr"
+    ],
+    "correct": [0],
+    "explanation": "Die Folie gibt an, dass die Dokumentation aller Schritte (Verständnisnachfragen) bis Do 11:00 Uhr im moodle-Forum erfolgen soll. 📄 Quelle: ari23_vl01, Folie 5 (S.5)",
+    "source": "ari23_vl01, Folie 5 (S.5, Erkundung: ICH)"
+  },
+  {
+    "id": "ari23_vl01-b1-004",
+    "topic": "ari23_vl01_gauss_summe",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Berechne die Summe der ersten zehn natürlichen Zahlen: 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 (Aufgabe 2a der Erkundung 0).",
+    "answer": 55,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Aufgabe 2a fordert das Addieren der ersten zehn Zahlen; 1+2+3+4+5+6+7+8+9+10 = 55. 📄 Quelle: ari23_vl01, Folie 6 (S.6)",
+    "source": "ari23_vl01, Folie 6 (S.6, Erkundung: ICH)"
+  },
+  {
+    "id": "ari23_vl01-b1-005",
+    "topic": "ari23_vl01_gauss_summe",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Laut Aufgabe 3a der Erkundung 0 gilt 1 + 2 + 3 + 4 + … + 30 = 31 · 15. Welchen Wert hat diese Summe?",
+    "answer": 465,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Der auf der Folie angegebene Zahlensatz 1+2+3+4+…+30 = 31·15 ergibt 31·15 = 465. 📄 Quelle: ari23_vl01, Folie 6 (S.6)",
+    "source": "ari23_vl01, Folie 6 (S.6, Erkundung: ICH)"
+  },
+  {
+    "id": "ari23_vl01-b1-006",
+    "topic": "ari23_vl01_gauss_summe",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Zahlensätze werden in Aufgabe 3a der Erkundung 0 (\"Malnehmen statt Addieren\") angegeben?",
+    "options": [
+      "1 + 2 + 3 + 4 + … + 30 = 31 · 15",
+      "1 + 2 + 3 + 4 + … + 50 = 51 · 25",
+      "1 + 2 + 3 + … + 100 = 101 · 50",
+      "1 + 2 + 3 + … + 20 = 21 · 10"
+    ],
+    "correct": [0, 1],
+    "explanation": "In Aufgabe 3a stehen genau die beiden Zahlensätze 1+2+3+4+…+30 = 31·15 und 1+2+3+4+…+50 = 51·25, die mit dem Taschenrechner überprüft werden sollen. 📄 Quelle: ari23_vl01, Folie 6 (S.6)",
+    "source": "ari23_vl01, Folie 6 (S.6, Erkundung: ICH)"
+  },
+  {
+    "id": "ari23_vl01-b1-007",
+    "topic": "ari23_vl01_ich_phase",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Teilaufgaben umfasst die \"Erkundung I\" auf dieser Folie?",
+    "options": [
+      "Für verschiedene natürliche Zahlen einen schnellen Weg finden, die ersten n Zahlen zu addieren",
+      "Die Idee für die Summe der ersten n natürlichen Zahlen verallgemeinern und einen Satz formulieren",
+      "Eine Begründung für den Satz erarbeiten",
+      "Den Satz per vollständiger Induktion im Skript nachschlagen"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Erkundung I umfasst laut Folie: a) für verschiedene natürliche Zahlen einen schnellen Weg zum Addieren finden, b) die Idee verallgemeinern und einen Satz formulieren, c) eine Begründung erarbeiten. Ein Nachschlagen per Induktion wird nicht verlangt. 📄 Quelle: ari23_vl01, Folie 6 (S.6)",
+    "source": "ari23_vl01, Folie 6 (S.6, Erkundung: ICH)"
+  },
+  {
+    "id": "ari23_vl01-b1-008",
+    "topic": "ari23_vl01_gauss_summe",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wie bildet der \"kleine Gauß\" laut Folie die Summe 1 + 2 + … + 10 geschickt?",
+    "options": [
+      "Er addiert Paare aus erster und letzter Zahl (1+10, 2+9, …), die jeweils 11 ergeben",
+      "Er verdoppelt die größte Zahl",
+      "Er zieht die kleinste von der größten Zahl ab",
+      "Er multipliziert alle Zahlen miteinander"
+    ],
+    "correct": [0],
+    "explanation": "Auf der Folie bildet der kleine Gauß Paare (1 und 10, 2 und 9, …) mit jeweils der Summe 11; es entstehen 5 solche Paare, also 5·11 = 55. 📄 Quelle: ari23_vl01, Folie 7 (S.7)",
+    "source": "ari23_vl01, Folie 7 (S.7, Erkundung: ICH)"
+  },
+  {
+    "id": "ari23_vl01-b1-009",
+    "topic": "ari23_vl01_gauss_summe",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welche Formel für die Summe der ersten n Zahlen wird auf der Folie notiert?",
+    "options": [
+      "n/2 · (n+1)",
+      "n · (n+1)",
+      "n/2 · (n−1)",
+      "(n+1)/2 · (n+2)"
+    ],
+    "correct": [0],
+    "explanation": "Die Folie hält fest: die Summe der ersten n Zahlen ist gleich n/2 · (n+1). 📄 Quelle: ari23_vl01, Folie 7 (S.7)",
+    "source": "ari23_vl01, Folie 7 (S.7, Erkundung: ICH)"
+  },
+  {
+    "id": "ari23_vl01-b1-010",
+    "topic": "ari23_vl01_gauss_summe",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Laut Folie ist die \"Summe bis 6\" gleich 3 · 7. Welchen Wert hat 1 + 2 + 3 + 4 + 5 + 6?",
+    "answer": 21,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Der auf der Folie notierte Zusammenhang \"Summe bis 6 ist 3·7\" ergibt 3·7 = 21 = 1+2+3+4+5+6. 📄 Quelle: ari23_vl01, Folie 7 (S.7)",
+    "source": "ari23_vl01, Folie 7 (S.7, Erkundung: ICH)"
+  },
+  {
+    "id": "ari23_vl01-b1-011",
+    "topic": "ari23_vl01_deg",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Wofür steht die Abkürzung \"DeG\"?",
+    "options": [
+      "Dokumentation der eigenen Gedanken beim Lösungsprozess",
+      "Darstellung eigener Grundvorstellungen",
+      "Diagnose einzelner Grundschulaufgaben",
+      "Diskussion entlang der Grundschulseite"
+    ],
+    "correct": [0],
+    "explanation": "DeG steht laut Folie für \"Dokumentation der eigenen Gedanken beim Lösungsprozess\". 📄 Quelle: ari23_vl01, Folie 8 (S.8)",
+    "source": "ari23_vl01, Folie 8 (S.8, Erkundung: ICH)"
+  },
+  {
+    "id": "ari23_vl01-b1-012",
+    "topic": "ari23_vl01_deg",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Was sollen die Zettel einer DeG laut Folie enthalten?",
+    "options": [
+      "Namen, Datum und den Bezug zu einer Erkundung (z. B. \"Erkundung 1\")",
+      "Rechnungen, Texte, Bilder, Skizzen",
+      "Eine kurze Kommentierung der Schritte: Warum hat man was gemacht?",
+      "Die offizielle Musterlösung der Dozentin"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Laut Folie enthalten die Zettel Namen, Datum und Bezug zu einer Erkundung; Rechnungen, Texte, Bilder, Skizzen; die Schritte sollen kurz kommentiert werden (Warum hat man was gemacht?). Eine Musterlösung ist nicht vorgesehen. 📄 Quelle: ari23_vl01, Folie 8 (S.8)",
+    "source": "ari23_vl01, Folie 8 (S.8, Erkundung: ICH)"
+  },
+  {
+    "id": "ari23_vl01-b1-013",
+    "topic": "ari23_vl01_deg",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Fragen sollen laut Folie bei der Reflexion einer Lösung bzw. eines Lösungsansatzes beantwortet werden?",
+    "options": [
+      "Welcher Ansatz hat warum geholfen?",
+      "Welche Fragen stellen ein Problem dar?",
+      "Wie lautet die Note für die Erkundung?",
+      "Welche Aufgabe kommt in der Klausur dran?"
+    ],
+    "correct": [0, 1],
+    "explanation": "Zur Reflexion (Punkt 5) nennt die Folie die Leitfragen \"Welcher Ansatz hat warum geholfen?\" und \"Welche Fragen stellen ein Problem dar?\". 📄 Quelle: ari23_vl01, Folie 8 (S.8)",
+    "source": "ari23_vl01, Folie 8 (S.8, Erkundung: ICH)"
+  },
+  {
+    "id": "ari23_vl01-b1-014",
+    "topic": "ari23_vl01_darstellungen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Darstellungsformen werden auf dieser Folie zur Systematisierung der Summe 1 + 2 + … + 100 unterschieden?",
+    "options": [
+      "Darstellung der Päckchenbildung",
+      "Balkendiagramm",
+      "Arithmetische Darstellung (Additionsverfahren)",
+      "Darstellung als Bruchrechnung"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Die Folie systematisiert die Summe über die Darstellung der Päckchenbildung (I), das Balkendiagramm (II), die bildliche Darstellung (III) und die arithmetische Darstellung/Additionsverfahren (IV). Eine \"Bruchrechnung\" ist keine dieser Formen. 📄 Quelle: ari23_vl01, Folie 11 (S.11)",
+    "source": "ari23_vl01, Folie 11 (S.11, Erkundung: ICH)"
+  },
+  {
+    "id": "ari23_vl01-b1-015",
+    "topic": "ari23_vl01_darstellungen",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "In der Päckchenbildung entstehen für 1 + 2 + 3 + … + 100 genau 50 Päckchen mit der Summe 101. Welchen Wert hat 50 · 101?",
+    "answer": 5050,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Die Folie bildet 50 Päckchen à 101, also 1+2+3+…+100 = 50·101 = 5050. 📄 Quelle: ari23_vl01, Folie 11 (S.11)",
+    "source": "ari23_vl01, Folie 11 (S.11, Erkundung: ICH)"
+  },
+  {
+    "id": "ari23_vl01-b1-016",
+    "topic": "ari23_vl01_darstellungen",
+    "difficulty": 3,
+    "type": "single",
+    "question": "Wie ergibt sich im Balkendiagramm-Ansatz die gesuchte Summe 1 + 2 + … + 100?",
+    "options": [
+      "Als (100 · 101) : 2, da das Diagramm die doppelte Summe (100 · 101) darstellt",
+      "Als 100 · 101, ohne Halbierung",
+      "Als 100 + 101",
+      "Als 100² : 2"
+    ],
+    "correct": [0],
+    "explanation": "Im Balkendiagramm entsteht das Rechteck 100·101 = 10100, das die doppelte Summe darstellt; die gesuchte Summe ist daher (100·101):2. 📄 Quelle: ari23_vl01, Folie 11 (S.11)",
+    "source": "ari23_vl01, Folie 11 (S.11, Erkundung: ICH)"
+  },
+  {
+    "id": "ari23_vl01-b1-017",
+    "topic": "ari23_vl01_gauss_summe",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wie wird auf der Folie die Summe der ersten n natürlichen Zahlen allgemein notiert?",
+    "options": [
+      "1 + 2 + 3 + … + (n−2) + (n−1) + n",
+      "1 + 3 + 5 + … + (2n−1)",
+      "2 + 4 + 6 + … + n",
+      "1 · 2 · 3 · … · n"
+    ],
+    "correct": [0],
+    "explanation": "Die Verallgemeinerung für die ersten n natürlichen Zahlen wird als 1 + 2 + 3 + … + (n−2) + (n−1) + n mit n ∈ ℕ notiert. 📄 Quelle: ari23_vl01, Folie 12 (S.12)",
+    "source": "ari23_vl01, Folie 12 (S.12, Erkundung: ICH)"
+  },
+  {
+    "id": "ari23_vl01-b1-018",
+    "topic": "ari23_vl01_gauss_summe",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Für welche Zahlen n gilt die auf der Folie formulierte Verallgemeinerung?",
+    "options": [
+      "für alle n ∈ ℕ",
+      "nur für gerade n",
+      "nur für n ≤ 100",
+      "nur für Primzahlen n"
+    ],
+    "correct": [0],
+    "explanation": "Die Folie formuliert die Verallgemeinerung ausdrücklich für n ∈ ℕ, also für alle natürlichen Zahlen. 📄 Quelle: ari23_vl01, Folie 12 (S.12)",
+    "source": "ari23_vl01, Folie 12 (S.12, Erkundung: ICH)"
+  },
+  {
+    "id": "ari23_vl01-b1-019",
+    "topic": "ari23_vl01_gauss_summe",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Warum werden laut Folie die Glieder n−2 und n−1 in der Summe mit aufgeschrieben?",
+    "options": [
+      "Um nicht nur den letzten Summanden (n) vor Augen zu haben, sondern das Bildungsmuster deutlich zu machen",
+      "Weil die Summe sonst falsch wäre",
+      "Weil n−2 und n−1 die einzigen relevanten Summanden sind",
+      "Um die Zahl der Summanden zu halbieren"
+    ],
+    "correct": [0],
+    "explanation": "Im Text der Folie werden n−2 und n−1 als Glieder aufgeführt, um nicht nur den letzten Summanden n vor Augen zu haben, sondern das Muster der Summe zu verdeutlichen. 📄 Quelle: ari23_vl01, Folie 12 (S.12)",
+    "source": "ari23_vl01, Folie 12 (S.12, Erkundung: ICH)"
+  },
+  {
+    "id": "ari23_vl01-b1-020",
+    "topic": "ari23_vl01_beweis",
+    "difficulty": 3,
+    "type": "single",
+    "question": "Auf welcher Idee beruht die Begründung auf dieser Folie?",
+    "options": [
+      "Die Summe wird zweimal notiert (aufsteigend und absteigend); je zwei übereinanderstehende Glieder ergeben n+1",
+      "Die Summe wird durch fortgesetztes Verdoppeln der größten Zahl gebildet",
+      "Man wendet vollständige Induktion über n an",
+      "Man integriert die Funktion f(x) = x"
+    ],
+    "correct": [0],
+    "explanation": "Die Begründung notiert die Summe zweimal (einmal aufsteigend, einmal absteigend); je zwei übereinanderstehende Glieder ergeben n+1, und es gibt n solche Spalten. 📄 Quelle: ari23_vl01, Folie 13 (S.13)",
+    "source": "ari23_vl01, Folie 13 (S.13, Erkundung: ICH)"
+  },
+  {
+    "id": "ari23_vl01-b1-021",
+    "topic": "ari23_vl01_beweis",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welche Gleichung ergibt sich laut Folie zunächst, bevor am Ende halbiert wird?",
+    "options": [
+      "2 · (1 + 2 + 3 + … + n) = n · (n+1)",
+      "1 + 2 + 3 + … + n = n · (n+1)",
+      "1 + 2 + 3 + … + n = n · (n−1)",
+      "2 · (1 + 2 + 3 + … + n) = (n+1)²"
+    ],
+    "correct": [0],
+    "explanation": "Da die Summe doppelt notiert wird und jede der n Spalten n+1 ergibt, folgt zunächst 2·(1+2+3+…+n) = n·(n+1). 📄 Quelle: ari23_vl01, Folie 13 (S.13)",
+    "source": "ari23_vl01, Folie 13 (S.13, Erkundung: ICH)"
+  },
+  {
+    "id": "ari23_vl01-b1-022",
+    "topic": "ari23_vl01_beweis",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wie erhält man aus 2 · (1 + 2 + 3 + … + n) = n · (n+1) die Summenformel?",
+    "options": [
+      "Man halbiert die Gleichung und erhält 1 + 2 + 3 + … + n = n · (n+1) / 2",
+      "Man quadriert beide Seiten",
+      "Man subtrahiert n auf beiden Seiten",
+      "Man multipliziert beide Seiten mit 2"
+    ],
+    "correct": [0],
+    "explanation": "Laut Folie wird die letzte Zeile halbiert, weil zunächst nur eine Formel für das Doppelte der Summe gefunden war; so ergibt sich 1+2+3+…+n = n·(n+1)/2. 📄 Quelle: ari23_vl01, Folie 13 (S.13)",
+    "source": "ari23_vl01, Folie 13 (S.13, Erkundung: ICH)"
+  },
+  {
+    "id": "ari23_vl01-b1-023",
+    "topic": "ari23_vl01_beweis",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welche Aussage wird im Beweis auf dieser Folie gezeigt?",
+    "options": [
+      "∑ von k=1 bis n über k = n · (n+1) / 2 für n ∈ ℕ",
+      "∑ von k=1 bis n über k = n²",
+      "∑ von k=1 bis n über k² = n(n+1)(2n+1)/6",
+      "∑ von k=1 bis n über k = 2^n − 1"
+    ],
+    "correct": [0],
+    "explanation": "Der Beweis nennt als zu zeigende Aussage 1+2+3+…+n = ∑_{k=1}^{n} k = n·(n+1)/2 für n ∈ ℕ. 📄 Quelle: ari23_vl01, Folie 14 (S.14)",
+    "source": "ari23_vl01, Folie 14 (S.14, Erkundung: ICH)"
+  },
+  {
+    "id": "ari23_vl01-b1-024",
+    "topic": "ari23_vl01_beweis",
+    "difficulty": 3,
+    "type": "multi",
+    "question": "Welche Schritte werden in diesem Beweis verwendet?",
+    "options": [
+      "Die Summe wird mit 2 multipliziert",
+      "Die zweite Summe wird in umgekehrter Reihenfolge notiert",
+      "Je zwei zusammengehörige Summanden ergeben n+1, wodurch n · (n+1) entsteht",
+      "Es wird der binomische Lehrsatz angewendet"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Der Beweis multipliziert die Summe mit 2, notiert die zweite Summe rückwärts, fasst je zwei Summanden zu n+1 zusammen (n·(n+1)) und teilt am Ende durch 2. Der binomische Lehrsatz wird nicht verwendet. 📄 Quelle: ari23_vl01, Folie 14 (S.14)",
+    "source": "ari23_vl01, Folie 14 (S.14, Erkundung: ICH)"
+  },
+  {
+    "id": "ari23_vl01-b1-025",
+    "topic": "ari23_vl01_beweis",
+    "difficulty": 3,
+    "type": "single",
+    "question": "In welche Form werden die Summanden nach dem Umkehren der zweiten Summe zusammengefasst?",
+    "options": [
+      "Jede Spalte ergibt (n+1); insgesamt n Spalten, also n · (n+1)",
+      "Jede Spalte ergibt n; insgesamt n Spalten, also n · n",
+      "Jede Spalte ergibt 2n; insgesamt n Spalten, also 2n²",
+      "Jede Spalte ergibt n−1; insgesamt n Spalten, also n · (n−1)"
+    ],
+    "correct": [0],
+    "explanation": "Nach dem Umkehren der zweiten Summe ergibt jede der n Spalten (n+1), sodass 2·∑ = n·(n+1) und nach Halbierung ∑ = n·(n+1)/2 folgt. 📄 Quelle: ari23_vl01, Folie 14 (S.14)",
+    "source": "ari23_vl01, Folie 14 (S.14, Erkundung: ICH)"
+  },
+  {
+    "id": "ari23_vl01-b1-026",
+    "topic": "ari23_vl01_du_phase",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Was kennzeichnet laut Folie die Vorgehensweise in der \"Du-Phase\"?",
+    "options": [
+      "Austauschen von Ansätzen, die im DeG vorhanden sind",
+      "Ohne Ansätze gibt es keine Tutorien",
+      "Einholen von Beratung",
+      "Präsentation einer Musterlösung durch die Tutor*innen"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Die Du-Phase umfasst laut Folie: Austauschen von Ansätzen aus dem DeG, \"Ohne Ansätze gibt es keine Tutorien!\", \"Keine Präsentation einer Musterlösung!\" und Einholen von Beratung. Eine Musterlösungspräsentation ist ausdrücklich ausgeschlossen. 📄 Quelle: ari23_vl01, Folie 18 (S.18)",
+    "source": "ari23_vl01, Folie 18 (S.18, Erkundung: DU)"
+  },
+  {
+    "id": "ari23_vl01-b1-027",
+    "topic": "ari23_vl01_du_phase",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Wozu gehen die Studierenden laut Folie mit ihrem DeG in die Übungen?",
+    "options": [
+      "Um Bestätigungen zu erhalten, Ergebnisse und Wege auszutauschen und Hilfestellungen für den Weg zu bekommen",
+      "Um eine benotete Klausur zu schreiben",
+      "Um die Musterlösung abzuschreiben",
+      "Um ausschließlich neue Aufgaben zu erhalten"
+    ],
+    "correct": [0],
+    "explanation": "Laut Folie gehen die Studierenden mit ihrem DeG in die Übungen, um Bestätigungen zu erhalten, Ergebnisse und Wege auszutauschen und Hilfestellungen für den Weg zu bekommen; die Tutor*innen unterstützen dabei. 📄 Quelle: ari23_vl01, Folie 18 (S.18)",
+    "source": "ari23_vl01, Folie 18 (S.18, Erkundung: DU)"
+  },
+  {
+    "id": "ari23_vl01-b1-028",
+    "topic": "ari23_vl01_du_phase",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Was gilt laut Folie, wenn keine eigenen Ansätze vorliegen?",
+    "options": [
+      "Ohne Ansätze gibt es keine Tutorien",
+      "Die Tutor*innen präsentieren dann die Musterlösung",
+      "Man erhält automatisch eine Beratung",
+      "Die Erkundung gilt als bestanden"
+    ],
+    "correct": [0],
+    "explanation": "Die Folie stellt in Punkt 2 klar: \"Ohne Ansätze gibt es keine Tutorien!\". 📄 Quelle: ari23_vl01, Folie 18 (S.18)",
+    "source": "ari23_vl01, Folie 18 (S.18, Erkundung: DU)"
+  }
+]
