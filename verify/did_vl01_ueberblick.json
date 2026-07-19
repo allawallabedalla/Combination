@@ -1,0 +1,13 @@
+{
+  "code": "did_vl01_ueberblick",
+  "checked": 45,
+  "fixed": [],
+  "flagged": [],
+  "notes": [
+    "Alle 45 Fragen (b1-001..b1-020, b2-001..b2-025) gegen die zitierten Folien (S.7-19, S.25-28) geprueft. Seitenzahlen, Quellen, 📄-Marker und correct-Indizes stimmen mit den Folienbildern ueberein.",
+    "b1-016: Folie 12 nennt 'mehrere - mindestens drei - zusammenhaengende Unterrichtsstunden'; answer=3 belegt.",
+    "b1-017: Lernzielhierarchie Richtziele->Grobziele->Feinziele auf Folie 13 bestaetigt.",
+    "b2-007/b2-008: Dialog Folie 17 '? ... 4' und '? ... 3' bestaetigt.",
+    "Anthropogene vs. soziokulturelle Zuordnungen (Sitzordnung, Klassenatmosphaere, Disziplin, soziale Herkunft) auf Folien 10/11 korrekt abgegrenzt."
+  ]
+}
