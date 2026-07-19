@@ -1,0 +1,12 @@
+{
+  "code": "ari21_vl09",
+  "checked": 37,
+  "fixed": [],
+  "flagged": [],
+  "notes": [
+    "Alle 37 Fragen (b1-001..013, b2-001..024) gegen die Folien geprüft. Keine belegten Fehler gefunden; Katalog unverändert gelassen.",
+    "Formel-Folien 5/7/8 direkt an den PNGs verifiziert (fulltext.txt zeigt dort nur die Rückblick-Überschriften ohne Formeln): Folie 5 bestätigt A⇒B :⇔ ¬A∨B und Verneinung ¬(¬A∨B)=A∧¬B; Folie 7 Beweisidee (Verneinung A∧¬B immer falsch); Folie 8 Widerspruchsbeweis mit a²=(2n+1)²=(2n)²+2·2n+1²=4n²+4n+1 (nicht gerade), Gegenannahme A∧¬B, Schluss ¬(A⇒B) falsch ⇒ A⇒B wahr. Alle correct-Indizes stimmen.",
+    "Geometrie-Folien 12/15/16/17/19/20/21/23/24/26/27 stimmen mit fulltext.txt und stichprobenhaft geprüften PNGs (16, 21) überein; distraktoren korrekt falsch (z.B. Dreieck/Volumen kein Grundbegriff, Winkel≠'Menge aller Punkte', Schnittpunkte gehören zu Grundtätigkeit 5 nicht zu 'Modulen nachher', längenverändernd widerspricht Längentreue).",
+    "Seitenzahlen: PDF-Seite N = Folie N; alle source-/Quelle-Angaben folientreu. Alle explanation-Felder enden mit korrektem '📄 Quelle: ari21_vl09, Folie N (S.NN)'-Marker. Schema gültig (single genau eine correct, multi mehrere, keine numeric)."
+  ]
+}
