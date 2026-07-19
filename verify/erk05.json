@@ -1,0 +1,11 @@
+{
+ "code": "erk05",
+ "checked": 7,
+ "fixed": [],
+ "flagged": [],
+ "notes": [
+  "Alle 7 Fragen gegen p002 (S.2) und p004 (S.4) geprüft; keine belegten Fehler gefunden.",
+  "S.2 (p002): Titel 'Erkundung III zu Flächen auslegen'; die Größenbeschreibungen der Auslege-Figuren stehen im Bullet unter 'Erkundung I'. Fragen b1-001/002 referenzieren korrekt 'Erkundung I'. b1-001 correct=[0,1,2] belegt (kleines Dreieck entsteht durch Teilung des großen DREIECKS in der Höhe, Option 3 zu Recht falsch). b1-002 correct=[0] belegt. Definition gleiche Parkettierung (b1-003, b1-004) wortgetreu.",
+  "S.4 (p004, verkleinerte Darstellung): großes Quadrat Seitenlänge a, kleines Quadrat ½a, Rechteck A Länge 2a/Höhe a, Dreieck B beide gleich langen Seiten 2a — alle handschriftlichen Werte bestätigt. b1-005 (2a²), b1-006 (0,5a), b1-007 correct=[0,1,3] belegt."
+ ]
+}
