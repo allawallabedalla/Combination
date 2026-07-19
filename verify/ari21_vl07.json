@@ -1,0 +1,13 @@
+{
+ "code": "ari21_vl07",
+ "checked": 34,
+ "fixed": [],
+ "flagged": [],
+ "notes": [
+  "Alle 34 Fragen (b1-001..b1-015, b2-001..b2-019) gegen die Folienbilder geprueft; keine belegten Fehler. Alle correct-Indizes, Wahrheitstafeln (Folie 6/8/9/21/23), De-Morgan-Regeln (Folie 9: not(AvB)=notA and notB; Folie 20: not(A and notB)=notA v B) und die numeric-Frage (Folie 22: M=6 Elemente) sind folientreu.",
+  "Implikations-Wahrheitstafeln Folie 21/23: Folie sagt A=>B ist genau dann wahr, wenn notA v B wahr (sonst falsch). Der fulltext gab dies durch OCR verstuemmelt als 'A (Pfeil) B' und 'notA and B' wieder; das Bild bestaetigt notA v B. JSON war bereits korrekt.",
+  "Quellhinweis (kein Fehler in den Fragen): Auf Folie 6 vertauscht das Skript selbst die Symbolzuordnung ('und (v)' und einschliessendes 'oder (^)'). Standardlogik waere und=^, oder=v. Keine Frage behauptet eine konkrete Symbol-Zuordnung fuer und/oder, daher keine Korrektur/Flag noetig; nur transparenzhalber vermerkt.",
+  "Seitenzahlen: Folie-Nummer = PDF-Seite (<N> = S.N). Alle source-Felder und Quelle-Marker stimmen mit der jeweiligen Seite ueberein.",
+  "Fragen b1-010/011/012 (Folie 8, 'ein Feld wahr') und b1-013/014/015 (Folie 9, 'drei Felder wahr') beziehen sich auf reine Bildfolien (im fulltext leer); per Bild bestaetigt."
+ ]
+}
