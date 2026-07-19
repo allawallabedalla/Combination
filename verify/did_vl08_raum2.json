@@ -1,0 +1,13 @@
+{
+  "code": "did_vl08_raum2",
+  "checked": 53,
+  "fixed": [],
+  "flagged": [],
+  "notes": [
+    "Alle 53 Fragen (b1-001..b1-031, b2-001..b2-022) gegen die zitierten Folien geprueft. Seitenzahlen S.NN entsprechen 1:1 den PNG-Seiten pNNN (kein Off-by-one).",
+    "Textfolien via fulltext.txt und Bildfolien direkt geprueft: p005 (MATHESCHWIERIGKEITEN BEGEGNEN), p006 (Bauplan/Lagebeziehungen: uebereinander, nebeneinander, rechts daneben/davor/dahinter), p007 (Prozesskompetenzen: Erschliessen/Loesen/Reflektieren u. Ueberpruefen/Uebertragen u. Erfinden), p009 (SPRACHBILDEND: Wortspeicherarbeit+Einschleifuebungen, Ganzheitliche Uebungen+Eigenproduktionen), p010 (Wortspeicher Wuerfel 6 Flaechen/8 Ecken/12 Kanten; Bauregeln 1-4), p011 (MATHESTAERKEN: Tiefer/Eher/Mehr), p012 (Knobelaufgaben: Wuerfelquader mit genau 12 Wuerfeln), p014 (Vasarely geb. 1908).",
+    "Kopfgeometrie-Phasen bestaetigt: p020 (Reine Kopfgeometrie + Hilfsmittel Phase 1), p021 (Hilfsmittel Phase 3), p022 (Hilfsmittel Phasen 1 und 3), p023 (4 Phasen nach Senftleben: Aufgabenstellung/Aufgabenloesung/Aufgabenauswertung/Aufgabenkontrolle).",
+    "Koerpermodelle bestaetigt: p028 (Steckbriefe: Quader, Wuerfel, Prisma, Kugel, Pyramide, Kegel, Walze/Zylinder/Rundsaeule, Tetraeder/Dreieckspyramide; kein Torus/Kegelstumpf), p030 (Flaechenmodelle-Mobile: Tetraeder, Ikosaeder, Dodekaeder, Hexaeder(Wuerfel), Oktaeder), p032 (Kantenmodelle: Ecken durch 2x falten/einschneiden/uebereinander schieben, Faltblatt 4cm x 4cm).",
+    "Wuerfelvierlinge (p017/Folie 17) korrekt benannt: Fuss, Nase, Ecke, Hund, Stange, Platte, Rechts-Daumen, Links-Daumen. Keine belegten Fehler gefunden; keine Aenderung an der Katalogdatei noetig."
+  ]
+}
