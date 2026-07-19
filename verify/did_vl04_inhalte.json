@@ -1,0 +1,12 @@
+{
+  "code": "did_vl04_inhalte",
+  "checked": 10,
+  "fixed": [],
+  "flagged": [],
+  "notes": [
+    "Alle 10 Fragen zitieren S.4 (p004) bzw. S.5 (p005) und wurden vollständig gegen diese Folien geprüft.",
+    "Folie S.4 (Rahmenthemen): Ebene Figuren und Formen (Quadrate, Rechtecke, Dreiecke, Kreise erkennen, legen, herstellen, zusammensetzen und nach Eigenschaften unterscheiden); Symmetrieeigenschaften (insbesondere Achsensymmetrie, aber auch Drehsymmetrie); Abbildungen und Bewegungen (vergrößern – verkleinern, verschieben usw.); Körperformen (Würfel, Quader, Kugeln auffinden, benennen, unterscheiden, als Modelle herstellen). Alle Aussagen der Fragen b1-001 bis b1-006 stimmen exakt mit der Folie überein; correct-Indizes, Distraktoren, Quellenangabe und Seite (Folie 4) korrekt.",
+    "Folie S.5 (Rahmenthemen): Räumliche Beziehungen (links von, rechts von ... erkennen, benennen, beschreiben und als Orientierung nutzen); Geometrisches Zeichnen (mit Lineal, Geodreieck, Zirkel und Schablonen); Netze und Wege, Strecken und Linien (unter räumlichen Beziehungen erkennen, beschreiben und zeichnerisch darstellen); Geometrische Größen (beim Messen von Strecken, Flächen und Körpern kennen lernen und mit ihrer Hilfe vergleichen sowie ordnen). Aussagen der Fragen b1-007 bis b1-010 stimmen exakt mit der Folie überein; correct-Indizes, Distraktoren, Quellenangabe und Seite (Folie 5) korrekt.",
+    "Schema aller Fragen gültig (multi/single mit options+correct 0-basiert, single genau eine richtige Option). Alle explanation-Felder enden mit korrektem Quelle-Marker. Keine Korrekturen erforderlich."
+  ]
+}
