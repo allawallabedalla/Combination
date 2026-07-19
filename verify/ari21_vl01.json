@@ -1,0 +1,15 @@
+{
+  "code": "ari21_vl01",
+  "checked": 52,
+  "fixed": [],
+  "flagged": [],
+  "notes": [
+    "Alle 52 Fragen gegen Folien geprueft (fulltext + PNGs p004,p007,p008,p010,p011,p012,p019,p025,p026,p028,p045).",
+    "Gauss-/Quadratsummen-Tabelle S.19 bestaetigt: n=15 -> 64, n=27 -> 196; Differenz der Quadrate (n+1)^2-n^2=(n+1)+n, 5^2-4^2=9 (S.20).",
+    "Peano-Axiome S.24 exakt: 1 ist NZ; genau ein Nachfolger n'; kein Element hat Nachfolger 1; kein Element ist Nachfolger zweier verschiedener Elemente; 5. Axiom (Induktion) nicht in b2-016 abgefragt (korrekt ausgeschlossen).",
+    "Rekursive Definitionen S.28 bestaetigt: n+1:=n'; n+(m+1):=(n+m)'; n*1:=n; n*(m+1):=n*m+n. Rechengesetze (5 Gesetze, kein Assoziativgesetz der Subtraktion) auf S.27/S.28.",
+    "Abblitzation S.45: 12 v 2 = (12+2)*2 = 28; Abblitzent=12, Abblitzator=2, Ergebnis=28; kommutativ/assoziativ/Umkehroperation als Erkundungsauftraege; Paula-Aufgaben mit 3 Zahlen (Tausch-/Umkehraufgaben).",
+    "DeG-Beispiel S.10 bestaetigt (1+2=3,2+3=5,... ungerade; 12=3+4+5; 'Teiler muessen ungerade sein'); DeG-Phasen S.11 (Schulbuch: Probieren/Systematik/Erkenntnis/Reflexion; Erkundung: Hypothesen/Pruefung/Erkenntnis).",
+    "Seitenzahlen und Quellenmarker aller Fragen korrekt; keine belegten Fehler gefunden, keine Korrektur noetig."
+  ]
+}
