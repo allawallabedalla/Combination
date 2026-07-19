@@ -1,0 +1,20 @@
+{
+ "code": "ari21_vl03",
+ "checked": 68,
+ "fixed": [
+  {
+   "id": "ari21_vl03-b2-029",
+   "field": "explanation",
+   "was": "Restatement of slide without noting arithmetic inconsistency.",
+   "now": "Added transparent note that the slide's ternary decomposition of 1752 (2·3^6+1·3^5+1·3^3+2·3^2+2·3^1+1·3^0) sums to 1753 (slide error); option kept folientreu.",
+   "why": "Folie 34 (S.34) selbst zeigt eine rechnerisch inkonsistente Darstellung; Quelltreue vor Richtigstellung, daher Folienwert behalten und Fehler transparent vermerkt."
+  }
+ ],
+ "flagged": [],
+ "notes": [
+  "Alle 68 Fragen gegen Folien/fulltext geprüft; Umrechnungen (34, 69, 1753 in Basis 2/3/5) und 4er-System-Rechnungen (Addition (133)+(201)=(1000), Subtraktion 301-23=212, Multiplikation (23)·(12)=(1002), Division 11322:21=222) exakt nachgerechnet und bestätigt.",
+  "Fingerslides S.12/S.13 per Bild bestätigt: Stellenwerte 1,2,4,...,512 bzw. 2^0..2^4.",
+  "1753 binär = (11011011001)_2, ternär = (2101221)_3, fünfer = (24003)_5 verifiziert.",
+  "Division-mit-Rest-Satz, b-adische Bedingung 0≤a_k<b sowie alle Stellenwerttabellen folientreu."
+ ]
+}
