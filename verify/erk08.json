@@ -1,0 +1,13 @@
+{
+  "code": "erk08",
+  "checked": 17,
+  "fixed": [],
+  "flagged": [],
+  "notes": [
+    "Alle 17 Fragen gegen p001 (S.1) und p002 (S.2) geprüft; keine belegten Fehler gefunden.",
+    "Subtraktionen S.1 folientreu: 7227-2772=4455, 8558-5885=2673, 7272-2727=4545, 6363-3636=2727.",
+    "891er/909er Vielfachenlisten, Begründungen (1000-100-10+1=891 bzw. 1000-100+10-1=909) und Beschriftungen (24 gerade / 45 ungerade) stimmen mit Folie überein.",
+    "S.2: Erkundung-II-Definition, Reste 0-4 beim Teilen durch 5 und Verknüpfungstafel-Feld (2. Zeile/3. Spalte = gerade+ungerade) folientreu.",
+    "Quellenangaben und Seitenzuordnung (S.1->p001, S.2->p002) korrekt."
+  ]
+}
