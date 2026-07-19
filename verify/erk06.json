@@ -1,0 +1,12 @@
+{
+ "code": "erk06",
+ "checked": 8,
+ "fixed": [],
+ "flagged": [],
+ "notes": [
+  "Alle 8 Fragen gegen p001 (Schulbuchseite S.70) und p002 (Erkundung VI) geprueft; alle Aussagen, correct-Indizes und numeric-Werte folientreu.",
+  "Q001-003 stammen aus der Schulbuchseite (S.1/p001): Bildunterschrift 'Max Bill: Konstruktionen um das Thema 3:4:5' und Aufgabe 5 (Umfang, kleinstes Quadrat Umfang 4) korrekt belegt.",
+  "Q004-008 stammen aus Erkundung I (S.2/p002): 3:4:5-Bedeutung, gleich grosse Quadrate, rechter Winkel, 25=9+16, Methode Aufgabe c) x=u^2-v^2, y=2uv, z^2=x^2+y^2 mit u>v, und Beispiel u=2,v=1 -> z=5 alle folientreu.",
+  "Quellenangaben und Folie-Marker in allen explanations korrekt (S.1/S.2)."
+ ]
+}
