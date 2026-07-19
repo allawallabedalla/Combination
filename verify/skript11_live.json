@@ -1,0 +1,15 @@
+{
+ "code": "skript11_live",
+ "checked": 20,
+ "fixed": [],
+ "flagged": [],
+ "notes": [
+  "S.1/Folie 9 (p001): Definition kongruent modulo m, m=7 mit 3̄={3,10,17,24,31,...}, 10∈ 3̄, 4 ≢ 3 mod 7; handschriftl. ① doppelter Rest (6≡11 mod 5), ② 2≡5 mod 3 mit 2+5=7, 7:3=2 R1, 4̄=1̄, ③ 13≡8 mod 5 (13-8=5) und 13-7=6∈ 1̄ – Q001-Q004 alle folientreu.",
+  "S.2/Folie 16 (p002): Definitionen x̄+ȳ:=(x+y)‾, x̄·ȳ:=(x·y)‾ und Tafeln Modul 5 bestätigt; 3̄+4̄=2̄, 2̄·3̄=1̄ korrekt (Q005-Q007).",
+  "S.3/Folie 18-19 (p003): Additionstafel 4̄+1̄=0̄; 1̄,2̄,3̄,4̄ erzeugen bei Addition alle Restklassen (nicht 0̄); Zahlenkreis; Multiplikation: 2̄ und 3̄ erzeugen alles außer 0̄, nicht 1̄/4̄; 4̄·2̄=3̄ – Q008-Q012 folientreu.",
+  "S.4/Folie 27 (p004): 212-121=91, 313-131=182, 414-141=273 bestätigt (Q013-Q015).",
+  "S.5/Folie 27 (p005): IRI-Definition (3-stellig, erste=dritte Ziffer I, zweite Ziffer R≠0 und ≠I; Zusatz I>R) und Gegenzahl/RIR-Zahl bestätigt (Q016-Q018).",
+  "S.6/Folie 32 (p006): MIRIM-Definition (a) fünfstellig symmetrisch, 1.&5.(M), 2.&4.(I), Mitte 3.(R), M≠I≠R, M,I,R≠0; handschriftl. Gegenzahl-Liste RIMIR, IMRMI, IRMRI, RMIMR, MRIRM (MIRIM ist die Zahl selbst) – Q019-Q020 folientreu.",
+  "Alle Quellenangaben (Folien-/Seitenzahlen) stimmen mit den Foliennummern der Bilder überein; keine belegten Fehler gefunden."
+ ]
+}
