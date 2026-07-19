@@ -1,0 +1,13 @@
+{
+ "code": "erk03",
+ "checked": 8,
+ "fixed": [],
+ "flagged": [],
+ "notes": [
+  "Alle 8 Fragen gegen die Folienbilder geprueft; keine belegten Fehler gefunden, keine Aenderung noetig.",
+  "p001 (S.1) zeigt die Schulbuchseite 'Ein ganz besonderer Zahlenturm': Pascal 1623-1662 Frankreich, math. Wunderkind, Zahlenanordnung aus China (ein paar hundert Jahre alt), Dreieckszeilen 1 / 1 1 / 1 2 1 / 1 3 3 1 / 1 4 6 4 1 / 1 5 10 10 5 1, unterste vollstaendige Zeile 1 9 36 84 126 126 84 36 9 1 (max=126). Belegt b1-001, b1-002, b1-003, b1-008 (Zeile 1 4 6 4 1).",
+  "p003 (S.3) 'Formalisieren': 0. Spalte = Reihe von Einsen am linken Rand, 1. Spalte = 1,2,3,4,..., Zeilen ab 0 gezaehlt, 3. Zeile = 1,3,3,1; Binomialkoeffizient (n ueber k)=n!/(k!(n-k)!), n=Zeile, k=Spalte; Summenregel (n+1 ueber k+1)=(n ueber k)+(n ueber k+1). Belegt b1-004, b1-005, b1-006, b1-007.",
+  "Seitenzuordnung S.NN->pNN passt: S.1->p001, S.3->p003. Quelle-Marker in allen explanation-Feldern vorhanden und korrekt.",
+  "p002 (Erkundungsauftraege) wird von keiner Frage zitiert; korrekt."
+ ]
+}
