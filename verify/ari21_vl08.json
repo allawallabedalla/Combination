@@ -1,0 +1,15 @@
+{
+ "code": "ari21_vl08",
+ "checked": 74,
+ "fixed": [],
+ "flagged": [],
+ "notes": [
+  "Alle 74 Fragen (b1-001..026, b2-001..026, b3-001..022) gegen die Folienbilder geprueft; keine belegten Fehler gefunden.",
+  "Wahrheitswertetafeln Folien 4-8 anhand der PNGs verifiziert: A&B (w,f,f,f), not(A&B)=notA v notB (f,w,w,w) [F4/F5], B v (A&B) (w,f,w,f) [F6], XOR (A v B)&not(A&B)=(A&notB)v(B&notA) (f,w,w,f) und XNOR (notA&notB)v(A&B) (w,f,f,w) [F7], A=>B (w,f,w,w) = notA v B [F8]. Alle correct-Indizes stimmen.",
+  "De-Morgan/Negation folientreu: Folie 10 'Idee: not(A&B)=notA v notB'; Folie 11 'not(A=>B)=not(notA v B)=A&notB' (Bild eindeutig; fulltext.txt zeigt hier faelschlich 'A v notB' - Bild ist massgeblich, JSON ist korrekt mit A&notB).",
+  "Numerik verifiziert: M=6 (F12), a=5 -> a^2=25 (F23), a=3*5+1=16 (F30), a=2*3*5*7+1=211 (F31), 3 von 4 Belegungen bei A=>B (F8).",
+  "Euklid-Beweis (F26-33) und Fundamentalsatz/Eindeutigkeit der PFZ (F34-41) inkl. Kontraposition, n':=n-p1*(q2*...*qm), Ausklammern von p1 bzw. (q1-p1), Zermelo, Minimalitaetsargument gegen Bilder (F32, F40) geprueft - alle Aussagen und correct-Indizes folientreu.",
+  "Quellen/Seitenzahlen: source und '📄 Quelle'-Marker bei allen 74 Fragen vorhanden und mit den Folien-/Seitennummern konsistent.",
+  "Keine Aenderung an /home/user/Combination/gen/ari21_vl08.json noetig; Katalog unveraendert (74 IDs erhalten)."
+ ]
+}
