@@ -1,1510 +1,1510 @@
 [
- {
-  "id": "ari20_vl12-b1-001",
-  "topic": "ari20_vl12_verknuepfung",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Gemäß der Konvention auf der Folie: Wie ist die Verkettung S_h ∘ S_g zu lesen?",
-  "options": [
-   "„S_h nach S_g\", d. h. es wird zuerst S_g und dann S_h ausgeführt (analog zu g(f(x)) = g ∘ f)",
-   "„S_g nach S_h\", d. h. zuerst S_h und dann S_g",
-   "Beide Geradenspiegelungen werden gleichzeitig ausgeführt",
-   "Die Reihenfolge ist beliebig, da die Verkettung stets kommutativ ist"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie legt als Konvention fest: S_h ∘ S_g bedeutet „S_h nach S_g\" (wie g(f(x)) = g ∘ f), es wird also zuerst S_g und danach S_h angewandt. 📄 Quelle: ari20_vl12, Folie 6 (S.6)",
-  "source": "ari20_vl12, Folie 6 (S.6, Geometrie – Verkettung von Geradenspiegelungen)"
- },
- {
-  "id": "ari20_vl12-b1-002",
-  "topic": "ari20_vl12_verknuepfung",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Aussagen zur Verknüpfung von Abbildungen bzw. zur Schreibweise S_h ∘ S_g treffen laut Folie zu?",
-  "options": [
-   "S_h ∘ S_g bedeutet „S_h nach S_g\"",
-   "Die Schreibweise entspricht der Konvention g(f(x)) = g ∘ f",
-   "Bei S_h ∘ S_g wird zuerst S_h ausgeführt",
-   "Ganz konkret wird die Verknüpfung zweier Geradenspiegelungen betrachtet"
-  ],
-  "correct": [
-   0,
-   1,
-   3
-  ],
-  "explanation": "S_h ∘ S_g heißt „S_h nach S_g\" (wie g(f(x)) = g ∘ f), es wird also zuerst S_g ausgeführt – nicht S_h. Konkret wird die Verknüpfung zweier Geradenspiegelungen untersucht. 📄 Quelle: ari20_vl12, Folie 7 (S.7)",
-  "source": "ari20_vl12, Folie 7 (S.7, Geometrie – Verkettung von Geradenspiegelungen)"
- },
- {
-  "id": "ari20_vl12-b1-003",
-  "topic": "ari20_vl12_zwei_geradenspiegelungen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Der Satz lautet: „Für alle Verkettungen zweier Geradenspiegelungen S_g und S_h an den Geraden g und h gilt …\". Welche der folgenden Aussagen gehören zum Satz?",
-  "options": [
-   "Wenn g = h gilt, dann gilt S_h ∘ S_g = id (identische Abbildung)",
-   "Wenn g ∥ h gilt, dann gilt S_h ∘ S_g = V_{2|AB|} (eine Verschiebung)",
-   "Wenn g ∩ h = {S} mit ∠gh = α gilt, dann gilt S_h ∘ S_g = D_{S,2α}",
-   "Wenn g ∥ h gilt, dann gilt S_h ∘ S_g = id (identische Abbildung)"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Der Satz unterscheidet drei Fälle: g = h ⇒ id, g ∥ h ⇒ Verschiebung V_{2|AB|}, g ∩ h = {S} mit ∠gh = α ⇒ Drehung D_{S,2α}. Der Fall g ∥ h liefert eine Verschiebung, nicht die Identität. 📄 Quelle: ari20_vl12, Folie 8 (S.8)",
-  "source": "ari20_vl12, Folie 8 (S.8, Geometrie – Verkettung von Geradenspiegelungen)"
- },
- {
-  "id": "ari20_vl12-b1-004",
-  "topic": "ari20_vl12_zwei_geradenspiegelungen",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Im Fall g ∥ h gilt S_h ∘ S_g = V_{2|AB|}. Welche Eigenschaft hat die Strecke AB laut Satz?",
-  "options": [
-   "AB steht senkrecht zu g (bzw. h) und reicht von g nach h",
-   "AB verläuft parallel zu g und h",
-   "AB reicht von h nach g und ist halb so lang wie der Geradenabstand",
-   "AB verbindet die beiden Fixpunkte der Spiegelungen"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Der Satz präzisiert im Fall g ∥ h: S_h ∘ S_g = V_{2|AB|}, wobei AB senkrecht zu g (bzw. h) steht und von g nach h reicht. 📄 Quelle: ari20_vl12, Folie 8 (S.8)",
-  "source": "ari20_vl12, Folie 8 (S.8, Geometrie – Verkettung von Geradenspiegelungen)"
- },
- {
-  "id": "ari20_vl12-b1-005",
-  "topic": "ari20_vl12_zwei_geradenspiegelungen",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Es sei g ∩ h = {S} mit ∠gh = α. Was ergibt die Verkettung S_h ∘ S_g laut Satz?",
-  "options": [
-   "Die Drehung D_{S,2α}",
-   "Die Drehung D_{S,α}",
-   "Die Verschiebung V_{2α}",
-   "Die identische Abbildung id"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Schneiden sich g und h im Punkt S unter dem Winkel ∠gh = α, so gilt S_h ∘ S_g = D_{S,2α} – eine Drehung um S mit dem doppelten Winkel. 📄 Quelle: ari20_vl12, Folie 8 (S.8)",
-  "source": "ari20_vl12, Folie 8 (S.8, Geometrie – Verkettung von Geradenspiegelungen)"
- },
- {
-  "id": "ari20_vl12-b1-006",
-  "topic": "ari20_vl12_zwei_geradenspiegelungen",
-  "difficulty": 1,
-  "type": "multi",
-  "question": "In welche drei Fälle wird die doppelte Geradenspiegelung an zwei Geraden g und h unterschieden?",
-  "options": [
-   "g = h",
-   "g ∥ h",
-   "g ∩ h = {S}",
-   "g ⊥ h als eigenständiger vierter Grundfall"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Die Fallunterscheidung erfolgt in die drei Fälle g = h, g ∥ h und g ∩ h = {S}. Der Fall g ⊥ h ist kein eigener Grundfall, sondern ein Sonderfall des Schnittfalls (Fall 3a). 📄 Quelle: ari20_vl12, Folie 9 (S.9)",
-  "source": "ari20_vl12, Folie 9 (S.9, Geometrie – Verkettung von Geradenspiegelungen)"
- },
- {
-  "id": "ari20_vl12-b1-007",
-  "topic": "ari20_vl12_zwei_geradenspiegelungen",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "In wie viele Fälle wird die doppelte Geradenspiegelung an den Geraden g und h laut Folie unterschieden?",
-  "answer": 3,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Die doppelte Geradenspiegelung wird in drei Fälle unterschieden: g = h, g ∥ h und g ∩ h = {S}. 📄 Quelle: ari20_vl12, Folie 9 (S.9)",
-  "source": "ari20_vl12, Folie 9 (S.9, Geometrie – Verkettung von Geradenspiegelungen)"
- },
- {
-  "id": "ari20_vl12-b1-008",
-  "topic": "ari20_vl12_fall_identitaet",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Fall 1: Für g = h – was ergibt die doppelte Geradenspiegelung S_h ∘ S_g?",
-  "options": [
-   "Die identische Abbildung id",
-   "Eine Verschiebung",
-   "Eine Drehung um 2α",
-   "Eine Punktspiegelung"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Im Fall g = h gilt S_h ∘ S_g = id, also die identische Abbildung. 📄 Quelle: ari20_vl12, Folie 10 (S.10)",
-  "source": "ari20_vl12, Folie 10 (S.10, Geometrie – Verkettung von Geradenspiegelungen)"
- },
- {
-  "id": "ari20_vl12-b1-009",
-  "topic": "ari20_vl12_fall_identitaet",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Für welche Lage der beiden Geraden g und h ergibt die doppelte Geradenspiegelung die identische Abbildung?",
-  "options": [
-   "g = h",
-   "g ∥ h (mit g ≠ h)",
-   "g ∩ h = {S}",
-   "Für keine Lage von g und h"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Nur für g = h gilt S_h ∘ S_g = id (identische Abbildung). 📄 Quelle: ari20_vl12, Folie 10 (S.10)",
-  "source": "ari20_vl12, Folie 10 (S.10, Geometrie – Verkettung von Geradenspiegelungen)"
- },
- {
-  "id": "ari20_vl12-b1-010",
-  "topic": "ari20_vl12_fall_verschiebung",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Fall 2: Für g ∥ h ist die doppelte Geradenspiegelung eine Verschiebung. Um welche Weite wird verschoben?",
-  "options": [
-   "Um den doppelten Abstand der Geraden, 2·d(g;h)",
-   "Um den einfachen Abstand der Geraden, d(g;h)",
-   "Um den halben Abstand der Geraden, ½·d(g;h)",
-   "Um einen von der Lage der Figur abhängigen Betrag"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Für g ∥ h ergibt S_h ∘ S_g eine Verschiebung um den doppelten Abstand der Geraden, also 2·d(g;h). 📄 Quelle: ari20_vl12, Folie 11 (S.11)",
-  "source": "ari20_vl12, Folie 11 (S.11, Geometrie – Verkettung von Geradenspiegelungen)"
- },
- {
-  "id": "ari20_vl12-b1-011",
-  "topic": "ari20_vl12_fall_verschiebung",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Die parallelen Geraden g und h haben den Abstand d(g;h) = 4 cm. Um welche Strecke verschiebt die doppelte Geradenspiegelung S_h ∘ S_g (mit g ∥ h)?",
-  "answer": 8,
-  "tolerance": 0,
-  "unit": "cm",
-  "explanation": "Bei g ∥ h ist die Verschiebungsweite der doppelte Geradenabstand: 2·d(g;h) = 2·4 cm = 8 cm. 📄 Quelle: ari20_vl12, Folie 11 (S.11)",
-  "source": "ari20_vl12, Folie 11 (S.11, Geometrie – Verkettung von Geradenspiegelungen)"
- },
- {
-  "id": "ari20_vl12-b1-012",
-  "topic": "ari20_vl12_fall_drehung",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Fall 3: g ∩ h = {S} mit α = ∠(g;h). Welche Aussagen über S_h ∘ S_g = D_{S,2α} treffen zu?",
-  "options": [
-   "Es entsteht eine Drehung",
-   "Das Drehzentrum ist der Schnittpunkt S der Geraden",
-   "Der Drehwinkel beträgt 2α",
-   "Der Drehwinkel beträgt α"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Im Schnittfall entsteht die Drehung D_{S,2α} mit Drehzentrum S (dem Schnittpunkt von g und h) und Drehwinkel 2α = 2·∠(g;h). 📄 Quelle: ari20_vl12, Folie 12 (S.12)",
-  "source": "ari20_vl12, Folie 12 (S.12, Geometrie – Verkettung von Geradenspiegelungen)"
- },
- {
-  "id": "ari20_vl12-b1-013",
-  "topic": "ari20_vl12_fall_drehung",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Die Geraden g und h schneiden sich in S unter dem Winkel α = ∠(g;h) = 35°. Welchen Drehwinkel hat die Drehung D_{S,2α} = S_h ∘ S_g?",
-  "answer": 70,
-  "tolerance": 0,
-  "unit": "°",
-  "explanation": "Der Drehwinkel ist der doppelte Schnittwinkel: 2α = 2·35° = 70°. 📄 Quelle: ari20_vl12, Folie 12 (S.12)",
-  "source": "ari20_vl12, Folie 12 (S.12, Geometrie – Verkettung von Geradenspiegelungen)"
- },
- {
-  "id": "ari20_vl12-b1-014",
-  "topic": "ari20_vl12_fall_drehung",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Fall 3a: g ∩ h = {S} und ∠(g;h) = 90°. Welchen Drehwinkel hat dann die Drehung S_h ∘ S_g = D_{S,2α}?",
-  "answer": 180,
-  "tolerance": 0,
-  "unit": "°",
-  "explanation": "Bei ∠(g;h) = 90° gilt S_h ∘ S_g = D_{S,180°}, der Drehwinkel beträgt also 2·90° = 180°. 📄 Quelle: ari20_vl12, Folie 13 (S.13)",
-  "source": "ari20_vl12, Folie 13 (S.13, Geometrie – Verkettung von Geradenspiegelungen)"
- },
- {
-  "id": "ari20_vl12-b1-015",
-  "topic": "ari20_vl12_fall_drehung",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Fall 3a: Stehen die Geraden g und h senkrecht zueinander (∠(g;h) = 90°), was ergibt die doppelte Geradenspiegelung S_h ∘ S_g?",
-  "options": [
-   "Die Drehung D_{S,180°}",
-   "Die Drehung D_{S,90°}",
-   "Die Verschiebung V_{2·d(g;h)}",
-   "Die identische Abbildung id"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Für ∠(g;h) = 90° ist S_h ∘ S_g = D_{S,180°} (Drehung um S mit Drehwinkel 180°). 📄 Quelle: ari20_vl12, Folie 13 (S.13)",
-  "source": "ari20_vl12, Folie 13 (S.13, Geometrie – Verkettung von Geradenspiegelungen)"
- },
- {
-  "id": "ari20_vl12-b1-016",
-  "topic": "ari20_vl12_fall_verschiebung",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "In der Vektorschreibweise des Satzes gilt für g ∥ h: S_h ∘ S_g = V_{2·a} (Verschiebung um den Vektor 2·a). Welche Aussagen treffen zu?",
-  "options": [
-   "Die Verkettung ist eine Verschiebung V_{2·a}",
-   "Der Vektor a steht senkrecht zu g (bzw. h)",
-   "Der Vektor a verläuft parallel zu g",
-   "Die Verkettung ist eine Drehung um den Vektor a"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Für g ∥ h gilt S_h ∘ S_g = V_{2·a}, wobei der Vektor a senkrecht zu g (bzw. h) steht. Es ist eine Verschiebung, keine Drehung. 📄 Quelle: ari20_vl12, Folie 14 (S.14)",
-  "source": "ari20_vl12, Folie 14 (S.14, Geometrie – Verkettung von Geradenspiegelungen)"
- },
- {
-  "id": "ari20_vl12-b1-017",
-  "topic": "ari20_vl12_fall_verschiebung",
-  "difficulty": 1,
-  "type": "single",
-  "question": "In welchem Fall gilt in Vektorschreibweise S_h ∘ S_g = V_{2·a} mit a senkrecht zu g?",
-  "options": [
-   "g ∥ h",
-   "g = h",
-   "g ∩ h = {S}",
-   "g ⊥ h"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Verschiebung V_{2·a} mit a senkrecht zu g (bzw. h) tritt im Fall g ∥ h auf. 📄 Quelle: ari20_vl12, Folie 14 (S.14)",
-  "source": "ari20_vl12, Folie 14 (S.14, Geometrie – Verkettung von Geradenspiegelungen)"
- },
- {
-  "id": "ari20_vl12-b1-018",
-  "topic": "ari20_vl12_invarianz",
-  "difficulty": 3,
-  "type": "multi",
-  "question": "Man verschiebt bei g ∥ h die beiden Geraden g und h parallel mit gleichem Abstand. Welche Aussagen treffen laut Folie zu?",
-  "options": [
-   "Die einzelne Spiegelung S_g verändert sich",
-   "Die Gesamt-Abbildung S_h ∘ S_g (die doppelte Geradenspiegelung) verändert sich nicht, sie bleibt gleich",
-   "Die Gesamt-Abbildung S_h ∘ S_g verändert sich mit",
-   "Maßgeblich ist der (gleich bleibende) Abstand der Geraden, nicht ihre konkrete Lage"
-  ],
-  "correct": [
-   0,
-   1,
-   3
-  ],
-  "explanation": "Verschiebt man g und h parallel mit gleichem Abstand, verändert sich zwar die erste Spiegelung S_g, aber die Verknüpfung S_h ∘ S_g bleibt gleich – maßgeblich ist allein der (gleich bleibende) Abstand, nicht die konkrete Lage. 📄 Quelle: ari20_vl12, Folie 20 (S.20)",
-  "source": "ari20_vl12, Folie 20 (S.20, Geometrie – Verkettung von Geradenspiegelungen)"
- },
- {
-  "id": "ari20_vl12-b1-019",
-  "topic": "ari20_vl12_invarianz",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Was bleibt unverändert, wenn man die parallelen Geraden g und h parallel um denselben Abstand verschiebt?",
-  "options": [
-   "Die doppelte Geradenspiegelung S_h ∘ S_g",
-   "Die einzelne Spiegelung S_g",
-   "Die Lage der Geraden g",
-   "Der Bildpunkt A' unter S_g"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Gesamt-Abbildung, die Verknüpfung S_h ∘ S_g, bleibt gleich; die einzelne Spiegelung S_g und die Lage der Geraden ändern sich hingegen. 📄 Quelle: ari20_vl12, Folie 20 (S.20)",
-  "source": "ari20_vl12, Folie 20 (S.20, Geometrie – Verkettung von Geradenspiegelungen)"
- },
- {
-  "id": "ari20_vl12-b2-001",
-  "topic": "ari20_vl12_verkettung_zwei",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Der Satz auf Folie 21 ('Phänomsätze der Verkettung') behandelt zwei Geradenspiegelungen S_g und S_h an den Geraden g und h. Welche Voraussetzungen müssen für zwei weitere Geraden g' und h' erfüllt sein, damit S_h ∘ S_g = S_h' ∘ S_g' gilt?",
-  "options": [
-   "g ∥ h und g ∥ g' und g ∥ h' (alle Geraden parallel)",
-   "d(g,h) = d(g',h') (gleicher Abstand der Geradenpaare)",
-   "g und h schneiden sich in einem Punkt S",
-   "∡(g;h) = ∡(g';h') als gemeinsamer Schnittwinkel"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Der Parallelfall des Phänomsatzes fordert g ∥ h und g ∥ g' und g ∥ h' sowie den gleichen Abstand d(g,h) = d(g',h'). Ein gemeinsamer Schnittpunkt bzw. ein gleicher Schnittwinkel gehören zum anderen (Schnitt-)Fall. 📄 Quelle: ari20_vl12, Folie 21 (S.21)",
-  "source": "ari20_vl12, Folie 21 (S.21, Geometrie)"
- },
- {
-  "id": "ari20_vl12-b2-002",
-  "topic": "ari20_vl12_verkettung_zwei",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Sind im Parallelfall (Folie 21) die Voraussetzungen g ∥ h ∥ g' ∥ h' und d(g,h) = d(g',h') erfüllt, was folgt für die Verkettungen der Geradenspiegelungen?",
-  "options": [
-   "S_h ∘ S_g = S_h' ∘ S_g'",
-   "S_h ∘ S_g = S_g ∘ S_h",
-   "S_h ∘ S_g ≠ S_h' ∘ S_g'",
-   "S_g = S_h"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Der Satz schließt: dann ist S_h ∘ S_g = S_h' ∘ S_g'. Die doppelte Geradenspiegelung bleibt also gleich. 📄 Quelle: ari20_vl12, Folie 21 (S.21)",
-  "source": "ari20_vl12, Folie 21 (S.21, Geometrie)"
- },
- {
-  "id": "ari20_vl12-b2-003",
-  "topic": "ari20_vl12_verkettung_zwei",
-  "difficulty": 3,
-  "type": "multi",
-  "question": "Folie 27 formuliert den Phänomsatz für den Fall sich schneidender Geraden. Welche Bedingungen müssen g' und h' erfüllen, damit S_h ∘ S_g = S_h' ∘ S_g' gilt?",
-  "options": [
-   "g ∩ h = {S} mit ∡(g;h) = α",
-   "g' ∩ h' = {S}, also derselbe Schnittpunkt wie g ∩ h",
-   "∡(g';h') = α, also der gleiche Schnittwinkel wie bei g und h",
-   "d(g,h) = d(g',h') (gleicher Abstand der Geradenpaare)"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Im Schnittfall gilt: Wenn g ∩ h = {S} mit ∡(g;h) = α und g' ∩ h' = {S} (=g ∩ h) mit ∡g'h' = α (=∡(g;h)), dann ist S_h ∘ S_g = S_h' ∘ S_g'. Die Abstandsbedingung d(g,h) = d(g',h') gehört zum Parallelfall. 📄 Quelle: ari20_vl12, Folie 27 (S.27)",
-  "source": "ari20_vl12, Folie 27 (S.27, Geometrie)"
- },
- {
-  "id": "ari20_vl12-b2-004",
-  "topic": "ari20_vl12_verkettung_zwei",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Im Schnittfall (Folie 27) dürfen die beiden Geraden g und h zu g' und h' verändert werden, ohne dass sich die Verkettung ändert. Welche zwei Größen müssen dabei gleich bleiben?",
-  "options": [
-   "Der gemeinsame Schnittpunkt S und der Schnittwinkel α",
-   "Der Abstand der Geraden und ihre Richtung",
-   "Nur der Schnittpunkt S",
-   "Nur der Schnittwinkel α"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Der Satz verlangt g' ∩ h' = {S} (=g ∩ h) und ∡g'h' = α (=∡(g;h)) — gleichbleibender Schnittpunkt UND gleichbleibender Schnittwinkel. 📄 Quelle: ari20_vl12, Folie 27 (S.27)",
-  "source": "ari20_vl12, Folie 27 (S.27, Geometrie)"
- },
- {
-  "id": "ari20_vl12-b2-005",
-  "topic": "ari20_vl12_verkettung_drei",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Der Satz auf Folie 29 ('Verknüpfung von drei Abbildungen') gilt für alle Bewegungen (Kongruenzabbildungen) f, g und h. Welche Aussagen sind laut Satz korrekt?",
-  "options": [
-   "Für die Verkettung dreier Bewegungen gilt das Assoziativgesetz: (h ∘ g) ∘ f = h ∘ (g ∘ f)",
-   "Das Kommutativgesetz gilt nicht: im Allgemeinen ist f ∘ g ≠ g ∘ f",
-   "Für Bewegungen gilt stets f ∘ g = g ∘ f",
-   "Die Reihenfolge der Klammerung verändert das Ergebnis"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Der Satz besagt: Für die Verkettung dreier Bewegungen gilt das Assoziativgesetz (h ∘ g) ∘ f = h ∘ (g ∘ f); das Kommutativgesetz gilt jedoch nicht (im Allgemeinen f ∘ g ≠ g ∘ f). 📄 Quelle: ari20_vl12, Folie 29 (S.29)",
-  "source": "ari20_vl12, Folie 29 (S.29, Geometrie)"
- },
- {
-  "id": "ari20_vl12-b2-006",
-  "topic": "ari20_vl12_verkettung_drei",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Was besagt Folie 29 zum Kommutativgesetz bei der Verkettung von Bewegungen?",
-  "options": [
-   "Es gilt im Allgemeinen nicht (f ∘ g ≠ g ∘ f)",
-   "Es gilt immer",
-   "Es gilt nur bei Geradenspiegelungen",
-   "Es gilt nur bei Drehungen"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Auf der Folie steht: 'Das Kommutativgesetz gilt nicht: im Allgemeinen ist f ∘ g ≠ g ∘ f.' 📄 Quelle: ari20_vl12, Folie 29 (S.29)",
-  "source": "ari20_vl12, Folie 29 (S.29, Geometrie)"
- },
- {
-  "id": "ari20_vl12-b2-007",
-  "topic": "ari20_vl12_verkettung_drei",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Im Beispiel auf Folie 33 sind f, g und h drei Geradenspiegelungen, bei denen je zwei der Geraden einen Schnittpunkt haben. Welche Aussagen treffen laut Folie zu?",
-  "options": [
-   "Die Verknüpfung g ∘ f ergibt eine Drehung",
-   "Auch die Verknüpfung h ∘ g ergibt eine Drehung",
-   "Ob erst Spiegelung f und dann Drehung (h ∘ g) oder erst Drehung (g ∘ f) und dann Spiegelung h ausgeführt wird, es ergibt die gleiche Abbildung",
-   "Die Verknüpfung g ∘ f ergibt eine Verschiebung"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Da je zwei Geraden einen Schnittpunkt haben, ergeben g ∘ f und h ∘ g jeweils eine Drehung; das Beispiel zeigt (h ∘ g) ∘ f = h ∘ (g ∘ f), also gleiche Gesamtabbildung. Eine Verschiebung entstünde bei parallelen Geraden, nicht hier. 📄 Quelle: ari20_vl12, Folie 33 (S.33)",
-  "source": "ari20_vl12, Folie 33 (S.33, Geometrie)"
- },
- {
-  "id": "ari20_vl12-b2-008",
-  "topic": "ari20_vl12_verkettung_drei",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Das Beispiel auf Folie 33 illustriert konkret welches Gesetz für die Verkettung von Bewegungen?",
-  "options": [
-   "Das Assoziativgesetz: (h ∘ g) ∘ f = h ∘ (g ∘ f)",
-   "Das Kommutativgesetz",
-   "Das Distributivgesetz",
-   "Das Inversengesetz"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Das Beispiel schließt mit '(h ∘ g) ∘ f = h ∘ (g ∘ f)' und veranschaulicht damit das Assoziativgesetz. 📄 Quelle: ari20_vl12, Folie 33 (S.33)",
-  "source": "ari20_vl12, Folie 33 (S.33, Geometrie)"
- },
- {
-  "id": "ari20_vl12-b2-009",
-  "topic": "ari20_vl12_spielregeln",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche 'Spielregeln' für das Verändern von Geraden nennt Folie 35?",
-  "options": [
-   "Bewege immer nur ZWEI Geraden gemeinsam",
-   "Die beiden bewegten Geraden müssen aufeinanderfolgende Buchstaben haben",
-   "Sich schneidende Geraden darf man um den Schnittpunkt drehen",
-   "Parallele Geraden darf man beliebig drehen"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Die Regeln lauten: a) immer nur ZWEI Geraden gemeinsam bewegen, b) die beiden Geraden müssen aufeinanderfolgende Buchstaben haben, c) sich schneidende Geraden um den Schnittpunkt drehen, d) parallele Geraden parallel verschieben (nicht drehen). 📄 Quelle: ari20_vl12, Folie 35 (S.35)",
-  "source": "ari20_vl12, Folie 35 (S.35, Geometrie)"
- },
- {
-  "id": "ari20_vl12-b2-010",
-  "topic": "ari20_vl12_spielregeln",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Was darf man laut den Spielregeln (Folie 35) mit zwei parallelen Geraden tun?",
-  "options": [
-   "Sie parallel verschieben",
-   "Sie um einen Schnittpunkt drehen",
-   "Sie senkrecht zueinander stellen",
-   "Sie beliebig gegeneinander verdrehen"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Regel d): 'Parallele Geraden darf man parallel verschieben.' Drehen um einen Schnittpunkt gilt nur für sich schneidende Geraden (Regel c). 📄 Quelle: ari20_vl12, Folie 35 (S.35)",
-  "source": "ari20_vl12, Folie 35 (S.35, Geometrie)"
- },
- {
-  "id": "ari20_vl12-b2-011",
-  "topic": "ari20_vl12_spielregeln",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Was ist das 'Ziel' beim Verändern von Geradenpaaren nach den Spielregeln auf Folie 35?",
-  "options": [
-   "Zwei Geraden, an denen Spiegelungen hintereinander ausgeführt werden, übereinander zu bringen, sodass sie wegfallen (klapp-klapp)",
-   "Möglichst viele zusätzliche Geraden zu erzeugen",
-   "Alle Geraden senkrecht zueinander zu stellen",
-   "Den Schnittwinkel der Geraden zu halbieren"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Ziel: eine bekannte Konfiguration herstellen bzw. Geradenpaare so verändern, dass zwei Geraden, an denen Spiegelungen hintereinander ausgeführt werden, übereinander liegen — die fallen dann weg (klapp-klapp). 📄 Quelle: ari20_vl12, Folie 35 (S.35)",
-  "source": "ari20_vl12, Folie 35 (S.35, Geometrie)"
- },
- {
-  "id": "ari20_vl12-b2-012",
-  "topic": "ari20_vl12_dreifach_ersetzen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Folie 36 behandelt die Fälle 1, 2 und 3 der dreifachen Geradenspiegelung. Welche Aussagen treffen zu?",
-  "options": [
-   "Die Konfigurationen sind: g = h = i, oder g = h mit Parallele i, oder drei Parallelen",
-   "Die dreifache Geradenspiegelung lässt sich durch eine einfache Geradenspiegelung ersetzen",
-   "Die drei Geraden haben genau einen gemeinsamen Schnittpunkt",
-   "Das Ergebnis ist eine Drehung"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Fall 1, 2 und 3 (g = h = i oder g = h und Parallele i oder drei Parallelen): Die dreifache Geradenspiegelung lässt sich durch eine einfache Geradenspiegelung ersetzen. Ein gemeinsamer Schnittpunkt ist Fall 4. 📄 Quelle: ari20_vl12, Folie 36 (S.36)",
-  "source": "ari20_vl12, Folie 36 (S.36, Geometrie)"
- },
- {
-  "id": "ari20_vl12-b2-013",
-  "topic": "ari20_vl12_dreifach_ersetzen",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Wodurch lässt sich in den Fällen 1–3 (Folie 36) die dreifache Geradenspiegelung ersetzen?",
-  "options": [
-   "Durch eine einfache Geradenspiegelung",
-   "Durch eine Drehung",
-   "Durch eine Verschiebung",
-   "Durch eine Punktspiegelung"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Laut Folie: 'Die dreifache Geradenspiegelung lässt sich durch eine einfache Geradenspiegelung ersetzen.' 📄 Quelle: ari20_vl12, Folie 36 (S.36)",
-  "source": "ari20_vl12, Folie 36 (S.36, Geometrie)"
- },
- {
-  "id": "ari20_vl12-b2-014",
-  "topic": "ari20_vl12_dreifach_ersetzen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Folie 37 behandelt Fall 4 der dreifachen Geradenspiegelung. Welche Aussagen zu Voraussetzung, Ergebnis und Vorgehen sind korrekt?",
-  "options": [
-   "g, h und i haben einen gemeinsamen Schnittpunkt",
-   "Die dreifache Geradenspiegelung lässt sich durch eine einfache Geradenspiegelung ersetzen",
-   "Man dreht g, h um ihren Schnittpunkt so, dass h' auf i liegt (h' und i heben sich auf)",
-   "Die drei Geraden sind zueinander parallel"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Fall 4: g, h und i haben einen gemeinsamen Schnittpunkt; die dreifache Geradenspiegelung lässt sich durch eine einfache ersetzen, indem man g, h um ihren Schnittpunkt dreht, bis h' auf i liegt (h' und i heben sich auf). Parallelität gehört nicht zu Fall 4. 📄 Quelle: ari20_vl12, Folie 37 (S.37)",
-  "source": "ari20_vl12, Folie 37 (S.37, Geometrie)"
- },
- {
-  "id": "ari20_vl12-b2-015",
-  "topic": "ari20_vl12_dreifach_ersetzen",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Welches Vorgehen wird in Fall 4 (Folie 37) beschrieben, um zwei Spiegelungen wegfallen zu lassen?",
-  "options": [
-   "g und h um ihren Schnittpunkt drehen, bis h' auf i liegt",
-   "g und h parallel verschieben, bis sie zusammenfallen",
-   "i senkrecht zu g stellen",
-   "alle drei Geraden zu einer einzigen zusammenfallen lassen"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Folie 37: 'Drehe g, h um ihren Schnittpunkt so, dass h' auf i liegt (h' und i heben sich auf).' 📄 Quelle: ari20_vl12, Folie 37 (S.37)",
-  "source": "ari20_vl12, Folie 37 (S.37, Geometrie)"
- },
- {
-  "id": "ari20_vl12-b2-016",
-  "topic": "ari20_vl12_dreifach_ersetzen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Wie sind die drei Geraden g, h und i in Fall 5 (Folie 38) angeordnet?",
-  "options": [
-   "g und h sind parallel",
-   "i steht senkrecht zu g und h",
-   "alle drei Geraden schneiden sich in einem gemeinsamen Punkt",
-   "g, h und i sind paarweise parallel"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Fall 5: g und h sind parallel, i steht senkrecht zu g und h. (Womit sich die dreifache Geradenspiegelung ersetzen lässt, bleibt auf der Folie als offene Frage '???' stehen.) 📄 Quelle: ari20_vl12, Folie 38 (S.38)",
-  "source": "ari20_vl12, Folie 38 (S.38, Geometrie)"
- },
- {
-  "id": "ari20_vl12-b3-001",
-  "topic": "ari20_vl12_verschiebung_spiegelung",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Am Stempelband-Beispiel wird eine Verschiebung als Verkettung von Geradenspiegelungen gedeutet. Als Verkettung wie vieler Geradenspiegelungen wird die Verschiebung dargestellt?",
-  "options": [
-   "einer Geradenspiegelung",
-   "zwei Geradenspiegelungen",
-   "drei Geradenspiegelungen",
-   "vier Geradenspiegelungen"
-  ],
-  "correct": [
-   1
-  ],
-  "explanation": "Die Folie ist mit 'Verschiebung (zweifache Geradenspiegelung)' beschriftet: eine Verschiebung entspricht der Hintereinanderausführung von zwei Geradenspiegelungen. 📄 Quelle: ari20_vl12, Folie 44 (S.44)",
-  "source": "ari20_vl12, Folie 44 (S.44, Verschiebung/Geradenspiegelung)"
- },
- {
-  "id": "ari20_vl12-b3-002",
-  "topic": "ari20_vl12_verschiebung_spiegelung",
-  "difficulty": 1,
-  "type": "multi",
-  "question": "Folie 44 stellt am Stempelabdruck zwei Kongruenzabbildungen gegenüber. Welche werden markiert?",
-  "options": [
-   "Verschiebung (roter, waagerechter Pfeil)",
-   "Geradenspiegelung (blauer, senkrechter Pfeil)",
-   "Drehung",
-   "Punktspiegelung"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Der waagerechte rote Pfeil ist mit 'Verschiebung (zweifache Geradenspiegelung)' beschriftet, der senkrechte blaue Pfeil mit 'Geradenspiegelung'. 📄 Quelle: ari20_vl12, Folie 44 (S.44)",
-  "source": "ari20_vl12, Folie 44 (S.44, Verschiebung/Geradenspiegelung)"
- },
- {
-  "id": "ari20_vl12-b3-003",
-  "topic": "ari20_vl12_schubspiegelung",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Definition Schubspiegelung: Eine Abbildung S_AB,g: E → E heißt Schubspiegelung genau dann, wenn welche Bedingungen erfüllt sind?",
-  "options": [
-   "Durch AB ist eine Verschiebung festgelegt",
-   "Durch g ist eine Achsenspiegelung festgelegt",
-   "Es gilt g || AB (g parallel zu AB)",
-   "Es gilt g ⊥ AB (g senkrecht zu AB)"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Laut Definition sind durch AB eine Verschiebung und durch g eine Achsenspiegelung festgelegt, und zwar mit g || AB. 📄 Quelle: ari20_vl12, Folie 45 (S.45)",
-  "source": "ari20_vl12, Folie 45 (S.45, Definition Schubspiegelung)"
- },
- {
-  "id": "ari20_vl12-b3-004",
-  "topic": "ari20_vl12_schubspiegelung",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Welche Lagebeziehung muss zwischen der Spiegelachse g und der Verschiebungsstrecke AB bei einer Schubspiegelung gelten?",
-  "options": [
-   "g parallel zu AB",
-   "g senkrecht zu AB",
-   "g schneidet AB unter 45°",
-   "keine besondere Bedingung"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Definition fordert ausdrücklich g || AB. 📄 Quelle: ari20_vl12, Folie 45 (S.45)",
-  "source": "ari20_vl12, Folie 45 (S.45, Definition Schubspiegelung)"
- },
- {
-  "id": "ari20_vl12-b3-005",
-  "topic": "ari20_vl12_schubspiegelung",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Invarianten (Eigenschaften) besitzt die Schubspiegelung laut Folie 46?",
-  "options": [
-   "geradentreu",
-   "flächeninhaltstreu",
-   "winkeltreu",
-   "längentreu",
-   "umlaufsinntreu"
-  ],
-  "correct": [
-   0,
-   1,
-   2,
-   3
-  ],
-  "explanation": "Die Schubspiegelung ist geradentreu, flächeninhaltstreu, winkeltreu und längentreu, jedoch NICHT umlaufsinntreu. 📄 Quelle: ari20_vl12, Folie 46 (S.46)",
-  "source": "ari20_vl12, Folie 46 (S.46, Schubspiegelung – Invarianten)"
- },
- {
-  "id": "ari20_vl12-b3-006",
-  "topic": "ari20_vl12_schubspiegelung",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Aussagen zu den Fixelementen der Schubspiegelung sind laut Folie 46 korrekt?",
-  "options": [
-   "Es gibt keine Fixpunkte (---)",
-   "Es gibt keine Fixpunktgeraden (---)",
-   "Fixgerade ist die Spiegelachse",
-   "Jeder Punkt der Spiegelachse ist ein Fixpunkt"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Fixpunkte: ---, Fixpunktgerade: ---, Fixgeraden: Spiegelachse. Die Punkte der Spiegelachse werden verschoben, sind also keine Fixpunkte. 📄 Quelle: ari20_vl12, Folie 46 (S.46)",
-  "source": "ari20_vl12, Folie 46 (S.46, Schubspiegelung – Fixelemente)"
- },
- {
-  "id": "ari20_vl12-b3-007",
-  "topic": "ari20_vl12_schubspiegelung",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Wie lautet die Umkehrabbildung der Schubspiegelung S_AB,g?",
-  "options": [
-   "S_BA,g",
-   "S_AB,g",
-   "S_AB,g mit gespiegelter Achse",
-   "S_BA mit senkrechter Achse"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Auf der Folie steht S_AB,g^(-1) = S_BA,g: die Verschiebungsrichtung wird umgekehrt (A und B vertauscht), die Spiegelachse g bleibt gleich. 📄 Quelle: ari20_vl12, Folie 46 (S.46)",
-  "source": "ari20_vl12, Folie 46 (S.46, Schubspiegelung – Umkehrabbildung)"
- },
- {
-  "id": "ari20_vl12-b3-008",
-  "topic": "ari20_vl12_dreifach_geradenspiegelung",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Fall 6 (die drei Geraden g, h, i haben drei Schnittpunkte): Wodurch lässt sich die dreifache Geradenspiegelung ersetzen?",
-  "options": [
-   "durch eine Schubspiegelung",
-   "durch eine einfache Geradenspiegelung",
-   "durch eine reine Verschiebung",
-   "durch eine Punktspiegelung"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Haben die drei Geraden drei Schnittpunkte, lässt sich die dreifache Geradenspiegelung durch eine Schubspiegelung ersetzen. 📄 Quelle: ari20_vl12, Folie 47 (S.47)",
-  "source": "ari20_vl12, Folie 47 (S.47, Fall 6 – drei Schnittpunkte)"
- },
- {
-  "id": "ari20_vl12-b3-009",
-  "topic": "ari20_vl12_dreifach_geradenspiegelung",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche 'Spielregeln' zum Umformen von Geradenspiegelungen nennt Folie 47?",
-  "options": [
-   "Bewege immer nur zwei Geraden",
-   "Die beiden Geraden müssen aufeinanderfolgende Buchstaben haben",
-   "Sich schneidende Geraden darf man um den Schnittpunkt drehen",
-   "Parallele Geraden darf man parallel verschieben",
-   "Man darf beliebig viele Geraden gleichzeitig bewegen"
-  ],
-  "correct": [
-   0,
-   1,
-   2,
-   3
-  ],
-  "explanation": "Spielregeln: nur zwei Geraden bewegen; sie müssen aufeinanderfolgende Buchstaben haben; sich schneidende Geraden um den Schnittpunkt drehen; parallele Geraden parallel verschieben; Ziel: bekannte Konfiguration herstellen. 📄 Quelle: ari20_vl12, Folie 47 (S.47)",
-  "source": "ari20_vl12, Folie 47 (S.47, Fall 6 – Spielregeln)"
- },
- {
-  "id": "ari20_vl12-b3-010",
-  "topic": "ari20_vl12_dreifach_geradenspiegelung",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Fall 6 – konkretes Vorgehen (Folie 48): Welche Drehschritte werden beschrieben?",
-  "options": [
-   "Drehe g und h um ihren Schnittpunkt, so dass h' senkrecht zu i liegt",
-   "Drehe h' und i um ihren Schnittpunkt, so dass h'' senkrecht zu g' liegt",
-   "Verschiebe f und g, bis g' parallel zu i wird",
-   "Spiegle i an g, bis beide zusammenfallen"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Vorgehen: g und h so drehen, dass h' ⊥ i; danach h' und i so drehen, dass h'' ⊥ g'. 📄 Quelle: ari20_vl12, Folie 48 (S.48)",
-  "source": "ari20_vl12, Folie 48 (S.48, Fall 6 – Drehschritte)"
- },
- {
-  "id": "ari20_vl12-b3-011",
-  "topic": "ari20_vl12_dreifach_geradenspiegelung",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Fall 7 (zwei Geraden sind parallel, die dritte nicht): Wodurch lässt sich die dreifache Geradenspiegelung ersetzen?",
-  "options": [
-   "durch eine Schubspiegelung",
-   "durch eine Drehung",
-   "durch eine einfache Geradenspiegelung",
-   "durch die Identität"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Auch im Fall 7 lässt sich die dreifache Geradenspiegelung durch eine Schubspiegelung ersetzen. 📄 Quelle: ari20_vl12, Folie 49 (S.49)",
-  "source": "ari20_vl12, Folie 49 (S.49, Fall 7)"
- },
- {
-  "id": "ari20_vl12-b3-012",
-  "topic": "ari20_vl12_dreifach_geradenspiegelung",
-  "difficulty": 3,
-  "type": "multi",
-  "question": "Satz über Verkettungen dreier Geradenspiegelungen, Teil a): Unter welchen Bedingungen lässt sich die dreifache Geradenspiegelung durch eine einfache Geradenspiegelung ersetzen?",
-  "options": [
-   "wenn die drei Geraden parallel liegen",
-   "wenn die drei Geraden einen gemeinsamen Schnittpunkt haben",
-   "wenn die drei Geraden ein Dreieck bilden",
-   "wenn genau zwei der Geraden parallel sind"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Teil a): Liegen die drei Geraden parallel ODER haben sie einen gemeinsamen Schnittpunkt, ersetzt eine einfache Geradenspiegelung die dreifache. 📄 Quelle: ari20_vl12, Folie 50 (S.50)",
-  "source": "ari20_vl12, Folie 50 (S.50, Satz – dreifache Geradenspiegelung)"
- },
- {
-  "id": "ari20_vl12-b3-013",
-  "topic": "ari20_vl12_dreifach_geradenspiegelung",
-  "difficulty": 3,
-  "type": "single",
-  "question": "Satz über Verkettungen dreier Geradenspiegelungen, Teil b): Wenn die Geraden nicht alle parallel sind und keinen gemeinsamen Schnittpunkt haben, dann lässt sich die dreifache Geradenspiegelung ersetzen durch ...",
-  "options": [
-   "eine Schubspiegelung",
-   "eine einfache Geradenspiegelung",
-   "eine Drehung",
-   "eine Verschiebung"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Teil b): Sind die Geraden nicht alle parallel und ohne gemeinsamen Schnittpunkt, so ergibt sich eine Schubspiegelung. 📄 Quelle: ari20_vl12, Folie 50 (S.50)",
-  "source": "ari20_vl12, Folie 50 (S.50, Satz – dreifache Geradenspiegelung)"
- },
- {
-  "id": "ari20_vl12-b3-014",
-  "topic": "ari20_vl12_dreifach_geradenspiegelung",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Ergebnistypen einer dreifachen Geradenspiegelung nennt der Satz auf Folie 50?",
-  "options": [
-   "eine einfache Geradenspiegelung (bei Parallelität oder gemeinsamem Schnittpunkt)",
-   "eine Schubspiegelung (in den übrigen Fällen)",
-   "eine Drehung",
-   "eine Verschiebung"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Der Satz unterscheidet nur zwei Ergebnisse: einfache Geradenspiegelung (a) oder Schubspiegelung (b). 📄 Quelle: ari20_vl12, Folie 50 (S.50)",
-  "source": "ari20_vl12, Folie 50 (S.50, Satz – dreifache Geradenspiegelung)"
- },
- {
-  "id": "ari20_vl12-b3-015",
-  "topic": "ari20_vl12_vierfach_geradenspiegelung",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Vierfache Geradenspiegelung, Fall 1 (vier Parallelen, kein Schnittpunkt): Welche Kongruenzabbildung ergibt die Verkettung?",
-  "options": [
-   "eine Verschiebung",
-   "eine Drehung",
-   "eine Schubspiegelung",
-   "eine einfache Geradenspiegelung"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Bei vier parallelen Geraden gilt S_i ∘ S_h ∘ S_g ∘ S_f = S_i ∘ S_f' = V_AB, also eine Verschiebung. 📄 Quelle: ari20_vl12, Folie 53 (S.53)",
-  "source": "ari20_vl12, Folie 53 (S.53, Fall 1 – vier Parallelen)"
- },
- {
-  "id": "ari20_vl12-b3-016",
-  "topic": "ari20_vl12_vierfach_geradenspiegelung",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Fall 1 (vier Parallelen): Wie groß ist die Länge der Verschiebungsstrecke AB im Vergleich zum Abstand d(i, f')?",
-  "options": [
-   "gleich dem doppelten Abstand d(i, f')",
-   "gleich dem Abstand d(i, f')",
-   "gleich dem halben Abstand d(i, f')",
-   "gleich dem vierfachen Abstand d(i, f')"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Länge der Strecke AB ist der doppelte Abstand von i und f', also 2·d(i, f'). 📄 Quelle: ari20_vl12, Folie 53 (S.53)",
-  "source": "ari20_vl12, Folie 53 (S.53, Fall 1 – Verschiebung)"
- },
- {
-  "id": "ari20_vl12-b3-017",
-  "topic": "ari20_vl12_vierfach_geradenspiegelung",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Fall 1: Wozu vereinfacht sich der Ausdruck S_i ∘ S_h ∘ S_g ∘ S_f (wie bei drei Geradenspiegelungen)?",
-  "options": [
-   "zu S_i ∘ S_f'",
-   "zu S_f'",
-   "zu S_i ∘ S_h",
-   "zur Identität"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Auf der Folie: S_i ∘ S_h ∘ S_g ∘ S_f = S_i ∘ S_f' = V_AB. 📄 Quelle: ari20_vl12, Folie 53 (S.53)",
-  "source": "ari20_vl12, Folie 53 (S.53, Fall 1)"
- },
- {
-  "id": "ari20_vl12-b3-018",
-  "topic": "ari20_vl12_vierfach_geradenspiegelung",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Fall 2 (keine Parallelen, ein gemeinsamer Schnittpunkt aller vier Geraden): Welche Abbildung ergibt die vierfache Geradenspiegelung?",
-  "options": [
-   "eine Drehung",
-   "eine Verschiebung",
-   "eine Schubspiegelung",
-   "eine einfache Geradenspiegelung"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Schneiden sich alle vier Geraden in einem Punkt, ergibt sich eine Drehung. 📄 Quelle: ari20_vl12, Folie 54 (S.54)",
-  "source": "ari20_vl12, Folie 54 (S.54, Fall 2 – ein Schnittpunkt)"
- },
- {
-  "id": "ari20_vl12-b3-019",
-  "topic": "ari20_vl12_vierfach_geradenspiegelung",
-  "difficulty": 3,
-  "type": "multi",
-  "question": "Fall 2 – Begründung: Welche Zwischenschritte werden auf Folie 54 angegeben?",
-  "options": [
-   "Drei Geraden durch einen Punkt: S_h ∘ S_g ∘ S_f = S_f' (einfache Spiegelung)",
-   "Damit gilt S_i ∘ S_h ∘ S_g ∘ S_f = S_i ∘ S_f'",
-   "S_i ∘ S_f' ist eine zweifache Geradenspiegelung, also eine Drehung",
-   "S_i ∘ S_f' ist eine Verschiebung"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Drei Geraden durch einen Punkt liefern S_h ∘ S_g ∘ S_f = S_f'; damit S_i ∘ S_h ∘ S_g ∘ S_f = S_i ∘ S_f', eine zweifache Geradenspiegelung und somit eine Drehung. 📄 Quelle: ari20_vl12, Folie 54 (S.54)",
-  "source": "ari20_vl12, Folie 54 (S.54, Fall 2)"
- },
- {
-  "id": "ari20_vl12-b3-020",
-  "topic": "ari20_vl12_vierfach_geradenspiegelung",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Fall 3 (drei Parallelen, drei Schnittpunkte): Welche Abbildung ergibt sich?",
-  "options": [
-   "eine Drehung",
-   "eine Verschiebung",
-   "eine Schubspiegelung",
-   "eine einfache Geradenspiegelung"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Fall 3 führt (wie bei drei Geradenspiegelungen) auf eine Drehung. 📄 Quelle: ari20_vl12, Folie 55 (S.55)",
-  "source": "ari20_vl12, Folie 55 (S.55, Fall 3 – drei Parallelen)"
- },
- {
-  "id": "ari20_vl12-b3-021",
-  "topic": "ari20_vl12_vierfach_geradenspiegelung",
-  "difficulty": 3,
-  "type": "single",
-  "question": "Fall 3: Um welchen Punkt erfolgt die Drehung?",
-  "options": [
-   "um den Schnittpunkt von i und f' (bzw. i' und f)",
-   "um den Schnittpunkt von f und g",
-   "um den Mittelpunkt der Konfiguration",
-   "um einen beliebig wählbaren Punkt"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Es ist eine Drehung um den Schnittpunkt von i und f' (bzw. i' und f). 📄 Quelle: ari20_vl12, Folie 55 (S.55)",
-  "source": "ari20_vl12, Folie 55 (S.55, Fall 3)"
- },
- {
-  "id": "ari20_vl12-b3-022",
-  "topic": "ari20_vl12_vierfach_geradenspiegelung",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Fall 4a (zwei Paare von Parallelen, vier Schnittpunkte): Welche Aussagen sind laut Folie 56 korrekt?",
-  "options": [
-   "Es gilt f || g und h || i",
-   "Der Fall wird auf den Fall mit sechs Schnittpunkten (Fall 6) zurückgeführt",
-   "Es gilt f || i und g || h",
-   "Der Fall führt direkt zu einer einfachen Geradenspiegelung"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Fall 4a: zwei Paare paralleler Geraden f || g und h || i; durch Drehen von g und h entsteht ein Fall mit sechs Schnittpunkten (siehe Fall 6). 📄 Quelle: ari20_vl12, Folie 56 (S.56)",
-  "source": "ari20_vl12, Folie 56 (S.56, Fall 4a)"
- },
- {
-  "id": "ari20_vl12-b3-023",
-  "topic": "ari20_vl12_vierfach_geradenspiegelung",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Fall 4a: Auf welchen bereits behandelten Fall wird er durch Drehen zurückgeführt?",
-  "options": [
-   "Fall 6 (sechs Schnittpunkte)",
-   "Fall 1",
-   "Fall 2",
-   "Fall 3"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Nach dem Drehen entsteht ein Fall mit sechs Schnittpunkten, also Fall 6. 📄 Quelle: ari20_vl12, Folie 56 (S.56)",
-  "source": "ari20_vl12, Folie 56 (S.56, Fall 4a)"
- },
- {
-  "id": "ari20_vl12-b3-024",
-  "topic": "ari20_vl12_vierfach_geradenspiegelung",
-  "difficulty": 3,
-  "type": "multi",
-  "question": "Fall 4b (keine Parallelen, vier Schnittpunkte; drei Geraden durch einen Punkt, die vierte schneidet die anderen drei): Welche Abbildung kann sich ergeben?",
-  "options": [
-   "eine Drehung, falls i und f' nicht parallel sind (i ∦ f')",
-   "eine Verschiebung, falls i und f' parallel sind (i || f')",
-   "stets eine Schubspiegelung",
-   "stets eine einfache Geradenspiegelung"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Es gilt S_i ∘ S_h ∘ S_g ∘ S_f = S_i ∘ S_f'; das ist eine Drehung (i ∦ f') oder eine Verschiebung (i || f'). 📄 Quelle: ari20_vl12, Folie 57 (S.57)",
-  "source": "ari20_vl12, Folie 57 (S.57, Fall 4b)"
- },
- {
-  "id": "ari20_vl12-b3-025",
-  "topic": "ari20_vl12_vierfach_geradenspiegelung",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Fall 4b: Unter welcher Bedingung ergibt sich eine Verschiebung statt einer Drehung?",
-  "options": [
-   "wenn i || f' (i parallel zu f')",
-   "wenn i ⊥ f' (i senkrecht zu f')",
-   "wenn i und f' sich schneiden",
-   "in keinem Fall"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Verschiebung genau dann, wenn i || f'; andernfalls (i ∦ f') eine Drehung. 📄 Quelle: ari20_vl12, Folie 57 (S.57)",
-  "source": "ari20_vl12, Folie 57 (S.57, Fall 4b)"
- },
- {
-  "id": "ari20_vl12-b3-026",
-  "topic": "ari20_vl12_vierfach_geradenspiegelung",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Fall 5 (zwei Parallelen, fünf Schnittpunkte): Auf welchen zuvor behandelten Fall wird er zurückgeführt?",
-  "options": [
-   "auf Fall 4b (vier Schnittpunkte, keine Parallele)",
-   "auf Fall 1",
-   "auf Fall 2",
-   "auf Fall 6"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Durch Drehen/Verschieben wird der Fall 5 auf Fall 4b (vier Schnittpunkte, keine Parallele) zurückgeführt. 📄 Quelle: ari20_vl12, Folie 58 (S.58)",
-  "source": "ari20_vl12, Folie 58 (S.58, Fall 5)"
- },
- {
-  "id": "ari20_vl12-b3-027",
-  "topic": "ari20_vl12_vierfach_geradenspiegelung",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Fall 5 trägt den Zusatz 'fünf Schnittpunkte'. Wie viele Schnittpunkte weist die Geradenkonfiguration in Fall 5 auf?",
-  "answer": 5,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Fall 5 heißt 'zwei Parallelen, fünf Schnittpunkte'. 📄 Quelle: ari20_vl12, Folie 58 (S.58)",
-  "source": "ari20_vl12, Folie 58 (S.58, Fall 5)"
- },
- {
-  "id": "ari20_vl12-b3-028",
-  "topic": "ari20_vl12_vierfach_geradenspiegelung",
-  "difficulty": 3,
-  "type": "multi",
-  "question": "Fall 6 (keine Parallelen, sechs Schnittpunkte; zwei Geradenpaare, jeweils ein Schnittpunkt): Welche Abbildung ergibt sich?",
-  "options": [
-   "eine Verschiebung, wenn f' || i'",
-   "eine Drehung, wenn f' und i' nicht parallel sind",
-   "stets eine Schubspiegelung",
-   "stets eine einfache Geradenspiegelung"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Es gilt S_i ∘ S_h ∘ S_g ∘ S_f = S_i' ∘ S_f'; ist f' || i', so ist die Abbildung eine Verschiebung, sonst eine Drehung. 📄 Quelle: ari20_vl12, Folie 59 (S.59)",
-  "source": "ari20_vl12, Folie 59 (S.59, Fall 6)"
- },
- {
-  "id": "ari20_vl12-b3-029",
-  "topic": "ari20_vl12_vierfach_geradenspiegelung",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Fall 6 trägt den Zusatz 'sechs Schnittpunkte'. Wie viele Schnittpunkte weist diese Geradenkonfiguration auf?",
-  "answer": 6,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Fall 6 heißt 'keine Parallelen, sechs Schnittpunkte'. 📄 Quelle: ari20_vl12, Folie 59 (S.59)",
-  "source": "ari20_vl12, Folie 59 (S.59, Fall 6)"
- },
- {
-  "id": "ari20_vl12-b3-030",
-  "topic": "ari20_vl12_vierfach_geradenspiegelung",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Erste Rückschau (Folie 60): Welches Gesamtergebnis fasst die Fallunterscheidung der vierfachen Geradenspiegelungen zusammen?",
-  "options": [
-   "Alle vierfachen Geradenspiegelungen sind einfache Verschiebungen oder einfache Drehungen",
-   "Eine vierfache Geradenspiegelung ist entweder eine Verschiebung oder eine Drehung",
-   "Manche vierfachen Geradenspiegelungen ergeben eine Schubspiegelung",
-   "Alle vierfachen Geradenspiegelungen ergeben eine einfache Geradenspiegelung"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Kernaussage: 'Alle vierfachen Geradenspiegelungen sind einfache Verschiebungen oder einfache Drehungen!' 📄 Quelle: ari20_vl12, Folie 60 (S.60)",
-  "source": "ari20_vl12, Folie 60 (S.60, Erste Rückschau)"
- },
- {
-  "id": "ari20_vl12-b4-001",
-  "topic": "ari20_vl12_geradenspiegelungen",
-  "difficulty": 1,
-  "type": "multi",
-  "question": "Was gilt laut der \"Ersten Rückschau\" für alle vierfachen Geradenspiegelungen?",
-  "options": [
-   "Sie sind einfache Verschiebungen",
-   "Sie sind einfache Drehungen",
-   "Sie sind stets Schubspiegelungen",
-   "Sie sind stets Punktspiegelungen"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Auf der Folie steht: \"Alle vierfachen Geradenspiegelungen sind einfache Verschiebungen oder einfache Drehungen!\" Schub- und Punktspiegelung werden nicht genannt. 📄 Quelle: ari20_vl12, Folie 61 (S.61)",
-  "source": "ari20_vl12, Folie 61 (S.61, Geometrie)"
- },
- {
-  "id": "ari20_vl12-b4-002",
-  "topic": "ari20_vl12_geradenspiegelungen",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Auf welche Verkettung lässt sich die vierfache Geradenspiegelung laut Folie immer reduzieren?",
-  "options": [
-   "Auf die zweifache Geradenspiegelung",
-   "Auf die dreifache Geradenspiegelung",
-   "Auf die einfache Geradenspiegelung",
-   "Auf die fünffache Geradenspiegelung"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Der rot umrandete Merksatz lautet: \"Die vierfache Geradenspiegelung lässt sich also immer auf die zweifache Geradenspiegelung reduzieren.\" 📄 Quelle: ari20_vl12, Folie 61 (S.61)",
-  "source": "ari20_vl12, Folie 61 (S.61, Geometrie)"
- },
- {
-  "id": "ari20_vl12-b4-003",
-  "topic": "ari20_vl12_verkettung",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Wie wird auf Folie 68 begründet, warum man bei der Verkettung von fünf Geradenspiegelungen \"schon fertig\" ist?",
-  "options": [
-   "5 Geraden sind 4 + 1 Geraden",
-   "4 Geradenspiegelungen lassen sich immer durch 2 Geradenspiegelungen ersetzen",
-   "Es bleiben also drei Geradenspiegelungen übrig",
-   "Fünf Geradenspiegelungen ergeben immer die Identität"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Die Folie führt schrittweise aus: \"5 Geraden sind 4 + 1 Geraden.\", \"4 Geradenspiegelungen lassen sich immer durch 2 Geradenspiegelungen ersetzen.\" und \"Es bleiben also drei Geradenspiegelungen übrig.\" Von der Identität ist nicht die Rede. 📄 Quelle: ari20_vl12, Folie 68 (S.68)",
-  "source": "ari20_vl12, Folie 68 (S.68, Geometrie)"
- },
- {
-  "id": "ari20_vl12-b4-004",
-  "topic": "ari20_vl12_verkettung",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Wodurch lassen sich die bei fünf Geradenspiegelungen verbleibenden drei Geradenspiegelungen laut Folie 68 ersetzen?",
-  "options": [
-   "Durch eine Schubspiegelung oder eine einfache Geradenspiegelung",
-   "Nur durch eine Drehung",
-   "Durch eine Verschiebung oder eine Drehung",
-   "Durch eine Punktspiegelung"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Auf der Folie steht: \"Die lassen sich entweder durch eine Schubspiegelung oder eine einfache Geradenspiegelung ersetzen.\" Drehung/Verschiebung gehören zum geraden Fall. 📄 Quelle: ari20_vl12, Folie 68 (S.68)",
-  "source": "ari20_vl12, Folie 68 (S.68, Geometrie)"
- },
- {
-  "id": "ari20_vl12-b4-005",
-  "topic": "ari20_vl12_verkettung",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Wie viele Geradenspiegelungen bleiben laut Folie 68 übrig, nachdem bei der Verkettung von fünf Geradenspiegelungen vier durch zwei ersetzt wurden?",
-  "answer": 3,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "5 = 4 + 1; die 4 werden durch 2 ersetzt, also 2 + 1 = 3. Auf der Folie: \"Es bleiben also drei Geradenspiegelungen übrig.\" 📄 Quelle: ari20_vl12, Folie 68 (S.68)",
-  "source": "ari20_vl12, Folie 68 (S.68, Geometrie)"
- },
- {
-  "id": "ari20_vl12-b4-006",
-  "topic": "ari20_vl12_verkettung",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Jede Verkettung von 2 Geradenspiegelungen ist laut Folie 71 identisch zu ...",
-  "options": [
-   "einer Drehung oder einer Verschiebung",
-   "einer Schubspiegelung",
-   "einer einfachen Geradenspiegelung",
-   "einer dreifachen Geradenspiegelung"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Erster Kasten der Folie: \"Jede Verkettung von 2 Geradenspiegelungen ist identisch zu einer Drehung oder einer Verschiebung.\" 📄 Quelle: ari20_vl12, Folie 71 (S.71)",
-  "source": "ari20_vl12, Folie 71 (S.71, Geometrie)"
- },
- {
-  "id": "ari20_vl12-b4-007",
-  "topic": "ari20_vl12_verkettung",
-  "difficulty": 3,
-  "type": "single",
-  "question": "Zu welcher Abbildung ist laut Folie 71 jede Verkettung von 2n Geradenspiegelungen (n ∈ N) identisch?",
-  "options": [
-   "Zu einer zweifachen Geradenspiegelung (Drehung oder Verschiebung)",
-   "Zu einer dreifachen Geradenspiegelung (Geradenspiegelung oder Schubspiegelung)",
-   "Zu einer einfachen Geradenspiegelung",
-   "Zu einer Punktspiegelung"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Dritter Kasten: \"Jede Verkettung von 2n Geradenspiegelungen (n ∈ N) ist identisch zu einer zweifachen Geradenspiegelungen (Drehung oder Verschiebung).\" 📄 Quelle: ari20_vl12, Folie 71 (S.71)",
-  "source": "ari20_vl12, Folie 71 (S.71, Geometrie)"
- },
- {
-  "id": "ari20_vl12-b4-008",
-  "topic": "ari20_vl12_verkettung",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Verkettungen von Geradenspiegelungen lassen sich laut Folie 71 zu einer zweifachen Geradenspiegelung (Drehung oder Verschiebung) reduzieren?",
-  "options": [
-   "Verkettung von 2 Geradenspiegelungen",
-   "Verkettung von 4 Geradenspiegelungen",
-   "Verkettung von 2n Geradenspiegelungen (n ∈ N)",
-   "Verkettung von 5 Geradenspiegelungen"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Die drei Kästen der Folie nennen 2, 4 und 2n Geradenspiegelungen. Fünf (ungerade) Geradenspiegelungen gehören nicht dazu. 📄 Quelle: ari20_vl12, Folie 71 (S.71)",
-  "source": "ari20_vl12, Folie 71 (S.71, Geometrie)"
- },
- {
-  "id": "ari20_vl12-b4-009",
-  "topic": "ari20_vl12_verkettung",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Jede Verkettung von 3 Geradenspiegelungen ist laut Folie 74 identisch zu ...",
-  "options": [
-   "einer einfachen Geradenspiegelung oder einer Schubspiegelung",
-   "einer Drehung oder einer Verschiebung",
-   "einer zweifachen Geradenspiegelung",
-   "der Identität"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Erster Kasten: \"Jede Verkettung von 3 Geradenspiegelungen ist identisch zu einer einfachen Geradenspiegelung oder einer Schubspiegelung.\" 📄 Quelle: ari20_vl12, Folie 74 (S.74)",
-  "source": "ari20_vl12, Folie 74 (S.74, Geometrie)"
- },
- {
-  "id": "ari20_vl12-b4-010",
-  "topic": "ari20_vl12_verkettung",
-  "difficulty": 3,
-  "type": "single",
-  "question": "Zu welcher Abbildung ist laut Folie 74 jede Verkettung von 2n + 1 Geradenspiegelungen (n ∈ N) identisch?",
-  "options": [
-   "Zu einer dreifachen Geradenspiegelung (Geradenspiegelung oder Schubspiegelung)",
-   "Zu einer zweifachen Geradenspiegelung (Drehung oder Verschiebung)",
-   "Zu einer Verschiebung",
-   "Zu einer Drehung"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Dritter Kasten: \"Jede Verkettung von 2n + 1 Geradenspiegelungen (n ∈ N) ist identisch zu einer dreifachen Geradenspiegelungen (Geradenspiegelung oder Schubspiegelung).\" 📄 Quelle: ari20_vl12, Folie 74 (S.74)",
-  "source": "ari20_vl12, Folie 74 (S.74, Geometrie)"
- },
- {
-  "id": "ari20_vl12-b4-011",
-  "topic": "ari20_vl12_verkettung",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Verkettungen reduzieren sich laut Folie 74 auf eine dreifache Geradenspiegelung (Geradenspiegelung oder Schubspiegelung)?",
-  "options": [
-   "Verkettung von 3 Geradenspiegelungen",
-   "Verkettung von 5 Geradenspiegelungen",
-   "Verkettung von 2n + 1 Geradenspiegelungen (n ∈ N)",
-   "Verkettung von 2n Geradenspiegelungen (n ∈ N)"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Die drei Kästen nennen 3, 5 und 2n + 1 (ungerade Anzahl). 2n (gerade Anzahl) reduziert sich dagegen auf eine zweifache Geradenspiegelung. 📄 Quelle: ari20_vl12, Folie 74 (S.74)",
-  "source": "ari20_vl12, Folie 74 (S.74, Geometrie)"
- },
- {
-  "id": "ari20_vl12-b4-012",
-  "topic": "ari20_vl12_satz",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Wenn 2n Geradenspiegelungen verkettet werden, lässt sich die Abbildung laut Satz (Folie 76) wodurch ersetzen und worauf reduzieren?",
-  "options": [
-   "Durch zwei Geradenspiegelungen, d.h. auf eine Drehung oder Verschiebung",
-   "Durch drei Geradenspiegelungen, d.h. auf eine Schubspiegelung oder Achsenspiegelung",
-   "Durch eine Geradenspiegelung, d.h. auf die Identität",
-   "Durch vier Geradenspiegelungen"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Der Satz: \"Wenn 2n (2n+1) Geradenspiegelungen verkettet werden, dann lässt sich die Abbildung durch zwei (drei) Geradenspiegelungen ersetzen, d.h. auf eine Drehung oder Verschiebung (Schubspiegelung oder Achsenspiegelung) reduzieren.\" Für 2n gilt der Teil ohne Klammer. 📄 Quelle: ari20_vl12, Folie 76 (S.76)",
-  "source": "ari20_vl12, Folie 76 (S.76, Geometrie)"
- },
- {
-  "id": "ari20_vl12-b4-013",
-  "topic": "ari20_vl12_satz",
-  "difficulty": 3,
-  "type": "single",
-  "question": "Worauf lässt sich die Abbildung laut Satz (Folie 76) reduzieren, wenn 2n+1 Geradenspiegelungen verkettet werden?",
-  "options": [
-   "Auf eine Schubspiegelung oder Achsenspiegelung (durch drei Geradenspiegelungen)",
-   "Auf eine Drehung oder Verschiebung (durch zwei Geradenspiegelungen)",
-   "Auf die Identität",
-   "Auf eine Punktspiegelung"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Im Satz gelten die Klammerangaben für den Fall 2n+1: durch drei Geradenspiegelungen ersetzbar, d.h. auf eine Schubspiegelung oder Achsenspiegelung reduzierbar. 📄 Quelle: ari20_vl12, Folie 76 (S.76)",
-  "source": "ari20_vl12, Folie 76 (S.76, Geometrie)"
- },
- {
-  "id": "ari20_vl12-b4-014",
-  "topic": "ari20_vl12_satz",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Aussagen entsprechen dem Satz \"Für alle Verkettungen von Geradenspiegelungen gilt\" (Folie 76)?",
-  "options": [
-   "Eine gerade Anzahl (2n) Geradenspiegelungen reduziert sich auf eine Drehung oder Verschiebung",
-   "Eine ungerade Anzahl (2n+1) Geradenspiegelungen reduziert sich auf eine Schubspiegelung oder Achsenspiegelung",
-   "2n Geradenspiegelungen lassen sich durch zwei Geradenspiegelungen ersetzen",
-   "Jede Verkettung von Geradenspiegelungen ergibt stets eine Schubspiegelung"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Der Satz unterscheidet 2n (zwei Geradenspiegelungen → Drehung/Verschiebung) und 2n+1 (drei Geradenspiegelungen → Schubspiegelung/Achsenspiegelung). Eine pauschale Schubspiegelung ist falsch. 📄 Quelle: ari20_vl12, Folie 76 (S.76)",
-  "source": "ari20_vl12, Folie 76 (S.76, Geometrie)"
- },
- {
-  "id": "ari20_vl12-b4-015",
-  "topic": "ari20_vl12_fachdidaktik",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Warum ist der Satz laut Folie 77 ein Paradebeispiel für Mathematik?",
-  "options": [
-   "In einem festgelegten Bereich wird die Struktur von Objekten (Abbildungen) untersucht",
-   "Es zeigt sich eine handhabbare und abgeschlossene Struktur",
-   "Man umgeht eine Grenze, indem man eine neue formerhaltende Abbildung (Schubspiegelung) definiert",
-   "Mathematik ist ausschließlich das Rechnen mit Zahlen"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Die Folie nennt: (1) Untersuchung der Struktur von Objekten in einem festgelegten Bereich, (2) handhabbare, abgeschlossene Struktur, (3) Umgehen einer Grenze durch Definition einer neuen formerhaltenden Abbildung. Die vierte Option widerspricht dem Bild von Mathematik als Schaffen von Mustern/Strukturen. 📄 Quelle: ari20_vl12, Folie 77 (S.77)",
-  "source": "ari20_vl12, Folie 77 (S.77, Geometrie)"
- },
- {
-  "id": "ari20_vl12-b4-016",
-  "topic": "ari20_vl12_fachdidaktik",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Wie wird die \"abgeschlossene Struktur\" auf Folie 77 beschrieben?",
-  "options": [
-   "Alle Verkettungen/Verknüpfungen von formerhaltenden Abbildungen lassen sich durch eine formerhaltende Abbildung ersetzen",
-   "Jede Abbildung lässt sich durch eine Drehung ersetzen",
-   "Alle Abbildungen sind Schubspiegelungen",
-   "Formerhaltende Abbildungen sind nicht verkettbar"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Punkt 2 der Folie: \"Es zeigt sich eine handhabbare und abgeschlossene Struktur (alle Verkettungen/Verknüpfungen von formerhaltenden Abbildungen lassen sich durch eine formerhaltende Abbildung ersetzen).\" 📄 Quelle: ari20_vl12, Folie 77 (S.77)",
-  "source": "ari20_vl12, Folie 77 (S.77, Geometrie)"
- },
- {
-  "id": "ari20_vl12-b4-017",
-  "topic": "ari20_vl12_fachdidaktik",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Welche neue formerhaltende Abbildung wird laut Folie 77 definiert, um an eine Grenze stoßend diese zu umgehen?",
-  "options": [
-   "Die Schubspiegelung",
-   "Die Drehung",
-   "Die Verschiebung",
-   "Die Punktspiegelung"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Punkt 3: \"Man stößt zwischendurch an eine Grenze, die man umgeht, indem man eine neue formerhaltende Abbildung (Schubspiegelung) definiert.\" 📄 Quelle: ari20_vl12, Folie 77 (S.77)",
-  "source": "ari20_vl12, Folie 77 (S.77, Geometrie)"
- },
- {
-  "id": "ari20_vl12-b4-018",
-  "topic": "ari20_vl12_fachdidaktik",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Als was wird Mathematik in Punkt 4 auf Folie 77 charakterisiert?",
-  "options": [
-   "Als Schaffen und Beschreiben von Mustern und Strukturen",
-   "Als reines Auswendiglernen von Formeln",
-   "Als bloße Anwendung von Rechenregeln",
-   "Als Beweisen von Ungleichungen"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Punkt 4 der Folie: \"Mathematik als Schaffen und Beschreiben von Mustern und Strukturen.\" 📄 Quelle: ari20_vl12, Folie 77 (S.77)",
-  "source": "ari20_vl12, Folie 77 (S.77, Geometrie)"
- }
+  {
+    "id": "ari20_vl12-b1-001",
+    "topic": "ari20_vl12_verknuepfung",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Nach üblicher Konvention: Wie ist die Verkettung S_h ∘ S_g zweier Geradenspiegelungen zu lesen?",
+    "options": [
+      "„S_h nach S_g\", d. h. es wird zuerst S_g und dann S_h ausgeführt (analog zu g(f(x)) = g ∘ f)",
+      "„S_g nach S_h\", d. h. zuerst S_h und dann S_g",
+      "Beide Geradenspiegelungen werden gleichzeitig ausgeführt",
+      "Die Reihenfolge ist beliebig, da die Verkettung stets kommutativ ist"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie legt als Konvention fest: S_h ∘ S_g bedeutet „S_h nach S_g\" (wie g(f(x)) = g ∘ f), es wird also zuerst S_g und danach S_h angewandt. 📄 Quelle: ari20_vl12, Folie 6 (S.6)",
+    "source": "ari20_vl12, Folie 6 (S.6, Geometrie – Verkettung von Geradenspiegelungen)"
+  },
+  {
+    "id": "ari20_vl12-b1-002",
+    "topic": "ari20_vl12_verknuepfung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aussagen zur Verknüpfung von Abbildungen bzw. zur Schreibweise S_h ∘ S_g treffen zu?",
+    "options": [
+      "S_h ∘ S_g bedeutet „S_h nach S_g\"",
+      "Die Schreibweise entspricht der Konvention g(f(x)) = g ∘ f",
+      "Bei S_h ∘ S_g wird zuerst S_h ausgeführt",
+      "Ganz konkret wird die Verknüpfung zweier Geradenspiegelungen betrachtet"
+    ],
+    "correct": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "S_h ∘ S_g heißt „S_h nach S_g\" (wie g(f(x)) = g ∘ f), es wird also zuerst S_g ausgeführt – nicht S_h. Konkret wird die Verknüpfung zweier Geradenspiegelungen untersucht. 📄 Quelle: ari20_vl12, Folie 7 (S.7)",
+    "source": "ari20_vl12, Folie 7 (S.7, Geometrie – Verkettung von Geradenspiegelungen)"
+  },
+  {
+    "id": "ari20_vl12-b1-003",
+    "topic": "ari20_vl12_zwei_geradenspiegelungen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Der Satz lautet: „Für alle Verkettungen zweier Geradenspiegelungen S_g und S_h an den Geraden g und h gilt …\". Welche der folgenden Aussagen gehören zum Satz?",
+    "options": [
+      "Wenn g = h gilt, dann gilt S_h ∘ S_g = id (identische Abbildung)",
+      "Wenn g ∥ h gilt, dann gilt S_h ∘ S_g = V_{2|AB|} (eine Verschiebung)",
+      "Wenn g ∩ h = {S} mit ∠gh = α gilt, dann gilt S_h ∘ S_g = D_{S,2α}",
+      "Wenn g ∥ h gilt, dann gilt S_h ∘ S_g = id (identische Abbildung)"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Der Satz unterscheidet drei Fälle: g = h ⇒ id, g ∥ h ⇒ Verschiebung V_{2|AB|}, g ∩ h = {S} mit ∠gh = α ⇒ Drehung D_{S,2α}. Der Fall g ∥ h liefert eine Verschiebung, nicht die Identität. 📄 Quelle: ari20_vl12, Folie 8 (S.8)",
+    "source": "ari20_vl12, Folie 8 (S.8, Geometrie – Verkettung von Geradenspiegelungen)"
+  },
+  {
+    "id": "ari20_vl12-b1-004",
+    "topic": "ari20_vl12_zwei_geradenspiegelungen",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Im Fall g ∥ h gilt S_h ∘ S_g = V_{2|AB|}. Welche Eigenschaft hat die Strecke AB laut Satz?",
+    "options": [
+      "AB steht senkrecht zu g (bzw. h) und reicht von g nach h",
+      "AB verläuft parallel zu g und h",
+      "AB reicht von h nach g und ist halb so lang wie der Geradenabstand",
+      "AB verbindet die beiden Fixpunkte der Spiegelungen"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Der Satz präzisiert im Fall g ∥ h: S_h ∘ S_g = V_{2|AB|}, wobei AB senkrecht zu g (bzw. h) steht und von g nach h reicht. 📄 Quelle: ari20_vl12, Folie 8 (S.8)",
+    "source": "ari20_vl12, Folie 8 (S.8, Geometrie – Verkettung von Geradenspiegelungen)"
+  },
+  {
+    "id": "ari20_vl12-b1-005",
+    "topic": "ari20_vl12_zwei_geradenspiegelungen",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Es sei g ∩ h = {S} mit ∠gh = α. Was ergibt die Verkettung S_h ∘ S_g laut Satz?",
+    "options": [
+      "Die Drehung D_{S,2α}",
+      "Die Drehung D_{S,α}",
+      "Die Verschiebung V_{2α}",
+      "Die identische Abbildung id"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Schneiden sich g und h im Punkt S unter dem Winkel ∠gh = α, so gilt S_h ∘ S_g = D_{S,2α} – eine Drehung um S mit dem doppelten Winkel. 📄 Quelle: ari20_vl12, Folie 8 (S.8)",
+    "source": "ari20_vl12, Folie 8 (S.8, Geometrie – Verkettung von Geradenspiegelungen)"
+  },
+  {
+    "id": "ari20_vl12-b1-006",
+    "topic": "ari20_vl12_zwei_geradenspiegelungen",
+    "difficulty": 1,
+    "type": "multi",
+    "question": "In welche drei Fälle wird die doppelte Geradenspiegelung an zwei Geraden g und h unterschieden?",
+    "options": [
+      "g = h",
+      "g ∥ h",
+      "g ∩ h = {S}",
+      "g ⊥ h als eigenständiger vierter Grundfall"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Die Fallunterscheidung erfolgt in die drei Fälle g = h, g ∥ h und g ∩ h = {S}. Der Fall g ⊥ h ist kein eigener Grundfall, sondern ein Sonderfall des Schnittfalls (Fall 3a). 📄 Quelle: ari20_vl12, Folie 9 (S.9)",
+    "source": "ari20_vl12, Folie 9 (S.9, Geometrie – Verkettung von Geradenspiegelungen)"
+  },
+  {
+    "id": "ari20_vl12-b1-007",
+    "topic": "ari20_vl12_zwei_geradenspiegelungen",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "In wie viele Fälle wird die doppelte Geradenspiegelung an den Geraden g und h unterschieden?",
+    "answer": 3,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Die doppelte Geradenspiegelung wird in drei Fälle unterschieden: g = h, g ∥ h und g ∩ h = {S}. 📄 Quelle: ari20_vl12, Folie 9 (S.9)",
+    "source": "ari20_vl12, Folie 9 (S.9, Geometrie – Verkettung von Geradenspiegelungen)"
+  },
+  {
+    "id": "ari20_vl12-b1-008",
+    "topic": "ari20_vl12_fall_identitaet",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Fall 1: Für g = h – was ergibt die doppelte Geradenspiegelung S_h ∘ S_g?",
+    "options": [
+      "Die identische Abbildung id",
+      "Eine Verschiebung",
+      "Eine Drehung um 2α",
+      "Eine Punktspiegelung"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Im Fall g = h gilt S_h ∘ S_g = id, also die identische Abbildung. 📄 Quelle: ari20_vl12, Folie 10 (S.10)",
+    "source": "ari20_vl12, Folie 10 (S.10, Geometrie – Verkettung von Geradenspiegelungen)"
+  },
+  {
+    "id": "ari20_vl12-b1-009",
+    "topic": "ari20_vl12_fall_identitaet",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Für welche Lage der beiden Geraden g und h ergibt die doppelte Geradenspiegelung die identische Abbildung?",
+    "options": [
+      "g = h",
+      "g ∥ h (mit g ≠ h)",
+      "g ∩ h = {S}",
+      "Für keine Lage von g und h"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Nur für g = h gilt S_h ∘ S_g = id (identische Abbildung). 📄 Quelle: ari20_vl12, Folie 10 (S.10)",
+    "source": "ari20_vl12, Folie 10 (S.10, Geometrie – Verkettung von Geradenspiegelungen)"
+  },
+  {
+    "id": "ari20_vl12-b1-010",
+    "topic": "ari20_vl12_fall_verschiebung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Fall 2: Für g ∥ h ist die doppelte Geradenspiegelung eine Verschiebung. Um welche Weite wird verschoben?",
+    "options": [
+      "Um den doppelten Abstand der Geraden, 2·d(g;h)",
+      "Um den einfachen Abstand der Geraden, d(g;h)",
+      "Um den halben Abstand der Geraden, ½·d(g;h)",
+      "Um einen von der Lage der Figur abhängigen Betrag"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Für g ∥ h ergibt S_h ∘ S_g eine Verschiebung um den doppelten Abstand der Geraden, also 2·d(g;h). 📄 Quelle: ari20_vl12, Folie 11 (S.11)",
+    "source": "ari20_vl12, Folie 11 (S.11, Geometrie – Verkettung von Geradenspiegelungen)"
+  },
+  {
+    "id": "ari20_vl12-b1-011",
+    "topic": "ari20_vl12_fall_verschiebung",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Die parallelen Geraden g und h haben den Abstand d(g;h) = 4 cm. Um welche Strecke verschiebt die doppelte Geradenspiegelung S_h ∘ S_g (mit g ∥ h)?",
+    "answer": 8,
+    "tolerance": 0,
+    "unit": "cm",
+    "explanation": "Bei g ∥ h ist die Verschiebungsweite der doppelte Geradenabstand: 2·d(g;h) = 2·4 cm = 8 cm. 📄 Quelle: ari20_vl12, Folie 11 (S.11)",
+    "source": "ari20_vl12, Folie 11 (S.11, Geometrie – Verkettung von Geradenspiegelungen)"
+  },
+  {
+    "id": "ari20_vl12-b1-012",
+    "topic": "ari20_vl12_fall_drehung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Fall 3: g ∩ h = {S} mit α = ∠(g;h). Welche Aussagen über S_h ∘ S_g = D_{S,2α} treffen zu?",
+    "options": [
+      "Es entsteht eine Drehung",
+      "Das Drehzentrum ist der Schnittpunkt S der Geraden",
+      "Der Drehwinkel beträgt 2α",
+      "Der Drehwinkel beträgt α"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Im Schnittfall entsteht die Drehung D_{S,2α} mit Drehzentrum S (dem Schnittpunkt von g und h) und Drehwinkel 2α = 2·∠(g;h). 📄 Quelle: ari20_vl12, Folie 12 (S.12)",
+    "source": "ari20_vl12, Folie 12 (S.12, Geometrie – Verkettung von Geradenspiegelungen)"
+  },
+  {
+    "id": "ari20_vl12-b1-013",
+    "topic": "ari20_vl12_fall_drehung",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Die Geraden g und h schneiden sich in S unter dem Winkel α = ∠(g;h) = 35°. Welchen Drehwinkel hat die Drehung D_{S,2α} = S_h ∘ S_g?",
+    "answer": 70,
+    "tolerance": 0,
+    "unit": "°",
+    "explanation": "Der Drehwinkel ist der doppelte Schnittwinkel: 2α = 2·35° = 70°. 📄 Quelle: ari20_vl12, Folie 12 (S.12)",
+    "source": "ari20_vl12, Folie 12 (S.12, Geometrie – Verkettung von Geradenspiegelungen)"
+  },
+  {
+    "id": "ari20_vl12-b1-014",
+    "topic": "ari20_vl12_fall_drehung",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Fall 3a: g ∩ h = {S} und ∠(g;h) = 90°. Welchen Drehwinkel hat dann die Drehung S_h ∘ S_g = D_{S,2α}?",
+    "answer": 180,
+    "tolerance": 0,
+    "unit": "°",
+    "explanation": "Bei ∠(g;h) = 90° gilt S_h ∘ S_g = D_{S,180°}, der Drehwinkel beträgt also 2·90° = 180°. 📄 Quelle: ari20_vl12, Folie 13 (S.13)",
+    "source": "ari20_vl12, Folie 13 (S.13, Geometrie – Verkettung von Geradenspiegelungen)"
+  },
+  {
+    "id": "ari20_vl12-b1-015",
+    "topic": "ari20_vl12_fall_drehung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Fall 3a: Stehen die Geraden g und h senkrecht zueinander (∠(g;h) = 90°), was ergibt die doppelte Geradenspiegelung S_h ∘ S_g?",
+    "options": [
+      "Die Drehung D_{S,180°}",
+      "Die Drehung D_{S,90°}",
+      "Die Verschiebung V_{2·d(g;h)}",
+      "Die identische Abbildung id"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Für ∠(g;h) = 90° ist S_h ∘ S_g = D_{S,180°} (Drehung um S mit Drehwinkel 180°). 📄 Quelle: ari20_vl12, Folie 13 (S.13)",
+    "source": "ari20_vl12, Folie 13 (S.13, Geometrie – Verkettung von Geradenspiegelungen)"
+  },
+  {
+    "id": "ari20_vl12-b1-016",
+    "topic": "ari20_vl12_fall_verschiebung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "In der Vektorschreibweise des Satzes gilt für g ∥ h: S_h ∘ S_g = V_{2·a} (Verschiebung um den Vektor 2·a). Welche Aussagen treffen zu?",
+    "options": [
+      "Die Verkettung ist eine Verschiebung V_{2·a}",
+      "Der Vektor a steht senkrecht zu g (bzw. h)",
+      "Der Vektor a verläuft parallel zu g",
+      "Die Verkettung ist eine Drehung um den Vektor a"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Für g ∥ h gilt S_h ∘ S_g = V_{2·a}, wobei der Vektor a senkrecht zu g (bzw. h) steht. Es ist eine Verschiebung, keine Drehung. 📄 Quelle: ari20_vl12, Folie 14 (S.14)",
+    "source": "ari20_vl12, Folie 14 (S.14, Geometrie – Verkettung von Geradenspiegelungen)"
+  },
+  {
+    "id": "ari20_vl12-b1-017",
+    "topic": "ari20_vl12_fall_verschiebung",
+    "difficulty": 1,
+    "type": "single",
+    "question": "In welchem Fall gilt in Vektorschreibweise S_h ∘ S_g = V_{2·a} mit a senkrecht zu g?",
+    "options": [
+      "g ∥ h",
+      "g = h",
+      "g ∩ h = {S}",
+      "g ⊥ h"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Verschiebung V_{2·a} mit a senkrecht zu g (bzw. h) tritt im Fall g ∥ h auf. 📄 Quelle: ari20_vl12, Folie 14 (S.14)",
+    "source": "ari20_vl12, Folie 14 (S.14, Geometrie – Verkettung von Geradenspiegelungen)"
+  },
+  {
+    "id": "ari20_vl12-b1-018",
+    "topic": "ari20_vl12_invarianz",
+    "difficulty": 3,
+    "type": "multi",
+    "question": "Man verschiebt bei g ∥ h die beiden Geraden g und h parallel mit gleichem Abstand. Welche Aussagen treffen zu?",
+    "options": [
+      "Die einzelne Spiegelung S_g verändert sich",
+      "Die Gesamt-Abbildung S_h ∘ S_g (die doppelte Geradenspiegelung) verändert sich nicht, sie bleibt gleich",
+      "Die Gesamt-Abbildung S_h ∘ S_g verändert sich mit",
+      "Maßgeblich ist der (gleich bleibende) Abstand der Geraden, nicht ihre konkrete Lage"
+    ],
+    "correct": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "Verschiebt man g und h parallel mit gleichem Abstand, verändert sich zwar die erste Spiegelung S_g, aber die Verknüpfung S_h ∘ S_g bleibt gleich – maßgeblich ist allein der (gleich bleibende) Abstand, nicht die konkrete Lage. 📄 Quelle: ari20_vl12, Folie 20 (S.20)",
+    "source": "ari20_vl12, Folie 20 (S.20, Geometrie – Verkettung von Geradenspiegelungen)"
+  },
+  {
+    "id": "ari20_vl12-b1-019",
+    "topic": "ari20_vl12_invarianz",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Was bleibt unverändert, wenn man die parallelen Geraden g und h parallel um denselben Abstand verschiebt?",
+    "options": [
+      "Die doppelte Geradenspiegelung S_h ∘ S_g",
+      "Die einzelne Spiegelung S_g",
+      "Die Lage der Geraden g",
+      "Der Bildpunkt A' unter S_g"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Gesamt-Abbildung, die Verknüpfung S_h ∘ S_g, bleibt gleich; die einzelne Spiegelung S_g und die Lage der Geraden ändern sich hingegen. 📄 Quelle: ari20_vl12, Folie 20 (S.20)",
+    "source": "ari20_vl12, Folie 20 (S.20, Geometrie – Verkettung von Geradenspiegelungen)"
+  },
+  {
+    "id": "ari20_vl12-b2-001",
+    "topic": "ari20_vl12_verkettung_zwei",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Der Satz über die Verkettung zweier Geradenspiegelungen S_g und S_h an den Geraden g und h: Welche Voraussetzungen müssen für zwei weitere Geraden g' und h' erfüllt sein, damit S_h ∘ S_g = S_h' ∘ S_g' gilt?",
+    "options": [
+      "g ∥ h und g ∥ g' und g ∥ h' (alle Geraden parallel)",
+      "d(g,h) = d(g',h') (gleicher Abstand der Geradenpaare)",
+      "g und h schneiden sich in einem Punkt S",
+      "∡(g;h) = ∡(g';h') als gemeinsamer Schnittwinkel"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Der Parallelfall des Phänomsatzes fordert g ∥ h und g ∥ g' und g ∥ h' sowie den gleichen Abstand d(g,h) = d(g',h'). Ein gemeinsamer Schnittpunkt bzw. ein gleicher Schnittwinkel gehören zum anderen (Schnitt-)Fall. 📄 Quelle: ari20_vl12, Folie 21 (S.21)",
+    "source": "ari20_vl12, Folie 21 (S.21, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b2-002",
+    "topic": "ari20_vl12_verkettung_zwei",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Sind im Parallelfall die Voraussetzungen g ∥ h ∥ g' ∥ h' und d(g,h) = d(g',h') erfüllt, was folgt für die Verkettungen der Geradenspiegelungen?",
+    "options": [
+      "S_h ∘ S_g = S_h' ∘ S_g'",
+      "S_h ∘ S_g = S_g ∘ S_h",
+      "S_h ∘ S_g ≠ S_h' ∘ S_g'",
+      "S_g = S_h"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Der Satz schließt: dann ist S_h ∘ S_g = S_h' ∘ S_g'. Die doppelte Geradenspiegelung bleibt also gleich. 📄 Quelle: ari20_vl12, Folie 21 (S.21)",
+    "source": "ari20_vl12, Folie 21 (S.21, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b2-003",
+    "topic": "ari20_vl12_verkettung_zwei",
+    "difficulty": 3,
+    "type": "multi",
+    "question": "Für den Fall sich schneidender Geraden: Welche Bedingungen müssen g' und h' erfüllen, damit S_h ∘ S_g = S_h' ∘ S_g' gilt?",
+    "options": [
+      "g ∩ h = {S} mit ∡(g;h) = α",
+      "g' ∩ h' = {S}, also derselbe Schnittpunkt wie g ∩ h",
+      "∡(g';h') = α, also der gleiche Schnittwinkel wie bei g und h",
+      "d(g,h) = d(g',h') (gleicher Abstand der Geradenpaare)"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Im Schnittfall gilt: Wenn g ∩ h = {S} mit ∡(g;h) = α und g' ∩ h' = {S} (=g ∩ h) mit ∡g'h' = α (=∡(g;h)), dann ist S_h ∘ S_g = S_h' ∘ S_g'. Die Abstandsbedingung d(g,h) = d(g',h') gehört zum Parallelfall. 📄 Quelle: ari20_vl12, Folie 27 (S.27)",
+    "source": "ari20_vl12, Folie 27 (S.27, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b2-004",
+    "topic": "ari20_vl12_verkettung_zwei",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Im Schnittfall dürfen die beiden Geraden g und h zu g' und h' verändert werden, ohne dass sich die Verkettung ändert. Welche zwei Größen müssen dabei gleich bleiben?",
+    "options": [
+      "Der gemeinsame Schnittpunkt S und der Schnittwinkel α",
+      "Der Abstand der Geraden und ihre Richtung",
+      "Nur der Schnittpunkt S",
+      "Nur der Schnittwinkel α"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Der Satz verlangt g' ∩ h' = {S} (=g ∩ h) und ∡g'h' = α (=∡(g;h)) — gleichbleibender Schnittpunkt UND gleichbleibender Schnittwinkel. 📄 Quelle: ari20_vl12, Folie 27 (S.27)",
+    "source": "ari20_vl12, Folie 27 (S.27, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b2-005",
+    "topic": "ari20_vl12_verkettung_drei",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Der Satz über die Verknüpfung von drei Abbildungen gilt für alle Bewegungen (Kongruenzabbildungen) f, g und h. Welche Aussagen sind laut Satz korrekt?",
+    "options": [
+      "Für die Verkettung dreier Bewegungen gilt das Assoziativgesetz: (h ∘ g) ∘ f = h ∘ (g ∘ f)",
+      "Das Kommutativgesetz gilt nicht: im Allgemeinen ist f ∘ g ≠ g ∘ f",
+      "Für Bewegungen gilt stets f ∘ g = g ∘ f",
+      "Die Reihenfolge der Klammerung verändert das Ergebnis"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Der Satz besagt: Für die Verkettung dreier Bewegungen gilt das Assoziativgesetz (h ∘ g) ∘ f = h ∘ (g ∘ f); das Kommutativgesetz gilt jedoch nicht (im Allgemeinen f ∘ g ≠ g ∘ f). 📄 Quelle: ari20_vl12, Folie 29 (S.29)",
+    "source": "ari20_vl12, Folie 29 (S.29, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b2-006",
+    "topic": "ari20_vl12_verkettung_drei",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Was gilt für das Kommutativgesetz bei der Verkettung von Bewegungen?",
+    "options": [
+      "Es gilt im Allgemeinen nicht (f ∘ g ≠ g ∘ f)",
+      "Es gilt immer",
+      "Es gilt nur bei Geradenspiegelungen",
+      "Es gilt nur bei Drehungen"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Auf der Folie steht: 'Das Kommutativgesetz gilt nicht: im Allgemeinen ist f ∘ g ≠ g ∘ f.' 📄 Quelle: ari20_vl12, Folie 29 (S.29)",
+    "source": "ari20_vl12, Folie 29 (S.29, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b2-007",
+    "topic": "ari20_vl12_verkettung_drei",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Es seien f, g und h drei Geradenspiegelungen, bei denen je zwei der Geraden einen Schnittpunkt haben. Welche Aussagen treffen zu?",
+    "options": [
+      "Die Verknüpfung g ∘ f ergibt eine Drehung",
+      "Auch die Verknüpfung h ∘ g ergibt eine Drehung",
+      "Ob erst Spiegelung f und dann Drehung (h ∘ g) oder erst Drehung (g ∘ f) und dann Spiegelung h ausgeführt wird, es ergibt die gleiche Abbildung",
+      "Die Verknüpfung g ∘ f ergibt eine Verschiebung"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Da je zwei Geraden einen Schnittpunkt haben, ergeben g ∘ f und h ∘ g jeweils eine Drehung; das Beispiel zeigt (h ∘ g) ∘ f = h ∘ (g ∘ f), also gleiche Gesamtabbildung. Eine Verschiebung entstünde bei parallelen Geraden, nicht hier. 📄 Quelle: ari20_vl12, Folie 33 (S.33)",
+    "source": "ari20_vl12, Folie 33 (S.33, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b2-008",
+    "topic": "ari20_vl12_verkettung_drei",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Welches Gesetz für die Verkettung von Bewegungen wird durch ein Beispiel dreier hintereinander ausgeführter Geradenspiegelungen konkret illustriert?",
+    "options": [
+      "Das Assoziativgesetz: (h ∘ g) ∘ f = h ∘ (g ∘ f)",
+      "Das Kommutativgesetz",
+      "Das Distributivgesetz",
+      "Das Inversengesetz"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Das Beispiel schließt mit '(h ∘ g) ∘ f = h ∘ (g ∘ f)' und veranschaulicht damit das Assoziativgesetz. 📄 Quelle: ari20_vl12, Folie 33 (S.33)",
+    "source": "ari20_vl12, Folie 33 (S.33, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b2-009",
+    "topic": "ari20_vl12_spielregeln",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche 'Spielregeln' gelten für das Verändern von Geraden bei der Verkettung von Geradenspiegelungen?",
+    "options": [
+      "Bewege immer nur ZWEI Geraden gemeinsam",
+      "Die beiden bewegten Geraden müssen aufeinanderfolgende Buchstaben haben",
+      "Sich schneidende Geraden darf man um den Schnittpunkt drehen",
+      "Parallele Geraden darf man beliebig drehen"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Die Regeln lauten: a) immer nur ZWEI Geraden gemeinsam bewegen, b) die beiden Geraden müssen aufeinanderfolgende Buchstaben haben, c) sich schneidende Geraden um den Schnittpunkt drehen, d) parallele Geraden parallel verschieben (nicht drehen). 📄 Quelle: ari20_vl12, Folie 35 (S.35)",
+    "source": "ari20_vl12, Folie 35 (S.35, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b2-010",
+    "topic": "ari20_vl12_spielregeln",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Was darf man laut den Spielregeln mit zwei parallelen Geraden tun?",
+    "options": [
+      "Sie parallel verschieben",
+      "Sie um einen Schnittpunkt drehen",
+      "Sie senkrecht zueinander stellen",
+      "Sie beliebig gegeneinander verdrehen"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Regel d): 'Parallele Geraden darf man parallel verschieben.' Drehen um einen Schnittpunkt gilt nur für sich schneidende Geraden (Regel c). 📄 Quelle: ari20_vl12, Folie 35 (S.35)",
+    "source": "ari20_vl12, Folie 35 (S.35, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b2-011",
+    "topic": "ari20_vl12_spielregeln",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Was ist das 'Ziel' beim Verändern von Geradenpaaren nach den Spielregeln?",
+    "options": [
+      "Zwei Geraden, an denen Spiegelungen hintereinander ausgeführt werden, übereinander zu bringen, sodass sie wegfallen (klapp-klapp)",
+      "Möglichst viele zusätzliche Geraden zu erzeugen",
+      "Alle Geraden senkrecht zueinander zu stellen",
+      "Den Schnittwinkel der Geraden zu halbieren"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Ziel: eine bekannte Konfiguration herstellen bzw. Geradenpaare so verändern, dass zwei Geraden, an denen Spiegelungen hintereinander ausgeführt werden, übereinander liegen — die fallen dann weg (klapp-klapp). 📄 Quelle: ari20_vl12, Folie 35 (S.35)",
+    "source": "ari20_vl12, Folie 35 (S.35, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b2-012",
+    "topic": "ari20_vl12_dreifach_ersetzen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Die Fälle 1, 2 und 3 der dreifachen Geradenspiegelung: Welche Aussagen treffen zu?",
+    "options": [
+      "Die Konfigurationen sind: g = h = i, oder g = h mit Parallele i, oder drei Parallelen",
+      "Die dreifache Geradenspiegelung lässt sich durch eine einfache Geradenspiegelung ersetzen",
+      "Die drei Geraden haben genau einen gemeinsamen Schnittpunkt",
+      "Das Ergebnis ist eine Drehung"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Fall 1, 2 und 3 (g = h = i oder g = h und Parallele i oder drei Parallelen): Die dreifache Geradenspiegelung lässt sich durch eine einfache Geradenspiegelung ersetzen. Ein gemeinsamer Schnittpunkt ist Fall 4. 📄 Quelle: ari20_vl12, Folie 36 (S.36)",
+    "source": "ari20_vl12, Folie 36 (S.36, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b2-013",
+    "topic": "ari20_vl12_dreifach_ersetzen",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Wodurch lässt sich in den Fällen 1–3 (g = h = i, oder g = h mit Parallele i, oder drei Parallelen) die dreifache Geradenspiegelung ersetzen?",
+    "options": [
+      "Durch eine einfache Geradenspiegelung",
+      "Durch eine Drehung",
+      "Durch eine Verschiebung",
+      "Durch eine Punktspiegelung"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Laut Folie: 'Die dreifache Geradenspiegelung lässt sich durch eine einfache Geradenspiegelung ersetzen.' 📄 Quelle: ari20_vl12, Folie 36 (S.36)",
+    "source": "ari20_vl12, Folie 36 (S.36, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b2-014",
+    "topic": "ari20_vl12_dreifach_ersetzen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Fall 4 der dreifachen Geradenspiegelung: Welche Aussagen zu Voraussetzung, Ergebnis und Vorgehen sind korrekt?",
+    "options": [
+      "g, h und i haben einen gemeinsamen Schnittpunkt",
+      "Die dreifache Geradenspiegelung lässt sich durch eine einfache Geradenspiegelung ersetzen",
+      "Man dreht g, h um ihren Schnittpunkt so, dass h' auf i liegt (h' und i heben sich auf)",
+      "Die drei Geraden sind zueinander parallel"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Fall 4: g, h und i haben einen gemeinsamen Schnittpunkt; die dreifache Geradenspiegelung lässt sich durch eine einfache ersetzen, indem man g, h um ihren Schnittpunkt dreht, bis h' auf i liegt (h' und i heben sich auf). Parallelität gehört nicht zu Fall 4. 📄 Quelle: ari20_vl12, Folie 37 (S.37)",
+    "source": "ari20_vl12, Folie 37 (S.37, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b2-015",
+    "topic": "ari20_vl12_dreifach_ersetzen",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welches Vorgehen wird in Fall 4 (g, h und i mit gemeinsamem Schnittpunkt) beschrieben, um zwei Spiegelungen wegfallen zu lassen?",
+    "options": [
+      "g und h um ihren Schnittpunkt drehen, bis h' auf i liegt",
+      "g und h parallel verschieben, bis sie zusammenfallen",
+      "i senkrecht zu g stellen",
+      "alle drei Geraden zu einer einzigen zusammenfallen lassen"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Folie 37: 'Drehe g, h um ihren Schnittpunkt so, dass h' auf i liegt (h' und i heben sich auf).' 📄 Quelle: ari20_vl12, Folie 37 (S.37)",
+    "source": "ari20_vl12, Folie 37 (S.37, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b2-016",
+    "topic": "ari20_vl12_dreifach_ersetzen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Wie sind die drei Geraden g, h und i in Fall 5 der dreifachen Geradenspiegelung angeordnet?",
+    "options": [
+      "g und h sind parallel",
+      "i steht senkrecht zu g und h",
+      "alle drei Geraden schneiden sich in einem gemeinsamen Punkt",
+      "g, h und i sind paarweise parallel"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Fall 5: g und h sind parallel, i steht senkrecht zu g und h. (Womit sich die dreifache Geradenspiegelung ersetzen lässt, bleibt auf der Folie als offene Frage '???' stehen.) 📄 Quelle: ari20_vl12, Folie 38 (S.38)",
+    "source": "ari20_vl12, Folie 38 (S.38, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b3-001",
+    "topic": "ari20_vl12_verschiebung_spiegelung",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Eine Verschiebung wird als Verkettung von Geradenspiegelungen gedeutet. Als Verkettung wie vieler Geradenspiegelungen lässt sich eine Verschiebung darstellen?",
+    "options": [
+      "einer Geradenspiegelung",
+      "zwei Geradenspiegelungen",
+      "drei Geradenspiegelungen",
+      "vier Geradenspiegelungen"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Die Folie ist mit 'Verschiebung (zweifache Geradenspiegelung)' beschriftet: eine Verschiebung entspricht der Hintereinanderausführung von zwei Geradenspiegelungen. 📄 Quelle: ari20_vl12, Folie 44 (S.44)",
+    "source": "ari20_vl12, Folie 44 (S.44, Verschiebung/Geradenspiegelung)"
+  },
+  {
+    "id": "ari20_vl12-b3-002",
+    "topic": "ari20_vl12_verschiebung_spiegelung",
+    "difficulty": 1,
+    "type": "multi",
+    "question": "An einem Stempelabdruck werden zwei Kongruenzabbildungen dargestellt: eine waagerechte und eine senkrechte. Welche beiden werden markiert?",
+    "options": [
+      "Verschiebung (zweifache Geradenspiegelung)",
+      "Geradenspiegelung",
+      "Drehung",
+      "Punktspiegelung"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Der waagerechte rote Pfeil ist mit 'Verschiebung (zweifache Geradenspiegelung)' beschriftet, der senkrechte blaue Pfeil mit 'Geradenspiegelung'. 📄 Quelle: ari20_vl12, Folie 44 (S.44)",
+    "source": "ari20_vl12, Folie 44 (S.44, Verschiebung/Geradenspiegelung)"
+  },
+  {
+    "id": "ari20_vl12-b3-003",
+    "topic": "ari20_vl12_schubspiegelung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Definition Schubspiegelung: Eine Abbildung S_AB,g: E → E heißt Schubspiegelung genau dann, wenn welche Bedingungen erfüllt sind?",
+    "options": [
+      "Durch AB ist eine Verschiebung festgelegt",
+      "Durch g ist eine Achsenspiegelung festgelegt",
+      "Es gilt g || AB (g parallel zu AB)",
+      "Es gilt g ⊥ AB (g senkrecht zu AB)"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Laut Definition sind durch AB eine Verschiebung und durch g eine Achsenspiegelung festgelegt, und zwar mit g || AB. 📄 Quelle: ari20_vl12, Folie 45 (S.45)",
+    "source": "ari20_vl12, Folie 45 (S.45, Definition Schubspiegelung)"
+  },
+  {
+    "id": "ari20_vl12-b3-004",
+    "topic": "ari20_vl12_schubspiegelung",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Welche Lagebeziehung muss zwischen der Spiegelachse g und der Verschiebungsstrecke AB bei einer Schubspiegelung gelten?",
+    "options": [
+      "g parallel zu AB",
+      "g senkrecht zu AB",
+      "g schneidet AB unter 45°",
+      "keine besondere Bedingung"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Definition fordert ausdrücklich g || AB. 📄 Quelle: ari20_vl12, Folie 45 (S.45)",
+    "source": "ari20_vl12, Folie 45 (S.45, Definition Schubspiegelung)"
+  },
+  {
+    "id": "ari20_vl12-b3-005",
+    "topic": "ari20_vl12_schubspiegelung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Invarianten (Eigenschaften) besitzt die Schubspiegelung?",
+    "options": [
+      "geradentreu",
+      "flächeninhaltstreu",
+      "winkeltreu",
+      "längentreu",
+      "umlaufsinntreu"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Die Schubspiegelung ist geradentreu, flächeninhaltstreu, winkeltreu und längentreu, jedoch NICHT umlaufsinntreu. 📄 Quelle: ari20_vl12, Folie 46 (S.46)",
+    "source": "ari20_vl12, Folie 46 (S.46, Schubspiegelung – Invarianten)"
+  },
+  {
+    "id": "ari20_vl12-b3-006",
+    "topic": "ari20_vl12_schubspiegelung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aussagen zu den Fixelementen der Schubspiegelung sind korrekt?",
+    "options": [
+      "Es gibt keine Fixpunkte (---)",
+      "Es gibt keine Fixpunktgeraden (---)",
+      "Fixgerade ist die Spiegelachse",
+      "Jeder Punkt der Spiegelachse ist ein Fixpunkt"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Fixpunkte: ---, Fixpunktgerade: ---, Fixgeraden: Spiegelachse. Die Punkte der Spiegelachse werden verschoben, sind also keine Fixpunkte. 📄 Quelle: ari20_vl12, Folie 46 (S.46)",
+    "source": "ari20_vl12, Folie 46 (S.46, Schubspiegelung – Fixelemente)"
+  },
+  {
+    "id": "ari20_vl12-b3-007",
+    "topic": "ari20_vl12_schubspiegelung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wie lautet die Umkehrabbildung der Schubspiegelung S_AB,g?",
+    "options": [
+      "S_BA,g",
+      "S_AB,g",
+      "S_AB,g mit gespiegelter Achse",
+      "S_BA mit senkrechter Achse"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Auf der Folie steht S_AB,g^(-1) = S_BA,g: die Verschiebungsrichtung wird umgekehrt (A und B vertauscht), die Spiegelachse g bleibt gleich. 📄 Quelle: ari20_vl12, Folie 46 (S.46)",
+    "source": "ari20_vl12, Folie 46 (S.46, Schubspiegelung – Umkehrabbildung)"
+  },
+  {
+    "id": "ari20_vl12-b3-008",
+    "topic": "ari20_vl12_dreifach_geradenspiegelung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Fall 6 (die drei Geraden g, h, i haben drei Schnittpunkte): Wodurch lässt sich die dreifache Geradenspiegelung ersetzen?",
+    "options": [
+      "durch eine Schubspiegelung",
+      "durch eine einfache Geradenspiegelung",
+      "durch eine reine Verschiebung",
+      "durch eine Punktspiegelung"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Haben die drei Geraden drei Schnittpunkte, lässt sich die dreifache Geradenspiegelung durch eine Schubspiegelung ersetzen. 📄 Quelle: ari20_vl12, Folie 47 (S.47)",
+    "source": "ari20_vl12, Folie 47 (S.47, Fall 6 – drei Schnittpunkte)"
+  },
+  {
+    "id": "ari20_vl12-b3-009",
+    "topic": "ari20_vl12_dreifach_geradenspiegelung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche 'Spielregeln' gelten zum Umformen von Geradenspiegelungen?",
+    "options": [
+      "Bewege immer nur zwei Geraden",
+      "Die beiden Geraden müssen aufeinanderfolgende Buchstaben haben",
+      "Sich schneidende Geraden darf man um den Schnittpunkt drehen",
+      "Parallele Geraden darf man parallel verschieben",
+      "Man darf beliebig viele Geraden gleichzeitig bewegen"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Spielregeln: nur zwei Geraden bewegen; sie müssen aufeinanderfolgende Buchstaben haben; sich schneidende Geraden um den Schnittpunkt drehen; parallele Geraden parallel verschieben; Ziel: bekannte Konfiguration herstellen. 📄 Quelle: ari20_vl12, Folie 47 (S.47)",
+    "source": "ari20_vl12, Folie 47 (S.47, Fall 6 – Spielregeln)"
+  },
+  {
+    "id": "ari20_vl12-b3-010",
+    "topic": "ari20_vl12_dreifach_geradenspiegelung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Fall 6 der dreifachen Geradenspiegelung (drei Geraden mit drei Schnittpunkten) – konkretes Vorgehen: Welche Drehschritte werden beschrieben?",
+    "options": [
+      "Drehe g und h um ihren Schnittpunkt, so dass h' senkrecht zu i liegt",
+      "Drehe h' und i um ihren Schnittpunkt, so dass h'' senkrecht zu g' liegt",
+      "Verschiebe f und g, bis g' parallel zu i wird",
+      "Spiegle i an g, bis beide zusammenfallen"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Vorgehen: g und h so drehen, dass h' ⊥ i; danach h' und i so drehen, dass h'' ⊥ g'. 📄 Quelle: ari20_vl12, Folie 48 (S.48)",
+    "source": "ari20_vl12, Folie 48 (S.48, Fall 6 – Drehschritte)"
+  },
+  {
+    "id": "ari20_vl12-b3-011",
+    "topic": "ari20_vl12_dreifach_geradenspiegelung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Fall 7 (zwei Geraden sind parallel, die dritte nicht): Wodurch lässt sich die dreifache Geradenspiegelung ersetzen?",
+    "options": [
+      "durch eine Schubspiegelung",
+      "durch eine Drehung",
+      "durch eine einfache Geradenspiegelung",
+      "durch die Identität"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Auch im Fall 7 lässt sich die dreifache Geradenspiegelung durch eine Schubspiegelung ersetzen. 📄 Quelle: ari20_vl12, Folie 49 (S.49)",
+    "source": "ari20_vl12, Folie 49 (S.49, Fall 7)"
+  },
+  {
+    "id": "ari20_vl12-b3-012",
+    "topic": "ari20_vl12_dreifach_geradenspiegelung",
+    "difficulty": 3,
+    "type": "multi",
+    "question": "Satz über Verkettungen dreier Geradenspiegelungen, Teil a): Unter welchen Bedingungen lässt sich die dreifache Geradenspiegelung durch eine einfache Geradenspiegelung ersetzen?",
+    "options": [
+      "wenn die drei Geraden parallel liegen",
+      "wenn die drei Geraden einen gemeinsamen Schnittpunkt haben",
+      "wenn die drei Geraden ein Dreieck bilden",
+      "wenn genau zwei der Geraden parallel sind"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Teil a): Liegen die drei Geraden parallel ODER haben sie einen gemeinsamen Schnittpunkt, ersetzt eine einfache Geradenspiegelung die dreifache. 📄 Quelle: ari20_vl12, Folie 50 (S.50)",
+    "source": "ari20_vl12, Folie 50 (S.50, Satz – dreifache Geradenspiegelung)"
+  },
+  {
+    "id": "ari20_vl12-b3-013",
+    "topic": "ari20_vl12_dreifach_geradenspiegelung",
+    "difficulty": 3,
+    "type": "single",
+    "question": "Satz über Verkettungen dreier Geradenspiegelungen, Teil b): Wenn die Geraden nicht alle parallel sind und keinen gemeinsamen Schnittpunkt haben, dann lässt sich die dreifache Geradenspiegelung ersetzen durch ...",
+    "options": [
+      "eine Schubspiegelung",
+      "eine einfache Geradenspiegelung",
+      "eine Drehung",
+      "eine Verschiebung"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Teil b): Sind die Geraden nicht alle parallel und ohne gemeinsamen Schnittpunkt, so ergibt sich eine Schubspiegelung. 📄 Quelle: ari20_vl12, Folie 50 (S.50)",
+    "source": "ari20_vl12, Folie 50 (S.50, Satz – dreifache Geradenspiegelung)"
+  },
+  {
+    "id": "ari20_vl12-b3-014",
+    "topic": "ari20_vl12_dreifach_geradenspiegelung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Ergebnistypen einer dreifachen Geradenspiegelung nennt der zugehörige Satz?",
+    "options": [
+      "eine einfache Geradenspiegelung (bei Parallelität oder gemeinsamem Schnittpunkt)",
+      "eine Schubspiegelung (in den übrigen Fällen)",
+      "eine Drehung",
+      "eine Verschiebung"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Der Satz unterscheidet nur zwei Ergebnisse: einfache Geradenspiegelung (a) oder Schubspiegelung (b). 📄 Quelle: ari20_vl12, Folie 50 (S.50)",
+    "source": "ari20_vl12, Folie 50 (S.50, Satz – dreifache Geradenspiegelung)"
+  },
+  {
+    "id": "ari20_vl12-b3-015",
+    "topic": "ari20_vl12_vierfach_geradenspiegelung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Vierfache Geradenspiegelung, Fall 1 (vier Parallelen, kein Schnittpunkt): Welche Kongruenzabbildung ergibt die Verkettung?",
+    "options": [
+      "eine Verschiebung",
+      "eine Drehung",
+      "eine Schubspiegelung",
+      "eine einfache Geradenspiegelung"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Bei vier parallelen Geraden gilt S_i ∘ S_h ∘ S_g ∘ S_f = S_i ∘ S_f' = V_AB, also eine Verschiebung. 📄 Quelle: ari20_vl12, Folie 53 (S.53)",
+    "source": "ari20_vl12, Folie 53 (S.53, Fall 1 – vier Parallelen)"
+  },
+  {
+    "id": "ari20_vl12-b3-016",
+    "topic": "ari20_vl12_vierfach_geradenspiegelung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Fall 1 (vier Parallelen): Wie groß ist die Länge der Verschiebungsstrecke AB im Vergleich zum Abstand d(i, f')?",
+    "options": [
+      "gleich dem doppelten Abstand d(i, f')",
+      "gleich dem Abstand d(i, f')",
+      "gleich dem halben Abstand d(i, f')",
+      "gleich dem vierfachen Abstand d(i, f')"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Länge der Strecke AB ist der doppelte Abstand von i und f', also 2·d(i, f'). 📄 Quelle: ari20_vl12, Folie 53 (S.53)",
+    "source": "ari20_vl12, Folie 53 (S.53, Fall 1 – Verschiebung)"
+  },
+  {
+    "id": "ari20_vl12-b3-017",
+    "topic": "ari20_vl12_vierfach_geradenspiegelung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Fall 1: Wozu vereinfacht sich der Ausdruck S_i ∘ S_h ∘ S_g ∘ S_f (wie bei drei Geradenspiegelungen)?",
+    "options": [
+      "zu S_i ∘ S_f'",
+      "zu S_f'",
+      "zu S_i ∘ S_h",
+      "zur Identität"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Auf der Folie: S_i ∘ S_h ∘ S_g ∘ S_f = S_i ∘ S_f' = V_AB. 📄 Quelle: ari20_vl12, Folie 53 (S.53)",
+    "source": "ari20_vl12, Folie 53 (S.53, Fall 1)"
+  },
+  {
+    "id": "ari20_vl12-b3-018",
+    "topic": "ari20_vl12_vierfach_geradenspiegelung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Fall 2 (keine Parallelen, ein gemeinsamer Schnittpunkt aller vier Geraden): Welche Abbildung ergibt die vierfache Geradenspiegelung?",
+    "options": [
+      "eine Drehung",
+      "eine Verschiebung",
+      "eine Schubspiegelung",
+      "eine einfache Geradenspiegelung"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Schneiden sich alle vier Geraden in einem Punkt, ergibt sich eine Drehung. 📄 Quelle: ari20_vl12, Folie 54 (S.54)",
+    "source": "ari20_vl12, Folie 54 (S.54, Fall 2 – ein Schnittpunkt)"
+  },
+  {
+    "id": "ari20_vl12-b3-019",
+    "topic": "ari20_vl12_vierfach_geradenspiegelung",
+    "difficulty": 3,
+    "type": "multi",
+    "question": "Vierfache Geradenspiegelung, Fall 2 (alle vier Geraden durch einen gemeinsamen Punkt) – Begründung: Welche Zwischenschritte gelten?",
+    "options": [
+      "Drei Geraden durch einen Punkt: S_h ∘ S_g ∘ S_f = S_f' (einfache Spiegelung)",
+      "Damit gilt S_i ∘ S_h ∘ S_g ∘ S_f = S_i ∘ S_f'",
+      "S_i ∘ S_f' ist eine zweifache Geradenspiegelung, also eine Drehung",
+      "S_i ∘ S_f' ist eine Verschiebung"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Drei Geraden durch einen Punkt liefern S_h ∘ S_g ∘ S_f = S_f'; damit S_i ∘ S_h ∘ S_g ∘ S_f = S_i ∘ S_f', eine zweifache Geradenspiegelung und somit eine Drehung. 📄 Quelle: ari20_vl12, Folie 54 (S.54)",
+    "source": "ari20_vl12, Folie 54 (S.54, Fall 2)"
+  },
+  {
+    "id": "ari20_vl12-b3-020",
+    "topic": "ari20_vl12_vierfach_geradenspiegelung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Fall 3 (drei Parallelen, drei Schnittpunkte): Welche Abbildung ergibt sich?",
+    "options": [
+      "eine Drehung",
+      "eine Verschiebung",
+      "eine Schubspiegelung",
+      "eine einfache Geradenspiegelung"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Fall 3 führt (wie bei drei Geradenspiegelungen) auf eine Drehung. 📄 Quelle: ari20_vl12, Folie 55 (S.55)",
+    "source": "ari20_vl12, Folie 55 (S.55, Fall 3 – drei Parallelen)"
+  },
+  {
+    "id": "ari20_vl12-b3-021",
+    "topic": "ari20_vl12_vierfach_geradenspiegelung",
+    "difficulty": 3,
+    "type": "single",
+    "question": "Fall 3: Um welchen Punkt erfolgt die Drehung?",
+    "options": [
+      "um den Schnittpunkt von i und f' (bzw. i' und f)",
+      "um den Schnittpunkt von f und g",
+      "um den Mittelpunkt der Konfiguration",
+      "um einen beliebig wählbaren Punkt"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Es ist eine Drehung um den Schnittpunkt von i und f' (bzw. i' und f). 📄 Quelle: ari20_vl12, Folie 55 (S.55)",
+    "source": "ari20_vl12, Folie 55 (S.55, Fall 3)"
+  },
+  {
+    "id": "ari20_vl12-b3-022",
+    "topic": "ari20_vl12_vierfach_geradenspiegelung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Vierfache Geradenspiegelung, Fall 4a (zwei Paare von Parallelen, vier Schnittpunkte): Welche Aussagen sind korrekt?",
+    "options": [
+      "Es gilt f || g und h || i",
+      "Der Fall wird auf den Fall mit sechs Schnittpunkten (Fall 6) zurückgeführt",
+      "Es gilt f || i und g || h",
+      "Der Fall führt direkt zu einer einfachen Geradenspiegelung"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Fall 4a: zwei Paare paralleler Geraden f || g und h || i; durch Drehen von g und h entsteht ein Fall mit sechs Schnittpunkten (siehe Fall 6). 📄 Quelle: ari20_vl12, Folie 56 (S.56)",
+    "source": "ari20_vl12, Folie 56 (S.56, Fall 4a)"
+  },
+  {
+    "id": "ari20_vl12-b3-023",
+    "topic": "ari20_vl12_vierfach_geradenspiegelung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Fall 4a: Auf welchen bereits behandelten Fall wird er durch Drehen zurückgeführt?",
+    "options": [
+      "Fall 6 (sechs Schnittpunkte)",
+      "Fall 1",
+      "Fall 2",
+      "Fall 3"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Nach dem Drehen entsteht ein Fall mit sechs Schnittpunkten, also Fall 6. 📄 Quelle: ari20_vl12, Folie 56 (S.56)",
+    "source": "ari20_vl12, Folie 56 (S.56, Fall 4a)"
+  },
+  {
+    "id": "ari20_vl12-b3-024",
+    "topic": "ari20_vl12_vierfach_geradenspiegelung",
+    "difficulty": 3,
+    "type": "multi",
+    "question": "Fall 4b (keine Parallelen, vier Schnittpunkte; drei Geraden durch einen Punkt, die vierte schneidet die anderen drei): Welche Abbildung kann sich ergeben?",
+    "options": [
+      "eine Drehung, falls i und f' nicht parallel sind (i ∦ f')",
+      "eine Verschiebung, falls i und f' parallel sind (i || f')",
+      "stets eine Schubspiegelung",
+      "stets eine einfache Geradenspiegelung"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Es gilt S_i ∘ S_h ∘ S_g ∘ S_f = S_i ∘ S_f'; das ist eine Drehung (i ∦ f') oder eine Verschiebung (i || f'). 📄 Quelle: ari20_vl12, Folie 57 (S.57)",
+    "source": "ari20_vl12, Folie 57 (S.57, Fall 4b)"
+  },
+  {
+    "id": "ari20_vl12-b3-025",
+    "topic": "ari20_vl12_vierfach_geradenspiegelung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Fall 4b: Unter welcher Bedingung ergibt sich eine Verschiebung statt einer Drehung?",
+    "options": [
+      "wenn i || f' (i parallel zu f')",
+      "wenn i ⊥ f' (i senkrecht zu f')",
+      "wenn i und f' sich schneiden",
+      "in keinem Fall"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Verschiebung genau dann, wenn i || f'; andernfalls (i ∦ f') eine Drehung. 📄 Quelle: ari20_vl12, Folie 57 (S.57)",
+    "source": "ari20_vl12, Folie 57 (S.57, Fall 4b)"
+  },
+  {
+    "id": "ari20_vl12-b3-026",
+    "topic": "ari20_vl12_vierfach_geradenspiegelung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Fall 5 (zwei Parallelen, fünf Schnittpunkte): Auf welchen zuvor behandelten Fall wird er zurückgeführt?",
+    "options": [
+      "auf Fall 4b (vier Schnittpunkte, keine Parallele)",
+      "auf Fall 1",
+      "auf Fall 2",
+      "auf Fall 6"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Durch Drehen/Verschieben wird der Fall 5 auf Fall 4b (vier Schnittpunkte, keine Parallele) zurückgeführt. 📄 Quelle: ari20_vl12, Folie 58 (S.58)",
+    "source": "ari20_vl12, Folie 58 (S.58, Fall 5)"
+  },
+  {
+    "id": "ari20_vl12-b3-027",
+    "topic": "ari20_vl12_vierfach_geradenspiegelung",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Fall 5 trägt den Zusatz 'fünf Schnittpunkte'. Wie viele Schnittpunkte weist die Geradenkonfiguration in Fall 5 auf?",
+    "answer": 5,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Fall 5 heißt 'zwei Parallelen, fünf Schnittpunkte'. 📄 Quelle: ari20_vl12, Folie 58 (S.58)",
+    "source": "ari20_vl12, Folie 58 (S.58, Fall 5)"
+  },
+  {
+    "id": "ari20_vl12-b3-028",
+    "topic": "ari20_vl12_vierfach_geradenspiegelung",
+    "difficulty": 3,
+    "type": "multi",
+    "question": "Fall 6 (keine Parallelen, sechs Schnittpunkte; zwei Geradenpaare, jeweils ein Schnittpunkt): Welche Abbildung ergibt sich?",
+    "options": [
+      "eine Verschiebung, wenn f' || i'",
+      "eine Drehung, wenn f' und i' nicht parallel sind",
+      "stets eine Schubspiegelung",
+      "stets eine einfache Geradenspiegelung"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Es gilt S_i ∘ S_h ∘ S_g ∘ S_f = S_i' ∘ S_f'; ist f' || i', so ist die Abbildung eine Verschiebung, sonst eine Drehung. 📄 Quelle: ari20_vl12, Folie 59 (S.59)",
+    "source": "ari20_vl12, Folie 59 (S.59, Fall 6)"
+  },
+  {
+    "id": "ari20_vl12-b3-029",
+    "topic": "ari20_vl12_vierfach_geradenspiegelung",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Fall 6 trägt den Zusatz 'sechs Schnittpunkte'. Wie viele Schnittpunkte weist diese Geradenkonfiguration auf?",
+    "answer": 6,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Fall 6 heißt 'keine Parallelen, sechs Schnittpunkte'. 📄 Quelle: ari20_vl12, Folie 59 (S.59)",
+    "source": "ari20_vl12, Folie 59 (S.59, Fall 6)"
+  },
+  {
+    "id": "ari20_vl12-b3-030",
+    "topic": "ari20_vl12_vierfach_geradenspiegelung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welches Gesamtergebnis fasst die Fallunterscheidung der vierfachen Geradenspiegelungen zusammen?",
+    "options": [
+      "Alle vierfachen Geradenspiegelungen sind einfache Verschiebungen oder einfache Drehungen",
+      "Eine vierfache Geradenspiegelung ist entweder eine Verschiebung oder eine Drehung",
+      "Manche vierfachen Geradenspiegelungen ergeben eine Schubspiegelung",
+      "Alle vierfachen Geradenspiegelungen ergeben eine einfache Geradenspiegelung"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Kernaussage: 'Alle vierfachen Geradenspiegelungen sind einfache Verschiebungen oder einfache Drehungen!' 📄 Quelle: ari20_vl12, Folie 60 (S.60)",
+    "source": "ari20_vl12, Folie 60 (S.60, Erste Rückschau)"
+  },
+  {
+    "id": "ari20_vl12-b4-001",
+    "topic": "ari20_vl12_geradenspiegelungen",
+    "difficulty": 1,
+    "type": "multi",
+    "question": "Was gilt laut der \"Ersten Rückschau\" für alle vierfachen Geradenspiegelungen?",
+    "options": [
+      "Sie sind einfache Verschiebungen",
+      "Sie sind einfache Drehungen",
+      "Sie sind stets Schubspiegelungen",
+      "Sie sind stets Punktspiegelungen"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Auf der Folie steht: \"Alle vierfachen Geradenspiegelungen sind einfache Verschiebungen oder einfache Drehungen!\" Schub- und Punktspiegelung werden nicht genannt. 📄 Quelle: ari20_vl12, Folie 61 (S.61)",
+    "source": "ari20_vl12, Folie 61 (S.61, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b4-002",
+    "topic": "ari20_vl12_geradenspiegelungen",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Auf welche Verkettung lässt sich die vierfache Geradenspiegelung immer reduzieren?",
+    "options": [
+      "Auf die zweifache Geradenspiegelung",
+      "Auf die dreifache Geradenspiegelung",
+      "Auf die einfache Geradenspiegelung",
+      "Auf die fünffache Geradenspiegelung"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Der rot umrandete Merksatz lautet: \"Die vierfache Geradenspiegelung lässt sich also immer auf die zweifache Geradenspiegelung reduzieren.\" 📄 Quelle: ari20_vl12, Folie 61 (S.61)",
+    "source": "ari20_vl12, Folie 61 (S.61, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b4-003",
+    "topic": "ari20_vl12_verkettung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Wie lässt sich begründen, warum man bei der Verkettung von fünf Geradenspiegelungen \"schon fertig\" ist?",
+    "options": [
+      "5 Geraden sind 4 + 1 Geraden",
+      "4 Geradenspiegelungen lassen sich immer durch 2 Geradenspiegelungen ersetzen",
+      "Es bleiben also drei Geradenspiegelungen übrig",
+      "Fünf Geradenspiegelungen ergeben immer die Identität"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Die Folie führt schrittweise aus: \"5 Geraden sind 4 + 1 Geraden.\", \"4 Geradenspiegelungen lassen sich immer durch 2 Geradenspiegelungen ersetzen.\" und \"Es bleiben also drei Geradenspiegelungen übrig.\" Von der Identität ist nicht die Rede. 📄 Quelle: ari20_vl12, Folie 68 (S.68)",
+    "source": "ari20_vl12, Folie 68 (S.68, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b4-004",
+    "topic": "ari20_vl12_verkettung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wodurch lassen sich die bei fünf Geradenspiegelungen verbleibenden drei Geradenspiegelungen ersetzen?",
+    "options": [
+      "Durch eine Schubspiegelung oder eine einfache Geradenspiegelung",
+      "Nur durch eine Drehung",
+      "Durch eine Verschiebung oder eine Drehung",
+      "Durch eine Punktspiegelung"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Auf der Folie steht: \"Die lassen sich entweder durch eine Schubspiegelung oder eine einfache Geradenspiegelung ersetzen.\" Drehung/Verschiebung gehören zum geraden Fall. 📄 Quelle: ari20_vl12, Folie 68 (S.68)",
+    "source": "ari20_vl12, Folie 68 (S.68, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b4-005",
+    "topic": "ari20_vl12_verkettung",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Wie viele Geradenspiegelungen bleiben übrig, nachdem bei der Verkettung von fünf Geradenspiegelungen vier durch zwei ersetzt wurden?",
+    "answer": 3,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "5 = 4 + 1; die 4 werden durch 2 ersetzt, also 2 + 1 = 3. Auf der Folie: \"Es bleiben also drei Geradenspiegelungen übrig.\" 📄 Quelle: ari20_vl12, Folie 68 (S.68)",
+    "source": "ari20_vl12, Folie 68 (S.68, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b4-006",
+    "topic": "ari20_vl12_verkettung",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Jede Verkettung von 2 Geradenspiegelungen ist identisch zu ...",
+    "options": [
+      "einer Drehung oder einer Verschiebung",
+      "einer Schubspiegelung",
+      "einer einfachen Geradenspiegelung",
+      "einer dreifachen Geradenspiegelung"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Erster Kasten der Folie: \"Jede Verkettung von 2 Geradenspiegelungen ist identisch zu einer Drehung oder einer Verschiebung.\" 📄 Quelle: ari20_vl12, Folie 71 (S.71)",
+    "source": "ari20_vl12, Folie 71 (S.71, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b4-007",
+    "topic": "ari20_vl12_verkettung",
+    "difficulty": 3,
+    "type": "single",
+    "question": "Zu welcher Abbildung ist jede Verkettung von 2n Geradenspiegelungen (n ∈ N) identisch?",
+    "options": [
+      "Zu einer zweifachen Geradenspiegelung (Drehung oder Verschiebung)",
+      "Zu einer dreifachen Geradenspiegelung (Geradenspiegelung oder Schubspiegelung)",
+      "Zu einer einfachen Geradenspiegelung",
+      "Zu einer Punktspiegelung"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Dritter Kasten: \"Jede Verkettung von 2n Geradenspiegelungen (n ∈ N) ist identisch zu einer zweifachen Geradenspiegelungen (Drehung oder Verschiebung).\" 📄 Quelle: ari20_vl12, Folie 71 (S.71)",
+    "source": "ari20_vl12, Folie 71 (S.71, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b4-008",
+    "topic": "ari20_vl12_verkettung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Verkettungen von Geradenspiegelungen lassen sich zu einer zweifachen Geradenspiegelung (Drehung oder Verschiebung) reduzieren?",
+    "options": [
+      "Verkettung von 2 Geradenspiegelungen",
+      "Verkettung von 4 Geradenspiegelungen",
+      "Verkettung von 2n Geradenspiegelungen (n ∈ N)",
+      "Verkettung von 5 Geradenspiegelungen"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Die drei Kästen der Folie nennen 2, 4 und 2n Geradenspiegelungen. Fünf (ungerade) Geradenspiegelungen gehören nicht dazu. 📄 Quelle: ari20_vl12, Folie 71 (S.71)",
+    "source": "ari20_vl12, Folie 71 (S.71, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b4-009",
+    "topic": "ari20_vl12_verkettung",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Jede Verkettung von 3 Geradenspiegelungen ist identisch zu ...",
+    "options": [
+      "einer einfachen Geradenspiegelung oder einer Schubspiegelung",
+      "einer Drehung oder einer Verschiebung",
+      "einer zweifachen Geradenspiegelung",
+      "der Identität"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Erster Kasten: \"Jede Verkettung von 3 Geradenspiegelungen ist identisch zu einer einfachen Geradenspiegelung oder einer Schubspiegelung.\" 📄 Quelle: ari20_vl12, Folie 74 (S.74)",
+    "source": "ari20_vl12, Folie 74 (S.74, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b4-010",
+    "topic": "ari20_vl12_verkettung",
+    "difficulty": 3,
+    "type": "single",
+    "question": "Zu welcher Abbildung ist jede Verkettung von 2n + 1 Geradenspiegelungen (n ∈ N) identisch?",
+    "options": [
+      "Zu einer dreifachen Geradenspiegelung (Geradenspiegelung oder Schubspiegelung)",
+      "Zu einer zweifachen Geradenspiegelung (Drehung oder Verschiebung)",
+      "Zu einer Verschiebung",
+      "Zu einer Drehung"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Dritter Kasten: \"Jede Verkettung von 2n + 1 Geradenspiegelungen (n ∈ N) ist identisch zu einer dreifachen Geradenspiegelungen (Geradenspiegelung oder Schubspiegelung).\" 📄 Quelle: ari20_vl12, Folie 74 (S.74)",
+    "source": "ari20_vl12, Folie 74 (S.74, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b4-011",
+    "topic": "ari20_vl12_verkettung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Verkettungen reduzieren sich auf eine dreifache Geradenspiegelung (Geradenspiegelung oder Schubspiegelung)?",
+    "options": [
+      "Verkettung von 3 Geradenspiegelungen",
+      "Verkettung von 5 Geradenspiegelungen",
+      "Verkettung von 2n + 1 Geradenspiegelungen (n ∈ N)",
+      "Verkettung von 2n Geradenspiegelungen (n ∈ N)"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Die drei Kästen nennen 3, 5 und 2n + 1 (ungerade Anzahl). 2n (gerade Anzahl) reduziert sich dagegen auf eine zweifache Geradenspiegelung. 📄 Quelle: ari20_vl12, Folie 74 (S.74)",
+    "source": "ari20_vl12, Folie 74 (S.74, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b4-012",
+    "topic": "ari20_vl12_satz",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wenn 2n Geradenspiegelungen verkettet werden, lässt sich die Abbildung wodurch ersetzen und worauf reduzieren?",
+    "options": [
+      "Durch zwei Geradenspiegelungen, d.h. auf eine Drehung oder Verschiebung",
+      "Durch drei Geradenspiegelungen, d.h. auf eine Schubspiegelung oder Achsenspiegelung",
+      "Durch eine Geradenspiegelung, d.h. auf die Identität",
+      "Durch vier Geradenspiegelungen"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Der Satz: \"Wenn 2n (2n+1) Geradenspiegelungen verkettet werden, dann lässt sich die Abbildung durch zwei (drei) Geradenspiegelungen ersetzen, d.h. auf eine Drehung oder Verschiebung (Schubspiegelung oder Achsenspiegelung) reduzieren.\" Für 2n gilt der Teil ohne Klammer. 📄 Quelle: ari20_vl12, Folie 76 (S.76)",
+    "source": "ari20_vl12, Folie 76 (S.76, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b4-013",
+    "topic": "ari20_vl12_satz",
+    "difficulty": 3,
+    "type": "single",
+    "question": "Worauf lässt sich die Abbildung reduzieren, wenn 2n+1 Geradenspiegelungen verkettet werden?",
+    "options": [
+      "Auf eine Schubspiegelung oder Achsenspiegelung (durch drei Geradenspiegelungen)",
+      "Auf eine Drehung oder Verschiebung (durch zwei Geradenspiegelungen)",
+      "Auf die Identität",
+      "Auf eine Punktspiegelung"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Im Satz gelten die Klammerangaben für den Fall 2n+1: durch drei Geradenspiegelungen ersetzbar, d.h. auf eine Schubspiegelung oder Achsenspiegelung reduzierbar. 📄 Quelle: ari20_vl12, Folie 76 (S.76)",
+    "source": "ari20_vl12, Folie 76 (S.76, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b4-014",
+    "topic": "ari20_vl12_satz",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aussagen entsprechen dem Satz \"Für alle Verkettungen von Geradenspiegelungen gilt ...\"?",
+    "options": [
+      "Eine gerade Anzahl (2n) Geradenspiegelungen reduziert sich auf eine Drehung oder Verschiebung",
+      "Eine ungerade Anzahl (2n+1) Geradenspiegelungen reduziert sich auf eine Schubspiegelung oder Achsenspiegelung",
+      "2n Geradenspiegelungen lassen sich durch zwei Geradenspiegelungen ersetzen",
+      "Jede Verkettung von Geradenspiegelungen ergibt stets eine Schubspiegelung"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Der Satz unterscheidet 2n (zwei Geradenspiegelungen → Drehung/Verschiebung) und 2n+1 (drei Geradenspiegelungen → Schubspiegelung/Achsenspiegelung). Eine pauschale Schubspiegelung ist falsch. 📄 Quelle: ari20_vl12, Folie 76 (S.76)",
+    "source": "ari20_vl12, Folie 76 (S.76, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b4-015",
+    "topic": "ari20_vl12_fachdidaktik",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Warum gilt der Satz über die Verkettung von Geradenspiegelungen als Paradebeispiel für Mathematik?",
+    "options": [
+      "In einem festgelegten Bereich wird die Struktur von Objekten (Abbildungen) untersucht",
+      "Es zeigt sich eine handhabbare und abgeschlossene Struktur",
+      "Man umgeht eine Grenze, indem man eine neue formerhaltende Abbildung (Schubspiegelung) definiert",
+      "Mathematik ist ausschließlich das Rechnen mit Zahlen"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Die Folie nennt: (1) Untersuchung der Struktur von Objekten in einem festgelegten Bereich, (2) handhabbare, abgeschlossene Struktur, (3) Umgehen einer Grenze durch Definition einer neuen formerhaltenden Abbildung. Die vierte Option widerspricht dem Bild von Mathematik als Schaffen von Mustern/Strukturen. 📄 Quelle: ari20_vl12, Folie 77 (S.77)",
+    "source": "ari20_vl12, Folie 77 (S.77, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b4-016",
+    "topic": "ari20_vl12_fachdidaktik",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wie wird die \"abgeschlossene Struktur\" der formerhaltenden Abbildungen beschrieben?",
+    "options": [
+      "Alle Verkettungen/Verknüpfungen von formerhaltenden Abbildungen lassen sich durch eine formerhaltende Abbildung ersetzen",
+      "Jede Abbildung lässt sich durch eine Drehung ersetzen",
+      "Alle Abbildungen sind Schubspiegelungen",
+      "Formerhaltende Abbildungen sind nicht verkettbar"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Punkt 2 der Folie: \"Es zeigt sich eine handhabbare und abgeschlossene Struktur (alle Verkettungen/Verknüpfungen von formerhaltenden Abbildungen lassen sich durch eine formerhaltende Abbildung ersetzen).\" 📄 Quelle: ari20_vl12, Folie 77 (S.77)",
+    "source": "ari20_vl12, Folie 77 (S.77, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b4-017",
+    "topic": "ari20_vl12_fachdidaktik",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Welche neue formerhaltende Abbildung wird definiert, um eine dabei auftretende Grenze zu umgehen?",
+    "options": [
+      "Die Schubspiegelung",
+      "Die Drehung",
+      "Die Verschiebung",
+      "Die Punktspiegelung"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Punkt 3: \"Man stößt zwischendurch an eine Grenze, die man umgeht, indem man eine neue formerhaltende Abbildung (Schubspiegelung) definiert.\" 📄 Quelle: ari20_vl12, Folie 77 (S.77)",
+    "source": "ari20_vl12, Folie 77 (S.77, Geometrie)"
+  },
+  {
+    "id": "ari20_vl12-b4-018",
+    "topic": "ari20_vl12_fachdidaktik",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Als was wird Mathematik in diesem Zusammenhang charakterisiert?",
+    "options": [
+      "Als Schaffen und Beschreiben von Mustern und Strukturen",
+      "Als reines Auswendiglernen von Formeln",
+      "Als bloße Anwendung von Rechenregeln",
+      "Als Beweisen von Ungleichungen"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Punkt 4 der Folie: \"Mathematik als Schaffen und Beschreiben von Mustern und Strukturen.\" 📄 Quelle: ari20_vl12, Folie 77 (S.77)",
+    "source": "ari20_vl12, Folie 77 (S.77, Geometrie)"
+  }
 ]

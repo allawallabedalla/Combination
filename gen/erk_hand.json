@@ -1,348 +1,348 @@
 [
- {
-  "id": "erk_hand-b1-001",
-  "topic": "erk_hand_verdopplung",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "In der Ausarbeitung 'Erkundung 1' werden die Felder durch fortlaufendes Verdoppeln berechnet. Für das 6. Feld steht dort '16 · 2'. Welches Ergebnis ist notiert?",
-  "answer": 32,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Notiert ist '6. Feld: 16 · 2 = 32'. 📄 Quelle: erk_hand, Folie 1 (S.1)",
-  "source": "erk_hand, Folie 1 (S.1, Erkundung 1, Aufgabe 1)"
- },
- {
-  "id": "erk_hand-b1-002",
-  "topic": "erk_hand_verdopplung",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Laut den Verdopplungsrechnungen der Ausarbeitung gilt für das 8. Feld '64 · 2'. Welches Ergebnis ist notiert?",
-  "answer": 128,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Notiert ist '8. Feld: 64 · 2 = 128'. 📄 Quelle: erk_hand, Folie 1 (S.1)",
-  "source": "erk_hand, Folie 1 (S.1, Erkundung 1, Aufgabe 1)"
- },
- {
-  "id": "erk_hand-b1-003",
-  "topic": "erk_hand_verdopplung",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Laut den Verdopplungsrechnungen der Ausarbeitung gilt für das 10. Feld '256 · 2'. Welches Ergebnis ist notiert?",
-  "answer": 512,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Notiert ist '10. Feld: 256 · 2 = 512'. 📄 Quelle: erk_hand, Folie 1 (S.1)",
-  "source": "erk_hand, Folie 1 (S.1, Erkundung 1, Aufgabe 1)"
- },
- {
-  "id": "erk_hand-b1-004",
-  "topic": "erk_hand_verdopplung",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Wie hängen in den Verdopplungsrechnungen der Ausarbeitung die Körnerzahlen aufeinanderfolgender Felder zusammen?",
-  "options": [
-   "Jedes Feld hat doppelt so viele Körner wie das vorhergehende",
-   "Jedes Feld hat ein Korn mehr als das vorhergehende",
-   "Jedes Feld hat halb so viele Körner wie das vorhergehende",
-   "Die Körnerzahl bleibt von Feld zu Feld konstant"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die notierten Rechnungen (1·2=2, 2·2=4, 4·2=8, 8·2=16, 16·2=32 …) multiplizieren jeweils mit 2, jedes Feld hat also doppelt so viele Körner wie das vorhergehende. 📄 Quelle: erk_hand, Folie 1 (S.1)",
-  "source": "erk_hand, Folie 1 (S.1, Erkundung 1, Aufgabe 1)"
- },
- {
-  "id": "erk_hand-b1-005",
-  "topic": "erk_hand_muster",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Auffälligkeiten zu den Körnerzahlen der Felder hält die Ausarbeitung fest?",
-  "options": [
-   "Ab Feld 2 ist jede Zahl ein Vielfaches von 2",
-   "Die 1 ist die einzige ungerade Zahl",
-   "Ab Feld 4 sind alle Zahlen Vielfache von 8",
-   "Alle Körnerzahlen sind Primzahlen"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Notiert unter 'Ist mir aufgefallen': ab Feld 2 jedes Feld Vielfaches von 2; die 1 ist die einzige ungerade Zahl; ab Feld 4 alle Zahlen Vielfache von 8. 📄 Quelle: erk_hand, Folie 2 (S.2)",
-  "source": "erk_hand, Folie 2 (S.2, Erkundung 1)"
- },
- {
-  "id": "erk_hand-b1-006",
-  "topic": "erk_hand_muster",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Welche Zahl ist laut den notierten Auffälligkeiten die einzige ungerade Körnerzahl in der Tabelle?",
-  "answer": 1,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Notiert: 'die 1 ist die einzige ungerade Zahl'. 📄 Quelle: erk_hand, Folie 2 (S.2)",
-  "source": "erk_hand, Folie 2 (S.2, Erkundung 1)"
- },
- {
-  "id": "erk_hand-b1-007",
-  "topic": "erk_hand_formel",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Welche Formel notiert die Ausarbeitung zur Bestimmung der Körneranzahl für das n-te Feld?",
-  "options": [
-   "2^(n-1)",
-   "2^n",
-   "2^n − 1",
-   "n^2"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Notiert (unterstrichen): 'Formel für Bestimmung der Körneranzahl für n-tes Feld: 2^(n-1)'. 📄 Quelle: erk_hand, Folie 3 (S.3)",
-  "source": "erk_hand, Folie 3 (S.3, Erkundung 1, Aufgabe 1)"
- },
- {
-  "id": "erk_hand-b1-008",
-  "topic": "erk_hand_summen",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "In Aufgabe 2a) wird für n = 6 die Summe 1 + 2 + 4 + 8 + 16 + 32 gebildet. Welches Ergebnis ist notiert?",
-  "answer": 63,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Notiert: 'n=6: 1 + 2 + 4 + 8 + 16 + 32 = 63'. 📄 Quelle: erk_hand, Folie 3 (S.3)",
-  "source": "erk_hand, Folie 3 (S.3, Erkundung 1, Aufgabe 2a)"
- },
- {
-  "id": "erk_hand-b1-009",
-  "topic": "erk_hand_summen",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "In Aufgabe 2a) wird für n = 8 die Summe 1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 gebildet. Welches Ergebnis ist notiert?",
-  "answer": 255,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Notiert: 'n=8: 1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 = 255'. 📄 Quelle: erk_hand, Folie 3 (S.3)",
-  "source": "erk_hand, Folie 3 (S.3, Erkundung 1, Aufgabe 2a)"
- },
- {
-  "id": "erk_hand-b1-010",
-  "topic": "erk_hand_summen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Vermutungen zu den Summen Sn hält die Ausarbeitung in Aufgabe 2a) fest?",
-  "options": [
-   "Alle Summen Sn sind ungerade Zahlen",
-   "Alle Summen sind der Vorgänger der Anzahl der Körner auf dem Feld n+1",
-   "Alle Summen sind gerade Zahlen",
-   "Alle Summen sind Vielfache von 3"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Notiert unter 'Vermutung': Alle Summen Sn sind ungerade Zahlen; alle Summen sind der Vorgänger der Anzahl der Körner auf dem Feld n+1. 📄 Quelle: erk_hand, Folie 3 (S.3)",
-  "source": "erk_hand, Folie 3 (S.3, Erkundung 1, Aufgabe 2a)"
- },
- {
-  "id": "erk_hand-b1-011",
-  "topic": "erk_hand_saetze",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Sätze formuliert die Ausarbeitung in Aufgabe 2b) für alle natürlichen Zahlen n?",
-  "options": [
-   "Wenn Sn die Summe der Körner der ersten Felder ist, dann ist die Summe ungerade",
-   "Wenn Sn die Summe der Anzahl aller Körner der ersten Felder ist, dann ist Sn der Vorgänger der Anzahl der Körner auf dem nächsten Feld",
-   "Wenn Sn die Summe der ersten Felder ist, dann ist die Summe gerade",
-   "Sn ist stets eine Zweierpotenz"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "In 2b) werden die beiden Vermutungen als Sätze formuliert: die Summe ist ungerade; Sn ist der Vorgänger der Anzahl der Körner auf dem nächsten Feld. 📄 Quelle: erk_hand, Folie 4 (S.4)",
-  "source": "erk_hand, Folie 4 (S.4, Erkundung 1, Aufgabe 2b)"
- },
- {
-  "id": "erk_hand-b1-012",
-  "topic": "erk_hand_saetze",
-  "difficulty": 3,
-  "type": "multi",
-  "question": "Wie begründet die Ausarbeitung in Aufgabe 2c), dass die Summe stets ungerade ist?",
-  "options": [
-   "Es werden nur gerade Zahlen addiert und das Ergebnis anschließend um +1 erweitert",
-   "2 · (n − 1) ergibt eine gerade Zahl",
-   "Die 1 kommt als Startwert hinzu, denn x^0 = 1",
-   "Es werden ausschließlich ungerade Zahlen addiert"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Begründung 2c): nur gerade Zahlen werden addiert, dann um +1 erweitert; 2·(n−1) ist gerade (außer bei 1, da x^0 = 1), wodurch die 1 als Startwert die ungerade Summe erzeugt. 📄 Quelle: erk_hand, Folie 4 (S.4)",
-  "source": "erk_hand, Folie 4 (S.4, Erkundung 1, Aufgabe 2c)"
- },
- {
-  "id": "erk_hand-b1-013",
-  "topic": "erk_hand_potenzen",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "In Aufgabe 2c) wird für n = 4 die Summe 2^0 + 2^1 + 2^2 + 2^3 = 1 + 2 + 4 + 8 berechnet. Welches Ergebnis ist notiert?",
-  "answer": 15,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Notiert: '2^0 + 2^1 + 2^2 + 2^3 = 1 + 2 + 4 + 8 = 15'. 📄 Quelle: erk_hand, Folie 5 (S.5)",
-  "source": "erk_hand, Folie 5 (S.5, Erkundung 1, Aufgabe 2c)"
- },
- {
-  "id": "erk_hand-b1-014",
-  "topic": "erk_hand_potenzen",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "In Aufgabe 2c) wird für das 5. Feld 2^(5-1) = 2 · 2 · 2 · 2 berechnet. Welches Ergebnis ist notiert?",
-  "answer": 16,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Notiert: '5. Feld: 2^(5-1) = 2·2·2·2 = 16'. 📄 Quelle: erk_hand, Folie 5 (S.5)",
-  "source": "erk_hand, Folie 5 (S.5, Erkundung 1, Aufgabe 2c)"
- },
- {
-  "id": "erk_hand-b1-015",
-  "topic": "erk_hand_potenzen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Im grafischen Beweis (ausgemalte Flächen) werden 2^n und 2^n − 1 gegenübergestellt. Welche Zuordnungen sind dort notiert?",
-  "options": [
-   "n=1: 2^1 = 2 und 2 − 1 = 1",
-   "n=2: 2^2 = 4 und 4 − 1 = 3",
-   "n=3: 2^3 = 8 und 8 − 1 = 7",
-   "n=3: 2^3 = 6 und 6 − 1 = 5"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Im grafischen Beweis stehen u.a.: n=0: 2^0=1, 1−1=0; n=1: 2^1=2, 2−1=1; n=2: 2^2=4, 4−1=3; n=3: 2^3=8, 8−1=7. 2^3 ist 8, nicht 6. 📄 Quelle: erk_hand, Folie 5 (S.5)",
-  "source": "erk_hand, Folie 5 (S.5, Erkundung 1, Aufgabe 2c)"
- },
- {
-  "id": "erk_hand-b1-016",
-  "topic": "erk_hand_potenzen",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Im grafischen Beweis der Ausarbeitung steht für n = 3: 2^3 − 1 = ?",
-  "answer": 7,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Notiert im grafischen Beweis: 'n=3: 2^3 = 8, 8 − 1 = 7'. 📄 Quelle: erk_hand, Folie 5 (S.5)",
-  "source": "erk_hand, Folie 5 (S.5, Erkundung 1, Aufgabe 2c)"
- },
- {
-  "id": "erk_hand-b1-017",
-  "topic": "erk_hand_potenzen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Wie erklärt die Ausarbeitung den grafischen Beweis mit den 'ausgemalten Flächen'?",
-  "options": [
-   "Die ausgemalten Flächen stehen für das 2^n",
-   "Das ausgemalte Feld innerhalb der großen Reihe ist dem −1 der Formel gleichzusetzen",
-   "Die Summanden sind jeweils farbig markiert",
-   "Die ausgemalten Flächen stehen für die Zahl n selbst"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Erläuterung: die ausgemalten Flächen stehen für das 2^n; die Summanden sind jeweils farbig markiert; das ausgemalte Feld innerhalb der großen Reihe ist dem −1 der Formel gleichzusetzen. 📄 Quelle: erk_hand, Folie 5 (S.5)",
-  "source": "erk_hand, Folie 5 (S.5, Erkundung 1, Aufgabe 2c)"
- },
- {
-  "id": "erk_hand-b1-018",
-  "topic": "erk_hand_summenformel",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Auf der Tutoriumsseite (Tutorium A+G II, 13.04.2023) steht S_10 = 2^10 − 1. Welchen Wert hat S_10?",
-  "answer": 1023,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Notiert: 'S_10 = 1023 = 2^10 − 1'. 📄 Quelle: erk_hand, Folie 6 (S.6)",
-  "source": "erk_hand, Folie 6 (S.6, Erkundung 1, Tutorium A+G II)"
- },
- {
-  "id": "erk_hand-b1-019",
-  "topic": "erk_hand_summenformel",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Auf der Tutoriumsseite steht S_5 = 2^5 − 1. Welchen Wert hat S_5?",
-  "answer": 31,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Notiert: 'S_5 = 31 = 2^5 − 1'. 📄 Quelle: erk_hand, Folie 6 (S.6)",
-  "source": "erk_hand, Folie 6 (S.6, Erkundung 1, Tutorium A+G II)"
- },
- {
-  "id": "erk_hand-b1-020",
-  "topic": "erk_hand_summenformel",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Auf der Tutoriumsseite steht S_4 = 2^4 − 1. Welchen Wert hat S_4?",
-  "answer": 15,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Notiert: 'S_4 = 15 = 2^4 − 1'. 📄 Quelle: erk_hand, Folie 6 (S.6)",
-  "source": "erk_hand, Folie 6 (S.6, Erkundung 1, Tutorium A+G II)"
- },
- {
-  "id": "erk_hand-b1-021",
-  "topic": "erk_hand_summenformel",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Auf der Tutoriumsseite steht S_3 = 2^3 − 1. Welchen Wert hat S_3?",
-  "answer": 7,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Notiert: 'S_3 = 7 = 2^3 − 1'. 📄 Quelle: erk_hand, Folie 6 (S.6)",
-  "source": "erk_hand, Folie 6 (S.6, Erkundung 1, Tutorium A+G II)"
- },
- {
-  "id": "erk_hand-b1-022",
-  "topic": "erk_hand_summenformel",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Welche allgemeine Summenformel hält die Ausarbeitung als Vermutung fest? Sn = 2^0 + 2^1 + 2^2 + … + 2^(n-1) = ?",
-  "options": [
-   "2^n − 1",
-   "2^(n-1)",
-   "2^n",
-   "n^2 − 1"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Notiert (Vermutung): 'Sn = 2^0 + 2^1 + 2^2 + … + 2^(n-1) = 2^n − 1'. 📄 Quelle: erk_hand, Folie 6 (S.6)",
-  "source": "erk_hand, Folie 6 (S.6, Erkundung 1, Tutorium A+G II)"
- },
- {
-  "id": "erk_hand-b1-023",
-  "topic": "erk_hand_summenformel",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Für S_20 = 2^0 + 2^1 + 2^2 + … + 2^19 notiert die Ausarbeitung welches Ergebnis?",
-  "options": [
-   "2^20 − 1",
-   "2^19 − 1",
-   "2^20",
-   "20^2 − 1"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Notiert: 'S_20 = 2^0 + 2^1 + 2^2 + … + 2^19 = 2^20 − 1'. 📄 Quelle: erk_hand, Folie 6 (S.6)",
-  "source": "erk_hand, Folie 6 (S.6, Erkundung 1, Tutorium A+G II)"
- }
+  {
+    "id": "erk_hand-b1-001",
+    "topic": "erk_hand_verdopplung",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "In der Ausarbeitung 'Erkundung 1' werden die Felder durch fortlaufendes Verdoppeln berechnet. Für das 6. Feld steht dort '16 · 2'. Welches Ergebnis ist notiert?",
+    "answer": 32,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Notiert ist '6. Feld: 16 · 2 = 32'. 📄 Quelle: erk_hand, Folie 1 (S.1)",
+    "source": "erk_hand, Folie 1 (S.1, Erkundung 1, Aufgabe 1)"
+  },
+  {
+    "id": "erk_hand-b1-002",
+    "topic": "erk_hand_verdopplung",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Laut den Verdopplungsrechnungen der Ausarbeitung gilt für das 8. Feld '64 · 2'. Welches Ergebnis ist notiert?",
+    "answer": 128,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Notiert ist '8. Feld: 64 · 2 = 128'. 📄 Quelle: erk_hand, Folie 1 (S.1)",
+    "source": "erk_hand, Folie 1 (S.1, Erkundung 1, Aufgabe 1)"
+  },
+  {
+    "id": "erk_hand-b1-003",
+    "topic": "erk_hand_verdopplung",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Laut den Verdopplungsrechnungen der Ausarbeitung gilt für das 10. Feld '256 · 2'. Welches Ergebnis ist notiert?",
+    "answer": 512,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Notiert ist '10. Feld: 256 · 2 = 512'. 📄 Quelle: erk_hand, Folie 1 (S.1)",
+    "source": "erk_hand, Folie 1 (S.1, Erkundung 1, Aufgabe 1)"
+  },
+  {
+    "id": "erk_hand-b1-004",
+    "topic": "erk_hand_verdopplung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Wie hängen in den Verdopplungsrechnungen der Ausarbeitung die Körnerzahlen aufeinanderfolgender Felder zusammen?",
+    "options": [
+      "Jedes Feld hat doppelt so viele Körner wie das vorhergehende",
+      "Jedes Feld hat ein Korn mehr als das vorhergehende",
+      "Jedes Feld hat halb so viele Körner wie das vorhergehende",
+      "Die Körnerzahl bleibt von Feld zu Feld konstant"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die notierten Rechnungen (1·2=2, 2·2=4, 4·2=8, 8·2=16, 16·2=32 …) multiplizieren jeweils mit 2, jedes Feld hat also doppelt so viele Körner wie das vorhergehende. 📄 Quelle: erk_hand, Folie 1 (S.1)",
+    "source": "erk_hand, Folie 1 (S.1, Erkundung 1, Aufgabe 1)"
+  },
+  {
+    "id": "erk_hand-b1-005",
+    "topic": "erk_hand_muster",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Auffälligkeiten zu den Körnerzahlen der Felder hält die Ausarbeitung fest?",
+    "options": [
+      "Ab Feld 2 ist jede Zahl ein Vielfaches von 2",
+      "Die 1 ist die einzige ungerade Zahl",
+      "Ab Feld 4 sind alle Zahlen Vielfache von 8",
+      "Alle Körnerzahlen sind Primzahlen"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Notiert unter 'Ist mir aufgefallen': ab Feld 2 jedes Feld Vielfaches von 2; die 1 ist die einzige ungerade Zahl; ab Feld 4 alle Zahlen Vielfache von 8. 📄 Quelle: erk_hand, Folie 2 (S.2)",
+    "source": "erk_hand, Folie 2 (S.2, Erkundung 1)"
+  },
+  {
+    "id": "erk_hand-b1-006",
+    "topic": "erk_hand_muster",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Welche Zahl ist laut den notierten Auffälligkeiten die einzige ungerade Körnerzahl in der Tabelle?",
+    "answer": 1,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Notiert: 'die 1 ist die einzige ungerade Zahl'. 📄 Quelle: erk_hand, Folie 2 (S.2)",
+    "source": "erk_hand, Folie 2 (S.2, Erkundung 1)"
+  },
+  {
+    "id": "erk_hand-b1-007",
+    "topic": "erk_hand_formel",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welche Formel notiert die Ausarbeitung zur Bestimmung der Körneranzahl für das n-te Feld?",
+    "options": [
+      "2^(n-1)",
+      "2^n",
+      "2^n − 1",
+      "n^2"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Notiert (unterstrichen): 'Formel für Bestimmung der Körneranzahl für n-tes Feld: 2^(n-1)'. 📄 Quelle: erk_hand, Folie 3 (S.3)",
+    "source": "erk_hand, Folie 3 (S.3, Erkundung 1, Aufgabe 1)"
+  },
+  {
+    "id": "erk_hand-b1-008",
+    "topic": "erk_hand_summen",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Berechne für n = 6 die Summe 1 + 2 + 4 + 8 + 16 + 32.",
+    "answer": 63,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Notiert: 'n=6: 1 + 2 + 4 + 8 + 16 + 32 = 63'. 📄 Quelle: erk_hand, Folie 3 (S.3)",
+    "source": "erk_hand, Folie 3 (S.3, Erkundung 1, Aufgabe 2a)"
+  },
+  {
+    "id": "erk_hand-b1-009",
+    "topic": "erk_hand_summen",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Berechne für n = 8 die Summe 1 + 2 + 4 + 8 + 16 + 32 + 64 + 128.",
+    "answer": 255,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Notiert: 'n=8: 1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 = 255'. 📄 Quelle: erk_hand, Folie 3 (S.3)",
+    "source": "erk_hand, Folie 3 (S.3, Erkundung 1, Aufgabe 2a)"
+  },
+  {
+    "id": "erk_hand-b1-010",
+    "topic": "erk_hand_summen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Betrachtet werden die Summen Sₙ = 1 + 2 + 4 + … + 2^(n−1) (Körnerzahlen der ersten n Felder eines sich verdoppelnden Musters). Welche Vermutungen über diese Summen Sₙ treffen zu?",
+    "options": [
+      "Alle Summen Sn sind ungerade Zahlen",
+      "Alle Summen sind der Vorgänger der Anzahl der Körner auf dem Feld n+1",
+      "Alle Summen sind gerade Zahlen",
+      "Alle Summen sind Vielfache von 3"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Notiert unter 'Vermutung': Alle Summen Sn sind ungerade Zahlen; alle Summen sind der Vorgänger der Anzahl der Körner auf dem Feld n+1. 📄 Quelle: erk_hand, Folie 3 (S.3)",
+    "source": "erk_hand, Folie 3 (S.3, Erkundung 1, Aufgabe 2a)"
+  },
+  {
+    "id": "erk_hand-b1-011",
+    "topic": "erk_hand_saetze",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Betrachtet wird die Summe Sₙ = 1 + 2 + 4 + … + 2^(n−1) der Körnerzahlen der ersten n Felder (jedes Feld doppelt so viele Körner wie das vorige). Welche Sätze gelten für alle natürlichen Zahlen n?",
+    "options": [
+      "Wenn Sn die Summe der Körner der ersten Felder ist, dann ist die Summe ungerade",
+      "Wenn Sn die Summe der Anzahl aller Körner der ersten Felder ist, dann ist Sn der Vorgänger der Anzahl der Körner auf dem nächsten Feld",
+      "Wenn Sn die Summe der ersten Felder ist, dann ist die Summe gerade",
+      "Sn ist stets eine Zweierpotenz"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "In 2b) werden die beiden Vermutungen als Sätze formuliert: die Summe ist ungerade; Sn ist der Vorgänger der Anzahl der Körner auf dem nächsten Feld. 📄 Quelle: erk_hand, Folie 4 (S.4)",
+    "source": "erk_hand, Folie 4 (S.4, Erkundung 1, Aufgabe 2b)"
+  },
+  {
+    "id": "erk_hand-b1-012",
+    "topic": "erk_hand_saetze",
+    "difficulty": 3,
+    "type": "multi",
+    "question": "Wie lässt sich begründen, dass die Summe Sₙ = 2^0 + 2^1 + 2^2 + … + 2^(n−1) stets ungerade ist?",
+    "options": [
+      "Es werden nur gerade Zahlen addiert und das Ergebnis anschließend um +1 erweitert",
+      "2 · (n − 1) ergibt eine gerade Zahl",
+      "Die 1 kommt als Startwert hinzu, denn x^0 = 1",
+      "Es werden ausschließlich ungerade Zahlen addiert"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Begründung 2c): nur gerade Zahlen werden addiert, dann um +1 erweitert; 2·(n−1) ist gerade (außer bei 1, da x^0 = 1), wodurch die 1 als Startwert die ungerade Summe erzeugt. 📄 Quelle: erk_hand, Folie 4 (S.4)",
+    "source": "erk_hand, Folie 4 (S.4, Erkundung 1, Aufgabe 2c)"
+  },
+  {
+    "id": "erk_hand-b1-013",
+    "topic": "erk_hand_potenzen",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Berechne für n = 4 die Summe 2^0 + 2^1 + 2^2 + 2^3 = 1 + 2 + 4 + 8.",
+    "answer": 15,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Notiert: '2^0 + 2^1 + 2^2 + 2^3 = 1 + 2 + 4 + 8 = 15'. 📄 Quelle: erk_hand, Folie 5 (S.5)",
+    "source": "erk_hand, Folie 5 (S.5, Erkundung 1, Aufgabe 2c)"
+  },
+  {
+    "id": "erk_hand-b1-014",
+    "topic": "erk_hand_potenzen",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Berechne für das 5. Feld 2^(5−1) = 2 · 2 · 2 · 2.",
+    "answer": 16,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Notiert: '5. Feld: 2^(5-1) = 2·2·2·2 = 16'. 📄 Quelle: erk_hand, Folie 5 (S.5)",
+    "source": "erk_hand, Folie 5 (S.5, Erkundung 1, Aufgabe 2c)"
+  },
+  {
+    "id": "erk_hand-b1-015",
+    "topic": "erk_hand_potenzen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Im grafischen Beweis (ausgemalte Flächen) werden 2^n und 2^n − 1 gegenübergestellt. Welche Zuordnungen sind dort notiert?",
+    "options": [
+      "n=1: 2^1 = 2 und 2 − 1 = 1",
+      "n=2: 2^2 = 4 und 4 − 1 = 3",
+      "n=3: 2^3 = 8 und 8 − 1 = 7",
+      "n=3: 2^3 = 6 und 6 − 1 = 5"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Im grafischen Beweis stehen u.a.: n=0: 2^0=1, 1−1=0; n=1: 2^1=2, 2−1=1; n=2: 2^2=4, 4−1=3; n=3: 2^3=8, 8−1=7. 2^3 ist 8, nicht 6. 📄 Quelle: erk_hand, Folie 5 (S.5)",
+    "source": "erk_hand, Folie 5 (S.5, Erkundung 1, Aufgabe 2c)"
+  },
+  {
+    "id": "erk_hand-b1-016",
+    "topic": "erk_hand_potenzen",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Im grafischen Beweis der Ausarbeitung steht für n = 3: 2^3 − 1 = ?",
+    "answer": 7,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Notiert im grafischen Beweis: 'n=3: 2^3 = 8, 8 − 1 = 7'. 📄 Quelle: erk_hand, Folie 5 (S.5)",
+    "source": "erk_hand, Folie 5 (S.5, Erkundung 1, Aufgabe 2c)"
+  },
+  {
+    "id": "erk_hand-b1-017",
+    "topic": "erk_hand_potenzen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Wie erklärt die Ausarbeitung den grafischen Beweis mit den 'ausgemalten Flächen'?",
+    "options": [
+      "Die ausgemalten Flächen stehen für das 2^n",
+      "Das ausgemalte Feld innerhalb der großen Reihe ist dem −1 der Formel gleichzusetzen",
+      "Die Summanden sind jeweils farbig markiert",
+      "Die ausgemalten Flächen stehen für die Zahl n selbst"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Erläuterung: die ausgemalten Flächen stehen für das 2^n; die Summanden sind jeweils farbig markiert; das ausgemalte Feld innerhalb der großen Reihe ist dem −1 der Formel gleichzusetzen. 📄 Quelle: erk_hand, Folie 5 (S.5)",
+    "source": "erk_hand, Folie 5 (S.5, Erkundung 1, Aufgabe 2c)"
+  },
+  {
+    "id": "erk_hand-b1-018",
+    "topic": "erk_hand_summenformel",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Auf der Tutoriumsseite (Tutorium A+G II, 13.04.2023) steht S_10 = 2^10 − 1. Welchen Wert hat S_10?",
+    "answer": 1023,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Notiert: 'S_10 = 1023 = 2^10 − 1'. 📄 Quelle: erk_hand, Folie 6 (S.6)",
+    "source": "erk_hand, Folie 6 (S.6, Erkundung 1, Tutorium A+G II)"
+  },
+  {
+    "id": "erk_hand-b1-019",
+    "topic": "erk_hand_summenformel",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Auf der Tutoriumsseite steht S_5 = 2^5 − 1. Welchen Wert hat S_5?",
+    "answer": 31,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Notiert: 'S_5 = 31 = 2^5 − 1'. 📄 Quelle: erk_hand, Folie 6 (S.6)",
+    "source": "erk_hand, Folie 6 (S.6, Erkundung 1, Tutorium A+G II)"
+  },
+  {
+    "id": "erk_hand-b1-020",
+    "topic": "erk_hand_summenformel",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Auf der Tutoriumsseite steht S_4 = 2^4 − 1. Welchen Wert hat S_4?",
+    "answer": 15,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Notiert: 'S_4 = 15 = 2^4 − 1'. 📄 Quelle: erk_hand, Folie 6 (S.6)",
+    "source": "erk_hand, Folie 6 (S.6, Erkundung 1, Tutorium A+G II)"
+  },
+  {
+    "id": "erk_hand-b1-021",
+    "topic": "erk_hand_summenformel",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Auf der Tutoriumsseite steht S_3 = 2^3 − 1. Welchen Wert hat S_3?",
+    "answer": 7,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Notiert: 'S_3 = 7 = 2^3 − 1'. 📄 Quelle: erk_hand, Folie 6 (S.6)",
+    "source": "erk_hand, Folie 6 (S.6, Erkundung 1, Tutorium A+G II)"
+  },
+  {
+    "id": "erk_hand-b1-022",
+    "topic": "erk_hand_summenformel",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welche allgemeine Summenformel hält die Ausarbeitung als Vermutung fest? Sn = 2^0 + 2^1 + 2^2 + … + 2^(n-1) = ?",
+    "options": [
+      "2^n − 1",
+      "2^(n-1)",
+      "2^n",
+      "n^2 − 1"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Notiert (Vermutung): 'Sn = 2^0 + 2^1 + 2^2 + … + 2^(n-1) = 2^n − 1'. 📄 Quelle: erk_hand, Folie 6 (S.6)",
+    "source": "erk_hand, Folie 6 (S.6, Erkundung 1, Tutorium A+G II)"
+  },
+  {
+    "id": "erk_hand-b1-023",
+    "topic": "erk_hand_summenformel",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Für S_20 = 2^0 + 2^1 + 2^2 + … + 2^19 notiert die Ausarbeitung welches Ergebnis?",
+    "options": [
+      "2^20 − 1",
+      "2^19 − 1",
+      "2^20",
+      "20^2 − 1"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Notiert: 'S_20 = 2^0 + 2^1 + 2^2 + … + 2^19 = 2^20 − 1'. 📄 Quelle: erk_hand, Folie 6 (S.6)",
+    "source": "erk_hand, Folie 6 (S.6, Erkundung 1, Tutorium A+G II)"
+  }
 ]

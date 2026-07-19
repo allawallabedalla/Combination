@@ -1,789 +1,771 @@
 [
- {
-  "id": "ari23_vl05-b1-001",
-  "topic": "ari23_vl05_pascalsches_dreieck",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Ordne im Pascal'schen Dreieck (Erkundung II) die Diagonalen (Spalten) ihren Beschreibungen zu. Welche Zuordnungen sind richtig?",
-  "options": [
-   "Spalte 0 ist die Folge von Einsen.",
-   "Spalte 1 ist die Folge der natürlichen Zahlen.",
-   "Spalte 2 ist die Folge der Dreieckszahlen (Summe der ersten n natürlichen Zahlen).",
-   "Spalte 3 ist die Folge der natürlichen Zahlen."
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Laut Folie: Spalte 0 = Folge von Einsen; Spalte 1 = Folge der natürlichen Zahlen; Spalte 2 = Summe der ersten n natürlichen Zahlen (Dreieckszahlen); Spalte 3 = Folge der Summe der Dreieckszahlen. Spalte 3 ist also NICHT die Folge der natürlichen Zahlen. 📄 Quelle: ari23_vl05, Folie 4 (S.4)",
-  "source": "ari23_vl05, Folie 4 (S.4, Erkundung II)"
- },
- {
-  "id": "ari23_vl05-b1-002",
-  "topic": "ari23_vl05_pascalsches_dreieck",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Wie entsteht die Folge in Spalte 2 des Pascal'schen Dreiecks (Erkundung II)?",
-  "options": [
-   "Als Summe der ersten n natürlichen Zahlen (Dreieckszahlen)",
-   "Als Folge von Einsen",
-   "Indem man stets 1 zum vorherigen Folgenglied hinzuzählt (natürliche Zahlen)",
-   "Als Folge der Summe der Dreieckszahlen"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Auf der Folie ist Spalte 2 als 'Summe der ersten n natürlichen Zahlen, Dreieckszahlen' beschrieben. 📄 Quelle: ari23_vl05, Folie 4 (S.4)",
-  "source": "ari23_vl05, Folie 4 (S.4, Erkundung II)"
- },
- {
-  "id": "ari23_vl05-b1-003",
-  "topic": "ari23_vl05_pascalsches_dreieck",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Was beschreibt Spalte 3 im Pascal'schen Dreieck (Erkundung II)?",
-  "options": [
-   "Die Folge der Summe der Dreieckszahlen",
-   "Die Folge der Dreieckszahlen",
-   "Die Folge der natürlichen Zahlen",
-   "Die Folge von Einsen"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Spalte 3 ist auf der Folie als 'Folge der Summe der Dreieckszahlen' beschrieben. 📄 Quelle: ari23_vl05, Folie 4 (S.4)",
-  "source": "ari23_vl05, Folie 4 (S.4, Erkundung II)"
- },
- {
-  "id": "ari23_vl05-b1-004",
-  "topic": "ari23_vl05_binomialkoeffizient",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Wie ist der Binomialkoeffizient (n über k) laut der Definition auf der Folie festgelegt?",
-  "options": [
-   "(n über k) := n! / (k! · (n−k)!)",
-   "(n über k) := n! / (k! · (n+k)!)",
-   "(n über k) := (n·k)! / (k! · n!)",
-   "(n über k) := n! / (n−k)!"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Definition auf der Folie: (n über k) := n! / (k! · (n−k)!). Gelesen wird 'Zeile über Spalte' bzw. 'n über k'. 📄 Quelle: ari23_vl05, Folie 5 (S.5)",
-  "source": "ari23_vl05, Folie 5 (S.5, Erkundung II)"
- },
- {
-  "id": "ari23_vl05-b1-005",
-  "topic": "ari23_vl05_binomialkoeffizient",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Berechne den Binomialkoeffizienten (7 über 4) = 7! / (4! · (7−4)!).",
-  "answer": 35,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "(7 über 4) = 7!/(4!·3!) = (7·6·5)/6 = 7·5 = 35. 📄 Quelle: ari23_vl05, Folie 5 (S.5)",
-  "source": "ari23_vl05, Folie 5 (S.5, Erkundung II)"
- },
- {
-  "id": "ari23_vl05-b1-006",
-  "topic": "ari23_vl05_binomialkoeffizient",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Berechne den Binomialkoeffizienten (4 über 3) = 4! / (3! · (4−3)!).",
-  "answer": 4,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "(4 über 3) = 4!/(3!·1!) = (4·3·2·1)/(3·2·1·1) = 4. 📄 Quelle: ari23_vl05, Folie 5 (S.5)",
-  "source": "ari23_vl05, Folie 5 (S.5, Erkundung II)"
- },
- {
-  "id": "ari23_vl05-b1-007",
-  "topic": "ari23_vl05_binomialkoeffizient",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Wie lautet die Formel für ein Element der 3. Spalte, (n über 3)?",
-  "options": [
-   "(n über 3) = n! / (3! · (n−3)!)",
-   "(n über 3) = n! / (3! · (n+3)!)",
-   "(n über 3) = n! / (3! · 3!)",
-   "(n über 3) = 3! / (n! · (n−3)!)"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Auf der Folie: (n über 3) = n! / (3! · (n−3)!). 📄 Quelle: ari23_vl05, Folie 6 (S.6)",
-  "source": "ari23_vl05, Folie 6 (S.6, Erkundung II)"
- },
- {
-  "id": "ari23_vl05-b1-008",
-  "topic": "ari23_vl05_spaltenformeln",
-  "difficulty": 3,
-  "type": "single",
-  "question": "Auf Folie 6 wird angegeben: Wenn S_n = 1 + 3 + 6 + … + n·(n+1)/2 (Summe der Dreieckszahlen) ist, wie lautet dann der geschlossene Ausdruck für S_n?",
-  "options": [
-   "S_n = n·(n+1)·(n+2) / (3·2)",
-   "S_n = n·(n+1) / 2",
-   "S_n = n·(n+1)·(n+2) / (2·2)",
-   "S_n = n·(n+1)·(n+2)·(n+3) / 24"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Der auf der Folie eingerahmte Satz lautet: Wenn S_n = 1 + 3 + 6 + … + n·(n+1)/2 ist, dann gilt S_n = n·(n+1)·(n+2) / (3·2). 📄 Quelle: ari23_vl05, Folie 6 (S.6)",
-  "source": "ari23_vl05, Folie 6 (S.6, Erkundung II)"
- },
- {
-  "id": "ari23_vl05-b1-009",
-  "topic": "ari23_vl05_pascalsches_dreieck",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Welche Gleichung wird auf Folie 6 als konkretes Zahlenbeispiel für die Additionsregel im Pascal'schen Dreieck angegeben?",
-  "options": [
-   "56 = 21 + 35",
-   "56 = 28 + 28",
-   "70 = 35 + 35",
-   "35 = 15 + 20"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Auf der Folie ist das Beispiel '56 = 21 + 35' hervorgehoben (die im Dreieck markierten Zellen). 📄 Quelle: ari23_vl05, Folie 6 (S.6)",
-  "source": "ari23_vl05, Folie 6 (S.6, Erkundung II)"
- },
- {
-  "id": "ari23_vl05-b1-010",
-  "topic": "ari23_vl05_pascalsches_dreieck",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Für alle Elemente der 3. Spalte gilt eine Additionsregel (mit n ≥ 3). Wie lautet sie?",
-  "options": [
-   "(n über 3) = ((n−1) über 2) + ((n−1) über 3)",
-   "(n über 3) = ((n−1) über 3) + ((n−1) über 4)",
-   "(n über 3) = (n über 2) + (n über 3)",
-   "(n über 3) = ((n+1) über 2) + ((n+1) über 3)"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Auf der Folie: Für alle Elemente der 3. Spalte gilt (n über 3) = ((n−1) über 2) + ((n−1) über 3) mit n ≥ 3; konkret notiert als (7 über 3) = (6 über 2) + (6 über 3). 📄 Quelle: ari23_vl05, Folie 7 (S.7)",
-  "source": "ari23_vl05, Folie 7 (S.7, Erkundung II)"
- },
- {
-  "id": "ari23_vl05-b1-011",
-  "topic": "ari23_vl05_pascalsches_dreieck",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Welche Voraussetzung wird auf Folie 7 für die Additionsregel der 3. Spalte, (n über 3) = ((n−1) über 2) + ((n−1) über 3), genannt?",
-  "options": [
-   "n ≥ 3",
-   "n ≥ 0",
-   "n > 0 und n gerade",
-   "n ≥ 4"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Regel gilt laut Folie 'mit n ≥ 3'. 📄 Quelle: ari23_vl05, Folie 7 (S.7)",
-  "source": "ari23_vl05, Folie 7 (S.7, Erkundung II)"
- },
- {
-  "id": "ari23_vl05-b1-012",
-  "topic": "ari23_vl05_spaltenformeln",
-  "difficulty": 3,
-  "type": "single",
-  "question": "Wie lautet die Verallgemeinerung für die k-te Spalte (Folie 8)?",
-  "options": [
-   "S_{n−k+1} = ((n−1) über (k−1)) + ((n−1) über k) = n·(n−1)·(n−2)·…·(n−k+1) / k!",
-   "S_{n−k+1} = ((n−1) über (k−1)) · ((n−1) über k) = n·(n−1)·…·(n−k+1) / k",
-   "S_{n+k} = ((n+1) über (k−1)) + ((n+1) über k) = n·(n−1)·…·(n−k+1) / k!",
-   "S_{n−k+1} = ((n−1) über (k−1)) + ((n−1) über k) = n! / k!"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Auf der Folie: S_{n−k+1} = ((n−1) über (k−1)) + ((n−1) über k) = n·(n−1)·(n−2)·…·(n−k+1) / k!. 📄 Quelle: ari23_vl05, Folie 8 (S.8)",
-  "source": "ari23_vl05, Folie 8 (S.8, Erkundung II)"
- },
- {
-  "id": "ari23_vl05-b1-013",
-  "topic": "ari23_vl05_spaltenformeln",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Was ergibt die Verallgemeinerung für k = 2 (Folie 8)? Es ist S_{n−2+1} = S_{n−1} = ((n−1) über (2−1)) + ((n−1) über 2) = …",
-  "options": [
-   "n·(n−1) / 2",
-   "n·(n+1) / 2",
-   "n·(n−1) / 3",
-   "(n−1)·(n−2) / 2"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Für k = 2 gilt laut Folie: S_{n−1} = ((n−1) über 1) + ((n−1) über 2) = n·(n−1) / 2! = n·(n−1) / 2. 📄 Quelle: ari23_vl05, Folie 8 (S.8)",
-  "source": "ari23_vl05, Folie 8 (S.8, Erkundung II)"
- },
- {
-  "id": "ari23_vl05-b1-014",
-  "topic": "ari23_vl05_spaltenformeln",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Was ergibt die Verallgemeinerung für k = 3 (Folie 9)? Es ist S_{n−3+1} = S_{n−2} = ((n−1) über (3−1)) + ((n−1) über 3) = …",
-  "options": [
-   "n·(n−1)·(n−2) / (3·2)",
-   "n·(n−1)·(n−2) / 3",
-   "n·(n+1)·(n+2) / (3·2)",
-   "n·(n−1)·(n−2) / 2"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Für k = 3 gilt laut Folie: S_{n−2} = ((n−1) über 2) + ((n−1) über 3) = n·(n−1)·(n−2) / 3! = n·(n−1)·(n−2) / (3·2). 📄 Quelle: ari23_vl05, Folie 9 (S.9)",
-  "source": "ari23_vl05, Folie 9 (S.9, Erkundung II)"
- },
- {
-  "id": "ari23_vl05-b1-015",
-  "topic": "ari23_vl05_spaltenformeln",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Für k = 3 steht im Nenner der Formel für S_{n−2} der Ausdruck 3! (= 3·2). Welchen Zahlenwert hat 3!?",
-  "answer": 6,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "3! = 3·2·1 = 6; auf der Folie als 3·2 geschrieben. 📄 Quelle: ari23_vl05, Folie 9 (S.9)",
-  "source": "ari23_vl05, Folie 9 (S.9, Erkundung II)"
- },
- {
-  "id": "ari23_vl05-b1-016",
-  "topic": "ari23_vl05_vollstaendige_induktion",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Für welchen Zahlbereich gilt der auf Folie 10 (vollständige Induktion) formulierte Satz zur k-ten Spalte?",
-  "options": [
-   "Für alle natürlichen Zahlen n mit n ≥ k",
-   "Für alle ganzen Zahlen n",
-   "Für alle reellen Zahlen n",
-   "Für alle natürlichen Zahlen n mit n ≤ k"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Auf der Folie: 'Für alle natürlichen Zahlen n und n ≥ k gilt …'. 📄 Quelle: ari23_vl05, Folie 10 (S.10)",
-  "source": "ari23_vl05, Folie 10 (S.10, Erkundung II – vollständige Induktion)"
- },
- {
-  "id": "ari23_vl05-b1-017",
-  "topic": "ari23_vl05_vollstaendige_induktion",
-  "difficulty": 3,
-  "type": "single",
-  "question": "Wie lautet die auf Folie 10 mittels vollständiger Induktion zu zeigende Behauptung für die k-te Spalte?",
-  "options": [
-   "S_{n−k+1} = n·(n−1)·(n−2)·…·(n−k+1) / k!",
-   "S_{n−k+1} = n·(n−1)·(n−2)·…·(n−k+1) / (k−1)!",
-   "S_{n−k+1} = n! / (k! · (n−k)!)",
-   "S_{n−k+1} = ((n−1) über (k−1)) − ((n−1) über k)"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Auf der Folie: Wenn S_{n−k+1} = ((n−1) über (k−1)) + ((n−1) über k) ist, dann gilt S_{n−k+1} = n·(n−1)·(n−2)·…·(n−k+1) / k!. 📄 Quelle: ari23_vl05, Folie 10 (S.10)",
-  "source": "ari23_vl05, Folie 10 (S.10, Erkundung II – vollständige Induktion)"
- },
- {
-  "id": "ari23_vl05-b1-018",
-  "topic": "ari23_vl05_vollstaendige_induktion",
-  "difficulty": 3,
-  "type": "single",
-  "question": "Für die 4. Spalte (k = 4, n ≥ 4) gilt: Wenn S_{n−3} = 1 + 4 + 10 + 20 + … + n·(n+1)·(n+2)/6 ist, wie lautet dann der geschlossene Ausdruck für S_{n−3} (Folie 11)?",
-  "options": [
-   "S_{n−3} = n·(n+1)·(n+2)·(n+3) / 24",
-   "S_{n−3} = n·(n+1)·(n+2) / 6",
-   "S_{n−3} = n·(n+1)·(n+2)·(n+3) / 6",
-   "S_{n−3} = n·(n−1)·(n−2)·(n−3) / 24"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Auf Folie 11 (Spalte 4, k = 4): Wenn S_{n−3} = 1 + 4 + 10 + 20 + … + n·(n+1)·(n+2)/6 ist, dann gilt S_{n−3} = n·(n+1)·(n+2)·(n+3) / 24. 📄 Quelle: ari23_vl05, Folie 11 (S.11)",
-  "source": "ari23_vl05, Folie 11 (S.11, Erkundung II – vollständige Induktion)"
- },
- {
-  "id": "ari23_vl05-b1-019",
-  "topic": "ari23_vl05_vollstaendige_induktion",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Aussagen zum Satz auf Folie 11 (Spalte 4, k = 4) sind korrekt?",
-  "options": [
-   "Die Voraussetzung lautet: für alle natürlichen Zahlen n ≥ 4.",
-   "Die Summe beginnt mit den Summanden 1 + 4 + 10 + 20 + …",
-   "Der geschlossene Ausdruck ist S_{n−3} = n·(n+1)·(n+2)·(n+3) / 24.",
-   "Der letzte angegebene Summand der Summe ist n·(n+1)/2."
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Auf der Folie: n ≥ 4; S_{n−3} = 1 + 4 + 10 + 20 + … + n·(n+1)·(n+2)/6 (der letzte Summand ist n·(n+1)·(n+2)/6, nicht n·(n+1)/2); geschlossen S_{n−3} = n·(n+1)·(n+2)·(n+3)/24. 📄 Quelle: ari23_vl05, Folie 11 (S.11)",
-  "source": "ari23_vl05, Folie 11 (S.11, Erkundung II – vollständige Induktion)"
- },
- {
-  "id": "ari23_vl05-b1-020",
-  "topic": "ari23_vl05_beweise",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Folie 13 fasst zusammen, was man beim Weg von der Erkenntnis zum Beweis können sollte. Welche Punkte werden genannt?",
-  "options": [
-   "Für eine Erkenntnis muss man ausprobieren.",
-   "Durch Ausprobieren kann man Muster und Strukturen entdecken.",
-   "Gefundene Muster in einer Vermutung beschreiben.",
-   "Einen mathematischen Satz formulieren und diesen beweisen."
-  ],
-  "correct": [
-   0,
-   1,
-   2,
-   3
-  ],
-  "explanation": "Alle vier Punkte stehen auf der Folie: ausprobieren; durch Ausprobieren Muster/Strukturen entdecken; Muster in einer Vermutung beschreiben; einen mathematischen Satz formulieren und beweisen. 📄 Quelle: ari23_vl05, Folie 13 (S.13)",
-  "source": "ari23_vl05, Folie 13 (S.13, Muster, Vermutungen, Sätze und Beweise)"
- },
- {
-  "id": "ari23_vl05-b1-021",
-  "topic": "ari23_vl05_beweise",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Wie wird auf Folie 13 ein Beweis charakterisiert?",
-  "options": [
-   "Als eine gute Geschichte, die in Worten, Symbolen oder grafisch (z. B. mit figurierten Zahlen) erzählt werden kann",
-   "Als eine ausschließlich in Formeln geführte Rechnung",
-   "Als eine Aufzählung möglichst vieler Beispiele",
-   "Als eine Vermutung, die nicht widerlegt wurde"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Auf der Folie: Ein Beweis ist eine gute Geschichte, die in Worten, Symbolen oder grafisch (bspw. mit Hilfe figurierter Zahlen) erzählt werden kann. 📄 Quelle: ari23_vl05, Folie 13 (S.13)",
-  "source": "ari23_vl05, Folie 13 (S.13, Muster, Vermutungen, Sätze und Beweise)"
- },
- {
-  "id": "ari23_vl05-b1-022",
-  "topic": "ari23_vl05_beweise",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Aussagen über die auf Folie 14 vorgestellten Beweisarten sind korrekt?",
-  "options": [
-   "Ein indirekter Beweis hat einen 'fest gelegten' Anfang.",
-   "Ein direkter Beweis hat keine festgelegte Form (auch geometrische Beweise werden akzeptiert).",
-   "Die vollständige Induktion ist auf Aussagen über alle natürlichen Zahlen beschränkt.",
-   "Es gibt einen Algorithmus, der sagt, welche Beweisart man verwenden muss."
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Laut Folie: indirekter Beweis hat einen fest gelegten Anfang; direkter Beweis hat keine festgelegte Form; vollständige Induktion ist auf Aussagen über alle natürlichen Zahlen beschränkt. Ausdrücklich: Es gibt (leider) KEINEN Algorithmus, der sagt, welche Beweisart man verwenden muss. 📄 Quelle: ari23_vl05, Folie 14 (S.14)",
-  "source": "ari23_vl05, Folie 14 (S.14, Beweise)"
- },
- {
-  "id": "ari23_vl05-b1-023",
-  "topic": "ari23_vl05_beweise",
-  "difficulty": 3,
-  "type": "single",
-  "question": "Wie ist der Ansatz eines indirekten Beweises laut Folie 14? Statt 'Für alle Elemente einer Menge gilt: A ⟹ B' setzt man an: …",
-  "options": [
-   "Es gibt Elemente einer Menge, für die gilt: A ∧ ¬B, und man zeigt, dass diese Verneinung nicht wahr ist (Widerspruch).",
-   "Für alle Elemente einer Menge gilt: B ⟹ A, und man rechnet dies direkt nach.",
-   "Man zeigt A(1) und die Implikation A(n) ⟹ A(n+1).",
-   "Man gibt möglichst viele Beispiele an, für die A ⟹ B gilt."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Auf der Folie: Beim indirekten Beweis setzt man an 'Es gibt Elemente einer Menge, für die gilt: A ∧ ¬B' und versucht zu zeigen, dass diese Verneinung nicht wahr ist (Widerspruch). 📄 Quelle: ari23_vl05, Folie 14 (S.14)",
-  "source": "ari23_vl05, Folie 14 (S.14, Beweise)"
- },
- {
-  "id": "ari23_vl05-b1-024",
-  "topic": "ari23_vl05_beweise",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Welche vorgegebene Form hat die vollständige Induktion laut Folie 14?",
-  "options": [
-   "Man zeigt, dass A(1) wahr ist und dass die Implikation A(n) ⟹ A(n+1) wahr ist.",
-   "Man zeigt, dass A(1) falsch ist und A(n) ⟹ A(n−1) gilt.",
-   "Man nimmt A ∧ ¬B an und leitet einen Widerspruch her.",
-   "Man akzeptiert auch geometrische Argumente ohne feste Form."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Auf der Folie: Die vollständige Induktion hat eine vorgegebene Form, indem man zeigt, dass A(1) wahr ist und die Implikation A(n) ⟹ A(n+1) wahr ist. 📄 Quelle: ari23_vl05, Folie 14 (S.14)",
-  "source": "ari23_vl05, Folie 14 (S.14, Beweise)"
- },
- {
-  "id": "ari23_vl05-b1-025",
-  "topic": "ari23_vl05_vermutungen",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Auf Folie 15 wird die Vermutung 'n² + n + 41 ist eine Primzahl' tabelliert. Welchen Wert hat n² + n + 41 für n = 10?",
-  "answer": 151,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Für n = 10: 10² + 10 + 41 = 100 + 10 + 41 = 151 (so auch in der Tabelle der Folie). 📄 Quelle: ari23_vl05, Folie 15 (S.15)",
-  "source": "ari23_vl05, Folie 15 (S.15, Muster, Vermutungen, Sätze und Beweise)"
- },
- {
-  "id": "ari23_vl05-b1-026",
-  "topic": "ari23_vl05_vermutungen",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Welche Kernbotschaft veranschaulicht Folie 15 mit der Vermutung 'Wenn n eine natürliche Zahl ist, dann ist n² + n + 41 eine Primzahl'?",
-  "options": [
-   "Nicht jede Vermutung ist richtig.",
-   "Jede durch eine Tabelle gestützte Vermutung ist bewiesen.",
-   "n² + n + 41 ist für jede natürliche Zahl n eine Primzahl.",
-   "Eine Vermutung gilt als bewiesen, sobald 21 Beispiele passen."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie hebt hervor: 'Nicht jede Vermutung ist richtig!' – die Tabelle für kleine n beweist die Vermutung nicht. 📄 Quelle: ari23_vl05, Folie 15 (S.15)",
-  "source": "ari23_vl05, Folie 15 (S.15, Muster, Vermutungen, Sätze und Beweise)"
- },
- {
-  "id": "ari23_vl05-b1-027",
-  "topic": "ari23_vl05_didaktik",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Wie wird auf Folie 16 der Umgang mit Mustern 'in der Grundschule' beschrieben?",
-  "options": [
-   "Entdecken und beispielorientiertes Beschreiben von (spannenden) Mustern",
-   "Verallgemeinern von Mustern",
-   "Begründen, dass Muster mathematische Wahrheit beanspruchen können",
-   "Einordnung der mathematischen Elemente in die Geschichte"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Auf der Folie (Spalte 'In der Grundschule'): Entdecken und beispielorientiertes Beschreiben von (spannenden) Mustern. Die übrigen Optionen gehören zur Spalte 'In der Hochschule'. 📄 Quelle: ari23_vl05, Folie 16 (S.16)",
-  "source": "ari23_vl05, Folie 16 (S.16, Rückblick: Warum ist das wichtig?)"
- },
- {
-  "id": "ari23_vl05-b1-028",
-  "topic": "ari23_vl05_didaktik",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Tätigkeiten ordnet Folie 16 dem Umgang mit Mustern 'in der Hochschule' zu?",
-  "options": [
-   "Verallgemeinern von Mustern",
-   "Begründen, dass die Muster mathematische Wahrheit beanspruchen können",
-   "Ordnen mathematischer Theorie und Einordnung der Elemente in die Geschichte",
-   "Beispielorientiertes Beschreiben von Mustern ohne Begründung"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Auf der Folie unter 'In der Hochschule': Verallgemeinern von Mustern; Begründen, dass Muster mathematische Wahrheit beanspruchen können; Beschreiben von Mustern auf mathematischer Basis; Ordnen mathematischer Theorie; Einordnung der Elemente in die Geschichte; Reflexion von Strategien. Das rein beispielorientierte Beschreiben ist der Grundschule zugeordnet. 📄 Quelle: ari23_vl05, Folie 16 (S.16)",
-  "source": "ari23_vl05, Folie 16 (S.16, Rückblick: Warum ist das wichtig?)"
- },
- {
-  "id": "ari23_vl05-b2-001",
-  "topic": "ari23_vl05_teilbarkeit",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Erinnerung zur Teilbarkeit: Wann gilt a|b?",
-  "options": [
-   "Genau dann, wenn es eine natürliche Zahl x gibt mit a·x = b",
-   "Genau dann, wenn es eine natürliche Zahl x gibt mit b·x = a",
-   "Genau dann, wenn es eine reelle Zahl x gibt mit a·x = b",
-   "Genau dann, wenn für alle natürlichen Zahlen x gilt a·x = b"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Laut Erinnerung gilt a|b genau dann, wenn es eine natürliche Zahl x gibt mit a·x = b. 📄 Quelle: ari23_vl05, Folie 18 (S.18)",
-  "source": "ari23_vl05, Folie 18 (S.18, n-Quadratlinge)"
- },
- {
-  "id": "ari23_vl05-b2-002",
-  "topic": "ari23_vl05_teilbarkeit",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Aussagen zur Teilbarkeit a|b treffen gemäß der Erinnerung auf der Folie zu?",
-  "options": [
-   "x ist eine natürliche Zahl",
-   "Es gilt a·x = b",
-   "x muss eine Primzahl sein",
-   "Es gilt a + x = b"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Die Folie definiert: a|b genau dann, wenn es eine Natürliche Zahl x gibt mit a·x = b. Somit ist x natürlich und es gilt a·x = b; eine Primzahl-Bedingung oder eine Additionsgleichung stehen nicht auf der Folie. 📄 Quelle: ari23_vl05, Folie 18 (S.18)",
-  "source": "ari23_vl05, Folie 18 (S.18, n-Quadratlinge)"
- },
- {
-  "id": "ari23_vl05-b2-003",
-  "topic": "ari23_vl05_quadratlinge",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Bedingungen muss eine Figur laut Definition erfüllen, um ein n-Quadratling zu sein?",
-  "options": [
-   "Die Figur besteht aus n Quadraten",
-   "Jedes Quadrat hat mit mindestens einem weiteren Quadrat genau eine Seite (vollständig) gemeinsam",
-   "Die Quadrate berühren sich nur in einer Ecke",
-   "Jedes Quadrat hat mit jedem anderen Quadrat eine Seite gemeinsam"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Definition: Eine Figur heißt n-Quadratling genau dann, wenn die Figur aus n Quadraten besteht und jedes Quadrat mit mindestens einem weiteren Quadrat genau eine Seite (vollständig) gemeinsam hat. 📄 Quelle: ari23_vl05, Folie 20 (S.20)",
-  "source": "ari23_vl05, Folie 20 (S.20, n-Quadratlinge)"
- },
- {
-  "id": "ari23_vl05-b2-004",
-  "topic": "ari23_vl05_quadratlinge",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Wie müssen sich zwei benachbarte Quadrate eines n-Quadratlings gemäß Definition berühren?",
-  "options": [
-   "Sie haben genau eine Seite vollständig gemeinsam",
-   "Sie haben genau eine Ecke gemeinsam",
-   "Sie überlappen sich teilweise",
-   "Sie haben genau eine halbe Seite gemeinsam"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Jedes Quadrat muss mit mindestens einem weiteren Quadrat genau eine Seite (vollständig) gemeinsam haben. 📄 Quelle: ari23_vl05, Folie 20 (S.20)",
-  "source": "ari23_vl05, Folie 20 (S.20, n-Quadratlinge)"
- },
- {
-  "id": "ari23_vl05-b2-005",
-  "topic": "ari23_vl05_quadratlinge",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Aus wie vielen Quadraten besteht ein 5-Quadratling gemäß Definition?",
-  "answer": 5,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Laut Definition besteht ein n-Quadratling aus n Quadraten, ein 5-Quadratling also aus 5 Quadraten. 📄 Quelle: ari23_vl05, Folie 20 (S.20)",
-  "source": "ari23_vl05, Folie 20 (S.20, n-Quadratlinge)"
- },
- {
-  "id": "ari23_vl05-b2-006",
-  "topic": "ari23_vl05_quadratlinge",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Wie viele verschiedene 5-Quadratlinge gibt es laut Folie?",
-  "answer": 12,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Auf der Folie 'Zählen' ist angegeben: 5-Quadratlinge (12; sind das jetzt alle?). 📄 Quelle: ari23_vl05, Folie 22 (S.22)",
-  "source": "ari23_vl05, Folie 22 (S.22, n-Quadratlinge)"
- },
- {
-  "id": "ari23_vl05-b2-007",
-  "topic": "ari23_vl05_quadratlinge",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Wie viele verschiedene 6-Quadratlinge gibt es laut Folie?",
-  "answer": 35,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Auf der Folie 'Zählen' ist angegeben: 6-Quadratlinge (35; oh je). 📄 Quelle: ari23_vl05, Folie 22 (S.22)",
-  "source": "ari23_vl05, Folie 22 (S.22, n-Quadratlinge)"
- },
- {
-  "id": "ari23_vl05-b2-008",
-  "topic": "ari23_vl05_quadratlinge",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Zuordnungen 'n-Quadratlinge → Anzahl' sind laut Folie 'Zählen' korrekt?",
-  "options": [
-   "2-Quadratlinge: 1",
-   "3-Quadratlinge: 2",
-   "4-Quadratlinge: 5",
-   "5-Quadratlinge: 35"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Die Folie nennt: 2-Quadratlinge (1), 3-Quadratlinge (2), 4-Quadratlinge (5), 5-Quadratlinge (12) — nicht 35 (das ist die Anzahl der 6-Quadratlinge). 📄 Quelle: ari23_vl05, Folie 22 (S.22)",
-  "source": "ari23_vl05, Folie 22 (S.22, n-Quadratlinge)"
- },
- {
-  "id": "ari23_vl05-b2-009",
-  "topic": "ari23_vl05_quadratlinge",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Was gibt die Folie 'Zählen' für die Anzahl der 7-Quadratlinge an?",
-  "options": [
-   "107 oder 108 (unklar)",
-   "genau 107",
-   "genau 108",
-   "genau 35"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Auf der Folie steht: 7-Quadratlinge (107 oder 108? oh je oh je) — die Anzahl wird also als unsicher dargestellt. 📄 Quelle: ari23_vl05, Folie 22 (S.22)",
-  "source": "ari23_vl05, Folie 22 (S.22, n-Quadratlinge)"
- },
- {
-  "id": "ari23_vl05-b2-010",
-  "topic": "ari23_vl05_quadratlinge",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Mit welchen n-Quadratlingen lässt sich im Tetris-Spiel laut Folie sicher (offenbar) mehrere Reihen auf einmal 'eliminieren'?",
-  "options": [
-   "Mit den 4-Quadratlingen",
-   "Mit den 3-Quadratlingen",
-   "Mit den 2-Quadratlingen",
-   "Mit den 1-Quadratlingen"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie stellt fest: 'Mit den 4-Quadratlingen geht das offenbar, sonst gäbe es Tetris nicht.' 📄 Quelle: ari23_vl05, Folie 24 (S.24)",
-  "source": "ari23_vl05, Folie 24 (S.24, Parkettierung)"
- },
- {
-  "id": "ari23_vl05-b2-011",
-  "topic": "ari23_vl05_parkettierung",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Was folgt laut Folie, wenn sich mit n-Quadratlingen ein lückenloses Rechteck bauen lässt?",
-  "options": [
-   "Dann lässt sich mit den n-Quadratlingen auch die Ebene parkettieren",
-   "Dann lässt sich damit kein Rechteck parkettieren",
-   "Dann muss n ungerade sein",
-   "Dann gibt es genau eine mögliche Parkettierung"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Folie: 'Lässt sich mit n-Quadratlingen ein lückenloses Rechteck bauen, so lässt sich mit den n-Quadratlingen auch übergreifend die Ebene ... parkettieren.' 📄 Quelle: ari23_vl05, Folie 26 (S.26)",
-  "source": "ari23_vl05, Folie 26 (S.26, Parkettierung)"
- },
- {
-  "id": "ari23_vl05-b2-012",
-  "topic": "ari23_vl05_parkettierung",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Was ist auf der Folie 'Parkettierung der Ebene' mit der 'Ebene' gemeint?",
-  "options": [
-   "Die zu allen Seiten unendlich gedachte Fläche",
-   "Ein 6×8-Rechteck",
-   "Eine endliche, begrenzte Fläche",
-   "Die Oberfläche eines Würfels"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Ebene wird auf der Folie beschrieben als 'die zu allen Seiten unendlich gedachte Fläche'. 📄 Quelle: ari23_vl05, Folie 26 (S.26)",
-  "source": "ari23_vl05, Folie 26 (S.26, Parkettierung)"
- },
- {
-  "id": "ari23_vl05-b2-013",
-  "topic": "ari23_vl05_parkettierung",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Bedingungen muss eine Menge von Figuren laut Definition erfüllen, um eine Parkettierung zu sein?",
-  "options": [
-   "Sie besteht aus einer endlichen Zahl kongruenter Figuren",
-   "Sie füllt die Ebene überlappungsfrei aus",
-   "Sie füllt die Ebene lückenlos aus",
-   "Sie besteht aus unendlich vielen verschiedenen Figuren"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Definition: Genau dann heißt eine Menge von Figuren Parkettierung, wenn die Menge aus einer endlichen Zahl kongruenter Figuren besteht und die Menge die Ebene überlappungsfrei und lückenlos ausfüllt. 📄 Quelle: ari23_vl05, Folie 29 (S.29)",
-  "source": "ari23_vl05, Folie 29 (S.29, Parkettierung)"
- },
- {
-  "id": "ari23_vl05-b2-014",
-  "topic": "ari23_vl05_parkettierung",
-  "difficulty": 2,
-  "type": "single",
-  "question": "In welcher Beziehung müssen die Figuren einer Parkettierung laut Definition zueinander stehen?",
-  "options": [
-   "Sie müssen kongruent sein",
-   "Sie müssen ähnlich, aber verschieden groß sein",
-   "Sie dürfen beliebig verschieden sein",
-   "Sie müssen spiegelverkehrt und größer sein"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Definition verlangt eine endliche Zahl kongruenter Figuren. 📄 Quelle: ari23_vl05, Folie 29 (S.29)",
-  "source": "ari23_vl05, Folie 29 (S.29, Parkettierung)"
- },
- {
-  "id": "ari23_vl05-b2-015",
-  "topic": "ari23_vl05_parkettierung",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Wie füllt eine Parkettierung die Ebene laut Definition aus?",
-  "options": [
-   "Überlappungsfrei und lückenlos",
-   "Mit Überlappungen",
-   "Mit Lücken",
-   "Nur teilweise"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Menge muss die Ebene überlappungsfrei und lückenlos ausfüllen. 📄 Quelle: ari23_vl05, Folie 29 (S.29)",
-  "source": "ari23_vl05, Folie 29 (S.29, Parkettierung)"
- },
- {
-  "id": "ari23_vl05-b2-016",
-  "topic": "ari23_vl05_parkettierung",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Was kennzeichnet ein reguläres Polygon (regelmäßiges n-Eck) laut Folie?",
-  "options": [
-   "Gleiche Seitenlängen",
-   "Gleiche Innenwinkel",
-   "Verschiedene Seitenlängen",
-   "Es hat immer genau 4 Ecken"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Die Folie definiert reguläre Polygone (regelmäßige n-Ecke) über gleiche Seitenlängen und gleiche Innenwinkel. 📄 Quelle: ari23_vl05, Folie 30 (S.30)",
-  "source": "ari23_vl05, Folie 30 (S.30, Parkettierung)"
- },
- {
-  "id": "ari23_vl05-b2-017",
-  "topic": "ari23_vl05_parkettierung",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Fälle unterscheidet die Folie 'Parkettierung' bei der Frage, womit sich die Ebene parkettieren lässt?",
-  "options": [
-   "Reguläre Polygone (regelmäßige n-Ecke)",
-   "Allgemeine Drei-, Vier-, Fünf-, n-Ecke",
-   "Nur Kreise",
-   "Nur gleichschenklige Dreiecke"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Die Fallunterscheidung fragt einerseits nach regulären Polygonen (regelmäßigen n-Ecken) und andererseits nach allgemeinen Drei-, Vier-, Fünf-, n-Ecken. 📄 Quelle: ari23_vl05, Folie 30 (S.30)",
-  "source": "ari23_vl05, Folie 30 (S.30, Parkettierung)"
- }
+  {
+    "id": "ari23_vl05-b1-001",
+    "topic": "ari23_vl05_pascalsches_dreieck",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Ordne im Pascal'schen Dreieck die Diagonalen (Spalten) ihren Beschreibungen zu. Welche Zuordnungen sind richtig?",
+    "options": [
+      "Spalte 0 ist die Folge von Einsen.",
+      "Spalte 1 ist die Folge der natürlichen Zahlen.",
+      "Spalte 2 ist die Folge der Dreieckszahlen (Summe der ersten n natürlichen Zahlen).",
+      "Spalte 3 ist die Folge der natürlichen Zahlen."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Laut Folie: Spalte 0 = Folge von Einsen; Spalte 1 = Folge der natürlichen Zahlen; Spalte 2 = Summe der ersten n natürlichen Zahlen (Dreieckszahlen); Spalte 3 = Folge der Summe der Dreieckszahlen. Spalte 3 ist also NICHT die Folge der natürlichen Zahlen. 📄 Quelle: ari23_vl05, Folie 4 (S.4)",
+    "source": "ari23_vl05, Folie 4 (S.4, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl05-b1-002",
+    "topic": "ari23_vl05_pascalsches_dreieck",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Wie entsteht die Folge in Spalte 2 des Pascal'schen Dreiecks?",
+    "options": [
+      "Als Summe der ersten n natürlichen Zahlen (Dreieckszahlen)",
+      "Als Folge von Einsen",
+      "Indem man stets 1 zum vorherigen Folgenglied hinzuzählt (natürliche Zahlen)",
+      "Als Folge der Summe der Dreieckszahlen"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Auf der Folie ist Spalte 2 als 'Summe der ersten n natürlichen Zahlen, Dreieckszahlen' beschrieben. 📄 Quelle: ari23_vl05, Folie 4 (S.4)",
+    "source": "ari23_vl05, Folie 4 (S.4, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl05-b1-003",
+    "topic": "ari23_vl05_pascalsches_dreieck",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Was beschreibt Spalte 3 im Pascal'schen Dreieck?",
+    "options": [
+      "Die Folge der Summe der Dreieckszahlen",
+      "Die Folge der Dreieckszahlen",
+      "Die Folge der natürlichen Zahlen",
+      "Die Folge von Einsen"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Spalte 3 ist auf der Folie als 'Folge der Summe der Dreieckszahlen' beschrieben. 📄 Quelle: ari23_vl05, Folie 4 (S.4)",
+    "source": "ari23_vl05, Folie 4 (S.4, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl05-b1-004",
+    "topic": "ari23_vl05_binomialkoeffizient",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wie ist der Binomialkoeffizient (n über k) definiert?",
+    "options": [
+      "(n über k) := n! / (k! · (n−k)!)",
+      "(n über k) := n! / (k! · (n+k)!)",
+      "(n über k) := (n·k)! / (k! · n!)",
+      "(n über k) := n! / (n−k)!"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Definition auf der Folie: (n über k) := n! / (k! · (n−k)!). Gelesen wird 'Zeile über Spalte' bzw. 'n über k'. 📄 Quelle: ari23_vl05, Folie 5 (S.5)",
+    "source": "ari23_vl05, Folie 5 (S.5, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl05-b1-005",
+    "topic": "ari23_vl05_binomialkoeffizient",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Berechne den Binomialkoeffizienten (7 über 4) = 7! / (4! · (7−4)!).",
+    "answer": 35,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "(7 über 4) = 7!/(4!·3!) = (7·6·5)/6 = 7·5 = 35. 📄 Quelle: ari23_vl05, Folie 5 (S.5)",
+    "source": "ari23_vl05, Folie 5 (S.5, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl05-b1-006",
+    "topic": "ari23_vl05_binomialkoeffizient",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Berechne den Binomialkoeffizienten (4 über 3) = 4! / (3! · (4−3)!).",
+    "answer": 4,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "(4 über 3) = 4!/(3!·1!) = (4·3·2·1)/(3·2·1·1) = 4. 📄 Quelle: ari23_vl05, Folie 5 (S.5)",
+    "source": "ari23_vl05, Folie 5 (S.5, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl05-b1-007",
+    "topic": "ari23_vl05_binomialkoeffizient",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wie lautet die Formel für ein Element der 3. Spalte, (n über 3)?",
+    "options": [
+      "(n über 3) = n! / (3! · (n−3)!)",
+      "(n über 3) = n! / (3! · (n+3)!)",
+      "(n über 3) = n! / (3! · 3!)",
+      "(n über 3) = 3! / (n! · (n−3)!)"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Auf der Folie: (n über 3) = n! / (3! · (n−3)!). 📄 Quelle: ari23_vl05, Folie 6 (S.6)",
+    "source": "ari23_vl05, Folie 6 (S.6, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl05-b1-008",
+    "topic": "ari23_vl05_spaltenformeln",
+    "difficulty": 3,
+    "type": "single",
+    "question": "Wenn S_n = 1 + 3 + 6 + … + n·(n+1)/2 die Summe der ersten n Dreieckszahlen ist, wie lautet der geschlossene Ausdruck für S_n?",
+    "options": [
+      "S_n = n·(n+1)·(n+2) / (3·2)",
+      "S_n = n·(n+1) / 2",
+      "S_n = n·(n+1)·(n+2) / (2·2)",
+      "S_n = n·(n+1)·(n+2)·(n+3) / 24"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Der auf der Folie eingerahmte Satz lautet: Wenn S_n = 1 + 3 + 6 + … + n·(n+1)/2 ist, dann gilt S_n = n·(n+1)·(n+2) / (3·2). 📄 Quelle: ari23_vl05, Folie 6 (S.6)",
+    "source": "ari23_vl05, Folie 6 (S.6, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl05-b1-010",
+    "topic": "ari23_vl05_pascalsches_dreieck",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Für alle Elemente der 3. Spalte gilt eine Additionsregel (mit n ≥ 3). Wie lautet sie?",
+    "options": [
+      "(n über 3) = ((n−1) über 2) + ((n−1) über 3)",
+      "(n über 3) = ((n−1) über 3) + ((n−1) über 4)",
+      "(n über 3) = (n über 2) + (n über 3)",
+      "(n über 3) = ((n+1) über 2) + ((n+1) über 3)"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Auf der Folie: Für alle Elemente der 3. Spalte gilt (n über 3) = ((n−1) über 2) + ((n−1) über 3) mit n ≥ 3; konkret notiert als (7 über 3) = (6 über 2) + (6 über 3). 📄 Quelle: ari23_vl05, Folie 7 (S.7)",
+    "source": "ari23_vl05, Folie 7 (S.7, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl05-b1-011",
+    "topic": "ari23_vl05_pascalsches_dreieck",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welche Voraussetzung gilt für die Additionsregel der 3. Spalte, (n über 3) = ((n−1) über 2) + ((n−1) über 3)?",
+    "options": [
+      "n ≥ 3",
+      "n ≥ 0",
+      "n > 0 und n gerade",
+      "n ≥ 4"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Regel gilt laut Folie 'mit n ≥ 3'. 📄 Quelle: ari23_vl05, Folie 7 (S.7)",
+    "source": "ari23_vl05, Folie 7 (S.7, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl05-b1-012",
+    "topic": "ari23_vl05_spaltenformeln",
+    "difficulty": 3,
+    "type": "single",
+    "question": "Wie lautet die Verallgemeinerung der Summen-/Additionsregel für die k-te Spalte des Pascal'schen Dreiecks?",
+    "options": [
+      "S_{n−k+1} = ((n−1) über (k−1)) + ((n−1) über k) = n·(n−1)·(n−2)·…·(n−k+1) / k!",
+      "S_{n−k+1} = ((n−1) über (k−1)) · ((n−1) über k) = n·(n−1)·…·(n−k+1) / k",
+      "S_{n+k} = ((n+1) über (k−1)) + ((n+1) über k) = n·(n−1)·…·(n−k+1) / k!",
+      "S_{n−k+1} = ((n−1) über (k−1)) + ((n−1) über k) = n! / k!"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Auf der Folie: S_{n−k+1} = ((n−1) über (k−1)) + ((n−1) über k) = n·(n−1)·(n−2)·…·(n−k+1) / k!. 📄 Quelle: ari23_vl05, Folie 8 (S.8)",
+    "source": "ari23_vl05, Folie 8 (S.8, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl05-b1-013",
+    "topic": "ari23_vl05_spaltenformeln",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Was ergibt die Verallgemeinerung für k = 2? Es ist S_{n−1} = ((n−1) über 1) + ((n−1) über 2) = …",
+    "options": [
+      "n·(n−1) / 2",
+      "n·(n+1) / 2",
+      "n·(n−1) / 3",
+      "(n−1)·(n−2) / 2"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Für k = 2 gilt laut Folie: S_{n−1} = ((n−1) über 1) + ((n−1) über 2) = n·(n−1) / 2! = n·(n−1) / 2. 📄 Quelle: ari23_vl05, Folie 8 (S.8)",
+    "source": "ari23_vl05, Folie 8 (S.8, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl05-b1-014",
+    "topic": "ari23_vl05_spaltenformeln",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Was ergibt die Verallgemeinerung für k = 3? Es ist S_{n−2} = ((n−1) über 2) + ((n−1) über 3) = …",
+    "options": [
+      "n·(n−1)·(n−2) / (3·2)",
+      "n·(n−1)·(n−2) / 3",
+      "n·(n+1)·(n+2) / (3·2)",
+      "n·(n−1)·(n−2) / 2"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Für k = 3 gilt laut Folie: S_{n−2} = ((n−1) über 2) + ((n−1) über 3) = n·(n−1)·(n−2) / 3! = n·(n−1)·(n−2) / (3·2). 📄 Quelle: ari23_vl05, Folie 9 (S.9)",
+    "source": "ari23_vl05, Folie 9 (S.9, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl05-b1-015",
+    "topic": "ari23_vl05_spaltenformeln",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Für k = 3 steht im Nenner der Formel für S_{n−2} der Ausdruck 3! (= 3·2). Welchen Zahlenwert hat 3!?",
+    "answer": 6,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "3! = 3·2·1 = 6; auf der Folie als 3·2 geschrieben. 📄 Quelle: ari23_vl05, Folie 9 (S.9)",
+    "source": "ari23_vl05, Folie 9 (S.9, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl05-b1-016",
+    "topic": "ari23_vl05_vollstaendige_induktion",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Für welchen Zahlbereich gilt der mittels vollständiger Induktion bewiesene Satz zur k-ten Spalte des Pascal'schen Dreiecks?",
+    "options": [
+      "Für alle natürlichen Zahlen n mit n ≥ k",
+      "Für alle ganzen Zahlen n",
+      "Für alle reellen Zahlen n",
+      "Für alle natürlichen Zahlen n mit n ≤ k"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Auf der Folie: 'Für alle natürlichen Zahlen n und n ≥ k gilt …'. 📄 Quelle: ari23_vl05, Folie 10 (S.10)",
+    "source": "ari23_vl05, Folie 10 (S.10, Erkundung II – vollständige Induktion)"
+  },
+  {
+    "id": "ari23_vl05-b1-017",
+    "topic": "ari23_vl05_vollstaendige_induktion",
+    "difficulty": 3,
+    "type": "single",
+    "question": "Wie lautet die mittels vollständiger Induktion zu zeigende Behauptung für die k-te Spalte, wenn S_{n−k+1} = ((n−1) über (k−1)) + ((n−1) über k) ist?",
+    "options": [
+      "S_{n−k+1} = n·(n−1)·(n−2)·…·(n−k+1) / k!",
+      "S_{n−k+1} = n·(n−1)·(n−2)·…·(n−k+1) / (k−1)!",
+      "S_{n−k+1} = n! / (k! · (n−k)!)",
+      "S_{n−k+1} = ((n−1) über (k−1)) − ((n−1) über k)"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Auf der Folie: Wenn S_{n−k+1} = ((n−1) über (k−1)) + ((n−1) über k) ist, dann gilt S_{n−k+1} = n·(n−1)·(n−2)·…·(n−k+1) / k!. 📄 Quelle: ari23_vl05, Folie 10 (S.10)",
+    "source": "ari23_vl05, Folie 10 (S.10, Erkundung II – vollständige Induktion)"
+  },
+  {
+    "id": "ari23_vl05-b1-018",
+    "topic": "ari23_vl05_vollstaendige_induktion",
+    "difficulty": 3,
+    "type": "single",
+    "question": "Für die 4. Spalte (k = 4, n ≥ 4) gilt: Wenn S_{n−3} = 1 + 4 + 10 + 20 + … + n·(n+1)·(n+2)/6 ist, wie lautet dann der geschlossene Ausdruck für S_{n−3}?",
+    "options": [
+      "S_{n−3} = n·(n+1)·(n+2)·(n+3) / 24",
+      "S_{n−3} = n·(n+1)·(n+2) / 6",
+      "S_{n−3} = n·(n+1)·(n+2)·(n+3) / 6",
+      "S_{n−3} = n·(n−1)·(n−2)·(n−3) / 24"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Auf Folie 11 (Spalte 4, k = 4): Wenn S_{n−3} = 1 + 4 + 10 + 20 + … + n·(n+1)·(n+2)/6 ist, dann gilt S_{n−3} = n·(n+1)·(n+2)·(n+3) / 24. 📄 Quelle: ari23_vl05, Folie 11 (S.11)",
+    "source": "ari23_vl05, Folie 11 (S.11, Erkundung II – vollständige Induktion)"
+  },
+  {
+    "id": "ari23_vl05-b1-019",
+    "topic": "ari23_vl05_vollstaendige_induktion",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aussagen zum Satz für die 4. Spalte (k = 4) des Pascal'schen Dreiecks sind korrekt?",
+    "options": [
+      "Die Voraussetzung lautet: für alle natürlichen Zahlen n ≥ 4.",
+      "Die Summe beginnt mit den Summanden 1 + 4 + 10 + 20 + …",
+      "Der geschlossene Ausdruck ist S_{n−3} = n·(n+1)·(n+2)·(n+3) / 24.",
+      "Der letzte angegebene Summand der Summe ist n·(n+1)/2."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Auf der Folie: n ≥ 4; S_{n−3} = 1 + 4 + 10 + 20 + … + n·(n+1)·(n+2)/6 (der letzte Summand ist n·(n+1)·(n+2)/6, nicht n·(n+1)/2); geschlossen S_{n−3} = n·(n+1)·(n+2)·(n+3)/24. 📄 Quelle: ari23_vl05, Folie 11 (S.11)",
+    "source": "ari23_vl05, Folie 11 (S.11, Erkundung II – vollständige Induktion)"
+  },
+  {
+    "id": "ari23_vl05-b1-020",
+    "topic": "ari23_vl05_beweise",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Was sollte man auf dem Weg von der Erkenntnis zum Beweis können? Welche Punkte gehören dazu?",
+    "options": [
+      "Für eine Erkenntnis muss man ausprobieren.",
+      "Durch Ausprobieren kann man Muster und Strukturen entdecken.",
+      "Gefundene Muster in einer Vermutung beschreiben.",
+      "Einen mathematischen Satz formulieren und diesen beweisen."
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Alle vier Punkte stehen auf der Folie: ausprobieren; durch Ausprobieren Muster/Strukturen entdecken; Muster in einer Vermutung beschreiben; einen mathematischen Satz formulieren und beweisen. 📄 Quelle: ari23_vl05, Folie 13 (S.13)",
+    "source": "ari23_vl05, Folie 13 (S.13, Muster, Vermutungen, Sätze und Beweise)"
+  },
+  {
+    "id": "ari23_vl05-b1-021",
+    "topic": "ari23_vl05_beweise",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wie wird ein mathematischer Beweis charakterisiert?",
+    "options": [
+      "Als eine gute Geschichte, die in Worten, Symbolen oder grafisch (z. B. mit figurierten Zahlen) erzählt werden kann",
+      "Als eine ausschließlich in Formeln geführte Rechnung",
+      "Als eine Aufzählung möglichst vieler Beispiele",
+      "Als eine Vermutung, die nicht widerlegt wurde"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Auf der Folie: Ein Beweis ist eine gute Geschichte, die in Worten, Symbolen oder grafisch (bspw. mit Hilfe figurierter Zahlen) erzählt werden kann. 📄 Quelle: ari23_vl05, Folie 13 (S.13)",
+    "source": "ari23_vl05, Folie 13 (S.13, Muster, Vermutungen, Sätze und Beweise)"
+  },
+  {
+    "id": "ari23_vl05-b1-022",
+    "topic": "ari23_vl05_beweise",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aussagen über die verschiedenen Beweisarten (direkter/indirekter Beweis, vollständige Induktion) sind korrekt?",
+    "options": [
+      "Ein indirekter Beweis hat einen 'fest gelegten' Anfang.",
+      "Ein direkter Beweis hat keine festgelegte Form (auch geometrische Beweise werden akzeptiert).",
+      "Die vollständige Induktion ist auf Aussagen über alle natürlichen Zahlen beschränkt.",
+      "Es gibt einen Algorithmus, der sagt, welche Beweisart man verwenden muss."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Laut Folie: indirekter Beweis hat einen fest gelegten Anfang; direkter Beweis hat keine festgelegte Form; vollständige Induktion ist auf Aussagen über alle natürlichen Zahlen beschränkt. Ausdrücklich: Es gibt (leider) KEINEN Algorithmus, der sagt, welche Beweisart man verwenden muss. 📄 Quelle: ari23_vl05, Folie 14 (S.14)",
+    "source": "ari23_vl05, Folie 14 (S.14, Beweise)"
+  },
+  {
+    "id": "ari23_vl05-b1-023",
+    "topic": "ari23_vl05_beweise",
+    "difficulty": 3,
+    "type": "single",
+    "question": "Wie lautet der Ansatz eines indirekten Beweises? Statt „Für alle Elemente einer Menge gilt: A ⟹ B“ setzt man an: …",
+    "options": [
+      "Es gibt Elemente einer Menge, für die gilt: A ∧ ¬B, und man zeigt, dass diese Verneinung nicht wahr ist (Widerspruch).",
+      "Für alle Elemente einer Menge gilt: B ⟹ A, und man rechnet dies direkt nach.",
+      "Man zeigt A(1) und die Implikation A(n) ⟹ A(n+1).",
+      "Man gibt möglichst viele Beispiele an, für die A ⟹ B gilt."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Auf der Folie: Beim indirekten Beweis setzt man an 'Es gibt Elemente einer Menge, für die gilt: A ∧ ¬B' und versucht zu zeigen, dass diese Verneinung nicht wahr ist (Widerspruch). 📄 Quelle: ari23_vl05, Folie 14 (S.14)",
+    "source": "ari23_vl05, Folie 14 (S.14, Beweise)"
+  },
+  {
+    "id": "ari23_vl05-b1-024",
+    "topic": "ari23_vl05_beweise",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welche vorgegebene Form hat die vollständige Induktion?",
+    "options": [
+      "Man zeigt, dass A(1) wahr ist und dass die Implikation A(n) ⟹ A(n+1) wahr ist.",
+      "Man zeigt, dass A(1) falsch ist und A(n) ⟹ A(n−1) gilt.",
+      "Man nimmt A ∧ ¬B an und leitet einen Widerspruch her.",
+      "Man akzeptiert auch geometrische Argumente ohne feste Form."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Auf der Folie: Die vollständige Induktion hat eine vorgegebene Form, indem man zeigt, dass A(1) wahr ist und die Implikation A(n) ⟹ A(n+1) wahr ist. 📄 Quelle: ari23_vl05, Folie 14 (S.14)",
+    "source": "ari23_vl05, Folie 14 (S.14, Beweise)"
+  },
+  {
+    "id": "ari23_vl05-b1-025",
+    "topic": "ari23_vl05_vermutungen",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Betrachtet wird der Term n² + n + 41. Welchen Wert hat er für n = 10?",
+    "answer": 151,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Für n = 10: 10² + 10 + 41 = 100 + 10 + 41 = 151 (so auch in der Tabelle der Folie). 📄 Quelle: ari23_vl05, Folie 15 (S.15)",
+    "source": "ari23_vl05, Folie 15 (S.15, Muster, Vermutungen, Sätze und Beweise)"
+  },
+  {
+    "id": "ari23_vl05-b1-026",
+    "topic": "ari23_vl05_vermutungen",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welche Kernbotschaft veranschaulicht die Vermutung „Wenn n eine natürliche Zahl ist, dann ist n² + n + 41 eine Primzahl“?",
+    "options": [
+      "Nicht jede Vermutung ist richtig.",
+      "Jede durch eine Tabelle gestützte Vermutung ist bewiesen.",
+      "n² + n + 41 ist für jede natürliche Zahl n eine Primzahl.",
+      "Eine Vermutung gilt als bewiesen, sobald 21 Beispiele passen."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie hebt hervor: 'Nicht jede Vermutung ist richtig!' – die Tabelle für kleine n beweist die Vermutung nicht. 📄 Quelle: ari23_vl05, Folie 15 (S.15)",
+    "source": "ari23_vl05, Folie 15 (S.15, Muster, Vermutungen, Sätze und Beweise)"
+  },
+  {
+    "id": "ari23_vl05-b1-027",
+    "topic": "ari23_vl05_didaktik",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wie wird der Umgang mit Mustern „in der Grundschule“ beschrieben?",
+    "options": [
+      "Entdecken und beispielorientiertes Beschreiben von (spannenden) Mustern",
+      "Verallgemeinern von Mustern",
+      "Begründen, dass Muster mathematische Wahrheit beanspruchen können",
+      "Einordnung der mathematischen Elemente in die Geschichte"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Auf der Folie (Spalte 'In der Grundschule'): Entdecken und beispielorientiertes Beschreiben von (spannenden) Mustern. Die übrigen Optionen gehören zur Spalte 'In der Hochschule'. 📄 Quelle: ari23_vl05, Folie 16 (S.16)",
+    "source": "ari23_vl05, Folie 16 (S.16, Rückblick: Warum ist das wichtig?)"
+  },
+  {
+    "id": "ari23_vl05-b1-028",
+    "topic": "ari23_vl05_didaktik",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Tätigkeiten gehören zum Umgang mit Mustern „in der Hochschule“?",
+    "options": [
+      "Verallgemeinern von Mustern",
+      "Begründen, dass die Muster mathematische Wahrheit beanspruchen können",
+      "Ordnen mathematischer Theorie und Einordnung der Elemente in die Geschichte",
+      "Beispielorientiertes Beschreiben von Mustern ohne Begründung"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Auf der Folie unter 'In der Hochschule': Verallgemeinern von Mustern; Begründen, dass Muster mathematische Wahrheit beanspruchen können; Beschreiben von Mustern auf mathematischer Basis; Ordnen mathematischer Theorie; Einordnung der Elemente in die Geschichte; Reflexion von Strategien. Das rein beispielorientierte Beschreiben ist der Grundschule zugeordnet. 📄 Quelle: ari23_vl05, Folie 16 (S.16)",
+    "source": "ari23_vl05, Folie 16 (S.16, Rückblick: Warum ist das wichtig?)"
+  },
+  {
+    "id": "ari23_vl05-b2-001",
+    "topic": "ari23_vl05_teilbarkeit",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Erinnerung zur Teilbarkeit: Wann gilt a|b?",
+    "options": [
+      "Genau dann, wenn es eine natürliche Zahl x gibt mit a·x = b",
+      "Genau dann, wenn es eine natürliche Zahl x gibt mit b·x = a",
+      "Genau dann, wenn es eine reelle Zahl x gibt mit a·x = b",
+      "Genau dann, wenn für alle natürlichen Zahlen x gilt a·x = b"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Laut Erinnerung gilt a|b genau dann, wenn es eine natürliche Zahl x gibt mit a·x = b. 📄 Quelle: ari23_vl05, Folie 18 (S.18)",
+    "source": "ari23_vl05, Folie 18 (S.18, n-Quadratlinge)"
+  },
+  {
+    "id": "ari23_vl05-b2-002",
+    "topic": "ari23_vl05_teilbarkeit",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aussagen zur Teilbarkeit a|b treffen zu?",
+    "options": [
+      "x ist eine natürliche Zahl",
+      "Es gilt a·x = b",
+      "x muss eine Primzahl sein",
+      "Es gilt a + x = b"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Die Folie definiert: a|b genau dann, wenn es eine Natürliche Zahl x gibt mit a·x = b. Somit ist x natürlich und es gilt a·x = b; eine Primzahl-Bedingung oder eine Additionsgleichung stehen nicht auf der Folie. 📄 Quelle: ari23_vl05, Folie 18 (S.18)",
+    "source": "ari23_vl05, Folie 18 (S.18, n-Quadratlinge)"
+  },
+  {
+    "id": "ari23_vl05-b2-003",
+    "topic": "ari23_vl05_quadratlinge",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Bedingungen muss eine Figur laut Definition erfüllen, um ein n-Quadratling zu sein?",
+    "options": [
+      "Die Figur besteht aus n Quadraten",
+      "Jedes Quadrat hat mit mindestens einem weiteren Quadrat genau eine Seite (vollständig) gemeinsam",
+      "Die Quadrate berühren sich nur in einer Ecke",
+      "Jedes Quadrat hat mit jedem anderen Quadrat eine Seite gemeinsam"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Definition: Eine Figur heißt n-Quadratling genau dann, wenn die Figur aus n Quadraten besteht und jedes Quadrat mit mindestens einem weiteren Quadrat genau eine Seite (vollständig) gemeinsam hat. 📄 Quelle: ari23_vl05, Folie 20 (S.20)",
+    "source": "ari23_vl05, Folie 20 (S.20, n-Quadratlinge)"
+  },
+  {
+    "id": "ari23_vl05-b2-004",
+    "topic": "ari23_vl05_quadratlinge",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wie müssen sich zwei benachbarte Quadrate eines n-Quadratlings gemäß Definition berühren?",
+    "options": [
+      "Sie haben genau eine Seite vollständig gemeinsam",
+      "Sie haben genau eine Ecke gemeinsam",
+      "Sie überlappen sich teilweise",
+      "Sie haben genau eine halbe Seite gemeinsam"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Jedes Quadrat muss mit mindestens einem weiteren Quadrat genau eine Seite (vollständig) gemeinsam haben. 📄 Quelle: ari23_vl05, Folie 20 (S.20)",
+    "source": "ari23_vl05, Folie 20 (S.20, n-Quadratlinge)"
+  },
+  {
+    "id": "ari23_vl05-b2-005",
+    "topic": "ari23_vl05_quadratlinge",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Aus wie vielen Quadraten besteht ein 5-Quadratling gemäß Definition?",
+    "answer": 5,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Laut Definition besteht ein n-Quadratling aus n Quadraten, ein 5-Quadratling also aus 5 Quadraten. 📄 Quelle: ari23_vl05, Folie 20 (S.20)",
+    "source": "ari23_vl05, Folie 20 (S.20, n-Quadratlinge)"
+  },
+  {
+    "id": "ari23_vl05-b2-006",
+    "topic": "ari23_vl05_quadratlinge",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Wie viele verschiedene 5-Quadratlinge (Figuren aus 5 Quadraten) gibt es?",
+    "answer": 12,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Auf der Folie 'Zählen' ist angegeben: 5-Quadratlinge (12; sind das jetzt alle?). 📄 Quelle: ari23_vl05, Folie 22 (S.22)",
+    "source": "ari23_vl05, Folie 22 (S.22, n-Quadratlinge)"
+  },
+  {
+    "id": "ari23_vl05-b2-007",
+    "topic": "ari23_vl05_quadratlinge",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Wie viele verschiedene 6-Quadratlinge (Figuren aus 6 Quadraten) gibt es?",
+    "answer": 35,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Auf der Folie 'Zählen' ist angegeben: 6-Quadratlinge (35; oh je). 📄 Quelle: ari23_vl05, Folie 22 (S.22)",
+    "source": "ari23_vl05, Folie 22 (S.22, n-Quadratlinge)"
+  },
+  {
+    "id": "ari23_vl05-b2-008",
+    "topic": "ari23_vl05_quadratlinge",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Zuordnungen „n-Quadratlinge → Anzahl“ sind korrekt?",
+    "options": [
+      "2-Quadratlinge: 1",
+      "3-Quadratlinge: 2",
+      "4-Quadratlinge: 5",
+      "5-Quadratlinge: 35"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Die Folie nennt: 2-Quadratlinge (1), 3-Quadratlinge (2), 4-Quadratlinge (5), 5-Quadratlinge (12) — nicht 35 (das ist die Anzahl der 6-Quadratlinge). 📄 Quelle: ari23_vl05, Folie 22 (S.22)",
+    "source": "ari23_vl05, Folie 22 (S.22, n-Quadratlinge)"
+  },
+  {
+    "id": "ari23_vl05-b2-009",
+    "topic": "ari23_vl05_quadratlinge",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welche Angabe zur Anzahl der 7-Quadratlinge ist korrekt?",
+    "options": [
+      "107 oder 108 (unklar)",
+      "genau 107",
+      "genau 108",
+      "genau 35"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Auf der Folie steht: 7-Quadratlinge (107 oder 108? oh je oh je) — die Anzahl wird also als unsicher dargestellt. 📄 Quelle: ari23_vl05, Folie 22 (S.22)",
+    "source": "ari23_vl05, Folie 22 (S.22, n-Quadratlinge)"
+  },
+  {
+    "id": "ari23_vl05-b2-010",
+    "topic": "ari23_vl05_quadratlinge",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Mit welchen n-Quadratlingen lassen sich im Tetris-Spiel offenbar mehrere Reihen auf einmal „eliminieren“?",
+    "options": [
+      "Mit den 4-Quadratlingen",
+      "Mit den 3-Quadratlingen",
+      "Mit den 2-Quadratlingen",
+      "Mit den 1-Quadratlingen"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie stellt fest: 'Mit den 4-Quadratlingen geht das offenbar, sonst gäbe es Tetris nicht.' 📄 Quelle: ari23_vl05, Folie 24 (S.24)",
+    "source": "ari23_vl05, Folie 24 (S.24, Parkettierung)"
+  },
+  {
+    "id": "ari23_vl05-b2-011",
+    "topic": "ari23_vl05_parkettierung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Was folgt, wenn sich mit n-Quadratlingen ein lückenloses Rechteck bauen lässt?",
+    "options": [
+      "Dann lässt sich mit den n-Quadratlingen auch die Ebene parkettieren",
+      "Dann lässt sich damit kein Rechteck parkettieren",
+      "Dann muss n ungerade sein",
+      "Dann gibt es genau eine mögliche Parkettierung"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Folie: 'Lässt sich mit n-Quadratlingen ein lückenloses Rechteck bauen, so lässt sich mit den n-Quadratlingen auch übergreifend die Ebene ... parkettieren.' 📄 Quelle: ari23_vl05, Folie 26 (S.26)",
+    "source": "ari23_vl05, Folie 26 (S.26, Parkettierung)"
+  },
+  {
+    "id": "ari23_vl05-b2-012",
+    "topic": "ari23_vl05_parkettierung",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Was ist im Zusammenhang mit der „Parkettierung der Ebene“ mit der „Ebene“ gemeint?",
+    "options": [
+      "Die zu allen Seiten unendlich gedachte Fläche",
+      "Ein 6×8-Rechteck",
+      "Eine endliche, begrenzte Fläche",
+      "Die Oberfläche eines Würfels"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Ebene wird auf der Folie beschrieben als 'die zu allen Seiten unendlich gedachte Fläche'. 📄 Quelle: ari23_vl05, Folie 26 (S.26)",
+    "source": "ari23_vl05, Folie 26 (S.26, Parkettierung)"
+  },
+  {
+    "id": "ari23_vl05-b2-013",
+    "topic": "ari23_vl05_parkettierung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Bedingungen muss eine Menge von Figuren laut Definition erfüllen, um eine Parkettierung zu sein?",
+    "options": [
+      "Sie besteht aus einer endlichen Zahl kongruenter Figuren",
+      "Sie füllt die Ebene überlappungsfrei aus",
+      "Sie füllt die Ebene lückenlos aus",
+      "Sie besteht aus unendlich vielen verschiedenen Figuren"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Definition: Genau dann heißt eine Menge von Figuren Parkettierung, wenn die Menge aus einer endlichen Zahl kongruenter Figuren besteht und die Menge die Ebene überlappungsfrei und lückenlos ausfüllt. 📄 Quelle: ari23_vl05, Folie 29 (S.29)",
+    "source": "ari23_vl05, Folie 29 (S.29, Parkettierung)"
+  },
+  {
+    "id": "ari23_vl05-b2-014",
+    "topic": "ari23_vl05_parkettierung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "In welcher Beziehung müssen die Figuren einer Parkettierung laut Definition zueinander stehen?",
+    "options": [
+      "Sie müssen kongruent sein",
+      "Sie müssen ähnlich, aber verschieden groß sein",
+      "Sie dürfen beliebig verschieden sein",
+      "Sie müssen spiegelverkehrt und größer sein"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Definition verlangt eine endliche Zahl kongruenter Figuren. 📄 Quelle: ari23_vl05, Folie 29 (S.29)",
+    "source": "ari23_vl05, Folie 29 (S.29, Parkettierung)"
+  },
+  {
+    "id": "ari23_vl05-b2-015",
+    "topic": "ari23_vl05_parkettierung",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Wie füllt eine Parkettierung die Ebene laut Definition aus?",
+    "options": [
+      "Überlappungsfrei und lückenlos",
+      "Mit Überlappungen",
+      "Mit Lücken",
+      "Nur teilweise"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Menge muss die Ebene überlappungsfrei und lückenlos ausfüllen. 📄 Quelle: ari23_vl05, Folie 29 (S.29)",
+    "source": "ari23_vl05, Folie 29 (S.29, Parkettierung)"
+  },
+  {
+    "id": "ari23_vl05-b2-016",
+    "topic": "ari23_vl05_parkettierung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Was kennzeichnet ein reguläres Polygon (regelmäßiges n-Eck)?",
+    "options": [
+      "Gleiche Seitenlängen",
+      "Gleiche Innenwinkel",
+      "Verschiedene Seitenlängen",
+      "Es hat immer genau 4 Ecken"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Die Folie definiert reguläre Polygone (regelmäßige n-Ecke) über gleiche Seitenlängen und gleiche Innenwinkel. 📄 Quelle: ari23_vl05, Folie 30 (S.30)",
+    "source": "ari23_vl05, Folie 30 (S.30, Parkettierung)"
+  },
+  {
+    "id": "ari23_vl05-b2-017",
+    "topic": "ari23_vl05_parkettierung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Fälle werden bei der Frage unterschieden, womit sich die Ebene parkettieren lässt?",
+    "options": [
+      "Reguläre Polygone (regelmäßige n-Ecke)",
+      "Allgemeine Drei-, Vier-, Fünf-, n-Ecke",
+      "Nur Kreise",
+      "Nur gleichschenklige Dreiecke"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Die Fallunterscheidung fragt einerseits nach regulären Polygonen (regelmäßigen n-Ecken) und andererseits nach allgemeinen Drei-, Vier-, Fünf-, n-Ecken. 📄 Quelle: ari23_vl05, Folie 30 (S.30)",
+    "source": "ari23_vl05, Folie 30 (S.30, Parkettierung)"
+  }
 ]

@@ -1,1150 +1,1150 @@
 [
- {
-  "id": "ari23_vl06-b1-001",
-  "topic": "ari23_vl06_parkettierung",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Bedingungen gehören laut Folie zur Definition einer Parkettierung?",
-  "options": [
-   "Die Menge besteht aus einer endlichen Zahl kongruenter Figuren",
-   "Die Menge füllt die Ebene überlappungsfrei aus",
-   "Die Menge füllt die Ebene lückenlos aus",
-   "Es sind ausschließlich regelmäßige (reguläre) Figuren erlaubt"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Definition: Genau dann heißt eine Menge von Figuren Parkettierung, wenn die Menge aus einer endlichen Zahl kongruenter Figuren besteht und die Menge die Ebene überlappungsfrei und lückenlos ausfüllt. Regelmäßigkeit wird nicht gefordert. 📄 Quelle: ari23_vl06, Folie 4 (S.4)",
-  "source": "ari23_vl06, Folie 4 (S.4, Parkettierung)"
- },
- {
-  "id": "ari23_vl06-b1-002",
-  "topic": "ari23_vl06_parkettierung",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Aus welcher Art von Figuren besteht eine Parkettierung gemäß der Definition auf der Folie?",
-  "options": [
-   "Aus unendlich vielen verschiedenen Figuren",
-   "Aus einer endlichen Zahl kongruenter Figuren",
-   "Aus beliebig vielen ähnlichen Figuren",
-   "Aus genau zwei kongruenten Figuren"
-  ],
-  "correct": [
-   1
-  ],
-  "explanation": "Die Menge muss aus einer endlichen Zahl kongruenter Figuren bestehen. 📄 Quelle: ari23_vl06, Folie 4 (S.4)",
-  "source": "ari23_vl06, Folie 4 (S.4, Parkettierung)"
- },
- {
-  "id": "ari23_vl06-b1-003",
-  "topic": "ari23_vl06_regulaere_polygone",
-  "difficulty": 1,
-  "type": "multi",
-  "question": "Welche Eigenschaften kennzeichnen ein reguläres Polygon (regelmäßiges n-Eck) laut Folie?",
-  "options": [
-   "Gleiche Seitenlängen",
-   "Gleiche Innenwinkel",
-   "Eine gerade Anzahl von Ecken",
-   "Mindestens sechs Ecken"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Reguläre Polygone (regelmäßige n-Ecke) haben gleiche Seitenlängen und gleiche Innenwinkel. 📄 Quelle: ari23_vl06, Folie 5 (S.5)",
-  "source": "ari23_vl06, Folie 5 (S.5, Parkettierung)"
- },
- {
-  "id": "ari23_vl06-b1-004",
-  "topic": "ari23_vl06_parkettierung",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "In welche Fälle unterteilt die Fallunterscheidung der Folie die Frage, mit welchen n-Ecken die Ebene parkettiert werden kann?",
-  "options": [
-   "Reguläre Polygone (regelmäßige n-Ecke)",
-   "Allgemeine Drei-, Vier-, Fünf-, n-Ecke",
-   "Konvexe gegen konkave Ecken",
-   "Kreise und Ellipsen"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Die Fallunterscheidung fragt einerseits nach regulären Polygonen (regelmäßigen n-Ecken) und andererseits nach allgemeinen Drei-, Vier-, Fünf-, n-Ecken. 📄 Quelle: ari23_vl06, Folie 5 (S.5)",
-  "source": "ari23_vl06, Folie 5 (S.5, Parkettierung)"
- },
- {
-  "id": "ari23_vl06-b1-005",
-  "topic": "ari23_vl06_regulaere_polygone",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Wie groß ist jeder Innenwinkel in einem gleichseitigen Dreieck (in Grad)?",
-  "answer": 60,
-  "tolerance": 0,
-  "unit": "°",
-  "explanation": "Im gleichseitigen Dreieck sind alle Winkel gleich groß: 60°. 📄 Quelle: ari23_vl06, Folie 6 (S.6)",
-  "source": "ari23_vl06, Folie 6 (S.6, Parkettierung – Entdeckungen)"
- },
- {
-  "id": "ari23_vl06-b1-006",
-  "topic": "ari23_vl06_regulaere_polygone",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Wie groß ist der Innenwinkel in einem regulären Sechseck (in Grad)?",
-  "answer": 120,
-  "tolerance": 0,
-  "unit": "°",
-  "explanation": "Der Innenwinkel vom regulären 6-Eck ist 120° (3·120° = 360°). 📄 Quelle: ari23_vl06, Folie 6 (S.6)",
-  "source": "ari23_vl06, Folie 6 (S.6, Parkettierung – Entdeckungen)"
- },
- {
-  "id": "ari23_vl06-b1-007",
-  "topic": "ari23_vl06_parkettierung",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Entdeckungen zur Parkettierung mit Dreiecken und Sechsecken zeigt die Folie?",
-  "options": [
-   "In einer Ecke treffen 6 gleichseitige Dreiecke aufeinander, denn 6·60° = 360°",
-   "Drei reguläre Sechsecke füllen eine Ecke, denn 3·120° = 360°",
-   "Die Ebene lässt sich mit allen (auch nicht gleichseitigen) Dreiecken parkettieren",
-   "Die Ebene lässt sich nur mit gleichschenkligen Dreiecken parkettieren"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "6·60° = 360° (sechs gleichseitige Dreiecke), 3·120° = 360° (drei reguläre Sechsecke), und 'Es geht mit allen Dreiecken'. Die Beschränkung auf gleichschenklige Dreiecke steht nicht auf der Folie. 📄 Quelle: ari23_vl06, Folie 6 (S.6)",
-  "source": "ari23_vl06, Folie 6 (S.6, Parkettierung – Entdeckungen)"
- },
- {
-  "id": "ari23_vl06-b1-008",
-  "topic": "ari23_vl06_parkettierung",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Welche Bedingung muss der Innenwinkel eines regelmäßigen n-Ecks erfüllen, damit die Ebene lückenfrei parkettiert werden kann?",
-  "options": [
-   "Er muss ein Teiler von 360° sein",
-   "Er muss ein Teiler von 180° sein",
-   "Er muss ein Vielfaches von 360° sein",
-   "Er muss genau 120° betragen"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Um lückenfrei zu parkettieren, müssen die regelmäßigen n-Ecke einen Innenwinkel haben, der Teiler von 360° ist. 📄 Quelle: ari23_vl06, Folie 8 (S.8)",
-  "source": "ari23_vl06, Folie 8 (S.8, Parkettierung)"
- },
- {
-  "id": "ari23_vl06-b1-009",
-  "topic": "ari23_vl06_parkettierung",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Aussagen zur Situation an einer Ecke im Parkett trifft die Folie?",
-  "options": [
-   "In einer Ecke stoßen im Parkett mehrere regelmäßige n-Ecke aufeinander",
-   "Für lückenfreies Parkettieren muss der Innenwinkel ein Teiler von 360° sein",
-   "In jeder Ecke stoßen genau zwei n-Ecke aufeinander",
-   "Der Innenwinkel muss stets größer als 360° sein"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "In einer Ecke stoßen mehrere regelmäßige n-Ecke aufeinander; für lückenfreies Parkettieren muss der Innenwinkel ein Teiler von 360° sein. 📄 Quelle: ari23_vl06, Folie 8 (S.8)",
-  "source": "ari23_vl06, Folie 8 (S.8, Parkettierung)"
- },
- {
-  "id": "ari23_vl06-b1-010",
-  "topic": "ari23_vl06_innenwinkel",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Wie groß ist die Summe der Innenwinkel α + β + γ in jedem Dreieck ABC (in Grad)?",
-  "answer": 180,
-  "tolerance": 0,
-  "unit": "°",
-  "explanation": "Satz: Für alle Dreiecke ABC gilt: Wenn α, β und γ die Innenwinkel des Dreiecks ABC sind, dann gilt α + β + γ = 180°. 📄 Quelle: ari23_vl06, Folie 9 (S.9)",
-  "source": "ari23_vl06, Folie 9 (S.9, Parkettierung und Innenwinkel)"
- },
- {
-  "id": "ari23_vl06-b1-011",
-  "topic": "ari23_vl06_innenwinkel",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Laut der Ergebnishypothese: Um wie viele Grad wächst die Innenwinkelsumme, wenn ein n-Eck eine weitere Ecke erhält?",
-  "answer": 180,
-  "tolerance": 0,
-  "unit": "°",
-  "explanation": "Ergebnishypothese: Bei jeder weiteren Ecke kommen 180° dazu (also ein 'Dreieck'). 📄 Quelle: ari23_vl06, Folie 9 (S.9)",
-  "source": "ari23_vl06, Folie 9 (S.9, Parkettierung und Innenwinkel)"
- },
- {
-  "id": "ari23_vl06-b1-012",
-  "topic": "ari23_vl06_innenwinkel",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Aussagen macht die Folie 'Parkettierung und Innenwinkel'?",
-  "options": [
-   "Viereck, Fünfeck usw. bestehen aus zusammengesetzten Dreiecken",
-   "Bei jeder weiteren Ecke kommen 180° zur Innenwinkelsumme dazu",
-   "Für alle Dreiecke ABC gilt α + β + γ = 180°",
-   "Für alle Dreiecke ABC gilt α + β + γ = 360°"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Phänomene: Viereck, Fünfeck ... bestehen aus zusammengesetzten Dreiecken; bei jeder weiteren Ecke kommen 180° dazu; Satz: für alle Dreiecke ABC gilt α + β + γ = 180°. 📄 Quelle: ari23_vl06, Folie 9 (S.9)",
-  "source": "ari23_vl06, Folie 9 (S.9, Parkettierung und Innenwinkel)"
- },
- {
-  "id": "ari23_vl06-b1-013",
-  "topic": "ari23_vl06_innenwinkel",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Worauf stützt sich der geometrische Beweis, dass die Innenwinkelsumme im Dreieck 180° beträgt?",
-  "options": [
-   "Auf Wechselwinkel an der Parallelen",
-   "Auf eine Parallele (zur Grundseite) durch den Punkt C",
-   "Auf den Satz des Pythagoras",
-   "Auf die Strahlensätze"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Beweis (geometrisch): Man zeichnet eine Parallele durch C; über Wechselwinkel an der Parallelen ergibt sich α + β + γ = 180°. 📄 Quelle: ari23_vl06, Folie 10 (S.10)",
-  "source": "ari23_vl06, Folie 10 (S.10, Innenwinkel)"
- },
- {
-  "id": "ari23_vl06-b1-014",
-  "topic": "ari23_vl06_innenwinkel",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Welche Aussage wird auf der Folie 'Innenwinkel' bewiesen?",
-  "options": [
-   "Für alle Dreiecke ABC gilt α + β + γ = 180°",
-   "Für alle Dreiecke ABC gilt α + β + γ = 360°",
-   "Jedes Dreieck hat drei gleiche Winkel",
-   "Jedes Dreieck ist rechtwinklig"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Bewiesen wird der Satz: Für alle Dreiecke ABC gilt, wenn α, β und γ die Innenwinkel sind, dann α + β + γ = 180°. 📄 Quelle: ari23_vl06, Folie 10 (S.10)",
-  "source": "ari23_vl06, Folie 10 (S.10, Innenwinkel)"
- },
- {
-  "id": "ari23_vl06-b1-015",
-  "topic": "ari23_vl06_innenwinkel",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Wie lautet die Formel für die Innenwinkelsumme eines n-Ecks (für alle natürlichen Zahlen n ≥ 3)?",
-  "options": [
-   "(n − 2) · 180°",
-   "n · 180°",
-   "(n − 1) · 180°",
-   "(n − 2) · 360°"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Satz: Für alle natürlichen Zahlen n ≥ 3 gilt: Ist n die Anzahl der Ecken eines n-Ecks, dann ist die Innenwinkelsumme (n − 2) · 180°. 📄 Quelle: ari23_vl06, Folie 12 (S.12)",
-  "source": "ari23_vl06, Folie 12 (S.12, Innenwinkel)"
- },
- {
-  "id": "ari23_vl06-b1-016",
-  "topic": "ari23_vl06_innenwinkel",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Wie groß ist die Innenwinkelsumme in einem Sechseck (n = 6, in Grad)?",
-  "answer": 720,
-  "tolerance": 0,
-  "unit": "°",
-  "explanation": "Nach der Formel (n − 2) · 180°: (6 − 2) · 180° = 4 · 180° = 720°. 📄 Quelle: ari23_vl06, Folie 12 (S.12)",
-  "source": "ari23_vl06, Folie 12 (S.12, Innenwinkel)"
- },
- {
-  "id": "ari23_vl06-b1-017",
-  "topic": "ari23_vl06_innenwinkel",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Für welche kleinste natürliche Zahl n gilt der Satz über die Innenwinkelsumme des n-Ecks?",
-  "answer": 3,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Der Satz gilt für alle natürlichen Zahlen n ≥ 3, also ab n = 3. 📄 Quelle: ari23_vl06, Folie 12 (S.12)",
-  "source": "ari23_vl06, Folie 12 (S.12, Innenwinkel)"
- },
- {
-  "id": "ari23_vl06-b1-018",
-  "topic": "ari23_vl06_innenwinkel",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Im Induktionsschluss für das konvexe (n+1)-Eck: um wie viele Grad wächst die Innenwinkelsumme beim Übergang vom n-Eck zum (n+1)-Eck?",
-  "answer": 180,
-  "tolerance": 0,
-  "unit": "°",
-  "explanation": "Es kommen 180° an Innenwinkelsumme hinzu: (n−2)·180° + 180° = ((n+1)−2)·180°. 📄 Quelle: ari23_vl06, Folie 13 (S.13)",
-  "source": "ari23_vl06, Folie 13 (S.13, Innenwinkel – Konvexes n-Eck)"
- },
- {
-  "id": "ari23_vl06-b1-019",
-  "topic": "ari23_vl06_innenwinkel",
-  "difficulty": 3,
-  "type": "multi",
-  "question": "Welche Aussagen beschreiben den Induktionsbeweis der Innenwinkelsumme für das konvexe n-Eck korrekt?",
-  "options": [
-   "Er besteht aus Induktionsanfang, Induktionsvoraussetzung und Induktionsschluss n → (n+1)",
-   "Im Induktionsschluss gilt (n−2)·180° + 180° = ((n+1)−2)·180°",
-   "Beim Übergang zum (n+1)-Eck wird ein Dreieck angefügt (180° kommen hinzu)",
-   "Beim Übergang zum (n+1)-Eck verdoppelt sich die Innenwinkelsumme"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Der Beweis nutzt Induktionsanfang, Induktionsvoraussetzung und Induktionsschluss n → (n+1); es kommt ein Dreieck (180°) hinzu: (n−2)·180° + 180° = ((n+1)−2)·180°. Eine Verdopplung findet nicht statt. 📄 Quelle: ari23_vl06, Folie 13 (S.13)",
-  "source": "ari23_vl06, Folie 13 (S.13, Innenwinkel – Konvexes n-Eck)"
- },
- {
-  "id": "ari23_vl06-b1-020",
-  "topic": "ari23_vl06_innenwinkel",
-  "difficulty": 3,
-  "type": "numeric",
-  "question": "Auch beim konkaven (n+1)-Eck: um wie viele Grad wächst die Innenwinkelsumme laut der Rechnung insgesamt?",
-  "answer": 180,
-  "tolerance": 0,
-  "unit": "°",
-  "explanation": "Die Rechnung ergibt (α − α₁) + (β − β₁) + γ₂ = α + β + 180°; auch im konkaven Fall kommen also 180° hinzu: (n−2)·180° + 180° = ((n+1)−2)·180°. 📄 Quelle: ari23_vl06, Folie 16 (S.16)",
-  "source": "ari23_vl06, Folie 16 (S.16, Innenwinkel – Konkaves n-Eck)"
- },
- {
-  "id": "ari23_vl06-b1-021",
-  "topic": "ari23_vl06_innenwinkel",
-  "difficulty": 3,
-  "type": "multi",
-  "question": "Welche Aussagen gelten beim Induktionsschluss für konkave Ecken?",
-  "options": [
-   "Die roten Winkel gehen weg, die grünen Winkel kommen hinzu",
-   "Der überstumpfe Winkel erfüllt γ₂ = 360° − γ₁",
-   "Für das angefügte Dreieck gilt α₁ + β₁ + γ₁ = 180°",
-   "Im konkaven Fall kommen insgesamt 360° zur Innenwinkelsumme hinzu"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Beim (n+1)-Eck gehen die roten Winkel weg, die grünen kommen hinzu; mit γ₂ = 360° − γ₁ und α₁ + β₁ + γ₁ = 180° ergibt sich α + β + 180°, also 180° zusätzlich – nicht 360°. 📄 Quelle: ari23_vl06, Folie 16 (S.16)",
-  "source": "ari23_vl06, Folie 16 (S.16, Innenwinkel – Konkaves n-Eck)"
- },
- {
-  "id": "ari23_vl06-b1-022",
-  "topic": "ari23_vl06_regulaere_polygone",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Wie groß ist die Winkelgröße (Innenwinkel) im regelmäßigen Fünfeck laut Tabelle (in Grad)?",
-  "answer": 108,
-  "tolerance": 0,
-  "unit": "°",
-  "explanation": "Laut Tabelle: 5 Ecken, Innenwinkelsumme 540°, Winkelgröße im regelmäßigen n-Eck 108°. 📄 Quelle: ari23_vl06, Folie 17 (S.17)",
-  "source": "ari23_vl06, Folie 17 (S.17, Parkettierung)"
- },
- {
-  "id": "ari23_vl06-b1-023",
-  "topic": "ari23_vl06_innenwinkel",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Wie groß ist die Innenwinkelsumme im Siebeneck (7 Ecken) laut Tabelle (in Grad)?",
-  "answer": 900,
-  "tolerance": 0,
-  "unit": "°",
-  "explanation": "Laut Tabelle: 7 Ecken, Innenwinkelsumme 900° (entspricht (7−2)·180°). 📄 Quelle: ari23_vl06, Folie 17 (S.17)",
-  "source": "ari23_vl06, Folie 17 (S.17, Parkettierung)"
- },
- {
-  "id": "ari23_vl06-b1-024",
-  "topic": "ari23_vl06_parkettierung",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Mit welchen regelmäßigen n-Ecken lässt sich die Ebene allein parkettieren?",
-  "options": [
-   "Gleichseitiges Dreieck (3-Eck)",
-   "Quadrat (4-Eck)",
-   "Regelmäßiges Fünfeck (5-Eck)",
-   "Regelmäßiges Sechseck (6-Eck)"
-  ],
-  "correct": [
-   0,
-   1,
-   3
-  ],
-  "explanation": "Nimmt man regelmäßige n-Ecke, so lässt sich die Ebene allein mit 3-, 4- und 6-Ecken parkettieren; beim regelmäßigen Fünfeck ist 360° : 108° kein ganzzahliger Wert. 📄 Quelle: ari23_vl06, Folie 17 (S.17)",
-  "source": "ari23_vl06, Folie 17 (S.17, Parkettierung)"
- },
- {
-  "id": "ari23_vl06-b1-025",
-  "topic": "ari23_vl06_parkettierung",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Wie viele Quadrate (regelmäßige 4-Ecke) stoßen an einer Ecke des Parketts zusammen, da 360° = ? · 90°?",
-  "answer": 4,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Laut Tabelle: 360° = 4 · 90°, also treffen vier Quadrate in einer Ecke zusammen. 📄 Quelle: ari23_vl06, Folie 17 (S.17)",
-  "source": "ari23_vl06, Folie 17 (S.17, Parkettierung)"
- },
- {
-  "id": "ari23_vl06-b1-026",
-  "topic": "ari23_vl06_parkettierung",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Aussagen zur Parkettierung mit Fünfecken trifft die Folie?",
-  "options": [
-   "Mit (geeigneten) Fünfecken lässt sich die Ebene parkettieren",
-   "Mit regulären Fünfecken lässt sich die Ebene parkettieren",
-   "Reguläre Fünfecke eignen sich nicht zur Parkettierung",
-   "Fünfecke sind grundsätzlich für keine Parkettierung geeignet"
-  ],
-  "correct": [
-   0,
-   2
-  ],
-  "explanation": "'Mit Fünfecken geht es also auch. Nur nicht mit regulären Fünfecken.' 📄 Quelle: ari23_vl06, Folie 18 (S.18)",
-  "source": "ari23_vl06, Folie 18 (S.18, Parkettierung)"
- },
- {
-  "id": "ari23_vl06-b1-027",
-  "topic": "ari23_vl06_parkettierung",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Lässt sich die Ebene mit regulären (regelmäßigen) Fünfecken parkettieren?",
-  "options": [
-   "Nein, nur mit nicht-regulären Fünfecken geht es",
-   "Ja, mit regulären Fünfecken geht es problemlos",
-   "Ja, aber nur zusammen mit Kreisen",
-   "Nein, mit gar keinem Fünfeck geht es"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Mit Fünfecken geht es, aber nicht mit regulären Fünfecken. 📄 Quelle: ari23_vl06, Folie 18 (S.18)",
-  "source": "ari23_vl06, Folie 18 (S.18, Parkettierung)"
- },
- {
-  "id": "ari23_vl06-b1-028",
-  "topic": "ari23_vl06_parkettierung",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Was gilt bei der 'Knabbertechnik' zur Erzeugung parkettierender Figuren?",
-  "options": [
-   "Abgeknabbertes und Angefügtes müssen kongruente Figuren sein",
-   "Das Abgeknabberte wird verschoben und an anderer Stelle wieder angefügt",
-   "Das Abgeknabberte muss größer sein als das Angefügte",
-   "Das Abgeknabberte und das Angefügte dürfen sich beliebig in der Form unterscheiden"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Bei der Knabbertechnik müssen Abgeknabbertes und Angefügtes kongruente Figuren sein; das Abgeknabberte wird verschoben und angefügt (im Beispiel ausgehend von einem Quadrat). 📄 Quelle: ari23_vl06, Folie 19 (S.19)",
-  "source": "ari23_vl06, Folie 19 (S.19, Parkettierung)"
- },
- {
-  "id": "ari23_vl06-b1-029",
-  "topic": "ari23_vl06_parkettierung",
-  "difficulty": 1,
-  "type": "multi",
-  "question": "Welche Schritte zeigt das Knabbertechnik-Beispiel auf der Folie ausgehend von einem Quadrat?",
-  "options": [
-   "Abknabbern eines Stücks am Quadrat",
-   "Verschieben des abgeknabberten Stücks",
-   "Anfügen zu einer neuen Figur, die die Ebene parkettiert",
-   "Zerschneiden des Quadrats in vier gleiche Dreiecke"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Das Beispiel geht vom Quadrat aus: Abknabbern, Verschieben, neue Figur, die parkettiert. Ein Zerschneiden in vier Dreiecke wird nicht gezeigt. 📄 Quelle: ari23_vl06, Folie 19 (S.19)",
-  "source": "ari23_vl06, Folie 19 (S.19, Parkettierung)"
- },
- {
-  "id": "ari23_vl06-b2-001",
-  "topic": "ari23_vl06_parkettierung",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Wann besteht laut Definition (Erkundung II) eine \"gleiche Parkettierung\" bei zwei Rechtecken A und B?",
-  "options": [
-   "Die Parkettierungen der beiden Teilquadrate von A sind jeweils kongruent zu einem der Teilquadrate von B.",
-   "Die Bedingung muss in beide Richtungen gelten, also auch von B nach A (\"und umgekehrt\").",
-   "Es genügt, dass ein einziges Teilquadrat von A kongruent zu einem Teilquadrat von B ist.",
-   "Die Rechtecke A und B müssen denselben Umfang besitzen."
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Auf der Folie steht: Eine gleiche Parkettierung besteht bei zwei Rechtecken A und B genau dann, wenn die Parkettierungen der beiden Teilquadrate des Rechtecks A jeweils kongruent zu einem der Teilquadrate des Rechtecks B (und umgekehrt) sind. Es müssen also beide Teilquadrate passen und die Bedingung in beide Richtungen gelten. 📄 Quelle: ari23_vl06, Folie 23 (S.23)",
-  "source": "ari23_vl06, Folie 23 (S.23, Erkundung II)"
- },
- {
-  "id": "ari23_vl06-b2-002",
-  "topic": "ari23_vl06_parkettierung",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Worauf bezieht sich die Definition der gleichen Parkettierung zweier Rechtecke (Erkundung II)?",
-  "options": [
-   "Auf die beiden Teilquadrate, in die jedes Rechteck zerlegt wird.",
-   "Auf die Diagonalen der beiden Rechtecke.",
-   "Auf die Innenwinkelsumme der beiden Rechtecke.",
-   "Auf die Umfänge der beiden Rechtecke."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Definition vergleicht die Parkettierungen der beiden Teilquadrate des Rechtecks A mit denen der Teilquadrate des Rechtecks B (Kongruenz der Teilquadrat-Parkettierungen). 📄 Quelle: ari23_vl06, Folie 23 (S.23)",
-  "source": "ari23_vl06, Folie 23 (S.23, Erkundung II)"
- },
- {
-  "id": "ari23_vl06-b2-003",
-  "topic": "ari23_vl06_gauss_summen",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Für alle Rechtecke mit zwei Teilquadraten gilt: Wenn es n Möglichkeiten für das Parkettieren eines Teilquadrats gibt, dann gibt es n·(n+1)/2 Möglichkeiten, das Rechteck zu parkettieren. Wie viele Möglichkeiten ergeben sich für n = 7?",
-  "answer": 28,
-  "tolerance": 0,
-  "unit": "",
-  "source": "ari23_vl06, Folie 27 (S.27, Erkundung II)",
-  "explanation": " 📄 Quelle: ari23_vl06, Folie 27 (S.27)"
- },
- {
-  "id": "ari23_vl06-b2-004",
-  "topic": "ari23_vl06_gauss_summen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche der folgenden Aussagen stimmen mit der Regel und den Gauß-Summen auf der Folie (Erkundung II) überein?",
-  "options": [
-   "1 + 2 + 3 + 4 = 4·5/2 = 10",
-   "Die Anzahl der Parkettierungen des Rechtecks ist n·(n+1)/2.",
-   "1 + 2 + 3 + 4 + 5 + 6 + 7 = 28",
-   "Die Anzahl der Parkettierungen des Rechtecks ist n²."
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Die Folie zeigt u. a. 1+2+3+4 = 10 = 4·5/2 und 1+2+3+4+5+6+7 = 28 = 7·8/2 sowie die Regel n·(n+1)/2. n² ist falsch. 📄 Quelle: ari23_vl06, Folie 27 (S.27)",
-  "source": "ari23_vl06, Folie 27 (S.27, Erkundung II)"
- },
- {
-  "id": "ari23_vl06-b2-005",
-  "topic": "ari23_vl06_gauss_summen",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Gemäß der Regel n·(n+1)/2: Wie viele Möglichkeiten gibt es, das Rechteck mit zwei Teilquadraten zu parkettieren, wenn es n = 6 Möglichkeiten pro Teilquadrat gibt?",
-  "answer": 21,
-  "tolerance": 0,
-  "unit": "",
-  "source": "ari23_vl06, Folie 27 (S.27, Erkundung II)",
-  "explanation": " 📄 Quelle: ari23_vl06, Folie 27 (S.27)"
- },
- {
-  "id": "ari23_vl06-b2-006",
-  "topic": "ari23_vl06_gauss_summen",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Die Gauß-Summe S_n = 1 + 2 + ... + n lässt sich laut Folie als Binomialkoeffizient schreiben. Berechne 8·7/2 = 8! / ((8−2)!·2!), also den Wert des Binomialkoeffizienten \"8 über 2\".",
-  "answer": 28,
-  "tolerance": 0,
-  "unit": "",
-  "source": "ari23_vl06, Folie 28 (S.28, Erkundung II)",
-  "explanation": " 📄 Quelle: ari23_vl06, Folie 28 (S.28)"
- },
- {
-  "id": "ari23_vl06-b2-007",
-  "topic": "ari23_vl06_gauss_summen",
-  "difficulty": 3,
-  "type": "multi",
-  "question": "Welche Darstellungen der Gauß-Summe S_n = 1 + 2 + 3 + ... + n nennt bzw. verwendet die Folie (Dominospiel / Pascal'sches Dreieck)?",
-  "options": [
-   "S_n = n·(n+1)/2",
-   "S_n = \"n+1 über 2\" (Binomialkoeffizient)",
-   "Die Werte der Gauß-Summen stehen im Pascal'schen Dreieck.",
-   "S_n = 2^n"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Die Folie gibt S_n = 1+2+...+n = n·(n+1)/2 = (n+1 über 2) an, verweist auf das Pascal'sche Dreieck (z. B. 28 in der 8. Zeile) und stellt den Zusammenhang zum Dominospiel her. 2^n kommt nicht vor. 📄 Quelle: ari23_vl06, Folie 28 (S.28)",
-  "source": "ari23_vl06, Folie 28 (S.28, Erkundung II)"
- },
- {
-  "id": "ari23_vl06-b2-008",
-  "topic": "ari23_vl06_flaechenmessung",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Welches erste Konzept zur Bestimmung eines Flächeninhalts schlägt der Lehrer auf dieser Folie (Allgemeine Verunsicherung) vor?",
-  "options": [
-   "Das Rechteck bzw. die Figur mit Einheitsquadraten auslegen und diese zählen.",
-   "Den Umfang der Figur messen.",
-   "Die Länge der Diagonale bestimmen.",
-   "Die Figur wiegen."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Der Lehrer sagt: \"Nun ist es ja klar, dass man das Rechteck mit Einheitsquadraten auslegen kann.\" Das Auslegen (Überdecken) mit Einheitsquadraten ist das vorgeschlagene Konzept. 📄 Quelle: ari23_vl06, Folie 34 (S.34)",
-  "source": "ari23_vl06, Folie 34 (S.34, Messen von Flächeninhalten – Allgemeine Verunsicherung)"
- },
- {
-  "id": "ari23_vl06-b2-009",
-  "topic": "ari23_vl06_flaechenmessung",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Wie groß ist laut Folie 34 der Flächeninhalt der aus Einheitsquadraten (Kantenlänge e) gelegten Figur F_X?",
-  "options": [
-   "A(F_X) = 4·e²",
-   "A(F_X) = e²",
-   "A(F_X) = 3·e²",
-   "A(F_X) = 4·e"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Auf der Folie ist zur Figur die Formel A(F_X) = 4·e² angegeben. 📄 Quelle: ari23_vl06, Folie 34 (S.34)",
-  "source": "ari23_vl06, Folie 34 (S.34, Messen von Flächeninhalten – Allgemeine Verunsicherung)"
- },
- {
-  "id": "ari23_vl06-b2-010",
-  "topic": "ari23_vl06_flaechenmessung",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Was behauptet der Lehrer auf Folie 35 (Allgemeine Verunsicherung) über das Einheitsquadrat?",
-  "options": [
-   "Man kann das Einheitsquadrat beliebig verfeinern und so jeden Flächeninhalt bestimmen.",
-   "Flächeninhalte lassen sich nur bei ganzzahligen Seitenlängen bestimmen.",
-   "Das Einheitsquadrat darf nicht verändert werden.",
-   "Nur Kreise lassen sich exakt vermessen."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Der Lehrer sagt: \"Natürlich kann man das Einheitsquadrat (etwa mit Länge 1m) beliebig verfeinern und so natürlich jeden Flächeninhalt bestimmen.\" 📄 Quelle: ari23_vl06, Folie 35 (S.35)",
-  "source": "ari23_vl06, Folie 35 (S.35, Messen von Flächeninhalten – Allgemeine Verunsicherung)"
- },
- {
-  "id": "ari23_vl06-b2-011",
-  "topic": "ari23_vl06_flaechenmessung",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Welchen kritischen Fall bringt Karla auf Folie 35 als Nachfrage ein, um das Konzept des Auslegens/Verfeinerns zu hinterfragen?",
-  "options": [
-   "Ein Rechteck mit der Seitenlänge π.",
-   "Ein Rechteck mit der Seitenlänge 2.",
-   "Ein Kreis mit Radius 1.",
-   "Ein gleichseitiges Dreieck."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Karla fragt: \"Prima, ich habe ein Rechteck mit der Länge π Meter konstruiert, geht das dann genauso?\" – die irrationale Seitenlänge π stellt das Verfeinern von Einheitsquadraten infrage. 📄 Quelle: ari23_vl06, Folie 35 (S.35)",
-  "source": "ari23_vl06, Folie 35 (S.35, Messen von Flächeninhalten – Allgemeine Verunsicherung)"
- },
- {
-  "id": "ari23_vl06-b2-012",
-  "topic": "ari23_vl06_flaechenmessung",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Welchen Flächeninhalt des Kreises nennt der Lehrer auf Folie 36?",
-  "options": [
-   "π·r²",
-   "2·π·r",
-   "π·d",
-   "r²"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Der Lehrer sagt: \"Wie wir wissen, ist der Flächeninhalt des Kreises π·r².\" 📄 Quelle: ari23_vl06, Folie 36 (S.36)",
-  "source": "ari23_vl06, Folie 36 (S.36, Messen von Flächeninhalten – Allgemeine Verunsicherung)"
- },
- {
-  "id": "ari23_vl06-b2-013",
-  "topic": "ari23_vl06_flaechenmessung",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Berechne mit der auf Folie 36 genannten Formel A = π·r² den Flächeninhalt eines Kreises mit Radius r = 2 (Einheiten). Gib den Zahlenwert an.",
-  "answer": 12.566,
-  "tolerance": 0.05,
-  "unit": "",
-  "source": "ari23_vl06, Folie 36 (S.36, Messen von Flächeninhalten – Allgemeine Verunsicherung)",
-  "explanation": " 📄 Quelle: ari23_vl06, Folie 36 (S.36)"
- },
- {
-  "id": "ari23_vl06-b2-014",
-  "topic": "ari23_vl06_flaechenmessung",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Was behauptet der Lehrer auf Folie 37 über die beiden dargestellten Figuren (links ein Quadrat, rechts zwei Quadrate)?",
-  "options": [
-   "Die rechte Figur hat den doppelten Flächeninhalt wie die linke.",
-   "Beide Figuren haben denselben Flächeninhalt.",
-   "Die rechte Figur hat den halben Flächeninhalt der linken.",
-   "Die rechte Figur hat den dreifachen Flächeninhalt der linken."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Der Lehrer sagt: \"Wir sehen also, die rechte Figur hat den doppelten Flächeninhalt wie die linke.\" 📄 Quelle: ari23_vl06, Folie 37 (S.37)",
-  "source": "ari23_vl06, Folie 37 (S.37, Messen von Flächeninhalten – Allgemeine Verunsicherung)"
- },
- {
-  "id": "ari23_vl06-b2-015",
-  "topic": "ari23_vl06_flaechenmessung",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Welche fehlerhafte Vorstellung liegt Karlas Einwand \"Das kann doch nicht stimmen! Beide haben doch denselben Rand.\" auf Folie 37 zugrunde?",
-  "options": [
-   "Sie schließt vom (vermeintlich) gleichen Rand auf gleichen Flächeninhalt und verwechselt so Umfang und Flächeninhalt.",
-   "Sie meint, der Flächeninhalt hänge nur von der Farbe der Figur ab.",
-   "Sie hat richtig erkannt, dass beide Figuren gleich groß sind.",
-   "Sie verwechselt Länge mit Volumen."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Karlas Einwand koppelt den Rand (Umfang) an den Flächeninhalt – die typische Verwechslung von Umfang und Flächeninhalt, die zur \"Verunsicherung\" gehört. 📄 Quelle: ari23_vl06, Folie 37 (S.37)",
-  "source": "ari23_vl06, Folie 37 (S.37, Messen von Flächeninhalten – Allgemeine Verunsicherung)"
- },
- {
-  "id": "ari23_vl06-b2-016",
-  "topic": "ari23_vl06_flaechenmessung",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Was besagt die \"Setzung\" auf Folie 40 (Ein erstes Konzept für ein Maß)?",
-  "options": [
-   "Zwei kongruente Figuren haben denselben Flächeninhalt.",
-   "Zwei ähnliche Figuren haben denselben Flächeninhalt.",
-   "Zwei Figuren mit gleichem Umfang haben denselben Flächeninhalt.",
-   "Nur deckungsgleiche Rechtecke haben denselben Flächeninhalt."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Setzung lautet: \"Zwei kongruente Figuren haben den selben Flächeninhalt.\" 📄 Quelle: ari23_vl06, Folie 40 (S.40)",
-  "source": "ari23_vl06, Folie 40 (S.40, Messen von Flächeninhalten – Ein erstes Konzept für ein Maß)"
- },
- {
-  "id": "ari23_vl06-b2-017",
-  "topic": "ari23_vl06_flaechenmessung",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Abbildungen zählt Folie 40 zu den Kongruenzabbildungen, durch die sich zwei kongruente Figuren aufeinander abbilden lassen?",
-  "options": [
-   "Geradenspiegelung",
-   "Drehung",
-   "Verschiebung",
-   "Schubspiegelung",
-   "Zentrische Streckung"
-  ],
-  "correct": [
-   0,
-   1,
-   2,
-   3
-  ],
-  "explanation": "Die Folie nennt als Kongruenzabbildungen: Geradenspiegelung, Drehung, Verschiebung und Schubspiegelung. Die zentrische Streckung ist keine Kongruenzabbildung. 📄 Quelle: ari23_vl06, Folie 40 (S.40)",
-  "source": "ari23_vl06, Folie 40 (S.40, Messen von Flächeninhalten – Ein erstes Konzept für ein Maß)"
- },
- {
-  "id": "ari23_vl06-b2-018",
-  "topic": "ari23_vl06_flaechenmessung",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Aussagen sind laut der Setzung auf Folie 40 korrekt?",
-  "options": [
-   "Kongruente Figuren haben denselben Flächeninhalt.",
-   "Kongruente Figuren lassen sich durch eine Kongruenzabbildung aufeinander abbilden.",
-   "Die zentrische Streckung ist eine Kongruenzabbildung.",
-   "Eine Verschiebung verändert den Flächeninhalt einer Figur."
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Die Setzung definiert kongruente Figuren über Kongruenzabbildungen und setzt fest, dass sie denselben Flächeninhalt haben. Die zentrische Streckung gehört nicht dazu; eine Verschiebung (als Kongruenzabbildung) verändert den Flächeninhalt nicht. 📄 Quelle: ari23_vl06, Folie 40 (S.40)",
-  "source": "ari23_vl06, Folie 40 (S.40, Messen von Flächeninhalten – Ein erstes Konzept für ein Maß)"
- },
- {
-  "id": "ari23_vl06-b3-001",
-  "topic": "ari23_vl06_zerlegungsgleichheit",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Wie lautet die Definition der Zerlegungsgleichheit auf Folie 41?",
-  "options": [
-   "Zwei Figuren heißen genau dann zerlegungsgleich, wenn sie sich in paarweise kongruente Figuren zerlegen lassen.",
-   "Zwei Figuren heißen genau dann zerlegungsgleich, wenn sie den gleichen Umfang haben.",
-   "Zwei Figuren heißen genau dann zerlegungsgleich, wenn sie sich zu zwei kongruenten Figuren ergänzen lassen.",
-   "Zwei Figuren heißen genau dann zerlegungsgleich, wenn sie deckungsgleich (kongruent) sind."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Definition auf der Folie: Zwei Figuren heißen genau dann zerlegungsgleich, wenn sie sich in paarweise kongruente Figuren zerlegen lassen. 📄 Quelle: ari23_vl06, Folie 41 (S.41)",
-  "source": "ari23_vl06, Folie 41 (S.41, Ein erstes Konzept für ein Maß)"
- },
- {
-  "id": "ari23_vl06-b3-002",
-  "topic": "ari23_vl06_zerlegungsgleichheit",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Welchen Satz formuliert Folie 41 zur Zerlegungsgleichheit (für alle Figuren der Ebene)?",
-  "options": [
-   "Wenn Figuren zerlegungsgleich sind, dann haben sie den gleichen Flächeninhalt.",
-   "Wenn Figuren den gleichen Flächeninhalt haben, dann sind sie zerlegungsgleich.",
-   "Wenn Figuren zerlegungsgleich sind, dann haben sie den gleichen Umfang.",
-   "Wenn Figuren zerlegungsgleich sind, dann sind sie kongruent."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Satz auf der Folie: Für alle Figuren der Ebene gilt: Wenn Figuren zerlegungsgleich sind, dann haben sie den gleichen Flächeninhalt. 📄 Quelle: ari23_vl06, Folie 41 (S.41)",
-  "source": "ari23_vl06, Folie 41 (S.41, Ein erstes Konzept für ein Maß)"
- },
- {
-  "id": "ari23_vl06-b3-003",
-  "topic": "ari23_vl06_zerlegungsgleichheit",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Aussagen zur Zerlegungsgleichheit (Folie 41) sind korrekt?",
-  "options": [
-   "Zwei zerlegungsgleiche Figuren lassen sich in paarweise kongruente Figuren zerlegen.",
-   "Der Satz gilt für alle Figuren der Ebene.",
-   "Zerlegungsgleiche Figuren haben den gleichen Flächeninhalt.",
-   "Zerlegungsgleiche Figuren müssen selbst kongruent sein."
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Laut Folie: zerlegungsgleich = in paarweise kongruente Figuren zerlegbar; der Satz gilt für alle Figuren der Ebene; zerlegungsgleiche Figuren haben den gleichen Flächeninhalt. Kongruenz der Gesamtfiguren wird NICHT verlangt. 📄 Quelle: ari23_vl06, Folie 41 (S.41)",
-  "source": "ari23_vl06, Folie 41 (S.41, Ein erstes Konzept für ein Maß)"
- },
- {
-  "id": "ari23_vl06-b3-004",
-  "topic": "ari23_vl06_ergaenzungsgleichheit",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Wie lautet die Definition der Ergänzungsgleichheit auf Folie 48?",
-  "options": [
-   "Zwei Figuren heißen genau dann ergänzungsgleich, wenn sie sich mit paarweise kongruenten Figuren zu zwei kongruenten Figuren ergänzen lassen.",
-   "Zwei Figuren heißen genau dann ergänzungsgleich, wenn sie sich in paarweise kongruente Figuren zerlegen lassen.",
-   "Zwei Figuren heißen genau dann ergänzungsgleich, wenn sie den gleichen Umfang haben.",
-   "Zwei Figuren heißen genau dann ergänzungsgleich, wenn sie kongruent sind."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Definition auf der Folie: Zwei Figuren heißen genau dann ergänzungsgleich, wenn sie sich mit paarweise kongruenten Figuren zu zwei kongruenten Figuren ergänzen lassen. 📄 Quelle: ari23_vl06, Folie 48 (S.48)",
-  "source": "ari23_vl06, Folie 48 (S.48, Ein erstes Konzept für ein Maß)"
- },
- {
-  "id": "ari23_vl06-b3-005",
-  "topic": "ari23_vl06_ergaenzungsgleichheit",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Welchen Satz formuliert Folie 48 zur Ergänzungsgleichheit (für alle Figuren der Ebene)?",
-  "options": [
-   "Wenn Figuren ergänzungsgleich sind, dann haben sie den gleichen Flächeninhalt.",
-   "Wenn Figuren den gleichen Flächeninhalt haben, dann sind sie ergänzungsgleich.",
-   "Wenn Figuren ergänzungsgleich sind, dann haben sie den gleichen Umfang.",
-   "Wenn Figuren ergänzungsgleich sind, dann sind sie zerlegungsgleich."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Satz auf der Folie: Für alle Figuren der Ebene gilt: Wenn Figuren ergänzungsgleich sind, dann haben sie den gleichen Flächeninhalt. 📄 Quelle: ari23_vl06, Folie 48 (S.48)",
-  "source": "ari23_vl06, Folie 48 (S.48, Ein erstes Konzept für ein Maß)"
- },
- {
-  "id": "ari23_vl06-b3-006",
-  "topic": "ari23_vl06_ergaenzungsgleichheit",
-  "difficulty": 3,
-  "type": "multi",
-  "question": "Vergleiche die Definitionen von Folie 41 (Zerlegungsgleichheit) und Folie 48 (Ergänzungsgleichheit). Welche Aussagen sind korrekt?",
-  "options": [
-   "Zerlegungsgleiche Figuren lassen sich in paarweise kongruente Figuren zerlegen.",
-   "Ergänzungsgleiche Figuren lassen sich mit paarweise kongruenten Figuren zu zwei kongruenten Figuren ergänzen.",
-   "Sowohl zerlegungsgleiche als auch ergänzungsgleiche Figuren haben laut den zugehörigen Sätzen den gleichen Flächeninhalt.",
-   "Bei der Ergänzungsgleichheit werden die Figuren zerlegt, nicht ergänzt."
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Laut Folien 41 und 48: Zerlegungsgleichheit beruht auf Zerlegen in paarweise kongruente Figuren, Ergänzungsgleichheit auf Ergänzen mit paarweise kongruenten Figuren zu zwei kongruenten Figuren; in beiden Fällen folgt gleicher Flächeninhalt. Bei der Ergänzungsgleichheit wird ergänzt (nicht zerlegt). 📄 Quelle: ari23_vl06, Folie 48 (S.48)",
-  "source": "ari23_vl06, Folie 48 (S.48, Ein erstes Konzept für ein Maß)"
- },
- {
-  "id": "ari23_vl06-b3-007",
-  "topic": "ari23_vl06_messen",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Was geschieht laut Folie 50 nach dem direkten Vergleich (Kongruenz)?",
-  "options": [
-   "Ein Objekt wird indirekt mit einem Maß gemessen.",
-   "Ein Objekt wird ausschließlich mit dem Auge geschätzt.",
-   "Ein Objekt wird in kongruente Dreiecke zerlegt und weggelassen.",
-   "Es wird kein weiterer Schritt vorgenommen."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Auf der Folie: Nach dem direkten Vergleich (Kongruenz) wird ein Objekt indirekt mit einem Maß gemessen. 📄 Quelle: ari23_vl06, Folie 50 (S.50)",
-  "source": "ari23_vl06, Folie 50 (S.50, Ausbauen eines Maßes)"
- },
- {
-  "id": "ari23_vl06-b3-008",
-  "topic": "ari23_vl06_messen",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Folie 50 gibt ein Beispiel: In Figur F1 passen 10 Dreiecke gleicher Größe, in Figur F2 weniger als 10 rein. Welche Schlussfolgerung wird gezogen?",
-  "options": [
-   "Also ist F1 größer als F2.",
-   "Also ist F2 größer als F1.",
-   "Also sind F1 und F2 gleich groß.",
-   "Also sind F1 und F2 kongruent."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Auf der Folie: In F1 passen 10 Dreiecke gleicher Größe, in F2 weniger als 10. Also ist F1 größer als F2. 📄 Quelle: ari23_vl06, Folie 50 (S.50)",
-  "source": "ari23_vl06, Folie 50 (S.50, Ausbauen eines Maßes)"
- },
- {
-  "id": "ari23_vl06-b3-009",
-  "topic": "ari23_vl06_messen",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Worauf einigt man sich laut Folie 50 beim Messen?",
-  "options": [
-   "Auf ein bestimmtes standardisiertes Maß (international und mit Begründung).",
-   "Auf ein jeweils individuell frei gewähltes Maß ohne Begründung.",
-   "Auf das jeweils größte vorkommende Dreieck.",
-   "Auf den Umfang statt des Flächeninhalts."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Auf der Folie: Man einigt sich auf ein bestimmtes standardisiertes Maß (international und mit Begründung). 📄 Quelle: ari23_vl06, Folie 50 (S.50)",
-  "source": "ari23_vl06, Folie 50 (S.50, Ausbauen eines Maßes)"
- },
- {
-  "id": "ari23_vl06-b3-010",
-  "topic": "ari23_vl06_mass_eigenschaften",
-  "difficulty": 3,
-  "type": "multi",
-  "question": "Welche Eigenschaften eines Maßes A werden auf Folie 51 (\"Was ist ein Maß?\") genannt?",
-  "options": [
-   "A(∅) = 0",
-   "A(F) ≥ 0 (Nichtnegativität)",
-   "Wenn F ∩ G = ∅, dann gilt A(F ∪ G) = A(F) + A(G) (Additivität)",
-   "Für das Einheitsquadrat E gilt A(E) = 1"
-  ],
-  "correct": [
-   0,
-   1,
-   2,
-   3
-  ],
-  "explanation": "Auf der Folie: A(∅)=0; A(F)≥0 (Nichtnegativität); wenn F∩G=∅, dann A(F∪G)=A(F)+A(G) (Additivität); für das Einheitsquadrat E gilt A(E)=1. 📄 Quelle: ari23_vl06, Folie 51 (S.51)",
-  "source": "ari23_vl06, Folie 51 (S.51, Ausbauen eines Maßes)"
- },
- {
-  "id": "ari23_vl06-b3-011",
-  "topic": "ari23_vl06_mass_eigenschaften",
-  "difficulty": 3,
-  "type": "single",
-  "question": "Unter welcher Voraussetzung gilt laut Folie 51 die Additivität A(F ∪ G) = A(F) + A(G)?",
-  "options": [
-   "Wenn die Teilflächen keine inneren Punkte gemeinsam haben (also nur Randpunkte gemeinsam sind), d. h. F ∩ G = ∅.",
-   "Wenn die Teilflächen kongruent sind.",
-   "Wenn die Teilflächen den gleichen Flächeninhalt haben.",
-   "Wenn F vollständig in G enthalten ist."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Auf der Folie: Wenn F∩G=∅, dann gilt A(F∪G)=A(F)+A(G); die Additivität gilt, wenn die Teilflächen keine inneren Punkte gemeinsam haben (also nur Randpunkte gemeinsam sind). 📄 Quelle: ari23_vl06, Folie 51 (S.51)",
-  "source": "ari23_vl06, Folie 51 (S.51, Ausbauen eines Maßes)"
- },
- {
-  "id": "ari23_vl06-b3-012",
-  "topic": "ari23_vl06_mass_eigenschaften",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Was folgt laut Folie 51 daraus, dass eine Gerade (Strecke) den Flächeninhalt 0 erhält?",
-  "options": [
-   "Die \"Überlappung\" zweier Figuren durch eine Strecke ist unerheblich.",
-   "Zwei Figuren mit gemeinsamer Strecke sind automatisch kongruent.",
-   "Der Flächeninhalt jeder Figur ist 0.",
-   "Die Additivität gilt dann nicht mehr."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Auf der Folie: Eine Gerade (Strecke) erhält den Flächeninhalt 0. Deswegen ist die \"Überlappung\" zweier Figuren durch eine Strecke unerheblich. 📄 Quelle: ari23_vl06, Folie 51 (S.51)",
-  "source": "ari23_vl06, Folie 51 (S.51, Ausbauen eines Maßes)"
- },
- {
-  "id": "ari23_vl06-b3-013",
-  "topic": "ari23_vl06_mass_eigenschaften",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Welchen Wert hat der Flächeninhalt A(E) des Einheitsquadrats E laut Folie 51?",
-  "answer": 1,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Auf der Folie: Für das Einheitsquadrat E gilt A(E) = 1. 📄 Quelle: ari23_vl06, Folie 51 (S.51)",
-  "source": "ari23_vl06, Folie 51 (S.51, Ausbauen eines Maßes)"
- },
- {
-  "id": "ari23_vl06-b3-014",
-  "topic": "ari23_vl06_einheitsquadrat",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Wie wird auf Folie 52 der Flächeninhalt des Einheitsquadrats E mit Seitenlänge e festgelegt?",
-  "options": [
-   "Als A(E) = 1, also mit der Maßzahl 1 und dem Maß e²",
-   "Als A(E) = e, also mit dem Maß e",
-   "Als A(E) = 1/100, also mit dem Maß e'²",
-   "Als A(E) = 4e²"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Auf der Folie: Der Flächeninhalt des Einheitsquadrates wird als A(E)=1, also mit der Maßzahl 1 und dem Maß e², festgelegt. 📄 Quelle: ari23_vl06, Folie 52 (S.52)",
-  "source": "ari23_vl06, Folie 52 (S.52, Ausbauen eines Maßes)"
- },
- {
-  "id": "ari23_vl06-b3-015",
-  "topic": "ari23_vl06_einheitsquadrat",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Welchen Flächeninhalt hat laut Folie 52 eine Figur Fx, die sich in n Einheitsquadraten zerlegen lässt?",
-  "options": [
-   "n · e²",
-   "n · e",
-   "n² · e",
-   "e² / n"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Auf der Folie: Eine Figur Fx, die sich in n Einheitsquadraten zerlegen lässt, hat den Flächeninhalt n · e². 📄 Quelle: ari23_vl06, Folie 52 (S.52)",
-  "source": "ari23_vl06, Folie 52 (S.52, Ausbauen eines Maßes)"
- },
- {
-  "id": "ari23_vl06-b3-016",
-  "topic": "ari23_vl06_einheitsquadrat",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Auf Folie 52 ist für die abgebildete Figur Fx angegeben: A(Fx) = 4e². Aus wie vielen Einheitsquadraten n besteht Fx (die Maßzahl)?",
-  "answer": 4,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Da A(Fx) = n · e² und laut Folie A(Fx) = 4e², ist n = 4. 📄 Quelle: ari23_vl06, Folie 52 (S.52)",
-  "source": "ari23_vl06, Folie 52 (S.52, Ausbauen eines Maßes)"
- },
- {
-  "id": "ari23_vl06-b3-017",
-  "topic": "ari23_vl06_verfeinertes_mass",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Wie sind auf Folie 53 das feinere Einheitsquadrat E' und seine Seitenlänge e' festgelegt?",
-  "options": [
-   "A(E') = 1/100 und e' = 1/10 e",
-   "A(E') = 1/10 und e' = 1/100 e",
-   "A(E') = 1/100 und e' = 1/100 e",
-   "A(E') = 1/2 und e' = 1/2 e"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Auf der Folie: Einheitsquadrat E mit A(E)=1, Seitenlänge e und E' mit A(E')=1/100, Seitenlänge e'=1/10 e. 📄 Quelle: ari23_vl06, Folie 53 (S.53)",
-  "source": "ari23_vl06, Folie 53 (S.53, Ausbauen eines Maßes)"
- },
- {
-  "id": "ari23_vl06-b3-018",
-  "topic": "ari23_vl06_verfeinertes_mass",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Folie 53: Das Rechteck R wird mit 5 mal 2 Einheitsquadraten ausgelegt, es gilt A(R) = 5 · 2 · A(E) = 10e². Wie groß ist die Maßzahl (der Faktor vor e²)?",
-  "answer": 10,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Auf der Folie: A(R) = 5 · 2 · A(E) = 10e², also Maßzahl 10. 📄 Quelle: ari23_vl06, Folie 53 (S.53)",
-  "source": "ari23_vl06, Folie 53 (S.53, Ausbauen eines Maßes)"
- },
- {
-  "id": "ari23_vl06-b3-019",
-  "topic": "ari23_vl06_verfeinertes_mass",
-  "difficulty": 3,
-  "type": "numeric",
-  "question": "Folie 53: Legt man das Rechteck R mit 1 Einheitsquadrat E (A(E)=1) und 32 feineren Einheitsquadraten E' (A(E')=1/100 A(E)) aus, so gilt A(R) = 1·e² + 32·e'² = 132 e'². Welchen Wert hat A(R), ausgedrückt in e² (also der Faktor vor e²)?",
-  "answer": 1.32,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Auf der Folie: A(R) = 1·e² + 32·e'² = 132 e'² = 1,32 e² (da e'² = 1/100 e²). 📄 Quelle: ari23_vl06, Folie 53 (S.53)",
-  "source": "ari23_vl06, Folie 53 (S.53, Ausbauen eines Maßes)"
- },
- {
-  "id": "ari23_vl06-b3-020",
-  "topic": "ari23_vl06_grenzwertprozess",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Wodurch lassen sich laut Folie 54 krummlinig begrenzte Figuren oder solche mit inkommensurablen Maßen hinsichtlich des Flächeninhalts bestimmen?",
-  "options": [
-   "Nur durch einen Grenzwertprozess",
-   "Durch einfaches Auszählen ganzer Einheitsquadrate",
-   "Durch direkten Vergleich (Kongruenz)",
-   "Gar nicht, ihr Flächeninhalt ist unbestimmbar"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Auf der Folie: Krummlinig begrenzte Figuren oder solche mit inkommensurablen Maßen lassen sich nur durch einen Grenzwertprozess hinsichtlich des Flächeninhalts bestimmen. 📄 Quelle: ari23_vl06, Folie 54 (S.54)",
-  "source": "ari23_vl06, Folie 54 (S.54, Ausbauen eines Maßes)"
- },
- {
-  "id": "ari23_vl06-b3-021",
-  "topic": "ari23_vl06_grenzwertprozess",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Figurtypen erfordern laut Folie 54 zur Flächenbestimmung einen Grenzwertprozess?",
-  "options": [
-   "Krummlinig begrenzte Figuren (z. B. der Kreis)",
-   "Figuren mit inkommensurablen Maßen",
-   "Rechtecke, die sich in ganze Einheitsquadrate zerlegen lassen",
-   "Das Einheitsquadrat E selbst"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Auf der Folie: Krummlinig begrenzte Figuren oder solche mit inkommensurablen Maßen lassen sich nur durch einen Grenzwertprozess bestimmen. Figuren, die sich in ganze Einheitsquadrate zerlegen lassen, benötigen dies nicht. 📄 Quelle: ari23_vl06, Folie 54 (S.54)",
-  "source": "ari23_vl06, Folie 54 (S.54, Ausbauen eines Maßes)"
- }
+  {
+    "id": "ari23_vl06-b1-001",
+    "topic": "ari23_vl06_parkettierung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Bedingungen gehören zur Definition einer Parkettierung (einer Menge von Figuren, die die Ebene ausfüllt)?",
+    "options": [
+      "Die Menge besteht aus einer endlichen Zahl kongruenter Figuren",
+      "Die Menge füllt die Ebene überlappungsfrei aus",
+      "Die Menge füllt die Ebene lückenlos aus",
+      "Es sind ausschließlich regelmäßige (reguläre) Figuren erlaubt"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Definition: Genau dann heißt eine Menge von Figuren Parkettierung, wenn die Menge aus einer endlichen Zahl kongruenter Figuren besteht und die Menge die Ebene überlappungsfrei und lückenlos ausfüllt. Regelmäßigkeit wird nicht gefordert. 📄 Quelle: ari23_vl06, Folie 4 (S.4)",
+    "source": "ari23_vl06, Folie 4 (S.4, Parkettierung)"
+  },
+  {
+    "id": "ari23_vl06-b1-002",
+    "topic": "ari23_vl06_parkettierung",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Aus welcher Art von Figuren besteht eine Parkettierung gemäß ihrer Definition?",
+    "options": [
+      "Aus unendlich vielen verschiedenen Figuren",
+      "Aus einer endlichen Zahl kongruenter Figuren",
+      "Aus beliebig vielen ähnlichen Figuren",
+      "Aus genau zwei kongruenten Figuren"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Die Menge muss aus einer endlichen Zahl kongruenter Figuren bestehen. 📄 Quelle: ari23_vl06, Folie 4 (S.4)",
+    "source": "ari23_vl06, Folie 4 (S.4, Parkettierung)"
+  },
+  {
+    "id": "ari23_vl06-b1-003",
+    "topic": "ari23_vl06_regulaere_polygone",
+    "difficulty": 1,
+    "type": "multi",
+    "question": "Welche Eigenschaften kennzeichnen ein reguläres Polygon (regelmäßiges n-Eck)?",
+    "options": [
+      "Gleiche Seitenlängen",
+      "Gleiche Innenwinkel",
+      "Eine gerade Anzahl von Ecken",
+      "Mindestens sechs Ecken"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Reguläre Polygone (regelmäßige n-Ecke) haben gleiche Seitenlängen und gleiche Innenwinkel. 📄 Quelle: ari23_vl06, Folie 5 (S.5)",
+    "source": "ari23_vl06, Folie 5 (S.5, Parkettierung)"
+  },
+  {
+    "id": "ari23_vl06-b1-004",
+    "topic": "ari23_vl06_parkettierung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "In welche zwei Fälle lässt sich die Frage unterteilen, mit welchen n-Ecken sich die Ebene parkettieren lässt?",
+    "options": [
+      "Reguläre Polygone (regelmäßige n-Ecke)",
+      "Allgemeine Drei-, Vier-, Fünf-, n-Ecke",
+      "Konvexe gegen konkave Ecken",
+      "Kreise und Ellipsen"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Die Fallunterscheidung fragt einerseits nach regulären Polygonen (regelmäßigen n-Ecken) und andererseits nach allgemeinen Drei-, Vier-, Fünf-, n-Ecken. 📄 Quelle: ari23_vl06, Folie 5 (S.5)",
+    "source": "ari23_vl06, Folie 5 (S.5, Parkettierung)"
+  },
+  {
+    "id": "ari23_vl06-b1-005",
+    "topic": "ari23_vl06_regulaere_polygone",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Wie groß ist jeder Innenwinkel in einem gleichseitigen Dreieck (in Grad)?",
+    "answer": 60,
+    "tolerance": 0,
+    "unit": "°",
+    "explanation": "Im gleichseitigen Dreieck sind alle Winkel gleich groß: 60°. 📄 Quelle: ari23_vl06, Folie 6 (S.6)",
+    "source": "ari23_vl06, Folie 6 (S.6, Parkettierung – Entdeckungen)"
+  },
+  {
+    "id": "ari23_vl06-b1-006",
+    "topic": "ari23_vl06_regulaere_polygone",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Wie groß ist der Innenwinkel in einem regulären Sechseck (in Grad)?",
+    "answer": 120,
+    "tolerance": 0,
+    "unit": "°",
+    "explanation": "Der Innenwinkel vom regulären 6-Eck ist 120° (3·120° = 360°). 📄 Quelle: ari23_vl06, Folie 6 (S.6)",
+    "source": "ari23_vl06, Folie 6 (S.6, Parkettierung – Entdeckungen)"
+  },
+  {
+    "id": "ari23_vl06-b1-007",
+    "topic": "ari23_vl06_parkettierung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aussagen zur Parkettierung mit Dreiecken und Sechsecken sind richtig?",
+    "options": [
+      "In einer Ecke treffen 6 gleichseitige Dreiecke aufeinander, denn 6·60° = 360°",
+      "Drei reguläre Sechsecke füllen eine Ecke, denn 3·120° = 360°",
+      "Die Ebene lässt sich mit allen (auch nicht gleichseitigen) Dreiecken parkettieren",
+      "Die Ebene lässt sich nur mit gleichschenkligen Dreiecken parkettieren"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "6·60° = 360° (sechs gleichseitige Dreiecke), 3·120° = 360° (drei reguläre Sechsecke), und 'Es geht mit allen Dreiecken'. Die Beschränkung auf gleichschenklige Dreiecke steht nicht auf der Folie. 📄 Quelle: ari23_vl06, Folie 6 (S.6)",
+    "source": "ari23_vl06, Folie 6 (S.6, Parkettierung – Entdeckungen)"
+  },
+  {
+    "id": "ari23_vl06-b1-008",
+    "topic": "ari23_vl06_parkettierung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welche Bedingung muss der Innenwinkel eines regelmäßigen n-Ecks erfüllen, damit die Ebene lückenfrei parkettiert werden kann?",
+    "options": [
+      "Er muss ein Teiler von 360° sein",
+      "Er muss ein Teiler von 180° sein",
+      "Er muss ein Vielfaches von 360° sein",
+      "Er muss genau 120° betragen"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Um lückenfrei zu parkettieren, müssen die regelmäßigen n-Ecke einen Innenwinkel haben, der Teiler von 360° ist. 📄 Quelle: ari23_vl06, Folie 8 (S.8)",
+    "source": "ari23_vl06, Folie 8 (S.8, Parkettierung)"
+  },
+  {
+    "id": "ari23_vl06-b1-009",
+    "topic": "ari23_vl06_parkettierung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aussagen zur Situation an einer Ecke im Parkett sind richtig?",
+    "options": [
+      "In einer Ecke stoßen im Parkett mehrere regelmäßige n-Ecke aufeinander",
+      "Für lückenfreies Parkettieren muss der Innenwinkel ein Teiler von 360° sein",
+      "In jeder Ecke stoßen genau zwei n-Ecke aufeinander",
+      "Der Innenwinkel muss stets größer als 360° sein"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "In einer Ecke stoßen mehrere regelmäßige n-Ecke aufeinander; für lückenfreies Parkettieren muss der Innenwinkel ein Teiler von 360° sein. 📄 Quelle: ari23_vl06, Folie 8 (S.8)",
+    "source": "ari23_vl06, Folie 8 (S.8, Parkettierung)"
+  },
+  {
+    "id": "ari23_vl06-b1-010",
+    "topic": "ari23_vl06_innenwinkel",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Wie groß ist die Summe der Innenwinkel α + β + γ in jedem Dreieck ABC (in Grad)?",
+    "answer": 180,
+    "tolerance": 0,
+    "unit": "°",
+    "explanation": "Satz: Für alle Dreiecke ABC gilt: Wenn α, β und γ die Innenwinkel des Dreiecks ABC sind, dann gilt α + β + γ = 180°. 📄 Quelle: ari23_vl06, Folie 9 (S.9)",
+    "source": "ari23_vl06, Folie 9 (S.9, Parkettierung und Innenwinkel)"
+  },
+  {
+    "id": "ari23_vl06-b1-011",
+    "topic": "ari23_vl06_innenwinkel",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Laut der Ergebnishypothese: Um wie viele Grad wächst die Innenwinkelsumme, wenn ein n-Eck eine weitere Ecke erhält?",
+    "answer": 180,
+    "tolerance": 0,
+    "unit": "°",
+    "explanation": "Ergebnishypothese: Bei jeder weiteren Ecke kommen 180° dazu (also ein 'Dreieck'). 📄 Quelle: ari23_vl06, Folie 9 (S.9)",
+    "source": "ari23_vl06, Folie 9 (S.9, Parkettierung und Innenwinkel)"
+  },
+  {
+    "id": "ari23_vl06-b1-012",
+    "topic": "ari23_vl06_innenwinkel",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aussagen zu Parkettierung und Innenwinkeln von Vielecken sind richtig?",
+    "options": [
+      "Viereck, Fünfeck usw. bestehen aus zusammengesetzten Dreiecken",
+      "Bei jeder weiteren Ecke kommen 180° zur Innenwinkelsumme dazu",
+      "Für alle Dreiecke ABC gilt α + β + γ = 180°",
+      "Für alle Dreiecke ABC gilt α + β + γ = 360°"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Phänomene: Viereck, Fünfeck ... bestehen aus zusammengesetzten Dreiecken; bei jeder weiteren Ecke kommen 180° dazu; Satz: für alle Dreiecke ABC gilt α + β + γ = 180°. 📄 Quelle: ari23_vl06, Folie 9 (S.9)",
+    "source": "ari23_vl06, Folie 9 (S.9, Parkettierung und Innenwinkel)"
+  },
+  {
+    "id": "ari23_vl06-b1-013",
+    "topic": "ari23_vl06_innenwinkel",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Worauf stützt sich der geometrische Beweis, dass die Innenwinkelsumme im Dreieck 180° beträgt?",
+    "options": [
+      "Auf Wechselwinkel an der Parallelen",
+      "Auf eine Parallele (zur Grundseite) durch den Punkt C",
+      "Auf den Satz des Pythagoras",
+      "Auf die Strahlensätze"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Beweis (geometrisch): Man zeichnet eine Parallele durch C; über Wechselwinkel an der Parallelen ergibt sich α + β + γ = 180°. 📄 Quelle: ari23_vl06, Folie 10 (S.10)",
+    "source": "ari23_vl06, Folie 10 (S.10, Innenwinkel)"
+  },
+  {
+    "id": "ari23_vl06-b1-014",
+    "topic": "ari23_vl06_innenwinkel",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Welche Aussage über die Innenwinkel eines Dreiecks ABC wird bewiesen?",
+    "options": [
+      "Für alle Dreiecke ABC gilt α + β + γ = 180°",
+      "Für alle Dreiecke ABC gilt α + β + γ = 360°",
+      "Jedes Dreieck hat drei gleiche Winkel",
+      "Jedes Dreieck ist rechtwinklig"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Bewiesen wird der Satz: Für alle Dreiecke ABC gilt, wenn α, β und γ die Innenwinkel sind, dann α + β + γ = 180°. 📄 Quelle: ari23_vl06, Folie 10 (S.10)",
+    "source": "ari23_vl06, Folie 10 (S.10, Innenwinkel)"
+  },
+  {
+    "id": "ari23_vl06-b1-015",
+    "topic": "ari23_vl06_innenwinkel",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wie lautet die Formel für die Innenwinkelsumme eines n-Ecks (für alle natürlichen Zahlen n ≥ 3)?",
+    "options": [
+      "(n − 2) · 180°",
+      "n · 180°",
+      "(n − 1) · 180°",
+      "(n − 2) · 360°"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Satz: Für alle natürlichen Zahlen n ≥ 3 gilt: Ist n die Anzahl der Ecken eines n-Ecks, dann ist die Innenwinkelsumme (n − 2) · 180°. 📄 Quelle: ari23_vl06, Folie 12 (S.12)",
+    "source": "ari23_vl06, Folie 12 (S.12, Innenwinkel)"
+  },
+  {
+    "id": "ari23_vl06-b1-016",
+    "topic": "ari23_vl06_innenwinkel",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Wie groß ist die Innenwinkelsumme in einem Sechseck (n = 6, in Grad)?",
+    "answer": 720,
+    "tolerance": 0,
+    "unit": "°",
+    "explanation": "Nach der Formel (n − 2) · 180°: (6 − 2) · 180° = 4 · 180° = 720°. 📄 Quelle: ari23_vl06, Folie 12 (S.12)",
+    "source": "ari23_vl06, Folie 12 (S.12, Innenwinkel)"
+  },
+  {
+    "id": "ari23_vl06-b1-017",
+    "topic": "ari23_vl06_innenwinkel",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Für welche kleinste natürliche Zahl n gilt der Satz über die Innenwinkelsumme des n-Ecks?",
+    "answer": 3,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Der Satz gilt für alle natürlichen Zahlen n ≥ 3, also ab n = 3. 📄 Quelle: ari23_vl06, Folie 12 (S.12)",
+    "source": "ari23_vl06, Folie 12 (S.12, Innenwinkel)"
+  },
+  {
+    "id": "ari23_vl06-b1-018",
+    "topic": "ari23_vl06_innenwinkel",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Im Induktionsschluss für das konvexe (n+1)-Eck: um wie viele Grad wächst die Innenwinkelsumme beim Übergang vom n-Eck zum (n+1)-Eck?",
+    "answer": 180,
+    "tolerance": 0,
+    "unit": "°",
+    "explanation": "Es kommen 180° an Innenwinkelsumme hinzu: (n−2)·180° + 180° = ((n+1)−2)·180°. 📄 Quelle: ari23_vl06, Folie 13 (S.13)",
+    "source": "ari23_vl06, Folie 13 (S.13, Innenwinkel – Konvexes n-Eck)"
+  },
+  {
+    "id": "ari23_vl06-b1-019",
+    "topic": "ari23_vl06_innenwinkel",
+    "difficulty": 3,
+    "type": "multi",
+    "question": "Welche Aussagen beschreiben den Induktionsbeweis der Innenwinkelsumme für das konvexe n-Eck korrekt?",
+    "options": [
+      "Er besteht aus Induktionsanfang, Induktionsvoraussetzung und Induktionsschluss n → (n+1)",
+      "Im Induktionsschluss gilt (n−2)·180° + 180° = ((n+1)−2)·180°",
+      "Beim Übergang zum (n+1)-Eck wird ein Dreieck angefügt (180° kommen hinzu)",
+      "Beim Übergang zum (n+1)-Eck verdoppelt sich die Innenwinkelsumme"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Der Beweis nutzt Induktionsanfang, Induktionsvoraussetzung und Induktionsschluss n → (n+1); es kommt ein Dreieck (180°) hinzu: (n−2)·180° + 180° = ((n+1)−2)·180°. Eine Verdopplung findet nicht statt. 📄 Quelle: ari23_vl06, Folie 13 (S.13)",
+    "source": "ari23_vl06, Folie 13 (S.13, Innenwinkel – Konvexes n-Eck)"
+  },
+  {
+    "id": "ari23_vl06-b1-020",
+    "topic": "ari23_vl06_innenwinkel",
+    "difficulty": 3,
+    "type": "numeric",
+    "question": "Auch beim konkaven (n+1)-Eck: um wie viele Grad wächst die Innenwinkelsumme laut der Rechnung insgesamt?",
+    "answer": 180,
+    "tolerance": 0,
+    "unit": "°",
+    "explanation": "Die Rechnung ergibt (α − α₁) + (β − β₁) + γ₂ = α + β + 180°; auch im konkaven Fall kommen also 180° hinzu: (n−2)·180° + 180° = ((n+1)−2)·180°. 📄 Quelle: ari23_vl06, Folie 16 (S.16)",
+    "source": "ari23_vl06, Folie 16 (S.16, Innenwinkel – Konkaves n-Eck)"
+  },
+  {
+    "id": "ari23_vl06-b1-021",
+    "topic": "ari23_vl06_innenwinkel",
+    "difficulty": 3,
+    "type": "multi",
+    "question": "Welche Aussagen gelten beim Induktionsschluss für konkave Ecken?",
+    "options": [
+      "Die roten Winkel gehen weg, die grünen Winkel kommen hinzu",
+      "Der überstumpfe Winkel erfüllt γ₂ = 360° − γ₁",
+      "Für das angefügte Dreieck gilt α₁ + β₁ + γ₁ = 180°",
+      "Im konkaven Fall kommen insgesamt 360° zur Innenwinkelsumme hinzu"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Beim (n+1)-Eck gehen die roten Winkel weg, die grünen kommen hinzu; mit γ₂ = 360° − γ₁ und α₁ + β₁ + γ₁ = 180° ergibt sich α + β + 180°, also 180° zusätzlich – nicht 360°. 📄 Quelle: ari23_vl06, Folie 16 (S.16)",
+    "source": "ari23_vl06, Folie 16 (S.16, Innenwinkel – Konkaves n-Eck)"
+  },
+  {
+    "id": "ari23_vl06-b1-022",
+    "topic": "ari23_vl06_regulaere_polygone",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Wie groß ist die Winkelgröße (Innenwinkel) im regelmäßigen Fünfeck laut Tabelle (in Grad)?",
+    "answer": 108,
+    "tolerance": 0,
+    "unit": "°",
+    "explanation": "Laut Tabelle: 5 Ecken, Innenwinkelsumme 540°, Winkelgröße im regelmäßigen n-Eck 108°. 📄 Quelle: ari23_vl06, Folie 17 (S.17)",
+    "source": "ari23_vl06, Folie 17 (S.17, Parkettierung)"
+  },
+  {
+    "id": "ari23_vl06-b1-023",
+    "topic": "ari23_vl06_innenwinkel",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Wie groß ist die Innenwinkelsumme im Siebeneck (7 Ecken) laut Tabelle (in Grad)?",
+    "answer": 900,
+    "tolerance": 0,
+    "unit": "°",
+    "explanation": "Laut Tabelle: 7 Ecken, Innenwinkelsumme 900° (entspricht (7−2)·180°). 📄 Quelle: ari23_vl06, Folie 17 (S.17)",
+    "source": "ari23_vl06, Folie 17 (S.17, Parkettierung)"
+  },
+  {
+    "id": "ari23_vl06-b1-024",
+    "topic": "ari23_vl06_parkettierung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Mit welchen regelmäßigen n-Ecken lässt sich die Ebene allein parkettieren?",
+    "options": [
+      "Gleichseitiges Dreieck (3-Eck)",
+      "Quadrat (4-Eck)",
+      "Regelmäßiges Fünfeck (5-Eck)",
+      "Regelmäßiges Sechseck (6-Eck)"
+    ],
+    "correct": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "Nimmt man regelmäßige n-Ecke, so lässt sich die Ebene allein mit 3-, 4- und 6-Ecken parkettieren; beim regelmäßigen Fünfeck ist 360° : 108° kein ganzzahliger Wert. 📄 Quelle: ari23_vl06, Folie 17 (S.17)",
+    "source": "ari23_vl06, Folie 17 (S.17, Parkettierung)"
+  },
+  {
+    "id": "ari23_vl06-b1-025",
+    "topic": "ari23_vl06_parkettierung",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Wie viele Quadrate (regelmäßige 4-Ecke) stoßen an einer Ecke des Parketts zusammen, da 360° = ? · 90°?",
+    "answer": 4,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Laut Tabelle: 360° = 4 · 90°, also treffen vier Quadrate in einer Ecke zusammen. 📄 Quelle: ari23_vl06, Folie 17 (S.17)",
+    "source": "ari23_vl06, Folie 17 (S.17, Parkettierung)"
+  },
+  {
+    "id": "ari23_vl06-b1-026",
+    "topic": "ari23_vl06_parkettierung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aussagen zur Parkettierung mit Fünfecken sind richtig?",
+    "options": [
+      "Mit (geeigneten) Fünfecken lässt sich die Ebene parkettieren",
+      "Mit regulären Fünfecken lässt sich die Ebene parkettieren",
+      "Reguläre Fünfecke eignen sich nicht zur Parkettierung",
+      "Fünfecke sind grundsätzlich für keine Parkettierung geeignet"
+    ],
+    "correct": [
+      0,
+      2
+    ],
+    "explanation": "'Mit Fünfecken geht es also auch. Nur nicht mit regulären Fünfecken.' 📄 Quelle: ari23_vl06, Folie 18 (S.18)",
+    "source": "ari23_vl06, Folie 18 (S.18, Parkettierung)"
+  },
+  {
+    "id": "ari23_vl06-b1-027",
+    "topic": "ari23_vl06_parkettierung",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Lässt sich die Ebene mit regulären (regelmäßigen) Fünfecken parkettieren?",
+    "options": [
+      "Nein, nur mit nicht-regulären Fünfecken geht es",
+      "Ja, mit regulären Fünfecken geht es problemlos",
+      "Ja, aber nur zusammen mit Kreisen",
+      "Nein, mit gar keinem Fünfeck geht es"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Mit Fünfecken geht es, aber nicht mit regulären Fünfecken. 📄 Quelle: ari23_vl06, Folie 18 (S.18)",
+    "source": "ari23_vl06, Folie 18 (S.18, Parkettierung)"
+  },
+  {
+    "id": "ari23_vl06-b1-028",
+    "topic": "ari23_vl06_parkettierung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Was gilt bei der 'Knabbertechnik' zur Erzeugung parkettierender Figuren?",
+    "options": [
+      "Abgeknabbertes und Angefügtes müssen kongruente Figuren sein",
+      "Das Abgeknabberte wird verschoben und an anderer Stelle wieder angefügt",
+      "Das Abgeknabberte muss größer sein als das Angefügte",
+      "Das Abgeknabberte und das Angefügte dürfen sich beliebig in der Form unterscheiden"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Bei der Knabbertechnik müssen Abgeknabbertes und Angefügtes kongruente Figuren sein; das Abgeknabberte wird verschoben und angefügt (im Beispiel ausgehend von einem Quadrat). 📄 Quelle: ari23_vl06, Folie 19 (S.19)",
+    "source": "ari23_vl06, Folie 19 (S.19, Parkettierung)"
+  },
+  {
+    "id": "ari23_vl06-b1-029",
+    "topic": "ari23_vl06_parkettierung",
+    "difficulty": 1,
+    "type": "multi",
+    "question": "Welche Schritte umfasst das Beispiel zur Knabbertechnik ausgehend von einem Quadrat?",
+    "options": [
+      "Abknabbern eines Stücks am Quadrat",
+      "Verschieben des abgeknabberten Stücks",
+      "Anfügen zu einer neuen Figur, die die Ebene parkettiert",
+      "Zerschneiden des Quadrats in vier gleiche Dreiecke"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Das Beispiel geht vom Quadrat aus: Abknabbern, Verschieben, neue Figur, die parkettiert. Ein Zerschneiden in vier Dreiecke wird nicht gezeigt. 📄 Quelle: ari23_vl06, Folie 19 (S.19)",
+    "source": "ari23_vl06, Folie 19 (S.19, Parkettierung)"
+  },
+  {
+    "id": "ari23_vl06-b2-001",
+    "topic": "ari23_vl06_parkettierung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Zwei Rechtecke A und B werden jeweils in zwei Teilquadrate zerlegt. Wann besteht laut Definition eine \"gleiche Parkettierung\" bei A und B?",
+    "options": [
+      "Die Parkettierungen der beiden Teilquadrate von A sind jeweils kongruent zu einem der Teilquadrate von B.",
+      "Die Bedingung muss in beide Richtungen gelten, also auch von B nach A (\"und umgekehrt\").",
+      "Es genügt, dass ein einziges Teilquadrat von A kongruent zu einem Teilquadrat von B ist.",
+      "Die Rechtecke A und B müssen denselben Umfang besitzen."
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Auf der Folie steht: Eine gleiche Parkettierung besteht bei zwei Rechtecken A und B genau dann, wenn die Parkettierungen der beiden Teilquadrate des Rechtecks A jeweils kongruent zu einem der Teilquadrate des Rechtecks B (und umgekehrt) sind. Es müssen also beide Teilquadrate passen und die Bedingung in beide Richtungen gelten. 📄 Quelle: ari23_vl06, Folie 23 (S.23)",
+    "source": "ari23_vl06, Folie 23 (S.23, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl06-b2-002",
+    "topic": "ari23_vl06_parkettierung",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Worauf bezieht sich die Definition der gleichen Parkettierung zweier Rechtecke, die jeweils in zwei Teilquadrate zerlegt sind?",
+    "options": [
+      "Auf die beiden Teilquadrate, in die jedes Rechteck zerlegt wird.",
+      "Auf die Diagonalen der beiden Rechtecke.",
+      "Auf die Innenwinkelsumme der beiden Rechtecke.",
+      "Auf die Umfänge der beiden Rechtecke."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Definition vergleicht die Parkettierungen der beiden Teilquadrate des Rechtecks A mit denen der Teilquadrate des Rechtecks B (Kongruenz der Teilquadrat-Parkettierungen). 📄 Quelle: ari23_vl06, Folie 23 (S.23)",
+    "source": "ari23_vl06, Folie 23 (S.23, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl06-b2-003",
+    "topic": "ari23_vl06_gauss_summen",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Für alle Rechtecke mit zwei Teilquadraten gilt: Wenn es n Möglichkeiten für das Parkettieren eines Teilquadrats gibt, dann gibt es n·(n+1)/2 Möglichkeiten, das Rechteck zu parkettieren. Wie viele Möglichkeiten ergeben sich für n = 7?",
+    "answer": 28,
+    "tolerance": 0,
+    "unit": "",
+    "source": "ari23_vl06, Folie 27 (S.27, Erkundung II)",
+    "explanation": " 📄 Quelle: ari23_vl06, Folie 27 (S.27)"
+  },
+  {
+    "id": "ari23_vl06-b2-004",
+    "topic": "ari23_vl06_gauss_summen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche der folgenden Aussagen zur Regel n·(n+1)/2 und den zugehörigen Gauß-Summen sind korrekt?",
+    "options": [
+      "1 + 2 + 3 + 4 = 4·5/2 = 10",
+      "Die Anzahl der Parkettierungen des Rechtecks ist n·(n+1)/2.",
+      "1 + 2 + 3 + 4 + 5 + 6 + 7 = 28",
+      "Die Anzahl der Parkettierungen des Rechtecks ist n²."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Die Folie zeigt u. a. 1+2+3+4 = 10 = 4·5/2 und 1+2+3+4+5+6+7 = 28 = 7·8/2 sowie die Regel n·(n+1)/2. n² ist falsch. 📄 Quelle: ari23_vl06, Folie 27 (S.27)",
+    "source": "ari23_vl06, Folie 27 (S.27, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl06-b2-005",
+    "topic": "ari23_vl06_gauss_summen",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Gemäß der Regel n·(n+1)/2: Wie viele Möglichkeiten gibt es, das Rechteck mit zwei Teilquadraten zu parkettieren, wenn es n = 6 Möglichkeiten pro Teilquadrat gibt?",
+    "answer": 21,
+    "tolerance": 0,
+    "unit": "",
+    "source": "ari23_vl06, Folie 27 (S.27, Erkundung II)",
+    "explanation": " 📄 Quelle: ari23_vl06, Folie 27 (S.27)"
+  },
+  {
+    "id": "ari23_vl06-b2-006",
+    "topic": "ari23_vl06_gauss_summen",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Die Gauß-Summe S_n = 1 + 2 + ... + n lässt sich als Binomialkoeffizient schreiben. Berechne 8·7/2 = 8! / ((8−2)!·2!), also den Wert des Binomialkoeffizienten \"8 über 2\".",
+    "answer": 28,
+    "tolerance": 0,
+    "unit": "",
+    "source": "ari23_vl06, Folie 28 (S.28, Erkundung II)",
+    "explanation": " 📄 Quelle: ari23_vl06, Folie 28 (S.28)"
+  },
+  {
+    "id": "ari23_vl06-b2-007",
+    "topic": "ari23_vl06_gauss_summen",
+    "difficulty": 3,
+    "type": "multi",
+    "question": "Welche Darstellungen der Gauß-Summe S_n = 1 + 2 + 3 + ... + n sind korrekt (Zusammenhang mit Dominospiel und Pascal'schem Dreieck)?",
+    "options": [
+      "S_n = n·(n+1)/2",
+      "S_n = \"n+1 über 2\" (Binomialkoeffizient)",
+      "Die Werte der Gauß-Summen stehen im Pascal'schen Dreieck.",
+      "S_n = 2^n"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Die Folie gibt S_n = 1+2+...+n = n·(n+1)/2 = (n+1 über 2) an, verweist auf das Pascal'sche Dreieck (z. B. 28 in der 8. Zeile) und stellt den Zusammenhang zum Dominospiel her. 2^n kommt nicht vor. 📄 Quelle: ari23_vl06, Folie 28 (S.28)",
+    "source": "ari23_vl06, Folie 28 (S.28, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl06-b2-008",
+    "topic": "ari23_vl06_flaechenmessung",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Welches erste Konzept zur Bestimmung des Flächeninhalts eines Rechtecks bietet sich an?",
+    "options": [
+      "Das Rechteck bzw. die Figur mit Einheitsquadraten auslegen und diese zählen.",
+      "Den Umfang der Figur messen.",
+      "Die Länge der Diagonale bestimmen.",
+      "Die Figur wiegen."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Der Lehrer sagt: \"Nun ist es ja klar, dass man das Rechteck mit Einheitsquadraten auslegen kann.\" Das Auslegen (Überdecken) mit Einheitsquadraten ist das vorgeschlagene Konzept. 📄 Quelle: ari23_vl06, Folie 34 (S.34)",
+    "source": "ari23_vl06, Folie 34 (S.34, Messen von Flächeninhalten – Allgemeine Verunsicherung)"
+  },
+  {
+    "id": "ari23_vl06-b2-009",
+    "topic": "ari23_vl06_flaechenmessung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Eine Figur F_X ist aus vier Einheitsquadraten der Kantenlänge e zusammengesetzt. Wie groß ist ihr Flächeninhalt A(F_X)?",
+    "options": [
+      "A(F_X) = 4·e²",
+      "A(F_X) = e²",
+      "A(F_X) = 3·e²",
+      "A(F_X) = 4·e"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Auf der Folie ist zur Figur die Formel A(F_X) = 4·e² angegeben. 📄 Quelle: ari23_vl06, Folie 34 (S.34)",
+    "source": "ari23_vl06, Folie 34 (S.34, Messen von Flächeninhalten – Allgemeine Verunsicherung)"
+  },
+  {
+    "id": "ari23_vl06-b2-010",
+    "topic": "ari23_vl06_flaechenmessung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welche Aussage über das Einheitsquadrat und das Bestimmen beliebiger Flächeninhalte ist korrekt?",
+    "options": [
+      "Man kann das Einheitsquadrat beliebig verfeinern und so jeden Flächeninhalt bestimmen.",
+      "Flächeninhalte lassen sich nur bei ganzzahligen Seitenlängen bestimmen.",
+      "Das Einheitsquadrat darf nicht verändert werden.",
+      "Nur Kreise lassen sich exakt vermessen."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Der Lehrer sagt: \"Natürlich kann man das Einheitsquadrat (etwa mit Länge 1m) beliebig verfeinern und so natürlich jeden Flächeninhalt bestimmen.\" 📄 Quelle: ari23_vl06, Folie 35 (S.35)",
+    "source": "ari23_vl06, Folie 35 (S.35, Messen von Flächeninhalten – Allgemeine Verunsicherung)"
+  },
+  {
+    "id": "ari23_vl06-b2-011",
+    "topic": "ari23_vl06_flaechenmessung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welcher kritische Fall stellt das Konzept des Auslegens bzw. Verfeinerns mit Einheitsquadraten infrage?",
+    "options": [
+      "Ein Rechteck mit der Seitenlänge π.",
+      "Ein Rechteck mit der Seitenlänge 2.",
+      "Ein Kreis mit Radius 1.",
+      "Ein gleichseitiges Dreieck."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Karla fragt: \"Prima, ich habe ein Rechteck mit der Länge π Meter konstruiert, geht das dann genauso?\" – die irrationale Seitenlänge π stellt das Verfeinern von Einheitsquadraten infrage. 📄 Quelle: ari23_vl06, Folie 35 (S.35)",
+    "source": "ari23_vl06, Folie 35 (S.35, Messen von Flächeninhalten – Allgemeine Verunsicherung)"
+  },
+  {
+    "id": "ari23_vl06-b2-012",
+    "topic": "ari23_vl06_flaechenmessung",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Wie lautet die Formel für den Flächeninhalt eines Kreises mit Radius r?",
+    "options": [
+      "π·r²",
+      "2·π·r",
+      "π·d",
+      "r²"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Der Lehrer sagt: \"Wie wir wissen, ist der Flächeninhalt des Kreises π·r².\" 📄 Quelle: ari23_vl06, Folie 36 (S.36)",
+    "source": "ari23_vl06, Folie 36 (S.36, Messen von Flächeninhalten – Allgemeine Verunsicherung)"
+  },
+  {
+    "id": "ari23_vl06-b2-013",
+    "topic": "ari23_vl06_flaechenmessung",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Berechne mit der Formel A = π·r² den Flächeninhalt eines Kreises mit Radius r = 2 (Einheiten). Gib den Zahlenwert an.",
+    "answer": 12.566,
+    "tolerance": 0.05,
+    "unit": "",
+    "source": "ari23_vl06, Folie 36 (S.36, Messen von Flächeninhalten – Allgemeine Verunsicherung)",
+    "explanation": " 📄 Quelle: ari23_vl06, Folie 36 (S.36)"
+  },
+  {
+    "id": "ari23_vl06-b2-014",
+    "topic": "ari23_vl06_flaechenmessung",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Eine Figur besteht aus einem Quadrat, eine zweite aus zwei gleich großen Quadraten. Wie verhält sich der Flächeninhalt der zweiten zur ersten Figur?",
+    "options": [
+      "Die rechte Figur hat den doppelten Flächeninhalt wie die linke.",
+      "Beide Figuren haben denselben Flächeninhalt.",
+      "Die rechte Figur hat den halben Flächeninhalt der linken.",
+      "Die rechte Figur hat den dreifachen Flächeninhalt der linken."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Der Lehrer sagt: \"Wir sehen also, die rechte Figur hat den doppelten Flächeninhalt wie die linke.\" 📄 Quelle: ari23_vl06, Folie 37 (S.37)",
+    "source": "ari23_vl06, Folie 37 (S.37, Messen von Flächeninhalten – Allgemeine Verunsicherung)"
+  },
+  {
+    "id": "ari23_vl06-b2-015",
+    "topic": "ari23_vl06_flaechenmessung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welche fehlerhafte Vorstellung liegt dem Einwand \"Das kann doch nicht stimmen! Beide haben doch denselben Rand.\" zugrunde?",
+    "options": [
+      "Sie schließt vom (vermeintlich) gleichen Rand auf gleichen Flächeninhalt und verwechselt so Umfang und Flächeninhalt.",
+      "Sie meint, der Flächeninhalt hänge nur von der Farbe der Figur ab.",
+      "Sie hat richtig erkannt, dass beide Figuren gleich groß sind.",
+      "Sie verwechselt Länge mit Volumen."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Karlas Einwand koppelt den Rand (Umfang) an den Flächeninhalt – die typische Verwechslung von Umfang und Flächeninhalt, die zur \"Verunsicherung\" gehört. 📄 Quelle: ari23_vl06, Folie 37 (S.37)",
+    "source": "ari23_vl06, Folie 37 (S.37, Messen von Flächeninhalten – Allgemeine Verunsicherung)"
+  },
+  {
+    "id": "ari23_vl06-b2-016",
+    "topic": "ari23_vl06_flaechenmessung",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Was besagt die \"Setzung\" zum Flächeninhalt kongruenter Figuren (ein erstes Konzept für ein Maß)?",
+    "options": [
+      "Zwei kongruente Figuren haben denselben Flächeninhalt.",
+      "Zwei ähnliche Figuren haben denselben Flächeninhalt.",
+      "Zwei Figuren mit gleichem Umfang haben denselben Flächeninhalt.",
+      "Nur deckungsgleiche Rechtecke haben denselben Flächeninhalt."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Setzung lautet: \"Zwei kongruente Figuren haben den selben Flächeninhalt.\" 📄 Quelle: ari23_vl06, Folie 40 (S.40)",
+    "source": "ari23_vl06, Folie 40 (S.40, Messen von Flächeninhalten – Ein erstes Konzept für ein Maß)"
+  },
+  {
+    "id": "ari23_vl06-b2-017",
+    "topic": "ari23_vl06_flaechenmessung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Abbildungen zählen zu den Kongruenzabbildungen, durch die sich zwei kongruente Figuren aufeinander abbilden lassen?",
+    "options": [
+      "Geradenspiegelung",
+      "Drehung",
+      "Verschiebung",
+      "Schubspiegelung",
+      "Zentrische Streckung"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Die Folie nennt als Kongruenzabbildungen: Geradenspiegelung, Drehung, Verschiebung und Schubspiegelung. Die zentrische Streckung ist keine Kongruenzabbildung. 📄 Quelle: ari23_vl06, Folie 40 (S.40)",
+    "source": "ari23_vl06, Folie 40 (S.40, Messen von Flächeninhalten – Ein erstes Konzept für ein Maß)"
+  },
+  {
+    "id": "ari23_vl06-b2-018",
+    "topic": "ari23_vl06_flaechenmessung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aussagen zur Setzung über kongruente Figuren und ihren Flächeninhalt sind korrekt?",
+    "options": [
+      "Kongruente Figuren haben denselben Flächeninhalt.",
+      "Kongruente Figuren lassen sich durch eine Kongruenzabbildung aufeinander abbilden.",
+      "Die zentrische Streckung ist eine Kongruenzabbildung.",
+      "Eine Verschiebung verändert den Flächeninhalt einer Figur."
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Die Setzung definiert kongruente Figuren über Kongruenzabbildungen und setzt fest, dass sie denselben Flächeninhalt haben. Die zentrische Streckung gehört nicht dazu; eine Verschiebung (als Kongruenzabbildung) verändert den Flächeninhalt nicht. 📄 Quelle: ari23_vl06, Folie 40 (S.40)",
+    "source": "ari23_vl06, Folie 40 (S.40, Messen von Flächeninhalten – Ein erstes Konzept für ein Maß)"
+  },
+  {
+    "id": "ari23_vl06-b3-001",
+    "topic": "ari23_vl06_zerlegungsgleichheit",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wie lautet die Definition der Zerlegungsgleichheit zweier Figuren?",
+    "options": [
+      "Zwei Figuren heißen genau dann zerlegungsgleich, wenn sie sich in paarweise kongruente Figuren zerlegen lassen.",
+      "Zwei Figuren heißen genau dann zerlegungsgleich, wenn sie den gleichen Umfang haben.",
+      "Zwei Figuren heißen genau dann zerlegungsgleich, wenn sie sich zu zwei kongruenten Figuren ergänzen lassen.",
+      "Zwei Figuren heißen genau dann zerlegungsgleich, wenn sie deckungsgleich (kongruent) sind."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Definition auf der Folie: Zwei Figuren heißen genau dann zerlegungsgleich, wenn sie sich in paarweise kongruente Figuren zerlegen lassen. 📄 Quelle: ari23_vl06, Folie 41 (S.41)",
+    "source": "ari23_vl06, Folie 41 (S.41, Ein erstes Konzept für ein Maß)"
+  },
+  {
+    "id": "ari23_vl06-b3-002",
+    "topic": "ari23_vl06_zerlegungsgleichheit",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welcher Satz zur Zerlegungsgleichheit gilt für alle Figuren der Ebene?",
+    "options": [
+      "Wenn Figuren zerlegungsgleich sind, dann haben sie den gleichen Flächeninhalt.",
+      "Wenn Figuren den gleichen Flächeninhalt haben, dann sind sie zerlegungsgleich.",
+      "Wenn Figuren zerlegungsgleich sind, dann haben sie den gleichen Umfang.",
+      "Wenn Figuren zerlegungsgleich sind, dann sind sie kongruent."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Satz auf der Folie: Für alle Figuren der Ebene gilt: Wenn Figuren zerlegungsgleich sind, dann haben sie den gleichen Flächeninhalt. 📄 Quelle: ari23_vl06, Folie 41 (S.41)",
+    "source": "ari23_vl06, Folie 41 (S.41, Ein erstes Konzept für ein Maß)"
+  },
+  {
+    "id": "ari23_vl06-b3-003",
+    "topic": "ari23_vl06_zerlegungsgleichheit",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aussagen zur Zerlegungsgleichheit sind korrekt?",
+    "options": [
+      "Zwei zerlegungsgleiche Figuren lassen sich in paarweise kongruente Figuren zerlegen.",
+      "Der Satz gilt für alle Figuren der Ebene.",
+      "Zerlegungsgleiche Figuren haben den gleichen Flächeninhalt.",
+      "Zerlegungsgleiche Figuren müssen selbst kongruent sein."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Laut Folie: zerlegungsgleich = in paarweise kongruente Figuren zerlegbar; der Satz gilt für alle Figuren der Ebene; zerlegungsgleiche Figuren haben den gleichen Flächeninhalt. Kongruenz der Gesamtfiguren wird NICHT verlangt. 📄 Quelle: ari23_vl06, Folie 41 (S.41)",
+    "source": "ari23_vl06, Folie 41 (S.41, Ein erstes Konzept für ein Maß)"
+  },
+  {
+    "id": "ari23_vl06-b3-004",
+    "topic": "ari23_vl06_ergaenzungsgleichheit",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wie lautet die Definition der Ergänzungsgleichheit zweier Figuren?",
+    "options": [
+      "Zwei Figuren heißen genau dann ergänzungsgleich, wenn sie sich mit paarweise kongruenten Figuren zu zwei kongruenten Figuren ergänzen lassen.",
+      "Zwei Figuren heißen genau dann ergänzungsgleich, wenn sie sich in paarweise kongruente Figuren zerlegen lassen.",
+      "Zwei Figuren heißen genau dann ergänzungsgleich, wenn sie den gleichen Umfang haben.",
+      "Zwei Figuren heißen genau dann ergänzungsgleich, wenn sie kongruent sind."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Definition auf der Folie: Zwei Figuren heißen genau dann ergänzungsgleich, wenn sie sich mit paarweise kongruenten Figuren zu zwei kongruenten Figuren ergänzen lassen. 📄 Quelle: ari23_vl06, Folie 48 (S.48)",
+    "source": "ari23_vl06, Folie 48 (S.48, Ein erstes Konzept für ein Maß)"
+  },
+  {
+    "id": "ari23_vl06-b3-005",
+    "topic": "ari23_vl06_ergaenzungsgleichheit",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welcher Satz zur Ergänzungsgleichheit gilt für alle Figuren der Ebene?",
+    "options": [
+      "Wenn Figuren ergänzungsgleich sind, dann haben sie den gleichen Flächeninhalt.",
+      "Wenn Figuren den gleichen Flächeninhalt haben, dann sind sie ergänzungsgleich.",
+      "Wenn Figuren ergänzungsgleich sind, dann haben sie den gleichen Umfang.",
+      "Wenn Figuren ergänzungsgleich sind, dann sind sie zerlegungsgleich."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Satz auf der Folie: Für alle Figuren der Ebene gilt: Wenn Figuren ergänzungsgleich sind, dann haben sie den gleichen Flächeninhalt. 📄 Quelle: ari23_vl06, Folie 48 (S.48)",
+    "source": "ari23_vl06, Folie 48 (S.48, Ein erstes Konzept für ein Maß)"
+  },
+  {
+    "id": "ari23_vl06-b3-006",
+    "topic": "ari23_vl06_ergaenzungsgleichheit",
+    "difficulty": 3,
+    "type": "multi",
+    "question": "Vergleiche die Definitionen von Zerlegungsgleichheit und Ergänzungsgleichheit. Welche Aussagen sind korrekt?",
+    "options": [
+      "Zerlegungsgleiche Figuren lassen sich in paarweise kongruente Figuren zerlegen.",
+      "Ergänzungsgleiche Figuren lassen sich mit paarweise kongruenten Figuren zu zwei kongruenten Figuren ergänzen.",
+      "Sowohl zerlegungsgleiche als auch ergänzungsgleiche Figuren haben laut den zugehörigen Sätzen den gleichen Flächeninhalt.",
+      "Bei der Ergänzungsgleichheit werden die Figuren zerlegt, nicht ergänzt."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Laut Folien 41 und 48: Zerlegungsgleichheit beruht auf Zerlegen in paarweise kongruente Figuren, Ergänzungsgleichheit auf Ergänzen mit paarweise kongruenten Figuren zu zwei kongruenten Figuren; in beiden Fällen folgt gleicher Flächeninhalt. Bei der Ergänzungsgleichheit wird ergänzt (nicht zerlegt). 📄 Quelle: ari23_vl06, Folie 48 (S.48)",
+    "source": "ari23_vl06, Folie 48 (S.48, Ein erstes Konzept für ein Maß)"
+  },
+  {
+    "id": "ari23_vl06-b3-007",
+    "topic": "ari23_vl06_messen",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Was geschieht beim Messen nach dem direkten Vergleich (Kongruenz)?",
+    "options": [
+      "Ein Objekt wird indirekt mit einem Maß gemessen.",
+      "Ein Objekt wird ausschließlich mit dem Auge geschätzt.",
+      "Ein Objekt wird in kongruente Dreiecke zerlegt und weggelassen.",
+      "Es wird kein weiterer Schritt vorgenommen."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Auf der Folie: Nach dem direkten Vergleich (Kongruenz) wird ein Objekt indirekt mit einem Maß gemessen. 📄 Quelle: ari23_vl06, Folie 50 (S.50)",
+    "source": "ari23_vl06, Folie 50 (S.50, Ausbauen eines Maßes)"
+  },
+  {
+    "id": "ari23_vl06-b3-008",
+    "topic": "ari23_vl06_messen",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Beispiel: In Figur F1 passen 10 Dreiecke gleicher Größe, in Figur F2 weniger als 10. Welche Schlussfolgerung wird gezogen?",
+    "options": [
+      "Also ist F1 größer als F2.",
+      "Also ist F2 größer als F1.",
+      "Also sind F1 und F2 gleich groß.",
+      "Also sind F1 und F2 kongruent."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Auf der Folie: In F1 passen 10 Dreiecke gleicher Größe, in F2 weniger als 10. Also ist F1 größer als F2. 📄 Quelle: ari23_vl06, Folie 50 (S.50)",
+    "source": "ari23_vl06, Folie 50 (S.50, Ausbauen eines Maßes)"
+  },
+  {
+    "id": "ari23_vl06-b3-009",
+    "topic": "ari23_vl06_messen",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Worauf einigt man sich beim Messen?",
+    "options": [
+      "Auf ein bestimmtes standardisiertes Maß (international und mit Begründung).",
+      "Auf ein jeweils individuell frei gewähltes Maß ohne Begründung.",
+      "Auf das jeweils größte vorkommende Dreieck.",
+      "Auf den Umfang statt des Flächeninhalts."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Auf der Folie: Man einigt sich auf ein bestimmtes standardisiertes Maß (international und mit Begründung). 📄 Quelle: ari23_vl06, Folie 50 (S.50)",
+    "source": "ari23_vl06, Folie 50 (S.50, Ausbauen eines Maßes)"
+  },
+  {
+    "id": "ari23_vl06-b3-010",
+    "topic": "ari23_vl06_mass_eigenschaften",
+    "difficulty": 3,
+    "type": "multi",
+    "question": "Welche Eigenschaften kennzeichnen ein Maß A für den Flächeninhalt?",
+    "options": [
+      "A(∅) = 0",
+      "A(F) ≥ 0 (Nichtnegativität)",
+      "Wenn F ∩ G = ∅, dann gilt A(F ∪ G) = A(F) + A(G) (Additivität)",
+      "Für das Einheitsquadrat E gilt A(E) = 1"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Auf der Folie: A(∅)=0; A(F)≥0 (Nichtnegativität); wenn F∩G=∅, dann A(F∪G)=A(F)+A(G) (Additivität); für das Einheitsquadrat E gilt A(E)=1. 📄 Quelle: ari23_vl06, Folie 51 (S.51)",
+    "source": "ari23_vl06, Folie 51 (S.51, Ausbauen eines Maßes)"
+  },
+  {
+    "id": "ari23_vl06-b3-011",
+    "topic": "ari23_vl06_mass_eigenschaften",
+    "difficulty": 3,
+    "type": "single",
+    "question": "Unter welcher Voraussetzung gilt für ein Flächenmaß die Additivität A(F ∪ G) = A(F) + A(G)?",
+    "options": [
+      "Wenn die Teilflächen keine inneren Punkte gemeinsam haben (also nur Randpunkte gemeinsam sind), d. h. F ∩ G = ∅.",
+      "Wenn die Teilflächen kongruent sind.",
+      "Wenn die Teilflächen den gleichen Flächeninhalt haben.",
+      "Wenn F vollständig in G enthalten ist."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Auf der Folie: Wenn F∩G=∅, dann gilt A(F∪G)=A(F)+A(G); die Additivität gilt, wenn die Teilflächen keine inneren Punkte gemeinsam haben (also nur Randpunkte gemeinsam sind). 📄 Quelle: ari23_vl06, Folie 51 (S.51)",
+    "source": "ari23_vl06, Folie 51 (S.51, Ausbauen eines Maßes)"
+  },
+  {
+    "id": "ari23_vl06-b3-012",
+    "topic": "ari23_vl06_mass_eigenschaften",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Was folgt daraus, dass eine Gerade (Strecke) den Flächeninhalt 0 erhält?",
+    "options": [
+      "Die \"Überlappung\" zweier Figuren durch eine Strecke ist unerheblich.",
+      "Zwei Figuren mit gemeinsamer Strecke sind automatisch kongruent.",
+      "Der Flächeninhalt jeder Figur ist 0.",
+      "Die Additivität gilt dann nicht mehr."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Auf der Folie: Eine Gerade (Strecke) erhält den Flächeninhalt 0. Deswegen ist die \"Überlappung\" zweier Figuren durch eine Strecke unerheblich. 📄 Quelle: ari23_vl06, Folie 51 (S.51)",
+    "source": "ari23_vl06, Folie 51 (S.51, Ausbauen eines Maßes)"
+  },
+  {
+    "id": "ari23_vl06-b3-013",
+    "topic": "ari23_vl06_mass_eigenschaften",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Welchen Wert hat der Flächeninhalt A(E) des Einheitsquadrats E (als Maßeinheit)?",
+    "answer": 1,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Auf der Folie: Für das Einheitsquadrat E gilt A(E) = 1. 📄 Quelle: ari23_vl06, Folie 51 (S.51)",
+    "source": "ari23_vl06, Folie 51 (S.51, Ausbauen eines Maßes)"
+  },
+  {
+    "id": "ari23_vl06-b3-014",
+    "topic": "ari23_vl06_einheitsquadrat",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wie wird der Flächeninhalt des Einheitsquadrats E mit Seitenlänge e festgelegt?",
+    "options": [
+      "Als A(E) = 1, also mit der Maßzahl 1 und dem Maß e²",
+      "Als A(E) = e, also mit dem Maß e",
+      "Als A(E) = 1/100, also mit dem Maß e'²",
+      "Als A(E) = 4e²"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Auf der Folie: Der Flächeninhalt des Einheitsquadrates wird als A(E)=1, also mit der Maßzahl 1 und dem Maß e², festgelegt. 📄 Quelle: ari23_vl06, Folie 52 (S.52)",
+    "source": "ari23_vl06, Folie 52 (S.52, Ausbauen eines Maßes)"
+  },
+  {
+    "id": "ari23_vl06-b3-015",
+    "topic": "ari23_vl06_einheitsquadrat",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welchen Flächeninhalt hat eine Figur Fx, die sich in n Einheitsquadrate (Seitenlänge e) zerlegen lässt?",
+    "options": [
+      "n · e²",
+      "n · e",
+      "n² · e",
+      "e² / n"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Auf der Folie: Eine Figur Fx, die sich in n Einheitsquadraten zerlegen lässt, hat den Flächeninhalt n · e². 📄 Quelle: ari23_vl06, Folie 52 (S.52)",
+    "source": "ari23_vl06, Folie 52 (S.52, Ausbauen eines Maßes)"
+  },
+  {
+    "id": "ari23_vl06-b3-016",
+    "topic": "ari23_vl06_einheitsquadrat",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Für eine Figur Fx gilt A(Fx) = 4e² (mit Einheitsquadrat der Seitenlänge e). Aus wie vielen Einheitsquadraten n besteht Fx?",
+    "answer": 4,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Da A(Fx) = n · e² und laut Folie A(Fx) = 4e², ist n = 4. 📄 Quelle: ari23_vl06, Folie 52 (S.52)",
+    "source": "ari23_vl06, Folie 52 (S.52, Ausbauen eines Maßes)"
+  },
+  {
+    "id": "ari23_vl06-b3-017",
+    "topic": "ari23_vl06_verfeinertes_mass",
+    "difficulty": 2,
+    "type": "single",
+    "question": "E sei das Einheitsquadrat mit A(E)=1 und Seitenlänge e. Wie sind ein feineres Einheitsquadrat E' und seine Seitenlänge e' festgelegt?",
+    "options": [
+      "A(E') = 1/100 und e' = 1/10 e",
+      "A(E') = 1/10 und e' = 1/100 e",
+      "A(E') = 1/100 und e' = 1/100 e",
+      "A(E') = 1/2 und e' = 1/2 e"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Auf der Folie: Einheitsquadrat E mit A(E)=1, Seitenlänge e und E' mit A(E')=1/100, Seitenlänge e'=1/10 e. 📄 Quelle: ari23_vl06, Folie 53 (S.53)",
+    "source": "ari23_vl06, Folie 53 (S.53, Ausbauen eines Maßes)"
+  },
+  {
+    "id": "ari23_vl06-b3-018",
+    "topic": "ari23_vl06_verfeinertes_mass",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Ein Rechteck R wird mit 5 mal 2 Einheitsquadraten ausgelegt, es gilt A(R) = 5 · 2 · A(E) = 10e². Wie groß ist die Maßzahl (der Faktor vor e²)?",
+    "answer": 10,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Auf der Folie: A(R) = 5 · 2 · A(E) = 10e², also Maßzahl 10. 📄 Quelle: ari23_vl06, Folie 53 (S.53)",
+    "source": "ari23_vl06, Folie 53 (S.53, Ausbauen eines Maßes)"
+  },
+  {
+    "id": "ari23_vl06-b3-019",
+    "topic": "ari23_vl06_verfeinertes_mass",
+    "difficulty": 3,
+    "type": "numeric",
+    "question": "Legt man ein Rechteck R mit 1 Einheitsquadrat E (A(E)=1) und 32 feineren Einheitsquadraten E' (A(E')=1/100 A(E)) aus, so gilt A(R) = 1·e² + 32·e'² = 132 e'². Welchen Wert hat A(R), ausgedrückt in e² (also der Faktor vor e²)?",
+    "answer": 1.32,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Auf der Folie: A(R) = 1·e² + 32·e'² = 132 e'² = 1,32 e² (da e'² = 1/100 e²). 📄 Quelle: ari23_vl06, Folie 53 (S.53)",
+    "source": "ari23_vl06, Folie 53 (S.53, Ausbauen eines Maßes)"
+  },
+  {
+    "id": "ari23_vl06-b3-020",
+    "topic": "ari23_vl06_grenzwertprozess",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wodurch lassen sich krummlinig begrenzte Figuren oder solche mit inkommensurablen Maßen hinsichtlich des Flächeninhalts bestimmen?",
+    "options": [
+      "Nur durch einen Grenzwertprozess",
+      "Durch einfaches Auszählen ganzer Einheitsquadrate",
+      "Durch direkten Vergleich (Kongruenz)",
+      "Gar nicht, ihr Flächeninhalt ist unbestimmbar"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Auf der Folie: Krummlinig begrenzte Figuren oder solche mit inkommensurablen Maßen lassen sich nur durch einen Grenzwertprozess hinsichtlich des Flächeninhalts bestimmen. 📄 Quelle: ari23_vl06, Folie 54 (S.54)",
+    "source": "ari23_vl06, Folie 54 (S.54, Ausbauen eines Maßes)"
+  },
+  {
+    "id": "ari23_vl06-b3-021",
+    "topic": "ari23_vl06_grenzwertprozess",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Figurtypen erfordern zur Flächenbestimmung einen Grenzwertprozess?",
+    "options": [
+      "Krummlinig begrenzte Figuren (z. B. der Kreis)",
+      "Figuren mit inkommensurablen Maßen",
+      "Rechtecke, die sich in ganze Einheitsquadrate zerlegen lassen",
+      "Das Einheitsquadrat E selbst"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Auf der Folie: Krummlinig begrenzte Figuren oder solche mit inkommensurablen Maßen lassen sich nur durch einen Grenzwertprozess bestimmen. Figuren, die sich in ganze Einheitsquadrate zerlegen lassen, benötigen dies nicht. 📄 Quelle: ari23_vl06, Folie 54 (S.54)",
+    "source": "ari23_vl06, Folie 54 (S.54, Ausbauen eines Maßes)"
+  }
 ]

@@ -1,413 +1,413 @@
 [
- {
-  "id": "did_vl08_zr100-b1-001",
-  "topic": "did_vl08_zr100_kompetenzen",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Was müssen Kinder laut Folie beherrschen, um sich in einem neuen Zahlenraum sicher bewegen und rechnen zu können?",
-  "options": [
-   "Eine Reihe von Kompetenzen",
-   "Das kleine Einmaleins",
-   "Die schriftliche Division",
-   "Das Zehnersystem in der Sekundarstufe"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Laut Folie müssen Kinder, um sich in einem neuen Zahlenraum sicher bewegen und rechnen zu können, eine Reihe von Kompetenzen beherrschen. 📄 Quelle: did_vl08_zr100, Folie 4 (S.4)",
-  "source": "did_vl08_zr100, Folie 4 (S.4, Kapitel 2.1 Zahlenraum bis 100)"
- },
- {
-  "id": "did_vl08_zr100-b1-002",
-  "topic": "did_vl08_zr100_kompetenzen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Was wird laut Folie beim Bewegen und Rechnen in einem neuen Zahlenraum deutlich?",
-  "options": [
-   "Vorkenntnisse",
-   "Schwierigkeiten",
-   "Lernentwicklungen",
-   "Die Muttersprache der Kinder"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Dabei werden nicht nur Vorkenntnisse und Schwierigkeiten, sondern auch Lernentwicklungen deutlich. 📄 Quelle: did_vl08_zr100, Folie 4 (S.4)",
-  "source": "did_vl08_zr100, Folie 4 (S.4, Kapitel 2.1 Zahlenraum bis 100)"
- },
- {
-  "id": "did_vl08_zr100-b1-003",
-  "topic": "did_vl08_zr100_zahlschreibweise",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Was gehört laut Folie unter anderem zur sicheren Orientierung in einem neuen Zahlenraum?",
-  "options": [
-   "Die korrekte Schreibweise der Zahlen",
-   "Das schnelle Kopfrechnen bis 1000",
-   "Das Auswendiglernen der Primzahlen",
-   "Das Erkennen von Bruchzahlen"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Zur sicheren Orientierung in einem neuen Zahlenraum gehört unter anderem die korrekte Schreibweise der Zahlen; hierzu wird ein Ausschnitt eines Zahlendiktats von Sophia gezeigt. 📄 Quelle: did_vl08_zr100, Folie 5 (S.5)",
-  "source": "did_vl08_zr100, Folie 5 (S.5, Kapitel 2.1 Zahlenraum bis 100)"
- },
- {
-  "id": "did_vl08_zr100-b1-004",
-  "topic": "did_vl08_zr100_zahlschreibweise",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Zahlen wurden Sophia im Zahlendiktat diktiert?",
-  "options": [
-   "a) 5, 12, 18, 20",
-   "b) 25, 73, 98, 39",
-   "a) 5, 15, 18, 20",
-   "b) 25, 37, 89, 93"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Diktierte Zahlen: a) 5, 12, 18, 20, b) 25, 73, 98, 39. 📄 Quelle: did_vl08_zr100, Folie 5 (S.5)",
-  "source": "did_vl08_zr100, Folie 5 (S.5, Kapitel 2.1 Zahlenraum bis 100)"
- },
- {
-  "id": "did_vl08_zr100-b1-005",
-  "topic": "did_vl08_zr100_zahlschreibweise",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Zu welchem Zahlenraum gehören laut Folie die diktierten Zahlen bei b) (25, 73, 98, 39)?",
-  "options": [
-   "Aus dem bis dahin nicht im Unterricht thematisierten Zahlenraum bis 100",
-   "Aus dem bekannten Zahlenraum bis 20",
-   "Aus dem Zahlenraum bis 1000",
-   "Aus dem Zahlenraum der negativen Zahlen"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Zahlen bei a) sind aus dem bekannten Zahlenraum bis 20, die Zahlen bei b) aus dem bis dahin nicht im Unterricht thematisierten Zahlenraum bis 100. 📄 Quelle: did_vl08_zr100, Folie 5 (S.5)",
-  "source": "did_vl08_zr100, Folie 5 (S.5, Kapitel 2.1 Zahlenraum bis 100)"
- },
- {
-  "id": "did_vl08_zr100-b1-006",
-  "topic": "did_vl08_zr100_kompetenzen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche der folgenden Kompetenzen werden laut Folie im Zahlenraum bis 100 benötigt?",
-  "options": [
-   "In Schritten und rückwärts zählen",
-   "Die Vorgänger und Nachfolger einer Zahl benennen",
-   "Zahlen der Größe nach ordnen",
-   "Schriftlich multiplizieren"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Zu den benötigten Kompetenzen zählen u.a.: in Schritten und rückwärts zählen, die Vorgänger und Nachfolger einer Zahl benennen sowie Zahlen der Größe nach ordnen. 📄 Quelle: did_vl08_zr100, Folie 6 (S.6)",
-  "source": "did_vl08_zr100, Folie 6 (S.6, Kapitel 2.1 Zahlenraum bis 100)"
- },
- {
-  "id": "did_vl08_zr100-b1-007",
-  "topic": "did_vl08_zr100_kompetenzen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche weiteren Kompetenzen nennt die Folie für den Zahlenraum bis 100?",
-  "options": [
-   "Eine Anzahl Punkte in Fünferstrukturanordnung bestimmen oder selbst einkreisen",
-   "Bis zur 10 und/oder zum nächsten Zehner ergänzen",
-   "Strategien des Verdoppelns und Halbierens kennen",
-   "Römische Zahlen lesen"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Genannt werden u.a.: eine Anzahl Punkte in Fünferstrukturanordnung bestimmen oder selbst einkreisen, bis zur 10 und/oder zum nächsten Zehner ergänzen sowie Strategien des Verdoppelns und Halbierens kennen. 📄 Quelle: did_vl08_zr100, Folie 6 (S.6)",
-  "source": "did_vl08_zr100, Folie 6 (S.6, Kapitel 2.1 Zahlenraum bis 100)"
- },
- {
-  "id": "did_vl08_zr100-b1-008",
-  "topic": "did_vl08_zr100_kompetenzen",
-  "difficulty": 3,
-  "type": "single",
-  "question": "Was sollte laut Folie außerdem mit den Kindern thematisiert werden, damit sie nachher erfolgreich rechnen können?",
-  "options": [
-   "Die Übersetzung zwischen bildlichen Darstellungen, Handlungen und zugehörigen Symbolen oder Termen",
-   "Das auswendige Aufsagen aller Zahlwörter bis 1000",
-   "Das Schreiben von Sachaufgaben",
-   "Der Umgang mit dem Taschenrechner"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Außerdem sollte die Übersetzung zwischen bildlichen Darstellungen, Handlungen und zugehörigen Symbolen oder Termen thematisiert werden; diese Kompetenzen werden benötigt, um nachher erfolgreich rechnen zu können. 📄 Quelle: did_vl08_zr100, Folie 6 (S.6)",
-  "source": "did_vl08_zr100, Folie 6 (S.6, Kapitel 2.1 Zahlenraum bis 100)"
- },
- {
-  "id": "did_vl08_zr100-b1-009",
-  "topic": "did_vl08_zr100_eis_prinzip",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Wofür stehen die drei Buchstaben des EIS-Prinzips von Bruner?",
-  "options": [
-   "Enaktiv",
-   "Ikonisch",
-   "Symbolisch",
-   "Elementar"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Das EIS-Prinzip von Bruner steht für die enaktive, ikonische und symbolische Ebene. 📄 Quelle: did_vl08_zr100, Folie 7 (S.7)",
-  "source": "did_vl08_zr100, Folie 7 (S.7, Kapitel 2.1 Zahlenraum bis 100)"
- },
- {
-  "id": "did_vl08_zr100-b1-010",
-  "topic": "did_vl08_zr100_eis_prinzip",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Zuordnung von Ebene und Darstellung ist laut Folie zum EIS-Prinzip korrekt?",
-  "options": [
-   "Symbolische Ebene – Zahlen & Rechenaufgaben (z. B. 5 + 3)",
-   "Ikonische Ebene – Bildliche Darstellung",
-   "Enaktive Ebene – Handlung an Materialien",
-   "Symbolische Ebene – Handlung an Materialien"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Laut Darstellung entspricht die symbolische Ebene Zahlen & Rechenaufgaben (z. B. 5 + 3), die ikonische Ebene der bildlichen Darstellung und die enaktive Ebene der Handlung an Materialien. 📄 Quelle: did_vl08_zr100, Folie 7 (S.7)",
-  "source": "did_vl08_zr100, Folie 7 (S.7, Kapitel 2.1 Zahlenraum bis 100)"
- },
- {
-  "id": "did_vl08_zr100-b1-011",
-  "topic": "did_vl08_zr100_eis_prinzip",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Auf welchen Autor geht das auf der Folie gezeigte EIS-Prinzip zurück?",
-  "options": [
-   "Bruner",
-   "Piaget",
-   "Sundermann",
-   "Selter"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie bezeichnet das Prinzip Enaktiv – Ikonisch – Symbolisch als das „EIS-Prinzip“ von Bruner. 📄 Quelle: did_vl08_zr100, Folie 7 (S.7)",
-  "source": "did_vl08_zr100, Folie 7 (S.7, Kapitel 2.1 Zahlenraum bis 100)"
- },
- {
-  "id": "did_vl08_zr100-b1-012",
-  "topic": "did_vl08_zr100_standortbestimmung",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Was bietet sich laut Folie an, um vor der Einführung neuer Inhalte das Vorwissen der Schülerinnen und Schüler zu erheben?",
-  "options": [
-   "Eine schriftliche Standortbestimmung",
-   "Eine benotete Klassenarbeit",
-   "Ein Elterngespräch",
-   "Ein standardisierter Intelligenztest"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Um das Vorwissen der Schülerinnen und Schüler zu erheben, bietet sich eine schriftliche Standortbestimmung an. 📄 Quelle: did_vl08_zr100, Folie 8 (S.8)",
-  "source": "did_vl08_zr100, Folie 8 (S.8, Kapitel 2.1 Zahlenraum bis 100)"
- },
- {
-  "id": "did_vl08_zr100-b1-013",
-  "topic": "did_vl08_zr100_standortbestimmung",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Welchen Vorteil hat die schriftliche Standortbestimmung laut Folie gegenüber einem mündlichen Interview?",
-  "options": [
-   "Alle Kinder können gleichzeitig erfasst werden",
-   "Sie ist immer objektiv benotbar",
-   "Sie kann nur von leistungsstarken Kindern bearbeitet werden",
-   "Sie ersetzt jede weitere Diagnostik"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Im Gegensatz zu einem mündlichen Interview können durch die schriftliche Standortbestimmung alle Kinder gleichzeitig erfasst werden. 📄 Quelle: did_vl08_zr100, Folie 8 (S.8)",
-  "source": "did_vl08_zr100, Folie 8 (S.8, Kapitel 2.1 Zahlenraum bis 100)"
- },
- {
-  "id": "did_vl08_zr100-b1-014",
-  "topic": "did_vl08_zr100_standortbestimmung",
-  "difficulty": 3,
-  "type": "multi",
-  "question": "Wie wird eine Standortbestimmung nach Sundermann/Selter (2006) auf der Folie definiert?",
-  "options": [
-   "Als systematisches Feststellen der Lernstände der Kinder bzgl. eines bestimmten Themas",
-   "An zentralen Punkten des Lernprozesses",
-   "Durch geeignete Aufgaben",
-   "Durch benotete Prüfungen am Ende des Schuljahres"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Unter einer Standortbestimmung versteht man das systematische Feststellen der Lernstände der Kinder bzgl. eines bestimmten Themas an zentralen Punkten des Lernprozesses durch geeignete Aufgaben (vgl. Sundermann/Selter 2006, S. 21). 📄 Quelle: did_vl08_zr100, Folie 10 (S.10)",
-  "source": "did_vl08_zr100, Folie 10 (S.10, Kapitel 2.1 Zahlenraum bis 100)"
- },
- {
-  "id": "did_vl08_zr100-b1-015",
-  "topic": "did_vl08_zr100_standortbestimmung",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Welchen Zahlenraum thematisieren die Grundaufgaben bzw. die Sternchenaufgaben (b) der gezeigten Standortbestimmung?",
-  "options": [
-   "Grundaufgaben: bekannter Zahlenraum bis 20; Sternchenaufgaben (b): neuer Zahlenraum bis 100",
-   "Grundaufgaben: Zahlenraum bis 100; Sternchenaufgaben (b): Zahlenraum bis 20",
-   "Beide: Zahlenraum bis 1000",
-   "Beide: Zahlenraum bis 10"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Aufgaben sind so konzipiert, dass bei a) der bereits bekannte Zahlenraum bis 20 thematisiert wird, während b) den neuen Zahlenraum bis 100 herausfordert. 📄 Quelle: did_vl08_zr100, Folie 10 (S.10)",
-  "source": "did_vl08_zr100, Folie 10 (S.10, Kapitel 2.1 Zahlenraum bis 100)"
- },
- {
-  "id": "did_vl08_zr100-b1-016",
-  "topic": "did_vl08_zr100_standortbestimmung",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Wodurch ist der Unterschied zwischen Grundaufgaben und weiterführenden Aufgaben für die Kinder kenntlich gemacht?",
-  "options": [
-   "Durch ein Sternchen bei b)",
-   "Durch eine rote Umrandung",
-   "Durch eine gesonderte Seite",
-   "Durch eine höhere Punktzahl"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Der Unterschied zwischen den Grundaufgaben und den weiterführenden Aufgaben (Sternchenaufgaben) ist für die Kinder durch das Sternchen bei b) kenntlich gemacht. 📄 Quelle: did_vl08_zr100, Folie 10 (S.10)",
-  "source": "did_vl08_zr100, Folie 10 (S.10, Kapitel 2.1 Zahlenraum bis 100)"
- },
- {
-  "id": "did_vl08_zr100-b1-017",
-  "topic": "did_vl08_zr100_standortbestimmung",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Wie viele Wochen nach der ersten Bearbeitung (oberes Blatt) bearbeitete Marina die Aufgaben laut Folie erneut (unteres Blatt)?",
-  "answer": 8,
-  "tolerance": 0,
-  "unit": "Wochen",
-  "explanation": "Marina hat die Aufgaben vor (oberes Blatt) und nach der unterrichtlichen Behandlung (8 Wochen später; unteres Blatt) des Themas bearbeitet. 📄 Quelle: did_vl08_zr100, Folie 11 (S.11)",
-  "source": "did_vl08_zr100, Folie 11 (S.11, Kapitel 2.1 Zahlenraum bis 100)"
- },
- {
-  "id": "did_vl08_zr100-b1-018",
-  "topic": "did_vl08_zr100_veranschaulichung",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Veranschaulichungsmittel nennt die Folie für den Zahlenraum bis 100?",
-  "options": [
-   "Hunderterfeld",
-   "Steckwürfel",
-   "Cuisenairstäbe",
-   "Taschenrechner"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Als mögliche Veranschaulichungsmittel im Zahlenraum bis 100 werden u.a. Hunderterfeld, Steckwürfel und Cuisenairstäbe genannt. 📄 Quelle: did_vl08_zr100, Folie 14 (S.14)",
-  "source": "did_vl08_zr100, Folie 14 (S.14, Kapitel 2.1 Zahlenraum bis 100)"
- },
- {
-  "id": "did_vl08_zr100-b1-019",
-  "topic": "did_vl08_zr100_veranschaulichung",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche weiteren Veranschaulichungsmittel für den Zahlenraum bis 100 werden auf der Folie aufgeführt?",
-  "options": [
-   "Spielgeld",
-   "(zeichnerische) Balken-Punkt-Darstellung",
-   "Hunderterfeld",
-   "Bruchstreifen"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Genannt werden u.a. Spielgeld, die (zeichnerische) Balken-Punkt-Darstellung sowie das Hunderterfeld. 📄 Quelle: did_vl08_zr100, Folie 14 (S.14)",
-  "source": "did_vl08_zr100, Folie 14 (S.14, Kapitel 2.1 Zahlenraum bis 100)"
- },
- {
-  "id": "did_vl08_zr100-b1-020",
-  "topic": "did_vl08_zr100_rechenaktivitaeten",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Aktivitäten zum Rechnen im Zahlenraum bis 100 nennt die Folie?",
-  "options": [
-   "Zahlzerlegungen",
-   "Aufgaben erfinden",
-   "Aufgaben sortieren",
-   "Textaufgaben abschreiben"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Als Aktivitäten zum Rechnen im Zahlenraum bis 100 werden u.a. Zahlzerlegungen, Aufgaben erfinden und Aufgaben sortieren genannt. 📄 Quelle: did_vl08_zr100, Folie 16 (S.16)",
-  "source": "did_vl08_zr100, Folie 16 (S.16, Kapitel 2.1 Zahlenraum bis 100)"
- },
- {
-  "id": "did_vl08_zr100-b1-021",
-  "topic": "did_vl08_zr100_rechenaktivitaeten",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche weiteren Aktivitäten zum Rechnen im Zahlenraum bis 100 führt die Folie auf?",
-  "options": [
-   "Aufgaben untersuchen",
-   "(Weitere) operative Aufgabenformate",
-   "Zahlzerlegungen",
-   "Auswendiglernen des Einmaleins"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Genannt werden u.a. Aufgaben untersuchen, (Weitere) operative Aufgabenformate sowie Zahlzerlegungen. 📄 Quelle: did_vl08_zr100, Folie 16 (S.16)",
-  "source": "did_vl08_zr100, Folie 16 (S.16, Kapitel 2.1 Zahlenraum bis 100)"
- },
- {
-  "id": "did_vl08_zr100-b1-022",
-  "topic": "did_vl08_zr100_rechenaktivitaeten",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Worauf zielen die genannten Aktivitäten zum Rechnen im Zahlenraum bis 100 laut Folie ab?",
-  "options": [
-   "Schulung des Zahlenblicks",
-   "Training der Feinmotorik",
-   "Vorbereitung auf die schriftliche Division",
-   "Erlernen der römischen Zahlen"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie fasst die Aktivitäten unter dem Ziel „Schulung des Zahlenblicks“ zusammen. 📄 Quelle: did_vl08_zr100, Folie 16 (S.16)",
-  "source": "did_vl08_zr100, Folie 16 (S.16, Kapitel 2.1 Zahlenraum bis 100)"
- }
+  {
+    "id": "did_vl08_zr100-b1-001",
+    "topic": "did_vl08_zr100_kompetenzen",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Was müssen Kinder beherrschen, um sich in einem neuen Zahlenraum sicher bewegen und rechnen zu können?",
+    "options": [
+      "Eine Reihe von Kompetenzen",
+      "Das kleine Einmaleins",
+      "Die schriftliche Division",
+      "Das Zehnersystem in der Sekundarstufe"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Laut Folie müssen Kinder, um sich in einem neuen Zahlenraum sicher bewegen und rechnen zu können, eine Reihe von Kompetenzen beherrschen. 📄 Quelle: did_vl08_zr100, Folie 4 (S.4)",
+    "source": "did_vl08_zr100, Folie 4 (S.4, Kapitel 2.1 Zahlenraum bis 100)"
+  },
+  {
+    "id": "did_vl08_zr100-b1-002",
+    "topic": "did_vl08_zr100_kompetenzen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Was wird beim Bewegen und Rechnen in einem neuen Zahlenraum deutlich?",
+    "options": [
+      "Vorkenntnisse",
+      "Schwierigkeiten",
+      "Lernentwicklungen",
+      "Die Muttersprache der Kinder"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Dabei werden nicht nur Vorkenntnisse und Schwierigkeiten, sondern auch Lernentwicklungen deutlich. 📄 Quelle: did_vl08_zr100, Folie 4 (S.4)",
+    "source": "did_vl08_zr100, Folie 4 (S.4, Kapitel 2.1 Zahlenraum bis 100)"
+  },
+  {
+    "id": "did_vl08_zr100-b1-003",
+    "topic": "did_vl08_zr100_zahlschreibweise",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Was gehört unter anderem zur sicheren Orientierung in einem neuen Zahlenraum?",
+    "options": [
+      "Die korrekte Schreibweise der Zahlen",
+      "Das schnelle Kopfrechnen bis 1000",
+      "Das Auswendiglernen der Primzahlen",
+      "Das Erkennen von Bruchzahlen"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Zur sicheren Orientierung in einem neuen Zahlenraum gehört unter anderem die korrekte Schreibweise der Zahlen; hierzu wird ein Ausschnitt eines Zahlendiktats von Sophia gezeigt. 📄 Quelle: did_vl08_zr100, Folie 5 (S.5)",
+    "source": "did_vl08_zr100, Folie 5 (S.5, Kapitel 2.1 Zahlenraum bis 100)"
+  },
+  {
+    "id": "did_vl08_zr100-b1-004",
+    "topic": "did_vl08_zr100_zahlschreibweise",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Zahlen wurden Sophia im Zahlendiktat diktiert?",
+    "options": [
+      "a) 5, 12, 18, 20",
+      "b) 25, 73, 98, 39",
+      "a) 5, 15, 18, 20",
+      "b) 25, 37, 89, 93"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Diktierte Zahlen: a) 5, 12, 18, 20, b) 25, 73, 98, 39. 📄 Quelle: did_vl08_zr100, Folie 5 (S.5)",
+    "source": "did_vl08_zr100, Folie 5 (S.5, Kapitel 2.1 Zahlenraum bis 100)"
+  },
+  {
+    "id": "did_vl08_zr100-b1-005",
+    "topic": "did_vl08_zr100_zahlschreibweise",
+    "difficulty": 2,
+    "type": "single",
+    "question": "In einem Zahlendiktat werden bei a) Zahlen bis 20 und bei b) die Zahlen 25, 73, 98, 39 diktiert. Zu welchem Zahlenraum gehören die Zahlen bei b)?",
+    "options": [
+      "Aus dem bis dahin nicht im Unterricht thematisierten Zahlenraum bis 100",
+      "Aus dem bekannten Zahlenraum bis 20",
+      "Aus dem Zahlenraum bis 1000",
+      "Aus dem Zahlenraum der negativen Zahlen"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Zahlen bei a) sind aus dem bekannten Zahlenraum bis 20, die Zahlen bei b) aus dem bis dahin nicht im Unterricht thematisierten Zahlenraum bis 100. 📄 Quelle: did_vl08_zr100, Folie 5 (S.5)",
+    "source": "did_vl08_zr100, Folie 5 (S.5, Kapitel 2.1 Zahlenraum bis 100)"
+  },
+  {
+    "id": "did_vl08_zr100-b1-006",
+    "topic": "did_vl08_zr100_kompetenzen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche der folgenden Kompetenzen werden im Zahlenraum bis 100 benötigt?",
+    "options": [
+      "In Schritten und rückwärts zählen",
+      "Die Vorgänger und Nachfolger einer Zahl benennen",
+      "Zahlen der Größe nach ordnen",
+      "Schriftlich multiplizieren"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Zu den benötigten Kompetenzen zählen u.a.: in Schritten und rückwärts zählen, die Vorgänger und Nachfolger einer Zahl benennen sowie Zahlen der Größe nach ordnen. 📄 Quelle: did_vl08_zr100, Folie 6 (S.6)",
+    "source": "did_vl08_zr100, Folie 6 (S.6, Kapitel 2.1 Zahlenraum bis 100)"
+  },
+  {
+    "id": "did_vl08_zr100-b1-007",
+    "topic": "did_vl08_zr100_kompetenzen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche weiteren Kompetenzen werden für den Zahlenraum bis 100 benötigt?",
+    "options": [
+      "Eine Anzahl Punkte in Fünferstrukturanordnung bestimmen oder selbst einkreisen",
+      "Bis zur 10 und/oder zum nächsten Zehner ergänzen",
+      "Strategien des Verdoppelns und Halbierens kennen",
+      "Römische Zahlen lesen"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Genannt werden u.a.: eine Anzahl Punkte in Fünferstrukturanordnung bestimmen oder selbst einkreisen, bis zur 10 und/oder zum nächsten Zehner ergänzen sowie Strategien des Verdoppelns und Halbierens kennen. 📄 Quelle: did_vl08_zr100, Folie 6 (S.6)",
+    "source": "did_vl08_zr100, Folie 6 (S.6, Kapitel 2.1 Zahlenraum bis 100)"
+  },
+  {
+    "id": "did_vl08_zr100-b1-008",
+    "topic": "did_vl08_zr100_kompetenzen",
+    "difficulty": 3,
+    "type": "single",
+    "question": "Was sollte außerdem mit den Kindern thematisiert werden, damit sie nachher erfolgreich rechnen können?",
+    "options": [
+      "Die Übersetzung zwischen bildlichen Darstellungen, Handlungen und zugehörigen Symbolen oder Termen",
+      "Das auswendige Aufsagen aller Zahlwörter bis 1000",
+      "Das Schreiben von Sachaufgaben",
+      "Der Umgang mit dem Taschenrechner"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Außerdem sollte die Übersetzung zwischen bildlichen Darstellungen, Handlungen und zugehörigen Symbolen oder Termen thematisiert werden; diese Kompetenzen werden benötigt, um nachher erfolgreich rechnen zu können. 📄 Quelle: did_vl08_zr100, Folie 6 (S.6)",
+    "source": "did_vl08_zr100, Folie 6 (S.6, Kapitel 2.1 Zahlenraum bis 100)"
+  },
+  {
+    "id": "did_vl08_zr100-b1-009",
+    "topic": "did_vl08_zr100_eis_prinzip",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Wofür stehen die drei Buchstaben des EIS-Prinzips von Bruner?",
+    "options": [
+      "Enaktiv",
+      "Ikonisch",
+      "Symbolisch",
+      "Elementar"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Das EIS-Prinzip von Bruner steht für die enaktive, ikonische und symbolische Ebene. 📄 Quelle: did_vl08_zr100, Folie 7 (S.7)",
+    "source": "did_vl08_zr100, Folie 7 (S.7, Kapitel 2.1 Zahlenraum bis 100)"
+  },
+  {
+    "id": "did_vl08_zr100-b1-010",
+    "topic": "did_vl08_zr100_eis_prinzip",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Zuordnung von Ebene und Darstellung ist beim EIS-Prinzip korrekt?",
+    "options": [
+      "Symbolische Ebene – Zahlen & Rechenaufgaben (z. B. 5 + 3)",
+      "Ikonische Ebene – Bildliche Darstellung",
+      "Enaktive Ebene – Handlung an Materialien",
+      "Symbolische Ebene – Handlung an Materialien"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Laut Darstellung entspricht die symbolische Ebene Zahlen & Rechenaufgaben (z. B. 5 + 3), die ikonische Ebene der bildlichen Darstellung und die enaktive Ebene der Handlung an Materialien. 📄 Quelle: did_vl08_zr100, Folie 7 (S.7)",
+    "source": "did_vl08_zr100, Folie 7 (S.7, Kapitel 2.1 Zahlenraum bis 100)"
+  },
+  {
+    "id": "did_vl08_zr100-b1-011",
+    "topic": "did_vl08_zr100_eis_prinzip",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Auf welchen Autor geht das EIS-Prinzip (Enaktiv – Ikonisch – Symbolisch) zurück?",
+    "options": [
+      "Bruner",
+      "Piaget",
+      "Sundermann",
+      "Selter"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie bezeichnet das Prinzip Enaktiv – Ikonisch – Symbolisch als das „EIS-Prinzip“ von Bruner. 📄 Quelle: did_vl08_zr100, Folie 7 (S.7)",
+    "source": "did_vl08_zr100, Folie 7 (S.7, Kapitel 2.1 Zahlenraum bis 100)"
+  },
+  {
+    "id": "did_vl08_zr100-b1-012",
+    "topic": "did_vl08_zr100_standortbestimmung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Was bietet sich an, um vor der Einführung neuer Inhalte das Vorwissen der Schülerinnen und Schüler zu erheben?",
+    "options": [
+      "Eine schriftliche Standortbestimmung",
+      "Eine benotete Klassenarbeit",
+      "Ein Elterngespräch",
+      "Ein standardisierter Intelligenztest"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Um das Vorwissen der Schülerinnen und Schüler zu erheben, bietet sich eine schriftliche Standortbestimmung an. 📄 Quelle: did_vl08_zr100, Folie 8 (S.8)",
+    "source": "did_vl08_zr100, Folie 8 (S.8, Kapitel 2.1 Zahlenraum bis 100)"
+  },
+  {
+    "id": "did_vl08_zr100-b1-013",
+    "topic": "did_vl08_zr100_standortbestimmung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welchen Vorteil hat die schriftliche Standortbestimmung gegenüber einem mündlichen Interview?",
+    "options": [
+      "Alle Kinder können gleichzeitig erfasst werden",
+      "Sie ist immer objektiv benotbar",
+      "Sie kann nur von leistungsstarken Kindern bearbeitet werden",
+      "Sie ersetzt jede weitere Diagnostik"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Im Gegensatz zu einem mündlichen Interview können durch die schriftliche Standortbestimmung alle Kinder gleichzeitig erfasst werden. 📄 Quelle: did_vl08_zr100, Folie 8 (S.8)",
+    "source": "did_vl08_zr100, Folie 8 (S.8, Kapitel 2.1 Zahlenraum bis 100)"
+  },
+  {
+    "id": "did_vl08_zr100-b1-014",
+    "topic": "did_vl08_zr100_standortbestimmung",
+    "difficulty": 3,
+    "type": "multi",
+    "question": "Wie wird eine Standortbestimmung nach Sundermann/Selter (2006) definiert?",
+    "options": [
+      "Als systematisches Feststellen der Lernstände der Kinder bzgl. eines bestimmten Themas",
+      "An zentralen Punkten des Lernprozesses",
+      "Durch geeignete Aufgaben",
+      "Durch benotete Prüfungen am Ende des Schuljahres"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Unter einer Standortbestimmung versteht man das systematische Feststellen der Lernstände der Kinder bzgl. eines bestimmten Themas an zentralen Punkten des Lernprozesses durch geeignete Aufgaben (vgl. Sundermann/Selter 2006, S. 21). 📄 Quelle: did_vl08_zr100, Folie 10 (S.10)",
+    "source": "did_vl08_zr100, Folie 10 (S.10, Kapitel 2.1 Zahlenraum bis 100)"
+  },
+  {
+    "id": "did_vl08_zr100-b1-015",
+    "topic": "did_vl08_zr100_standortbestimmung",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welchen Zahlenraum thematisieren die Grundaufgaben (a) bzw. die Sternchenaufgaben (b) einer solchen Standortbestimmung?",
+    "options": [
+      "Grundaufgaben: bekannter Zahlenraum bis 20; Sternchenaufgaben (b): neuer Zahlenraum bis 100",
+      "Grundaufgaben: Zahlenraum bis 100; Sternchenaufgaben (b): Zahlenraum bis 20",
+      "Beide: Zahlenraum bis 1000",
+      "Beide: Zahlenraum bis 10"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Aufgaben sind so konzipiert, dass bei a) der bereits bekannte Zahlenraum bis 20 thematisiert wird, während b) den neuen Zahlenraum bis 100 herausfordert. 📄 Quelle: did_vl08_zr100, Folie 10 (S.10)",
+    "source": "did_vl08_zr100, Folie 10 (S.10, Kapitel 2.1 Zahlenraum bis 100)"
+  },
+  {
+    "id": "did_vl08_zr100-b1-016",
+    "topic": "did_vl08_zr100_standortbestimmung",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Wodurch ist der Unterschied zwischen Grundaufgaben und weiterführenden Aufgaben für die Kinder kenntlich gemacht?",
+    "options": [
+      "Durch ein Sternchen bei b)",
+      "Durch eine rote Umrandung",
+      "Durch eine gesonderte Seite",
+      "Durch eine höhere Punktzahl"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Der Unterschied zwischen den Grundaufgaben und den weiterführenden Aufgaben (Sternchenaufgaben) ist für die Kinder durch das Sternchen bei b) kenntlich gemacht. 📄 Quelle: did_vl08_zr100, Folie 10 (S.10)",
+    "source": "did_vl08_zr100, Folie 10 (S.10, Kapitel 2.1 Zahlenraum bis 100)"
+  },
+  {
+    "id": "did_vl08_zr100-b1-017",
+    "topic": "did_vl08_zr100_standortbestimmung",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Ein Kind (Marina) bearbeitete eine Standortbestimmung vor und nach der unterrichtlichen Behandlung des Themas erneut. Wie viele Wochen lagen laut Beispiel zwischen den beiden Bearbeitungen?",
+    "answer": 8,
+    "tolerance": 0,
+    "unit": "Wochen",
+    "explanation": "Marina hat die Aufgaben vor (oberes Blatt) und nach der unterrichtlichen Behandlung (8 Wochen später; unteres Blatt) des Themas bearbeitet. 📄 Quelle: did_vl08_zr100, Folie 11 (S.11)",
+    "source": "did_vl08_zr100, Folie 11 (S.11, Kapitel 2.1 Zahlenraum bis 100)"
+  },
+  {
+    "id": "did_vl08_zr100-b1-018",
+    "topic": "did_vl08_zr100_veranschaulichung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Veranschaulichungsmittel eignen sich für den Zahlenraum bis 100?",
+    "options": [
+      "Hunderterfeld",
+      "Steckwürfel",
+      "Cuisenairstäbe",
+      "Taschenrechner"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Als mögliche Veranschaulichungsmittel im Zahlenraum bis 100 werden u.a. Hunderterfeld, Steckwürfel und Cuisenairstäbe genannt. 📄 Quelle: did_vl08_zr100, Folie 14 (S.14)",
+    "source": "did_vl08_zr100, Folie 14 (S.14, Kapitel 2.1 Zahlenraum bis 100)"
+  },
+  {
+    "id": "did_vl08_zr100-b1-019",
+    "topic": "did_vl08_zr100_veranschaulichung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche weiteren Veranschaulichungsmittel eignen sich für den Zahlenraum bis 100?",
+    "options": [
+      "Spielgeld",
+      "(zeichnerische) Balken-Punkt-Darstellung",
+      "Hunderterfeld",
+      "Bruchstreifen"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Genannt werden u.a. Spielgeld, die (zeichnerische) Balken-Punkt-Darstellung sowie das Hunderterfeld. 📄 Quelle: did_vl08_zr100, Folie 14 (S.14)",
+    "source": "did_vl08_zr100, Folie 14 (S.14, Kapitel 2.1 Zahlenraum bis 100)"
+  },
+  {
+    "id": "did_vl08_zr100-b1-020",
+    "topic": "did_vl08_zr100_rechenaktivitaeten",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aktivitäten zum Rechnen im Zahlenraum bis 100 gibt es?",
+    "options": [
+      "Zahlzerlegungen",
+      "Aufgaben erfinden",
+      "Aufgaben sortieren",
+      "Textaufgaben abschreiben"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Als Aktivitäten zum Rechnen im Zahlenraum bis 100 werden u.a. Zahlzerlegungen, Aufgaben erfinden und Aufgaben sortieren genannt. 📄 Quelle: did_vl08_zr100, Folie 16 (S.16)",
+    "source": "did_vl08_zr100, Folie 16 (S.16, Kapitel 2.1 Zahlenraum bis 100)"
+  },
+  {
+    "id": "did_vl08_zr100-b1-021",
+    "topic": "did_vl08_zr100_rechenaktivitaeten",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche weiteren Aktivitäten zum Rechnen im Zahlenraum bis 100 gibt es?",
+    "options": [
+      "Aufgaben untersuchen",
+      "(Weitere) operative Aufgabenformate",
+      "Zahlzerlegungen",
+      "Auswendiglernen des Einmaleins"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Genannt werden u.a. Aufgaben untersuchen, (Weitere) operative Aufgabenformate sowie Zahlzerlegungen. 📄 Quelle: did_vl08_zr100, Folie 16 (S.16)",
+    "source": "did_vl08_zr100, Folie 16 (S.16, Kapitel 2.1 Zahlenraum bis 100)"
+  },
+  {
+    "id": "did_vl08_zr100-b1-022",
+    "topic": "did_vl08_zr100_rechenaktivitaeten",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Worauf zielen die genannten Aktivitäten zum Rechnen im Zahlenraum bis 100 ab?",
+    "options": [
+      "Schulung des Zahlenblicks",
+      "Training der Feinmotorik",
+      "Vorbereitung auf die schriftliche Division",
+      "Erlernen der römischen Zahlen"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie fasst die Aktivitäten unter dem Ziel „Schulung des Zahlenblicks“ zusammen. 📄 Quelle: did_vl08_zr100, Folie 16 (S.16)",
+    "source": "did_vl08_zr100, Folie 16 (S.16, Kapitel 2.1 Zahlenraum bis 100)"
+  }
 ]

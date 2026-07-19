@@ -1,1144 +1,1132 @@
 [
- {
-  "id": "did_vl02_einf-b1-001",
-  "topic": "did_vl02_einf_grunderfahrungen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche drei Perspektiven bzw. Grunderfahrungen des Mathematiklernens nennt die Folie nach Winter?",
-  "options": [
-   "Perspektive von Mathematik als nützliche, brauchbare Disziplin",
-   "Perspektive der inneren Welt der Mathematik",
-   "Mathematik als Schule des Denkens",
-   "Mathematik als reines Rechentraining ohne Anwendungsbezug"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Winter unterscheidet drei Grunderfahrungen mit den zugeordneten Perspektiven: nützliche/brauchbare Disziplin, innere Welt der Mathematik und Mathematik als Schule des Denkens. 📄 Quelle: did_vl02_einf, Folie 4 (S.4)",
-  "source": "did_vl02_einf, Folie 4 (S.4, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b1-002",
-  "topic": "did_vl02_einf_grunderfahrungen",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Die Grunderfahrung, 'Erscheinungen der Welt um uns ... in einer spezifischen Art wahrzunehmen und zu verstehen', entspricht laut Folie welcher Perspektive?",
-  "options": [
-   "Perspektive von Mathematik als nützliche, brauchbare Disziplin",
-   "Perspektive der inneren Welt der Mathematik",
-   "Mathematik als Schule des Denkens",
-   "Perspektive der historischen Entwicklung der Mathematik"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Das Wahrnehmen und Verstehen der Erscheinungen der Welt wird der Perspektive von Mathematik als nützliche, brauchbare Disziplin zugeordnet. 📄 Quelle: did_vl02_einf, Folie 4 (S.4)",
-  "source": "did_vl02_einf, Folie 4 (S.4, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b1-003",
-  "topic": "did_vl02_einf_grunderfahrungen",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Die Grunderfahrung, mathematische Gegenstände 'als eine deduktiv geordnete Welt eigener Art kennen zu lernen und zu begreifen', entspricht welcher Perspektive?",
-  "options": [
-   "Perspektive der inneren Welt der Mathematik",
-   "Perspektive von Mathematik als nützliche, brauchbare Disziplin",
-   "Mathematik als Schule des Denkens",
-   "Perspektive der Anwendung in Natur und Technik"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Das Kennenlernen einer deduktiv geordneten Welt eigener Art wird der Perspektive der inneren Welt der Mathematik zugeordnet. 📄 Quelle: did_vl02_einf, Folie 4 (S.4)",
-  "source": "did_vl02_einf, Folie 4 (S.4, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b1-004",
-  "topic": "did_vl02_einf_grunderfahrungen",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Die Grunderfahrung, in der Auseinandersetzung mit Aufgaben Problemlösefähigkeiten (heuristische Fähigkeiten) zu erwerben, wird laut Folie zusammengefasst als ...",
-  "options": [
-   "Mathematik als Schule des Denkens",
-   "Perspektive der inneren Welt der Mathematik",
-   "Perspektive von Mathematik als nützliche, brauchbare Disziplin",
-   "Mathematik als Kulturtechnik"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Der Erwerb von Problemlöse- und heuristischen Fähigkeiten wird als 'Mathematik als Schule des Denkens' bezeichnet. 📄 Quelle: did_vl02_einf, Folie 4 (S.4)",
-  "source": "did_vl02_einf, Folie 4 (S.4, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b1-005",
-  "topic": "did_vl02_einf_aufgabe_unterricht",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Die Folie 'Eine Aufgabenstellung – zwei Arten von Unterricht' stellt zwei Lehrer-Impulse zu denselben Aufgabenpärchen vor. Welche Aussagen sind korrekt?",
-  "options": [
-   "Impuls (1): 'Bitte lösen, wir vergleichen dann kurz und dann habe ich noch mehr solcher Aufgaben für Euch!'",
-   "Impuls (2): 'Addiert in jedem Aufgabenpärchen die beiden Ergebnisse! – Was fällt euch dabei auf?'",
-   "Beide Impulse gehen von derselben Aufgabenstellung (denselben Aufgabenpärchen) aus",
-   "Impuls (2) fordert die Lernenden auf, möglichst schnell viele weitere Päckchen zu rechnen"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Die Folie zeigt dieselben Aufgabenpärchen mit zwei unterschiedlichen Lehrer-Impulsen: (1) Aufgaben lösen und weitere üben, (2) die beiden Ergebnisse addieren und Auffälligkeiten entdecken. 📄 Quelle: did_vl02_einf, Folie 5 (S.5)",
-  "source": "did_vl02_einf, Folie 5 (S.5, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b1-006",
-  "topic": "did_vl02_einf_aufgabe_unterricht",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Was ist die didaktische Grundidee der Folie 'Eine Aufgabenstellung – zwei Arten von Unterricht'?",
-  "options": [
-   "Dieselbe Aufgabenstellung kann zu zwei unterschiedlichen Arten von Unterricht führen",
-   "Für jede Kompetenz braucht es eine eigene, andere Aufgabenstellung",
-   "Nur offene Aufgaben ohne festes Ergebnis eignen sich für guten Unterricht",
-   "Aufgaben sollten stets nur einzeln und nie in Pärchen gestellt werden"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Der Titel und Aufbau der Folie machen deutlich: eine einzige Aufgabenstellung kann – je nach Impuls – zu zwei verschiedenen Arten von Unterricht führen. 📄 Quelle: did_vl02_einf, Folie 5 (S.5)",
-  "source": "did_vl02_einf, Folie 5 (S.5, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b1-007",
-  "topic": "did_vl02_einf_kommunikation",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Berechne für das Aufgabenpärchen a): (4000 + 2) + (4000 - 2). Welche Summe ergibt sich (wie auf der Folie angegeben)?",
-  "answer": 8000,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "(4000 + 2) + (4000 - 2) = 4002 + 3998 = 8000; die Folie gibt für a) das Ergebnis 8000 an. 📄 Quelle: did_vl02_einf, Folie 6 (S.6)",
-  "source": "did_vl02_einf, Folie 6 (S.6, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b1-008",
-  "topic": "did_vl02_einf_kommunikation",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Summen der Aufgabenpärchen sind laut Folie korrekt?",
-  "options": [
-   "a) ergibt 8000",
-   "b) ergibt 2000",
-   "d) ergibt 500",
-   "e) ergibt 3000"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Die Folie nennt die Summen: a) 8000, b) 2000, c) 1000, d) 500, e) 4000. e) ergibt 4000, nicht 3000. 📄 Quelle: did_vl02_einf, Folie 6 (S.6)",
-  "source": "did_vl02_einf, Folie 6 (S.6, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b1-009",
-  "topic": "did_vl02_einf_kommunikation",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Welche allgemeine mathematische Kompetenz wird auf der Folie durch die Leitfragen 'Was fällt den Lernenden an diesen Ergebnissen auf? ... Welche Regelmäßigkeit, welches Muster verbindet sie?' angesprochen?",
-  "options": [
-   "Kommunikation",
-   "Problemlösen",
-   "Argumentieren",
-   "Darstellen"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie ordnet diese Leitfragen ausdrücklich der Kompetenz KOMMUNIKATION zu. 📄 Quelle: did_vl02_einf, Folie 6 (S.6)",
-  "source": "did_vl02_einf, Folie 6 (S.6, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b1-010",
-  "topic": "did_vl02_einf_problemloesen",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Wie lautet die auf der Folie formulierte 'Entdeckung' zu den Aufgabenpärchen?",
-  "options": [
-   "Die Summe der beiden Ergebnisse ist das Doppelte der jeweils ersten Zahl",
-   "Die Summe der beiden Ergebnisse ist das Doppelte der jeweils zweiten Zahl",
-   "Die Summe der beiden Ergebnisse ist die Hälfte der jeweils ersten Zahl",
-   "Die Summe der beiden Ergebnisse ist gleich der jeweils ersten Zahl"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Entdeckung lautet: 'Summe der beiden Ergebnisse ist das Doppelte der jeweils ersten Zahl.' 📄 Quelle: did_vl02_einf, Folie 7 (S.7)",
-  "source": "did_vl02_einf, Folie 7 (S.7, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b1-011",
-  "topic": "did_vl02_einf_problemloesen",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Welche allgemeine mathematische Kompetenz wird auf der Folie mit der Entdeckung des Musters verbunden?",
-  "options": [
-   "Problemlösen",
-   "Kommunikation",
-   "Darstellen",
-   "Argumentieren"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie ordnet die Entdeckung des Musters der Kompetenz PROBLEMLÖSEN zu. 📄 Quelle: did_vl02_einf, Folie 7 (S.7)",
-  "source": "did_vl02_einf, Folie 7 (S.7, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b1-012",
-  "topic": "did_vl02_einf_problemloesen",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Laut der Entdeckung ist die Summe der beiden Ergebnisse das Doppelte der jeweils ersten Zahl. Wie groß ist demnach die Summe beim Pärchen b) mit der ersten Zahl 1000?",
-  "answer": 2000,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Das Doppelte der ersten Zahl 1000 ist 2000; die Folie gibt für b) ebenfalls 2000 an. 📄 Quelle: did_vl02_einf, Folie 7 (S.7)",
-  "source": "did_vl02_einf, Folie 7 (S.7, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b1-013",
-  "topic": "did_vl02_einf_argumentieren_darstellen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Auf der Folie wird der Sachverhalt 'durch ARGUMENTE erklärt und von einer geeigneten DARSTELLUNGSFORM begleitet'. Welche Kompetenzen bzw. Aussagen nennt die Folie?",
-  "options": [
-   "Argumentieren",
-   "Darstellen",
-   "Beispiel-Darstellung: 4000 + 2 + 4000 (in einer Zeile oder am Rechenstrich)",
-   "Auswendiglernen der Ergebnisse ohne Begründung"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Die Folie verbindet das Erklären durch Argumente und die geeignete Darstellungsform mit den Kompetenzen ARGUMENTIEREN und DARSTELLEN und nennt als Beispiel '4000 + 2 + 4000 (in einer Zeile oder am Rechenstrich)'. 📄 Quelle: did_vl02_einf, Folie 8 (S.8)",
-  "source": "did_vl02_einf, Folie 8 (S.8, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b1-014",
-  "topic": "did_vl02_einf_argumentieren_darstellen",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Welche Darstellungsform nennt die Folie beispielhaft für das Aufgabenpärchen a)?",
-  "options": [
-   "4000 + 2 + 4000 (in einer Zeile oder am Rechenstrich)",
-   "Ein Balkendiagramm der fünf Ergebnisse",
-   "Eine Stellenwerttafel bis zur Zehntausenderstelle",
-   "Ein Koordinatensystem mit eingetragenen Punkten"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Als geeignete Darstellungsform nennt die Folie: '4000 + 2 + 4000 (in einer Zeile oder am Rechenstrich)'. 📄 Quelle: did_vl02_einf, Folie 8 (S.8)",
-  "source": "did_vl02_einf, Folie 8 (S.8, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b1-015",
-  "topic": "did_vl02_einf_struktureinsicht",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Wenn Schüler auf Basis des erkannten Musters ähnliche Aufgabenpärchen erfinden (Kontrollmöglichkeit!), was wird laut Folie gefördert?",
-  "options": [
-   "Struktureinsicht",
-   "Problemlösefähigkeit",
-   "Kreativität",
-   "Reine Rechengeschwindigkeit"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Das Erfinden ähnlicher Aufgabenpärchen fördert laut Folie Struktureinsicht, Problemlösefähigkeit und Kreativität. 📄 Quelle: did_vl02_einf, Folie 9 (S.9)",
-  "source": "did_vl02_einf, Folie 9 (S.9, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b1-016",
-  "topic": "did_vl02_einf_struktureinsicht",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Welche vorgegebene Zahl nennt die Folie als Beispiel, zu der Schüler passende Aufgabenpärchen erfinden sollen?",
-  "options": [
-   "280",
-   "281",
-   "250",
-   "2000"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie nennt als Beispiel für eine vorgegebene Zahl 280. 📄 Quelle: did_vl02_einf, Folie 9 (S.9)",
-  "source": "did_vl02_einf, Folie 9 (S.9, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b1-017",
-  "topic": "did_vl02_einf_verallgemeinern",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Die Herausforderung 'Was passiert, wenn die vorgegebene Zahl ungerade ist (z.B. 281)?' führt laut Folie zu ...",
-  "options": [
-   "einer Verallgemeinerung über das Schulbuch hinaus",
-   "dem Abbruch der Aufgabe, da keine Lösung existiert",
-   "der Rückkehr zu reinem Kopfrechnen",
-   "einer Reduktion auf nur gerade Zahlen"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie schließt: '⇒ Verallgemeinerung über das Schulbuch hinaus'. 📄 Quelle: did_vl02_einf, Folie 10 (S.10)",
-  "source": "did_vl02_einf, Folie 10 (S.10, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b1-018",
-  "topic": "did_vl02_einf_verallgemeinern",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Welche ungerade Beispielzahl nennt die Folie als Herausforderung?",
-  "options": [
-   "281",
-   "280",
-   "250",
-   "199"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Als ungerade Beispielzahl nennt die Folie 281. 📄 Quelle: did_vl02_einf, Folie 10 (S.10)",
-  "source": "did_vl02_einf, Folie 10 (S.10, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b1-019",
-  "topic": "did_vl02_einf_allg_kompetenzen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Die zweite Art des Unterrichts bietet 'bewusste Anlässe zur Entwicklung allgemeiner mathematischer Kompetenzen'. Welche nennt die Folie?",
-  "options": [
-   "Probleme mathematisch lösen",
-   "Kommunizieren",
-   "Argumentieren",
-   "Zusammenhänge herstellen, Reflektieren, Verallgemeinern",
-   "Rechenregeln auswendig lernen"
-  ],
-  "correct": [
-   0,
-   1,
-   2,
-   3
-  ],
-  "explanation": "Die Folie nennt als allgemeine mathematische Kompetenzen: Probleme mathematisch lösen, Kommunizieren, Argumentieren und Zusammenhänge herstellen, Reflektieren, Verallgemeinern. 📄 Quelle: did_vl02_einf, Folie 11 (S.11)",
-  "source": "did_vl02_einf, Folie 11 (S.11, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b1-020",
-  "topic": "did_vl02_einf_allg_kompetenzen",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Was gilt laut Folie für beide Arten (Stunden) des Unterrichts gemeinsam?",
-  "options": [
-   "Entwicklung und Festigung inhaltlicher mathematischer Fertigkeiten und Fähigkeiten",
-   "Ausschließlich die Entwicklung allgemeiner Kompetenzen ohne inhaltliche Ziele",
-   "Verzicht auf jegliche Aufgabenstellung",
-   "Nur die Förderung von Kreativität, nicht von Fertigkeiten"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie hält fest: 'In beiden Stunden: Entwicklung und Festigung inhaltlicher mathematischer Fertigkeiten und Fähigkeiten.' 📄 Quelle: did_vl02_einf, Folie 11 (S.11)",
-  "source": "did_vl02_einf, Folie 11 (S.11, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b1-021",
-  "topic": "did_vl02_einf_bildungsstandards",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Aussagen zur Einführung der Bildungsstandards nennt die Folie 'Was sind Bildungsstandards?'?",
-  "options": [
-   "Als Reaktion auf PISA beschloss die KMK (2003) die Einführung von Bildungsstandards",
-   "2001/2002 zeigte IGLU bei Viertklässlern Defizite bei Grundschülern auf nationaler Ebene",
-   "Orientierung an anderen Staaten, in denen es schon lange Bildungsstandards gibt",
-   "Bildungsstandards wurden ohne jeden internationalen Bezug entwickelt"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Die Folie nennt: KMK-Beschluss 2003 als Reaktion auf PISA, IGLU-Defizite bei Viertklässlern 2001/2002 sowie die Orientierung an anderen Staaten mit langjährigen Bildungsstandards. 📄 Quelle: did_vl02_einf, Folie 12 (S.12)",
-  "source": "did_vl02_einf, Folie 12 (S.12, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b1-022",
-  "topic": "did_vl02_einf_bildungsstandards",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "In welchem Jahr beschloss die KMK laut Folie die Einführung von Bildungsstandards?",
-  "answer": 2003,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Die Folie nennt den KMK-Beschluss zur Einführung von Bildungsstandards für das Jahr 2003. 📄 Quelle: did_vl02_einf, Folie 12 (S.12)",
-  "source": "did_vl02_einf, Folie 12 (S.12, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b1-023",
-  "topic": "did_vl02_einf_bildungsstandards",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Für welche Abschlüsse gibt es laut Folie Bildungsstandards?",
-  "options": [
-   "Grundschulabschluss am Ende der 4. Klasse",
-   "Hauptschulabschluss am Ende der 9. Klasse",
-   "Mittlerer Bildungsabschluss und Abiturstandards",
-   "Kindergartenabschluss"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Die Folie nennt Standards für den Grundschulabschluss (Ende 4. Klasse), den Hauptschulabschluss (Ende 9. Klasse) sowie für den mittleren Bildungsabschluss und Abiturstandards. 📄 Quelle: did_vl02_einf, Folie 12 (S.12)",
-  "source": "did_vl02_einf, Folie 12 (S.12, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b1-024",
-  "topic": "did_vl02_einf_zeitreise",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Stationen enthält die 'Zeitreise' (von damals nach heute) auf der Folie?",
-  "options": [
-   "Wilhelm von Humboldt: Bildungsideale",
-   "Felix Klein: Meraner Reform",
-   "Neue Mathematik ('New Maths Bewegung')",
-   "Bologna-Reform der Hochschulen"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Die Zeitreise umfasst u.a. Wilhelm von Humboldt (Bildungsideale), Felix Klein (Meraner Reform) und die Neue Mathematik ('New Maths Bewegung'); die Bologna-Reform ist nicht genannt. 📄 Quelle: did_vl02_einf, Folie 13 (S.13)",
-  "source": "did_vl02_einf, Folie 13 (S.13, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b1-025",
-  "topic": "did_vl02_einf_zeitreise",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Welche Reform wird in der Zeitreise mit Felix Klein verbunden?",
-  "options": [
-   "Meraner Reform",
-   "New Maths Bewegung",
-   "Bologna-Reform",
-   "Beziehungshaltigkeit"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie ordnet Felix Klein die Meraner Reform zu. 📄 Quelle: did_vl02_einf, Folie 13 (S.13)",
-  "source": "did_vl02_einf, Folie 13 (S.13, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b1-026",
-  "topic": "did_vl02_einf_zeitreise",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Welche Station steht in der Zeitreise ganz oben, also bei 'heute'?",
-  "options": [
-   "Bildungsstandards und Kompetenzorientierung",
-   "Wilhelm von Humboldt: Bildungsideale",
-   "TIMMS und der 'PISA-Schock'",
-   "Neue Mathematik ('New Maths Bewegung')"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "An der Spitze der Zeitreise ('heute') steht 'Bildungsstandards und Kompetenzorientierung'; ganz unten ('damals') steht Wilhelm von Humboldt. 📄 Quelle: did_vl02_einf, Folie 13 (S.13)",
-  "source": "did_vl02_einf, Folie 13 (S.13, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b1-027",
-  "topic": "did_vl02_einf_zeitreise",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Wilhelm von Humboldt wird in der Zeitreise verbunden mit ...",
-  "options": [
-   "Bildungsideale",
-   "Beziehungshaltigkeit",
-   "Meraner Reform",
-   "New Maths Bewegung"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie ordnet Wilhelm von Humboldt die 'Bildungsideale' zu (Station 'damals'). 📄 Quelle: did_vl02_einf, Folie 13 (S.13)",
-  "source": "did_vl02_einf, Folie 13 (S.13, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b1-028",
-  "topic": "did_vl02_einf_zeitreise",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Hans Freudenthal wird in der Zeitreise verbunden mit ...",
-  "options": [
-   "Beziehungshaltigkeit",
-   "Bildungsideale",
-   "Meraner Reform",
-   "Mathematik für das praktische Leben"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie ordnet Hans Freudenthal die 'Beziehungshaltigkeit' zu. 📄 Quelle: did_vl02_einf, Folie 13 (S.13)",
-  "source": "did_vl02_einf, Folie 13 (S.13, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b1-029",
-  "topic": "did_vl02_einf_new_maths",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Im Kontext der Neuen Mathematik ('New Maths Bewegung') zeigt die Folie einen SPIEGEL-Titel (1970). Wie lautete dessen Schlagzeile?",
-  "options": [
-   "Macht Mengenlehre krank?",
-   "Rechnen ohne Grenzen",
-   "Die neue Schule des Denkens",
-   "Zahlen für das praktische Leben"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie zeigt den SPIEGEL-Titel 'Macht Mengenlehre krank?' als Zeitdokument zur Neuen Mathematik / 'New Maths Bewegung'. 📄 Quelle: did_vl02_einf, Folie 14 (S.14)",
-  "source": "did_vl02_einf, Folie 14 (S.14, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b2-001",
-  "topic": "did_vl02_einf_bildungsstandards",
-  "difficulty": 1,
-  "type": "multi",
-  "question": "Welche Aussagen treffen auf Bildungsstandards gemäß der Definition auf der Folie zu?",
-  "options": [
-   "Sie beschreiben fachbezogene Kompetenzen.",
-   "Die beschriebenen Kompetenzen sollen die Schüler bis zum jeweiligen Abschluss erwerben.",
-   "Sie beschreiben fachunabhängige Schlüsselqualifikationen.",
-   "Sie legen konkrete Unterrichtsmethoden für jede Stunde fest."
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Laut Folie beschreiben Bildungsstandards fachbezogene Kompetenzen, die Schüler bis zum jeweiligen Abschluss erwerben sollen. 📄 Quelle: did_vl02_einf, Folie 15 (S.15)",
-  "source": "did_vl02_einf, Folie 15 (S.15, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b2-002",
-  "topic": "did_vl02_einf_bildungsstandards",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Bis zu welchem Zeitpunkt sollen die in den Bildungsstandards beschriebenen Kompetenzen erworben werden?",
-  "options": [
-   "Bis zum jeweiligen Abschluss",
-   "Bis zum Ende jedes Schuljahres",
-   "Bis zur Einschulung",
-   "Bis zum Ende jeder Unterrichtsstunde"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie definiert Bildungsstandards als fachbezogene Kompetenzen, die Schüler bis zum jeweiligen Abschluss erwerben sollen. 📄 Quelle: did_vl02_einf, Folie 15 (S.15)",
-  "source": "did_vl02_einf, Folie 15 (S.15, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b2-003",
-  "topic": "did_vl02_einf_kompetenzen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Was sind Kompetenzen nach Weinert (2001) laut Folie?",
-  "options": [
-   "Die bei Individuen verfügbaren oder durch sie zu erlernenden kognitiven Fähigkeiten und Fertigkeiten, um bestimmte Probleme zu lösen",
-   "Die damit verbundenen Bereitschaften und Fähigkeiten, um die Problemlösungen in variablen Situationen erfolgreich und verantwortungsvoll nutzen zu können",
-   "Ausschließlich angeborene Begabungen, die nicht erlernbar sind",
-   "Rein motorische Fertigkeiten ohne kognitiven Anteil"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Weinert (2001) definiert Kompetenzen als verfügbare oder erlernbare kognitive Fähigkeiten und Fertigkeiten zum Problemlösen sowie die verbundenen Bereitschaften und Fähigkeiten, Problemlösungen in variablen Situationen erfolgreich und verantwortungsvoll zu nutzen. 📄 Quelle: did_vl02_einf, Folie 16 (S.16)",
-  "source": "did_vl02_einf, Folie 16 (S.16, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b2-004",
-  "topic": "did_vl02_einf_kompetenzen",
-  "difficulty": 2,
-  "type": "single",
-  "question": "In welchen Situationen sollen Kompetenzen nach Weinert (2001) die erfolgreiche und verantwortungsvolle Nutzung von Problemlösungen ermöglichen?",
-  "options": [
-   "In variablen Situationen",
-   "Nur in vorab bekannten Situationen",
-   "Ausschließlich in Prüfungssituationen",
-   "Nur in alltäglichen Routinesituationen"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Laut Weinert-Definition sollen die Problemlösungen in variablen Situationen erfolgreich und verantwortungsvoll genutzt werden können. 📄 Quelle: did_vl02_einf, Folie 16 (S.16)",
-  "source": "did_vl02_einf, Folie 16 (S.16, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b2-005",
-  "topic": "did_vl02_einf_kompetenzen",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Auf welchen Autor bzw. welches Jahr bezieht sich die auf der Folie zitierte Kompetenzdefinition?",
-  "options": [
-   "Weinert, 2001",
-   "Winter, 1995",
-   "Weinert, 2003",
-   "Klein, 1905"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie zitiert die Kompetenzdefinition nach Weinert, 2001. 📄 Quelle: did_vl02_einf, Folie 16 (S.16)",
-  "source": "did_vl02_einf, Folie 16 (S.16, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b2-006",
-  "topic": "did_vl02_einf_bildungsstandards",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Aussagen über Bildungsstandards treffen laut Folie zu?",
-  "options": [
-   "Bildungsstandards sind in ihrer Substanz Leistungsstandards.",
-   "Bildungsstandards haben eine Entwicklungs- und Überprüfungsfunktion.",
-   "Bildungsstandards sind Unterrichtsstandards.",
-   "Bildungsstandards sind in ihrer Substanz Unterrichtsstandards."
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Die Folie hält fest: Bildungsstandards sind in ihrer Substanz Leistungsstandards, sie sind KEINE Unterrichtsstandards und haben eine Entwicklungs- und Überprüfungsfunktion. 📄 Quelle: did_vl02_einf, Folie 17 (S.17)",
-  "source": "did_vl02_einf, Folie 17 (S.17, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b2-007",
-  "topic": "did_vl02_einf_bildungsstandards",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Bildungsstandards sind laut Folie ausdrücklich KEINE ...?",
-  "options": [
-   "Unterrichtsstandards",
-   "Leistungsstandards",
-   "Kompetenzmodelle",
-   "Bildungsziele"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie betont: Bildungsstandards sind keine Unterrichtsstandards. 📄 Quelle: did_vl02_einf, Folie 17 (S.17)",
-  "source": "did_vl02_einf, Folie 17 (S.17, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b2-008",
-  "topic": "did_vl02_einf_bildungsstandards",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Welche Funktion haben Bildungsstandards laut Folie?",
-  "options": [
-   "Entwicklungs- und Überprüfungsfunktion",
-   "Reine Selektionsfunktion",
-   "Ausschließlich Zertifizierungsfunktion",
-   "Finanzierungsfunktion"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie nennt die Entwicklungs- und Überprüfungsfunktion der Bildungsstandards. 📄 Quelle: did_vl02_einf, Folie 17 (S.17)",
-  "source": "did_vl02_einf, Folie 17 (S.17, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b2-009",
-  "topic": "did_vl02_einf_kompetenzen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Wie werden Kompetenzen im Rahmen der Bildungsstandards ausdifferenziert und konkretisiert?",
-  "options": [
-   "Kompetenzanforderungen werden in Kompetenzmodellen ausdifferenziert.",
-   "Solche Modelle beschreiben unterschiedliche Facetten und Niveaustufen.",
-   "Kompetenzen, ihre Facetten und Stufen werden durch Aufgaben konkretisiert.",
-   "Kompetenzen werden ausschließlich durch Noten konkretisiert."
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Laut Folie werden Kompetenzanforderungen in Kompetenzmodellen ausdifferenziert, die Modelle beschreiben unterschiedliche Facetten und Niveaustufen, und die Konkretisierung erfolgt durch Aufgaben. 📄 Quelle: did_vl02_einf, Folie 18 (S.18)",
-  "source": "did_vl02_einf, Folie 18 (S.18, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b2-010",
-  "topic": "did_vl02_einf_kompetenzen",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Wodurch werden Kompetenzen, ihre Facetten und Stufen laut Folie konkretisiert?",
-  "options": [
-   "Durch Aufgaben",
-   "Durch Lehrpläne",
-   "Durch Schulbücher",
-   "Durch Zeugnisse"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie hält fest: Konkretisiert werden Kompetenzen, ihre Facetten und Stufen durch Aufgaben. 📄 Quelle: did_vl02_einf, Folie 18 (S.18)",
-  "source": "did_vl02_einf, Folie 18 (S.18, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b2-011",
-  "topic": "did_vl02_einf_bildungsstandards",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche zwei Erwartungen an Bildungsstandards nennt die Folie?",
-  "options": [
-   "Orientierung und Evaluation",
-   "Basis für Leistungsüberprüfungen",
-   "Finanzierung von Schulen",
-   "Auswahl von Lehrkräften"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Die Folie nennt zwei Erwartungen: 1) Orientierung und Evaluation, 2) Basis für Leistungsüberprüfungen. 📄 Quelle: did_vl02_einf, Folie 19 (S.19)",
-  "source": "did_vl02_einf, Folie 19 (S.19, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b2-012",
-  "topic": "did_vl02_einf_bildungsstandards",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Was ist laut Folie der primäre Ort der konkreten Umsetzung der Bildungsstandards?",
-  "options": [
-   "Der Unterricht",
-   "Die Schulverwaltung",
-   "Die Kultusministerkonferenz",
-   "Das Elternhaus"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie hält fest: Der primäre Ort ist der Unterricht. 📄 Quelle: did_vl02_einf, Folie 19 (S.19)",
-  "source": "did_vl02_einf, Folie 19 (S.19, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b2-013",
-  "topic": "did_vl02_einf_bildungsstandards",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Was bedeutet die konkrete Umsetzung der Bildungsstandards laut Folie?",
-  "options": [
-   "Qualitätsentwicklung im Unterricht",
-   "Standardisierung der Schulgebäude",
-   "Reduktion der Unterrichtszeit",
-   "Abschaffung von Prüfungen"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie formuliert: Konkrete Umsetzung der Bildungsstandards bedeutet Qualitätsentwicklung im Unterricht. 📄 Quelle: did_vl02_einf, Folie 19 (S.19)",
-  "source": "did_vl02_einf, Folie 19 (S.19, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b2-014",
-  "topic": "did_vl02_einf_konzeption_grundschule",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Aus welchen drei Dimensionen besteht die Konzeption der Mathematik-Standards für die Grundschule?",
-  "options": [
-   "Prozess-Dimension",
-   "Inhalts-Dimension",
-   "Anspruchs-Dimension",
-   "Zeit-Dimension"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Die Folie nennt drei Dimensionen: Prozess-, Inhalts- und Anspruchs-Dimension. 📄 Quelle: did_vl02_einf, Folie 20 (S.20)",
-  "source": "did_vl02_einf, Folie 20 (S.20, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b2-015",
-  "topic": "did_vl02_einf_konzeption_grundschule",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche der folgenden gehören zu den allgemeinen mathematischen Kompetenzen der Grundschul-Standards?",
-  "options": [
-   "Mathematisch argumentieren",
-   "Probleme lösen",
-   "Modellieren",
-   "Rechenfertigkeiten automatisieren"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Als mathematische Kompetenzen nennt die Folie: Mathematisch argumentieren, Probleme lösen, Modellieren, Darstellen und Kommunizieren. 'Rechenfertigkeiten automatisieren' gehört nicht dazu. 📄 Quelle: did_vl02_einf, Folie 20 (S.20)",
-  "source": "did_vl02_einf, Folie 20 (S.20, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b2-016",
-  "topic": "did_vl02_einf_konzeption_grundschule",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche der folgenden sind Leitideen der Grundschul-Standards laut Folie?",
-  "options": [
-   "Zahlen und Operationen",
-   "Raum und Form",
-   "Daten, Häufigkeit und Wahrscheinlichkeit",
-   "Grammatik und Rechtschreibung"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Die Folie nennt als Leitideen: Zahlen und Operationen, Größen und Messen, Raum und Form, Muster und Strukturen sowie Daten, Häufigkeit und Wahrscheinlichkeit. 'Grammatik und Rechtschreibung' ist keine Leitidee. 📄 Quelle: did_vl02_einf, Folie 20 (S.20)",
-  "source": "did_vl02_einf, Folie 20 (S.20, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b2-017",
-  "topic": "did_vl02_einf_konzeption_grundschule",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Anforderungsbereiche werden auf der Folie zur Konzeption der Grundschul-Standards genannt?",
-  "options": [
-   "I. Reproduzieren",
-   "II. Zusammenhänge herstellen",
-   "III. Verallgemeinern und Reflektieren",
-   "IV. Auswendiglernen"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Die Folie nennt die Anforderungsbereiche I. Reproduzieren, II. Zusammenhänge herstellen und III. Verallgemeinern und Reflektieren. 📄 Quelle: did_vl02_einf, Folie 20 (S.20)",
-  "source": "did_vl02_einf, Folie 20 (S.20, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b2-018",
-  "topic": "did_vl02_einf_anforderungsbereiche",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Was erlauben die Anforderungsbereiche laut Folie?",
-  "options": [
-   "Erfahrungsbasierte Einschätzungen von Aufgaben",
-   "Einschätzungen hinsichtlich Angemessenheit, Qualität und Komplexität der von Lernenden zu erbringenden kognitiven Leistungen",
-   "Eine exakte Messung der Intelligenz der Lernenden",
-   "Die finanzielle Bewertung von Schulen"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Anforderungsbereiche erlauben erfahrungsbasierte Einschätzungen von Aufgaben hinsichtlich Angemessenheit, Qualität und Komplexität der von Lernenden zu erbringenden kognitiven Leistungen. 📄 Quelle: did_vl02_einf, Folie 21 (S.21)",
-  "source": "did_vl02_einf, Folie 21 (S.21, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b2-019",
-  "topic": "did_vl02_einf_anforderungsbereiche",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Die Anforderungsbereiche erlauben Einschätzungen von Aufgaben hinsichtlich Angemessenheit, Qualität und ...?",
-  "options": [
-   "Komplexität der von Lernenden zu erbringenden kognitiven Leistungen",
-   "Länge der Bearbeitungszeit",
-   "Anzahl der Rechenschritte",
-   "Kosten der Materialien"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Laut Folie geht es um Angemessenheit, Qualität und Komplexität der von Lernenden zu erbringenden kognitiven Leistungen. 📄 Quelle: did_vl02_einf, Folie 21 (S.21)",
-  "source": "did_vl02_einf, Folie 21 (S.21, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b2-020",
-  "topic": "did_vl02_einf_anforderungsbereiche",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Welche Beschreibung passt laut Tabelle zu Anforderungsbereich I 'Reproduzieren'?",
-  "options": [
-   "Das Lösen der Aufgabe erfordert Grundwissen und das Ausführen von Routinetätigkeiten.",
-   "Das Lösen der Aufgabe erfordert das Erkennen und Nutzen von Zusammenhängen.",
-   "Das Lösen der Aufgabe erfordert komplexe Tätigkeiten wie Strukturieren und Verallgemeinern.",
-   "Das Lösen der Aufgabe erfordert keinerlei Vorwissen."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Anforderungsbereich I 'Reproduzieren': Das Lösen der Aufgabe erfordert Grundwissen und das Ausführen von Routinetätigkeiten. 📄 Quelle: did_vl02_einf, Folie 22 (S.22)",
-  "source": "did_vl02_einf, Folie 22 (S.22, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b2-021",
-  "topic": "did_vl02_einf_anforderungsbereiche",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Welcher Anforderungsbereich erfordert laut Tabelle das Erkennen und Nutzen von Zusammenhängen?",
-  "options": [
-   "Anforderungsbereich II: Zusammenhänge herstellen",
-   "Anforderungsbereich I: Reproduzieren",
-   "Anforderungsbereich III: Verallgemeinern und Reflektieren",
-   "Keiner der Anforderungsbereiche"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Anforderungsbereich II 'Zusammenhänge herstellen': Das Lösen der Aufgabe erfordert das Erkennen und Nutzen von Zusammenhängen. 📄 Quelle: did_vl02_einf, Folie 22 (S.22)",
-  "source": "did_vl02_einf, Folie 22 (S.22, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b2-022",
-  "topic": "did_vl02_einf_anforderungsbereiche",
-  "difficulty": 3,
-  "type": "multi",
-  "question": "Welche Tätigkeiten kennzeichnen laut Tabelle Anforderungsbereich III 'Verallgemeinern und Reflektieren'?",
-  "options": [
-   "Strukturieren",
-   "Entwickeln von Strategien",
-   "Beurteilen und Verallgemeinern",
-   "Ausführen von Routinetätigkeiten"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Anforderungsbereich III erfordert komplexe Tätigkeiten wie Strukturieren, Entwickeln von Strategien, Beurteilen und Verallgemeinern. Das Ausführen von Routinetätigkeiten gehört zu AB I. 📄 Quelle: did_vl02_einf, Folie 22 (S.22)",
-  "source": "did_vl02_einf, Folie 22 (S.22, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b2-023",
-  "topic": "did_vl02_einf_anforderungsbereiche",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Aus welcher Quelle stammt die auf der Folie gezeigte Tabelle der Anforderungsbereiche?",
-  "options": [
-   "Walther et al. (2007), Bildungsstandards in der Grundschule, S. 12",
-   "Weinert (2001)",
-   "Winter (1995)",
-   "KMK (2003)"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie gibt als Quelle Walther et al. (2007) Bildungsstandards in der Grundschule, S. 12 an. 📄 Quelle: did_vl02_einf, Folie 22 (S.22)",
-  "source": "did_vl02_einf, Folie 22 (S.22, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b2-024",
-  "topic": "did_vl02_einf_konzeption_grundschule",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche gehören zu den allgemeinen mathematischen Kompetenzen (Prozessdimension)?",
-  "options": [
-   "Mathematisch argumentieren",
-   "Darstellen",
-   "Kommunizieren",
-   "Größen und Messen"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Zur Prozessdimension gehören: Mathematisch argumentieren, Probleme lösen, Modellieren, Darstellen, Kommunizieren. 'Größen und Messen' ist eine Leitidee (Inhaltsdimension). 📄 Quelle: did_vl02_einf, Folie 23 (S.23)",
-  "source": "did_vl02_einf, Folie 23 (S.23, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b2-025",
-  "topic": "did_vl02_einf_konzeption_grundschule",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Wie viele allgemeine mathematische Kompetenzen (Prozessdimension) führt die Folie auf?",
-  "options": [
-   "Fünf",
-   "Drei",
-   "Vier",
-   "Sechs"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie listet fünf: Mathematisch argumentieren, Probleme lösen, Modellieren, Darstellen, Kommunizieren. 📄 Quelle: did_vl02_einf, Folie 23 (S.23)",
-  "source": "did_vl02_einf, Folie 23 (S.23, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b2-026",
-  "topic": "did_vl02_einf_problemloesen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Was umfasst 'Problemlösen' laut Definition in den Bildungsstandards?",
-  "options": [
-   "Mathematische Kenntnisse, Fertigkeiten und Fähigkeiten bei der Bearbeitung problemhaltiger Aufgaben anwenden",
-   "Lösungsstrategien entwickeln und nutzen (z. B. systematisch probieren)",
-   "Zusammenhänge erkennen, nutzen und auf ähnliche Sachverhalte übertragen",
-   "Formeln auswendig lernen und fehlerfrei wiedergeben"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Die Problemlösen-Definition umfasst: mathematische Kenntnisse/Fertigkeiten/Fähigkeiten anwenden, Lösungsstrategien entwickeln und nutzen (z. B. systematisch probieren) sowie Zusammenhänge erkennen, nutzen und übertragen. 📄 Quelle: did_vl02_einf, Folie 24 (S.24)",
-  "source": "did_vl02_einf, Folie 24 (S.24, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b2-027",
-  "topic": "did_vl02_einf_problemloesen",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Welches Beispiel für eine Lösungsstrategie nennt die Problemlösen-Definition der Bildungsstandards?",
-  "options": [
-   "Systematisch probieren",
-   "Ergebnisse auswendig lernen",
-   "Aufgaben abschreiben",
-   "Den Taschenrechner verwenden"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Als Beispiel für das Entwickeln und Nutzen von Lösungsstrategien nennt die Folie 'systematisch probieren'. 📄 Quelle: did_vl02_einf, Folie 24 (S.24)",
-  "source": "did_vl02_einf, Folie 24 (S.24, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b2-028",
-  "topic": "did_vl02_einf_zahlengitter",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Zahlengitter mit Startzahl 0, oberer Pluszahl +2 und linker Pluszahl +5: Welche Zielzahl (rechte untere Zahl) ergibt sich?",
-  "answer": 14,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Das abgebildete Zahlengitter hat die Werte 0-2-4 / 5-7-9 / 10-12-14; die rechte untere Zahl (Zielzahl) ist 14. 📄 Quelle: did_vl02_einf, Folie 25 (S.25)",
-  "source": "did_vl02_einf, Folie 25 (S.25, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b2-029",
-  "topic": "did_vl02_einf_zahlengitter",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Im abgebildeten Zahlengitter (Startzahl 0, Pluszahlen +2 und +5): Welche Zahl steht im mittleren Feld (Mittelzahl)?",
-  "answer": 7,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Das Zahlengitter zeigt 0-2-4 / 5-7-9 / 10-12-14; die mittlere Zahl (Mittelzahl) ist 7. 📄 Quelle: did_vl02_einf, Folie 25 (S.25)",
-  "source": "did_vl02_einf, Folie 25 (S.25, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b2-030",
-  "topic": "did_vl02_einf_zahlengitter",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Wie lautet die Aufgabenvorschrift des Zahlengitters laut Folie?",
-  "options": [
-   "Zunächst wird die Startzahl (hier: 0) in das linke obere Feld eingetragen.",
-   "In die benachbarten Felder schreibt man die um die linke bzw. um die obere Pluszahl vermehrte Zahl.",
-   "Die Startzahl wird in das rechte untere Feld eingetragen.",
-   "Die Verwendung zweier gleicher Pluszahlen ist verboten."
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Laut Aufgabenvorschrift wird die Startzahl in das linke obere Feld eingetragen und in die benachbarten Felder die um die linke bzw. obere Pluszahl vermehrte Zahl geschrieben. 📄 Quelle: did_vl02_einf, Folie 26 (S.26)",
-  "source": "did_vl02_einf, Folie 26 (S.26, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b2-031",
-  "topic": "did_vl02_einf_zahlengitter",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Bezeichnungen für die Felder im Zahlengitter nennt die Folie korrekt?",
-  "options": [
-   "Die rechte untere Zahl heißt Zielzahl.",
-   "Die mittlere Zahl heißt Mittelzahl.",
-   "Die übrigen Zahlen heißen Randzahlen.",
-   "Die linke obere Zahl heißt Zielzahl."
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Laut Folie: rechte untere Zahl = Zielzahl, mittlere = Mittelzahl, die anderen = Randzahlen. Die linke obere Zahl ist die Startzahl, nicht die Zielzahl. 📄 Quelle: did_vl02_einf, Folie 26 (S.26)",
-  "source": "did_vl02_einf, Folie 26 (S.26, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b2-032",
-  "topic": "did_vl02_einf_zahlengitter",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Was gilt laut Folie für die Wahl der Pluszahlen im Zahlengitter?",
-  "options": [
-   "Die Verwendung zweier gleicher Pluszahlen (+4; +4) ist ebenso möglich wie die der 0.",
-   "Es müssen immer zwei verschiedene Pluszahlen verwendet werden.",
-   "Die 0 darf nicht als Pluszahl verwendet werden.",
-   "Es ist nur eine einzige Pluszahl erlaubt."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie hält fest: Die Verwendung zweier gleicher Pluszahlen (+4; +4) ist ebenso möglich wie die der 0. 📄 Quelle: did_vl02_einf, Folie 26 (S.26)",
-  "source": "did_vl02_einf, Folie 26 (S.26, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b2-033",
-  "topic": "did_vl02_einf_zahlengitter",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Wie lautet die Aufgabenstellung im Zahlengitter-Beispiel aus Klasse 4?",
-  "options": [
-   "Finde möglichst viele Pluszahl-Paare, die zur Zielzahl 20 führen.",
-   "Finde die Startzahl zu gegebener Zielzahl 20.",
-   "Berechne die Zielzahl bei Startzahl 20.",
-   "Ordne die Randzahlen der Größe nach."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Klasse-4-Aufgabe lautet: Finde möglichst viele Pluszahl-Paare, die zur Zielzahl 20 führen. 📄 Quelle: did_vl02_einf, Folie 27 (S.27)",
-  "source": "did_vl02_einf, Folie 27 (S.27, Einführung)"
- },
- {
-  "id": "did_vl02_einf-b2-034",
-  "topic": "did_vl02_einf_zahlengitter",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Auf welche Zielzahl bezieht sich die Zahlengitter-Aufgabe aus Klasse 4?",
-  "answer": 20,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Die Klasse-4-Aufgabe fragt nach Pluszahl-Paaren, die zur Zielzahl 20 führen. 📄 Quelle: did_vl02_einf, Folie 27 (S.27)",
-  "source": "did_vl02_einf, Folie 27 (S.27, Einführung)"
- }
+  {
+    "id": "did_vl02_einf-b1-001",
+    "topic": "did_vl02_einf_grunderfahrungen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche drei Perspektiven bzw. Grunderfahrungen des Mathematiklernens nennt Winter?",
+    "options": [
+      "Perspektive von Mathematik als nützliche, brauchbare Disziplin",
+      "Perspektive der inneren Welt der Mathematik",
+      "Mathematik als Schule des Denkens",
+      "Mathematik als reines Rechentraining ohne Anwendungsbezug"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Winter unterscheidet drei Grunderfahrungen mit den zugeordneten Perspektiven: nützliche/brauchbare Disziplin, innere Welt der Mathematik und Mathematik als Schule des Denkens. 📄 Quelle: did_vl02_einf, Folie 4 (S.4)",
+    "source": "did_vl02_einf, Folie 4 (S.4, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b1-002",
+    "topic": "did_vl02_einf_grunderfahrungen",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Die Grunderfahrung, 'Erscheinungen der Welt um uns ... in einer spezifischen Art wahrzunehmen und zu verstehen', entspricht welcher Perspektive?",
+    "options": [
+      "Perspektive von Mathematik als nützliche, brauchbare Disziplin",
+      "Perspektive der inneren Welt der Mathematik",
+      "Mathematik als Schule des Denkens",
+      "Perspektive der historischen Entwicklung der Mathematik"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Das Wahrnehmen und Verstehen der Erscheinungen der Welt wird der Perspektive von Mathematik als nützliche, brauchbare Disziplin zugeordnet. 📄 Quelle: did_vl02_einf, Folie 4 (S.4)",
+    "source": "did_vl02_einf, Folie 4 (S.4, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b1-003",
+    "topic": "did_vl02_einf_grunderfahrungen",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Die Grunderfahrung, mathematische Gegenstände 'als eine deduktiv geordnete Welt eigener Art kennen zu lernen und zu begreifen', entspricht welcher Perspektive?",
+    "options": [
+      "Perspektive der inneren Welt der Mathematik",
+      "Perspektive von Mathematik als nützliche, brauchbare Disziplin",
+      "Mathematik als Schule des Denkens",
+      "Perspektive der Anwendung in Natur und Technik"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Das Kennenlernen einer deduktiv geordneten Welt eigener Art wird der Perspektive der inneren Welt der Mathematik zugeordnet. 📄 Quelle: did_vl02_einf, Folie 4 (S.4)",
+    "source": "did_vl02_einf, Folie 4 (S.4, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b1-004",
+    "topic": "did_vl02_einf_grunderfahrungen",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Die Grunderfahrung, in der Auseinandersetzung mit Aufgaben Problemlösefähigkeiten (heuristische Fähigkeiten) zu erwerben, wird zusammengefasst als ...",
+    "options": [
+      "Mathematik als Schule des Denkens",
+      "Perspektive der inneren Welt der Mathematik",
+      "Perspektive von Mathematik als nützliche, brauchbare Disziplin",
+      "Mathematik als Kulturtechnik"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Der Erwerb von Problemlöse- und heuristischen Fähigkeiten wird als 'Mathematik als Schule des Denkens' bezeichnet. 📄 Quelle: did_vl02_einf, Folie 4 (S.4)",
+    "source": "did_vl02_einf, Folie 4 (S.4, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b1-005",
+    "topic": "did_vl02_einf_aufgabe_unterricht",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Zum Konzept 'Eine Aufgabenstellung – zwei Arten von Unterricht' werden zwei Lehrer-Impulse zu denselben Aufgabenpärchen vorgestellt. Welche Aussagen sind korrekt?",
+    "options": [
+      "Impuls (1): 'Bitte lösen, wir vergleichen dann kurz und dann habe ich noch mehr solcher Aufgaben für Euch!'",
+      "Impuls (2): 'Addiert in jedem Aufgabenpärchen die beiden Ergebnisse! – Was fällt euch dabei auf?'",
+      "Beide Impulse gehen von derselben Aufgabenstellung (denselben Aufgabenpärchen) aus",
+      "Impuls (2) fordert die Lernenden auf, möglichst schnell viele weitere Päckchen zu rechnen"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Die Folie zeigt dieselben Aufgabenpärchen mit zwei unterschiedlichen Lehrer-Impulsen: (1) Aufgaben lösen und weitere üben, (2) die beiden Ergebnisse addieren und Auffälligkeiten entdecken. 📄 Quelle: did_vl02_einf, Folie 5 (S.5)",
+    "source": "did_vl02_einf, Folie 5 (S.5, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b1-006",
+    "topic": "did_vl02_einf_aufgabe_unterricht",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Was ist die didaktische Grundidee des Konzepts 'Eine Aufgabenstellung – zwei Arten von Unterricht'?",
+    "options": [
+      "Dieselbe Aufgabenstellung kann zu zwei unterschiedlichen Arten von Unterricht führen",
+      "Für jede Kompetenz braucht es eine eigene, andere Aufgabenstellung",
+      "Nur offene Aufgaben ohne festes Ergebnis eignen sich für guten Unterricht",
+      "Aufgaben sollten stets nur einzeln und nie in Pärchen gestellt werden"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Der Titel und Aufbau der Folie machen deutlich: eine einzige Aufgabenstellung kann – je nach Impuls – zu zwei verschiedenen Arten von Unterricht führen. 📄 Quelle: did_vl02_einf, Folie 5 (S.5)",
+    "source": "did_vl02_einf, Folie 5 (S.5, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b1-007",
+    "topic": "did_vl02_einf_kommunikation",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Berechne für das Aufgabenpärchen a): (4000 + 2) + (4000 - 2). Welche Summe ergibt sich?",
+    "answer": 8000,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "(4000 + 2) + (4000 - 2) = 4002 + 3998 = 8000; die Folie gibt für a) das Ergebnis 8000 an. 📄 Quelle: did_vl02_einf, Folie 6 (S.6)",
+    "source": "did_vl02_einf, Folie 6 (S.6, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b1-008",
+    "topic": "did_vl02_einf_kommunikation",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche der folgenden angegebenen Summen der Aufgabenpärchen sind korrekt?",
+    "options": [
+      "a) ergibt 8000",
+      "b) ergibt 2000",
+      "d) ergibt 500",
+      "e) ergibt 3000"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Die Folie nennt die Summen: a) 8000, b) 2000, c) 1000, d) 500, e) 4000. e) ergibt 4000, nicht 3000. 📄 Quelle: did_vl02_einf, Folie 6 (S.6)",
+    "source": "did_vl02_einf, Folie 6 (S.6, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b1-009",
+    "topic": "did_vl02_einf_kommunikation",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welche allgemeine mathematische Kompetenz wird durch die Leitfragen 'Was fällt den Lernenden an diesen Ergebnissen auf? ... Welche Regelmäßigkeit, welches Muster verbindet sie?' angesprochen?",
+    "options": [
+      "Kommunikation",
+      "Problemlösen",
+      "Argumentieren",
+      "Darstellen"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie ordnet diese Leitfragen ausdrücklich der Kompetenz KOMMUNIKATION zu. 📄 Quelle: did_vl02_einf, Folie 6 (S.6)",
+    "source": "did_vl02_einf, Folie 6 (S.6, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b1-010",
+    "topic": "did_vl02_einf_problemloesen",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wie lautet die 'Entdeckung' zu den Aufgabenpärchen der Form (a + b) + (a − b)?",
+    "options": [
+      "Die Summe der beiden Ergebnisse ist das Doppelte der jeweils ersten Zahl",
+      "Die Summe der beiden Ergebnisse ist das Doppelte der jeweils zweiten Zahl",
+      "Die Summe der beiden Ergebnisse ist die Hälfte der jeweils ersten Zahl",
+      "Die Summe der beiden Ergebnisse ist gleich der jeweils ersten Zahl"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Entdeckung lautet: 'Summe der beiden Ergebnisse ist das Doppelte der jeweils ersten Zahl.' 📄 Quelle: did_vl02_einf, Folie 7 (S.7)",
+    "source": "did_vl02_einf, Folie 7 (S.7, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b1-011",
+    "topic": "did_vl02_einf_problemloesen",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Welche allgemeine mathematische Kompetenz wird mit der Entdeckung des Musters verbunden?",
+    "options": [
+      "Problemlösen",
+      "Kommunikation",
+      "Darstellen",
+      "Argumentieren"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie ordnet die Entdeckung des Musters der Kompetenz PROBLEMLÖSEN zu. 📄 Quelle: did_vl02_einf, Folie 7 (S.7)",
+    "source": "did_vl02_einf, Folie 7 (S.7, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b1-012",
+    "topic": "did_vl02_einf_problemloesen",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Laut der Entdeckung ist die Summe der beiden Ergebnisse das Doppelte der jeweils ersten Zahl. Wie groß ist demnach die Summe beim Pärchen b) mit der ersten Zahl 1000?",
+    "answer": 2000,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Das Doppelte der ersten Zahl 1000 ist 2000; die Folie gibt für b) ebenfalls 2000 an. 📄 Quelle: did_vl02_einf, Folie 7 (S.7)",
+    "source": "did_vl02_einf, Folie 7 (S.7, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b1-013",
+    "topic": "did_vl02_einf_argumentieren_darstellen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Ein Sachverhalt wird 'durch ARGUMENTE erklärt und von einer geeigneten DARSTELLUNGSFORM begleitet'. Welche Kompetenzen bzw. Aussagen gehören dazu?",
+    "options": [
+      "Argumentieren",
+      "Darstellen",
+      "Beispiel-Darstellung: 4000 + 2 + 4000 (in einer Zeile oder am Rechenstrich)",
+      "Auswendiglernen der Ergebnisse ohne Begründung"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Die Folie verbindet das Erklären durch Argumente und die geeignete Darstellungsform mit den Kompetenzen ARGUMENTIEREN und DARSTELLEN und nennt als Beispiel '4000 + 2 + 4000 (in einer Zeile oder am Rechenstrich)'. 📄 Quelle: did_vl02_einf, Folie 8 (S.8)",
+    "source": "did_vl02_einf, Folie 8 (S.8, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b1-014",
+    "topic": "did_vl02_einf_argumentieren_darstellen",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welche Darstellungsform wird beispielhaft für das Aufgabenpärchen (4000 + 2) + (4000 − 2) genannt?",
+    "options": [
+      "4000 + 2 + 4000 (in einer Zeile oder am Rechenstrich)",
+      "Ein Balkendiagramm der fünf Ergebnisse",
+      "Eine Stellenwerttafel bis zur Zehntausenderstelle",
+      "Ein Koordinatensystem mit eingetragenen Punkten"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Als geeignete Darstellungsform nennt die Folie: '4000 + 2 + 4000 (in einer Zeile oder am Rechenstrich)'. 📄 Quelle: did_vl02_einf, Folie 8 (S.8)",
+    "source": "did_vl02_einf, Folie 8 (S.8, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b1-015",
+    "topic": "did_vl02_einf_struktureinsicht",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Wenn Schüler auf Basis des erkannten Musters ähnliche Aufgabenpärchen erfinden (Kontrollmöglichkeit!), was wird dadurch gefördert?",
+    "options": [
+      "Struktureinsicht",
+      "Problemlösefähigkeit",
+      "Kreativität",
+      "Reine Rechengeschwindigkeit"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Das Erfinden ähnlicher Aufgabenpärchen fördert laut Folie Struktureinsicht, Problemlösefähigkeit und Kreativität. 📄 Quelle: did_vl02_einf, Folie 9 (S.9)",
+    "source": "did_vl02_einf, Folie 9 (S.9, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b1-016",
+    "topic": "did_vl02_einf_struktureinsicht",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Welche vorgegebene Zahl wird als Beispiel genannt, zu der Schüler passende Aufgabenpärchen erfinden sollen?",
+    "options": [
+      "280",
+      "281",
+      "250",
+      "2000"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie nennt als Beispiel für eine vorgegebene Zahl 280. 📄 Quelle: did_vl02_einf, Folie 9 (S.9)",
+    "source": "did_vl02_einf, Folie 9 (S.9, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b1-017",
+    "topic": "did_vl02_einf_verallgemeinern",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Die Herausforderung 'Was passiert, wenn die vorgegebene Zahl ungerade ist (z.B. 281)?' führt zu ...",
+    "options": [
+      "einer Verallgemeinerung über das Schulbuch hinaus",
+      "dem Abbruch der Aufgabe, da keine Lösung existiert",
+      "der Rückkehr zu reinem Kopfrechnen",
+      "einer Reduktion auf nur gerade Zahlen"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie schließt: '⇒ Verallgemeinerung über das Schulbuch hinaus'. 📄 Quelle: did_vl02_einf, Folie 10 (S.10)",
+    "source": "did_vl02_einf, Folie 10 (S.10, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b1-018",
+    "topic": "did_vl02_einf_verallgemeinern",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Welche ungerade Beispielzahl wird als Herausforderung genannt?",
+    "options": [
+      "281",
+      "280",
+      "250",
+      "199"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Als ungerade Beispielzahl nennt die Folie 281. 📄 Quelle: did_vl02_einf, Folie 10 (S.10)",
+    "source": "did_vl02_einf, Folie 10 (S.10, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b1-019",
+    "topic": "did_vl02_einf_allg_kompetenzen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Die zweite Art des Unterrichts bietet 'bewusste Anlässe zur Entwicklung allgemeiner mathematischer Kompetenzen'. Welche werden genannt?",
+    "options": [
+      "Probleme mathematisch lösen",
+      "Kommunizieren",
+      "Argumentieren",
+      "Zusammenhänge herstellen, Reflektieren, Verallgemeinern",
+      "Rechenregeln auswendig lernen"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Die Folie nennt als allgemeine mathematische Kompetenzen: Probleme mathematisch lösen, Kommunizieren, Argumentieren und Zusammenhänge herstellen, Reflektieren, Verallgemeinern. 📄 Quelle: did_vl02_einf, Folie 11 (S.11)",
+    "source": "did_vl02_einf, Folie 11 (S.11, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b1-020",
+    "topic": "did_vl02_einf_allg_kompetenzen",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Was gilt für beide Arten (Stunden) des Unterrichts gemeinsam?",
+    "options": [
+      "Entwicklung und Festigung inhaltlicher mathematischer Fertigkeiten und Fähigkeiten",
+      "Ausschließlich die Entwicklung allgemeiner Kompetenzen ohne inhaltliche Ziele",
+      "Verzicht auf jegliche Aufgabenstellung",
+      "Nur die Förderung von Kreativität, nicht von Fertigkeiten"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie hält fest: 'In beiden Stunden: Entwicklung und Festigung inhaltlicher mathematischer Fertigkeiten und Fähigkeiten.' 📄 Quelle: did_vl02_einf, Folie 11 (S.11)",
+    "source": "did_vl02_einf, Folie 11 (S.11, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b1-021",
+    "topic": "did_vl02_einf_bildungsstandards",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aussagen zur Einführung der Bildungsstandards treffen zu?",
+    "options": [
+      "Als Reaktion auf PISA beschloss die KMK (2003) die Einführung von Bildungsstandards",
+      "2001/2002 zeigte IGLU bei Viertklässlern Defizite bei Grundschülern auf nationaler Ebene",
+      "Orientierung an anderen Staaten, in denen es schon lange Bildungsstandards gibt",
+      "Bildungsstandards wurden ohne jeden internationalen Bezug entwickelt"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Die Folie nennt: KMK-Beschluss 2003 als Reaktion auf PISA, IGLU-Defizite bei Viertklässlern 2001/2002 sowie die Orientierung an anderen Staaten mit langjährigen Bildungsstandards. 📄 Quelle: did_vl02_einf, Folie 12 (S.12)",
+    "source": "did_vl02_einf, Folie 12 (S.12, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b1-022",
+    "topic": "did_vl02_einf_bildungsstandards",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "In welchem Jahr beschloss die KMK die Einführung von Bildungsstandards?",
+    "answer": 2003,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Die Folie nennt den KMK-Beschluss zur Einführung von Bildungsstandards für das Jahr 2003. 📄 Quelle: did_vl02_einf, Folie 12 (S.12)",
+    "source": "did_vl02_einf, Folie 12 (S.12, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b1-023",
+    "topic": "did_vl02_einf_bildungsstandards",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Für welche Abschlüsse gibt es Bildungsstandards?",
+    "options": [
+      "Grundschulabschluss am Ende der 4. Klasse",
+      "Hauptschulabschluss am Ende der 9. Klasse",
+      "Mittlerer Bildungsabschluss und Abiturstandards",
+      "Kindergartenabschluss"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Die Folie nennt Standards für den Grundschulabschluss (Ende 4. Klasse), den Hauptschulabschluss (Ende 9. Klasse) sowie für den mittleren Bildungsabschluss und Abiturstandards. 📄 Quelle: did_vl02_einf, Folie 12 (S.12)",
+    "source": "did_vl02_einf, Folie 12 (S.12, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b1-024",
+    "topic": "did_vl02_einf_zeitreise",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Stationen enthält die 'Zeitreise' der Mathematikdidaktik (von damals nach heute)?",
+    "options": [
+      "Wilhelm von Humboldt: Bildungsideale",
+      "Felix Klein: Meraner Reform",
+      "Neue Mathematik ('New Maths Bewegung')",
+      "Bologna-Reform der Hochschulen"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Die Zeitreise umfasst u.a. Wilhelm von Humboldt (Bildungsideale), Felix Klein (Meraner Reform) und die Neue Mathematik ('New Maths Bewegung'); die Bologna-Reform ist nicht genannt. 📄 Quelle: did_vl02_einf, Folie 13 (S.13)",
+    "source": "did_vl02_einf, Folie 13 (S.13, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b1-025",
+    "topic": "did_vl02_einf_zeitreise",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Welche Reform wird in der Zeitreise mit Felix Klein verbunden?",
+    "options": [
+      "Meraner Reform",
+      "New Maths Bewegung",
+      "Bologna-Reform",
+      "Beziehungshaltigkeit"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie ordnet Felix Klein die Meraner Reform zu. 📄 Quelle: did_vl02_einf, Folie 13 (S.13)",
+    "source": "did_vl02_einf, Folie 13 (S.13, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b1-026",
+    "topic": "did_vl02_einf_zeitreise",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welche Station steht in der 'Zeitreise' der Mathematikdidaktik (von damals nach heute) ganz oben, also bei 'heute'?",
+    "options": [
+      "Bildungsstandards und Kompetenzorientierung",
+      "Wilhelm von Humboldt: Bildungsideale",
+      "TIMMS und der 'PISA-Schock'",
+      "Neue Mathematik ('New Maths Bewegung')"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "An der Spitze der Zeitreise ('heute') steht 'Bildungsstandards und Kompetenzorientierung'; ganz unten ('damals') steht Wilhelm von Humboldt. 📄 Quelle: did_vl02_einf, Folie 13 (S.13)",
+    "source": "did_vl02_einf, Folie 13 (S.13, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b1-027",
+    "topic": "did_vl02_einf_zeitreise",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Wilhelm von Humboldt wird in der Zeitreise verbunden mit ...",
+    "options": [
+      "Bildungsideale",
+      "Beziehungshaltigkeit",
+      "Meraner Reform",
+      "New Maths Bewegung"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie ordnet Wilhelm von Humboldt die 'Bildungsideale' zu (Station 'damals'). 📄 Quelle: did_vl02_einf, Folie 13 (S.13)",
+    "source": "did_vl02_einf, Folie 13 (S.13, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b1-028",
+    "topic": "did_vl02_einf_zeitreise",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Hans Freudenthal wird in der Zeitreise verbunden mit ...",
+    "options": [
+      "Beziehungshaltigkeit",
+      "Bildungsideale",
+      "Meraner Reform",
+      "Mathematik für das praktische Leben"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie ordnet Hans Freudenthal die 'Beziehungshaltigkeit' zu. 📄 Quelle: did_vl02_einf, Folie 13 (S.13)",
+    "source": "did_vl02_einf, Folie 13 (S.13, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b1-029",
+    "topic": "did_vl02_einf_new_maths",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Im Kontext der Neuen Mathematik ('New Maths Bewegung') erschien 1970 ein SPIEGEL-Titel. Wie lautete dessen Schlagzeile?",
+    "options": [
+      "Macht Mengenlehre krank?",
+      "Rechnen ohne Grenzen",
+      "Die neue Schule des Denkens",
+      "Zahlen für das praktische Leben"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie zeigt den SPIEGEL-Titel 'Macht Mengenlehre krank?' als Zeitdokument zur Neuen Mathematik / 'New Maths Bewegung'. 📄 Quelle: did_vl02_einf, Folie 14 (S.14)",
+    "source": "did_vl02_einf, Folie 14 (S.14, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b2-001",
+    "topic": "did_vl02_einf_bildungsstandards",
+    "difficulty": 1,
+    "type": "multi",
+    "question": "Welche Aussagen treffen auf Bildungsstandards gemäß ihrer Definition zu?",
+    "options": [
+      "Sie beschreiben fachbezogene Kompetenzen.",
+      "Die beschriebenen Kompetenzen sollen die Schüler bis zum jeweiligen Abschluss erwerben.",
+      "Sie beschreiben fachunabhängige Schlüsselqualifikationen.",
+      "Sie legen konkrete Unterrichtsmethoden für jede Stunde fest."
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Laut Folie beschreiben Bildungsstandards fachbezogene Kompetenzen, die Schüler bis zum jeweiligen Abschluss erwerben sollen. 📄 Quelle: did_vl02_einf, Folie 15 (S.15)",
+    "source": "did_vl02_einf, Folie 15 (S.15, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b2-002",
+    "topic": "did_vl02_einf_bildungsstandards",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Bis zu welchem Zeitpunkt sollen die in den Bildungsstandards beschriebenen Kompetenzen erworben werden?",
+    "options": [
+      "Bis zum jeweiligen Abschluss",
+      "Bis zum Ende jedes Schuljahres",
+      "Bis zur Einschulung",
+      "Bis zum Ende jeder Unterrichtsstunde"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie definiert Bildungsstandards als fachbezogene Kompetenzen, die Schüler bis zum jeweiligen Abschluss erwerben sollen. 📄 Quelle: did_vl02_einf, Folie 15 (S.15)",
+    "source": "did_vl02_einf, Folie 15 (S.15, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b2-003",
+    "topic": "did_vl02_einf_kompetenzen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Was sind Kompetenzen nach Weinert (2001)?",
+    "options": [
+      "Die bei Individuen verfügbaren oder durch sie zu erlernenden kognitiven Fähigkeiten und Fertigkeiten, um bestimmte Probleme zu lösen",
+      "Die damit verbundenen Bereitschaften und Fähigkeiten, um die Problemlösungen in variablen Situationen erfolgreich und verantwortungsvoll nutzen zu können",
+      "Ausschließlich angeborene Begabungen, die nicht erlernbar sind",
+      "Rein motorische Fertigkeiten ohne kognitiven Anteil"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Weinert (2001) definiert Kompetenzen als verfügbare oder erlernbare kognitive Fähigkeiten und Fertigkeiten zum Problemlösen sowie die verbundenen Bereitschaften und Fähigkeiten, Problemlösungen in variablen Situationen erfolgreich und verantwortungsvoll zu nutzen. 📄 Quelle: did_vl02_einf, Folie 16 (S.16)",
+    "source": "did_vl02_einf, Folie 16 (S.16, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b2-004",
+    "topic": "did_vl02_einf_kompetenzen",
+    "difficulty": 2,
+    "type": "single",
+    "question": "In welchen Situationen sollen Kompetenzen nach Weinert (2001) die erfolgreiche und verantwortungsvolle Nutzung von Problemlösungen ermöglichen?",
+    "options": [
+      "In variablen Situationen",
+      "Nur in vorab bekannten Situationen",
+      "Ausschließlich in Prüfungssituationen",
+      "Nur in alltäglichen Routinesituationen"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Laut Weinert-Definition sollen die Problemlösungen in variablen Situationen erfolgreich und verantwortungsvoll genutzt werden können. 📄 Quelle: did_vl02_einf, Folie 16 (S.16)",
+    "source": "did_vl02_einf, Folie 16 (S.16, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b2-005",
+    "topic": "did_vl02_einf_kompetenzen",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Auf welchen Autor bzw. welches Jahr geht die zitierte Kompetenzdefinition zurück?",
+    "options": [
+      "Weinert, 2001",
+      "Winter, 1995",
+      "Weinert, 2003",
+      "Klein, 1905"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie zitiert die Kompetenzdefinition nach Weinert, 2001. 📄 Quelle: did_vl02_einf, Folie 16 (S.16)",
+    "source": "did_vl02_einf, Folie 16 (S.16, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b2-006",
+    "topic": "did_vl02_einf_bildungsstandards",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aussagen über Bildungsstandards treffen zu?",
+    "options": [
+      "Bildungsstandards sind in ihrer Substanz Leistungsstandards.",
+      "Bildungsstandards haben eine Entwicklungs- und Überprüfungsfunktion.",
+      "Bildungsstandards sind Unterrichtsstandards.",
+      "Bildungsstandards sind in ihrer Substanz Unterrichtsstandards."
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Die Folie hält fest: Bildungsstandards sind in ihrer Substanz Leistungsstandards, sie sind KEINE Unterrichtsstandards und haben eine Entwicklungs- und Überprüfungsfunktion. 📄 Quelle: did_vl02_einf, Folie 17 (S.17)",
+    "source": "did_vl02_einf, Folie 17 (S.17, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b2-007",
+    "topic": "did_vl02_einf_bildungsstandards",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Bildungsstandards sind ausdrücklich KEINE ...?",
+    "options": [
+      "Unterrichtsstandards",
+      "Leistungsstandards",
+      "Kompetenzmodelle",
+      "Bildungsziele"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie betont: Bildungsstandards sind keine Unterrichtsstandards. 📄 Quelle: did_vl02_einf, Folie 17 (S.17)",
+    "source": "did_vl02_einf, Folie 17 (S.17, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b2-008",
+    "topic": "did_vl02_einf_bildungsstandards",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Welche Funktion haben Bildungsstandards?",
+    "options": [
+      "Entwicklungs- und Überprüfungsfunktion",
+      "Reine Selektionsfunktion",
+      "Ausschließlich Zertifizierungsfunktion",
+      "Finanzierungsfunktion"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie nennt die Entwicklungs- und Überprüfungsfunktion der Bildungsstandards. 📄 Quelle: did_vl02_einf, Folie 17 (S.17)",
+    "source": "did_vl02_einf, Folie 17 (S.17, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b2-009",
+    "topic": "did_vl02_einf_kompetenzen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Wie werden Kompetenzen im Rahmen der Bildungsstandards ausdifferenziert und konkretisiert?",
+    "options": [
+      "Kompetenzanforderungen werden in Kompetenzmodellen ausdifferenziert.",
+      "Solche Modelle beschreiben unterschiedliche Facetten und Niveaustufen.",
+      "Kompetenzen, ihre Facetten und Stufen werden durch Aufgaben konkretisiert.",
+      "Kompetenzen werden ausschließlich durch Noten konkretisiert."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Laut Folie werden Kompetenzanforderungen in Kompetenzmodellen ausdifferenziert, die Modelle beschreiben unterschiedliche Facetten und Niveaustufen, und die Konkretisierung erfolgt durch Aufgaben. 📄 Quelle: did_vl02_einf, Folie 18 (S.18)",
+    "source": "did_vl02_einf, Folie 18 (S.18, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b2-010",
+    "topic": "did_vl02_einf_kompetenzen",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Wodurch werden Kompetenzen, ihre Facetten und Stufen konkretisiert?",
+    "options": [
+      "Durch Aufgaben",
+      "Durch Lehrpläne",
+      "Durch Schulbücher",
+      "Durch Zeugnisse"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie hält fest: Konkretisiert werden Kompetenzen, ihre Facetten und Stufen durch Aufgaben. 📄 Quelle: did_vl02_einf, Folie 18 (S.18)",
+    "source": "did_vl02_einf, Folie 18 (S.18, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b2-011",
+    "topic": "did_vl02_einf_bildungsstandards",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche zwei Erwartungen an Bildungsstandards werden genannt?",
+    "options": [
+      "Orientierung und Evaluation",
+      "Basis für Leistungsüberprüfungen",
+      "Finanzierung von Schulen",
+      "Auswahl von Lehrkräften"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Die Folie nennt zwei Erwartungen: 1) Orientierung und Evaluation, 2) Basis für Leistungsüberprüfungen. 📄 Quelle: did_vl02_einf, Folie 19 (S.19)",
+    "source": "did_vl02_einf, Folie 19 (S.19, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b2-012",
+    "topic": "did_vl02_einf_bildungsstandards",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Was ist der primäre Ort der konkreten Umsetzung der Bildungsstandards?",
+    "options": [
+      "Der Unterricht",
+      "Die Schulverwaltung",
+      "Die Kultusministerkonferenz",
+      "Das Elternhaus"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie hält fest: Der primäre Ort ist der Unterricht. 📄 Quelle: did_vl02_einf, Folie 19 (S.19)",
+    "source": "did_vl02_einf, Folie 19 (S.19, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b2-013",
+    "topic": "did_vl02_einf_bildungsstandards",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Was bedeutet die konkrete Umsetzung der Bildungsstandards?",
+    "options": [
+      "Qualitätsentwicklung im Unterricht",
+      "Standardisierung der Schulgebäude",
+      "Reduktion der Unterrichtszeit",
+      "Abschaffung von Prüfungen"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie formuliert: Konkrete Umsetzung der Bildungsstandards bedeutet Qualitätsentwicklung im Unterricht. 📄 Quelle: did_vl02_einf, Folie 19 (S.19)",
+    "source": "did_vl02_einf, Folie 19 (S.19, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b2-014",
+    "topic": "did_vl02_einf_konzeption_grundschule",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Aus welchen drei Dimensionen besteht die Konzeption der Mathematik-Standards für die Grundschule?",
+    "options": [
+      "Prozess-Dimension",
+      "Inhalts-Dimension",
+      "Anspruchs-Dimension",
+      "Zeit-Dimension"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Die Folie nennt drei Dimensionen: Prozess-, Inhalts- und Anspruchs-Dimension. 📄 Quelle: did_vl02_einf, Folie 20 (S.20)",
+    "source": "did_vl02_einf, Folie 20 (S.20, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b2-015",
+    "topic": "did_vl02_einf_konzeption_grundschule",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche der folgenden gehören zu den allgemeinen mathematischen Kompetenzen der Grundschul-Standards?",
+    "options": [
+      "Mathematisch argumentieren",
+      "Probleme lösen",
+      "Modellieren",
+      "Rechenfertigkeiten automatisieren"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Als mathematische Kompetenzen nennt die Folie: Mathematisch argumentieren, Probleme lösen, Modellieren, Darstellen und Kommunizieren. 'Rechenfertigkeiten automatisieren' gehört nicht dazu. 📄 Quelle: did_vl02_einf, Folie 20 (S.20)",
+    "source": "did_vl02_einf, Folie 20 (S.20, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b2-016",
+    "topic": "did_vl02_einf_konzeption_grundschule",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche der folgenden sind Leitideen der Grundschul-Standards im Fach Mathematik?",
+    "options": [
+      "Zahlen und Operationen",
+      "Raum und Form",
+      "Daten, Häufigkeit und Wahrscheinlichkeit",
+      "Grammatik und Rechtschreibung"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Die Folie nennt als Leitideen: Zahlen und Operationen, Größen und Messen, Raum und Form, Muster und Strukturen sowie Daten, Häufigkeit und Wahrscheinlichkeit. 'Grammatik und Rechtschreibung' ist keine Leitidee. 📄 Quelle: did_vl02_einf, Folie 20 (S.20)",
+    "source": "did_vl02_einf, Folie 20 (S.20, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b2-017",
+    "topic": "did_vl02_einf_konzeption_grundschule",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Anforderungsbereiche werden in der Konzeption der Grundschul-Standards (Mathematik) genannt?",
+    "options": [
+      "I. Reproduzieren",
+      "II. Zusammenhänge herstellen",
+      "III. Verallgemeinern und Reflektieren",
+      "IV. Auswendiglernen"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Die Folie nennt die Anforderungsbereiche I. Reproduzieren, II. Zusammenhänge herstellen und III. Verallgemeinern und Reflektieren. 📄 Quelle: did_vl02_einf, Folie 20 (S.20)",
+    "source": "did_vl02_einf, Folie 20 (S.20, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b2-018",
+    "topic": "did_vl02_einf_anforderungsbereiche",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Was erlauben die Anforderungsbereiche?",
+    "options": [
+      "Erfahrungsbasierte Einschätzungen von Aufgaben",
+      "Einschätzungen hinsichtlich Angemessenheit, Qualität und Komplexität der von Lernenden zu erbringenden kognitiven Leistungen",
+      "Eine exakte Messung der Intelligenz der Lernenden",
+      "Die finanzielle Bewertung von Schulen"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Anforderungsbereiche erlauben erfahrungsbasierte Einschätzungen von Aufgaben hinsichtlich Angemessenheit, Qualität und Komplexität der von Lernenden zu erbringenden kognitiven Leistungen. 📄 Quelle: did_vl02_einf, Folie 21 (S.21)",
+    "source": "did_vl02_einf, Folie 21 (S.21, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b2-019",
+    "topic": "did_vl02_einf_anforderungsbereiche",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Die Anforderungsbereiche erlauben Einschätzungen von Aufgaben hinsichtlich Angemessenheit, Qualität und ...?",
+    "options": [
+      "Komplexität der von Lernenden zu erbringenden kognitiven Leistungen",
+      "Länge der Bearbeitungszeit",
+      "Anzahl der Rechenschritte",
+      "Kosten der Materialien"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Laut Folie geht es um Angemessenheit, Qualität und Komplexität der von Lernenden zu erbringenden kognitiven Leistungen. 📄 Quelle: did_vl02_einf, Folie 21 (S.21)",
+    "source": "did_vl02_einf, Folie 21 (S.21, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b2-020",
+    "topic": "did_vl02_einf_anforderungsbereiche",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welche Beschreibung passt laut Tabelle zu Anforderungsbereich I 'Reproduzieren'?",
+    "options": [
+      "Das Lösen der Aufgabe erfordert Grundwissen und das Ausführen von Routinetätigkeiten.",
+      "Das Lösen der Aufgabe erfordert das Erkennen und Nutzen von Zusammenhängen.",
+      "Das Lösen der Aufgabe erfordert komplexe Tätigkeiten wie Strukturieren und Verallgemeinern.",
+      "Das Lösen der Aufgabe erfordert keinerlei Vorwissen."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Anforderungsbereich I 'Reproduzieren': Das Lösen der Aufgabe erfordert Grundwissen und das Ausführen von Routinetätigkeiten. 📄 Quelle: did_vl02_einf, Folie 22 (S.22)",
+    "source": "did_vl02_einf, Folie 22 (S.22, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b2-021",
+    "topic": "did_vl02_einf_anforderungsbereiche",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welcher Anforderungsbereich erfordert laut Tabelle das Erkennen und Nutzen von Zusammenhängen?",
+    "options": [
+      "Anforderungsbereich II: Zusammenhänge herstellen",
+      "Anforderungsbereich I: Reproduzieren",
+      "Anforderungsbereich III: Verallgemeinern und Reflektieren",
+      "Keiner der Anforderungsbereiche"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Anforderungsbereich II 'Zusammenhänge herstellen': Das Lösen der Aufgabe erfordert das Erkennen und Nutzen von Zusammenhängen. 📄 Quelle: did_vl02_einf, Folie 22 (S.22)",
+    "source": "did_vl02_einf, Folie 22 (S.22, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b2-022",
+    "topic": "did_vl02_einf_anforderungsbereiche",
+    "difficulty": 3,
+    "type": "multi",
+    "question": "Welche Tätigkeiten kennzeichnen laut Tabelle Anforderungsbereich III 'Verallgemeinern und Reflektieren'?",
+    "options": [
+      "Strukturieren",
+      "Entwickeln von Strategien",
+      "Beurteilen und Verallgemeinern",
+      "Ausführen von Routinetätigkeiten"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Anforderungsbereich III erfordert komplexe Tätigkeiten wie Strukturieren, Entwickeln von Strategien, Beurteilen und Verallgemeinern. Das Ausführen von Routinetätigkeiten gehört zu AB I. 📄 Quelle: did_vl02_einf, Folie 22 (S.22)",
+    "source": "did_vl02_einf, Folie 22 (S.22, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b2-023",
+    "topic": "did_vl02_einf_anforderungsbereiche",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Aus welcher Quelle stammt die Tabelle der Anforderungsbereiche (I Reproduzieren, II Zusammenhänge herstellen, III Verallgemeinern und Reflektieren)?",
+    "options": [
+      "Walther et al. (2007), Bildungsstandards in der Grundschule, S. 12",
+      "Weinert (2001)",
+      "Winter (1995)",
+      "KMK (2003)"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie gibt als Quelle Walther et al. (2007) Bildungsstandards in der Grundschule, S. 12 an. 📄 Quelle: did_vl02_einf, Folie 22 (S.22)",
+    "source": "did_vl02_einf, Folie 22 (S.22, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b2-024",
+    "topic": "did_vl02_einf_konzeption_grundschule",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche gehören zu den allgemeinen mathematischen Kompetenzen (Prozessdimension)?",
+    "options": [
+      "Mathematisch argumentieren",
+      "Darstellen",
+      "Kommunizieren",
+      "Größen und Messen"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Zur Prozessdimension gehören: Mathematisch argumentieren, Probleme lösen, Modellieren, Darstellen, Kommunizieren. 'Größen und Messen' ist eine Leitidee (Inhaltsdimension). 📄 Quelle: did_vl02_einf, Folie 23 (S.23)",
+    "source": "did_vl02_einf, Folie 23 (S.23, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b2-025",
+    "topic": "did_vl02_einf_konzeption_grundschule",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Wie viele allgemeine mathematische Kompetenzen (Prozessdimension) umfassen die Grundschul-Standards?",
+    "options": [
+      "Fünf",
+      "Drei",
+      "Vier",
+      "Sechs"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie listet fünf: Mathematisch argumentieren, Probleme lösen, Modellieren, Darstellen, Kommunizieren. 📄 Quelle: did_vl02_einf, Folie 23 (S.23)",
+    "source": "did_vl02_einf, Folie 23 (S.23, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b2-026",
+    "topic": "did_vl02_einf_problemloesen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Was umfasst 'Problemlösen' laut Definition in den Bildungsstandards?",
+    "options": [
+      "Mathematische Kenntnisse, Fertigkeiten und Fähigkeiten bei der Bearbeitung problemhaltiger Aufgaben anwenden",
+      "Lösungsstrategien entwickeln und nutzen (z. B. systematisch probieren)",
+      "Zusammenhänge erkennen, nutzen und auf ähnliche Sachverhalte übertragen",
+      "Formeln auswendig lernen und fehlerfrei wiedergeben"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Die Problemlösen-Definition umfasst: mathematische Kenntnisse/Fertigkeiten/Fähigkeiten anwenden, Lösungsstrategien entwickeln und nutzen (z. B. systematisch probieren) sowie Zusammenhänge erkennen, nutzen und übertragen. 📄 Quelle: did_vl02_einf, Folie 24 (S.24)",
+    "source": "did_vl02_einf, Folie 24 (S.24, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b2-027",
+    "topic": "did_vl02_einf_problemloesen",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Welches Beispiel für eine Lösungsstrategie nennt die Problemlösen-Definition der Bildungsstandards?",
+    "options": [
+      "Systematisch probieren",
+      "Ergebnisse auswendig lernen",
+      "Aufgaben abschreiben",
+      "Den Taschenrechner verwenden"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Als Beispiel für das Entwickeln und Nutzen von Lösungsstrategien nennt die Folie 'systematisch probieren'. 📄 Quelle: did_vl02_einf, Folie 24 (S.24)",
+    "source": "did_vl02_einf, Folie 24 (S.24, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b2-028",
+    "topic": "did_vl02_einf_zahlengitter",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Zahlengitter mit Startzahl 0, oberer Pluszahl +2 und linker Pluszahl +5: Welche Zielzahl (rechte untere Zahl) ergibt sich?",
+    "answer": 14,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Das abgebildete Zahlengitter hat die Werte 0-2-4 / 5-7-9 / 10-12-14; die rechte untere Zahl (Zielzahl) ist 14. 📄 Quelle: did_vl02_einf, Folie 25 (S.25)",
+    "source": "did_vl02_einf, Folie 25 (S.25, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b2-029",
+    "topic": "did_vl02_einf_zahlengitter",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "In einem 3×3-Zahlengitter wird die Startzahl (hier 0) in das linke obere Feld eingetragen; nach rechts wird die obere Pluszahl (+2), nach unten die linke Pluszahl (+5) addiert. Welche Zahl steht im mittleren Feld (Mittelzahl)?",
+    "answer": 7,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Das Zahlengitter zeigt 0-2-4 / 5-7-9 / 10-12-14; die mittlere Zahl (Mittelzahl) ist 7. 📄 Quelle: did_vl02_einf, Folie 25 (S.25)",
+    "source": "did_vl02_einf, Folie 25 (S.25, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b2-030",
+    "topic": "did_vl02_einf_zahlengitter",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Wie lautet die Aufgabenvorschrift (Konstruktionsregel) eines Zahlengitters?",
+    "options": [
+      "Zunächst wird die Startzahl (hier: 0) in das linke obere Feld eingetragen.",
+      "In die benachbarten Felder schreibt man die um die linke bzw. um die obere Pluszahl vermehrte Zahl.",
+      "Die Startzahl wird in das rechte untere Feld eingetragen.",
+      "Die Verwendung zweier gleicher Pluszahlen ist verboten."
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Laut Aufgabenvorschrift wird die Startzahl in das linke obere Feld eingetragen und in die benachbarten Felder die um die linke bzw. obere Pluszahl vermehrte Zahl geschrieben. 📄 Quelle: did_vl02_einf, Folie 26 (S.26)",
+    "source": "did_vl02_einf, Folie 26 (S.26, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b2-031",
+    "topic": "did_vl02_einf_zahlengitter",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Bezeichnungen für die Felder im Zahlengitter sind korrekt?",
+    "options": [
+      "Die rechte untere Zahl heißt Zielzahl.",
+      "Die mittlere Zahl heißt Mittelzahl.",
+      "Die übrigen Zahlen heißen Randzahlen.",
+      "Die linke obere Zahl heißt Zielzahl."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Laut Folie: rechte untere Zahl = Zielzahl, mittlere = Mittelzahl, die anderen = Randzahlen. Die linke obere Zahl ist die Startzahl, nicht die Zielzahl. 📄 Quelle: did_vl02_einf, Folie 26 (S.26)",
+    "source": "did_vl02_einf, Folie 26 (S.26, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b2-032",
+    "topic": "did_vl02_einf_zahlengitter",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Was gilt für die Wahl der Pluszahlen im Zahlengitter?",
+    "options": [
+      "Die Verwendung zweier gleicher Pluszahlen (+4; +4) ist ebenso möglich wie die der 0.",
+      "Es müssen immer zwei verschiedene Pluszahlen verwendet werden.",
+      "Die 0 darf nicht als Pluszahl verwendet werden.",
+      "Es ist nur eine einzige Pluszahl erlaubt."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie hält fest: Die Verwendung zweier gleicher Pluszahlen (+4; +4) ist ebenso möglich wie die der 0. 📄 Quelle: did_vl02_einf, Folie 26 (S.26)",
+    "source": "did_vl02_einf, Folie 26 (S.26, Einführung)"
+  },
+  {
+    "id": "did_vl02_einf-b2-033",
+    "topic": "did_vl02_einf_zahlengitter",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Wie lautet die Aufgabenstellung im Zahlengitter-Beispiel aus Klasse 4?",
+    "options": [
+      "Finde möglichst viele Pluszahl-Paare, die zur Zielzahl 20 führen.",
+      "Finde die Startzahl zu gegebener Zielzahl 20.",
+      "Berechne die Zielzahl bei Startzahl 20.",
+      "Ordne die Randzahlen der Größe nach."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Klasse-4-Aufgabe lautet: Finde möglichst viele Pluszahl-Paare, die zur Zielzahl 20 führen. 📄 Quelle: did_vl02_einf, Folie 27 (S.27)",
+    "source": "did_vl02_einf, Folie 27 (S.27, Einführung)"
+  }
 ]

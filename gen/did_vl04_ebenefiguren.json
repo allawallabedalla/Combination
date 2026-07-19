@@ -1,535 +1,535 @@
 [
- {
-  "id": "did_vl04_ebenefiguren-b1-001",
-  "topic": "did_vl04_ebenefiguren_polygone",
-  "difficulty": 1,
-  "type": "multi",
-  "question": "Welche Aussagen treffen laut Folie auf ein Polygon (Vieleck) zu?",
-  "options": [
-   "Es ist eine von Strecken begrenzte ebene Figur.",
-   "Die begrenzenden Strecken heißen Seiten.",
-   "Die gemeinsamen Punkte der Strecken heißen Ecken.",
-   "Es wird von Kreisbögen begrenzt."
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Ein Polygon (Vieleck) bezeichnet eine von Strecken begrenzte ebene Figur; diese Strecken heißen Seiten und ihre gemeinsamen Punkte heißen Ecken des Polygons. Kreisbögen kommen nicht vor. 📄 Quelle: did_vl04_ebenefiguren, Folie 5 (S.5)",
-  "source": "did_vl04_ebenefiguren, Folie 5 (S.5, 1.2 Ebene Figuren)"
- },
- {
-  "id": "did_vl04_ebenefiguren-b1-002",
-  "topic": "did_vl04_ebenefiguren_polygone",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Welches Wort wird auf der Folie als gleichbedeutend mit 'Polygon' genannt?",
-  "options": [
-   "Vieleck",
-   "Kreis",
-   "Körper",
-   "Gerade"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Auf der Folie heißt es: 'Ein Polygon oder auch Vieleck bezeichnet eine von Strecken begrenzte ebene Figur.' 📄 Quelle: did_vl04_ebenefiguren, Folie 5 (S.5)",
-  "source": "did_vl04_ebenefiguren, Folie 5 (S.5, 1.2 Ebene Figuren)"
- },
- {
-  "id": "did_vl04_ebenefiguren-b1-003",
-  "topic": "did_vl04_ebenefiguren_polygone",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Was bezeichnet man beim Polygon als die 'Seiten'?",
-  "options": [
-   "Die begrenzenden Strecken",
-   "Die Eckpunkte",
-   "Die Innenwinkel",
-   "Die Diagonalen"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Strecken, die das Polygon begrenzen, heißen Seiten; ihre gemeinsamen Punkte heißen Ecken. 📄 Quelle: did_vl04_ebenefiguren, Folie 5 (S.5)",
-  "source": "did_vl04_ebenefiguren, Folie 5 (S.5, 1.2 Ebene Figuren)"
- },
- {
-  "id": "did_vl04_ebenefiguren-b1-004",
-  "topic": "did_vl04_ebenefiguren_figuren_grundschule",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche ebenen Figuren werden auf der Arbeitsvorlage (Das Zahlenbuch 2) benannt?",
-  "options": [
-   "Kreis",
-   "Rechteck",
-   "Dreieck",
-   "Sechseck",
-   "Fünfeck"
-  ],
-  "correct": [
-   0,
-   1,
-   2,
-   3
-  ],
-  "explanation": "Auf der Vorlage werden Kreis, Rechteck, Dreieck, Quadrat und Sechseck benannt; ein Fünfeck ist nicht dabei. 📄 Quelle: did_vl04_ebenefiguren, Folie 6 (S.6)",
-  "source": "did_vl04_ebenefiguren, Folie 6 (S.6, 1.2 Ebene Figuren)"
- },
- {
-  "id": "did_vl04_ebenefiguren-b1-005",
-  "topic": "did_vl04_ebenefiguren_figuren_grundschule",
-  "difficulty": 1,
-  "type": "single",
-  "question": "In welcher Klassenstufe steht laut Folie das Erkennen, Benennen und Untersuchen von ebenen Figuren im Fokus?",
-  "options": [
-   "Klasse 1/2",
-   "Klasse 3/4",
-   "Klasse 5/6",
-   "Kindergarten"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie ist überschrieben mit 'Erkennen, benennen und untersuchen von ebenen Figuren (Klasse 1/2)'. 📄 Quelle: did_vl04_ebenefiguren, Folie 6 (S.6)",
-  "source": "did_vl04_ebenefiguren, Folie 6 (S.6, 1.2 Ebene Figuren)"
- },
- {
-  "id": "did_vl04_ebenefiguren-b1-006",
-  "topic": "did_vl04_ebenefiguren_aktivitaeten",
-  "difficulty": 1,
-  "type": "multi",
-  "question": "Welche Aktivitäten mit ebenen Figuren nennt die Folie?",
-  "options": [
-   "Legen",
-   "Falten",
-   "Spannen",
-   "Zeichnen",
-   "Wiegen"
-  ],
-  "correct": [
-   0,
-   1,
-   2,
-   3
-  ],
-  "explanation": "Die Folie nennt als Aktivitäten mit ebenen Figuren: Legen, Falten, Spannen, Zeichnen. 'Wiegen' gehört nicht dazu. 📄 Quelle: did_vl04_ebenefiguren, Folie 7 (S.7)",
-  "source": "did_vl04_ebenefiguren, Folie 7 (S.7, 1.2 Ebene Figuren)"
- },
- {
-  "id": "did_vl04_ebenefiguren-b1-007",
-  "topic": "did_vl04_ebenefiguren_aktivitaeten",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Welches Material wird auf der Folie zum Spannen von ebenen Figuren gezeigt?",
-  "options": [
-   "Das Geobrett",
-   "Der Abakus",
-   "Das Tangram",
-   "Der Zahlenstrahl"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Zum Spannen von Figuren wird das Geobrett gezeigt (Beispiel aus 'Denken und Rechnen 1'). 📄 Quelle: did_vl04_ebenefiguren, Folie 7 (S.7)",
-  "source": "did_vl04_ebenefiguren, Folie 7 (S.7, 1.2 Ebene Figuren)"
- },
- {
-  "id": "did_vl04_ebenefiguren-b1-008",
-  "topic": "did_vl04_ebenefiguren_polyominos",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Aussagen beschreiben Polyominos gemäß der Begriffsklärung auf der Folie?",
-  "options": [
-   "Sie sind ebene Figuren, die durch das Aneinanderlegen kongruenter Quadrate entstehen.",
-   "Sie entstehen auf der Grundlage bestimmter Legeregeln.",
-   "Benachbarte Quadrate müssen mindestens eine gemeinsame Seite aufweisen.",
-   "Benachbarte Quadrate dürfen sich überlappen."
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Polyominos sind ebene Figuren, die durch das Aneinanderlegen von kongruenten Quadraten auf Grundlage bestimmter Legeregeln entstehen; benachbarte Quadrate müssen mindestens eine gemeinsame Seite aufweisen und dürfen sich nicht überlappen. 📄 Quelle: did_vl04_ebenefiguren, Folie 10 (S.10)",
-  "source": "did_vl04_ebenefiguren, Folie 10 (S.10, 1.2 Ebene Figuren)"
- },
- {
-  "id": "did_vl04_ebenefiguren-b1-009",
-  "topic": "did_vl04_ebenefiguren_polyominos",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Legeregeln gelten laut Folie für benachbarte Quadrate eines Polyominos?",
-  "options": [
-   "Sie müssen mindestens eine gemeinsame Seite aufweisen.",
-   "Sie dürfen nur an einer Ecke anliegen.",
-   "Sie dürfen sich nicht überlappen.",
-   "Sie müssen unterschiedlich groß sein."
-  ],
-  "correct": [
-   0,
-   2
-  ],
-  "explanation": "Benachbarte Quadrate müssen mindestens eine gemeinsame Seite aufweisen, d.h. sie dürfen nicht nur an einer Ecke anliegen und dürfen sich nicht überlappen. Die Quadrate sind kongruent (gleich groß). 📄 Quelle: did_vl04_ebenefiguren, Folie 10 (S.10)",
-  "source": "did_vl04_ebenefiguren, Folie 10 (S.10, 1.2 Ebene Figuren)"
- },
- {
-  "id": "did_vl04_ebenefiguren-b1-010",
-  "topic": "did_vl04_ebenefiguren_polyominos",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Wie heißt laut Folie ein Polyomino, das aus zwei Quadraten besteht?",
-  "options": [
-   "Zwilling",
-   "Einling",
-   "Drilling",
-   "Vierling"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie ordnet zu: Einling (1 Quadrat), Zwilling (2 Quadrate), Drillinge (3 Quadrate). 📄 Quelle: did_vl04_ebenefiguren, Folie 10 (S.10)",
-  "source": "did_vl04_ebenefiguren, Folie 10 (S.10, 1.2 Ebene Figuren)"
- },
- {
-  "id": "did_vl04_ebenefiguren-b1-011",
-  "topic": "did_vl04_ebenefiguren_polyominos",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Aus wie vielen kongruenten Quadraten besteht laut Folie ein 'Drilling'?",
-  "answer": 3,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Ein Drilling besteht aus 3 kongruenten Quadraten (Einling = 1, Zwilling = 2, Drilling = 3). 📄 Quelle: did_vl04_ebenefiguren, Folie 10 (S.10)",
-  "source": "did_vl04_ebenefiguren, Folie 10 (S.10, 1.2 Ebene Figuren)"
- },
- {
-  "id": "did_vl04_ebenefiguren-b1-012",
-  "topic": "did_vl04_ebenefiguren_darstellungsformen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Darstellungsformen nennt das Schema 'Darstellungsform'?",
-  "options": [
-   "Bilder",
-   "sprachliche Symbole",
-   "mathematische Symbole",
-   "Handlungen mit Material",
-   "akustische Signale"
-  ],
-  "correct": [
-   0,
-   1,
-   2,
-   3
-  ],
-  "explanation": "Das Schema nennt vier Darstellungsformen: Bilder, sprachliche Symbole, mathematische Symbole und Handlungen mit Material. 📄 Quelle: did_vl04_ebenefiguren, Folie 11 (S.11)",
-  "source": "did_vl04_ebenefiguren, Folie 11 (S.11, 1.2 Ebene Figuren)"
- },
- {
-  "id": "did_vl04_ebenefiguren-b1-013",
-  "topic": "did_vl04_ebenefiguren_darstellungsformen",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Was drücken die Doppelpfeile zwischen den vier Darstellungsformen im Schema aus?",
-  "options": [
-   "Die Darstellungsformen sind wechselseitig miteinander vernetzt bzw. ineinander überführbar.",
-   "Es gibt eine feste Reihenfolge von links nach rechts.",
-   "Nur benachbarte Formen sind verbunden.",
-   "Die Formen schließen sich gegenseitig aus."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Doppelpfeile verbinden alle vier Darstellungsformen wechselseitig; sie sind untereinander vernetzt und ineinander überführbar. 📄 Quelle: did_vl04_ebenefiguren, Folie 11 (S.11)",
-  "source": "did_vl04_ebenefiguren, Folie 11 (S.11, 1.2 Ebene Figuren)"
- },
- {
-  "id": "did_vl04_ebenefiguren-b1-014",
-  "topic": "did_vl04_ebenefiguren_darstellungsformen",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Der Term '3·2=6' ist auf der Illustrationsfolie ein Beispiel für welche Darstellungsform?",
-  "options": [
-   "mathematische Symbole",
-   "Bilder",
-   "Handlungen mit Material",
-   "sprachliche Symbole"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Der Term '3·2=6' illustriert die Darstellungsform 'mathematische Symbole'. 📄 Quelle: did_vl04_ebenefiguren, Folie 12 (S.12)",
-  "source": "did_vl04_ebenefiguren, Folie 12 (S.12, 1.2 Ebene Figuren)"
- },
- {
-  "id": "did_vl04_ebenefiguren-b1-015",
-  "topic": "did_vl04_ebenefiguren_darstellungsformen",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Der Satz 'Drei mal zwei Waffeln sind gleich sechs Waffeln' illustriert auf der Folie welche Darstellungsform?",
-  "options": [
-   "sprachliche Symbole",
-   "mathematische Symbole",
-   "Bilder",
-   "Handlungen mit Material"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Der ausformulierte Satz steht für die Darstellungsform 'sprachliche Symbole'. 📄 Quelle: did_vl04_ebenefiguren, Folie 12 (S.12)",
-  "source": "did_vl04_ebenefiguren, Folie 12 (S.12, 1.2 Ebene Figuren)"
- },
- {
-  "id": "did_vl04_ebenefiguren-b1-016",
-  "topic": "did_vl04_ebenefiguren_unterrichtsstunde",
-  "difficulty": 1,
-  "type": "single",
-  "question": "In welcher Klassenstufe ist die Unterrichtsstunde 'Wir erforschen Zwillinge und Drillinge' angesiedelt?",
-  "options": [
-   "Klasse 2",
-   "Klasse 4",
-   "Klasse 6",
-   "Vorschule"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie weist die Unterrichtsstunde 'Wir erforschen Zwillinge und Drillinge' der Klasse 2 zu. 📄 Quelle: did_vl04_ebenefiguren, Folie 13 (S.13)",
-  "source": "did_vl04_ebenefiguren, Folie 13 (S.13, 1.1 Hintergründe und Inhalte)"
- },
- {
-  "id": "did_vl04_ebenefiguren-b1-017",
-  "topic": "did_vl04_ebenefiguren_unterrichtsstunde",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Fachbegriffe enthält der 'Wortspeicher' der Unterrichtsstunde?",
-  "options": [
-   "das Quadrat",
-   "die Seite",
-   "die Ecke",
-   "der Einling",
-   "der Bruch"
-  ],
-  "correct": [
-   0,
-   1,
-   2,
-   3
-  ],
-  "explanation": "Der Wortspeicher enthält u.a. das Quadrat, die Seite, die Ecke, die Quadratlinge, der Einling und der Zwilling; 'der Bruch' gehört nicht dazu. 📄 Quelle: did_vl04_ebenefiguren, Folie 13 (S.13)",
-  "source": "did_vl04_ebenefiguren, Folie 13 (S.13, 1.1 Hintergründe und Inhalte)"
- },
- {
-  "id": "did_vl04_ebenefiguren-b1-018",
-  "topic": "did_vl04_ebenefiguren_unterrichtsstunde",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Was umfasst der Arbeitsauftrag der Unterrichtsstunde laut Folie?",
-  "options": [
-   "Möglichst schlau verschiedene Drillinge/Triominos finden.",
-   "Den eigenen Trick zeichnen bzw. beschreiben.",
-   "Den Flächeninhalt der Figuren berechnen."
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Der Auftrag lautet: 'Finde möglichst schlau verschiedene Drillinge/Triominos. Zeichne/Beschreibe deinen Trick.' Ein Flächeninhalt wird nicht berechnet. 📄 Quelle: did_vl04_ebenefiguren, Folie 13 (S.13)",
-  "source": "did_vl04_ebenefiguren, Folie 13 (S.13, 1.1 Hintergründe und Inhalte)"
- },
- {
-  "id": "did_vl04_ebenefiguren-b2-001",
-  "topic": "did_vl04_ebenefiguren_darstellungsformen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Darstellungsformen zeigt das Modell zur Frage „Wie sieht die Darstellungsform für die Aufgabenstellung aus?“?",
-  "options": [
-   "Bilder",
-   "sprachliches Symbol",
-   "mathematisches Symbol",
-   "Handlungen am Material",
-   "Rechengeschichten",
-   "Zahlenstrahl"
-  ],
-  "correct": [
-   0,
-   1,
-   2,
-   3
-  ],
-  "explanation": "Das Modell verbindet die vier Darstellungsformen Bilder, sprachliches Symbol, mathematisches Symbol und Handlungen am Material. Rechengeschichten und Zahlenstrahl kommen auf der Folie nicht vor. 📄 Quelle: did_vl04_ebenefiguren, Folie 15 (S.15)",
-  "source": "did_vl04_ebenefiguren, Folie 15 (S.15, 1.2 Ebene Figuren)"
- },
- {
-  "id": "did_vl04_ebenefiguren-b2-002",
-  "topic": "did_vl04_ebenefiguren_darstellungsformen",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Der Sprechblasentext „Ich habe einen Einling und einen Zwilling zusammengelegt.“ ist auf der Folie ein Beispiel für welche Darstellungsform?",
-  "options": [
-   "sprachliches Symbol",
-   "mathematisches Symbol",
-   "Bilder",
-   "Handlungen am Material"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die verbale Äußerung in der Sprechblase steht im Modell an der Position „sprachliches Symbol“. 📄 Quelle: did_vl04_ebenefiguren, Folie 15 (S.15)",
-  "source": "did_vl04_ebenefiguren, Folie 15 (S.15, 1.2 Ebene Figuren)"
- },
- {
-  "id": "did_vl04_ebenefiguren-b2-003",
-  "topic": "did_vl04_ebenefiguren_darstellungsformen",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Was drücken die Doppelpfeile zwischen den Darstellungsformen im Modell aus?",
-  "options": [
-   "Zwischen allen Darstellungsformen ist ein Wechsel in beide Richtungen möglich.",
-   "Ein Wechsel ist nur von den Handlungen am Material zu den Bildern möglich.",
-   "Die Darstellungsformen stehen in keiner Beziehung zueinander.",
-   "Es gibt nur eine Übersetzungsrichtung, vom mathematischen Symbol zum sprachlichen Symbol."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Doppelpfeile verbinden alle vier Darstellungsformen wechselseitig; ein Übersetzen ist in beide Richtungen zwischen allen Formen möglich. 📄 Quelle: did_vl04_ebenefiguren, Folie 15 (S.15)",
-  "source": "did_vl04_ebenefiguren, Folie 15 (S.15, 1.2 Ebene Figuren)"
- },
- {
-  "id": "did_vl04_ebenefiguren-b2-004",
-  "topic": "did_vl04_ebenefiguren_tangram_aktivitaeten",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Aktivitäten mit dem Tangram nennt die Folie „Aktivitäten mit Tangram“?",
-  "options": [
-   "Figuren legen",
-   "Nachlegen von Figuren",
-   "Auslegen des Ausgangsquadrats",
-   "Figur nach verbaler Beschreibung legen",
-   "Tangram-Teile mit dem Lineal ausmessen",
-   "Tangram-Figuren aus Papier ausschneiden"
-  ],
-  "correct": [
-   0,
-   1,
-   2,
-   3
-  ],
-  "explanation": "Genannt werden: Figuren legen, Nachlegen von Figuren, Auslegen des Ausgangsquadrats sowie Figur nach verbaler Beschreibung legen. Ausmessen mit dem Lineal und Ausschneiden stehen nicht auf der Folie. 📄 Quelle: did_vl04_ebenefiguren, Folie 23 (S.23)",
-  "source": "did_vl04_ebenefiguren, Folie 23 (S.23, 1.2 Ebene Figuren)"
- },
- {
-  "id": "did_vl04_ebenefiguren-b2-005",
-  "topic": "did_vl04_ebenefiguren_tangram_aktivitaeten",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Wie wird das Tangram in der Folienüberschrift eingeordnet?",
-  "options": [
-   "als heterogenes Material",
-   "als homogenes Material",
-   "als digitales Material",
-   "als strukturiertes Zehnersystem-Material"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie steht unter der Überschrift „Legen mit heterogenem Material – Aktivitäten mit Tangram“; das Tangram wird also als heterogenes Material eingeordnet. 📄 Quelle: did_vl04_ebenefiguren, Folie 23 (S.23)",
-  "source": "did_vl04_ebenefiguren, Folie 23 (S.23, 1.2 Ebene Figuren)"
- },
- {
-  "id": "did_vl04_ebenefiguren-b2-006",
-  "topic": "did_vl04_ebenefiguren_tangram_aktivitaeten",
-  "difficulty": 3,
-  "type": "single",
-  "question": "Was soll laut Folie beim „Nachlegen von Figuren“ vorgegeben werden?",
-  "options": [
-   "Abbildungen mit sichtbaren Teilen zum Nachlegen",
-   "Umrissfiguren (nur der Umriss) zum Auslegen",
-   "ausschließlich eine verbale Beschreibung",
-   "die fertige farbige Lösung"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Zum „Nachlegen von Figuren“ sollen „Abbildungen mit sichtbaren Teilen zum Nachlegen“ vorgegeben werden. Umrissfiguren gehören dagegen zum „Auslegen des Ausgangsquadrats“. 📄 Quelle: did_vl04_ebenefiguren, Folie 23 (S.23)",
-  "source": "did_vl04_ebenefiguren, Folie 23 (S.23, 1.2 Ebene Figuren)"
- },
- {
-  "id": "did_vl04_ebenefiguren-b2-007",
-  "topic": "did_vl04_ebenefiguren_tangram_aktivitaeten",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Was soll beim „Auslegen des Ausgangsquadrats“ vorgegeben werden?",
-  "options": [
-   "Umrissfiguren zum Auslegen",
-   "Abbildungen mit sichtbaren Teilen",
-   "eine Rätselkarte mit Quadratlingen",
-   "eine verbale Beschreibung"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Für das Auslegen des Ausgangsquadrats sollen „Umrissfiguren zum Auslegen“ vorgegeben werden. 📄 Quelle: did_vl04_ebenefiguren, Folie 23 (S.23)",
-  "source": "did_vl04_ebenefiguren, Folie 23 (S.23, 1.2 Ebene Figuren)"
- },
- {
-  "id": "did_vl04_ebenefiguren-b2-008",
-  "topic": "did_vl04_ebenefiguren_graf_typo",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Aussagen zum Lernangebot „Graf Typo“ treffen laut Folie zu?",
-  "options": [
-   "Es beruht auf der Geschichte von Lia Tschornaja.",
-   "Es ist als Partneraktivität für die Schule angelegt.",
-   "Die geometrischen Formen sollen selbst hergestellt werden.",
-   "Die eigenen Figuren werden einem anderen Tandem zum Nachlegen gegeben.",
-   "Die Figuren sollen mit dem Lineal exakt gezeichnet werden."
-  ],
-  "correct": [
-   0,
-   1,
-   2,
-   3
-  ],
-  "explanation": "Graf Typo (Geschichte von Lia Tschornaja) ist eine Partneraktivität für die Schule: geometrische Formen selbst herstellen und ausprobieren, Figuren aufzeichnen und einem anderen Tandem zum Nachlegen geben. Das Zeichnen erfolgt jedoch OHNE Lineal. 📄 Quelle: did_vl04_ebenefiguren, Folie 24 (S.24)",
-  "source": "did_vl04_ebenefiguren, Folie 24 (S.24, 1.2 Ebene Figuren)"
- },
- {
-  "id": "did_vl04_ebenefiguren-b2-009",
-  "topic": "did_vl04_ebenefiguren_graf_typo",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Wie sollen die Kinder bei „Graf Typo“ ihre Figuren aufzeichnen?",
-  "options": [
-   "ohne Lineal",
-   "mit Lineal und Geodreieck",
-   "am Computer",
-   "ausschließlich durch Falten"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Auf der Folie heißt es: „Zeichnet eure Figuren ohne Lineal auf …“. 📄 Quelle: did_vl04_ebenefiguren, Folie 24 (S.24)",
-  "source": "did_vl04_ebenefiguren, Folie 24 (S.24, 1.2 Ebene Figuren)"
- },
- {
-  "id": "did_vl04_ebenefiguren-b2-010",
-  "topic": "did_vl04_ebenefiguren_graf_typo",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Wer erhält bei der Partneraktivität „Graf Typo“ die aufgezeichneten Figuren zum Nachlegen?",
-  "options": [
-   "ein anderes Tandem",
-   "die Lehrkraft zur Korrektur",
-   "die gesamte Klasse gemeinsam",
-   "niemand, sie werden nur aufgehängt"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Kinder geben ihre aufgezeichneten Figuren „einem anderen Tandem zum Nachlegen“. 📄 Quelle: did_vl04_ebenefiguren, Folie 24 (S.24)",
-  "source": "did_vl04_ebenefiguren, Folie 24 (S.24, 1.2 Ebene Figuren)"
- }
+  {
+    "id": "did_vl04_ebenefiguren-b1-001",
+    "topic": "did_vl04_ebenefiguren_polygone",
+    "difficulty": 1,
+    "type": "multi",
+    "question": "Welche Aussagen treffen auf ein Polygon (Vieleck) zu?",
+    "options": [
+      "Es ist eine von Strecken begrenzte ebene Figur.",
+      "Die begrenzenden Strecken heißen Seiten.",
+      "Die gemeinsamen Punkte der Strecken heißen Ecken.",
+      "Es wird von Kreisbögen begrenzt."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Ein Polygon (Vieleck) bezeichnet eine von Strecken begrenzte ebene Figur; diese Strecken heißen Seiten und ihre gemeinsamen Punkte heißen Ecken des Polygons. Kreisbögen kommen nicht vor. 📄 Quelle: did_vl04_ebenefiguren, Folie 5 (S.5)",
+    "source": "did_vl04_ebenefiguren, Folie 5 (S.5, 1.2 Ebene Figuren)"
+  },
+  {
+    "id": "did_vl04_ebenefiguren-b1-002",
+    "topic": "did_vl04_ebenefiguren_polygone",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Welches Wort ist gleichbedeutend mit 'Polygon'?",
+    "options": [
+      "Vieleck",
+      "Kreis",
+      "Körper",
+      "Gerade"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Auf der Folie heißt es: 'Ein Polygon oder auch Vieleck bezeichnet eine von Strecken begrenzte ebene Figur.' 📄 Quelle: did_vl04_ebenefiguren, Folie 5 (S.5)",
+    "source": "did_vl04_ebenefiguren, Folie 5 (S.5, 1.2 Ebene Figuren)"
+  },
+  {
+    "id": "did_vl04_ebenefiguren-b1-003",
+    "topic": "did_vl04_ebenefiguren_polygone",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Was bezeichnet man beim Polygon als die 'Seiten'?",
+    "options": [
+      "Die begrenzenden Strecken",
+      "Die Eckpunkte",
+      "Die Innenwinkel",
+      "Die Diagonalen"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Strecken, die das Polygon begrenzen, heißen Seiten; ihre gemeinsamen Punkte heißen Ecken. 📄 Quelle: did_vl04_ebenefiguren, Folie 5 (S.5)",
+    "source": "did_vl04_ebenefiguren, Folie 5 (S.5, 1.2 Ebene Figuren)"
+  },
+  {
+    "id": "did_vl04_ebenefiguren-b1-004",
+    "topic": "did_vl04_ebenefiguren_figuren_grundschule",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche ebenen Figuren werden auf der Arbeitsvorlage (Das Zahlenbuch 2) benannt?",
+    "options": [
+      "Kreis",
+      "Rechteck",
+      "Dreieck",
+      "Sechseck",
+      "Fünfeck"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Auf der Vorlage werden Kreis, Rechteck, Dreieck, Quadrat und Sechseck benannt; ein Fünfeck ist nicht dabei. 📄 Quelle: did_vl04_ebenefiguren, Folie 6 (S.6)",
+    "source": "did_vl04_ebenefiguren, Folie 6 (S.6, 1.2 Ebene Figuren)"
+  },
+  {
+    "id": "did_vl04_ebenefiguren-b1-005",
+    "topic": "did_vl04_ebenefiguren_figuren_grundschule",
+    "difficulty": 1,
+    "type": "single",
+    "question": "In welcher Klassenstufe steht das Erkennen, Benennen und Untersuchen von ebenen Figuren im Fokus?",
+    "options": [
+      "Klasse 1/2",
+      "Klasse 3/4",
+      "Klasse 5/6",
+      "Kindergarten"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie ist überschrieben mit 'Erkennen, benennen und untersuchen von ebenen Figuren (Klasse 1/2)'. 📄 Quelle: did_vl04_ebenefiguren, Folie 6 (S.6)",
+    "source": "did_vl04_ebenefiguren, Folie 6 (S.6, 1.2 Ebene Figuren)"
+  },
+  {
+    "id": "did_vl04_ebenefiguren-b1-006",
+    "topic": "did_vl04_ebenefiguren_aktivitaeten",
+    "difficulty": 1,
+    "type": "multi",
+    "question": "Welche der folgenden Aktivitäten werden mit ebenen Figuren durchgeführt?",
+    "options": [
+      "Legen",
+      "Falten",
+      "Spannen",
+      "Zeichnen",
+      "Wiegen"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Die Folie nennt als Aktivitäten mit ebenen Figuren: Legen, Falten, Spannen, Zeichnen. 'Wiegen' gehört nicht dazu. 📄 Quelle: did_vl04_ebenefiguren, Folie 7 (S.7)",
+    "source": "did_vl04_ebenefiguren, Folie 7 (S.7, 1.2 Ebene Figuren)"
+  },
+  {
+    "id": "did_vl04_ebenefiguren-b1-007",
+    "topic": "did_vl04_ebenefiguren_aktivitaeten",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Welches Material wird zum Spannen von ebenen Figuren verwendet?",
+    "options": [
+      "Das Geobrett",
+      "Der Abakus",
+      "Das Tangram",
+      "Der Zahlenstrahl"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Zum Spannen von Figuren wird das Geobrett gezeigt (Beispiel aus 'Denken und Rechnen 1'). 📄 Quelle: did_vl04_ebenefiguren, Folie 7 (S.7)",
+    "source": "did_vl04_ebenefiguren, Folie 7 (S.7, 1.2 Ebene Figuren)"
+  },
+  {
+    "id": "did_vl04_ebenefiguren-b1-008",
+    "topic": "did_vl04_ebenefiguren_polyominos",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aussagen beschreiben Polyominos korrekt?",
+    "options": [
+      "Sie sind ebene Figuren, die durch das Aneinanderlegen kongruenter Quadrate entstehen.",
+      "Sie entstehen auf der Grundlage bestimmter Legeregeln.",
+      "Benachbarte Quadrate müssen mindestens eine gemeinsame Seite aufweisen.",
+      "Benachbarte Quadrate dürfen sich überlappen."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Polyominos sind ebene Figuren, die durch das Aneinanderlegen von kongruenten Quadraten auf Grundlage bestimmter Legeregeln entstehen; benachbarte Quadrate müssen mindestens eine gemeinsame Seite aufweisen und dürfen sich nicht überlappen. 📄 Quelle: did_vl04_ebenefiguren, Folie 10 (S.10)",
+    "source": "did_vl04_ebenefiguren, Folie 10 (S.10, 1.2 Ebene Figuren)"
+  },
+  {
+    "id": "did_vl04_ebenefiguren-b1-009",
+    "topic": "did_vl04_ebenefiguren_polyominos",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Legeregeln gelten für benachbarte Quadrate eines Polyominos?",
+    "options": [
+      "Sie müssen mindestens eine gemeinsame Seite aufweisen.",
+      "Sie dürfen nur an einer Ecke anliegen.",
+      "Sie dürfen sich nicht überlappen.",
+      "Sie müssen unterschiedlich groß sein."
+    ],
+    "correct": [
+      0,
+      2
+    ],
+    "explanation": "Benachbarte Quadrate müssen mindestens eine gemeinsame Seite aufweisen, d.h. sie dürfen nicht nur an einer Ecke anliegen und dürfen sich nicht überlappen. Die Quadrate sind kongruent (gleich groß). 📄 Quelle: did_vl04_ebenefiguren, Folie 10 (S.10)",
+    "source": "did_vl04_ebenefiguren, Folie 10 (S.10, 1.2 Ebene Figuren)"
+  },
+  {
+    "id": "did_vl04_ebenefiguren-b1-010",
+    "topic": "did_vl04_ebenefiguren_polyominos",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Wie heißt ein Polyomino, das aus zwei Quadraten besteht?",
+    "options": [
+      "Zwilling",
+      "Einling",
+      "Drilling",
+      "Vierling"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie ordnet zu: Einling (1 Quadrat), Zwilling (2 Quadrate), Drillinge (3 Quadrate). 📄 Quelle: did_vl04_ebenefiguren, Folie 10 (S.10)",
+    "source": "did_vl04_ebenefiguren, Folie 10 (S.10, 1.2 Ebene Figuren)"
+  },
+  {
+    "id": "did_vl04_ebenefiguren-b1-011",
+    "topic": "did_vl04_ebenefiguren_polyominos",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Aus wie vielen kongruenten Quadraten besteht ein 'Drilling'?",
+    "answer": 3,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Ein Drilling besteht aus 3 kongruenten Quadraten (Einling = 1, Zwilling = 2, Drilling = 3). 📄 Quelle: did_vl04_ebenefiguren, Folie 10 (S.10)",
+    "source": "did_vl04_ebenefiguren, Folie 10 (S.10, 1.2 Ebene Figuren)"
+  },
+  {
+    "id": "did_vl04_ebenefiguren-b1-012",
+    "topic": "did_vl04_ebenefiguren_darstellungsformen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Darstellungsformen nennt das Schema 'Darstellungsform'?",
+    "options": [
+      "Bilder",
+      "sprachliche Symbole",
+      "mathematische Symbole",
+      "Handlungen mit Material",
+      "akustische Signale"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Das Schema nennt vier Darstellungsformen: Bilder, sprachliche Symbole, mathematische Symbole und Handlungen mit Material. 📄 Quelle: did_vl04_ebenefiguren, Folie 11 (S.11)",
+    "source": "did_vl04_ebenefiguren, Folie 11 (S.11, 1.2 Ebene Figuren)"
+  },
+  {
+    "id": "did_vl04_ebenefiguren-b1-013",
+    "topic": "did_vl04_ebenefiguren_darstellungsformen",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Was drücken die Doppelpfeile zwischen den vier Darstellungsformen im Schema aus?",
+    "options": [
+      "Die Darstellungsformen sind wechselseitig miteinander vernetzt bzw. ineinander überführbar.",
+      "Es gibt eine feste Reihenfolge von links nach rechts.",
+      "Nur benachbarte Formen sind verbunden.",
+      "Die Formen schließen sich gegenseitig aus."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Doppelpfeile verbinden alle vier Darstellungsformen wechselseitig; sie sind untereinander vernetzt und ineinander überführbar. 📄 Quelle: did_vl04_ebenefiguren, Folie 11 (S.11)",
+    "source": "did_vl04_ebenefiguren, Folie 11 (S.11, 1.2 Ebene Figuren)"
+  },
+  {
+    "id": "did_vl04_ebenefiguren-b1-014",
+    "topic": "did_vl04_ebenefiguren_darstellungsformen",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Der Term '3·2=6' ist auf der Illustrationsfolie ein Beispiel für welche Darstellungsform?",
+    "options": [
+      "mathematische Symbole",
+      "Bilder",
+      "Handlungen mit Material",
+      "sprachliche Symbole"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Der Term '3·2=6' illustriert die Darstellungsform 'mathematische Symbole'. 📄 Quelle: did_vl04_ebenefiguren, Folie 12 (S.12)",
+    "source": "did_vl04_ebenefiguren, Folie 12 (S.12, 1.2 Ebene Figuren)"
+  },
+  {
+    "id": "did_vl04_ebenefiguren-b1-015",
+    "topic": "did_vl04_ebenefiguren_darstellungsformen",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Der Satz 'Drei mal zwei Waffeln sind gleich sechs Waffeln' illustriert welche Darstellungsform?",
+    "options": [
+      "sprachliche Symbole",
+      "mathematische Symbole",
+      "Bilder",
+      "Handlungen mit Material"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Der ausformulierte Satz steht für die Darstellungsform 'sprachliche Symbole'. 📄 Quelle: did_vl04_ebenefiguren, Folie 12 (S.12)",
+    "source": "did_vl04_ebenefiguren, Folie 12 (S.12, 1.2 Ebene Figuren)"
+  },
+  {
+    "id": "did_vl04_ebenefiguren-b1-016",
+    "topic": "did_vl04_ebenefiguren_unterrichtsstunde",
+    "difficulty": 1,
+    "type": "single",
+    "question": "In welcher Klassenstufe ist die Unterrichtsstunde 'Wir erforschen Zwillinge und Drillinge' angesiedelt?",
+    "options": [
+      "Klasse 2",
+      "Klasse 4",
+      "Klasse 6",
+      "Vorschule"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie weist die Unterrichtsstunde 'Wir erforschen Zwillinge und Drillinge' der Klasse 2 zu. 📄 Quelle: did_vl04_ebenefiguren, Folie 13 (S.13)",
+    "source": "did_vl04_ebenefiguren, Folie 13 (S.13, 1.1 Hintergründe und Inhalte)"
+  },
+  {
+    "id": "did_vl04_ebenefiguren-b1-017",
+    "topic": "did_vl04_ebenefiguren_unterrichtsstunde",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Fachbegriffe enthält der 'Wortspeicher' der Unterrichtsstunde?",
+    "options": [
+      "das Quadrat",
+      "die Seite",
+      "die Ecke",
+      "der Einling",
+      "der Bruch"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Der Wortspeicher enthält u.a. das Quadrat, die Seite, die Ecke, die Quadratlinge, der Einling und der Zwilling; 'der Bruch' gehört nicht dazu. 📄 Quelle: did_vl04_ebenefiguren, Folie 13 (S.13)",
+    "source": "did_vl04_ebenefiguren, Folie 13 (S.13, 1.1 Hintergründe und Inhalte)"
+  },
+  {
+    "id": "did_vl04_ebenefiguren-b1-018",
+    "topic": "did_vl04_ebenefiguren_unterrichtsstunde",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Was umfasst der Arbeitsauftrag der Unterrichtsstunde 'Wir erforschen Zwillinge und Drillinge'?",
+    "options": [
+      "Möglichst schlau verschiedene Drillinge/Triominos finden.",
+      "Den eigenen Trick zeichnen bzw. beschreiben.",
+      "Den Flächeninhalt der Figuren berechnen."
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Der Auftrag lautet: 'Finde möglichst schlau verschiedene Drillinge/Triominos. Zeichne/Beschreibe deinen Trick.' Ein Flächeninhalt wird nicht berechnet. 📄 Quelle: did_vl04_ebenefiguren, Folie 13 (S.13)",
+    "source": "did_vl04_ebenefiguren, Folie 13 (S.13, 1.1 Hintergründe und Inhalte)"
+  },
+  {
+    "id": "did_vl04_ebenefiguren-b2-001",
+    "topic": "did_vl04_ebenefiguren_darstellungsformen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Darstellungsformen zeigt das Modell zur Frage „Wie sieht die Darstellungsform für die Aufgabenstellung aus?“?",
+    "options": [
+      "Bilder",
+      "sprachliches Symbol",
+      "mathematisches Symbol",
+      "Handlungen am Material",
+      "Rechengeschichten",
+      "Zahlenstrahl"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Das Modell verbindet die vier Darstellungsformen Bilder, sprachliches Symbol, mathematisches Symbol und Handlungen am Material. Rechengeschichten und Zahlenstrahl kommen auf der Folie nicht vor. 📄 Quelle: did_vl04_ebenefiguren, Folie 15 (S.15)",
+    "source": "did_vl04_ebenefiguren, Folie 15 (S.15, 1.2 Ebene Figuren)"
+  },
+  {
+    "id": "did_vl04_ebenefiguren-b2-002",
+    "topic": "did_vl04_ebenefiguren_darstellungsformen",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Der Satz „Ich habe einen Einling und einen Zwilling zusammengelegt.“ ist ein Beispiel für welche Darstellungsform?",
+    "options": [
+      "sprachliches Symbol",
+      "mathematisches Symbol",
+      "Bilder",
+      "Handlungen am Material"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die verbale Äußerung in der Sprechblase steht im Modell an der Position „sprachliches Symbol“. 📄 Quelle: did_vl04_ebenefiguren, Folie 15 (S.15)",
+    "source": "did_vl04_ebenefiguren, Folie 15 (S.15, 1.2 Ebene Figuren)"
+  },
+  {
+    "id": "did_vl04_ebenefiguren-b2-003",
+    "topic": "did_vl04_ebenefiguren_darstellungsformen",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Was drücken die Doppelpfeile zwischen den Darstellungsformen im Modell aus?",
+    "options": [
+      "Zwischen allen Darstellungsformen ist ein Wechsel in beide Richtungen möglich.",
+      "Ein Wechsel ist nur von den Handlungen am Material zu den Bildern möglich.",
+      "Die Darstellungsformen stehen in keiner Beziehung zueinander.",
+      "Es gibt nur eine Übersetzungsrichtung, vom mathematischen Symbol zum sprachlichen Symbol."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Doppelpfeile verbinden alle vier Darstellungsformen wechselseitig; ein Übersetzen ist in beide Richtungen zwischen allen Formen möglich. 📄 Quelle: did_vl04_ebenefiguren, Folie 15 (S.15)",
+    "source": "did_vl04_ebenefiguren, Folie 15 (S.15, 1.2 Ebene Figuren)"
+  },
+  {
+    "id": "did_vl04_ebenefiguren-b2-004",
+    "topic": "did_vl04_ebenefiguren_tangram_aktivitaeten",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche der folgenden Aktivitäten werden mit dem Tangram durchgeführt?",
+    "options": [
+      "Figuren legen",
+      "Nachlegen von Figuren",
+      "Auslegen des Ausgangsquadrats",
+      "Figur nach verbaler Beschreibung legen",
+      "Tangram-Teile mit dem Lineal ausmessen",
+      "Tangram-Figuren aus Papier ausschneiden"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Genannt werden: Figuren legen, Nachlegen von Figuren, Auslegen des Ausgangsquadrats sowie Figur nach verbaler Beschreibung legen. Ausmessen mit dem Lineal und Ausschneiden stehen nicht auf der Folie. 📄 Quelle: did_vl04_ebenefiguren, Folie 23 (S.23)",
+    "source": "did_vl04_ebenefiguren, Folie 23 (S.23, 1.2 Ebene Figuren)"
+  },
+  {
+    "id": "did_vl04_ebenefiguren-b2-005",
+    "topic": "did_vl04_ebenefiguren_tangram_aktivitaeten",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Wie wird das Tangram in der Folienüberschrift eingeordnet?",
+    "options": [
+      "als heterogenes Material",
+      "als homogenes Material",
+      "als digitales Material",
+      "als strukturiertes Zehnersystem-Material"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie steht unter der Überschrift „Legen mit heterogenem Material – Aktivitäten mit Tangram“; das Tangram wird also als heterogenes Material eingeordnet. 📄 Quelle: did_vl04_ebenefiguren, Folie 23 (S.23)",
+    "source": "did_vl04_ebenefiguren, Folie 23 (S.23, 1.2 Ebene Figuren)"
+  },
+  {
+    "id": "did_vl04_ebenefiguren-b2-006",
+    "topic": "did_vl04_ebenefiguren_tangram_aktivitaeten",
+    "difficulty": 3,
+    "type": "single",
+    "question": "Was soll beim „Nachlegen von Figuren“ mit dem Tangram vorgegeben werden?",
+    "options": [
+      "Abbildungen mit sichtbaren Teilen zum Nachlegen",
+      "Umrissfiguren (nur der Umriss) zum Auslegen",
+      "ausschließlich eine verbale Beschreibung",
+      "die fertige farbige Lösung"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Zum „Nachlegen von Figuren“ sollen „Abbildungen mit sichtbaren Teilen zum Nachlegen“ vorgegeben werden. Umrissfiguren gehören dagegen zum „Auslegen des Ausgangsquadrats“. 📄 Quelle: did_vl04_ebenefiguren, Folie 23 (S.23)",
+    "source": "did_vl04_ebenefiguren, Folie 23 (S.23, 1.2 Ebene Figuren)"
+  },
+  {
+    "id": "did_vl04_ebenefiguren-b2-007",
+    "topic": "did_vl04_ebenefiguren_tangram_aktivitaeten",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Was soll beim „Auslegen des Ausgangsquadrats“ vorgegeben werden?",
+    "options": [
+      "Umrissfiguren zum Auslegen",
+      "Abbildungen mit sichtbaren Teilen",
+      "eine Rätselkarte mit Quadratlingen",
+      "eine verbale Beschreibung"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Für das Auslegen des Ausgangsquadrats sollen „Umrissfiguren zum Auslegen“ vorgegeben werden. 📄 Quelle: did_vl04_ebenefiguren, Folie 23 (S.23)",
+    "source": "did_vl04_ebenefiguren, Folie 23 (S.23, 1.2 Ebene Figuren)"
+  },
+  {
+    "id": "did_vl04_ebenefiguren-b2-008",
+    "topic": "did_vl04_ebenefiguren_graf_typo",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aussagen zum Lernangebot „Graf Typo“ treffen zu?",
+    "options": [
+      "Es beruht auf der Geschichte von Lia Tschornaja.",
+      "Es ist als Partneraktivität für die Schule angelegt.",
+      "Die geometrischen Formen sollen selbst hergestellt werden.",
+      "Die eigenen Figuren werden einem anderen Tandem zum Nachlegen gegeben.",
+      "Die Figuren sollen mit dem Lineal exakt gezeichnet werden."
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Graf Typo (Geschichte von Lia Tschornaja) ist eine Partneraktivität für die Schule: geometrische Formen selbst herstellen und ausprobieren, Figuren aufzeichnen und einem anderen Tandem zum Nachlegen geben. Das Zeichnen erfolgt jedoch OHNE Lineal. 📄 Quelle: did_vl04_ebenefiguren, Folie 24 (S.24)",
+    "source": "did_vl04_ebenefiguren, Folie 24 (S.24, 1.2 Ebene Figuren)"
+  },
+  {
+    "id": "did_vl04_ebenefiguren-b2-009",
+    "topic": "did_vl04_ebenefiguren_graf_typo",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Wie sollen die Kinder bei „Graf Typo“ ihre Figuren aufzeichnen?",
+    "options": [
+      "ohne Lineal",
+      "mit Lineal und Geodreieck",
+      "am Computer",
+      "ausschließlich durch Falten"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Auf der Folie heißt es: „Zeichnet eure Figuren ohne Lineal auf …“. 📄 Quelle: did_vl04_ebenefiguren, Folie 24 (S.24)",
+    "source": "did_vl04_ebenefiguren, Folie 24 (S.24, 1.2 Ebene Figuren)"
+  },
+  {
+    "id": "did_vl04_ebenefiguren-b2-010",
+    "topic": "did_vl04_ebenefiguren_graf_typo",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Wer erhält bei der Partneraktivität „Graf Typo“ die aufgezeichneten Figuren zum Nachlegen?",
+    "options": [
+      "ein anderes Tandem",
+      "die Lehrkraft zur Korrektur",
+      "die gesamte Klasse gemeinsam",
+      "niemand, sie werden nur aufgehängt"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Kinder geben ihre aufgezeichneten Figuren „einem anderen Tandem zum Nachlegen“. 📄 Quelle: did_vl04_ebenefiguren, Folie 24 (S.24)",
+    "source": "did_vl04_ebenefiguren, Folie 24 (S.24, 1.2 Ebene Figuren)"
+  }
 ]

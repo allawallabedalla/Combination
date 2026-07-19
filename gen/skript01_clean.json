@@ -1,78 +1,78 @@
 [
- {
-  "id": "skript01_clean-b1-001",
-  "topic": "skript01_clean_natuerliche_zahlen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Laut Definition auf der Folie heißt eine Zahlenmenge N genau dann „Natürliche Zahlen\", wenn sie bestimmte Eigenschaften hat. Welche der folgenden Aussagen gehören zu diesen (ersten vier) Eigenschaften?",
-  "options": [
-   "1 ist eine Natürliche Zahl",
-   "Zu jeder natürlichen Zahl n gibt es genau einen Nachfolger n'",
-   "Jede natürliche Zahl n hat genau einen Vorgänger",
-   "Kein Element von N hat als Nachfolger die 1",
-   "Kein Element ist Nachfolger zweier verschiedener Elemente von N"
-  ],
-  "correct": [
-   0,
-   1,
-   3,
-   4
-  ],
-  "explanation": "Die Definition nennt genau diese vier Eigenschaften: (1) 1 ist eine Natürliche Zahl, (2) zu jeder natürlichen Zahl n gibt es genau einen Nachfolger n', (3) kein Element hat als Nachfolger die 1, (4) kein Element ist Nachfolger zweier verschiedener Elemente. Ein garantierter Vorgänger für jede Zahl steht nicht auf der Folie (die 1 hat gerade keinen). 📄 Quelle: skript01_clean, Folie 3 (S.3)",
-  "source": "skript01_clean, Folie 3 (S.3, Erkundung: WIR)"
- },
- {
-  "id": "skript01_clean-b1-002",
-  "topic": "skript01_clean_natuerliche_zahlen",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Wie viele Nachfolger n' besitzt laut Definition jede natürliche Zahl n?",
-  "options": [
-   "Genau einen",
-   "Mindestens einen",
-   "Höchstens zwei",
-   "Keinen"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die zweite Eigenschaft lautet: „Zu jeder natürlichen Zahl n gibt es genau einen Nachfolger n'.\" Also besitzt jede natürliche Zahl genau einen Nachfolger. 📄 Quelle: skript01_clean, Folie 3 (S.3)",
-  "source": "skript01_clean, Folie 3 (S.3, Erkundung: WIR)"
- },
- {
-  "id": "skript01_clean-b1-003",
-  "topic": "skript01_clean_natuerliche_zahlen",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Die vierte Eigenschaft lautet „Kein Element ist Nachfolger zweier verschiedener Elemente von N\". Was folgt daraus?",
-  "options": [
-   "Verschiedene natürliche Zahlen haben verschiedene Nachfolger",
-   "Zwei verschiedene Zahlen können denselben Nachfolger haben",
-   "Jede Zahl ist Nachfolger von genau zwei Elementen",
-   "Jedes Element hat zwei Nachfolger"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Wenn kein Element Nachfolger zweier verschiedener Elemente sein kann, dann führen verschiedene Zahlen stets zu verschiedenen Nachfolgern (die Nachfolgerzuordnung ist eindeutig/injektiv). 📄 Quelle: skript01_clean, Folie 3 (S.3)",
-  "source": "skript01_clean, Folie 3 (S.3, Erkundung: WIR)"
- },
- {
-  "id": "skript01_clean-b1-004",
-  "topic": "skript01_clean_natuerliche_zahlen",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Die (grau hervorgehobene) fünfte Eigenschaft besagt: Wenn M eine Teilmenge von N ist und die ersten beiden Axiome erfüllt sind, dann …",
-  "options": [
-   "… ist M gleich N",
-   "… ist M eine echte Teilmenge von N",
-   "… ist M die leere Menge",
-   "… ist N eine Teilmenge von M, aber nicht umgekehrt"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die fünfte (Induktions-)Eigenschaft lautet: „Wenn M eine Teilmenge von N ist und die ersten beiden Axiome erfüllt sind, dann ist M gleich N.\" 📄 Quelle: skript01_clean, Folie 3 (S.3)",
-  "source": "skript01_clean, Folie 3 (S.3, Erkundung: WIR)"
- }
+  {
+    "id": "skript01_clean-b1-001",
+    "topic": "skript01_clean_natuerliche_zahlen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Eine Zahlenmenge N heißt genau dann „Natürliche Zahlen“, wenn sie bestimmte Eigenschaften erfüllt. Welche der folgenden Aussagen gehören zu diesen (ersten vier) Eigenschaften?",
+    "options": [
+      "1 ist eine Natürliche Zahl",
+      "Zu jeder natürlichen Zahl n gibt es genau einen Nachfolger n'",
+      "Jede natürliche Zahl n hat genau einen Vorgänger",
+      "Kein Element von N hat als Nachfolger die 1",
+      "Kein Element ist Nachfolger zweier verschiedener Elemente von N"
+    ],
+    "correct": [
+      0,
+      1,
+      3,
+      4
+    ],
+    "explanation": "Die Definition nennt genau diese vier Eigenschaften: (1) 1 ist eine Natürliche Zahl, (2) zu jeder natürlichen Zahl n gibt es genau einen Nachfolger n', (3) kein Element hat als Nachfolger die 1, (4) kein Element ist Nachfolger zweier verschiedener Elemente. Ein garantierter Vorgänger für jede Zahl steht nicht auf der Folie (die 1 hat gerade keinen). 📄 Quelle: skript01_clean, Folie 3 (S.3)",
+    "source": "skript01_clean, Folie 3 (S.3, Erkundung: WIR)"
+  },
+  {
+    "id": "skript01_clean-b1-002",
+    "topic": "skript01_clean_natuerliche_zahlen",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Wie viele Nachfolger n' besitzt laut Definition jede natürliche Zahl n?",
+    "options": [
+      "Genau einen",
+      "Mindestens einen",
+      "Höchstens zwei",
+      "Keinen"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die zweite Eigenschaft lautet: „Zu jeder natürlichen Zahl n gibt es genau einen Nachfolger n'.\" Also besitzt jede natürliche Zahl genau einen Nachfolger. 📄 Quelle: skript01_clean, Folie 3 (S.3)",
+    "source": "skript01_clean, Folie 3 (S.3, Erkundung: WIR)"
+  },
+  {
+    "id": "skript01_clean-b1-003",
+    "topic": "skript01_clean_natuerliche_zahlen",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Die vierte Eigenschaft lautet „Kein Element ist Nachfolger zweier verschiedener Elemente von N\". Was folgt daraus?",
+    "options": [
+      "Verschiedene natürliche Zahlen haben verschiedene Nachfolger",
+      "Zwei verschiedene Zahlen können denselben Nachfolger haben",
+      "Jede Zahl ist Nachfolger von genau zwei Elementen",
+      "Jedes Element hat zwei Nachfolger"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Wenn kein Element Nachfolger zweier verschiedener Elemente sein kann, dann führen verschiedene Zahlen stets zu verschiedenen Nachfolgern (die Nachfolgerzuordnung ist eindeutig/injektiv). 📄 Quelle: skript01_clean, Folie 3 (S.3)",
+    "source": "skript01_clean, Folie 3 (S.3, Erkundung: WIR)"
+  },
+  {
+    "id": "skript01_clean-b1-004",
+    "topic": "skript01_clean_natuerliche_zahlen",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Die (grau hervorgehobene) fünfte Eigenschaft besagt: Wenn M eine Teilmenge von N ist und die ersten beiden Axiome erfüllt sind, dann …",
+    "options": [
+      "… ist M gleich N",
+      "… ist M eine echte Teilmenge von N",
+      "… ist M die leere Menge",
+      "… ist N eine Teilmenge von M, aber nicht umgekehrt"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die fünfte (Induktions-)Eigenschaft lautet: „Wenn M eine Teilmenge von N ist und die ersten beiden Axiome erfüllt sind, dann ist M gleich N.\" 📄 Quelle: skript01_clean, Folie 3 (S.3)",
+    "source": "skript01_clean, Folie 3 (S.3, Erkundung: WIR)"
+  }
 ]

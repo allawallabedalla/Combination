@@ -1,194 +1,194 @@
 [
- {
-  "id": "skript01_live23-b1-001",
-  "topic": "skript01_live23_gauss_summe",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Welchen Wert hat die Summe 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 laut der Mitschrift?",
-  "answer": 55,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Auf der Seite wird 1+2+...+10 auf mehrere Weisen berechnet, u. a. als 4·10+10+5 = 5·10+5 = 55 sowie als 5·11 = 55. 📄 Quelle: skript01_live23, Folie 1 (S.1)",
-  "source": "skript01_live23, Folie 1 (S.1, Arithmetik und Geometrie II (Vertiefung), SoSe 2023)"
- },
- {
-  "id": "skript01_live23-b1-002",
-  "topic": "skript01_live23_gauss_summe",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Beim paarweisen Verbinden der Summanden (1+10, 2+9, 3+8, ...) ergibt jedes Zahlenpaar in 1+2+...+10 denselben Wert. Welchen?",
-  "answer": 11,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Die Mitschrift hält fest, dass die verbundenen Summanden 'immer 11' ergeben; damit ist 1+2+...+10 = 5·11 = 55. 📄 Quelle: skript01_live23, Folie 1 (S.1)",
-  "source": "skript01_live23, Folie 1 (S.1, Arithmetik und Geometrie II (Vertiefung), SoSe 2023)"
- },
- {
-  "id": "skript01_live23-b1-003",
-  "topic": "skript01_live23_gauss_summe",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Welchen Wert hat die Summe 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 (ungerade Anzahl von Summanden) laut der Mitschrift?",
-  "answer": 45,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Bei ungerader Anzahl von Summanden bleibt die 5 'übrig'; die Rechnung auf der Seite lautet 4·10+5 = 45. 📄 Quelle: skript01_live23, Folie 1 (S.1)",
-  "source": "skript01_live23, Folie 1 (S.1, Arithmetik und Geometrie II (Vertiefung), SoSe 2023)"
- },
- {
-  "id": "skript01_live23-b1-004",
-  "topic": "skript01_live23_gauss_summe",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Aussagen werden auf der Seite festgehalten?",
-  "options": [
-   "Die '0' gehört nicht zu den natürlichen Zahlen.",
-   "Das (paarweise) Verbinden der Summanden war hilfreich.",
-   "0 + 1 + 2 + ... + 10 = 5·10 + 5",
-   "Die Summe 1 + 2 + ... + 10 lässt sich nur mit einer geraden Anzahl von Summanden bilden."
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Notiert sind der Warnhinweis 'Die 0 gehört nicht zu den natürlichen Zahlen', die Bemerkung 'Das Verbinden war hilfreich' sowie die Rechnung 0+1+2+...+10 = 5·10+5. Die vierte Aussage steht nicht auf der Seite und ist falsch. 📄 Quelle: skript01_live23, Folie 1 (S.1)",
-  "source": "skript01_live23, Folie 1 (S.1, Arithmetik und Geometrie II (Vertiefung), SoSe 2023)"
- },
- {
-  "id": "skript01_live23-b1-005",
-  "topic": "skript01_live23_gauss_formel",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Welchen Wert hat die Summe 1 + 2 + 3 + ... + 16 laut der Mitschrift?",
-  "answer": 136,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Die Seite notiert 1+2+...+16 = 8·17 = 136 (16/2 = 8 Zahlenpaare zu je 17). 📄 Quelle: skript01_live23, Folie 2 (S.2)",
-  "source": "skript01_live23, Folie 2 (S.2, Arithmetik und Geometrie II (Vertiefung), SoSe 2023)"
- },
- {
-  "id": "skript01_live23-b1-006",
-  "topic": "skript01_live23_gauss_formel",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Wie viele Zahlenpaare bildet man bei der Summe 1 + 2 + 3 + ... + 16?",
-  "answer": 8,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Die Mitschrift gibt '16/2 Zahlenpaare' an, also 8 Paare (16+1, 15+2, 14+3, 13+4, ...) zu je 17. 📄 Quelle: skript01_live23, Folie 2 (S.2)",
-  "source": "skript01_live23, Folie 2 (S.2, Arithmetik und Geometrie II (Vertiefung), SoSe 2023)"
- },
- {
-  "id": "skript01_live23-b1-007",
-  "topic": "skript01_live23_gauss_formel",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "In der Formel 1 + 2 + 3 + ... + (n-1) + n = (n/2)·(n+1) — welche Deutungen der Bestandteile werden auf der Seite notiert?",
-  "options": [
-   "n/2 ist die Anzahl der Zahlenpaare.",
-   "(n+1) ist die höchste Zahl + 1.",
-   "n ist die Anzahl der Summanden.",
-   "(n+1) ist die Anzahl der Summanden."
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Die Randnotizen erklären: n/2 = 'Anzahl der Zahlenpaare', (n+1) = 'höchste Zahl + 1' und 'n ist die Anzahl der Summanden'. Die vierte Aussage ist falsch. 📄 Quelle: skript01_live23, Folie 2 (S.2)",
-  "source": "skript01_live23, Folie 2 (S.2, Arithmetik und Geometrie II (Vertiefung), SoSe 2023)"
- },
- {
-  "id": "skript01_live23-b1-008",
-  "topic": "skript01_live23_gauss_formel",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Prüfe die Formel für n = 5: Welchen Wert hat 1 + 2 + 3 + 4 + 5?",
-  "answer": 15,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Die Seite rechnet für n=5: 1+2+3+4+5 = 2·6+3 = (5/2)·(5+1) = 15 und prüft damit, ob die Formel auch für ungerade n stimmt. 📄 Quelle: skript01_live23, Folie 2 (S.2)",
-  "source": "skript01_live23, Folie 2 (S.2, Arithmetik und Geometrie II (Vertiefung), SoSe 2023)"
- },
- {
-  "id": "skript01_live23-b1-009",
-  "topic": "skript01_live23_gauss_formel",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Der Satz auf der Seite lautet: 'Sei n eine natürliche Zahl. Dann gilt für die Summe S_n := 1 + 2 + 3 + ... + (n-1) + n, dass S_n = (n/2)·(n+1).' Für welche n gilt die Formel demnach?",
-  "options": [
-   "Nur für gerade n",
-   "Nur für ungerade n",
-   "Für jede natürliche Zahl n",
-   "Nur für n ≥ 10"
-  ],
-  "correct": [
-   2
-  ],
-  "explanation": "Der Satz beginnt mit 'Sei n eine natürliche Zahl' und macht keine Einschränkung auf gerade oder ungerade Zahlen; die Formel gilt für jede natürliche Zahl n. 📄 Quelle: skript01_live23, Folie 2 (S.2)",
-  "source": "skript01_live23, Folie 2 (S.2, Arithmetik und Geometrie II (Vertiefung), SoSe 2023)"
- },
- {
-  "id": "skript01_live23-b1-010",
-  "topic": "skript01_live23_ungerade_summe",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Welchen Wert hat die Summe der ersten vier ungeraden Zahlen 1 + 3 + 5 + 7?",
-  "answer": 16,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Die Seite notiert #4: 1+3+5+7 = 16 = 4². 📄 Quelle: skript01_live23, Folie 30 (S.3)",
-  "source": "skript01_live23, Folie 30 (S.3, Arithmetik)"
- },
- {
-  "id": "skript01_live23-b1-011",
-  "topic": "skript01_live23_ungerade_summe",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Welchen Wert hat die Summe der ersten fünf ungeraden Zahlen 1 + 3 + 5 + 7 + 9?",
-  "answer": 25,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Die Mitschrift führt die Reihe fort mit 25 = 5² für die Summe der ersten fünf ungeraden Zahlen. 📄 Quelle: skript01_live23, Folie 30 (S.3)",
-  "source": "skript01_live23, Folie 30 (S.3, Arithmetik)"
- },
- {
-  "id": "skript01_live23-b1-012",
-  "topic": "skript01_live23_ungerade_summe",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche der auf der Seite notierten Gleichungen zur Summe der ersten n ungeraden Zahlen sind korrekt?",
-  "options": [
-   "1 + 3 = 4 = 2²",
-   "1 + 3 + 5 = 9 = 3²",
-   "1 + 3 + 5 + 7 = 16 = 4²",
-   "1 + 3 + 5 + 7 = 5²"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Notiert sind #2: 1+3 = 4 = 2², #3: 1+3+5 = 9 = 3² und #4: 1+3+5+7 = 16 = 4². Die vierte Option ist falsch (1+3+5+7 = 16, nicht 25). 📄 Quelle: skript01_live23, Folie 30 (S.3)",
-  "source": "skript01_live23, Folie 30 (S.3, Arithmetik)"
- },
- {
-  "id": "skript01_live23-b1-013",
-  "topic": "skript01_live23_ungerade_summe",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Welches Phänomen zeigt sich laut der Variation (Erkundung II) bei der Summe der ersten n ungeraden Zahlen?",
-  "options": [
-   "Es entstehen Quadratzahlen (n²).",
-   "Es entstehen Primzahlen.",
-   "Es entstehen Vielfache von 3.",
-   "Es entstehen Dreieckszahlen."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie behandelt 'Phänomene bei der Summe der ersten n ungeraden Zahlen'; die Ergebnisse 4, 9, 16, 25, 36, 49 sind mit '2², 3², 4², 5², 6², 7²' und dem Kommentar 'Quadratzahlen' markiert. 📄 Quelle: skript01_live23, Folie 30 (S.3)",
-  "source": "skript01_live23, Folie 30 (S.3, Arithmetik)"
- }
+  {
+    "id": "skript01_live23-b1-001",
+    "topic": "skript01_live23_gauss_summe",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Welchen Wert hat die Summe 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 laut der Mitschrift?",
+    "answer": 55,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Auf der Seite wird 1+2+...+10 auf mehrere Weisen berechnet, u. a. als 4·10+10+5 = 5·10+5 = 55 sowie als 5·11 = 55. 📄 Quelle: skript01_live23, Folie 1 (S.1)",
+    "source": "skript01_live23, Folie 1 (S.1, Arithmetik und Geometrie II (Vertiefung), SoSe 2023)"
+  },
+  {
+    "id": "skript01_live23-b1-002",
+    "topic": "skript01_live23_gauss_summe",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Beim paarweisen Verbinden der Summanden (1+10, 2+9, 3+8, ...) ergibt jedes Zahlenpaar in 1+2+...+10 denselben Wert. Welchen?",
+    "answer": 11,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Die Mitschrift hält fest, dass die verbundenen Summanden 'immer 11' ergeben; damit ist 1+2+...+10 = 5·11 = 55. 📄 Quelle: skript01_live23, Folie 1 (S.1)",
+    "source": "skript01_live23, Folie 1 (S.1, Arithmetik und Geometrie II (Vertiefung), SoSe 2023)"
+  },
+  {
+    "id": "skript01_live23-b1-003",
+    "topic": "skript01_live23_gauss_summe",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Welchen Wert hat die Summe 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 (ungerade Anzahl von Summanden) laut der Mitschrift?",
+    "answer": 45,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Bei ungerader Anzahl von Summanden bleibt die 5 'übrig'; die Rechnung auf der Seite lautet 4·10+5 = 45. 📄 Quelle: skript01_live23, Folie 1 (S.1)",
+    "source": "skript01_live23, Folie 1 (S.1, Arithmetik und Geometrie II (Vertiefung), SoSe 2023)"
+  },
+  {
+    "id": "skript01_live23-b1-004",
+    "topic": "skript01_live23_gauss_summe",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aussagen werden auf der Seite festgehalten?",
+    "options": [
+      "Die '0' gehört nicht zu den natürlichen Zahlen.",
+      "Das (paarweise) Verbinden der Summanden war hilfreich.",
+      "0 + 1 + 2 + ... + 10 = 5·10 + 5",
+      "Die Summe 1 + 2 + ... + 10 lässt sich nur mit einer geraden Anzahl von Summanden bilden."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Notiert sind der Warnhinweis 'Die 0 gehört nicht zu den natürlichen Zahlen', die Bemerkung 'Das Verbinden war hilfreich' sowie die Rechnung 0+1+2+...+10 = 5·10+5. Die vierte Aussage steht nicht auf der Seite und ist falsch. 📄 Quelle: skript01_live23, Folie 1 (S.1)",
+    "source": "skript01_live23, Folie 1 (S.1, Arithmetik und Geometrie II (Vertiefung), SoSe 2023)"
+  },
+  {
+    "id": "skript01_live23-b1-005",
+    "topic": "skript01_live23_gauss_formel",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Welchen Wert hat die Summe 1 + 2 + 3 + ... + 16 laut der Mitschrift?",
+    "answer": 136,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Die Seite notiert 1+2+...+16 = 8·17 = 136 (16/2 = 8 Zahlenpaare zu je 17). 📄 Quelle: skript01_live23, Folie 2 (S.2)",
+    "source": "skript01_live23, Folie 2 (S.2, Arithmetik und Geometrie II (Vertiefung), SoSe 2023)"
+  },
+  {
+    "id": "skript01_live23-b1-006",
+    "topic": "skript01_live23_gauss_formel",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Wie viele Zahlenpaare bildet man bei der Summe 1 + 2 + 3 + ... + 16?",
+    "answer": 8,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Die Mitschrift gibt '16/2 Zahlenpaare' an, also 8 Paare (16+1, 15+2, 14+3, 13+4, ...) zu je 17. 📄 Quelle: skript01_live23, Folie 2 (S.2)",
+    "source": "skript01_live23, Folie 2 (S.2, Arithmetik und Geometrie II (Vertiefung), SoSe 2023)"
+  },
+  {
+    "id": "skript01_live23-b1-007",
+    "topic": "skript01_live23_gauss_formel",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "In der Formel 1 + 2 + 3 + ... + (n-1) + n = (n/2)·(n+1) — welche Deutungen der Bestandteile werden auf der Seite notiert?",
+    "options": [
+      "n/2 ist die Anzahl der Zahlenpaare.",
+      "(n+1) ist die höchste Zahl + 1.",
+      "n ist die Anzahl der Summanden.",
+      "(n+1) ist die Anzahl der Summanden."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Die Randnotizen erklären: n/2 = 'Anzahl der Zahlenpaare', (n+1) = 'höchste Zahl + 1' und 'n ist die Anzahl der Summanden'. Die vierte Aussage ist falsch. 📄 Quelle: skript01_live23, Folie 2 (S.2)",
+    "source": "skript01_live23, Folie 2 (S.2, Arithmetik und Geometrie II (Vertiefung), SoSe 2023)"
+  },
+  {
+    "id": "skript01_live23-b1-008",
+    "topic": "skript01_live23_gauss_formel",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Prüfe die Formel für n = 5: Welchen Wert hat 1 + 2 + 3 + 4 + 5?",
+    "answer": 15,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Die Seite rechnet für n=5: 1+2+3+4+5 = 2·6+3 = (5/2)·(5+1) = 15 und prüft damit, ob die Formel auch für ungerade n stimmt. 📄 Quelle: skript01_live23, Folie 2 (S.2)",
+    "source": "skript01_live23, Folie 2 (S.2, Arithmetik und Geometrie II (Vertiefung), SoSe 2023)"
+  },
+  {
+    "id": "skript01_live23-b1-009",
+    "topic": "skript01_live23_gauss_formel",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Der Satz auf der Seite lautet: 'Sei n eine natürliche Zahl. Dann gilt für die Summe S_n := 1 + 2 + 3 + ... + (n-1) + n, dass S_n = (n/2)·(n+1).' Für welche n gilt die Formel demnach?",
+    "options": [
+      "Nur für gerade n",
+      "Nur für ungerade n",
+      "Für jede natürliche Zahl n",
+      "Nur für n ≥ 10"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "Der Satz beginnt mit 'Sei n eine natürliche Zahl' und macht keine Einschränkung auf gerade oder ungerade Zahlen; die Formel gilt für jede natürliche Zahl n. 📄 Quelle: skript01_live23, Folie 2 (S.2)",
+    "source": "skript01_live23, Folie 2 (S.2, Arithmetik und Geometrie II (Vertiefung), SoSe 2023)"
+  },
+  {
+    "id": "skript01_live23-b1-010",
+    "topic": "skript01_live23_ungerade_summe",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Welchen Wert hat die Summe der ersten vier ungeraden Zahlen 1 + 3 + 5 + 7?",
+    "answer": 16,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Die Seite notiert #4: 1+3+5+7 = 16 = 4². 📄 Quelle: skript01_live23, Folie 30 (S.3)",
+    "source": "skript01_live23, Folie 30 (S.3, Arithmetik)"
+  },
+  {
+    "id": "skript01_live23-b1-011",
+    "topic": "skript01_live23_ungerade_summe",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Welchen Wert hat die Summe der ersten fünf ungeraden Zahlen 1 + 3 + 5 + 7 + 9?",
+    "answer": 25,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Die Mitschrift führt die Reihe fort mit 25 = 5² für die Summe der ersten fünf ungeraden Zahlen. 📄 Quelle: skript01_live23, Folie 30 (S.3)",
+    "source": "skript01_live23, Folie 30 (S.3, Arithmetik)"
+  },
+  {
+    "id": "skript01_live23-b1-012",
+    "topic": "skript01_live23_ungerade_summe",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche der auf der Seite notierten Gleichungen zur Summe der ersten n ungeraden Zahlen sind korrekt?",
+    "options": [
+      "1 + 3 = 4 = 2²",
+      "1 + 3 + 5 = 9 = 3²",
+      "1 + 3 + 5 + 7 = 16 = 4²",
+      "1 + 3 + 5 + 7 = 5²"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Notiert sind #2: 1+3 = 4 = 2², #3: 1+3+5 = 9 = 3² und #4: 1+3+5+7 = 16 = 4². Die vierte Option ist falsch (1+3+5+7 = 16, nicht 25). 📄 Quelle: skript01_live23, Folie 30 (S.3)",
+    "source": "skript01_live23, Folie 30 (S.3, Arithmetik)"
+  },
+  {
+    "id": "skript01_live23-b1-013",
+    "topic": "skript01_live23_ungerade_summe",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Welches Phänomen zeigt sich bei der Summe der ersten n ungeraden Zahlen?",
+    "options": [
+      "Es entstehen Quadratzahlen (n²).",
+      "Es entstehen Primzahlen.",
+      "Es entstehen Vielfache von 3.",
+      "Es entstehen Dreieckszahlen."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie behandelt 'Phänomene bei der Summe der ersten n ungeraden Zahlen'; die Ergebnisse 4, 9, 16, 25, 36, 49 sind mit '2², 3², 4², 5², 6², 7²' und dem Kommentar 'Quadratzahlen' markiert. 📄 Quelle: skript01_live23, Folie 30 (S.3)",
+    "source": "skript01_live23, Folie 30 (S.3, Arithmetik)"
+  }
 ]

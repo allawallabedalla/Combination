@@ -1,1620 +1,1620 @@
 [
- {
-  "id": "ari23_vl04-b1-001",
-  "topic": "ari23_vl04_vollstaendige_induktion",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Aus welchen Bestandteilen besteht die Technik der vollständigen Induktion laut Folie 4?",
-  "options": [
-   "Induktionsanfang: A(n) ist wahr für n=1 (bzw. die kleinste natürliche Zahl)",
-   "Induktionsvoraussetzung: A(n) sei wahr für ein beliebiges, aber festes n ∈ ℕ",
-   "Induktionsschluss: n → (n+1)",
-   "Induktionsende: A(n) ist wahr für alle n ∈ ℝ"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Die Folie nennt genau Induktionsanfang, Induktionsvoraussetzung und Induktionsschluss (n → n+1). Von reellen Zahlen ℝ ist keine Rede; die Aussage betrifft natürliche Zahlen. 📄 Quelle: ari23_vl04, Folie 4 (S.4)",
-  "source": "ari23_vl04, Folie 4 (S.4, Vollständige Induktion)"
- },
- {
-  "id": "ari23_vl04-b1-002",
-  "topic": "ari23_vl04_vollstaendige_induktion",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Was darf beim Induktionsschluss (n → n+1) laut Folie 4 verwendet werden?",
-  "options": [
-   "die Induktionsvoraussetzung (I.V.)",
-   "nur der Induktionsanfang",
-   "ein Gegenbeispiel",
-   "die Behauptung A(n+1) als bereits bewiesen"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Auf der Folie: 'Man zeigt, dass die Aussage für A(n+1) wahr ist (dabei darf die I.V. verwendet werden).' 📄 Quelle: ari23_vl04, Folie 4 (S.4)",
-  "source": "ari23_vl04, Folie 4 (S.4, Vollständige Induktion)"
- },
- {
-  "id": "ari23_vl04-b1-003",
-  "topic": "ari23_vl04_vollstaendige_induktion",
-  "difficulty": 3,
-  "type": "multi",
-  "question": "Wie wird die Idee der vollständigen Induktion auf Folie 4 in den Peano-Axiomen begründet?",
-  "options": [
-   "Das 1-Element wird durch Axiom 1 gesichert",
-   "Die Eindeutigkeit des Nachfolgers wird durch Axiom 2 gesichert",
-   "Dass eine Teilmenge der Natürlichen Zahlen gleich den Natürlichen Zahlen ist, sichert Axiom 5",
-   "Die Begründung stützt sich auf Axiom 3 und Axiom 4"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Folie 4: 'Das 1-Element (Axiom 1) und die Eindeutigkeit des Nachfolgers (Axiom 2) sichern, dass eine Teilmenge der Natürlichen Zahlen gleich den Natürlichen Zahlen ist (Axiom 5).' 📄 Quelle: ari23_vl04, Folie 4 (S.4)",
-  "source": "ari23_vl04, Folie 4 (S.4, Vollständige Induktion)"
- },
- {
-  "id": "ari23_vl04-b1-004",
-  "topic": "ari23_vl04_erkundung2_summenformel",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Die modifizierte Fibonacci-Folge auf Folie 5 ist definiert durch f̃_1=4, f̃_2=7 und f̃_n = f̃_{n-2} + f̃_{n-1} für n>2. Wie lautet das 6. Glied f̃_6 (siehe Tabelle)?",
-  "answer": 47,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Die Tabelle listet 4, 7, 11, 18, 29, 47; also f̃_6 = 47. 📄 Quelle: ari23_vl04, Folie 5 (S.5)",
-  "source": "ari23_vl04, Folie 5 (S.5, Erkundung II)"
- },
- {
-  "id": "ari23_vl04-b1-005",
-  "topic": "ari23_vl04_erkundung2_summenformel",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Wie groß ist die Summe der ersten 5 modifizierten Fibonacci-Zahlen (S̃_5) laut der Tabelle auf Folie 5?",
-  "answer": 69,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Die Summenspalte der Tabelle zeigt bei n=5 den Wert 69. 📄 Quelle: ari23_vl04, Folie 5 (S.5)",
-  "source": "ari23_vl04, Folie 5 (S.5, Erkundung II)"
- },
- {
-  "id": "ari23_vl04-b1-006",
-  "topic": "ari23_vl04_erkundung2_summenformel",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Wie lautet die Gleichung (GL1) auf Folie 5 für das n-te Glied der modifizierten Fibonacci-Folge?",
-  "options": [
-   "f̃_n = f_{n-2}·s_1 + f_{n-1}·s_2",
-   "f̃_n = f_{n-1}·s_1 + f_{n-2}·s_2",
-   "f̃_n = f_{n-2} + f_{n-1}",
-   "f̃_n = f_n·s_1 + f_{n+1}·s_2"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die eingerahmte Gleichung (GL1) lautet f̃_n = f_{n-2}·s_1 + f_{n-1}·s_2, wobei f die ursprüngliche Fibonacci-Folge und s_1, s_2 die Startzahlen sind. 📄 Quelle: ari23_vl04, Folie 5 (S.5)",
-  "source": "ari23_vl04, Folie 5 (S.5, Erkundung II)"
- },
- {
-  "id": "ari23_vl04-b1-007",
-  "topic": "ari23_vl04_erkundung2_summenformel",
-  "difficulty": 3,
-  "type": "multi",
-  "question": "Welche Umformungen der Summe S̃_n werden auf Folie 5 hergeleitet?",
-  "options": [
-   "S̃_n = f̃_{n+2} − 7",
-   "S_n = f̃_{n+2} − s_2",
-   "mit (GL1): f̃_{n+2} = f_n·s_1 + f_{n+1}·s_2",
-   "S̃_n = f̃_{n+2} + 7"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Die Folie zeigt S̃_n = f̃_{n+2} − 7, allgemein S_n = f̃_{n+2} − s_2 und setzt mit (GL1) f̃_{n+2} = f_n·s_1 + f_{n+1}·s_2 ein. Die Variante mit '+7' ist falsch. 📄 Quelle: ari23_vl04, Folie 5 (S.5)",
-  "source": "ari23_vl04, Folie 5 (S.5, Erkundung II)"
- },
- {
-  "id": "ari23_vl04-b1-008",
-  "topic": "ari23_vl04_erkundung2_summenformel",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche drei Schritte nennt Folie 6, nachdem die Vermutung (Formel für S̃_n) aufgestellt wurde?",
-  "options": [
-   "Beispiele machen, um die gefundene Formel (Vermutung) zu testen",
-   "Einen mathematischen Satz formulieren",
-   "Diesen mathematischen Satz beweisen",
-   "Die Vermutung sofort als Axiom übernehmen"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Folie 6 listet: 1. Beispiele machen um die Formel zu testen, 2. einen mathematischen Satz formulieren, 3. diesen Satz beweisen. 📄 Quelle: ari23_vl04, Folie 6 (S.6)",
-  "source": "ari23_vl04, Folie 6 (S.6, Erkundung II)"
- },
- {
-  "id": "ari23_vl04-b1-009",
-  "topic": "ari23_vl04_erkundung2_summenformel",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Wie lautet die auf Folie 6 formulierte Vermutung für die Summe S̃_n der modifizierten Fibonacci-Zahlen?",
-  "options": [
-   "S̃_n = f_n·s_1 + (f_{n+1} − 1)·s_2",
-   "S̃_n = f_n·s_1 + f_{n+1}·s_2",
-   "S̃_n = f̃_{n+2} − 1",
-   "S̃_n = (f_n − 1)·s_1 + f_{n+1}·s_2"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die eingerahmte Vermutung lautet S̃_n = f_n·s_1 + (f_{n+1} − 1)·s_2, mit S̃_n = f̃_1 + f̃_2 + … + f̃_n. 📄 Quelle: ari23_vl04, Folie 6 (S.6)",
-  "source": "ari23_vl04, Folie 6 (S.6, Erkundung II)"
- },
- {
-  "id": "ari23_vl04-b1-010",
-  "topic": "ari23_vl04_erkundung2_summenformel",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Was zeigen die drei Beispieltabellen zum Testen der Vermutung auf Folie 7?",
-  "options": [
-   "Alle Folgen folgen dem gleichen Bildungsprinzip a_{n+2} = a_{n+1} + a_n",
-   "Die Startzahlen s_1, s_2 (bzw. f̃_1, f̃_2) dürfen unterschiedlich gewählt werden",
-   "Die Probe (Formelwert) stimmt jeweils mit der tatsächlichen Summe überein",
-   "Nur die klassische Fibonacci-Folge (Start 1, 1) erfüllt die Summenformel"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Die Folie testet drei Folgen mit verschiedenen Startzahlen (u. a. 1/1, 4/7, 13/9); handschriftlich: 'andere Startzahlen, aber gleiches Prinzip a_{n+2}=a_{n+1}+a_n'. Die Probe (Formel) stimmt jeweils mit der Summe überein. 📄 Quelle: ari23_vl04, Folie 7 (S.7)",
-  "source": "ari23_vl04, Folie 7 (S.7, Erkundung II)"
- },
- {
-  "id": "ari23_vl04-b1-011",
-  "topic": "ari23_vl04_erkundung2_summenformel",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "In der Beispieltabelle mit den Startzahlen s_1=13, s_2=9 auf Folie 7: Wie groß ist die Summe der ersten 4 Folgenglieder (S̃_4)?",
-  "answer": 75,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Die Folge lautet 13, 9, 22, 31, …; die Summenspalte (Probe) zeigt bei n=4 den Wert 75. 📄 Quelle: ari23_vl04, Folie 7 (S.7)",
-  "source": "ari23_vl04, Folie 7 (S.7, Erkundung II)"
- },
- {
-  "id": "ari23_vl04-b1-012",
-  "topic": "ari23_vl04_erkundung2_summenformel",
-  "difficulty": 3,
-  "type": "numeric",
-  "question": "Berechnen Sie mit der Vermutung S̃_n = f_n·s_1 + (f_{n+1} − 1)·s_2 den Wert S̃_3 für s_1=4, s_2=7 (Bsp 1, Folie 8; f_3=2, f_4=3).",
-  "answer": 22,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "S̃_3 = f_3·s_1 + (f_4 − 1)·s_2 = 2·4 + (3 − 1)·7 = 8 + 14 = 22. 📄 Quelle: ari23_vl04, Folie 8 (S.8)",
-  "source": "ari23_vl04, Folie 8 (S.8, Erkundung II)"
- },
- {
-  "id": "ari23_vl04-b1-013",
-  "topic": "ari23_vl04_erkundung2_summenformel",
-  "difficulty": 3,
-  "type": "numeric",
-  "question": "Berechnen Sie mit der Vermutung S̃_n = f_n·s_1 + (f_{n+1} − 1)·s_2 den Wert S̃_4 für s_1=13, s_2=9 (Bsp 2, Folie 8; f_4=3, f_5=5).",
-  "answer": 75,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "S̃_4 = f_4·s_1 + (f_5 − 1)·s_2 = 3·13 + (5 − 1)·9 = 39 + 36 = 75. 📄 Quelle: ari23_vl04, Folie 8 (S.8)",
-  "source": "ari23_vl04, Folie 8 (S.8, Erkundung II)"
- },
- {
-  "id": "ari23_vl04-b1-014",
-  "topic": "ari23_vl04_erkundung2_summenformel",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche ursprünglichen Fibonacci-Zahlen werden in Bsp 1 (Berechnung von S̃_3) auf Folie 8 eingesetzt?",
-  "options": [
-   "f_3 = 2",
-   "f_4 = 3",
-   "f_5 = 5",
-   "f_2 = 1"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "S̃_3 = f_3·s_1 + (f_4 − 1)·s_2 verwendet f_3 = 2 und f_4 = 3. 📄 Quelle: ari23_vl04, Folie 8 (S.8)",
-  "source": "ari23_vl04, Folie 8 (S.8, Erkundung II)"
- },
- {
-  "id": "ari23_vl04-b1-015",
-  "topic": "ari23_vl04_erkundung2_summenformel",
-  "difficulty": 3,
-  "type": "multi",
-  "question": "Welche Voraussetzungen nennt der Satz auf Folie 9 (Summe modifizierter Fibonacci-Zahlen)?",
-  "options": [
-   "s_1 und s_2 sind Startzahlen einer modifizierten Fibonacci-Folge, also s_1 = f̃_1 und s_2 = f̃_2",
-   "S̃_n = f̃_1 + f̃_2 + … + f̃_n ist die Summe der ersten n modifizierten Fibonacci-Zahlen",
-   "f_n sind die Zahlen der ursprünglichen Fibonacci-Folge",
-   "Die Aussage gilt nur für gerade n"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Der Satz gilt 'für alle natürlichen Zahlen n' und setzt voraus: s_1 = f̃_1, s_2 = f̃_2 als Startzahlen, S̃_n als Summe der ersten n modifizierten Zahlen, und f_n als ursprüngliche Fibonacci-Zahlen. Eine Einschränkung auf gerade n gibt es nicht. 📄 Quelle: ari23_vl04, Folie 9 (S.9)",
-  "source": "ari23_vl04, Folie 9 (S.9, Erkundung II)"
- },
- {
-  "id": "ari23_vl04-b1-016",
-  "topic": "ari23_vl04_erkundung2_summenformel",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Wie soll der Satz zur Summenformel laut Folie 9 (Schritt 3) bewiesen werden?",
-  "options": [
-   "mit vollständiger Induktion",
-   "durch ein einziges Gegenbeispiel",
-   "gar nicht, er gilt als Axiom",
-   "nur durch Ausprobieren einiger Beispiele"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Folie 9: '3. Diesen Satz beweisen. (mit vollständiger Induktion – komplizierter als bisher)'. 📄 Quelle: ari23_vl04, Folie 9 (S.9)",
-  "source": "ari23_vl04, Folie 9 (S.9, Erkundung II)"
- },
- {
-  "id": "ari23_vl04-b1-017",
-  "topic": "ari23_vl04_fibonacci_geschichte",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Wer war Leonardo von Pisa laut Folie 10?",
-  "options": [
-   "ein Rechenmeister (1170–1240), Verfasser des 'liber abacci'",
-   "ein Architekt des Doms in Florenz",
-   "der Autor des Romans 'Sakrileg'",
-   "ein Schüler von Peano"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Folie 10: Leonardo von Pisa (1170–1240), Rechenmeister, 'liber abacci'. 📄 Quelle: ari23_vl04, Folie 10 (S.10)",
-  "source": "ari23_vl04, Folie 10 (S.10, Fibonacci-Zahlen)"
- },
- {
-  "id": "ari23_vl04-b1-018",
-  "topic": "ari23_vl04_fibonacci_geschichte",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Inhalte des 'liber abacci' werden auf Folie 10 genannt?",
-  "options": [
-   "Von der Kenntnis der neun Zahlzeichen der Inder",
-   "Multiplikation natürlicher Zahlen mit Brüchen",
-   "Teilung natürlicher Zahlen durch natürliche Zahlen",
-   "Konstruktion des goldenen Schnitts mit Zirkel und Lineal"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Die aufgeführten Punkte umfassen u. a. die neun Zahlzeichen der Inder, Multiplikation und Subtraktion, Teilung natürlicher Zahlen sowie Multiplikation mit Brüchen. Eine Zirkel-und-Lineal-Konstruktion des goldenen Schnitts wird nicht genannt. 📄 Quelle: ari23_vl04, Folie 10 (S.10)",
-  "source": "ari23_vl04, Folie 10 (S.10, Fibonacci-Zahlen)"
- },
- {
-  "id": "ari23_vl04-b1-019",
-  "topic": "ari23_vl04_goldener_schnitt",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Welchem Grenzwert (goldener Schnitt φ) nähert sich das Verhältnis f_n/f_{n-1} benachbarter Fibonacci-Zahlen laut Folie 11 an? (auf 3 Nachkommastellen)",
-  "answer": 1.618,
-  "tolerance": 0.001,
-  "unit": "",
-  "explanation": "Folie 11: Major : Minor = φ ≈ 1,618. 📄 Quelle: ari23_vl04, Folie 11 (S.11)",
-  "source": "ari23_vl04, Folie 11 (S.11, Fibonacci-Zahlen / Zahlenmagie)"
- },
- {
-  "id": "ari23_vl04-b1-020",
-  "topic": "ari23_vl04_goldener_schnitt",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Berechnen Sie das auf Folie 11 angegebene Verhältnis 13 : 8 zweier benachbarter Fibonacci-Zahlen.",
-  "answer": 1.625,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Folie 11: 13 : 8 = 1,625. 📄 Quelle: ari23_vl04, Folie 11 (S.11)",
-  "source": "ari23_vl04, Folie 11 (S.11, Fibonacci-Zahlen / Zahlenmagie)"
- },
- {
-  "id": "ari23_vl04-b1-021",
-  "topic": "ari23_vl04_goldener_schnitt",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Aussagen zum goldenen Schnitt macht Folie 11?",
-  "options": [
-   "Das Verhältnis f_n/f_{n-1} entspricht dem Verhältnis Major : Minor",
-   "Der goldene Schnitt φ beträgt ungefähr 1,618",
-   "Der Major-Anteil beträgt ca. 61,8 %, der Minor-Anteil ca. 38,2 %",
-   "Das Verhältnis f_n/f_{n-1} strebt gegen 2"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Folie 11 stellt das Verhältnis f_n/f_{n-1} als Major : Minor dar, gibt φ ≈ 1,618 an und zeigt die Aufteilung ca. 61,8 % / 38,2 %. Gegen 2 strebt das Verhältnis nicht. 📄 Quelle: ari23_vl04, Folie 11 (S.11)",
-  "source": "ari23_vl04, Folie 11 (S.11, Fibonacci-Zahlen / Zahlenmagie)"
- },
- {
-  "id": "ari23_vl04-b1-022",
-  "topic": "ari23_vl04_kettenbrueche",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Was besagt Folie 12 über die aus Fibonacci-Zahlen gebildeten Brüche?",
-  "options": [
-   "Sie lassen sich durch sogenannte Kettenbrüche nur mit 1en ausdrücken",
-   "Sie sind stets ganzzahlig",
-   "Sie lassen sich nur als Kettenbruch mit lauter 2en schreiben",
-   "Sie lassen sich nicht als Kettenbruch darstellen"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Folie 12: 'Alle Brüche f_n/f_{n-1} lassen sich durch sogenannte Kettenbrüche nur mit 1en ausdrücken!' 📄 Quelle: ari23_vl04, Folie 12 (S.12)",
-  "source": "ari23_vl04, Folie 12 (S.12, Fibonacci-Zahlen / Zahlenmagie)"
- },
- {
-  "id": "ari23_vl04-b1-023",
-  "topic": "ari23_vl04_kettenbrueche",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Welchen Wert hat der auf Folie 12 gezeigte Kettenbruch 1/(1 + 1/1)?",
-  "answer": 0.5,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "1/(1 + 1/1) = 1/2 = 0,5. Auf Folie 12 wird 1/2 als dieser Kettenbruch dargestellt. 📄 Quelle: ari23_vl04, Folie 12 (S.12)",
-  "source": "ari23_vl04, Folie 12 (S.12, Fibonacci-Zahlen / Zahlenmagie)"
- },
- {
-  "id": "ari23_vl04-b1-024",
-  "topic": "ari23_vl04_fibonacci_anwendungen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Fibonacci-Zahlen treten in den auf Folie 13 markierten Proportionen des Doms in Florenz auf?",
-  "options": [
-   "55",
-   "89",
-   "144",
-   "100"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "In den Proportionen sind die Maße 55, 89 und 144 als Fibonacci-Zahlen markiert. 📄 Quelle: ari23_vl04, Folie 13 (S.13)",
-  "source": "ari23_vl04, Folie 13 (S.13, Fibonacci-Zahlen / Architektur)"
- },
- {
-  "id": "ari23_vl04-b1-025",
-  "topic": "ari23_vl04_fibonacci_anwendungen",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Wie lautet die 13. Fibonacci-Zahl f_13 laut der Tabelle auf Folie 13?",
-  "answer": 233,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Die Tabelle führt f_13 = 233 auf. 📄 Quelle: ari23_vl04, Folie 13 (S.13)",
-  "source": "ari23_vl04, Folie 13 (S.13, Fibonacci-Zahlen / Architektur)"
- },
- {
-  "id": "ari23_vl04-b1-026",
-  "topic": "ari23_vl04_fibonacci_anwendungen",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Wozu sortiert Sophie Neveu im 'Da Vinci Code' die Zahlenreihe 13-3-2-21-1-1-8-5 (Folie 14)?",
-  "options": [
-   "zu den ersten Fibonacci-Zahlen 1-1-2-3-5-8-13-21",
-   "zu einer geometrischen Reihe 1-2-4-8-16",
-   "zu den Primzahlen 2-3-5-7-11-13",
-   "zur Reihe 1-2-3-4-5-6-7-8"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Folie 14: 13-3-2-21-1-1-8-5 → 1-1-2-3-5-8-13-21, also die ersten Fibonacci-Zahlen. 📄 Quelle: ari23_vl04, Folie 14 (S.14)",
-  "source": "ari23_vl04, Folie 14 (S.14, Fibonacci-Zahlen / Literatur)"
- },
- {
-  "id": "ari23_vl04-b1-027",
-  "topic": "ari23_vl04_fibonacci_anwendungen",
-  "difficulty": 1,
-  "type": "multi",
-  "question": "Welche Zahlen enthält der sortierte Code 1-1-2-3-5-8-13-21 auf Folie 14?",
-  "options": [
-   "1, 1, 2, 3",
-   "5, 8, 13, 21",
-   "4 und 6",
-   "34"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Der Code lautet 1-1-2-3-5-8-13-21; er enthält 1, 1, 2, 3 sowie 5, 8, 13, 21. Die 4, 6 und 34 kommen nicht vor. 📄 Quelle: ari23_vl04, Folie 14 (S.14)",
-  "source": "ari23_vl04, Folie 14 (S.14, Fibonacci-Zahlen / Literatur)"
- },
- {
-  "id": "ari23_vl04-b1-028",
-  "topic": "ari23_vl04_fibonacci_anwendungen",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Was besagt Folie 15 über Fibonacci-Zahlen in der Natur?",
-  "options": [
-   "Blatt- und Blütenstände enthalten häufig benachbarte Fibonacci-Zahlen",
-   "Pflanzen wachsen ausschließlich nach Primzahlmustern",
-   "Blütenstände enthalten immer genau 100 Blüten",
-   "Fibonacci-Zahlen treten in der Natur nicht auf"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Folie 15: 'Blatt und Blütenstände enthalten häufig benachbarte Fibonacci-Zahlen.' 📄 Quelle: ari23_vl04, Folie 15 (S.15)",
-  "source": "ari23_vl04, Folie 15 (S.15, Fibonacci-Zahlen / Natur)"
- },
- {
-  "id": "ari23_vl04-b1-029",
-  "topic": "ari23_vl04_fibonacci_anwendungen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche benachbarten Fibonacci-Zahlen sind in den Naturbeispielen (Kiefernzapfen, Sonnenblume) auf Folie 15 markiert?",
-  "options": [
-   "5, 8, 13",
-   "34, 55",
-   "7, 11",
-   "4, 6"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Am Kiefernzapfen sind 5, 8, 13 und in der Sonnenblume 34, 55 markiert – jeweils benachbarte Fibonacci-Zahlen. 7, 11, 4 und 6 sind keine Fibonacci-Zahlen. 📄 Quelle: ari23_vl04, Folie 15 (S.15)",
-  "source": "ari23_vl04, Folie 15 (S.15, Fibonacci-Zahlen / Natur)"
- },
- {
-  "id": "ari23_vl04-b1-030",
-  "topic": "ari23_vl04_zahlenmagie",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Durch welche Fibonacci-Zahl f_11 wird auf Folie 16 die Zahl 1 geteilt (Zahlenmagie 2.0)?",
-  "answer": 89,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Folie 16: 'Teilen Sie 1 durch f_11 = 89'. 📄 Quelle: ari23_vl04, Folie 16 (S.16)",
-  "source": "ari23_vl04, Folie 16 (S.16, Fibonacci-Zahlen / Zahlenmagie)"
- },
- {
-  "id": "ari23_vl04-b1-031",
-  "topic": "ari23_vl04_zahlenmagie",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Wie beginnt die auf Folie 16 angegebene Dezimaldarstellung von 1/89?",
-  "options": [
-   "0,0112359…",
-   "0,0123456…",
-   "0,1123581…",
-   "0,0112233…"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Folie 16: 1/89 = 0,0112359… 📄 Quelle: ari23_vl04, Folie 16 (S.16)",
-  "source": "ari23_vl04, Folie 16 (S.16, Fibonacci-Zahlen / Zahlenmagie)"
- },
- {
-  "id": "ari23_vl04-b1-032",
-  "topic": "ari23_vl04_zahlenmagie",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Für m=8 und n=12 wird auf Folie 18 l := ggT(m; n) gebildet. Wie groß ist l = ggT(8; 12)?",
-  "answer": 4,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Folie 18: ggT(8; 12) = 4 =: l. 📄 Quelle: ari23_vl04, Folie 18 (S.18)",
-  "source": "ari23_vl04, Folie 18 (S.18, Fibonacci-Zahlen / Zahlenmagie)"
- },
- {
-  "id": "ari23_vl04-b1-033",
-  "topic": "ari23_vl04_zahlenmagie",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Bestimmen Sie ggT(f_8; f_12) = ggT(21; 144) gemäß dem Beispiel auf Folie 18.",
-  "answer": 3,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Folie 18: ggT(f_8; f_12) = ggT(21; 144) = 3. 📄 Quelle: ari23_vl04, Folie 18 (S.18)",
-  "source": "ari23_vl04, Folie 18 (S.18, Fibonacci-Zahlen / Zahlenmagie)"
- },
- {
-  "id": "ari23_vl04-b1-034",
-  "topic": "ari23_vl04_zahlenmagie",
-  "difficulty": 3,
-  "type": "multi",
-  "question": "Welcher Zusammenhang zeigt sich in den Beispielen zur 'Zahlenmagie 2.0' auf Folie 18?",
-  "options": [
-   "ggT(f_m; f_n) = f_{ggT(m; n)}",
-   "Für m=8, n=12: ggT(f_8; f_12) = ggT(21; 144) = 3 = f_4",
-   "Für m=10, n=5: ggT(f_10; f_5) = ggT(55; 5) = 5 = f_5",
-   "ggT(f_m; f_n) = f_m · f_n"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Die Beispiele zeigen ggT(f_m; f_n) = f_{ggT(m;n)}: für m=10, n=5 ist ggT(55;5)=5=f_5 (l=ggT(10;5)=5) und für m=8, n=12 ist ggT(21;144)=3=f_4 (l=ggT(8;12)=4). Ein Produkt f_m·f_n ist es nicht. 📄 Quelle: ari23_vl04, Folie 18 (S.18)",
-  "source": "ari23_vl04, Folie 18 (S.18, Fibonacci-Zahlen / Zahlenmagie)"
- },
- {
-  "id": "ari23_vl04-b2-001",
-  "topic": "ari23_vl04_fibonacci",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Welchen Wert hat die 10. Fibonacci-Zahl f_10 gemäß der Tabelle auf der Folie?",
-  "answer": 55,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Die Tabelle listet f_1=1, f_2=1, f_3=2, f_4=3, f_5=5, f_6=8, f_7=13, f_8=21, f_9=34, f_10=55, f_11=89, f_12=144, f_13=233. 📄 Quelle: ari23_vl04, Folie 19 (S.19)",
-  "source": "ari23_vl04, Folie 19 (S.19, Fibonacci-Zahlen)"
- },
- {
-  "id": "ari23_vl04-b2-002",
-  "topic": "ari23_vl04_fibonacci",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Welche Gesetzmäßigkeit über den ggT zweier Fibonacci-Zahlen wird auf der Folie festgehalten?",
-  "options": [
-   "ggT(f_m, f_n) = f_l = f_ggT(m,n)",
-   "ggT(f_m, f_n) = f_m + f_n",
-   "ggT(f_m, f_n) = f_(m·n)",
-   "ggT(f_m, f_n) = ggT(m,n)"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie hält fest: Bildet man ggT(m;n)=l, so ist ggT(f_m, f_n) = f_l = f_ggT(m,n). 📄 Quelle: ari23_vl04, Folie 19 (S.19)",
-  "source": "ari23_vl04, Folie 19 (S.19, Fibonacci-Zahlen)"
- },
- {
-  "id": "ari23_vl04-b2-003",
-  "topic": "ari23_vl04_fibonacci",
-  "difficulty": 3,
-  "type": "numeric",
-  "question": "Bestimme mit der Regel ggT(f_m, f_n) = f_ggT(m,n) den Wert von ggT(f_8, f_12).",
-  "answer": 3,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Es ist ggT(8;12)=4, also ggT(f_8, f_12)=f_4=3 (Kontrolle: ggT(21;144)=3). 📄 Quelle: ari23_vl04, Folie 19 (S.19)",
-  "source": "ari23_vl04, Folie 19 (S.19, Fibonacci-Zahlen)"
- },
- {
-  "id": "ari23_vl04-b2-004",
-  "topic": "ari23_vl04_fibonacci",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Nach wem sind die Fibonacci-Zahlen benannt (Angabe auf der Folie)?",
-  "options": [
-   "Leonardo von Pisa (1170 - 1240)",
-   "Blaise Pascal",
-   "Giuseppe Peano",
-   "Euklid von Alexandria"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie nennt Leonardo von Pisa (1170 - 1240). 📄 Quelle: ari23_vl04, Folie 19 (S.19)",
-  "source": "ari23_vl04, Folie 19 (S.19, Fibonacci-Zahlen)"
- },
- {
-  "id": "ari23_vl04-b2-005",
-  "topic": "ari23_vl04_quadratsumme",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Welchen Wert hat das Quadrat der 7. Fibonacci-Zahl (f_7 = 13) gemäß der Tabelle?",
-  "answer": 169,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Die Spalte 'Quadrate' zeigt für n=7 den Wert 13^2 = 169. 📄 Quelle: ari23_vl04, Folie 20 (S.20)",
-  "source": "ari23_vl04, Folie 20 (S.20, Summe der Quadrate der Fibonacci-Zahlen)"
- },
- {
-  "id": "ari23_vl04-b2-006",
-  "topic": "ari23_vl04_quadratsumme",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Wie groß ist die Summe S_6 der Quadrate der ersten 6 Fibonacci-Zahlen gemäß der Tabelle?",
-  "answer": 104,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Die Spalte 'Summe' zeigt für n=6 den Wert 104 (=1+1+4+9+25+64). 📄 Quelle: ari23_vl04, Folie 20 (S.20)",
-  "source": "ari23_vl04, Folie 20 (S.20, Summe der Quadrate der Fibonacci-Zahlen)"
- },
- {
-  "id": "ari23_vl04-b2-007",
-  "topic": "ari23_vl04_quadratsumme",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Was wurde laut Folie in Erkundung II untersucht?",
-  "options": [
-   "Die Summe S_n der Quadrate der ersten n Fibonacci-Zahlen",
-   "Das Produkt der ersten n Fibonacci-Zahlen",
-   "Der ggT aufeinanderfolgender Fibonacci-Zahlen",
-   "Die Differenz benachbarter Fibonacci-Zahlen"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Text der Folie: 'Sie haben in Erkundung II ... die Summe S_n der Quadrate der ersten n Fibonacci-Zahlen untersucht.' 📄 Quelle: ari23_vl04, Folie 20 (S.20)",
-  "source": "ari23_vl04, Folie 20 (S.20, Summe der Quadrate der Fibonacci-Zahlen)"
- },
- {
-  "id": "ari23_vl04-b2-008",
-  "topic": "ari23_vl04_quadratsumme",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Welche Vermutung für die Summe der Quadrate der ersten n Fibonacci-Zahlen wird auf der Folie aufgestellt?",
-  "options": [
-   "S_n = f_1^2 + f_2^2 + ... + f_n^2 = f_n · f_(n+1)",
-   "S_n = f_1^2 + ... + f_n^2 = f_n + f_(n+1)",
-   "S_n = f_1^2 + ... + f_n^2 = (f_n)^2",
-   "S_n = f_1^2 + ... + f_n^2 = f_(2n)"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Vermutung lautet S_n = f_1^2 + f_2^2 + f_3^2 + ... + f_(n-1)^2 + f_n^2 = f_n · f_(n+1). 📄 Quelle: ari23_vl04, Folie 22 (S.22)",
-  "source": "ari23_vl04, Folie 22 (S.22, Summe der Quadrate der Fibonacci-Zahlen)"
- },
- {
-  "id": "ari23_vl04-b2-009",
-  "topic": "ari23_vl04_quadratsumme",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Berechne mit der Vermutung S_n = f_n · f_(n+1) den Wert von S_5 (es ist f_5 = 5, f_6 = 8).",
-  "answer": 40,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "S_5 = f_5 · f_6 = 5 · 8 = 40 (auf der Folie als 5·8=40=S_5 notiert). 📄 Quelle: ari23_vl04, Folie 22 (S.22)",
-  "source": "ari23_vl04, Folie 22 (S.22, Summe der Quadrate der Fibonacci-Zahlen)"
- },
- {
-  "id": "ari23_vl04-b2-010",
-  "topic": "ari23_vl04_quadratsumme",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Als welcher Schritt im mathematischen Arbeiten wird das Erkennen dieses Zusammenhangs auf der Folie bezeichnet?",
-  "options": [
-   "Entdeckung eines Musters (Aufstellen einer Hypothese)",
-   "Beweis durch vollständige Induktion",
-   "Definition eines Axioms",
-   "Widerlegung durch ein Gegenbeispiel"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Fußzeile der Folie: 'Entdeckung eines Musters (Aufstellen einer Hypothese)'. 📄 Quelle: ari23_vl04, Folie 22 (S.22)",
-  "source": "ari23_vl04, Folie 22 (S.22, Summe der Quadrate der Fibonacci-Zahlen)"
- },
- {
-  "id": "ari23_vl04-b2-011",
-  "topic": "ari23_vl04_vollstaendige_induktion",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Was ist gemäß Folie die vollständige Induktion? (Mehrfachauswahl möglich)",
-  "options": [
-   "Ein Beweis, dass eine Behauptung/Aussage für alle natürlichen Zahlen gilt",
-   "Sie beruht auf der Grundlage der Peano-Axiome",
-   "Ein Verfahren, das nur Aussagen für endlich viele Zahlen prüft",
-   "Eine Methode zum Aufstellen (statt Beweisen) von Vermutungen"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Die Folie definiert: 'Die Vollständige Induktion ist ein Beweis, dass eine Behauptung/Aussage für alle Natürlichen Zahlen gilt (auf der Grundlage der Peano-Axiome).' 📄 Quelle: ari23_vl04, Folie 23 (S.23)",
-  "source": "ari23_vl04, Folie 23 (S.23, Vollständige Induktion)"
- },
- {
-  "id": "ari23_vl04-b2-012",
-  "topic": "ari23_vl04_vollstaendige_induktion",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Welcher Satz soll laut Aufgabenstellung der Folie mit vollständiger Induktion bewiesen werden?",
-  "options": [
-   "Der Satz über die Summe der Quadrate der ersten n Fibonacci-Zahlen",
-   "Der Satz über den ggT zweier Fibonacci-Zahlen",
-   "Der Satz über die Summe der ersten n natürlichen Zahlen",
-   "Der Satz über die Zweierpotenzen im Pascalschen Dreieck"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Aufgabe der Folie: 'Beweisen Sie den Satz über die Summe der Quadrate der ersten n Fibonacci-Zahlen mit Hilfe der vollständigen Induktion!' 📄 Quelle: ari23_vl04, Folie 23 (S.23)",
-  "source": "ari23_vl04, Folie 23 (S.23, Vollständige Induktion)"
- },
- {
-  "id": "ari23_vl04-b2-013",
-  "topic": "ari23_vl04_axiome",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Aussagen über Axiome nennt die Folie? (Mehrfachauswahl möglich)",
-  "options": [
-   "Axiome sind die Spielsteine der Mathematik (der Rest sind die Regeln)",
-   "Axiome sind das Fundament der Mathematik, auf dem die weiteren Sätze aufgebaut werden",
-   "Axiome sind unbewiesene Aussagen",
-   "Axiome müssen aus den Theoremen bewiesen werden"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Die Folie nennt: Axiome sind die Spielsteine der Mathematik (Rest sind die Regeln); sie sind das Fundament, auf dem weitere Sätze aufgebaut werden; sie sind unbewiesene Aussagen. Sie werden gerade NICHT bewiesen. 📄 Quelle: ari23_vl04, Folie 25 (S.25)",
-  "source": "ari23_vl04, Folie 25 (S.25, Axiome)"
- },
- {
-  "id": "ari23_vl04-b2-014",
-  "topic": "ari23_vl04_axiome",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Warum sind Axiome laut Folie unbewiesene Aussagen?",
-  "options": [
-   "Weil man sonst unendlich weit 'zurück' beweisen müsste",
-   "Weil sie experimentell nicht überprüfbar sind",
-   "Weil sie nur in der Geometrie vorkommen",
-   "Weil sie aus den Peano-Axiomen folgen"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie: 'Axiome sind unbewiesene Aussagen. Das ist notwendig, weil man sonst unendlich weit zurück beweisen müsste.' 📄 Quelle: ari23_vl04, Folie 25 (S.25)",
-  "source": "ari23_vl04, Folie 25 (S.25, Axiome)"
- },
- {
-  "id": "ari23_vl04-b2-015",
-  "topic": "ari23_vl04_axiome",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Für welche Bereiche gibt es laut Folie beispielsweise Axiome? (Mehrfachauswahl möglich)",
-  "options": [
-   "Zu den natürlichen Zahlen",
-   "Zur (euklidischen) Geometrie",
-   "Zum Wahrscheinlichkeitsbegriff",
-   "Zu allen Bereichen der Mathematik"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Beispiele der Folie: natürliche Zahlen, (euklidische) Geometrie, Wahrscheinlichkeitsbegriff, Gruppen/Körper, Mengen - aber ausdrücklich 'nicht zu allen Bereichen der Mathematik'. 📄 Quelle: ari23_vl04, Folie 25 (S.25)",
-  "source": "ari23_vl04, Folie 25 (S.25, Axiome)"
- },
- {
-  "id": "ari23_vl04-b2-016",
-  "topic": "ari23_vl04_axiome",
-  "difficulty": 2,
-  "type": "single",
-  "question": "An welcher Stelle stehen Axiome laut Folie in der Entwicklung eines mathematischen Teilgebiets?",
-  "options": [
-   "Am Ende einer langen Entwicklung eines mathematischen Teilgebiets",
-   "Ganz am Anfang, noch vor jeder mathematischen Betätigung",
-   "In der Mitte zwischen Vermutung und Beweis",
-   "Nach dem Beweis der zugehörigen Theoreme"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie: 'Axiome stehen am Ende einer langen Entwicklung eines mathematischen Teilgebiets.' 📄 Quelle: ari23_vl04, Folie 25 (S.25)",
-  "source": "ari23_vl04, Folie 25 (S.25, Axiome)"
- },
- {
-  "id": "ari23_vl04-b2-017",
-  "topic": "ari23_vl04_erkundung2_pascal",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Welche rekursive Vorschrift beschreibt in Erkundung II die 'Folge von Einsen' (1, 1, 1, 1, ...)?",
-  "options": [
-   "a_(n+1) = a_n + 0, mit a_1 := 1",
-   "a_(n+1) = a_n + 1, mit a_1 := 1",
-   "a_(n+1) = a_n · 0, mit a_1 := 1",
-   "a_(n+1) = a_n + a_(n-1), mit a_1 := 1"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Zur 'Folge von Einsen' notiert die Folie: 1,1,1,1,...; 1^0, 2^0, 3^0, 4^0, ...; a_(n+1) = a_n + 0, mit a_1 := 1. 📄 Quelle: ari23_vl04, Folie 27 (S.27)",
-  "source": "ari23_vl04, Folie 27 (S.27, Erkundung II)"
- },
- {
-  "id": "ari23_vl04-b2-018",
-  "topic": "ari23_vl04_erkundung2_pascal",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Als welche Potenzen werden die Glieder der Folge von Einsen auf der Folie geschrieben?",
-  "options": [
-   "1^0, 2^0, 3^0, 4^0, ...",
-   "1^1, 2^1, 3^1, 4^1, ...",
-   "2^0, 2^1, 2^2, 2^3, ...",
-   "1^2, 2^2, 3^2, 4^2, ..."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie schreibt die Folge von Einsen als 1^0, 2^0, 3^0, 4^0, ... (jede Zahl hoch 0 ergibt 1). 📄 Quelle: ari23_vl04, Folie 27 (S.27)",
-  "source": "ari23_vl04, Folie 27 (S.27, Erkundung II)"
- },
- {
-  "id": "ari23_vl04-b2-019",
-  "topic": "ari23_vl04_erkundung2_pascal",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Angaben macht die Folie zur 'Folge der natürlichen Zahlen' (1, 2, 3, 4, ...)? (Mehrfachauswahl möglich)",
-  "options": [
-   "Sie entsteht, indem man stets 1 zum vorherigen Folgenglied hinzuzählt",
-   "a_(n+1) = a_n + 1, mit a_1 := 1",
-   "a_n = n",
-   "a_n = 2n"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Die Folie: 'Zähle stets 1 zum vorherigen Folgenglied hinzu, Folge der natürlichen Zahlen'; 1,2,3,4,...; a_(n+1) = a_n + 1, mit a_1 := 1; a_n = n. 📄 Quelle: ari23_vl04, Folie 28 (S.28)",
-  "source": "ari23_vl04, Folie 28 (S.28, Erkundung II)"
- },
- {
-  "id": "ari23_vl04-b2-020",
-  "topic": "ari23_vl04_dreieckszahlen",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Wie groß ist die 5. Dreieckszahl a_5 = 1+2+3+4+5 gemäß der Folie?",
-  "answer": 15,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Die Folge der Dreieckszahlen lautet 1, 3, 6, 10, 15, 21, ...; a_5 = 1+2+3+4+5 = 15. 📄 Quelle: ari23_vl04, Folie 29 (S.29)",
-  "source": "ari23_vl04, Folie 29 (S.29, Erkundung II)"
- },
- {
-  "id": "ari23_vl04-b2-021",
-  "topic": "ari23_vl04_dreieckszahlen",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Wie entstehen die Dreieckszahlen laut Folie?",
-  "options": [
-   "Als Summe der ersten n natürlichen Zahlen: a_n = 1+2+3+...+(n-1)+n",
-   "Als Produkt der ersten n natürlichen Zahlen",
-   "Als Summe der ersten n Fibonacci-Zahlen",
-   "Als Zweierpotenzen 1, 2, 4, 8, ..."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie: 'Summe der ersten n natürlichen Zahlen, Dreieckszahlen'; a_n = 1 + 2 + 3 + ... + (n-1) + n; Folge 1, 3, 6, 10, 15, 21, ... 📄 Quelle: ari23_vl04, Folie 29 (S.29)",
-  "source": "ari23_vl04, Folie 29 (S.29, Erkundung II)"
- },
- {
-  "id": "ari23_vl04-b2-022",
-  "topic": "ari23_vl04_summe_dreieckszahlen",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Die Folge der Summe der Dreieckszahlen lautet 1, 4, 10, 20, 35, ... . Welchen Wert hat a_4 = 1+3+6+10?",
-  "answer": 20,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Die Folie: a_4 = 1 + 3 + 6 + 10 = 20 (Folge 1, 4, 10, 20, 35, ...); es gilt a_n = S_n. 📄 Quelle: ari23_vl04, Folie 30 (S.30)",
-  "source": "ari23_vl04, Folie 30 (S.30, Erkundung II)"
- },
- {
-  "id": "ari23_vl04-b2-023",
-  "topic": "ari23_vl04_summe_dreieckszahlen",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Wie entsteht laut Folie die Folge 1, 4, 10, 20, 35, ... ?",
-  "options": [
-   "Als Folge der Summe der Dreieckszahlen (a_n = S_n)",
-   "Als Folge der Zweierpotenzen",
-   "Als Folge der Fibonacci-Zahlen",
-   "Als Folge der natürlichen Zahlen"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie: 'Folge der Summe der Dreieckszahlen'; 1, 4, 10, 20, 35, ...; a_n = S_n. 📄 Quelle: ari23_vl04, Folie 30 (S.30)",
-  "source": "ari23_vl04, Folie 30 (S.30, Erkundung II)"
- },
- {
-  "id": "ari23_vl04-b2-024",
-  "topic": "ari23_vl04_erkundung2_pascal",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Als Diagonalsummen im Zahlendreieck ergibt sich die Folge der Fibonacci-Zahlen 1, 1, 2, 3, 5, 8, ... . Welchen Wert hat a_6 = 1+4+3+1?",
-  "answer": 8,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Die Folie: 'Folge der Fibonacci-Zahlen' 1, 1, 2, 3, 5, 8, 13, 21, ...; a_6 = 1+4+3+1 = 8. 📄 Quelle: ari23_vl04, Folie 31 (S.31)",
-  "source": "ari23_vl04, Folie 31 (S.31, Erkundung II)"
- },
- {
-  "id": "ari23_vl04-b2-025",
-  "topic": "ari23_vl04_erkundung2_pascal",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Welche Zahlenfolge ergibt sich laut Folie aus den (flacheren) Diagonalsummen im Zahlendreieck?",
-  "options": [
-   "Die Folge der Fibonacci-Zahlen 1, 1, 2, 3, 5, 8, ...",
-   "Die Folge der Zweierpotenzen 1, 2, 4, 8, 16, ...",
-   "Die Folge der Dreieckszahlen 1, 3, 6, 10, ...",
-   "Die Folge der natürlichen Zahlen 1, 2, 3, 4, ..."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie: 'Folge der Fibonacci-Zahlen' 1, 1, 2, 3, 5, 8, 13, 21, ...; mit a_3 = 1+1 = 2, a_4 = 1+2 = 3, a_5 = 1+3+1 = 5, a_6 = 1+4+3+1 = 8. 📄 Quelle: ari23_vl04, Folie 31 (S.31)",
-  "source": "ari23_vl04, Folie 31 (S.31, Erkundung II)"
- },
- {
-  "id": "ari23_vl04-b2-026",
-  "topic": "ari23_vl04_zweierpotenzen",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Die Zeilensummen des Zahlendreiecks ergeben die Folge der Zweierpotenzen 1, 2, 4, 8, 16, ... . Welchen Wert hat a_5 = 1+4+6+4+1?",
-  "answer": 16,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Die Folie: 'Folge der Zweierpotenzen' 1, 2, 4, 8, 16, 32, ...; a_5 = 1+4+6+4+1 = 16. 📄 Quelle: ari23_vl04, Folie 32 (S.32)",
-  "source": "ari23_vl04, Folie 32 (S.32, Erkundung II)"
- },
- {
-  "id": "ari23_vl04-b2-027",
-  "topic": "ari23_vl04_zweierpotenzen",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Welche Folge ergeben laut Folie die Zeilensummen des Zahlendreiecks?",
-  "options": [
-   "Die Folge der Zweierpotenzen 1, 2, 4, 8, 16, 32, ...",
-   "Die Folge der Dreieckszahlen 1, 3, 6, 10, 15, ...",
-   "Die Folge der Fibonacci-Zahlen 1, 1, 2, 3, 5, ...",
-   "Die Folge der Quadratzahlen 1, 4, 9, 16, 25, ..."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie: 'Folge der Zweierpotenzen' 1, 2, 4, 8, 16, 32, ...; z. B. a_3 = 1+2+1 = 4, a_4 = 1+3+3+1 = 8. 📄 Quelle: ari23_vl04, Folie 32 (S.32)",
-  "source": "ari23_vl04, Folie 32 (S.32, Erkundung II)"
- },
- {
-  "id": "ari23_vl04-b2-028",
-  "topic": "ari23_vl04_summe_dreieckszahlen",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Wie lässt sich die n-te Dreieckszahl d_n auf der Folie darstellen?",
-  "options": [
-   "d_n = n·(n+1)/2",
-   "d_n = n^2",
-   "d_n = (n-1)·n/2",
-   "d_n = 2^n"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie leitet aus 3 = 6/2 = 2·3/2 = 2·(2+1)/2, 6 = 3·4/2, 10 = 4·5/2 die Formel d_n = n·(n+1)/2 her. 📄 Quelle: ari23_vl04, Folie 34 (S.34)",
-  "source": "ari23_vl04, Folie 34 (S.34, Erkundung II)"
- },
- {
-  "id": "ari23_vl04-b2-029",
-  "topic": "ari23_vl04_summe_dreieckszahlen",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Berechne mit der Formel d_n = n·(n+1)/2 die 6. Dreieckszahl d_6.",
-  "answer": 21,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "d_6 = 6·(6+1)/2 = 6·7/2 = 21. 📄 Quelle: ari23_vl04, Folie 34 (S.34)",
-  "source": "ari23_vl04, Folie 34 (S.34, Erkundung II)"
- },
- {
-  "id": "ari23_vl04-b2-030",
-  "topic": "ari23_vl04_summe_dreieckszahlen",
-  "difficulty": 3,
-  "type": "single",
-  "question": "Wie wird das allgemeine Glied a_n der Folge 1, 4, 10, 20, 35, ... auf der Folie beschrieben?",
-  "options": [
-   "a_n = S_n = Summe der ersten n Dreieckszahlen: S_n = 1 + 3 + 6 + ... + n·(n+1)/2",
-   "a_n = n·(n+1)/2",
-   "a_n = f_n · f_(n+1)",
-   "a_n = 2^(n-1)"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie: a_n = S_n = Summe der ersten n Dreieckszahlen: S_n = 1 + 3 + 6 + ... + n·(n+1)/2. 📄 Quelle: ari23_vl04, Folie 34 (S.34)",
-  "source": "ari23_vl04, Folie 34 (S.34, Erkundung II)"
- },
- {
-  "id": "ari23_vl04-b2-031",
-  "topic": "ari23_vl04_summe_dreieckszahlen",
-  "difficulty": 3,
-  "type": "single",
-  "question": "Wie lautet die rekursive Darstellung von S_n (Summe der ersten n Dreieckszahlen) auf der Folie?",
-  "options": [
-   "S_n = S_(n-1) + n·(n+1)/2",
-   "S_n = S_(n-1) + n",
-   "S_n = S_(n-1) · n·(n+1)/2",
-   "S_n = S_(n+1) - n·(n+1)/2"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie stellt S_n = 1 + 3 + 6 + ... + n·(n+1)/2 rekursiv dar als S_n = S_(n-1) + n·(n+1)/2. 📄 Quelle: ari23_vl04, Folie 35 (S.35)",
-  "source": "ari23_vl04, Folie 35 (S.35, Erkundung II)"
- },
- {
-  "id": "ari23_vl04-b2-032",
-  "topic": "ari23_vl04_dreieckszahlen",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Woran erinnert die Folie im Zusammenhang mit den Dreieckszahlen?",
-  "options": [
-   "Eine Dreieckszahl ist die Summe der ersten n natürlichen Zahlen",
-   "Eine Dreieckszahl ist eine Zweierpotenz",
-   "Eine Dreieckszahl ist das Produkt zweier Fibonacci-Zahlen",
-   "Eine Dreieckszahl ist das Quadrat einer natürlichen Zahl"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Der Erinnerungskasten der Folie: 'eine Dreieckszahl ist die Summe der ersten n natürlichen Zahlen'. 📄 Quelle: ari23_vl04, Folie 35 (S.35)",
-  "source": "ari23_vl04, Folie 35 (S.35, Erkundung II)"
- },
- {
-  "id": "ari23_vl04-b3-001",
-  "topic": "ari23_vl04_summe_dreieckszahlen",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Wie entsteht die auf der Folie 'Erkundung II' untersuchte Folge 1, 4, 10, 20, 35, …?",
-  "options": [
-   "Als Summe der Dreieckszahlen (Summe II)",
-   "Als Folge der Dreieckszahlen selbst (Summe I)",
-   "Als Folge der Zweierpotenzen",
-   "Als Folge der Quadratzahlen"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Laut Tabelle ist 1, 4, 10, 20, 35, … die Spalte 'Summe der Dreieckszahlen (Summe II)'; die Dreieckszahlen selbst (Summe I) sind 1, 3, 6, 10, 15, … 📄 Quelle: ari23_vl04, Folie 36 (S.36)",
-  "source": "ari23_vl04, Folie 36 (S.36, Arithmetik)"
- },
- {
-  "id": "ari23_vl04-b3-002",
-  "topic": "ari23_vl04_summe_dreieckszahlen",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Welchen Wert hat die 'Summe der Dreieckszahlen (Summe II)' für n = 6 laut Tabelle?",
-  "answer": 56,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "In der Tabelle steht für n = 6: Summe I = 21, Summe II = 56. 📄 Quelle: ari23_vl04, Folie 36 (S.36)",
-  "source": "ari23_vl04, Folie 36 (S.36, Arithmetik)"
- },
- {
-  "id": "ari23_vl04-b3-003",
-  "topic": "ari23_vl04_summe_dreieckszahlen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche der folgenden Zahlen sind laut Tabelle Dreieckszahlen (Summe I) für n = 1 bis 7?",
-  "options": [
-   "1",
-   "6",
-   "15",
-   "20",
-   "28",
-   "35"
-  ],
-  "correct": [
-   0,
-   1,
-   2,
-   4
-  ],
-  "explanation": "Summe I (Dreieckszahlen) sind 1, 3, 6, 10, 15, 21, 28. 20 und 35 gehören zur Spalte Summe II. 📄 Quelle: ari23_vl04, Folie 36 (S.36)",
-  "source": "ari23_vl04, Folie 36 (S.36, Arithmetik)"
- },
- {
-  "id": "ari23_vl04-b3-004",
-  "topic": "ari23_vl04_summe_dreieckszahlen",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Berechne S_4 nach der auf Folie 37 gezeigten Rechnung S_4 = 4 · 15 / 3.",
-  "answer": 20,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "S_4 = 4·15/3 = 60/3 = 20 (= Summe II für n = 4). 📄 Quelle: ari23_vl04, Folie 37 (S.37)",
-  "source": "ari23_vl04, Folie 37 (S.37, Arithmetik)"
- },
- {
-  "id": "ari23_vl04-b3-005",
-  "topic": "ari23_vl04_summe_dreieckszahlen",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Wie lautet die auf Folie 37 angegebene (noch rekursive) allgemeine Formel für S_n?",
-  "options": [
-   "S_n = n · d_{n+1} / 3",
-   "S_n = n · d_n / 3",
-   "S_n = n · d_{n+1} / 2",
-   "S_n = (n+1) · d_n / 3"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Auf der Folie steht S_n = n · d_{n+1} / 3 mit der Dreieckszahl d_{n+1}; sie heißt 'noch immer rekursiv', weil d_{n+1} noch benötigt wird. 📄 Quelle: ari23_vl04, Folie 37 (S.37)",
-  "source": "ari23_vl04, Folie 37 (S.37, Arithmetik)"
- },
- {
-  "id": "ari23_vl04-b3-006",
-  "topic": "ari23_vl04_summe_dreieckszahlen",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Welche geschlossene Formel für die Dreieckszahl d_{n+1} wird auf Folie 38 hergeleitet?",
-  "options": [
-   "d_{n+1} = (n+1)·(n+2) / 2",
-   "d_{n+1} = (n+1)·(n+2) / 3",
-   "d_{n+1} = n·(n+1) / 2",
-   "d_{n+1} = (n+1)·(n+2)"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Aus 6 = 3·4/2, 10 = 4·5/2, 15 = 5·6/2, 21 = 6·7/2 folgt d_{n+1} = (n+1)·(n+2)/2. 📄 Quelle: ari23_vl04, Folie 38 (S.38)",
-  "source": "ari23_vl04, Folie 38 (S.38, Arithmetik)"
- },
- {
-  "id": "ari23_vl04-b3-007",
-  "topic": "ari23_vl04_summe_dreieckszahlen",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Wie lautet die nicht-rekursive (geschlossene) Formel für S_n nach Folie 38?",
-  "options": [
-   "S_n = n·(n+1)·(n+2) / (3·2)",
-   "S_n = n·(n+1) / 2",
-   "S_n = n·(n+1)·(n+2) / 2",
-   "S_n = n·(n+1)·(n+2) / 3"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Einsetzen von d_{n+1} = (n+1)(n+2)/2 in S_n = n·d_{n+1}/3 ergibt S_n = n·(n+1)·(n+2)/(3·2). 📄 Quelle: ari23_vl04, Folie 38 (S.38)",
-  "source": "ari23_vl04, Folie 38 (S.38, Arithmetik)"
- },
- {
-  "id": "ari23_vl04-b3-008",
-  "topic": "ari23_vl04_summe_dreieckszahlen",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Berechne S_5 mit der geschlossenen Formel S_n = n·(n+1)·(n+2)/(3·2).",
-  "answer": 35,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "S_5 = 5·6·7/(3·2) = 210/6 = 35 (= Summe II für n = 5). 📄 Quelle: ari23_vl04, Folie 38 (S.38)",
-  "source": "ari23_vl04, Folie 38 (S.38, Arithmetik)"
- },
- {
-  "id": "ari23_vl04-b3-009",
-  "topic": "ari23_vl04_summe_dreieckszahlen",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Welchen allgemeinen Term (Zeile n) hat die Spalte 'Dreieckszahlen (Summe I)' laut Folie 38?",
-  "options": [
-   "n·(n+1) / 2",
-   "n·(n+1)·(n+2) / (3·2)",
-   "n·(n+1)",
-   "n² / 2"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "In der Zeile n steht für Summe I der Term n·(n+1)/2. 📄 Quelle: ari23_vl04, Folie 38 (S.38)",
-  "source": "ari23_vl04, Folie 38 (S.38, Arithmetik)"
- },
- {
-  "id": "ari23_vl04-b3-010",
-  "topic": "ari23_vl04_summe_dreieckszahlen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Was besagt der auf Folie 41 formulierte Satz? (Mehrfachauswahl)",
-  "options": [
-   "Er gilt für alle natürlichen Zahlen n",
-   "Voraussetzung: S_n = 1 + 3 + 6 + … + n·(n+1)/2",
-   "Behauptung: S_n = n·(n+1)·(n+2)/(3·2)",
-   "Er gilt nur für gerade n"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Der Satz lautet: Für alle natürlichen Zahlen n gilt: Wenn S_n = 1 + 3 + 6 + … + n·(n+1)/2, dann S_n = n·(n+1)·(n+2)/(3·2). 📄 Quelle: ari23_vl04, Folie 41 (S.41)",
-  "source": "ari23_vl04, Folie 41 (S.41, Arithmetik)"
- },
- {
-  "id": "ari23_vl04-b3-011",
-  "topic": "ari23_vl04_summe_dreieckszahlen",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Welches Beweisverfahren bietet sich laut Folie 41 zum Beweis des Satzes an?",
-  "options": [
-   "Vollständige Induktion",
-   "Widerspruchsbeweis",
-   "Beweis durch Gegenbeispiel",
-   "Vollständige Fallunterscheidung"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Da der Satz durch rekursive Erkenntnisse (Sehen und Raten in Abhängigkeit von vorangegangenen Elementen) aufgestellt wurde, bietet sich vollständige Induktion an. 📄 Quelle: ari23_vl04, Folie 41 (S.41)",
-  "source": "ari23_vl04, Folie 41 (S.41, Arithmetik)"
- },
- {
-  "id": "ari23_vl04-b3-012",
-  "topic": "ari23_vl04_summe_dreieckszahlen",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Wie lautet der letzte angeschriebene Summand in der Voraussetzung S_n = 1 + 3 + 6 + … + ? des Satzes auf Folie 41?",
-  "options": [
-   "n·(n+1)/2",
-   "n·(n+1)·(n+2)/(3·2)",
-   "n·(n+1)",
-   "(n+1)·(n+2)/2"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Summanden sind die Dreieckszahlen; der n-te ist n·(n+1)/2. 📄 Quelle: ari23_vl04, Folie 41 (S.41)",
-  "source": "ari23_vl04, Folie 41 (S.41, Arithmetik)"
- },
- {
-  "id": "ari23_vl04-b3-013",
-  "topic": "ari23_vl04_pascalsches_dreieck",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Welche Folge bilden die Zeilensummen des Pascalschen Dreiecks laut Folie 43?",
-  "options": [
-   "Folge der Zweierpotenzen",
-   "Dreieckszahlen",
-   "Fibonacci-Zahlen",
-   "Quadratzahlen"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie bezeichnet die Zeilensummen als 'Folge der Zweierpotenzen'. 📄 Quelle: ari23_vl04, Folie 43 (S.43)",
-  "source": "ari23_vl04, Folie 43 (S.43, Arithmetik)"
- },
- {
-  "id": "ari23_vl04-b3-014",
-  "topic": "ari23_vl04_pascalsches_dreieck",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Aussagen über das Pascalsche Dreieck stehen auf Folie 43? (Mehrfachauswahl)",
-  "options": [
-   "Von der Spitze zu einer Zahl gibt es (mit 'nur nach unten') genauso viele verschiedene Wege, wie die Zahl angibt",
-   "Wirft man 2^n Kugeln oben ein, die nach links oder rechts abgelenkt werden, kommen im Mittel so viele Kugeln unten an, wie die Zahl angibt",
-   "Es gibt stets genau einen Weg von der Spitze zu jeder Zahl",
-   "Die Summe zweier benachbarter Zeilen ergibt jeweils die nächste Zeile"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Beide Aussagen (Anzahl der Wege = Zahl; Galton-Brett-Interpretation mit 2^n Kugeln) stehen auf der Folie. 📄 Quelle: ari23_vl04, Folie 43 (S.43)",
-  "source": "ari23_vl04, Folie 43 (S.43, Arithmetik)"
- },
- {
-  "id": "ari23_vl04-b3-015",
-  "topic": "ari23_vl04_pascal_biografie",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Leistungen bzw. Rollen werden Blaise Pascal auf Folie 44 zugeschrieben? (Mehrfachauswahl)",
-  "options": [
-   "Erfinder einer Rechenmaschine",
-   "Mitbegründer der Wahrscheinlichkeitsrechnung",
-   "Anschubgeber für die Differential- und Integralrechnung",
-   "Erfinder des Dezimalsystems"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Die Folie nennt: Erfinder einer Rechenmaschine, Mitbegründer der Wahrscheinlichkeitsrechnung, Anschubgeber für die Differential- und Integralrechnung. 📄 Quelle: ari23_vl04, Folie 44 (S.44)",
-  "source": "ari23_vl04, Folie 44 (S.44, Arithmetik)"
- },
- {
-  "id": "ari23_vl04-b3-016",
-  "topic": "ari23_vl04_pascal_biografie",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Mit wem stand Pascal laut Folie 44 im Briefwechsel über die Wahrscheinlichkeitsfrage des Chevalier de Méré?",
-  "options": [
-   "Fermat",
-   "Descartes",
-   "Leibniz",
-   "Newton"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie nennt den Briefwechsel mit Fermat (Frage: Ist beim 3-fachen Würfeln die 11 wahrscheinlicher als die 12?). 📄 Quelle: ari23_vl04, Folie 44 (S.44)",
-  "source": "ari23_vl04, Folie 44 (S.44, Arithmetik)"
- },
- {
-  "id": "ari23_vl04-b3-017",
-  "topic": "ari23_vl04_pascalsches_dreieck",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Wie werden die Spalten (Diagonalen) des Pascalschen Dreiecks auf Folie 46 beschrieben? (Mehrfachauswahl)",
-  "options": [
-   "Spalte 0: Folge von Einsen (zähle zu 1 stets die 0 hinzu)",
-   "Spalte 1: Folge der natürlichen Zahlen (zähle stets 1 zum vorherigen Glied hinzu)",
-   "Spalte 2: Dreieckszahlen (Summe der ersten n natürlichen Zahlen)",
-   "Spalte 3: Folge der Quadratzahlen"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Spalte 3 ist die 'Folge der Summe der Dreieckszahlen', nicht der Quadratzahlen. Die anderen drei Beschreibungen stehen so auf der Folie. 📄 Quelle: ari23_vl04, Folie 46 (S.46)",
-  "source": "ari23_vl04, Folie 46 (S.46, Arithmetik)"
- },
- {
-  "id": "ari23_vl04-b3-018",
-  "topic": "ari23_vl04_pascalsches_dreieck",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Welche Zahlenfolge steht laut Folie 46 in Spalte 2 des Pascalschen Dreiecks?",
-  "options": [
-   "Dreieckszahlen",
-   "Folge von Einsen",
-   "Natürliche Zahlen",
-   "Summe der Dreieckszahlen"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Spalte 2 = Summe der ersten n natürlichen Zahlen = Dreieckszahlen. 📄 Quelle: ari23_vl04, Folie 46 (S.46)",
-  "source": "ari23_vl04, Folie 46 (S.46, Arithmetik)"
- },
- {
-  "id": "ari23_vl04-b3-019",
-  "topic": "ari23_vl04_pascalsches_dreieck",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Was beschreibt Spalte 3 des Pascalschen Dreiecks laut Folie 46?",
-  "options": [
-   "Folge der Summe der Dreieckszahlen",
-   "Folge der natürlichen Zahlen",
-   "Folge von Einsen",
-   "Folge der Zweierpotenzen"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Spalte 3 ist als 'Folge der Summe der Dreieckszahlen' bezeichnet. 📄 Quelle: ari23_vl04, Folie 46 (S.46)",
-  "source": "ari23_vl04, Folie 46 (S.46, Arithmetik)"
- },
- {
-  "id": "ari23_vl04-b3-020",
-  "topic": "ari23_vl04_binomialkoeffizient",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Wie ist der Binomialkoeffizient (n über k) auf Folie 47 definiert?",
-  "options": [
-   "(n über k) := n! / (k! · (n−k)!)",
-   "(n über k) := n! / (k! · (n+k)!)",
-   "(n über k) := n! / (n−k)!",
-   "(n über k) := k! / (n! · (n−k)!)"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Definition laut Folie: (n über k) := n! / (k! · (n−k)!). 📄 Quelle: ari23_vl04, Folie 47 (S.47)",
-  "source": "ari23_vl04, Folie 47 (S.47, Arithmetik)"
- },
- {
-  "id": "ari23_vl04-b3-021",
-  "topic": "ari23_vl04_binomialkoeffizient",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Wie liest man das Symbol (n über k) laut Folie 47?",
-  "options": [
-   "'Zeile über Spalte' bzw. 'n über k'",
-   "'n geteilt durch k'",
-   "'n hoch k'",
-   "'k-te Wurzel aus n'"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie gibt an: Lies 'Zeile über Spalte' bzw. 'n über k' (Beispiel '4 über 3'). 📄 Quelle: ari23_vl04, Folie 47 (S.47)",
-  "source": "ari23_vl04, Folie 47 (S.47, Arithmetik)"
- },
- {
-  "id": "ari23_vl04-b3-022",
-  "topic": "ari23_vl04_binomialkoeffizient",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Berechne (7 über 4) = 7! / (4! · 3!).",
-  "answer": 35,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "(7 über 4) = 7!/(4!·3!) = (7·6·5)/6 = 35. 📄 Quelle: ari23_vl04, Folie 47 (S.47)",
-  "source": "ari23_vl04, Folie 47 (S.47, Arithmetik)"
- },
- {
-  "id": "ari23_vl04-b3-023",
-  "topic": "ari23_vl04_binomialkoeffizient",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Berechne (4 über 3) = 4! / (3! · 1!).",
-  "answer": 4,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "(4 über 3) = 4!/(3!·1!) = 24/6 = 4. 📄 Quelle: ari23_vl04, Folie 47 (S.47)",
-  "source": "ari23_vl04, Folie 47 (S.47, Arithmetik)"
- },
- {
-  "id": "ari23_vl04-b3-024",
-  "topic": "ari23_vl04_binomialkoeffizient",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Wie lautet der Binomialkoeffizient für die Elemente der Spalte 3 ('n über 3') laut Folie 48?",
-  "options": [
-   "(n über 3) = n! / (3! · (n−3)!)",
-   "(n über 3) = n! / (3! · (n+3)!)",
-   "(n über 3) = n! / (n−3)!",
-   "(n über 3) = 3! / (n! · (n−3)!)"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Für Spalte 3: (n über 3) = n!/(3!·(n−3)!). 📄 Quelle: ari23_vl04, Folie 48 (S.48)",
-  "source": "ari23_vl04, Folie 48 (S.48, Arithmetik)"
- },
- {
-  "id": "ari23_vl04-b3-025",
-  "topic": "ari23_vl04_pascalsches_dreieck",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Auf Folie 48 wird der Eintrag 56 als Summe der beiden darüberstehenden Einträge 21 und 35 dargestellt. Welchen Wert hat 21 + 35?",
-  "answer": 56,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Nach der Additionsregel im Pascalschen Dreieck: 56 = 21 + 35. 📄 Quelle: ari23_vl04, Folie 48 (S.48)",
-  "source": "ari23_vl04, Folie 48 (S.48, Arithmetik)"
- },
- {
-  "id": "ari23_vl04-b3-026",
-  "topic": "ari23_vl04_pascalsches_dreieck",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Wie lautet die Additionsregel für die Elemente der 3. Spalte laut Folie 49?",
-  "options": [
-   "(n über 3) = (n−1 über 2) + (n−1 über 3), mit n ≥ 3",
-   "(n über 3) = (n über 2) + (n über 3)",
-   "(n über 3) = (n+1 über 2) + (n+1 über 3)",
-   "(n über 3) = (n−1 über 2) − (n−1 über 3)"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Für alle Elemente der 3. Spalte gilt (n über 3) = (n−1 über 2) + (n−1 über 3), mit n ≥ 3. 📄 Quelle: ari23_vl04, Folie 49 (S.49)",
-  "source": "ari23_vl04, Folie 49 (S.49, Arithmetik)"
- },
- {
-  "id": "ari23_vl04-b3-027",
-  "topic": "ari23_vl04_pascalsches_dreieck",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Für welche n gilt die Additionsregel der 3. Spalte (n über 3) = (n−1 über 2) + (n−1 über 3) laut Folie 49?",
-  "options": [
-   "n ≥ 3",
-   "n ≥ 0",
-   "n ≥ 1",
-   "nur für gerade n"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie gibt die Bedingung 'mit n ≥ 3' an. 📄 Quelle: ari23_vl04, Folie 49 (S.49)",
-  "source": "ari23_vl04, Folie 49 (S.49, Arithmetik)"
- },
- {
-  "id": "ari23_vl04-b3-028",
-  "topic": "ari23_vl04_beweis",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Welche Beweisart wird auf Folie 50 für die Additionsregel der 3. Spalte verwendet?",
-  "options": [
-   "Direkter Beweis",
-   "Vollständige Induktion",
-   "Widerspruchsbeweis",
-   "Beweis durch Gegenbeispiel"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie ist mit 'Beweis (direkt)' überschrieben. 📄 Quelle: ari23_vl04, Folie 50 (S.50)",
-  "source": "ari23_vl04, Folie 50 (S.50, Arithmetik)"
- },
- {
-  "id": "ari23_vl04-b3-029",
-  "topic": "ari23_vl04_beweis",
-  "difficulty": 3,
-  "type": "single",
-  "question": "Zu welchem geschlossenen Ausdruck vereinfacht der direkte Beweis auf Folie 50 die Summe S_{n−2} = (n−1 über 2) + (n−1 über 3)?",
-  "options": [
-   "(n−2)·(n−1)·n / (3·2)",
-   "n·(n+1)·(n+2) / (3·2)",
-   "(n−1)·n·(n+1) / (3·2)",
-   "(n−2)·(n−1)·n / 2"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Der Beweis endet mit S_{n−2} = (n−2)·(n−1)·n/(3·2) (q.e.d.). 📄 Quelle: ari23_vl04, Folie 50 (S.50)",
-  "source": "ari23_vl04, Folie 50 (S.50, Arithmetik)"
- },
- {
-  "id": "ari23_vl04-b3-030",
-  "topic": "ari23_vl04_vierlinge",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Aus wie vielen Quadraten besteht ein 'Vierling' laut Folie 52?",
-  "answer": 4,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Auf der Folie: 'Vierlinge bestehen immer aus 4 Quadraten'. 📄 Quelle: ari23_vl04, Folie 52 (S.52)",
-  "source": "ari23_vl04, Folie 52 (S.52, Arithmetik)"
- },
- {
-  "id": "ari23_vl04-b3-031",
-  "topic": "ari23_vl04_vierlinge",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche n-Quadratlinge sollen laut dem Erkundungsauftrag auf Folie 52 gefunden werden? (Mehrfachauswahl)",
-  "options": [
-   "Drei-Quadratlinge (n=3)",
-   "Vier-Quadratlinge (n=4)",
-   "Fünf-Quadratlinge (n=5)",
-   "Sechs-Quadratlinge (n=6)",
-   "Sieben-Quadratlinge (n=7)"
-  ],
-  "correct": [
-   0,
-   1,
-   2,
-   3
-  ],
-  "explanation": "Der Auftrag nennt Drei-, Vier-, Fünf- und Sechs-Quadratlinge (n = 3, 4, 5, 6). 📄 Quelle: ari23_vl04, Folie 52 (S.52)",
-  "source": "ari23_vl04, Folie 52 (S.52, Arithmetik)"
- }
+  {
+    "id": "ari23_vl04-b1-001",
+    "topic": "ari23_vl04_vollstaendige_induktion",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Aus welchen Bestandteilen besteht die Technik der vollständigen Induktion?",
+    "options": [
+      "Induktionsanfang: A(n) ist wahr für n=1 (bzw. die kleinste natürliche Zahl)",
+      "Induktionsvoraussetzung: A(n) sei wahr für ein beliebiges, aber festes n ∈ ℕ",
+      "Induktionsschluss: n → (n+1)",
+      "Induktionsende: A(n) ist wahr für alle n ∈ ℝ"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Die Folie nennt genau Induktionsanfang, Induktionsvoraussetzung und Induktionsschluss (n → n+1). Von reellen Zahlen ℝ ist keine Rede; die Aussage betrifft natürliche Zahlen. 📄 Quelle: ari23_vl04, Folie 4 (S.4)",
+    "source": "ari23_vl04, Folie 4 (S.4, Vollständige Induktion)"
+  },
+  {
+    "id": "ari23_vl04-b1-002",
+    "topic": "ari23_vl04_vollstaendige_induktion",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Was darf beim Induktionsschluss (n → n+1) einer vollständigen Induktion verwendet werden?",
+    "options": [
+      "die Induktionsvoraussetzung (I.V.)",
+      "nur der Induktionsanfang",
+      "ein Gegenbeispiel",
+      "die Behauptung A(n+1) als bereits bewiesen"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Auf der Folie: 'Man zeigt, dass die Aussage für A(n+1) wahr ist (dabei darf die I.V. verwendet werden).' 📄 Quelle: ari23_vl04, Folie 4 (S.4)",
+    "source": "ari23_vl04, Folie 4 (S.4, Vollständige Induktion)"
+  },
+  {
+    "id": "ari23_vl04-b1-003",
+    "topic": "ari23_vl04_vollstaendige_induktion",
+    "difficulty": 3,
+    "type": "multi",
+    "question": "Wie wird die Idee der vollständigen Induktion mit den Peano-Axiomen begründet?",
+    "options": [
+      "Das 1-Element wird durch Axiom 1 gesichert",
+      "Die Eindeutigkeit des Nachfolgers wird durch Axiom 2 gesichert",
+      "Dass eine Teilmenge der Natürlichen Zahlen gleich den Natürlichen Zahlen ist, sichert Axiom 5",
+      "Die Begründung stützt sich auf Axiom 3 und Axiom 4"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Folie 4: 'Das 1-Element (Axiom 1) und die Eindeutigkeit des Nachfolgers (Axiom 2) sichern, dass eine Teilmenge der Natürlichen Zahlen gleich den Natürlichen Zahlen ist (Axiom 5).' 📄 Quelle: ari23_vl04, Folie 4 (S.4)",
+    "source": "ari23_vl04, Folie 4 (S.4, Vollständige Induktion)"
+  },
+  {
+    "id": "ari23_vl04-b1-004",
+    "topic": "ari23_vl04_erkundung2_summenformel",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Die modifizierte Fibonacci-Folge ist definiert durch f̃_1=4, f̃_2=7 und f̃_n = f̃_{n-2} + f̃_{n-1} für n>2. Wie lautet das 6. Glied f̃_6?",
+    "answer": 47,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Die Tabelle listet 4, 7, 11, 18, 29, 47; also f̃_6 = 47. 📄 Quelle: ari23_vl04, Folie 5 (S.5)",
+    "source": "ari23_vl04, Folie 5 (S.5, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl04-b1-005",
+    "topic": "ari23_vl04_erkundung2_summenformel",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Wie groß ist die Summe der ersten 5 modifizierten Fibonacci-Zahlen (S̃_5) mit den Startwerten f̃_1=4, f̃_2=7 (und f̃_n = f̃_{n-2} + f̃_{n-1})?",
+    "answer": 69,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Die Summenspalte der Tabelle zeigt bei n=5 den Wert 69. 📄 Quelle: ari23_vl04, Folie 5 (S.5)",
+    "source": "ari23_vl04, Folie 5 (S.5, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl04-b1-006",
+    "topic": "ari23_vl04_erkundung2_summenformel",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wie lautet die Gleichung (GL1) für das n-te Glied f̃_n der modifizierten Fibonacci-Folge (mit Startzahlen s_1, s_2 und der ursprünglichen Fibonacci-Folge f)?",
+    "options": [
+      "f̃_n = f_{n-2}·s_1 + f_{n-1}·s_2",
+      "f̃_n = f_{n-1}·s_1 + f_{n-2}·s_2",
+      "f̃_n = f_{n-2} + f_{n-1}",
+      "f̃_n = f_n·s_1 + f_{n+1}·s_2"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die eingerahmte Gleichung (GL1) lautet f̃_n = f_{n-2}·s_1 + f_{n-1}·s_2, wobei f die ursprüngliche Fibonacci-Folge und s_1, s_2 die Startzahlen sind. 📄 Quelle: ari23_vl04, Folie 5 (S.5)",
+    "source": "ari23_vl04, Folie 5 (S.5, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl04-b1-007",
+    "topic": "ari23_vl04_erkundung2_summenformel",
+    "difficulty": 3,
+    "type": "multi",
+    "question": "Welche Umformungen der Summe S̃_n der modifizierten Fibonacci-Folge (Startzahlen s_1, s_2) sind korrekt?",
+    "options": [
+      "S̃_n = f̃_{n+2} − 7",
+      "S_n = f̃_{n+2} − s_2",
+      "mit (GL1): f̃_{n+2} = f_n·s_1 + f_{n+1}·s_2",
+      "S̃_n = f̃_{n+2} + 7"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Die Folie zeigt S̃_n = f̃_{n+2} − 7, allgemein S_n = f̃_{n+2} − s_2 und setzt mit (GL1) f̃_{n+2} = f_n·s_1 + f_{n+1}·s_2 ein. Die Variante mit '+7' ist falsch. 📄 Quelle: ari23_vl04, Folie 5 (S.5)",
+    "source": "ari23_vl04, Folie 5 (S.5, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl04-b1-008",
+    "topic": "ari23_vl04_erkundung2_summenformel",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche drei Schritte folgen, nachdem die Vermutung (Formel für S̃_n) aufgestellt wurde?",
+    "options": [
+      "Beispiele machen, um die gefundene Formel (Vermutung) zu testen",
+      "Einen mathematischen Satz formulieren",
+      "Diesen mathematischen Satz beweisen",
+      "Die Vermutung sofort als Axiom übernehmen"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Folie 6 listet: 1. Beispiele machen um die Formel zu testen, 2. einen mathematischen Satz formulieren, 3. diesen Satz beweisen. 📄 Quelle: ari23_vl04, Folie 6 (S.6)",
+    "source": "ari23_vl04, Folie 6 (S.6, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl04-b1-009",
+    "topic": "ari23_vl04_erkundung2_summenformel",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wie lautet die Vermutung für die Summe S̃_n der modifizierten Fibonacci-Zahlen (mit Startzahlen s_1, s_2 und der ursprünglichen Fibonacci-Folge f)?",
+    "options": [
+      "S̃_n = f_n·s_1 + (f_{n+1} − 1)·s_2",
+      "S̃_n = f_n·s_1 + f_{n+1}·s_2",
+      "S̃_n = f̃_{n+2} − 1",
+      "S̃_n = (f_n − 1)·s_1 + f_{n+1}·s_2"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die eingerahmte Vermutung lautet S̃_n = f_n·s_1 + (f_{n+1} − 1)·s_2, mit S̃_n = f̃_1 + f̃_2 + … + f̃_n. 📄 Quelle: ari23_vl04, Folie 6 (S.6)",
+    "source": "ari23_vl04, Folie 6 (S.6, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl04-b1-010",
+    "topic": "ari23_vl04_erkundung2_summenformel",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Was zeigt das Testen der Summenformel-Vermutung an drei modifizierten Fibonacci-Folgen mit unterschiedlichen Startzahlen?",
+    "options": [
+      "Alle Folgen folgen dem gleichen Bildungsprinzip a_{n+2} = a_{n+1} + a_n",
+      "Die Startzahlen s_1, s_2 (bzw. f̃_1, f̃_2) dürfen unterschiedlich gewählt werden",
+      "Die Probe (Formelwert) stimmt jeweils mit der tatsächlichen Summe überein",
+      "Nur die klassische Fibonacci-Folge (Start 1, 1) erfüllt die Summenformel"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Die Folie testet drei Folgen mit verschiedenen Startzahlen (u. a. 1/1, 4/7, 13/9); handschriftlich: 'andere Startzahlen, aber gleiches Prinzip a_{n+2}=a_{n+1}+a_n'. Die Probe (Formel) stimmt jeweils mit der Summe überein. 📄 Quelle: ari23_vl04, Folie 7 (S.7)",
+    "source": "ari23_vl04, Folie 7 (S.7, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl04-b1-011",
+    "topic": "ari23_vl04_erkundung2_summenformel",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Für die modifizierte Fibonacci-Folge mit den Startzahlen s_1=13, s_2=9 (also 13, 9, 22, 31, …): Wie groß ist die Summe der ersten 4 Folgenglieder (S̃_4)?",
+    "answer": 75,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Die Folge lautet 13, 9, 22, 31, …; die Summenspalte (Probe) zeigt bei n=4 den Wert 75. 📄 Quelle: ari23_vl04, Folie 7 (S.7)",
+    "source": "ari23_vl04, Folie 7 (S.7, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl04-b1-012",
+    "topic": "ari23_vl04_erkundung2_summenformel",
+    "difficulty": 3,
+    "type": "numeric",
+    "question": "Berechnen Sie mit der Vermutung S̃_n = f_n·s_1 + (f_{n+1} − 1)·s_2 den Wert S̃_3 für s_1=4, s_2=7 (mit f_3=2, f_4=3).",
+    "answer": 22,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "S̃_3 = f_3·s_1 + (f_4 − 1)·s_2 = 2·4 + (3 − 1)·7 = 8 + 14 = 22. 📄 Quelle: ari23_vl04, Folie 8 (S.8)",
+    "source": "ari23_vl04, Folie 8 (S.8, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl04-b1-013",
+    "topic": "ari23_vl04_erkundung2_summenformel",
+    "difficulty": 3,
+    "type": "numeric",
+    "question": "Berechnen Sie mit der Vermutung S̃_n = f_n·s_1 + (f_{n+1} − 1)·s_2 den Wert S̃_4 für s_1=13, s_2=9 (mit f_4=3, f_5=5).",
+    "answer": 75,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "S̃_4 = f_4·s_1 + (f_5 − 1)·s_2 = 3·13 + (5 − 1)·9 = 39 + 36 = 75. 📄 Quelle: ari23_vl04, Folie 8 (S.8)",
+    "source": "ari23_vl04, Folie 8 (S.8, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl04-b1-014",
+    "topic": "ari23_vl04_erkundung2_summenformel",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche ursprünglichen Fibonacci-Zahlen werden bei der Berechnung von S̃_3 mit der Vermutung S̃_n = f_n·s_1 + (f_{n+1} − 1)·s_2 eingesetzt?",
+    "options": [
+      "f_3 = 2",
+      "f_4 = 3",
+      "f_5 = 5",
+      "f_2 = 1"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "S̃_3 = f_3·s_1 + (f_4 − 1)·s_2 verwendet f_3 = 2 und f_4 = 3. 📄 Quelle: ari23_vl04, Folie 8 (S.8)",
+    "source": "ari23_vl04, Folie 8 (S.8, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl04-b1-015",
+    "topic": "ari23_vl04_erkundung2_summenformel",
+    "difficulty": 3,
+    "type": "multi",
+    "question": "Welche Voraussetzungen nennt der Satz über die Summe modifizierter Fibonacci-Zahlen?",
+    "options": [
+      "s_1 und s_2 sind Startzahlen einer modifizierten Fibonacci-Folge, also s_1 = f̃_1 und s_2 = f̃_2",
+      "S̃_n = f̃_1 + f̃_2 + … + f̃_n ist die Summe der ersten n modifizierten Fibonacci-Zahlen",
+      "f_n sind die Zahlen der ursprünglichen Fibonacci-Folge",
+      "Die Aussage gilt nur für gerade n"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Der Satz gilt 'für alle natürlichen Zahlen n' und setzt voraus: s_1 = f̃_1, s_2 = f̃_2 als Startzahlen, S̃_n als Summe der ersten n modifizierten Zahlen, und f_n als ursprüngliche Fibonacci-Zahlen. Eine Einschränkung auf gerade n gibt es nicht. 📄 Quelle: ari23_vl04, Folie 9 (S.9)",
+    "source": "ari23_vl04, Folie 9 (S.9, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl04-b1-016",
+    "topic": "ari23_vl04_erkundung2_summenformel",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Wie soll der Satz zur Summenformel der modifizierten Fibonacci-Zahlen bewiesen werden?",
+    "options": [
+      "mit vollständiger Induktion",
+      "durch ein einziges Gegenbeispiel",
+      "gar nicht, er gilt als Axiom",
+      "nur durch Ausprobieren einiger Beispiele"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Folie 9: '3. Diesen Satz beweisen. (mit vollständiger Induktion – komplizierter als bisher)'. 📄 Quelle: ari23_vl04, Folie 9 (S.9)",
+    "source": "ari23_vl04, Folie 9 (S.9, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl04-b1-017",
+    "topic": "ari23_vl04_fibonacci_geschichte",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Wer war Leonardo von Pisa?",
+    "options": [
+      "ein Rechenmeister (1170–1240), Verfasser des 'liber abacci'",
+      "ein Architekt des Doms in Florenz",
+      "der Autor des Romans 'Sakrileg'",
+      "ein Schüler von Peano"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Folie 10: Leonardo von Pisa (1170–1240), Rechenmeister, 'liber abacci'. 📄 Quelle: ari23_vl04, Folie 10 (S.10)",
+    "source": "ari23_vl04, Folie 10 (S.10, Fibonacci-Zahlen)"
+  },
+  {
+    "id": "ari23_vl04-b1-018",
+    "topic": "ari23_vl04_fibonacci_geschichte",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Inhalte enthält Leonardo von Pisas 'liber abacci'?",
+    "options": [
+      "Von der Kenntnis der neun Zahlzeichen der Inder",
+      "Multiplikation natürlicher Zahlen mit Brüchen",
+      "Teilung natürlicher Zahlen durch natürliche Zahlen",
+      "Konstruktion des goldenen Schnitts mit Zirkel und Lineal"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Die aufgeführten Punkte umfassen u. a. die neun Zahlzeichen der Inder, Multiplikation und Subtraktion, Teilung natürlicher Zahlen sowie Multiplikation mit Brüchen. Eine Zirkel-und-Lineal-Konstruktion des goldenen Schnitts wird nicht genannt. 📄 Quelle: ari23_vl04, Folie 10 (S.10)",
+    "source": "ari23_vl04, Folie 10 (S.10, Fibonacci-Zahlen)"
+  },
+  {
+    "id": "ari23_vl04-b1-019",
+    "topic": "ari23_vl04_goldener_schnitt",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Welchem Grenzwert (goldener Schnitt φ) nähert sich das Verhältnis f_n/f_{n-1} benachbarter Fibonacci-Zahlen an? (auf 3 Nachkommastellen)",
+    "answer": 1.618,
+    "tolerance": 0.001,
+    "unit": "",
+    "explanation": "Folie 11: Major : Minor = φ ≈ 1,618. 📄 Quelle: ari23_vl04, Folie 11 (S.11)",
+    "source": "ari23_vl04, Folie 11 (S.11, Fibonacci-Zahlen / Zahlenmagie)"
+  },
+  {
+    "id": "ari23_vl04-b1-020",
+    "topic": "ari23_vl04_goldener_schnitt",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Berechnen Sie das Verhältnis 13 : 8 zweier benachbarter Fibonacci-Zahlen (als Dezimalzahl).",
+    "answer": 1.625,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Folie 11: 13 : 8 = 1,625. 📄 Quelle: ari23_vl04, Folie 11 (S.11)",
+    "source": "ari23_vl04, Folie 11 (S.11, Fibonacci-Zahlen / Zahlenmagie)"
+  },
+  {
+    "id": "ari23_vl04-b1-021",
+    "topic": "ari23_vl04_goldener_schnitt",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aussagen zum goldenen Schnitt (Verhältnis f_n/f_{n-1} benachbarter Fibonacci-Zahlen) sind richtig?",
+    "options": [
+      "Das Verhältnis f_n/f_{n-1} entspricht dem Verhältnis Major : Minor",
+      "Der goldene Schnitt φ beträgt ungefähr 1,618",
+      "Der Major-Anteil beträgt ca. 61,8 %, der Minor-Anteil ca. 38,2 %",
+      "Das Verhältnis f_n/f_{n-1} strebt gegen 2"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Folie 11 stellt das Verhältnis f_n/f_{n-1} als Major : Minor dar, gibt φ ≈ 1,618 an und zeigt die Aufteilung ca. 61,8 % / 38,2 %. Gegen 2 strebt das Verhältnis nicht. 📄 Quelle: ari23_vl04, Folie 11 (S.11)",
+    "source": "ari23_vl04, Folie 11 (S.11, Fibonacci-Zahlen / Zahlenmagie)"
+  },
+  {
+    "id": "ari23_vl04-b1-022",
+    "topic": "ari23_vl04_kettenbrueche",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Was gilt für die aus benachbarten Fibonacci-Zahlen gebildeten Brüche f_n/f_{n-1} bezüglich Kettenbrüchen?",
+    "options": [
+      "Sie lassen sich durch sogenannte Kettenbrüche nur mit 1en ausdrücken",
+      "Sie sind stets ganzzahlig",
+      "Sie lassen sich nur als Kettenbruch mit lauter 2en schreiben",
+      "Sie lassen sich nicht als Kettenbruch darstellen"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Folie 12: 'Alle Brüche f_n/f_{n-1} lassen sich durch sogenannte Kettenbrüche nur mit 1en ausdrücken!' 📄 Quelle: ari23_vl04, Folie 12 (S.12)",
+    "source": "ari23_vl04, Folie 12 (S.12, Fibonacci-Zahlen / Zahlenmagie)"
+  },
+  {
+    "id": "ari23_vl04-b1-023",
+    "topic": "ari23_vl04_kettenbrueche",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Welchen Wert hat der Kettenbruch 1/(1 + 1/1)?",
+    "answer": 0.5,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "1/(1 + 1/1) = 1/2 = 0,5. Auf Folie 12 wird 1/2 als dieser Kettenbruch dargestellt. 📄 Quelle: ari23_vl04, Folie 12 (S.12)",
+    "source": "ari23_vl04, Folie 12 (S.12, Fibonacci-Zahlen / Zahlenmagie)"
+  },
+  {
+    "id": "ari23_vl04-b1-024",
+    "topic": "ari23_vl04_fibonacci_anwendungen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche der folgenden Zahlen sind Fibonacci-Zahlen, die in den Proportionen des Doms in Florenz auftreten?",
+    "options": [
+      "55",
+      "89",
+      "144",
+      "100"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "In den Proportionen sind die Maße 55, 89 und 144 als Fibonacci-Zahlen markiert. 📄 Quelle: ari23_vl04, Folie 13 (S.13)",
+    "source": "ari23_vl04, Folie 13 (S.13, Fibonacci-Zahlen / Architektur)"
+  },
+  {
+    "id": "ari23_vl04-b1-025",
+    "topic": "ari23_vl04_fibonacci_anwendungen",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Wie lautet die 13. Fibonacci-Zahl f_13?",
+    "answer": 233,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Die Tabelle führt f_13 = 233 auf. 📄 Quelle: ari23_vl04, Folie 13 (S.13)",
+    "source": "ari23_vl04, Folie 13 (S.13, Fibonacci-Zahlen / Architektur)"
+  },
+  {
+    "id": "ari23_vl04-b1-026",
+    "topic": "ari23_vl04_fibonacci_anwendungen",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Wozu sortiert Sophie Neveu im 'Da Vinci Code' die Zahlenreihe 13-3-2-21-1-1-8-5?",
+    "options": [
+      "zu den ersten Fibonacci-Zahlen 1-1-2-3-5-8-13-21",
+      "zu einer geometrischen Reihe 1-2-4-8-16",
+      "zu den Primzahlen 2-3-5-7-11-13",
+      "zur Reihe 1-2-3-4-5-6-7-8"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Folie 14: 13-3-2-21-1-1-8-5 → 1-1-2-3-5-8-13-21, also die ersten Fibonacci-Zahlen. 📄 Quelle: ari23_vl04, Folie 14 (S.14)",
+    "source": "ari23_vl04, Folie 14 (S.14, Fibonacci-Zahlen / Literatur)"
+  },
+  {
+    "id": "ari23_vl04-b1-027",
+    "topic": "ari23_vl04_fibonacci_anwendungen",
+    "difficulty": 1,
+    "type": "multi",
+    "question": "Welche Zahlen enthält der sortierte Code 1-1-2-3-5-8-13-21?",
+    "options": [
+      "1, 1, 2, 3",
+      "5, 8, 13, 21",
+      "4 und 6",
+      "34"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Der Code lautet 1-1-2-3-5-8-13-21; er enthält 1, 1, 2, 3 sowie 5, 8, 13, 21. Die 4, 6 und 34 kommen nicht vor. 📄 Quelle: ari23_vl04, Folie 14 (S.14)",
+    "source": "ari23_vl04, Folie 14 (S.14, Fibonacci-Zahlen / Literatur)"
+  },
+  {
+    "id": "ari23_vl04-b1-028",
+    "topic": "ari23_vl04_fibonacci_anwendungen",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Was gilt für Fibonacci-Zahlen in der Natur?",
+    "options": [
+      "Blatt- und Blütenstände enthalten häufig benachbarte Fibonacci-Zahlen",
+      "Pflanzen wachsen ausschließlich nach Primzahlmustern",
+      "Blütenstände enthalten immer genau 100 Blüten",
+      "Fibonacci-Zahlen treten in der Natur nicht auf"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Folie 15: 'Blatt und Blütenstände enthalten häufig benachbarte Fibonacci-Zahlen.' 📄 Quelle: ari23_vl04, Folie 15 (S.15)",
+    "source": "ari23_vl04, Folie 15 (S.15, Fibonacci-Zahlen / Natur)"
+  },
+  {
+    "id": "ari23_vl04-b1-029",
+    "topic": "ari23_vl04_fibonacci_anwendungen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche benachbarten Fibonacci-Zahlen treten in den Naturbeispielen Kiefernzapfen und Sonnenblume auf?",
+    "options": [
+      "5, 8, 13",
+      "34, 55",
+      "7, 11",
+      "4, 6"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Am Kiefernzapfen sind 5, 8, 13 und in der Sonnenblume 34, 55 markiert – jeweils benachbarte Fibonacci-Zahlen. 7, 11, 4 und 6 sind keine Fibonacci-Zahlen. 📄 Quelle: ari23_vl04, Folie 15 (S.15)",
+    "source": "ari23_vl04, Folie 15 (S.15, Fibonacci-Zahlen / Natur)"
+  },
+  {
+    "id": "ari23_vl04-b1-030",
+    "topic": "ari23_vl04_zahlenmagie",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Durch welche Fibonacci-Zahl f_11 wird bei der 'Zahlenmagie' die Zahl 1 geteilt?",
+    "answer": 89,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Folie 16: 'Teilen Sie 1 durch f_11 = 89'. 📄 Quelle: ari23_vl04, Folie 16 (S.16)",
+    "source": "ari23_vl04, Folie 16 (S.16, Fibonacci-Zahlen / Zahlenmagie)"
+  },
+  {
+    "id": "ari23_vl04-b1-031",
+    "topic": "ari23_vl04_zahlenmagie",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Wie beginnt die Dezimaldarstellung von 1/89?",
+    "options": [
+      "0,0112359…",
+      "0,0123456…",
+      "0,1123581…",
+      "0,0112233…"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Folie 16: 1/89 = 0,0112359… 📄 Quelle: ari23_vl04, Folie 16 (S.16)",
+    "source": "ari23_vl04, Folie 16 (S.16, Fibonacci-Zahlen / Zahlenmagie)"
+  },
+  {
+    "id": "ari23_vl04-b1-032",
+    "topic": "ari23_vl04_zahlenmagie",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Wie groß ist der größte gemeinsame Teiler l = ggT(8; 12)?",
+    "answer": 4,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Folie 18: ggT(8; 12) = 4 =: l. 📄 Quelle: ari23_vl04, Folie 18 (S.18)",
+    "source": "ari23_vl04, Folie 18 (S.18, Fibonacci-Zahlen / Zahlenmagie)"
+  },
+  {
+    "id": "ari23_vl04-b1-033",
+    "topic": "ari23_vl04_zahlenmagie",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Bestimmen Sie ggT(f_8; f_12) = ggT(21; 144).",
+    "answer": 3,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Folie 18: ggT(f_8; f_12) = ggT(21; 144) = 3. 📄 Quelle: ari23_vl04, Folie 18 (S.18)",
+    "source": "ari23_vl04, Folie 18 (S.18, Fibonacci-Zahlen / Zahlenmagie)"
+  },
+  {
+    "id": "ari23_vl04-b1-034",
+    "topic": "ari23_vl04_zahlenmagie",
+    "difficulty": 3,
+    "type": "multi",
+    "question": "Welcher Zusammenhang für den größten gemeinsamen Teiler von Fibonacci-Zahlen ist anhand der folgenden Beispiele richtig?",
+    "options": [
+      "ggT(f_m; f_n) = f_{ggT(m; n)}",
+      "Für m=8, n=12: ggT(f_8; f_12) = ggT(21; 144) = 3 = f_4",
+      "Für m=10, n=5: ggT(f_10; f_5) = ggT(55; 5) = 5 = f_5",
+      "ggT(f_m; f_n) = f_m · f_n"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Die Beispiele zeigen ggT(f_m; f_n) = f_{ggT(m;n)}: für m=10, n=5 ist ggT(55;5)=5=f_5 (l=ggT(10;5)=5) und für m=8, n=12 ist ggT(21;144)=3=f_4 (l=ggT(8;12)=4). Ein Produkt f_m·f_n ist es nicht. 📄 Quelle: ari23_vl04, Folie 18 (S.18)",
+    "source": "ari23_vl04, Folie 18 (S.18, Fibonacci-Zahlen / Zahlenmagie)"
+  },
+  {
+    "id": "ari23_vl04-b2-001",
+    "topic": "ari23_vl04_fibonacci",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Welchen Wert hat die 10. Fibonacci-Zahl f_10?",
+    "answer": 55,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Die Tabelle listet f_1=1, f_2=1, f_3=2, f_4=3, f_5=5, f_6=8, f_7=13, f_8=21, f_9=34, f_10=55, f_11=89, f_12=144, f_13=233. 📄 Quelle: ari23_vl04, Folie 19 (S.19)",
+    "source": "ari23_vl04, Folie 19 (S.19, Fibonacci-Zahlen)"
+  },
+  {
+    "id": "ari23_vl04-b2-002",
+    "topic": "ari23_vl04_fibonacci",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welche Gesetzmäßigkeit gilt für den ggT zweier Fibonacci-Zahlen f_m und f_n?",
+    "options": [
+      "ggT(f_m, f_n) = f_l = f_ggT(m,n)",
+      "ggT(f_m, f_n) = f_m + f_n",
+      "ggT(f_m, f_n) = f_(m·n)",
+      "ggT(f_m, f_n) = ggT(m,n)"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie hält fest: Bildet man ggT(m;n)=l, so ist ggT(f_m, f_n) = f_l = f_ggT(m,n). 📄 Quelle: ari23_vl04, Folie 19 (S.19)",
+    "source": "ari23_vl04, Folie 19 (S.19, Fibonacci-Zahlen)"
+  },
+  {
+    "id": "ari23_vl04-b2-003",
+    "topic": "ari23_vl04_fibonacci",
+    "difficulty": 3,
+    "type": "numeric",
+    "question": "Bestimme mit der Regel ggT(f_m, f_n) = f_ggT(m,n) den Wert von ggT(f_8, f_12).",
+    "answer": 3,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Es ist ggT(8;12)=4, also ggT(f_8, f_12)=f_4=3 (Kontrolle: ggT(21;144)=3). 📄 Quelle: ari23_vl04, Folie 19 (S.19)",
+    "source": "ari23_vl04, Folie 19 (S.19, Fibonacci-Zahlen)"
+  },
+  {
+    "id": "ari23_vl04-b2-004",
+    "topic": "ari23_vl04_fibonacci",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Nach wem sind die Fibonacci-Zahlen benannt?",
+    "options": [
+      "Leonardo von Pisa (1170 - 1240)",
+      "Blaise Pascal",
+      "Giuseppe Peano",
+      "Euklid von Alexandria"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie nennt Leonardo von Pisa (1170 - 1240). 📄 Quelle: ari23_vl04, Folie 19 (S.19)",
+    "source": "ari23_vl04, Folie 19 (S.19, Fibonacci-Zahlen)"
+  },
+  {
+    "id": "ari23_vl04-b2-005",
+    "topic": "ari23_vl04_quadratsumme",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Welchen Wert hat das Quadrat der 7. Fibonacci-Zahl (f_7 = 13) gemäß der Tabelle?",
+    "answer": 169,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Die Spalte 'Quadrate' zeigt für n=7 den Wert 13^2 = 169. 📄 Quelle: ari23_vl04, Folie 20 (S.20)",
+    "source": "ari23_vl04, Folie 20 (S.20, Summe der Quadrate der Fibonacci-Zahlen)"
+  },
+  {
+    "id": "ari23_vl04-b2-006",
+    "topic": "ari23_vl04_quadratsumme",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Wie groß ist die Summe S_6 der Quadrate der ersten 6 Fibonacci-Zahlen gemäß der Tabelle?",
+    "answer": 104,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Die Spalte 'Summe' zeigt für n=6 den Wert 104 (=1+1+4+9+25+64). 📄 Quelle: ari23_vl04, Folie 20 (S.20)",
+    "source": "ari23_vl04, Folie 20 (S.20, Summe der Quadrate der Fibonacci-Zahlen)"
+  },
+  {
+    "id": "ari23_vl04-b2-007",
+    "topic": "ari23_vl04_quadratsumme",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Was wurde in Erkundung II bezüglich der Fibonacci-Zahlen untersucht?",
+    "options": [
+      "Die Summe S_n der Quadrate der ersten n Fibonacci-Zahlen",
+      "Das Produkt der ersten n Fibonacci-Zahlen",
+      "Der ggT aufeinanderfolgender Fibonacci-Zahlen",
+      "Die Differenz benachbarter Fibonacci-Zahlen"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Text der Folie: 'Sie haben in Erkundung II ... die Summe S_n der Quadrate der ersten n Fibonacci-Zahlen untersucht.' 📄 Quelle: ari23_vl04, Folie 20 (S.20)",
+    "source": "ari23_vl04, Folie 20 (S.20, Summe der Quadrate der Fibonacci-Zahlen)"
+  },
+  {
+    "id": "ari23_vl04-b2-008",
+    "topic": "ari23_vl04_quadratsumme",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welche Vermutung gilt für die Summe der Quadrate der ersten n Fibonacci-Zahlen?",
+    "options": [
+      "S_n = f_1^2 + f_2^2 + ... + f_n^2 = f_n · f_(n+1)",
+      "S_n = f_1^2 + ... + f_n^2 = f_n + f_(n+1)",
+      "S_n = f_1^2 + ... + f_n^2 = (f_n)^2",
+      "S_n = f_1^2 + ... + f_n^2 = f_(2n)"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Vermutung lautet S_n = f_1^2 + f_2^2 + f_3^2 + ... + f_(n-1)^2 + f_n^2 = f_n · f_(n+1). 📄 Quelle: ari23_vl04, Folie 22 (S.22)",
+    "source": "ari23_vl04, Folie 22 (S.22, Summe der Quadrate der Fibonacci-Zahlen)"
+  },
+  {
+    "id": "ari23_vl04-b2-009",
+    "topic": "ari23_vl04_quadratsumme",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Berechne mit der Vermutung S_n = f_n · f_(n+1) den Wert von S_5 (es ist f_5 = 5, f_6 = 8).",
+    "answer": 40,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "S_5 = f_5 · f_6 = 5 · 8 = 40 (auf der Folie als 5·8=40=S_5 notiert). 📄 Quelle: ari23_vl04, Folie 22 (S.22)",
+    "source": "ari23_vl04, Folie 22 (S.22, Summe der Quadrate der Fibonacci-Zahlen)"
+  },
+  {
+    "id": "ari23_vl04-b2-010",
+    "topic": "ari23_vl04_quadratsumme",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Als welcher Schritt im mathematischen Arbeiten wird das Erkennen des Zusammenhangs S_n = f_n · f_(n+1) (Summe der Quadrate der ersten n Fibonacci-Zahlen) bezeichnet?",
+    "options": [
+      "Entdeckung eines Musters (Aufstellen einer Hypothese)",
+      "Beweis durch vollständige Induktion",
+      "Definition eines Axioms",
+      "Widerlegung durch ein Gegenbeispiel"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Fußzeile der Folie: 'Entdeckung eines Musters (Aufstellen einer Hypothese)'. 📄 Quelle: ari23_vl04, Folie 22 (S.22)",
+    "source": "ari23_vl04, Folie 22 (S.22, Summe der Quadrate der Fibonacci-Zahlen)"
+  },
+  {
+    "id": "ari23_vl04-b2-011",
+    "topic": "ari23_vl04_vollstaendige_induktion",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Was ist die vollständige Induktion? (Mehrfachauswahl möglich)",
+    "options": [
+      "Ein Beweis, dass eine Behauptung/Aussage für alle natürlichen Zahlen gilt",
+      "Sie beruht auf der Grundlage der Peano-Axiome",
+      "Ein Verfahren, das nur Aussagen für endlich viele Zahlen prüft",
+      "Eine Methode zum Aufstellen (statt Beweisen) von Vermutungen"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Die Folie definiert: 'Die Vollständige Induktion ist ein Beweis, dass eine Behauptung/Aussage für alle Natürlichen Zahlen gilt (auf der Grundlage der Peano-Axiome).' 📄 Quelle: ari23_vl04, Folie 23 (S.23)",
+    "source": "ari23_vl04, Folie 23 (S.23, Vollständige Induktion)"
+  },
+  {
+    "id": "ari23_vl04-b2-012",
+    "topic": "ari23_vl04_vollstaendige_induktion",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welcher Satz soll im Anschluss an die Erkundung zur Summe der Quadrate der Fibonacci-Zahlen mit vollständiger Induktion bewiesen werden?",
+    "options": [
+      "Der Satz über die Summe der Quadrate der ersten n Fibonacci-Zahlen",
+      "Der Satz über den ggT zweier Fibonacci-Zahlen",
+      "Der Satz über die Summe der ersten n natürlichen Zahlen",
+      "Der Satz über die Zweierpotenzen im Pascalschen Dreieck"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Aufgabe der Folie: 'Beweisen Sie den Satz über die Summe der Quadrate der ersten n Fibonacci-Zahlen mit Hilfe der vollständigen Induktion!' 📄 Quelle: ari23_vl04, Folie 23 (S.23)",
+    "source": "ari23_vl04, Folie 23 (S.23, Vollständige Induktion)"
+  },
+  {
+    "id": "ari23_vl04-b2-013",
+    "topic": "ari23_vl04_axiome",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aussagen über Axiome sind richtig? (Mehrfachauswahl möglich)",
+    "options": [
+      "Axiome sind die Spielsteine der Mathematik (der Rest sind die Regeln)",
+      "Axiome sind das Fundament der Mathematik, auf dem die weiteren Sätze aufgebaut werden",
+      "Axiome sind unbewiesene Aussagen",
+      "Axiome müssen aus den Theoremen bewiesen werden"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Die Folie nennt: Axiome sind die Spielsteine der Mathematik (Rest sind die Regeln); sie sind das Fundament, auf dem weitere Sätze aufgebaut werden; sie sind unbewiesene Aussagen. Sie werden gerade NICHT bewiesen. 📄 Quelle: ari23_vl04, Folie 25 (S.25)",
+    "source": "ari23_vl04, Folie 25 (S.25, Axiome)"
+  },
+  {
+    "id": "ari23_vl04-b2-014",
+    "topic": "ari23_vl04_axiome",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Warum sind Axiome unbewiesene Aussagen?",
+    "options": [
+      "Weil man sonst unendlich weit 'zurück' beweisen müsste",
+      "Weil sie experimentell nicht überprüfbar sind",
+      "Weil sie nur in der Geometrie vorkommen",
+      "Weil sie aus den Peano-Axiomen folgen"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie: 'Axiome sind unbewiesene Aussagen. Das ist notwendig, weil man sonst unendlich weit zurück beweisen müsste.' 📄 Quelle: ari23_vl04, Folie 25 (S.25)",
+    "source": "ari23_vl04, Folie 25 (S.25, Axiome)"
+  },
+  {
+    "id": "ari23_vl04-b2-015",
+    "topic": "ari23_vl04_axiome",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Für welche Bereiche gibt es beispielsweise Axiome? (Mehrfachauswahl möglich)",
+    "options": [
+      "Zu den natürlichen Zahlen",
+      "Zur (euklidischen) Geometrie",
+      "Zum Wahrscheinlichkeitsbegriff",
+      "Zu allen Bereichen der Mathematik"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Beispiele der Folie: natürliche Zahlen, (euklidische) Geometrie, Wahrscheinlichkeitsbegriff, Gruppen/Körper, Mengen - aber ausdrücklich 'nicht zu allen Bereichen der Mathematik'. 📄 Quelle: ari23_vl04, Folie 25 (S.25)",
+    "source": "ari23_vl04, Folie 25 (S.25, Axiome)"
+  },
+  {
+    "id": "ari23_vl04-b2-016",
+    "topic": "ari23_vl04_axiome",
+    "difficulty": 2,
+    "type": "single",
+    "question": "An welcher Stelle stehen Axiome in der Entwicklung eines mathematischen Teilgebiets?",
+    "options": [
+      "Am Ende einer langen Entwicklung eines mathematischen Teilgebiets",
+      "Ganz am Anfang, noch vor jeder mathematischen Betätigung",
+      "In der Mitte zwischen Vermutung und Beweis",
+      "Nach dem Beweis der zugehörigen Theoreme"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie: 'Axiome stehen am Ende einer langen Entwicklung eines mathematischen Teilgebiets.' 📄 Quelle: ari23_vl04, Folie 25 (S.25)",
+    "source": "ari23_vl04, Folie 25 (S.25, Axiome)"
+  },
+  {
+    "id": "ari23_vl04-b2-017",
+    "topic": "ari23_vl04_erkundung2_pascal",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welche rekursive Vorschrift beschreibt die 'Folge von Einsen' (1, 1, 1, 1, ...)?",
+    "options": [
+      "a_(n+1) = a_n + 0, mit a_1 := 1",
+      "a_(n+1) = a_n + 1, mit a_1 := 1",
+      "a_(n+1) = a_n · 0, mit a_1 := 1",
+      "a_(n+1) = a_n + a_(n-1), mit a_1 := 1"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Zur 'Folge von Einsen' notiert die Folie: 1,1,1,1,...; 1^0, 2^0, 3^0, 4^0, ...; a_(n+1) = a_n + 0, mit a_1 := 1. 📄 Quelle: ari23_vl04, Folie 27 (S.27)",
+    "source": "ari23_vl04, Folie 27 (S.27, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl04-b2-018",
+    "topic": "ari23_vl04_erkundung2_pascal",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Als welche Potenzen lassen sich die Glieder der Folge von Einsen (1, 1, 1, 1, ...) schreiben?",
+    "options": [
+      "1^0, 2^0, 3^0, 4^0, ...",
+      "1^1, 2^1, 3^1, 4^1, ...",
+      "2^0, 2^1, 2^2, 2^3, ...",
+      "1^2, 2^2, 3^2, 4^2, ..."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie schreibt die Folge von Einsen als 1^0, 2^0, 3^0, 4^0, ... (jede Zahl hoch 0 ergibt 1). 📄 Quelle: ari23_vl04, Folie 27 (S.27)",
+    "source": "ari23_vl04, Folie 27 (S.27, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl04-b2-019",
+    "topic": "ari23_vl04_erkundung2_pascal",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Angaben sind für die 'Folge der natürlichen Zahlen' (1, 2, 3, 4, ...) korrekt? (Mehrfachauswahl möglich)",
+    "options": [
+      "Sie entsteht, indem man stets 1 zum vorherigen Folgenglied hinzuzählt",
+      "a_(n+1) = a_n + 1, mit a_1 := 1",
+      "a_n = n",
+      "a_n = 2n"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Die Folie: 'Zähle stets 1 zum vorherigen Folgenglied hinzu, Folge der natürlichen Zahlen'; 1,2,3,4,...; a_(n+1) = a_n + 1, mit a_1 := 1; a_n = n. 📄 Quelle: ari23_vl04, Folie 28 (S.28)",
+    "source": "ari23_vl04, Folie 28 (S.28, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl04-b2-020",
+    "topic": "ari23_vl04_dreieckszahlen",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Wie groß ist die 5. Dreieckszahl a_5 = 1+2+3+4+5?",
+    "answer": 15,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Die Folge der Dreieckszahlen lautet 1, 3, 6, 10, 15, 21, ...; a_5 = 1+2+3+4+5 = 15. 📄 Quelle: ari23_vl04, Folie 29 (S.29)",
+    "source": "ari23_vl04, Folie 29 (S.29, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl04-b2-021",
+    "topic": "ari23_vl04_dreieckszahlen",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wie entstehen die Dreieckszahlen?",
+    "options": [
+      "Als Summe der ersten n natürlichen Zahlen: a_n = 1+2+3+...+(n-1)+n",
+      "Als Produkt der ersten n natürlichen Zahlen",
+      "Als Summe der ersten n Fibonacci-Zahlen",
+      "Als Zweierpotenzen 1, 2, 4, 8, ..."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie: 'Summe der ersten n natürlichen Zahlen, Dreieckszahlen'; a_n = 1 + 2 + 3 + ... + (n-1) + n; Folge 1, 3, 6, 10, 15, 21, ... 📄 Quelle: ari23_vl04, Folie 29 (S.29)",
+    "source": "ari23_vl04, Folie 29 (S.29, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl04-b2-022",
+    "topic": "ari23_vl04_summe_dreieckszahlen",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Die Folge der Summe der Dreieckszahlen lautet 1, 4, 10, 20, 35, ... . Welchen Wert hat a_4 = 1+3+6+10?",
+    "answer": 20,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Die Folie: a_4 = 1 + 3 + 6 + 10 = 20 (Folge 1, 4, 10, 20, 35, ...); es gilt a_n = S_n. 📄 Quelle: ari23_vl04, Folie 30 (S.30)",
+    "source": "ari23_vl04, Folie 30 (S.30, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl04-b2-023",
+    "topic": "ari23_vl04_summe_dreieckszahlen",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wie entsteht die Folge 1, 4, 10, 20, 35, ... ?",
+    "options": [
+      "Als Folge der Summe der Dreieckszahlen (a_n = S_n)",
+      "Als Folge der Zweierpotenzen",
+      "Als Folge der Fibonacci-Zahlen",
+      "Als Folge der natürlichen Zahlen"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie: 'Folge der Summe der Dreieckszahlen'; 1, 4, 10, 20, 35, ...; a_n = S_n. 📄 Quelle: ari23_vl04, Folie 30 (S.30)",
+    "source": "ari23_vl04, Folie 30 (S.30, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl04-b2-024",
+    "topic": "ari23_vl04_erkundung2_pascal",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Als Diagonalsummen im Zahlendreieck ergibt sich die Folge der Fibonacci-Zahlen 1, 1, 2, 3, 5, 8, ... . Welchen Wert hat a_6 = 1+4+3+1?",
+    "answer": 8,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Die Folie: 'Folge der Fibonacci-Zahlen' 1, 1, 2, 3, 5, 8, 13, 21, ...; a_6 = 1+4+3+1 = 8. 📄 Quelle: ari23_vl04, Folie 31 (S.31)",
+    "source": "ari23_vl04, Folie 31 (S.31, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl04-b2-025",
+    "topic": "ari23_vl04_erkundung2_pascal",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welche Zahlenfolge ergibt sich aus den (flacheren) Diagonalsummen im Zahlendreieck (Pascalschen Dreieck)?",
+    "options": [
+      "Die Folge der Fibonacci-Zahlen 1, 1, 2, 3, 5, 8, ...",
+      "Die Folge der Zweierpotenzen 1, 2, 4, 8, 16, ...",
+      "Die Folge der Dreieckszahlen 1, 3, 6, 10, ...",
+      "Die Folge der natürlichen Zahlen 1, 2, 3, 4, ..."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie: 'Folge der Fibonacci-Zahlen' 1, 1, 2, 3, 5, 8, 13, 21, ...; mit a_3 = 1+1 = 2, a_4 = 1+2 = 3, a_5 = 1+3+1 = 5, a_6 = 1+4+3+1 = 8. 📄 Quelle: ari23_vl04, Folie 31 (S.31)",
+    "source": "ari23_vl04, Folie 31 (S.31, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl04-b2-026",
+    "topic": "ari23_vl04_zweierpotenzen",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Die Zeilensummen des Zahlendreiecks ergeben die Folge der Zweierpotenzen 1, 2, 4, 8, 16, ... . Welchen Wert hat a_5 = 1+4+6+4+1?",
+    "answer": 16,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Die Folie: 'Folge der Zweierpotenzen' 1, 2, 4, 8, 16, 32, ...; a_5 = 1+4+6+4+1 = 16. 📄 Quelle: ari23_vl04, Folie 32 (S.32)",
+    "source": "ari23_vl04, Folie 32 (S.32, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl04-b2-027",
+    "topic": "ari23_vl04_zweierpotenzen",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welche Folge ergeben die Zeilensummen des Zahlendreiecks (Pascalschen Dreiecks)?",
+    "options": [
+      "Die Folge der Zweierpotenzen 1, 2, 4, 8, 16, 32, ...",
+      "Die Folge der Dreieckszahlen 1, 3, 6, 10, 15, ...",
+      "Die Folge der Fibonacci-Zahlen 1, 1, 2, 3, 5, ...",
+      "Die Folge der Quadratzahlen 1, 4, 9, 16, 25, ..."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie: 'Folge der Zweierpotenzen' 1, 2, 4, 8, 16, 32, ...; z. B. a_3 = 1+2+1 = 4, a_4 = 1+3+3+1 = 8. 📄 Quelle: ari23_vl04, Folie 32 (S.32)",
+    "source": "ari23_vl04, Folie 32 (S.32, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl04-b2-028",
+    "topic": "ari23_vl04_summe_dreieckszahlen",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wie lässt sich die n-te Dreieckszahl d_n darstellen?",
+    "options": [
+      "d_n = n·(n+1)/2",
+      "d_n = n^2",
+      "d_n = (n-1)·n/2",
+      "d_n = 2^n"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie leitet aus 3 = 6/2 = 2·3/2 = 2·(2+1)/2, 6 = 3·4/2, 10 = 4·5/2 die Formel d_n = n·(n+1)/2 her. 📄 Quelle: ari23_vl04, Folie 34 (S.34)",
+    "source": "ari23_vl04, Folie 34 (S.34, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl04-b2-029",
+    "topic": "ari23_vl04_summe_dreieckszahlen",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Berechne mit der Formel d_n = n·(n+1)/2 die 6. Dreieckszahl d_6.",
+    "answer": 21,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "d_6 = 6·(6+1)/2 = 6·7/2 = 21. 📄 Quelle: ari23_vl04, Folie 34 (S.34)",
+    "source": "ari23_vl04, Folie 34 (S.34, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl04-b2-030",
+    "topic": "ari23_vl04_summe_dreieckszahlen",
+    "difficulty": 3,
+    "type": "single",
+    "question": "Wie wird das allgemeine Glied a_n der Folge 1, 4, 10, 20, 35, ... beschrieben?",
+    "options": [
+      "a_n = S_n = Summe der ersten n Dreieckszahlen: S_n = 1 + 3 + 6 + ... + n·(n+1)/2",
+      "a_n = n·(n+1)/2",
+      "a_n = f_n · f_(n+1)",
+      "a_n = 2^(n-1)"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie: a_n = S_n = Summe der ersten n Dreieckszahlen: S_n = 1 + 3 + 6 + ... + n·(n+1)/2. 📄 Quelle: ari23_vl04, Folie 34 (S.34)",
+    "source": "ari23_vl04, Folie 34 (S.34, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl04-b2-031",
+    "topic": "ari23_vl04_summe_dreieckszahlen",
+    "difficulty": 3,
+    "type": "single",
+    "question": "Wie lautet die rekursive Darstellung von S_n (Summe der ersten n Dreieckszahlen)?",
+    "options": [
+      "S_n = S_(n-1) + n·(n+1)/2",
+      "S_n = S_(n-1) + n",
+      "S_n = S_(n-1) · n·(n+1)/2",
+      "S_n = S_(n+1) - n·(n+1)/2"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie stellt S_n = 1 + 3 + 6 + ... + n·(n+1)/2 rekursiv dar als S_n = S_(n-1) + n·(n+1)/2. 📄 Quelle: ari23_vl04, Folie 35 (S.35)",
+    "source": "ari23_vl04, Folie 35 (S.35, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl04-b2-032",
+    "topic": "ari23_vl04_dreieckszahlen",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Woran wird im Zusammenhang mit den Dreieckszahlen erinnert?",
+    "options": [
+      "Eine Dreieckszahl ist die Summe der ersten n natürlichen Zahlen",
+      "Eine Dreieckszahl ist eine Zweierpotenz",
+      "Eine Dreieckszahl ist das Produkt zweier Fibonacci-Zahlen",
+      "Eine Dreieckszahl ist das Quadrat einer natürlichen Zahl"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Der Erinnerungskasten der Folie: 'eine Dreieckszahl ist die Summe der ersten n natürlichen Zahlen'. 📄 Quelle: ari23_vl04, Folie 35 (S.35)",
+    "source": "ari23_vl04, Folie 35 (S.35, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl04-b3-001",
+    "topic": "ari23_vl04_summe_dreieckszahlen",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Wie entsteht die Folge 1, 4, 10, 20, 35, …?",
+    "options": [
+      "Als Summe der Dreieckszahlen (Summe II)",
+      "Als Folge der Dreieckszahlen selbst (Summe I)",
+      "Als Folge der Zweierpotenzen",
+      "Als Folge der Quadratzahlen"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Laut Tabelle ist 1, 4, 10, 20, 35, … die Spalte 'Summe der Dreieckszahlen (Summe II)'; die Dreieckszahlen selbst (Summe I) sind 1, 3, 6, 10, 15, … 📄 Quelle: ari23_vl04, Folie 36 (S.36)",
+    "source": "ari23_vl04, Folie 36 (S.36, Arithmetik)"
+  },
+  {
+    "id": "ari23_vl04-b3-002",
+    "topic": "ari23_vl04_summe_dreieckszahlen",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Welchen Wert hat die 'Summe der Dreieckszahlen (Summe II)' für n = 6 laut Tabelle?",
+    "answer": 56,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "In der Tabelle steht für n = 6: Summe I = 21, Summe II = 56. 📄 Quelle: ari23_vl04, Folie 36 (S.36)",
+    "source": "ari23_vl04, Folie 36 (S.36, Arithmetik)"
+  },
+  {
+    "id": "ari23_vl04-b3-003",
+    "topic": "ari23_vl04_summe_dreieckszahlen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche der folgenden Zahlen sind laut Tabelle Dreieckszahlen (Summe I) für n = 1 bis 7?",
+    "options": [
+      "1",
+      "6",
+      "15",
+      "20",
+      "28",
+      "35"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "explanation": "Summe I (Dreieckszahlen) sind 1, 3, 6, 10, 15, 21, 28. 20 und 35 gehören zur Spalte Summe II. 📄 Quelle: ari23_vl04, Folie 36 (S.36)",
+    "source": "ari23_vl04, Folie 36 (S.36, Arithmetik)"
+  },
+  {
+    "id": "ari23_vl04-b3-004",
+    "topic": "ari23_vl04_summe_dreieckszahlen",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Berechne S_4 nach der Rechnung S_4 = 4 · 15 / 3.",
+    "answer": 20,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "S_4 = 4·15/3 = 60/3 = 20 (= Summe II für n = 4). 📄 Quelle: ari23_vl04, Folie 37 (S.37)",
+    "source": "ari23_vl04, Folie 37 (S.37, Arithmetik)"
+  },
+  {
+    "id": "ari23_vl04-b3-005",
+    "topic": "ari23_vl04_summe_dreieckszahlen",
+    "difficulty": 2,
+    "type": "single",
+    "question": "S_n bezeichnet die Summe der ersten n Dreieckszahlen. Wie lautet die (noch rekursive) allgemeine Formel für S_n mit der Dreieckszahl d_{n+1}?",
+    "options": [
+      "S_n = n · d_{n+1} / 3",
+      "S_n = n · d_n / 3",
+      "S_n = n · d_{n+1} / 2",
+      "S_n = (n+1) · d_n / 3"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Auf der Folie steht S_n = n · d_{n+1} / 3 mit der Dreieckszahl d_{n+1}; sie heißt 'noch immer rekursiv', weil d_{n+1} noch benötigt wird. 📄 Quelle: ari23_vl04, Folie 37 (S.37)",
+    "source": "ari23_vl04, Folie 37 (S.37, Arithmetik)"
+  },
+  {
+    "id": "ari23_vl04-b3-006",
+    "topic": "ari23_vl04_summe_dreieckszahlen",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welche geschlossene Formel gilt für die Dreieckszahl d_{n+1}?",
+    "options": [
+      "d_{n+1} = (n+1)·(n+2) / 2",
+      "d_{n+1} = (n+1)·(n+2) / 3",
+      "d_{n+1} = n·(n+1) / 2",
+      "d_{n+1} = (n+1)·(n+2)"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Aus 6 = 3·4/2, 10 = 4·5/2, 15 = 5·6/2, 21 = 6·7/2 folgt d_{n+1} = (n+1)·(n+2)/2. 📄 Quelle: ari23_vl04, Folie 38 (S.38)",
+    "source": "ari23_vl04, Folie 38 (S.38, Arithmetik)"
+  },
+  {
+    "id": "ari23_vl04-b3-007",
+    "topic": "ari23_vl04_summe_dreieckszahlen",
+    "difficulty": 2,
+    "type": "single",
+    "question": "S_n ist die Summe der ersten n Dreieckszahlen. Wie lautet die nicht-rekursive (geschlossene) Formel für S_n?",
+    "options": [
+      "S_n = n·(n+1)·(n+2) / (3·2)",
+      "S_n = n·(n+1) / 2",
+      "S_n = n·(n+1)·(n+2) / 2",
+      "S_n = n·(n+1)·(n+2) / 3"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Einsetzen von d_{n+1} = (n+1)(n+2)/2 in S_n = n·d_{n+1}/3 ergibt S_n = n·(n+1)·(n+2)/(3·2). 📄 Quelle: ari23_vl04, Folie 38 (S.38)",
+    "source": "ari23_vl04, Folie 38 (S.38, Arithmetik)"
+  },
+  {
+    "id": "ari23_vl04-b3-008",
+    "topic": "ari23_vl04_summe_dreieckszahlen",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Berechne S_5 mit der geschlossenen Formel S_n = n·(n+1)·(n+2)/(3·2).",
+    "answer": 35,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "S_5 = 5·6·7/(3·2) = 210/6 = 35 (= Summe II für n = 5). 📄 Quelle: ari23_vl04, Folie 38 (S.38)",
+    "source": "ari23_vl04, Folie 38 (S.38, Arithmetik)"
+  },
+  {
+    "id": "ari23_vl04-b3-009",
+    "topic": "ari23_vl04_summe_dreieckszahlen",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Welchen allgemeinen Term (in Zeile n) hat die Spalte 'Dreieckszahlen (Summe I)'?",
+    "options": [
+      "n·(n+1) / 2",
+      "n·(n+1)·(n+2) / (3·2)",
+      "n·(n+1)",
+      "n² / 2"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "In der Zeile n steht für Summe I der Term n·(n+1)/2. 📄 Quelle: ari23_vl04, Folie 38 (S.38)",
+    "source": "ari23_vl04, Folie 38 (S.38, Arithmetik)"
+  },
+  {
+    "id": "ari23_vl04-b3-010",
+    "topic": "ari23_vl04_summe_dreieckszahlen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Was besagt der Satz über die Summe der ersten n Dreieckszahlen S_n? (Mehrfachauswahl)",
+    "options": [
+      "Er gilt für alle natürlichen Zahlen n",
+      "Voraussetzung: S_n = 1 + 3 + 6 + … + n·(n+1)/2",
+      "Behauptung: S_n = n·(n+1)·(n+2)/(3·2)",
+      "Er gilt nur für gerade n"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Der Satz lautet: Für alle natürlichen Zahlen n gilt: Wenn S_n = 1 + 3 + 6 + … + n·(n+1)/2, dann S_n = n·(n+1)·(n+2)/(3·2). 📄 Quelle: ari23_vl04, Folie 41 (S.41)",
+    "source": "ari23_vl04, Folie 41 (S.41, Arithmetik)"
+  },
+  {
+    "id": "ari23_vl04-b3-011",
+    "topic": "ari23_vl04_summe_dreieckszahlen",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Welches Beweisverfahren bietet sich zum Beweis des Satzes über die Summe der ersten n Dreieckszahlen an?",
+    "options": [
+      "Vollständige Induktion",
+      "Widerspruchsbeweis",
+      "Beweis durch Gegenbeispiel",
+      "Vollständige Fallunterscheidung"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Da der Satz durch rekursive Erkenntnisse (Sehen und Raten in Abhängigkeit von vorangegangenen Elementen) aufgestellt wurde, bietet sich vollständige Induktion an. 📄 Quelle: ari23_vl04, Folie 41 (S.41)",
+    "source": "ari23_vl04, Folie 41 (S.41, Arithmetik)"
+  },
+  {
+    "id": "ari23_vl04-b3-012",
+    "topic": "ari23_vl04_summe_dreieckszahlen",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wie lautet der letzte angeschriebene Summand in der Voraussetzung S_n = 1 + 3 + 6 + … + ? (Summe der ersten n Dreieckszahlen)?",
+    "options": [
+      "n·(n+1)/2",
+      "n·(n+1)·(n+2)/(3·2)",
+      "n·(n+1)",
+      "(n+1)·(n+2)/2"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Summanden sind die Dreieckszahlen; der n-te ist n·(n+1)/2. 📄 Quelle: ari23_vl04, Folie 41 (S.41)",
+    "source": "ari23_vl04, Folie 41 (S.41, Arithmetik)"
+  },
+  {
+    "id": "ari23_vl04-b3-013",
+    "topic": "ari23_vl04_pascalsches_dreieck",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Welche Folge bilden die Zeilensummen des Pascalschen Dreiecks?",
+    "options": [
+      "Folge der Zweierpotenzen",
+      "Dreieckszahlen",
+      "Fibonacci-Zahlen",
+      "Quadratzahlen"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie bezeichnet die Zeilensummen als 'Folge der Zweierpotenzen'. 📄 Quelle: ari23_vl04, Folie 43 (S.43)",
+    "source": "ari23_vl04, Folie 43 (S.43, Arithmetik)"
+  },
+  {
+    "id": "ari23_vl04-b3-014",
+    "topic": "ari23_vl04_pascalsches_dreieck",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aussagen über das Pascalsche Dreieck sind richtig? (Mehrfachauswahl)",
+    "options": [
+      "Von der Spitze zu einer Zahl gibt es (mit 'nur nach unten') genauso viele verschiedene Wege, wie die Zahl angibt",
+      "Wirft man 2^n Kugeln oben ein, die nach links oder rechts abgelenkt werden, kommen im Mittel so viele Kugeln unten an, wie die Zahl angibt",
+      "Es gibt stets genau einen Weg von der Spitze zu jeder Zahl",
+      "Die Summe zweier benachbarter Zeilen ergibt jeweils die nächste Zeile"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Beide Aussagen (Anzahl der Wege = Zahl; Galton-Brett-Interpretation mit 2^n Kugeln) stehen auf der Folie. 📄 Quelle: ari23_vl04, Folie 43 (S.43)",
+    "source": "ari23_vl04, Folie 43 (S.43, Arithmetik)"
+  },
+  {
+    "id": "ari23_vl04-b3-015",
+    "topic": "ari23_vl04_pascal_biografie",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Leistungen bzw. Rollen werden Blaise Pascal zugeschrieben? (Mehrfachauswahl)",
+    "options": [
+      "Erfinder einer Rechenmaschine",
+      "Mitbegründer der Wahrscheinlichkeitsrechnung",
+      "Anschubgeber für die Differential- und Integralrechnung",
+      "Erfinder des Dezimalsystems"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Die Folie nennt: Erfinder einer Rechenmaschine, Mitbegründer der Wahrscheinlichkeitsrechnung, Anschubgeber für die Differential- und Integralrechnung. 📄 Quelle: ari23_vl04, Folie 44 (S.44)",
+    "source": "ari23_vl04, Folie 44 (S.44, Arithmetik)"
+  },
+  {
+    "id": "ari23_vl04-b3-016",
+    "topic": "ari23_vl04_pascal_biografie",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Mit wem stand Pascal im Briefwechsel über die Wahrscheinlichkeitsfrage des Chevalier de Méré?",
+    "options": [
+      "Fermat",
+      "Descartes",
+      "Leibniz",
+      "Newton"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie nennt den Briefwechsel mit Fermat (Frage: Ist beim 3-fachen Würfeln die 11 wahrscheinlicher als die 12?). 📄 Quelle: ari23_vl04, Folie 44 (S.44)",
+    "source": "ari23_vl04, Folie 44 (S.44, Arithmetik)"
+  },
+  {
+    "id": "ari23_vl04-b3-017",
+    "topic": "ari23_vl04_pascalsches_dreieck",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Wie werden die Spalten (Diagonalen) des Pascalschen Dreiecks beschrieben? (Mehrfachauswahl)",
+    "options": [
+      "Spalte 0: Folge von Einsen (zähle zu 1 stets die 0 hinzu)",
+      "Spalte 1: Folge der natürlichen Zahlen (zähle stets 1 zum vorherigen Glied hinzu)",
+      "Spalte 2: Dreieckszahlen (Summe der ersten n natürlichen Zahlen)",
+      "Spalte 3: Folge der Quadratzahlen"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Spalte 3 ist die 'Folge der Summe der Dreieckszahlen', nicht der Quadratzahlen. Die anderen drei Beschreibungen stehen so auf der Folie. 📄 Quelle: ari23_vl04, Folie 46 (S.46)",
+    "source": "ari23_vl04, Folie 46 (S.46, Arithmetik)"
+  },
+  {
+    "id": "ari23_vl04-b3-018",
+    "topic": "ari23_vl04_pascalsches_dreieck",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Welche Zahlenfolge steht in Spalte 2 des Pascalschen Dreiecks?",
+    "options": [
+      "Dreieckszahlen",
+      "Folge von Einsen",
+      "Natürliche Zahlen",
+      "Summe der Dreieckszahlen"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Spalte 2 = Summe der ersten n natürlichen Zahlen = Dreieckszahlen. 📄 Quelle: ari23_vl04, Folie 46 (S.46)",
+    "source": "ari23_vl04, Folie 46 (S.46, Arithmetik)"
+  },
+  {
+    "id": "ari23_vl04-b3-019",
+    "topic": "ari23_vl04_pascalsches_dreieck",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Was beschreibt Spalte 3 des Pascalschen Dreiecks?",
+    "options": [
+      "Folge der Summe der Dreieckszahlen",
+      "Folge der natürlichen Zahlen",
+      "Folge von Einsen",
+      "Folge der Zweierpotenzen"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Spalte 3 ist als 'Folge der Summe der Dreieckszahlen' bezeichnet. 📄 Quelle: ari23_vl04, Folie 46 (S.46)",
+    "source": "ari23_vl04, Folie 46 (S.46, Arithmetik)"
+  },
+  {
+    "id": "ari23_vl04-b3-020",
+    "topic": "ari23_vl04_binomialkoeffizient",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wie ist der Binomialkoeffizient (n über k) definiert?",
+    "options": [
+      "(n über k) := n! / (k! · (n−k)!)",
+      "(n über k) := n! / (k! · (n+k)!)",
+      "(n über k) := n! / (n−k)!",
+      "(n über k) := k! / (n! · (n−k)!)"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Definition laut Folie: (n über k) := n! / (k! · (n−k)!). 📄 Quelle: ari23_vl04, Folie 47 (S.47)",
+    "source": "ari23_vl04, Folie 47 (S.47, Arithmetik)"
+  },
+  {
+    "id": "ari23_vl04-b3-021",
+    "topic": "ari23_vl04_binomialkoeffizient",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Wie liest man das Symbol (n über k)?",
+    "options": [
+      "'Zeile über Spalte' bzw. 'n über k'",
+      "'n geteilt durch k'",
+      "'n hoch k'",
+      "'k-te Wurzel aus n'"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie gibt an: Lies 'Zeile über Spalte' bzw. 'n über k' (Beispiel '4 über 3'). 📄 Quelle: ari23_vl04, Folie 47 (S.47)",
+    "source": "ari23_vl04, Folie 47 (S.47, Arithmetik)"
+  },
+  {
+    "id": "ari23_vl04-b3-022",
+    "topic": "ari23_vl04_binomialkoeffizient",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Berechne (7 über 4) = 7! / (4! · 3!).",
+    "answer": 35,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "(7 über 4) = 7!/(4!·3!) = (7·6·5)/6 = 35. 📄 Quelle: ari23_vl04, Folie 47 (S.47)",
+    "source": "ari23_vl04, Folie 47 (S.47, Arithmetik)"
+  },
+  {
+    "id": "ari23_vl04-b3-023",
+    "topic": "ari23_vl04_binomialkoeffizient",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Berechne (4 über 3) = 4! / (3! · 1!).",
+    "answer": 4,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "(4 über 3) = 4!/(3!·1!) = 24/6 = 4. 📄 Quelle: ari23_vl04, Folie 47 (S.47)",
+    "source": "ari23_vl04, Folie 47 (S.47, Arithmetik)"
+  },
+  {
+    "id": "ari23_vl04-b3-024",
+    "topic": "ari23_vl04_binomialkoeffizient",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wie lautet der Binomialkoeffizient für die Elemente der Spalte 3 ('n über 3')?",
+    "options": [
+      "(n über 3) = n! / (3! · (n−3)!)",
+      "(n über 3) = n! / (3! · (n+3)!)",
+      "(n über 3) = n! / (n−3)!",
+      "(n über 3) = 3! / (n! · (n−3)!)"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Für Spalte 3: (n über 3) = n!/(3!·(n−3)!). 📄 Quelle: ari23_vl04, Folie 48 (S.48)",
+    "source": "ari23_vl04, Folie 48 (S.48, Arithmetik)"
+  },
+  {
+    "id": "ari23_vl04-b3-025",
+    "topic": "ari23_vl04_pascalsches_dreieck",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Im Pascalschen Dreieck ist jeder Eintrag die Summe der beiden darüberstehenden Einträge. Welchen Wert hat 21 + 35?",
+    "answer": 56,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Nach der Additionsregel im Pascalschen Dreieck: 56 = 21 + 35. 📄 Quelle: ari23_vl04, Folie 48 (S.48)",
+    "source": "ari23_vl04, Folie 48 (S.48, Arithmetik)"
+  },
+  {
+    "id": "ari23_vl04-b3-026",
+    "topic": "ari23_vl04_pascalsches_dreieck",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wie lautet die Additionsregel für die Elemente der 3. Spalte des Pascalschen Dreiecks?",
+    "options": [
+      "(n über 3) = (n−1 über 2) + (n−1 über 3), mit n ≥ 3",
+      "(n über 3) = (n über 2) + (n über 3)",
+      "(n über 3) = (n+1 über 2) + (n+1 über 3)",
+      "(n über 3) = (n−1 über 2) − (n−1 über 3)"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Für alle Elemente der 3. Spalte gilt (n über 3) = (n−1 über 2) + (n−1 über 3), mit n ≥ 3. 📄 Quelle: ari23_vl04, Folie 49 (S.49)",
+    "source": "ari23_vl04, Folie 49 (S.49, Arithmetik)"
+  },
+  {
+    "id": "ari23_vl04-b3-027",
+    "topic": "ari23_vl04_pascalsches_dreieck",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Für welche n gilt die Additionsregel der 3. Spalte (n über 3) = (n−1 über 2) + (n−1 über 3)?",
+    "options": [
+      "n ≥ 3",
+      "n ≥ 0",
+      "n ≥ 1",
+      "nur für gerade n"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie gibt die Bedingung 'mit n ≥ 3' an. 📄 Quelle: ari23_vl04, Folie 49 (S.49)",
+    "source": "ari23_vl04, Folie 49 (S.49, Arithmetik)"
+  },
+  {
+    "id": "ari23_vl04-b3-028",
+    "topic": "ari23_vl04_beweis",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Welche Beweisart wird für die Additionsregel der 3. Spalte (n über 3) = (n−1 über 2) + (n−1 über 3) verwendet?",
+    "options": [
+      "Direkter Beweis",
+      "Vollständige Induktion",
+      "Widerspruchsbeweis",
+      "Beweis durch Gegenbeispiel"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie ist mit 'Beweis (direkt)' überschrieben. 📄 Quelle: ari23_vl04, Folie 50 (S.50)",
+    "source": "ari23_vl04, Folie 50 (S.50, Arithmetik)"
+  },
+  {
+    "id": "ari23_vl04-b3-029",
+    "topic": "ari23_vl04_beweis",
+    "difficulty": 3,
+    "type": "single",
+    "question": "Zu welchem geschlossenen Ausdruck vereinfacht der direkte Beweis die Summe S_{n−2} = (n−1 über 2) + (n−1 über 3)?",
+    "options": [
+      "(n−2)·(n−1)·n / (3·2)",
+      "n·(n+1)·(n+2) / (3·2)",
+      "(n−1)·n·(n+1) / (3·2)",
+      "(n−2)·(n−1)·n / 2"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Der Beweis endet mit S_{n−2} = (n−2)·(n−1)·n/(3·2) (q.e.d.). 📄 Quelle: ari23_vl04, Folie 50 (S.50)",
+    "source": "ari23_vl04, Folie 50 (S.50, Arithmetik)"
+  },
+  {
+    "id": "ari23_vl04-b3-030",
+    "topic": "ari23_vl04_vierlinge",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Aus wie vielen Quadraten besteht ein 'Vierling' (Vier-Quadratling)?",
+    "answer": 4,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Auf der Folie: 'Vierlinge bestehen immer aus 4 Quadraten'. 📄 Quelle: ari23_vl04, Folie 52 (S.52)",
+    "source": "ari23_vl04, Folie 52 (S.52, Arithmetik)"
+  },
+  {
+    "id": "ari23_vl04-b3-031",
+    "topic": "ari23_vl04_vierlinge",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche n-Quadratlinge sollen laut dem Erkundungsauftrag gefunden werden? (Mehrfachauswahl)",
+    "options": [
+      "Drei-Quadratlinge (n=3)",
+      "Vier-Quadratlinge (n=4)",
+      "Fünf-Quadratlinge (n=5)",
+      "Sechs-Quadratlinge (n=6)",
+      "Sieben-Quadratlinge (n=7)"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Der Auftrag nennt Drei-, Vier-, Fünf- und Sechs-Quadratlinge (n = 3, 4, 5, 6). 📄 Quelle: ari23_vl04, Folie 52 (S.52)",
+    "source": "ari23_vl04, Folie 52 (S.52, Arithmetik)"
+  }
 ]

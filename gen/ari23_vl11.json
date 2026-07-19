@@ -1,992 +1,992 @@
 [
- {
-  "id": "ari23_vl11-b1-001",
-  "topic": "ari23_vl11_restklassen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Wie werden die Restklassen beim Teilen durch 3 auf der Rückblick-Folie beschrieben?",
-  "options": [
-   "0̄ = {n∈ℕ | n = 3k, k∈ℕ₀}",
-   "1̄ = {n∈ℕ | n = 3k+1, k∈ℕ₀}",
-   "2̄ = {n∈ℕ | n = 3k+2, k∈ℕ₀}",
-   "2̄ = {n∈ℕ | n = 3k+3, k∈ℕ₀}"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Die Folie gibt 0̄={0,3,6,...}=​{n∈ℕ|n=3k}, 1̄={1,4,7,...}=​{n∈ℕ|n=3k+1} und 2̄={2,5,8,...}=​{n∈ℕ|n=3k+2}, jeweils mit k∈ℕ₀. 📄 Quelle: ari23_vl11, Folie 4 (S.4)",
-  "source": "ari23_vl11, Folie 4 (S.4, Rückblick)"
- },
- {
-  "id": "ari23_vl11-b1-002",
-  "topic": "ari23_vl11_restklassen",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Warum ist die Verknüpfung „n + n\" in der Additionstafel der durch 3 teilbaren (t) und nicht teilbaren (n) Zahlen mathematisch ungewollt?",
-  "options": [
-   "Weil sie nicht „wohldefiniert\" ist, da zwei Ergebnisse (n oder t) herauskommen können",
-   "Weil man t und n grundsätzlich nicht addieren darf",
-   "Weil das Ergebnis von n + n immer t ergibt",
-   "Weil natürliche Zahlen nicht durch 3 teilbar sein können"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Auf der Folie ist n+n als „n/t\" eingekreist; das ist mathematisch ungewollt, weil es nicht „wohldefiniert\" ist – es können zwei Ergebnisse herauskommen. 📄 Quelle: ari23_vl11, Folie 4 (S.4)",
-  "source": "ari23_vl11, Folie 4 (S.4, Rückblick)"
- },
- {
-  "id": "ari23_vl11-b1-003",
-  "topic": "ari23_vl11_restklassen",
-  "difficulty": 1,
-  "type": "multi",
-  "question": "Welche Ergebnisse zeigt die Multiplikationstafel (·) für durch 3 teilbare (t) und nicht teilbare (n) Zahlen?",
-  "options": [
-   "t · t = t",
-   "t · n = t",
-   "n · n = n",
-   "n · n = t"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Die Multiplikationstafel liefert t·t=t, t·n=t, n·t=t und n·n=n; nur n·n=n ist korrekt (nicht t). 📄 Quelle: ari23_vl11, Folie 4 (S.4)",
-  "source": "ari23_vl11, Folie 4 (S.4, Rückblick)"
- },
- {
-  "id": "ari23_vl11-b1-004",
-  "topic": "ari23_vl11_rechnen_reste",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Nach der formalen Rechnung auf der Folie: (3k₁+2)·(3k₂+1) = 3(3k₁k₂+k₁+2k₂)+2. In welcher Restklasse mod 3 liegt das Produkt? Gib den Repräsentanten (0, 1 oder 2) an.",
-  "answer": 2,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Das Umformen ergibt 3·(...)+2, also den Rest 2 beim Teilen durch 3 – die Restklasse 2̄. 📄 Quelle: ari23_vl11, Folie 5 (S.5)",
-  "source": "ari23_vl11, Folie 5 (S.5, Rückblick)"
- },
- {
-  "id": "ari23_vl11-b1-005",
-  "topic": "ari23_vl11_rechnen_reste",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Auf welche Arten kann man laut Folie Addition und Multiplikation von Restklassen begründen bzw. darstellen?",
-  "options": [
-   "formal begründen (algebraische Darstellung mit Variablen für beliebige natürliche Zahlen)",
-   "ikonisch begründen (figurierte Zahlen)",
-   "in Verknüpfungstafeln darstellen",
-   "durch Abmessen am Zahlenstrahl"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Die Folie nennt drei Zugänge: formal (algebraisch mit Variablen), ikonisch (figurierte Zahlen) und die Darstellung in Verknüpfungstafeln. 📄 Quelle: ari23_vl11, Folie 5 (S.5)",
-  "source": "ari23_vl11, Folie 5 (S.5, Rückblick)"
- },
- {
-  "id": "ari23_vl11-b1-006",
-  "topic": "ari23_vl11_rechnen_reste",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Einträge zeigt die Multiplikations-Verknüpfungstafel der Restklassen mod 3 auf der Folie?",
-  "options": [
-   "2̄ · 2̄ = 1̄",
-   "2̄ · 1̄ = 2̄",
-   "0̄ · 2̄ = 0̄",
-   "2̄ · 2̄ = 0̄"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "In der Tafel gilt 2̄·2̄=1̄ (hervorgehoben), 2̄·1̄=2̄ und 0̄·2̄=0̄; 2̄·2̄=0̄ ist falsch. 📄 Quelle: ari23_vl11, Folie 5 (S.5)",
-  "source": "ari23_vl11, Folie 5 (S.5, Rückblick)"
- },
- {
-  "id": "ari23_vl11-b1-007",
-  "topic": "ari23_vl11_restklassen",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Wie viele Restklassen gibt es beim Teilen durch 7 (Aufgabe aus VL10)?",
-  "answer": 7,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Es gibt 7 Restklassen: 0̄, 1̄, 2̄, 3̄, 4̄, 5̄, 6̄. 📄 Quelle: ari23_vl11, Folie 6 (S.6)",
-  "source": "ari23_vl11, Folie 6 (S.6, Rückblick)"
- },
- {
-  "id": "ari23_vl11-b1-008",
-  "topic": "ari23_vl11_restklassen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Elemente gehören laut Lösung zu den Restklassen beim Teilen durch 7?",
-  "options": [
-   "0̄ = {0, 7, 14, ...}",
-   "1̄ = {1, 8, 15, ...}",
-   "0̄ = {0, 1, 2, ...}",
-   "1̄ = {1, 7, 14, ...}"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Die handschriftliche Lösung notiert 0̄={0,7,14,...} und 1̄={1,8,15,...}. 📄 Quelle: ari23_vl11, Folie 6 (S.6)",
-  "source": "ari23_vl11, Folie 6 (S.6, Rückblick)"
- },
- {
-  "id": "ari23_vl11-b1-009",
-  "topic": "ari23_vl11_rechnen_reste",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Zwei Zahlen lassen beim Teilen durch 11 den Rest 7 bzw. den Rest 4. In welcher Restklasse mod 11 liegt ihre Summe? Gib den Repräsentanten an.",
-  "answer": 0,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "(11k₁+7)+(11k₂+4) = 11·(k₁+k₂+1) + 0, also 7̄ ⊕ 4̄ = 0̄ mod 11. 📄 Quelle: ari23_vl11, Folie 7 (S.7)",
-  "source": "ari23_vl11, Folie 7 (S.7, Rückblick)"
- },
- {
-  "id": "ari23_vl11-b1-010",
-  "topic": "ari23_vl11_rechnen_reste",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Zwei Zahlen lassen beim Teilen durch 11 den Rest 7 bzw. den Rest 4. In welcher Restklasse mod 11 liegt ihr Produkt? Gib den Repräsentanten an.",
-  "answer": 6,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Das Produkt liefert als Restanteil 7·4 = 28 = 2·11 + 6, also 7̄ ⊙ 4̄ = 6̄ mod 11. 📄 Quelle: ari23_vl11, Folie 7 (S.7)",
-  "source": "ari23_vl11, Folie 7 (S.7, Rückblick)"
- },
- {
-  "id": "ari23_vl11-b1-011",
-  "topic": "ari23_vl11_rechnen_reste",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Was ergibt sich für Zahlen der Form 11k₁+7 und 11k₂+4 (Rest 7 bzw. Rest 4 beim Teilen durch 11)?",
-  "options": [
-   "Die Summe liegt in der Restklasse 0̄ (mod 11)",
-   "Das Produkt liegt in der Restklasse 6̄ (mod 11)",
-   "Die Summe liegt in der Restklasse 11̄ (mod 11)",
-   "Das Produkt liegt in der Restklasse 3̄ (mod 11)"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Summe: 11·(k₁+k₂+1)+0 → 0̄; Produkt: Restanteil 7·4=28=2·11+6 → 6̄. 📄 Quelle: ari23_vl11, Folie 7 (S.7)",
-  "source": "ari23_vl11, Folie 7 (S.7, Rückblick)"
- },
- {
-  "id": "ari23_vl11-b1-012",
-  "topic": "ari23_vl11_kongruenz",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Wann heißen zwei natürliche Zahlen a und b „kongruent modulo m\" (m ebenfalls natürliche Zahl)?",
-  "options": [
-   "Wenn a und b beim Teilen durch m den gleichen Rest lassen",
-   "Wenn a und b beide durch m teilbar sind",
-   "Wenn a + b durch m teilbar ist",
-   "Wenn a und b beim Teilen durch m den gleichen Quotienten haben"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Definition: a und b heißen kongruent modulo m, wenn sie beim Teilen durch m den gleichen Rest lassen. 📄 Quelle: ari23_vl11, Folie 9 (S.9)",
-  "source": "ari23_vl11, Folie 9 (S.9, Rechnen mit Resten: systematisch)"
- },
- {
-  "id": "ari23_vl11-b1-013",
-  "topic": "ari23_vl11_kongruenz",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Welche Schreibweise wird auf der Folie für die Kongruenz von a und b modulo m angegeben?",
-  "options": [
-   "a ≡ b mod m",
-   "a = b · m",
-   "a | b mod m",
-   "a ≈ b (m)"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie gibt die Schreibweise a ≡ b mod m an. 📄 Quelle: ari23_vl11, Folie 9 (S.9)",
-  "source": "ari23_vl11, Folie 9 (S.9, Rechnen mit Resten: systematisch)"
- },
- {
-  "id": "ari23_vl11-b1-014",
-  "topic": "ari23_vl11_saetze",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Aussagen zum Satz „Wenn a ≡ b mod m, dann m | (a−b)\" sind korrekt?",
-  "options": [
-   "Voraussetzung: a, b, m sind natürliche Zahlen mit a ≥ b",
-   "Wenn a ≡ b mod m gilt, dann gilt m | (a−b)",
-   "In der Herleitung gilt (a−b) = (q₁ − q₂)·m",
-   "Aus a ≡ b mod m folgt (a−b) | m"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Der Satz gilt für natürliche Zahlen a, b, m mit a ≥ b: aus a ≡ b mod m folgt m|(a−b), da (a−b)=(q₁−q₂)·m. Die Teilbarkeit ist m|(a−b), nicht (a−b)|m. 📄 Quelle: ari23_vl11, Folie 10 (S.10)",
-  "source": "ari23_vl11, Folie 10 (S.10, Rechnen mit Resten: systematisch)"
- },
- {
-  "id": "ari23_vl11-b1-015",
-  "topic": "ari23_vl11_saetze",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Was ist die Kernidee des Beweises, dass aus a ≡ b mod m folgt m | (a−b)?",
-  "options": [
-   "Die gleichen Reste r heben sich weg, sodass (a−b) = (q₁−q₂)·m ein Vielfaches von m ist",
-   "a und b sind beide durch m teilbar",
-   "Es gilt r₁ − r₂ = m",
-   "Es gilt q₁ = q₂"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Da a und b denselben Rest r haben, ist (a−b)=q₁·m+r−(q₂·m+r)=(q₁−q₂)·m, also ein Vielfaches von m. 📄 Quelle: ari23_vl11, Folie 10 (S.10)",
-  "source": "ari23_vl11, Folie 10 (S.10, Rechnen mit Resten: systematisch)"
- },
- {
-  "id": "ari23_vl11-b1-016",
-  "topic": "ari23_vl11_saetze",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Voraussetzungen nennt der Satz zur Addition/Subtraktion von Kongruenzen (a ± c ≡ b ± d mod m)?",
-  "options": [
-   "a, b, c, d, m sind natürliche Zahlen",
-   "a > c und b > d",
-   "a ≡ b mod m und c ≡ d mod m",
-   "a = b und c = d"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Der Satz gilt für natürliche Zahlen a, b, c, d, m mit a > c und b > d, wenn a ≡ b mod m und c ≡ d mod m gilt. 📄 Quelle: ari23_vl11, Folie 11 (S.11)",
-  "source": "ari23_vl11, Folie 11 (S.11, Rechnen mit Resten: systematisch)"
- },
- {
-  "id": "ari23_vl11-b1-017",
-  "topic": "ari23_vl11_saetze",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Welche Schlussfolgerung zieht der Satz auf Folie 11 bei a ≡ b mod m und c ≡ d mod m?",
-  "options": [
-   "a ± c ≡ b ± d mod m",
-   "a · c ≡ b · d mod m",
-   "a ± c ≡ b ∓ d mod m",
-   "a ± c ≡ b + d mod m"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Dann gilt a ± c ≡ b ± d mod m. 📄 Quelle: ari23_vl11, Folie 11 (S.11)",
-  "source": "ari23_vl11, Folie 11 (S.11, Rechnen mit Resten: systematisch)"
- },
- {
-  "id": "ari23_vl11-b1-018",
-  "topic": "ari23_vl11_saetze",
-  "difficulty": 3,
-  "type": "single",
-  "question": "Was gilt in der Herleitung auf Folie 11 für den Rest (r₁ − r₂)?",
-  "options": [
-   "Er ist in beiden Fällen gleich und kann auch negativ sein",
-   "Er ist immer positiv",
-   "Er ist immer 0",
-   "Er ist gleich m"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Für (a−c) und (b−d) ergibt sich derselbe Rest (r₁ − r₂), der auch negativ sein kann. 📄 Quelle: ari23_vl11, Folie 11 (S.11)",
-  "source": "ari23_vl11, Folie 11 (S.11, Rechnen mit Resten: systematisch)"
- },
- {
-  "id": "ari23_vl11-b1-019",
-  "topic": "ari23_vl11_saetze",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Welche Aussage macht der Multiplikationssatz auf Folie 12?",
-  "options": [
-   "Wenn a ≡ b mod m und c ≡ d mod m, dann a·c ≡ b·d mod m",
-   "Wenn a ≡ b mod m und c ≡ d mod m, dann a+c ≡ b+d mod m",
-   "Wenn a ≡ b mod m, dann a·c ≡ b mod m",
-   "Wenn a·c ≡ b·d mod m, dann a ≡ b mod m"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Für a > c und b > d gilt: aus a ≡ b mod m und c ≡ d mod m folgt a·c ≡ b·d mod m. 📄 Quelle: ari23_vl11, Folie 12 (S.12)",
-  "source": "ari23_vl11, Folie 12 (S.12, Rechnen mit Resten: systematisch)"
- },
- {
-  "id": "ari23_vl11-b1-020",
-  "topic": "ari23_vl11_saetze",
-  "difficulty": 3,
-  "type": "multi",
-  "question": "Welche Schritte gehören zum Beweis von a·c ≡ b·d mod m (Folie 12)?",
-  "options": [
-   "Aus m | (a−b) folgt m | (a−b)·c (Teilbarkeit)",
-   "Aus m | (c−d) folgt m | (c−d)·b (Teilbarkeit)",
-   "Aus m | (a−b)·c + (c−d)·b folgt durch Umformen m | (ac − db)",
-   "Aus m | (a−b) folgt direkt a = b"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Der Beweis nutzt m|(a−b)·c und m|(c−d)·b, addiert und formt um zu m|(ac−bc+bc−db)=m|(ac−db). 📄 Quelle: ari23_vl11, Folie 12 (S.12)",
-  "source": "ari23_vl11, Folie 12 (S.12, Rechnen mit Resten: systematisch)"
- },
- {
-  "id": "ari23_vl11-b1-021",
-  "topic": "ari23_vl11_rechnen_reste",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Beispiel mod 7 auf Folie 13: 10 ≡ ? mod 7. Gib den kleinsten nichtnegativen Rest an.",
-  "answer": 3,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "10 = 1·7 + 3, also 10 ≡ 3 mod 7. 📄 Quelle: ari23_vl11, Folie 13 (S.13)",
-  "source": "ari23_vl11, Folie 13 (S.13, Rechnen mit Resten: systematisch)"
- },
- {
-  "id": "ari23_vl11-b1-022",
-  "topic": "ari23_vl11_rechnen_reste",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Auf Folie 13 gilt 10·10 ≡ 3·3 mod 7. Zu welchem kleinsten nichtnegativen Rest mod 7 ist das kongruent?",
-  "answer": 2,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "3·3 = 9 = 1·7 + 2, also 10·10 ≡ 2 mod 7. 📄 Quelle: ari23_vl11, Folie 13 (S.13)",
-  "source": "ari23_vl11, Folie 13 (S.13, Rechnen mit Resten: systematisch)"
- },
- {
-  "id": "ari23_vl11-b1-023",
-  "topic": "ari23_vl11_rechnen_reste",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Kongruenzen mod 7 werden auf Folie 13 gezeigt?",
-  "options": [
-   "100·10 ≡ 6 mod 7 ≡ −1 mod 7",
-   "100000·10 ≡ 1 mod 7",
-   "10000·10 ≡ −2 mod 7",
-   "10·10 ≡ 0 mod 7"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Die Folie zeigt u. a. 100·10 ≡ 6 ≡ −1, 10000·10 ≡ −2 und 100000·10 ≡ 1 (jeweils mod 7); 10·10 ≡ 2, nicht 0. 📄 Quelle: ari23_vl11, Folie 13 (S.13)",
-  "source": "ari23_vl11, Folie 13 (S.13, Rechnen mit Resten: systematisch)"
- },
- {
-  "id": "ari23_vl11-b1-024",
-  "topic": "ari23_vl11_restklassenring",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Was besagt die Definition auf Folie 15 zu Z_m?",
-  "options": [
-   "Z_m = {0̄, 1̄, 2̄, 3̄, ..., (m−1)‾} ist die Menge der Restklassen beim Teilen durch m",
-   "x̄ + ȳ := (x+y)‾, wobei (x+y)‾ die Restklasse beim Teilen von x+y durch m ist",
-   "x̄ · ȳ := (x·y)‾, wobei (x·y)‾ die Restklasse beim Teilen von x·y durch m ist",
-   "Z_m enthält unendlich viele Restklassen"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Z_m ist die (endliche) Menge {0̄,...,(m−1)‾} der Restklassen mod m; Addition und Multiplikation sind über die Restklassen der Repräsentantensummen bzw. -produkte definiert. 📄 Quelle: ari23_vl11, Folie 15 (S.15)",
-  "source": "ari23_vl11, Folie 15 (S.15, Erkundung II)"
- },
- {
-  "id": "ari23_vl11-b1-025",
-  "topic": "ari23_vl11_restklassenring",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Wie wird m in Z_m mit Addition und Multiplikation genannt?",
-  "options": [
-   "Modul",
-   "Rest",
-   "Repräsentant",
-   "Quotient"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "m heißt Modul der Menge Z_m mit der Addition und Multiplikation. 📄 Quelle: ari23_vl11, Folie 15 (S.15)",
-  "source": "ari23_vl11, Folie 15 (S.15, Erkundung II)"
- },
- {
-  "id": "ari23_vl11-b1-026",
-  "topic": "ari23_vl11_restklassenring",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Was betont Folie 15 zur „neuen\" Addition von Restklassen?",
-  "options": [
-   "Es ist eine neu definierte Addition von Restklassen, nicht die Addition natürlicher Zahlen",
-   "Sie wird teilweise durch ⊕ (bzw. ⊙) abgegrenzt",
-   "Es werden Mengen addiert, indem Repräsentanten der Mengen addiert werden",
-   "Sie ist identisch mit der Addition natürlicher Zahlen"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Die Folie grenzt die neu definierte Restklassen-Addition (⊕, ⊙) von der Addition natürlicher Zahlen ab; es werden Repräsentanten der Mengen addiert. 📄 Quelle: ari23_vl11, Folie 15 (S.15)",
-  "source": "ari23_vl11, Folie 15 (S.15, Erkundung II)"
- },
- {
-  "id": "ari23_vl11-b1-027",
-  "topic": "ari23_vl11_restklassenring",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "In Z_5 (Restklassentafel Folie 17): 3̄ + 4̄ = ? Gib den Repräsentanten (0–4) an.",
-  "answer": 2,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "3 + 4 = 7 = 1·5 + 2, also 3̄ + 4̄ = 2̄ in Z_5. 📄 Quelle: ari23_vl11, Folie 17 (S.17)",
-  "source": "ari23_vl11, Folie 17 (S.17, Erkundung II)"
- },
- {
-  "id": "ari23_vl11-b1-028",
-  "topic": "ari23_vl11_restklassenring",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "In Z_5 (Restklassentafel Folie 17): 2̄ · 3̄ = ? Gib den Repräsentanten (0–4) an.",
-  "answer": 1,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "2 · 3 = 6 = 1·5 + 1, also 2̄ · 3̄ = 1̄ in Z_5. 📄 Quelle: ari23_vl11, Folie 17 (S.17)",
-  "source": "ari23_vl11, Folie 17 (S.17, Erkundung II)"
- },
- {
-  "id": "ari23_vl11-b1-029",
-  "topic": "ari23_vl11_restklassenring",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Einträge der Z_5-Tafeln auf Folie 17 sind korrekt?",
-  "options": [
-   "4̄ + 4̄ = 3̄",
-   "4̄ · 4̄ = 1̄",
-   "2̄ · 4̄ = 3̄",
-   "3̄ + 3̄ = 0̄"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "4+4=8≡3, 4·4=16≡1, 2·4=8≡3 (alle mod 5) sind korrekt; 3+3=6≡1, also nicht 0̄. 📄 Quelle: ari23_vl11, Folie 17 (S.17)",
-  "source": "ari23_vl11, Folie 17 (S.17, Erkundung II)"
- },
- {
-  "id": "ari23_vl11-b1-030",
-  "topic": "ari23_vl11_erzeuger",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Was zeigt Folie 19 über die Erzeugung der Restklassen in Z_5 durch Addition?",
-  "options": [
-   "Die 1̄ erzeugt die gesamte Menge der Restklassen",
-   "Die Restklassen kann man sich wie einen Zahlenkreis (nicht Zahlenstrahl) vorstellen",
-   "Die 3̄ (wie auch 2̄ und 4̄) erzeugt ebenfalls die gesamte Menge der Restklassen",
-   "Nur die 0̄ erzeugt die gesamte Menge der Restklassen"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Durch fortgesetzte Addition erzeugt 1̄ (und ebenso 2̄, 3̄, 4̄) alle Restklassen; man stellt sie sich als Zahlenkreis vor. 📄 Quelle: ari23_vl11, Folie 19 (S.19)",
-  "source": "ari23_vl11, Folie 19 (S.19, Erkundung II)"
- },
- {
-  "id": "ari23_vl11-b1-031",
-  "topic": "ari23_vl11_erzeuger",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "In Z_5 (Additionstafel Folie 19): 4̄ + 1̄ = ? Gib den Repräsentanten (0–4) an.",
-  "answer": 0,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "4 + 1 = 5 ≡ 0 mod 5, also 4̄ + 1̄ = 0̄. 📄 Quelle: ari23_vl11, Folie 19 (S.19)",
-  "source": "ari23_vl11, Folie 19 (S.19, Erkundung II)"
- },
- {
-  "id": "ari23_vl11-b1-032",
-  "topic": "ari23_vl11_erzeuger",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Was gilt laut Folie 20 für die Erzeugung durch Multiplikation in Z_5?",
-  "options": [
-   "Die 2̄ erzeugt die gesamte Menge der Restklassen bis auf die 0̄",
-   "Das Gleiche gilt für die 3̄",
-   "Für die 1̄ und die 4̄ gilt das nicht",
-   "Die 4̄ erzeugt alle Restklassen außer 0̄"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Durch fortgesetzte Multiplikation erzeugt 2̄ (und ebenso 3̄) alle Restklassen außer 0̄; für 1̄ und 4̄ gilt das nicht. 📄 Quelle: ari23_vl11, Folie 20 (S.20)",
-  "source": "ari23_vl11, Folie 20 (S.20, Erkundung II)"
- },
- {
-  "id": "ari23_vl11-b1-033",
-  "topic": "ari23_vl11_erzeuger",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "In Z_5 (Multiplikationstafel Folie 20): 3̄ · 2̄ = ? Gib den Repräsentanten (0–4) an.",
-  "answer": 1,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "3 · 2 = 6 = 1·5 + 1, also 3̄ · 2̄ = 1̄ in Z_5. 📄 Quelle: ari23_vl11, Folie 20 (S.20)",
-  "source": "ari23_vl11, Folie 20 (S.20, Erkundung II)"
- },
- {
-  "id": "ari23_vl11-b1-034",
-  "topic": "ari23_vl11_erzeuger",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welchen Unterschied zwischen Z_5 und Z_6 stellt Folie 21 fest?",
-  "options": [
-   "Bei Z_5 erzeugen alle Restklassen (außer 0̄) die anderen Restklassen",
-   "Bei Z_6 erzeugt keine Restklasse alle Restklassen (außer 1̄)",
-   "Bei Z_6 erzeugt jede Restklasse alle anderen Restklassen",
-   "Bei Z_5 erzeugt nur die 0̄ alle Restklassen"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Bei Z_5 erzeugen alle Restklassen außer 0̄ die anderen; bei Z_6 erzeugt keine Restklasse (außer 1̄) alle Restklassen. 📄 Quelle: ari23_vl11, Folie 21 (S.21)",
-  "source": "ari23_vl11, Folie 21 (S.21, Erkundung II)"
- },
- {
-  "id": "ari23_vl11-b1-035",
-  "topic": "ari23_vl11_restklassenring",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "In Z_6 (Multiplikationstafel Folie 21): 3̄ · 2̄ = ? Gib den Repräsentanten (0–5) an.",
-  "answer": 0,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "3 · 2 = 6 ≡ 0 mod 6, also 3̄ · 2̄ = 0̄ in Z_6. 📄 Quelle: ari23_vl11, Folie 21 (S.21)",
-  "source": "ari23_vl11, Folie 21 (S.21, Erkundung II)"
- },
- {
-  "id": "ari23_vl11-b1-036",
-  "topic": "ari23_vl11_restklassenring",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "In Z_6 (Multiplikationstafel Folie 21): 4̄ · 5̄ = ? Gib den Repräsentanten (0–5) an.",
-  "answer": 2,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "4 · 5 = 20 = 3·6 + 2, also 4̄ · 5̄ = 2̄ in Z_6. 📄 Quelle: ari23_vl11, Folie 21 (S.21)",
-  "source": "ari23_vl11, Folie 21 (S.21, Erkundung II)"
- },
- {
-  "id": "ari23_vl11-b2-001",
-  "topic": "ari23_vl11_restklassen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Aussagen über erzeugende Elemente bezüglich der Multiplikation treffen laut Folie zu?",
-  "options": [
-   "In Z5 erzeugen alle Restklassen außer 0̄ die anderen Restklassen.",
-   "In Z6 erzeugt keine Restklasse alle Restklassen (außer 1̄).",
-   "In Z7 erzeugen nur 3̄ und 5̄ die Restklassen (außer 0̄).",
-   "In Z7 erzeugt jede Restklasse außer 0̄ alle übrigen Restklassen."
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Laut Folie erzeugen bei Z5 alle Restklassen außer 0̄ die anderen, bei Z6 erzeugt keine (außer 1̄) alle Restklassen, und bei Z7 erzeugen nur 3̄ und 5̄ (außer 0̄). 📄 Quelle: ari23_vl11, Folie 22 (S.22)",
-  "source": "ari23_vl11, Folie 22 (S.22, Restklassen systematisch)"
- },
- {
-  "id": "ari23_vl11-b2-002",
-  "topic": "ari23_vl11_restklassen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Aussagen entsprechen der Hypothese bzw. Beobachtung auf der Folie zu Restklassen und erzeugenden Elementen?",
-  "options": [
-   "Erzeugt man Restklassen zu Primzahlen, findet man auch zur Multiplikation erzeugende Elemente.",
-   "Bei zusammengesetzten Zahlen findet man dagegen keine multiplikativ erzeugenden Elemente.",
-   "Hinsichtlich der Addition ist zumindest 1̄ stets ein erzeugendes Element.",
-   "Hinsichtlich der Addition gibt es nie ein erzeugendes Element."
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Die Hypothese lautet: Zu Primzahlen findet man zur Multiplikation erzeugende Elemente, zu zusammengesetzten Zahlen nicht; hinsichtlich der Addition ist zumindest 1̄ stets erzeugend. 📄 Quelle: ari23_vl11, Folie 22 (S.22)",
-  "source": "ari23_vl11, Folie 22 (S.22, Restklassen systematisch)"
- },
- {
-  "id": "ari23_vl11-b2-003",
-  "topic": "ari23_vl11_restklassen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Eigenschaften haben Restklassenmengen laut Folie?",
-  "options": [
-   "Sie sind bezüglich + und · kommutativ und assoziativ.",
-   "Sie haben ein (neutrales) Element ē mit ā+ē=ē+ā=ā.",
-   "Sie haben zu jedem Element ein inverses Element ā^(-1) mit ā+ā^(-1)=ē.",
-   "Sie sind bezüglich + und · weder kommutativ noch assoziativ."
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Restklassenmengen sind zu + und · kommutativ und assoziativ, haben ein neutrales Element ē mit ā+ē=ē+ā=ā und zu jedem Element ein inverses Element ā^(-1) mit ā+ā^(-1)=ē. 📄 Quelle: ari23_vl11, Folie 23 (S.23)",
-  "source": "ari23_vl11, Folie 23 (S.23, Restklassen systematisch)"
- },
- {
-  "id": "ari23_vl11-b2-004",
-  "topic": "ari23_vl11_restklassen",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Welche Gleichung beschreibt laut Folie das neutrale Element ē einer Restklassenmenge?",
-  "options": [
-   "ā+ē=ē+ā=ā",
-   "ā+ē=0̄",
-   "ā·ē=0̄",
-   "ā+ā^(-1)=ā"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Das neutrale Element ē erfüllt ā+ē=ē+ā=ā; die Gleichung ā+ā^(-1)=ē beschreibt dagegen das inverse Element. 📄 Quelle: ari23_vl11, Folie 23 (S.23)",
-  "source": "ari23_vl11, Folie 23 (S.23, Restklassen systematisch)"
- },
- {
-  "id": "ari23_vl11-b2-005",
-  "topic": "ari23_vl11_iri_zahlen",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Auf der Phänomen-Folie zu IRI-Zahlen wird 313 − 131 gerechnet. Welches Ergebnis ergibt sich?",
-  "answer": 182,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "313 − 131 = 182 (dies ist 2·91). 📄 Quelle: ari23_vl11, Folie 26 (S.26)",
-  "source": "ari23_vl11, Folie 26 (S.26, Definition – Satz – Beweis)"
- },
- {
-  "id": "ari23_vl11-b2-006",
-  "topic": "ari23_vl11_iri_zahlen",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Auf der Phänomen-Folie zu IRI-Zahlen wird 414 − 141 gerechnet. Welches Ergebnis ergibt sich?",
-  "answer": 273,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "414 − 141 = 273 (dies ist 3·91). 📄 Quelle: ari23_vl11, Folie 26 (S.26)",
-  "source": "ari23_vl11, Folie 26 (S.26, Definition – Satz – Beweis)"
- },
- {
-  "id": "ari23_vl11-b2-007",
-  "topic": "ari23_vl11_iri_zahlen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Wann heißt eine dreistellige natürliche Zahl n laut Definition eine IRI-Zahl?",
-  "options": [
-   "Die äußeren beiden Ziffern sind gleich.",
-   "Die mittlere Ziffer ist ungleich den beiden äußeren Ziffern.",
-   "Alle Ziffern sind ungleich 0.",
-   "Die mittlere Ziffer ist gleich den beiden äußeren Ziffern."
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Eine dreistellige natürliche Zahl n heißt IRI-Zahl, wenn die äußeren beiden Ziffern gleich, die mittlere Ziffer ungleich den beiden äußeren und alle Ziffern ungleich 0 sind. 📄 Quelle: ari23_vl11, Folie 28 (S.28)",
-  "source": "ari23_vl11, Folie 28 (S.28, Definition – Satz – Beweis)"
- },
- {
-  "id": "ari23_vl11-b2-008",
-  "topic": "ari23_vl11_iri_zahlen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Wie ist laut Definition die Gegenzahl m einer IRI-Zahl festgelegt?",
-  "options": [
-   "Die beiden äußeren Ziffern von m sind gleich R (ungleich 0).",
-   "Die innere Ziffer von m ist gleich I (ungleich 0).",
-   "m hat die Ziffernfolge R I R.",
-   "m hat dieselbe Ziffernfolge wie die IRI-Zahl selbst."
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Die Gegenzahl m einer IRI-Zahl hat die äußeren beiden Ziffern gleich R (ungleich 0) und die innere Ziffer gleich I (ungleich 0), also die Ziffernfolge R I R. 📄 Quelle: ari23_vl11, Folie 28 (S.28)",
-  "source": "ari23_vl11, Folie 28 (S.28, Definition – Satz – Beweis)"
- },
- {
-  "id": "ari23_vl11-b2-009",
-  "topic": "ari23_vl11_iri_zahlen",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Was besagt der Satz über eine IRI-Zahl n und ihre Gegenzahl m?",
-  "options": [
-   "n ≡ m mod 91, d.h. 91 teilt die Differenz n − m.",
-   "n ≡ m mod 9, d.h. 9 teilt die Differenz n − m.",
-   "n − m ist stets eine Primzahl.",
-   "n und m sind stets gleich."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Der Satz besagt: Ist n eine IRI-Zahl und m ihre Gegenzahl, dann gilt n ≡ m mod 91, d.h. 91 teilt die Differenz n − m. 📄 Quelle: ari23_vl11, Folie 29 (S.29)",
-  "source": "ari23_vl11, Folie 29 (S.29, Definition – Satz – Beweis)"
- },
- {
-  "id": "ari23_vl11-b2-010",
-  "topic": "ari23_vl11_iri_zahlen",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Die Differenzen von IRI-Zahlen und ihren Gegenzahlen bilden die 91er-Reihe. Als welches Vielfache von 91 lässt sich 273 schreiben (273 = k·91, k = ?)",
-  "answer": 3,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "273 = 3·91, die Differenzen bilden die 91er-Reihe (182 = 2·91, 273 = 3·91, 364 = 4·91). 📄 Quelle: ari23_vl11, Folie 29 (S.29)",
-  "source": "ari23_vl11, Folie 29 (S.29, Definition – Satz – Beweis)"
- },
- {
-  "id": "ari23_vl11-b2-011",
-  "topic": "ari23_vl11_iri_zahlen",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Im Beweis wird n − m = (I − R)·(100 − 10 + 1) berechnet. Welchen Wert hat der Faktor 100 − 10 + 1?",
-  "answer": 91,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "100 − 10 + 1 = 91, daher gilt n − m = (I − R)·91. 📄 Quelle: ari23_vl11, Folie 31 (S.31)",
-  "source": "ari23_vl11, Folie 31 (S.31, Definition – Satz – Beweis)"
- },
- {
-  "id": "ari23_vl11-b2-012",
-  "topic": "ari23_vl11_iri_zahlen",
-  "difficulty": 3,
-  "type": "multi",
-  "question": "Mit n = I·10² + R·10¹ + I·10⁰ und m = R·10² + I·10¹ + R·10⁰: Welche Darstellungen der Differenz n − m ergeben sich laut Beweis?",
-  "options": [
-   "n − m = (I − R)·91",
-   "n − m = (I − R)·(100 − 10 + 1)",
-   "n − m = (I − R)·(100 + 10 + 1)",
-   "n − m = (I − R)·9"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Der Beweis liefert n − m = (I − R)·10² + (R − I)·10¹ + (I − R)·10⁰ = (I − R)·(100 − 10 + 1) = (I − R)·91. 📄 Quelle: ari23_vl11, Folie 31 (S.31)",
-  "source": "ari23_vl11, Folie 31 (S.31, Definition – Satz – Beweis)"
- },
- {
-  "id": "ari23_vl11-b2-013",
-  "topic": "ari23_vl11_mirim_zahlen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Wann heißt eine fünfstellige natürliche Zahl n laut Definition eine MIRIM-Zahl?",
-  "options": [
-   "Die äußeren beiden Ziffern sind gleich.",
-   "Die zweite und die vierte Ziffer sind gleich.",
-   "Alle Ziffern sind ungleich 0.",
-   "Alle fünf Ziffern sind paarweise verschieden."
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Eine fünfstellige natürliche Zahl n heißt MIRIM-Zahl, wenn die äußeren beiden Ziffern sowie die zweite und vierte Ziffer paarweise gleich und alle Ziffern ungleich 0 sind. 📄 Quelle: ari23_vl11, Folie 33 (S.33)",
-  "source": "ari23_vl11, Folie 33 (S.33, Definition – Satz – Beweis)"
- },
- {
-  "id": "ari23_vl11-b2-014",
-  "topic": "ari23_vl11_mirim_zahlen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Ziffernfolgen haben die drei Gegenzahlen einer MIRIM-Zahl laut Definition?",
-  "options": [
-   "Gegenzahl 1: R I M I R",
-   "Gegenzahl 2: I M R M I",
-   "Gegenzahl 3: M R I R M",
-   "Gegenzahl 3: I R M R I"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Gegenzahl 1 hat die Folge RIMIR, Gegenzahl 2 die Folge IMRMI und Gegenzahl 3 die Folge MRIRM. 📄 Quelle: ari23_vl11, Folie 33 (S.33)",
-  "source": "ari23_vl11, Folie 33 (S.33, Definition – Satz – Beweis)"
- },
- {
-  "id": "ari23_vl11-b2-015",
-  "topic": "ari23_vl11_mirim_zahlen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Zu welchem Modul ist eine MIRIM-Zahl n laut Satz kongruent zu ihrer jeweiligen Gegenzahl?",
-  "options": [
-   "Zu Gegenzahl 1 (RIMIR): mod 9901",
-   "Zu Gegenzahl 2 (IMRMI): mod 8991",
-   "Zu Gegenzahl 3 (MRIRM): mod 910",
-   "Zu Gegenzahl 1 (RIMIR): mod 91"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Laut Satz gilt n ≡ m1 mod 9901, n ≡ m2 mod 8991 und n ≡ m3 mod 910. 📄 Quelle: ari23_vl11, Folie 34 (S.34)",
-  "source": "ari23_vl11, Folie 34 (S.34, Definition – Satz – Beweis)"
- },
- {
-  "id": "ari23_vl11-b2-016",
-  "topic": "ari23_vl11_mirim_zahlen",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Zu welchem Modul ist eine MIRIM-Zahl n laut Satz kongruent zu ihrer Gegenzahl 1 (RIMIR)?",
-  "answer": 9901,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Es gilt n ≡ m1 mod 9901; anders gesagt teilt 9901 die Differenz n − m1. 📄 Quelle: ari23_vl11, Folie 34 (S.34)",
-  "source": "ari23_vl11, Folie 34 (S.34, Definition – Satz – Beweis)"
- },
- {
-  "id": "ari23_vl11-b2-017",
-  "topic": "ari23_vl11_mirim_zahlen",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Im Beweis zur Gegenzahl 1 (RIMIR) wird n − m = (M − R)·(10000 − 100 + 1) berechnet. Welchen Wert hat 10000 − 100 + 1?",
-  "answer": 9901,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "10000 − 100 + 1 = 9901, daher gilt n − m = (M − R)·9901. 📄 Quelle: ari23_vl11, Folie 35 (S.35)",
-  "source": "ari23_vl11, Folie 35 (S.35, Definition – Satz – Beweis)"
- },
- {
-  "id": "ari23_vl11-b2-018",
-  "topic": "ari23_vl11_mirim_zahlen",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Welche Darstellung ergibt der Beweis für die Differenz n − m einer MIRIM-Zahl und ihrer Gegenzahl 1 (RIMIR)?",
-  "options": [
-   "n − m = (M − R)·9901",
-   "n − m = (M − R)·8991",
-   "n − m = (M − R)·910",
-   "n − m = (M − R)·91"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Der Beweis liefert n − m = (M − R)·(10000 − 100 + 1) = (M − R)·9901. 📄 Quelle: ari23_vl11, Folie 35 (S.35)",
-  "source": "ari23_vl11, Folie 35 (S.35, Definition – Satz – Beweis)"
- },
- {
-  "id": "ari23_vl11-b2-019",
-  "topic": "ari23_vl11_mirim_zahlen",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Im Beweis zur Gegenzahl 2 (IMRMI) wird n − m = (M − I)·(10000 − 1000 − 10 + 1) berechnet. Welchen Wert hat 10000 − 1000 − 10 + 1?",
-  "answer": 8991,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "10000 − 1000 − 10 + 1 = 8991, daher gilt n − m = (M − I)·8991. 📄 Quelle: ari23_vl11, Folie 36 (S.36)",
-  "source": "ari23_vl11, Folie 36 (S.36, Definition – Satz – Beweis)"
- },
- {
-  "id": "ari23_vl11-b2-020",
-  "topic": "ari23_vl11_mirim_zahlen",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Welche Darstellung ergibt der Beweis für die Differenz n − m einer MIRIM-Zahl und ihrer Gegenzahl 2 (IMRMI)?",
-  "options": [
-   "n − m = (M − I)·8991",
-   "n − m = (M − I)·9901",
-   "n − m = (M − I)·910",
-   "n − m = (I − R)·910"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Der Beweis liefert n − m = (M − I)·(10000 − 1000 − 10 + 1) = (M − I)·8991. 📄 Quelle: ari23_vl11, Folie 36 (S.36)",
-  "source": "ari23_vl11, Folie 36 (S.36, Definition – Satz – Beweis)"
- },
- {
-  "id": "ari23_vl11-b2-021",
-  "topic": "ari23_vl11_mirim_zahlen",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Im Beweis zur Gegenzahl 3 (MRIRM) wird n − m = (I − R)·(1000 − 100 + 10) berechnet. Welchen Wert hat 1000 − 100 + 10?",
-  "answer": 910,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "1000 − 100 + 10 = 910, daher gilt n − m = (I − R)·910. 📄 Quelle: ari23_vl11, Folie 37 (S.37)",
-  "source": "ari23_vl11, Folie 37 (S.37, Definition – Satz – Beweis)"
- },
- {
-  "id": "ari23_vl11-b2-022",
-  "topic": "ari23_vl11_mirim_zahlen",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Welche Darstellung ergibt der Beweis für die Differenz n − m einer MIRIM-Zahl und ihrer Gegenzahl 3 (MRIRM)?",
-  "options": [
-   "n − m = (I − R)·910",
-   "n − m = (M − R)·9901",
-   "n − m = (M − I)·8991",
-   "n − m = (I − R)·91"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Der Beweis liefert n − m = (I − R)·(1000 − 100 + 10) = (I − R)·910. 📄 Quelle: ari23_vl11, Folie 37 (S.37)",
-  "source": "ari23_vl11, Folie 37 (S.37, Definition – Satz – Beweis)"
- },
- {
-  "id": "ari23_vl11-b2-023",
-  "topic": "ari23_vl11_portfolio",
-  "difficulty": 1,
-  "type": "multi",
-  "question": "Was gilt laut Folie für das Portfolio (Studienleistung)?",
-  "options": [
-   "Es umfasst alle 10 Erkundungen mit ihren Erarbeitungen und den Reflektionen.",
-   "Die Abgabe erfolgt in digitaler Form (ggf. pdf-Scan) in Moodle.",
-   "Abgabefrist ist Dienstag, der 27.06.2022, 9:00 Uhr.",
-   "Die Abgabe erfolgt handschriftlich auf Papier im Sekretariat."
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Das Portfolio umfasst alle 10 Erkundungen mit Erarbeitungen und Reflektionen; die Abgabe erfolgt in digitaler Form (ggf. pdf-Scan) in Moodle bis Dienstag, den 27.06.2022, 9:00 Uhr. 📄 Quelle: ari23_vl11, Folie 42 (S.42)",
-  "source": "ari23_vl11, Folie 42 (S.42, Portfolio – Studienleistung)"
- }
+  {
+    "id": "ari23_vl11-b1-001",
+    "topic": "ari23_vl11_restklassen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Wie werden die Restklassen beim Teilen durch 3 beschrieben?",
+    "options": [
+      "0̄ = {n∈ℕ | n = 3k, k∈ℕ₀}",
+      "1̄ = {n∈ℕ | n = 3k+1, k∈ℕ₀}",
+      "2̄ = {n∈ℕ | n = 3k+2, k∈ℕ₀}",
+      "2̄ = {n∈ℕ | n = 3k+3, k∈ℕ₀}"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Die Folie gibt 0̄={0,3,6,...}=​{n∈ℕ|n=3k}, 1̄={1,4,7,...}=​{n∈ℕ|n=3k+1} und 2̄={2,5,8,...}=​{n∈ℕ|n=3k+2}, jeweils mit k∈ℕ₀. 📄 Quelle: ari23_vl11, Folie 4 (S.4)",
+    "source": "ari23_vl11, Folie 4 (S.4, Rückblick)"
+  },
+  {
+    "id": "ari23_vl11-b1-002",
+    "topic": "ari23_vl11_restklassen",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Warum ist die Verknüpfung „n + n\" in der Additionstafel der durch 3 teilbaren (t) und nicht teilbaren (n) Zahlen mathematisch ungewollt?",
+    "options": [
+      "Weil sie nicht „wohldefiniert\" ist, da zwei Ergebnisse (n oder t) herauskommen können",
+      "Weil man t und n grundsätzlich nicht addieren darf",
+      "Weil das Ergebnis von n + n immer t ergibt",
+      "Weil natürliche Zahlen nicht durch 3 teilbar sein können"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Auf der Folie ist n+n als „n/t\" eingekreist; das ist mathematisch ungewollt, weil es nicht „wohldefiniert\" ist – es können zwei Ergebnisse herauskommen. 📄 Quelle: ari23_vl11, Folie 4 (S.4)",
+    "source": "ari23_vl11, Folie 4 (S.4, Rückblick)"
+  },
+  {
+    "id": "ari23_vl11-b1-003",
+    "topic": "ari23_vl11_restklassen",
+    "difficulty": 1,
+    "type": "multi",
+    "question": "Welche Ergebnisse zeigt die Multiplikationstafel (·) für durch 3 teilbare (t) und nicht teilbare (n) Zahlen?",
+    "options": [
+      "t · t = t",
+      "t · n = t",
+      "n · n = n",
+      "n · n = t"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Die Multiplikationstafel liefert t·t=t, t·n=t, n·t=t und n·n=n; nur n·n=n ist korrekt (nicht t). 📄 Quelle: ari23_vl11, Folie 4 (S.4)",
+    "source": "ari23_vl11, Folie 4 (S.4, Rückblick)"
+  },
+  {
+    "id": "ari23_vl11-b1-004",
+    "topic": "ari23_vl11_rechnen_reste",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Nach der formalen Rechnung (3k₁+2)·(3k₂+1) = 3(3k₁k₂+k₁+2k₂)+2: In welcher Restklasse mod 3 liegt das Produkt? Gib den Repräsentanten (0, 1 oder 2) an.",
+    "answer": 2,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Das Umformen ergibt 3·(...)+2, also den Rest 2 beim Teilen durch 3 – die Restklasse 2̄. 📄 Quelle: ari23_vl11, Folie 5 (S.5)",
+    "source": "ari23_vl11, Folie 5 (S.5, Rückblick)"
+  },
+  {
+    "id": "ari23_vl11-b1-005",
+    "topic": "ari23_vl11_rechnen_reste",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Auf welche Arten kann man Addition und Multiplikation von Restklassen begründen bzw. darstellen?",
+    "options": [
+      "formal begründen (algebraische Darstellung mit Variablen für beliebige natürliche Zahlen)",
+      "ikonisch begründen (figurierte Zahlen)",
+      "in Verknüpfungstafeln darstellen",
+      "durch Abmessen am Zahlenstrahl"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Die Folie nennt drei Zugänge: formal (algebraisch mit Variablen), ikonisch (figurierte Zahlen) und die Darstellung in Verknüpfungstafeln. 📄 Quelle: ari23_vl11, Folie 5 (S.5)",
+    "source": "ari23_vl11, Folie 5 (S.5, Rückblick)"
+  },
+  {
+    "id": "ari23_vl11-b1-006",
+    "topic": "ari23_vl11_rechnen_reste",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Einträge hat die Multiplikations-Verknüpfungstafel der durch 3 teilbaren (t) und nicht teilbaren (n) Zahlen? Hinweis: t und n stehen für die Restklassen mod 3.",
+    "options": [
+      "2̄ · 2̄ = 1̄",
+      "2̄ · 1̄ = 2̄",
+      "0̄ · 2̄ = 0̄",
+      "2̄ · 2̄ = 0̄"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "In der Tafel gilt 2̄·2̄=1̄ (hervorgehoben), 2̄·1̄=2̄ und 0̄·2̄=0̄; 2̄·2̄=0̄ ist falsch. 📄 Quelle: ari23_vl11, Folie 5 (S.5)",
+    "source": "ari23_vl11, Folie 5 (S.5, Rückblick)"
+  },
+  {
+    "id": "ari23_vl11-b1-007",
+    "topic": "ari23_vl11_restklassen",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Wie viele Restklassen gibt es beim Teilen durch 7?",
+    "answer": 7,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Es gibt 7 Restklassen: 0̄, 1̄, 2̄, 3̄, 4̄, 5̄, 6̄. 📄 Quelle: ari23_vl11, Folie 6 (S.6)",
+    "source": "ari23_vl11, Folie 6 (S.6, Rückblick)"
+  },
+  {
+    "id": "ari23_vl11-b1-008",
+    "topic": "ari23_vl11_restklassen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Elemente gehören laut Lösung zu den Restklassen beim Teilen durch 7?",
+    "options": [
+      "0̄ = {0, 7, 14, ...}",
+      "1̄ = {1, 8, 15, ...}",
+      "0̄ = {0, 1, 2, ...}",
+      "1̄ = {1, 7, 14, ...}"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Die handschriftliche Lösung notiert 0̄={0,7,14,...} und 1̄={1,8,15,...}. 📄 Quelle: ari23_vl11, Folie 6 (S.6)",
+    "source": "ari23_vl11, Folie 6 (S.6, Rückblick)"
+  },
+  {
+    "id": "ari23_vl11-b1-009",
+    "topic": "ari23_vl11_rechnen_reste",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Zwei Zahlen lassen beim Teilen durch 11 den Rest 7 bzw. den Rest 4. In welcher Restklasse mod 11 liegt ihre Summe? Gib den Repräsentanten an.",
+    "answer": 0,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "(11k₁+7)+(11k₂+4) = 11·(k₁+k₂+1) + 0, also 7̄ ⊕ 4̄ = 0̄ mod 11. 📄 Quelle: ari23_vl11, Folie 7 (S.7)",
+    "source": "ari23_vl11, Folie 7 (S.7, Rückblick)"
+  },
+  {
+    "id": "ari23_vl11-b1-010",
+    "topic": "ari23_vl11_rechnen_reste",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Zwei Zahlen lassen beim Teilen durch 11 den Rest 7 bzw. den Rest 4. In welcher Restklasse mod 11 liegt ihr Produkt? Gib den Repräsentanten an.",
+    "answer": 6,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Das Produkt liefert als Restanteil 7·4 = 28 = 2·11 + 6, also 7̄ ⊙ 4̄ = 6̄ mod 11. 📄 Quelle: ari23_vl11, Folie 7 (S.7)",
+    "source": "ari23_vl11, Folie 7 (S.7, Rückblick)"
+  },
+  {
+    "id": "ari23_vl11-b1-011",
+    "topic": "ari23_vl11_rechnen_reste",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Was ergibt sich für Zahlen der Form 11k₁+7 und 11k₂+4 (Rest 7 bzw. Rest 4 beim Teilen durch 11)?",
+    "options": [
+      "Die Summe liegt in der Restklasse 0̄ (mod 11)",
+      "Das Produkt liegt in der Restklasse 6̄ (mod 11)",
+      "Die Summe liegt in der Restklasse 11̄ (mod 11)",
+      "Das Produkt liegt in der Restklasse 3̄ (mod 11)"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Summe: 11·(k₁+k₂+1)+0 → 0̄; Produkt: Restanteil 7·4=28=2·11+6 → 6̄. 📄 Quelle: ari23_vl11, Folie 7 (S.7)",
+    "source": "ari23_vl11, Folie 7 (S.7, Rückblick)"
+  },
+  {
+    "id": "ari23_vl11-b1-012",
+    "topic": "ari23_vl11_kongruenz",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Wann heißen zwei natürliche Zahlen a und b „kongruent modulo m\" (m ebenfalls natürliche Zahl)?",
+    "options": [
+      "Wenn a und b beim Teilen durch m den gleichen Rest lassen",
+      "Wenn a und b beide durch m teilbar sind",
+      "Wenn a + b durch m teilbar ist",
+      "Wenn a und b beim Teilen durch m den gleichen Quotienten haben"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Definition: a und b heißen kongruent modulo m, wenn sie beim Teilen durch m den gleichen Rest lassen. 📄 Quelle: ari23_vl11, Folie 9 (S.9)",
+    "source": "ari23_vl11, Folie 9 (S.9, Rechnen mit Resten: systematisch)"
+  },
+  {
+    "id": "ari23_vl11-b1-013",
+    "topic": "ari23_vl11_kongruenz",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Welche Schreibweise gibt es für die Kongruenz von a und b modulo m?",
+    "options": [
+      "a ≡ b mod m",
+      "a = b · m",
+      "a | b mod m",
+      "a ≈ b (m)"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie gibt die Schreibweise a ≡ b mod m an. 📄 Quelle: ari23_vl11, Folie 9 (S.9)",
+    "source": "ari23_vl11, Folie 9 (S.9, Rechnen mit Resten: systematisch)"
+  },
+  {
+    "id": "ari23_vl11-b1-014",
+    "topic": "ari23_vl11_saetze",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aussagen zum Satz „Wenn a ≡ b mod m, dann m | (a−b)\" sind korrekt?",
+    "options": [
+      "Voraussetzung: a, b, m sind natürliche Zahlen mit a ≥ b",
+      "Wenn a ≡ b mod m gilt, dann gilt m | (a−b)",
+      "In der Herleitung gilt (a−b) = (q₁ − q₂)·m",
+      "Aus a ≡ b mod m folgt (a−b) | m"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Der Satz gilt für natürliche Zahlen a, b, m mit a ≥ b: aus a ≡ b mod m folgt m|(a−b), da (a−b)=(q₁−q₂)·m. Die Teilbarkeit ist m|(a−b), nicht (a−b)|m. 📄 Quelle: ari23_vl11, Folie 10 (S.10)",
+    "source": "ari23_vl11, Folie 10 (S.10, Rechnen mit Resten: systematisch)"
+  },
+  {
+    "id": "ari23_vl11-b1-015",
+    "topic": "ari23_vl11_saetze",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Was ist die Kernidee des Beweises, dass aus a ≡ b mod m folgt m | (a−b)?",
+    "options": [
+      "Die gleichen Reste r heben sich weg, sodass (a−b) = (q₁−q₂)·m ein Vielfaches von m ist",
+      "a und b sind beide durch m teilbar",
+      "Es gilt r₁ − r₂ = m",
+      "Es gilt q₁ = q₂"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Da a und b denselben Rest r haben, ist (a−b)=q₁·m+r−(q₂·m+r)=(q₁−q₂)·m, also ein Vielfaches von m. 📄 Quelle: ari23_vl11, Folie 10 (S.10)",
+    "source": "ari23_vl11, Folie 10 (S.10, Rechnen mit Resten: systematisch)"
+  },
+  {
+    "id": "ari23_vl11-b1-016",
+    "topic": "ari23_vl11_saetze",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Voraussetzungen nennt der Satz zur Addition/Subtraktion von Kongruenzen (a ± c ≡ b ± d mod m)?",
+    "options": [
+      "a, b, c, d, m sind natürliche Zahlen",
+      "a > c und b > d",
+      "a ≡ b mod m und c ≡ d mod m",
+      "a = b und c = d"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Der Satz gilt für natürliche Zahlen a, b, c, d, m mit a > c und b > d, wenn a ≡ b mod m und c ≡ d mod m gilt. 📄 Quelle: ari23_vl11, Folie 11 (S.11)",
+    "source": "ari23_vl11, Folie 11 (S.11, Rechnen mit Resten: systematisch)"
+  },
+  {
+    "id": "ari23_vl11-b1-017",
+    "topic": "ari23_vl11_saetze",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welche Schlussfolgerung zieht der Satz zur Addition/Subtraktion von Kongruenzen bei a ≡ b mod m und c ≡ d mod m?",
+    "options": [
+      "a ± c ≡ b ± d mod m",
+      "a · c ≡ b · d mod m",
+      "a ± c ≡ b ∓ d mod m",
+      "a ± c ≡ b + d mod m"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Dann gilt a ± c ≡ b ± d mod m. 📄 Quelle: ari23_vl11, Folie 11 (S.11)",
+    "source": "ari23_vl11, Folie 11 (S.11, Rechnen mit Resten: systematisch)"
+  },
+  {
+    "id": "ari23_vl11-b1-018",
+    "topic": "ari23_vl11_saetze",
+    "difficulty": 3,
+    "type": "single",
+    "question": "Was gilt in der Herleitung zur Addition/Subtraktion von Kongruenzen für den Rest (r₁ − r₂)?",
+    "options": [
+      "Er ist in beiden Fällen gleich und kann auch negativ sein",
+      "Er ist immer positiv",
+      "Er ist immer 0",
+      "Er ist gleich m"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Für (a−c) und (b−d) ergibt sich derselbe Rest (r₁ − r₂), der auch negativ sein kann. 📄 Quelle: ari23_vl11, Folie 11 (S.11)",
+    "source": "ari23_vl11, Folie 11 (S.11, Rechnen mit Resten: systematisch)"
+  },
+  {
+    "id": "ari23_vl11-b1-019",
+    "topic": "ari23_vl11_saetze",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welche Aussage macht der Multiplikationssatz für Kongruenzen?",
+    "options": [
+      "Wenn a ≡ b mod m und c ≡ d mod m, dann a·c ≡ b·d mod m",
+      "Wenn a ≡ b mod m und c ≡ d mod m, dann a+c ≡ b+d mod m",
+      "Wenn a ≡ b mod m, dann a·c ≡ b mod m",
+      "Wenn a·c ≡ b·d mod m, dann a ≡ b mod m"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Für a > c und b > d gilt: aus a ≡ b mod m und c ≡ d mod m folgt a·c ≡ b·d mod m. 📄 Quelle: ari23_vl11, Folie 12 (S.12)",
+    "source": "ari23_vl11, Folie 12 (S.12, Rechnen mit Resten: systematisch)"
+  },
+  {
+    "id": "ari23_vl11-b1-020",
+    "topic": "ari23_vl11_saetze",
+    "difficulty": 3,
+    "type": "multi",
+    "question": "Welche Schritte gehören zum Beweis von a·c ≡ b·d mod m?",
+    "options": [
+      "Aus m | (a−b) folgt m | (a−b)·c (Teilbarkeit)",
+      "Aus m | (c−d) folgt m | (c−d)·b (Teilbarkeit)",
+      "Aus m | (a−b)·c + (c−d)·b folgt durch Umformen m | (ac − db)",
+      "Aus m | (a−b) folgt direkt a = b"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Der Beweis nutzt m|(a−b)·c und m|(c−d)·b, addiert und formt um zu m|(ac−bc+bc−db)=m|(ac−db). 📄 Quelle: ari23_vl11, Folie 12 (S.12)",
+    "source": "ari23_vl11, Folie 12 (S.12, Rechnen mit Resten: systematisch)"
+  },
+  {
+    "id": "ari23_vl11-b1-021",
+    "topic": "ari23_vl11_rechnen_reste",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Beispiel mod 7: 10 ≡ ? mod 7. Gib den kleinsten nichtnegativen Rest an.",
+    "answer": 3,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "10 = 1·7 + 3, also 10 ≡ 3 mod 7. 📄 Quelle: ari23_vl11, Folie 13 (S.13)",
+    "source": "ari23_vl11, Folie 13 (S.13, Rechnen mit Resten: systematisch)"
+  },
+  {
+    "id": "ari23_vl11-b1-022",
+    "topic": "ari23_vl11_rechnen_reste",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Es gilt 10·10 ≡ 3·3 mod 7. Zu welchem kleinsten nichtnegativen Rest mod 7 ist das kongruent?",
+    "answer": 2,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "3·3 = 9 = 1·7 + 2, also 10·10 ≡ 2 mod 7. 📄 Quelle: ari23_vl11, Folie 13 (S.13)",
+    "source": "ari23_vl11, Folie 13 (S.13, Rechnen mit Resten: systematisch)"
+  },
+  {
+    "id": "ari23_vl11-b1-023",
+    "topic": "ari23_vl11_rechnen_reste",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche der folgenden Kongruenzen mod 7 sind korrekt?",
+    "options": [
+      "100·10 ≡ 6 mod 7 ≡ −1 mod 7",
+      "100000·10 ≡ 1 mod 7",
+      "10000·10 ≡ −2 mod 7",
+      "10·10 ≡ 0 mod 7"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Die Folie zeigt u. a. 100·10 ≡ 6 ≡ −1, 10000·10 ≡ −2 und 100000·10 ≡ 1 (jeweils mod 7); 10·10 ≡ 2, nicht 0. 📄 Quelle: ari23_vl11, Folie 13 (S.13)",
+    "source": "ari23_vl11, Folie 13 (S.13, Rechnen mit Resten: systematisch)"
+  },
+  {
+    "id": "ari23_vl11-b1-024",
+    "topic": "ari23_vl11_restklassenring",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Was besagt die Definition von Z_m?",
+    "options": [
+      "Z_m = {0̄, 1̄, 2̄, 3̄, ..., (m−1)‾} ist die Menge der Restklassen beim Teilen durch m",
+      "x̄ + ȳ := (x+y)‾, wobei (x+y)‾ die Restklasse beim Teilen von x+y durch m ist",
+      "x̄ · ȳ := (x·y)‾, wobei (x·y)‾ die Restklasse beim Teilen von x·y durch m ist",
+      "Z_m enthält unendlich viele Restklassen"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Z_m ist die (endliche) Menge {0̄,...,(m−1)‾} der Restklassen mod m; Addition und Multiplikation sind über die Restklassen der Repräsentantensummen bzw. -produkte definiert. 📄 Quelle: ari23_vl11, Folie 15 (S.15)",
+    "source": "ari23_vl11, Folie 15 (S.15, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl11-b1-025",
+    "topic": "ari23_vl11_restklassenring",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Wie wird m in Z_m mit Addition und Multiplikation genannt?",
+    "options": [
+      "Modul",
+      "Rest",
+      "Repräsentant",
+      "Quotient"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "m heißt Modul der Menge Z_m mit der Addition und Multiplikation. 📄 Quelle: ari23_vl11, Folie 15 (S.15)",
+    "source": "ari23_vl11, Folie 15 (S.15, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl11-b1-026",
+    "topic": "ari23_vl11_restklassenring",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Was gilt für die „neue“ (neu definierte) Addition von Restklassen?",
+    "options": [
+      "Es ist eine neu definierte Addition von Restklassen, nicht die Addition natürlicher Zahlen",
+      "Sie wird teilweise durch ⊕ (bzw. ⊙) abgegrenzt",
+      "Es werden Mengen addiert, indem Repräsentanten der Mengen addiert werden",
+      "Sie ist identisch mit der Addition natürlicher Zahlen"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Die Folie grenzt die neu definierte Restklassen-Addition (⊕, ⊙) von der Addition natürlicher Zahlen ab; es werden Repräsentanten der Mengen addiert. 📄 Quelle: ari23_vl11, Folie 15 (S.15)",
+    "source": "ari23_vl11, Folie 15 (S.15, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl11-b1-027",
+    "topic": "ari23_vl11_restklassenring",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "In Z_5: 3̄ + 4̄ = ? Gib den Repräsentanten (0–4) an.",
+    "answer": 2,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "3 + 4 = 7 = 1·5 + 2, also 3̄ + 4̄ = 2̄ in Z_5. 📄 Quelle: ari23_vl11, Folie 17 (S.17)",
+    "source": "ari23_vl11, Folie 17 (S.17, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl11-b1-028",
+    "topic": "ari23_vl11_restklassenring",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "In Z_5: 2̄ · 3̄ = ? Gib den Repräsentanten (0–4) an.",
+    "answer": 1,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "2 · 3 = 6 = 1·5 + 1, also 2̄ · 3̄ = 1̄ in Z_5. 📄 Quelle: ari23_vl11, Folie 17 (S.17)",
+    "source": "ari23_vl11, Folie 17 (S.17, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl11-b1-029",
+    "topic": "ari23_vl11_restklassenring",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Einträge der Z_5-Tafeln (Addition und Multiplikation) sind korrekt?",
+    "options": [
+      "4̄ + 4̄ = 3̄",
+      "4̄ · 4̄ = 1̄",
+      "2̄ · 4̄ = 3̄",
+      "3̄ + 3̄ = 0̄"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "4+4=8≡3, 4·4=16≡1, 2·4=8≡3 (alle mod 5) sind korrekt; 3+3=6≡1, also nicht 0̄. 📄 Quelle: ari23_vl11, Folie 17 (S.17)",
+    "source": "ari23_vl11, Folie 17 (S.17, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl11-b1-030",
+    "topic": "ari23_vl11_erzeuger",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Was gilt für die Erzeugung der Restklassen in Z_5 durch Addition?",
+    "options": [
+      "Die 1̄ erzeugt die gesamte Menge der Restklassen",
+      "Die Restklassen kann man sich wie einen Zahlenkreis (nicht Zahlenstrahl) vorstellen",
+      "Die 3̄ (wie auch 2̄ und 4̄) erzeugt ebenfalls die gesamte Menge der Restklassen",
+      "Nur die 0̄ erzeugt die gesamte Menge der Restklassen"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Durch fortgesetzte Addition erzeugt 1̄ (und ebenso 2̄, 3̄, 4̄) alle Restklassen; man stellt sie sich als Zahlenkreis vor. 📄 Quelle: ari23_vl11, Folie 19 (S.19)",
+    "source": "ari23_vl11, Folie 19 (S.19, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl11-b1-031",
+    "topic": "ari23_vl11_erzeuger",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "In Z_5: 4̄ + 1̄ = ? Gib den Repräsentanten (0–4) an.",
+    "answer": 0,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "4 + 1 = 5 ≡ 0 mod 5, also 4̄ + 1̄ = 0̄. 📄 Quelle: ari23_vl11, Folie 19 (S.19)",
+    "source": "ari23_vl11, Folie 19 (S.19, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl11-b1-032",
+    "topic": "ari23_vl11_erzeuger",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Was gilt für die Erzeugung durch Multiplikation in Z_5?",
+    "options": [
+      "Die 2̄ erzeugt die gesamte Menge der Restklassen bis auf die 0̄",
+      "Das Gleiche gilt für die 3̄",
+      "Für die 1̄ und die 4̄ gilt das nicht",
+      "Die 4̄ erzeugt alle Restklassen außer 0̄"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Durch fortgesetzte Multiplikation erzeugt 2̄ (und ebenso 3̄) alle Restklassen außer 0̄; für 1̄ und 4̄ gilt das nicht. 📄 Quelle: ari23_vl11, Folie 20 (S.20)",
+    "source": "ari23_vl11, Folie 20 (S.20, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl11-b1-033",
+    "topic": "ari23_vl11_erzeuger",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "In Z_5: 3̄ · 2̄ = ? Gib den Repräsentanten (0–4) an.",
+    "answer": 1,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "3 · 2 = 6 = 1·5 + 1, also 3̄ · 2̄ = 1̄ in Z_5. 📄 Quelle: ari23_vl11, Folie 20 (S.20)",
+    "source": "ari23_vl11, Folie 20 (S.20, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl11-b1-034",
+    "topic": "ari23_vl11_erzeuger",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welchen Unterschied zwischen Z_5 und Z_6 gibt es hinsichtlich erzeugender Restklassen?",
+    "options": [
+      "Bei Z_5 erzeugen alle Restklassen (außer 0̄) die anderen Restklassen",
+      "Bei Z_6 erzeugt keine Restklasse alle Restklassen (außer 1̄)",
+      "Bei Z_6 erzeugt jede Restklasse alle anderen Restklassen",
+      "Bei Z_5 erzeugt nur die 0̄ alle Restklassen"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Bei Z_5 erzeugen alle Restklassen außer 0̄ die anderen; bei Z_6 erzeugt keine Restklasse (außer 1̄) alle Restklassen. 📄 Quelle: ari23_vl11, Folie 21 (S.21)",
+    "source": "ari23_vl11, Folie 21 (S.21, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl11-b1-035",
+    "topic": "ari23_vl11_restklassenring",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "In Z_6: 3̄ · 2̄ = ? Gib den Repräsentanten (0–5) an.",
+    "answer": 0,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "3 · 2 = 6 ≡ 0 mod 6, also 3̄ · 2̄ = 0̄ in Z_6. 📄 Quelle: ari23_vl11, Folie 21 (S.21)",
+    "source": "ari23_vl11, Folie 21 (S.21, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl11-b1-036",
+    "topic": "ari23_vl11_restklassenring",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "In Z_6: 4̄ · 5̄ = ? Gib den Repräsentanten (0–5) an.",
+    "answer": 2,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "4 · 5 = 20 = 3·6 + 2, also 4̄ · 5̄ = 2̄ in Z_6. 📄 Quelle: ari23_vl11, Folie 21 (S.21)",
+    "source": "ari23_vl11, Folie 21 (S.21, Erkundung II)"
+  },
+  {
+    "id": "ari23_vl11-b2-001",
+    "topic": "ari23_vl11_restklassen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aussagen über erzeugende Elemente bezüglich der Multiplikation treffen zu?",
+    "options": [
+      "In Z5 erzeugen alle Restklassen außer 0̄ die anderen Restklassen.",
+      "In Z6 erzeugt keine Restklasse alle Restklassen (außer 1̄).",
+      "In Z7 erzeugen nur 3̄ und 5̄ die Restklassen (außer 0̄).",
+      "In Z7 erzeugt jede Restklasse außer 0̄ alle übrigen Restklassen."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Laut Folie erzeugen bei Z5 alle Restklassen außer 0̄ die anderen, bei Z6 erzeugt keine (außer 1̄) alle Restklassen, und bei Z7 erzeugen nur 3̄ und 5̄ (außer 0̄). 📄 Quelle: ari23_vl11, Folie 22 (S.22)",
+    "source": "ari23_vl11, Folie 22 (S.22, Restklassen systematisch)"
+  },
+  {
+    "id": "ari23_vl11-b2-002",
+    "topic": "ari23_vl11_restklassen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aussagen entsprechen der Hypothese bzw. Beobachtung zu Restklassen und erzeugenden Elementen?",
+    "options": [
+      "Erzeugt man Restklassen zu Primzahlen, findet man auch zur Multiplikation erzeugende Elemente.",
+      "Bei zusammengesetzten Zahlen findet man dagegen keine multiplikativ erzeugenden Elemente.",
+      "Hinsichtlich der Addition ist zumindest 1̄ stets ein erzeugendes Element.",
+      "Hinsichtlich der Addition gibt es nie ein erzeugendes Element."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Die Hypothese lautet: Zu Primzahlen findet man zur Multiplikation erzeugende Elemente, zu zusammengesetzten Zahlen nicht; hinsichtlich der Addition ist zumindest 1̄ stets erzeugend. 📄 Quelle: ari23_vl11, Folie 22 (S.22)",
+    "source": "ari23_vl11, Folie 22 (S.22, Restklassen systematisch)"
+  },
+  {
+    "id": "ari23_vl11-b2-003",
+    "topic": "ari23_vl11_restklassen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Eigenschaften haben Restklassenmengen?",
+    "options": [
+      "Sie sind bezüglich + und · kommutativ und assoziativ.",
+      "Sie haben ein (neutrales) Element ē mit ā+ē=ē+ā=ā.",
+      "Sie haben zu jedem Element ein inverses Element ā^(-1) mit ā+ā^(-1)=ē.",
+      "Sie sind bezüglich + und · weder kommutativ noch assoziativ."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Restklassenmengen sind zu + und · kommutativ und assoziativ, haben ein neutrales Element ē mit ā+ē=ē+ā=ā und zu jedem Element ein inverses Element ā^(-1) mit ā+ā^(-1)=ē. 📄 Quelle: ari23_vl11, Folie 23 (S.23)",
+    "source": "ari23_vl11, Folie 23 (S.23, Restklassen systematisch)"
+  },
+  {
+    "id": "ari23_vl11-b2-004",
+    "topic": "ari23_vl11_restklassen",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welche Gleichung beschreibt das neutrale Element ē einer Restklassenmenge?",
+    "options": [
+      "ā+ē=ē+ā=ā",
+      "ā+ē=0̄",
+      "ā·ē=0̄",
+      "ā+ā^(-1)=ā"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Das neutrale Element ē erfüllt ā+ē=ē+ā=ā; die Gleichung ā+ā^(-1)=ē beschreibt dagegen das inverse Element. 📄 Quelle: ari23_vl11, Folie 23 (S.23)",
+    "source": "ari23_vl11, Folie 23 (S.23, Restklassen systematisch)"
+  },
+  {
+    "id": "ari23_vl11-b2-005",
+    "topic": "ari23_vl11_iri_zahlen",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Für die IRI-Zahl 313 und ihre Gegenzahl 131 wird 313 − 131 gerechnet. Welches Ergebnis ergibt sich?",
+    "answer": 182,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "313 − 131 = 182 (dies ist 2·91). 📄 Quelle: ari23_vl11, Folie 26 (S.26)",
+    "source": "ari23_vl11, Folie 26 (S.26, Definition – Satz – Beweis)"
+  },
+  {
+    "id": "ari23_vl11-b2-006",
+    "topic": "ari23_vl11_iri_zahlen",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Für die IRI-Zahl 414 und ihre Gegenzahl 141 wird 414 − 141 gerechnet. Welches Ergebnis ergibt sich?",
+    "answer": 273,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "414 − 141 = 273 (dies ist 3·91). 📄 Quelle: ari23_vl11, Folie 26 (S.26)",
+    "source": "ari23_vl11, Folie 26 (S.26, Definition – Satz – Beweis)"
+  },
+  {
+    "id": "ari23_vl11-b2-007",
+    "topic": "ari23_vl11_iri_zahlen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Wann heißt eine dreistellige natürliche Zahl n laut Definition eine IRI-Zahl?",
+    "options": [
+      "Die äußeren beiden Ziffern sind gleich.",
+      "Die mittlere Ziffer ist ungleich den beiden äußeren Ziffern.",
+      "Alle Ziffern sind ungleich 0.",
+      "Die mittlere Ziffer ist gleich den beiden äußeren Ziffern."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Eine dreistellige natürliche Zahl n heißt IRI-Zahl, wenn die äußeren beiden Ziffern gleich, die mittlere Ziffer ungleich den beiden äußeren und alle Ziffern ungleich 0 sind. 📄 Quelle: ari23_vl11, Folie 28 (S.28)",
+    "source": "ari23_vl11, Folie 28 (S.28, Definition – Satz – Beweis)"
+  },
+  {
+    "id": "ari23_vl11-b2-008",
+    "topic": "ari23_vl11_iri_zahlen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Wie ist laut Definition die Gegenzahl m einer IRI-Zahl festgelegt?",
+    "options": [
+      "Die beiden äußeren Ziffern von m sind gleich R (ungleich 0).",
+      "Die innere Ziffer von m ist gleich I (ungleich 0).",
+      "m hat die Ziffernfolge R I R.",
+      "m hat dieselbe Ziffernfolge wie die IRI-Zahl selbst."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Die Gegenzahl m einer IRI-Zahl hat die äußeren beiden Ziffern gleich R (ungleich 0) und die innere Ziffer gleich I (ungleich 0), also die Ziffernfolge R I R. 📄 Quelle: ari23_vl11, Folie 28 (S.28)",
+    "source": "ari23_vl11, Folie 28 (S.28, Definition – Satz – Beweis)"
+  },
+  {
+    "id": "ari23_vl11-b2-009",
+    "topic": "ari23_vl11_iri_zahlen",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Was besagt der Satz über eine IRI-Zahl n und ihre Gegenzahl m?",
+    "options": [
+      "n ≡ m mod 91, d.h. 91 teilt die Differenz n − m.",
+      "n ≡ m mod 9, d.h. 9 teilt die Differenz n − m.",
+      "n − m ist stets eine Primzahl.",
+      "n und m sind stets gleich."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Der Satz besagt: Ist n eine IRI-Zahl und m ihre Gegenzahl, dann gilt n ≡ m mod 91, d.h. 91 teilt die Differenz n − m. 📄 Quelle: ari23_vl11, Folie 29 (S.29)",
+    "source": "ari23_vl11, Folie 29 (S.29, Definition – Satz – Beweis)"
+  },
+  {
+    "id": "ari23_vl11-b2-010",
+    "topic": "ari23_vl11_iri_zahlen",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Die Differenzen von IRI-Zahlen und ihren Gegenzahlen bilden die 91er-Reihe. Als welches Vielfache von 91 lässt sich 273 schreiben (273 = k·91, k = ?)",
+    "answer": 3,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "273 = 3·91, die Differenzen bilden die 91er-Reihe (182 = 2·91, 273 = 3·91, 364 = 4·91). 📄 Quelle: ari23_vl11, Folie 29 (S.29)",
+    "source": "ari23_vl11, Folie 29 (S.29, Definition – Satz – Beweis)"
+  },
+  {
+    "id": "ari23_vl11-b2-011",
+    "topic": "ari23_vl11_iri_zahlen",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Im Beweis wird n − m = (I − R)·(100 − 10 + 1) berechnet. Welchen Wert hat der Faktor 100 − 10 + 1?",
+    "answer": 91,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "100 − 10 + 1 = 91, daher gilt n − m = (I − R)·91. 📄 Quelle: ari23_vl11, Folie 31 (S.31)",
+    "source": "ari23_vl11, Folie 31 (S.31, Definition – Satz – Beweis)"
+  },
+  {
+    "id": "ari23_vl11-b2-012",
+    "topic": "ari23_vl11_iri_zahlen",
+    "difficulty": 3,
+    "type": "multi",
+    "question": "Mit n = I·10² + R·10¹ + I·10⁰ und m = R·10² + I·10¹ + R·10⁰: Welche Darstellungen der Differenz n − m ergeben sich laut Beweis?",
+    "options": [
+      "n − m = (I − R)·91",
+      "n − m = (I − R)·(100 − 10 + 1)",
+      "n − m = (I − R)·(100 + 10 + 1)",
+      "n − m = (I − R)·9"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Der Beweis liefert n − m = (I − R)·10² + (R − I)·10¹ + (I − R)·10⁰ = (I − R)·(100 − 10 + 1) = (I − R)·91. 📄 Quelle: ari23_vl11, Folie 31 (S.31)",
+    "source": "ari23_vl11, Folie 31 (S.31, Definition – Satz – Beweis)"
+  },
+  {
+    "id": "ari23_vl11-b2-013",
+    "topic": "ari23_vl11_mirim_zahlen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Wann heißt eine fünfstellige natürliche Zahl n laut Definition eine MIRIM-Zahl?",
+    "options": [
+      "Die äußeren beiden Ziffern sind gleich.",
+      "Die zweite und die vierte Ziffer sind gleich.",
+      "Alle Ziffern sind ungleich 0.",
+      "Alle fünf Ziffern sind paarweise verschieden."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Eine fünfstellige natürliche Zahl n heißt MIRIM-Zahl, wenn die äußeren beiden Ziffern sowie die zweite und vierte Ziffer paarweise gleich und alle Ziffern ungleich 0 sind. 📄 Quelle: ari23_vl11, Folie 33 (S.33)",
+    "source": "ari23_vl11, Folie 33 (S.33, Definition – Satz – Beweis)"
+  },
+  {
+    "id": "ari23_vl11-b2-014",
+    "topic": "ari23_vl11_mirim_zahlen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Ziffernfolgen haben die drei Gegenzahlen einer MIRIM-Zahl laut Definition?",
+    "options": [
+      "Gegenzahl 1: R I M I R",
+      "Gegenzahl 2: I M R M I",
+      "Gegenzahl 3: M R I R M",
+      "Gegenzahl 3: I R M R I"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Gegenzahl 1 hat die Folge RIMIR, Gegenzahl 2 die Folge IMRMI und Gegenzahl 3 die Folge MRIRM. 📄 Quelle: ari23_vl11, Folie 33 (S.33)",
+    "source": "ari23_vl11, Folie 33 (S.33, Definition – Satz – Beweis)"
+  },
+  {
+    "id": "ari23_vl11-b2-015",
+    "topic": "ari23_vl11_mirim_zahlen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Zu welchem Modul ist eine MIRIM-Zahl n laut Satz kongruent zu ihrer jeweiligen Gegenzahl?",
+    "options": [
+      "Zu Gegenzahl 1 (RIMIR): mod 9901",
+      "Zu Gegenzahl 2 (IMRMI): mod 8991",
+      "Zu Gegenzahl 3 (MRIRM): mod 910",
+      "Zu Gegenzahl 1 (RIMIR): mod 91"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Laut Satz gilt n ≡ m1 mod 9901, n ≡ m2 mod 8991 und n ≡ m3 mod 910. 📄 Quelle: ari23_vl11, Folie 34 (S.34)",
+    "source": "ari23_vl11, Folie 34 (S.34, Definition – Satz – Beweis)"
+  },
+  {
+    "id": "ari23_vl11-b2-016",
+    "topic": "ari23_vl11_mirim_zahlen",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Zu welchem Modul ist eine MIRIM-Zahl n laut Satz kongruent zu ihrer Gegenzahl 1 (RIMIR)?",
+    "answer": 9901,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Es gilt n ≡ m1 mod 9901; anders gesagt teilt 9901 die Differenz n − m1. 📄 Quelle: ari23_vl11, Folie 34 (S.34)",
+    "source": "ari23_vl11, Folie 34 (S.34, Definition – Satz – Beweis)"
+  },
+  {
+    "id": "ari23_vl11-b2-017",
+    "topic": "ari23_vl11_mirim_zahlen",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Im Beweis zur Gegenzahl 1 (RIMIR) wird n − m = (M − R)·(10000 − 100 + 1) berechnet. Welchen Wert hat 10000 − 100 + 1?",
+    "answer": 9901,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "10000 − 100 + 1 = 9901, daher gilt n − m = (M − R)·9901. 📄 Quelle: ari23_vl11, Folie 35 (S.35)",
+    "source": "ari23_vl11, Folie 35 (S.35, Definition – Satz – Beweis)"
+  },
+  {
+    "id": "ari23_vl11-b2-018",
+    "topic": "ari23_vl11_mirim_zahlen",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welche Darstellung ergibt der Beweis für die Differenz n − m einer MIRIM-Zahl und ihrer Gegenzahl 1 (RIMIR)?",
+    "options": [
+      "n − m = (M − R)·9901",
+      "n − m = (M − R)·8991",
+      "n − m = (M − R)·910",
+      "n − m = (M − R)·91"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Der Beweis liefert n − m = (M − R)·(10000 − 100 + 1) = (M − R)·9901. 📄 Quelle: ari23_vl11, Folie 35 (S.35)",
+    "source": "ari23_vl11, Folie 35 (S.35, Definition – Satz – Beweis)"
+  },
+  {
+    "id": "ari23_vl11-b2-019",
+    "topic": "ari23_vl11_mirim_zahlen",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Im Beweis zur Gegenzahl 2 (IMRMI) wird n − m = (M − I)·(10000 − 1000 − 10 + 1) berechnet. Welchen Wert hat 10000 − 1000 − 10 + 1?",
+    "answer": 8991,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "10000 − 1000 − 10 + 1 = 8991, daher gilt n − m = (M − I)·8991. 📄 Quelle: ari23_vl11, Folie 36 (S.36)",
+    "source": "ari23_vl11, Folie 36 (S.36, Definition – Satz – Beweis)"
+  },
+  {
+    "id": "ari23_vl11-b2-020",
+    "topic": "ari23_vl11_mirim_zahlen",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welche Darstellung ergibt der Beweis für die Differenz n − m einer MIRIM-Zahl und ihrer Gegenzahl 2 (IMRMI)?",
+    "options": [
+      "n − m = (M − I)·8991",
+      "n − m = (M − I)·9901",
+      "n − m = (M − I)·910",
+      "n − m = (I − R)·910"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Der Beweis liefert n − m = (M − I)·(10000 − 1000 − 10 + 1) = (M − I)·8991. 📄 Quelle: ari23_vl11, Folie 36 (S.36)",
+    "source": "ari23_vl11, Folie 36 (S.36, Definition – Satz – Beweis)"
+  },
+  {
+    "id": "ari23_vl11-b2-021",
+    "topic": "ari23_vl11_mirim_zahlen",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Im Beweis zur Gegenzahl 3 (MRIRM) wird n − m = (I − R)·(1000 − 100 + 10) berechnet. Welchen Wert hat 1000 − 100 + 10?",
+    "answer": 910,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "1000 − 100 + 10 = 910, daher gilt n − m = (I − R)·910. 📄 Quelle: ari23_vl11, Folie 37 (S.37)",
+    "source": "ari23_vl11, Folie 37 (S.37, Definition – Satz – Beweis)"
+  },
+  {
+    "id": "ari23_vl11-b2-022",
+    "topic": "ari23_vl11_mirim_zahlen",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welche Darstellung ergibt der Beweis für die Differenz n − m einer MIRIM-Zahl und ihrer Gegenzahl 3 (MRIRM)?",
+    "options": [
+      "n − m = (I − R)·910",
+      "n − m = (M − R)·9901",
+      "n − m = (M − I)·8991",
+      "n − m = (I − R)·91"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Der Beweis liefert n − m = (I − R)·(1000 − 100 + 10) = (I − R)·910. 📄 Quelle: ari23_vl11, Folie 37 (S.37)",
+    "source": "ari23_vl11, Folie 37 (S.37, Definition – Satz – Beweis)"
+  },
+  {
+    "id": "ari23_vl11-b2-023",
+    "topic": "ari23_vl11_portfolio",
+    "difficulty": 1,
+    "type": "multi",
+    "question": "Was gilt für das Portfolio als Studienleistung?",
+    "options": [
+      "Es umfasst alle 10 Erkundungen mit ihren Erarbeitungen und den Reflektionen.",
+      "Die Abgabe erfolgt in digitaler Form (ggf. pdf-Scan) in Moodle.",
+      "Abgabefrist ist Dienstag, der 27.06.2022, 9:00 Uhr.",
+      "Die Abgabe erfolgt handschriftlich auf Papier im Sekretariat."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Das Portfolio umfasst alle 10 Erkundungen mit Erarbeitungen und Reflektionen; die Abgabe erfolgt in digitaler Form (ggf. pdf-Scan) in Moodle bis Dienstag, den 27.06.2022, 9:00 Uhr. 📄 Quelle: ari23_vl11, Folie 42 (S.42)",
+    "source": "ari23_vl11, Folie 42 (S.42, Portfolio – Studienleistung)"
+  }
 ]

@@ -1,244 +1,226 @@
 [
- {
-  "id": "skript10_live-b1-001",
-  "topic": "skript10_live_quersummenregel",
-  "difficulty": 1,
-  "type": "multi",
-  "question": "Welche Aussagen zum Satz der Quersummenregel (Folie 11) sind korrekt?",
-  "options": [
-   "Wenn die Quersumme einer Zahl n durch 3 teilbar ist, dann ist die Zahl n durch 3 teilbar.",
-   "Der Satz gilt für alle natürlichen Zahlen n.",
-   "Wenn n durch 3 teilbar ist, dann ist die Quersumme nicht durch 3 teilbar.",
-   "Der Satz gilt nur für Vielfache von 10."
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Der Satz lautet: 'Für alle natürlichen Zahlen n gilt: Wenn die Quersumme einer Zahl n durch 3 teilbar ist, dann ist die Zahl n durch 3 teilbar.' 📄 Quelle: skript10_live, Folie 11 (S.1)",
-  "source": "skript10_live, Folie 11 (S.1, Geometrie)"
- },
- {
-  "id": "skript10_live-b1-002",
-  "topic": "skript10_live_quersummenregel",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Im Beweis wird genutzt, dass 10^k − 1 durch 3 teilbar ist (z. B. 100 = 99 + 1, 1000 = 999 + 1). Welchen Wert hat 1000 − 1?",
-  "answer": 999,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Auf der Folie steht 1000 = 999 + 1, also 1000 − 1 = 999 (= 3·333), was durch 3 teilbar ist. 📄 Quelle: skript10_live, Folie 11 (S.1)",
-  "source": "skript10_live, Folie 11 (S.1, Geometrie)"
- },
- {
-  "id": "skript10_live-b1-003",
-  "topic": "skript10_live_quersummenregel",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Auf welchen Hilfssatz stützt sich der Beweis der Quersummenregel (Folie 11)?",
-  "options": [
-   "Wenn k|a und k|b, dann k|(a+b).",
-   "Wenn k|a und k|b, dann k|(a·b).",
-   "Wenn k|(a+b), dann k|a und k|b.",
-   "Wenn k|a, dann k|(a+1)."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Der Beweis folgt mit dem Satz 'Wenn k|a und k|b, dann k|(a+b)': ist die Summe der Terme a_i·(10^i−1) durch 3 teilbar und die Quersumme durch 3 teilbar, dann auch n. 📄 Quelle: skript10_live, Folie 11 (S.1)",
-  "source": "skript10_live, Folie 11 (S.1, Geometrie)"
- },
- {
-  "id": "skript10_live-b1-004",
-  "topic": "skript10_live_quersummenregel",
-  "difficulty": 3,
-  "type": "multi",
-  "question": "Welche Schritte/Ideen gehören zum Beweis der Quersummenregel für 3 (Folie 11)?",
-  "options": [
-   "Man schreibt n = a_m·10^m + ... + a_1·10 + a_0 und fügt 'additive Nullen' ein, indem man 10^k als (10^k − 1) + 1 auffasst.",
-   "Die Summe der Terme a_m·(10^m − 1) + ... + a_1·(10 − 1) ist durch 3 teilbar.",
-   "Der verbleibende Rest a_m + ... + a_1 + a_0 ist die Quersumme q.",
-   "Der Beweis funktioniert nur für höchstens dreistellige Zahlen."
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Durch Einfügen additiver Nullen wird n = a_m·(10^m−1) + ... + a_1·(10−1) + (a_m+...+a_1+a_0). Der erste Teil ist durch 3 teilbar (10^k−1 = 3·(...)), der zweite ist die Quersumme q; der Beweis gilt allgemein. 📄 Quelle: skript10_live, Folie 11 (S.1)",
-  "source": "skript10_live, Folie 11 (S.1, Geometrie)"
- },
- {
-  "id": "skript10_live-b1-005",
-  "topic": "skript10_live_quersummenregel",
-  "difficulty": 1,
-  "type": "multi",
-  "question": "Welche Aussagen zum Satz auf Folie 16 sind korrekt?",
-  "options": [
-   "Wenn die Quersumme einer Zahl n durch 9 teilbar ist, dann ist die Zahl n durch 9 teilbar.",
-   "Der Satz gilt für alle natürlichen Zahlen n.",
-   "Wenn die Quersumme durch 9 teilbar ist, ist n nur durch 3 teilbar.",
-   "Der Satz gilt nur für gerade Zahlen."
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Folie 16 formuliert die Quersummenregel für 9: 'Für alle natürlichen Zahlen n gilt: Wenn die Quersumme einer Zahl n durch 9 teilbar ist, dann ist die Zahl n durch 9 teilbar.' 📄 Quelle: skript10_live, Folie 16 (S.2)",
-  "source": "skript10_live, Folie 16 (S.2, Geometrie)"
- },
- {
-  "id": "skript10_live-b1-006",
-  "topic": "skript10_live_quersummenregel",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Auf welche Teilbarkeit bezieht sich die Quersummenregel auf Folie 16?",
-  "options": [
-   "Teilbarkeit durch 9",
-   "Teilbarkeit durch 3",
-   "Teilbarkeit durch 7",
-   "Teilbarkeit durch 11"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Folie 16 behandelt die Quersummenregel für die Teilbarkeit durch 9. 📄 Quelle: skript10_live, Folie 16 (S.2)",
-  "source": "skript10_live, Folie 16 (S.2, Geometrie)"
- },
- {
-  "id": "skript10_live-b1-007",
-  "topic": "skript10_live_verknuepfungstafeln",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "In der Multiplikationstafel (t = durch 3 teilbar, n = nicht durch 3 teilbar) auf Folie 30: Welche Einträge sind korrekt?",
-  "options": [
-   "t · t = t",
-   "t · n = t",
-   "n · n = n",
-   "n · n = t"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Die Multiplikationstafel liefert t·t = t, t·n = t und n·n = n. Auf der Folie: t·t = 3x·3x = 3·(3x²) und t·n = 3x·(3z−y) = 3·(x·(3z−y)), beide durch 3 teilbar. 📄 Quelle: skript10_live, Folie 30 (S.3)",
-  "source": "skript10_live, Folie 30 (S.3, Geometrie)"
- },
- {
-  "id": "skript10_live-b1-008",
-  "topic": "skript10_live_verknuepfungstafeln",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "In der Additionstafel (t = durch 3 teilbar, n = nicht durch 3 teilbar) auf Folie 30: Welche Aussagen sind korrekt?",
-  "options": [
-   "t + t = t",
-   "t + n = n",
-   "n + n ergibt eindeutig t",
-   "n + n kann sowohl t als auch n ergeben (kommt auf die Reste an)"
-  ],
-  "correct": [
-   0,
-   1,
-   3
-  ],
-  "explanation": "Die Additionstafel liefert t+t = t und t+n = n. Der Eintrag n+n ist auf der Folie als 't/n' markiert ('kommt drauf an', abhängig von den Resten). 📄 Quelle: skript10_live, Folie 30 (S.3)",
-  "source": "skript10_live, Folie 30 (S.3, Geometrie)"
- },
- {
-  "id": "skript10_live-b1-009",
-  "topic": "skript10_live_verknuepfungstafeln",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Wie werden auf Folie 30 durch 3 teilbare (t) und nicht durch 3 teilbare (n) Zahlen dargestellt?",
-  "options": [
-   "Eine durch 3 teilbare Zahl als t = 3x.",
-   "Eine nicht durch 3 teilbare Zahl als n = 3x − y mit y ∈ {1, 2}.",
-   "n = 3x − 1 oder n = 3x − 2.",
-   "Eine nicht durch 3 teilbare Zahl als n = 3x."
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Auf der Folie: t = 3x und n = 3x − 1 oder n = 3x − 2, also n = 3x − y mit y ∈ {1, 2} (mit x einer natürlichen Zahl). 📄 Quelle: skript10_live, Folie 30 (S.3)",
-  "source": "skript10_live, Folie 30 (S.3, Geometrie)"
- },
- {
-  "id": "skript10_live-b1-010",
-  "topic": "skript10_live_verknuepfungstafeln",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche der Rechenbeispiele zur Addition (Folie 30) sind so notiert?",
-  "options": [
-   "5 + 8 = 13 ist nicht durch 3 teilbar (n)",
-   "4 + 8 = 12 ist durch 3 teilbar (t)",
-   "4 + 7 = 11 ist nicht durch 3 teilbar (n)",
-   "5 + 8 = 13 ist durch 3 teilbar (t)"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Die Folie zeigt 5+8 = 13 → n, 4+8 = 12 → t und 4+7 = 11 → n. Diese Beispiele belegen, dass n + n mal t und mal n ergeben kann. 📄 Quelle: skript10_live, Folie 30 (S.3)",
-  "source": "skript10_live, Folie 30 (S.3, Geometrie)"
- },
- {
-  "id": "skript10_live-b1-011",
-  "topic": "skript10_live_restklassen",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Wie viele Restklassen gibt es beim Teilen durch 7 (Folie 38, Aufgabe 1)?",
-  "answer": 7,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Es gibt 7 Restklassen: 0̄, 1̄, 2̄, 3̄, 4̄, 5̄, 6̄. 📄 Quelle: skript10_live, Folie 38 (S.4)",
-  "source": "skript10_live, Folie 38 (S.4, Geometrie)"
- },
- {
-  "id": "skript10_live-b1-012",
-  "topic": "skript10_live_restklassen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Aussagen zu den Restklassen beim Teilen durch 7 (Folie 38) sind korrekt?",
-  "options": [
-   "0̄ = {0, 7, 14, ...}",
-   "1̄ = {1, 8, 15, ...}",
-   "Es gibt genau die Restklassen 0̄, 1̄, 2̄, 3̄, 4̄, 5̄, 6̄.",
-   "0̄ = {0, 3, 6, ...}"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Auf der Folie: 0̄ = {0, 7, 14, ...}, 1̄ = {1, 8, 15, ...}, und es gibt 7 Restklassen 0̄ bis 6̄. 📄 Quelle: skript10_live, Folie 38 (S.4)",
-  "source": "skript10_live, Folie 38 (S.4, Geometrie)"
- },
- {
-  "id": "skript10_live-b1-013",
-  "topic": "skript10_live_restklassen",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Zahlen der Form 11k₁+7 und 11k₂+4 lassen beim Teilen durch 11 die Reste 7 bzw. 4. Welchen Rest (Restklasse) beim Teilen durch 11 hat ihre Summe (Folie 38, Aufgabe 2)?",
-  "answer": 0,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "(11k₁+7) + (11k₂+4) = 11·(k₁+k₂) + 7+4 = 11·(k₁+k₂+1) + 0, also 7̄ ⊕ 4̄ = 0̄. 📄 Quelle: skript10_live, Folie 38 (S.4)",
-  "source": "skript10_live, Folie 38 (S.4, Geometrie)"
- },
- {
-  "id": "skript10_live-b1-014",
-  "topic": "skript10_live_restklassen",
-  "difficulty": 3,
-  "type": "numeric",
-  "question": "Welchen Rest (Restklasse) beim Teilen durch 11 hat das Produkt (11k₁+7)·(11k₂+4) (Folie 38, Aufgabe 2)?",
-  "answer": 6,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "(11k₁+7)·(11k₂+4) = (11k₁·11k₂ + 11k₁·4 + 11k₂·7) + 7·4; alle 11-Terme fallen weg, es bleibt 7·4 = 28 = 2·11 + 6, also 7̄ ⊙ 4̄ = 6̄. 📄 Quelle: skript10_live, Folie 38 (S.4)",
-  "source": "skript10_live, Folie 38 (S.4, Geometrie)"
- }
+  {
+    "id": "skript10_live-b1-001",
+    "topic": "skript10_live_quersummenregel",
+    "difficulty": 1,
+    "type": "multi",
+    "question": "Welche Aussagen zum Satz der Quersummenregel für die Teilbarkeit durch 3 sind korrekt?",
+    "options": [
+      "Wenn die Quersumme einer Zahl n durch 3 teilbar ist, dann ist die Zahl n durch 3 teilbar.",
+      "Der Satz gilt für alle natürlichen Zahlen n.",
+      "Wenn n durch 3 teilbar ist, dann ist die Quersumme nicht durch 3 teilbar.",
+      "Der Satz gilt nur für Vielfache von 10."
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Der Satz lautet: 'Für alle natürlichen Zahlen n gilt: Wenn die Quersumme einer Zahl n durch 3 teilbar ist, dann ist die Zahl n durch 3 teilbar.' 📄 Quelle: skript10_live, Folie 11 (S.1)",
+    "source": "skript10_live, Folie 11 (S.1, Geometrie)"
+  },
+  {
+    "id": "skript10_live-b1-002",
+    "topic": "skript10_live_quersummenregel",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Im Beweis wird genutzt, dass 10^k − 1 durch 3 teilbar ist (z. B. 100 = 99 + 1, 1000 = 999 + 1). Welchen Wert hat 1000 − 1?",
+    "answer": 999,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Auf der Folie steht 1000 = 999 + 1, also 1000 − 1 = 999 (= 3·333), was durch 3 teilbar ist. 📄 Quelle: skript10_live, Folie 11 (S.1)",
+    "source": "skript10_live, Folie 11 (S.1, Geometrie)"
+  },
+  {
+    "id": "skript10_live-b1-003",
+    "topic": "skript10_live_quersummenregel",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Auf welchen Hilfssatz stützt sich der Beweis der Quersummenregel für die Teilbarkeit durch 3?",
+    "options": [
+      "Wenn k|a und k|b, dann k|(a+b).",
+      "Wenn k|a und k|b, dann k|(a·b).",
+      "Wenn k|(a+b), dann k|a und k|b.",
+      "Wenn k|a, dann k|(a+1)."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Der Beweis folgt mit dem Satz 'Wenn k|a und k|b, dann k|(a+b)': ist die Summe der Terme a_i·(10^i−1) durch 3 teilbar und die Quersumme durch 3 teilbar, dann auch n. 📄 Quelle: skript10_live, Folie 11 (S.1)",
+    "source": "skript10_live, Folie 11 (S.1, Geometrie)"
+  },
+  {
+    "id": "skript10_live-b1-004",
+    "topic": "skript10_live_quersummenregel",
+    "difficulty": 3,
+    "type": "multi",
+    "question": "Welche Schritte/Ideen gehören zum Beweis der Quersummenregel für die Teilbarkeit durch 3?",
+    "options": [
+      "Man schreibt n = a_m·10^m + ... + a_1·10 + a_0 und fügt 'additive Nullen' ein, indem man 10^k als (10^k − 1) + 1 auffasst.",
+      "Die Summe der Terme a_m·(10^m − 1) + ... + a_1·(10 − 1) ist durch 3 teilbar.",
+      "Der verbleibende Rest a_m + ... + a_1 + a_0 ist die Quersumme q.",
+      "Der Beweis funktioniert nur für höchstens dreistellige Zahlen."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Durch Einfügen additiver Nullen wird n = a_m·(10^m−1) + ... + a_1·(10−1) + (a_m+...+a_1+a_0). Der erste Teil ist durch 3 teilbar (10^k−1 = 3·(...)), der zweite ist die Quersumme q; der Beweis gilt allgemein. 📄 Quelle: skript10_live, Folie 11 (S.1)",
+    "source": "skript10_live, Folie 11 (S.1, Geometrie)"
+  },
+  {
+    "id": "skript10_live-b1-005",
+    "topic": "skript10_live_quersummenregel",
+    "difficulty": 1,
+    "type": "multi",
+    "question": "Welche Aussagen zum Satz der Quersummenregel für die Teilbarkeit durch 9 sind korrekt?",
+    "options": [
+      "Wenn die Quersumme einer Zahl n durch 9 teilbar ist, dann ist die Zahl n durch 9 teilbar.",
+      "Der Satz gilt für alle natürlichen Zahlen n.",
+      "Wenn die Quersumme durch 9 teilbar ist, ist n nur durch 3 teilbar.",
+      "Der Satz gilt nur für gerade Zahlen."
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Folie 16 formuliert die Quersummenregel für 9: 'Für alle natürlichen Zahlen n gilt: Wenn die Quersumme einer Zahl n durch 9 teilbar ist, dann ist die Zahl n durch 9 teilbar.' 📄 Quelle: skript10_live, Folie 16 (S.2)",
+    "source": "skript10_live, Folie 16 (S.2, Geometrie)"
+  },
+  {
+    "id": "skript10_live-b1-007",
+    "topic": "skript10_live_verknuepfungstafeln",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "In einer Multiplikationstafel für die Teilbarkeit durch 3 (t = durch 3 teilbar, n = nicht durch 3 teilbar): Welche Einträge sind korrekt?",
+    "options": [
+      "t · t = t",
+      "t · n = t",
+      "n · n = n",
+      "n · n = t"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Die Multiplikationstafel liefert t·t = t, t·n = t und n·n = n. Auf der Folie: t·t = 3x·3x = 3·(3x²) und t·n = 3x·(3z−y) = 3·(x·(3z−y)), beide durch 3 teilbar. 📄 Quelle: skript10_live, Folie 30 (S.3)",
+    "source": "skript10_live, Folie 30 (S.3, Geometrie)"
+  },
+  {
+    "id": "skript10_live-b1-008",
+    "topic": "skript10_live_verknuepfungstafeln",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "In einer Additionstafel für die Teilbarkeit durch 3 (t = durch 3 teilbar, n = nicht durch 3 teilbar): Welche Aussagen sind korrekt?",
+    "options": [
+      "t + t = t",
+      "t + n = n",
+      "n + n ergibt eindeutig t",
+      "n + n kann sowohl t als auch n ergeben (kommt auf die Reste an)"
+    ],
+    "correct": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "Die Additionstafel liefert t+t = t und t+n = n. Der Eintrag n+n ist auf der Folie als 't/n' markiert ('kommt drauf an', abhängig von den Resten). 📄 Quelle: skript10_live, Folie 30 (S.3)",
+    "source": "skript10_live, Folie 30 (S.3, Geometrie)"
+  },
+  {
+    "id": "skript10_live-b1-009",
+    "topic": "skript10_live_verknuepfungstafeln",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Wie lassen sich durch 3 teilbare (t) und nicht durch 3 teilbare (n) Zahlen allgemein darstellen?",
+    "options": [
+      "Eine durch 3 teilbare Zahl als t = 3x.",
+      "Eine nicht durch 3 teilbare Zahl als n = 3x − y mit y ∈ {1, 2}.",
+      "n = 3x − 1 oder n = 3x − 2.",
+      "Eine nicht durch 3 teilbare Zahl als n = 3x."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Auf der Folie: t = 3x und n = 3x − 1 oder n = 3x − 2, also n = 3x − y mit y ∈ {1, 2} (mit x einer natürlichen Zahl). 📄 Quelle: skript10_live, Folie 30 (S.3)",
+    "source": "skript10_live, Folie 30 (S.3, Geometrie)"
+  },
+  {
+    "id": "skript10_live-b1-010",
+    "topic": "skript10_live_verknuepfungstafeln",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche der folgenden Rechenbeispiele zur Addition sind bezüglich der Teilbarkeit durch 3 korrekt notiert?",
+    "options": [
+      "5 + 8 = 13 ist nicht durch 3 teilbar (n)",
+      "4 + 8 = 12 ist durch 3 teilbar (t)",
+      "4 + 7 = 11 ist nicht durch 3 teilbar (n)",
+      "5 + 8 = 13 ist durch 3 teilbar (t)"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Die Folie zeigt 5+8 = 13 → n, 4+8 = 12 → t und 4+7 = 11 → n. Diese Beispiele belegen, dass n + n mal t und mal n ergeben kann. 📄 Quelle: skript10_live, Folie 30 (S.3)",
+    "source": "skript10_live, Folie 30 (S.3, Geometrie)"
+  },
+  {
+    "id": "skript10_live-b1-011",
+    "topic": "skript10_live_restklassen",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Wie viele Restklassen gibt es beim Teilen durch 7?",
+    "answer": 7,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Es gibt 7 Restklassen: 0̄, 1̄, 2̄, 3̄, 4̄, 5̄, 6̄. 📄 Quelle: skript10_live, Folie 38 (S.4)",
+    "source": "skript10_live, Folie 38 (S.4, Geometrie)"
+  },
+  {
+    "id": "skript10_live-b1-012",
+    "topic": "skript10_live_restklassen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aussagen zu den Restklassen beim Teilen durch 7 sind korrekt?",
+    "options": [
+      "0̄ = {0, 7, 14, ...}",
+      "1̄ = {1, 8, 15, ...}",
+      "Es gibt genau die Restklassen 0̄, 1̄, 2̄, 3̄, 4̄, 5̄, 6̄.",
+      "0̄ = {0, 3, 6, ...}"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Auf der Folie: 0̄ = {0, 7, 14, ...}, 1̄ = {1, 8, 15, ...}, und es gibt 7 Restklassen 0̄ bis 6̄. 📄 Quelle: skript10_live, Folie 38 (S.4)",
+    "source": "skript10_live, Folie 38 (S.4, Geometrie)"
+  },
+  {
+    "id": "skript10_live-b1-013",
+    "topic": "skript10_live_restklassen",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Zahlen der Form 11k₁+7 und 11k₂+4 lassen beim Teilen durch 11 die Reste 7 bzw. 4. Welchen Rest (Restklasse) beim Teilen durch 11 hat ihre Summe?",
+    "answer": 0,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "(11k₁+7) + (11k₂+4) = 11·(k₁+k₂) + 7+4 = 11·(k₁+k₂+1) + 0, also 7̄ ⊕ 4̄ = 0̄. 📄 Quelle: skript10_live, Folie 38 (S.4)",
+    "source": "skript10_live, Folie 38 (S.4, Geometrie)"
+  },
+  {
+    "id": "skript10_live-b1-014",
+    "topic": "skript10_live_restklassen",
+    "difficulty": 3,
+    "type": "numeric",
+    "question": "Welchen Rest (Restklasse) beim Teilen durch 11 hat das Produkt (11k₁+7)·(11k₂+4)?",
+    "answer": 6,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "(11k₁+7)·(11k₂+4) = (11k₁·11k₂ + 11k₁·4 + 11k₂·7) + 7·4; alle 11-Terme fallen weg, es bleibt 7·4 = 28 = 2·11 + 6, also 7̄ ⊙ 4̄ = 6̄. 📄 Quelle: skript10_live, Folie 38 (S.4)",
+    "source": "skript10_live, Folie 38 (S.4, Geometrie)"
+  }
 ]

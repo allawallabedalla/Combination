@@ -1,699 +1,699 @@
 [
- {
-  "id": "did_vl03_bildungsstd-b1-001",
-  "topic": "did_vl03_bildungsstd_problemloesen",
-  "difficulty": 1,
-  "type": "multi",
-  "question": "Welche Aussagen treffen auf die Problemlöse-Lernumgebung aus Klasse 4 zu, die als Beispiel vorgestellt wird?",
-  "options": [
-   "Sie trägt den Namen Zahlengitter",
-   "Die Kinder sollen möglichst viele Pluszahl-Paare finden, die zur Zielzahl 20 führen",
-   "Die Zielzahl beträgt 30",
-   "Es geht um das Spiegeln von Figuren in der Geometrie"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Die Lernumgebung heißt Zahlengitter; die Aufgabe für Klasse 4 lautet: Finde möglichst viele Pluszahl-Paare, die zur Zielzahl 20 führen. 📄 Quelle: did_vl03_bildungsstd, Folie 3 (S.3)",
-  "source": "did_vl03_bildungsstd, Folie 3 (S.3, Einführung – Problemlösen Beispiel Klasse 4)"
- },
- {
-  "id": "did_vl03_bildungsstd-b1-002",
-  "topic": "did_vl03_bildungsstd_problemloesen",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Welche Zielzahl ist bei der vorgestellten Zahlengitter-Aufgabe (Klasse 4) vorgegeben?",
-  "answer": 20,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Die Aufgabe lautet: Finde möglichst viele Pluszahl-Paare, die zur Zielzahl 20 führen. 📄 Quelle: did_vl03_bildungsstd, Folie 3 (S.3)",
-  "source": "did_vl03_bildungsstd, Folie 3 (S.3, Einführung – Problemlösen Beispiel Klasse 4)"
- },
- {
-  "id": "did_vl03_bildungsstd-b1-003",
-  "topic": "did_vl03_bildungsstd_loesungsstrategien",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche unterschiedlichen Vorgehensweisen (Nutzung und Entwicklung von Lösungsstrategien) zeigten die Kinder beim Finden der Pluszahlen-Paare?",
-  "options": [
-   "Unsystematisches oder unsystematisch erscheinendes Probieren",
-   "Ableiten eines Pluszahlen-Paares aus seinem Tauschpaar",
-   "Zerlegen der Mittelzahl 10 in zwei Summanden, die dann als Pluszahlen dienen",
-   "Operatives Verändern der Pluszahlen",
-   "Nachschlagen der Lösungen in einer Formelsammlung"
-  ],
-  "correct": [
-   0,
-   1,
-   2,
-   3
-  ],
-  "explanation": "Auf der Folie werden vier Vorgehensweisen genannt: unsystematisches Probieren, Ableiten aus dem Tauschpaar, Zerlegen der Mittelzahl 10 in zwei Summanden und operatives Verändern der Pluszahlen. Das Nachschlagen in einer Formelsammlung gehört nicht dazu. 📄 Quelle: did_vl03_bildungsstd, Folie 4 (S.4)",
-  "source": "did_vl03_bildungsstd, Folie 4 (S.4, Einführung – Problemlösen Beispiel Klasse 4)"
- },
- {
-  "id": "did_vl03_bildungsstd-b1-004",
-  "topic": "did_vl03_bildungsstd_loesungsstrategien",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Was entsteht laut Folie beim 'Ableiten eines Pluszahlen-Paares aus seinem Tauschpaar' aus dem Paar (+2; +8)?",
-  "options": [
-   "(+8; +2)",
-   "(+2; +8) bleibt unverändert",
-   "(+3; +7)",
-   "(+10; +10)"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Als Beispiel wird angegeben: aus (+2; +8) wird (+8; +2) gewonnen. 📄 Quelle: did_vl03_bildungsstd, Folie 4 (S.4)",
-  "source": "did_vl03_bildungsstd, Folie 4 (S.4, Einführung – Problemlösen Beispiel Klasse 4)"
- },
- {
-  "id": "did_vl03_bildungsstd-b1-005",
-  "topic": "did_vl03_bildungsstd_loesungsstrategien",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Beim 'operativen Verändern der Pluszahlen' wird auf der Folie als Beispiel genannt: die linke Pluszahl um 1 erhöhen und ...",
-  "options": [
-   "die obere um 1 vermindern",
-   "die obere um 1 erhöhen",
-   "die rechte um 2 vermindern",
-   "die Zielzahl um 1 erhöhen"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Beispiel für operatives Verändern: linke Pluszahl um 1 erhöhen, obere um 1 vermindern. 📄 Quelle: did_vl03_bildungsstd, Folie 4 (S.4)",
-  "source": "did_vl03_bildungsstd, Folie 4 (S.4, Einführung – Problemlösen Beispiel Klasse 4)"
- },
- {
-  "id": "did_vl03_bildungsstd-b1-006",
-  "topic": "did_vl03_bildungsstd_auffaelligkeiten",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Auffälligkeiten wurden in der Zusammenschau der Zahlengitter (Zielzahl 20) benannt?",
-  "options": [
-   "Als Mittelzahl kommt immer die 10 (bzw. die 11) heraus",
-   "Wenn die linke Pluszahl um 1 größer wird, wird die obere um 1 kleiner",
-   "Rechts oben (bzw. links unten bzw. rechts unten / Zielzahl) steht immer eine gerade Zahl",
-   "Die rechte mittlere und die untere Mittelzahl sind zusammen immer 30",
-   "Als Mittelzahl kommt immer eine ungerade Primzahl heraus"
-  ],
-  "correct": [
-   0,
-   1,
-   2,
-   3
-  ],
-  "explanation": "Genannt wurden u.a.: Mittelzahl immer 10 (bzw. 11); linke Pluszahl +1 → obere −1; rechts oben/links unten/rechts unten steht eine gerade Zahl; rechte mittlere und untere Mittelzahl zusammen immer 30. Die Aussage zur ungeraden Primzahl steht nicht auf der Folie. 📄 Quelle: did_vl03_bildungsstd, Folie 5 (S.5)",
-  "source": "did_vl03_bildungsstd, Folie 5 (S.5, Einführung – Problemlösen Beispiel Klasse 4)"
- },
- {
-  "id": "did_vl03_bildungsstd-b1-007",
-  "topic": "did_vl03_bildungsstd_auffaelligkeiten",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Welche Mittelzahl kommt laut den benannten Auffälligkeiten bei den Zahlengittern immer heraus?",
-  "options": [
-   "Immer die 10 (bzw. die 11)",
-   "Immer die 20",
-   "Immer die 30",
-   "Immer die 0"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Auffälligkeit: 'Als Mittelzahl kommt immer die 10 (bzw. die 11) heraus.' 📄 Quelle: did_vl03_bildungsstd, Folie 5 (S.5)",
-  "source": "did_vl03_bildungsstd, Folie 5 (S.5, Einführung – Problemlösen Beispiel Klasse 4)"
- },
- {
-  "id": "did_vl03_bildungsstd-b1-008",
-  "topic": "did_vl03_bildungsstd_auffaelligkeiten",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Bei der Zielzahl 20 ergibt sich laut Folie immer welche Summe, wenn man die Zahlen von links oben nach rechts unten (bzw. von rechts oben nach links unten) addiert?",
-  "answer": 30,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Auffälligkeit: 'Bei der Zielzahl 20 sind es immer 30, wenn man die Zahlen von links oben nach rechts unten (bzw. von rechts oben nach links unten) addiert.' 📄 Quelle: did_vl03_bildungsstd, Folie 5 (S.5)",
-  "source": "did_vl03_bildungsstd, Folie 5 (S.5, Einführung – Problemlösen Beispiel Klasse 4)"
- },
- {
-  "id": "did_vl03_bildungsstd-b1-009",
-  "topic": "did_vl03_bildungsstd_zielzahl22",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Beobachtungen notierte das Kind (Elisabeth) zu allen Zahlengittern mit der Zielzahl 22?",
-  "options": [
-   "Die 11 ist immer in der Mitte",
-   "Die Startzahl ist immer 0",
-   "Es kommt immer 22 heraus",
-   "Wenn die 11 nicht in der Mitte steht, ist die Lösung falsch",
-   "Die Startzahl ist immer 11"
-  ],
-  "correct": [
-   0,
-   1,
-   2,
-   3
-  ],
-  "explanation": "Elisabeth notierte u.a.: Die 11 ist immer in der Mitte; die Startzahl ist immer 0; es kommt immer 22 heraus; wenn die 11 nicht in der Mitte steht, ist die Lösung falsch. Die Startzahl ist 0, nicht 11. 📄 Quelle: did_vl03_bildungsstd, Folie 8 (S.8)",
-  "source": "did_vl03_bildungsstd, Folie 8 (S.8, Einführung – Problemlösen Beispiel Klasse 4, Zielzahl 22)"
- },
- {
-  "id": "did_vl03_bildungsstd-b1-010",
-  "topic": "did_vl03_bildungsstd_zielzahl22",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Welche Zahl steht laut der Schülerbeobachtung bei den Zahlengittern mit Zielzahl 22 immer in der Mitte?",
-  "answer": 11,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Beobachtung: 'Die 11 ist immer in der Mitte.' 📄 Quelle: did_vl03_bildungsstd, Folie 8 (S.8)",
-  "source": "did_vl03_bildungsstd, Folie 8 (S.8, Einführung – Problemlösen Beispiel Klasse 4, Zielzahl 22)"
- },
- {
-  "id": "did_vl03_bildungsstd-b1-011",
-  "topic": "did_vl03_bildungsstd_kommunizieren",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Aspekte gehören laut Folie zur allgemeinen Kompetenz 'Kommunizieren'?",
-  "options": [
-   "Eigene Vorgehensweisen beschreiben, Lösungswege anderer verstehen und gemeinsam darüber reflektieren",
-   "Mathematische Fachbegriffe und Zeichen sachgerecht verwenden",
-   "Aufgaben gemeinsam bearbeiten, dabei Verabredungen treffen und einhalten",
-   "Formeln auswendig lernen und Rechenverfahren automatisieren"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Zur Kompetenz Kommunizieren zählen: eigene Vorgehensweisen beschreiben und Lösungswege anderer verstehen/reflektieren, mathematische Fachbegriffe und Zeichen sachgerecht verwenden sowie Aufgaben gemeinsam bearbeiten und Verabredungen treffen/einhalten. Das Automatisieren von Rechenverfahren ist hier nicht genannt. 📄 Quelle: did_vl03_bildungsstd, Folie 9 (S.9)",
-  "source": "did_vl03_bildungsstd, Folie 9 (S.9, Einführung – Kommunizieren)"
- },
- {
-  "id": "did_vl03_bildungsstd-b1-012",
-  "topic": "did_vl03_bildungsstd_kommunizieren",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Wie sollen Lernende gemäß der Kompetenz 'Kommunizieren' mit mathematischen Fachbegriffen und Zeichen umgehen?",
-  "options": [
-   "Sie sachgerecht verwenden",
-   "Sie möglichst vermeiden",
-   "Sie nur mündlich, nie schriftlich benutzen",
-   "Sie durch Alltagssprache ersetzen"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Folie: 'mathematische Fachbegriffe und Zeichen sachgerecht verwenden'. 📄 Quelle: did_vl03_bildungsstd, Folie 9 (S.9)",
-  "source": "did_vl03_bildungsstd, Folie 9 (S.9, Einführung – Kommunizieren)"
- },
- {
-  "id": "did_vl03_bildungsstd-b1-013",
-  "topic": "did_vl03_bildungsstd_kommunizieren",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Beim Schulfest wurden 956 Euro eingenommen und gleichmäßig auf vier Klassen verteilt. Wie viel Euro erhält jede Klasse?",
-  "answer": 239,
-  "tolerance": 0,
-  "unit": "€",
-  "explanation": "Die Aufgabe (vor der Behandlung der Division mit großen Zahlen) lautet: 956 Euro werden auf vier Klassen verteilt; 956 : 4 = 239. 📄 Quelle: did_vl03_bildungsstd, Folie 10 (S.10)",
-  "source": "did_vl03_bildungsstd, Folie 10 (S.10, Einführung – Kommunizieren Beispiel Klasse 4)"
- },
- {
-  "id": "did_vl03_bildungsstd-b1-014",
-  "topic": "did_vl03_bildungsstd_kommunizieren",
-  "difficulty": 2,
-  "type": "single",
-  "question": "In welchem unterrichtlichen Zusammenhang wird die Schulfest-Aufgabe (956 Euro auf vier Klassen) laut Folie eingesetzt?",
-  "options": [
-   "Vor der Behandlung der Division mit großen Zahlen",
-   "Nach der Einführung des schriftlichen Wurzelziehens",
-   "Als Einstieg in die Bruchrechnung",
-   "Zur Wiederholung der schriftlichen Multiplikation"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie kennzeichnet die Aufgabe ausdrücklich als 'vor der Behandlung der Division mit großen Zahlen'. 📄 Quelle: did_vl03_bildungsstd, Folie 10 (S.10)",
-  "source": "did_vl03_bildungsstd, Folie 10 (S.10, Einführung – Kommunizieren Beispiel Klasse 4)"
- },
- {
-  "id": "did_vl03_bildungsstd-b1-015",
-  "topic": "did_vl03_bildungsstd_kommunizieren",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Lösungswege für 956 : 4 dokumentieren die gezeigten Kinderlösungen (Nicole und Mira)?",
-  "options": [
-   "Aufteilen der Aufgabe in Teilschritte (z. B. 800 : 4 = 200 usw.)",
-   "Zweimaliges Halbieren: 956 : 2 = 478 und 478 : 2 = 239",
-   "Schriftliche Division mit ausführlichem Rest-Verfahren",
-   "Runden auf 1000 und anschließendes Multiplizieren"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Nicole teilte die Aufgabe in Teilschritte auf (u.a. 800 : 4 = 200); Mira rechnete durch zweimaliges Halbieren: 956 : 2 = 478, dann 478 : 2 = 239. 📄 Quelle: did_vl03_bildungsstd, Folie 11 (S.11)",
-  "source": "did_vl03_bildungsstd, Folie 11 (S.11, Einführung – Kommunizieren Beispiel Klasse 4)"
- },
- {
-  "id": "did_vl03_bildungsstd-b1-016",
-  "topic": "did_vl03_bildungsstd_kommunizieren",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Zu welchem Ergebnis kommt Miras Lösungsweg (956 : 2 = 478; 478 : 2 = ...) für die Aufgabe 956 : 4?",
-  "answer": 239,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Mira halbiert zweimal: 956 : 2 = 478 und 478 : 2 = 239; das Ergebnis ist 239. 📄 Quelle: did_vl03_bildungsstd, Folie 11 (S.11)",
-  "source": "did_vl03_bildungsstd, Folie 11 (S.11, Einführung – Kommunizieren Beispiel Klasse 4)"
- },
- {
-  "id": "did_vl03_bildungsstd-b2-001",
-  "topic": "did_vl03_bildungsstd_kommunizieren",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Welche Aufforderung steht in der Beispielaufgabe zum Kompetenzbereich „Kommunizieren\" (Klasse 4)?",
-  "options": [
-   "„Wie rechnest du diese Aufgabe? Schreibe deinen Lösungsweg so auf, dass die anderen Kinder ihn verstehen können.\"",
-   "„Berechne das Ergebnis möglichst schnell im Kopf.\"",
-   "„Prüfe die Aussage deines Partners auf Korrektheit.\"",
-   "„Formuliere zu dem Term eine passende Sachaufgabe.\""
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Beispielfolie zeigt genau diese Aufgabenstellung: Der Lösungsweg soll so aufgeschrieben werden, dass andere Kinder ihn verstehen können – das kennzeichnet den Kompetenzbereich Kommunizieren. 📄 Quelle: did_vl03_bildungsstd, Folie 12 (S.12)",
-  "source": "did_vl03_bildungsstd, Folie 12 (S.12, Einführung – Kommunizieren)"
- },
- {
-  "id": "did_vl03_bildungsstd-b2-002",
-  "topic": "did_vl03_bildungsstd_kommunizieren",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Welches Ergebnis erhält Murat im Beispiel für die Aufgabe 956 : 4?",
-  "answer": 239,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Murat rechnet 1000:4=250, dann 250 − 11 = 239. Sein Ergebnis für 956 : 4 ist 239. 📄 Quelle: did_vl03_bildungsstd, Folie 12 (S.12)",
-  "source": "did_vl03_bildungsstd, Folie 12 (S.12, Einführung – Kommunizieren)"
- },
- {
-  "id": "did_vl03_bildungsstd-b2-003",
-  "topic": "did_vl03_bildungsstd_argumentieren",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Was gehört laut Folie zum Kompetenzbereich „Argumentieren\"?",
-  "options": [
-   "mathematische Aussagen hinterfragen und auf Korrektheit prüfen",
-   "mathematische Zusammenhänge erkennen und Vermutungen entwickeln",
-   "Begründungen suchen und nachvollziehen",
-   "für das Bearbeiten mathematischer Probleme geeignete Darstellungen entwickeln, auswählen und nutzen"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Die Folie nennt für das Argumentieren: Aussagen hinterfragen und auf Korrektheit prüfen, Zusammenhänge erkennen und Vermutungen entwickeln sowie Begründungen suchen und nachvollziehen. Das Entwickeln/Nutzen von Darstellungen gehört zu Darstellen. 📄 Quelle: did_vl03_bildungsstd, Folie 13 (S.13)",
-  "source": "did_vl03_bildungsstd, Folie 13 (S.13, Einführung – Argumentieren)"
- },
- {
-  "id": "did_vl03_bildungsstd-b2-004",
-  "topic": "did_vl03_bildungsstd_argumentieren",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Ergänze folientreu: Beim Argumentieren sollen mathematische Zusammenhänge erkannt und ___ entwickelt werden.",
-  "options": [
-   "Vermutungen",
-   "Sachaufgaben",
-   "Darstellungen",
-   "Terme"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Laut Folie: „mathematische Zusammenhänge erkennen und Vermutungen entwickeln\". 📄 Quelle: did_vl03_bildungsstd, Folie 13 (S.13)",
-  "source": "did_vl03_bildungsstd, Folie 13 (S.13, Einführung – Argumentieren)"
- },
- {
-  "id": "did_vl03_bildungsstd-b2-005",
-  "topic": "did_vl03_bildungsstd_argumentieren",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Welche Vermutung stellt das Kind im Beispiel (Zahlenmauern) auf?",
-  "options": [
-   "Die Zahl im Zielstein wird am größten, wenn die größte Zahl in der Mitte (der ersten Reihe) ist.",
-   "Die Zahl im Zielstein ist immer gleich, egal wie die Steine liegen.",
-   "Die Zahl im Zielstein wird am größten, wenn die größte Zahl außen liegt.",
-   "Die Zahl im Zielstein ist die Summe aller drei Grundsteine.",
-   "Der Zielstein wird am kleinsten, wenn die größte Zahl in der Mitte ist."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Das Kind notiert: „Die Steine in der ersten Reihe werden vertauscht\" und als Auffälligkeit „Die Zahl im Zielstein wird am größten, wenn die größte Zahl in der Mitte ist\". 📄 Quelle: did_vl03_bildungsstd, Folie 14 (S.14)",
-  "source": "did_vl03_bildungsstd, Folie 14 (S.14, Einführung – Argumentieren)"
- },
- {
-  "id": "did_vl03_bildungsstd-b2-006",
-  "topic": "did_vl03_bildungsstd_argumentieren",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Welchen Zielstein ergibt die Zahlenmauer mit der Grundreihe 1, 4, 2 (jeweils Summe zweier benachbarter Steine)?",
-  "answer": 11,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "1+4=5, 4+2=6, 5+6=11. Der Zielstein ist 11 – der größte der vier Beispiele, weil die größte Zahl (4) in der Mitte steht (bestätigt die Vermutung). 📄 Quelle: did_vl03_bildungsstd, Folie 14 (S.14)",
-  "source": "did_vl03_bildungsstd, Folie 14 (S.14, Einführung – Argumentieren)"
- },
- {
-  "id": "did_vl03_bildungsstd-b2-007",
-  "topic": "did_vl03_bildungsstd_modellieren",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Wie wird „Mathematisches Modellieren\" auf der Folie charakterisiert?",
-  "options": [
-   "„Übersetzen zwischen Realität und Mathematik und zurück\"",
-   "„Begründungen suchen und nachvollziehen\"",
-   "„Darstellungen miteinander vergleichen und bewerten\"",
-   "„mathematische Aussagen auf Korrektheit prüfen\""
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie beschreibt Mathematisches Modellieren als „Übersetzen zwischen Realität und Mathematik und zurück\". 📄 Quelle: did_vl03_bildungsstd, Folie 15 (S.15)",
-  "source": "did_vl03_bildungsstd, Folie 15 (S.15, Einführung – Modellieren)"
- },
- {
-  "id": "did_vl03_bildungsstd-b2-008",
-  "topic": "did_vl03_bildungsstd_modellieren",
-  "difficulty": 1,
-  "type": "multi",
-  "question": "Zwischen welchen beiden Bereichen wird beim Modellieren laut Darstellung (Doppelpfeil) übersetzt?",
-  "options": [
-   "Realität",
-   "Mathematik",
-   "Geometrie",
-   "Arithmetik"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Die Skizze zeigt zwei mit Doppelpfeil verbundene Bereiche: Realität und Mathematik. 📄 Quelle: did_vl03_bildungsstd, Folie 15 (S.15)",
-  "source": "did_vl03_bildungsstd, Folie 15 (S.15, Einführung – Modellieren)"
- },
- {
-  "id": "did_vl03_bildungsstd-b2-009",
-  "topic": "did_vl03_bildungsstd_modellieren",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Was gehört laut Folie zum Kompetenzbereich „Modellieren\"?",
-  "options": [
-   "Sachtexten und anderen Darstellungen der Lebenswirklichkeit die relevanten Informationen entnehmen",
-   "Sachprobleme in die Sprache der Mathematik übersetzen, innermathematisch lösen und diese Lösungen auf die Ausgangssituation beziehen",
-   "zu Termen, Gleichungen und bildlichen Darstellungen Sachaufgaben formulieren",
-   "mathematische Aussagen hinterfragen und auf Korrektheit prüfen"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Die Folie nennt für das Modellieren drei Punkte (relevante Informationen entnehmen; Sachprobleme übersetzen, innermathematisch lösen und rückbeziehen; zu Termen/Gleichungen/Darstellungen Sachaufgaben formulieren). Das Prüfen von Aussagen auf Korrektheit gehört zu Argumentieren. 📄 Quelle: did_vl03_bildungsstd, Folie 16 (S.16)",
-  "source": "did_vl03_bildungsstd, Folie 16 (S.16, Einführung – Modellieren)"
- },
- {
-  "id": "did_vl03_bildungsstd-b2-010",
-  "topic": "did_vl03_bildungsstd_modellieren",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Ergänze folientreu: Beim Modellieren sollen Sachprobleme in die Sprache der Mathematik übersetzt, ___ gelöst und die Lösungen auf die Ausgangssituation bezogen werden.",
-  "options": [
-   "innermathematisch",
-   "näherungsweise",
-   "grafisch",
-   "experimentell"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Laut Folie: „Sachprobleme in die Sprache der Mathematik zu übersetzen, innermathematisch zu lösen und diese Lösungen auf die Ausgangssituation zu beziehen\". 📄 Quelle: did_vl03_bildungsstd, Folie 16 (S.16)",
-  "source": "did_vl03_bildungsstd, Folie 16 (S.16, Einführung – Modellieren)"
- },
- {
-  "id": "did_vl03_bildungsstd-b2-011",
-  "topic": "did_vl03_bildungsstd_modellieren",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Ergänze folientreu: „zu Termen, Gleichungen und bildlichen Darstellungen ___ zu formulieren.\"",
-  "options": [
-   "Sachaufgaben",
-   "Beweise",
-   "Vermutungen",
-   "Definitionen"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Laut Folie: „zu Termen, Gleichungen und bildlichen Darstellungen Sachaufgaben zu formulieren\". 📄 Quelle: did_vl03_bildungsstd, Folie 16 (S.16)",
-  "source": "did_vl03_bildungsstd, Folie 16 (S.16, Einführung – Modellieren)"
- },
- {
-  "id": "did_vl03_bildungsstd-b2-012",
-  "topic": "did_vl03_bildungsstd_modellieren",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Laut dem Zeitungstext im Modellieren-Beispiel besuchen die fast 4000 Schüler zusammen wie viele Schulklassen?",
-  "answer": 48,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Der Zeitungsartikel nennt: „fast 4000 Schüler, die zusammen 48 Schulklassen besuchen\". 📄 Quelle: did_vl03_bildungsstd, Folie 17 (S.17)",
-  "source": "did_vl03_bildungsstd, Folie 17 (S.17, Einführung – Modellieren)"
- },
- {
-  "id": "did_vl03_bildungsstd-b2-013",
-  "topic": "did_vl03_bildungsstd_modellieren",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Wie viele Schulen in Gevelsberg sind laut dem Zeitungstext wieder geöffnet?",
-  "answer": 9,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Der Text nennt „die 9 Schulen in Gevelsberg\". 📄 Quelle: did_vl03_bildungsstd, Folie 17 (S.17)",
-  "source": "did_vl03_bildungsstd, Folie 17 (S.17, Einführung – Modellieren)"
- },
- {
-  "id": "did_vl03_bildungsstd-b2-014",
-  "topic": "did_vl03_bildungsstd_modellieren",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Zu welchem Schluss kommt das Kind im Beispiel bei seiner Modellierung (Rechnung 4000 : 50 = 80)?",
-  "options": [
-   "Nein, es gibt keine Klasse, in der 80 Kinder sind.",
-   "Ja, in jeder Klasse sind genau 80 Kinder.",
-   "Die Angaben aus der Zeitung sind auf jeden Fall korrekt.",
-   "Es gibt genau 50 Klassen mit je 80 Kindern."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Das Kind überschlägt 4000 : 50 = 80 und begründet: „Nein, es gibt keine Klasse, in der 80 Kinder sind\" – es prüft die Angaben auf Plausibilität. 📄 Quelle: did_vl03_bildungsstd, Folie 17 (S.17)",
-  "source": "did_vl03_bildungsstd, Folie 17 (S.17, Einführung – Modellieren)"
- },
- {
-  "id": "did_vl03_bildungsstd-b2-015",
-  "topic": "did_vl03_bildungsstd_darstellen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Was gehört laut Folie zum Kompetenzbereich „Darstellen\"?",
-  "options": [
-   "für das Bearbeiten mathematischer Probleme geeignete Darstellungen entwickeln, auswählen und nutzen",
-   "eine Darstellung in eine andere übertragen, Darstellungen miteinander vergleichen und bewerten",
-   "Begründungen suchen und nachvollziehen",
-   "Sachprobleme in die Sprache der Mathematik übersetzen"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Die Folie nennt für Darstellen: geeignete Darstellungen entwickeln, auswählen und nutzen sowie eine Darstellung in eine andere übertragen, Darstellungen vergleichen und bewerten. Die anderen Optionen gehören zu Argumentieren bzw. Modellieren. 📄 Quelle: did_vl03_bildungsstd, Folie 18 (S.18)",
-  "source": "did_vl03_bildungsstd, Folie 18 (S.18, Einführung – Darstellen)"
- },
- {
-  "id": "did_vl03_bildungsstd-b2-016",
-  "topic": "did_vl03_bildungsstd_darstellen",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Ergänze folientreu: „eine Darstellung in eine andere übertragen, Darstellungen miteinander vergleichen und ___.\"",
-  "options": [
-   "bewerten",
-   "zeichnen",
-   "addieren",
-   "begründen"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Laut Folie: „Darstellungen miteinander vergleichen und bewerten\". 📄 Quelle: did_vl03_bildungsstd, Folie 18 (S.18)",
-  "source": "did_vl03_bildungsstd, Folie 18 (S.18, Einführung – Darstellen)"
- },
- {
-  "id": "did_vl03_bildungsstd-b2-017",
-  "topic": "did_vl03_bildungsstd_darstellen",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Welche Schulterhöhe hat der Yorkshire Terrier laut Steckbrief im Darstellen-Beispiel?",
-  "answer": 22,
-  "tolerance": 0,
-  "unit": "cm",
-  "explanation": "Der Steckbrief gibt für den Yorkshire Terrier eine Schulterhöhe von 22 cm an. 📄 Quelle: did_vl03_bildungsstd, Folie 19 (S.19)",
-  "source": "did_vl03_bildungsstd, Folie 19 (S.19, Einführung – Darstellen)"
- },
- {
-  "id": "did_vl03_bildungsstd-b2-018",
-  "topic": "did_vl03_bildungsstd_darstellen",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Wie viel Gewicht hat der Golden Retriever laut Steckbrief im Darstellen-Beispiel (etwa)?",
-  "answer": 32,
-  "tolerance": 0,
-  "unit": "kg",
-  "explanation": "Der Steckbrief nennt für den Golden Retriever ein Gewicht von etwa 32 kg. 📄 Quelle: did_vl03_bildungsstd, Folie 19 (S.19)",
-  "source": "did_vl03_bildungsstd, Folie 19 (S.19, Einführung – Darstellen)"
- },
- {
-  "id": "did_vl03_bildungsstd-b2-019",
-  "topic": "did_vl03_bildungsstd_darstellen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Angaben zum Golden Retriever stehen laut Steckbrief korrekt fest?",
-  "options": [
-   "Schulterhöhe 60 cm",
-   "Alter 10 bis 12 Jahre",
-   "Gewicht etwa 3 kg",
-   "Schulterhöhe 22 cm"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Der Golden Retriever hat laut Steckbrief eine Schulterhöhe von 60 cm und ein Alter von 10 bis 12 Jahren. Gewicht etwa 3 kg und Schulterhöhe 22 cm gehören zum Yorkshire Terrier. 📄 Quelle: did_vl03_bildungsstd, Folie 19 (S.19)",
-  "source": "did_vl03_bildungsstd, Folie 19 (S.19, Einführung – Darstellen)"
- },
- {
-  "id": "did_vl03_bildungsstd-b2-020",
-  "topic": "did_vl03_bildungsstd_darstellen",
-  "difficulty": 1,
-  "type": "multi",
-  "question": "Welche Hilfswörter zum übersichtlichen Ordnen werden im Darstellen-Beispiel („Ordnet übersichtlich!\") vorgegeben?",
-  "options": [
-   "groß",
-   "klein",
-   "alt",
-   "nicht alt"
-  ],
-  "correct": [
-   0,
-   1,
-   2,
-   3
-  ],
-  "explanation": "Die Aufgabe lautet „Ordnet übersichtlich!\" mit den Hilfswörtern: groß, klein, alt, nicht alt. 📄 Quelle: did_vl03_bildungsstd, Folie 20 (S.20)",
-  "source": "did_vl03_bildungsstd, Folie 20 (S.20, Einführung – Darstellen)"
- },
- {
-  "id": "did_vl03_bildungsstd-b2-021",
-  "topic": "did_vl03_bildungsstd_darstellen",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Welche Kompetenz des Darstellens wird in diesem Schülerbeispiel besonders sichtbar?",
-  "options": [
-   "Die Hunde-Angaben werden in eine andere, übersichtliche Darstellung (Tabelle) übertragen und geordnet.",
-   "Es werden Vermutungen über Zahlenmuster aufgestellt und geprüft.",
-   "Ein Sachproblem wird in eine Gleichung übersetzt und innermathematisch gelöst.",
-   "Ein Rechenweg wird für andere Kinder verständlich aufgeschrieben."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Kinder übertragen die Angaben aus dem Steckbrief in eine übersichtliche Tabellen-/Vierfelder-Darstellung – das entspricht „eine Darstellung in eine andere übertragen\". 📄 Quelle: did_vl03_bildungsstd, Folie 20 (S.20)",
-  "source": "did_vl03_bildungsstd, Folie 20 (S.20, Einführung – Darstellen)"
- },
- {
-  "id": "did_vl03_bildungsstd-b2-022",
-  "topic": "did_vl03_bildungsstd_unterrichtsqualitaet",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Von wem stammen die auf der Folie dargestellten „Merkmale guten Unterrichts\"?",
-  "options": [
-   "Meyer",
-   "Wittmann",
-   "Piaget",
-   "Winter"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie ist überschrieben „Merkmale guten Unterrichts – nach Meyer\". 📄 Quelle: did_vl03_bildungsstd, Folie 21 (S.21)",
-  "source": "did_vl03_bildungsstd, Folie 21 (S.21, Einführung – Unterrichtsqualität)"
- },
- {
-  "id": "did_vl03_bildungsstd-b2-023",
-  "topic": "did_vl03_bildungsstd_unterrichtsqualitaet",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Wie viele Merkmale guten Unterrichts nach Meyer sind auf der Folie im Kreis dargestellt?",
-  "answer": 10,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Die Folie zeigt 10 Merkmale: Klare Strukturierung, Hoher Anteil echter Lernzeit, Lernförderliches Klima, Inhaltliche Klarheit, Sinnstiftendes Kommunizieren, Methodenvielfalt, Individuelles Fördern, Intelligentes Üben, Leistungserwartung transparent und Vorbereitete Umgebung. 📄 Quelle: did_vl03_bildungsstd, Folie 21 (S.21)",
-  "source": "did_vl03_bildungsstd, Folie 21 (S.21, Einführung – Unterrichtsqualität)"
- },
- {
-  "id": "did_vl03_bildungsstd-b2-024",
-  "topic": "did_vl03_bildungsstd_unterrichtsqualitaet",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche der folgenden Merkmale gehören laut Folie zu den „Merkmalen guten Unterrichts nach Meyer\"?",
-  "options": [
-   "Klare Strukturierung",
-   "Hoher Anteil echter Lernzeit",
-   "Methodenvielfalt",
-   "Möglichst wenige Übungsphasen"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Klare Strukturierung, Hoher Anteil echter Lernzeit und Methodenvielfalt sind Merkmale der Folie; „möglichst wenige Übungsphasen\" ist kein Merkmal (genannt wird stattdessen „Intelligentes Üben\"). 📄 Quelle: did_vl03_bildungsstd, Folie 21 (S.21)",
-  "source": "did_vl03_bildungsstd, Folie 21 (S.21, Einführung – Unterrichtsqualität)"
- },
- {
-  "id": "did_vl03_bildungsstd-b2-025",
-  "topic": "did_vl03_bildungsstd_unterrichtsqualitaet",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche weiteren Merkmale nennt die Folie „Merkmale guten Unterrichts nach Meyer\"?",
-  "options": [
-   "Lernförderliches Klima",
-   "Individuelles Fördern",
-   "Transparente Leistungserwartung",
-   "Häufige benotete Leistungskontrollen"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Lernförderliches Klima, Individuelles Fördern und (transparente) Leistungserwartung sind Merkmale der Folie. „Häufige benotete Leistungskontrollen\" gehört nicht dazu. 📄 Quelle: did_vl03_bildungsstd, Folie 21 (S.21)",
-  "source": "did_vl03_bildungsstd, Folie 21 (S.21, Einführung – Unterrichtsqualität)"
- }
+  {
+    "id": "did_vl03_bildungsstd-b1-001",
+    "topic": "did_vl03_bildungsstd_problemloesen",
+    "difficulty": 1,
+    "type": "multi",
+    "question": "Welche Aussagen treffen auf die Problemlöse-Lernumgebung aus Klasse 4 zu, die als Beispiel vorgestellt wird?",
+    "options": [
+      "Sie trägt den Namen Zahlengitter",
+      "Die Kinder sollen möglichst viele Pluszahl-Paare finden, die zur Zielzahl 20 führen",
+      "Die Zielzahl beträgt 30",
+      "Es geht um das Spiegeln von Figuren in der Geometrie"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Die Lernumgebung heißt Zahlengitter; die Aufgabe für Klasse 4 lautet: Finde möglichst viele Pluszahl-Paare, die zur Zielzahl 20 führen. 📄 Quelle: did_vl03_bildungsstd, Folie 3 (S.3)",
+    "source": "did_vl03_bildungsstd, Folie 3 (S.3, Einführung – Problemlösen Beispiel Klasse 4)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b1-002",
+    "topic": "did_vl03_bildungsstd_problemloesen",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "In einer Zahlengitter-Lernumgebung (Klasse 4) sollen möglichst viele Pluszahl-Paare gefunden werden, die zu einer vorgegebenen Zielzahl führen. Welche Zielzahl ist dabei vorgegeben?",
+    "answer": 20,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Die Aufgabe lautet: Finde möglichst viele Pluszahl-Paare, die zur Zielzahl 20 führen. 📄 Quelle: did_vl03_bildungsstd, Folie 3 (S.3)",
+    "source": "did_vl03_bildungsstd, Folie 3 (S.3, Einführung – Problemlösen Beispiel Klasse 4)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b1-003",
+    "topic": "did_vl03_bildungsstd_loesungsstrategien",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche unterschiedlichen Vorgehensweisen (Nutzung und Entwicklung von Lösungsstrategien) zeigten die Kinder beim Finden der Pluszahlen-Paare?",
+    "options": [
+      "Unsystematisches oder unsystematisch erscheinendes Probieren",
+      "Ableiten eines Pluszahlen-Paares aus seinem Tauschpaar",
+      "Zerlegen der Mittelzahl 10 in zwei Summanden, die dann als Pluszahlen dienen",
+      "Operatives Verändern der Pluszahlen",
+      "Nachschlagen der Lösungen in einer Formelsammlung"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Auf der Folie werden vier Vorgehensweisen genannt: unsystematisches Probieren, Ableiten aus dem Tauschpaar, Zerlegen der Mittelzahl 10 in zwei Summanden und operatives Verändern der Pluszahlen. Das Nachschlagen in einer Formelsammlung gehört nicht dazu. 📄 Quelle: did_vl03_bildungsstd, Folie 4 (S.4)",
+    "source": "did_vl03_bildungsstd, Folie 4 (S.4, Einführung – Problemlösen Beispiel Klasse 4)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b1-004",
+    "topic": "did_vl03_bildungsstd_loesungsstrategien",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Was entsteht beim „Ableiten eines Pluszahlen-Paares aus seinem Tauschpaar“ aus dem Paar (+2; +8)?",
+    "options": [
+      "(+8; +2)",
+      "(+2; +8) bleibt unverändert",
+      "(+3; +7)",
+      "(+10; +10)"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Als Beispiel wird angegeben: aus (+2; +8) wird (+8; +2) gewonnen. 📄 Quelle: did_vl03_bildungsstd, Folie 4 (S.4)",
+    "source": "did_vl03_bildungsstd, Folie 4 (S.4, Einführung – Problemlösen Beispiel Klasse 4)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b1-005",
+    "topic": "did_vl03_bildungsstd_loesungsstrategien",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Beim „operativen Verändern der Pluszahlen“ wird als Beispiel die linke Pluszahl um 1 erhöht und ...",
+    "options": [
+      "die obere um 1 vermindern",
+      "die obere um 1 erhöhen",
+      "die rechte um 2 vermindern",
+      "die Zielzahl um 1 erhöhen"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Beispiel für operatives Verändern: linke Pluszahl um 1 erhöhen, obere um 1 vermindern. 📄 Quelle: did_vl03_bildungsstd, Folie 4 (S.4)",
+    "source": "did_vl03_bildungsstd, Folie 4 (S.4, Einführung – Problemlösen Beispiel Klasse 4)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b1-006",
+    "topic": "did_vl03_bildungsstd_auffaelligkeiten",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Auffälligkeiten wurden in der Zusammenschau der Zahlengitter (Zielzahl 20) benannt?",
+    "options": [
+      "Als Mittelzahl kommt immer die 10 (bzw. die 11) heraus",
+      "Wenn die linke Pluszahl um 1 größer wird, wird die obere um 1 kleiner",
+      "Rechts oben (bzw. links unten bzw. rechts unten / Zielzahl) steht immer eine gerade Zahl",
+      "Die rechte mittlere und die untere Mittelzahl sind zusammen immer 30",
+      "Als Mittelzahl kommt immer eine ungerade Primzahl heraus"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Genannt wurden u.a.: Mittelzahl immer 10 (bzw. 11); linke Pluszahl +1 → obere −1; rechts oben/links unten/rechts unten steht eine gerade Zahl; rechte mittlere und untere Mittelzahl zusammen immer 30. Die Aussage zur ungeraden Primzahl steht nicht auf der Folie. 📄 Quelle: did_vl03_bildungsstd, Folie 5 (S.5)",
+    "source": "did_vl03_bildungsstd, Folie 5 (S.5, Einführung – Problemlösen Beispiel Klasse 4)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b1-007",
+    "topic": "did_vl03_bildungsstd_auffaelligkeiten",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Welche Mittelzahl kommt laut den benannten Auffälligkeiten bei den Zahlengittern immer heraus?",
+    "options": [
+      "Immer die 10 (bzw. die 11)",
+      "Immer die 20",
+      "Immer die 30",
+      "Immer die 0"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Auffälligkeit: 'Als Mittelzahl kommt immer die 10 (bzw. die 11) heraus.' 📄 Quelle: did_vl03_bildungsstd, Folie 5 (S.5)",
+    "source": "did_vl03_bildungsstd, Folie 5 (S.5, Einführung – Problemlösen Beispiel Klasse 4)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b1-008",
+    "topic": "did_vl03_bildungsstd_auffaelligkeiten",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Welche Summe ergibt sich bei einem Zahlengitter mit der Zielzahl 20 immer, wenn man die Zahlen von links oben nach rechts unten (bzw. von rechts oben nach links unten) addiert?",
+    "answer": 30,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Auffälligkeit: 'Bei der Zielzahl 20 sind es immer 30, wenn man die Zahlen von links oben nach rechts unten (bzw. von rechts oben nach links unten) addiert.' 📄 Quelle: did_vl03_bildungsstd, Folie 5 (S.5)",
+    "source": "did_vl03_bildungsstd, Folie 5 (S.5, Einführung – Problemlösen Beispiel Klasse 4)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b1-009",
+    "topic": "did_vl03_bildungsstd_zielzahl22",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Beobachtungen notierte das Kind (Elisabeth) zu allen Zahlengittern mit der Zielzahl 22?",
+    "options": [
+      "Die 11 ist immer in der Mitte",
+      "Die Startzahl ist immer 0",
+      "Es kommt immer 22 heraus",
+      "Wenn die 11 nicht in der Mitte steht, ist die Lösung falsch",
+      "Die Startzahl ist immer 11"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Elisabeth notierte u.a.: Die 11 ist immer in der Mitte; die Startzahl ist immer 0; es kommt immer 22 heraus; wenn die 11 nicht in der Mitte steht, ist die Lösung falsch. Die Startzahl ist 0, nicht 11. 📄 Quelle: did_vl03_bildungsstd, Folie 8 (S.8)",
+    "source": "did_vl03_bildungsstd, Folie 8 (S.8, Einführung – Problemlösen Beispiel Klasse 4, Zielzahl 22)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b1-010",
+    "topic": "did_vl03_bildungsstd_zielzahl22",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Welche Zahl steht laut der Schülerbeobachtung bei den Zahlengittern mit Zielzahl 22 immer in der Mitte?",
+    "answer": 11,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Beobachtung: 'Die 11 ist immer in der Mitte.' 📄 Quelle: did_vl03_bildungsstd, Folie 8 (S.8)",
+    "source": "did_vl03_bildungsstd, Folie 8 (S.8, Einführung – Problemlösen Beispiel Klasse 4, Zielzahl 22)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b1-011",
+    "topic": "did_vl03_bildungsstd_kommunizieren",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aspekte gehören zur allgemeinen Kompetenz „Kommunizieren“?",
+    "options": [
+      "Eigene Vorgehensweisen beschreiben, Lösungswege anderer verstehen und gemeinsam darüber reflektieren",
+      "Mathematische Fachbegriffe und Zeichen sachgerecht verwenden",
+      "Aufgaben gemeinsam bearbeiten, dabei Verabredungen treffen und einhalten",
+      "Formeln auswendig lernen und Rechenverfahren automatisieren"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Zur Kompetenz Kommunizieren zählen: eigene Vorgehensweisen beschreiben und Lösungswege anderer verstehen/reflektieren, mathematische Fachbegriffe und Zeichen sachgerecht verwenden sowie Aufgaben gemeinsam bearbeiten und Verabredungen treffen/einhalten. Das Automatisieren von Rechenverfahren ist hier nicht genannt. 📄 Quelle: did_vl03_bildungsstd, Folie 9 (S.9)",
+    "source": "did_vl03_bildungsstd, Folie 9 (S.9, Einführung – Kommunizieren)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b1-012",
+    "topic": "did_vl03_bildungsstd_kommunizieren",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Wie sollen Lernende gemäß der Kompetenz 'Kommunizieren' mit mathematischen Fachbegriffen und Zeichen umgehen?",
+    "options": [
+      "Sie sachgerecht verwenden",
+      "Sie möglichst vermeiden",
+      "Sie nur mündlich, nie schriftlich benutzen",
+      "Sie durch Alltagssprache ersetzen"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Folie: 'mathematische Fachbegriffe und Zeichen sachgerecht verwenden'. 📄 Quelle: did_vl03_bildungsstd, Folie 9 (S.9)",
+    "source": "did_vl03_bildungsstd, Folie 9 (S.9, Einführung – Kommunizieren)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b1-013",
+    "topic": "did_vl03_bildungsstd_kommunizieren",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Beim Schulfest wurden 956 Euro eingenommen und gleichmäßig auf vier Klassen verteilt. Wie viel Euro erhält jede Klasse?",
+    "answer": 239,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "Die Aufgabe (vor der Behandlung der Division mit großen Zahlen) lautet: 956 Euro werden auf vier Klassen verteilt; 956 : 4 = 239. 📄 Quelle: did_vl03_bildungsstd, Folie 10 (S.10)",
+    "source": "did_vl03_bildungsstd, Folie 10 (S.10, Einführung – Kommunizieren Beispiel Klasse 4)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b1-014",
+    "topic": "did_vl03_bildungsstd_kommunizieren",
+    "difficulty": 2,
+    "type": "single",
+    "question": "In welchem unterrichtlichen Zusammenhang wird die Schulfest-Aufgabe (956 Euro werden auf vier Klassen verteilt) eingesetzt?",
+    "options": [
+      "Vor der Behandlung der Division mit großen Zahlen",
+      "Nach der Einführung des schriftlichen Wurzelziehens",
+      "Als Einstieg in die Bruchrechnung",
+      "Zur Wiederholung der schriftlichen Multiplikation"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie kennzeichnet die Aufgabe ausdrücklich als 'vor der Behandlung der Division mit großen Zahlen'. 📄 Quelle: did_vl03_bildungsstd, Folie 10 (S.10)",
+    "source": "did_vl03_bildungsstd, Folie 10 (S.10, Einführung – Kommunizieren Beispiel Klasse 4)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b1-015",
+    "topic": "did_vl03_bildungsstd_kommunizieren",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Lösungswege für 956 : 4 dokumentieren die Kinderlösungen von Nicole und Mira?",
+    "options": [
+      "Aufteilen der Aufgabe in Teilschritte (z. B. 800 : 4 = 200 usw.)",
+      "Zweimaliges Halbieren: 956 : 2 = 478 und 478 : 2 = 239",
+      "Schriftliche Division mit ausführlichem Rest-Verfahren",
+      "Runden auf 1000 und anschließendes Multiplizieren"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Nicole teilte die Aufgabe in Teilschritte auf (u.a. 800 : 4 = 200); Mira rechnete durch zweimaliges Halbieren: 956 : 2 = 478, dann 478 : 2 = 239. 📄 Quelle: did_vl03_bildungsstd, Folie 11 (S.11)",
+    "source": "did_vl03_bildungsstd, Folie 11 (S.11, Einführung – Kommunizieren Beispiel Klasse 4)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b1-016",
+    "topic": "did_vl03_bildungsstd_kommunizieren",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Zu welchem Ergebnis kommt Miras Lösungsweg (956 : 2 = 478; 478 : 2 = ...) für die Aufgabe 956 : 4?",
+    "answer": 239,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Mira halbiert zweimal: 956 : 2 = 478 und 478 : 2 = 239; das Ergebnis ist 239. 📄 Quelle: did_vl03_bildungsstd, Folie 11 (S.11)",
+    "source": "did_vl03_bildungsstd, Folie 11 (S.11, Einführung – Kommunizieren Beispiel Klasse 4)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b2-001",
+    "topic": "did_vl03_bildungsstd_kommunizieren",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Welche Aufforderung steht in der Beispielaufgabe zum Kompetenzbereich „Kommunizieren\" (Klasse 4)?",
+    "options": [
+      "„Wie rechnest du diese Aufgabe? Schreibe deinen Lösungsweg so auf, dass die anderen Kinder ihn verstehen können.\"",
+      "„Berechne das Ergebnis möglichst schnell im Kopf.\"",
+      "„Prüfe die Aussage deines Partners auf Korrektheit.\"",
+      "„Formuliere zu dem Term eine passende Sachaufgabe.\""
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Beispielfolie zeigt genau diese Aufgabenstellung: Der Lösungsweg soll so aufgeschrieben werden, dass andere Kinder ihn verstehen können – das kennzeichnet den Kompetenzbereich Kommunizieren. 📄 Quelle: did_vl03_bildungsstd, Folie 12 (S.12)",
+    "source": "did_vl03_bildungsstd, Folie 12 (S.12, Einführung – Kommunizieren)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b2-002",
+    "topic": "did_vl03_bildungsstd_kommunizieren",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Murat rechnet 956 : 4, indem er zunächst 1000 : 4 = 250 bestimmt und davon 11 abzieht. Welches Ergebnis erhält er?",
+    "answer": 239,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Murat rechnet 1000:4=250, dann 250 − 11 = 239. Sein Ergebnis für 956 : 4 ist 239. 📄 Quelle: did_vl03_bildungsstd, Folie 12 (S.12)",
+    "source": "did_vl03_bildungsstd, Folie 12 (S.12, Einführung – Kommunizieren)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b2-003",
+    "topic": "did_vl03_bildungsstd_argumentieren",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Was gehört zum Kompetenzbereich „Argumentieren“?",
+    "options": [
+      "mathematische Aussagen hinterfragen und auf Korrektheit prüfen",
+      "mathematische Zusammenhänge erkennen und Vermutungen entwickeln",
+      "Begründungen suchen und nachvollziehen",
+      "für das Bearbeiten mathematischer Probleme geeignete Darstellungen entwickeln, auswählen und nutzen"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Die Folie nennt für das Argumentieren: Aussagen hinterfragen und auf Korrektheit prüfen, Zusammenhänge erkennen und Vermutungen entwickeln sowie Begründungen suchen und nachvollziehen. Das Entwickeln/Nutzen von Darstellungen gehört zu Darstellen. 📄 Quelle: did_vl03_bildungsstd, Folie 13 (S.13)",
+    "source": "did_vl03_bildungsstd, Folie 13 (S.13, Einführung – Argumentieren)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b2-004",
+    "topic": "did_vl03_bildungsstd_argumentieren",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Ergänze folientreu: Beim Argumentieren sollen mathematische Zusammenhänge erkannt und ___ entwickelt werden.",
+    "options": [
+      "Vermutungen",
+      "Sachaufgaben",
+      "Darstellungen",
+      "Terme"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Laut Folie: „mathematische Zusammenhänge erkennen und Vermutungen entwickeln\". 📄 Quelle: did_vl03_bildungsstd, Folie 13 (S.13)",
+    "source": "did_vl03_bildungsstd, Folie 13 (S.13, Einführung – Argumentieren)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b2-005",
+    "topic": "did_vl03_bildungsstd_argumentieren",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welche Vermutung stellt das Kind im Beispiel (Zahlenmauern) auf?",
+    "options": [
+      "Die Zahl im Zielstein wird am größten, wenn die größte Zahl in der Mitte (der ersten Reihe) ist.",
+      "Die Zahl im Zielstein ist immer gleich, egal wie die Steine liegen.",
+      "Die Zahl im Zielstein wird am größten, wenn die größte Zahl außen liegt.",
+      "Die Zahl im Zielstein ist die Summe aller drei Grundsteine.",
+      "Der Zielstein wird am kleinsten, wenn die größte Zahl in der Mitte ist."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Das Kind notiert: „Die Steine in der ersten Reihe werden vertauscht\" und als Auffälligkeit „Die Zahl im Zielstein wird am größten, wenn die größte Zahl in der Mitte ist\". 📄 Quelle: did_vl03_bildungsstd, Folie 14 (S.14)",
+    "source": "did_vl03_bildungsstd, Folie 14 (S.14, Einführung – Argumentieren)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b2-006",
+    "topic": "did_vl03_bildungsstd_argumentieren",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Welchen Zielstein ergibt die Zahlenmauer mit der Grundreihe 1, 4, 2 (jeweils Summe zweier benachbarter Steine)?",
+    "answer": 11,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "1+4=5, 4+2=6, 5+6=11. Der Zielstein ist 11 – der größte der vier Beispiele, weil die größte Zahl (4) in der Mitte steht (bestätigt die Vermutung). 📄 Quelle: did_vl03_bildungsstd, Folie 14 (S.14)",
+    "source": "did_vl03_bildungsstd, Folie 14 (S.14, Einführung – Argumentieren)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b2-007",
+    "topic": "did_vl03_bildungsstd_modellieren",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Wie wird „Mathematisches Modellieren“ charakterisiert?",
+    "options": [
+      "„Übersetzen zwischen Realität und Mathematik und zurück\"",
+      "„Begründungen suchen und nachvollziehen\"",
+      "„Darstellungen miteinander vergleichen und bewerten\"",
+      "„mathematische Aussagen auf Korrektheit prüfen\""
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie beschreibt Mathematisches Modellieren als „Übersetzen zwischen Realität und Mathematik und zurück\". 📄 Quelle: did_vl03_bildungsstd, Folie 15 (S.15)",
+    "source": "did_vl03_bildungsstd, Folie 15 (S.15, Einführung – Modellieren)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b2-008",
+    "topic": "did_vl03_bildungsstd_modellieren",
+    "difficulty": 1,
+    "type": "multi",
+    "question": "Zwischen welchen beiden Bereichen wird beim Modellieren laut Darstellung (Doppelpfeil) übersetzt?",
+    "options": [
+      "Realität",
+      "Mathematik",
+      "Geometrie",
+      "Arithmetik"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Die Skizze zeigt zwei mit Doppelpfeil verbundene Bereiche: Realität und Mathematik. 📄 Quelle: did_vl03_bildungsstd, Folie 15 (S.15)",
+    "source": "did_vl03_bildungsstd, Folie 15 (S.15, Einführung – Modellieren)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b2-009",
+    "topic": "did_vl03_bildungsstd_modellieren",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Was gehört zum Kompetenzbereich „Modellieren“?",
+    "options": [
+      "Sachtexten und anderen Darstellungen der Lebenswirklichkeit die relevanten Informationen entnehmen",
+      "Sachprobleme in die Sprache der Mathematik übersetzen, innermathematisch lösen und diese Lösungen auf die Ausgangssituation beziehen",
+      "zu Termen, Gleichungen und bildlichen Darstellungen Sachaufgaben formulieren",
+      "mathematische Aussagen hinterfragen und auf Korrektheit prüfen"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Die Folie nennt für das Modellieren drei Punkte (relevante Informationen entnehmen; Sachprobleme übersetzen, innermathematisch lösen und rückbeziehen; zu Termen/Gleichungen/Darstellungen Sachaufgaben formulieren). Das Prüfen von Aussagen auf Korrektheit gehört zu Argumentieren. 📄 Quelle: did_vl03_bildungsstd, Folie 16 (S.16)",
+    "source": "did_vl03_bildungsstd, Folie 16 (S.16, Einführung – Modellieren)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b2-010",
+    "topic": "did_vl03_bildungsstd_modellieren",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Ergänze folientreu: Beim Modellieren sollen Sachprobleme in die Sprache der Mathematik übersetzt, ___ gelöst und die Lösungen auf die Ausgangssituation bezogen werden.",
+    "options": [
+      "innermathematisch",
+      "näherungsweise",
+      "grafisch",
+      "experimentell"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Laut Folie: „Sachprobleme in die Sprache der Mathematik zu übersetzen, innermathematisch zu lösen und diese Lösungen auf die Ausgangssituation zu beziehen\". 📄 Quelle: did_vl03_bildungsstd, Folie 16 (S.16)",
+    "source": "did_vl03_bildungsstd, Folie 16 (S.16, Einführung – Modellieren)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b2-011",
+    "topic": "did_vl03_bildungsstd_modellieren",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Ergänze folientreu: „zu Termen, Gleichungen und bildlichen Darstellungen ___ zu formulieren.\"",
+    "options": [
+      "Sachaufgaben",
+      "Beweise",
+      "Vermutungen",
+      "Definitionen"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Laut Folie: „zu Termen, Gleichungen und bildlichen Darstellungen Sachaufgaben zu formulieren\". 📄 Quelle: did_vl03_bildungsstd, Folie 16 (S.16)",
+    "source": "did_vl03_bildungsstd, Folie 16 (S.16, Einführung – Modellieren)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b2-012",
+    "topic": "did_vl03_bildungsstd_modellieren",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Laut dem Zeitungstext im Modellieren-Beispiel besuchen die fast 4000 Schüler zusammen wie viele Schulklassen?",
+    "answer": 48,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Der Zeitungsartikel nennt: „fast 4000 Schüler, die zusammen 48 Schulklassen besuchen\". 📄 Quelle: did_vl03_bildungsstd, Folie 17 (S.17)",
+    "source": "did_vl03_bildungsstd, Folie 17 (S.17, Einführung – Modellieren)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b2-013",
+    "topic": "did_vl03_bildungsstd_modellieren",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Wie viele Schulen in Gevelsberg sind laut dem Zeitungstext wieder geöffnet?",
+    "answer": 9,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Der Text nennt „die 9 Schulen in Gevelsberg\". 📄 Quelle: did_vl03_bildungsstd, Folie 17 (S.17)",
+    "source": "did_vl03_bildungsstd, Folie 17 (S.17, Einführung – Modellieren)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b2-014",
+    "topic": "did_vl03_bildungsstd_modellieren",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Zu welchem Schluss kommt das Kind im Beispiel bei seiner Modellierung (Rechnung 4000 : 50 = 80)?",
+    "options": [
+      "Nein, es gibt keine Klasse, in der 80 Kinder sind.",
+      "Ja, in jeder Klasse sind genau 80 Kinder.",
+      "Die Angaben aus der Zeitung sind auf jeden Fall korrekt.",
+      "Es gibt genau 50 Klassen mit je 80 Kindern."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Das Kind überschlägt 4000 : 50 = 80 und begründet: „Nein, es gibt keine Klasse, in der 80 Kinder sind\" – es prüft die Angaben auf Plausibilität. 📄 Quelle: did_vl03_bildungsstd, Folie 17 (S.17)",
+    "source": "did_vl03_bildungsstd, Folie 17 (S.17, Einführung – Modellieren)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b2-015",
+    "topic": "did_vl03_bildungsstd_darstellen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Was gehört zum Kompetenzbereich „Darstellen“?",
+    "options": [
+      "für das Bearbeiten mathematischer Probleme geeignete Darstellungen entwickeln, auswählen und nutzen",
+      "eine Darstellung in eine andere übertragen, Darstellungen miteinander vergleichen und bewerten",
+      "Begründungen suchen und nachvollziehen",
+      "Sachprobleme in die Sprache der Mathematik übersetzen"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Die Folie nennt für Darstellen: geeignete Darstellungen entwickeln, auswählen und nutzen sowie eine Darstellung in eine andere übertragen, Darstellungen vergleichen und bewerten. Die anderen Optionen gehören zu Argumentieren bzw. Modellieren. 📄 Quelle: did_vl03_bildungsstd, Folie 18 (S.18)",
+    "source": "did_vl03_bildungsstd, Folie 18 (S.18, Einführung – Darstellen)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b2-016",
+    "topic": "did_vl03_bildungsstd_darstellen",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Ergänze folientreu: „eine Darstellung in eine andere übertragen, Darstellungen miteinander vergleichen und ___.\"",
+    "options": [
+      "bewerten",
+      "zeichnen",
+      "addieren",
+      "begründen"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Laut Folie: „Darstellungen miteinander vergleichen und bewerten\". 📄 Quelle: did_vl03_bildungsstd, Folie 18 (S.18)",
+    "source": "did_vl03_bildungsstd, Folie 18 (S.18, Einführung – Darstellen)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b2-017",
+    "topic": "did_vl03_bildungsstd_darstellen",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Welche Schulterhöhe hat der Yorkshire Terrier laut Steckbrief im Darstellen-Beispiel?",
+    "answer": 22,
+    "tolerance": 0,
+    "unit": "cm",
+    "explanation": "Der Steckbrief gibt für den Yorkshire Terrier eine Schulterhöhe von 22 cm an. 📄 Quelle: did_vl03_bildungsstd, Folie 19 (S.19)",
+    "source": "did_vl03_bildungsstd, Folie 19 (S.19, Einführung – Darstellen)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b2-018",
+    "topic": "did_vl03_bildungsstd_darstellen",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Wie viel Gewicht hat der Golden Retriever laut Steckbrief im Darstellen-Beispiel (etwa)?",
+    "answer": 32,
+    "tolerance": 0,
+    "unit": "kg",
+    "explanation": "Der Steckbrief nennt für den Golden Retriever ein Gewicht von etwa 32 kg. 📄 Quelle: did_vl03_bildungsstd, Folie 19 (S.19)",
+    "source": "did_vl03_bildungsstd, Folie 19 (S.19, Einführung – Darstellen)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b2-019",
+    "topic": "did_vl03_bildungsstd_darstellen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Angaben zum Golden Retriever stehen laut Steckbrief korrekt fest?",
+    "options": [
+      "Schulterhöhe 60 cm",
+      "Alter 10 bis 12 Jahre",
+      "Gewicht etwa 3 kg",
+      "Schulterhöhe 22 cm"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Der Golden Retriever hat laut Steckbrief eine Schulterhöhe von 60 cm und ein Alter von 10 bis 12 Jahren. Gewicht etwa 3 kg und Schulterhöhe 22 cm gehören zum Yorkshire Terrier. 📄 Quelle: did_vl03_bildungsstd, Folie 19 (S.19)",
+    "source": "did_vl03_bildungsstd, Folie 19 (S.19, Einführung – Darstellen)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b2-020",
+    "topic": "did_vl03_bildungsstd_darstellen",
+    "difficulty": 1,
+    "type": "multi",
+    "question": "Welche Hilfswörter zum übersichtlichen Ordnen werden im Darstellen-Beispiel („Ordnet übersichtlich!\") vorgegeben?",
+    "options": [
+      "groß",
+      "klein",
+      "alt",
+      "nicht alt"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Die Aufgabe lautet „Ordnet übersichtlich!\" mit den Hilfswörtern: groß, klein, alt, nicht alt. 📄 Quelle: did_vl03_bildungsstd, Folie 20 (S.20)",
+    "source": "did_vl03_bildungsstd, Folie 20 (S.20, Einführung – Darstellen)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b2-021",
+    "topic": "did_vl03_bildungsstd_darstellen",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welche Kompetenz des Darstellens wird in diesem Schülerbeispiel besonders sichtbar?",
+    "options": [
+      "Die Hunde-Angaben werden in eine andere, übersichtliche Darstellung (Tabelle) übertragen und geordnet.",
+      "Es werden Vermutungen über Zahlenmuster aufgestellt und geprüft.",
+      "Ein Sachproblem wird in eine Gleichung übersetzt und innermathematisch gelöst.",
+      "Ein Rechenweg wird für andere Kinder verständlich aufgeschrieben."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Kinder übertragen die Angaben aus dem Steckbrief in eine übersichtliche Tabellen-/Vierfelder-Darstellung – das entspricht „eine Darstellung in eine andere übertragen\". 📄 Quelle: did_vl03_bildungsstd, Folie 20 (S.20)",
+    "source": "did_vl03_bildungsstd, Folie 20 (S.20, Einführung – Darstellen)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b2-022",
+    "topic": "did_vl03_bildungsstd_unterrichtsqualitaet",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Von wem stammen die bekannten „Merkmale guten Unterrichts“ (mit zehn Merkmalen wie z. B. Klare Strukturierung)?",
+    "options": [
+      "Meyer",
+      "Wittmann",
+      "Piaget",
+      "Winter"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie ist überschrieben „Merkmale guten Unterrichts – nach Meyer\". 📄 Quelle: did_vl03_bildungsstd, Folie 21 (S.21)",
+    "source": "did_vl03_bildungsstd, Folie 21 (S.21, Einführung – Unterrichtsqualität)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b2-023",
+    "topic": "did_vl03_bildungsstd_unterrichtsqualitaet",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Wie viele Merkmale guten Unterrichts nach Meyer werden aufgeführt?",
+    "answer": 10,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Die Folie zeigt 10 Merkmale: Klare Strukturierung, Hoher Anteil echter Lernzeit, Lernförderliches Klima, Inhaltliche Klarheit, Sinnstiftendes Kommunizieren, Methodenvielfalt, Individuelles Fördern, Intelligentes Üben, Leistungserwartung transparent und Vorbereitete Umgebung. 📄 Quelle: did_vl03_bildungsstd, Folie 21 (S.21)",
+    "source": "did_vl03_bildungsstd, Folie 21 (S.21, Einführung – Unterrichtsqualität)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b2-024",
+    "topic": "did_vl03_bildungsstd_unterrichtsqualitaet",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche der folgenden Merkmale gehören zu den „Merkmalen guten Unterrichts nach Meyer“?",
+    "options": [
+      "Klare Strukturierung",
+      "Hoher Anteil echter Lernzeit",
+      "Methodenvielfalt",
+      "Möglichst wenige Übungsphasen"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Klare Strukturierung, Hoher Anteil echter Lernzeit und Methodenvielfalt sind Merkmale der Folie; „möglichst wenige Übungsphasen\" ist kein Merkmal (genannt wird stattdessen „Intelligentes Üben\"). 📄 Quelle: did_vl03_bildungsstd, Folie 21 (S.21)",
+    "source": "did_vl03_bildungsstd, Folie 21 (S.21, Einführung – Unterrichtsqualität)"
+  },
+  {
+    "id": "did_vl03_bildungsstd-b2-025",
+    "topic": "did_vl03_bildungsstd_unterrichtsqualitaet",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche weiteren Merkmale gehören zu den „Merkmalen guten Unterrichts nach Meyer“?",
+    "options": [
+      "Lernförderliches Klima",
+      "Individuelles Fördern",
+      "Transparente Leistungserwartung",
+      "Häufige benotete Leistungskontrollen"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Lernförderliches Klima, Individuelles Fördern und (transparente) Leistungserwartung sind Merkmale der Folie. „Häufige benotete Leistungskontrollen\" gehört nicht dazu. 📄 Quelle: did_vl03_bildungsstd, Folie 21 (S.21)",
+    "source": "did_vl03_bildungsstd, Folie 21 (S.21, Einführung – Unterrichtsqualität)"
+  }
 ]

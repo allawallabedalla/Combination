@@ -1,561 +1,561 @@
 [
- {
-  "id": "ari23_vl13-b1-001",
-  "topic": "ari23_vl13_konstruktion",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche der folgenden Grundkonstruktionen werden laut Folie mit dem Lineal ausgeführt?",
-  "options": [
-   "Eine Gerade durch zwei Punkte zeichnen",
-   "Zwei Punkte durch eine Strecke verbinden",
-   "Einen Kreis um einen gegebenen Mittelpunkt M durch einen weiteren Punkt P zeichnen",
-   "Einen Kreis um einen gegebenen Mittelpunkt M mit einem von zwei Punkten übernommenen Radius zeichnen"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Die Folie ordnet dem Lineal das Zeichnen einer Geraden durch zwei Punkte sowie das Verbinden zweier Punkte durch eine Strecke zu; das Zeichnen von Kreisen erfolgt jeweils mit dem Zirkel. 📄 Quelle: ari23_vl13, Folie 7 (S.7)",
-  "source": "ari23_vl13, Folie 7 (S.7, Konstruieren)"
- },
- {
-  "id": "ari23_vl13-b1-002",
-  "topic": "ari23_vl13_konstruktion",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Auf welche zwei Arten kann laut Folie ein Kreis mit dem Zirkel konstruiert werden?",
-  "options": [
-   "Um einen gegebenen Mittelpunkt M durch einen weiteren Punkt P",
-   "Um einen gegebenen Mittelpunkt M mit einem Radius, der von zwei (schon konstruierten oder gegebenen) Punkten übernommen werden kann",
-   "Als Kreis durch drei gegebene Punkte A, B und C",
-   "Als Schnittpunkt zweier gegebener Geraden"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Die Folie nennt zwei Zirkel-Grundkonstruktionen: Kreis um M durch einen weiteren Punkt P sowie Kreis um M mit einem Radius, der von zwei Punkten übernommen wird. 📄 Quelle: ari23_vl13, Folie 7 (S.7)",
-  "source": "ari23_vl13, Folie 7 (S.7, Konstruieren)"
- },
- {
-  "id": "ari23_vl13-b1-003",
-  "topic": "ari23_vl13_konstruktion",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Konstruktionen werden auf der Folie als 'Module (nachher)' aufgeführt?",
-  "options": [
-   "Parallele Geraden (zu einer Geraden durch einen Punkt)",
-   "Rechtwinklige Geraden (zu einer Geraden durch einen Punkt)",
-   "Mittelpunkt einer Strecke",
-   "Umkreis eines Dreiecks"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Als spätere Module nennt die Folie parallele Geraden, rechtwinklige Geraden (jeweils zu einer Geraden durch einen Punkt) und den Mittelpunkt einer Strecke. 📄 Quelle: ari23_vl13, Folie 7 (S.7)",
-  "source": "ari23_vl13, Folie 7 (S.7, Konstruieren)"
- },
- {
-  "id": "ari23_vl13-b1-004",
-  "topic": "ari23_vl13_konstruktion",
-  "difficulty": 1,
-  "type": "multi",
-  "question": "Auf welchen Objekten darf laut Grundkonstruktion ein beliebiger Punkt gezeichnet werden?",
-  "options": [
-   "Auf einer Geraden",
-   "Auf einer Strecke",
-   "Auf einer Kreislinie",
-   "In einem gegebenen Winkel"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Die Folie erlaubt das Zeichnen eines beliebigen Punktes auf einer Geraden, Strecke oder Kreislinie. 📄 Quelle: ari23_vl13, Folie 7 (S.7)",
-  "source": "ari23_vl13, Folie 7 (S.7, Konstruieren)"
- },
- {
-  "id": "ari23_vl13-b1-005",
-  "topic": "ari23_vl13_mitten",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Wie wird 'Mitte 1: Gleiche Entfernung' (Punkt M_U) auf der Folie beschrieben?",
-  "options": [
-   "M_U ist der Mittelpunkt des Kreises durch die drei Punkte A, B, C (Umkreismittelpunkt)",
-   "M_U hat die gleiche Entfernung zu A, B und C",
-   "M_U ist der Punkt, für den die Summe der Entfernungen zu A, B, C minimal ist",
-   "M_U austariert das Dreieck ABC als Fläche"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Mitte 1 (Gleiche Entfernung) ist der Umkreismittelpunkt M_U, also der Mittelpunkt des Kreises durch A, B, C; er hat die gleiche Entfernung zu A, B und C. Minimale Entfernungssumme (Fermatpunkt) und Austarieren (Schwerpunkt) sind andere Mitten. 📄 Quelle: ari23_vl13, Folie 9 (S.9)",
-  "source": "ari23_vl13, Folie 9 (S.9, Was ist die Mitte?)"
- },
- {
-  "id": "ari23_vl13-b1-006",
-  "topic": "ari23_vl13_mitten",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Wie ist 'Mitte 2: Minimale Entfernung' (Punkt M_F, Fermatpunkt) laut Folie definiert?",
-  "options": [
-   "Der Punkt, für den die Summe der Entfernungen zu den Punkten minimal ist",
-   "Der Mittelpunkt des Umkreises des Dreiecks",
-   "Der Punkt mit gleicher Entfernung zu allen drei Punkten",
-   "Der Punkt, der das Dreieck als Fläche austariert"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Mitte 2 ist der Fermatpunkt M_F, für den die Summe der Entfernungen zu den Punkten minimal ist. 📄 Quelle: ari23_vl13, Folie 9 (S.9)",
-  "source": "ari23_vl13, Folie 9 (S.9, Was ist die Mitte?)"
- },
- {
-  "id": "ari23_vl13-b1-007",
-  "topic": "ari23_vl13_mitten",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Wie wird 'Mitte 3: Austarieren' (Punkt M_S) auf der Folie beschrieben?",
-  "options": [
-   "Der Punkt, der das Dreieck ABC als Fläche (oder mit Kugeln in den Ecken) austariert – der Schwerpunkt",
-   "Der Mittelpunkt des Inkreises des Dreiecks",
-   "Der Punkt mit gleicher Entfernung zu A, B und C",
-   "Der Punkt mit minimaler Entfernungssumme zu den Ecken"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Mitte 3 (Austarieren) ist der Schwerpunkt M_S, der das Dreieck ABC als Fläche bzw. mit Kugeln in den Ecken austariert (wenn man es balanciert bzw. an einen Faden hängt). 📄 Quelle: ari23_vl13, Folie 10 (S.10)",
-  "source": "ari23_vl13, Folie 10 (S.10, Was ist die Mitte?)"
- },
- {
-  "id": "ari23_vl13-b1-008",
-  "topic": "ari23_vl13_mitten",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Aussagen treffen laut Folie auf 'Mitte 4: Gleicher Abstand' (Punkt M_I) zu?",
-  "options": [
-   "Der Abstand von M_I zu den Verbindungsstrecken (Seiten) ist gleich groß",
-   "M_I ist der Mittelpunkt des Inkreises eines Dreiecks",
-   "M_I ist der Mittelpunkt des Umkreises eines Dreiecks",
-   "M_I hat gleiche Entfernung zu den Ecken A, B und C"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Mitte 4 (Gleicher Abstand) ist der Inkreismittelpunkt M_I, für den der Abstand zu den Verbindungsstrecken (Seiten) gleich groß ist. Gleiche Entfernung zu den Ecken bzw. der Umkreismittelpunkt betreffen Mitte 1. 📄 Quelle: ari23_vl13, Folie 10 (S.10)",
-  "source": "ari23_vl13, Folie 10 (S.10, Was ist die Mitte?)"
- },
- {
-  "id": "ari23_vl13-b1-009",
-  "topic": "ari23_vl13_mittelsenkrechte",
-  "difficulty": 3,
-  "type": "multi",
-  "question": "Der Satz 'Gleiche Entfernung zu zwei Punkten' (Folie 13) – welche Aussagen geben Voraussetzung (Wenn) und Folgerung (Dann) korrekt wieder?",
-  "options": [
-   "Voraussetzung: Ein Punkt P ist gleich weit von zwei Punkten A und B entfernt",
-   "Folgerung: P liegt auf einer Geraden senkrecht zu AB durch den Mittelpunkt von AB",
-   "Voraussetzung: P liegt auf der Strecke AB",
-   "Folgerung: P ist der Mittelpunkt von AB"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Der Satz lautet: Wenn ein Punkt P gleich weit von zwei Punkten A und B entfernt ist, dann liegt er auf einer Geraden senkrecht zu AB durch den Mittelpunkt von AB. 📄 Quelle: ari23_vl13, Folie 13 (S.13)",
-  "source": "ari23_vl13, Folie 13 (S.13, Erinnerung: Gleiche Entfernung zu zwei Punkten)"
- },
- {
-  "id": "ari23_vl13-b1-010",
-  "topic": "ari23_vl13_mittelsenkrechte",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Für welche Punkte gilt der Satz 'Gleiche Entfernung zu zwei Punkten' laut Folie?",
-  "options": [
-   "Für alle Punkte P der Ebene",
-   "Nur für Punkte innerhalb der Strecke AB",
-   "Nur für den Mittelpunkt von AB",
-   "Nur für Punkte oberhalb der Geraden AB"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Der Satz beginnt mit 'Für alle Punkte P der Ebene gilt:'. 📄 Quelle: ari23_vl13, Folie 13 (S.13)",
-  "source": "ari23_vl13, Folie 13 (S.13, Erinnerung: Gleiche Entfernung zu zwei Punkten)"
- },
- {
-  "id": "ari23_vl13-b1-011",
-  "topic": "ari23_vl13_mittelsenkrechte",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Laut Definition heißt eine Gerade m_AB genau dann Mittelsenkrechte zu einer Strecke AB, wenn welche Bedingungen erfüllt sind?",
-  "options": [
-   "Die Gerade verläuft durch den Mittelpunkt von AB",
-   "Die Gerade steht senkrecht zur Strecke AB",
-   "Die Gerade verläuft durch den Punkt A",
-   "Die Gerade halbiert den Winkel bei A"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Die Definition verlangt beide Bedingungen: Die Gerade m_AB verläuft durch den Mittelpunkt von AB und steht senkrecht zur Strecke AB. 📄 Quelle: ari23_vl13, Folie 14 (S.14)",
-  "source": "ari23_vl13, Folie 14 (S.14, Mitte 1: Gleiche Entfernung – Definition)"
- },
- {
-  "id": "ari23_vl13-b1-012",
-  "topic": "ari23_vl13_mittelsenkrechte",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Womit können Mittelsenkrechten laut Folie als Modul konstruiert werden?",
-  "options": [
-   "Mit dem Geodreieck",
-   "Nur mit dem Zirkel",
-   "Nur mit dem Lineal",
-   "Mit dem Winkelmesser"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Die Folie vermerkt: Mittelsenkrechten können als Modul (mit dem Geodreieck) konstruiert werden. 📄 Quelle: ari23_vl13, Folie 14 (S.14)",
-  "source": "ari23_vl13, Folie 14 (S.14, Mitte 1: Gleiche Entfernung – Definition)"
- },
- {
-  "id": "ari23_vl13-b1-013",
-  "topic": "ari23_vl13_umkreis",
-  "difficulty": 3,
-  "type": "multi",
-  "question": "Der Satz zu den Mittelsenkrechten im Dreieck (Folie 15) – welche Aussagen sind Teil von Voraussetzung bzw. Folgerung?",
-  "options": [
-   "Voraussetzung: m_AB, m_BC und m_CA sind die drei Mittelsenkrechten des Dreiecks ABC",
-   "Folgerung: Sie schneiden sich in einem Punkt M_U",
-   "Folgerung: M_U ist der Mittelpunkt des Kreises durch die Punkte A, B und C",
-   "Voraussetzung: ABC ist ein rechtwinkliges Dreieck"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Der Satz: Wenn m_AB, m_BC und m_CA die drei Mittelsenkrechten des Dreiecks ABC sind, dann schneiden sie sich im Punkt M_U, der der Mittelpunkt des Kreises durch A, B und C ist. Eine Einschränkung auf rechtwinklige Dreiecke gibt es nicht. 📄 Quelle: ari23_vl13, Folie 15 (S.15)",
-  "source": "ari23_vl13, Folie 15 (S.15, Mitte 1: Gleiche Entfernung – Satz)"
- },
- {
-  "id": "ari23_vl13-b1-014",
-  "topic": "ari23_vl13_umkreis",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Für welche Dreiecke gilt der Satz über den Schnittpunkt der drei Mittelsenkrechten laut Folie?",
-  "options": [
-   "Für alle Dreiecke ABC der Ebene",
-   "Nur für gleichseitige Dreiecke",
-   "Nur für rechtwinklige Dreiecke",
-   "Nur für spitzwinklige Dreiecke"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Der Satz beginnt mit 'Für alle Dreiecke ABC der Ebene gilt:'. 📄 Quelle: ari23_vl13, Folie 15 (S.15)",
-  "source": "ari23_vl13, Folie 15 (S.15, Mitte 1: Gleiche Entfernung – Satz)"
- },
- {
-  "id": "ari23_vl13-b2-001",
-  "topic": "ari23_vl13_umkreis",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Aussagen macht der Satz zu 'Mitte 1: Gleiche Entfernung' über die Mittelsenkrechten eines Dreiecks ABC der Ebene?",
-  "options": [
-   "Die drei Mittelsenkrechten m_AB, m_BC und m_CA schneiden sich in einem gemeinsamen Punkt M_U.",
-   "M_U ist der Mittelpunkt des Kreises durch die Punkte A, B und C (Umkreis).",
-   "Alle Punkte auf der Mittelsenkrechten zu c (m_AB) haben die gleiche Entfernung zu A und B.",
-   "Der Satz gilt nur für gleichseitige Dreiecke.",
-   "Die Mittelsenkrechten schneiden sich im Schwerpunkt des Dreiecks."
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Der Satz gilt für alle Dreiecke ABC der Ebene: Sind m_AB, m_BC und m_CA die drei Mittelsenkrechten, dann schneiden sie sich in M_U, dem Mittelpunkt des Kreises durch A, B und C. Alle Punkte auf m_AB haben gleiche Entfernung zu A und B. 📄 Quelle: ari23_vl13, Folie 16 (S.16)",
-  "source": "ari23_vl13, Folie 16 (S.16, Geometrie)"
- },
- {
-  "id": "ari23_vl13-b2-002",
-  "topic": "ari23_vl13_umkreis",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Welche Eigenschaft haben alle Punkte auf der Mittelsenkrechten zu a (m_BC)?",
-  "options": [
-   "Sie haben die gleiche Entfernung zu B und C.",
-   "Sie haben die gleiche Entfernung zu A und B.",
-   "Sie haben die gleiche Entfernung zu A und C.",
-   "Sie liegen alle auf dem Umkreis."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Alle Punkte auf der Mittelsenkrechten zu a (m_BC) haben die gleiche Entfernung zu B und C. 📄 Quelle: ari23_vl13, Folie 16 (S.16)",
-  "source": "ari23_vl13, Folie 16 (S.16, Geometrie)"
- },
- {
-  "id": "ari23_vl13-b2-003",
-  "topic": "ari23_vl13_umkreis",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Warum ist der Schnittpunkt M_U von m_AB und m_BC der Mittelpunkt des Umkreises durch A, B und C?",
-  "options": [
-   "Weil er gleich weit von A, B und C entfernt ist.",
-   "Weil er der Höhenschnittpunkt des Dreiecks ist.",
-   "Weil er der Schnittpunkt der Winkelhalbierenden ist.",
-   "Weil er im Schwerpunkt des Dreiecks liegt."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Der Schnittpunkt M_U von m_AB und m_BC ist gleich weit von A, B und C entfernt und damit Mittelpunkt des Kreises durch A, B und C (Umkreis). 📄 Quelle: ari23_vl13, Folie 16 (S.16)",
-  "source": "ari23_vl13, Folie 16 (S.16, Geometrie)"
- },
- {
-  "id": "ari23_vl13-b2-004",
-  "topic": "ari23_vl13_umkreis",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Wie ist die 'Mitte 1: Gleiche Entfernung' eines Dreiecks ABC definiert?",
-  "options": [
-   "Als Mittelpunkt M_U des Kreises durch die drei Punkte A, B, C (Umkreismittelpunkt).",
-   "Als Punkt mit minimaler Summe der Entfernungen zu A, B und C.",
-   "Als Schwerpunkt der Dreiecksfläche.",
-   "Als Höhenschnittpunkt des Dreiecks."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Mitte 1 (Gleiche Entfernung) ist der Mittelpunkt M_U des Kreises durch die drei Punkte A, B, C (Umkreismittelpunkt). 📄 Quelle: ari23_vl13, Folie 18 (S.18)",
-  "source": "ari23_vl13, Folie 18 (S.18, Geometrie)"
- },
- {
-  "id": "ari23_vl13-b2-005",
-  "topic": "ari23_vl13_umkreis",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Welche Anwendung wird auf der Folie für die 'Gleiche Entfernung' (Umkreismittelpunkt) genannt?",
-  "options": [
-   "Station eines Hubschraubers bei drei Skigebieten.",
-   "Logistik, Warenlager.",
-   "Geografischer Mittelpunkt Deutschlands.",
-   "Standort einer Talsperre."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Als Anwendung der 'Gleichen Entfernung' wird die Station eines Hubschraubers bei drei Skigebieten genannt. 📄 Quelle: ari23_vl13, Folie 18 (S.18)",
-  "source": "ari23_vl13, Folie 18 (S.18, Geometrie)"
- },
- {
-  "id": "ari23_vl13-b2-006",
-  "topic": "ari23_vl13_fermatpunkt",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Wie ist die 'Mitte 2: Minimale Entfernung' eines Dreiecks definiert?",
-  "options": [
-   "Als Punkt M_F, für den die Summe der Entfernungen zu den Punkten minimal ist (Fermatpunkt).",
-   "Als Mittelpunkt des Umkreises durch A, B, C.",
-   "Als Schwerpunkt der Dreiecksfläche.",
-   "Als Punkt mit gleicher Entfernung zu allen drei Ecken."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Mitte 2 (Minimale Entfernung) ist der Punkt M_F, für den die Summe der Entfernungen zu den Punkten minimal ist (Fermatpunkt). 📄 Quelle: ari23_vl13, Folie 19 (S.19)",
-  "source": "ari23_vl13, Folie 19 (S.19, Geometrie)"
- },
- {
-  "id": "ari23_vl13-b2-007",
-  "topic": "ari23_vl13_fermatpunkt",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Welche Anwendung wird auf der Folie für die 'Minimale Entfernung' (Fermatpunkt) genannt?",
-  "options": [
-   "Logistik, Warenlager.",
-   "Station eines Hubschraubers bei drei Skigebieten.",
-   "Umkreis eines Dreiecks.",
-   "Bau einer Talsperre."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Als Anwendung der 'Minimalen Entfernung' (Fermatpunkt) werden Logistik und Warenlager genannt. 📄 Quelle: ari23_vl13, Folie 19 (S.19)",
-  "source": "ari23_vl13, Folie 19 (S.19, Geometrie)"
- },
- {
-  "id": "ari23_vl13-b2-008",
-  "topic": "ari23_vl13_schwerpunkt",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Wie ist die 'Mitte 3: Austarieren' eines Dreiecks ABC definiert?",
-  "options": [
-   "Als Punkt M_S, der das Dreieck ABC als Fläche (oder mit Kugeln in den Ecken) austariert (Schwerpunkt).",
-   "Als Umkreismittelpunkt M_U.",
-   "Als Fermatpunkt M_F mit minimaler Entfernungssumme.",
-   "Als Schnittpunkt der drei Mittelsenkrechten."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Mitte 3 (Austarieren) ist der Punkt M_S, der das Dreieck ABC als Fläche (oder mit Kugeln in den Ecken) austariert, wenn man es balanciert bzw. an einen Faden hängt (Schwerpunkt). 📄 Quelle: ari23_vl13, Folie 20 (S.20)",
-  "source": "ari23_vl13, Folie 20 (S.20, Geometrie)"
- },
- {
-  "id": "ari23_vl13-b2-009",
-  "topic": "ari23_vl13_schwerpunkt",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Was wird bei der 'Mitte 3: Austarieren' laut Folie balanciert bzw. an einen Faden gehängt?",
-  "options": [
-   "Das Dreieck ABC als Fläche.",
-   "Das Dreieck mit Kugeln in den Ecken.",
-   "Der Umkreis des Dreiecks.",
-   "Die drei Mittelsenkrechten."
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Der Schwerpunkt M_S ist der Punkt, der das Dreieck ABC als Fläche oder mit Kugeln in den Ecken austariert. 📄 Quelle: ari23_vl13, Folie 20 (S.20)",
-  "source": "ari23_vl13, Folie 20 (S.20, Geometrie)"
- },
- {
-  "id": "ari23_vl13-b2-010",
-  "topic": "ari23_vl13_schwerpunkt",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Aussagen zu den Ansätzen der Mittelpunktsberechnung Deutschlands (Schwerpunkt) sind laut Folie richtig?",
-  "options": [
-   "Das Austarieren der Fläche Deutschlands ergibt einen Punkt in der Gemeinde Niederdorla (Unstrut-Hainich-Kreis, Thüringen).",
-   "Der Schwerpunkt der Fläche ohne Zwölfmeilenzone liegt beim Ort Landstreit bei Eisenach.",
-   "Deutschland mit Zwölfmeilenzone ergibt einen Punkt in der Gemeinde Krebeck (Landkreis Göttingen, Niedersachsen).",
-   "Der Mittelpunkt des dreidimensionalen Modells liegt in Kassel."
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Austarieren der Fläche: Niederdorla (Unstrut-Hainich-Kreis, Thüringen); Schwerpunkt ohne Zwölfmeilenzone: Ort Landstreit bei Eisenach; mit Zwölfmeilenzone: Krebeck (Landkreis Göttingen, Niedersachsen). Der 3D-Modell-Punkt liegt in Dingelstädt-Silberhausen, nicht in Kassel. 📄 Quelle: ari23_vl13, Folie 23 (S.23)",
-  "source": "ari23_vl13, Folie 23 (S.23, Geometrie)"
- },
- {
-  "id": "ari23_vl13-b2-011",
-  "topic": "ari23_vl13_schwerpunkt",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Wo liegt laut Folie der Mittelpunkt Deutschlands beim dreidimensionalen Modell?",
-  "options": [
-   "In Dingelstädt-Silberhausen (Landkreis Eichsfeld, Thüringen).",
-   "In der Gemeinde Krebeck (Landkreis Göttingen, Niedersachsen).",
-   "In der Gemeinde Niederdorla (Unstrut-Hainich-Kreis, Thüringen).",
-   "Beim Ort Landstreit bei Eisenach."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Beim dreidimensionalen Modell liegt der Punkt in Dingelstädt-Silberhausen (Landkreis Eichsfeld, Thüringen). 📄 Quelle: ari23_vl13, Folie 23 (S.23)",
-  "source": "ari23_vl13, Folie 23 (S.23, Geometrie)"
- },
- {
-  "id": "ari23_vl13-b2-012",
-  "topic": "ari23_vl13_schwerpunkt",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Welche Koordinaten werden auf der Folie für den Austarier-Punkt (Fläche) in der Gemeinde Niederdorla angegeben?",
-  "options": [
-   "51° 8′ N, 10° 25′ O",
-   "51° 0′ N, 10° 20′ O",
-   "52° 8′ N, 9° 25′ O",
-   "50° 0′ N, 11° 20′ O"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Für den Punkt in Niederdorla werden die Koordinaten 51° 8′ N, 10° 25′ O angegeben. 📄 Quelle: ari23_vl13, Folie 23 (S.23)",
-  "source": "ari23_vl13, Folie 23 (S.23, Geometrie)"
- },
- {
-  "id": "ari23_vl13-b2-013",
-  "topic": "ari23_vl13_schwerpunkt",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Welches Bauwerk wird auf der Folie stellvertretend für den Schwerpunkt der Fläche Deutschlands ohne Zwölfmeilenzone (Ort Landstreit bei Eisenach) genannt?",
-  "options": [
-   "Die etwa 10 km entfernte Wartburg.",
-   "Der Kölner Dom.",
-   "Das Brandenburger Tor.",
-   "Die Zugspitze."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Für den Schwerpunkt ohne Zwölfmeilenzone beim Ort Landstreit bei Eisenach wird stellvertretend die etwa 10 km entfernte Wartburg genannt. 📄 Quelle: ari23_vl13, Folie 23 (S.23)",
-  "source": "ari23_vl13, Folie 23 (S.23, Geometrie)"
- },
- {
-  "id": "ari23_vl13-b2-014",
-  "topic": "ari23_vl13_erkundungskonzept",
-  "difficulty": 1,
-  "type": "multi",
-  "question": "In welche zwei Gruppen werden die 'Matheforscher*innen' im Fachdidaktischen Seminar (WiSe 23/24) laut Folie eingeteilt?",
-  "options": [
-   "Sek I: Klasse 5-7",
-   "Sek II",
-   "Grundschule: Klasse 1-4",
-   "Studierende der Universität"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Es gibt zwei Gruppen: Sek I (Klasse 5-7) und Sek II. 📄 Quelle: ari23_vl13, Folie 27 (S.27)",
-  "source": "ari23_vl13, Folie 27 (S.27, Geometrie)"
- },
- {
-  "id": "ari23_vl13-b2-015",
-  "topic": "ari23_vl13_erkundungskonzept",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Was ist laut Folie Voraussetzung für die Teilnahme am Seminar 'Matheforscher*innen'?",
-  "options": [
-   "Ein (kurzes) Motivationsschreiben.",
-   "Eine bestandene Abschlussprüfung.",
-   "Ein ärztliches Attest.",
-   "Eine Anmeldegebühr."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Voraussetzung für die Teilnahme ist ein (kurzes) Motivationsschreiben. 📄 Quelle: ari23_vl13, Folie 27 (S.27)",
-  "source": "ari23_vl13, Folie 27 (S.27, Geometrie)"
- },
- {
-  "id": "ari23_vl13-b2-016",
-  "topic": "ari23_vl13_erkundungskonzept",
-  "difficulty": 1,
-  "type": "single",
-  "question": "Wer sind die 'Matheforscher*innen' im Erkundungskonzept?",
-  "options": [
-   "Eine Gruppe besonders interessierter Schülerinnen und Schüler.",
-   "Eine Gruppe von Lehrkräften.",
-   "Eine Gruppe von Professor*innen.",
-   "Eine Gruppe von Eltern."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Matheforscher*innen sind eine Gruppe besonders interessierter Schülerinnen und Schüler (Begleitung begabter Schülerinnen und Schüler der Sekundarstufe I). 📄 Quelle: ari23_vl13, Folie 27 (S.27)",
-  "source": "ari23_vl13, Folie 27 (S.27, Geometrie)"
- }
+  {
+    "id": "ari23_vl13-b1-001",
+    "topic": "ari23_vl13_konstruktion",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche der folgenden Grundkonstruktionen werden mit dem Lineal ausgeführt?",
+    "options": [
+      "Eine Gerade durch zwei Punkte zeichnen",
+      "Zwei Punkte durch eine Strecke verbinden",
+      "Einen Kreis um einen gegebenen Mittelpunkt M durch einen weiteren Punkt P zeichnen",
+      "Einen Kreis um einen gegebenen Mittelpunkt M mit einem von zwei Punkten übernommenen Radius zeichnen"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Die Folie ordnet dem Lineal das Zeichnen einer Geraden durch zwei Punkte sowie das Verbinden zweier Punkte durch eine Strecke zu; das Zeichnen von Kreisen erfolgt jeweils mit dem Zirkel. 📄 Quelle: ari23_vl13, Folie 7 (S.7)",
+    "source": "ari23_vl13, Folie 7 (S.7, Konstruieren)"
+  },
+  {
+    "id": "ari23_vl13-b1-002",
+    "topic": "ari23_vl13_konstruktion",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Auf welche zwei Arten kann ein Kreis mit dem Zirkel als Grundkonstruktion konstruiert werden?",
+    "options": [
+      "Um einen gegebenen Mittelpunkt M durch einen weiteren Punkt P",
+      "Um einen gegebenen Mittelpunkt M mit einem Radius, der von zwei (schon konstruierten oder gegebenen) Punkten übernommen werden kann",
+      "Als Kreis durch drei gegebene Punkte A, B und C",
+      "Als Schnittpunkt zweier gegebener Geraden"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Die Folie nennt zwei Zirkel-Grundkonstruktionen: Kreis um M durch einen weiteren Punkt P sowie Kreis um M mit einem Radius, der von zwei Punkten übernommen wird. 📄 Quelle: ari23_vl13, Folie 7 (S.7)",
+    "source": "ari23_vl13, Folie 7 (S.7, Konstruieren)"
+  },
+  {
+    "id": "ari23_vl13-b1-003",
+    "topic": "ari23_vl13_konstruktion",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Konstruktionen werden als spätere 'Module' aufgeführt?",
+    "options": [
+      "Parallele Geraden (zu einer Geraden durch einen Punkt)",
+      "Rechtwinklige Geraden (zu einer Geraden durch einen Punkt)",
+      "Mittelpunkt einer Strecke",
+      "Umkreis eines Dreiecks"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Als spätere Module nennt die Folie parallele Geraden, rechtwinklige Geraden (jeweils zu einer Geraden durch einen Punkt) und den Mittelpunkt einer Strecke. 📄 Quelle: ari23_vl13, Folie 7 (S.7)",
+    "source": "ari23_vl13, Folie 7 (S.7, Konstruieren)"
+  },
+  {
+    "id": "ari23_vl13-b1-004",
+    "topic": "ari23_vl13_konstruktion",
+    "difficulty": 1,
+    "type": "multi",
+    "question": "Auf welchen Objekten darf laut Grundkonstruktion ein beliebiger Punkt gezeichnet werden?",
+    "options": [
+      "Auf einer Geraden",
+      "Auf einer Strecke",
+      "Auf einer Kreislinie",
+      "In einem gegebenen Winkel"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Die Folie erlaubt das Zeichnen eines beliebigen Punktes auf einer Geraden, Strecke oder Kreislinie. 📄 Quelle: ari23_vl13, Folie 7 (S.7)",
+    "source": "ari23_vl13, Folie 7 (S.7, Konstruieren)"
+  },
+  {
+    "id": "ari23_vl13-b1-005",
+    "topic": "ari23_vl13_mitten",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Wie wird 'Mitte 1: Gleiche Entfernung' (Punkt M_U) eines Dreiecks ABC beschrieben?",
+    "options": [
+      "M_U ist der Mittelpunkt des Kreises durch die drei Punkte A, B, C (Umkreismittelpunkt)",
+      "M_U hat die gleiche Entfernung zu A, B und C",
+      "M_U ist der Punkt, für den die Summe der Entfernungen zu A, B, C minimal ist",
+      "M_U austariert das Dreieck ABC als Fläche"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Mitte 1 (Gleiche Entfernung) ist der Umkreismittelpunkt M_U, also der Mittelpunkt des Kreises durch A, B, C; er hat die gleiche Entfernung zu A, B und C. Minimale Entfernungssumme (Fermatpunkt) und Austarieren (Schwerpunkt) sind andere Mitten. 📄 Quelle: ari23_vl13, Folie 9 (S.9)",
+    "source": "ari23_vl13, Folie 9 (S.9, Was ist die Mitte?)"
+  },
+  {
+    "id": "ari23_vl13-b1-006",
+    "topic": "ari23_vl13_mitten",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wie ist 'Mitte 2: Minimale Entfernung' (Punkt M_F, Fermatpunkt) eines Dreiecks definiert?",
+    "options": [
+      "Der Punkt, für den die Summe der Entfernungen zu den Punkten minimal ist",
+      "Der Mittelpunkt des Umkreises des Dreiecks",
+      "Der Punkt mit gleicher Entfernung zu allen drei Punkten",
+      "Der Punkt, der das Dreieck als Fläche austariert"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Mitte 2 ist der Fermatpunkt M_F, für den die Summe der Entfernungen zu den Punkten minimal ist. 📄 Quelle: ari23_vl13, Folie 9 (S.9)",
+    "source": "ari23_vl13, Folie 9 (S.9, Was ist die Mitte?)"
+  },
+  {
+    "id": "ari23_vl13-b1-007",
+    "topic": "ari23_vl13_mitten",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wie wird 'Mitte 3: Austarieren' (Punkt M_S) eines Dreiecks ABC beschrieben?",
+    "options": [
+      "Der Punkt, der das Dreieck ABC als Fläche (oder mit Kugeln in den Ecken) austariert – der Schwerpunkt",
+      "Der Mittelpunkt des Inkreises des Dreiecks",
+      "Der Punkt mit gleicher Entfernung zu A, B und C",
+      "Der Punkt mit minimaler Entfernungssumme zu den Ecken"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Mitte 3 (Austarieren) ist der Schwerpunkt M_S, der das Dreieck ABC als Fläche bzw. mit Kugeln in den Ecken austariert (wenn man es balanciert bzw. an einen Faden hängt). 📄 Quelle: ari23_vl13, Folie 10 (S.10)",
+    "source": "ari23_vl13, Folie 10 (S.10, Was ist die Mitte?)"
+  },
+  {
+    "id": "ari23_vl13-b1-008",
+    "topic": "ari23_vl13_mitten",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aussagen treffen auf 'Mitte 4: Gleicher Abstand' (Punkt M_I) eines Dreiecks zu?",
+    "options": [
+      "Der Abstand von M_I zu den Verbindungsstrecken (Seiten) ist gleich groß",
+      "M_I ist der Mittelpunkt des Inkreises eines Dreiecks",
+      "M_I ist der Mittelpunkt des Umkreises eines Dreiecks",
+      "M_I hat gleiche Entfernung zu den Ecken A, B und C"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Mitte 4 (Gleicher Abstand) ist der Inkreismittelpunkt M_I, für den der Abstand zu den Verbindungsstrecken (Seiten) gleich groß ist. Gleiche Entfernung zu den Ecken bzw. der Umkreismittelpunkt betreffen Mitte 1. 📄 Quelle: ari23_vl13, Folie 10 (S.10)",
+    "source": "ari23_vl13, Folie 10 (S.10, Was ist die Mitte?)"
+  },
+  {
+    "id": "ari23_vl13-b1-009",
+    "topic": "ari23_vl13_mittelsenkrechte",
+    "difficulty": 3,
+    "type": "multi",
+    "question": "Der Satz 'Gleiche Entfernung zu zwei Punkten' – welche Aussagen geben Voraussetzung (Wenn) und Folgerung (Dann) korrekt wieder?",
+    "options": [
+      "Voraussetzung: Ein Punkt P ist gleich weit von zwei Punkten A und B entfernt",
+      "Folgerung: P liegt auf einer Geraden senkrecht zu AB durch den Mittelpunkt von AB",
+      "Voraussetzung: P liegt auf der Strecke AB",
+      "Folgerung: P ist der Mittelpunkt von AB"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Der Satz lautet: Wenn ein Punkt P gleich weit von zwei Punkten A und B entfernt ist, dann liegt er auf einer Geraden senkrecht zu AB durch den Mittelpunkt von AB. 📄 Quelle: ari23_vl13, Folie 13 (S.13)",
+    "source": "ari23_vl13, Folie 13 (S.13, Erinnerung: Gleiche Entfernung zu zwei Punkten)"
+  },
+  {
+    "id": "ari23_vl13-b1-010",
+    "topic": "ari23_vl13_mittelsenkrechte",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Für welche Punkte gilt der Satz 'Gleiche Entfernung zu zwei Punkten'?",
+    "options": [
+      "Für alle Punkte P der Ebene",
+      "Nur für Punkte innerhalb der Strecke AB",
+      "Nur für den Mittelpunkt von AB",
+      "Nur für Punkte oberhalb der Geraden AB"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Der Satz beginnt mit 'Für alle Punkte P der Ebene gilt:'. 📄 Quelle: ari23_vl13, Folie 13 (S.13)",
+    "source": "ari23_vl13, Folie 13 (S.13, Erinnerung: Gleiche Entfernung zu zwei Punkten)"
+  },
+  {
+    "id": "ari23_vl13-b1-011",
+    "topic": "ari23_vl13_mittelsenkrechte",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Laut Definition heißt eine Gerade m_AB genau dann Mittelsenkrechte zu einer Strecke AB, wenn welche Bedingungen erfüllt sind?",
+    "options": [
+      "Die Gerade verläuft durch den Mittelpunkt von AB",
+      "Die Gerade steht senkrecht zur Strecke AB",
+      "Die Gerade verläuft durch den Punkt A",
+      "Die Gerade halbiert den Winkel bei A"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Die Definition verlangt beide Bedingungen: Die Gerade m_AB verläuft durch den Mittelpunkt von AB und steht senkrecht zur Strecke AB. 📄 Quelle: ari23_vl13, Folie 14 (S.14)",
+    "source": "ari23_vl13, Folie 14 (S.14, Mitte 1: Gleiche Entfernung – Definition)"
+  },
+  {
+    "id": "ari23_vl13-b1-012",
+    "topic": "ari23_vl13_mittelsenkrechte",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Womit können Mittelsenkrechten als Modul konstruiert werden?",
+    "options": [
+      "Mit dem Geodreieck",
+      "Nur mit dem Zirkel",
+      "Nur mit dem Lineal",
+      "Mit dem Winkelmesser"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Die Folie vermerkt: Mittelsenkrechten können als Modul (mit dem Geodreieck) konstruiert werden. 📄 Quelle: ari23_vl13, Folie 14 (S.14)",
+    "source": "ari23_vl13, Folie 14 (S.14, Mitte 1: Gleiche Entfernung – Definition)"
+  },
+  {
+    "id": "ari23_vl13-b1-013",
+    "topic": "ari23_vl13_umkreis",
+    "difficulty": 3,
+    "type": "multi",
+    "question": "Der Satz zu den Mittelsenkrechten im Dreieck – welche Aussagen sind Teil von Voraussetzung bzw. Folgerung?",
+    "options": [
+      "Voraussetzung: m_AB, m_BC und m_CA sind die drei Mittelsenkrechten des Dreiecks ABC",
+      "Folgerung: Sie schneiden sich in einem Punkt M_U",
+      "Folgerung: M_U ist der Mittelpunkt des Kreises durch die Punkte A, B und C",
+      "Voraussetzung: ABC ist ein rechtwinkliges Dreieck"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Der Satz: Wenn m_AB, m_BC und m_CA die drei Mittelsenkrechten des Dreiecks ABC sind, dann schneiden sie sich im Punkt M_U, der der Mittelpunkt des Kreises durch A, B und C ist. Eine Einschränkung auf rechtwinklige Dreiecke gibt es nicht. 📄 Quelle: ari23_vl13, Folie 15 (S.15)",
+    "source": "ari23_vl13, Folie 15 (S.15, Mitte 1: Gleiche Entfernung – Satz)"
+  },
+  {
+    "id": "ari23_vl13-b1-014",
+    "topic": "ari23_vl13_umkreis",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Für welche Dreiecke gilt der Satz über den Schnittpunkt der drei Mittelsenkrechten?",
+    "options": [
+      "Für alle Dreiecke ABC der Ebene",
+      "Nur für gleichseitige Dreiecke",
+      "Nur für rechtwinklige Dreiecke",
+      "Nur für spitzwinklige Dreiecke"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Der Satz beginnt mit 'Für alle Dreiecke ABC der Ebene gilt:'. 📄 Quelle: ari23_vl13, Folie 15 (S.15)",
+    "source": "ari23_vl13, Folie 15 (S.15, Mitte 1: Gleiche Entfernung – Satz)"
+  },
+  {
+    "id": "ari23_vl13-b2-001",
+    "topic": "ari23_vl13_umkreis",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aussagen macht der Satz zu 'Mitte 1: Gleiche Entfernung' über die Mittelsenkrechten eines Dreiecks ABC der Ebene?",
+    "options": [
+      "Die drei Mittelsenkrechten m_AB, m_BC und m_CA schneiden sich in einem gemeinsamen Punkt M_U.",
+      "M_U ist der Mittelpunkt des Kreises durch die Punkte A, B und C (Umkreis).",
+      "Alle Punkte auf der Mittelsenkrechten zu c (m_AB) haben die gleiche Entfernung zu A und B.",
+      "Der Satz gilt nur für gleichseitige Dreiecke.",
+      "Die Mittelsenkrechten schneiden sich im Schwerpunkt des Dreiecks."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Der Satz gilt für alle Dreiecke ABC der Ebene: Sind m_AB, m_BC und m_CA die drei Mittelsenkrechten, dann schneiden sie sich in M_U, dem Mittelpunkt des Kreises durch A, B und C. Alle Punkte auf m_AB haben gleiche Entfernung zu A und B. 📄 Quelle: ari23_vl13, Folie 16 (S.16)",
+    "source": "ari23_vl13, Folie 16 (S.16, Geometrie)"
+  },
+  {
+    "id": "ari23_vl13-b2-002",
+    "topic": "ari23_vl13_umkreis",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Welche Eigenschaft haben alle Punkte auf der Mittelsenkrechten zu a (m_BC)?",
+    "options": [
+      "Sie haben die gleiche Entfernung zu B und C.",
+      "Sie haben die gleiche Entfernung zu A und B.",
+      "Sie haben die gleiche Entfernung zu A und C.",
+      "Sie liegen alle auf dem Umkreis."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Alle Punkte auf der Mittelsenkrechten zu a (m_BC) haben die gleiche Entfernung zu B und C. 📄 Quelle: ari23_vl13, Folie 16 (S.16)",
+    "source": "ari23_vl13, Folie 16 (S.16, Geometrie)"
+  },
+  {
+    "id": "ari23_vl13-b2-003",
+    "topic": "ari23_vl13_umkreis",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Warum ist der Schnittpunkt M_U von m_AB und m_BC der Mittelpunkt des Umkreises durch A, B und C?",
+    "options": [
+      "Weil er gleich weit von A, B und C entfernt ist.",
+      "Weil er der Höhenschnittpunkt des Dreiecks ist.",
+      "Weil er der Schnittpunkt der Winkelhalbierenden ist.",
+      "Weil er im Schwerpunkt des Dreiecks liegt."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Der Schnittpunkt M_U von m_AB und m_BC ist gleich weit von A, B und C entfernt und damit Mittelpunkt des Kreises durch A, B und C (Umkreis). 📄 Quelle: ari23_vl13, Folie 16 (S.16)",
+    "source": "ari23_vl13, Folie 16 (S.16, Geometrie)"
+  },
+  {
+    "id": "ari23_vl13-b2-004",
+    "topic": "ari23_vl13_umkreis",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Wie ist die 'Mitte 1: Gleiche Entfernung' eines Dreiecks ABC definiert?",
+    "options": [
+      "Als Mittelpunkt M_U des Kreises durch die drei Punkte A, B, C (Umkreismittelpunkt).",
+      "Als Punkt mit minimaler Summe der Entfernungen zu A, B und C.",
+      "Als Schwerpunkt der Dreiecksfläche.",
+      "Als Höhenschnittpunkt des Dreiecks."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Mitte 1 (Gleiche Entfernung) ist der Mittelpunkt M_U des Kreises durch die drei Punkte A, B, C (Umkreismittelpunkt). 📄 Quelle: ari23_vl13, Folie 18 (S.18)",
+    "source": "ari23_vl13, Folie 18 (S.18, Geometrie)"
+  },
+  {
+    "id": "ari23_vl13-b2-005",
+    "topic": "ari23_vl13_umkreis",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Welche Anwendung wird für die 'Gleiche Entfernung' (Umkreismittelpunkt) genannt?",
+    "options": [
+      "Station eines Hubschraubers bei drei Skigebieten.",
+      "Logistik, Warenlager.",
+      "Geografischer Mittelpunkt Deutschlands.",
+      "Standort einer Talsperre."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Als Anwendung der 'Gleichen Entfernung' wird die Station eines Hubschraubers bei drei Skigebieten genannt. 📄 Quelle: ari23_vl13, Folie 18 (S.18)",
+    "source": "ari23_vl13, Folie 18 (S.18, Geometrie)"
+  },
+  {
+    "id": "ari23_vl13-b2-006",
+    "topic": "ari23_vl13_fermatpunkt",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wie ist die 'Mitte 2: Minimale Entfernung' eines Dreiecks definiert?",
+    "options": [
+      "Als Punkt M_F, für den die Summe der Entfernungen zu den Punkten minimal ist (Fermatpunkt).",
+      "Als Mittelpunkt des Umkreises durch A, B, C.",
+      "Als Schwerpunkt der Dreiecksfläche.",
+      "Als Punkt mit gleicher Entfernung zu allen drei Ecken."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Mitte 2 (Minimale Entfernung) ist der Punkt M_F, für den die Summe der Entfernungen zu den Punkten minimal ist (Fermatpunkt). 📄 Quelle: ari23_vl13, Folie 19 (S.19)",
+    "source": "ari23_vl13, Folie 19 (S.19, Geometrie)"
+  },
+  {
+    "id": "ari23_vl13-b2-007",
+    "topic": "ari23_vl13_fermatpunkt",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Welche Anwendung wird für die 'Minimale Entfernung' (Fermatpunkt) genannt?",
+    "options": [
+      "Logistik, Warenlager.",
+      "Station eines Hubschraubers bei drei Skigebieten.",
+      "Umkreis eines Dreiecks.",
+      "Bau einer Talsperre."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Als Anwendung der 'Minimalen Entfernung' (Fermatpunkt) werden Logistik und Warenlager genannt. 📄 Quelle: ari23_vl13, Folie 19 (S.19)",
+    "source": "ari23_vl13, Folie 19 (S.19, Geometrie)"
+  },
+  {
+    "id": "ari23_vl13-b2-008",
+    "topic": "ari23_vl13_schwerpunkt",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wie ist die 'Mitte 3: Austarieren' eines Dreiecks ABC definiert?",
+    "options": [
+      "Als Punkt M_S, der das Dreieck ABC als Fläche (oder mit Kugeln in den Ecken) austariert (Schwerpunkt).",
+      "Als Umkreismittelpunkt M_U.",
+      "Als Fermatpunkt M_F mit minimaler Entfernungssumme.",
+      "Als Schnittpunkt der drei Mittelsenkrechten."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Mitte 3 (Austarieren) ist der Punkt M_S, der das Dreieck ABC als Fläche (oder mit Kugeln in den Ecken) austariert, wenn man es balanciert bzw. an einen Faden hängt (Schwerpunkt). 📄 Quelle: ari23_vl13, Folie 20 (S.20)",
+    "source": "ari23_vl13, Folie 20 (S.20, Geometrie)"
+  },
+  {
+    "id": "ari23_vl13-b2-009",
+    "topic": "ari23_vl13_schwerpunkt",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Was wird bei der 'Mitte 3: Austarieren' (Schwerpunkt) balanciert bzw. an einen Faden gehängt?",
+    "options": [
+      "Das Dreieck ABC als Fläche.",
+      "Das Dreieck mit Kugeln in den Ecken.",
+      "Der Umkreis des Dreiecks.",
+      "Die drei Mittelsenkrechten."
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Der Schwerpunkt M_S ist der Punkt, der das Dreieck ABC als Fläche oder mit Kugeln in den Ecken austariert. 📄 Quelle: ari23_vl13, Folie 20 (S.20)",
+    "source": "ari23_vl13, Folie 20 (S.20, Geometrie)"
+  },
+  {
+    "id": "ari23_vl13-b2-010",
+    "topic": "ari23_vl13_schwerpunkt",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aussagen zu den Ansätzen der Mittelpunktsberechnung Deutschlands (Schwerpunkt) sind richtig?",
+    "options": [
+      "Das Austarieren der Fläche Deutschlands ergibt einen Punkt in der Gemeinde Niederdorla (Unstrut-Hainich-Kreis, Thüringen).",
+      "Der Schwerpunkt der Fläche ohne Zwölfmeilenzone liegt beim Ort Landstreit bei Eisenach.",
+      "Deutschland mit Zwölfmeilenzone ergibt einen Punkt in der Gemeinde Krebeck (Landkreis Göttingen, Niedersachsen).",
+      "Der Mittelpunkt des dreidimensionalen Modells liegt in Kassel."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Austarieren der Fläche: Niederdorla (Unstrut-Hainich-Kreis, Thüringen); Schwerpunkt ohne Zwölfmeilenzone: Ort Landstreit bei Eisenach; mit Zwölfmeilenzone: Krebeck (Landkreis Göttingen, Niedersachsen). Der 3D-Modell-Punkt liegt in Dingelstädt-Silberhausen, nicht in Kassel. 📄 Quelle: ari23_vl13, Folie 23 (S.23)",
+    "source": "ari23_vl13, Folie 23 (S.23, Geometrie)"
+  },
+  {
+    "id": "ari23_vl13-b2-011",
+    "topic": "ari23_vl13_schwerpunkt",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Wo liegt der Mittelpunkt Deutschlands beim dreidimensionalen Modell?",
+    "options": [
+      "In Dingelstädt-Silberhausen (Landkreis Eichsfeld, Thüringen).",
+      "In der Gemeinde Krebeck (Landkreis Göttingen, Niedersachsen).",
+      "In der Gemeinde Niederdorla (Unstrut-Hainich-Kreis, Thüringen).",
+      "Beim Ort Landstreit bei Eisenach."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Beim dreidimensionalen Modell liegt der Punkt in Dingelstädt-Silberhausen (Landkreis Eichsfeld, Thüringen). 📄 Quelle: ari23_vl13, Folie 23 (S.23)",
+    "source": "ari23_vl13, Folie 23 (S.23, Geometrie)"
+  },
+  {
+    "id": "ari23_vl13-b2-012",
+    "topic": "ari23_vl13_schwerpunkt",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Welche Koordinaten hat der Austarier-Punkt (Schwerpunkt der Fläche Deutschlands) in der Gemeinde Niederdorla?",
+    "options": [
+      "51° 8′ N, 10° 25′ O",
+      "51° 0′ N, 10° 20′ O",
+      "52° 8′ N, 9° 25′ O",
+      "50° 0′ N, 11° 20′ O"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Für den Punkt in Niederdorla werden die Koordinaten 51° 8′ N, 10° 25′ O angegeben. 📄 Quelle: ari23_vl13, Folie 23 (S.23)",
+    "source": "ari23_vl13, Folie 23 (S.23, Geometrie)"
+  },
+  {
+    "id": "ari23_vl13-b2-013",
+    "topic": "ari23_vl13_schwerpunkt",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Welches Bauwerk wird stellvertretend für den Schwerpunkt der Fläche Deutschlands ohne Zwölfmeilenzone (Ort Landstreit bei Eisenach) genannt?",
+    "options": [
+      "Die etwa 10 km entfernte Wartburg.",
+      "Der Kölner Dom.",
+      "Das Brandenburger Tor.",
+      "Die Zugspitze."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Für den Schwerpunkt ohne Zwölfmeilenzone beim Ort Landstreit bei Eisenach wird stellvertretend die etwa 10 km entfernte Wartburg genannt. 📄 Quelle: ari23_vl13, Folie 23 (S.23)",
+    "source": "ari23_vl13, Folie 23 (S.23, Geometrie)"
+  },
+  {
+    "id": "ari23_vl13-b2-014",
+    "topic": "ari23_vl13_erkundungskonzept",
+    "difficulty": 1,
+    "type": "multi",
+    "question": "In welche zwei Gruppen werden die 'Matheforscher*innen' im Fachdidaktischen Seminar (WiSe 23/24) eingeteilt?",
+    "options": [
+      "Sek I: Klasse 5-7",
+      "Sek II",
+      "Grundschule: Klasse 1-4",
+      "Studierende der Universität"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Es gibt zwei Gruppen: Sek I (Klasse 5-7) und Sek II. 📄 Quelle: ari23_vl13, Folie 27 (S.27)",
+    "source": "ari23_vl13, Folie 27 (S.27, Geometrie)"
+  },
+  {
+    "id": "ari23_vl13-b2-015",
+    "topic": "ari23_vl13_erkundungskonzept",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Was ist Voraussetzung für die Teilnahme am Seminar 'Matheforscher*innen'?",
+    "options": [
+      "Ein (kurzes) Motivationsschreiben.",
+      "Eine bestandene Abschlussprüfung.",
+      "Ein ärztliches Attest.",
+      "Eine Anmeldegebühr."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Voraussetzung für die Teilnahme ist ein (kurzes) Motivationsschreiben. 📄 Quelle: ari23_vl13, Folie 27 (S.27)",
+    "source": "ari23_vl13, Folie 27 (S.27, Geometrie)"
+  },
+  {
+    "id": "ari23_vl13-b2-016",
+    "topic": "ari23_vl13_erkundungskonzept",
+    "difficulty": 1,
+    "type": "single",
+    "question": "Wer sind die 'Matheforscher*innen' im Erkundungskonzept?",
+    "options": [
+      "Eine Gruppe besonders interessierter Schülerinnen und Schüler.",
+      "Eine Gruppe von Lehrkräften.",
+      "Eine Gruppe von Professor*innen.",
+      "Eine Gruppe von Eltern."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Matheforscher*innen sind eine Gruppe besonders interessierter Schülerinnen und Schüler (Begleitung begabter Schülerinnen und Schüler der Sekundarstufe I). 📄 Quelle: ari23_vl13, Folie 27 (S.27)",
+    "source": "ari23_vl13, Folie 27 (S.27, Geometrie)"
+  }
 ]

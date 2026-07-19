@@ -1,92 +1,92 @@
 [
- {
-  "id": "klausur_ss20-b1-001",
-  "topic": "klausur_ss20_teilbarkeit",
-  "difficulty": 2,
-  "type": "single",
-  "question": "Aufgabe 1a: Prüfen Sie nur mit Teilbarkeitsregeln, ob 87175 durch 125 teilbar ist. Wie lautet das Ergebnis?",
-  "options": [
-   "87175 ist durch 125 teilbar, da die letzten drei Ziffern 175 durch 125 teilbar sind.",
-   "87175 ist NICHT durch 125 teilbar, da die aus den letzten drei Ziffern gebildete Zahl 175 nicht durch 125 teilbar ist.",
-   "87175 ist durch 125 teilbar, da die Quersumme durch 125 teilbar ist.",
-   "87175 ist NICHT durch 125 teilbar, da die Endziffer 5 nicht durch 125 teilbar ist."
-  ],
-  "correct": [
-   1
-  ],
-  "explanation": "Wegen 1000 = 8·125 gilt: eine Zahl ist genau dann durch 125 teilbar, wenn die aus ihren letzten drei Ziffern gebildete Zahl durch 125 teilbar ist. Hier sind die letzten drei Ziffern 175; 175 = 125 + 50 ist nicht durch 125 teilbar, also ist 87175 nicht durch 125 teilbar. 📄 Quelle: klausur_ss20, Folie 2 (S.2)",
-  "source": "klausur_ss20, Folie 2 (S.2, Aufgabe 1a)"
- },
- {
-  "id": "klausur_ss20-b1-002",
-  "topic": "klausur_ss20_teilbarkeit",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Aufgabe 1a: Welche Teilbarkeitsregel für die Zahl 125 ist korrekt?",
-  "options": [
-   "Eine Zahl ist genau dann durch 125 teilbar, wenn die aus ihren letzten drei Ziffern gebildete Zahl durch 125 teilbar ist.",
-   "Eine Zahl ist genau dann durch 125 teilbar, wenn ihre Quersumme durch 125 teilbar ist.",
-   "Eine Zahl ist genau dann durch 125 teilbar, wenn die aus ihren letzten zwei Ziffern gebildete Zahl durch 125 teilbar ist.",
-   "Eine Zahl ist genau dann durch 125 teilbar, wenn ihre letzte Ziffer eine 0 oder 5 ist."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "125 = 5³ und 1000 = 8·125, also ist 1000 durch 125 teilbar. Damit ist eine Zahl genau dann durch 125 teilbar, wenn die aus ihren letzten drei Ziffern gebildete Zahl durch 125 teilbar ist. 📄 Quelle: klausur_ss20, Folie 2 (S.2)",
-  "source": "klausur_ss20, Folie 2 (S.2, Aufgabe 1a)"
- },
- {
-  "id": "klausur_ss20-b1-003",
-  "topic": "klausur_ss20_restklassen",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Aufgabe 1c: Bestimmen Sie 2̄ − 7̄ im Modul 8 (die Restklasse darf kein negatives Vorzeichen haben). Geben Sie den Repräsentanten aus {0, 1, …, 7} an.",
-  "answer": 3,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "2̄ − 7̄ = (2 − 7)‾ = −5‾. Wegen −5 + 8 = 3 gilt −5 ≡ 3 (mod 8), also 2̄ − 7̄ = 3̄. 📄 Quelle: klausur_ss20, Folie 3 (S.3)",
-  "source": "klausur_ss20, Folie 3 (S.3, Aufgabe 1c)"
- },
- {
-  "id": "klausur_ss20-b1-004",
-  "topic": "klausur_ss20_modulo",
-  "difficulty": 3,
-  "type": "numeric",
-  "question": "Aufgabe 1d: Welchen Rest lässt 10.000.000.000 (= 10^10) beim Teilen durch 97?",
-  "answer": 49,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "10² = 100 ≡ 3 (mod 97), also 10⁴ ≡ 3² = 9, 10⁸ ≡ 9² = 81 und 10^10 = 10⁸·10² ≡ 81·3 = 243 ≡ 243 − 2·97 = 49 (mod 97). Der Rest ist 49. 📄 Quelle: klausur_ss20, Folie 3 (S.3)",
-  "source": "klausur_ss20, Folie 3 (S.3, Aufgabe 1d)"
- },
- {
-  "id": "klausur_ss20-b1-005",
-  "topic": "klausur_ss20_ggt_parkettierung",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Aufgabe 4a: Ein Rechteck mit den Seitenlängen 1024 und 24 soll vollständig mit lauter gleich großen Quadraten parkettiert werden. Welche (größtmögliche) Seitenlänge hat das Quadrat, mit dem das gesamte Rechteck parkettiert werden kann?",
-  "answer": 8,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Die Quadratseitenlänge muss beide Seitenlängen teilen; die größtmögliche ist der ggT(1024, 24). Euklidischer Algorithmus: 1024 = 42·24 + 16; 24 = 1·16 + 8; 16 = 2·8 + 0. Also ggT(1024, 24) = 8, d.h. das Quadrat hat die Seitenlänge 8. 📄 Quelle: klausur_ss20, Folie 6 (S.6)",
-  "source": "klausur_ss20, Folie 6 (S.6, Aufgabe 4a)"
- },
- {
-  "id": "klausur_ss20-b1-006",
-  "topic": "klausur_ss20_quadratzahlen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Aufgabe 5: Man bildet das Quadrat einer natürlichen Zahl n und das Quadrat der um 1 verminderten Zahl (n−1) und subtrahiert das kleinere vom größeren. Welches Muster ergibt sich für die Differenzen n² − (n−1)²?",
-  "options": [
-   "n² − (n−1)² = 2n − 1; die Differenzen durchlaufen die aufeinanderfolgenden ungeraden Zahlen.",
-   "n² − (n−1)² = 2n; die Differenzen durchlaufen die aufeinanderfolgenden geraden Zahlen.",
-   "n² − (n−1)² = 2n + 1; die Differenzen durchlaufen die aufeinanderfolgenden geraden Zahlen.",
-   "n² − (n−1)² = n² − 1; die Differenzen wachsen quadratisch."
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "n² − (n−1)² = n² − (n² − 2n + 1) = 2n − 1. Für n = 1, 2, 3, … ergeben sich die Werte 1, 3, 5, 7, …, also die aufeinanderfolgenden ungeraden Zahlen. 📄 Quelle: klausur_ss20, Folie 7 (S.7)",
-  "source": "klausur_ss20, Folie 7 (S.7, Aufgabe 5)"
- }
+  {
+    "id": "klausur_ss20-b1-001",
+    "topic": "klausur_ss20_teilbarkeit",
+    "difficulty": 2,
+    "type": "single",
+    "question": "Prüfen Sie nur mit Teilbarkeitsregeln, ob 87175 durch 125 teilbar ist. Wie lautet das Ergebnis?",
+    "options": [
+      "87175 ist durch 125 teilbar, da die letzten drei Ziffern 175 durch 125 teilbar sind.",
+      "87175 ist NICHT durch 125 teilbar, da die aus den letzten drei Ziffern gebildete Zahl 175 nicht durch 125 teilbar ist.",
+      "87175 ist durch 125 teilbar, da die Quersumme durch 125 teilbar ist.",
+      "87175 ist NICHT durch 125 teilbar, da die Endziffer 5 nicht durch 125 teilbar ist."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Wegen 1000 = 8·125 gilt: eine Zahl ist genau dann durch 125 teilbar, wenn die aus ihren letzten drei Ziffern gebildete Zahl durch 125 teilbar ist. Hier sind die letzten drei Ziffern 175; 175 = 125 + 50 ist nicht durch 125 teilbar, also ist 87175 nicht durch 125 teilbar. 📄 Quelle: klausur_ss20, Folie 2 (S.2)",
+    "source": "klausur_ss20, Folie 2 (S.2, Aufgabe 1a)"
+  },
+  {
+    "id": "klausur_ss20-b1-002",
+    "topic": "klausur_ss20_teilbarkeit",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Teilbarkeitsregel für die Zahl 125 ist korrekt?",
+    "options": [
+      "Eine Zahl ist genau dann durch 125 teilbar, wenn die aus ihren letzten drei Ziffern gebildete Zahl durch 125 teilbar ist.",
+      "Eine Zahl ist genau dann durch 125 teilbar, wenn ihre Quersumme durch 125 teilbar ist.",
+      "Eine Zahl ist genau dann durch 125 teilbar, wenn die aus ihren letzten zwei Ziffern gebildete Zahl durch 125 teilbar ist.",
+      "Eine Zahl ist genau dann durch 125 teilbar, wenn ihre letzte Ziffer eine 0 oder 5 ist."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "125 = 5³ und 1000 = 8·125, also ist 1000 durch 125 teilbar. Damit ist eine Zahl genau dann durch 125 teilbar, wenn die aus ihren letzten drei Ziffern gebildete Zahl durch 125 teilbar ist. 📄 Quelle: klausur_ss20, Folie 2 (S.2)",
+    "source": "klausur_ss20, Folie 2 (S.2, Aufgabe 1a)"
+  },
+  {
+    "id": "klausur_ss20-b1-003",
+    "topic": "klausur_ss20_restklassen",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Bestimmen Sie 2̄ − 7̄ im Modul 8 (die Restklasse darf kein negatives Vorzeichen haben). Geben Sie den Repräsentanten aus {0, 1, …, 7} an.",
+    "answer": 3,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "2̄ − 7̄ = (2 − 7)‾ = −5‾. Wegen −5 + 8 = 3 gilt −5 ≡ 3 (mod 8), also 2̄ − 7̄ = 3̄. 📄 Quelle: klausur_ss20, Folie 3 (S.3)",
+    "source": "klausur_ss20, Folie 3 (S.3, Aufgabe 1c)"
+  },
+  {
+    "id": "klausur_ss20-b1-004",
+    "topic": "klausur_ss20_modulo",
+    "difficulty": 3,
+    "type": "numeric",
+    "question": "Welchen Rest lässt 10.000.000.000 (= 10^10) beim Teilen durch 97?",
+    "answer": 49,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "10² = 100 ≡ 3 (mod 97), also 10⁴ ≡ 3² = 9, 10⁸ ≡ 9² = 81 und 10^10 = 10⁸·10² ≡ 81·3 = 243 ≡ 243 − 2·97 = 49 (mod 97). Der Rest ist 49. 📄 Quelle: klausur_ss20, Folie 3 (S.3)",
+    "source": "klausur_ss20, Folie 3 (S.3, Aufgabe 1d)"
+  },
+  {
+    "id": "klausur_ss20-b1-005",
+    "topic": "klausur_ss20_ggt_parkettierung",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Ein Rechteck mit den Seitenlängen 1024 und 24 soll vollständig mit lauter gleich großen Quadraten parkettiert werden. Welche (größtmögliche) Seitenlänge hat das Quadrat, mit dem das gesamte Rechteck parkettiert werden kann?",
+    "answer": 8,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Die Quadratseitenlänge muss beide Seitenlängen teilen; die größtmögliche ist der ggT(1024, 24). Euklidischer Algorithmus: 1024 = 42·24 + 16; 24 = 1·16 + 8; 16 = 2·8 + 0. Also ggT(1024, 24) = 8, d.h. das Quadrat hat die Seitenlänge 8. 📄 Quelle: klausur_ss20, Folie 6 (S.6)",
+    "source": "klausur_ss20, Folie 6 (S.6, Aufgabe 4a)"
+  },
+  {
+    "id": "klausur_ss20-b1-006",
+    "topic": "klausur_ss20_quadratzahlen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Man bildet das Quadrat einer natürlichen Zahl n und das Quadrat der um 1 verminderten Zahl (n−1) und subtrahiert das kleinere vom größeren. Welches Muster ergibt sich für die Differenzen n² − (n−1)²?",
+    "options": [
+      "n² − (n−1)² = 2n − 1; die Differenzen durchlaufen die aufeinanderfolgenden ungeraden Zahlen.",
+      "n² − (n−1)² = 2n; die Differenzen durchlaufen die aufeinanderfolgenden geraden Zahlen.",
+      "n² − (n−1)² = 2n + 1; die Differenzen durchlaufen die aufeinanderfolgenden geraden Zahlen.",
+      "n² − (n−1)² = n² − 1; die Differenzen wachsen quadratisch."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "n² − (n−1)² = n² − (n² − 2n + 1) = 2n − 1. Für n = 1, 2, 3, … ergeben sich die Werte 1, 3, 5, 7, …, also die aufeinanderfolgenden ungeraden Zahlen. 📄 Quelle: klausur_ss20, Folie 7 (S.7)",
+    "source": "klausur_ss20, Folie 7 (S.7, Aufgabe 5)"
+  }
 ]

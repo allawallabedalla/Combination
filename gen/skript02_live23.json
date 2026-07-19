@@ -1,278 +1,278 @@
 [
- {
-  "id": "skript02_live23-b1-001",
-  "topic": "skript02_live23_summenformel_potenzen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Aussagen zur Herleitung von S_n (Ver-3-fachung) auf Folie 9 sind korrekt?",
-  "options": [
-   "Der geschlossene Term lautet S_n = (3^n − 1)/2",
-   "Als Ausgangsgleichung (GL1) gilt S_n = 1 + 3^1 + 3^2 + … + 3^(n−2) + 3^(n−1)",
-   "Durch Ausklammern von 3 (GL2) gilt S_n = 1 + 3·(1 + 3^1 + … + 3^(n−3) + 3^(n−2))",
-   "Der geschlossene Term lautet S_n = n·(n+1)/2"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "GL1 ist die Summen-Folge, GL2 entsteht durch Ausklammern von 3, und die Herleitung endet bei S_n = (3^n − 1)/2. S_n = n·(n+1)/2 ist die Gaußsche Formel, die nur als Vorbild genannt wird. 📄 Quelle: skript02_live23, Folie 9 (S.1)",
-  "source": "skript02_live23, Folie 9 (S.1, Arithmetik)"
- },
- {
-  "id": "skript02_live23-b1-002",
-  "topic": "skript02_live23_summenformel_potenzen",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Berechne mit der auf Folie 9 hergeleiteten Formel S_n = (3^n − 1)/2 den Wert S_4 (Ver-3-fachung).",
-  "answer": 40,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "S_4 = (3^4 − 1)/2 = (81 − 1)/2 = 80/2 = 40 (vgl. Summe Feld 4 der Ver-3-fachung in der Tabelle). 📄 Quelle: skript02_live23, Folie 9 (S.1)",
-  "source": "skript02_live23, Folie 9 (S.1, Arithmetik)"
- },
- {
-  "id": "skript02_live23-b1-003",
-  "topic": "skript02_live23_summenformel_potenzen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Was ist laut Folie 9 die Idee bzw. Strategie der Umformung von S_n?",
-  "options": [
-   "Auf einer Seite der Gleichung eine Summen-Folge, auf der anderen eine nur noch von n abhängige Zahl zu haben",
-   "Als Vorbild dient die Gaußsche Summenformel S_n = n·(n+1)/2",
-   "S_n kann durch einen Term beschrieben werden, der nur noch von n abhängt",
-   "S_n hängt nach der Umformung von n und der Anzahl der Summanden ab"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Die Folie nennt als Idee genau diese Zieldarstellung (Vorbild Gauß) und schließt handschriftlich mit der Feststellung, dass S_n nur noch von n abhängt. 📄 Quelle: skript02_live23, Folie 9 (S.1)",
-  "source": "skript02_live23, Folie 9 (S.1, Arithmetik)"
- },
- {
-  "id": "skript02_live23-b1-004",
-  "topic": "skript02_live23_summenformel_potenzen",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Bestimme mit der Formel S_n = (k^n − 1)/(k − 1) die Summe der ersten 7 Felder bei einer Vervierfachung (k = 4), also S_7.",
-  "answer": 5461,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "S_7 = (4^7 − 1)/(4 − 1) = (16384 − 1)/3 = 16383/3 = 5461. 📄 Quelle: skript02_live23, Folie 13 (S.2)",
-  "source": "skript02_live23, Folie 13 (S.2, Arithmetik)"
- },
- {
-  "id": "skript02_live23-b1-005",
-  "topic": "skript02_live23_summenformel_potenzen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Wie lautet die auf Folie 13 angegebene allgemeine Formel für S_n?",
-  "options": [
-   "S_n = 1 + k^1 + k^2 + k^3 + … + k^(n−3) + k^(n−2) + k^(n−1) = (k^n − 1)/(k − 1)",
-   "S_n = (k^n − 1)/(k − 1)",
-   "S_n = (k^(n−1) − 1)/(k − 1)",
-   "S_n = (k^n − 1)/k"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Der eingerahmte Term auf Folie 13 setzt die Summe 1 + k^1 + … + k^(n−1) mit dem geschlossenen Ausdruck (k^n − 1)/(k − 1) gleich. 📄 Quelle: skript02_live23, Folie 13 (S.2)",
-  "source": "skript02_live23, Folie 13 (S.2, Arithmetik)"
- },
- {
-  "id": "skript02_live23-b1-006",
-  "topic": "skript02_live23_summenformel_potenzen",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Welchen Wert hat 4^7, der bei der Berechnung von S_7 auf Folie 13 verwendet wird?",
-  "answer": 16384,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "In der Rechnung wird 4^7 = 16384 eingesetzt: S_7 = (16384 − 1)/3. 📄 Quelle: skript02_live23, Folie 13 (S.2)",
-  "source": "skript02_live23, Folie 13 (S.2, Arithmetik)"
- },
- {
-  "id": "skript02_live23-b1-007",
-  "topic": "skript02_live23_summenformel_potenzen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Wie wird auf Folie 15 die Bildung von S_n (Aufsummierung bis zur (n−1)-ten Vervielfachung) in Worten beschrieben?",
-  "options": [
-   "Nimm die Vervielfachungszahl k hoch n",
-   "Ziehe 1 ab",
-   "Teile durch die Vervielfachungszahl k − 1",
-   "Multipliziere zusätzlich mit der Vervielfachungszahl k"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Die Folie beschreibt in Worten: k hoch n, davon 1 abziehen und durch k − 1 teilen — das entspricht (k^n − 1)/(k − 1). 📄 Quelle: skript02_live23, Folie 15 (S.3)",
-  "source": "skript02_live23, Folie 15 (S.3, Arithmetik)"
- },
- {
-  "id": "skript02_live23-b1-008",
-  "topic": "skript02_live23_summenformel_potenzen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Voraussetzungen und Aussagen enthält der handschriftlich formulierte Satz auf Folie 15?",
-  "options": [
-   "Für alle natürlichen Zahlen n (und k > 1)",
-   "Ist S_n = 1 + k^1 + k^2 + … + k^(n−2) + k^(n−1), dann ist S_n = (k^n − 1)/(k − 1)",
-   "Der Satz gilt nur für k = 3",
-   "Es muss n < k gelten"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Der Satz gilt für alle natürlichen n und k > 1: Ist S_n die Summe der Ver-k-fachungen, dann ist S_n = (k^n − 1)/(k − 1). Einschränkungen auf k = 3 oder n < k stehen nicht auf der Folie. 📄 Quelle: skript02_live23, Folie 15 (S.3)",
-  "source": "skript02_live23, Folie 15 (S.3, Arithmetik)"
- },
- {
-  "id": "skript02_live23-b1-009",
-  "topic": "skript02_live23_natuerliche_zahlen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Eigenschaften muss eine Zahlenmenge N laut Folie 22 erfüllen, um „Natürliche Zahlen“ zu heißen (Peano-Axiome)?",
-  "options": [
-   "1 ist eine Natürliche Zahl",
-   "Zu jeder natürlichen Zahl n gibt es genau einen Nachfolger n'",
-   "Kein Element von N hat als Nachfolger die 1",
-   "Jedes Element ist Nachfolger zweier verschiedener Elemente von N"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Die ersten drei Aussagen sind die Axiome 1–3. Axiom 4 lautet gerade umgekehrt: KEIN Element ist Nachfolger zweier verschiedener Elemente von N. 📄 Quelle: skript02_live23, Folie 22 (S.4)",
-  "source": "skript02_live23, Folie 22 (S.4, Arithmetik)"
- },
- {
-  "id": "skript02_live23-b1-010",
-  "topic": "skript02_live23_natuerliche_zahlen",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche weiteren Aussagen gehören zu den Axiomen bzw. Notizen auf Folie 22?",
-  "options": [
-   "Kein Element ist Nachfolger zweier verschiedener Elemente von N",
-   "Wenn M eine Teilmenge von N ist und die ersten beiden Axiome erfüllt sind, dann ist M gleich N",
-   "Für den Nachfolger gilt n' = n + 1",
-   "Die 1 ist Nachfolger genau eines Elements"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Axiom 4 (Eindeutigkeit des Vorgängers), Axiom 5 (Induktionsaxiom: Teilmenge M mit den ersten beiden Axiomen ist gleich N) und die handschriftliche Notiz n' = n + 1 sind belegt. Dass 1 Nachfolger sei, widerspricht Axiom 3. 📄 Quelle: skript02_live23, Folie 22 (S.4)",
-  "source": "skript02_live23, Folie 22 (S.4, Arithmetik)"
- },
- {
-  "id": "skript02_live23-b1-011",
-  "topic": "skript02_live23_vollstaendige_induktion",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welcher Satz A(n) wird auf Folie 26 durch vollständige Induktion bewiesen?",
-  "options": [
-   "A(n): S_n = 1 + 2^1 + 2^2 + 2^3 + … + 2^(n−2) + 2^(n−1) = 2^n − 1",
-   "S_n = 2^0 + 2^1 + … + 2^(n−1)",
-   "S_n = 2^n − 1",
-   "S_n = 2^(n−1) − 1"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Der zu beweisende Satz A(n) lautet S_n = 1 + 2^1 + … + 2^(n−1) (= 2^0 + 2^1 + … + 2^(n−1)) = 2^n − 1. 📄 Quelle: skript02_live23, Folie 26 (S.5)",
-  "source": "skript02_live23, Folie 26 (S.5, Arithmetik)"
- },
- {
-  "id": "skript02_live23-b1-012",
-  "topic": "skript02_live23_vollstaendige_induktion",
-  "difficulty": 1,
-  "type": "numeric",
-  "question": "Was ergibt im Induktionsanfang (n = 1) auf Folie 26 die linke Seite S_1 = 2^(1−1) = 2^0?",
-  "answer": 1,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Linke Seite: S_1 = 2^(1−1) = 2^0 = 1; rechte Seite: 2^1 − 1 = 1. Beide Seiten sind gleich, also ist A(1) richtig. 📄 Quelle: skript02_live23, Folie 26 (S.5)",
-  "source": "skript02_live23, Folie 26 (S.5, Arithmetik)"
- },
- {
-  "id": "skript02_live23-b1-013",
-  "topic": "skript02_live23_vollstaendige_induktion",
-  "difficulty": 3,
-  "type": "multi",
-  "question": "Wie verläuft der Induktionsschritt auf Folie 26 (nach Einsetzen der Induktionsvoraussetzung)?",
-  "options": [
-   "S_(n+1) = S_n + 2^n",
-   "Mit der I.V. gilt S_n = 2^n − 1, also S_(n+1) = 2^n − 1 + 2^n",
-   "= 2·2^n − 1 = 2^(n+1) − 1",
-   "= 2^n − 1 + 2^(n−1)"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "S_(n+1) = 1 + 2^1 + … + 2^(n−1) + 2^n = S_n + 2^n; mit der I.V. (S_n = 2^n − 1) folgt 2^n − 1 + 2^n = 2·2^n − 1 = 2^(n+1) − 1. 📄 Quelle: skript02_live23, Folie 26 (S.5)",
-  "source": "skript02_live23, Folie 26 (S.5, Arithmetik)"
- },
- {
-  "id": "skript02_live23-b1-014",
-  "topic": "skript02_live23_vollstaendige_induktion",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welcher Satz wird auf Folie 28 (Vollständige Induktion – Übung) behandelt?",
-  "options": [
-   "Ist S_n die Summe der ersten n natürlichen Zahlen, also S_n = 1 + 2 + 3 + … + (n−2) + (n−1) + n",
-   "dann ist S_n = n/2 · (n+1)",
-   "dann ist S_n = 2^n − 1",
-   "S_n = (n−1)/2 · n"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Auf Folie 28 wird die Gaußsche Summenformel S_n = n/2 · (n+1) für die Summe der ersten n natürlichen Zahlen bewiesen. 📄 Quelle: skript02_live23, Folie 28 (S.6)",
-  "source": "skript02_live23, Folie 28 (S.6, Arithmetik)"
- },
- {
-  "id": "skript02_live23-b1-015",
-  "topic": "skript02_live23_vollstaendige_induktion",
-  "difficulty": 3,
-  "type": "multi",
-  "question": "Was ist im Induktionsschritt (n → n+1) auf Folie 28 zu zeigen bzw. wird verwendet?",
-  "options": [
-   "A(n+1): S_(n+1) = (n+1)/2 · (n+2)",
-   "S_(n+1) = S_n + (n+1)",
-   "S_(n+1) = n/2 · (n+1)",
-   "S_(n+1) = (n+2)/2 · (n+3)"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "explanation": "Zu zeigen ist A(n+1): S_(n+1) = (n+1)/2 · (n+2); dabei wird S_(n+1) = 1 + 2 + … + n + (n+1) = S_n + (n+1) verwendet. 📄 Quelle: skript02_live23, Folie 28 (S.6)",
-  "source": "skript02_live23, Folie 28 (S.6, Arithmetik)"
- },
- {
-  "id": "skript02_live23-b1-016",
-  "topic": "skript02_live23_vollstaendige_induktion",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Berechne mit der auf Folie 28 bewiesenen Formel S_n = n/2 · (n+1) den Wert S_5.",
-  "answer": 15,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "S_5 = 5/2 · (5+1) = 5/2 · 6 = 15 (= 1 + 2 + 3 + 4 + 5). 📄 Quelle: skript02_live23, Folie 28 (S.6)",
-  "source": "skript02_live23, Folie 28 (S.6, Arithmetik)"
- }
+  {
+    "id": "skript02_live23-b1-001",
+    "topic": "skript02_live23_summenformel_potenzen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aussagen zur Herleitung von S_n bei einer Ver-3-fachung (S_n = 1 + 3^1 + 3^2 + … + 3^(n−1)) sind korrekt?",
+    "options": [
+      "Der geschlossene Term lautet S_n = (3^n − 1)/2",
+      "Als Ausgangsgleichung (GL1) gilt S_n = 1 + 3^1 + 3^2 + … + 3^(n−2) + 3^(n−1)",
+      "Durch Ausklammern von 3 (GL2) gilt S_n = 1 + 3·(1 + 3^1 + … + 3^(n−3) + 3^(n−2))",
+      "Der geschlossene Term lautet S_n = n·(n+1)/2"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "GL1 ist die Summen-Folge, GL2 entsteht durch Ausklammern von 3, und die Herleitung endet bei S_n = (3^n − 1)/2. S_n = n·(n+1)/2 ist die Gaußsche Formel, die nur als Vorbild genannt wird. 📄 Quelle: skript02_live23, Folie 9 (S.1)",
+    "source": "skript02_live23, Folie 9 (S.1, Arithmetik)"
+  },
+  {
+    "id": "skript02_live23-b1-002",
+    "topic": "skript02_live23_summenformel_potenzen",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Berechne mit der Formel S_n = (3^n − 1)/2 den Wert S_4 (Ver-3-fachung).",
+    "answer": 40,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "S_4 = (3^4 − 1)/2 = (81 − 1)/2 = 80/2 = 40 (vgl. Summe Feld 4 der Ver-3-fachung in der Tabelle). 📄 Quelle: skript02_live23, Folie 9 (S.1)",
+    "source": "skript02_live23, Folie 9 (S.1, Arithmetik)"
+  },
+  {
+    "id": "skript02_live23-b1-003",
+    "topic": "skript02_live23_summenformel_potenzen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Was ist die Idee bzw. Strategie der Umformung von S_n = 1 + 3^1 + … + 3^(n−1) hin zu einem geschlossenen Term?",
+    "options": [
+      "Auf einer Seite der Gleichung eine Summen-Folge, auf der anderen eine nur noch von n abhängige Zahl zu haben",
+      "Als Vorbild dient die Gaußsche Summenformel S_n = n·(n+1)/2",
+      "S_n kann durch einen Term beschrieben werden, der nur noch von n abhängt",
+      "S_n hängt nach der Umformung von n und der Anzahl der Summanden ab"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Die Folie nennt als Idee genau diese Zieldarstellung (Vorbild Gauß) und schließt handschriftlich mit der Feststellung, dass S_n nur noch von n abhängt. 📄 Quelle: skript02_live23, Folie 9 (S.1)",
+    "source": "skript02_live23, Folie 9 (S.1, Arithmetik)"
+  },
+  {
+    "id": "skript02_live23-b1-004",
+    "topic": "skript02_live23_summenformel_potenzen",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Bestimme mit der Formel S_n = (k^n − 1)/(k − 1) die Summe der ersten 7 Felder bei einer Vervierfachung (k = 4), also S_7.",
+    "answer": 5461,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "S_7 = (4^7 − 1)/(4 − 1) = (16384 − 1)/3 = 16383/3 = 5461. 📄 Quelle: skript02_live23, Folie 13 (S.2)",
+    "source": "skript02_live23, Folie 13 (S.2, Arithmetik)"
+  },
+  {
+    "id": "skript02_live23-b1-005",
+    "topic": "skript02_live23_summenformel_potenzen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Wie lautet die allgemeine Formel für die Summe S_n = 1 + k^1 + k^2 + … + k^(n−1)?",
+    "options": [
+      "S_n = 1 + k^1 + k^2 + k^3 + … + k^(n−3) + k^(n−2) + k^(n−1) = (k^n − 1)/(k − 1)",
+      "S_n = (k^n − 1)/(k − 1)",
+      "S_n = (k^(n−1) − 1)/(k − 1)",
+      "S_n = (k^n − 1)/k"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Der eingerahmte Term auf Folie 13 setzt die Summe 1 + k^1 + … + k^(n−1) mit dem geschlossenen Ausdruck (k^n − 1)/(k − 1) gleich. 📄 Quelle: skript02_live23, Folie 13 (S.2)",
+    "source": "skript02_live23, Folie 13 (S.2, Arithmetik)"
+  },
+  {
+    "id": "skript02_live23-b1-006",
+    "topic": "skript02_live23_summenformel_potenzen",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Welchen Wert hat 4^7 (verwendet bei der Berechnung von S_7 mit Vervielfachungszahl k=4)?",
+    "answer": 16384,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "In der Rechnung wird 4^7 = 16384 eingesetzt: S_7 = (16384 − 1)/3. 📄 Quelle: skript02_live23, Folie 13 (S.2)",
+    "source": "skript02_live23, Folie 13 (S.2, Arithmetik)"
+  },
+  {
+    "id": "skript02_live23-b1-007",
+    "topic": "skript02_live23_summenformel_potenzen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Wie lässt sich die Bildung von S_n = (k^n − 1)/(k − 1) in Worten beschreiben?",
+    "options": [
+      "Nimm die Vervielfachungszahl k hoch n",
+      "Ziehe 1 ab",
+      "Teile durch die Vervielfachungszahl k − 1",
+      "Multipliziere zusätzlich mit der Vervielfachungszahl k"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Die Folie beschreibt in Worten: k hoch n, davon 1 abziehen und durch k − 1 teilen — das entspricht (k^n − 1)/(k − 1). 📄 Quelle: skript02_live23, Folie 15 (S.3)",
+    "source": "skript02_live23, Folie 15 (S.3, Arithmetik)"
+  },
+  {
+    "id": "skript02_live23-b1-008",
+    "topic": "skript02_live23_summenformel_potenzen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Voraussetzungen und Aussagen enthält der Satz zur Summe S_n = 1 + k^1 + … + k^(n−1)?",
+    "options": [
+      "Für alle natürlichen Zahlen n (und k > 1)",
+      "Ist S_n = 1 + k^1 + k^2 + … + k^(n−2) + k^(n−1), dann ist S_n = (k^n − 1)/(k − 1)",
+      "Der Satz gilt nur für k = 3",
+      "Es muss n < k gelten"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Der Satz gilt für alle natürlichen n und k > 1: Ist S_n die Summe der Ver-k-fachungen, dann ist S_n = (k^n − 1)/(k − 1). Einschränkungen auf k = 3 oder n < k stehen nicht auf der Folie. 📄 Quelle: skript02_live23, Folie 15 (S.3)",
+    "source": "skript02_live23, Folie 15 (S.3, Arithmetik)"
+  },
+  {
+    "id": "skript02_live23-b1-009",
+    "topic": "skript02_live23_natuerliche_zahlen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Eigenschaften muss eine Zahlenmenge N erfüllen, um „Natürliche Zahlen“ zu heißen (Peano-Axiome)?",
+    "options": [
+      "1 ist eine Natürliche Zahl",
+      "Zu jeder natürlichen Zahl n gibt es genau einen Nachfolger n'",
+      "Kein Element von N hat als Nachfolger die 1",
+      "Jedes Element ist Nachfolger zweier verschiedener Elemente von N"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Die ersten drei Aussagen sind die Axiome 1–3. Axiom 4 lautet gerade umgekehrt: KEIN Element ist Nachfolger zweier verschiedener Elemente von N. 📄 Quelle: skript02_live23, Folie 22 (S.4)",
+    "source": "skript02_live23, Folie 22 (S.4, Arithmetik)"
+  },
+  {
+    "id": "skript02_live23-b1-010",
+    "topic": "skript02_live23_natuerliche_zahlen",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche weiteren Aussagen gehören zu den Peano-Axiomen der natürlichen Zahlen (bzw. den zugehörigen Notizen)?",
+    "options": [
+      "Kein Element ist Nachfolger zweier verschiedener Elemente von N",
+      "Wenn M eine Teilmenge von N ist und die ersten beiden Axiome erfüllt sind, dann ist M gleich N",
+      "Für den Nachfolger gilt n' = n + 1",
+      "Die 1 ist Nachfolger genau eines Elements"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Axiom 4 (Eindeutigkeit des Vorgängers), Axiom 5 (Induktionsaxiom: Teilmenge M mit den ersten beiden Axiomen ist gleich N) und die handschriftliche Notiz n' = n + 1 sind belegt. Dass 1 Nachfolger sei, widerspricht Axiom 3. 📄 Quelle: skript02_live23, Folie 22 (S.4)",
+    "source": "skript02_live23, Folie 22 (S.4, Arithmetik)"
+  },
+  {
+    "id": "skript02_live23-b1-011",
+    "topic": "skript02_live23_vollstaendige_induktion",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welcher Satz A(n) zur Summe der Zweierpotenzen wird durch vollständige Induktion bewiesen?",
+    "options": [
+      "A(n): S_n = 1 + 2^1 + 2^2 + 2^3 + … + 2^(n−2) + 2^(n−1) = 2^n − 1",
+      "S_n = 2^0 + 2^1 + … + 2^(n−1)",
+      "S_n = 2^n − 1",
+      "S_n = 2^(n−1) − 1"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Der zu beweisende Satz A(n) lautet S_n = 1 + 2^1 + … + 2^(n−1) (= 2^0 + 2^1 + … + 2^(n−1)) = 2^n − 1. 📄 Quelle: skript02_live23, Folie 26 (S.5)",
+    "source": "skript02_live23, Folie 26 (S.5, Arithmetik)"
+  },
+  {
+    "id": "skript02_live23-b1-012",
+    "topic": "skript02_live23_vollstaendige_induktion",
+    "difficulty": 1,
+    "type": "numeric",
+    "question": "Was ergibt im Induktionsanfang (n = 1) die linke Seite S_1 = 2^(1−1) = 2^0?",
+    "answer": 1,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Linke Seite: S_1 = 2^(1−1) = 2^0 = 1; rechte Seite: 2^1 − 1 = 1. Beide Seiten sind gleich, also ist A(1) richtig. 📄 Quelle: skript02_live23, Folie 26 (S.5)",
+    "source": "skript02_live23, Folie 26 (S.5, Arithmetik)"
+  },
+  {
+    "id": "skript02_live23-b1-013",
+    "topic": "skript02_live23_vollstaendige_induktion",
+    "difficulty": 3,
+    "type": "multi",
+    "question": "Wie verläuft der Induktionsschritt beim Beweis von S_n = 2^n − 1 (nach Einsetzen der Induktionsvoraussetzung)?",
+    "options": [
+      "S_(n+1) = S_n + 2^n",
+      "Mit der I.V. gilt S_n = 2^n − 1, also S_(n+1) = 2^n − 1 + 2^n",
+      "= 2·2^n − 1 = 2^(n+1) − 1",
+      "= 2^n − 1 + 2^(n−1)"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "S_(n+1) = 1 + 2^1 + … + 2^(n−1) + 2^n = S_n + 2^n; mit der I.V. (S_n = 2^n − 1) folgt 2^n − 1 + 2^n = 2·2^n − 1 = 2^(n+1) − 1. 📄 Quelle: skript02_live23, Folie 26 (S.5)",
+    "source": "skript02_live23, Folie 26 (S.5, Arithmetik)"
+  },
+  {
+    "id": "skript02_live23-b1-014",
+    "topic": "skript02_live23_vollstaendige_induktion",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welcher Satz zur Summe der ersten n natürlichen Zahlen wird per vollständiger Induktion behandelt?",
+    "options": [
+      "Ist S_n die Summe der ersten n natürlichen Zahlen, also S_n = 1 + 2 + 3 + … + (n−2) + (n−1) + n",
+      "dann ist S_n = n/2 · (n+1)",
+      "dann ist S_n = 2^n − 1",
+      "S_n = (n−1)/2 · n"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Auf Folie 28 wird die Gaußsche Summenformel S_n = n/2 · (n+1) für die Summe der ersten n natürlichen Zahlen bewiesen. 📄 Quelle: skript02_live23, Folie 28 (S.6)",
+    "source": "skript02_live23, Folie 28 (S.6, Arithmetik)"
+  },
+  {
+    "id": "skript02_live23-b1-015",
+    "topic": "skript02_live23_vollstaendige_induktion",
+    "difficulty": 3,
+    "type": "multi",
+    "question": "Was ist im Induktionsschritt (n → n+1) beim Beweis von S_n = n/2 · (n+1) zu zeigen bzw. wird verwendet?",
+    "options": [
+      "A(n+1): S_(n+1) = (n+1)/2 · (n+2)",
+      "S_(n+1) = S_n + (n+1)",
+      "S_(n+1) = n/2 · (n+1)",
+      "S_(n+1) = (n+2)/2 · (n+3)"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Zu zeigen ist A(n+1): S_(n+1) = (n+1)/2 · (n+2); dabei wird S_(n+1) = 1 + 2 + … + n + (n+1) = S_n + (n+1) verwendet. 📄 Quelle: skript02_live23, Folie 28 (S.6)",
+    "source": "skript02_live23, Folie 28 (S.6, Arithmetik)"
+  },
+  {
+    "id": "skript02_live23-b1-016",
+    "topic": "skript02_live23_vollstaendige_induktion",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Berechne mit der Formel S_n = n/2 · (n+1) den Wert S_5.",
+    "answer": 15,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "S_5 = 5/2 · (5+1) = 5/2 · 6 = 15 (= 1 + 2 + 3 + 4 + 5). 📄 Quelle: skript02_live23, Folie 28 (S.6)",
+    "source": "skript02_live23, Folie 28 (S.6, Arithmetik)"
+  }
 ]
