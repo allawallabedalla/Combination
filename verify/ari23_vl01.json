@@ -1,0 +1,13 @@
+{
+ "code": "ari23_vl01",
+ "checked": 72,
+ "fixed": [],
+ "flagged": [],
+ "notes": [
+  "Alle 72 Fragen (b1-001..b1-028, b2-001..b2-039, b3-001..b3-005) gegen die Folien geprueft; keine belegten Fehler gefunden.",
+  "Textfolien via fulltext.txt bestaetigt (5,8,18,21,23,24,26,27,28,30,31,32,35,37,38,40).",
+  "Bild-/Handschriftfolien via PNG bestaetigt: p006/p007 (55, 31*15=465, 51*25, Paare=11, 5*11=55, 3*7=21, n/2*(n+1)); p011-p014 (Paeckchen/Balken/arithmetische Darstellung, Verallgemeinerung, 2*Summe=n*(n+1), Sum k = n(n+1)/2); p025/p026 (figurierte Zahlen, 5*11=55); p035 (4+5=9); p039 (15 Plaettchen, 210, 21*10=210); p050 (figurierte Zahlen/Dreieckszahlen); p060 (Flaeche 3 = 16, Weizenkornlegende, ~4295 km).",
+  "Gauss-Summenformel n/2*(n+1) und Summe ungerader Zahlen = n^2 folientreu; Rechenwerte 55, 5050, 210 korrekt.",
+  "Beobachtung b1-015: Die handschriftliche DeG auf Folie 11 zeigt durchgaengig den Rechenfehler '50*101=505' (fehlende Ziffer). Die Frage fragt jedoch den reinen Produktwert 50*101 = 5050 ab (Standard-Gauss-Ergebnis fuer 1+..+100). answer=5050 ist korrekt und bleibt unveraendert; kein Folienwert-Uebernahmefall, da keine 'was steht auf der Folie'-Frage."
+ ]
+}
