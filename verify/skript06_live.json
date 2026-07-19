@@ -1,0 +1,18 @@
+{
+ "code": "skript06_live",
+ "checked": 8,
+ "fixed": [],
+ "flagged": [],
+ "notes": [
+  "Alle 8 Fragen gegen S.1 (Folie 5, Parkettierung) und S.2 (Folie 24 Definition / Folie 25 Systematischer Aufschrieb) geprueft. Keine belegten Fehler.",
+  "b1-001: reg. Polygone [Dreieck 6*60, Quadrat 4*90, Sechseck 3*120] correct=[0,1,2]; Fuenfeck 3*108=324 richtig als falsch. Belegt auf Folie 5.",
+  "b1-002: Innenwinkel 6-Eck = 120 Grad (2*60=120) belegt; correct.",
+  "b1-003: Innenwinkelsumme reg. Fuenfeck = 540 Grad (3*180) belegt; correct.",
+  "b1-004: 'Es geht mit allen Dreiecken', Parallelogramme (Innenwinkelsumme 360), reg. Fuenfecke nicht moeglich; correct=[0,1,2] belegt.",
+  "b1-005/006: Definition 'gleiche Parkettierung' woertlich auf Folie 24; correct belegt.",
+  "b1-007: 1+2+3+4+5+6+7=28=7*8/2 auf Folie 25 belegt; correct.",
+  "b1-008: 'hier wuerden nur zu bereits existierenden Rechtecken kongruente Rechtecke liegen (paarweise kongruent)' handschriftlich belegt; correct=[0,1].",
+  "Quelltreue-Hinweis: Die Folie 5 enthaelt beim Quadrat einen handschriftlichen Verschreiber 'jeder Innenwinkel ist 80 Grad', schreibt aber an anderer Stelle korrekt '(90 Grad)' und '4*90=360'. Die Fragen zitieren die auf der Folie ebenfalls vorhandene Angabe 4*90=360 (90 Grad). Damit sind sie folientreu; keine Korrektur noetig. Der 80-Grad-Verschreiber wird von keiner Frage aufgegriffen.",
+  "Seitenzuordnung korrekt: Folie 5 -> S.1 (p001), Folie 24/25 -> S.2 (p002). Alle 'source'- und Quelle-Marker vorhanden und korrekt."
+ ]
+}
