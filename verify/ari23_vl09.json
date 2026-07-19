@@ -1,0 +1,16 @@
+{
+  "code": "ari23_vl09",
+  "checked": 44,
+  "fixed": [],
+  "flagged": [],
+  "notes": [
+    "Alle 44 Fragen (b1-001..b1-028, b2-001..b2-016) gegen Folienbilder und fulltext.txt geprueft. Folien-Nummer in der Kopfzeile stimmt mit der PDF-Seite ueberein (Folie N = pNNN), daher sind alle Seitenangaben korrekt.",
+    "Division mit Rest (Folie 8): Satz und Bedingungen 0<=r<m, n=q*m+r, Voraussetzung n>=m korrekt (b1-008, b1-009). Beispiel 7:2=3 Rest 1 (r=1) und Definition 3 Rest 1 := 3+(1/2) bestaetigt (b1-010, b1-011).",
+    "b-adisches Stellenwertsystem (Folie 9): n = a_m*b^m + ... + a_0*b^0 und Beispiel 1123 = 1*10^3 + 1*10^2 + 2*10^1 + 3*10^0 korrekt (b1-012..b1-014).",
+    "Tabelle m=2 (Folie 10): Einer-Spalte 1=0*2+1, 2=1*2+0, 3=1*2+1, 4=2*2+0; 10=5*2+0 (q=5); Distraktor '4=2*2+1' korrekt als falsch markiert (b1-015..b1-018).",
+    "Endstellenregeln 2/4/8 und allgemein 2^k (Folien 11-20): Saetze, graue Erlaeuterungskaesten, Aufgabenkaesten und formale Beweise (2*5-Zerlegung, Ausklammern von 2 bzw. 4) exakt bestaetigt (b1-019..b1-028, b2-001..b2-007).",
+    "Endstellenregeln 5/25/125 und allgemein 5^k (Folien 21-26): Saetze und formaler Beweis n = 5*(...) + a_0 mit Ausklammern von 5 bestaetigt (b2-008..b2-014).",
+    "Erkundung VIII (Folie 28): Inhalt liegt als eingebettetes Schulbuch-Bild vor (im fulltext.txt fehlend). Bild bestaetigt: gerade+gerade=gerade, ungerade+ungerade=gerade, gerade+ungerade=ungerade; Doppelreihe-Darstellung; Beispiele 24 (gerade), 45 (ungerade). Distraktor '45 ist gerade' korrekt falsch (b2-015, b2-016).",
+    "Keine belegten Fehler gefunden; keine Halluzinationen; alle source/Quelle-Marker korrekt. Katalog unveraendert."
+  ]
+}
