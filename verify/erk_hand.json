@@ -1,0 +1,12 @@
+{
+  "code": "erk_hand",
+  "checked": 23,
+  "fixed": [],
+  "flagged": [],
+  "notes": [
+    "Alle 23 Fragen gegen die Folienbilder p001-p006 geprueft. Seiten-/Quellenzuordnung (S.1->p001 ... S.6->p006) durchgehend korrekt, alle 📄-Marker vorhanden.",
+    "Zweierpotenzen/Rechenergebnisse folientreu: 16·2=32, 64·2=128, 256·2=512 (S.1); Summen 1+..+32=63, 1+..+128=255 (S.3); 2^0+..+2^3=15, 2^(5-1)=16 (S.5); grafischer Beweis 2^3=8, 8-1=7 (S.5); S_10=1023, S_5=31, S_4=15, S_3=7 (S.6).",
+    "Formel 2^(n-1) fuer n-tes Feld (S.3) und Summenformel Sn=2^0+..+2^(n-1)=2^n-1 bzw. S_20=2^20-1 (S.6) stimmen mit der Handschrift ueberein.",
+    "Keine am Bild belegten Fehler; keine Halluzinationen. Keine Korrektur noetig."
+  ]
+}
