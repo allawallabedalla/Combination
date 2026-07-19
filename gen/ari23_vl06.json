@@ -520,7 +520,8 @@
   "question": "Für alle Rechtecke mit zwei Teilquadraten gilt: Wenn es n Möglichkeiten für das Parkettieren eines Teilquadrats gibt, dann gibt es n·(n+1)/2 Möglichkeiten, das Rechteck zu parkettieren. Wie viele Möglichkeiten ergeben sich für n = 7?",
   "answer": 28,
   "tolerance": 0,
-  "unit": ""
+  "unit": "",
+  "source": "ari23_vl06, Folie 27 (S.27, Erkundung II)"
  },
  {
   "id": "ari23_vl06-b2-004",
@@ -550,7 +551,8 @@
   "question": "Gemäß der Regel n·(n+1)/2: Wie viele Möglichkeiten gibt es, das Rechteck mit zwei Teilquadraten zu parkettieren, wenn es n = 6 Möglichkeiten pro Teilquadrat gibt?",
   "answer": 21,
   "tolerance": 0,
-  "unit": ""
+  "unit": "",
+  "source": "ari23_vl06, Folie 27 (S.27, Erkundung II)"
  },
  {
   "id": "ari23_vl06-b2-006",
@@ -560,7 +562,8 @@
   "question": "Die Gauß-Summe S_n = 1 + 2 + ... + n lässt sich laut Folie als Binomialkoeffizient schreiben. Berechne 8·7/2 = 8! / ((8−2)!·2!), also den Wert des Binomialkoeffizienten \"8 über 2\".",
   "answer": 28,
   "tolerance": 0,
-  "unit": ""
+  "unit": "",
+  "source": "ari23_vl06, Folie 28 (S.28, Erkundung II)"
  },
  {
   "id": "ari23_vl06-b2-007",
@@ -680,7 +683,8 @@
   "question": "Berechne mit der auf Folie 36 genannten Formel A = π·r² den Flächeninhalt eines Kreises mit Radius r = 2 (Einheiten). Gib den Zahlenwert an.",
   "answer": 12.566,
   "tolerance": 0.05,
-  "unit": ""
+  "unit": "",
+  "source": "ari23_vl06, Folie 36 (S.36, Messen von Flächeninhalten – Allgemeine Verunsicherung)"
  },
  {
   "id": "ari23_vl06-b2-014",

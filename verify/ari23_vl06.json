@@ -1,0 +1,19 @@
+{
+ "code": "ari23_vl06",
+ "checked": 68,
+ "fixed": [
+  {"id": "ari23_vl06-b2-003", "field": "source", "was": null, "now": "ari23_vl06, Folie 27 (S.27, Erkundung II)", "why": "source-Feld fehlte; Regel n·(n+1)/2 und 1+…+7=28 stehen auf Folie 27 (S.27)."},
+  {"id": "ari23_vl06-b2-005", "field": "source", "was": null, "now": "ari23_vl06, Folie 27 (S.27, Erkundung II)", "why": "source-Feld fehlte; Regel n·(n+1)/2 (n=6 → 21) auf Folie 27 (S.27)."},
+  {"id": "ari23_vl06-b2-006", "field": "source", "was": null, "now": "ari23_vl06, Folie 28 (S.28, Erkundung II)", "why": "source-Feld fehlte; Binomialkoeffizient 8 über 2 = 8!/((8−2)!·2!) = 28 steht auf Folie 28 (S.28)."},
+  {"id": "ari23_vl06-b2-013", "field": "source", "was": null, "now": "ari23_vl06, Folie 36 (S.36, Messen von Flächeninhalten – Allgemeine Verunsicherung)", "why": "source-Feld fehlte (vom Auftrag ausdrücklich benannt); Formel A = π·r² steht auf Folie 36 (S.36)."}
+ ],
+ "flagged": [],
+ "notes": [
+  "Alle 68 Fragen geprüft; 68 IDs erhalten, keine Frage gelöscht/umsortiert, Schema gültig (numeric ohne options/correct, single genau eine richtige).",
+  "Innenwinkelsummen bestätigt: Folie 12/13/16 Satz (n−2)·180° und Induktion (+180° konvex wie konkav über γ₂=360°−γ₁); Tabelle Folie 17: 3→180°/60°, 4→360°/90°, 5→540°/108°, 6→720°/120°, 7→900°/≈128° – deckt b1-016/022/023 exakt.",
+  "Parkettierungs-Winkel bestätigt am Folienbild 6 und Tabelle 17: 6·60°=360°, 3·120°=360°, 360°=4·90°, 'Es geht mit allen Dreiecken', parkettieren allein mit 3-,4-,6-Ecken, reguläres Fünfeck 360°:108° nicht ganzzahlig – b1-005/006/007/008/024/025 korrekt.",
+  "Zerlegungsgleichheit (Folie 41: paarweise kongruente Zerlegung → gleicher Flächeninhalt) und Ergänzungsgleichheit (Folie 48: mit paarweise kongruenten Figuren zu zwei kongruenten Figuren ergänzen → gleicher Flächeninhalt) folientreu; b3-001–006 korrekt.",
+  "Flächenmaß-Setzungen bestätigt: kongruente Figuren gleicher Flächeninhalt (Folie 40), Kongruenzabbildungen Geradenspiegelung/Drehung/Verschiebung/Schubspiegelung (keine zentrische Streckung), Maß-Eigenschaften A(∅)=0, A(F)≥0, Additivität bei F∩G=∅, A(E)=1 (Folie 51), A(E)=1 mit Maß e² und n·e² (Folie 52), E' mit A(E')=1/100, e'=1/10 e und A(R)=1,32 e² (Folie 53), Grenzwertprozess (Folie 54) – b2-016/017/018 und b3-010–021 korrekt.",
+  "Numerische Antworten nachgerechnet und folientreu: b2-003=28 (7·8/2), b2-005=21 (6·7/2), b2-006=28 (8 über 2), b2-013≈12.566 (π·2²) – alle korrekt, nur source ergänzt."
+ ]
+}
