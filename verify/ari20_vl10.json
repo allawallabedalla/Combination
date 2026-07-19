@@ -1,0 +1,15 @@
+{
+  "code": "ari20_vl10",
+  "checked": 38,
+  "fixed": [],
+  "flagged": [],
+  "notes": [
+    "Alle 38 Fragen gegen die zitierten Folien geprüft; keine belegten Fehler gefunden.",
+    "S.4 (Bild): Grundbegriffe-Liste (Punkt, Strecke, Gerade, Ebene, Winkel, Länge, Kreis) und Grundkonstruktionen Nr.3/4 (Lineal) bzw. Nr.6/7 (Zirkel) bestätigen b1-001/002/003.",
+    "S.7 (Bild): 'Mögliche Definition, hier aber informelle Umschreibung', geradentreu/winkeltreu/längentreu bestätigen b1-006/007/008; Abbildung 'genau einen' bestätigt b1-004/005.",
+    "S.11 (Bild): Drehwinkel α = 70°, PZ = 3.36, P'Z = 3.36 bestätigen b1-013 (70) und b1-014 (3.36, ohne Einheit).",
+    "S.20 (Bild): Tabelle WWW nicht kongruent, SSS/SWS kongruent, SSW bedingt, WSW/SWW kongruent bestätigt b2-018 [SSS,SWS,WSW], b2-019/020/021.",
+    "Slides 13/14/16/17/18/22 über fulltext.txt verbatim bestätigt (Invarianten, Fixelemente, Umkehrabbildungen, Verschiebungsdefinition, Verkettungskonvention).",
+    "Alle Quellen-Seitenzahlen stimmen (Foliennummer = PDF-Seite), alle explanations enden mit dem 📄-Quelle-Marker; Schema gültig."
+  ]
+}
