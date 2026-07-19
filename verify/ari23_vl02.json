@@ -1,0 +1,16 @@
+{
+ "code": "ari23_vl02",
+ "checked": 54,
+ "fixed": [],
+ "flagged": [],
+ "notes": [
+  "Alle 54 Fragen (b1-001..b1-033, b2-001..b2-021) gegen fulltext.txt und Folienbilder geprueft; keine belegten Fehler gefunden, daher keine Korrektur.",
+  "b1-002/b1-003: Quelle 'Folie 4 (S.4)' bestaetigt - der handschriftliche Satz S_n = n/2*(n+1) steht bereits auf Folie 4 (p004), nicht erst auf Folie 5. Kein Off-by-one.",
+  "Summenformel (k^n-1)/(k-1) fuer k>=2 (Folie 12/16), Ver-5-fachung-Nenner 4 und Ver-6-fachung-Nenner 5 korrekt; Distraktoren (5^n-1)/5, 1024->2048 korrekt als falsch markiert.",
+  "Peano-Axiome (Folie 21): Axiom 3 'Kein Element hat als Nachfolger die 1', Axiom 4 'Kein Element ist Nachfolger zweier verschiedener Elemente', Axiom 5 - Distraktoren in b2-010/b2-012 korrekt.",
+  "Vollstaendige Induktion S_n=2^n-1 (Folie 27): S_1=2^0=1=2^1-1; Induktionsschritt S_(n+1)=S_n+2^n=2^n-1+2^n=2*2^n-1=2^(n+1)-1 - b2-015/b2-016 korrekt.",
+  "Numerische Werte gegen Tabellen (Folie 8/13) verifiziert: Feld4 Ver-4-fach Summe=85, Feld4 Ver-5-fach Summe=156, Feld5 Ver-3-fach Summe=121, S7 Ver-4-fach=5461, 4^7=16384, S_10 Gauss=55.",
+  "Fibonacci (Folie 30, p030): Folge 1,1,2,3,5,8,13,21,34, Ursprung Leonardo Fibonacci, Regel f_n=f_(n-2)+f_(n-1) fuer n>2, naechste Zahl 55 - b2-020/b2-021 korrekt.",
+  "gen/ari23_vl02.json unveraendert gelassen, da keine belegten Fehler; Schema (numeric/single/multi) und alle 54 IDs erhalten."
+ ]
+}
