@@ -1,0 +1,14 @@
+{
+  "code": "skript07_mit",
+  "checked": 18,
+  "fixed": [],
+  "flagged": [],
+  "notes": [
+    "Alle 18 Fragen gegen die zitierten Folienbilder (p001-p009) geprueft; keine belegten Fehler gefunden.",
+    "Seitenzuordnung korrekt: S.1->p001 (ein Feld wahr), S.2->p002 (drei Felder wahr, De Morgan), S.3->p003 (zwei Felder wahr, Kombinatorik), S.6->p006 (Folie 33, A=>B Def ~A v B), S.7->p007 (Folie 36, Wahrheitstafel w,f,w,w), S.8->p008 (Folie 41, Verneinung A und nicht B), S.9->p009 (Folie 42, A<=>B).",
+    "De Morgan auf p002 bestaetigt: ~(A^B)=~Av~B, ~(AvB)=~A^~B, ~(~A^~B)=AvB (b1-004 korrekt).",
+    "Implikation: A=>B Spalte w,f,w,w = ~AvB (p007, p009); falsch nur bei A=w,B=f (b1-012/013/014/018 korrekt).",
+    "Verneinung von A=>B ist A^~B; handschriftlich auf p008 mit Haken bestaetigt, A=>~B verworfen (b1-015/016 korrekt).",
+    "Katalogdatei unveraendert gelassen, da keine Korrekturen noetig waren."
+  ]
+}
