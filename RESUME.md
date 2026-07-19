@@ -14,7 +14,7 @@
 - **Phase 3 (Konsolidierung → App): ✅ fertig** — 544 rohe Topics → **28 kuratierte Kategorien**
   (`material/topic_mapping.json`, `material/topics_curated.json`), gemergt zu `material/content.json`
   (2110 Fragen, 0 Fehler) und in `data/questions.js` übernommen. App lokal getestet (Kategorien + Quiz
-  laufen, 0 Konsolenfehler). Alt-Branding „ADT/Tumordokumentar" auf „Mathe Lehramt" umgestellt.
+  laufen, 0 Konsolenfehler). Alt-Branding „ADT/Tumordokumentar" auf „Conne Super!" umgestellt.
   Supabase-Backend dokumentiert/vervollständigt (`supabase/README.md`, `supabase/sync-setup.sql`).
 
 ## 0. Setup (immer zuerst)

@@ -1,4 +1,4 @@
-/* Mathe Lehramt – App-Logik (Vanilla JS, keine Abhängigkeiten, offline-fähig). */
+/* Conne Super! – App-Logik (Vanilla JS, keine Abhängigkeiten, offline-fähig). */
 "use strict";
 
 /* ------------------------------------------------------------------ *
@@ -355,7 +355,7 @@ async function sendTestNotification() {
   try {
     if (Notification.permission !== "granted") { toast("Erst Erinnerung aktivieren"); return; }
     const reg = await navigator.serviceWorker.ready;
-    await reg.showNotification("Mathe Lehramt", { body: "So sieht deine Lern-Erinnerung aus 📚", icon: "./icons/icon-192.png", badge: "./icons/icon-192.png", tag: "adt-test" });
+    await reg.showNotification("Conne Super!", { body: "So sieht deine Lern-Erinnerung aus 📚", icon: "./icons/icon-192.png", badge: "./icons/icon-192.png", tag: "adt-test" });
     toast("🔔 Test-Benachrichtigung gesendet");
   } catch (e) { toast("⚠️ Test nicht möglich"); }
 }
@@ -779,7 +779,7 @@ const BADGE_ICON = {
   secure25: { i: "shield", c: "#34c759" }, streak14: { i: "bolt", c: "#ff6b22" }, allmaster: { i: "trophy", c: "#ffb300" },
 };
 
-const BAR_TITLES = { home: "Mathe Lehramt", topics: "Themen", badges: "Erfolge", stats: "Statistik", settings: "Einstellungen", info: "Info", result: "Ergebnis", quiz: "", exam: "Prüfung", examresult: "Ergebnis" };
+const BAR_TITLES = { home: "Conne Super!", topics: "Themen", badges: "Erfolge", stats: "Statistik", settings: "Einstellungen", info: "Info", result: "Ergebnis", quiz: "", exam: "Prüfung", examresult: "Ergebnis" };
 function setStreak() {
   if (streakEl) streakEl.innerHTML = '<span class="streak-flame">' + icon("flame") + "</span>" + S.streak;
 }
@@ -789,7 +789,7 @@ function updateAppbar(view) {
   const noLargeTitle = view === "quiz" || view === "result" || view === "exam" || view === "examresult";
   const h1 = document.querySelector(".appbar h1");
   if (h1) {
-    h1.textContent = BAR_TITLES[view] != null ? BAR_TITLES[view] : "Mathe Lehramt";
+    h1.textContent = BAR_TITLES[view] != null ? BAR_TITLES[view] : "Conne Super!";
     // Doppeltes <h1> vermeiden: Wo die Ansicht einen Large-Title (h1) hat, ist der
     // Balken-Titel nur ein visuelles Duplikat → für Screenreader ausblenden.
     h1.setAttribute("aria-hidden", noLargeTitle ? "false" : "true");
@@ -846,7 +846,7 @@ function renderHome() {
     </div>`;
 
   app.innerHTML = `
-    <h1 class="large-title">Mathe Lehramt<span class="sub">${esc(levelTitle(lvl))} · Level ${lvl}</span></h1>
+    <h1 class="large-title">Conne Super!<span class="sub">${esc(levelTitle(lvl))} · Level ${lvl}</span></h1>
     ${installTip}
     <div class="level-card">
       <div class="row"><span class="lvl">Level ${lvl}</span><span class="xp">${into} / ${span} XP</span></div>
@@ -1714,7 +1714,7 @@ function renderInfo() {
   updateAppbar("info");
   actionbar.classList.add("hidden");
   app.innerHTML = `
-    <h1 class="large-title">So funktioniert's<span class="sub">Mathe Lehramt · Kurzanleitung</span></h1>
+    <h1 class="large-title">So funktioniert's<span class="sub">Conne Super! · Kurzanleitung</span></h1>
 
     <div class="section-title">Die App</div>
     <div class="q-card"><p style="margin:0;line-height:1.55">Diese App bereitet dich auf die <b>Prüfung „Arithmetik &amp; Geometrie" im Lehramtsstudium</b> vor. Übe jederzeit am Handy – im echten Prüfungsformat, mit einer Erklärung zu jeder Frage. Alles funktioniert offline.</p></div>
@@ -1998,7 +1998,7 @@ function showOnboarding() {
     const goals = GOAL_CHOICES.map(n => `<button class="goal-chip${n === 10 ? " sel" : ""}" data-goal="${n}">${n}</button>`).join("");
     ov.innerHTML = `<div class="modal-card onboard-card">
       <div class="onboard-hero">${iconTile("clipboardCheck", "#34c759")}</div>
-      <h3 class="modal-title">Willkommen bei Mathe&nbsp;Lehramt</h3>
+      <h3 class="modal-title">Willkommen bei Conne&nbsp;Super!</h3>
       <p class="modal-msg">Übe jederzeit für die Prüfung „Arithmetik &amp; Geometrie" – im echten Prüfungsformat, mit Erklärung zu jeder Frage. Alles funktioniert offline.</p>
       <div class="onboard-goal">
         <label>Dein Tagesziel (Fragen pro Tag):</label>

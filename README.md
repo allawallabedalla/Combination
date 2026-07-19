@@ -1,4 +1,4 @@
-# Mathe Lehramt – Lern-App + Fragen-Pipeline (Combination)
+# Conne Super! – Lern-App + Fragen-Pipeline (Combination)
 
 Eine Lern-App (PWA, offline-fähig, iOS-tauglich) für **Mathematik im
 Lehramtsstudium** — plus die **Pipeline**, die den Fragenkatalog aus Roh-PDFs
