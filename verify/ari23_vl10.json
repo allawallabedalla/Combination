@@ -1,0 +1,13 @@
+{
+ "code": "ari23_vl10",
+ "checked": 78,
+ "fixed": [],
+ "flagged": [],
+ "notes": [
+  "Alle 78 Fragen (b1-001..b1-042, b2-001..b2-036) gegen fulltext.txt und gezielt gegen die Folienbilder geprueft.",
+  "Numerik-/Tabellenfolien direkt am PNG verifiziert: p010 (m=3 fortgeschrieben: 30=9·3+3, 400=132·3+4, 50=15·3+5, 5=0·3+5), p020 (m=7: 40=4·7+12, 300=42·7+6), p021 (1000=142·7+6=143·7-1, 2000=284·7+12), p022 (Gewichte 1,3,2,-1,-3,-2), p024 (Gewichte 1,-3,-4,-1,3,4; 100=7·13+9=8·13-4, 10000=769·13+3).",
+  "Gewichtete Quersummenregeln 7/11/13, Endstellenregeln (2^k/5^k), Restklassen-Definitionen (0̄,1̄,2̄ mod 3), Additions-/Multiplikationstafeln der Restklassen sowie alle Quellenangaben (S.NN → Folie NN) stimmen folientreu.",
+  "Die als 'falsch' markierten Distraktoren (z.B. 300=99·3+3, 40=4·7+10, 2000=284·7+8, 10000=769·13+4, 1000=3·(…)+0, 9=3·3·3) sind korrekt als falsch eingestuft und in den explanations transparent gegen die Folienwerte abgegrenzt.",
+  "Keine Aenderung an /home/user/Combination/gen/ari23_vl10.json noetig: keine belegten Fehler gefunden, Schema fuer alle Fragen gueltig (numeric mit answer/tolerance/unit; single/multi mit options/correct, single genau eine richtige)."
+ ]
+}
