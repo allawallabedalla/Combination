@@ -1,0 +1,14 @@
+{
+  "code": "ari23_vl12",
+  "checked": 34,
+  "fixed": [],
+  "flagged": [],
+  "notes": [
+    "AMIRIMA-Differenzen (Folie 6) am Bild geprueft: 8742478-2478742=6263736, 9621269-1269621=8351648, 7652567-2567652=5084915 - alle korrekt.",
+    "Euklid 52/22 (Folie 12): 52=2*22+8, 22=2*8+6, 8=1*6+2, 6=3*2+0, ggT=2 - alle Schritte, Quotienten und Reste korrekt.",
+    "Euklid 108/42 (Folie 13): 108=2*42+24, 42=1*24+18, 24=1*18+6, 18=3*6+0, ggT=6 - korrekt.",
+    "Alle Quellenangaben stimmen: Foliennummer = PDF-Seitennummer (Folie N auf Seite N). Parkettieren-Aussage erscheint ab Folie 10 (b1-013 korrekt), Rest-Zuordnung auf Folie 11 (b1-014 korrekt).",
+    "Beweis-Folien 16/18/19/20 (allgemeiner Euklid, gemeinsamer Teiler, Maximalitaet) inhaltlich mit Folientext abgeglichen - alle correct-Indizes und Distraktoren folientreu.",
+    "Keine belegten Fehler gefunden; Katalogdatei unveraendert gelassen."
+  ]
+}
