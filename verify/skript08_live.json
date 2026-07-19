@@ -1,0 +1,13 @@
+{
+ "code": "skript08_live",
+ "checked": 11,
+ "fixed": [],
+ "flagged": [],
+ "notes": [
+  "Alle 11 Fragen gegen die Folien (p001=S.1/Folie 12, p002=S.2, p003=S.3/Folie 13, p004=S.4) geprueft. Keine belegten Fehler gefunden.",
+  "Werte folientreu bestaetigt: Aufgabe a) 24=p*q, q=6cm -> p=4cm, c=p+q=10cm; Thaleskreis-Radius |AM_AB|=|BM_AB|=5cm (b1-001,002,004).",
+  "Hoehensatz h_c*h_c=p*q und Kathetensatz a^2=p*c wortgetreu auf den Folien belegt (b1-003,005,010).",
+  "Aufgabe b) 36cm^2=6*6, Seitenlaenge 6cm, Rechteck Laenge/Radius p=3cm, (Kathetensatz!) explizit auf S.3; Konstruktion PBRS mit 36cm^2 auf S.4 (b1-007,008,009,011).",
+  "Alle correct-Indizes, numeric answers/units, Quellen (Folie 12/13) und S.NN->pNN-Seitenzuordnungen stimmen; 📄-Quelle-Marker vorhanden."
+ ]
+}
