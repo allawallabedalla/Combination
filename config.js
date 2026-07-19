@@ -7,8 +7,8 @@
  * Beide Werte dürfen öffentlich sein. Leer lassen = App läuft normal, nur lokal.
  */
 window.ADT_CONFIG = {
-  supabaseUrl: "",
-  supabaseAnonKey: "",
+  supabaseUrl: "https://cswwhrqbjqkncktogtbl.supabase.co",
+  supabaseAnonKey: "sb_publishable_Ytv7ZIa9r1K8GuVHLHhRSQ_eTLK4nto",
 
   // Öffentlicher VAPID-Schlüssel für Web-Push-Erinnerungen (optional; darf öffentlich sein).
   // Der PRIVATE Schlüssel gehört NUR in die Supabase Edge Function – nie hierher!
