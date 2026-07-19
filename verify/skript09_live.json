@@ -1,0 +1,16 @@
+{
+  "code": "skript09_live",
+  "checked": 16,
+  "fixed": [],
+  "flagged": [],
+  "notes": [
+    "Alle 16 Fragen gegen die zitierten Folien geprüft: Folie 11 (S.1, p001), Folie 14 (S.2, p002), Folie 17 (S.3, p003), Folie 20 (S.4, p004), Folie 23 (S.5, p005), Folie 26 (S.6, p006). Alle Seitenzuordnungen korrekt (Header 'Geometrie <11/14/17/20/23/26>' stimmen).",
+    "b1-001..003 (Folie 11): Satz Teilbarkeit durch 2, Beispiel n=1132 (n₁=2), Beweis mit 10=2·5, 100=(2·5)², 1000=(2·5)³, Potenzgesetz (2·5)^k=2^k·5^k, Ausklammern von 2 – alle Angaben folientreu.",
+    "b1-004..006 (Folie 14): Endstellenregeln 2²=4→2 Ziffern, 2³=8→3, 2⁴=16→4, allg. 2^k→k Ziffern; Vermutungen 25=5²→2 Stellen, 125=5³→3 Stellen; 10=2·5, letzte Ziffer 0 ⇒ durch 10 teilbar. Keine 6er-/Quersummen-Regel auf Folie – korrekt als falsch markiert.",
+    "b1-007..009 (Folie 17): Satz Teilbarkeit durch 4 (letzte 2 Ziffern), 4 teilt jeden 100er/1000er, n₁=x₁·10+x₀; Erinnerung 100=(2·5)²=4·5², 1000=4·2·5³, 10.000=4·2²·5⁴ – folientreu.",
+    "b1-010..011 (Folie 20): Satz 2^k (letzte k Ziffern), Übung 'analogisieren aus 2 und 4', k=3 ⇒ 2³=8, letzte 3 Ziffern – korrekt.",
+    "b1-012..014 (Folie 23): Satz Teilbarkeit durch 5 (letzte Ziffer a₀), 5 teilt jeden 10er/100er/1000er, Beweis mit Ausklammern von 5, Klammerterm durch 5 teilbar – folientreu.",
+    "b1-015..016 (Folie 26): Satz 5^k (letzte k Ziffern), Übung 'analogisieren aus Beweis für 5', Rat k=2 ⇒ 5²=25, letzte 2 Ziffern – korrekt.",
+    "Alle explanation-Felder enden korrekt mit dem Marker '📄 Quelle: skript09_live, Folie N (S.NN)'. Schema für alle Fragen gültig (numeric mit answer/tolerance/unit; multi mit options+correct 0-basiert). Keine Korrektur nötig."
+  ]
+}
