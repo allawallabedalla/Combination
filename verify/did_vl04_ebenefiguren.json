@@ -1,0 +1,20 @@
+{
+  "code": "did_vl04_ebenefiguren",
+  "checked": 28,
+  "fixed": [],
+  "flagged": [],
+  "notes": [
+    "Alle 28 Fragen (b1-001..b1-018, b2-001..b2-010) gegen die zitierten Folien geprueft: S.5, S.6, S.7, S.10, S.11, S.12, S.13, S.15, S.23, S.24.",
+    "S.5 (Polygon-Definition): Begriffe Vieleck/Seiten/Ecken, keine Kreisboegen - b1-001/002/003 folientreu.",
+    "S.6 (Das Zahlenbuch 2, Klasse 1/2): benannte Figuren Kreis, Rechteck, Dreieck, Quadrat, Sechseck; kein Fuenfeck - b1-004/005 korrekt.",
+    "S.7 (Aktivitaeten: Legen, Falten, Spannen, Zeichnen; Geobrett/Denken und Rechnen 1) - b1-006/007 korrekt.",
+    "S.10 (Polyominos-Begriffsklaerung: kongruente Quadrate, gemeinsame Seite, kein Ueberlappen; Einling/Zwilling/Drilling) - b1-008..011 korrekt.",
+    "S.11 (Darstellungsform: Bilder, sprachliche Symbole, mathematische Symbole, Handlungen mit Material; Doppelpfeile) - b1-012/013 korrekt.",
+    "S.12 (Darstellungsmittel-Illustration: 3.2=6 = math. Symbol; Waffeln-Satz = sprachl. Symbol) - b1-014/015 korrekt.",
+    "S.13 (Unterrichtsstunde Klasse 2, Abschnitt 1.1; Wortspeicher enthaelt kein 'der Bruch'; Arbeitsauftrag Drillinge/Triominos+Trick) - b1-016/017/018 korrekt inkl. Quellen-Abschnitt.",
+    "S.15 (Modell: Bilder, sprachliches/mathematisches Symbol, Handlungen am Material; Einling+Zwilling-Sprechblase) - b2-001/002/003 korrekt.",
+    "S.23 (heterogenes Material - Tangram: Figuren legen, Nachlegen mit sichtbaren Teilen, Auslegen Ausgangsquadrat mit Umrissfiguren, Figur nach verbaler Beschreibung) - b2-004..007 korrekt.",
+    "S.24 (Graf Typo, Lia Tschornaja, Partneraktivitaet, Formen selbst herstellen, ohne Lineal zeichnen, anderes Tandem zum Nachlegen) - b2-008/009/010 korrekt.",
+    "Keine belegten Fehler; alle source- und Quelle-Marker korrekt. Keine Aenderung an der Katalogdatei noetig."
+  ]
+}
