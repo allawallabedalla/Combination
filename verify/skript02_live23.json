@@ -1,0 +1,13 @@
+{
+  "code": "skript02_live23",
+  "checked": 16,
+  "fixed": [],
+  "flagged": [],
+  "notes": [
+    "Alle 16 Fragen gegen die zitierten Folien geprüft: S.1=p001 (Folie 9), S.2=p002 (Folie 13), S.3=p003 (Folie 15), S.4=p004 (Folie 22), S.5=p005 (Folie 26), S.6=p006 (Folie 28). Alle Seitenverweise korrekt.",
+    "Rechnungen nachgerechnet und folientreu: S_4=(3^4-1)/2=40 (auch Tabelle Feld 4 Ver-3-fachung=40); S_7 Vervierfachung=(4^7-1)/3=16383/3=5461 (handschriftlich bestätigt); 4^7=16384; Induktion S_1=2^0=1 und S_n=2^n-1; Gauß S_5=5/2*6=15.",
+    "Boxed/eingerahmte Formeln bestätigt: Folie 9 S_n=(3^n-1)/2, GL1 und GL2 wortgetreu; Folie 13/15 S_n=1+k^1+...+k^(n-1)=(k^n-1)/(k-1).",
+    "Peano-Axiome Folie 22 (Axiome 1-3 als correct, Axiom 4 'kein Element ist Nachfolger zweier verschiedener Elemente', Axiom 5 Induktionsaxiom, Notiz n'=n+1) korrekt abgebildet; falsche Distraktoren (k=3, n<k, 1 als Nachfolger, Nachfolger zweier Elemente) korrekt als falsch markiert.",
+    "Alle correct-Indizes, numeric answer/unit/tolerance, source-Angaben und '📄 Quelle'-Marker stimmen. Keine belegten Fehler gefunden; keine Korrektur nötig."
+  ]
+}
