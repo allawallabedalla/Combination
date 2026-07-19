@@ -62,5 +62,10 @@ Wie in ADT-Training über ein kostenloses Supabase-Projekt (Werte in `config.js`
 Ohne Konfiguration läuft die App voll offline und lokal. Anleitung/SQL: `supabase/`.
 
 ## Status
-Frisch aufgesetzt. Noch keine Skripte im Manifest — Ablauf siehe `runbook.md`,
-Fortschritt in `STATUS.md`, Wiederaufnahme in `RESUME.md`.
+- **Phase 1 (Generierung): ✅ fertig** — 70/70 Skripte, **2110 quellenbelegte Fragen** (`gen/<code>.json`).
+- **Phase 2 (Audit): ✅ fertig** — jede Frage gegen das Folienbild geprüft, **0 inhaltliche Fehler**
+  (7 rein formale Korrekturen). Bilanz: `verify/PHASE2.md`.
+- **Phase 3 (Konsolidierung → App): ⏭️ offen** — Kategorien kuratieren → `material/content.json` → `data/questions.js`.
+
+**Wie eine neue Session hier fehlerfrei weitermacht: siehe `RESUME.md`** (Branch, Setup, Stolperfallen,
+Phase-3-Anleitung). Branch: `claude/repo-combination-raw-data-vbf3hw`. Fortschritt je Skript: `STATUS.md`.
