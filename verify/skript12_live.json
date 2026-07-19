@@ -1,0 +1,15 @@
+{
+ "code": "skript12_live",
+ "checked": 7,
+ "fixed": [],
+ "flagged": [],
+ "notes": [
+  "Alle 7 Fragen gegen die Folien geprüft: p001 = Geometrie <15> (S.1, Folie 15), p002 = Geometrie <17> (S.2, Folie 17), p003 = Geometrie <21> (Übungsaufgaben, nicht zitiert).",
+  "Seitenzuordnung korrekt: Folie 15 (S.1) und Folie 17 (S.2) stimmen mit den Folienlabels überein.",
+  "b1-001: Divisionskette 108=2·42+24, 42=1·24+18, 24=1·18+6, 18=3·6+0, ggT=6 — folientreu.",
+  "b1-002/003: Gleichungen bzw. PFZ (108=2·2·3·3·3, 42=2·3·7, ggT=2·3=6) stimmen mit Folie/Handschrift überein; falsche Distraktoren korrekt ausgeschlossen.",
+  "b1-004: Handschriftliche Begründung (④, magenta) von unten korrekt wiedergegeben (6|18, 6|24, 6|42, 6|108 über Regel a|b∧a|c⇒a|(b+c)).",
+  "b1-005/006/007: Aussagen zu ggT(a,b)=r_{n+1}, Voraussetzungen (a>b, q_i/r_i, a=q_1·b+r_1) und Aufwärtsschluss r_{n+1}|a,b folientreu; correct-Indizes korrekt.",
+  "Keine belegten Fehler gefunden; keine Korrekturen nötig."
+ ]
+}
