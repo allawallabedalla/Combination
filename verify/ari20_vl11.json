@@ -1,0 +1,14 @@
+{
+  "code": "ari20_vl11",
+  "checked": 21,
+  "fixed": [],
+  "flagged": [],
+  "notes": [
+    "Alle 21 Fragen gegen die zitierten Folien geprüft (S.7→p007 <Folie 8>, S.10→p010 <11>, S.11→p011 <12>, S.12→p012 <13>, S.13→p013 <14>, S.14→p014 <15>, S.15→p015 <16>, S.20→p020 <21>). Seitenzuordnung durchgehend korrekt (Folie = S+1).",
+    "Fallunterscheidung folientreu: Fall 1 g=h → id; Fall 2 g∥h → Verschiebung V_{2|AB|} (AB ⊥ g, von g nach h); Fall 3 g∩h={S}, ∠gh=α → Drehung D_{S,2α}; Fall 3a ∠gh=90°. Alle korrekt in b1-005/006/007/008/012/014/016 abgebildet.",
+    "Numerische Fragen korrekt: b1-011 2·35°=70°; b1-013 |AA''|=2·|AB|=2·3cm=6cm (|AB|=d(g,h)); b1-015 2·50°=100°.",
+    "Konvention (Folie 8): 'Von Innen nach Außen', S_h∘S_g = 'S_h nach S_g', wie g(f(x))=g∘f → zuerst S_g, dann S_h. b1-001/002/003 korrekt.",
+    "Phänomsätze (Folie 21): Schnittfall (gleicher Schnittpunkt S + gleicher Winkel α) und Parallelfall (g∥h∥g'∥h' + d(g,h)=d(g',h')) in b1-019/020/021 folientreu wiedergegeben.",
+    "Alle Quellen-Marker '📄 Quelle: ari20_vl11, Folie N (S.NN)' vorhanden und korrekt. Keine Änderungen erforderlich."
+  ]
+}
