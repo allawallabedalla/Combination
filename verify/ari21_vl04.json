@@ -1,0 +1,13 @@
+{
+  "code": "ari21_vl04",
+  "checked": 35,
+  "fixed": [],
+  "flagged": [],
+  "notes": [
+    "Alle 35 Fragen gegen fulltext.txt und Folienbilder (p007, p009 gezielt) geprueft; keine belegten Fehler gefunden.",
+    "Folien-/Seitennummerierung stimmt durchgehend (< N > == PDF-SEITE N == S.NN), alle source-/Quelle-Marker korrekt.",
+    "4er-System verifiziert: Multiplikationstabelle (2*2=10, 2*3=12, 3*3=21), 23*12=1002_4 (=66 dez), 11322:21=222_4 Rest 0 (=378:9=42), (11322)_4=378, (21)_4=9 - alle korrekt.",
+    "Teilbarkeit a|b (Folie 15), Folgerungen (Folie 18/20: 2|6 c=3, 1|5 c=5, a|0 c=0, 0 teilt kein b>0), Primzahl-Definition (Folie 23: genau zwei unterschiedliche Teiler, 1 keine Primzahl) und Fundamentalsatz (Folie 24: n>1, eindeutig bis auf Reihenfolge) alle folientreu.",
+    "gen/ari21_vl04.json unveraendert gelassen, da keine Korrektur belegt war; Schema gueltig (numeric ohne options/correct; single genau eine richtige)."
+  ]
+}
