@@ -1,0 +1,16 @@
+{
+  "code": "ari21_vl02",
+  "checked": 49,
+  "fixed": [],
+  "flagged": [],
+  "notes": [
+    "Alle 49 Fragen (b1-001..b1-016, b2-001..b2-033) gegen die Folien geprueft; keine belegten Fehler gefunden.",
+    "Textfolien via fulltext.txt bestaetigt (Peano-Axiome S.5, Addition S.10/11, Multiplikation S.12/24/25/26, Potenz S.28/29/30/31, Definieren S.23/24, Eigenschaften S.17-21).",
+    "Handschriftliche Folien via PNG geprueft: S.14/15 bestaetigen Abblitzation 12 Blitz 2 = (12+2)*2 = 28 sowie Beschriftung 12=Abblitzent, 2=Abblitzator, 28=Ergebnis der Abblitzation.",
+    "S.21 (PNG) bestaetigt Umkehroperationen a=c/b-b und b^2+ab-c=0, Potenz-Umkehrungen sqrt(9)=3 und log_3(9)=2, Addition eindeutig umkehrbar.",
+    "S.28 (PNG) bestaetigt Potenzregeln n^1:=n und n^(m+1):=n^m*n sowie Definiendum/Definiens.",
+    "Numerische Werte nachgerechnet und korrekt: 4+3=7, 3+4=7, 4*3=12, 2*5=10, 12 Blitz 2=28, 2 Blitz 12=168, (12 Blitz 2) Blitz 4=128, 12 Blitz (2 Blitz 4)=864, 3*4=12, 2^2=4, 2^4=16, log_3(9)=2.",
+    "Alle source-Felder und '📄 Quelle'-Marker vorhanden und seitentreu (Folienzahl = Seitenzahl, keine Off-by-one).",
+    "Keine Aenderung an /home/user/Combination/gen/ari21_vl02.json noetig; Datei bleibt unveraendert."
+  ]
+}
