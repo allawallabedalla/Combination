@@ -1,0 +1,11 @@
+{
+ "code": "skript01_clean",
+ "checked": 4,
+ "fixed": [],
+ "flagged": [],
+ "notes": [
+  "Alle 4 Fragen zitieren S.3 (p003), Folie 'Was sind (Natürliche) Zahlen?' mit dem Peano-Axiome-Kasten (1-4 aktiv, 5 grau/Induktion). Richtigkeit, correct-Indizes, Quellen und Quelle-Marker sind vollstaendig folientreu; keine belegten Fehler.",
+  "b1-001: correct=[0,1,3,4] entspricht exakt den Eigenschaften 1-4; Option 2 (garantierter Vorgaenger) korrekt ausgeschlossen (die 1 hat keinen).",
+  "b1-004: fuenfte (graue) Eigenschaft 'dann ist M gleich N' korrekt wiedergegeben."
+ ]
+}
