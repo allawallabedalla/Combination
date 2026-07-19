@@ -1,0 +1,15 @@
+{
+  "code": "skript10_live",
+  "checked": 14,
+  "fixed": [],
+  "flagged": [],
+  "notes": [
+    "Alle 14 Fragen gegen die 4 Folien (Folie 11 -> p001, Folie 16 -> p002, Folie 30 -> p003, Folie 38 -> p004) geprueft; keine belegten Fehler gefunden.",
+    "b1-001..004 (Folie 11, Quersummenregel fuer 3): Satz, additive Null (100=99+1, 1000=999+1, 10=3*3+1), Hilfssatz 'Wenn k|a und k|b, dann k|(a+b)' und Beweisschritte stimmen mit der Folie ueberein.",
+    "b1-002: 1000-1=999 stimmt (Folie: 1000=999+1).",
+    "b1-005..006 (Folie 16): Quersummenregel fuer 9 korrekt wiedergegeben.",
+    "b1-007..010 (Folie 30): Multiplikationstafel (t*t=t, t*n=t, n*n=n), Additionstafel (t+t=t, t+n=n, n+n=t/n 'kommt drauf an'), Darstellung t=3x, n=3x-y mit y in {1,2}, und Rechenbeispiele 5+8=13->n, 4+8=12->t, 4+7=11->n stimmen exakt.",
+    "b1-011..014 (Folie 38): 7 Restklassen; 0bar={0,7,14,...}, 1bar={1,8,15,...}; 7bar (+) 4bar = 0bar; 7bar (*) 4bar = 6bar (7*4=28=2*11+6) stimmen.",
+    "Seitenzuordnung S.1->p001, S.2->p002, S.3->p003, S.4->p004 korrekt; Quelle-Marker vollstaendig."
+  ]
+}
