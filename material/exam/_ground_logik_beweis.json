@@ -1,0 +1,182 @@
+[
+ {
+  "q": "Wie definiert Cantor (naiv) eine Menge M?",
+  "e": "Die Folie gibt die naive Mengendefinition nach Cantor an: „Eine Menge M ist die Zusammenfassung unterscheidbarer Objekte (Elemente).“ 📄 Quelle: ari21_vl06, Folie 14 (S.14)"
+ },
+ {
+  "q": "Was gilt für die Element-Beziehung zwischen einem Objekt x und einer Menge M?",
+  "e": "Die Folie stellt fest: „Man kann stets unterscheiden, ob ein Objekt Element einer Menge ist (x∈M) oder nicht (x∉M).“ Somit steht x∈M für Zugehörigkeit und x∉M für Nicht-Zugehörigkeit. 📄 Quelle: ari21_vl06, Folie 15 (S.15)"
+ },
+ {
+  "q": "Wie wird eine Teilmenge A einer Menge M definiert?",
+  "e": "Die Folie definiert: „Mengen A, die nur aus Elementen einer Menge M bestehen, heißen Teilmengen (A⊆M).“ 📄 Quelle: ari21_vl06, Folie 16 (S.16)"
+ },
+ {
+  "q": "Wie wird eine Menge M in aufzählender Schreibweise notiert?",
+  "e": "Die Folie gibt die aufzählende Schreibweise an: M = {a, b, c, ...}. 📄 Quelle: ari21_vl06, Folie 17 (S.17)"
+ },
+ {
+  "q": "Welches der folgenden Beispiele ist eine Aussage A im Sinne der Aussagenlogik?",
+  "e": "Die Folie führt den Begriff „Aussage“ ein und nennt als Beispiel „A: Es regnet.“ 📄 Quelle: ari21_vl06, Folie 20 (S.20)"
+ },
+ {
+  "q": "Was gilt für den Begriff der Aussage?",
+  "e": "Eine Aussage ist nach Festlegung entweder richtig (wahr) oder falsch; ein Drittes ist nicht gegeben (Tertium non datur). „A: Es regnet.“ dient als Beispiel. 📄 Quelle: ari21_vl06, Folie 21 (S.21)"
+ },
+ {
+  "q": "Wie wird der Grundsatz „Tertium non datur“ übersetzt?",
+  "e": "„Tertium non datur“ wird auf der Folie mit „Ein Drittes ist nicht gegeben“ übersetzt: eine Aussage ist entweder wahr oder falsch. 📄 Quelle: ari21_vl06, Folie 21 (S.21)"
+ },
+ {
+  "q": "Was gilt für die Kurzform- bzw. Tabellendarstellung (Wahrheitstafel) der Zustände von Aussagen?",
+  "e": "Die Folie zeigt eine Tabelle/Tafel mit den Spalten „Aussage A“ und „Aussage ¬A“ sowie die Kurzformen wahr (w) und falsch (f). 📄 Quelle: ari21_vl06, Folie 35 (S.35)"
+ },
+ {
+  "q": "Welche Kurzformen werden für die Wahrheitswerte wahr und falsch verwendet?",
+  "e": "Die Folie notiert die Zustände als wahr (w) und falsch (f). 📄 Quelle: ari21_vl06, Folie 35 (S.35)"
+ },
+ {
+  "q": "Ein Beispielpaar verknüpfter Aussagen A und B beschreibt Regen und eine dadurch nasse Straße. Welche beiden Aussagen bilden dieses Paar?",
+  "e": "Bei verknüpften Aussagen sind zwei Aussagen gegeben; die Folie nennt als Beispiel A: „Es regnet.“ und B: „Die Straße ist nass.“ 📄 Quelle: ari21_vl06, Folie 39 (S.39)"
+ },
+ {
+  "q": "Ein Beispielpaar von Aussagen A und B beschreibt Regen und eine nasse Straße. Welche beiden Aussagen bilden dieses Paar?",
+  "e": "Auf der Folie sind die Beispielaussagen A: „Es regnet.“ und B: „Die Straße ist nass.“ angegeben. 📄 Quelle: ari21_vl06, Folie 40 (S.40)"
+ },
+ {
+  "q": "Was gilt für die beiden Beispielaussagen A („Es regnet.“) und B („Die Straße ist nass.“) hinsichtlich ihrer Wahrheitswerte?",
+  "e": "Die Folie hält fest: „Beide Aussagen können entweder wahr oder falsch sein.“ 📄 Quelle: ari21_vl06, Folie 40 (S.40)"
+ },
+ {
+  "q": "Für eine Wahrheitstafel zu zwei Aussagen A und B: Welche Anforderungen sind korrekt?",
+  "e": "Die Aufgabe lautet: „Zeichnen Sie eine Tafel mit den Spalten für A und B. In den Zeilen sollen alle Kombinationen von Wahrheitswerten w und f vorkommen.“ 📄 Quelle: ari21_vl06, Folie 41 (S.41)"
+ },
+ {
+  "q": "Wann ist die Verknüpfung A ∧ B („A und B“) wahr?",
+  "e": "Folie 42: „A ∧ B (‚A und B‘) ist genau dann wahr, wenn sowohl A als auch B wahr ist (und sonst falsch).“ 📄 Quelle: ari21_vl06, Folie 42 (S.42)"
+ },
+ {
+  "q": "Bei welchen Belegungen von A und B ist A ∧ B laut der Wahrheitstafel wahr (w)?",
+  "e": "In der Wahrheitstafel für A ∧ B ist nur die Zeile w/w wahr; alle anderen Zeilen (w/f, f/w, f/f) liefern f. 📄 Quelle: ari21_vl06, Folie 42 (S.42)"
+ },
+ {
+  "q": "In wie vielen der vier Zeilen der Wahrheitstafel für A ∧ B ergibt sich der Wert wahr (w)?",
+  "e": "Nur die Zeile w/w liefert w, die übrigen drei Zeilen liefern f – also genau 1 Zeile. 📄 Quelle: ari21_vl06, Folie 42 (S.42)"
+ },
+ {
+  "q": "Wann ist die Verknüpfung A ∨ B („A oder B“) falsch?",
+  "e": "Folie 43: „A ∨ B (‚A oder B‘) ist genau dann falsch, wenn sowohl A als auch B falsch ist (und sonst wahr).“ 📄 Quelle: ari21_vl06, Folie 43 (S.43)"
+ },
+ {
+  "q": "Bei welchen Belegungen von A und B ist A ∨ B laut der Wahrheitstafel wahr (w)?",
+  "e": "In der Wahrheitstafel für A ∨ B liefern die Zeilen w/w, w/f und f/w jeweils w; nur f/f liefert f. 📄 Quelle: ari21_vl06, Folie 43 (S.43)"
+ },
+ {
+  "q": "In wie vielen der vier Zeilen der Wahrheitstafel für A ∨ B ergibt sich der Wert wahr (w)?",
+  "e": "Die Zeilen w/w, w/f und f/w liefern w, nur f/f liefert f – also 3 Zeilen. 📄 Quelle: ari21_vl06, Folie 43 (S.43)"
+ },
+ {
+  "q": "Welche Spalten kann eine Wahrheitswertetafel zur Auswertung einer verknüpften Aussage aus A und B enthalten?",
+  "e": "Die Wahrheitswertetafel auf Folie 46 hat die Spalten A, B, Zwischenschritte und Verknüpfung. 📄 Quelle: ari21_vl06, Folie 46 (S.46)"
+ },
+ {
+  "q": "Mit welchen Verknüpfungen (Junktoren) sollen die Aussagen A und B verbunden werden?",
+  "e": "Folie 47: „Verknüpfen Sie die beiden Aussagen A und B mit ‚nicht‘ (¬), ‚und‘ (∧) und einschließendem ‚oder‘ (∨)“. 📄 Quelle: ari21_vl06, Folie 47 (S.47)"
+ },
+ {
+  "q": "Welche Art von „oder“ bezeichnet das Symbol ∨ ausdrücklich?",
+  "e": "Auf der Folie wird ∨ als „einschließendes ‚oder‘“ bezeichnet. 📄 Quelle: ari21_vl06, Folie 47 (S.47)"
+ },
+ {
+  "q": "Eine verknüpfte Aussage aus A und B soll so gebildet werden, dass sie in der Tafel bzw. im Mengendiagramm in einer vorgegebenen Anzahl von Feldern wahr ist. Welche Anzahlen wahrer Felder werden dabei betrachtet?",
+  "e": "Die Teilaufgaben lauten: a) nur in einem Feld wahr, b) in drei Feldern wahr, c) in zwei Feldern wahr. 📄 Quelle: ari21_vl06, Folie 51 (S.51)"
+ },
+ {
+  "q": "Welche Hinweise zur Bearbeitung solcher Verknüpfungsaufgaben (Tafel mit A und B) sind zutreffend?",
+  "e": "Folie 52 gibt den Hinweis, in der Tafel evtl. Zwischenschritte zu verwenden; Folie 53 ergänzt: „Drücken Sie die Verknüpfung immer auch sprachlich aus!“ 📄 Quelle: ari21_vl06, Folie 53 (S.53)"
+ },
+ {
+  "q": "Welche Zuordnungen zur Mengennotation sind korrekt?",
+  "e": "Die Folie nennt: Elemente von Mengen (x ∈ M; x ∉ M), Teilmengen (A ⊂ M) und die aufzählende Schreibweise M = {a, b, c, ...}. x ∉ M bedeutet, dass x kein Element von M ist – nicht, dass es eine Teilmenge ist. 📄 Quelle: ari21_vl07, Folie 4 (S.4)"
+ },
+ {
+  "q": "Was bedeutet die Schreibweise x ∉ M?",
+  "e": "Auf der Folie steht x ∈ M (x ist Element von M) und x ∉ M als Gegenstück, also: x ist kein Element von M. 📄 Quelle: ari21_vl07, Folie 4 (S.4)"
+ },
+ {
+  "q": "Wie heißt die Schreibweise M = {a, b, c, ...}?",
+  "e": "Die Folie bezeichnet M = {a, b, c, ...} als die aufzählende Schreibweise einer Menge. 📄 Quelle: ari21_vl07, Folie 4 (S.4)"
+ },
+ {
+  "q": "Welche Eigenschaft haben Aussagen (im logischen Sinn)?",
+  "e": "Die Folie hält fest: Aussagen sind entweder richtig (wahr) oder falsch. 📄 Quelle: ari21_vl07, Folie 5 (S.5)"
+ },
+ {
+  "q": "Wie lautet zur Aussage A: „Es regnet.“ das sprachliche Gegenteil ¬A?",
+  "e": "Als Beispiel für die Bildung sprachlicher Gegenteile gibt die Folie A: „Es regnet.“ und ¬A: „Es regnet nicht.“ an. 📄 Quelle: ari21_vl07, Folie 5 (S.5)"
+ },
+ {
+  "q": "Welche Punkte zum Thema Gegenteile von Aussagen treffen zu?",
+  "e": "Die Folie nennt die Bildung sprachlicher Gegenteile, den Unterschied zwischen kontradiktorischem und konträrem Gegenteil sowie das Beispiel A: „Alle sind da“. Dass beide identisch seien, wird gerade nicht behauptet (es besteht ein Unterschied). 📄 Quelle: ari21_vl07, Folie 5 (S.5)"
+ },
+ {
+  "q": "In welchen Zeilen der Wahrheitswertetafel (konventionelle Reihenfolge) ist die Verknüpfung A ∨ ¬B wahr? (A: Es regnet, B: Die Straße ist nass)",
+  "e": "Die Wahrheitswertetafel der Folie zeigt für A ∨ ¬B die Werte w, w, f, w (Zeilen ww, wf, fw, ff). Nur bei A = f, B = w ist die Verknüpfung falsch. 📄 Quelle: ari21_vl07, Folie 6 (S.6)"
+ },
+ {
+  "q": "Wie lautet die Versprachlichung der Verknüpfung A ∨ ¬B? (A: Es regnet, B: Die Straße ist nass)",
+  "e": "Die Folie versprachlicht A ∨ ¬B als „Es regnet oder die Straße ist nicht nass.“ 📄 Quelle: ari21_vl07, Folie 6 (S.6)"
+ },
+ {
+  "q": "Welche Fähigkeiten gehören zum Verknüpfen von Aussagen?",
+  "e": "Die Folie listet alle vier Punkte auf: Verknüpfen mit nicht/und/oder, Bildung passender Wahrheitswertetafeln, Darstellung im Mengendiagramm und Versprachlichung der Aussage. 📄 Quelle: ari21_vl07, Folie 6 (S.6)"
+ },
+ {
+  "q": "Welche Verknüpfung ist nur in der Zeile (A = w, B = w) wahr, sonst überall falsch („ein Feld wahr“)?",
+  "e": "In der Übersicht „ein Feld wahr“ hat A ∧ B nur in der Zeile ww den Wert w (sonst f). 📄 Quelle: ari21_vl07, Folie 8 (S.8)"
+ },
+ {
+  "q": "Welche Verknüpfung entspricht der Versprachlichung „Es regnet nicht und die Straße ist nass.“? (A: Es regnet, B: Die Straße ist nass)",
+  "e": "Auf der Folie wird „Es regnet nicht und die Straße ist nass.“ als ¬A ∧ B dargestellt (¬A = „Es regnet nicht“, B = „die Straße ist nass“). 📄 Quelle: ari21_vl07, Folie 8 (S.8)"
+ },
+ {
+  "q": "Welche Verknüpfungen zweier Aussagen A und B haben in ihrer Wahrheitswertetafel genau ein wahres Feld?",
+  "e": "Die Folie zeigt vier Wahrheitswertetafeln mit jeweils genau einem wahren Feld: A ∧ B, A ∧ ¬B, ¬A ∧ B und ¬A ∧ ¬B. 📄 Quelle: ari21_vl07, Folie 8 (S.8)"
+ },
+ {
+  "q": "In welchem Fall ist die Aussage A ⇒ B (wenn A, dann B) falsch?",
+  "e": "Laut Folie ist A ⇒ B genau dann falsch, wenn A wahr ist, aber B falsch (A ∧ ¬B). 📄 Quelle: ari21_vl07, Folie 14 (S.14)"
+ },
+ {
+  "q": "Welche verknüpfte Aussage muss wahr sein, damit A ⇒ B falsch ist?",
+  "e": "A ⇒ B ist genau dann falsch, wenn A wahr und B falsch ist, also wenn A ∧ ¬B wahr ist. 📄 Quelle: ari21_vl07, Folie 14 (S.14)"
+ },
+ {
+  "q": "A ⇒ B (wenn A, dann B) ist genau dann wahr, wenn welche Aussage wahr ist?",
+  "e": "Aus der Falsch-Bedingung ergibt sich: A ⇒ B ist genau dann wahr, wenn ¬A ∨ B wahr ist. 📄 Quelle: ari21_vl07, Folie 15 (S.15)"
+ },
+ {
+  "q": "Welche Aussagen über A ⇒ B (wenn A, dann B) stimmen?",
+  "e": "Die Folie hält beide Bedingungen fest: falsch bei A ∧ ¬B, wahr bei ¬A ∨ B. 📄 Quelle: ari21_vl07, Folie 15 (S.15)"
+ },
+ {
+  "q": "Wie ist die Aussage A ⇒ B mathematisch definiert?",
+  "e": "Definition der Folie: Die Aussage A ⇒ B ist mathematisch definiert als ¬A ∨ B, d. h. A ⇒ B :⇔ ¬A ∨ B. 📄 Quelle: ari21_vl07, Folie 16 (S.16)"
+ },
+ {
+  "q": "Womit ist die Aussage A ⇒ B laut Definition gleichbedeutend?",
+  "e": "Die Folie definiert A ⇒ B als ¬A ∨ B; beide sind damit gleichbedeutend. 📄 Quelle: ari21_vl07, Folie 16 (S.16)"
+ },
+ {
+  "q": "Im Beispiel 'Wenn die Sonne scheint, dann gehe ich joggen' — welche Zuordnungen von A und B sind korrekt?",
+  "e": "Zur Versprachlichung setzt die Folie A := die Sonne scheint und B := ich gehe joggen. 📄 Quelle: ari21_vl07, Folie 17 (S.17)"
+ },
+ {
+  "q": "Welcher logischen Form entspricht der Satz 'Wenn die Sonne scheint, dann gehe ich joggen'?",
+  "e": "Der Satz 'Wenn A, dann B' ist die Versprachlichung von A ⇒ B. 📄 Quelle: ari21_vl07, Folie 17 (S.17)"
+ },
+ {
+  "q": "Wann ist die Aussage 'Wenn die Sonne scheint, dann gehe ich joggen' (A ⇒ B) nicht wahr (falsch)?",
+  "e": "Laut Folie ist A ⇒ B falsch, wenn die Sonne scheint UND ich NICHT joggen gehe (A ∧ ¬B ist wahr). 📄 Quelle: ari21_vl07, Folie 19 (S.19)"
+ }
+]

@@ -1,0 +1,122 @@
+[
+ {
+  "key": "stellenwert",
+  "name": "Stellenwertsysteme & Grundrechen-Algorithmen",
+  "gruppe": "Arithmetik",
+  "kategorien": [
+   "stellenwertsysteme"
+  ]
+ },
+ {
+  "key": "teilbarkeit",
+  "name": "Teilbarkeit, Teilermengen & Teilbarkeitsregeln",
+  "gruppe": "Arithmetik",
+  "kategorien": [
+   "teilbarkeit_primzahlen",
+   "teilbarkeitsregeln"
+  ]
+ },
+ {
+  "key": "primzahlen",
+  "name": "Primzahlen & Fundamentalsatz der Arithmetik",
+  "gruppe": "Arithmetik",
+  "kategorien": [
+   "teilbarkeit_primzahlen",
+   "beweismethoden"
+  ]
+ },
+ {
+  "key": "kongruenzen",
+  "name": "Kongruenzen, Restklassen & ggT/Euklid",
+  "gruppe": "Arithmetik",
+  "kategorien": [
+   "restklassen_kongruenzen",
+   "iri_mirim_zahlen",
+   "euklid_ggt"
+  ]
+ },
+ {
+  "key": "logik_beweis",
+  "name": "Aussagenlogik & Beweisformen",
+  "gruppe": "Logik & Beweise",
+  "kategorien": [
+   "aussagenlogik",
+   "de_morgan_verneinung",
+   "beweismethoden",
+   "vollstaendige_induktion"
+  ]
+ },
+ {
+  "key": "zahlfolgen",
+  "name": "Zahlfolgen, figurierte Zahlen & Summenformeln",
+  "gruppe": "Arithmetik",
+  "kategorien": [
+   "folgen_fibonacci",
+   "summenformeln_gauss",
+   "figurierte_zahlen",
+   "pascal_binomial",
+   "natuerliche_zahlen_peano"
+  ]
+ },
+ {
+  "key": "abbildungen",
+  "name": "Kongruenz-/Ähnlichkeitsabbildungen & Symmetrie",
+  "gruppe": "Geometrie",
+  "kategorien": [
+   "kongruenzabbildungen"
+  ]
+ },
+ {
+  "key": "flaechen",
+  "name": "Ebene Figuren, Flächeninhalte & Zerlegungsgleichheit",
+  "gruppe": "Geometrie",
+  "kategorien": [
+   "flaecheninhalte"
+  ]
+ },
+ {
+  "key": "pythagoras",
+  "name": "Satzgruppe des Pythagoras",
+  "gruppe": "Geometrie",
+  "kategorien": [
+   "pythagoras"
+  ]
+ },
+ {
+  "key": "konstruktion",
+  "name": "Dreieckskonstruktionen & besondere Linien im Dreieck",
+  "gruppe": "Geometrie",
+  "kategorien": [
+   "konstruktionen"
+  ]
+ },
+ {
+  "key": "polygone",
+  "name": "Reguläre Polygone, Bandornamente & Parkette",
+  "gruppe": "Geometrie",
+  "kategorien": [
+   "parkettierung_winkel"
+  ]
+ },
+ {
+  "key": "koerper",
+  "name": "Körper & räumliche Objekte",
+  "gruppe": "Geometrie",
+  "kategorien": [
+   "raeumliche_objekte"
+  ]
+ },
+ {
+  "key": "didaktik",
+  "name": "Fachdidaktik: Begriffsbildung, Bildungsstandards, Zahlenraum",
+  "gruppe": "Fachdidaktik",
+  "kategorien": [
+   "begriffsbildung_vanhiele",
+   "bildungsstandards",
+   "zahlenraum_100",
+   "didaktik_geometrie",
+   "didaktik_grundlagen",
+   "erkundungsmethodik"
+  ]
+ }
+]

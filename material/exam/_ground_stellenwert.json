@@ -1,0 +1,182 @@
+[
+ {
+  "q": "Was gilt für das Bündeln von Nüssen in m-Bündeln?",
+  "e": "Die Folie nennt: 'Nüsse in m-Bündeln (wobei m eine natürliche Zahl ist)' und 'Kinder lernen in m-Bündeln (mit m = 10, also in Zehnerbündeln) vorwärts und rückwärts zu zählen.' Eine Primzahl-Bedingung oder eine Festlegung auf 3 wird nicht genannt. 📄 Quelle: ari21_vl03, Folie 7 (S.7)"
+ },
+ {
+  "q": "Mit welchem Wert für m bündeln Kinder in Zehnerbündeln und lernen so, vorwärts und rückwärts zu zählen?",
+  "e": "Die Folie gibt an: 'Kinder lernen in m-Bündeln (mit m = 10, also in Zehnerbündeln) vorwärts und rückwärts zu zählen.' 📄 Quelle: ari21_vl03, Folie 7 (S.7)"
+ },
+ {
+  "q": "Wie wird die Zahl 17 im Dreier-System (Basis 3) dargestellt?",
+  "e": "Die Folie zeigt beim Zählen im Dreier-System die Darstellung (1 2 2)_3. 📄 Quelle: ari21_vl03, Folie 8 (S.8)"
+ },
+ {
+  "q": "Welche Aussagen zum Zählen von Nüssen in Dreierbündeln (Dreier-System) sind richtig?",
+  "e": "Die Folie 'Zählen Sie! im Dreier-System' zeigt in Dreierbündeln gebündelte Nüsse und die Darstellung (1 2 2)_3; deren Ziffern sind 1 und 2. Es handelt sich um das Dreier-System, nicht das Zweier-System. 📄 Quelle: ari21_vl03, Folie 8 (S.8)"
+ },
+ {
+  "q": "Welche Zuordnung von Stellenwert-Ebene und Zehnerpotenz ist im Zehnersystem korrekt?",
+  "e": "Die Tabelle 'Vom Stellenwert zum Zahlsystem: Zehnersystem (Potenzen zur Basis 10)' ordnet zu: Einer-Ebene 10^0, Zehner-Ebene 10^1, Hunderter-Ebene 10^2, Tausender-Ebene 10^3. Damit sind die Zuordnungen Hunderter↔10^3 und Tausender↔10^2 falsch. 📄 Quelle: ari21_vl03, Folie 9 (S.9)"
+ },
+ {
+  "q": "Welche Zehnerpotenz gehört im Zehnersystem zur Hunderter-Ebene?",
+  "e": "In der Tabelle des Zehnersystems ist der Hunderter-Ebene die Potenz 10^2 zugeordnet. 📄 Quelle: ari21_vl03, Folie 9 (S.9)"
+ },
+ {
+  "q": "Welche Aussagen zur Darstellung von 1753 im Zehnersystem sind korrekt?",
+  "e": "Die fortgesetzte Division auf der Folie ergibt 1753 = 175·10 + 3, 175 = 17·10 + 5, 17 = 1·10 + 7, 1 = 0·10 + 1. Die Stellenwerttafel liest sich Tausender 1, Hunderter 7, Zehner 5, Einer 3. Die Tausenderziffer ist also 1, nicht 3. 📄 Quelle: ari21_vl03, Folie 10 (S.10)"
+ },
+ {
+  "q": "Welche Ziffer steht in der Hunderter-Ebene der Zahl 1753 im Zehnersystem?",
+  "e": "Die Stellenwerttafel der Folie zeigt für 1753: Tausender 1, Hunderter 7, Zehner 5, Einer 3. Die Hunderterziffer ist 7. 📄 Quelle: ari21_vl03, Folie 10 (S.10)"
+ },
+ {
+  "q": "Welche Stellenwerte werden im Zweiersystem den 10 Fingern beim Zählen mit den Händen zugeordnet?",
+  "e": "Auf der Folie zum Zweiersystem sind den Fingern die Zweierpotenzen 1, 2, 4, 8, 16, 32, 64, 128, 256, 512 zugeordnet. 📄 Quelle: ari21_vl03, Folie 12 (S.12)"
+ },
+ {
+  "q": "Welcher Stellenwert ist im Zweiersystem dem höchsten (zehnten) Finger zugeordnet, wenn die Finger die Stellenwerte 1, 2, 4, 8, ... tragen?",
+  "e": "Die Folie ordnet den Fingern die Stellenwerte 1, 2, 4, 8, 16, 32, 64, 128, 256, 512 zu; der höchste Stellenwert ist 512. 📄 Quelle: ari21_vl03, Folie 12 (S.12)"
+ },
+ {
+  "q": "Welche Zuordnung von Zweierpotenz und Stellenwert ist korrekt?",
+  "e": "Die Folie beschriftet die Stellenwerte mit Zweierpotenzen: 2^0 = 1, 2^1 = 2, 2^2 = 4, 2^3 = 8, 2^4 = 16. Somit ist 2^3 = 6 falsch (2^3 = 8). 📄 Quelle: ari21_vl03, Folie 13 (S.13)"
+ },
+ {
+  "q": "Welchen Wert (Stellenwert) hat die Zweierpotenz 2^4?",
+  "e": "Die Folie ordnet der Zweierpotenz 2^4 den Stellenwert 16 zu. 📄 Quelle: ari21_vl03, Folie 13 (S.13)"
+ },
+ {
+  "q": "Was ist 34 im Zweiersystem? (Gib die Zifferndarstellung als Zahl an.)",
+  "e": "Mit den Stellenwerten der Folie (…, 32, 16, 8, 4, 2, 1) gilt 34 = 32 + 2, also (100010)_2. 📄 Quelle: ari21_vl03, Folie 15 (S.15)"
+ },
+ {
+  "q": "Welche Stellenwerte des Zweiersystems werden benötigt, um 34 darzustellen?",
+  "e": "34 = 32 + 2, daher werden die Stellenwerte 32 und 2 benötigt (Zweiersystem: (100010)_2). 16 und 4 werden nicht benötigt. 📄 Quelle: ari21_vl03, Folie 15 (S.15)"
+ },
+ {
+  "q": "Was ist 69 im Zweiersystem? (Gib die Zifferndarstellung als Zahl an.)",
+  "e": "Mit den Stellenwerten der Folie gilt 69 = 64 + 4 + 1, also (1000101)_2. 📄 Quelle: ari21_vl03, Folie 16 (S.16)"
+ },
+ {
+  "q": "Welche Stellenwerte des Zweiersystems werden benötigt, um 69 darzustellen?",
+  "e": "69 = 64 + 4 + 1, daher werden die Stellenwerte 64, 4 und 1 benötigt (Zweiersystem: (1000101)_2). 32 wird nicht benötigt. 📄 Quelle: ari21_vl03, Folie 16 (S.16)"
+ },
+ {
+  "q": "Welche Stellenwert-Potenz-Zuordnung ist beim Aufbau des Zehnersystems korrekt?",
+  "e": "Die Tabelle 'Aufbau des Zehnersystems' zeigt: Einer 10^0, Zehner 10^1, Hunderter 10^2, Tausender 10^3, Zehntausender 10^4 (usw). Damit ist Zehner ↔ 10^2 falsch (Zehner ↔ 10^1). 📄 Quelle: ari21_vl03, Folie 17 (S.17)"
+ },
+ {
+  "q": "Welchen Exponenten hat die Zehnerpotenz, die im Zehnersystem zum Zehntausender gehört (10^?)?",
+  "e": "In der Tabelle 'Aufbau des Zehnersystems' ist dem Zehntausender die Potenz 10^4 zugeordnet; der Exponent ist 4. 📄 Quelle: ari21_vl03, Folie 17 (S.17)"
+ },
+ {
+  "q": "Welche Stellenwerte gehören zum Aufbau des Zweiersystems?",
+  "e": "Die Folie zeigt die Stellenwerte des Zweiersystems als Zweierpotenzen: Einer 2^0=1, Zweier 2^1=2, Vierer 2^2=4, Achter 2^3=8, Sechzehner 2^4=16, 32er 2^5=32. Einen „Zehner 2^1=10“ gibt es nicht. 📄 Quelle: ari21_vl03, Folie 18 (S.18)"
+ },
+ {
+  "q": "Welchen Stellenwert hat der „Achter“ (2^3) im Aufbau des Zweiersystems?",
+  "e": "Der Achter entspricht 2^3 = 8. 📄 Quelle: ari21_vl03, Folie 18 (S.18)"
+ },
+ {
+  "q": "In welche Stellen der Stellenwerttafel des Zehnersystems wird die Zahl 34 eingetragen?",
+  "e": "In der Zehnersystem-Tabelle steht bei 34 die 3 im Zehner (10^1) und die 4 im Einer (10^0). 📄 Quelle: ari21_vl03, Folie 18 (S.18)"
+ },
+ {
+  "q": "Wie wird die Zahl 34 im Zweiersystem dargestellt?",
+  "e": "Die Folie: 34 = 32+2 = 2^5 + 2^1 = (100010)_2 (ausgehend von der größten Zweierpotenz). 📄 Quelle: ari21_vl03, Folie 19 (S.19)"
+ },
+ {
+  "q": "Wie lautet 34 im Zweiersystem als Ziffernfolge (z. B. 100010)?",
+  "e": "34 = (100010)_2, denn 34 = 2^5 + 2^1. 📄 Quelle: ari21_vl03, Folie 19 (S.19)"
+ },
+ {
+  "q": "Von welcher Potenz geht man bei der Umwandlung von 34 ins Zweiersystem üblicherweise aus?",
+  "e": "Die Folie vermerkt: „ausgehend von der größten Zweierpotenz: 34 = 32+2 = 2^5 + 2^1 = (100010)_2“. 📄 Quelle: ari21_vl03, Folie 19 (S.19)"
+ },
+ {
+  "q": "Welche Stellenwerte gehören zum Aufbau des Dreiersystems?",
+  "e": "Die Folie führt die Stellenwerte als Dreierpotenzen auf: Einer 3^0=1, Dreier 3^1=3, Neuner 3^2=9, 27er 3^3=27, 81er 3^4=81. 📄 Quelle: ari21_vl03, Folie 20 (S.20)"
+ },
+ {
+  "q": "Welchen Stellenwert hat der „27er“ (3^3) im Aufbau des Dreiersystems?",
+  "e": "Der 27er entspricht 3^3 = 27. 📄 Quelle: ari21_vl03, Folie 20 (S.20)"
+ },
+ {
+  "q": "Wie wird die Zahl 34 im Dreiersystem dargestellt?",
+  "e": "Die Folie: „ausgehend von der größten Dreierpotenz: 34 = 27+7 = 27 + 2·3 + 1 = 3^3 + 2·3^1 + 3^0“, also 34 = (1021)_3. 📄 Quelle: ari21_vl03, Folie 21 (S.21)"
+ },
+ {
+  "q": "Wie lautet 34 im Dreiersystem als Ziffernfolge (z. B. 1021)?",
+  "e": "34 = (1021)_3, denn 34 = 3^3 + 2·3^1 + 3^0. 📄 Quelle: ari21_vl03, Folie 21 (S.21)"
+ },
+ {
+  "q": "Wie lautet 69 im Zweiersystem als Ziffernfolge (z. B. 1000101)?",
+  "e": "Die Folie: 69 = 64+4+1 = 2^6 + 2^2 + 2^0, also (1000101)_2. 📄 Quelle: ari21_vl03, Folie 22 (S.22)"
+ },
+ {
+  "q": "Welche Zerlegung von 69 im Zweiersystem ist korrekt?",
+  "e": "Die Folie: 69 = 64+4+1 = 2^6 + 2^2 + 2^0 = (1000101)_2. 📄 Quelle: ari21_vl03, Folie 22 (S.22)"
+ },
+ {
+  "q": "Was ist (11001)_2 im Zehnersystem?",
+  "e": "Die Folie rechnet (11001)_2 = 2^4 + 2^3 + 0 + 0 + 2^0 = 16 + 8 + 1 = 25. 📄 Quelle: ari21_vl03, Folie 24 (S.24)"
+ },
+ {
+  "q": "Wie berechnet man (11001)_2 im Zehnersystem?",
+  "e": "Die Folie: (11001)_2 = 2^4 + 2^3 + 0 + 0 + 2^0 = 16 + 8 + 1 = 25. 📄 Quelle: ari21_vl03, Folie 24 (S.24)"
+ },
+ {
+  "q": "Was ist (11001)_3 im Zehnersystem?",
+  "e": "Die Folie rechnet (11001)_3 = 3^4 + 3^3 + 0 + 0 + 3^0 = 81 + 27 + 1 = 109. 📄 Quelle: ari21_vl03, Folie 26 (S.26)"
+ },
+ {
+  "q": "Wie berechnet man (11001)_3 im Zehnersystem?",
+  "e": "Die Folie: (11001)_3 = 3^4 + 3^3 + 0 + 0 + 3^0 = 81 + 27 + 1 = 109. 📄 Quelle: ari21_vl03, Folie 26 (S.26)"
+ },
+ {
+  "q": "Erster Umrechnungsschritt von 1753 ins Zweiersystem: 1753 = 876·2 + r. Wie groß ist der Rest r?",
+  "e": "Die Folie zeigt 1753 = 876·2 + 1; der eingekreiste Rest (einzeln übrig bleibende Nuss) ist 1. 📄 Quelle: ari21_vl03, Folie 27 (S.27)"
+ },
+ {
+  "q": "Wie lautet 1753 im Zweiersystem als Ziffernfolge (fortgesetzte Division durch 2, Reste von unten nach oben gelesen)?",
+  "e": "Die Folie ergibt aus der fortlaufenden Division durch 2: 1753 = (11011011001)_2. 📄 Quelle: ari21_vl03, Folie 28 (S.28)"
+ },
+ {
+  "q": "Welche der folgenden fortlaufenden Divisionsschritte für die Umwandlung von 1753 ins Zweiersystem sind korrekt?",
+  "e": "Die Folie listet u. a. 1753 = 876·2 + 1, 219 = 109·2 + 1, 27 = 13·2 + 1. Der Schritt 876 = 438·2 hat KEINEN Rest (nicht „+1“). 📄 Quelle: ari21_vl03, Folie 28 (S.28)"
+ },
+ {
+  "q": "Wie lautet 1753 im Dreiersystem als Ziffernfolge (fortgesetzte Division durch 3)?",
+  "e": "Die Folie ergibt aus der fortlaufenden Division durch 3: 1753 = (2101221)_3. 📄 Quelle: ari21_vl03, Folie 30 (S.30)"
+ },
+ {
+  "q": "Welche der folgenden Divisionsschritte für die Umwandlung von 1753 ins Dreiersystem sind korrekt?",
+  "e": "Die Folie listet u. a. 1753 = 584·3 + 1, 584 = 194·3 + 2, 64 = 21·3 + 1. Der Schritt 21 = 7·3 hat KEINEN Rest (nicht „+1“). 📄 Quelle: ari21_vl03, Folie 30 (S.30)"
+ },
+ {
+  "q": "Wie lautet 1753 im Fünfersystem als Ziffernfolge (fortgesetzte Division durch 5)?",
+  "e": "Die Folie ergibt aus der fortlaufenden Division durch 5: 1753 = (24003)_5. 📄 Quelle: ari21_vl03, Folie 32 (S.32)"
+ },
+ {
+  "q": "Welche Aussagen zur Fünferdarstellung von 1753 sind korrekt?",
+  "e": "Die Folie: 1753 = 350·5 + 3, … 14 = 2·5 + 4, … Ergebnis (24003)_5. Der erste Rest ist 3, nicht 1. 📄 Quelle: ari21_vl03, Folie 32 (S.32)"
+ },
+ {
+  "q": "Wie lässt sich eine natürliche Zahl n im b-adischen Stellenwertsystem darstellen?",
+  "e": "Die Folie: n = a_m·b^m + a_{m-1}·b^{m-1} + … + a_1·b^1 + a_0·b^0; die a-Zahlen mit Index k sind natürliche Zahlen größer gleich 0 und kleiner als b, also 0 ≤ a_k < b. 📄 Quelle: ari21_vl03, Folie 34 (S.34)"
+ },
+ {
+  "q": "Welche Bedingung müssen die Ziffern a_k im b-adischen Stellenwertsystem erfüllen?",
+  "e": "Die Folie: „Dabei sind die a-Zahlen mit Index k natürliche Zahlen größer gleich 0 und kleiner als b, also 0 ≤ a_k < b.“ 📄 Quelle: ari21_vl03, Folie 34 (S.34)"
+ },
+ {
+  "q": "Welche Beispiel-Darstellungen der Zahl 1752 werden als Beispiele für ein b-adisches Stellenwertsystem angegeben?",
+  "e": "Die Folie nennt als Beispiele 1752 = 1·10^3 + 7·10^2 + 5·10^1 + 2·10^0 (dekadisch) und 1752 = 2·3^6 + 1·3^5 + 1·3^3 + 2·3^2 + 2·3^1 + 1·3^0; das dekadische System wird ausdrücklich als Beispiel eines b-adischen Stellenwertsystems genannt. Hinweis: Die auf der Folie angegebene Dreier-Darstellung ist rechnerisch inkonsistent (sie ergibt 1753 statt 1752; korrekt wäre 1752 = 2·3^6 + 1·3^5 + 1·3^3 + 2·3^2 + 2·3^1 + 0·3^0); die Option wird jedoch folientreu wiedergegeben. 📄 Quelle: ari21_vl03, Folie 34 (S.34)"
+ },
+ {
+  "q": "Welche der folgenden Umrechnungen der Zahlen 543 und 987 ins Dreiersystem sind korrekt?",
+  "e": "Auf der Folie stehen 543 = (202010)₃ und 987 = (1100120)₃; diese werden stellenweise im Dreiersystem addiert. 📄 Quelle: ari21_vl03, Folie 36 (S.36)"
+ }
+]

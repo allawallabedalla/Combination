@@ -1,0 +1,182 @@
+[
+ {
+  "q": "Wann teilt eine natürliche Zahl a eine natürliche Zahl b (a | b) laut Definition?",
+  "e": "Definition: a teilt b (a | b) genau dann, wenn es zu a eine natürliche Zahl c gibt, so dass a · c = b ist. 📄 Quelle: ari21_vl04, Folie 15 (S.15)"
+ },
+ {
+  "q": "Wie nennt man a, wenn a | b gilt?",
+  "e": "Gilt a | b, so nennt man a einen Teiler von b. 📄 Quelle: ari21_vl04, Folie 15 (S.15)"
+ },
+ {
+  "q": "Welche Schreibweisen bedeuten dasselbe wie „a teilt b“?",
+  "e": "Die Folie nennt die gleichwertigen Schreibweisen „a teilt b“ bzw. a | b. 📄 Quelle: ari21_vl04, Folie 15 (S.15)"
+ },
+ {
+  "q": "Mit welchem c ∈ ℕ zeigt man gemäß Definition, dass 2 | 6 gilt (2 · c = 6)?",
+  "e": "2 | 6, denn mit c = 3 gilt 2 · 3 = 6. 📄 Quelle: ari21_vl04, Folie 18 (S.18)"
+ },
+ {
+  "q": "Welches c belegt 1 | 5, also 1 · c = 5?",
+  "e": "1 | 5, denn 1 · 5 = 5, also c = 5. 📄 Quelle: ari21_vl04, Folie 18 (S.18)"
+ },
+ {
+  "q": "Welche der folgenden Begründungen für Teilbarkeit sind korrekt?",
+  "e": "Auf der Folie werden 2|6 (c=3), 3|0 (3·0=0) und 0|0 (0·1=0) korrekt begründet; 6|2 gilt nicht, da es kein natürliches c mit 6·c=2 gibt. 📄 Quelle: ari21_vl04, Folie 18 (S.18)"
+ },
+ {
+  "q": "Welche allgemeinen Teilbarkeitsaussagen lassen sich mit der Definition begründen?",
+  "e": "Begründet werden 1|b (1·b=b), b|b (b·1=b) und a|0 (a·0=0); dagegen teilt 0 keine Zahl b>0. 📄 Quelle: ari21_vl04, Folie 20 (S.20)"
+ },
+ {
+  "q": "Warum teilt 0 keine natürliche Zahl b > 0?",
+  "e": "Für b > 0 gibt es kein c mit 0 · c = b (denn 0 · c = 0 ≠ b), daher teilt 0 keine solche Zahl. 📄 Quelle: ari21_vl04, Folie 20 (S.20)"
+ },
+ {
+  "q": "Mit welchem c begründet man a | 0, also a · c = 0?",
+  "e": "a | 0, denn a · 0 = 0, also c = 0. 📄 Quelle: ari21_vl04, Folie 20 (S.20)"
+ },
+ {
+  "q": "Wie werden Primzahlen anschaulich über das Zahlenbäumchen beschrieben?",
+  "e": "Die letzten Blätter des Zahlenbäumchens sind Zahlen, die man nicht mehr weiter teilen kann (außer durch sich selbst) – solche Zahlen nennt man Primzahlen. 📄 Quelle: ari21_vl04, Folie 22 (S.22)"
+ },
+ {
+  "q": "Welche Aussagen über die „letzten Blätter“ eines Zahlenbäumchens treffen zu?",
+  "e": "Die letzten Blätter sind nicht weiter teilbare Zahlen (außer durch sich selbst); diese heißen Primzahlen und lassen sich gerade nicht weiter verzweigen. 📄 Quelle: ari21_vl04, Folie 22 (S.22)"
+ },
+ {
+  "q": "Wie lautet die Definition einer Primzahl?",
+  "e": "Definition: Eine natürliche Zahl p heißt Primzahl genau dann, wenn p genau zwei unterschiedliche Teiler hat. 📄 Quelle: ari21_vl04, Folie 23 (S.23)"
+ },
+ {
+  "q": "Wie viele unterschiedliche Teiler hat eine Primzahl laut Definition?",
+  "e": "Eine Primzahl hat genau zwei unterschiedliche Teiler. 📄 Quelle: ari21_vl04, Folie 23 (S.23)"
+ },
+ {
+  "q": "Warum gehört die 1 nicht zu den Primzahlen?",
+  "e": "Eine Primzahl muss genau zwei unterschiedliche Teiler haben; die 1 hat nur einen Teiler und gehört daher laut Folie nicht zu den Primzahlen. 📄 Quelle: ari21_vl04, Folie 23 (S.23)"
+ },
+ {
+  "q": "Was ergibt sich aus der Primfaktorzerlegung der Zahl 12 mithilfe eines Baums?",
+  "e": "Auf der Folie: Aus der Primfaktorzerlegung 12 = 3·2·2 = 2·2·3 = 2²·3 ergibt sich mit einem Baum die Menge aller Teiler der Zahl 12. 📄 Quelle: ari21_vl05, Folie 7 (S.7)"
+ },
+ {
+  "q": "Für welche Zahlen sollen laut Aufgabenstellung ein solcher Baum und die Teilermenge erstellt werden?",
+  "e": "Die Folie fordert auf: Erstellen Sie zu 12, 96, 132 und 189 einen solchen Baum und die Teilermenge. Die 144 kommt nicht vor. 📄 Quelle: ari21_vl05, Folie 7 (S.7)"
+ },
+ {
+  "q": "Welche Aussagen geben den Satz zur Teilbarkeitsrelation (Transitivität) korrekt wieder?",
+  "e": "Der Satz auf der Folie lautet: Die Teilbarkeitsrelation ist transitiv. Für natürliche Zahlen a, b, c gilt: Wenn a|b und b|c, dann a|c. 📄 Quelle: ari21_vl05, Folie 9 (S.9)"
+ },
+ {
+  "q": "Welche der folgenden Beispiele bestätigen die Transitivität der Teilbarkeit?",
+  "e": "Auf der Folie stehen die Beispiele: 2|4 und 4|12, dann auch 2|12 sowie 7|21 und 21|63, dann auch 7|63. 📄 Quelle: ari21_vl05, Folie 9 (S.9)"
+ },
+ {
+  "q": "Wie werden im direkten Beweis die Voraussetzungen a|b und b|c mit der Definition der Teilbarkeit umgesetzt?",
+  "e": "In der Tabelle „Definition umgesetzt“ steht a·q = b und b·p = c. 📄 Quelle: ari21_vl05, Folie 11 (S.11)"
+ },
+ {
+  "q": "Welche Umformung zeigt im direkten Beweis, dass a|c gilt?",
+  "e": "Aus b·p = c und a·q = b folgt b·p = a·q·p = a·(q·p) = c; multipliziert man a mit (p·q), so ergibt sich c, also a|c. 📄 Quelle: ari21_vl05, Folie 11 (S.11)"
+ },
+ {
+  "q": "Wie wird c bei der Veranschaulichung der Transitivität mit figurierten Zahlen ausgedrückt?",
+  "e": "Bei den figurierten Zahlen wird b (= a·p) insgesamt q mal wiederholt: = q·b = q·a·p = a·(q·p) = c, also a|c. 📄 Quelle: ari21_vl05, Folie 12 (S.12)"
+ },
+ {
+  "q": "Wie oft wird bei der figurierten Darstellung das Rechteck (das b darstellt) wiederholt, um c darzustellen?",
+  "e": "Auf der Folie ist die Wiederholung des b-Rechtecks mit „q mal“ beschriftet. 📄 Quelle: ari21_vl05, Folie 12 (S.12)"
+ },
+ {
+  "q": "Wie lautet die Summenregel für natürliche Zahlen a, b, c?",
+  "e": "Der Satz (Summenregel) auf der Folie: Für natürliche Zahlen a, b, c gilt: Wenn a|b und a|c, dann a|(b+c). In Worten: Wenn a Teiler von b und c ist, dann ist auch a Teiler von (b+c). 📄 Quelle: ari21_vl05, Folie 13 (S.13)"
+ },
+ {
+  "q": "Es gilt 2|4 und 2|12 (mit 2·2=4 und 2·6=12). Welchen Wert hat 2·(2+6)?",
+  "e": "Auf der Folie: 2·2=4 und 2·6=12, dann auch 2·(2+6)=16. 📄 Quelle: ari21_vl05, Folie 13 (S.13)"
+ },
+ {
+  "q": "Es gilt 7|21 und 7|63 (mit 7·3=21 und 7·9=63). Welchen Wert hat 7·(3+9)?",
+  "e": "Auf der Folie: 7·3=21 und 7·9=63, dann auch 7·(3+9)=84. 📄 Quelle: ari21_vl05, Folie 13 (S.13)"
+ },
+ {
+  "q": "Wie werden im Beweis der Summenregel die Voraussetzungen a|b und a|c mit der Definition umgesetzt?",
+  "e": "In der Tabelle „Definition umgesetzt“ steht a·p = b und a·q = c. 📄 Quelle: ari21_vl05, Folie 14 (S.14)"
+ },
+ {
+  "q": "Welche Umformung begründet im direkten Beweis, dass a|(b+c) gilt?",
+  "e": "Auf der Folie: b+c = a·p + a·q, also a·(p+q) = b+c; multipliziert man a mit (p+q), so ergibt sich (b+c), also a|(b+c). 📄 Quelle: ari21_vl05, Folie 14 (S.14)"
+ },
+ {
+  "q": "Wie wird b+c bei der Veranschaulichung der Summenregel mit figurierten Zahlen ausgedrückt?",
+  "e": "Bei den figurierten Zahlen werden die p Spalten von b und die q Spalten von c zu p+q Spalten zusammengefügt: = a·(p+q) = b+c, also a|(b+c). 📄 Quelle: ari21_vl05, Folie 15 (S.15)"
+ },
+ {
+  "q": "Wie viele Spalten hat bei der figurierten Darstellung der Summenregel die Darstellung von b+c?",
+  "e": "Auf der Folie ist die Darstellung von b+c mit „p + q“ Spalten beschriftet. 📄 Quelle: ari21_vl05, Folie 15 (S.15)"
+ },
+ {
+  "q": "Wie lautet die „andere Summenregel“ für natürliche Zahlen a, b, c?",
+  "e": "Der Satz (andere Summenregel) auf der Folie: Für natürliche Zahlen a, b, c gilt: Wenn a|b und a|(b+c), dann a|c. In Worten: Wenn a Teiler von b und von (b+c) ist, dann ist auch a Teiler von c. 📄 Quelle: ari21_vl05, Folie 16 (S.16)"
+ },
+ {
+  "q": "Es gilt 2|4 und 2|10 (mit 2·2=4 und 2·5=10). Welchen Wert hat 2·(5−2)?",
+  "e": "Auf der Folie: 2·2=4 und 2·5=10, dann auch 2·(5−2)=2·3=6 (mit 6=10−4). 📄 Quelle: ari21_vl05, Folie 16 (S.16)"
+ },
+ {
+  "q": "Es gilt 7|21 und 7|105 (mit 7·3=21 und 7·15=105). Welchen Wert hat 7·(15−3)?",
+  "e": "Auf der Folie: 7·3=21 und 7·15=105, dann auch 7·(15−3)=7·12=84 (mit 84=105−21). 📄 Quelle: ari21_vl05, Folie 16 (S.16)"
+ },
+ {
+  "q": "Wie werden im Beweis der „anderen Summenregel“ die Voraussetzungen a|b und a|(b+c) mit der Definition umgesetzt?",
+  "e": "In der Tabelle „Definition umgesetzt“ steht a·p = b und a·q = (b+c). 📄 Quelle: ari21_vl05, Folie 17 (S.17)"
+ },
+ {
+  "q": "Welche Umformung liefert im Beweis der „anderen Summenregel“ den Ausdruck für c und begründet a|c?",
+  "e": "Auf der Folie: aus b+c = a·p + c und b+c = a·q erhält man a·p + c = a·q, also c = a·q − a·p = a·(q−p), somit a|c. 📄 Quelle: ari21_vl05, Folie 17 (S.17)"
+ },
+ {
+  "q": "Wie wird c bei der Veranschaulichung der „anderen Summenregel“ mit figurierten Zahlen ausgedrückt?",
+  "e": "Bei den figurierten Zahlen bleibt für c ein Rechteck mit a Zeilen und q Spalten: = a·q, also a|c. 📄 Quelle: ari21_vl05, Folie 18 (S.18)"
+ },
+ {
+  "q": "Wie viele Spalten hat bei der figurierten Darstellung der „anderen Summenregel“ die Darstellung von (b+c)?",
+  "e": "Auf der Folie ist die Darstellung von (b+c) mit „p + q“ Spalten beschriftet, während b nur p Spalten hat. 📄 Quelle: ari21_vl05, Folie 18 (S.18)"
+ },
+ {
+  "q": "Summenregel (Rückblick): Welche Aussage(n) geben den Satz für natürliche Zahlen a, b, c korrekt wieder?",
+  "e": "Die Folie formuliert die Summenregel: „Für natürliche Zahlen a, b, c gilt: Wenn a|b und a|c, dann a|(b+c).“ In Worten: Wenn a Teiler von b und c ist, dann ist a auch Teiler von (b+c). Die Umkehrung wird nicht behauptet. 📄 Quelle: ari21_vl06, Folie 12 (S.12)"
+ },
+ {
+  "q": "Nach der Summenregel gilt wegen 2|4 und 2|12 auch 2|(4+12). Berechne 4+12.",
+  "e": "Folie 12 zeigt das Beispiel 2|4 und 2|12 ⇒ 2|(4+12), dargestellt als 2·(2+6)=16; also 4+12=16. 📄 Quelle: ari21_vl06, Folie 12 (S.12)"
+ },
+ {
+  "q": "Nach der Summenregel gilt wegen 7|21 und 7|63 auch 7|(21+63). Berechne 21+63.",
+  "e": "Folie 12 zeigt das Beispiel 7|21 und 7|63 ⇒ 7|(21+63), dargestellt als 7·(3+9)=84; also 21+63=84. 📄 Quelle: ari21_vl06, Folie 12 (S.12)"
+ },
+ {
+  "q": "Die Teilbarkeitsrelation ist transitiv. Welche Formulierung(en) geben diesen Satz für natürliche Zahlen a, b, c korrekt wieder?",
+  "e": "Die Folie gibt den Satz zur Transitivität an: „Wenn a|b und b|c, dann a|c.“ In Worten: Wenn a Teiler von b ist und b Teiler von c, dann ist auch a Teiler von c. 📄 Quelle: ari21_vl06, Folie 11 (S.11)"
+ },
+ {
+  "q": "Welche der folgenden Schlüsse sind Beispiele für die Transitivität der Teilbarkeitsrelation?",
+  "e": "Die Folie nennt als Beispiele der Transitivität: „2|4 und 4|12, dann auch 2|12“ sowie „7|21 und 21|63, dann auch 7|63“. Der Schluss 2|4 und 2|12 ⇒ 2|(4+12) gehört zur Summenregel, nicht zur Transitivität; 4|2 und 12|4 sind falsch, da 4 kein Teiler von 2 ist. 📄 Quelle: ari21_vl06, Folie 11 (S.11)"
+ },
+ {
+  "q": "Wie lautet der Satz von Euklid über die Menge der Primzahlen?",
+  "e": "Satz (Euklid): Wenn P die Menge der Primzahlen ist, dann ist P unendlich. (Es gibt unendlich viele Primzahlen.) 📄 Quelle: ari21_vl08, Folie 26 (S.26)"
+ },
+ {
+  "q": "Was trifft auf Euklid von Alexandria zu?",
+  "e": "Euklid von Alexandria, griechischer Mathematiker, wahrscheinlich 300 v. Chr. 📄 Quelle: ari21_vl08, Folie 26 (S.26)"
+ },
+ {
+  "q": "Wie lautet der verneinte Satz von Euklid (Verneinung von \"Die Menge der Primzahlen ist unendlich\")?",
+  "e": "Verneinter Satz: P ist die Menge der Primzahlen und P ist (dennoch) nicht unendlich = P ist die Menge der Primzahlen und P ist (dennoch) endlich. 📄 Quelle: ari21_vl08, Folie 28 (S.28)"
+ },
+ {
+  "q": "Beispiel mit der endlichen Menge P = {3; 5}: Man baut a als Produkt aller Primzahlen und addiert 1, also a = 3·5 + 1. Welchen Wert hat a?",
+  "e": "a = 3·5 + 1 = 16. 📄 Quelle: ari21_vl08, Folie 30 (S.30)"
+ }
+]

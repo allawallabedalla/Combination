@@ -1,0 +1,182 @@
+[
+ {
+  "q": "Was besagt der „Satz von der eindeutigen Division mit Rest“?",
+  "e": "Die Folie: „Wenn n, m natürliche Zahlen sind, dann gibt es genau ein Paar natürlicher Zahlen q und r (mit 0), so dass n = q·m + r mit r < m gilt.“ (Satz von der eindeutigen Division mit Rest). 📄 Quelle: ari21_vl03, Folie 33 (S.33)"
+ },
+ {
+  "q": "Wie kann man „7 : 2 = 3 Rest 1“ ohne weitere Definition schreiben?",
+  "e": "Die Folie: „Ohne weitere Definition kann man wie oben schreiben: 7 = 3·2 + 1.“ 📄 Quelle: ari21_vl03, Folie 33 (S.33)"
+ },
+ {
+  "q": "Wie kann man den Ausdruck „3 Rest 1“ (bei der Division mit Rest) beispielhaft definieren?",
+  "e": "Die Folie: „Eigentlich müsste man hier definieren, was mit Rest gemeint ist, z. B.: 3 Rest 1 := 3 + (1:2).“ 📄 Quelle: ari21_vl03, Folie 33 (S.33)"
+ },
+ {
+  "q": "Satz von der eindeutigen Division mit Rest: Für natürliche Zahlen n, m gibt es genau ein Paar natürlicher Zahlen q und r mit n = q·m + r. Welche Bedingung muss der Rest r erfüllen?",
+  "e": "Auf der Folie steht: es gibt genau ein Paar q und r, so dass n = q·m + r mit r < m gilt. 📄 Quelle: ari21_vl04, Folie 4 (S.4)"
+ },
+ {
+  "q": "Welche Aussagen gehören zum Satz von der eindeutigen Division mit Rest (n, m natürliche Zahlen)?",
+  "e": "Die Folie formuliert: Wenn n, m natürliche Zahlen sind, dann gibt es genau ein Paar natürlicher Zahlen q und r, so dass n = q·m + r mit r < m gilt (Satz von der eindeutigen Division mit Rest). 'Genau ein Paar' schließt mehrere Paare aus; r ist durch r < m beschränkt. 📄 Quelle: ari21_vl04, Folie 4 (S.4)"
+ },
+ {
+  "q": "In der Stellenwertdarstellung n = a_m·b^m + a_(m-1)·b^(m-1) + ... + a_1·b^1 + a_0·b^0 ist der höchste auftretende Exponent von b gleich:",
+  "e": "Der erste (höchste) Summand ist a_m·b^m, der Exponent der höchsten Potenz von b ist also m; der letzte Summand ist a_0·b^0. 📄 Quelle: ari21_vl04, Folie 4 (S.4)"
+ },
+ {
+  "q": "Welche Vielfachen von 21 im Vierer-System (aus der Nebenrechnungstabelle) sind korrekt?",
+  "e": "Die Vielfachentabelle im 4er-System zeigt 1·21 = 21, 2·21 = 102 und 3·21 = 123. '2·21 = 42' ist keine gültige 4er-Darstellung. 📄 Quelle: ari21_vl04, Folie 9 (S.9)"
+ },
+ {
+  "q": "Was ergibt die schriftliche Division (11322) : (21) im Vierer-System?",
+  "e": "Die schriftliche Division im 4er-System liefert 11322 : 21 = 222 (Rest 0). 📄 Quelle: ari21_vl04, Folie 9 (S.9)"
+ },
+ {
+  "q": "Welchen Wert hat (11322)_4 im Dezimalsystem?",
+  "e": "Probe: (11322)_4 = 1·4^4 + 1·4^3 + 3·4^2 + 2·4^1 + 2·4^0 = 1·256 + 1·64 + 3·16 + 2·4 + 2·1 = 378. 📄 Quelle: ari21_vl04, Folie 10 (S.10)"
+ },
+ {
+  "q": "Welchen Wert hat (21)_4 im Dezimalsystem?",
+  "e": "Probe: (21)_4 = 2·4^1 + 1·4^0 = 8 + 1 = 9. 📄 Quelle: ari21_vl04, Folie 10 (S.10)"
+ },
+ {
+  "q": "Die Probe der Division wird im Zehnersystem durchgeführt: 378 : 9 = ?",
+  "e": "378 : 9 = 42, und 42 = 2·4^2 + 2·4^1 + 2·4^0 = (222)_4 bestätigt das Ergebnis der 4er-Division. 📄 Quelle: ari21_vl04, Folie 10 (S.10)"
+ },
+ {
+  "q": "Wie lautet der „Satz von der eindeutigen Division mit Rest“?",
+  "e": "Der Satz lautet: Wenn n ≥ m ist, dann gibt es genau ein Paar Natürlicher Zahlen q und r, so dass n = q·m + r mit 0 ≤ r < m gilt. 📄 Quelle: ari23_vl09, Folie 8 (S.8)"
+ },
+ {
+  "q": "Welche Bedingungen/Voraussetzungen nennt der Satz von der eindeutigen Division mit Rest?",
+  "e": "Der Satz fordert: für alle Natürlichen Zahlen n, m, Voraussetzung n ≥ m, dann genau ein Paar q, r mit n = q·m + r und 0 ≤ r < m. 📄 Quelle: ari23_vl09, Folie 8 (S.8)"
+ },
+ {
+  "q": "In der Grundschule schreibt man „7 : 2 = 3 Rest r“. Wie groß ist r?",
+  "e": "Auf der Folie steht das Beispiel 7 : 2 = 3 Rest 1, also r = 1. 📄 Quelle: ari23_vl09, Folie 8 (S.8)"
+ },
+ {
+  "q": "Wie wird „3 Rest 1“ (als eigentlich nötige Definition) festgelegt?",
+  "e": "Die Folie definiert beispielhaft 3 Rest 1 := 3 + (1/2); ohne weitere Definition kann man 7 = 3·2 + 1 schreiben. 📄 Quelle: ari23_vl09, Folie 8 (S.8)"
+ },
+ {
+  "q": "Welche Aussagen gehören zum \"Satz von der eindeutigen Division mit Rest\" für natürliche Zahlen n und m?",
+  "e": "Der Satz lautet: Für alle natürlichen Zahlen n, m gilt: Wenn n ≥ m ist, dann gibt es genau ein Paar natürlicher Zahlen q und r, so dass n = q·m + r mit 0 ≤ r < m gilt. 📄 Quelle: ari23_vl10, Folie 4 (S.4)"
+ },
+ {
+  "q": "Wie lautet die Bedingung an den Rest r im Satz von der eindeutigen Division mit Rest (n = q·m + r)?",
+  "e": "Der Rest r erfüllt 0 ≤ r < m; er kann also 0 werden (bei Teilbarkeit), ist aber stets kleiner als der Divisor m. 📄 Quelle: ari23_vl10, Folie 4 (S.4)"
+ },
+ {
+  "q": "Wie lautet die Mischregel für einen zusammengesetzten Divisor m (m ist keine Primzahl)?",
+  "e": "Die Mischregel: Ist der Divisor m keine Primzahl, dann ist n durch m teilbar, wenn n durch jeden Primfaktor von m teilbar ist. 📄 Quelle: ari23_vl10, Folie 18 (S.18)"
+ },
+ {
+  "q": "Welche Teilbarkeitsregeln muss man laut Beispiel prüfen, um zu entscheiden, ob n durch 6 teilbar ist?",
+  "e": "6 = 2·3, also ist n durch 6 teilbar, wenn n durch 2 UND durch 3 teilbar ist; man prüft die Regeln für 2 und 3. 📄 Quelle: ari23_vl10, Folie 18 (S.18)"
+ },
+ {
+  "q": "Die Mischregel führt die Teilbarkeit durch einen zusammengesetzten Divisor auf dessen Primfaktoren zurück. Welche Frage bleibt danach noch offen?",
+  "e": "Am Ende steht die Frage: 'Und wenn der Divisor eine Primzahl ≥ 5 ist?' 📄 Quelle: ari23_vl10, Folie 18 (S.18)"
+ },
+ {
+  "q": "Welche Darstellungen von 11 zeigt der Rückblick zu positiven und negativen Resten?",
+  "e": "Die Folie zeigt 11 = 3·3 + 2 (positiver Rest) und 11 = 4·3 − 1 (negativer Rest). 📄 Quelle: ari23_vl10, Folie 19 (S.19)"
+ },
+ {
+  "q": "Welchen (negativen) Rest hat 11 beim Teilen durch 3 gemäß der Darstellung 11 = 4·3 − 1?",
+  "e": "Aus 11 = 4·3 − 1 ergibt sich der negative Rest −1. 📄 Quelle: ari23_vl10, Folie 19 (S.19)"
+ },
+ {
+  "q": "Wie werden negative Reste beim Teilen anschaulich beschrieben?",
+  "e": "Positive Reste sind 'was über bleibt'; negative Reste werden als 'quasi Schulden beim Teilen' beschrieben – dafür lässt man negative Zahlen zu. 📄 Quelle: ari23_vl10, Folie 19 (S.19)"
+ },
+ {
+  "q": "Warum ist die Addition auf der Menge {t (durch 3 teilbar), n (nicht durch 3 teilbar)} mathematisch 'nicht wohldefiniert'?",
+  "e": "Bei n + n kann sowohl t als auch n herauskommen (Eintrag n/t). Eine Operation ist nicht wohldefiniert, weil zwei Ergebnisse herauskommen können; nötig ist eine Unterscheidung zwischen n = 3k+1 und n = 3k+2. 📄 Quelle: ari23_vl10, Folie 31 (S.31)"
+ },
+ {
+  "q": "Welche Einträge der Multiplikationstafel für t (durch 3 teilbar) und n (nicht durch 3 teilbar) sind korrekt?",
+  "e": "Die Multiplikationstafel zeigt t · t = t, t · n = t, n · t = t und n · n = n. 📄 Quelle: ari23_vl10, Folie 31 (S.31)"
+ },
+ {
+  "q": "Wie sind die Restklassen beim Teilen durch 3 definiert?",
+  "e": "Die Folie definiert 0̄ = {0,3,6,...} = {n∈ℕ | n=3k}, 1̄ = {1,4,7,...} = {n∈ℕ | n=3k+1} und 2̄ = {2,5,8,...} = {n∈ℕ | n=3k+2}, jeweils mit k ∈ ℕ₀. 📄 Quelle: ari23_vl10, Folie 31 (S.31)"
+ },
+ {
+  "q": "Was ist die Restklasse 0̄ (beim Teilen durch 3)?",
+  "e": "Beispiel auf der Folie: 0̄ ist die Menge der Zahlen (Restklasse), die beim Teilen durch eine andere Zahl m (hier 3) den Rest 0 lässt, also alle Zahlen der Form n = 3k. 📄 Quelle: ari23_vl10, Folie 31 (S.31)"
+ },
+ {
+  "q": "Welches Ergebnis hat die Addition der Restklassen 2̄ + 1̄ (beim Teilen durch 3)?",
+  "e": "Die Folie zeigt 2̄ + 1̄ = 0̄ (formal und ikonisch). 📄 Quelle: ari23_vl10, Folie 32 (S.32)"
+ },
+ {
+  "q": "Wie begründet man formal, dass 2̄ + 1̄ = 0̄ (beim Teilen durch 3) gilt?",
+  "e": "Formal (Addition): (3k₁+2) + (3k₂+1) = 3k₁ + 3k₂ + 2 + 1 = 3(k₁+k₂) + 3 = 3(k₁+k₂+1), also durch 3 teilbar → Restklasse 0̄. 📄 Quelle: ari23_vl10, Folie 32 (S.32)"
+ },
+ {
+  "q": "Welche Einträge der Additionstafel der Restklassen (mod 3) sind korrekt?",
+  "e": "Die Additionstafel zeigt u. a. 1̄ + 1̄ = 2̄, 1̄ + 2̄ = 0̄ und 2̄ + 1̄ = 0̄. 📄 Quelle: ari23_vl10, Folie 32 (S.32)"
+ },
+ {
+  "q": "Welches Ergebnis hat die Addition der Restklassen 2̄ + 2̄ (beim Teilen durch 3)?",
+  "e": "Formal: (3k₁+2) + (3k₂+2) = 3(k₁+k₂) + 4 = 3(k₁+k₂+1) + 1, also 2̄ + 2̄ = 1̄. 📄 Quelle: ari23_vl10, Folie 33 (S.33)"
+ },
+ {
+  "q": "Welcher Restklasse entspricht die Restklasse 4̄ (beim Teilen durch 3)?",
+  "e": "Wegen 3(k₁+k₂) + 4 = 3(k₁+k₂+1) + 1 gilt: die Restklasse 4̄ entspricht der Restklasse 1̄. 📄 Quelle: ari23_vl10, Folie 33 (S.33)"
+ },
+ {
+  "q": "Welches Ergebnis hat die Multiplikation der Restklassen 2̄ · 1̄ (beim Teilen durch 3)?",
+  "e": "Die Folie zeigt 2̄ · 1̄ = 2̄. 📄 Quelle: ari23_vl10, Folie 35 (S.35)"
+ },
+ {
+  "q": "Wie begründet man formal, dass 2̄ · 1̄ = 2̄ (beim Teilen durch 3) gilt?",
+  "e": "Formal (Multiplikation): (3k₁+2)·(3k₂+1) = 3k₁·3k₂ + 3k₁·1 + 2·3k₂ + 2·1 = 9k₁k₂ + 3k₁ + 6k₂ + 2 = 3(3k₁k₂ + k₁ + 2k₂) + 2 → Restklasse 2̄. 📄 Quelle: ari23_vl10, Folie 35 (S.35)"
+ },
+ {
+  "q": "Welches Ergebnis hat die Multiplikation der Restklassen 1̄ · 1̄ (beim Teilen durch 3)?",
+  "e": "Formal: (3k₁+1)·(3k₂+1) = 3(3k₁k₂ + k₁ + k₂) + 1, also 1̄ · 1̄ = 1̄. 📄 Quelle: ari23_vl10, Folie 36 (S.36)"
+ },
+ {
+  "q": "Welches Ergebnis hat die Multiplikation der Restklassen 2̄ · 2̄ (beim Teilen durch 3)?",
+  "e": "Formal: (3k₁+2)·(3k₂+2) = 9k₁k₂ + 6k₁ + 6k₂ + 4 = 3(3k₁k₂ + 2k₁ + 2k₂ + 1) + 1, also 2̄ · 2̄ = 1̄. 📄 Quelle: ari23_vl10, Folie 36 (S.36)"
+ },
+ {
+  "q": "Welche Produkte von Restklassen (mod 3) sind korrekt?",
+  "e": "Die Folie leitet her: 2̄ · 1̄ = 2̄, 1̄ · 1̄ = 1̄ und 2̄ · 2̄ = 1̄. 📄 Quelle: ari23_vl10, Folie 36 (S.36)"
+ },
+ {
+  "q": "Was zeigt die vollständige Multiplikationstafel der Restklassen (mod 3) für die Restklasse 0̄?",
+  "e": "In der vollständigen Multiplikationstafel ist die gesamte 0̄-Zeile und 0̄-Spalte gleich 0̄: 0̄ · 0̄ = 0̄, 0̄ · 1̄ = 0̄, 0̄ · 2̄ = 0̄. 📄 Quelle: ari23_vl10, Folie 37 (S.37)"
+ },
+ {
+  "q": "Welches Ergebnis hat die Multiplikation der Restklassen 1̄ · 2̄ (beim Teilen durch 3) laut vollständiger Multiplikationstafel?",
+  "e": "Die vollständige Multiplikationstafel (mod 3) zeigt 1̄ · 2̄ = 2̄. 📄 Quelle: ari23_vl10, Folie 37 (S.37)"
+ },
+ {
+  "q": "Wie werden die Restklassen beim Teilen durch 3 beschrieben?",
+  "e": "Die Folie gibt 0̄={0,3,6,...}=​{n∈ℕ|n=3k}, 1̄={1,4,7,...}=​{n∈ℕ|n=3k+1} und 2̄={2,5,8,...}=​{n∈ℕ|n=3k+2}, jeweils mit k∈ℕ₀. 📄 Quelle: ari23_vl11, Folie 4 (S.4)"
+ },
+ {
+  "q": "Warum ist die Verknüpfung „n + n\" in der Additionstafel der durch 3 teilbaren (t) und nicht teilbaren (n) Zahlen mathematisch ungewollt?",
+  "e": "Auf der Folie ist n+n als „n/t\" eingekreist; das ist mathematisch ungewollt, weil es nicht „wohldefiniert\" ist – es können zwei Ergebnisse herauskommen. 📄 Quelle: ari23_vl11, Folie 4 (S.4)"
+ },
+ {
+  "q": "Welche Ergebnisse zeigt die Multiplikationstafel (·) für durch 3 teilbare (t) und nicht teilbare (n) Zahlen?",
+  "e": "Die Multiplikationstafel liefert t·t=t, t·n=t, n·t=t und n·n=n; nur n·n=n ist korrekt (nicht t). 📄 Quelle: ari23_vl11, Folie 4 (S.4)"
+ },
+ {
+  "q": "Nach der formalen Rechnung (3k₁+2)·(3k₂+1) = 3(3k₁k₂+k₁+2k₂)+2: In welcher Restklasse mod 3 liegt das Produkt? Gib den Repräsentanten (0, 1 oder 2) an.",
+  "e": "Das Umformen ergibt 3·(...)+2, also den Rest 2 beim Teilen durch 3 – die Restklasse 2̄. 📄 Quelle: ari23_vl11, Folie 5 (S.5)"
+ },
+ {
+  "q": "Auf welche Arten kann man Addition und Multiplikation von Restklassen begründen bzw. darstellen?",
+  "e": "Die Folie nennt drei Zugänge: formal (algebraisch mit Variablen), ikonisch (figurierte Zahlen) und die Darstellung in Verknüpfungstafeln. 📄 Quelle: ari23_vl11, Folie 5 (S.5)"
+ },
+ {
+  "q": "Welche Einträge hat die Multiplikations-Verknüpfungstafel der durch 3 teilbaren (t) und nicht teilbaren (n) Zahlen? Hinweis: t und n stehen für die Restklassen mod 3.",
+  "e": "In der Tafel gilt 2̄·2̄=1̄ (hervorgehoben), 2̄·1̄=2̄ und 0̄·2̄=0̄; 2̄·2̄=0̄ ist falsch. 📄 Quelle: ari23_vl11, Folie 5 (S.5)"
+ }
+]

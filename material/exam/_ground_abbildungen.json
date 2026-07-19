@@ -1,0 +1,182 @@
+[
+ {
+  "q": "Welche der folgenden Objekte gehören zu den Grundbegriffen der Geometrie?",
+  "e": "Als Grundbegriffe der Geometrie werden genannt: Punkt, Strecke (als Verbindung zweier Punkte), Gerade (durch zwei Punkte festgelegt), Ebene (Menge aller Punkte), Winkel (rechter Winkel, senkrecht), Länge einer Strecke und Kreis (mit Mittelpunkt und Radius). Vektor und Parabel kommen nicht vor. 📄 Quelle: ari20_vl10, Folie 4 (S.4)"
+ },
+ {
+  "q": "Wodurch ist eine Gerade festgelegt?",
+  "e": "Auf der Folie steht: Gerade (durch zwei Punkte festgelegt). 'Menge aller Punkte' bezeichnet die Ebene, 'Verbindung zweier Punkte' die Strecke und 'Mittelpunkt und Radius' den Kreis. 📄 Quelle: ari20_vl10, Folie 4 (S.4)"
+ },
+ {
+  "q": "Vervollständigen Sie die Definition: „Eine Zuordnung f, die jedem Punkt der Ebene E ____ Punkt der Ebene zuordnet, heißt Abbildung f der Ebene E auf E.“",
+  "e": "Die Definition verlangt, dass f jedem Punkt der Ebene E genau einen Punkt zuordnet. 📄 Quelle: ari20_vl10, Folie 5 (S.5)"
+ },
+ {
+  "q": "Welche Aussagen treffen auf die Definition der Abbildung f der Ebene E zu?",
+  "e": "Nach der Definition ordnet f JEDEM Punkt der Ebene E genau einen Punkt zu und heißt Abbildung f der Ebene E auf E (nicht auf eine andere Ebene). 📄 Quelle: ari20_vl10, Folie 5 (S.5)"
+ },
+ {
+  "q": "Welche Eigenschaften haben Kongruenzabbildungen gemäß ihrer (vorläufigen, informellen) Umschreibung?",
+  "e": "Kongruenzabbildungen werden als Bewegungen in der Ebene betrachtet, die deckungsgleich sind, d.h. Abbildungen f der Ebene E auf E, die geradentreu, winkeltreu und längentreu sind. 'flächenverdoppelnd' gehört nicht dazu. 📄 Quelle: ari20_vl10, Folie 7 (S.7)"
+ },
+ {
+  "q": "Als was werden Kongruenzabbildungen in der vorläufigen Umschreibung betrachtet?",
+  "e": "Laut Folie werden Kongruenzabbildungen als Bewegungen in der Ebene betrachtet, die deckungsgleich sind. 📄 Quelle: ari20_vl10, Folie 7 (S.7)"
+ },
+ {
+  "q": "Welchen Status hat die zunächst gegebene Beschreibung der Kongruenzabbildung (bevor die Bewegungen untersucht sind)?",
+  "e": "Die Folie kennzeichnet die Beschreibung als 'mögliche Definition, hier aber informelle Umschreibung'; die übliche Definition folgt, nachdem die Bewegungen untersucht wurden. 📄 Quelle: ari20_vl10, Folie 7 (S.7)"
+ },
+ {
+  "q": "Achsenspiegelung – Grundaufgabe: Was ist gegeben und was ist zu tun?",
+  "e": "Grundaufgabe: Gegeben ist eine Gerade g. Spiegeln Sie ein Objekt (z.B. ein Dreieck) an g. 📄 Quelle: ari20_vl10, Folie 9 (S.9)"
+ },
+ {
+  "q": "Achsenspiegelung – Umkehraufgabe: Was ist gegeben und was ist gesucht?",
+  "e": "Umkehraufgabe: Gegeben sind zwei (kongruente) Objekte (z.B. auch zwei Punkte), ermitteln Sie die Spiegelachse. 📄 Quelle: ari20_vl10, Folie 9 (S.9)"
+ },
+ {
+  "q": "Drehung – Grundaufgabe: Was ist gegeben?",
+  "e": "Grundaufgabe: Gegeben ist Drehzentrum Z und ein Drehwinkel α. Drehe ein Objekt (z.B. ein Dreieck) um α an Z. 📄 Quelle: ari20_vl10, Folie 11 (S.11)"
+ },
+ {
+  "q": "Drehung – Umkehraufgabe: Was ist gegeben und was ist zu ermitteln?",
+  "e": "Umkehraufgabe: Gegeben sind zwei (kongruente) Objekte (z.B. auch zwei Strecken), ermittle Z und α der zugehörigen Drehung. 📄 Quelle: ari20_vl10, Folie 11 (S.11)"
+ },
+ {
+  "q": "Bei einer Drehung ist die Strecke PZ = 3,36 lang. Welche Länge hat die Bildstrecke P'Z?",
+  "e": "Die Drehung erhält den Abstand zum Drehzentrum: die Folie zeigt PZ = 3.36 und P'Z = 3.36. 📄 Quelle: ari20_vl10, Folie 11 (S.11)"
+ },
+ {
+  "q": "Was ist bei der Grundaufgabe der Drehung (Bewegungen) gegeben?",
+  "e": "Bei der Grundaufgabe sind das Drehzentrum Z und ein Drehwinkel α gegeben; damit wird ein Objekt (z.B. ein Dreieck) um α an Z gedreht. 📄 Quelle: ari20_vl10, Folie 12 (S.12)"
+ },
+ {
+  "q": "Bei der Umkehraufgabe der Drehung sind zwei (kongruente) Objekte gegeben. Was ist zu ermitteln?",
+  "e": "Bei der Umkehraufgabe sind zwei kongruente Objekte gegeben und man ermittelt Z und α der zugehörigen Drehung. 📄 Quelle: ari20_vl10, Folie 12 (S.12)"
+ },
+ {
+  "q": "Welche Invarianten besitzt die Drehung (um Z)?",
+  "e": "Die Drehung ist geradentreu, flächeninhaltstreu, umlaufsinntreu sowie winkeltreu und längentreu. 📄 Quelle: ari20_vl10, Folie 13 (S.13)"
+ },
+ {
+  "q": "Welche Aussage über die Fixelemente der Drehung (um Z) ist richtig?",
+  "e": "Fixpunkt der Drehung ist Z; Fixpunktgerade: -- und Fixgeraden: -- (keine). 📄 Quelle: ari20_vl10, Folie 13 (S.13)"
+ },
+ {
+  "q": "Wie lautet die Umkehrabbildung der Drehung D_{Z,α}?",
+  "e": "Die Umkehrabbildung der Drehung ist D_{Z,α}^{-1} = D_{Z,360°-α}. 📄 Quelle: ari20_vl10, Folie 13 (S.13)"
+ },
+ {
+  "q": "Bei welchem Drehwinkel α (in Grad) erhält die Drehung als Sonderfall den Namen Punktspiegelung?",
+  "e": "Ist α = 180°, so erhält die Drehung den Namen Punktspiegelung. 📄 Quelle: ari20_vl10, Folie 13 (S.13)"
+ },
+ {
+  "q": "Die Abbildung V_{A,B}: E→E heißt Verschiebung um die Länge der Strecke AB (in Richtung B), wenn für jeden Punkt P und seinen Bildpunkt P' gilt:",
+  "e": "Definition: liegt P auf der Geraden durch A und B, so auch P'; die Strecken AB und PP' sind gleichlang; sonst bilden APP'B ein Parallelogramm. 📄 Quelle: ari20_vl10, Folie 14 (S.14)"
+ },
+ {
+  "q": "Um welche Länge und in welche Richtung verschiebt V_{A,B}?",
+  "e": "V_{A,B} ist die Verschiebung um die Länge der Strecke AB in Richtung B. 📄 Quelle: ari20_vl10, Folie 14 (S.14)"
+ },
+ {
+  "q": "Was ist bei der Grundaufgabe der Verschiebung gegeben bzw. zu tun?",
+  "e": "Grundaufgabe: Gegeben ist ein Verschiebungsvektor, verschiebe ein Objekt. 📄 Quelle: ari20_vl10, Folie 15 (S.15)"
+ },
+ {
+  "q": "Was ist bei der Umkehraufgabe der Verschiebung gegeben bzw. zu ermitteln?",
+  "e": "Umkehraufgabe: Gegeben sind zwei kongruente Objekte (z.B. auch zwei Punkte), ermittle den Verschiebungsvektor. 📄 Quelle: ari20_vl10, Folie 15 (S.15)"
+ },
+ {
+  "q": "Welche Aussagen zu den Fixelementen der Verschiebung sind richtig?",
+  "e": "Verschiebung: Fixpunkte --, Fixpunktgerade --, Fixgeraden: alle Geraden parallel zur Geraden durch A und B. 📄 Quelle: ari20_vl10, Folie 16 (S.16)"
+ },
+ {
+  "q": "Wie lautet die Umkehrabbildung der Verschiebung V_{A,B}?",
+  "e": "Die Umkehrabbildung der Verschiebung ist V_{A,B}^{-1} = V_{B,A}. 📄 Quelle: ari20_vl10, Folie 16 (S.16)"
+ },
+ {
+  "q": "Wodurch ist die Verschiebung als Abbildung festgelegt?",
+  "e": "Festlegung der Abbildung bei der Verschiebung: Durch ein Punktepaar P und P'. 📄 Quelle: ari20_vl10, Folie 16 (S.16)"
+ },
+ {
+  "q": "Stimmt bei zwei Dreiecken nur EINE Größe (Winkel oder Seite) überein, so sind sie ...",
+  "e": "Dreiecke sind im Allgemeinen nicht kongruent, wenn eine Größe (Winkel oder Seite) übereinstimmt. 📄 Quelle: ari20_vl10, Folie 17 (S.17)"
+ },
+ {
+  "q": "Wie lautet das einfache Kriterium für die Kongruenz zweier Dreiecke?",
+  "e": "Einfach: Alle Seiten und Winkel sind gleich groß. 📄 Quelle: ari20_vl10, Folie 17 (S.17)"
+ },
+ {
+  "q": "Stimmen bei zwei Dreiecken ZWEI Größen (Winkel oder Seiten) überein, so sind sie ...",
+  "e": "Dreiecke sind im Allgemeinen nicht kongruent, wenn zwei Größen (Winkel oder Seiten) übereinstimmen. 📄 Quelle: ari20_vl10, Folie 18 (S.18)"
+ },
+ {
+  "q": "Welche Aussagen zu den Kongruenzkriterien für Dreiecke sind richtig?",
+  "e": "Die Folie behandelt Kriterien für die Kongruenz zweier Dreiecke; einfach: alle Seiten und Winkel gleich groß; bei zwei übereinstimmenden Größen im Allgemeinen nicht kongruent. 📄 Quelle: ari20_vl10, Folie 18 (S.18)"
+ },
+ {
+  "q": "Welche der bei drei gegebenen Größen genannten Kombinationen liefern (uneingeschränkt) kongruente Dreiecke?",
+  "e": "SSS, SWS und WSW liefern kongruente Dreiecke (bei WSW sind sogar vier Größen gegeben); WWW ist nicht kongruent. 📄 Quelle: ari20_vl10, Folie 20 (S.20)"
+ },
+ {
+  "q": "Zwei Dreiecke, bei denen die drei Winkel (WWW) gegeben sind, sind ...",
+  "e": "Bei gegebenen drei Winkeln (WWW) sind die Dreiecke nicht kongruent. 📄 Quelle: ari20_vl10, Folie 20 (S.20)"
+ },
+ {
+  "q": "Was gilt für den Fall SSW (zwei Seiten und ein Winkel gegeben)?",
+  "e": "SSW: allgemein nicht kongruent, aber kongruent, wenn der Winkel W der größeren Seite gegenüberliegt. 📄 Quelle: ari20_vl10, Folie 20 (S.20)"
+ },
+ {
+  "q": "Welche Begründungen gelten für die Kongruenzfälle WSW und SWW?",
+  "e": "WSW: kongruent, es sind aber vier Größen gegeben (dritter Winkel); SWW: kongruent, weil dritter Winkel gegeben. 📄 Quelle: ari20_vl10, Folie 20 (S.20)"
+ },
+ {
+  "q": "Was bedeutet die Konvention S_h o S_g bei der Verknüpfung zweier Abbildungen?",
+  "e": "Konvention von Innen nach Außen: S_h o S_g bedeutet 'S_h nach S_g'. 📄 Quelle: ari20_vl10, Folie 22 (S.22)"
+ },
+ {
+  "q": "Welcher aus der Analysis bekannten Schreibweise entspricht die Konvention S_h o S_g?",
+  "e": "Die Konvention entspricht der Schreibweise g(f(x)) = g o f. 📄 Quelle: ari20_vl10, Folie 22 (S.22)"
+ },
+ {
+  "q": "Was ist bei der Verknüpfung zweier Geradenspiegelungen zu tun?",
+  "e": "Aufgabe: zwei Geradenspiegelungen verknüpfen, Fälle der Lage von g und h unterscheiden, untersuchen ob die Gesamtabbildung bekannt ist oder neu benannt werden muss, ggf. einen Satz oder eine Definition formulieren. 📄 Quelle: ari20_vl10, Folie 22 (S.22)"
+ },
+ {
+  "q": "Welche Aussagen zur Verkettung Sₕ ∘ S_g treffen laut der Konvention bei der Verknüpfung zweier Abbildungen zu?",
+  "e": "Die Folie legt fest: „Von Innen nach Außen\". In Zeichen Sₕ ∘ S_g, gesprochen „Sₕ nach S_g\" (wie g(f(x)) = g ∘ f). Daher wird zuerst S_g (innen) und dann Sₕ (außen) ausgeführt – die Reihenfolge in Antwort C ist vertauscht. 📄 Quelle: ari20_vl11, Folie 8 (S.7)"
+ },
+ {
+  "q": "In welcher Reihenfolge werden die beiden Geradenspiegelungen bei der Verkettung Sₕ ∘ S_g gemäß der Konvention ausgeführt?",
+  "e": "Konvention „Von Innen nach Außen\": Sₕ ∘ S_g bedeutet „Sₕ nach S_g\", d. h. die innen stehende Abbildung S_g wird zuerst ausgeführt, danach Sₕ (analog zu g(f(x)) = g ∘ f). 📄 Quelle: ari20_vl11, Folie 8 (S.7)"
+ },
+ {
+  "q": "In welcher Reihenfolge wird bei der Erkundung der Verkettung Sₕ ∘ S_g gespiegelt?",
+  "e": "Auf der Folie steht: „Erst Spiegelung an g. Dann das gespiegelte Objekt an h spiegeln\" – passend zur Konvention Sₕ ∘ S_g. 📄 Quelle: ari20_vl11, Folie 11 (S.10)"
+ },
+ {
+  "q": "Welche Hypothese aus dem Chat wird auf der Erkundungsfolie für Fall 3 (sich schneidende Geraden) genannt?",
+  "e": "Auf der Folie notiert: „Hypothese aus dem Chat: Bei Fall 3 ergibt sich eine Drehung.\" 📄 Quelle: ari20_vl11, Folie 11 (S.10)"
+ },
+ {
+  "q": "Welche Zuordnungen von Lage der Geraden zum Ergebnis der Verkettung Sₕ ∘ S_g sind laut der Fallunterscheidung korrekt?",
+  "e": "Die Fallunterscheidung ergibt: Fall 1 g = h → id; Fall 2 g ∥ h → Verschiebung V; Fall 3 g ∩ h = {S} mit ∠gh = α → Drehung D. Der Parallelfall liefert eine Verschiebung, keine Drehung. 📄 Quelle: ari20_vl11, Folie 12 (S.11)"
+ },
+ {
+  "q": "Was ist das Ergebnis der Verkettung Sₕ ∘ S_g im Fall g = h?",
+  "e": "Fall 1 auf der Folie: g = h, Sₕ ∘ S_g = id (Identische Abbildung). 📄 Quelle: ari20_vl11, Folie 12 (S.11)"
+ },
+ {
+  "q": "Welche zusätzliche Bedingung kennzeichnet Fall 3a gegenüber dem allgemeinen Fall 3?",
+  "e": "Fall 3a auf der Folie: g ∩ h = {S} und ∠gh = 90° (Sonderfall von Fall 3 mit rechtem Schnittwinkel). 📄 Quelle: ari20_vl11, Folie 12 (S.11)"
+ },
+ {
+  "q": "Was besagt der Satz über die Verkettung zweier Geradenspiegelungen S_g und Sₕ an den Geraden g und h? Wählen Sie die korrekten Aussagen.",
+  "e": "Der Satz nennt drei Fälle: g = h → id; g ∥ h → Verschiebung V_{2|AB|}; g ∩ h = {S} mit ∠gh = α → Drehung D_{S,2α} (Drehwinkel 2α, nicht α). 📄 Quelle: ari20_vl11, Folie 13 (S.12)"
+ },
+ {
+  "q": "Wie ist im Fall g ∥ h die Verschiebungsstrecke AB laut Satz beschrieben, für die Sₕ ∘ S_g = V_{2|AB|} gilt?",
+  "e": "Im Satz: bei g ∥ h ist Sₕ ∘ S_g = V_{2|AB|}, wobei AB senkrecht zu g (bzw. h) steht und von g nach h reicht. 📄 Quelle: ari20_vl11, Folie 13 (S.12)"
+ }
+]

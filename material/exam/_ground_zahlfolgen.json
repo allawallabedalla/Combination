@@ -1,0 +1,182 @@
+[
+ {
+  "q": "Was gehört zur Definition einer (endlichen) Folge (a)ₙ?",
+  "e": "„Eine (endliche) Folge (a)ₙ … ist eine Funktion, bei der jedem Element aus den natürlichen Zahlen (bzw. einer endlichen Teilmenge) genau ein Element einer anderen Menge X (bei uns: Natürliche Zahlen) zugeordnet wird.\" Genau ein Element, nicht beliebig viele. 📄 Quelle: ari23_vl01, Folie 37 (S.37)"
+ },
+ {
+  "q": "Als was wird eine (endliche) Folge (a)ₙ definiert?",
+  "e": "Eine (endliche) Folge ist definiert als eine Funktion. 📄 Quelle: ari23_vl01, Folie 37 (S.37)"
+ },
+ {
+  "q": "Welche Menge ist bei der Folgen-Definition „bei uns\" die Zielmenge X?",
+  "e": "„…einer anderen Menge X (bei uns: Natürliche Zahlen)…\" 📄 Quelle: ari23_vl01, Folie 37 (S.37)"
+ },
+ {
+  "q": "Welche Aussagen zur Fibonacci-Folge auf der Erkundungsfolie sind korrekt?",
+  "e": "Die Folge stammt von Leonardo Fibonacci; f_n = f_(n-1) + f_(n-2) (n>2), Startwerte f_1 = f_2 = 1, gezeigt: 1, 1, 2, 3, 5, 8, 13, 21, 34. Nicht das Produkt, sondern die Summe. 📄 Quelle: ari23_vl02, Folie 30 (S.30)"
+ },
+ {
+  "q": "Setze die Fibonacci-Folge 1, 1, 2, 3, 5, 8, 13, 21, 34 nach der Fibonacci-Regel (jede Zahl ist die Summe der beiden vorangehenden) fort: Wie lautet die nächste Zahl?",
+  "e": "Nach f_n = f_(n-1) + f_(n-2): 34 + 21 = 55. 📄 Quelle: ari23_vl02, Folie 30 (S.30)"
+ },
+ {
+  "q": "Die „neue\" Fibonacci-Folge hat die Startzahlen f̃₁ = 4 und f̃₂ = 7 und die Regel f̃ₙ = f̃₍ₙ₋₂₎ + f̃₍ₙ₋₁₎ (für n > 2). Wie lautet f̃₅?",
+  "e": "Die Folge lautet 4, 7, 11, 18, 29, … Also f̃₃ = 4+7 = 11, f̃₄ = 7+11 = 18, f̃₅ = 11+18 = 29. 📄 Quelle: ari23_vl03, Folie 11 (S.11)"
+ },
+ {
+  "q": "Welche Aussagen zur „neuen\" (modifizierten) Fibonacci-Folge sind korrekt?",
+  "e": "Die echte Folge 1,1,2,3,5,8,13,… wird mit Startzahlen f̃₁ = 4 und f̃₂ = 7 sowie der Regel f̃ₙ = f̃₍ₙ₋₂₎ + f̃₍ₙ₋₁₎ (n>2) verändert; die neue Folge lautet 4, 7, 11, 18, 29, 47, 76, … Die Tilde („Schlange\") kennzeichnet den Unterschied zu den echten Fibonacci-Zahlen. 📄 Quelle: ari23_vl03, Folie 11 (S.11)"
+ },
+ {
+  "q": "Die „neue\" Fibonacci-Summenfolge lautet 4, 11, 22, 40, 69, … Wie lautet ihr 4. Wert?",
+  "e": "Die neue Fibonacci-Summenfolge ist 4, 11, 22, 40, 69, … Der 4. Wert ist 40. 📄 Quelle: ari23_vl03, Folie 11 (S.11)"
+ },
+ {
+  "q": "Wie lässt sich das n-te Glied f̃ₙ der modifizierten Folge mit den echten Fibonacci-Zahlen fₙ darstellen?",
+  "e": "Schreibt man die Glieder als Vielfache der Startzahlen, ergibt sich f̃ₙ = f₍ₙ₋₂₎·4 + f₍ₙ₋₁₎·7; die Koeffizienten sind die echten Fibonacci-Zahlen. Verallgemeinert für beliebige Startzahlen: f̃ₙ = f₍ₙ₋₂₎·s₁ + f₍ₙ₋₁₎·s₂. Die Vertauschung der Faktoren (7 und 4) ist falsch. 📄 Quelle: ari23_vl03, Folie 12 (S.12)"
+ },
+ {
+  "q": "Laut Tabelle (Startzahlen 4 und 7): Wie groß ist die Summe der ersten 6 Glieder der modifizierten Fibonacci-Folge?",
+  "e": "Die Summenspalte der Tabelle lautet 4, 11, 22, 40, 69, 116, … Die Summe der ersten 6 Glieder ist 116. 📄 Quelle: ari23_vl03, Folie 12 (S.12)"
+ },
+ {
+  "q": "Die Strategie „Anders darstellen: die Summe mit den einzelnen Summanden aufschreiben\" — was hat sie bei der Erkundung geleistet?",
+  "e": "Die Strategie half, das Problem der Folgenglieder zu lösen — sogar verallgemeinert für beliebige Startzahlen s₁ und s₂. Das Problem der Summe der ersten n Folgeglieder war damit jedoch noch nicht gelöst. 📄 Quelle: ari23_vl03, Folie 13 (S.13)"
+ },
+ {
+  "q": "Bei der Herleitung der Summenformel S̃ₙ (Summe der ersten n Glieder der modifizierten Fibonacci-Folge) — welche Zwischenschritte sind korrekt?",
+  "e": "Es gilt S̃ₙ = f̃₍ₙ₊₂₎ − 7 bzw. allgemein S̃ₙ = f̃₍ₙ₊₂₎ − s₂. Mit (GL1) f̃₍ₙ₊₂₎ = fₙ·s₁ + f₍ₙ₊₁₎·s₂ folgt S̃ₙ = fₙ·s₁ + f₍ₙ₊₁₎·s₂ − s₂ = fₙ·s₁ + (f₍ₙ₊₁₎ − 1)·s₂. Die Variante mit „+ s₂\" ist falsch. 📄 Quelle: ari23_vl03, Folie 14 (S.14)"
+ },
+ {
+  "q": "Wie lautet die hergeleitete Formel für die Summe S̃ₙ der ersten n Glieder der modifizierten Fibonacci-Folge?",
+  "e": "Die hergeleitete Summenformel lautet S̃ₙ = fₙ·s₁ + (f₍ₙ₊₁₎ − 1)·s₂. 📄 Quelle: ari23_vl03, Folie 14 (S.14)"
+ },
+ {
+  "q": "Beim Testen der Vermutung an drei Beispielen mit unterschiedlichen Startzahlen: Was zeigt der Vergleich der Spalten „Summe\" und „Probe\"?",
+  "e": "In allen drei Beispielen (u. a. Startzahlen 1/1, 4/7 und 13/9) stimmen die tatsächliche Summe und die mit der Formel berechnete Probe überein; das bestätigt die Vermutung. 📄 Quelle: ari23_vl03, Folie 16 (S.16)"
+ },
+ {
+  "q": "Wer war Leonardo von Pisa?",
+  "e": "Folie 10: Leonardo von Pisa (1170–1240), Rechenmeister, 'liber abacci'. 📄 Quelle: ari23_vl04, Folie 10 (S.10)"
+ },
+ {
+  "q": "Welche Inhalte enthält Leonardo von Pisas 'liber abacci'?",
+  "e": "Die aufgeführten Punkte umfassen u. a. die neun Zahlzeichen der Inder, Multiplikation und Subtraktion, Teilung natürlicher Zahlen sowie Multiplikation mit Brüchen. Eine Zirkel-und-Lineal-Konstruktion des goldenen Schnitts wird nicht genannt. 📄 Quelle: ari23_vl04, Folie 10 (S.10)"
+ },
+ {
+  "q": "Welchem Grenzwert (goldener Schnitt φ) nähert sich das Verhältnis f_n/f_{n-1} benachbarter Fibonacci-Zahlen an? (auf 3 Nachkommastellen)",
+  "e": "Folie 11: Major : Minor = φ ≈ 1,618. 📄 Quelle: ari23_vl04, Folie 11 (S.11)"
+ },
+ {
+  "q": "Berechnen Sie das Verhältnis 13 : 8 zweier benachbarter Fibonacci-Zahlen (als Dezimalzahl).",
+  "e": "Folie 11: 13 : 8 = 1,625. 📄 Quelle: ari23_vl04, Folie 11 (S.11)"
+ },
+ {
+  "q": "Welche Aussagen zum goldenen Schnitt (Verhältnis f_n/f_{n-1} benachbarter Fibonacci-Zahlen) sind richtig?",
+  "e": "Folie 11 stellt das Verhältnis f_n/f_{n-1} als Major : Minor dar, gibt φ ≈ 1,618 an und zeigt die Aufteilung ca. 61,8 % / 38,2 %. Gegen 2 strebt das Verhältnis nicht. 📄 Quelle: ari23_vl04, Folie 11 (S.11)"
+ },
+ {
+  "q": "Was gilt für die aus benachbarten Fibonacci-Zahlen gebildeten Brüche f_n/f_{n-1} bezüglich Kettenbrüchen?",
+  "e": "Folie 12: 'Alle Brüche f_n/f_{n-1} lassen sich durch sogenannte Kettenbrüche nur mit 1en ausdrücken!' 📄 Quelle: ari23_vl04, Folie 12 (S.12)"
+ },
+ {
+  "q": "Welchen Wert hat der Kettenbruch 1/(1 + 1/1)?",
+  "e": "1/(1 + 1/1) = 1/2 = 0,5. Auf Folie 12 wird 1/2 als dieser Kettenbruch dargestellt. 📄 Quelle: ari23_vl04, Folie 12 (S.12)"
+ },
+ {
+  "q": "Welche der folgenden Zahlen sind Fibonacci-Zahlen, die in den Proportionen des Doms in Florenz auftreten?",
+  "e": "In den Proportionen sind die Maße 55, 89 und 144 als Fibonacci-Zahlen markiert. 📄 Quelle: ari23_vl04, Folie 13 (S.13)"
+ },
+ {
+  "q": "Wie lautet die 13. Fibonacci-Zahl f_13?",
+  "e": "Die Tabelle führt f_13 = 233 auf. 📄 Quelle: ari23_vl04, Folie 13 (S.13)"
+ },
+ {
+  "q": "Wozu sortiert Sophie Neveu im 'Da Vinci Code' die Zahlenreihe 13-3-2-21-1-1-8-5?",
+  "e": "Folie 14: 13-3-2-21-1-1-8-5 → 1-1-2-3-5-8-13-21, also die ersten Fibonacci-Zahlen. 📄 Quelle: ari23_vl04, Folie 14 (S.14)"
+ },
+ {
+  "q": "Welche Zahlen enthält der sortierte Code 1-1-2-3-5-8-13-21?",
+  "e": "Der Code lautet 1-1-2-3-5-8-13-21; er enthält 1, 1, 2, 3 sowie 5, 8, 13, 21. Die 4, 6 und 34 kommen nicht vor. 📄 Quelle: ari23_vl04, Folie 14 (S.14)"
+ },
+ {
+  "q": "Was gilt für Fibonacci-Zahlen in der Natur?",
+  "e": "Folie 15: 'Blatt und Blütenstände enthalten häufig benachbarte Fibonacci-Zahlen.' 📄 Quelle: ari23_vl04, Folie 15 (S.15)"
+ },
+ {
+  "q": "Welche benachbarten Fibonacci-Zahlen treten in den Naturbeispielen Kiefernzapfen und Sonnenblume auf?",
+  "e": "Am Kiefernzapfen sind 5, 8, 13 und in der Sonnenblume 34, 55 markiert – jeweils benachbarte Fibonacci-Zahlen. 7, 11, 4 und 6 sind keine Fibonacci-Zahlen. 📄 Quelle: ari23_vl04, Folie 15 (S.15)"
+ },
+ {
+  "q": "Welchen Wert hat die 10. Fibonacci-Zahl f_10?",
+  "e": "Die Tabelle listet f_1=1, f_2=1, f_3=2, f_4=3, f_5=5, f_6=8, f_7=13, f_8=21, f_9=34, f_10=55, f_11=89, f_12=144, f_13=233. 📄 Quelle: ari23_vl04, Folie 19 (S.19)"
+ },
+ {
+  "q": "Welche Gesetzmäßigkeit gilt für den ggT zweier Fibonacci-Zahlen f_m und f_n?",
+  "e": "Die Folie hält fest: Bildet man ggT(m;n)=l, so ist ggT(f_m, f_n) = f_l = f_ggT(m,n). 📄 Quelle: ari23_vl04, Folie 19 (S.19)"
+ },
+ {
+  "q": "Bestimme mit der Regel ggT(f_m, f_n) = f_ggT(m,n) den Wert von ggT(f_8, f_12).",
+  "e": "Es ist ggT(8;12)=4, also ggT(f_8, f_12)=f_4=3 (Kontrolle: ggT(21;144)=3). 📄 Quelle: ari23_vl04, Folie 19 (S.19)"
+ },
+ {
+  "q": "Nach wem sind die Fibonacci-Zahlen benannt?",
+  "e": "Die Folie nennt Leonardo von Pisa (1170 - 1240). 📄 Quelle: ari23_vl04, Folie 19 (S.19)"
+ },
+ {
+  "q": "Wie ist die Fibonacci-Folge definiert? Wähle alle zutreffenden Aussagen.",
+  "e": "Laut Erkundungsblatt wird die Folge mit f_1 = 1 und f_2 = 1 sowie f_n = f_{n-2} + f_{n-1} für n > 2 gebildet (Addition der beiden Vorgänger, kein Produkt). 📄 Quelle: erk02, Folie 2 (S.2)"
+ },
+ {
+  "q": "Die Fibonacci-Folge wird mit f_1 = 1, f_2 = 1 und f_n = f_{n-2} + f_{n-1} (für n > 2) gebildet, also 1, 1, 2, 3, 5, 8, 13, 21, 34, … Welche Zahl folgt unmittelbar auf die 34?",
+  "e": "Nach der Regel ist die nächste Zahl die Summe der beiden vorangehenden: 21 + 34 = 55. 📄 Quelle: erk02, Folie 2 (S.2)"
+ },
+ {
+  "q": "Welche Aussagen über die Fibonacci-Zahlenfolge und ihren Namensgeber treffen zu? Wähle alle zutreffenden Aussagen.",
+  "e": "Die Folge stammt von Leonardo Fibonacci, einem bedeutenden Mathematiker des Mittelalters; abgebildet ist 1, 1, 2, 3, 5, 8, 13, 21, 34. Der Name spricht sich „Fibonatschi\" aus (nicht „Fibonakki\"). 📄 Quelle: erk02, Folie 1 (S.1)"
+ },
+ {
+  "q": "Eine Folge wird nach der Fibonacci-Regel (jede Zahl = Summe der beiden Vorgänger) mit den Startzahlen 170 und 220 gebildet. Welche Zahl steht an der dritten Stelle?",
+  "e": "Nach der Fibonacci-Regel ist die dritte Zahl 170 + 220 = 390. 📄 Quelle: erk02, Folie 1 (S.1)"
+ },
+ {
+  "q": "Eine Variante der Fibonacci-Folge wird mit anderen Startzahlen gebildet. Welche Aussagen zu dieser Erkundung treffen zu? Wähle alle zutreffenden Aussagen.",
+  "e": "In Erkundung II wird die Folge mit anderen Startzahlen gebildet (Beispiel f_1 = 4 und f_2 = 7); untersucht werden soll, wie oft die erste und zweite Startzahl in den Folgezahlen bzw. der Summe auftauchen. Die Additionsregel f_n = f_{n-2} + f_{n-1} bleibt unverändert. 📄 Quelle: erk02, Folie 2 (S.2)"
+ },
+ {
+  "q": "Womit befasst sich die Untersuchung der Summe der ersten n Fibonacci-Zahlen? Wähle alle zutreffenden Aussagen.",
+  "e": "In Erkundung I sollen Summen der ersten n Fibonacci-Zahlen gebildet und grafisch mit Quadraten (Seitenlänge = Fibonacci-Zahl) dargestellt werden; es soll ein Satz/eine Hypothese für eine schnelle Summenformel aufgestellt und mit vollständiger Induktion bewiesen werden. Es geht um Summen, nicht um Produkte. 📄 Quelle: erk02, Folie 2 (S.2)"
+ },
+ {
+  "q": "Die veränderte Fibonacci-Folge hat die Startzahlen f̃₁ = 4, f̃₂ = 7 und die Regel f̃ₙ = f̃ₙ₋₂ + f̃ₙ₋₁ (für n > 2). Berechne f̃₅.",
+  "e": "f̃₃ = 4 + 7 = 11, f̃₄ = 7 + 11 = 18, f̃₅ = 11 + 18 = 29; die neue Folge lautet 4, 7, 11, 18, 29, 47, 76, … 📄 Quelle: skript03_live, Folie 11 (S.3)"
+ },
+ {
+  "q": "Für die veränderte Fibonacci-Folge mit f̃₁ = 4, f̃₂ = 7 sei S̃ₙ = f̃₁ + f̃₂ + … + f̃ₙ. Welcher Zusammenhang zwischen S̃ₙ und f̃ₙ gilt?",
+  "e": "Aus S̃₁ + 7 = f̃₃, S̃₂ + 7 = f̃₄, … verallgemeinert die Folie zu S̃ₙ + 7 = f̃ₙ₊₂, gleichbedeutend mit S̃ₙ = f̃ₙ₊₂ − 7. 📄 Quelle: skript03_live, Folie 11 (S.3)"
+ },
+ {
+  "q": "Wie lässt sich das n-te Glied der veränderten Fibonacci-Folge mit gewöhnlichen Fibonacci-Zahlen fₙ und beliebigen Startzahlen s₁, s₂ ausdrücken?",
+  "e": "Die Folie hält allgemein für beliebige Startzahlen s₁ und s₂ fest: f̃ₙ := fₙ₋₂ · s₁ + fₙ₋₁ · s₂. 📄 Quelle: skript03_live, Folie 11 (S.3)"
+ },
+ {
+  "q": "Mit f̃ₙ = fₙ₋₂·4 + fₙ₋₁·7 (gewöhnliche Fibonacci-Zahlen f₁=1, f₂=1, f₃=2, f₄=3, f₅=5, …): Berechne f̃₆ = f₄·4 + f₅·7.",
+  "e": "f̃₆ = f₄·4 + f₅·7 = 3·4 + 5·7 = 12 + 35 = 47; entspricht dem 6. Glied der neuen Folge 4, 7, 11, 18, 29, 47, … 📄 Quelle: skript03_live, Folie 11 (S.3)"
+ },
+ {
+  "q": "Für die modifizierte Fibonacci-Folge gilt f̃₁=4, f̃₂=7 und f̃ₙ=f̃ₙ₋₂+f̃ₙ₋₁ für n>2. Berechnen Sie f̃₃.",
+  "e": "Nach der Bildungsregel gilt f̃₃ = f̃₁ + f̃₂ = 4 + 7 = 11. 📄 Quelle: skript04_live, Folie 9 (S.1)"
+ },
+ {
+  "q": "Der Satz zur Summe S̃ₙ der ersten n modifizierten Fibonacci-Zahlen lautet: S̃ₙ = fₙ·s₁ + (fₙ₊₁−1)·s₂. Welche Aussagen dazu treffen zu?",
+  "e": "Der Satz gilt für alle natürlichen Zahlen n; s₁=f̃₁, s₂=f̃₂ sind die Startzahlen, S̃ₙ ist die Summe der ersten n modifizierten Fibonacci-Zahlen und fₙ sind die ursprünglichen Fibonacci-Zahlen. 📄 Quelle: skript04_live, Folie 9 (S.1)"
+ },
+ {
+  "q": "Im Induktionsschritt (n→n+1) des handschriftlichen Beweises von S̃ₙ₊₁ = fₙ₊₁·s₁ + (fₙ₊₂−1)·s₂ werden welche Beziehungen verwendet?",
+  "e": "Der Beweis nutzt S̃ₙ₊₁ = S̃ₙ + f̃ₙ₊₁, die Erinnerung f̃ₙ₊₁ = fₙ₋₁·s₁ + fₙ·s₂ und die Bildungsregel fₙ₊₁ = fₙ + fₙ₋₁ (bzw. fₙ₊₂ = fₙ₊₁ + fₙ). 📄 Quelle: skript04_live, Folie 9 (S.1)"
+ },
+ {
+  "q": "Die Fibonacci-Folge beginnt mit f₁=1, f₂=1 und fₙ=fₙ₋₁+fₙ₋₂. Wie lautet die 10. Fibonacci-Zahl f₁₀?",
+  "e": "Die Tabelle listet f₁₀ = 55. 📄 Quelle: skript04_live, Folie 18 (S.2)"
+ }
+]

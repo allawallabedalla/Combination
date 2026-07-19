@@ -1,0 +1,182 @@
+[
+ {
+  "q": "Was folgt, wenn sich mit n-Quadratlingen ein lückenloses Rechteck bauen lässt?",
+  "e": "Folie: 'Lässt sich mit n-Quadratlingen ein lückenloses Rechteck bauen, so lässt sich mit den n-Quadratlingen auch übergreifend die Ebene ... parkettieren.' 📄 Quelle: ari23_vl05, Folie 26 (S.26)"
+ },
+ {
+  "q": "Was ist im Zusammenhang mit der „Parkettierung der Ebene“ mit der „Ebene“ gemeint?",
+  "e": "Die Ebene wird auf der Folie beschrieben als 'die zu allen Seiten unendlich gedachte Fläche'. 📄 Quelle: ari23_vl05, Folie 26 (S.26)"
+ },
+ {
+  "q": "Welche Bedingungen muss eine Menge von Figuren laut Definition erfüllen, um eine Parkettierung zu sein?",
+  "e": "Definition: Genau dann heißt eine Menge von Figuren Parkettierung, wenn die Menge aus einer endlichen Zahl kongruenter Figuren besteht und die Menge die Ebene überlappungsfrei und lückenlos ausfüllt. 📄 Quelle: ari23_vl05, Folie 29 (S.29)"
+ },
+ {
+  "q": "In welcher Beziehung müssen die Figuren einer Parkettierung laut Definition zueinander stehen?",
+  "e": "Die Definition verlangt eine endliche Zahl kongruenter Figuren. 📄 Quelle: ari23_vl05, Folie 29 (S.29)"
+ },
+ {
+  "q": "Wie füllt eine Parkettierung die Ebene laut Definition aus?",
+  "e": "Die Menge muss die Ebene überlappungsfrei und lückenlos ausfüllen. 📄 Quelle: ari23_vl05, Folie 29 (S.29)"
+ },
+ {
+  "q": "Was kennzeichnet ein reguläres Polygon (regelmäßiges n-Eck)?",
+  "e": "Die Folie definiert reguläre Polygone (regelmäßige n-Ecke) über gleiche Seitenlängen und gleiche Innenwinkel. 📄 Quelle: ari23_vl05, Folie 30 (S.30)"
+ },
+ {
+  "q": "Welche Fälle werden bei der Frage unterschieden, womit sich die Ebene parkettieren lässt?",
+  "e": "Die Fallunterscheidung fragt einerseits nach regulären Polygonen (regelmäßigen n-Ecken) und andererseits nach allgemeinen Drei-, Vier-, Fünf-, n-Ecken. 📄 Quelle: ari23_vl05, Folie 30 (S.30)"
+ },
+ {
+  "q": "Welche Bedingungen gehören zur Definition einer Parkettierung (einer Menge von Figuren, die die Ebene ausfüllt)?",
+  "e": "Definition: Genau dann heißt eine Menge von Figuren Parkettierung, wenn die Menge aus einer endlichen Zahl kongruenter Figuren besteht und die Menge die Ebene überlappungsfrei und lückenlos ausfüllt. Regelmäßigkeit wird nicht gefordert. 📄 Quelle: ari23_vl06, Folie 4 (S.4)"
+ },
+ {
+  "q": "Aus welcher Art von Figuren besteht eine Parkettierung gemäß ihrer Definition?",
+  "e": "Die Menge muss aus einer endlichen Zahl kongruenter Figuren bestehen. 📄 Quelle: ari23_vl06, Folie 4 (S.4)"
+ },
+ {
+  "q": "Welche Eigenschaften kennzeichnen ein reguläres Polygon (regelmäßiges n-Eck)?",
+  "e": "Reguläre Polygone (regelmäßige n-Ecke) haben gleiche Seitenlängen und gleiche Innenwinkel. 📄 Quelle: ari23_vl06, Folie 5 (S.5)"
+ },
+ {
+  "q": "In welche zwei Fälle lässt sich die Frage unterteilen, mit welchen n-Ecken sich die Ebene parkettieren lässt?",
+  "e": "Die Fallunterscheidung fragt einerseits nach regulären Polygonen (regelmäßigen n-Ecken) und andererseits nach allgemeinen Drei-, Vier-, Fünf-, n-Ecken. 📄 Quelle: ari23_vl06, Folie 5 (S.5)"
+ },
+ {
+  "q": "Wie groß ist jeder Innenwinkel in einem gleichseitigen Dreieck (in Grad)?",
+  "e": "Im gleichseitigen Dreieck sind alle Winkel gleich groß: 60°. 📄 Quelle: ari23_vl06, Folie 6 (S.6)"
+ },
+ {
+  "q": "Wie groß ist der Innenwinkel in einem regulären Sechseck (in Grad)?",
+  "e": "Der Innenwinkel vom regulären 6-Eck ist 120° (3·120° = 360°). 📄 Quelle: ari23_vl06, Folie 6 (S.6)"
+ },
+ {
+  "q": "Welche Aussagen zur Parkettierung mit Dreiecken und Sechsecken sind richtig?",
+  "e": "6·60° = 360° (sechs gleichseitige Dreiecke), 3·120° = 360° (drei reguläre Sechsecke), und 'Es geht mit allen Dreiecken'. Die Beschränkung auf gleichschenklige Dreiecke steht nicht auf der Folie. 📄 Quelle: ari23_vl06, Folie 6 (S.6)"
+ },
+ {
+  "q": "Welche Bedingung muss der Innenwinkel eines regelmäßigen n-Ecks erfüllen, damit die Ebene lückenfrei parkettiert werden kann?",
+  "e": "Um lückenfrei zu parkettieren, müssen die regelmäßigen n-Ecke einen Innenwinkel haben, der Teiler von 360° ist. 📄 Quelle: ari23_vl06, Folie 8 (S.8)"
+ },
+ {
+  "q": "Welche Aussagen zur Situation an einer Ecke im Parkett sind richtig?",
+  "e": "In einer Ecke stoßen mehrere regelmäßige n-Ecke aufeinander; für lückenfreies Parkettieren muss der Innenwinkel ein Teiler von 360° sein. 📄 Quelle: ari23_vl06, Folie 8 (S.8)"
+ },
+ {
+  "q": "Wie groß ist die Summe der Innenwinkel α + β + γ in jedem Dreieck ABC (in Grad)?",
+  "e": "Satz: Für alle Dreiecke ABC gilt: Wenn α, β und γ die Innenwinkel des Dreiecks ABC sind, dann gilt α + β + γ = 180°. 📄 Quelle: ari23_vl06, Folie 9 (S.9)"
+ },
+ {
+  "q": "Laut der Ergebnishypothese: Um wie viele Grad wächst die Innenwinkelsumme, wenn ein n-Eck eine weitere Ecke erhält?",
+  "e": "Ergebnishypothese: Bei jeder weiteren Ecke kommen 180° dazu (also ein 'Dreieck'). 📄 Quelle: ari23_vl06, Folie 9 (S.9)"
+ },
+ {
+  "q": "Welche Aussagen zu Parkettierung und Innenwinkeln von Vielecken sind richtig?",
+  "e": "Phänomene: Viereck, Fünfeck ... bestehen aus zusammengesetzten Dreiecken; bei jeder weiteren Ecke kommen 180° dazu; Satz: für alle Dreiecke ABC gilt α + β + γ = 180°. 📄 Quelle: ari23_vl06, Folie 9 (S.9)"
+ },
+ {
+  "q": "Worauf stützt sich der geometrische Beweis, dass die Innenwinkelsumme im Dreieck 180° beträgt?",
+  "e": "Beweis (geometrisch): Man zeichnet eine Parallele durch C; über Wechselwinkel an der Parallelen ergibt sich α + β + γ = 180°. 📄 Quelle: ari23_vl06, Folie 10 (S.10)"
+ },
+ {
+  "q": "Welche Aussage über die Innenwinkel eines Dreiecks ABC wird bewiesen?",
+  "e": "Bewiesen wird der Satz: Für alle Dreiecke ABC gilt, wenn α, β und γ die Innenwinkel sind, dann α + β + γ = 180°. 📄 Quelle: ari23_vl06, Folie 10 (S.10)"
+ },
+ {
+  "q": "Wie lautet die Formel für die Innenwinkelsumme eines n-Ecks (für alle natürlichen Zahlen n ≥ 3)?",
+  "e": "Satz: Für alle natürlichen Zahlen n ≥ 3 gilt: Ist n die Anzahl der Ecken eines n-Ecks, dann ist die Innenwinkelsumme (n − 2) · 180°. 📄 Quelle: ari23_vl06, Folie 12 (S.12)"
+ },
+ {
+  "q": "Wie groß ist die Innenwinkelsumme in einem Sechseck (n = 6, in Grad)?",
+  "e": "Nach der Formel (n − 2) · 180°: (6 − 2) · 180° = 4 · 180° = 720°. 📄 Quelle: ari23_vl06, Folie 12 (S.12)"
+ },
+ {
+  "q": "Für welche kleinste natürliche Zahl n gilt der Satz über die Innenwinkelsumme des n-Ecks?",
+  "e": "Der Satz gilt für alle natürlichen Zahlen n ≥ 3, also ab n = 3. 📄 Quelle: ari23_vl06, Folie 12 (S.12)"
+ },
+ {
+  "q": "Im Induktionsschluss für das konvexe (n+1)-Eck: um wie viele Grad wächst die Innenwinkelsumme beim Übergang vom n-Eck zum (n+1)-Eck?",
+  "e": "Es kommen 180° an Innenwinkelsumme hinzu: (n−2)·180° + 180° = ((n+1)−2)·180°. 📄 Quelle: ari23_vl06, Folie 13 (S.13)"
+ },
+ {
+  "q": "Welche Aussagen beschreiben den Induktionsbeweis der Innenwinkelsumme für das konvexe n-Eck korrekt?",
+  "e": "Der Beweis nutzt Induktionsanfang, Induktionsvoraussetzung und Induktionsschluss n → (n+1); es kommt ein Dreieck (180°) hinzu: (n−2)·180° + 180° = ((n+1)−2)·180°. Eine Verdopplung findet nicht statt. 📄 Quelle: ari23_vl06, Folie 13 (S.13)"
+ },
+ {
+  "q": "Auch beim konkaven (n+1)-Eck: um wie viele Grad wächst die Innenwinkelsumme laut der Rechnung insgesamt?",
+  "e": "Die Rechnung ergibt (α − α₁) + (β − β₁) + γ₂ = α + β + 180°; auch im konkaven Fall kommen also 180° hinzu: (n−2)·180° + 180° = ((n+1)−2)·180°. 📄 Quelle: ari23_vl06, Folie 16 (S.16)"
+ },
+ {
+  "q": "Welche Aussagen gelten beim Induktionsschluss für konkave Ecken?",
+  "e": "Beim (n+1)-Eck gehen die roten Winkel weg, die grünen kommen hinzu; mit γ₂ = 360° − γ₁ und α₁ + β₁ + γ₁ = 180° ergibt sich α + β + 180°, also 180° zusätzlich – nicht 360°. 📄 Quelle: ari23_vl06, Folie 16 (S.16)"
+ },
+ {
+  "q": "Wie groß ist die Winkelgröße (Innenwinkel) im regelmäßigen Fünfeck laut Tabelle (in Grad)?",
+  "e": "Laut Tabelle: 5 Ecken, Innenwinkelsumme 540°, Winkelgröße im regelmäßigen n-Eck 108°. 📄 Quelle: ari23_vl06, Folie 17 (S.17)"
+ },
+ {
+  "q": "Wie groß ist die Innenwinkelsumme im Siebeneck (7 Ecken) laut Tabelle (in Grad)?",
+  "e": "Laut Tabelle: 7 Ecken, Innenwinkelsumme 900° (entspricht (7−2)·180°). 📄 Quelle: ari23_vl06, Folie 17 (S.17)"
+ },
+ {
+  "q": "Mit welchen regelmäßigen n-Ecken lässt sich die Ebene allein parkettieren?",
+  "e": "Nimmt man regelmäßige n-Ecke, so lässt sich die Ebene allein mit 3-, 4- und 6-Ecken parkettieren; beim regelmäßigen Fünfeck ist 360° : 108° kein ganzzahliger Wert. 📄 Quelle: ari23_vl06, Folie 17 (S.17)"
+ },
+ {
+  "q": "Wie viele Quadrate (regelmäßige 4-Ecke) stoßen an einer Ecke des Parketts zusammen, da 360° = ? · 90°?",
+  "e": "Laut Tabelle: 360° = 4 · 90°, also treffen vier Quadrate in einer Ecke zusammen. 📄 Quelle: ari23_vl06, Folie 17 (S.17)"
+ },
+ {
+  "q": "Welche Aussagen zur Parkettierung mit Fünfecken sind richtig?",
+  "e": "'Mit Fünfecken geht es also auch. Nur nicht mit regulären Fünfecken.' 📄 Quelle: ari23_vl06, Folie 18 (S.18)"
+ },
+ {
+  "q": "Lässt sich die Ebene mit regulären (regelmäßigen) Fünfecken parkettieren?",
+  "e": "Mit Fünfecken geht es, aber nicht mit regulären Fünfecken. 📄 Quelle: ari23_vl06, Folie 18 (S.18)"
+ },
+ {
+  "q": "Was gilt bei der 'Knabbertechnik' zur Erzeugung parkettierender Figuren?",
+  "e": "Bei der Knabbertechnik müssen Abgeknabbertes und Angefügtes kongruente Figuren sein; das Abgeknabberte wird verschoben und angefügt (im Beispiel ausgehend von einem Quadrat). 📄 Quelle: ari23_vl06, Folie 19 (S.19)"
+ },
+ {
+  "q": "Welche Schritte umfasst das Beispiel zur Knabbertechnik ausgehend von einem Quadrat?",
+  "e": "Das Beispiel geht vom Quadrat aus: Abknabbern, Verschieben, neue Figur, die parkettiert. Ein Zerschneiden in vier Dreiecke wird nicht gezeigt. 📄 Quelle: ari23_vl06, Folie 19 (S.19)"
+ },
+ {
+  "q": "Zwei Rechtecke A und B werden jeweils in zwei Teilquadrate zerlegt. Wann besteht laut Definition eine \"gleiche Parkettierung\" bei A und B?",
+  "e": "Auf der Folie steht: Eine gleiche Parkettierung besteht bei zwei Rechtecken A und B genau dann, wenn die Parkettierungen der beiden Teilquadrate des Rechtecks A jeweils kongruent zu einem der Teilquadrate des Rechtecks B (und umgekehrt) sind. Es müssen also beide Teilquadrate passen und die Bedingung in beide Richtungen gelten. 📄 Quelle: ari23_vl06, Folie 23 (S.23)"
+ },
+ {
+  "q": "Worauf bezieht sich die Definition der gleichen Parkettierung zweier Rechtecke, die jeweils in zwei Teilquadrate zerlegt sind?",
+  "e": "Die Definition vergleicht die Parkettierungen der beiden Teilquadrate des Rechtecks A mit denen der Teilquadrate des Rechtecks B (Kongruenz der Teilquadrat-Parkettierungen). 📄 Quelle: ari23_vl06, Folie 23 (S.23)"
+ },
+ {
+  "q": "Was bedeutet „die Ebene parkettieren“?",
+  "e": "Aufgabe 3b definiert „die Ebene parkettieren, d.h. sie so lückenlos aneinanderlegen, dass man dieses prinzipiell zu allen Seiten endlos fortsetzen könnte“. 📄 Quelle: erk04, Folie 2 (S.2)"
+ },
+ {
+  "q": "Wann besteht laut Definition eine gleiche Parkettierung bei zwei Rechtecken A und B?",
+  "e": "Definition: Eine gleiche Parkettierung besteht bei zwei Rechtecken A und B genau dann, wenn die Parkettierungen der beiden Teilquadrate des Rechtecks A jeweils kongruent zu einem der Teilquadrate des Rechtecks B sind. 📄 Quelle: erk05, Folie 2 (S.2)"
+ },
+ {
+  "q": "Zwei Rechtecke sind jeweils in zwei Teilquadrate geteilt, deren Parkettierungen einzeln betrachtet jeweils kongruent sind. Was gilt in diesem Beispiel?",
+  "e": "Im Beispiel wären die Parkettierungen kongruent, weil die Teilquadrate einzeln gesehen jeweils kongruente Parkettierungen enthalten; bezogen auf das Rechteck insgesamt bestünde jedoch keine Kongruenz der Parkettierung. 📄 Quelle: erk05, Folie 2 (S.2)"
+ },
+ {
+  "q": "Parkettierung: Wie groß ist der Innenwinkel eines gleichseitigen Dreiecks?",
+  "e": "Beim gleichseitigen Dreieck sind alle Winkel gleich groß: 60°. Sechs davon ergeben um einen Punkt 6·60° = 360°. 📄 Quelle: skript05_live, Folie 30 (S.5)"
+ },
+ {
+  "q": "Parkettierung: Wie viele gleichseitige Dreiecke treffen sich in einem Punkt, damit sich die Winkel zu 360° ergänzen?",
+  "e": "6·60° = 360°, also treffen sich 6 gleichseitige Dreiecke lückenlos in einem Punkt. 📄 Quelle: skript05_live, Folie 30 (S.5)"
+ },
+ {
+  "q": "Parkettierung: Wie groß ist der Innenwinkel eines regulären Sechsecks (6-Ecks)?",
+  "e": "Der Innenwinkel des regulären 6-Ecks ist 120°; 3·120° = 360°, daher parkettieren reguläre Sechsecke die Ebene. In einer Ecke treffen zwei Ecken zweier Dreiecke aufeinander: 2·60° = 120°. 📄 Quelle: skript05_live, Folie 30 (S.5)"
+ },
+ {
+  "q": "Welche Aussagen zur Parkettierung der Ebene mit regulären Polygonen sind korrekt?",
+  "e": "Reguläre Polygone haben gleiche Seitenlängen und gleiche Innenwinkel; gleichseitige Dreiecke (6·60°=360°) und reguläre Sechsecke (3·120°=360°) parkettieren, ebenso alle allgemeinen Dreiecke ('Es geht mit allen Dreiecken'). Reguläre Fünfecke werden auf der Folie nicht als parkettierend genannt. 📄 Quelle: skript05_live, Folie 30 (S.5)"
+ }
+]

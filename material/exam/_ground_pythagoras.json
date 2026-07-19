@@ -1,0 +1,182 @@
+[
+ {
+  "q": "Der Satz des Pythagoras lautet: 'Für alle Dreiecke ABC gilt: Wenn ein Dreieck ABC rechtwinklig ist, dann …'. Welche Aussagen sind korrekt?",
+  "e": "Voraussetzung ('Wenn') ist die Rechtwinkligkeit von ABC; die Behauptung ('dann') ist a²+b²=c², d. h. die Quadrate über den Katheten ergeben zusammen das Quadrat über der Hypotenuse. Ohne Rechtwinkligkeit gilt der Satz nicht. 📄 Quelle: ari23_vl07, Folie 23 (S.23)"
+ },
+ {
+  "q": "In der Formel a²+b²=c² des Satzes des Pythagoras bezeichnet c …",
+  "e": "c² ist der Flächeninhalt des Quadrats über der Hypotenuse; a und b sind die Katheten. 📄 Quelle: ari23_vl07, Folie 23 (S.23)"
+ },
+ {
+  "q": "Welche Beweisidee für den Satz des Pythagoras wird verwendet?",
+  "e": "Auf der Folie steht 'Beweisidee: Ergänzung einer Figur.' 📄 Quelle: ari23_vl07, Folie 25 (S.25)"
+ },
+ {
+  "q": "Das große (äußere) Quadrat im Beweis des Satzes des Pythagoras hat die Seitenlänge (a+b), also A(F_gQ)=(a+b)²=a²+2ab+b². Berechne den Flächeninhalt für a=3 und b=4 (dimensionslos).",
+  "e": "A(F_gQ)=(a+b)²=(3+4)²=7²=49 (bzw. a²+2ab+b²=9+24+16=49). 📄 Quelle: ari23_vl07, Folie 26 (S.26)"
+ },
+ {
+  "q": "Welche Aussagen gehören zum Ergänzungsbeweis des Satzes des Pythagoras (mit einem äußeren Quadrat der Seitenlänge a+b)?",
+  "e": "Das äußere Quadrat hat Flächeninhalt (a+b)²=a²+2ab+b²; die vier Dreiecke sind nach SSS kongruent; wegen α+β=90° hat das innere Viereck rechte Innenwinkel, ist also ein Quadrat (mit Seite c) – nicht ein Parallelogramm ohne rechte Winkel. 📄 Quelle: ari23_vl07, Folie 26 (S.26)"
+ },
+ {
+  "q": "Aus 'A(F_gQ)=4·A(F_D)+A(F_kQ)' ergeben sich im Beweis des Satzes des Pythagoras welche Gleichungen?",
+  "e": "Das große Quadrat ist gleich vier Dreiecken (je a·b/2) plus dem inneren Quadrat c²: (a+b)²=4·(a·b/2)+c². Ausmultipliziert a²+2ab+b²=2ab+c², nach Kürzen von 2ab folgt a²+b²=c² (nicht 2c²). 📄 Quelle: ari23_vl07, Folie 26 (S.26)"
+ },
+ {
+  "q": "Der (Katheten-)Satz lautet: 'Für alle Dreiecke ABC gilt: Wenn ABC rechtwinklig ist, dann …'. Welche Aussagen sind korrekt?",
+  "e": "Der Kathetensatz besagt bei Rechtwinkligkeit: a²=p·c, d. h. das Quadrat über einer Kathete ist flächengleich dem Rechteck aus anliegendem Hypotenusenabschnitt p und Hypotenuse c. Ohne Rechtwinkligkeit gilt er nicht. 📄 Quelle: ari23_vl07, Folie 30 (S.30)"
+ },
+ {
+  "q": "Nach dem Kathetensatz gilt a²=p·c. Berechne die Kathete a für den Hypotenusenabschnitt p=4 und die Hypotenuse c=9 (dimensionslos).",
+  "e": "a²=p·c=4·9=36, also a=√36=6. 📄 Quelle: ari23_vl07, Folie 30 (S.30)"
+ },
+ {
+  "q": "Was besagt der (Katheten-)Satz? (Mehrfachauswahl)",
+  "e": "Der Katheten-Satz gilt unter der Voraussetzung, dass ABC rechtwinklig ist; dann ist das Quadrat ueber einer Kathete flaechengleich dem Rechteck aus anliegendem Hypotenusenabschnitt und Hypotenuse, also a^2 = p·c. 📄 Quelle: ari23_vl07, Folie 31 (S.31)"
+ },
+ {
+  "q": "Welche Formel gibt der (Katheten-)Satz an?",
+  "e": "Der Katheten-Satz lautet auf der Folie a^2 = p·c (Quadrat ueber der Kathete gleich Rechteck aus anliegendem Hypotenusenabschnitt p und Hypotenuse c). 📄 Quelle: ari23_vl07, Folie 31 (S.31)"
+ },
+ {
+  "q": "Von welchen Beziehungen geht der Beweis des Kathetensatzes aus ('Wir wissen, dass ...')?",
+  "e": "Der Beweis startet mit a^2 + b^2 = c^2 (Satz des Pythagoras), mit c = p + q und erhaelt daraus b^2 = h_c^2 + q^2 sowie a^2 = h_c^2 + p^2. c = p - q ist falsch. 📄 Quelle: ari23_vl07, Folie 31 (S.31)"
+ },
+ {
+  "q": "Welche Hilfsgleichungen (1)-(4) werden im Kathetensatz-Beweis verwendet?",
+  "e": "Die Folie nummeriert (1) a^2+b^2=c^2, (2) c=p+q, (3) b^2=h_c^2+q^2 und (4) a^2=h_c^2+p^2. Die Variante mit Minus (h_c^2 - p^2) ist falsch. 📄 Quelle: ari23_vl07, Folie 32 (S.32)"
+ },
+ {
+  "q": "Welche Umformungen werden im Kathetensatz-Beweis vorgenommen?",
+  "e": "Aus (1) folgt a^2 = c^2 - b^2; Einsetzen von (2) und (3) liefert a^2 = (p+q)^2 - (h_c^2 + q^2) = p^2 + 2pq + q^2 - h_c^2 - q^2 = p^2 + 2pq - h_c^2. a^2 = c^2 + b^2 ist falsch. 📄 Quelle: ari23_vl07, Folie 32 (S.32)"
+ },
+ {
+  "q": "Im Kathetensatz-Beweis wurde a^2 = p^2 + 2pq - h_c^2 hergeleitet. Welcher Ausdruck ergibt sich für a^2 nach Einsetzen von (4) a^2 = h_c^2 + p^2 (also h_c^2 = a^2 - p^2)?",
+  "e": "Aus p^2 + 2pq - h_c^2 wird mit (4) h_c^2 = a^2 - p^2: p^2 + 2pq - (a^2 - p^2) = p^2 + 2pq - a^2 + p^2 = 2p^2 + 2pq - a^2. 📄 Quelle: ari23_vl07, Folie 32 (S.32)"
+ },
+ {
+  "q": "Welche Schritte führen im Kathetensatz-Beweis zum Ergebnis?",
+  "e": "Aus a^2 = 2p^2 + 2pq - a^2 folgt 2a^2 = 2p^2 + 2pq = 2p·(p+q), also a^2 = p·(p+q); mit (2) c = p+q ergibt sich a^2 = p·c. a^2 = p + c ist falsch. 📄 Quelle: ari23_vl07, Folie 33 (S.33)"
+ },
+ {
+  "q": "Was gilt im Kathetensatz entsprechend für b^2 (mit dem Hypotenusenabschnitt q)?",
+  "e": "Die Folie haelt fest: 'Entsprechend zeigt man, dass auch b^2 = q·c gilt.' 📄 Quelle: ari23_vl07, Folie 33 (S.33)"
+ },
+ {
+  "q": "Was besagt der (Höhen-)Satz? (Mehrfachauswahl)",
+  "e": "Der Hoehensatz gilt unter der Voraussetzung, dass ABC rechtwinklig ist; dann ist das Quadrat ueber der Hoehe h_c flaechengleich dem Rechteck aus den beiden Hypotenusenabschnitten p und q, also h_c^2 = p·q. h_c^2 = p·c ist falsch. 📄 Quelle: ari23_vl07, Folie 34 (S.34)"
+ },
+ {
+  "q": "Welche Formel gehört zum (Höhen-)Satz?",
+  "e": "Der Hoehensatz lautet auf der Folie h_c^2 = p·q. 📄 Quelle: ari23_vl07, Folie 34 (S.34)"
+ },
+ {
+  "q": "Von welchen Beziehungen geht der Beweis des Höhensatzes aus ('Wir wissen, dass ...')?",
+  "e": "Der Beweis geht aus von c = p + q und a^2 = p·c (Katheten-Satz). h_c^2 = p·q ist erst die zu beweisende Behauptung; c = p·q ist falsch. 📄 Quelle: ari23_vl07, Folie 35 (S.35)"
+ },
+ {
+  "q": "Welcher Satz wird herangezogen, um a^2 = p·c zu begründen?",
+  "e": "Die Folie kennzeichnet a^2 = p·c ausdruecklich als Katheten-Satz. 📄 Quelle: ari23_vl07, Folie 35 (S.35)"
+ },
+ {
+  "q": "Welche Schritte enthält der Höhensatz-Beweis?",
+  "e": "Aus a^2 = h_c^2 + p^2 folgt h_c^2 = a^2 - p^2; mit (2) a^2 = p·c wird daraus p·c - p^2 = p·(c - p); mit (1) c = p + q folgt c - p = q, also h_c^2 = p·q. h_c^2 = p + q ist falsch. 📄 Quelle: ari23_vl07, Folie 36 (S.36)"
+ },
+ {
+  "q": "Welches Ergebnis liefert der Beweis des Höhensatzes?",
+  "e": "Der Beweis endet mit 'mit (1) folgt h_c^2 = p·q'. 📄 Quelle: ari23_vl07, Folie 36 (S.36)"
+ },
+ {
+  "q": "In einem Einstiegsbeispiel stellen Bauarbeiter mithilfe eines Holzdreiecks rechte Winkel her. Welche Aussagen dazu treffen zu?",
+  "e": "Die Folie nennt pythagoreische Tripel und ein Holzdreieck mit Seitenlaengen 5:4:3; die Aufgabe verlangt zu begruenden, dass dies (bis auf Ungenauigkeiten) einen rechten Winkel erzeugt. Ein gleichseitiges 5:5:5-Dreieck ist falsch. 📄 Quelle: ari23_vl07, Folie 38 (S.38)"
+ },
+ {
+  "q": "Prüfen Sie das Tripel mit Seitenlängen 5:4:3: Berechnen Sie 3^2 + 4^2.",
+  "e": "3^2 + 4^2 = 9 + 16 = 25 = 5^2, also ist 3:4:5 ein pythagoreisches Tripel. 📄 Quelle: ari23_vl07, Folie 38 (S.38)"
+ },
+ {
+  "q": "Wie werden der Satz des Pythagoras und der 'Bauarbeitersatz' unterschieden?",
+  "e": "Die Folie stellt gegenueber: Pythagoras 'Wenn rechter Winkel, dann a^2+b^2=c^2' und Bauarbeitersatz 'Wenn a^2+b^2=c^2, dann rechter Winkel' - also Voraussetzung und Folgerung vertauscht (Umkehrung). Sie sind nicht identisch. 📄 Quelle: ari23_vl07, Folie 39 (S.39)"
+ },
+ {
+  "q": "Warum ist es falsch, den 'Bauarbeitersatz' schon mit dem Satz des Pythagoras für 'eben bewiesen' zu halten?",
+  "e": "Die Folie stellt Satz und Umkehrung (Bauarbeitersatz) gegenueber: Voraussetzung und Folgerung sind vertauscht, daher ist mit dem Satz des Pythagoras die Umkehrung noch nicht bewiesen. 📄 Quelle: ari23_vl07, Folie 39 (S.39)"
+ },
+ {
+  "q": "Was besagt die 'Umkehrung des Satzes von Pythagoras'?",
+  "e": "Die Umkehrung setzt a^2 + b^2 = c^2 voraus und folgert einen rechten Winkel bei C; der Beweis 'nicht in der Vorlesung' wird mit dem Satz des Thales angekuendigt. Die letzte Option vertauscht Voraussetzung und Folgerung (das ist der Satz des Pythagoras selbst). 📄 Quelle: ari23_vl07, Folie 40 (S.40)"
+ },
+ {
+  "q": "Womit wird der Beweis der Umkehrung des Satzes von Pythagoras angekündigt (nicht in der Vorlesung ausgeführt)?",
+  "e": "Die Folie vermerkt: 'Beweis (nicht in der Vorlesung): mit Satz des Thales...'. 📄 Quelle: ari23_vl07, Folie 40 (S.40)"
+ },
+ {
+  "q": "Was fasst der zusammenfassende 'Satz' zu Rechtwinkligkeit und a^2 + b^2 = c^2 zusammen?",
+  "e": "Die Folie formuliert 'Genau dann, wenn ABC rechtwinklig ist, ist a^2 + b^2 = c^2' und vermerkt: Zusammenfassung beider wenn-dann-Richtungen, Rueckrichtung ohne Beweis. Der Hoehensatz ist keine Voraussetzung. 📄 Quelle: ari23_vl07, Folie 41 (S.41)"
+ },
+ {
+  "q": "Wird die Rückrichtung des zusammenfassenden Satzes (zu Pythagoras und seiner Umkehrung) bewiesen?",
+  "e": "Die Folie vermerkt ausdruecklich '(Zusammenfassung der beiden wenn-dann-Richtungen. Rueckrichtung ohne Beweis)'. 📄 Quelle: ari23_vl07, Folie 41 (S.41)"
+ },
+ {
+  "q": "Was besagt der Satz des Thales?",
+  "e": "Der Satz des Thales: Fuer alle Dreiecke ABC gilt - wenn C auf dem Halbkreis mit Mittelpunkt im Mittelpunkt der Strecke AB liegt, dann ist ABC rechtwinklig mit rechtem Winkel in C. Gleichseitigkeit folgt nicht. 📄 Quelle: ari23_vl07, Folie 42 (S.42)"
+ },
+ {
+  "q": "Welche Vorgaben macht die Konstruktionsaufgabe zu einem rechtwinkligen Dreieck?",
+  "e": "Die Aufgabe verlangt, nur mit Zirkel und Lineal ein rechtwinkliges Dreieck zu konstruieren, dessen eine Kathete 3 cm und dessen Hypotenuse 8 cm lang ist. Eine Angabe zum Umfang gibt es nicht. 📄 Quelle: ari23_vl07, Folie 42 (S.42)"
+ },
+ {
+  "q": "Was besagt der Satz des Pythagoras? (Mehrfachauswahl)",
+  "e": "Der Satz gilt fuer alle Dreiecke ABC unter der Voraussetzung, dass ABC rechtwinklig ist; dann gilt a^2 + b^2 = c^2 (Katheten a, b; Hypotenuse c). 📄 Quelle: ari23_vl08, Folie 5 (S.5)"
+ },
+ {
+  "q": "Welche Formel gehört zum Satz des Pythagoras?",
+  "e": "Der Satz des Pythagoras lautet a^2 + b^2 = c^2. 📄 Quelle: ari23_vl08, Folie 5 (S.5)"
+ },
+ {
+  "q": "Was besagt der Kathetensatz? (Mehrfachauswahl)",
+  "e": "Kathetensatz: Wenn ABC rechtwinklig ist, ist die Summe der Flaecheninhalte des Quadrats ueber einer Kathete gleich dem Flaecheninhalt des Rechtecks aus anliegendem Hypotenusenabschnitt und Hypotenuse (a^2 = p·c). h_c^2 = p·q ist der Hoehensatz. 📄 Quelle: ari23_vl08, Folie 6 (S.6)"
+ },
+ {
+  "q": "Welche Formel gehört zum Kathetensatz?",
+  "e": "Der Kathetensatz lautet a^2 = p·c (Kathetenquadrat = Rechteck aus anliegendem Hypotenusenabschnitt p und Hypotenuse c). 📄 Quelle: ari23_vl08, Folie 6 (S.6)"
+ },
+ {
+  "q": "Was besagt der Höhensatz? (Mehrfachauswahl)",
+  "e": "Hoehensatz: Wenn ABC rechtwinklig ist, ist der Flaecheninhalt des Quadrats ueber der Hoehe zur Hypotenuse gleich dem Flaecheninhalt des Rechtecks aus den beiden Hypotenusenabschnitten (h_c^2 = p·q). a^2 = p·c ist der Kathetensatz. 📄 Quelle: ari23_vl08, Folie 7 (S.7)"
+ },
+ {
+  "q": "Welche Formel gehört zum Höhensatz?",
+  "e": "Der Hoehensatz lautet h_c^2 = p·q. 📄 Quelle: ari23_vl08, Folie 7 (S.7)"
+ },
+ {
+  "q": "Was besagt die Umkehrung des Satzes von Pythagoras? (Mehrfachauswahl)",
+  "e": "Umkehrung: Fuer alle Dreiecke ABC gilt: Wenn a^2 + b^2 = c^2 gilt, dann hat das Dreieck ABC bei C einen rechten Winkel. 📄 Quelle: ari23_vl08, Folie 8 (S.8)"
+ },
+ {
+  "q": "Was besagt die Umkehrung (Satz des Thales)? (Mehrfachauswahl)",
+  "e": "Satz des Thales: Fuer alle Dreiecke ABC gilt: Wenn C auf dem Halbkreis mit dem Mittelpunkt der Strecke AB als Mittelpunkt liegt, dann ist ABC rechtwinklig mit rechtem Winkel in C. 📄 Quelle: ari23_vl08, Folie 10 (S.10)"
+ },
+ {
+  "q": "Ein rechtwinkliges Dreieck hat eine Kathete der Länge 3 cm und eine Hypotenuse der Länge 8 cm. Wie lang ist die andere Kathete? (nach dem Satz des Pythagoras, in cm, auf 2 Nachkommastellen)",
+  "e": "Nach Pythagoras ist die zweite Kathete sqrt(8^2 - 3^2) = sqrt(64 - 9) = sqrt(55) ≈ 7.42 cm. Die Aufgabe gibt Kathete 3 cm und Hypotenuse 8 cm vor. 📄 Quelle: ari23_vl08, Folie 10 (S.10)"
+ },
+ {
+  "q": "Was besagt die Flächenformulierung des Satzes des Pythagoras, und welche Verallgemeinerung soll untersucht werden?",
+  "e": "Die Aufgabe geht von der Flächenaussage des Satzes des Pythagoras (Quadrate über den Katheten = Quadrat über der Hypotenuse) aus und fragt, ob dies auch für andere an den Seiten anliegende Figuren gilt. 📄 Quelle: ari23_vl08, Folie 17 (S.17)"
+ },
+ {
+  "q": "Für welche Figuren gilt die Pythagoras-Beziehung ebenfalls, wenn man statt der Quadrate „halbe Quadrate\" über den Seiten errichtet?",
+  "e": "Man kann zeigen, dass es auch für „halbe Quadrate\", also Dreiecke, klappt. 📄 Quelle: ari23_vl08, Folie 18 (S.18)"
+ },
+ {
+  "q": "Welche Beziehung gilt bei den „halben Quadraten\" (Dreiecken) über den Seiten a, b und c des rechtwinkligen Dreiecks?",
+  "e": "Für die halben Quadrate (Dreiecke) gilt laut Folie: a²/2 + b²/2 = c²/2. 📄 Quelle: ari23_vl08, Folie 18 (S.18)"
+ },
+ {
+  "q": "Welche biografischen Angaben über Pythagoras treffen zu?",
+  "e": "Pythagoras war (vermutlich) Mathematiker und Philosoph, 570–510 v. Chr. in Griechenland und Süditalien, und gründete die Pythagoreer in Kroton (Süditalien). Er gilt zudem als (fraglicher) Begründer der Mathematik. 📄 Quelle: ari23_vl08, Folie 25 (S.25)"
+ }
+]

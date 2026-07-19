@@ -1,0 +1,182 @@
+[
+ {
+  "q": "In der Tabelle zur Erkundung \"Flächen vergrößern und verkleinern\" hat Fläche 3 die Breite 4 mm und die Länge 4 mm. Welchen Flächeninhalt (in Millimeterquadraten) hat sie laut Tabelle?",
+  "e": "Die Tabelle nennt für Fläche 1 (2 mm × 2 mm) den Flächeninhalt 4, für Fläche 2 (2 mm × 4 mm) den Flächeninhalt 8 und für Fläche 3 (4 mm × 4 mm) den Flächeninhalt 16 Millimeterquadrate. 📄 Quelle: ari23_vl01, Folie 60 (S.60)"
+ },
+ {
+  "q": "Wie lautet der Wunsch des Erfinders in der Weizenkornlegende (Schachbrett)?",
+  "e": "In der Legende wünscht sich der Erfinder: für das erste Feld ein Weizenkorn, für das zweite doppelt so viel wie für das erste, für das dritte wiederum doppelt so viel wie für das zweite und so fort bis zum letzten der 64 Felder. Es ist also gerade keine gleichbleibende Anzahl. 📄 Quelle: ari23_vl01, Folie 60 (S.60)"
+ },
+ {
+  "q": "Bei der Weizenkornlegende wird, ausgehend vom kleinsten Quadrat, fortlaufend verdoppelt; zum Schluss entsteht ein Rechteck. Wie breit (in km) ist dieses Rechteck etwa?",
+  "e": "Die Folie hält fest: Wenn man vom kleinsten Quadrat ausgehend fortgesetzt verdoppelt, entsteht zum Schluss ein Rechteck, das etwa 4295 km breit und doppelt so lang ist; Europa passt in dieses Rechteck hinein. 📄 Quelle: ari23_vl01, Folie 60 (S.60)"
+ },
+ {
+  "q": "Welches erste Konzept zur Bestimmung des Flächeninhalts eines Rechtecks bietet sich an?",
+  "e": "Der Lehrer sagt: \"Nun ist es ja klar, dass man das Rechteck mit Einheitsquadraten auslegen kann.\" Das Auslegen (Überdecken) mit Einheitsquadraten ist das vorgeschlagene Konzept. 📄 Quelle: ari23_vl06, Folie 34 (S.34)"
+ },
+ {
+  "q": "Eine Figur F_X ist aus vier Einheitsquadraten der Kantenlänge e zusammengesetzt. Wie groß ist ihr Flächeninhalt A(F_X)?",
+  "e": "Auf der Folie ist zur Figur die Formel A(F_X) = 4·e² angegeben. 📄 Quelle: ari23_vl06, Folie 34 (S.34)"
+ },
+ {
+  "q": "Welche Aussage über das Einheitsquadrat und das Bestimmen beliebiger Flächeninhalte ist korrekt?",
+  "e": "Der Lehrer sagt: \"Natürlich kann man das Einheitsquadrat (etwa mit Länge 1m) beliebig verfeinern und so natürlich jeden Flächeninhalt bestimmen.\" 📄 Quelle: ari23_vl06, Folie 35 (S.35)"
+ },
+ {
+  "q": "Welcher kritische Fall stellt das Konzept des Auslegens bzw. Verfeinerns mit Einheitsquadraten infrage?",
+  "e": "Karla fragt: \"Prima, ich habe ein Rechteck mit der Länge π Meter konstruiert, geht das dann genauso?\" – die irrationale Seitenlänge π stellt das Verfeinern von Einheitsquadraten infrage. 📄 Quelle: ari23_vl06, Folie 35 (S.35)"
+ },
+ {
+  "q": "Wie lautet die Formel für den Flächeninhalt eines Kreises mit Radius r?",
+  "e": "Der Lehrer sagt: \"Wie wir wissen, ist der Flächeninhalt des Kreises π·r².\" 📄 Quelle: ari23_vl06, Folie 36 (S.36)"
+ },
+ {
+  "q": "Berechne mit der Formel A = π·r² den Flächeninhalt eines Kreises mit Radius r = 2 (Einheiten). Gib den Zahlenwert an.",
+  "e": " 📄 Quelle: ari23_vl06, Folie 36 (S.36)"
+ },
+ {
+  "q": "Eine Figur besteht aus einem Quadrat, eine zweite aus zwei gleich großen Quadraten. Wie verhält sich der Flächeninhalt der zweiten zur ersten Figur?",
+  "e": "Der Lehrer sagt: \"Wir sehen also, die rechte Figur hat den doppelten Flächeninhalt wie die linke.\" 📄 Quelle: ari23_vl06, Folie 37 (S.37)"
+ },
+ {
+  "q": "Welche fehlerhafte Vorstellung liegt dem Einwand \"Das kann doch nicht stimmen! Beide haben doch denselben Rand.\" zugrunde?",
+  "e": "Karlas Einwand koppelt den Rand (Umfang) an den Flächeninhalt – die typische Verwechslung von Umfang und Flächeninhalt, die zur \"Verunsicherung\" gehört. 📄 Quelle: ari23_vl06, Folie 37 (S.37)"
+ },
+ {
+  "q": "Was besagt die \"Setzung\" zum Flächeninhalt kongruenter Figuren (ein erstes Konzept für ein Maß)?",
+  "e": "Die Setzung lautet: \"Zwei kongruente Figuren haben den selben Flächeninhalt.\" 📄 Quelle: ari23_vl06, Folie 40 (S.40)"
+ },
+ {
+  "q": "Welche Abbildungen zählen zu den Kongruenzabbildungen, durch die sich zwei kongruente Figuren aufeinander abbilden lassen?",
+  "e": "Die Folie nennt als Kongruenzabbildungen: Geradenspiegelung, Drehung, Verschiebung und Schubspiegelung. Die zentrische Streckung ist keine Kongruenzabbildung. 📄 Quelle: ari23_vl06, Folie 40 (S.40)"
+ },
+ {
+  "q": "Welche Aussagen zur Setzung über kongruente Figuren und ihren Flächeninhalt sind korrekt?",
+  "e": "Die Setzung definiert kongruente Figuren über Kongruenzabbildungen und setzt fest, dass sie denselben Flächeninhalt haben. Die zentrische Streckung gehört nicht dazu; eine Verschiebung (als Kongruenzabbildung) verändert den Flächeninhalt nicht. 📄 Quelle: ari23_vl06, Folie 40 (S.40)"
+ },
+ {
+  "q": "Wie lautet die Definition der Zerlegungsgleichheit zweier Figuren?",
+  "e": "Definition auf der Folie: Zwei Figuren heißen genau dann zerlegungsgleich, wenn sie sich in paarweise kongruente Figuren zerlegen lassen. 📄 Quelle: ari23_vl06, Folie 41 (S.41)"
+ },
+ {
+  "q": "Welcher Satz zur Zerlegungsgleichheit gilt für alle Figuren der Ebene?",
+  "e": "Satz auf der Folie: Für alle Figuren der Ebene gilt: Wenn Figuren zerlegungsgleich sind, dann haben sie den gleichen Flächeninhalt. 📄 Quelle: ari23_vl06, Folie 41 (S.41)"
+ },
+ {
+  "q": "Welche Aussagen zur Zerlegungsgleichheit sind korrekt?",
+  "e": "Laut Folie: zerlegungsgleich = in paarweise kongruente Figuren zerlegbar; der Satz gilt für alle Figuren der Ebene; zerlegungsgleiche Figuren haben den gleichen Flächeninhalt. Kongruenz der Gesamtfiguren wird NICHT verlangt. 📄 Quelle: ari23_vl06, Folie 41 (S.41)"
+ },
+ {
+  "q": "Wie lautet die Definition der Ergänzungsgleichheit zweier Figuren?",
+  "e": "Definition auf der Folie: Zwei Figuren heißen genau dann ergänzungsgleich, wenn sie sich mit paarweise kongruenten Figuren zu zwei kongruenten Figuren ergänzen lassen. 📄 Quelle: ari23_vl06, Folie 48 (S.48)"
+ },
+ {
+  "q": "Welcher Satz zur Ergänzungsgleichheit gilt für alle Figuren der Ebene?",
+  "e": "Satz auf der Folie: Für alle Figuren der Ebene gilt: Wenn Figuren ergänzungsgleich sind, dann haben sie den gleichen Flächeninhalt. 📄 Quelle: ari23_vl06, Folie 48 (S.48)"
+ },
+ {
+  "q": "Vergleiche die Definitionen von Zerlegungsgleichheit und Ergänzungsgleichheit. Welche Aussagen sind korrekt?",
+  "e": "Laut Folien 41 und 48: Zerlegungsgleichheit beruht auf Zerlegen in paarweise kongruente Figuren, Ergänzungsgleichheit auf Ergänzen mit paarweise kongruenten Figuren zu zwei kongruenten Figuren; in beiden Fällen folgt gleicher Flächeninhalt. Bei der Ergänzungsgleichheit wird ergänzt (nicht zerlegt). 📄 Quelle: ari23_vl06, Folie 48 (S.48)"
+ },
+ {
+  "q": "Was geschieht beim Messen nach dem direkten Vergleich (Kongruenz)?",
+  "e": "Auf der Folie: Nach dem direkten Vergleich (Kongruenz) wird ein Objekt indirekt mit einem Maß gemessen. 📄 Quelle: ari23_vl06, Folie 50 (S.50)"
+ },
+ {
+  "q": "Beispiel: In Figur F1 passen 10 Dreiecke gleicher Größe, in Figur F2 weniger als 10. Welche Schlussfolgerung wird gezogen?",
+  "e": "Auf der Folie: In F1 passen 10 Dreiecke gleicher Größe, in F2 weniger als 10. Also ist F1 größer als F2. 📄 Quelle: ari23_vl06, Folie 50 (S.50)"
+ },
+ {
+  "q": "Worauf einigt man sich beim Messen?",
+  "e": "Auf der Folie: Man einigt sich auf ein bestimmtes standardisiertes Maß (international und mit Begründung). 📄 Quelle: ari23_vl06, Folie 50 (S.50)"
+ },
+ {
+  "q": "Welche Eigenschaften kennzeichnen ein Maß A für den Flächeninhalt?",
+  "e": "Auf der Folie: A(∅)=0; A(F)≥0 (Nichtnegativität); wenn F∩G=∅, dann A(F∪G)=A(F)+A(G) (Additivität); für das Einheitsquadrat E gilt A(E)=1. 📄 Quelle: ari23_vl06, Folie 51 (S.51)"
+ },
+ {
+  "q": "Unter welcher Voraussetzung gilt für ein Flächenmaß die Additivität A(F ∪ G) = A(F) + A(G)?",
+  "e": "Auf der Folie: Wenn F∩G=∅, dann gilt A(F∪G)=A(F)+A(G); die Additivität gilt, wenn die Teilflächen keine inneren Punkte gemeinsam haben (also nur Randpunkte gemeinsam sind). 📄 Quelle: ari23_vl06, Folie 51 (S.51)"
+ },
+ {
+  "q": "Was folgt daraus, dass eine Gerade (Strecke) den Flächeninhalt 0 erhält?",
+  "e": "Auf der Folie: Eine Gerade (Strecke) erhält den Flächeninhalt 0. Deswegen ist die \"Überlappung\" zweier Figuren durch eine Strecke unerheblich. 📄 Quelle: ari23_vl06, Folie 51 (S.51)"
+ },
+ {
+  "q": "Welchen Wert hat der Flächeninhalt A(E) des Einheitsquadrats E (als Maßeinheit)?",
+  "e": "Auf der Folie: Für das Einheitsquadrat E gilt A(E) = 1. 📄 Quelle: ari23_vl06, Folie 51 (S.51)"
+ },
+ {
+  "q": "Wie wird der Flächeninhalt des Einheitsquadrats E mit Seitenlänge e festgelegt?",
+  "e": "Auf der Folie: Der Flächeninhalt des Einheitsquadrates wird als A(E)=1, also mit der Maßzahl 1 und dem Maß e², festgelegt. 📄 Quelle: ari23_vl06, Folie 52 (S.52)"
+ },
+ {
+  "q": "Welchen Flächeninhalt hat eine Figur Fx, die sich in n Einheitsquadrate (Seitenlänge e) zerlegen lässt?",
+  "e": "Auf der Folie: Eine Figur Fx, die sich in n Einheitsquadraten zerlegen lässt, hat den Flächeninhalt n · e². 📄 Quelle: ari23_vl06, Folie 52 (S.52)"
+ },
+ {
+  "q": "Für eine Figur Fx gilt A(Fx) = 4e² (mit Einheitsquadrat der Seitenlänge e). Aus wie vielen Einheitsquadraten n besteht Fx?",
+  "e": "Da A(Fx) = n · e² und laut Folie A(Fx) = 4e², ist n = 4. 📄 Quelle: ari23_vl06, Folie 52 (S.52)"
+ },
+ {
+  "q": "E sei das Einheitsquadrat mit A(E)=1 und Seitenlänge e. Wie sind ein feineres Einheitsquadrat E' und seine Seitenlänge e' festgelegt?",
+  "e": "Auf der Folie: Einheitsquadrat E mit A(E)=1, Seitenlänge e und E' mit A(E')=1/100, Seitenlänge e'=1/10 e. 📄 Quelle: ari23_vl06, Folie 53 (S.53)"
+ },
+ {
+  "q": "Ein Rechteck R wird mit 5 mal 2 Einheitsquadraten ausgelegt, es gilt A(R) = 5 · 2 · A(E) = 10e². Wie groß ist die Maßzahl (der Faktor vor e²)?",
+  "e": "Auf der Folie: A(R) = 5 · 2 · A(E) = 10e², also Maßzahl 10. 📄 Quelle: ari23_vl06, Folie 53 (S.53)"
+ },
+ {
+  "q": "Legt man ein Rechteck R mit 1 Einheitsquadrat E (A(E)=1) und 32 feineren Einheitsquadraten E' (A(E')=1/100 A(E)) aus, so gilt A(R) = 1·e² + 32·e'² = 132 e'². Welchen Wert hat A(R), ausgedrückt in e² (also der Faktor vor e²)?",
+  "e": "Auf der Folie: A(R) = 1·e² + 32·e'² = 132 e'² = 1,32 e² (da e'² = 1/100 e²). 📄 Quelle: ari23_vl06, Folie 53 (S.53)"
+ },
+ {
+  "q": "Wodurch lassen sich krummlinig begrenzte Figuren oder solche mit inkommensurablen Maßen hinsichtlich des Flächeninhalts bestimmen?",
+  "e": "Auf der Folie: Krummlinig begrenzte Figuren oder solche mit inkommensurablen Maßen lassen sich nur durch einen Grenzwertprozess hinsichtlich des Flächeninhalts bestimmen. 📄 Quelle: ari23_vl06, Folie 54 (S.54)"
+ },
+ {
+  "q": "Welche Figurtypen erfordern zur Flächenbestimmung einen Grenzwertprozess?",
+  "e": "Auf der Folie: Krummlinig begrenzte Figuren oder solche mit inkommensurablen Maßen lassen sich nur durch einen Grenzwertprozess bestimmen. Figuren, die sich in ganze Einheitsquadrate zerlegen lassen, benötigen dies nicht. 📄 Quelle: ari23_vl06, Folie 54 (S.54)"
+ },
+ {
+  "q": "Welche Aussagen zum Satz über den Flächeninhalt von Rechtecken (mit e := 1 als Länge des Einheitsquadrats) sind korrekt?",
+  "e": "Der Satz setzt voraus, dass ein Rechteck R die Seitenlängen a und b mit a = n·e und b = m·e hat, und liefert dann A(R) = (n·m)·e² = a·b; dabei ist e := 1 die Länge des Einheitsquadrats. Eine uneingeschränkte Gültigkeit für beliebige Seitenlängen wird laut Anmerkung gerade nicht behauptet. 📄 Quelle: ari23_vl07, Folie 6 (S.6)"
+ },
+ {
+  "q": "Für welche Rechtecke gilt der Satz laut Anmerkung ohne Grenzprozess?",
+  "e": "Die Anmerkung stellt klar: Das gilt (ohne Grenzprozess) nur für solche Rechtecke, bei denen n und m Vielfache von e sind. 📄 Quelle: ari23_vl07, Folie 6 (S.6)"
+ },
+ {
+  "q": "Ein Rechteck R hat die Seitenlängen a = 4·e und b = 3·e mit e := 1. Wie groß ist A(R) = (n · m) · e²?",
+  "e": "Mit n = 4, m = 3 und e = 1 folgt A(R) = (n·m)·e² = (4·3)·1² = 12. 📄 Quelle: ari23_vl07, Folie 6 (S.6)"
+ },
+ {
+  "q": "Ein Parallelogramm P hat die Grundseite g und die Höhe h. Wie lautet sein Flächeninhalt A(F_P)?",
+  "e": "Laut Satz gilt für den Flächeninhalt eines Parallelogramms mit Grundseite g und Höhe h: A(F_P) = g · h. 📄 Quelle: ari23_vl07, Folie 7 (S.7)"
+ },
+ {
+  "q": "Wie wird der Flächeninhalt eines Parallelogramms mit Grundseite g und Höhe h begründet?",
+  "e": "Begründung: Das Parallelogramm ist zerlegungsgleich und damit flächeninhaltsgleich zu einem Rechteck R mit den Seitenlängen g (die der Grundseite entspricht) und h (die der Höhe entspricht). 📄 Quelle: ari23_vl07, Folie 7 (S.7)"
+ },
+ {
+  "q": "Ein Parallelogramm hat die Grundseite g = 6 und die Höhe h = 4. Wie groß ist sein Flächeninhalt A(F_P) = g · h?",
+  "e": "A(F_P) = g · h = 6 · 4 = 24. 📄 Quelle: ari23_vl07, Folie 7 (S.7)"
+ },
+ {
+  "q": "Ein Parallelogramm und ein Rechteck mit gleicher Grundseite g und Höhe h werden in Teilfiguren zerlegt. Was zeigt diese Zerlegung?",
+  "e": "Die Zerlegung in paarweise kongruente Teildreiecke zeigt, dass Parallelogramm und Rechteck zerlegungsgleich und damit flächeninhaltsgleich sind. 📄 Quelle: ari23_vl07, Folie 9 (S.9)"
+ },
+ {
+  "q": "Sind ein Parallelogramm und ein Rechteck mit gleicher Grundseite g und Höhe h flächeninhaltsgleich?",
+  "e": "Die Figuren lassen sich in paarweise kongruente Teilfiguren zerlegen, sind also zerlegungsgleich und damit flächeninhaltsgleich. 📄 Quelle: ari23_vl07, Folie 9 (S.9)"
+ },
+ {
+  "q": "Welche Strategien helfen, um zum Flächeninhalt einer Figur (z. B. eines Dreiecks) zu kommen?",
+  "e": "Als Strategien werden genannt: 1. Ergänze die Figur, 2. Teile die Figur. 📄 Quelle: ari23_vl07, Folie 10 (S.10)"
+ },
+ {
+  "q": "Welche Leitfrage steht am Beginn der Herleitung des Flächeninhalts eines Dreiecks?",
+  "e": "Die Frage lautet: Wie komme ich zum Flächeninhalt des Dreiecks? Welche Abbildungen benötige ich dazu? 📄 Quelle: ari23_vl07, Folie 10 (S.10)"
+ }
+]

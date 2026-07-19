@@ -1,0 +1,182 @@
+[
+ {
+  "q": "Welche Grundkonstruktionen werden mit dem Lineal (nicht mit dem Zirkel) ausgeführt?",
+  "e": "Mit dem Lineal werden gezeichnet: 'Gerade durch zwei Punkte' (Nr. 3) und 'Zwei Punkte durch eine Strecke verbinden' (Nr. 4). Die Kreis-Konstruktionen (Nr. 6 und 7) erfolgen mit dem Zirkel. 📄 Quelle: ari20_vl10, Folie 4 (S.4)"
+ },
+ {
+  "q": "Welche Konstruktionen gelten beim 'Konstruieren (nicht messen)' als erlaubte Grundtätigkeiten?",
+  "e": "Die Liste umfasst u. a. beliebigen Punkt zeichnen, Gerade durch zwei Punkte (Lineal), Schnittpunkte zeichnen, Kreis um Mittelpunkt M durch Punkt P (Zirkel). Gemessen wird gerade NICHT ('Konstruieren, nicht messen'). 📄 Quelle: ari21_vl09, Folie 17 (S.17)"
+ },
+ {
+  "q": "Mit welchem Werkzeug wird beim Konstruieren ein Kreis um einen gegebenen Mittelpunkt M durch einen weiteren Punkt P gezeichnet?",
+  "e": "Punkt 6 der Liste: Kreis um einen gegebenen Mittelpunkt M durch einen weiteren Punkt P zeichnen (Zirkel). 📄 Quelle: ari21_vl09, Folie 17 (S.17)"
+ },
+ {
+  "q": "Welche Module (Konstruktionen) sollen erst 'nachher' (später) behandelt werden?",
+  "e": "Punkt 8 (Module nachher): Parallele Geraden zu einer Geraden durch einen Punkt, rechtwinklige Geraden zu einer Geraden durch einen Punkt, Mittelpunkt einer Strecke. Schnittpunkte gehören zu den Grundtätigkeiten (Punkt 5). 📄 Quelle: ari21_vl09, Folie 17 (S.17)"
+ },
+ {
+  "q": "Der Kreis ist der geometrische Ort welcher Punkte P?",
+  "e": "1. Der Kreis ist der geometrische Ort der Punkte P, die von einem festen Punkt M die gleiche Entfernung haben. 📄 Quelle: ari21_vl09, Folie 26 (S.26)"
+ },
+ {
+  "q": "Welche Leitfrage schließt sich an die Betrachtung des Kreises als geometrischen Ort an?",
+  "e": "Die Leitfrage lautet: Wo liegen alle Punkte, die nicht von einem Punkt M, sondern von zwei Punkten A und B die gleiche Entfernung haben? 📄 Quelle: ari21_vl09, Folie 26 (S.26)"
+ },
+ {
+  "q": "Die Mittelsenkrechte zu zwei Punkten A und B ist der geometrische Ort welcher Punkte P?",
+  "e": "2. Die 'Mittelsenkrechte' zu zwei Punkten A und B ist der geometrische Ort der Punkte P, die von A und B die gleiche Entfernung haben. 📄 Quelle: ari21_vl09, Folie 27 (S.27)"
+ },
+ {
+  "q": "Wie lassen sich die Punkte der Mittelsenkrechten zu zwei Punkten A und B mit Hilfe von Kreisen begründen?",
+  "e": "Alle Punkte P mit Abstand r von A liegen auf einem Kreis um A (Radius r) UND alle Punkte P mit Abstand r von B liegen auf einem Kreis um B (Radius r). Die gesuchten Punkte sind also die Schnittpunkte von Kreisen um A und B mit gleichem Radius. 📄 Quelle: ari21_vl09, Folie 27 (S.27)"
+ },
+ {
+  "q": "Als was ergeben sich die Punkte der Mittelsenkrechten zu zwei Punkten A und B konstruktiv?",
+  "e": "Die gesuchten Punkte sind die Schnittpunkte von Kreisen um A und B mit gleichem Radius. 📄 Quelle: ari21_vl09, Folie 27 (S.27)"
+ },
+ {
+  "q": "Welche der folgenden Konstruktionsfähigkeiten zählen zum vorausgesetzten Grundwissen?",
+  "e": "Die Folie nennt Konstruktionen mit Zirkel und Lineal sowie die Konstruktion flächengleicher Quadrate und Rechtecke mit der Satzgruppe des Pythagoras (Flächenumwandlungen als Anwendung der Satzgruppe des Pythagoras). 📄 Quelle: ari23_vl09, Folie 5 (S.5)"
+ },
+ {
+  "q": "Womit lassen sich Quadrate und Rechtecke gleichen Flächeninhalts konstruieren?",
+  "e": "Die Folie beschreibt die Konstruktion flächengleicher Quadrate und Rechtecke „mit Hilfe der Satzgruppe des Pythagoras (Flächenumwandlungen als Anwendung der Satzgruppe des Pythagoras)“. 📄 Quelle: ari23_vl09, Folie 5 (S.5)"
+ },
+ {
+  "q": "Welche der folgenden Grundkonstruktionen werden mit dem Lineal ausgeführt?",
+  "e": "Die Folie ordnet dem Lineal das Zeichnen einer Geraden durch zwei Punkte sowie das Verbinden zweier Punkte durch eine Strecke zu; das Zeichnen von Kreisen erfolgt jeweils mit dem Zirkel. 📄 Quelle: ari23_vl13, Folie 7 (S.7)"
+ },
+ {
+  "q": "Auf welche zwei Arten kann ein Kreis mit dem Zirkel als Grundkonstruktion konstruiert werden?",
+  "e": "Die Folie nennt zwei Zirkel-Grundkonstruktionen: Kreis um M durch einen weiteren Punkt P sowie Kreis um M mit einem Radius, der von zwei Punkten übernommen wird. 📄 Quelle: ari23_vl13, Folie 7 (S.7)"
+ },
+ {
+  "q": "Welche Konstruktionen werden als spätere 'Module' aufgeführt?",
+  "e": "Als spätere Module nennt die Folie parallele Geraden, rechtwinklige Geraden (jeweils zu einer Geraden durch einen Punkt) und den Mittelpunkt einer Strecke. 📄 Quelle: ari23_vl13, Folie 7 (S.7)"
+ },
+ {
+  "q": "Auf welchen Objekten darf laut Grundkonstruktion ein beliebiger Punkt gezeichnet werden?",
+  "e": "Die Folie erlaubt das Zeichnen eines beliebigen Punktes auf einer Geraden, Strecke oder Kreislinie. 📄 Quelle: ari23_vl13, Folie 7 (S.7)"
+ },
+ {
+  "q": "Wie wird 'Mitte 1: Gleiche Entfernung' (Punkt M_U) eines Dreiecks ABC beschrieben?",
+  "e": "Mitte 1 (Gleiche Entfernung) ist der Umkreismittelpunkt M_U, also der Mittelpunkt des Kreises durch A, B, C; er hat die gleiche Entfernung zu A, B und C. Minimale Entfernungssumme (Fermatpunkt) und Austarieren (Schwerpunkt) sind andere Mitten. 📄 Quelle: ari23_vl13, Folie 9 (S.9)"
+ },
+ {
+  "q": "Wie ist 'Mitte 2: Minimale Entfernung' (Punkt M_F, Fermatpunkt) eines Dreiecks definiert?",
+  "e": "Mitte 2 ist der Fermatpunkt M_F, für den die Summe der Entfernungen zu den Punkten minimal ist. 📄 Quelle: ari23_vl13, Folie 9 (S.9)"
+ },
+ {
+  "q": "Wie wird 'Mitte 3: Austarieren' (Punkt M_S) eines Dreiecks ABC beschrieben?",
+  "e": "Mitte 3 (Austarieren) ist der Schwerpunkt M_S, der das Dreieck ABC als Fläche bzw. mit Kugeln in den Ecken austariert (wenn man es balanciert bzw. an einen Faden hängt). 📄 Quelle: ari23_vl13, Folie 10 (S.10)"
+ },
+ {
+  "q": "Welche Aussagen treffen auf 'Mitte 4: Gleicher Abstand' (Punkt M_I) eines Dreiecks zu?",
+  "e": "Mitte 4 (Gleicher Abstand) ist der Inkreismittelpunkt M_I, für den der Abstand zu den Verbindungsstrecken (Seiten) gleich groß ist. Gleiche Entfernung zu den Ecken bzw. der Umkreismittelpunkt betreffen Mitte 1. 📄 Quelle: ari23_vl13, Folie 10 (S.10)"
+ },
+ {
+  "q": "Der Satz 'Gleiche Entfernung zu zwei Punkten' – welche Aussagen geben Voraussetzung (Wenn) und Folgerung (Dann) korrekt wieder?",
+  "e": "Der Satz lautet: Wenn ein Punkt P gleich weit von zwei Punkten A und B entfernt ist, dann liegt er auf einer Geraden senkrecht zu AB durch den Mittelpunkt von AB. 📄 Quelle: ari23_vl13, Folie 13 (S.13)"
+ },
+ {
+  "q": "Für welche Punkte gilt der Satz 'Gleiche Entfernung zu zwei Punkten'?",
+  "e": "Der Satz beginnt mit 'Für alle Punkte P der Ebene gilt:'. 📄 Quelle: ari23_vl13, Folie 13 (S.13)"
+ },
+ {
+  "q": "Laut Definition heißt eine Gerade m_AB genau dann Mittelsenkrechte zu einer Strecke AB, wenn welche Bedingungen erfüllt sind?",
+  "e": "Die Definition verlangt beide Bedingungen: Die Gerade m_AB verläuft durch den Mittelpunkt von AB und steht senkrecht zur Strecke AB. 📄 Quelle: ari23_vl13, Folie 14 (S.14)"
+ },
+ {
+  "q": "Womit können Mittelsenkrechten als Modul konstruiert werden?",
+  "e": "Die Folie vermerkt: Mittelsenkrechten können als Modul (mit dem Geodreieck) konstruiert werden. 📄 Quelle: ari23_vl13, Folie 14 (S.14)"
+ },
+ {
+  "q": "Der Satz zu den Mittelsenkrechten im Dreieck – welche Aussagen sind Teil von Voraussetzung bzw. Folgerung?",
+  "e": "Der Satz: Wenn m_AB, m_BC und m_CA die drei Mittelsenkrechten des Dreiecks ABC sind, dann schneiden sie sich im Punkt M_U, der der Mittelpunkt des Kreises durch A, B und C ist. Eine Einschränkung auf rechtwinklige Dreiecke gibt es nicht. 📄 Quelle: ari23_vl13, Folie 15 (S.15)"
+ },
+ {
+  "q": "Für welche Dreiecke gilt der Satz über den Schnittpunkt der drei Mittelsenkrechten?",
+  "e": "Der Satz beginnt mit 'Für alle Dreiecke ABC der Ebene gilt:'. 📄 Quelle: ari23_vl13, Folie 15 (S.15)"
+ },
+ {
+  "q": "Welche Aussagen macht der Satz zu 'Mitte 1: Gleiche Entfernung' über die Mittelsenkrechten eines Dreiecks ABC der Ebene?",
+  "e": "Der Satz gilt für alle Dreiecke ABC der Ebene: Sind m_AB, m_BC und m_CA die drei Mittelsenkrechten, dann schneiden sie sich in M_U, dem Mittelpunkt des Kreises durch A, B und C. Alle Punkte auf m_AB haben gleiche Entfernung zu A und B. 📄 Quelle: ari23_vl13, Folie 16 (S.16)"
+ },
+ {
+  "q": "Welche Eigenschaft haben alle Punkte auf der Mittelsenkrechten zu a (m_BC)?",
+  "e": "Alle Punkte auf der Mittelsenkrechten zu a (m_BC) haben die gleiche Entfernung zu B und C. 📄 Quelle: ari23_vl13, Folie 16 (S.16)"
+ },
+ {
+  "q": "Warum ist der Schnittpunkt M_U von m_AB und m_BC der Mittelpunkt des Umkreises durch A, B und C?",
+  "e": "Der Schnittpunkt M_U von m_AB und m_BC ist gleich weit von A, B und C entfernt und damit Mittelpunkt des Kreises durch A, B und C (Umkreis). 📄 Quelle: ari23_vl13, Folie 16 (S.16)"
+ },
+ {
+  "q": "Wie ist die 'Mitte 1: Gleiche Entfernung' eines Dreiecks ABC definiert?",
+  "e": "Mitte 1 (Gleiche Entfernung) ist der Mittelpunkt M_U des Kreises durch die drei Punkte A, B, C (Umkreismittelpunkt). 📄 Quelle: ari23_vl13, Folie 18 (S.18)"
+ },
+ {
+  "q": "Welche Anwendung wird für die 'Gleiche Entfernung' (Umkreismittelpunkt) genannt?",
+  "e": "Als Anwendung der 'Gleichen Entfernung' wird die Station eines Hubschraubers bei drei Skigebieten genannt. 📄 Quelle: ari23_vl13, Folie 18 (S.18)"
+ },
+ {
+  "q": "Wie ist die 'Mitte 2: Minimale Entfernung' eines Dreiecks definiert?",
+  "e": "Mitte 2 (Minimale Entfernung) ist der Punkt M_F, für den die Summe der Entfernungen zu den Punkten minimal ist (Fermatpunkt). 📄 Quelle: ari23_vl13, Folie 19 (S.19)"
+ },
+ {
+  "q": "Welche Anwendung wird für die 'Minimale Entfernung' (Fermatpunkt) genannt?",
+  "e": "Als Anwendung der 'Minimalen Entfernung' (Fermatpunkt) werden Logistik und Warenlager genannt. 📄 Quelle: ari23_vl13, Folie 19 (S.19)"
+ },
+ {
+  "q": "Wie ist die 'Mitte 3: Austarieren' eines Dreiecks ABC definiert?",
+  "e": "Mitte 3 (Austarieren) ist der Punkt M_S, der das Dreieck ABC als Fläche (oder mit Kugeln in den Ecken) austariert, wenn man es balanciert bzw. an einen Faden hängt (Schwerpunkt). 📄 Quelle: ari23_vl13, Folie 20 (S.20)"
+ },
+ {
+  "q": "Was wird bei der 'Mitte 3: Austarieren' (Schwerpunkt) balanciert bzw. an einen Faden gehängt?",
+  "e": "Der Schwerpunkt M_S ist der Punkt, der das Dreieck ABC als Fläche oder mit Kugeln in den Ecken austariert. 📄 Quelle: ari23_vl13, Folie 20 (S.20)"
+ },
+ {
+  "q": "Welche Aussagen zu den Ansätzen der Mittelpunktsberechnung Deutschlands (Schwerpunkt) sind richtig?",
+  "e": "Austarieren der Fläche: Niederdorla (Unstrut-Hainich-Kreis, Thüringen); Schwerpunkt ohne Zwölfmeilenzone: Ort Landstreit bei Eisenach; mit Zwölfmeilenzone: Krebeck (Landkreis Göttingen, Niedersachsen). Der 3D-Modell-Punkt liegt in Dingelstädt-Silberhausen, nicht in Kassel. 📄 Quelle: ari23_vl13, Folie 23 (S.23)"
+ },
+ {
+  "q": "Wo liegt der Mittelpunkt Deutschlands beim dreidimensionalen Modell?",
+  "e": "Beim dreidimensionalen Modell liegt der Punkt in Dingelstädt-Silberhausen (Landkreis Eichsfeld, Thüringen). 📄 Quelle: ari23_vl13, Folie 23 (S.23)"
+ },
+ {
+  "q": "Welche Koordinaten hat der Austarier-Punkt (Schwerpunkt der Fläche Deutschlands) in der Gemeinde Niederdorla?",
+  "e": "Für den Punkt in Niederdorla werden die Koordinaten 51° 8′ N, 10° 25′ O angegeben. 📄 Quelle: ari23_vl13, Folie 23 (S.23)"
+ },
+ {
+  "q": "Welches Bauwerk wird stellvertretend für den Schwerpunkt der Fläche Deutschlands ohne Zwölfmeilenzone (Ort Landstreit bei Eisenach) genannt?",
+  "e": "Für den Schwerpunkt ohne Zwölfmeilenzone beim Ort Landstreit bei Eisenach wird stellvertretend die etwa 10 km entfernte Wartburg genannt. 📄 Quelle: ari23_vl13, Folie 23 (S.23)"
+ },
+ {
+  "q": "Welche Schritte gehören zum Konstruktionsprotokoll der Höhensatz-Konstruktion (Verwandlung Rechteck → Quadrat, mit c = 10 cm, p = 4 cm, q = 6 cm)?",
+  "e": "Laut Konstruktionsprotokoll: c = AB = 10 cm mit q = 6 cm und p = 4 cm; Thaleskreis mit Mittelpunkt M_AB und Radius |AM_AB| = |BM_AB| = 5 cm; Schnittpunkt von Thaleskreis und Höhe h_c ist C. Der Radius ist 5 cm, nicht 10 cm. 📄 Quelle: skript08_live, Folie 12 (S.1)"
+ },
+ {
+  "q": "Konstruktion des Quadrats (Schritt 8): Man trägt mit dem Zirkel die Länge PC (der Höhe h_c) ab. Welche Angaben sind korrekt?",
+  "e": "Schritt 8: Länge PC (= h_c) abtragen; Kreis um P → Punkt R; Kreis um C und um R → Schnittpunkt = Punkt S. Abgetragen wird die Höhe h_c, nicht die Hypotenuse c. 📄 Quelle: skript08_live, Folie 12 (S.2)"
+ },
+ {
+  "q": "Welche Schritte gehören zum Konstruktionsprotokoll der Kathetensatz-Konstruktion (Quadrat → Rechteck der Länge 3 cm)?",
+  "e": "Protokoll b): 1) Thaleskreis über BC durch M_BC, 2) Kreis durch B mit Radius 3 cm, 3) P = SP von TK und K_3(B), außerdem h_c = PC. Der Kreis um B hat Radius 3 cm (nicht 6 cm). 📄 Quelle: skript08_live, Folie 13 (S.3)"
+ },
+ {
+  "q": "Letzter Konstruktionsschritt der Quadrat-in-Rechteck-Verwandlung (Rechteck p·c): Welche Aussagen sind korrekt?",
+  "e": "Konstruktion: Länge c abtragen, Kreise um P und um B mit Radius c; über K_3(R) ∩ K_c(B) = S erhält man das Rechteck PBRS mit gleichem Flächeninhalt 36 cm² wie das gegebene Quadrat. 📄 Quelle: skript08_live, Folie 13 (S.4)"
+ },
+ {
+  "q": "Konstruktion für P = {2, 3, 5, 7}: Berechne das Produkt aller Elemente plus 1, also 2·3·5·7 + 1.",
+  "e": "2·3·5·7 = 210, plus 1 ergibt 211. 211 ist eine Primzahl, die nicht in P = {2, 3, 5, 7} liegt (Widerspruch). 📄 Quelle: skript08_mit, Folie 67 (S.6)"
+ },
+ {
+  "q": "Konstruktion für P = {3, 5}: Berechne a := 3·5 + 1.",
+  "e": "3·5 = 15, plus 1 ergibt 16. 16 ist zwar keine Primzahl, aber ihr Primteiler 2 liegt nicht in P = {3, 5}. 📄 Quelle: skript08_mit, Folie 67 (S.6)"
+ },
+ {
+  "q": "Was ist die Beweisidee beim Widerspruchsbeweis von Euklid (es gibt unendlich viele Primzahlen)?",
+  "e": "Die Idee ist die Konstruktion einer neuen Primzahl; man führt zum Widerspruch, indem gezeigt wird, dass es noch mindestens eine weitere Primzahl gibt, die aber nicht in P enthalten ist. 📄 Quelle: skript08_mit, Folie 67 (S.6)"
+ }
+]
