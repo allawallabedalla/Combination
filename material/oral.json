@@ -49,7 +49,7 @@
     "schwerpunkt": "stellenwert",
     "stufe": "vertiefung",
     "frage": "Wie hängen die beiden Umrechnungsverfahren – die Zerlegung nach der größten Basispotenz und die fortgesetzte Division durch die Basis – miteinander zusammen? Erläutern Sie außerdem, wie sich die Anzahl der Stellen einer Zahl mit wachsender Basis verändert.",
-    "musterantwort": "Beide Verfahren liefern dieselben Ziffern, greifen die Zahl aber von entgegengesetzten Enden an: Die Zerlegung nach der größten Potenz bestimmt zuerst die höchste Ziffer a_m (wie viele b^m passen hinein), die fortgesetzte Division bestimmt zuerst die niedrigste Ziffer a_0 als Rest. Die Divisionsreste von unten gelesen entsprechen genau den Koeffizienten der Potenzdarstellung. Je größer die Basis b, desto mehr Werte fasst jede Stelle (b Ziffern) und desto weniger Stellen braucht eine feste Zahl; kleine Basen wie 2 liefern kurze Ziffernvorräte, aber lange Darstellungen (z. B. 34 = (100010)_2, aber 34 = (1021)_3 = 34 dezimal zweistellig).",
+    "musterantwort": "Beide Verfahren liefern dieselben Ziffern, greifen die Zahl aber von entgegengesetzten Enden an: Die Zerlegung nach der groessten Potenz bestimmt zuerst die hoechste Ziffer a_m (wie viele b^m passen hinein), die fortgesetzte Division bestimmt zuerst die niedrigste Ziffer a_0 als Rest. Die Divisionsreste von unten gelesen entsprechen genau den Koeffizienten der Potenzdarstellung. Je groesser die Basis b, desto mehr Werte fasst jede Stelle (b Ziffern) und desto weniger Stellen braucht eine feste Zahl; kleine Basen wie 2 liefern kurze Ziffernvorraete, aber lange Darstellungen. Beispiel 34: im Zweiersystem sechsstellig (100010)_2, im Dreiersystem vierstellig (1021)_3, im Zehnersystem nur zweistellig (34) - mit wachsender Basis nimmt die Stellenzahl also ab.",
     "kriterien": [
       "Erkennt, dass beide Verfahren dieselbe Darstellung liefern, aber von 'oben' bzw. 'unten' arbeiten",
       "Verknüpft Divisionsreste mit den Koeffizienten der Potenzdarstellung",
@@ -232,7 +232,7 @@
     "schwerpunkt": "kongruenzen",
     "stufe": "definition",
     "frage": "Was versteht man unter einer Restklasse modulo m, und was bedeutet es, dass zwei Zahlen a und b kongruent modulo m sind? Erläutern Sie dies am Beispiel m = 3.",
-    "musterantwort": "Zwei ganze Zahlen a und b heißen kongruent modulo m (geschrieben a ≡ b (mod m)), wenn sie beim Teilen durch m denselben Rest lassen, gleichbedeutend: wenn m die Differenz a − b teilt. Die Restklasse r̄ modulo m ist die Menge aller Zahlen mit demselben Rest r, also r̄ = {n | n = m·k + r}. Für m = 3 gibt es genau drei Restklassen: 0̄ = {0,3,6,…} (n = 3k), 1̄ = {1,4,7,…} (n = 3k+1) und 2̄ = {2,5,8,…} (n = 3k+2).",
+    "musterantwort": "Zwei ganze Zahlen a und b heissen kongruent modulo m (geschrieben a ≡ b (mod m)), wenn sie beim Teilen durch m denselben Rest lassen, gleichbedeutend: wenn m die Differenz a − b teilt. Die Restklasse r-quer modulo m ist die Menge aller ganzen Zahlen mit demselben Rest r, also r-quer = {n ∈ Z | n = m·k + r, k ∈ Z}. Fuer m = 3 gibt es genau drei Restklassen: 0-quer = {…,−6,−3,0,3,6,…} (n = 3k), 1-quer = {…,−2,1,4,7,…} (n = 3k+1) und 2-quer = {…,−1,2,5,8,…} (n = 3k+2).",
     "kriterien": [
       "Definition der Kongruenz über gleichen Rest bzw. Teilbarkeit von a − b durch m (Fachsprache)",
       "Restklasse korrekt als Menge aller Zahlen mit festem Rest beschrieben",
@@ -532,7 +532,7 @@
     "schwerpunkt": "flaechen",
     "stufe": "definition",
     "frage": "Was versteht man unter dem Flächeninhalt einer ebenen Figur? Nennen Sie die charakterisierenden Eigenschaften eines Flächenmaßes A und erläutern Sie kurz die Rolle des Einheitsquadrats.",
-    "musterantwort": "Der Flächeninhalt ordnet jeder Figur eine nichtnegative Maßzahl zu. Ein Flächenmaß A erfüllt: A(∅)=0 und A(F)≥0 (Nichtnegativität); Additivität, d.h. wenn F und G keine inneren Punkte gemeinsam haben (F∩G=∅), dann A(F∪G)=A(F)+A(G); Kongruenzinvarianz (kongruente Figuren haben denselben Flächeninhalt); und die Normierung A(E)=1 für das Einheitsquadrat E. Das Einheitsquadrat legt als vereinbarte Maßeinheit e² fest, gegen die alle anderen Flächen gemessen werden.",
+    "musterantwort": "Der Flächeninhalt ordnet jeder Figur eine nichtnegative Maßzahl zu. Ein Flächenmaß A erfüllt: A(∅)=0 und A(F)≥0 (Nichtnegativität); Additivität, d.h. wenn F und G keine inneren Punkte gemeinsam haben (ihre Ränder dürfen sich berühren; formal F°∩G°=∅), dann A(F∪G)=A(F)+A(G); Kongruenzinvarianz (kongruente Figuren haben denselben Flächeninhalt); und die Normierung A(E)=1 für das Einheitsquadrat E. Das Einheitsquadrat legt als vereinbarte Maßeinheit e² fest, gegen die alle anderen Flächen gemessen werden.",
     "kriterien": [
       "Nennt Nichtnegativität, Additivität (mit Voraussetzung disjunkter innerer Punkte) und Normierung A(E)=1",
       "Verwendet korrekte Fachsprache (Maß, Maßzahl, Additivität)",
@@ -652,7 +652,7 @@
     "schwerpunkt": "pythagoras",
     "stufe": "vertiefung",
     "frage": "Wie hängen Kathetensatz, Höhensatz und Satz des Pythagoras zusammen? Skizzieren Sie, wie sich der Höhensatz aus dem Kathetensatz herleiten lässt, und ordnen Sie auch die Umkehrung des Satzes von Pythagoras ein.",
-    "musterantwort": "Alle drei bilden die Satzgruppe des Pythagoras am rechtwinkligen Dreieck mit der Höhe h_c, die die Hypotenuse in die Abschnitte p und q teilt (c = p + q). Der Kathetensatz besagt a² = p·c und b² = q·c; der Höhensatz h_c² = p·q. Herleitung des Höhensatzes: Nach dem Kathetensatz gilt a² = p·c und im Teildreieck a² = h_c² + p², also h_c² = a² − p² = p·c − p² = p·(c − p) = p·q (wegen c − p = q). Addiert man die beiden Kathetensatz-Gleichungen, erhält man a² + b² = p·c + q·c = (p+q)·c = c², also den Satz des Pythagoras. Die Umkehrung dreht Voraussetzung und Folgerung um: Wenn a² + b² = c² gilt, dann ist das Dreieck rechtwinklig; sie ist mit dem Satz selbst noch nicht bewiesen (Beweis z. B. über den Satz des Thales) und liefert zusammen mit ihm die Genau-dann-wenn-Aussage.",
+    "musterantwort": "Alle drei bilden die Satzgruppe des Pythagoras am rechtwinkligen Dreieck mit der Höhe h_c, die die Hypotenuse in die Abschnitte p und q teilt (c = p + q). Der Kathetensatz besagt a² = p·c und b² = q·c; der Höhensatz h_c² = p·q. Herleitung des Höhensatzes: Nach dem Kathetensatz gilt a² = p·c und im Teildreieck a² = h_c² + p², also h_c² = a² − p² = p·c − p² = p·(c − p) = p·q (wegen c − p = q). Addiert man die beiden Kathetensatz-Gleichungen, erhält man a² + b² = p·c + q·c = (p+q)·c = c², also den Satz des Pythagoras. Die Umkehrung dreht Voraussetzung und Folgerung um: Wenn a² + b² = c² gilt, dann ist das Dreieck rechtwinklig; sie ist mit dem Satz selbst noch nicht bewiesen und braucht ein eigenes Argument, z. B. über Kongruenz: Man konstruiert ein rechtwinkliges Dreieck mit den Katheten a und b; dessen Hypotenuse hat nach Pythagoras die Länge √(a²+b²) = c, sodass das Ausgangsdreieck nach SSS zu diesem kongruent und damit ebenfalls bei C rechtwinklig ist. Zusammen mit dem Satz liefert die Umkehrung die Genau-dann-wenn-Aussage.",
     "kriterien": [
       "Kathetensatz (a²=p·c) und Höhensatz (h_c²=p·q) korrekt genannt und in der Herleitung verknüpft",
       "Pythagoras als Summe der Kathetensätze erkannt (p·c+q·c=c²)",
@@ -757,7 +757,7 @@
     "schwerpunkt": "polygone",
     "stufe": "definition",
     "frage": "Was versteht man unter einem regulären Polygon (regelmäßigen n-Eck), und wann spricht man von einer Parkettierung der Ebene? Definieren Sie beide Begriffe.",
-    "musterantwort": "Ein reguläres Polygon (regelmäßiges n-Eck) ist ein Vieleck, dessen Seiten alle gleich lang sind und dessen Innenwinkel alle gleich groß sind. Eine Parkettierung der Ebene ist eine Menge kongruenter Figuren, die die zu allen Seiten unendlich gedachte Ebene überlappungsfrei (ohne Überlappung) und lückenlos ausfüllt, sodass man das Muster prinzipiell nach allen Seiten endlos fortsetzen kann.",
+    "musterantwort": "Ein reguläres Polygon (regelmäßiges n-Eck) ist ein Vieleck, dessen Seiten alle gleich lang sind und dessen Innenwinkel alle gleich groß sind. Eine Parkettierung (ein Parkett) der Ebene ist eine überlappungsfreie (ohne Überlappung) und lückenlose Überdeckung der gesamten, unendlich gedachten Ebene mit Vielecken bzw. Figuren, sodass sich das Muster prinzipiell nach allen Seiten endlos fortsetzen lässt. Verwendet man dabei nur ein einziges, immer wieder kongruent kopiertes Vieleck, spricht man von einer monohedralen Parkettierung; es dürfen aber auch verschiedene Figuren kombiniert werden.",
     "kriterien": [
       "Reguläres Polygon über gleiche Seitenlängen UND gleiche Innenwinkel korrekt gefasst",
       "Parkettierung: überlappungsfrei und lückenlos genannt",
@@ -836,10 +836,10 @@
     "frage": "Was versteht man in der Geometrie unter einem Körper? Erläutern Sie den Begriff und grenzen Sie insbesondere die Klasse der Polyeder von krummflächig begrenzten Körpern ab. Nennen Sie je Beispiele.",
     "musterantwort": "Ein (geometrischer) Körper ist ein beschränktes, dreidimensionales Objekt des Raumes, das von Flächen begrenzt wird und ein Volumen einschließt. Ein Polyeder (Vielflächner) ist ein Körper, der ausschließlich von ebenen Vielecken (den Seitenflächen) begrenzt wird; diese treffen sich in geradlinigen Kanten und den Ecken. Beispiele sind Würfel, Quader und Pyramide. Krummflächig begrenzte Körper besitzen mindestens eine gekrümmte Fläche und sind keine Polyeder, z. B. Zylinder, Kegel und Kugel.",
     "kriterien": [
-      "Nennt die drei Merkmale Ecken, Kanten, Flächen und die Dreidimensionalität/Volumen",
-      "Definiert Polyeder korrekt über ebene Vielecke als Begrenzung",
-      "Ordnet Beispiele richtig zu (Würfel/Quader/Pyramide = Polyeder; Zylinder/Kegel/Kugel = krummflächig)",
-      "Verwendet präzise Fachsprache (Seitenflächen, Kanten, Ecken)"
+      "Nennt Dreidimensionalitaet, Begrenzung durch Flaechen und eingeschlossenes Volumen als Merkmale eines Koerpers",
+      "Definiert Polyeder korrekt ueber ebene Vielecke als Begrenzung (erst hier Ecken/Kanten/Flaechen)",
+      "Ordnet Beispiele richtig zu (Wuerfel/Quader/Pyramide = Polyeder; Zylinder/Kegel/Kugel = krummflaechig)",
+      "Verwendet praezise Fachsprache (Seitenflaechen, Kanten, Ecken)"
     ],
     "quelle": "MAL1-1 – Körper & räumliche Objekte",
     "gruppe": "Geometrie",
@@ -850,7 +850,7 @@
     "schwerpunkt": "koerper",
     "stufe": "verfahren",
     "frage": "Erklären Sie am Beispiel des Würfels, wie man von einem Körper zu seinem Netz gelangt. Zeigen Sie an einer konkreten Netzform, dass Netze durch Abwickeln bzw. Aufschneiden an den Kanten entstehen, und geben Sie an, wie viele verschiedene Würfelnetze es gibt.",
-    "musterantwort": "Ein Netz erhält man, indem man die sechs quadratischen Flächen des Würfels an einigen Kanten aufschneidet und den Körper in die Ebene abwickelt, sodass alle Flächen zusammenhängend und überlappungsfrei ausgebreitet liegen; umgekehrt lässt sich das Netz wieder zum Würfel zusammenfalten. Mathematisch sind Würfelnetze Hexominos (sechs zusammenhängende Quadrate). Berücksichtigt man Drehungen und Spiegelungen als gleich, gibt es genau 11 verschiedene Würfelnetze. Eine häufige Grundstruktur ist die 'Kreuz'- bzw. Reihenform mit vier Flächen in einer Reihe und je einer Fläche links und rechts.",
+    "musterantwort": "Ein Netz erhaelt man, indem man die sechs quadratischen Flaechen des Wuerfels an einigen Kanten aufschneidet und den Koerper in die Ebene abwickelt, sodass alle Flaechen zusammenhaengend und ueberlappungsfrei ausgebreitet liegen; umgekehrt laesst sich das Netz wieder zum Wuerfel zusammenfalten. Mathematisch sind Wuerfelnetze Hexominos (sechs kantenverbundene Quadrate). Beruecksichtigt man Drehungen und Spiegelungen als gleich, gibt es genau 11 verschiedene Wuerfelnetze. Eine haeufige Grundstruktur ist die Kreuzform: vier Quadrate in einer Spalte, dazu je ein Quadrat links und rechts an demselben (z. B. dem zweiten) Quadrat der Spalte. Ein reiner 1x6-Streifen ist dagegen kein gueltiges Wuerfelnetz.",
     "kriterien": [
       "Beschreibt Abwickeln/Aufschneiden an Kanten als erzeugendes Verfahren",
       "Zeichnet oder beschreibt korrekt mindestens ein gültiges Würfelnetz",
