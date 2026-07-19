@@ -49,9 +49,10 @@ Beweise führen** · Wissen eigenständig erwerben.
 - [x] **Schritt C** – App-Modus „Mündliche Prüfung" (js/app.js): Setup (Schwerpunkte + 10/20/30 Min) →
       Prüfungsgespräch (offen → Musterantwort → Selbstbewertung) → Timer → **Notenpunkte 0–15** +
       Kompetenzstufen-Feedback. Offline getestet (0 Konsolenfehler).
-- [ ] **Schritt D** – Feinschliff: 2 Prüfer-Personas, mehr Fragen/Schwerpunkt optional, Doku/README,
-      exakte Dauer aus Modulhandbuch 2014 verifizieren. Inhalt der `_ground_*`/`_bundles`-Hilfsdateien
-      ist regenerierbar und darf aufgeräumt/gitignored werden.
+- [x] **Schritt D** – Feinschliff: 2 Prüfer-Personas (Fachwissenschaft/Fachdidaktik je Stufe),
+      README-Doku (Lernmodi), Hilfsdateien aufgeräumt + gitignored. **Offen/optional:** mehr Fragen
+      pro Schwerpunkt; **exakte Dauer aus Modulhandbuch 2014 verifizieren** (Dokument noch nicht vorhanden –
+      derzeit Standard 10/20/30 Min). → Mündliche-Prüfung-Feature damit funktionsfertig.
 
 ## Plan (in Reihenfolge)
 

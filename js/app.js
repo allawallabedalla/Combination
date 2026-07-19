@@ -2177,6 +2177,12 @@ if (contentGateActive() && !contentUnlocked()) {
  * ============================================================ */
 const ORAL_STUFE = { definition: "Definition", verfahren: "Verfahren", beweis: "Beweis/Begründung", vertiefung: "Vertiefung", didaktik: "Didaktik-Transfer" };
 const ORAL_RATE = ["nicht", "teilweise", "gut", "sehr gut"]; // 0..3 Punkte je Frage
+// Zwei Prüfende (wie in der echten Prüfung): Fachwissenschaft vs. Fachdidaktik.
+const ORAL_PRUEFER = {
+  fach:     { ic: "👤", name: "Prüfer:in · Fachwissenschaft" },
+  didaktik: { ic: "🧑‍🏫", name: "Prüfer:in · Fachdidaktik" },
+};
+function oralPruefer(q) { return q.stufe === "didaktik" ? ORAL_PRUEFER.didaktik : ORAL_PRUEFER.fach; }
 let ORAL_SESSION = null;
 let ORAL_TIMER = null;
 const $o = (id) => document.getElementById(id);
@@ -2255,6 +2261,10 @@ function renderOral() {
       <span class="muted" id="oralTimer" style="font-variant-numeric:tabular-nums">${oralTimerStr(S)}</span>
     </div>
     <div class="q-card">
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px">
+        <span style="font-size:22px">${oralPruefer(q).ic}</span>
+        <span class="muted" style="font-size:13px;font-weight:600">${esc(oralPruefer(q).name)}</span>
+      </div>
       <span class="chip" style="background:#af52de22;color:#af52de">${esc(q.schwerpunkt_name)}</span>
       <span class="chip" style="margin-left:6px">${esc(ORAL_STUFE[q.stufe] || q.stufe)}</span>
       <p style="margin:12px 0 0;font-size:18px;font-weight:600;line-height:1.4">${esc(q.frage)}</p>

@@ -61,6 +61,14 @@ HTTPS ist nötig, damit Service Worker/Offline funktioniert.
 Wie in ADT-Training über ein kostenloses Supabase-Projekt (Werte in `config.js`).
 Ohne Konfiguration läuft die App voll offline und lokal. Anleitung/SQL: `supabase/`.
 
+## Lernmodi der App
+- **Gemischtes / Nach Thema / Fällige Wiederholungen** – Multiple-Choice mit Spaced Repetition (Leitner).
+- **Prüfungssimulation** – 30 MC-Fragen, Timer, bestanden ab 50 %.
+- **Mündliche Prüfung** – Prüfungsgespräch nach **Kassel L1 (PO 2014, Modul MAL1-1)**: offene Fragen in der
+  Kaskade Definition → Verfahren → **Beweis** → Vertiefung → **Didaktik**, zwei Prüfer-Personas
+  (Fachwissenschaft/Fachdidaktik), 10/20/30 Min, Selbstbewertung → **Notenpunkte 0–15** (bestanden ab 5).
+  Offline, ohne Backend. Fragen: `material/oral.json` → `data/oral.js`. Ordnungen: `material/exam/`.
+
 ## Status
 - **Phase 1 (Generierung): ✅ fertig** — 70/70 Skripte, **2110 quellenbelegte Fragen** (`gen/<code>.json`).
 - **Phase 2 (Audit): ✅ fertig** — jede Frage gegen das Folienbild geprüft, **0 inhaltliche Fehler**

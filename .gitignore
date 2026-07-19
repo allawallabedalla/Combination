@@ -17,3 +17,12 @@ material/refs_aufwaendig.json
 # autark laufen. Nur die unkomprimierten Originale sollen nie versehentlich
 # hineinrutschen – sie kommen ausschließlich komprimiert über den Importer rein.
 raw/_orig/
+
+# Transiente Autoren-/Pipeline-Hilfsdateien (regenerierbar)
+material/exam/_ground_*.json
+material/exam/_oral_rules.md
+material/_bundles/
+material/_rewrite_rules.md
+material/_rewrite_plan.json
+material/refs_fix.json
+material/refs_aufwaendig.json
