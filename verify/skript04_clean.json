@@ -1,0 +1,16 @@
+{
+ "code": "skript04_clean",
+ "checked": 16,
+ "fixed": [],
+ "flagged": [],
+ "notes": [
+  "Alle 16 Fragen gegen die Folien p001-p007 geprueft; keine belegten Fehler gefunden.",
+  "Q001/Q002: 23*12 im 4er-System = 1002 (dezimal 66) folien- und rechengetreu bestaetigt.",
+  "Q003/Q004: 11322:21 im 4er-System = 222 (dezimal 42, Rest 0) bestaetigt.",
+  "Q005-Q007 (Definition, Definiendum/Definiens, Bekanntes) durch Folie 3 (p003) belegt.",
+  "Q008-Q011 (Teilbarkeitsdefinition a*c=b, Beispiele 2|6, 1|5, 3|0) durch Folie 4 (p004) belegt.",
+  "Q012-Q014 (1 teilt alle b, b teilt sich selbst, a teilt 0, 0 teilt keine Zahl b>0) durch Folie 5 (p005) belegt.",
+  "Q015/Q016 (Primzahl als letzte Blaetter des Zahlenbaeumchens, bekannte Voraussetzungen inkl. Teilbarkeit) durch Folie 7 (p007) belegt.",
+  "Seitenverweise (S.1-S.5, S.7) stimmen mit den Folienbildern ueberein; Folie 6 (Zahlenbaeumchen-Einfuehrung) enthaelt keine Frage."
+ ]
+}
