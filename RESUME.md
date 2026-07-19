@@ -11,7 +11,11 @@
 - **Phase 1 (Generierung): ✅ fertig** — 70/70 Skripte, **2110 quellenbelegte Fragen** in `gen/<code>.json`.
 - **Phase 2 (Audit): ✅ fertig** — jede Frage gegen das Folienbild geprüft: **0 inhaltliche Fehler**,
   7 rein formale Korrekturen. Bilanz: `verify/PHASE2.md`, Protokolle: `verify/<code>.json`.
-- **Phase 3 (Konsolidierung → App): ⏭️ NÄCHSTER OFFENER SCHRITT** (siehe unten).
+- **Phase 3 (Konsolidierung → App): ✅ fertig** — 544 rohe Topics → **28 kuratierte Kategorien**
+  (`material/topic_mapping.json`, `material/topics_curated.json`), gemergt zu `material/content.json`
+  (2110 Fragen, 0 Fehler) und in `data/questions.js` übernommen. App lokal getestet (Kategorien + Quiz
+  laufen, 0 Konsolenfehler). Alt-Branding „ADT/Tumordokumentar" auf „Mathe Lehramt" umgestellt.
+  Supabase-Backend dokumentiert/vervollständigt (`supabase/README.md`, `supabase/sync-setup.sql`).
 
 ## 0. Setup (immer zuerst)
 ```bash
@@ -112,9 +116,11 @@ python3 -m http.server 8000     # http://localhost:8000 — Kategorien + Quiz pr
 ```
 Alles committen + pushen. Optional: Branding/Icons finalisieren, GitHub Pages aktivieren (Settings → Pages).
 
-### Abnahme Phase 3
-- [ ] `topic_mapping.json` deckt ALLE rohen Topics ab (0 unmapped)
-- [ ] `topics_curated.json`: jede Kategorie mit name/icon/color/quelle
-- [ ] `material/content.json` gebaut, Inline-Validierung = 0 Fehler, 2110 Fragen enthalten
-- [ ] `data/questions.js` trägt den echten Katalog; App startet lokal, Kategorien lernbar
-- [ ] committet + gepusht auf `claude/repo-combination-raw-data-vbf3hw`
+### Abnahme Phase 3 — ✅ erledigt
+- [x] `topic_mapping.json` deckt ALLE 544 rohen Topics ab (0 unmapped)
+- [x] `topics_curated.json`: 28 Kategorien, jede mit name/icon/color/quelle (+ gruppe/svg)
+- [x] `material/content.json` gebaut, Inline-Validierung = 0 Fehler, 2110 Fragen enthalten
+- [x] `data/questions.js` trägt den echten Katalog; App startet lokal, 28 Kategorien lernbar, Quiz läuft
+- [x] committet + gepusht auf `claude/phase-3-resume-j0cmbl`
+
+> Reproduzierbar: Mapper-Logik in `pipeline/build_content.py` (rohe Topics → Kategorien → content.json → questions.js).

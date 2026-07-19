@@ -1,4 +1,4 @@
-/* ADT Trainer – App-Logik (Vanilla JS, keine Abhängigkeiten, offline-fähig). */
+/* Mathe Lehramt – App-Logik (Vanilla JS, keine Abhängigkeiten, offline-fähig). */
 "use strict";
 
 /* ------------------------------------------------------------------ *
@@ -355,7 +355,7 @@ async function sendTestNotification() {
   try {
     if (Notification.permission !== "granted") { toast("Erst Erinnerung aktivieren"); return; }
     const reg = await navigator.serviceWorker.ready;
-    await reg.showNotification("ADT Trainer", { body: "So sieht deine Lern-Erinnerung aus 📚", icon: "./icons/icon-192.png", badge: "./icons/icon-192.png", tag: "adt-test" });
+    await reg.showNotification("Mathe Lehramt", { body: "So sieht deine Lern-Erinnerung aus 📚", icon: "./icons/icon-192.png", badge: "./icons/icon-192.png", tag: "adt-test" });
     toast("🔔 Test-Benachrichtigung gesendet");
   } catch (e) { toast("⚠️ Test nicht möglich"); }
 }
@@ -398,8 +398,8 @@ function levelForXp(xp) {
 }
 function xpFloor(lvl) { return 50 * lvl * (lvl - 1); }
 function levelTitle(lvl) {
-  const t = ["Neuling", "Einsteiger", "Kodier-Lehrling", "Doku-Talent", "Registrierer",
-    "TNM-Kenner", "ICD-O-Profi", "Onko-Experte", "Register-Meister", "Tumordoku-Ass"];
+  const t = ["Neuling", "Einsteiger", "Zahlenfreund", "Rechentalent", "Beweis-Lehrling",
+    "Muster-Kenner", "Struktur-Profi", "Logik-Experte", "Themen-Meister", "Mathe-Ass"];
   return t[Math.min(lvl - 1, t.length - 1)];
 }
 
@@ -757,7 +757,17 @@ function icon(name) {
 function iconTile(name, tint) {
   return '<span class="icon-tile" style="--tint:' + tint + '">' + icon(name) + "</span>";
 }
-const TOPIC_ICON = { grundlagen: "hexagon", tnm: "ruler", icdo: "scope", icd10: "book", grading: "target", register: "columns", epidemiologie: "chart", therapie: "capsule", datenschutz: "lock" };
+const TOPIC_ICON = {
+  natuerliche_zahlen_peano: "hexagon", vollstaendige_induktion: "mountain", folgen_fibonacci: "chart",
+  summenformeln_gauss: "plus", figurierte_zahlen: "gem", pascal_binomial: "grid",
+  teilbarkeit_primzahlen: "columns", stellenwertsysteme: "ruler", teilbarkeitsregeln: "sliders",
+  restklassen_kongruenzen: "repeat", euklid_ggt: "link", iri_mirim_zahlen: "sync",
+  aussagenlogik: "shuffle", de_morgan_verneinung: "xcircle", beweismethoden: "shield",
+  kongruenzabbildungen: "share", pythagoras: "scope", flaecheninhalte: "copy",
+  parkettierung_winkel: "bolt", konstruktionen: "target", didaktik_grundlagen: "book",
+  bildungsstandards: "clipboardCheck", begriffsbildung_vanhiele: "brain", didaktik_geometrie: "star",
+  raeumliche_objekte: "rocket", zahlenraum_100: "medal", erkundungsmethodik: "flag", pruefung: "trophy",
+};
 const BADGE_ICON = {
   first: { i: "flag", c: "#34c759" }, ten: { i: "grid", c: "#007aff" }, fifty: { i: "medal", c: "#ff9500" },
   hundred: { i: "star", c: "#ff2d55" },
@@ -769,7 +779,7 @@ const BADGE_ICON = {
   secure25: { i: "shield", c: "#34c759" }, streak14: { i: "bolt", c: "#ff6b22" }, allmaster: { i: "trophy", c: "#ffb300" },
 };
 
-const BAR_TITLES = { home: "ADT Trainer", topics: "Themen", badges: "Erfolge", stats: "Statistik", settings: "Einstellungen", info: "Info", result: "Ergebnis", quiz: "", exam: "Prüfung", examresult: "Ergebnis" };
+const BAR_TITLES = { home: "Mathe Lehramt", topics: "Themen", badges: "Erfolge", stats: "Statistik", settings: "Einstellungen", info: "Info", result: "Ergebnis", quiz: "", exam: "Prüfung", examresult: "Ergebnis" };
 function setStreak() {
   if (streakEl) streakEl.innerHTML = '<span class="streak-flame">' + icon("flame") + "</span>" + S.streak;
 }
@@ -779,7 +789,7 @@ function updateAppbar(view) {
   const noLargeTitle = view === "quiz" || view === "result" || view === "exam" || view === "examresult";
   const h1 = document.querySelector(".appbar h1");
   if (h1) {
-    h1.textContent = BAR_TITLES[view] != null ? BAR_TITLES[view] : "ADT Trainer";
+    h1.textContent = BAR_TITLES[view] != null ? BAR_TITLES[view] : "Mathe Lehramt";
     // Doppeltes <h1> vermeiden: Wo die Ansicht einen Large-Title (h1) hat, ist der
     // Balken-Titel nur ein visuelles Duplikat → für Screenreader ausblenden.
     h1.setAttribute("aria-hidden", noLargeTitle ? "false" : "true");
@@ -836,7 +846,7 @@ function renderHome() {
     </div>`;
 
   app.innerHTML = `
-    <h1 class="large-title">ADT Trainer<span class="sub">${esc(levelTitle(lvl))} · Level ${lvl}</span></h1>
+    <h1 class="large-title">Mathe Lehramt<span class="sub">${esc(levelTitle(lvl))} · Level ${lvl}</span></h1>
     ${installTip}
     <div class="level-card">
       <div class="row"><span class="lvl">Level ${lvl}</span><span class="xp">${into} / ${span} XP</span></div>
@@ -1704,10 +1714,10 @@ function renderInfo() {
   updateAppbar("info");
   actionbar.classList.add("hidden");
   app.innerHTML = `
-    <h1 class="large-title">So funktioniert's<span class="sub">ADT Trainer · Kurzanleitung</span></h1>
+    <h1 class="large-title">So funktioniert's<span class="sub">Mathe Lehramt · Kurzanleitung</span></h1>
 
     <div class="section-title">Die App</div>
-    <div class="q-card"><p style="margin:0;line-height:1.55">Diese App bereitet dich auf die ADT-Prüfung <b>„Tumordokumentar/in"</b> vor. Übe jederzeit am Handy – im echten Prüfungsformat, mit einer Erklärung zu jeder Frage. Alles funktioniert offline.</p></div>
+    <div class="q-card"><p style="margin:0;line-height:1.55">Diese App bereitet dich auf die <b>Prüfung „Arithmetik &amp; Geometrie" im Lehramtsstudium</b> vor. Übe jederzeit am Handy – im echten Prüfungsformat, mit einer Erklärung zu jeder Frage. Alles funktioniert offline.</p></div>
 
     <div class="section-title">Lernmodi</div>
     <div class="ios-group">
@@ -1721,7 +1731,7 @@ function renderInfo() {
     <div class="q-card"><p style="margin:0;line-height:1.6">• Multiple-Choice mit <b>mehreren</b> richtigen Antworten.<br>
     • Ein Punkt nur, wenn <b>alle</b> richtigen Antworten getroffen sind (kein Teilpunkt).<br>
     • Bestanden ab <b>50 %</b> der Punkte.<br>
-    • Zugelassene Hilfsmittel in der echten Prüfung: ICD-10, ICD-O-3, OPS.</p></div>
+    • Neben Multiple-Choice gibt es auch <b>Rechenaufgaben</b> mit Zahleneingabe.</p></div>
 
     <div class="section-title">Cleveres Wiederholen</div>
     <div class="q-card"><p style="margin:0;line-height:1.6">Die App nutzt <b>Spaced Repetition</b> (Leitner-System): Jede Frage wandert bei richtiger Antwort in eine höhere Box mit längerer Pause (1 → 3 → 7 → 16 → 35 Tage). Bei einem Fehler geht sie zurück auf Anfang. So wiederholst du genau das, was du zu vergessen drohst – und nicht das, was längst sitzt.<br><br>
@@ -1988,8 +1998,8 @@ function showOnboarding() {
     const goals = GOAL_CHOICES.map(n => `<button class="goal-chip${n === 10 ? " sel" : ""}" data-goal="${n}">${n}</button>`).join("");
     ov.innerHTML = `<div class="modal-card onboard-card">
       <div class="onboard-hero">${iconTile("clipboardCheck", "#34c759")}</div>
-      <h3 class="modal-title">Willkommen beim ADT&nbsp;Trainer</h3>
-      <p class="modal-msg">Übe jederzeit für die Prüfung „Tumordokumentar/in" – im echten Prüfungsformat, mit Erklärung zu jeder Frage. Alles funktioniert offline.</p>
+      <h3 class="modal-title">Willkommen bei Mathe&nbsp;Lehramt</h3>
+      <p class="modal-msg">Übe jederzeit für die Prüfung „Arithmetik &amp; Geometrie" – im echten Prüfungsformat, mit Erklärung zu jeder Frage. Alles funktioniert offline.</p>
       <div class="onboard-goal">
         <label>Dein Tagesziel (Fragen pro Tag):</label>
         <div class="goal-chips">${goals}</div>

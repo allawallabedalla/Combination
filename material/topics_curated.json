@@ -1,0 +1,226 @@
+{
+  "natuerliche_zahlen_peano": {
+    "name": "Natürliche Zahlen & Peano-Axiome",
+    "icon": "🔢",
+    "color": "#2f6fed",
+    "gruppe": "Arithmetik",
+    "svg": "hexagon",
+    "quelle": "ari21_vl01, ari21_vl02, ari21_vl04, ari23_vl02, ari23_vl03, ari23_vl04 u. a. (11 Skripte)"
+  },
+  "vollstaendige_induktion": {
+    "name": "Vollständige Induktion",
+    "icon": "🪜",
+    "color": "#2f6fed",
+    "gruppe": "Arithmetik",
+    "svg": "mountain",
+    "quelle": "ari23_vl02, ari23_vl03, ari23_vl04, ari23_vl05, ari23_vl07, skript02_live23 u. a. (9 Skripte)"
+  },
+  "folgen_fibonacci": {
+    "name": "Folgen & Fibonacci",
+    "icon": "🐚",
+    "color": "#2f6fed",
+    "gruppe": "Arithmetik",
+    "svg": "chart",
+    "quelle": "ari23_vl01, ari23_vl02, ari23_vl03, ari23_vl04, erk02, skript03_live u. a. (7 Skripte)"
+  },
+  "summenformeln_gauss": {
+    "name": "Gauß- & Summenformeln",
+    "icon": "➕",
+    "color": "#2f6fed",
+    "gruppe": "Arithmetik",
+    "svg": "plus",
+    "quelle": "ari23_vl01, ari23_vl02, ari23_vl03, ari23_vl06, erk_hand, skript01_live23 u. a. (8 Skripte)"
+  },
+  "figurierte_zahlen": {
+    "name": "Figurierte & Dreieckszahlen",
+    "icon": "🔺",
+    "color": "#2f6fed",
+    "gruppe": "Arithmetik",
+    "svg": "gem",
+    "quelle": "ari21_vl01, ari23_vl01, ari23_vl04, ari23_vl05, erk01, erk04 u. a. (8 Skripte)"
+  },
+  "pascal_binomial": {
+    "name": "Pascal-Dreieck & Binomialkoeffizienten",
+    "icon": "🔻",
+    "color": "#2f6fed",
+    "gruppe": "Arithmetik",
+    "svg": "grid",
+    "quelle": "ari23_vl03, ari23_vl04, ari23_vl05, erk03, skript03_live"
+  },
+  "teilbarkeit_primzahlen": {
+    "name": "Teilbarkeit & Primzahlen",
+    "icon": "🧱",
+    "color": "#2f6fed",
+    "gruppe": "Arithmetik",
+    "svg": "columns",
+    "quelle": "ari21_vl04, ari21_vl05, ari21_vl06, ari21_vl08, ari23_vl05, skript04_clean u. a. (9 Skripte)"
+  },
+  "stellenwertsysteme": {
+    "name": "Stellenwertsysteme & Basen",
+    "icon": "🧮",
+    "color": "#2f6fed",
+    "gruppe": "Arithmetik",
+    "svg": "ruler",
+    "quelle": "ari21_vl03, ari21_vl04, ari23_vl09, ari23_vl10, skript03_clean, skript04_clean"
+  },
+  "teilbarkeitsregeln": {
+    "name": "Teilbarkeitsregeln & Quersummen",
+    "icon": "📏",
+    "color": "#2f6fed",
+    "gruppe": "Arithmetik",
+    "svg": "sliders",
+    "quelle": "ari21_vl08, ari23_vl09, ari23_vl10, erk08, skript09_live, skript10_live"
+  },
+  "restklassen_kongruenzen": {
+    "name": "Restklassen & Kongruenzen",
+    "icon": "🕛",
+    "color": "#2f6fed",
+    "gruppe": "Arithmetik",
+    "svg": "repeat",
+    "quelle": "ari21_vl03, ari21_vl04, ari23_vl09, ari23_vl10, ari23_vl11, erk07 u. a. (8 Skripte)"
+  },
+  "euklid_ggt": {
+    "name": "Euklidischer Algorithmus & ggT",
+    "icon": "🔗",
+    "color": "#2f6fed",
+    "gruppe": "Arithmetik",
+    "svg": "link",
+    "quelle": "ari23_vl09, ari23_vl12, erk07, skript08_mit, skript12_live"
+  },
+  "iri_mirim_zahlen": {
+    "name": "IRI-/MIRIM-Zahlen & Verknüpfungstafeln",
+    "icon": "♾️",
+    "color": "#2f6fed",
+    "gruppe": "Arithmetik",
+    "svg": "sync",
+    "quelle": "ari23_vl11, erk08, erk09, skript11_live"
+  },
+  "aussagenlogik": {
+    "name": "Aussagenlogik & Wahrheitstafeln",
+    "icon": "🔣",
+    "color": "#7c4dff",
+    "gruppe": "Logik & Beweise",
+    "svg": "shuffle",
+    "quelle": "ari21_vl06, ari21_vl07, ari21_vl08, ari21_vl09, ari23_vl08, ari23_vl11 u. a. (9 Skripte)"
+  },
+  "de_morgan_verneinung": {
+    "name": "De Morgan & Verneinung",
+    "icon": "🚫",
+    "color": "#7c4dff",
+    "gruppe": "Logik & Beweise",
+    "svg": "xcircle",
+    "quelle": "ari21_vl06, ari21_vl07, ari21_vl08, skript07_mit, skript08_mit"
+  },
+  "beweismethoden": {
+    "name": "Beweismethoden & Widerspruchsbeweis",
+    "icon": "🧩",
+    "color": "#7c4dff",
+    "gruppe": "Logik & Beweise",
+    "svg": "shield",
+    "quelle": "ari21_vl04, ari21_vl05, ari21_vl06, ari21_vl08, ari21_vl09, ari23_vl01 u. a. (12 Skripte)"
+  },
+  "kongruenzabbildungen": {
+    "name": "Kongruenzabbildungen & Verkettung",
+    "icon": "🔄",
+    "color": "#1ba672",
+    "gruppe": "Geometrie",
+    "svg": "share",
+    "quelle": "ari20_vl10, ari20_vl11, ari20_vl12, ari21_vl09, ari23_vl10, did_vl04_inhalte u. a. (8 Skripte)"
+  },
+  "pythagoras": {
+    "name": "Satzgruppe des Pythagoras",
+    "icon": "📐",
+    "color": "#1ba672",
+    "gruppe": "Geometrie",
+    "svg": "scope",
+    "quelle": "ari23_vl07, ari23_vl08, ari23_vl09, skript08_live"
+  },
+  "flaecheninhalte": {
+    "name": "Flächeninhalte & Zerlegungsgleichheit",
+    "icon": "⬛",
+    "color": "#1ba672",
+    "gruppe": "Geometrie",
+    "svg": "copy",
+    "quelle": "ari23_vl01, ari23_vl06, ari23_vl07, ari23_vl08, ari23_vl09, did_vl05_begriffe u. a. (11 Skripte)"
+  },
+  "parkettierung_winkel": {
+    "name": "Parkettierung & Innenwinkelsumme",
+    "icon": "🪟",
+    "color": "#1ba672",
+    "gruppe": "Geometrie",
+    "svg": "bolt",
+    "quelle": "ari23_vl05, ari23_vl06, erk04, erk05, skript05_live, skript06_live"
+  },
+  "konstruktionen": {
+    "name": "Konstruktionen & Mittelpunkte",
+    "icon": "✏️",
+    "color": "#1ba672",
+    "gruppe": "Geometrie",
+    "svg": "target",
+    "quelle": "ari20_vl10, ari21_vl09, ari23_vl09, ari23_vl13, skript08_live, skript08_mit"
+  },
+  "didaktik_grundlagen": {
+    "name": "Didaktische Grundlagen & Lerntheorien",
+    "icon": "📚",
+    "color": "#f5871f",
+    "gruppe": "Fachdidaktik",
+    "svg": "book",
+    "quelle": "ari20_vl12, ari21_vl01, ari21_vl09, ari23_vl03, ari23_vl05, did_vl01_ueberblick"
+  },
+  "bildungsstandards": {
+    "name": "Bildungsstandards & Kompetenzen",
+    "icon": "🎯",
+    "color": "#f5871f",
+    "gruppe": "Fachdidaktik",
+    "svg": "clipboardCheck",
+    "quelle": "did_vl02_einf, did_vl03_bildungsstd"
+  },
+  "begriffsbildung_vanhiele": {
+    "name": "Begriffsbildung (van Hiele)",
+    "icon": "🏗️",
+    "color": "#f5871f",
+    "gruppe": "Fachdidaktik",
+    "svg": "brain",
+    "quelle": "did_vl05_begriffe"
+  },
+  "didaktik_geometrie": {
+    "name": "Didaktik der Geometrie & ebene Figuren",
+    "icon": "🔷",
+    "color": "#f5871f",
+    "gruppe": "Fachdidaktik",
+    "svg": "star",
+    "quelle": "did_vl03_geohintergr, did_vl04_ebenefiguren, did_vl04_inhalte"
+  },
+  "raeumliche_objekte": {
+    "name": "Räumliche Objekte & Kopfgeometrie",
+    "icon": "🧊",
+    "color": "#f5871f",
+    "gruppe": "Fachdidaktik",
+    "svg": "rocket",
+    "quelle": "did_vl07_raum1, did_vl08_raum2"
+  },
+  "zahlenraum_100": {
+    "name": "Zahlenraum bis 100",
+    "icon": "💯",
+    "color": "#f5871f",
+    "gruppe": "Fachdidaktik",
+    "svg": "medal",
+    "quelle": "did_vl08_zr100"
+  },
+  "erkundungsmethodik": {
+    "name": "Erkundungs-Methodik (ICH-DU-WIR)",
+    "icon": "🧭",
+    "color": "#f5871f",
+    "gruppe": "Fachdidaktik",
+    "svg": "flag",
+    "quelle": "ari21_vl01, ari23_vl01, ari23_vl04, ari23_vl10, ari23_vl13"
+  },
+  "pruefung": {
+    "name": "Klausuren & Übungen",
+    "icon": "📝",
+    "color": "#6b7280",
+    "gruppe": "Prüfung",
+    "svg": "trophy",
+    "quelle": "ari23_vl11, klausur_sose22, klausur_ss20, klausur_wise20, uebung_2023, uebung_gesamt"
+  }
+}

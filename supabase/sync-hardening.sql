@@ -1,6 +1,11 @@
--- Pflicht-Härtung der anon-Funktionen (im Supabase SQL Editor ausführen).
+-- Härtung der anon-Funktionen (im Supabase SQL Editor ausführen).
 -- Ersetzt die Funktionen per create-or-replace – gefahrlos wiederholbar.
 -- Prüft Code-Länge und begrenzt die Datensatzgröße (Schutz vor Missbrauch/Kostentreiben).
+--
+-- HINWEIS: Die hier enthaltenen sync_pull/sync_push sind identisch zu supabase/sync-setup.sql
+-- (dort inkl. Tabelle + Grants). Wer sync-setup.sql ausgeführt hat, braucht diese Datei NICHT
+-- mehr für den Sync. Relevant bleibt nur die gehärtete push_save (Größenlimit) für Reminders.
+-- Reihenfolge/Gesamtbild: supabase/README.md.
 
 -- Sync: Lesen (Code-Länge prüfen)
 create or replace function public.sync_pull(p_code text)

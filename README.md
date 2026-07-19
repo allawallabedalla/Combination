@@ -65,7 +65,9 @@ Ohne Konfiguration läuft die App voll offline und lokal. Anleitung/SQL: `supaba
 - **Phase 1 (Generierung): ✅ fertig** — 70/70 Skripte, **2110 quellenbelegte Fragen** (`gen/<code>.json`).
 - **Phase 2 (Audit): ✅ fertig** — jede Frage gegen das Folienbild geprüft, **0 inhaltliche Fehler**
   (7 rein formale Korrekturen). Bilanz: `verify/PHASE2.md`.
-- **Phase 3 (Konsolidierung → App): ⏭️ offen** — Kategorien kuratieren → `material/content.json` → `data/questions.js`.
+- **Phase 3 (Konsolidierung → App): ✅ fertig** — 544 rohe Topics → **28 kuratierte Kategorien**,
+  gemergt zu `material/content.json` (2110 Fragen, 0 Fehler) und in `data/questions.js` übernommen.
+  App lokal getestet (Kategorien + Quiz laufen). Reproduzierbar über `pipeline/build_content.py`.
 
 **Wie eine neue Session hier fehlerfrei weitermacht: siehe `RESUME.md`** (Branch, Setup, Stolperfallen,
 Phase-3-Anleitung). Branch: `claude/repo-combination-raw-data-vbf3hw`. Fortschritt je Skript: `STATUS.md`.

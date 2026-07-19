@@ -48,7 +48,7 @@ Deno.serve(async (req) => {
 
   const now = new Date();
   const payload = JSON.stringify({
-    title: "ADT Trainer",
+    title: "Mathe Lehramt",
     body: "Zeit für ein paar Übungsfragen! 📚",
     url: "./index.html",
     tag: "adt-reminder",
