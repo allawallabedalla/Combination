@@ -1,0 +1,13 @@
+{
+ "code": "skript03_clean",
+ "checked": 27,
+ "fixed": [],
+ "flagged": [],
+ "notes": [
+  "Alle 27 Fragen gegen die zitierten Folien (S.2-S.12 -> p002-p012) geprueft. Seitenzahlen stimmen 1:1 (Folie N -> pNNN), alle source- und Quelle-Marker korrekt.",
+  "Numerische Umrechnungen und Vierersystem-Rechnungen (Addition/Subtraktion/Multiplikation/Division) nachgerechnet: b1-017 (133)_4+(201)_4=(1000)_4=64; b1-020 (301)_4-(23)_4=(212)_4=38; b1-023 (23)_4*(12)_4=(1002)_4=66; b1-025 (11322)_4:(21)_4=(222)_4=42. Alle korrekt.",
+  "Multi-Distraktoren (b1-003 Hunderter=10^2 nicht 10^3; b1-012 Basis 2 nicht 10; b1-013 Bündel3=3^3 nicht 3^9; b1-015 Bündel2=5^2 nicht 5^5) sind folientreu gesetzt.",
+  "Beobachtung (kein Fehler in der Frage): Folie 8 traegt faelschlich den Titel 'Das Dreiersystem', zeigt in der Potenz-Spalte aber Basis 5 (5^0..5^6). Fragen b1-015/b1-016 beziehen sich korrekt auf die tatsaechlich gezeigte Basis 5.",
+  "Folien 4/5 (Zweiersystem) und die Vertiefungsfolien 9-12 zeigen nur die Aufgabenstellung ohne ausgerechnete Loesung; die Antworten der Fragen sind arithmetisch aus den Folienaufgaben belegt."
+ ]
+}
