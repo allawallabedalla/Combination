@@ -19,6 +19,7 @@ const ASSETS = [
   "./js/sync.js",
   "./js/app.js",
   "./data/questions.js",
+  "./data/oral.js",
   "./manifest.webmanifest",
   "./icons/icon-180.png",
   "./icons/icon-192.png",

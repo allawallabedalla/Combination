@@ -779,7 +779,7 @@ const BADGE_ICON = {
   secure25: { i: "shield", c: "#34c759" }, streak14: { i: "bolt", c: "#ff6b22" }, allmaster: { i: "trophy", c: "#ffb300" },
 };
 
-const BAR_TITLES = { home: "Conne Super!", topics: "Themen", badges: "Erfolge", stats: "Statistik", settings: "Einstellungen", info: "Info", result: "Ergebnis", quiz: "", exam: "Prüfung", examresult: "Ergebnis" };
+const BAR_TITLES = { home: "Conne Super!", topics: "Themen", badges: "Erfolge", stats: "Statistik", settings: "Einstellungen", info: "Info", result: "Ergebnis", quiz: "", exam: "Prüfung", examresult: "Ergebnis", oralsetup: "Mündliche Prüfung", oral: "", oralresult: "Ergebnis" };
 function setStreak() {
   if (streakEl) streakEl.innerHTML = '<span class="streak-flame">' + icon("flame") + "</span>" + S.streak;
 }
@@ -872,6 +872,7 @@ function renderHome() {
     <div class="section-title">Prüfung</div>
     <div class="ios-group">
       <button class="mode-btn" data-act="exam">${iconTile("clipboardCheck", "#34c759")}<span class="txt"><b>Prüfungssimulation</b><p>${examInProgress() ? "▶︎ Läuft – tippen zum Fortsetzen" : Math.min(30, QUESTIONS.length) + " Fragen · Timer · bestanden ab 50 %"}</p></span><span class="chev">›</span></button>
+      ${(window.ORAL && ORAL.QUESTIONS && ORAL.QUESTIONS.length) ? `<button class="mode-btn" data-act="oral">${iconTile("brain", "#af52de")}<span class="txt"><b>Mündliche Prüfung</b><p>Prüfungsgespräch · offen · 10–30 Min · Notenpunkte 0–15</p></span><span class="chev">›</span></button>` : ""}
     </div>
 
     <div class="section-title">Fortschritt</div>
@@ -895,6 +896,7 @@ function renderHome() {
     else if (a === "topics") go("topics");
     else if (a === "due") { buildSession("due"); go("quiz"); }
     else if (a === "exam") examStart();
+    else if (a === "oral") go("oralsetup");
     else if (a === "badges") go("badges");
     else if (a === "stats") go("stats");
     else if (a === "settings") go("settings");
@@ -1788,6 +1790,9 @@ function renderView(view) {
     else if (view === "result") renderResult(RESULT ? RESULT.right : 0, RESULT ? RESULT.total : 0, RESULT ? RESULT.pct : 0);
     else if (view === "exam") renderExam();
     else if (view === "examresult") renderExamResult();
+    else if (view === "oralsetup") renderOralSetup();
+    else if (view === "oral") renderOral();
+    else if (view === "oralresult") renderOralResult();
     else if (view === "badges") renderBadges();
     else if (view === "stats") renderStats();
     else if (view === "settings") renderSettings();
@@ -2166,6 +2171,167 @@ if (contentGateActive() && !contentUnlocked()) {
 }
 
 // Service Worker registrieren (offline) + Update-Erkennung mit In-App-Banner
+/* ============================================================ *
+ * Mündliche Prüfung – Prüfungsgespräch (offline, Kassel L1 MAL1-1)
+ * Offene Fragen aus window.ORAL; Selbsteinschätzung -> Notenpunkte 0–15.
+ * ============================================================ */
+const ORAL_STUFE = { definition: "Definition", verfahren: "Verfahren", beweis: "Beweis/Begründung", vertiefung: "Vertiefung", didaktik: "Didaktik-Transfer" };
+const ORAL_RATE = ["nicht", "teilweise", "gut", "sehr gut"]; // 0..3 Punkte je Frage
+let ORAL_SESSION = null;
+let ORAL_TIMER = null;
+const $o = (id) => document.getElementById(id);
+function stopOralTimer() { if (ORAL_TIMER) { clearInterval(ORAL_TIMER); ORAL_TIMER = null; } }
+
+function oralPickQuestions(keys, durationMin) {
+  const all = (window.ORAL && ORAL.QUESTIONS) || [];
+  const pool = all.filter(q => keys.includes(q.schwerpunkt));
+  const target = Math.max(4, Math.min(pool.length, Math.round(durationMin / 3)));
+  const order = ["definition", "verfahren", "beweis", "vertiefung", "didaktik"];
+  const byStufe = order.map(s => shuffle(pool.filter(q => q.stufe === s)));
+  const seq = [];
+  let i = 0, guard = 0;
+  while (seq.length < target && byStufe.some(a => a.length) && guard++ < 999) {
+    const arr = byStufe[i % order.length];
+    if (arr.length) seq.push(arr.shift());
+    i++;
+  }
+  return seq.slice(0, target);
+}
+
+function oralStart(keys, durationMin) {
+  const qs = oralPickQuestions(keys, durationMin);
+  if (!qs.length) { toast("Keine Fragen für diese Auswahl"); return; }
+  ORAL_SESSION = { keys, durationMin, qs, idx: 0, revealed: qs.map(() => false), ratings: qs.map(() => null), endTs: Date.now() + durationMin * 60000, timeUp: false };
+  go("oral");
+}
+
+function renderOralSetup() {
+  updateAppbar("oralsetup");
+  actionbar.classList.add("hidden");
+  const sw = (window.ORAL && ORAL.SCHWERPUNKTE) || [];
+  const groups = {};
+  sw.forEach(s => (groups[s.gruppe] = groups[s.gruppe] || []).push(s));
+  const groupHtml = Object.entries(groups).map(([g, arr]) => `
+    <div class="section-title">${esc(g)}</div>
+    <div class="ios-group">${arr.map(s => `
+      <label class="topic-row" style="cursor:pointer">
+        <input type="checkbox" class="oral-sw" value="${esc(s.key)}" checked style="width:20px;height:20px;margin-right:12px;flex:none">
+        <span class="info"><b>${esc(s.name)}</b></span>
+      </label>`).join("")}</div>`).join("");
+  app.innerHTML = `
+    <h1 class="large-title">Mündliche Prüfung<span class="sub">Kassel L1 · Modul MAL1-1 · 10–30 Min</span></h1>
+    <div class="q-card"><p style="margin:0;line-height:1.55">Prüfungsgespräch mit <b>offenen</b> Fragen: erst frei (laut) antworten, dann Musterantwort + Kriterien vergleichen und dich selbst einschätzen. Am Ende <b>Notenpunkte 0–15</b> (bestanden ab 5).</p></div>
+    <div class="section-title">Dauer</div>
+    <div id="oralDur" style="display:flex;gap:8px">${[10, 20, 30].map((m, i) => `<button class="goal-chip${i === 1 ? " sel" : ""}" data-min="${m}">${m} Min</button>`).join("")}</div>
+    <div class="section-title">Schwerpunkte</div>
+    ${groupHtml}`;
+  actionbar.classList.remove("hidden");
+  actionbar.innerHTML = `<div class="inner"><button class="btn-primary" id="oralGo">Prüfung starten</button></div>`;
+  let dur = 20;
+  app.querySelectorAll("#oralDur .goal-chip").forEach(b => b.addEventListener("click", () => {
+    dur = parseInt(b.dataset.min, 10);
+    app.querySelectorAll("#oralDur .goal-chip").forEach(x => x.classList.toggle("sel", x === b));
+  }));
+  $o("oralGo").addEventListener("click", () => {
+    const keys = [...app.querySelectorAll(".oral-sw:checked")].map(c => c.value);
+    if (!keys.length) { toast("Mindestens einen Schwerpunkt wählen"); return; }
+    oralStart(keys, dur);
+  });
+}
+
+function oralTimerStr(S) {
+  const r = Math.max(0, Math.round((S.endTs - Date.now()) / 1000));
+  return "⏱ " + String(Math.floor(r / 60)).padStart(2, "0") + ":" + String(r % 60).padStart(2, "0");
+}
+
+function renderOral() {
+  updateAppbar("oral");
+  const S = ORAL_SESSION;
+  if (!S) { go("oralsetup", { replace: true }); return; }
+  const q = S.qs[S.idx], total = S.qs.length, revealed = S.revealed[S.idx], rating = S.ratings[S.idx];
+  app.innerHTML = `
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+      <span class="muted" style="font-weight:600">${S.idx + 1} / ${total}</span>
+      <span class="muted" id="oralTimer" style="font-variant-numeric:tabular-nums">${oralTimerStr(S)}</span>
+    </div>
+    <div class="q-card">
+      <span class="chip" style="background:#af52de22;color:#af52de">${esc(q.schwerpunkt_name)}</span>
+      <span class="chip" style="margin-left:6px">${esc(ORAL_STUFE[q.stufe] || q.stufe)}</span>
+      <p style="margin:12px 0 0;font-size:18px;font-weight:600;line-height:1.4">${esc(q.frage)}</p>
+    </div>
+    ${revealed ? `
+      <div class="section-title">Musterantwort</div>
+      <div class="q-card"><p style="margin:0;line-height:1.55">${esc(q.musterantwort)}</p></div>
+      <div class="section-title">Bewertungskriterien</div>
+      <div class="q-card"><ul style="margin:0;padding-left:18px;line-height:1.5">${q.kriterien.map(k => `<li>${esc(k)}</li>`).join("")}</ul></div>
+      <div class="section-title">Wie gut war deine Antwort?</div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap">${ORAL_RATE.map((r, i) => `<button class="goal-chip${rating === i ? " sel" : ""}" data-rate="${i}">${esc(r)}</button>`).join("")}</div>
+    ` : `<div class="q-card" style="text-align:center"><p class="muted" style="margin:0">Antworte zuerst frei und laut – wie in der echten Prüfung. Dann Musterantwort einblenden.</p></div>`}`;
+  actionbar.classList.remove("hidden");
+  if (!revealed) {
+    actionbar.innerHTML = `<div class="inner"><button class="btn-primary" id="oralReveal">Musterantwort zeigen</button></div>`;
+    $o("oralReveal").addEventListener("click", () => { S.revealed[S.idx] = true; renderOral(); });
+  } else {
+    const last = S.idx === total - 1;
+    actionbar.innerHTML = `<div class="inner"><button class="btn-primary" id="oralNext"${rating == null ? " disabled" : ""}>${last ? "Auswerten" : "Nächste Frage"}</button></div>`;
+    app.querySelectorAll("[data-rate]").forEach(b => b.addEventListener("click", () => { S.ratings[S.idx] = parseInt(b.dataset.rate, 10); renderOral(); }));
+    $o("oralNext").addEventListener("click", () => {
+      if (S.ratings[S.idx] == null) return;
+      if (last) oralFinish(); else { S.idx++; renderOral(); }
+    });
+  }
+  stopOralTimer();
+  ORAL_TIMER = setInterval(() => {
+    if (VIEW !== "oral") { stopOralTimer(); return; }
+    const t = $o("oralTimer"); if (t) t.textContent = oralTimerStr(S);
+    if (!S.timeUp && S.endTs - Date.now() <= 0) { S.timeUp = true; toast("Zeit ist um – schließe die Prüfung ab"); }
+  }, 1000);
+}
+
+function oralFinish() {
+  stopOralTimer();
+  const S = ORAL_SESSION;
+  const rated = S.ratings.filter(r => r != null);
+  const sum = rated.reduce((a, b) => a + b, 0);
+  const max = 3 * S.qs.length;
+  S.result = { punkte: max ? Math.round(15 * sum / max) : 0, sum, max };
+  go("oralresult", { replace: true });
+}
+
+function oralNote(p) {
+  return p >= 13 ? "sehr gut (1)" : p >= 10 ? "gut (2)" : p >= 7 ? "befriedigend (3)" : p >= 5 ? "ausreichend (4)" : p >= 2 ? "mangelhaft (5)" : "ungenügend (6)";
+}
+
+function renderOralResult() {
+  updateAppbar("oralresult");
+  const S = ORAL_SESSION;
+  if (!S || !S.result) { go("oralsetup", { replace: true }); return; }
+  const p = S.result.punkte, bestanden = p >= 5;
+  const byStufe = {};
+  S.qs.forEach((q, i) => { const r = S.ratings[i]; if (r == null) return; (byStufe[q.stufe] = byStufe[q.stufe] || []).push(r); });
+  const stufeRows = Object.keys(ORAL_STUFE).filter(s => byStufe[s]).map(s => {
+    const arr = byStufe[s], pct = Math.round(arr.reduce((a, b) => a + b, 0) / arr.length / 3 * 100);
+    const col = pct >= 67 ? "#34c759" : pct >= 34 ? "#ff9500" : "#ff3b30";
+    return `<div style="margin:8px 0"><div style="display:flex;justify-content:space-between;font-size:14px"><span>${esc(ORAL_STUFE[s])}</span><span class="muted">${pct}%</span></div><div class="bar"><span style="width:${pct}%;background:${col}"></span></div></div>`;
+  }).join("");
+  const col = bestanden ? "#34c759" : "#ff3b30";
+  app.innerHTML = `
+    <div style="text-align:center;padding:16px 0">
+      <div style="font-size:52px">${bestanden ? "🎓" : "📚"}</div>
+      <h1 class="large-title" style="margin:6px 0">${p} / 15 Punkte</h1>
+      <p style="font-size:18px;font-weight:700;color:${col};margin:2px 0">${esc(oralNote(p))} · ${bestanden ? "bestanden" : "nicht bestanden"}</p>
+      <p class="muted" style="margin:2px 0">Selbsteinschätzung über ${S.qs.length} Fragen · bestanden ab 5 Punkten</p>
+    </div>
+    <div class="section-title">Nach Kompetenzstufe</div>
+    <div class="q-card">${stufeRows || '<p class="muted" style="margin:0">Keine Bewertung</p>'}</div>
+    <p class="muted" style="font-size:12px;text-align:center;margin-top:14px">Selbsteinschätzung – kein amtliches Ergebnis. Grundlage: Kassel L1 Mathematik, PO 2014, Modul MAL1-1 (mündliche Prüfung 10–30 Min, mehrere Prüfende, Notenpunkte 0–15).</p>
+    <p class="center" style="margin-top:14px"><span class="link" id="oralAgain">Neue Prüfung starten</span></p>`;
+  actionbar.classList.remove("hidden");
+  actionbar.innerHTML = `<div class="inner"><button class="btn-primary" id="oralHome">Fertig</button></div>`;
+  $o("oralHome").addEventListener("click", () => go("home"));
+  const ag = $o("oralAgain"); if (ag) ag.addEventListener("click", () => go("oralsetup", { replace: true }));
+}
+
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
     navigator.serviceWorker.register("./sw.js").then((reg) => {

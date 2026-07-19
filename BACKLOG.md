@@ -42,6 +42,17 @@ Beweise führen** · Wissen eigenständig erwerben.
 
 ---
 
+## FORTSCHRITT
+- [x] **Schritt A** – Katalog bewertet (Beweis überall dünn, Didaktik-Transfer in Arithmetik/Geometrie ~0%).
+- [x] **Schritt B** – `material/oral.json`: 13 Schwerpunkte × 5 Stufen = **65 offene Prüfungsfragen**
+      (Definition/Verfahren/Beweis/Vertiefung/Didaktik) mit Musterantwort + Kriterien. → `data/oral.js`.
+- [x] **Schritt C** – App-Modus „Mündliche Prüfung" (js/app.js): Setup (Schwerpunkte + 10/20/30 Min) →
+      Prüfungsgespräch (offen → Musterantwort → Selbstbewertung) → Timer → **Notenpunkte 0–15** +
+      Kompetenzstufen-Feedback. Offline getestet (0 Konsolenfehler).
+- [ ] **Schritt D** – Feinschliff: 2 Prüfer-Personas, mehr Fragen/Schwerpunkt optional, Doku/README,
+      exakte Dauer aus Modulhandbuch 2014 verifizieren. Inhalt der `_ground_*`/`_bundles`-Hilfsdateien
+      ist regenerierbar und darf aufgeräumt/gitignored werden.
+
 ## Plan (in Reihenfolge)
 
 ### Schritt A — Katalog unter dem Prüfungs-Blickwinkel bewerten

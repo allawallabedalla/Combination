@@ -310,3 +310,19 @@ tmp = "data/questions.js.tmp"
 open(tmp, "w", encoding="utf-8").write(js_out)
 os.replace(tmp, "data/questions.js")
 print(f"Geschrieben: data/questions.js ({len(js_out)} Bytes)")
+
+# ---- data/oral.js aus material/oral.json (+ Schwerpunkte) erzeugen (mündliche Prüfung) ----
+if os.path.exists("material/oral.json") and os.path.exists("material/exam/oral_schwerpunkte.json"):
+    oral = json.load(open("material/oral.json", encoding="utf-8"))
+    schwerp = json.load(open("material/exam/oral_schwerpunkte.json", encoding="utf-8"))
+    oj = json.dumps(oral, ensure_ascii=False, indent=2)
+    sj = json.dumps(schwerp, ensure_ascii=False, indent=2)
+    oral_js = ('/*\n'
+      ' * Mündliche Prüfung – offener Prüfungsfragen-Katalog (AUTOGENERIERT, pipeline/build_content.py).\n'
+      ' * Grundlage: Kassel L1 Mathematik, PO 2014, Modul MAL1-1. Offline, keine KI zur Laufzeit.\n'
+      f' * {len(schwerp)} Schwerpunkte, {len(oral)} offene Fragen (Stufen: Definition/Verfahren/Beweis/Vertiefung/Didaktik).\n'
+      ' */\n'
+      'window.ORAL = { SCHWERPUNKTE: ' + sj + ', QUESTIONS: ' + oj + ' };\n')
+    open("data/oral.js.tmp", "w", encoding="utf-8").write(oral_js)
+    os.replace("data/oral.js.tmp", "data/oral.js")
+    print(f"Geschrieben: data/oral.js ({len(oral)} Fragen)")
