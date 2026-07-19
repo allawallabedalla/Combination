@@ -6,7 +6,7 @@
  *   python3 pipeline/build_content.py
  *
  * Öffentliche App, ohne Geheimhaltung: die Fragen dürfen direkt hier liegen.
- * Umfang: 28 Kategorien, 2110 quellenbelegte Fragen.
+ * Umfang: 28 Kategorien, 2109 quellenbelegte Fragen.
  *
  * Struktur eines Eintrags:
  *   id, topic, difficulty(1-3), type("single"|"multi"|"numeric"),
@@ -247,7 +247,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 1,
     "type": "multi",
-    "question": "Welche der folgenden Objekte werden auf der Rückblick-Folie ausdrücklich als Grundbegriffe der Geometrie aufgeführt?",
+    "question": "Welche der folgenden Objekte gehören zu den Grundbegriffen der Geometrie?",
     "options": [
       "Punkt",
       "Gerade (durch zwei Punkte festgelegt)",
@@ -268,7 +268,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "konstruktionen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Grundkonstruktionen werden laut Folie mit dem Lineal ausgeführt?",
+    "question": "Welche Grundkonstruktionen werden mit dem Lineal (nicht mit dem Zirkel) ausgeführt?",
     "options": [
       "Gerade durch zwei Punkte zeichnen",
       "Zwei Punkte durch eine Strecke verbinden",
@@ -287,7 +287,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie wird auf der Folie eine Gerade charakterisiert?",
+    "question": "Wodurch ist eine Gerade festgelegt?",
     "options": [
       "Durch zwei Punkte festgelegt",
       "Als Menge aller Punkte",
@@ -323,7 +323,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Aussagen treffen auf die Definition der Abbildung f (Folie 5) zu?",
+    "question": "Welche Aussagen treffen auf die Definition der Abbildung f der Ebene E zu?",
     "options": [
       "f ordnet jedem Punkt der Ebene E genau einen Punkt zu",
       "f ist eine Abbildung der Ebene E auf E",
@@ -342,7 +342,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Eigenschaften haben Kongruenzabbildungen gemäß der vorläufigen (informellen) Umschreibung auf Folie 7?",
+    "question": "Welche Eigenschaften haben Kongruenzabbildungen gemäß ihrer (vorläufigen, informellen) Umschreibung?",
     "options": [
       "geradentreu",
       "winkeltreu",
@@ -380,7 +380,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "single",
-    "question": "Welchen Status hat die auf Folie 7 gegebene Beschreibung der Kongruenzabbildung?",
+    "question": "Welchen Status hat die zunächst gegebene Beschreibung der Kongruenzabbildung (bevor die Bewegungen untersucht sind)?",
     "options": [
       "Es ist eine vorläufige, informelle Umschreibung; die übliche Definition folgt nach Untersuchung der Bewegungen",
       "Es ist bereits die endgültige, übliche Definition",
@@ -398,7 +398,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "single",
-    "question": "Achsenspiegelung – Grundaufgabe (Folie 9): Was ist gegeben und was ist zu tun?",
+    "question": "Achsenspiegelung – Grundaufgabe: Was ist gegeben und was ist zu tun?",
     "options": [
       "Gegeben ist eine Gerade g; ein Objekt (z.B. ein Dreieck) ist an g zu spiegeln",
       "Gegeben sind zwei Punkte; die Verbindungsgerade ist zu zeichnen",
@@ -416,7 +416,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "single",
-    "question": "Achsenspiegelung – Umkehraufgabe (Folie 9): Was ist gegeben und was ist gesucht?",
+    "question": "Achsenspiegelung – Umkehraufgabe: Was ist gegeben und was ist gesucht?",
     "options": [
       "Gegeben sind zwei kongruente Objekte (z.B. zwei Punkte); gesucht ist die Spiegelachse",
       "Gegeben ist die Spiegelachse; gesucht ist das Bildobjekt",
@@ -434,7 +434,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "single",
-    "question": "Drehung – Grundaufgabe (Folie 11): Was ist gegeben?",
+    "question": "Drehung – Grundaufgabe: Was ist gegeben?",
     "options": [
       "Ein Drehzentrum Z und ein Drehwinkel α; ein Objekt wird um α an Z gedreht",
       "Zwei kongruente Strecken; gesucht sind Z und α",
@@ -452,7 +452,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "single",
-    "question": "Drehung – Umkehraufgabe (Folie 11): Was ist gegeben und was ist zu ermitteln?",
+    "question": "Drehung – Umkehraufgabe: Was ist gegeben und was ist zu ermitteln?",
     "options": [
       "Gegeben sind zwei kongruente Objekte (z.B. zwei Strecken); zu ermitteln sind Drehzentrum Z und Drehwinkel α",
       "Gegeben sind Z und α; zu ermitteln ist das Bildobjekt",
@@ -466,23 +466,11 @@ const SAMPLE_QUESTIONS = [
     "source": "ari20_vl10, Folie 11 (S.11, Bewegungen in der Ebene)"
   },
   {
-    "id": "ari20_vl10-b1-013",
-    "topic": "kongruenzabbildungen",
-    "difficulty": 1,
-    "type": "numeric",
-    "question": "Welchen Drehwinkel α zeigt das Beispiel zur Drehung auf Folie 11?",
-    "answer": 70,
-    "tolerance": 0,
-    "unit": "°",
-    "explanation": "Im Beispiel ist der Drehwinkel mit 'Drehwinkel α = 70°' angegeben. 📄 Quelle: ari20_vl10, Folie 11 (S.11)",
-    "source": "ari20_vl10, Folie 11 (S.11, Bewegungen in der Ebene)"
-  },
-  {
     "id": "ari20_vl10-b1-014",
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Im Beispiel zur Drehung (Folie 11) ist die Strecke PZ = 3,36 lang. Welche Länge hat die Bildstrecke P'Z?",
+    "question": "Bei einer Drehung ist die Strecke PZ = 3,36 lang. Welche Länge hat die Bildstrecke P'Z?",
     "answer": 3.36,
     "tolerance": 0,
     "unit": "",
@@ -783,7 +771,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Aussagen von Folie 18 sind richtig?",
+    "question": "Welche Aussagen zu den Kongruenzkriterien für Dreiecke sind richtig?",
     "options": [
       "Das einfache Kriterium lautet: Alle Seiten und Winkel sind gleich groß",
       "Bei zwei übereinstimmenden Größen sind Dreiecke im Allgemeinen nicht kongruent",
@@ -859,7 +847,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Begründungen zu den Fällen WSW und SWW nennt die Folie?",
+    "question": "Welche Begründungen gelten für die Kongruenzfälle WSW und SWW?",
     "options": [
       "Bei WSW sind eigentlich vier Größen gegeben (der dritte Winkel)",
       "Bei SWW ist der dritte Winkel gegeben, daher kongruent",
@@ -914,7 +902,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Was soll man laut Aufgabe bei der Verknüpfung zweier Geradenspiegelungen tun?",
+    "question": "Was ist bei der Verknüpfung zweier Geradenspiegelungen zu tun?",
     "options": [
       "mögliche Fälle der Lage der beiden Geraden g und h unterscheiden",
       "untersuchen, ob die entstandene Gesamtabbildung schon bekannt ist oder neu benannt werden muss",

@@ -6,6 +6,13 @@ __pycache__/
 *.json.tmp
 *.tmp
 
+# Transientes Scaffolding der Phase-3-Fragenbereinigung (regenerierbar, nicht committen)
+material/_bundles/
+material/_rewrite_plan.json
+material/_rewrite_rules.md
+material/refs_fix.json
+material/refs_aufwaendig.json
+
 # Roh-PDFs liegen bewusst IM Repo (Ordner raw/), damit Multi-Agent-Workflows
 # autark laufen. Nur die unkomprimierten Originale sollen nie versehentlich
 # hineinrutschen – sie kommen ausschließlich komprimiert über den Importer rein.

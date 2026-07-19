@@ -182,7 +182,7 @@ qtotal=0
 for k,meta in CURATED.items():
     n=dist.get(k,0); qtotal+=n
     print(f"{n:4d}  {k:26s} {meta['gruppe']}")
-print("Summe gemappte Fragen:", qtotal, "(erwartet 2110)")
+print("Summe gemappte Fragen:", qtotal)
 
 # unbenutzte kuratierte Keys
 unused=[k for k in CURATED if dist.get(k,0)==0]
@@ -191,7 +191,7 @@ if unused: print("\nUNBENUTZTE KATEGORIEN:", unused)
 # ---- Abbruch bei Problemen ----
 assert not unmapped, "Es gibt ungemappte Topics!"
 assert not unused,   "Es gibt unbenutzte Kategorien!"
-assert qtotal == 2110, f"Fragenzahl {qtotal} != 2110"
+assert qtotal == len(ALLQ), f"gemappte {qtotal} != geladene {len(ALLQ)} Fragen"
 
 # ---- quelle je Kategorie aus den Quell-Codes ableiten (kompakt) ----
 def kompakt_quellen(codes):
