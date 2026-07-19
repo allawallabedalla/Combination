@@ -1,0 +1,16 @@
+{
+  "code": "klausur_ss20",
+  "checked": 6,
+  "fixed": [],
+  "flagged": [],
+  "notes": [
+    "Alle 6 Fragen gegen die zitierten Folien geprueft (S.2->p002, S.3->p003, S.6->p006, S.7->p007). Aufgabenstellungen stimmen woertlich ueberein.",
+    "b1-001 (Aufgabe 1a): 87175 mod 125 = 50 (letzte drei Ziffern 175 nicht durch 125 teilbar) -> NICHT teilbar; correct [1] korrekt.",
+    "b1-002 (Aufgabe 1a): Teilbarkeitsregel 125 = letzte drei Ziffern (1000=8*125); correct [0] korrekt.",
+    "b1-003 (Aufgabe 1c): 2-7 mod 8 = 3; answer 3 korrekt.",
+    "b1-004 (Aufgabe 1d): 10^10 mod 97 = 49 (selbst nachgerechnet); answer 49 korrekt.",
+    "b1-005 (Aufgabe 4a): ggT(1024,24) = 8; answer 8 korrekt.",
+    "b1-006 (Aufgabe 5): n^2-(n-1)^2 = 2n-1 (ungerade Zahlen); correct [0] korrekt.",
+    "Alle source-Angaben und Quelle-Marker korrekt; keine Off-by-one-Seitenfehler; Schema gueltig. Keine Korrektur noetig."
+  ]
+}
