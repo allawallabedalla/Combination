@@ -1,0 +1,19 @@
+{
+ "code": "klausur_sose22",
+ "checked": 17,
+ "fixed": [],
+ "flagged": [],
+ "notes": [
+  "Alle 17 Fragen gegen die Folienbilder (p002, p003, p004, p007, p009) geprueft; keine belegten Fehler.",
+  "b1-001: Verknuepfungstafel mod 8 (S.2, Aufg. 1a). Zeilenkopf r mit r*3=5 (mod 8) -> r=7 (7*3=21=2*8+5). Korrekt (Index 2 = 7bar).",
+  "b1-002: 2bar*7bar mod 8 = 14 = 8+6 -> 6. Korrekt.",
+  "b1-003/004: n=40^5*41^2*42, 40=1,41=2,42=3 (mod39) -> 1*4*3=12. Kongruent: 12,51,90; 24 nicht. Korrekt.",
+  "b1-005: ggT(1223,221) euklidisch bis Rest 1 -> teilerfremd, ggT=1. Rechenweg nachvollzogen, korrekt.",
+  "b1-006/007: veraend. Fibonacci a1=a2=3: 3,3,6,9,15,24,39,63,102,165 -> a10=165; Summe=429 (=a12-a2=432-3). Korrekt.",
+  "b1-008: Formel n(2n-1)(2n+1)/3 (S.4, Aufg. 2b) fuer n=3 -> 3*5*7/3=35 = 1+9+25. Korrekt.",
+  "b1-009/010/011: (6 ueber 4)=15=(5 ueber 3)+(5 ueber 4); Additionsregel (n k)=(n-1 k-1)+(n-1 k). Korrekt.",
+  "b1-012: Aussage 'jede Zahl genau zweimal' ist falsch (Gegenbsp. Zeile n=2: 1,2,1). Korrekt (Index 1).",
+  "b1-013..017: Figurierte Zahlen (S.9). Figuren Seitenlaenge 3/4/5 mit rotem Innenquadrat 1x1/2x2/3x3 und blauem Rand 8/12/16. 4.Figur (SL6): total 36, rot 16, blau 20; 5.Figur (SL7): 49. Blau=4(s-1) stets durch 2 und 4 teilbar, nicht 3/8. Alle korrekt.",
+  "Katalogdatei unveraendert gelassen (keine Korrekturen noetig); Quellen/Seitenzahlen (S.2/3/4/7/9) alle folientreu."
+ ]
+}
