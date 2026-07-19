@@ -1,0 +1,13 @@
+{
+ "code": "skript05_mit",
+ "checked": 26,
+ "fixed": [],
+ "flagged": [],
+ "notes": [
+  "Alle 26 Fragen gegen p001–p008 geprüft; alle correct-Indizes, numerischen Antworten, Formeln und Quellenangaben folientreu.",
+  "PFZ bestätigt (S.1/S.3): 96=2^5·3, 132=2^2·3·11, 189=3^3·7.",
+  "Teilermengen bestätigt (S.2/S.3): T_12={1,2,3,4,6,12}, T_96={1,2,3,4,6,8,12,16,24,32,48,96}, T_132={1,2,3,4,6,11,12,22,33,44,66,132}. Teilerzahlen 6, 12, 12 (3·2, 6·2, 3·2·2).",
+  "Transitivität (S.4), Summenregel (S.5/S.6) und andere Summenregel (S.7/S.8) inkl. Distributivgesetz und aller Zahlenbeispiele (16, 84, 6, 84) folientreu bestätigt.",
+  "Alle source-Angaben und 📄-Quelle-Marker vorhanden und mit korrekter Seitenzahl (Folie N = S.N = pNN)."
+ ]
+}
