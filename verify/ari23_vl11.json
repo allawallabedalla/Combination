@@ -1,0 +1,11 @@
+{
+  "code": "ari23_vl11",
+  "checked": 59,
+  "fixed": [],
+  "flagged": [],
+  "notes": [
+    "Alle 59 Fragen (b1-001..b1-036, b2-001..b2-023) gegen fulltext.txt und gezielt geprueft: Handschrift-Seiten p6/p7 (7 Restklassen; 0̄={0,7,14}, 1̄={1,8,15}; 7̄⊕4̄=0̄, 7̄⊙4̄=6̄), Z5/Z6/Z7-Tafeln (p17/19/20/21/22), IRI/MIRIM-Moduln (91/9901/8991/910, Seiten 26-37) und Portfolio-Folie p42 (10 Erkundungen, Abgabe Di 27.06.2022 9:00, digital pdf-Scan in Moodle).",
+    "Alle correct-Indizes, numeric-answers, Restklassen-Rechnungen und Quellen-Seitenzahlen folientreu belegt. Keine belegten Fehler gefunden; keine Aenderung noetig.",
+    "Randnotiz (kein Fehler in Katalog): Folie 34 enthaelt in den Klammer-Erklaerungen Zahlendreher (9891/901), waehrend die eigentlichen Kongruenz-Aussagen 8991 bzw. 910 korrekt sind; der Katalog verwendet durchgehend die korrekten Werte 9901/8991/910."
+  ]
+}
