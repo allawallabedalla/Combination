@@ -1,0 +1,14 @@
+{
+  "code": "ari23_vl08",
+  "checked": 28,
+  "fixed": [],
+  "flagged": [],
+  "notes": [
+    "Alle 28 Fragen gegen die Folien geprueft. Folien 5-7 (PNG) bestaetigen die Satzgruppe exakt: Pythagoras a^2+b^2=c^2 (Folie 5), Kathetensatz a^2=p*c (Folie 6), Hoehensatz h_c^2=p*q (Folie 7).",
+    "Numerische Aufgaben korrekt: b1-010 sqrt(55)=7.42 cm; b1-012 sqrt(24)=4.90 cm; b1-014 36/3=12 cm; b2-010 (a^2+b^2)/c^2=1; b2-014 Diagonale Einheitsquadrat sqrt(2)=1.414.",
+    "Folie 18: halbe Quadrate (Dreiecke) mit a^2/2 + b^2/2 = c^2/2 bestaetigt (fulltext).",
+    "Folie 20: c=k*a, k=c/a Streckfaktor, A(F_c)=k^2*A(F_a), A(F_a)/A(F_c)=(a/c)^2=1/k^2 bestaetigt.",
+    "Quellen/Seitenangaben (S.NN) stimmen mit den Folieninhalten ueberein; alle explanation enden mit dem 📄 Quelle-Marker. Keine belegten Fehler, keine Halluzinationen.",
+    "Hinweis (keine Aenderung noetig): b1-010 nutzt die Aufgabenwerte von Folie 10 (Kathete 3 cm, Hypotenuse 8 cm) und fragt korrekt die zweite Kathete ab."
+  ]
+}
