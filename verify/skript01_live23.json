@@ -1,0 +1,11 @@
+{
+  "code": "skript01_live23",
+  "checked": 13,
+  "fixed": [],
+  "flagged": [],
+  "notes": [
+    "Alle 13 Fragen gegen p001 (S.1), p002 (S.2) und p003 (S.3) geprueft; alle correct-Indizes, numeric answers, Rechenergebnisse (Gauss-Summen 55/45/136, n=5 -> 15; Summe ungerader Zahlen 16/25 = 4^2/5^2), Quellen und Folie-/Seitenzahlen folientreu. Keine belegten Fehler.",
+    "skript01_live23-b1-009: Der Satz wird in der Frage als 'S_n := 1+2+3+...+(n-1)+n' zitiert, auf der Folie steht '...+(n-2)+(n-1)+n'. Mathematisch identisch, ohne Einfluss auf die richtige Antwort ('fuer jede natuerliche Zahl n'); daher konservativ nicht geaendert.",
+    "Folie-Nummerierung konsistent: S.1/S.2 sind handschriftliche Notizseiten (Folie 1/2), S.3 ist die gedruckte Folie mit Kopf 'Arithmetik <30>' -> Folie 30 korrekt."
+  ]
+}
