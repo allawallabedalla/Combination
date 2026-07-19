@@ -36654,20 +36654,13 @@ const SAMPLE_QUESTIONS = [
   }
 ];
 
-// Aktive Inhalte auflösen: freigeschaltete (lokal gecachte) Inhalte haben Vorrang,
-// sonst die hier eingebetteten. (Der Cache-Mechanismus bleibt erhalten, wird bei
-// öffentlicher Nutzung aber nicht benötigt.)
+// Öffentliche App: der HIER eingebettete Katalog ist allein maßgeblich.
+// KEIN localStorage-Override mehr — ein alter zwischengespeicherter Fremd-Katalog
+// (z. B. aus einer früheren App auf derselben Origin, etwa dem ADT-Trainer) darf die
+// Inhalte NICHT überschreiben. Ein evtl. vorhandener Alt-Cache wird aktiv entfernt.
 if (typeof window !== "undefined") {
   window.ADT_SAMPLE = { TOPICS: SAMPLE_TOPICS, QUESTIONS: SAMPLE_QUESTIONS };
-  var __active = window.ADT_SAMPLE;
-  try {
-    var __ls = window.localStorage;
-    var __raw = __ls && __ls.getItem("adt_content_v1");
-    if (__raw) {
-      var __g = JSON.parse(__raw);
-      if (__g && __g.TOPICS && Array.isArray(__g.QUESTIONS) && __g.QUESTIONS.length) __active = __g;
-    }
-  } catch (e) {}
-  window.TOPICS = __active.TOPICS;
-  window.QUESTIONS = __active.QUESTIONS;
+  try { window.localStorage && window.localStorage.removeItem("adt_content_v1"); } catch (e) {}
+  window.TOPICS = SAMPLE_TOPICS;
+  window.QUESTIONS = SAMPLE_QUESTIONS;
 }

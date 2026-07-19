@@ -1,0 +1,1485 @@
+4.13.17/105 L1 
+Mitteilungsblatt der Universität Kassel Nr. 7/2015 vom 20.04.2015 
+620 
+Modulprüfungsordnung der Universität Kassel für den Teilstudiengang Mathematik für das Lehramt an 
+Grundschulen vom 27. November 2014 
+ 
+ 
+1. Abschnitt: Allgemeine Bestimmungen 
+ 
+§ 1 
+Geltungsbereich 
+§ 2 
+Regelstudienzeit, Zwischenprüfung 
+§ 3 
+Modulprüfungsausschuss Lehramt 
+§ 4 
+Prüferinnen und Prüfer, Beisitzerinnen und Beisitzer 
+§ 5 
+Module und Credits 
+§ 6 
+Anmeldung zu den Modulprüfungen 
+§ 7 
+Prüfungsleistungen 
+§ 8 
+Notenbildung und Gewichtung 
+§ 9 
+Versäumnis und Rücktritt 
+§ 10 
+Täuschung und Ordnungsverstoß 
+§ 11 
+Bestehen, Nichtbestehen, Wiederholung, Fristen 
+§ 12 
+Anrechnung von Modulprüfungen 
+§ 13 
+Studienbeginn 
+ 
+2. Abschnitt: Fachspezifische Bestimmungen 
+ 
+§ 14 
+Allgemeine Ziele des Studiums 
+§ 15 
+Modulprüfungen 
+ 
+3. Abschnitt: Schlussbestimmungen 
+ 
+§ 16 
+Übergangsregelungen 
+§ 17 
+In-Kraft-Treten 
+ 
+Anlagen: 
+Anlage 1: Beispielstudienpläne 
+Anlage 2: Modulhandbuch 
+
+4.13.17/105 L1 
+Mitteilungsblatt der Universität Kassel Nr. 7/2015 vom 20.04.2015 
+621 
+1. Abschnitt  
+Allgemeine Bestimmungen 
+für den Teilstudiengang Mathematik 
+für das Lehramt an Grundschulen 
+ 
+§ 1 Geltungsbereich 
+ 
+Diese Modulprüfungsordnung regelt auf der Grundlage des Hessischen Lehrerbildungsgesetzes (HLbG) 
+vom 28. September 2011(GVBl. I 2011, 590), zuletzt geändert durch Gesetz vom 27. Juni 2013 (GVBl. 
+S. 450) und der Verordnung zur Durchführung des Hessischen Lehrerbildungsgesetzes (HLbGDV) vom 
+28. September 2011 (GVBl. I 2011, 615) geändert durch Gesetz vom 27. Juni 2013 (GVBl. S. 450) die 
+nähere Gestaltung und die Inhalte des Studiums, die Gewichtung der Pflicht- und Wahlpflichtmodule 
+sowie die Modulprüfungen für den Teilstudiengang Mathematik für das Lehramt an Grundschulen der 
+Universität Kassel.  
+ 
+ 
+§ 2 Regelstudienzeit, Zwischenprüfung 
+ 
+(1) Die Regelstudienzeit beträgt – einschließlich eines Prüfungssemesters - dreieinhalb Jahre. Die Zu-
+lassung zur Ersten Staatsprüfung kann beantragt werden, sofern die erforderlichen Leistungen nach § 
+15 dieser Ordnung nachgewiesen werden.  
+ 
+(2) Für das Lehramt an Grundschulen sind insgesamt 180 Credits bis zur Meldung zur Ersten Staats-
+prüfung nachzuweisen. Auf den Teilstudiengang Mathematik entfallen hiervon 40 Credits. 
+ 
+(3) In der Regel bis zum Ende des dritten Semesters ist eine Zwischenprüfung abzulegen. In besonders 
+begründeten Ausnahmefällen kann die Zwischenprüfung bis zum Ende des fünften Semesters abgelegt 
+werden. Die fachspezifischen Bestimmungen nach § 15 dieser Ordnung legen die Module fest, die dem 
+Bestehen der Zwischenprüfung entsprechen. Für die Zwischenprüfung müssen insgesamt mindestens 
+60 Credits nachgewiesen werden, davon im Teilstudiengang Mathematik 15 Credits. 
+ 
+ 
+§ 3 Modulprüfungsausschuss Lehramt Mathematik 
+ 
+(1) Der Modulprüfungsausschuss Lehramt Mathematik besteht aus drei Professorinnen bzw. Professo-
+ren sowie einem wissenschaftlichen Mitarbeiter oder einer wissenschaftlichen Mitarbeiterin, die im 
+Studiengang Mathematik lehren und einer oder einem Studierenden. Die Mitglieder werden vom Fach-
+bereichsrat Mathematik und Naturwissenschaften gewählt. Die Amtszeit der Studierenden beträgt ein 
+Jahr, die der übrigen Mitglieder zwei Jahre. Verlängerungen der Amtszeit sind zulässig. Der Modulprü-
+fungsausschuss wählt aus der Mitte der ihm angehörenden Professorinnen und Professoren eine Vor-
+sitzende oder einen Vorsitzenden sowie eine Stellvertreterin oder einen Stellvertreter. Die bzw. der 
+Vorsitzende führt die Geschäfte des Modulprüfungsausschusses und leitet die Sitzungen. Sofern nach 
+dieser Modulprüfungsordnung Aufgaben des Modulprüfungsausschusses der oder dem Vorsitzenden 
+übertragen sind, entscheidet auf Antrag einer oder eines Studierenden der Modulprüfungsausschuss. 
+ 
+(2) Der Modulprüfungsausschuss Lehramt Mathematik ist für die Durchführung der Modul-
+prüfungsverfahren und die nach dieser Modulprüfungsordnung zugewiesenen Aufgaben zuständig und 
+achtet darauf, dass die Bestimmungen der Modulprüfungsordnung für die Modulprüfungen eingehalten 
+werden. 
+ 
+
+4.13.17/105 L1 
+Mitteilungsblatt der Universität Kassel Nr. 7/2015 vom 20.04.2015 
+622 
+(3) Der Modulprüfungsausschuss Lehramt Mathematik ist beschlussfähig, wenn mindestens die Hälfte 
+der Mitglieder anwesend ist und die Sitzung ordnungsgemäß einberufen wurde. Beschlüsse kommen 
+mit der Mehrheit der Stimmen zustande. Bei Stimmengleichheit entscheidet die Stimme der/des Vorsit-
+zenden. 
+ 
+ 
+(4) Die Mitglieder des Modulprüfungsausschusses sind zur Verschwiegenheit verpflichtet. Sofern sie 
+nicht im öffentlichen Dienst stehen, sind sie durch die Vorsitzende oder den Vorsitzenden zur Ver-
+schwiegenheit zu verpflichten. 
+ 
+ 
+§ 4 Prüferinnen und Prüfer, Beisitzerinnen und Beisitzer 
+ 
+(1) Die Bestellung der Prüferinnen und Prüfer erfolgt durch den Modulprüfungsausschuss; die Zustän-
+digkeit hierzu kann auf die Vorsitzende oder den Vorsitzenden übertragen werden.  
+ 
+(2) Wer Modulprüfungen / Modulteilprüfungen abnehmen kann, richtet sich nach dem Hessischen 
+Hochschulgesetz in der jeweils geltenden Fassung. Hochschulprüfungen werden von Mitgliedern der 
+Professorengruppe, wissenschaftlichen Mitgliedern, die mit der selbständigen Wahrnehmung von Lehr-
+aufgaben beauftragt worden sind, sowie Lehrbeauftragten und Lehrkräften für besondere Aufgaben 
+abgenommen. 
+ 
+(3) Für Prüferinnen und Prüfer, Beisitzerinnen und Beisitzer gilt § 3 Abs. 4 entsprechend. 
+ 
+ 
+§ 5 Module und Credits 
+ 
+(1) Das Studium ist modular aufgebaut. Es gliedert sich in Pflicht- und Wahlpflichtmodule, in der Regel 
+im Verhältnis von zwei zu eins. 
+ 
+(2) Module bestehen aus inhaltlich und zeitlich aufeinander bezogenen oder aufeinander aufbauenden 
+Studieneinheiten, die fach- und fachbereichsbezogen oder fachübergreifend angelegt sein können. Die 
+Inhalte eines Moduls sind in der Regel so zu bemessen, dass sie innerhalb von zwei Semestern vermit-
+telt werden können. Zeitlich geblockte Module sind möglich. 
+ 
+(3) Die Zahl der Veranstaltungen eines Moduls, die Themen und Inhalte sowie der Arbeitsaufwand, die 
+Leistungsanforderungen und Prüfungsformen des jeweiligen Moduls werden im Modulhandbuch (Anla-
+ge 2) beschrieben. 
+ 
+(4) Das Studium des Fachs Mathematik umfasst Module von insgesamt 40 Credits, wovon 27 Credits 
+auf die Fachdidaktik entfallen. Credits in dieser Satzung entsprechen dem Begriff Leistungspunkte der 
+HLbGDV. 
+ 
+(5) Gemäß § 15 Abs. 3 dieser Ordnung sind für das Fach Mathematik drei Module in die Note der Ersten 
+Staatsprüfung mit einzubringen.  
+ 
+(6) Jedes Modul schließt mit einer Prüfung ab, die inhaltlich alle Modulveranstaltungen einbezieht.  
+ 
+ 
+
+4.13.17/105 L1 
+Mitteilungsblatt der Universität Kassel Nr. 7/2015 vom 20.04.2015 
+623 
+ 
+(7) Abweichend von Abs. 6 kann im Modulhandbuch festgelegt werden, dass sich die Bewertung für die 
+Modulabschlussprüfung kumulativ aus den Punkten von Modulteilprüfungen ergibt. Es muss durch 
+klare Bestimmungen zu den einzelnen Lehrveranstaltungen gewährleistet sein, dass die Teilprüfungen 
+insgesamt den Kompetenzzielen des Moduls entsprechen. 
+ 
+(8) Die Modulabschlussprüfung wird mit Punkten nach § 8 dieser Ordnung bewertet.  
+ 
+(9) Innerhalb eines Moduls können Studienleistungen als Voraussetzung für die Zulassung zur Mo-
+dulprüfung gefordert werden. Studienleistungen müssen im engen zeitlichen und sachlichen Zusam-
+menhang mit entsprechenden Studienphasen innerhalb des jeweiligen Moduls erbracht werden kön-
+nen.  
+Studienleistungen können in mündlicher, praktischer oder schriftlicher Form erbracht werden. 
+Studienleistungen können mit „bestanden“ oder „nicht bestanden“ bewertet werden. Werden Studienle-
+istungen benotet, so gilt § 8.  
+ 
+(10) Es besteht die Möglichkeit, sich zusätzlich zu den in § 15 vorgeschriebenen Modulen in weiteren 
+Modulen einer Prüfung zu unterziehen (Zusatzmodule, Profilstudienangebote). Das Ergebnis der Prü-
+fung wird nicht bei der Bildung der Gesamtnote mit einbezogen. 
+ 
+ 
+§ 6 Anmeldung zu den Modulprüfungen 
+ 
+(1) Eine Modulprüfung kann nur ablegen, wer als Studierende oder Studierender für den Studiengang 
+im Lehramt an Grundschulen immatrikuliert ist. 
+ 
+(2) Die oder der Studierende meldet sich zu jeder Modulprüfung oder Modulteilprüfung innerhalb der 
+vom Modulprüfungsausschuss Lehramt Mathematik festgelegten und bekannt gegebenen Frist an. Bei 
+der Anmeldung sind die ggf. erforderlichen Vorleistungen nachzuweisen.  
+ 
+ 
+§ 7 Prüfungsleistungen 
+ 
+(1) Als Prüfungsleistungen der Modulprüfungen / Modulteilprüfungen kommen in Frage: 
+1. schriftliche Prüfung 
+2. mündliche Prüfung 
+3. fachpraktische Prüfung.  
+Die Modulbeschreibungen können andere kontrollierbare Prüfungsleistungen sowie multimedial ge-
+stützte 
+Prüfungsleistungen 
+vorsehen, 
+wenn 
+sie 
+nach 
+gleichen 
+Maßstäben 
+bewertbar 
+sind. 
+ 
+Aufgaben in Form von Antwort-Wahl-Verfahren (Multiple Choice) sind als Teil einer Klausur zulässig. 
+Ihr Anteil an der Bewertung der Modulprüfung darf 50% nicht überschreiten. Die Art der Prüfungsleis-
+tung eines Moduls oder Teilmoduls legt die Dozentin oder der Dozent zu Beginn der Lehrveranstal-
+tung, auf die sich die Modulprüfung bezieht, im Rahmen der Festlegungen des Modulhandbuchs fest. 
+ 
+(2) Das Modulhandbuch kann vorsehen, dass eine Prüfung in englischer Sprache oder in einer anderen 
+Sprache abgelegt wird. 
+ 
+(3) Besteht die schriftliche Prüfungsleistung aus einer Klausur, ist diese unter Aufsicht abzulegen. Die 
+zugelassenen Hilfsmittel bestimmt die jeweilige Prüferin oder der jeweilige Prüfer. Erscheint eine Kan-
+
+4.13.17/105 L1 
+Mitteilungsblatt der Universität Kassel Nr. 7/2015 vom 20.04.2015 
+624 
+didatin oder ein Kandidat verspätet zur Prüfung, so kann sie oder er die versäumte Zeit nicht nachho-
+len. Das Verlassen des Prüfungsraumes ist nur mit Erlaubnis der oder des Aufsichtsführenden zulässig. 
+Über den Prüfungsverlauf der Klausur hat die Aufsicht führende Person ein Kurzprotokoll zu fertigen. 
+Hierin sind alle Vorkommnisse einzutragen, welche für die Feststellung der Prüfungsergebnisse von 
+Belang sind. 
+ 
+(4) Die wesentlichen Gegenstände und Ergebnisse mündlicher Prüfungsleistungen sind in einem Proto-
+koll festzuhalten, das von den Prüferinnen oder Prüfern und ggf. Beisitzerin oder Beisitzer zu unter-
+zeichnen ist. Das Ergebnis ist der Kandidatin oder dem Kandidaten im Anschluss an die mündliche 
+Prüfungsleistung bekannt zu geben. 
+ 
+(5) Die Bearbeitungszeit oder Dauer der Prüfungen ist im Modulhandbuch auszuweisen. 
+ 
+(6) Bei einer Gruppenarbeit muss die individuelle Leistung abgrenzbar sein. 
+ 
+(7) Macht die Kandidatin oder der Kandidat glaubhaft, dass sie/er wegen 
+a) einer schweren oder chronischen Krankheit oder einer Behinderung im Sinne von § 2 Abs. 1 SGB IX, 
+b) Erkrankungen von betreuungsbedürftigen Kindern und pflegebedürftigen Angehörigen, 
+c) Mutterschutz oder Elternzeiten 
+nicht in der Lage ist, Prüfungsleistungen ganz oder teilweise in der vorgesehenen Form oder inner-
+halb der festgelegten Fristen abzulegen, so wird der Kandidatin oder dem Kandidaten gestattet, die 
+Prüfungsleistungen innerhalb einer verlängerten Bearbeitungszeit oder gleichwertige Prüfungsleistun-
+gen in einer anderen Form zu erbringen. Dazu kann die Vorlage eines ärztlichen Attestes verlangt wer-
+den. Entsprechendes gilt für Studienleistungen nach § 5 Abs. 9. 
+Der Nachteilsausgleich ist schriftlich zu beantragen. Der Antrag soll spätestens mit der Meldung zur 
+Prüfung gestellt werden. 
+ 
+(8) Jede schriftliche Modulprüfung / Modulteilprüfung ist von einer Prüferin oder einem Prüfer zu be-
+werten. Schriftliche Prüfungen, die nicht mehr wiederholt werden können, sind von zwei Prüfenden zu 
+bewerten. Mündliche Modulprüfungen / Modulteilprüfungen sind von mehreren Prüfenden oder von 
+einer Prüfenden oder einem Prüfenden in Gegenwart einer sachkundigen Beisitzerin oder eines sach-
+kundigen Beisitzers abzunehmen. Als Gruppenprüfungen sollen sie in Gruppen von höchstens fünf 
+Studierenden stattfinden. 
+ 
+(9) Das Bewertungsverfahren einer schriftlichen Modulprüfung / Modulteilprüfung soll in der Regel vier 
+Wochen nicht überschreiten. Erstkorrektur und Zweitkorrektur sind auf der Prüfungsleistung zu ver-
+merken. 
+ 
+ 
+§ 8 Notenbildung und Gewichtung 
+ 
+(1) Die einzelnen Prüfungsleistungen werden jeweils nach einem Punktesystem beurteilt, dem die No-
+tenstufen je nach Notentendenz folgendermaßen zugeordnet sind:  
+15/14/13 Punkte  
+entsprechen der Note „sehr gut (1)“, 
+12/11/10 Punkte  
+entsprechen der Note „gut (2)“ 
+9/8/7 Punkte  
+entsprechen der Note „befriedigend (3)“ 
+6/5/4 Punkte  
+entsprechen der Note „ausreichend (4)“ 
+3/2/1 Punkte  
+entsprechen der Note „mangelhaft (5)“ 
+0 Punkte  
+entsprechen der Note „ungenügend (6)“. 
+ 
+ 
+
+4.13.17/105 L1 
+Mitteilungsblatt der Universität Kassel Nr. 7/2015 vom 20.04.2015 
+625 
+ 
+(2) Die Notenstufen werden wie folgt festgelegt: 
+"Sehr gut (1)"  
+= die Leistung entspricht den Anforderungen in besonderem Maße, 
+"Gut (2)"  
+= die Leistung entspricht voll den Anforderungen, 
+"Befriedigend (3)"  
+= die Leistung entspricht im Allgemeinen den Anforderungen, 
+"Ausreichend (4)"  
+= die Leistung weist zwar Mängel auf, entspricht aber im Ganzen noch 
+  
+ den Anforderungen, 
+"Mangelhaft (5)"  
+= 
+die 
+Leistung 
+entspricht 
+nicht 
+den 
+Anforderungen, 
+lässt 
+jedoch 
+  
+ erkennen, dass die Mängel in absehbarer Zeit behoben werden können, 
+"Ungenügend (6)"  
+= die Leistung entspricht nicht den Anforderungen. Die Mängel können in 
+  
+ absehbarer Zeit nicht behoben werden. 
+ 
+(3) Die in § 15 Abs. 3 bezeichneten Module gehen mit insgesamt 15% gem. § 29 Abs. 2 Nr. 1 des HLbG 
+in die Gesamtnote der Ersten Staatsprüfung ein.  
+ 
+(4) Besteht eine Modulprüfung aus kumulativen Leistungen, so errechnet sich die Modulnote als Durch-
+schnitt der einzelnen Teilprüfungsleistungen unter Verwendung des Verfahrens des kaufmännischen 
+Rundens. Für die Bildung der Modulnote werden die Teilprüfungsleistungen zu gleichen Teilen berück-
+sichtigt, sofern die Modulbeschreibung nicht spezifische Gewichtungen ausweist. 
+ 
+§ 9 Versäumnis und Rücktritt 
+ 
+ 
+(1) Eine Modulprüfungsleistung gilt als mit „ungenügend“ (0 Punkte) bewertet, wenn die oder der Stu-
+dierende einen für sie oder ihn bindenden Prüfungstermin ohne triftigen Grund versäumt hat oder 
+wenn sie oder er von einer Prüfung, die angetreten wurde, ohne triftigen Grund zurücktritt. Dasselbe 
+gilt, wenn eine schriftliche Modulprüfungsleistung nicht innerhalb der vorgegebenen Bearbeitungszeit 
+erbracht wird.  
+ 
+(2) Der für den Rücktritt oder das Versäumnis geltend gemachte Grund muss der oder dem Vorsitzen-
+den des Modulprüfungsausschusses unverzüglich schriftlich angezeigt und glaubhaft gemacht werden. 
+Bei Krankheit der Kandidatin oder des Kandidaten ist ein ärztliches Attest (Arbeitsunfähigkeitsbeschei-
+nigung) vorzulegen. In begründeten Zweifelsfällen ist zusätzlich ein amtsärztliches Attest zu verlangen. 
+Eine während einer Prüfungsleistung eintretende Prüfungsunfähigkeit muss unverzüglich bei der oder 
+dem Prüfenden oder der Prüfungsaufsicht geltend gemacht werden. Die Verpflichtung zur Anzeige und 
+Glaubhaftmachung der Gründe gegenüber dem Modulprüfungsausschuss bleibt unberührt. Wird der 
+Grund anerkannt, so wird ein neuer Prüfungstermin bestimmt. 
+ 
+(3) Bei anerkanntem Rücktritt oder Versäumnis werden die Prüfungsergebnisse in den bereits abgeleg-
+ten Modulteil- oder Modulprüfungen angerechnet.  
+ 
+ 
+§ 10 Täuschung und Ordnungsverstoß 
+ 
+(1) Mit der Note „ungenügend“ (0 Punkte) sind Prüfungsleistungen von Studierenden zu bewerten, die 
+bei der Abnahme der Prüfungsleistung eine Täuschungshandlung oder die Benutzung nicht zugelasse-
+ner Hilfsmittel versucht oder begangen haben. Eine Kandidatin oder ein Kandidat, die oder der den 
+ordnungsgemäßen Ablauf des Prüfungstermins stört, kann von der jeweiligen Prüferin oder dem jewei-
+ligen Prüfer oder der oder dem Aufsichtführenden von der Fortsetzung der Prüfungsleistung ausge-
+schlossen werden; in diesem Fall wird die Prüfungsleistung mit „ungenügend“ (0 Punkte) bewertet.  
+ 
+
+4.13.17/105 L1 
+Mitteilungsblatt der Universität Kassel Nr. 7/2015 vom 20.04.2015 
+626 
+(2) Hat eine Kandidatin oder ein Kandidat durch schuldhaftes Verhalten die Zulassung zur Prüfung zu 
+Unrecht herbeigeführt, kann der Modulprüfungsausschuss Lehramt Mathematik entscheiden, dass die 
+Prüfung als nicht bestanden gilt. 
+ 
+(3) Beim Vorliegen einer besonders schweren Täuschung oder eines wiederholten Täuschungsversuchs 
+in einer Modulprüfung oder Modulteilprüfung oder einer Täuschung unter Beifügung einer schriftlichen 
+Erklärung der/des Studierenden über die selbstständige Anfertigung einer Arbeit ohne unerlaubte 
+Hilfsmittel, kann der Modulprüfungsausschuss Lehramt Mathematik den Ausschluss von der Wiederho-
+lungsprüfung beschließen. Die Schwere der Täuschung ist anhand der vom Prüfling aufgewandten Täu-
+schungsenergie und der durch die Täuschung verursachten Beeinträchtigung der Chancengleichheit zu 
+werten.  
+ 
+(4) Für Hausarbeiten und Referate gelten die von den Fachbereichen bekannt gegebenen Zitierregeln 
+für das Anfertigen wissenschaftlicher Arbeiten. Bei erheblicher Nichtbeachtung ist Abs. 1 Satz 1 anzu-
+wenden. 
+ 
+(5) Die Kandidatin oder der Kandidat kann innerhalb einer Frist von vier Wochen verlangen, dass die 
+Entscheidungen nach Absatz 1 vom Modulprüfungsausschuss Lehramt Mathematik überprüft werden. 
+ 
+(6) Belastende Entscheidungen des Modulprüfungsausschusses Lehramt Mathematik sind der Kandida-
+tin oder dem Kandidaten unverzüglich schriftlich mitzuteilen, zu begründen und mit einer Rechts-
+behelfsbelehrung zu versehen. 
+ 
+ 
+§ 11 Bestehen, Nichtbestehen, Wiederholung, Fristen 
+ 
+(1) Eine Modulprüfung ist bestanden, wenn sie mit mindestens 5 Punkten bewertet wurde. Eine kumu-
+lierte Modulprüfung ist bestanden, wenn die durchschnittliche Punktzahl der Teilprüfungen mindestens 
+5 Punkte beträgt und keine der Teilprüfungen mit 0 Punkten bewertet wurde. Nicht bestandene Mo-
+dulprüfungen und Modulteilprüfungen eines nicht bestandenen Moduls können zweimal wiederholt 
+werden. 
+ 
+(2) Wird ein Pflichtmodul nach § 15 endgültig nicht bestanden, ist die Zulassung zur Ersten Staatsprü-
+fung in Mathematik für das Lehramt an Grundschulen im Geltungsbereich des HLbG ausgeschlossen. 
+Bei endgültigem Nichtbestehen eines Wahlpflichtmoduls kann der Wahlpflichtbereich einmalig gewech-
+selt werden. 
+ 
+(3) Die Fristen für die Modulprüfungen sind so festzulegen, dass diese innerhalb der Regelstudienzeit 
+vollständig abgelegt werden können. Die Termine der Modulprüfungen sind rechtzeitig bekannt zu 
+geben. Der Nachteilsausgleich gem. § 7 Abs. 7 ist dabei zu berücksichtigen.   
+ 
+ 
+§ 12 Anrechnung von Modulprüfungen 
+ 
+Module werden auf Antrag gemäß § 60 HLbG angerechnet.  
+ 
+§ 13 Studienbeginn 
+ 
+Das Studium kann jeweils zum Wintersemester aufgenommen werden.  
+ 
+
+4.13.17/105 L1 
+Mitteilungsblatt der Universität Kassel Nr. 7/2015 vom 20.04.2015 
+627 
+ 
+ 
+2. Abschnitt 
+Fachspezifische Bestimmungen für den Teilstudiengang Mathematik 
+ 
+ 
+§ 14 Allgemeine Ziele des Studiums 
+ 
+(1) 
+Im verpflichtenden Teilstudiengang Mathematik sollen sich die Studierenden wissenschaftlich 
+kritisches Denken aneignen und die für den Beruf einer Lehrkraft für Mathematik erforderlichen fach-
+wissenschaftlichen und fachdidaktischen Kenntnisse, Fähigkeiten und Methoden erwerben. Dazu wir-
+ken fachwissenschaftliche und fachdidaktische Studien zusammen.  
+ 
+(2) 
+Im fachwissenschaftlichen Studium sollen die Studierenden ein angemessenes und aktuelles Bild 
+der Mathematik im Sinne der Bildungsstandards gewinnen, die den Mathematikunterricht in der Grund-
+schule bestimmt, ferner die Selbständigkeit erwerben, um fachlich sicher unterrichten zu können. Hier-
+zu ist insbesondere erforderlich, dass sie 
+ 
+• mit den Grundlagen der zu unterrichtenden Mathematik in einem angemessenen fachsystema-
+tischen Rahmen vertraut werden, 
+• die inner- und außermathematische Bedeutung der Gegenstände des Mathematikunterrichts in 
+wesentlichen Aspekten kennen lernen (insbesondere die Bedeutung für nachfolgende Bil-
+dungs- und Ausbildungsstufen), 
+• Mathematik als Erkenntnisvorgang erfahren, der von Quellen und Anstößen über die Theorie 
+zu Ergebnissen, Anwendungen und weitergehende Vertiefungen führt. 
+ 
+(3) 
+Im fachdidaktischen Studium sollen die Studierenden wesentliche Einsichten erwerben über die 
+Beziehungen der Mathematik zum Mathematikunterricht und über die Bedingungen des Lernens und 
+schülergerechten Unterrichtens von Mathematik. Dies betrifft insbesondere 
+ 
+• Begründungen zur Bedeutung der Gegenstände des Mathematikunterrichts, 
+• Einsicht in den Vorgang des Mathematiklernens  
+• Möglichkeiten und Grenzen der Verwendung von Medien, insbesondere von Rechnern  
+• Fachdidaktische diagnostische Verfahren 
+ 
+Diese sollen sie in ihren wesentlichen Teilaspekten kennen lernen und fähig werden, diese Kenntnisse 
+in begründeten didaktischen Sachanalysen, Lerndiagnosen und Entscheidungen zum Unterricht oder zu 
+individuellen Förderungen von Schülerinnen und Schülern einzuarbeiten. An speziellen Inhalten des 
+Mathematikunterrichts muss dies in vertiefender Weise geschehen. Ferner müssen die Studierenden 
+fähig werden, die Beziehungen, aber auch die Besonderheiten von Hochschulniveau der Mathematik 
+einerseits und Unterrichtsniveau andererseits schülergerecht zu berücksichtigen; das gilt insbesondere 
+für die jeweils angemessene Sprache. 
+ 
+ 
+
+4.13.17/105 L1 
+Mitteilungsblatt der Universität Kassel Nr. 7/2015 vom 20.04.2015 
+628 
+§ 15 Modulprüfungen 
+ 
+(1) Bis zur Meldung zur Ersten Staatsprüfung müssen folgende Module erfolgreich abgeschlossen sein: 
+ 
+Pflichtmodul 
+MAL1-1 Arithmetik und Geometrie GS, Grundlagen u. Didaktik  
+8 Credits 
+Pflichtmodul 
+MAL1-2 Diagnostik und Fördern zur Mathematik GS 
+4 Credits 
+Pflichtmodul 
+MAL1-3 Mathematik 3, Vertiefung und Fachdidaktik 
+7 Credits 
+Pflichtmodul 
+MAL1-4 Mathematik 4, Math. Anwendungen 
+7 Credits 
+Pflichtmodul 
+MAL1-5 Mathematik 5 Förderkonzepte, Praxisstudien 
+7 Credits 
+Pflichtmodul 
+MAL1-P PRAXISSEMESTER 
+7 von 30 
+Credits  
+ 
+(2) Die Zwischenprüfung für das Fach Mathematik ist abgelegt, wenn die Modulprüfungen der Module 
+MAL1-1 und eines der Module MAL1-P und MAL1-4 bestanden sind. 
+ 
+(3) In die Gesamtnote der Ersten Staatsprüfung gehen die folgenden drei Module ein: 
+• 
+Modul MAL1-1  
+• 
+Modul MAL1-2  
+• 
+eines der Module MAL1-3 oder MAL1-4. 
+Bei Wahlmöglichkeiten gehen die Module mit der höchsten Punktzahl ein. 
+ 
+ 
+ 
+
+4.13.17/105 L1 
+Mitteilungsblatt der Universität Kassel Nr. 7/2015 vom 20.04.2015 
+629 
+3. Abschnitt: Schlussbestimmungen 
+ 
+ 
+§ 16 Übergangsregelungen 
+ 
+Diese Ordnung gilt für Studierende, die das Studium für das Lehramt an Grundschulen im Teilstudien-
+gang Mathematik an der Universität Kassel ab dem Wintersemester 2014/15 begonnen haben. 
+ 
+ 
+ 
+§ 17 In-Kraft-Treten 
+ 
+Diese Modulprüfungsordnung tritt am Tag nach ihrer Veröffentlichung im Mitteilungsblatt der Univer-
+sität Kassel in Kraft. 
+ 
+ 
+Kassel, den 27. März 2015 
+ 
+ 
+Die Vorsitzende des Zentrums für Lehrerbildung 
+Prof. Dr. Dorit Bosse  
+ 
+ 
+
+4.13.17/105 L1 
+Mitteilungsblatt der Universität Kassel Nr. 7/2015 vom 20.04.2015 
+630 
+ 
+Anlage 1: Beispielstundenpläne für das Lehramt Mathematik  an Grundschulen (siehe zusätzliche Anlagen) 
+ 
+ 
+  
+
+4.13.17/105 L1 
+Mitteilungsblatt der Universität Kassel Nr. 7/2015 vom 20.04.2015 
+631 
+ 
+ 
+ECTS-Punkte: insges. 8+8+7+7+3= 33, davon Fach 4+0+4+5+0=13 und Fachdidaktik 4+8+3+2+3=20 ohne P-Sem., 40 mit Praxissemester, entsprechend dem ZLB-Beschluss. MAL1-3 Die Vorlesung wird stets im Sommersemester 
+ angeboten, passende Seminare sind sowohl im Sommersemester als auch im Wintersemester anzubieten. 
+MAL1-5 Die Veranstaltung  ist sowohl im Sommersemester als auch im Wintersemester anzubieten. 
+
+4.13.17/105 L1 
+Mitteilungsblatt der Universität Kassel Nr. 7/2015 vom 20.04.2015 
+632 
+Anlage 2: Modulhandbuch für Lehramt Mathematik an Grundschulen 
+ 
+Nummer/Code 
+MAL1-1 
+Modulname  
+Mathematik 1 
+Art des Moduls 
+Pflichtmodul, 6SWS, 8c, Voraussetzung zu MAL1-P 
+Lernergebnisse, Kompe-
+tenzen, Qualifikationsziele 
+Zu erwerbende Kompetenzen in  
+Arithmetik und Geometrie 
+− 
+Kennen der für das Unterrichten in der Primarstufe grundlegen-
+den Begriffe, Sätze und Verfahren aus Arithmetik und Geometrie 
+- Korrektes fachspezifisches Artikulieren mit angemessener Prä-
+zision 
+− 
+Argumentieren, mathematisches Problemlösen und Beweisen in 
+einem gegebenen Kontext von Voraussetzungen,  
+− 
+Fähigkeit zum selbständigen Erwerben mathematischen Wissens 
+in Arithmetik und Geometrie 
+− 
+Verknüpfen von Arithmetik, Geometrie und Anwendungen 
+− 
+Kennen von Beispielen geeigneter Software und Einschätzen für 
+die Lehrerbildung 
+− 
+Konstruktiv kritisches Würdigen der Vorgehensweise und Argu-
+mentationsstruktur einer mathematischen Teildisziplin - Mathe-
+matik als Erkenntnisvorgang darstellen, der von Intuitionen und 
+Quellen ausgehend zu Definitionen, Axiomen, Ergebnissen und 
+Anwendungen führt. 
+ 
+Inhalte zur Vorlesung Arithmetik und Geometrie 
+Vorlesungsteil Arithmetik. Gegenstand sind Stellenwertsysteme zur 
+Darstellung natürlicher und ganzer Zahlen und die darauf bezogenen 
+Algorithmen für die Grundrechenarten, ferner Teilbarkeitsregeln und 
+vollständige Induktion. Dazu kommen die Erweiterungen von den na-
+türlichen Zahlen zu den ganzen Zahlen und von den natürlichen Zahlen 
+zu den rationalen Zahlen. Rationale Zahlen werden als Brüche und als 
+Dezimalzahlen dargestellt, wiederum mit den dafür gültigen Algorith-
+men zu den Grundrechenarten. 
+Vorlesungsteil Geometrie. Gegenstand sind Elemente der synthetischen 
+euklidischen Geometrie der Ebene und des Raumes. Verbunden wird 
+dies mit traditionellen Zeichen- und Darstellungstechniken zum einen 
+und der Darstellung durch geeignete Software anderseits. Betrachtet 
+werden Kongruenz, Symmetrie und Ähnlichkeit ebener Figuren aus 
+abbildungsgeometrischer und aus messender Perspektive. Diskutiert 
+werden Dreieckskonstruktionen, besondere Linien im Dreieck, Kon-
+struktionen mit Kreisen, Konstruktionen mit Strahlensätzen und Kon-
+struktionen zur Satzgruppe des Pythagoras. Betrachtet werden reguläre 
+Polygone, Bandornamente und Parkette. Betrachtet werden Gestalten 
+räumlicher Körper, insbesondere Kugel, Würfel, Quader und Kegel, 
+ferner platonische Körper und nach Möglichkeit archimedische Körper. 
+Diskutiert werden das Berechnen von Oberflächen und Rauminhalten 
+nach Grundideen und Beispielen sowie das Ändern dieser Maße bei 
+
+4.13.17/105 L1 
+Mitteilungsblatt der Universität Kassel Nr. 7/2015 vom 20.04.2015 
+633 
+Ändern von Gestalten.  
+Geometrie, Übung. Sie finden semesterbegleitend regelmäßig oder 
+geblockt statt. Die gestellten Aufgaben oder zu bearbeitenden Proble-
+me beziehen sich auf die Inhalte der o. g. Veranstaltung und dienen 
+dazu, diese zu vertiefen oder zu ergänzen.  
+ 
+Zu erwerbende Kompetenzen in 
+Didaktik der Arithmetik und der Geometrie 
+− 
+Kennen von amtlichen Unterrichtsrahmen zur Primarstufe: Curri-
+cula, Rahmenpläne, Bildungsstandards, Empfehlungen des IQ 
+Hessen und des IQ auf Bundesebene 
+− 
+Kennen von empirischen Untersuchungen und Befunden zu Vor-
+stellungen von Kindern im Bereich arithmetischer und geometri-
+scher Fertigkeiten und Strategien 
+− 
+Konstruktiv kritisches Reflektieren der in Schulbüchern darge-
+stellten Vorgehensweisen  
+− 
+Analysieren und gezieltes Konstruieren von Mathematikaufgaben 
+in ausgewählten Themengebieten und Diagnostizieren entspre-
+chender Schülerlösungen 
+− 
+Kennen von unterschiedlichen Formen des Mathematiklernens 
+und Möglichkeiten diese zu unterstützen, Kennen von Methoden 
+des selbstbestimmten und eigenverantwortlichen Lernens 
+− 
+Konstruktivistisch orientierte Lernumgebungen konzipieren kön-
+nen  
+− 
+Kennen und Einschätzen geeigneter Software für Schüler, Schule 
+und Lehrerbildung 
+− 
+Schulintern und in fachlicher Fortbildung Kollegen fachdidaktisch 
+beraten können 
+ 
+Inhalte zur Vorlesung 
+Didaktik der Arithmetik und der Geometrie 
+Vorlesungsteil Didaktik der Arithmetik. Gegenstand das Analysieren 
+und das Konzipieren von Lehr-Lernsituationen zur Arithmetik für die 
+Jahrgangsstufen 1 bis 6 und den Bereich vor Beginn der Grundschule. 
+Schwerpunkt der Veranstaltung bilden Lernumgebungen zu den Grund-
+rechenarten, zu den standardisierten schriftlichen Rechenverfahren und 
+zu den „halbschriftlichen Strategien“. Gegenstand ist ferner die Analyse 
+des Zahlbegriffserwerbs beim Kind und das Diagnostizieren eigener 
+Rechenwege einschließlich der Fehlermusteranalysen. Gegenstand dar-
+über hinaus sind Lernumgebungen, die die Arithmetik, die Geometrie 
+und die Anwendungen miteinander verbinden. 
+ 
+Vorlesungsteil Didaktik der Geometrie, Vorlesung. Gegenstand ist das 
+Analysieren und Konzipieren von Lernumgebungen zur Geometrie in 
+den o. g. Jahrgangsstufen. Schwerpunkte sind dabei das Erarbeiten von 
+Kernbegriffen wie Strecke, Quadrat und Würfel, und das konstruierende 
+Umgehen mit Strecken, Flächenstücken und räumlichen Körpern. Ange-
+
+4.13.17/105 L1 
+Mitteilungsblatt der Universität Kassel Nr. 7/2015 vom 20.04.2015 
+634 
+bahnt sollen die Konzepte der Kongruenz, der Symmetrie und der Ähn-
+lichkeit, ferner Grundideen von Messvorgängen und Verortungen im 
+Koordinatensystem. Zu erarbeiten sind diese Gegenstände in Verbin-
+dung mit der Erfahrungswelt von Grundschulkindern. In dieser Veran-
+staltung sollte auch grundschulrelevante Software zur Geometrie be-
+handelt werden, zum einen Software für die Hand des Lehrers, die das 
+Konzipieren von Lernumgebungen unterstützt, zum anderen aktuelle 
+Software für die Hand des Schülers, die Bestandteil solcher Lernumge-
+bung sein kann. 
+ 
+Übungen. Sie finden semesterbegleitend regelmäßig oder geblockt 
+statt. Die gestellten Aufgaben oder zu bearbeitenden Probleme bezie-
+hen sich auf die Inhalte der o. g. Veranstaltungen und dienen dazu, 
+diese zu vertiefen oder zu ergänzen. 
+ 
+Lehrveranstaltungsarten 
+Vorlesungen mit Übungen 
+Lehrinhalte 
+s.o. 
+Titel der Lehrveranstal-
+tungen 
+Arithmetik und Geometrie GS Grundlagen 
+Fach: 2 SWS V + 1 SWS Ü, 4c 
+ 
+Arithmetik und Geometrie GS Didaktik  
+Fachdidaktik: 2 SWS V + 1 SWS Ü, 4c 
+Lehr- und Lernmethoden 
+(Organisationsform) 
+Jeweils 2 SWS Vorlesung mit 1 SWS Übungen mit Tutorium  
+Verwendbarkeit des Mo-
+duls 
+Für den Lehramtsstudiengang L1 (Grundschule) 
+Dauer des Angebotes 
+des Moduls 
+Ein Jahr 
+Häufigkeit des Angebotes 
+des Moduls 
+jährlich 
+Sprache 
+Deutsch, bei Bezug auf internationale Fachliteratur in einzelnen Ab-
+schnitten Englisch 
+Empfohlene (inhaltliche) 
+Voraussetzungen für die 
+Teilnahme am Modul  
+Mathematik-Kenntnisse aus dem Vorkurs 
+Voraussetzungen für die 
+Teilnahme am Modul 
+Immatrikulation für den Studiengang Lehramt L1 
+Studentischer Arbeitsauf-
+wand  
+Präsenzzeit: 4SWS Vorlesungen (60h), 2 SWS Übungen (30h) 
+Selbststudium: 150 h 
+Gesamt: 240 h 
+Studienleistungen 
+Studienleistungen: regelmäßiges aktives Teilnehmen an den Übungen 
+und spezifische Studienleistungen. 
+Der Dozent kann spezifische Studienleistungen festlegen, etwa das 
+regelmäßige Bearbeiten von Übungsaufgaben, Klausuren, Kurzreferate 
+oder Hausarbeiten. 
+Voraussetzung für Zulas-
+sung zur Prüfungsleistung 
+Studienleistungen  
+Prüfungsleistung  
+2 Teilprüfungen: Diese bestehen aus einer Klausur (2 bis 3 Stunden) 
+
+4.13.17/105 L1 
+Mitteilungsblatt der Universität Kassel Nr. 7/2015 vom 20.04.2015 
+635 
+oder einer mündlichen Prüfung (30 min). 
+Anzahl Credits für das 
+Modul 
+8 
+ 
+ 
+ 
+
+4.13.17/105 L1 
+Mitteilungsblatt der Universität Kassel Nr. 7/2015 vom 20.04.2015 
+636 
+Nummer/Code 
+MAL1-2 
+Modulname  
+Mathematik 2 
+Art des Moduls 
+Pflichtmodul, 3SWS, 4c 
+Lernergebnisse, Kompe-
+tenzen, Qualifikationsziele 
+Zu erwerbende Kompetenzen in   
+Diagnostik und Fördern zur Mathematik GS, 
+Beobachten und Analysieren  
+− 
+Kennen psychologischer, pädagogischer und fachdidaktischer 
+Konzepte zur Diagnostik umfassend für den Bereich der Primar-
+stufe 
+− 
+Durchführen empirischer Erkundungen zum Bestimmen des 
+Lernstandes einer Gruppe zu einem Gegenstand aus dem Ma-
+thematikunterricht der Primarstufe 
+− 
+Kennen mindestens eines Instrumentes zur Lernstandsbestim-
+mung auf der Basis eines Interviews bis hin zur Fähigkeit dieses 
+durchzuführen, das Ergebnis auszuwerten, andere darin zu un-
+terstützen und andere darin anzuleiten 
+− 
+Kennen von Verfahren zum Erkennen von Lernständen, Lernpo-
+tentialen, Lernhindernissen und Lernfortschritten 
+ 
+Inhalte 
+Diagnostik und Fördern zur Mathematik GS, 
+Beobachten und Analysieren  
+Gegenstand sind fachdidaktische diagnostische Verfahren, ihre theore-
+tische Fundierung und ihre technische Durchführung. Zu Beginn erfolgt 
+eine ausführliche Befassung mit den Bildungsstandards und den darauf 
+bezogenen in der Schule implementierten Erhebungsverfahren, etwa 
+den Orientierungsarbeiten. Diskutiert werden Fehlermusteranalysen, 
+Verfahren zur Lernstandsbestimmung, die für verschiedene Zeitpunkte 
+der Schullaufbahn bestimmt sind und interviewbasierte Verfahren.  
+Übung. Sie finden semesterbegleitend regelmäßig oder geblockt statt. 
+Die gestellten Aufgaben oder zu bearbeitenden Probleme beziehen sich 
+auf die Inhalte der o. g. Veranstaltung und dienen dazu, diese zu ver-
+tiefen oder zu ergänzen. 
+Lehrveranstaltungsarten 
+Vorlesung mit Übungen 
+Lehrinhalte 
+s.o. 
+Hier können zusätzlich fachdidaktische Fragen des inklusiven Unter-
+richts aufgenommen werden, entsprechend den künftigen länderge-
+meinsamen Anforderungen zur Lehrerbildung. 
+Titel der Lehrveranstal-
+tungen 
+Diagnostik und Fördern zur Mathematik GS 
+Beobachten und Analysieren 
+Lehr- und Lernmethoden 
+(Organisationsform) 
+2 SWS Vorlesung mit 1 SWS Übungen mit Tutorium  
+Verwendbarkeit des Mo-
+duls 
+Für den Lehramtsstudiengang L1 (Grundschule) 
+Dauer des Angebotes 
+des Moduls 
+Ein Semester 
+
+4.13.17/105 L1 
+Mitteilungsblatt der Universität Kassel Nr. 7/2015 vom 20.04.2015 
+637 
+Häufigkeit des Angebotes 
+des Moduls 
+jährlich 
+Sprache 
+Deutsch, in speziellen Teilen auch Englisch 
+Empfohlene (inhaltliche) 
+Voraussetzungen für die 
+Teilnahme am Modul  
+Mathematik-Kenntnisse aus MAL1-1, Teil 1 
+Voraussetzungen für die 
+Teilnahme am Modul 
+Immatrikulation für den Studiengang Lehramt L1 
+Studentischer Arbeitsauf-
+wand  
+Präsenzzeit: 2SWS Vorlesungen (30h), 1 SWS Übungen (15h) 
+Selbststudium: 75 h 
+Gesamt: 120 h 
+Studienleistungen 
+Studienleistungen: regelmäßiges aktives Teilnehmen an den Übungen 
+und spezifische Studienleistungen. 
+Der Dozent kann spezifische Studienleistungen festlegen, etwa das 
+regelmäßige Bearbeiten von Übungsaufgaben, Klausuren, Kurzreferate 
+oder Hausarbeiten. 
+Voraussetzung für Zulas-
+sung zur Prüfungsleistung 
+Studienleistungen  
+Prüfungsleistung  
+Klausur (2 bis 3 Stunden) oder  
+eine mündlichen Prüfung (30 min). 
+Anzahl Credits für das 
+Modul 
+4 
+ 
+ 
+ 
+
+4.13.17/105 L1 
+Mitteilungsblatt der Universität Kassel Nr. 7/2015 vom 20.04.2015 
+638 
+Nummer/Code 
+MAL1-3 
+Modulname  
+Mathematik 3 
+Art des Moduls 
+Pflichtmodul, 5 SWS, 7c 
+Lernergebnisse, Kompe-
+tenzen, Qualifikationsziele 
+Kompetenzen und Inhalte zur Vorlesung sind bereits in Modul MAL1-1 
+benannt, hier werden Vertiefungen zu speziellen Fragen nach Auswahl 
+des Dozenten bearbeitet. 
+ 
+ Zu erwerbende Kompetenzen im Fachdidaktischen Seminar 
+− 
+Vertiefter Einblick in ein aktuelles Thema mathematikdidaktischer 
+Forschung und Entwicklung 
+− 
+Exemplarischer Einblick in mathematikdidaktische Arbeits- und 
+Forschungsmethoden 
+− 
+Orientieren in mathematikdidaktischer Literatur 
+− 
+Selbstständiges Bearbeiten einer mathematikdidaktischen Frage-
+stellung 
+− 
+Fähigkeit mathematikdidaktische Themen mündlich und schrift-
+lich verständlich zu kommunizieren und unter Einbeziehen tech-
+nischer Mittel angemessen zu präsentieren 
+− 
+Einschätzen der Bedeutung des bearbeiteten Themas für den Ma-
+thematikunterricht in der Primarstufe 
+ 
+Inhalte zum fachdidaktischen Seminar 
+Das fachdidaktische Seminar bietet Gelegenheit, neuere Forschungs-
+themen aus der Didaktik der Mathematik aufzunehmen und zu bear-
+beiten. Es bietet darüber hinaus Gelegenheit, im Zusammenhang mit 
+den Inhalten der vorhergehenden Module bestimmte Themenstellungen 
+schwerpunktmäßig zu bearbeiten und dazu eigene Entwürfe zu erstel-
+len, oder solche Entwürfe in empirischen Erkundungen zu analysieren. 
+Das fachdidaktische Seminar bietet darüber hinaus die Gelegenheit, 
+neuere Entwicklungen, die noch nicht Eingang in die Schule gefunden 
+haben, in experimentellen Situationen zu studieren, etwa Lernumge-
+bungen zu Gegenständen, die im Curriculum nicht explizit ausgewiesen 
+sind.  
+Lehrveranstaltungsarten 
+Vorlesung mit Übungen, Seminar 
+Lehrinhalte 
+s.o. 
+Titel der Lehrveranstal-
+tungen 
+Arithmetik, Geometrie, Anwendungen GS Vertiefung 
+Fach: 2 SWS V + 1 SWS Ü, 4c  
+ 
+Fachdidaktik Mathematik für GS Seminar 
+Fachdidaktik: 2 SWS Sem, 3c 
+Lehr- und Lernmethoden 
+(Organisationsform) 
+2 SWS Vorlesung mit 1 SWS Übungen mit Tutorium  
+2 SWS Seminar 
+Verwendbarkeit des Mo-
+duls 
+Für den Lehramtsstudiengang L1 (Grundschule) 
+Dauer des Angebotes 
+des Moduls 
+Bei Praxissemester im 3. Semester: 1 Semester oder  
+bei Praxissemester im 4. Semester: 2 Semester 
+
+4.13.17/105 L1 
+Mitteilungsblatt der Universität Kassel Nr. 7/2015 vom 20.04.2015 
+639 
+Häufigkeit des Angebotes 
+des Moduls 
+Vorlesung jährlich, Seminar jedes Semester 
+Sprache 
+Deutsch, bei Bezug auf internationale Fachliteratur in einzelnen Ab-
+schnitten Englisch 
+Empfohlene (inhaltliche) 
+Voraussetzungen für die 
+Teilnahme am Modul  
+Mathematik-Kenntnisse aus MAL1-1 
+Voraussetzungen für die 
+Teilnahme am Modul 
+Immatrikulation für den Studiengang Lehramt L1 
+Studentischer Arbeitsauf-
+wand  
+Präsenzzeit: 2SWS Vorlesungen (30h), 1 SWS Übungen (15h),  
+2 SWS Seminar (30h) 
+Selbststudium: 135 h 
+Gesamt: 210h 
+Studienleistungen 
+Studienleistungen: regelmäßiges aktives Teilnehmen an den Übungen 
+und spezifische Studienleistungen. 
+Der Dozent kann spezifische Studienleistungen festlegen, etwa das 
+regelmäßige Bearbeiten von Übungsaufgaben, Klausuren, Kurzreferate 
+oder Hausarbeiten. 
+Voraussetzung für Zulas-
+sung zur Prüfungsleistung 
+Studienleistungen  
+Prüfungsleistung  
+2 Teilprüfungen: Diese bestehen aus einer Klausur (2 bis 3 Stunden) 
+oder einer mündlichen Prüfung (30 min) und einem Referat mit Ausar-
+beitung oder einer Seminararbeit. 
+Anzahl Credits für das 
+Modul 
+7 
+ 
+ 
+ 
+
+4.13.17/105 L1 
+Mitteilungsblatt der Universität Kassel Nr. 7/2015 vom 20.04.2015 
+640 
+Nummer/Code 
+MAL1-4 
+Modulname  
+Mathematik 4 
+Art des Moduls 
+Pflichtmodul, 5 SWS, 7c 
+Lernergebnisse, Kompe-
+tenzen, Qualifikationsziele 
+Zu erwerbende Kompetenzen in  
+Mathematische Anwendungen  
+− 
+Kennen von Verfahren zum Messen der Größen: Längen, Flächen, 
+Volumina, Massen (Gewichte) und Zeit, Kennen von Verfahren 
+zum Festlegen der Einheiten 
+− 
+Kennen mathematischer Anwendungen aus dem Bereich der Phy-
+sik, Biologie, Geografie, Ökonomie und anderen Bereichen der 
+Lebenswelt 
+− 
+Kennen von Grundbegriffen zur elementaren Stochastik und zur 
+beschreibenden Statistik  
+− 
+Modellbilden beschreiben und an Beispielen anwenden können 
+ 
+Inhalte 
+Vorlesungsteil Mathematische Anwendungen. Diskutiert werden ausge-
+wählte Felder, in denen Mathematik zur Aufklärung lebensweltlicher 
+Probleme beiträgt. Als Teilgebiet werden Elemente der beschreibenden 
+Statistik und der Wahrscheinlichkeitsrechnung an Beispielen diskutiert, 
+dazu Elemente der Kombinatorik. Vorgestellt werden Anwendungen aus 
+dem Bereich der Naturwissenschaften, insbesondere im Zusammenhang 
+mit dem Messen von Längen, Flächen, Volumina und Gewichten. Die 
+dazu notwendigen naturwissenschaftlichen Sachverhalte werden ver-
+bindlich dargestellt. Als Teilgebiet werden insbesondere geografische 
+und physikalische Grundlagen der Zeitmessung beschrieben einschließ-
+lich der dazu nötigen Grundlagen der Erdbewegung im Planetensystem. 
+Ausführlich dargestellt wird die Strategie des Bildens von Modellen: 
+Diskutiert werden mathematische Modelle zum Beschreiben naturwis-
+senschaftlicher Phänomene anhand typischer Probleme aus dem Be-
+reich der Naturwissenschaften und Technik. 
+ 
+Zu erwerbende Kompetenzen in  
+Didaktik der mathematischen Anwendungen 
+− 
+Amtliche Unterrichtsrahmen zur Primarstufe kennen: Curricula, 
+Rahmenpläne, Bildungsstandards, Empfehlungen des IQ Hessen 
+und des IQ auf Bundesebene 
+− 
+Kennen von Kindervorstellungen zu den Größenbereichen, Ent-
+werfen von Stützpunktvorstellungen, Mentales Operieren mit Re-
+präsentanten, Kennen von Messverfahren, die im Unterricht 
+durchzuführen sind 
+− 
+Konstruktiv kritisches Reflektieren der in Schulbüchern darge-
+stellten Vorgehensweisen  
+− 
+Analysieren und gezieltes Konstruieren von Mathematikaufgaben 
+in ausgewählten Themengebieten, insbesondere unter Berück-
+sichtigen von angemessenem Differenzieren, und Diagnostizieren 
+entsprechender Schülerlösungen 
+
+4.13.17/105 L1 
+Mitteilungsblatt der Universität Kassel Nr. 7/2015 vom 20.04.2015 
+641 
+− 
+Didaktische und fachliche Kompetenzen im Hinblick auf Compu-
+ter- und Mediennutzung in mathematischen Lern- und Arbeits-
+prozessen 
+− 
+Kennen von unterschiedlichen Formen des Mathematiklernens 
+und Möglichkeiten diese zu unterstützen, Kennen von Methoden 
+des selbstbestimmten und eigenverantwortlichen Lernens 
+− 
+Konstruktivistisch orientierte Lernumgebungen konzipieren kön-
+nen 
+− 
+Geeignete Software für Schüler, Schule und Lehrerbildung kennen 
+und einschätzen können 
+− 
+Schulintern und in fachlicher Fortbildung Kollegen fachdidaktisch 
+beraten können 
+Inhalte 
+Vorlesungsteil Didaktik der mathematischen Anwendungen. Diskutiert 
+werden zunächst die für die Grundschule relevanten Größenbereiche, 
+Stückzahlen, Geldwerte, Zeitspannen, Längen, Flächen, Volumina und 
+Massen und die damit verbundenen Messprozesse. Gegenstand der 
+Veranstaltung ist zunächst das Analysieren und Konzipieren von Ler-
+numgebungen zu diesen Größenbereichen. Darüber hinausgehend er-
+folgt das Konzipieren und Analysieren von Lernumgebungen zu „offe-
+nen Sachsituationen“, d.h. Problemstellungen, die ein Modellieren der 
+Situation erfordern und die Fähigkeit die Lösung einer mathematischen 
+Aufgabe und einen daraus abgeleiteten Sachbefund voneinander zu 
+unterscheiden. Gegenstand der Veranstaltung sind ferner Elemente der 
+beschreibenden Statistik und des geordneten Darstellens größerer Da-
+tensätze. In dieser Veranstaltung sollte auch grundschulrelevante Soft-
+ware zur Geometrie behandelt werden, zum einen Software für die 
+Hand des Lehrers, die das Konzipieren von Lernumgebungen unter-
+stützt, zum anderen aktuelle Software für die Hand des Schülers, die 
+Bestandteil solcher Lernumgebung sein kann. 
+Übungen. Sie finden semesterbegleitend regelmäßig oder geblockt 
+statt. Die gestellten Aufgaben oder zu bearbeitenden Probleme bezie-
+hen sich auf die Inhalte der o. g. Veranstaltung und dienen dazu, diese 
+zu vertiefen oder zu ergänzen.  
+ 
+Zu erwerbende Kompetenzen im 
+Fach-Seminar Mathematik für Grundschulen  
+− 
+Selbstständiges Bearbeiten einer elementarmathematischen Fra-
+gestellung 
+− 
+Vertieftes Einarbeiten in einen elementarmathematischen The-
+menkreis und elementarmathematische Arbeitsmethoden 
+− 
+Fähigkeit mathematische Themen mündlich und schriftlich ver-
+ständlich zu kommunizieren und unter Einbeziehen technischer 
+Mittel angemessen zu präsentieren 
+− 
+Einschätzen der Bedeutung des bearbeiteten Themas für den Ma-
+thematikunterricht in der Primarstufe 
+ 
+
+4.13.17/105 L1 
+Mitteilungsblatt der Universität Kassel Nr. 7/2015 vom 20.04.2015 
+642 
+Inhalte zum 
+Fach-Seminar Mathematik für Grundschulen 
+Das Fach-Seminar bietet die Gelegenheit, einen spezifisch gewählten 
+mathematischen Gegenstand, der auf der Basis der vorhergehenden 
+Module zu bearbeiten ist, aufzunehmen und an ihm exemplarisch be-
+stimmte Inhalte und mathematik-typische Begriffsbildungen und Ar-
+beitsweisen kennen zu lernen. Die Gegenstände des Seminars sollten 
+Bezüge zum Grundschulcurriculum aufweisen.  
+Lehrveranstaltungsarten 
+Vorlesung mit Übungen und Seminar 
+Lehrinhalte 
+s.o. 
+Titel der Lehrveranstal-
+tungen 
+Math. Anwendungen und ihre Didaktik GS 
+Fach + Fachdid.: 2 SWS V + 1 SWS Ü, 4c 
+ 
+Mathematik für GS Seminar 
+Fach (ggf. mit Fachdid.): 2 SWS Sem, 3c 
+Lehr- und Lernmethoden 
+(Organisationsform) 
+2 SWS Vorlesung mit 1 SWS Übungen mit Tutorium  
+2 SWS Seminar 
+Verwendbarkeit des Mo-
+duls 
+Für den Lehramtsstudiengang L1 (Grundschule) 
+Dauer des Angebotes 
+des Moduls 
+1 Semester 
+Häufigkeit des Angebotes 
+des Moduls 
+Vorlesung jährlich, Seminar jedes Semester 
+Sprache 
+Deutsch, bei Bezug auf internationale Fachliteratur in einzelnen Ab-
+schnitten Englisch 
+Empfohlene (inhaltliche) 
+Voraussetzungen für die 
+Teilnahme am Modul  
+Mathematik-Kenntnisse aus MAL1-1 
+Voraussetzungen für die 
+Teilnahme am Modul 
+Immatrikulation für den Studiengang Lehramt L1 
+Studentischer Arbeitsauf-
+wand  
+Präsenzzeit: 2SWS Vorlesungen (30h), 1 SWS Übungen (15h),  
+2 SWS Seminar (30h) 
+Selbststudium: 135 h 
+Gesamt: 210h 
+Studienleistungen 
+Studienleistungen: regelmäßiges aktives Teilnehmen an den Übungen 
+und spezifische Studienleistungen. 
+Der Dozent kann spezifische Studienleistungen festlegen, etwa das 
+regelmäßige Bearbeiten von Übungsaufgaben, Klausuren, Kurzreferate 
+oder Hausarbeiten. 
+Voraussetzung für Zulas-
+sung zur Prüfungsleistung 
+Studienleistungen  
+Prüfungsleistung  
+2 Teilprüfungen: Diese bestehen aus einer Klausur (2 bis 3 Stunden) 
+oder einer mündlichen Prüfung (30 min) und einem Referat mit Ausar-
+beitung oder einer Seminararbeit. 
+Anzahl Credits für das 
+Modul 
+7 
+ 
+ 
+ 
+
+4.13.17/105 L1 
+Mitteilungsblatt der Universität Kassel Nr. 7/2015 vom 20.04.2015 
+643 
+Nummer/Code 
+MAL1-5 
+Modulname  
+Mathematik 5 
+Art des Moduls 
+Pflichtmodul 5SWS, 7c 
+Lernergebnisse, Kompe-
+tenzen, Qualifikationsziele 
+ Zu erwerbende Kompetenzen 
+− 
+Erkunden von Lernständen zur Mathematik unter verschiedenen 
+Voraussetzungen 
+− 
+Durchführen individueller Diagnoseverfahren und darauf bezo-
+gener Fördermaßnahmen und Materialbewertungen auf der Basis 
+von gezielten Erprobungen 
+− 
+Fähigkeit zum (exemplarischen) Planen und Gestalten von Ler-
+numgebungen zum selbst gesteuerten fachlichen Lernen im 
+Rahmen von Projekten, Lernstationen, Freiarbeit oder ähnlichem 
+− 
+Konzipieren, Erproben und Reflektieren von kleineren Unter-
+richtseinheiten  
+− 
+Fähigkeit zum Mitplanen und Mitgestalten einer größeren ma-
+thematisch substanziellen Unterrichtseinheit 
+ 
+Fachdidaktische Veranstaltungen mit Praxisbezug betreffen das Analy-
+sieren oder Gestalten von Mathematikunterricht am Arbeitsort Schule 
+oder damit verbundenen Bildungseinrichtungen. In der Regel bestehen 
+sie aus mit der Schule abgestimmten und im Rahmen der Veranstaltung 
+entwickelten Unterrichtsexperimenten. Im Weiteren aber können sie 
+auch die Analyse von Unterrichtssituationen, fachbezogenen Frage-
+stellungen in der Schule, oder fachdidaktischen diagnostischen Frage-
+stellungen betreffen.  
+Insbesondere besteht die Möglichkeit, fachdidaktische Studien mit 
+Praxisbezug auch für Entwicklungen von Unterrichtseinheiten oder 
+Diagnoseinstrumenten zu nutzen. Durch den Verbund fachdidaktischer 
+Veranstaltungen mit Praxisbezug mit anderen Veranstaltungen kann 
+ein Arbeitsschwerpunkt zu einer praxisorientierten Entwicklungsarbeit 
+gesetzt werden. 
+Lehrveranstaltungsarten 
+Seminar mit Praxisstudien in Schulen oder Bildungseinrichtungen 
+Lehrinhalte 
+s.o. 
+Titel der Lehrveranstal-
+tungen 
+Spezifische Fragen zum Mathematikunterricht in GS 
+Fachdidaktik: 2 SWS, 3c 
+ 
+Diagnostik und Fördern zur Mathematik GS 
+Teil 2: Diagnosebasierte Förderkonzepte 
+Fachdidaktik: 2 SWS V + 1SWS Ü, 4c 
+Lehr- und Lernmethoden 
+(Organisationsform) 
+2 SWS Seminar mit Praxisstudien 
+2 SWS Vorlesung, 1SWS Übungen 
+ 
+Verwendbarkeit des Mo-
+duls 
+Für den Lehramtsstudiengang L1 (Grundschule) 
+Dauer des Angebotes 
+des Moduls 
+Bei Praxissemester im 3. Semester: 1 Semester oder  
+bei Praxissemester im 4. Semester: 2 Semester 
+Häufigkeit des Angebotes 
+Vorlesung: jährlich 
+
+4.13.17/105 L1 
+Mitteilungsblatt der Universität Kassel Nr. 7/2015 vom 20.04.2015 
+644 
+des Moduls 
+Fachdid. Veranstaltung mit Praxisbezug: jedes Semester 
+Sprache 
+Deutsch, bei Bezug auf internationale Fachliteratur in einzelnen Ab-
+schnitten Englisch 
+Empfohlene (inhaltliche) 
+Voraussetzungen für die 
+Teilnahme am Modul  
+Mathematik-Kenntnisse aus den vorhergehenden Modulen 
+Voraussetzungen für die 
+Teilnahme am Modul 
+Immatrikulation für den Studiengang Lehramt L1, Praxissemester er-
+folgreich abgeschlossen 
+Studentischer Arbeitsauf-
+wand  
+Präsenzzeit: 2 SWS Vorlesungen (30h), 1 SWS Übungen (15h),  
+2 SWS Seminar mit Praxisstudien (30h) 
+Selbststudium: 135 h 
+Gesamt: 210 h 
+Studienleistungen 
+Studienleistungen: regelmäßiges aktives Teilnehmen an den Übungen 
+und spezifische Studienleistungen. 
+Der Dozent kann spezifische Studienleistungen festlegen, etwa das 
+regelmäßige Bearbeiten von Übungsaufgaben, Klausuren, Kurzreferate 
+oder Hausarbeiten. 
+Voraussetzung für Zulas-
+sung zur Prüfungsleistung 
+Studienleistungen  
+Prüfungsleistung  
+2 Teilprüfungen: 
+Sem. Spezifische Fragen…: eine fachdidaktischen Analyse mit praxis-
+bezogenem Bericht (schriftliche Ausarbeitung). 
+Vorl. Diagnostik …: Klausur (2 bis 3 Stunden) oder eine mündliche Prü-
+fung (30 min). 
+Anzahl Credits für das 
+Modul 
+7 
+ 
+ 
+ 
+
+4.13.17/105 L1 
+Mitteilungsblatt der Universität Kassel Nr. 7/2015 vom 20.04.2015 
+645 
+Nummer/Code 
+Modul MAL1-P 
+Modulname  
+Praxissemester 
+Art des Moduls 
+Pflichtmodul 
+Lernergebnisse, Kompe-
+tenzen, Qualifikationsziele 
+• 
+Schul- und Unterrichtspraxis im Berufsfeld der Grundschule be-
+obachtend erfahren und theoriegeleitet auswerten  
+• 
+Ausgewählte Methoden des Lehrens und Lernens sowie deren 
+Planung und Evaluation in der Grundschule erprobend kennen- 
+und praktizieren lernen 
+• 
+Unterrichtlich-erzieherische Handlungskompetenzen erprobend 
+und exemplarisch erwerben (eigene Unterrichtsversuche) 
+• 
+Grundschulunterricht und Grundschule auf wissenschaftlicher 
+Grundlage situations- und zielgerecht interpretieren lernen 
+• 
+Sich im Prozess des Lehrerwerdens wahrnehmen und weiterentwi-
+ckeln (Übernahme der Lehrerrolle; eigene Stärken und Schwächen 
+erfahren) 
+• 
+Reflexion der eigenen Berufsmotivation und Auseinandersetzung 
+mit den psychosozialen Basiskompetenzen für Grundschullehrerin 
+/ des Grundschullehrers 
+• 
+Lehrstrategien und Verfahren kennen lernen, Lernprozesse und 
+Lernergebnisse von Schüler/-innen in ihrer Unterschiedlichkeit zu 
+erkennen und zu diagnostizieren 
+ 
+Flankierende Veranstaltung (Lehrforschungsprojekt[e] oder Projektse-
+minar[e]) im Kernstudium im Umfang von insgesamt 4 SWS im Kernstu-
+dium zur vertiefenden Auseinandersetzung mit  a) „Lehren, Lernen, 
+Unterrichten in der Grundschule“ oder  
+b) „Beobachten, Beraten und Fördern im pädagogischen Feld“ 
+mit folgenden Lernergebnissen, Kompetenzen, Qualifikationszielen: 
+a) Vertiefende Auseinandersetzung:  
+ 
+Lernstrategien und Lernmethoden für Unterricht und Erziehung 
+analysieren, begründen und bewerten  
+ 
+Vermittlungs- und Interaktionsprozesse für pädagogisches Han-
+deln in Unterricht und Schule unter verschiedenen Bedingungen 
+analysieren, darstellen und reflektieren 
+b) Vertiefende Auseinandersetzung:  
+ 
+Ergebnisse der Kindheits- und Jugendforschung  und Bildungsfor-
+schung sowie der Entwicklungspsychologie kennen und ihren Ein-
+fluss auf pädagogisches Handeln reflektieren 
+ 
+Heterogenität erfassen und reflektieren 
+ 
+Konfliktsituationen und Kommunikationsstörungen in Unterricht 
+und Erziehung darstellen und Bewältigungsstrategien analysieren 
+und bewerten  
+ Für a und b) zu erwerben durch: 
+ 
+Vertiefende Auseinandersetzung mit ausgewählten Begriffen und 
+theoretischen Konzepten  
+ 
+Vertiefende Auseinandersetzung mit empirischen Studien 
+ 
+Beschäftigung mit Forschungsmethoden und ihrer Anwendung 
+ 
+Vertiefende Reflexion von Handlungssituationen aus dem Berufs-
+feld 
+ 
+Projektarbeit in pädagogischen Handlungsfeldern 
+
+4.13.17/105 L1 
+Mitteilungsblatt der Universität Kassel Nr. 7/2015 vom 20.04.2015 
+646 
+ 
+• 
+Lernergebnisse im flankierenden Seminar Mathematik: Basale 
+Kenntnisse zu Lernstands-Bestimmungen, Analyse von eigenen 
+Arbeitswegen und Argumentationen der Kinder, Konzipieren ele-
+mentarer Fördermaßnahmen, Lernumgebungen und Elementen 
+der Unterrichtsorganisation 
+ 
+• 
+Flankierende Lehrveranstaltung Deutsch 
+Fähigkeit zur didaktischen und methodischen Begründung  der 
+Strukturierung des Unterrichts und zur Reflexion des beobach-
+teten und gehaltenen Unterrichts; Fähigkeit, Bezüge zwischen der 
+eigenen Unterrichtspraxis und der Fachdidaktik herzustellen; Fä-
+higkeit zur Herstellung und didaktischen Analyse von Dokumen-
+ten aus dem Unterricht im Hinblick auf die Initiierung von literalen 
+und literarischen Lernprozessen 
+Lehrveranstaltungsarten 
+(1) Praktika an der Schule (ca. 250 Stunden); 
+(2) Begleitseminare (Vorbereitung, Begleitung und Nachbereitung, ins-
+gesamt 4 SWS), teilweise geblockt;  
+(3) Flankierende Seminare (gesamt 8 SWS), teilweise geblockt; davon: 4 
+SWS flankierende Lehrforschungsprojekte und / oder Projektseminare 
+im Kernstudium und je 2 SWS in Deutsch und Mathematik 
+Lehrinhalte 
+In der flankierenden Lehrveranstaltung Deutsch: 
+• 
+Strukturierung des Unterrichts in den Bereichen des literalen und 
+literarischen Lehrens und Lernens der deutschen Sprache (auch 
+unter den Bedingungen der Mehrsprachigkeit/Deutsch als Zweit-
+sprache) 
+• 
+Beobachtung und Analyse sprachlicher und literarischer Lernpro-
+zesse 
+• 
+Reflexion der Beobachtungen und Bezug zur Fachdidaktik 
+• 
+Reflexion der Kontexte von Lehr- und Lernbedingungen 
+• 
+Kennenlernen und Nutzen von Verfahren zur Dokumentation von 
+Unterrichtsprozessen 
+• 
+Generieren fachdidaktischer Problemstellungen auf Grundlage von 
+Unterrichtsbeobachtungen 
+• 
+Nutzung von Beobachtungen für die Strukturierung des Unter-
+richts  
+In allen anderen Lehrveranstaltungen: siehe „Lernergebnisse, Kompe-
+tenzen, Qualifikationsziele“ 
+Titel der Lehrveranstal-
+tungen 
+Vorbereitung, Nachbereitung und Begleitseminar zu den Schulprakti-
+schen Studien (4SWS); 
+Flankierende Lehrforschungsprojekte und / oder Projektseminare im 
+Kernstudium (4 SWS); 
+Flankierendes Seminar Mathematik: Interviewbasierte Lernstandsbe-
+stimmung in der Mathematik (2 SWS); 
+Flankierendes Seminar Fachdidaktik in Deutsch (2 SWS) 
+Lehr- und Lernmethoden 
+(Organisationsform) 
+Seminare (einschließlich Unterrichtshospitationen und -assistenz), 
+Praxisseminare mit Gruppenarbeit und Methodenmix aktueller Lehr- 
+und Lernformen der jeweiligen Disziplin, Lehrforschungsprojekt(e), 
+Projektseminar(e) 
+Verwendbarkeit des Mo-
+Lehramt an Grundschulen 
+
+4.13.17/105 L1 
+Mitteilungsblatt der Universität Kassel Nr. 7/2015 vom 20.04.2015 
+647 
+duls 
+Dauer des Angebotes 
+des Moduls 
+Einsemestrig; Vorbereitung teils in der vorlesungsfreien Zeit, 
+Spätester Abgabetermin des Berichts ist im Wintersemester der 31.03. 
+bzw. im Sommersemester der 30.09. eines Jahres. 
+Häufigkeit des Angebotes 
+des Moduls 
+Jedes Semester 
+Sprache 
+Deutsch 
+Empfohlene (inhaltliche) 
+Voraussetzungen für die 
+Teilnahme am Modul  
+Module 1a, 2 und 3 im Kernstudium, sowie einführende Veranstaltun-
+gen in beide Fachwissenschaften und Fachdidaktiken in Deutsch (Modul 
+1, Modul 2 oder Modul 3) und Mathematik (Erfolgreicher Abschluss des 
+Moduls MAL1-1 und der ersten Teilleistung von Modul MAL1-2) 
+Voraussetzungen für die 
+Teilnahme am Modul 
+Immatrikulation für Lehramt an Grundschulen,  
+bestandenes Modul 1a des Kernstudiums 
+Studentischer Arbeitsauf-
+wand  
+Präsenzzeit Schulpraktikum: ca. 250 Stunden 
+Präsenzzeit Lehrveranstaltungen: 180 Stunden (12 SWS) 
+Selbststudium Vor- und Nachbereitung: 360 Stunden 
+Selbststudium Praktikumsbericht: ca. 110 Stunden 
+Gesamt: 900 Stunden 
+Für das Kernstudium fällt ein studentischer Arbeitsaufwand von 480 
+Stunden an, für die Fächer Deutsch und Mathematik je 210 Stunden. 
+Studienleistungen 
+1. Im Praktikum: Beobachtungsaufgaben und Hospitationsproto-
+kolle, 4-6 eigene Unterrichtsversuche, Absolvierung des schul-
+praktischen Teils 
+2. In den Begleitseminaren: Gestaltung einer Seminarsitzung, 
+schriftliche Unterrichtsvorbereitung, Unterrichtsvorhaben, 
+Lerntagebuch 
+3. In flankierender Veranstaltung im Kernstudium z. B. Hausar-
+beit, Referat, Gestaltung einer Seminarsitzung, Projektbericht, 
+Lerntagebuch, Portfolio, wissenschaftliches Protokoll, Klausur 
+4. Im Seminar Mathematik: Ausarbeitung von mindestens zwei 
+Lernstandsbestimmungen 
+5. Im Seminar Deutsch: Gestaltung einer Seminarsitzung,  Ausar-
+beitung einer fachdidaktischen Analyse von Dokumenten aus 
+dem Unterricht  (ca. 10 Seiten) 
+Die Studienleistung 1 darf bei Nicht-Bestehen nur einmal und nur nach 
+einem Gespräch im Referat SPS wiederholt werden. 
+Voraussetzung für Zulas-
+sung zur Prüfungsleistung 
+Studienleistungen dieses Moduls und Studienleistung „Psychosoziale 
+Basiskompetenzen“ aus Modul 1a 
+Prüfungsleistung  
+Schriftlicher Bericht über die Aufgaben der Praktikumsvorbereitung, 
+den Verlauf des Schulpraktikums und die Präsentationen der Prakti-
+kumsauswertung (ca. 50 Seiten) 
+Anzahl Credits für das 
+Modul 
+30, davon 16 für Kernstudium und je 7 für Deutsch und Mathematik 
+ 

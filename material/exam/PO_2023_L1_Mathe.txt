@@ -1,0 +1,773 @@
+Mitteilungsblatt der Universität Kassel Nr. 17/2024 vom 09.09.2024 
+1223 
+ 
+Ordnung zur Änderung der Modulprüfungsordnung für den Teilstudiengang Mathematik für das Lehr-
+amt an Grundschulen an der Universität Kassel vom 05. Juni 2024 
+ 
+ 
+Die Modulprüfungsordnung für den Teilstudiengang Mathematik für das Lehramt an Grundschulen 
+an der Universität Kassel vom 30. Januar 2023 (MittBl. 19/2023, S. 1967-1999) wird wie folgt geändert: 
+ 
+ 
+Artikel 1 Änderungen 
+ 
+1. § 2 wird wie folgt neu gefasst: 
+ 
+In Ergänzung der allgemeinen Ziele des Lehramtsstudiums nach § 2 der AB Lehramt sollen Studie-
+rende des Teilstudiengangs Mathematik für das Lehramt an Grundschulen fachspezifische Zielsetzun-
+gen erwerben beziehungsweise erlangen. 
+Im Teilstudiengang Mathematik sollen sich die Studierenden wissenschaftlich kritisches Denken an-
+eignen und die für den Beruf einer Lehrkraft für Mathematik erforderlichen fachmathematischen und 
+fachdidaktischen Kenntnisse, Fähigkeiten und Methoden erwerben. Um dieses Ziel zu erreichen, sind 
+fachmathematische und fachdidaktische Studien vernetzt und professionsorientiert ausgerichtet.  
+Im fachmathematischen Studium sollen die Studierenden im Sinne der Bildungsstandards ein ange-
+messenes und aktuelles Bild der Mathematik gewinnen, die den Mathematikunterricht in der Grund-
+schule bestimmt. Zudem sollen sie die Selbstständigkeit erwerben, um fachlich kompetent und sicher 
+Mathematik unterrichten zu können. Hierzu ist insbesondere erforderlich, dass sie 
+• 
+mit den Grundlagen der zu unterrichtenden Mathematik in einem angemessenen fachsyste-
+matischen Rahmen vertraut werden, 
+• 
+die inner- und außermathematische Bedeutung der Gegenstände des Mathematikunterrichts 
+in wesentlichen Aspekten kennenlernen (insbesondere die Bedeutung für nachfolgende Bil-
+dungs- und Ausbildungsstufen), 
+• 
+sich eigenständig mit mathematischen Fragestellungen auseinandersetzen und Erkenntnisse 
+präzise formulieren, 
+• 
+Mathematik als Erkenntnisvorgang erfahren, der zu Ergebnissen, Anwendungen und weiter-
+gehenden Vertiefungen führt. 
+Im fachdidaktischen Studium sollen die Studierenden wesentliche Einsichten erwerben über die Be-
+ziehungen der Mathematik zum Mathematikunterricht und über die Bedingungen des Lernens und 
+Lehrens von Mathematik. Dies betrifft insbesondere 
+• 
+fachliche und lerntheoretische Hintergründe zur Förderung inhaltlicher und prozessbezogener 
+Kompetenzen in den Leitideen Daten und Zufall, Größen und Messen, Muster und Strukturen, 
+Raum und Form sowie Zahlen und Operationen, 
+• 
+Einsicht in den Vorgang des Mathematiklernens, 
+• 
+Ansätze zum Umgang mit Heterogenität, 
+• 
+Konzepte fachbezogener Diagnostik und Förderung 
+• 
+Möglichkeiten und Grenzen der Verwendung von analogen und digitalen Medien sowie 
+• 
+fachdidaktische diagnostische Instrumente.  
+Die genannten Themenbereiche sollen die Studierenden in ihren wesentlichen Teilaspekten kennen-
+lernen und fähig werden, diese Kenntnisse in begründete didaktische Sachanalysen, Lernstandsbe-
+stimmungen (Diagnosen) und Entscheidungen zum Unterricht oder zu individuellen Förderungen von 
+Schüler:innen einzuarbeiten. An speziellen Inhalten des Mathematikunterrichts muss dies in vertiefen-
+der Weise geschehen. Ferner müssen die Studierenden fähig werden, die Beziehungen, aber auch die 
+Besonderheiten von Hochschulniveau der Mathematik einerseits und Unterrichtsniveau andererseits 
+schülergerecht zu berücksichtigen; das gilt insbesondere für die jeweils angemessene Sprache. 
+ 
+2. § 4 Abs. 1 wird wie folgt neu gefasst: 
+ 
+(1) Wird der Teilstudiengang Mathematik für das Lehramt an Grundschulen als Langfach gemäß § 3 
+Abs. 2 und 3 AB Lehramt belegt, müssen folgende Module bis zur Meldung zur Ersten Staatsprüfung 
+abgeschlossen sein: 
+ 
+
+Mitteilungsblatt der Universität Kassel Nr. 17/2024 vom 09.09.2024 
+1224 
+(Wahl-) 
+Pflicht 
+Modul- 
+nummer 
+Modulbezeichnung 
+Credits 
+Pflicht 
+MAL1-1 
+Arithmetik und Geometrie in der Grundschule 
+8 Credits 
+Pflicht (mit 
+Wahlele-
+menten) 
+MAL1-2 
+Diagnostik und Fördern arithmetischer Lernprozesse 
+11 Credits 
+Pflicht (mit 
+Wahlele-
+menten) 
+MAL1-3 
+Didaktische und fachliche Grundlagen des Mathema-
+tiklernens in der Grundschule 
+11 Credits 
+Pflicht (mit 
+Wahlele-
+menten) 
+MAL1-4 
+Didaktische und fachliche Vertiefung ausgewählter 
+Themen des Mathematikunterrichts 
+6 Credits 
+Pflicht (mit 
+Wahlele-
+menten) 
+MAL1-5 
+Diagnostik und Fördern im Mathematikunterricht der 
+Grundschule 
+7 Credits 
+Pflicht 
+MAL1-PS 
+Praxissemester im Fach Mathematik 
+7 Credits 
+Summe 
+ 
+ 
+50 Credits 
+Pflicht 
+MAL1-
+ÄmPS 
+Fachdidaktisches Äquivalenzmodul zum Praxissemester 
+im Fach Mathematik 
+7 Credits 
+ 
+3. § 4 Abs. 2 wird wie folgt neu gefasst: 
+In Konkretisierung des § 11 AB Lehramt kommen als Prüfungsleistungen infrage: 
+• 
+Klausur (60 bis 180 Minuten) 
+• 
+Mündliche Prüfung (10 bis 30 Minuten) 
+• 
+Schriftliche Hausarbeit (10 bis 20 Seiten) 
+• 
+Referat (maximal 90 Minuten) 
+• 
+Praktikumsbericht (gemäß Praktikumsordnung) 
+• 
+Multimedial gestützte Prüfungen/E-Klausur (60 bis 180 Minuten) 
+• 
+Portfolio/E-Portfolio (Bearbeitung von maximal 14 Übungsblättern; im Praxissemester gemäß 
+Praktikumsordnung) 
+Die Art der Prüfungsleistung eines Moduls oder Teilmoduls legt der/die Lehrende zu Beginn der Lehr-
+veranstaltung, auf die sich die Modulprüfung bezieht, im Rahmen der Vorgaben des Studien- und 
+Prüfungsplans Lehramt fest. 
+Werden Modulteilprüfungen gefordert, dann setzt sich die Modulnote aus dem arithmetischen Mittel 
+der Modulteilnoten zusammen (vgl. § 14 Abs. 4 AB Lehramt). Nicht mit mindestens „ausreichend“ (5 
+Punkten) bewertete Teilprüfungsleistungen müssen wiederholt werden (vgl. § 17 Abs. 3 AB Lehramt). 
+ 
+4. § 4 Abs. 3 wird wie folgt neu gefasst: 
+ 
+(3) Zusätzlich zu den in Abs. 2 genannten Prüfungsformen kommen als Studienleistungen in Betracht: 
+• 
+Kurzreferate (maximal 20 Minuten) 
+• 
+Hausaufgaben (maximal eine Hausaufgabe pro Veranstaltung) 
+• 
+Kurztests/Testate 
+• 
+Aktive Teilnahme 
+• 
+Planung und Durchführung einer Lernstandsbestimmung (maximal drei) 
+• 
+Planung und Durchführung eines Lernangebots (maximal zwei) 
+• 
+Ausarbeitung didaktischer Projekte (maximal 15 Seiten) 
+Die Art der Studienleistung eines Moduls oder Teilmoduls legt der/die Lehrende zu Beginn der Lehr-
+veranstaltung, auf die sich die Studienleistung bezieht, im Rahmen der Vorgaben des Studien- und 
+Prüfungsplans Lehramt fest. 
+ 
+ 
+ 
+ 
+5. § 5 Abs. 1 wird wie folgt neu gefasst: 
+
+Mitteilungsblatt der Universität Kassel Nr. 17/2024 vom 09.09.2024 
+1225 
+ 
+(1) Wird der Teilstudiengang Mathematik für das Lehramt an Grundschulen als Kurzfach gemäß § 3 
+Abs. 2 und 3 AB Lehramt belegt, müssen folgende Module bis zur Meldung zur Ersten Staatsprüfung 
+abgeschlossen sein: 
+ 
+(Wahl-) 
+Pflicht 
+Modul- 
+nummer 
+Modulbezeichnung 
+Credits 
+Pflicht 
+MAL1-1 
+Arithmetik und Geometrie in der Grundschule 
+8 Credits 
+Pflicht 
+MAL1-12 
+Diagnostik und Fördern arithmetischer Lernprozesse 
+7 Credits 
+Pflicht 
+MAL1-PS 
+Praxissemester im Fach Mathematik 
+7 Credits 
+ 
+ 
+Wahl 
+MAL1-13a 
+Didaktische und fachliche Grundlagen des Mathema-
+tiklernens in der Grundschule (Schwerpunkt Sachrech-
+nen) 
+ 
+ 
+7 Credits 
+oder 
+MAL1-13b 
+Didaktische und fachliche Grundlagen des Mathema-
+tiklernens in der Grundschule (Schwerpunkt Geomet-
+rie) 
+Pflicht  
+MAL1-15 
+Diagnostik und Fördern im Mathematikunterricht der 
+Grundschule 
+6 Credits 
+Summe 
+ 
+ 
+35 Credits 
+Pflicht 
+MAL1-
+ÄmPS 
+Fachdidaktisches Äquivalenzmodul zum Praxissemester 
+im Fach Mathematik 
+7 Credits 
+ 
+6. § 5 Abs. 2 wird wie folgt neu gefasst: 
+ 
+(2) In Konkretisierung des § 11 AB Lehramt kommen Studien- und Prüfungsleistungen nach § 4 Abs. 2 
+und 3 dieser Modulprüfungsordnung infrage; § 4 Abs. 2 und 3, S. 2 gilt entsprechend. 
+ 
+7. § 6 wird wie folgt neu gefasst: 
+ 
+(1) Wird der Teilstudiengang Mathematik für das Lehramt an Grundschulen mit dem Ziel der Erweite-
+rungsprüfung nach § 33 HLbG belegt, kann auf Antrag nach § 3 Abs. 6 AB Lehramt das Praxissemes-
+termodul (Modul MAL1-PS) durch das fachdidaktische Äquivalenzmodul (Modul MAL1-ÄmPS) mit 
+äquivalentem Creditumfang ersetzt werden. 
+ 
+(2) Wird der Teilstudiengang Mathematik für das Lehramt an Grundschulen im Rahmen der Studien, 
+die auf eine Zusatzprüfung zum Erwerb der Befähigung für das Lehramt an Grundschulen nach § 55a 
+HLbG vorbereiten, belegt, kann auf Antrag nach § 3 Abs. 7 AB Lehramt das Praxissemestermodul 
+(Modul MAL1-PS) durch ein fachdidaktisches Äquivalenzmodul (Modul MAL1-ÄmPS) mit äquivalen-
+tem Creditumfang ersetzt werden. 
+ 
+8. In Modul MAL1-1 im Studien- und Prüfungsplan wird die Zeile Studienleistungen wie folgt neu ge-
+fasst: 
+ 
+Studienleistungen 
+Vorlesungen a & b: Erfolgreiche Erstellung je eines Portfolios mit Be-
+arbeitung von jeweils maximal 14 Übungsblättern (die Art der Aufga-
+ben und das Kriterium für die erfolgreiche Bearbeitung werden von den 
+Lehrenden zu Beginn des Semesters festgelegt) 
+Vorlesung a: Erfolgreiches Bearbeiten von Kurztests / Testaten (die 
+Art der Aufgaben und das Kriterium für die erfolgreiche Bearbeitung 
+werden von den Lehrenden zu Beginn des Semesters festgelegt) 
+ 
+ 
+ 
+9. In Modul MAL1-2 im Studien- und Prüfungsplan wird die Zeile Studienleistungen wie folgt neu ge-
+fasst: 
+
+Mitteilungsblatt der Universität Kassel Nr. 17/2024 vom 09.09.2024 
+1226 
+ 
+Studienleistungen 
+• 
+Vorlesungen a & b: Erfolgreiche Erstellung je eines Portfo-
+lios mit Bearbeitung von je maximal 14 Übungsblättern (die 
+Art der Aufgaben und das Kriterium für die erfolgreiche Be-
+arbeitung werden von den Lehrenden zu Beginn des Semes-
+ters festgelegt) 
+• 
+Vorlesung b): erfolgreiche Bearbeitung einer Klausur (maxi-
+mal 120 Minuten). Das Kriterium für erfolgreiche Bearbei-
+tung wird von den Lehrenden zu Beginn des Semesters be-
+kannt gegeben) 
+• 
+Seminar c): Aktive, regelmäßige Teilnahme und die erfolg-
+reiche Bearbeitung einer Studienleistung aus § 4 (schriftliche 
+Hausarbeit (10 bis 20 Seiten) oder Referat (maximal 90 Mi-
+nuten) oder mündliche Prüfung (10 bis 30 Minuten). Die Stu-
+dienleistung und das Kriterium für erfolgreiche Bearbeitung 
+werden von den Lehrenden festgelegt und zu Beginn des Se-
+mesters bekannt gegeben.   
+ 
+10. In Modul MAL1-2 im Studien- und Prüfungsplan wird die Zeile Voraussetzung für Zulassung zur 
+Prüfungsleistung wie folgt neu gefasst: 
+ 
+Voraussetzung für Zulas-
+sung zur Prüfungsleistung 
+Erfolgreiches Absolvieren der Studienleistungen  
+ 
+11. In Modul MAL1-2 im Studien- und Prüfungsplan wird die Zeile Prüfungsleistung wie folgt neu ge-
+fasst: 
+ 
+Prüfungsleistung 
+Eine Modulprüfung: 
+• 
+Vorlesung a): Eine Klausur (maximal 120 Minuten) 
+ 
+12. In Modul MAL1-2 im Studien- und Prüfungsplan wird die Zeile Dauer des Angebots des Moduls 
+wie folgt neu gefasst: 
+ 
+Dauer des Angebots des Mo-
+duls 
+Wenn Praxissemester im 4. Semester, dann zwei Semester 
+Wenn Praxissemester im 5. Semester dann drei Semester 
+ 
+13. In Modul MAL1-3 im Studien- und Prüfungsplan wird die Zeile Voraussetzungen für Teilnahme am 
+Modul wie folgt neu gefasst: 
+ 
+Voraussetzungen für 
+Teilnahme am Modul 
+Erfolgreiches Absolvieren des Moduls MAL1-1 
+ 
+ 
+14. In Modul MAL1-3 im Studien- und Prüfungsplan wird die Zeile Studienleistungen wie folgt neu 
+gefasst: 
+ 
+Studienleistungen 
+• 
+Vorlesungen a) und b): Erfolgreiche Erstellung je eines Port-
+folios mit Bearbeitung von je maximal 14 Übungsblättern (die 
+Art der Aufgaben und das Kriterium für die erfolgreiche Be-
+arbeitung werden von den Lehrenden zu Beginn des Semes-
+ters festgelegt) 
+• 
+Seminar: Aktive, regelmäßige Teilnahme und erfolgreiche 
+Bearbeitung einer Studienleistung aus § 4. Die Studienleis-
+tung und das Kriterium für erfolgreiche Bearbeitung werden 
+von den Lehrenden festgelegt und zu Beginn des Semesters 
+bekannt gegeben.  
+
+Mitteilungsblatt der Universität Kassel Nr. 17/2024 vom 09.09.2024 
+1227 
+ 
+15. In Modul MAL1-3 im Studien- und Prüfungsplan wird die Zeile Prüfungsleistung wie folgt neu ge-
+fasst: 
+ 
+Prüfungsleistung 
+Zwei Modulteilprüfungen: 
+• 
+Vorlesungen a) und b): Eine Klausur (maximal 120 Minuten) 
+• 
+Seminar c): Eine schriftliche Hausarbeit (10 bis 20 Seiten) o-
+der ein Referat (maximal 90 Minuten) oder eine mündliche 
+Prüfung (10 bis 30 Minuten) 
+ 
+16. In Modul MAL1-3 im Studien- und Prüfungsplan wird die Zeile Dauer des Angebots des Moduls 
+wie folgt neu gefasst: 
+ 
+Dauer des Angebots des Mo-
+duls 
+Wenn Praxissemester im 4. Semester, dann ein Semester 
+Wenn Praxissemester im 5. Semester, dann zwei Semester 
+ 
+17. In Modul MAL1-4 im Studien- und Prüfungsplan wird die Zeile Lernergebnisse, Kompetenzen, Qua-
+lifikationsziele wie folgt neu gefasst: 
+ 
+Lernergebnisse, Kompeten-
+zen, Qualifikationsziele 
+Studierende 
+• 
+können zentrale didaktische Ansätze für die Behandlung der 
+Stochastik in Primar- und Sekundarstufen begründen und 
+anwenden, 
+• 
+können wesentliche Vorstellungen und Fehlvorstellungen 
+von Lernenden zur Stochastik erkennen und können diese 
+konstruktiv in didaktische Ansätze integrieren, 
+• 
+können mathematische Probleme erfassen und formulieren,  
+• 
+können Lösungsstrategien zu mathematischen Problemen 
+entwickeln, präzise formulieren und begründen, 
+• 
+können digitale Werkzeuge zur Analyse von Daten und Zufall 
+einsetzen. 
+ 
+18. In Modul MAL1-4 im Studien- und Prüfungsplan wird die Zeile Studienleistungen wie folgt neu 
+gefasst: 
+ 
+Studienleistungen 
+Vorlesungen a) und b): Erfolgreiche Bearbeitung von Testaten o-
+der maximal 14 Übungsblättern (die genaue Form und das Krite-
+rium für die erfolgreiche Bearbeitung werden von den Lehrenden 
+zu Beginn jeder Vorlesung festgelegt) 
+ 
+ 
+ 
+ 
+ 
+ 
+19. In Modul MAL1-4 im Studien- und Prüfungsplan wird die Zeile Prüfungsleistung wie folgt neu ge-
+fasst: 
+ 
+Prüfungsleistung 
+Zwei Modulteilprüfungen: 
+• 
+Vorlesung a): Eine Klausur (90 bis 120 Minuten) 
+• 
+Vorlesung b): Eine Klausur (90 bis 120 Minuten) oder eine 
+mündliche Prüfung (10 bis 30 Minuten) 
+ 
+20. In Modul MAL1-5 im Studien- und Prüfungsplan wird die Zeile Studienleistungen wie folgt neu 
+gefasst: 
+ 
+
+Mitteilungsblatt der Universität Kassel Nr. 17/2024 vom 09.09.2024 
+1228 
+Studienleistungen 
+• 
+Vorlesung: Portfolio mit erfolgreicher Bearbeitung von ma-
+ximal 14 Übungsblättern (die Art der Aufgaben und das Kri-
+terium für erfolgreiche Bearbeitung werden von den Lehren-
+den zu Beginn des Semesters festgelegt) 
+• 
+Seminar: Aktive, regelmäßige Teilnahme und erfolgreiche 
+Bearbeitung einer Studienleistung aus § 4. Die Studienleis-
+tung und das Kriterium für erfolgreiche Bearbeitung werden 
+von den Lehrenden festgelegt und zu Beginn des Semesters 
+bekannt gegeben.  
+ 
+21. In Modul MAL1-5 im Studien- und Prüfungsplan wird die Zeile Prüfungsleistung wie folgt neu ge-
+fasst: 
+ 
+Prüfungsleistung 
+Zwei Modulteilprüfungen: 
+• 
+Vorlesung a) Klausur (maximal 120 Minuten) oder mündliche 
+Prüfung (10 bis 30 Minuten)  
+• 
+Seminar b): schriftliche Hausarbeit (10 bis 20 Seiten) oder Refe-
+rat oder mündliche Prüfung (10 bis 30 Minuten) 
+ 
+22. In Modul MAL1-5 im Studien- und Prüfungsplan wird die Zeile Verwendbarkeit des Moduls wie 
+folgt neu gefasst: 
+ 
+Verwendbarkeit des Moduls 
+Teilstudiengang Mathematik für das Lehramt an Grundschulen 
+(Langfach) 
+ 
+23. In Modul MAL1-5 im Studien- und Prüfungsplan wird die Zeile Dauer des Angebots des Moduls 
+wie folgt neu gefasst: 
+ 
+Dauer des Angebots des Mo-
+duls 
+Wenn Praxissemester im 4. Semester, dann zwei Semester 
+Wenn Praxissemester im 5. Semester, dann ein Semester 
+ 
+24. In Modul MAL1-5 im Studien- und Prüfungsplan wird die Zeile Anzahl Credits für das Modul wie 
+folgt neu gefasst: 
+ 
+Anzahl Credits für das Modul 
+7 Credits 
+ 
+ 
+25. In Modul MAL1-PS im Studien- und Prüfungsplan wird die Zeile Studienleistungen wie folgt neu 
+gefasst: 
+
+Mitteilungsblatt der Universität Kassel Nr. 17/2024 vom 09.09.2024 
+1229 
+Studienleistungen 
+Im Praktikum:  
+• 
+Beobachtungsaufgaben und Hospitationsprotokolle 
+• 
+Absolvieren des schulpraktischen Teils 
+• 
+Mindestens zwei eigene Unterrichtsversuche, davon ei-
+ner universitär begleitet 
+ 
+Im Begleitseminar: 
+• 
+Aktive Teilnahme 
+• 
+Erfolgreiche schriftliche Planung und Reflexion des Lern-
+angebots 
+ 
+Abschlussgespräch (nach § 19 Abs. 6 HLbGDV) gemäß Prakti-
+kumsordnung 
+ 
+Im flankierenden Seminar:  
+• 
+Aktive Teilnahme, erfolgreiche Planung, Durchführung 
+und Auswertung einer individuellen Lernstandsbestim-
+mung 
+Das Kriterium für erfolgreiche Bearbeitung der Studienleistungen 
+wird von den Lehrenden festgelegt und zu Beginn des Semesters 
+bekannt gegeben.  
+ 
+26. Im Studien- und Prüfungsplan wird das Modul MAL1-ÄmPS neu eingefügt: 
+
+Mitteilungsblatt der Universität Kassel Nr. 17/2024 vom 09.09.2024 
+1230 
+Modulname 
+MAL1-ÄmPS: Fachdidaktisches Äquivalenzmodul zum Praxissemes-
+ter im Fach Mathematik 
+Art des Moduls 
+Pflichtmodul für die Erweiterungsprüfung als Ersatz des Praxisse-
+mestermoduls 
+Lernergebnisse, Kompe-
+tenzen, Qualifikationsziele 
+Studierende 
+• 
+kennen Lernangebote mit Diagnose- und Förderpotenzial für he-
+terogene Lerngruppen 
+• 
+können mathematische Lernangebote für heterogene und inklu-
+sive Lerngruppen so planen, dass das Lernen am gemeinsamen 
+Gegenstand möglich wird und dabei die Schüler:innen auf ih-
+rem Lern- und Leistungsniveau arbeiten können  
+• 
+kennen und reflektieren die Rolle von Alltags- und Fachsprache 
+für mathematische Lernprozesse in den unterschiedlichen Berei-
+chen  
+• 
+kennen die typischen Hürden im mathematischen Lernprozess 
+insbesondere auch für Schüler:innen mit Migrationshintergrund 
+oder sonderpädagogischem Förderbedarf  
+• 
+können Unterstützungshilfen und Förderkonzepte für Schüler:in-
+nen mit unterschiedlichen Lernausgangslagen entwickeln 
+Lehrinhalte 
+Vertiefte Auseinandersetzung mit einem ausgewählten fachdidakti-
+schen Thema aus den Gebieten Diagnostik und Förderung, Gestal-
+tung von offenen Lernangeboten; Förderung von Kindern mit be-
+sonderen Schwierigkeiten; Förderung von Kindern mit besonderer 
+Begabung; Interaktion im Mathematikunterricht 
+Lehrveranstaltungsarten 
+a) Flankierendes Seminar aus dem Praxissemester (1 SWS, 3 CP) 
+b) Mathematikdidaktisches Projektseminar mit wechselnden The-
+men (2 SWS, 4 CP) 
+Voraussetzungen für 
+Teilnahme am Modul 
+Bewilligter Antrag nach § 4 Erweiterungs- und Zusatzprüfung  
+Studentischer 
+Arbeitsaufwand  
+Präsenz Seminare: 45 Stunden 
+Selbststudium: 165 Stunden  
+Gesamt: 210 Stunden 
+Studienleistungen 
+Flankierendes Seminar: aktive, regelmäßige Teilnahme; erfolgreiche 
+Planung, Durchführung und Auswertung einer individuellen Lern-
+standsbestimmung. Das Kriterium für erfolgreiche Bearbeitung der 
+Studienleistung wird von den Lehrenden festgelegt und zu Beginn 
+des Semesters bekannt gegeben. 
+Mathematikdidaktisches Projektseminar: aktive, regelmäßige Teil-
+nahme und erfolgreiche Bearbeitung einer Studienleistung aus § 4. 
+Die Studienleistung und das Kriterium für die erfolgreiche Bearbei-
+tung werden von den Lehrenden festgelegt und zu Beginn des Se-
+mesters bekannt gegeben.   
+ 
+Voraussetzung für Zulas-
+sung zur Prüfungsleistung 
+Erfolgreiches Absolvieren der Studienleistung 
+ 
+
+Mitteilungsblatt der Universität Kassel Nr. 17/2024 vom 09.09.2024 
+1231 
+Prüfungsleistung  
+Mathematikdidaktisches Projektseminar: schriftliche Hausarbeit (10 
+bis 20 Seiten) oder Referat oder mündliche Prüfung (10 bis 30 Minu-
+ten) 
+Verwendbarkeit des Mo-
+duls 
+Teilstudiengang Mathematik für das Lehramt an Grundschulen 
+(Langfach und Kurzfach) 
+Dauer des Angebots des 
+Moduls 
+Ein Semester 
+Häufigkeit des Angebots 
+des Moduls 
+Jedes Semester 
+Anzahl Credits 
+für das Modul 
+7 
+ 
+27. In Modul MAL1-12 im Studien- und Prüfungsplan wird die Zeile Studienleistungen wie folgt neu 
+gefasst: 
+ 
+Studienleistungen 
+• 
+Vorlesungen: Portfolio mit erfolgreicher Bearbeitung von 
+maximal 14 Übungsblättern (die Art der Aufgaben und das 
+Kriterium für erfolgreiche Bearbeitung werden von den Leh-
+renden zu Beginn des Semesters festgelegt) 
+• 
+Seminar: Aktive, regelmäßige Teilnahme und die erfolgrei-
+che Bearbeitung einer Studienleistung aus § 5 (schriftliche 
+Hausarbeit (10 bis 20 Seiten) oder Referat (maximal 90 Mi-
+nuten) oder mündliche Prüfung (10 bis 30 Minuten), Die Stu-
+dienleistung und das Kriterium für erfolgreiche Bearbeitung 
+werden von den Lehrenden festgelegt und zu Beginn des Se-
+mesters bekannt gegeben. 
+ 
+28. In Modul MAL1-12 im Studien- und Prüfungsplan wird die Zeile Prüfungsleistung wie folgt neu 
+gefasst: 
+ 
+Prüfungsleistung 
+Eine Modulprüfung: 
+• 
+Vorlesung a): Eine Klausur (maximal 120 Minuten) 
+ 
+29. In Modul MAL1-13a im Studien- und Prüfungsplan wird die Zeile Voraussetzungen für Teilnahme 
+am Modul wie folgt neu gefasst: 
+ 
+Voraussetzungen für 
+Teilnahme am Modul 
+Erfolgreiches Absolvieren des Moduls MAL1-1 
+ 
+30. In Modul MAL1-13a im Studien- und Prüfungsplan wird die Zeile Studienleistungen wie folgt neu 
+gefasst: 
+ 
+Studienleistungen 
+• 
+Vorlesungen: Portfolio mit erfolgreicher Bearbeitung von 
+maximal 14 Übungsblättern (die Art der Aufgaben und das 
+Kriterium für erfolgreiche Bearbeitung werden von den Leh-
+renden zu Beginn des Semesters festgelegt) 
+• 
+Seminar: Aktive, regelmäßige Teilnahme und erfolgreiche 
+Bearbeitung einer Studienleistung aus § 5. Die Studienleis-
+tung und das Kriterium für erfolgreiche Bearbeitung werden 
+von den Lehrenden festgelegt und zu Beginn des Semesters 
+bekannt gegeben. 
+ 
+
+Mitteilungsblatt der Universität Kassel Nr. 17/2024 vom 09.09.2024 
+1232 
+31. In Modul MAL1-13a im Studien- und Prüfungsplan wird die Zeile Prüfungsleistung wie folgt neu 
+gefasst: 
+ 
+Prüfungsleistung 
+Zwei Modulteilprüfungen: 
+• 
+Vorlesung a): Eine Klausur (maximal 120 Minuten) 
+• 
+Seminar b): Eine schriftliche Hausarbeit (10 bis 20 Seiten) o-
+der ein Referat (maximal 90 Minuten) oder eine mündliche 
+Prüfung (10 bis 30 Minuten) 
+ 
+32. In Modul MAL1-13b im Studien- und Prüfungsplan wird die Zeile Art des Moduls wie folgt neu 
+gefasst: 
+ 
+Art des Moduls 
+Wahlmodul 
+ 
+33. In Modul MAL1-13b im Studien- und Prüfungsplan wird die Zeile Voraussetzungen für Teilnahme 
+am Modul wie folgt neu gefasst: 
+ 
+Voraussetzungen für 
+Teilnahme am Modul 
+Erfolgreiches Absolvieren des Moduls MAL1-1 
+ 
+34. In Modul MAL1-13b im Studien- und Prüfungsplan wird die Zeile Studienleistungen wie folgt neu 
+gefasst: 
+ 
+Studienleistungen 
+• 
+Vorlesungen: Portfolio mit erfolgreicher Bearbeitung von 
+maximal 14 Übungsblättern (Art der Aufgaben und das Kri-
+terium für erfolgreiche Bearbeitung werden von den Lehren-
+den zu Beginn des Semesters festgelegt) 
+• 
+Seminar: Aktive, regelmäßige Teilnahme und erfolgreiche 
+Bearbeitung einer Studienleistung aus § 5. Die Studienleis-
+tung und das Kriterium für erfolgreiche Bearbeitung werden 
+von den Lehrenden festgelegt und zu Beginn des Semesters 
+bekannt gegeben. 
+ 
+35. In Modul MAL1-13b im Studien- und Prüfungsplan wird die Zeile Prüfungsleistung wie folgt neu 
+gefasst: 
+ 
+Prüfungsleistung 
+Zwei Modulteilprüfungen: 
+• 
+Vorlesung a): Eine Klausur (maximal 120 Minuten) 
+• 
+Seminar b): Eine schriftliche Hausarbeit (10 bis 20 Seiten) o-
+der ein Referat (maximal 90 Minuten) oder eine mündliche 
+Prüfung (10 bis 30 Minuten) 
+ 
+36. In Modul MAL1-15 im Studien- und Prüfungsplan wird die Zeile Lehrveranstaltungsarten wie folgt 
+neu gefasst: 
+ 
+Lehrveranstaltungsarten 
+Zwei Lehrveranstaltungen (insgesamt 4 SWS):  
+a) 
+Zentrale Themen des Mathematiklernens in heterogenen 
+Gruppen (2 SWS) 
+b) 
+Ein Mathematikdidaktisches Seminar (2 SWS) mit wechseln-
+den Themen 
+ 
+37. In Modul MAL1-15 im Studien- und Prüfungsplan wird die Zeile Studienleistungen wie folgt neu 
+gefasst: 
+ 
+
+Mitteilungsblatt der Universität Kassel Nr. 17/2024 vom 09.09.2024 
+1233 
+Studienleistungen 
+• 
+Vorlesungen: Portfolio mit erfolgreicher Bearbeitung von 
+maximal 14 Übungsblättern (die Art der Aufgaben und das 
+Kriterium für erfolgreiche Bearbeitung werden von den Leh-
+renden zu Beginn des Semesters festgelegt) 
+• 
+Seminar: Aktive, regelmäßige Teilnahme und erfolgreiche 
+Bearbeitung einer Studienleistung aus § 5. Die Studienleis-
+tung und das Kriterium für erfolgreiche Bearbeitung werden 
+von den Lehrenden festgelegt und zu Beginn des Semesters 
+bekannt gegeben. 
+ 
+38. In Modul MAL1-15 im Studien- und Prüfungsplan wird die Zeile Prüfungsleistung wie folgt neu 
+gefasst: 
+ 
+Prüfungsleistung 
+Zwei Modulteilprüfungen: 
+• 
+Vorlesung a): Eine Klausur (maximal 120 Minuten) oder 
+mündliche Prüfung (10 bis 30 Minuten) 
+• 
+Seminar b): Eine schriftliche Hausarbeit (10 bis 20 Seiten) o-
+der ein Referat (maximal 90 Minuten) oder eine mündliche 
+Prüfung (10 bis 30 Minuten) 
+ 
+ 
+Artikel 2 Ermächtigung zur Neufassung 
+ 
+Die Modulprüfungsordnung für den Teilstudiengang Mathematik für das Lehramt an Grundschulen 
+an der Universität Kassel vom 30. Januar 2023 (MittBl. 19/2023, S. 1967-1999) wird unter Einarbeitung 
+der Ordnung zur Änderung der Modulprüfungsordnung für den Teilstudiengang Mathematik für das 
+Lehramt an Hauptschulen und Realschulen an der Universität Kassel in einer Neufassung veröffent-
+licht. 
+ 
+Artikel 3 Inkrafttreten; Übergangsbestimmungen 
+ 
+(1) Diese Änderungsordnung tritt am Tag nach der Veröffentlichung im Mitteilungsblatt der Universität 
+Kassel in Kraft.  
+ 
+(2) Diese Änderungsordnung gilt für Studierende, die das Studium des Teilstudiengangs Mathematik 
+für das Lehramt an Grundschulen der Universität Kassel nach In-Kraft-Treten dieser Ordnung begin-
+nen. Studierende, die das Studium bereits vor In-Kraft-Treten dieser Ordnung nach der Modulprü-
+fungsordnung für den Teilstudiengang Mathematik für das Lehramt an Grundschulen an der Univer-
+sität Kassel vom 30. Januar 2023 begonnen haben, werden automatisch nach dieser Ordnung geprüft. 
+ 
+Kassel, den <Datum des Unterschriftstages> 
+ 
+ 
+Die geschäftsführende Direktorin des Zentrums für Lehrer:innenbildung 
+Prof. Dr. Claudia Schlaak 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
