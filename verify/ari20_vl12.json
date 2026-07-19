@@ -1,0 +1,15 @@
+{
+  "code": "ari20_vl12",
+  "checked": 83,
+  "fixed": [],
+  "flagged": [],
+  "notes": [
+    "Alle 83 Fragen (b1-001..019, b2-001..016, b3-001..030, b4-001..018) gegen die zitierten Folien geprüft; keine belegten Fehler gefunden, daher keine Korrekturen.",
+    "Textfolien via scratch/ari20_vl12/fulltext.txt (Folien 1-77) abgeglichen; formel-/figurenlastige Folien zusätzlich als PNG geöffnet: p008 (Dreifall-Satz mit V_{2|AB|}, AB senkrecht zu g / von g nach h, D_{S,2α}), p044 (Verschiebung=roter waagerechter Pfeil, Geradenspiegelung=blauer senkrechter Pfeil), p053 (S_i∘S_h∘S_g∘S_f = S_i∘S_f' = V_AB, Länge AB = doppelter Abstand d(i,f')), p057 (Fall 4b: Drehung wenn i∦f', Verschiebung wenn i∥f').",
+    "OCR-Hinweis: Im fulltext.txt ist Folie 57 verstümmelt ('Drehung (i || f') oder Verschiebung (i || f')'); das PNG p057 belegt korrekt 'Drehung (i ∦ f') oder Verschiebung (i || f')'. Fragen b3-024/b3-025 sind folientreu.",
+    "Fall 5 (dreifach, Folie 38) endet auf der Folie tatsächlich mit '???' als offene Frage; Frage b3-016 spiegelt dies korrekt wider.",
+    "Fallunterscheidung 2n → zweifache Geradenspiegelung (Drehung/Verschiebung) und 2n+1 → dreifache (Achsen-/Schubspiegelung) laut Folien 71/74/76 in b4-007/010/012/013/014 korrekt; Satz Folie 76 mit Klammerkonvention exakt getroffen.",
+    "Schubspiegelung: Definition g||AB (Folie 45), Invarianten geradentreu/flächeninhaltstreu/winkeltreu/längentreu (nicht umlaufsinntreu), Fixgerade=Spiegelachse, Umkehrung S_BA,g (Folie 46) — b3-003..007 folientreu.",
+    "Alle Quellenangaben (Folie N / S.NN) und 📄-Quelle-Marker stimmen mit den Folienbildern überein; Schema (single genau eine, multi/single mit options+correct, numeric mit answer/tolerance/unit) durchgängig gültig."
+  ]
+}
