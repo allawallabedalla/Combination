@@ -1,0 +1,16 @@
+{
+  "code": "skript08_mit",
+  "checked": 20,
+  "fixed": [],
+  "flagged": [],
+  "notes": [
+    "Alle 20 Fragen gegen Folien p001-p007 geprueft; keine belegten Fehler gefunden.",
+    "Folienzuordnung korrekt: Folie 22->p001 (Aequivalenz A<=>B), Folie 41->p002 (Saetze als verknuepfte Aussagen), Folie 36->p003 (Widerspruchsbeweis Satz), Folie 38->p004 (Verneinung A^-B), Folie 65->p005 (Euklid), Folie 67->p006 (Konstruktion 211 bzw. 16), Folie 79->p007 (Fundamentalsatz).",
+    "b1-001/002/003: Wahrheitstafel Folie 22 stimmt (A<=>B wahr bei w/w und f/f; A=>B falsch nur bei w/f).",
+    "b1-004..010: A=>B = -A v B, ¬(A=>B)=A^-B, De Morgan und Existenzverneinung folientreu.",
+    "b1-014: 2*3*5*7+1=211 (eine Primzahl, nicht in P={2,3,5,7}) exakt wie Folie 67.",
+    "b1-015: 3*5+1=16 (keine Primzahl, Primteiler 2 nicht in P={3,5}) exakt wie Folie 67.",
+    "b1-018/019/020: Fundamentalsatz Folie 79 - Voraussetzung 'n natuerliche Zahl groesser 1', Folgerung eindeutige Primfaktorzerlegung bis auf Reihenfolge - stimmt.",
+    "Alle source-Felder und Quelle-Marker vorhanden und korrekt. gen/skript08_mit.json unveraendert (keine Korrektur noetig)."
+  ]
+}
