@@ -1,0 +1,12 @@
+{
+ "code": "ari23_vl04",
+ "checked": 97,
+ "fixed": [],
+ "flagged": [],
+ "notes": [
+  "Alle 97 Fragen gegen die Folien geprueft (fulltext.txt fuer Textfolien; PNGs gezielt fuer Zahlen/Formeln/Handschrift auf S.7, 11, 13, 15, 18, 22, 52).",
+  "Keine belegten Fehler gefunden; correct-Indizes, numerische Werte, Formeln und Quellen-/Seitenangaben stimmen mit den Folien ueberein. Keine Aenderung an gen/ari23_vl04.json noetig.",
+  "Stichproben bestaetigt am Bild: S.5 Tabelle (f_6=47, S_5=69) und GL1 f_n=f_{n-2}s_1+f_{n-1}s_2; S.7 drei Beispieltabellen (Startzahlen 1/1, 4/7, 13/9; S_4=75 gruen umkringelt) mit Handschrift 'andere Startzahlen, aber gleiches Prinzip a_{n+2}=a_{n+1}+a_n'; S.11 phi≈1,618, 13:8=1,625, ca.61,8%/38,2%; S.13 Dom-Proportionen 55/89/144 markiert; S.15 Kiefernzapfen 5/8/13, Sonnenblume 34/55; S.18 Handschrift ggT(8;12)=4, ggT(21;144)=3=f_4, ggT(55;5)=5=f_5; S.22 Vermutung S_n=f_1^2+...+f_n^2=f_n*f_{n+1} (Handschrift 5*8=40=S_5); S.20 Quadratsumme S_6=104; S.34 d_n=n(n+1)/2; S.38 S_n=n(n+1)(n+2)/(3*2); S.47 (7 ueber 4)=35, (4 ueber 3)=4; S.50 direkter Beweis S_{n-2}=(n-2)(n-1)n/(3*2); S.52 Vierlinge=4 Quadrate, n-Quadratlinge n=3,4,5,6.",
+  "Schema unveraendert gueltig: 97 IDs erhalten (b1-001..b1-034, b2-001..b2-032, b3-001..b3-031), numeric ohne options/correct, single genau eine richtige."
+ ]
+}
