@@ -1,0 +1,27 @@
+{
+ "code": "ari21_vl06",
+ "checked": 42,
+ "fixed": [
+  {
+   "id": "ari21_vl06-b1-002",
+   "field": "explanation+source",
+   "was": "beide Felder fehlten (numeric ohne explanation/source)",
+   "now": "explanation mit Quelle-Marker und source 'ari21_vl06, Folie 12 (S.12, Rückblick)' ergänzt",
+   "why": "Vorgabe: jede explanation endet mit Quelle-Marker, jede Frage hat source; Beleg 2·(2+6)=16 auf Folie 12"
+  },
+  {
+   "id": "ari21_vl06-b1-003",
+   "field": "explanation+source",
+   "was": "beide Felder fehlten (numeric ohne explanation/source)",
+   "now": "explanation mit Quelle-Marker und source 'ari21_vl06, Folie 12 (S.12, Rückblick)' ergänzt",
+   "why": "Vorgabe: jede explanation endet mit Quelle-Marker, jede Frage hat source; Beleg 7·(3+9)=84 auf Folie 12"
+  }
+ ],
+ "flagged": [],
+ "notes": [
+  "Slides 42/43/47: Der fulltext.txt-OCR vertauscht die Junktorsymbole (∧/∨), die PNG-Bilder zeigen jedoch die korrekte Konvention und=∧, oder=∨. Fragen b3-004..b3-012 stimmen mit den Bildern überein — keine Änderung nötig.",
+  "b1-006 (Folie 8) und b1-008 (Folie 7): Ian-Stewart-Zitat und figurierte-Zahlen-Grafik (b=a·p, c=q·b=q·a·p=a·(q·p), also a|c) sind auf den PNGs belegt, im fulltext.txt aber nicht enthalten (Bildinhalt). Keine Halluzination, correct-Indizes stimmen.",
+  "Seitenzahlen konsistent: Foliennummer '< N >' entspricht durchgängig der PDF-Seite N; alle source-Angaben (S.NN) korrekt.",
+  "Alle übrigen 40 Fragen (Summenregel, Transitivität, Mengen ∈/⊆, kontradiktorisch/konträr, Wahrheitstafeln) am Bild/fulltext eindeutig belegt — keine Korrektur erforderlich."
+ ]
+}
