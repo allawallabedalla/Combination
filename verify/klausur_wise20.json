@@ -1,0 +1,13 @@
+{
+  "code": "klausur_wise20",
+  "checked": 11,
+  "fixed": [],
+  "flagged": [],
+  "notes": [
+    "Alle 11 Fragen gegen S.2-S.8 geprueft. Peano-Axiome i)-iv) auf S.2 (b1-001/002) korrekt; 0 und Vorgaenger werden nicht gefordert.",
+    "Binomieren x◆y=(x+y)(x-y) auf S.3: 5◆3=8·2=16 (b1-004) korrekt; nicht kommutativ (b1-003) korrekt.",
+    "Dreierbuendelung 100: 100=1·81+0·27+2·9+0·3+1=10201_3 (b1-005) und Multi-Aussagen (b1-006) nachgerechnet und korrekt; 10001_3=82, 2·3⁴+1·3²=171 zu Recht falsch.",
+    "Negation a|b⇒a|(b-a) auf S.4 (b1-007), Dreifachspiegelung kopunktal→Geradenspiegelung auf S.5 (b1-008), Kontraposition auf S.7 (b1-009), 5·7=35 und (a-k)(a+k)=a²-k² auf S.8 (b1-010/011) alle belegt und korrekt.",
+    "Alle source-Angaben und Quelle-Marker stimmen mit den Seitenzahlen ueberein. Keine belegten Fehler gefunden."
+  ]
+}
