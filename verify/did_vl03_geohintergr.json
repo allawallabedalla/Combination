@@ -1,0 +1,12 @@
+{
+ "code": "did_vl03_geohintergr",
+ "checked": 27,
+ "fixed": [],
+ "flagged": [],
+ "notes": [
+  "Alle 27 Fragen gegen die zitierten Folien (S.4-8, S.15-19) geprueft; alle correct-Indizes, Zuordnungen, Autoren, Jahreszahlen, Quellen und Seitenzahlen folientreu.",
+  "Autorenname 'Freundenthal' (Fragen b1-003/b1-004) entspricht exakt der Folienschreibweise auf S.5 (Folie schreibt 'Hans Freundenthal 1974'); nicht nach Aussenwissen ('Freudenthal') geaendert.",
+  "b1-026 (numeric): Folie 19 zeigt '3·4=12' bzw. '4·3=12' -> answer 12 korrekt.",
+  "b1-027: Folie 19 zeigt Zerlegungen 2+3+2=7, 1+6=7, 5+2=7, 4+3=7 (alle vier korrekt)."
+ ]
+}
