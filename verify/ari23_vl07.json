@@ -1,0 +1,15 @@
+{
+ "code": "ari23_vl07",
+ "checked": 66,
+ "fixed": [],
+ "flagged": [],
+ "notes": [
+  "Folien-/Seitennummerierung stimmt 1:1 (Folie N = S.N = pNNN.png), durch Fusszeilen-Marker < N > belegt.",
+  "Alle Formeln folientreu geprueft: Rechteck A=(n·m)·e²=a·b (F6), Parallelogramm A=g·h (F7), Dreieck A=(g·h)/2 (F11), sym. Drache A=(g·h)/2 bzw. d1·d2/2 (F12/F20), Trapez A=h·(g1+g2)/2 (F16-20), Pythagoras a²+b²=c² (F23/26), Kathetensatz a²=p·c bzw. b²=q·c (F30-33), Hoehensatz h_c²=p·q (F34-36) — alle korrekt.",
+  "Numerische Antworten alle geprueft und korrekt: 12,24,20,24,18,50,30,49,6,24,25,35.",
+  "b3-001/b3-002 verweisen auf Folie 31: dort ist der (Katheten-)Satz-Kasten neben dem Beweis erneut abgebildet (Bild bestaetigt), Quelle korrekt.",
+  "Figuren-basierte Fragen per PNG geprueft: F9 (kongruente Teildreiecke), F13 (A(F_R)=A(F_Dr)=29,59), F15 (parallele Seiten a und c mit Doppelstrich), F20 (Haus der Vierecke), F26 (Pythagoras-Beweis), F45 (Induktionsformel n·(2n-1)·(2n+1)/3) — alle folientreu.",
+  "b1-012 Option 'g·(h/2)': auf Folie 11 explizit nur (g/2)·h und (g·h)/2 gezeigt; g·(h/2) ist mathematisch aequivalent, daher keine belegte Falschmarkierung — nicht geaendert (konservativ).",
+  "Alle 66 Fragen besitzen ein source-Feld und eine explanation, die mit dem Marker '📄 Quelle: ari23_vl07, Folie N (S.NN)' endet; Schema (single/multi/numeric) durchgaengig gueltig."
+ ]
+}
