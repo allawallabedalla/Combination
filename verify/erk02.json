@@ -1,0 +1,11 @@
+{"code":"erk02","checked":6,
+ "fixed":[],
+ "flagged":[],
+ "notes":["Alle 6 Fragen gegen p001 (S.1, Schulbuchseite Matheprofis 3 S.108) und p002 (S.2, Erkundung II) geprueft.",
+  "Q001: Fibonacci-Definition f_1=1, f_2=1, f_n=f_{n-2}+f_{n-1} (n>2) exakt wie auf S.2 (Punkt 3); Produkt-Option korrekt als falsch. correct [0,1,2] belegt.",
+  "Q002: Folge 1,1,2,3,5,8,13,21,34 auf S.1; naechste Zahl 21+34=55 korrekt.",
+  "Q003: Aussprache laut Sprechblase S.1 'Fibonatschi', nicht 'Fibonakki' -> Distraktor korrekt falsch; Herkunft/Mittelalter/Folge belegt. correct [0,1,2].",
+  "Q004: Aufgabe 2 auf S.1 mit Startzahlen 170 und 220; dritte Stelle 170+220=390 korrekt.",
+  "Q005: Erkundung II (S.2) mit anderen Startzahlen, Beispiel f_1=4, f_2=7; Untersuchung Haeufigkeit erste/zweite Startzahl in Folgezahlen/Summe belegt; Regelaenderung f_{n-1}-f_{n-2} korrekt falsch. correct [0,1,2].",
+  "Q006: Erkundung I (S.2): grafisch mit Quadraten (Seitenlaenge Fibonacci-Zahl), Satz/Hypothese fuer Summenformel, Beweis mit vollstaendiger Induktion belegt; 'Ausmultiplizieren' korrekt falsch. correct [0,1,2].",
+  "Alle Quellenmarker (Folie/Seite) korrekt; kein Off-by-one. Keine belegten Fehler, keine Korrektur noetig."]}
