@@ -1,0 +1,14 @@
+{
+ "code": "did_vl02_einf",
+ "checked": 63,
+ "fixed": [],
+ "flagged": [],
+ "notes": [
+  "Alle 63 Fragen (29x b1, 34x b2) gegen die zitierten Folien (S.4-S.27 -> p004-p027) geprueft. Keine am Bild belegten Fehler gefunden; alle correct-Indizes, numerischen Antworten, Formeln, Quellen/Seitenzahlen und 📄-Marker sind folientreu.",
+  "Zahlengitter (S.25/p025): Gitter 0-2-4 / 5-7-9 / 10-12-14 mit +2 (horizontal) und +5 (vertikal) bestaetigt; Zielzahl 14, Mittelzahl 7 (b2-028, b2-029) korrekt.",
+  "Aufgabenpaerchen-Summen (S.6/p006): a)8000 b)2000 c)1000 d)500 e)4000 bestaetigt; b1-008 (e)3000 als falsche Option) korrekt.",
+  "Zeitreise (S.13/p013): Reihenfolge damals->heute (Humboldt/Bildungsideale ... Bildungsstandards und Kompetenzorientierung) bestaetigt; b1-024/025/026/027/028 korrekt.",
+  "SPIEGEL-Titel (S.14/p014): Folienunterschrift nennt '16. Maerz 1970'; Frage b1-029 uebernimmt diese Jahresangabe folientreu, Schlagzeile 'Macht Mengenlehre krank?' korrekt.",
+  "Quelle der Anforderungsbereiche-Tabelle (S.22/p022): 'Walther et al. (2007) Bildungsstandards in der Grundschule, S. 12' bestaetigt (b2-023)."
+ ]
+}
