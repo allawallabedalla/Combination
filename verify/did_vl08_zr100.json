@@ -1,0 +1,14 @@
+{
+ "code": "did_vl08_zr100",
+ "checked": 22,
+ "fixed": [],
+ "flagged": [],
+ "notes": [
+  "Alle 22 Fragen gegen die zitierten Folien geprueft (S.4-S.16). Keine belegten Fehler.",
+  "b1-004/b1-005: Diktierte Zahlen a) 5,12,18,20 und b) 25,73,98,39 folientreu (Folie 5).",
+  "b1-010: EIS-Zuordnungen (symbolisch=Zahlen&Rechenaufgaben 5+3, ikonisch=Bildliche Darstellung, enaktiv=Handlung an Materialien) folientreu (Folie 7).",
+  "b1-014: Definition Standortbestimmung nach Sundermann/Selter 2006, S.21 folientreu (Folie 10).",
+  "b1-017: Marina, 8 Wochen spaeter, folientreu (Folie 11).",
+  "Alle source-Angaben und Quelle-Marker korrekt; keine Off-by-one-Seitenfehler."
+ ]
+}
