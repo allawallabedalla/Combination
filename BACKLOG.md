@@ -92,6 +92,19 @@ Beweise führen** · Wissen eigenständig erwerben.
 - Sollen MC-Fragen zusätzlich in offene „Erkläre/Begründe"-Prompts umgewandelt werden (mehr Volumen)?
 - Exakte **Dauer** aus dem **Modulhandbuch 2014** verifizieren (PO verweist dorthin).
 
+## AUFGABE: Mathe-Formeln (LaTeX/KaTeX) in ALLEN mathematischen Texten
+Ziel: echte Formeldarstellung statt Unicode-Behelf (Brüche, Wurzeln, Indizes, Summen …).
+- **Stufe 1 – Infrastruktur: ✅ fertig.** KaTeX lokal gevendort (`vendor/katex/`, offline, im SW precached),
+  `mathify()` in js/app.js rendert `$…$` (inline) / `$$…$$` (abgesetzt), überall an den Content-Stellen
+  eingebunden (Quiz/Prüfung: Frage, Optionen, Erklärung; Mündlich: frage, musterantwort, kriterien).
+  Kein `$` → normales HTML-escaping (Unicode-Altbestand bleibt unversehrt). Pilot: `oral-pythagoras-4`.
+- **Stufe 2 – Inhalts-Migration: ⏭️ OFFEN (der große Teil).** Unicode-Mathe → `$…$`-LaTeX in
+  **allen** Fragen: `material/oral.json` (65) **und** `gen/*.json` (2099, Felder question/options/explanation).
+  Vorgehen wie bei den bisherigen Läufen: Subagenten je Skript-Bündel, Regel „nur Mathe in `$…$` fassen,
+  Antwort-Key/Bedeutung unverändert", danach `pipeline/build_content.py` (baut questions.js + oral.js) +
+  App-Test. Gemischt möglich: unkonvertierte Fragen zeigen weiter Unicode, brechen nicht.
+  Hinweis: Optionen werden auch in `aria-label`-Attributen genutzt (dort weiter `esc`, NICHT `mathify`).
+
 ## WICHTIG / BUG: Fremd-Inhalte (ADT-Trainer) dürfen NICHT erscheinen
 Der Nutzer sah noch Fragen/Prüfungen aus dem alten **ADT-Trainer**.
 - **Ursache:** `data/questions.js` bevorzugte einen localStorage-Cache `adt_content_v1` vor dem

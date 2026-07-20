@@ -710,6 +710,30 @@ const streakEl = document.getElementById("streakVal");
 
 function esc(s) { return String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c])); }
 
+/* Mathe-Formeln: rendert LaTeX in $…$ (inline) bzw. $$…$$ (abgesetzt) via KaTeX,
+ * der übrige Text wird normal HTML-escaped. Kein $ oder KaTeX fehlt → reines esc().
+ * Rückgabe ist fertiges HTML (per innerHTML einsetzbar). NICHT in Attributen verwenden. */
+function mathify(text) {
+  if (text == null) return "";
+  var s = String(text);
+  if (s.indexOf("$") === -1 || typeof katex === "undefined") return esc(s);
+  var out = "", i = 0, n = s.length;
+  while (i < n) {
+    var d = s.indexOf("$", i);
+    if (d === -1) { out += esc(s.slice(i)); break; }
+    out += esc(s.slice(i, d));
+    var display = s[d + 1] === "$";
+    var open = d + (display ? 2 : 1);
+    var close = s.indexOf(display ? "$$" : "$", open);
+    if (close === -1) { out += esc(s.slice(d)); break; }  // kein Abschluss → literal
+    var tex = s.slice(open, close);
+    try { out += katex.renderToString(tex, { throwOnError: false, displayMode: display }); }
+    catch (e) { out += esc((display ? "$$" : "$") + tex + (display ? "$$" : "$")); }
+    i = close + (display ? 2 : 1);
+  }
+  return out;
+}
+
 /* ---- SVG-Icon-System (SF-Symbols-Stil, monochром, via currentColor) ---- */
 const ICONS = {
   shuffle: '<path d="M4 7h3c1.2 0 2 .6 2.7 1.6l4.6 6.8c.7 1 1.5 1.6 2.7 1.6h3"/><path d="M4 17h3c1.2 0 2-.6 2.7-1.6l.6-.9"/><path d="M14.4 9.5l.6-.9C15.7 7.6 16.5 7 17.7 7H20"/><path d="M17.5 4.5L20 7l-2.5 2.5"/><path d="M17.5 14.5L20 17l-2.5 2.5"/>',
@@ -1188,7 +1212,7 @@ function renderQuiz() {
     const ariaAttr = aria ? ` aria-label="${esc(q.options[origIdx] + " – " + aria)}"` : "";
     const tabindex = checked ? "-1" : (origIdx === activeIdx ? "0" : "-1");
     return `<button class="${cls}" data-oi="${origIdx}" role="${optRole}" aria-checked="${isPicked ? "true" : "false"}" tabindex="${tabindex}" ${checked ? "disabled aria-disabled=\"true\"" : ""}${ariaAttr}>
-      <span class="box" aria-hidden="true">${mark}</span><span class="otext">${esc(q.options[origIdx])}${note}</span></button>`;
+      <span class="box" aria-hidden="true">${mark}</span><span class="otext">${mathify(q.options[origIdx])}${note}</span></button>`;
   }).join("");
 
   // Freie Zahl-Eingabe (Rechen-/Anwendungsaufgabe)
@@ -1211,7 +1235,7 @@ function renderQuiz() {
     const ok = SESSION.correctFlags[i];
     const solved = numeric ? `<div class="solved">Richtige Antwort: <b>${esc(correctAnswerText(q))}</b></div>` : "";
     explain = `<div class="explain ${ok ? "ok" : "no"}" id="explainBox" tabindex="-1" role="status">
-      <b class="verdict">${ok ? "✅ Richtig" : "❌ Nicht ganz"}</b>${solved}${esc(q.explanation)}</div>`;
+      <b class="verdict">${ok ? "✅ Richtig" : "❌ Nicht ganz"}</b>${solved}${mathify(q.explanation)}</div>`;
   }
 
   const typeChip = numeric
@@ -1232,7 +1256,7 @@ function renderQuiz() {
         <span class="chip">${diffTxt}</span>
         ${typeChip}
       </div>
-      <p class="q-text">${esc(q.question)}</p>
+      <p class="q-text">${mathify(q.question)}</p>
       ${hint}
       ${answerArea}
       ${explain}
@@ -1451,7 +1475,7 @@ function renderExam() {
     const cls = "opt type-" + q.type + (isPicked ? " selected" : "");
     const mark = isPicked ? (q.type === "single" ? "●" : "✓") : "";
     const tabindex = origIdx === activeIdx ? "0" : "-1";
-    return `<button class="${cls}" data-eoi="${origIdx}" role="${optRole}" aria-checked="${isPicked ? "true" : "false"}" tabindex="${tabindex}"><span class="box" aria-hidden="true">${mark}</span><span class="otext">${esc(q.options[origIdx])}</span></button>`;
+    return `<button class="${cls}" data-eoi="${origIdx}" role="${optRole}" aria-checked="${isPicked ? "true" : "false"}" tabindex="${tabindex}"><span class="box" aria-hidden="true">${mark}</span><span class="otext">${mathify(q.options[origIdx])}</span></button>`;
   }).join("");
 
   let answerArea;
@@ -1479,7 +1503,7 @@ function renderExam() {
     </div>
     <div class="q-card">
       <div class="q-meta"><span class="chip" style="background:${t.color}22;color:${t.color}"><span class="cdot" style="background:${t.color}"></span>${esc(t.name)}</span>${typeChip}</div>
-      <p class="q-text">${esc(q.question)}</p>
+      <p class="q-text">${mathify(q.question)}</p>
       ${hint}
       ${answerArea}
     </div>
@@ -1590,15 +1614,15 @@ function renderExamResult() {
   const review = res.results.map((r, k) => {
     const q = r.q;
     const your = r.picks.length
-      ? (q.type === "numeric" ? esc(fmtNum(r.picks[0]) + (q.unit ? " " + q.unit : "")) : r.picks.map(i => esc(q.options[i])).join(", "))
+      ? (q.type === "numeric" ? esc(fmtNum(r.picks[0]) + (q.unit ? " " + q.unit : "")) : r.picks.map(i => mathify(q.options[i])).join(", "))
       : "— (nicht beantwortet)";
     const corr = esc(correctAnswerText(q));
     return `<div class="review-item ${r.ok ? "ok" : "no"}">
       <div class="ri-head">${r.ok ? "✅" : "❌"} <b>Frage ${k + 1}</b> · ${esc(TOPICS[q.topic].name)}</div>
-      <p class="ri-q">${esc(q.question)}</p>
+      <p class="ri-q">${mathify(q.question)}</p>
       <p class="ri-line"><span class="ri-lab">Deine Antwort:</span> ${your}</p>
       ${r.ok ? "" : `<p class="ri-line"><span class="ri-lab">Richtig:</span> ${corr}</p>`}
-      <p class="ri-exp">${esc(q.explanation)}</p>
+      <p class="ri-exp">${mathify(q.explanation)}</p>
     </div>`;
   }).join("");
 
@@ -2267,13 +2291,13 @@ function renderOral() {
       </div>
       <span class="chip" style="background:#af52de22;color:#af52de">${esc(q.schwerpunkt_name)}</span>
       <span class="chip" style="margin-left:6px">${esc(ORAL_STUFE[q.stufe] || q.stufe)}</span>
-      <p style="margin:12px 0 0;font-size:18px;font-weight:600;line-height:1.4">${esc(q.frage)}</p>
+      <p style="margin:12px 0 0;font-size:18px;font-weight:600;line-height:1.4">${mathify(q.frage)}</p>
     </div>
     ${revealed ? `
       <div class="section-title">Musterantwort</div>
-      <div class="q-card"><p style="margin:0;line-height:1.55">${esc(q.musterantwort)}</p></div>
+      <div class="q-card"><p style="margin:0;line-height:1.55">${mathify(q.musterantwort)}</p></div>
       <div class="section-title">Bewertungskriterien</div>
-      <div class="q-card"><ul style="margin:0;padding-left:18px;line-height:1.5">${q.kriterien.map(k => `<li>${esc(k)}</li>`).join("")}</ul></div>
+      <div class="q-card"><ul style="margin:0;padding-left:18px;line-height:1.5">${q.kriterien.map(k => `<li>${mathify(k)}</li>`).join("")}</ul></div>
       <div class="section-title">Wie gut war deine Antwort?</div>
       <div style="display:flex;gap:8px;flex-wrap:wrap">${ORAL_RATE.map((r, i) => `<button class="goal-chip${rating === i ? " sel" : ""}" data-rate="${i}">${esc(r)}</button>`).join("")}</div>
     ` : `<div class="q-card" style="text-align:center"><p class="muted" style="margin:0">Antworte zuerst frei und laut – wie in der echten Prüfung. Dann Musterantwort einblenden.</p></div>`}`;
