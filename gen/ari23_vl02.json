@@ -24,17 +24,17 @@
     "topic": "ari23_vl02_gauss_summe",
     "difficulty": 1,
     "type": "single",
-    "question": "Wie lautet die Formel für die Summe Sₙ := 1 + 2 + 3 + … + (n-2) + (n-1) + n?",
+    "question": "Wie lautet die Formel für die Summe $S_n := 1 + 2 + 3 + \\dots + (n-2) + (n-1) + n$?",
     "options": [
-      "Sₙ = n/2 · (n+1)",
-      "Sₙ = n · (n+1)",
-      "Sₙ = (n+1)/2",
-      "Sₙ = n² / 2"
+      "$S_n = \\frac{n}{2} \\cdot (n+1)$",
+      "$S_n = n \\cdot (n+1)$",
+      "$S_n = \\frac{n+1}{2}$",
+      "$S_n = \\frac{n^2}{2}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der handschriftliche Satz auf der Folie gibt Sₙ = n/2 · (n+1). 📄 Quelle: ari23_vl02, Folie 4 (S.4)",
+    "explanation": "Der handschriftliche Satz auf der Folie gibt $S_n = \\frac{n}{2} \\cdot (n+1)$. 📄 Quelle: ari23_vl02, Folie 4 (S.4)",
     "source": "ari23_vl02, Folie 4 (S.4, Rückblick)"
   },
   {
@@ -42,11 +42,11 @@
     "topic": "ari23_vl02_gauss_summe",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Berechne mit der Formel Sₙ = n/2 · (n+1) den Wert von S₁₀ = 1 + 2 + 3 + … + 10.",
+    "question": "Berechne mit der Formel $S_n = \\frac{n}{2} \\cdot (n+1)$ den Wert von $S_{10} = 1 + 2 + 3 + \\dots + 10$.",
     "answer": 55,
     "tolerance": 0,
     "unit": "",
-    "explanation": "S₁₀ = 10/2 · (10+1) = 5 · 11 = 55. 📄 Quelle: ari23_vl02, Folie 4 (S.4)",
+    "explanation": "$S_{10} = \\frac{10}{2} \\cdot (10+1) = 5 \\cdot 11 = 55$. 📄 Quelle: ari23_vl02, Folie 4 (S.4)",
     "source": "ari23_vl02, Folie 4 (S.4, Rückblick)"
   },
   {
@@ -92,17 +92,17 @@
     "topic": "ari23_vl02_satzstruktur",
     "difficulty": 2,
     "type": "single",
-    "question": "Vervollständige die Wenn-Dann-Formulierung: „Für alle natürlichen Zahlen n gilt: Wenn Sₙ die Summe der ersten n natürlichen Zahlen ist, also Sₙ = 1 + 2 + 3 + … + (n-2) + (n-1) + n, dann ist Sₙ = …“",
+    "question": "Vervollständige die Wenn-Dann-Formulierung: „Für alle natürlichen Zahlen n gilt: Wenn $S_n$ die Summe der ersten n natürlichen Zahlen ist, also $S_n = 1 + 2 + 3 + \\dots + (n-2) + (n-1) + n$, dann ist $S_n$ = …“",
     "options": [
-      "n/2 · (n+1)",
-      "n · (n+1)",
-      "(n-1)/2 · n",
-      "2 · n + 1"
+      "$\\frac{n}{2} \\cdot (n+1)$",
+      "$n \\cdot (n+1)$",
+      "$\\frac{n-1}{2} \\cdot n$",
+      "$2 \\cdot n + 1$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der „Dann“-Teil des Satzes lautet Sₙ = n/2 · (n+1). 📄 Quelle: ari23_vl02, Folie 5 (S.5)",
+    "explanation": "Der „Dann“-Teil des Satzes lautet $S_n = \\frac{n}{2} \\cdot (n+1)$. 📄 Quelle: ari23_vl02, Folie 5 (S.5)",
     "source": "ari23_vl02, Folie 5 (S.5, Rückblick)"
   },
   {
@@ -124,17 +124,17 @@
     "type": "multi",
     "question": "Welche Wertepaare (Verdopplung → Summe) stehen so in der Tabelle der Reiskörner-Erkundung?",
     "options": [
-      "32 → 63",
-      "512 → 1023",
-      "32768 → 65535",
-      "1024 → 2048"
+      "$32 \\to 63$",
+      "$512 \\to 1023$",
+      "$32768 \\to 65535$",
+      "$1024 \\to 2048$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Laut Tabelle: 32→63, 512→1023, 32768→65535; zum Verdopplungswert 1024 gehört die Summe 2047 (nicht 2048). 📄 Quelle: ari23_vl02, Folie 7 (S.7)",
+    "explanation": "Laut Tabelle: $32 \\to 63$, $512 \\to 1023$, $32768 \\to 65535$; zum Verdopplungswert 1024 gehört die Summe 2047 (nicht 2048). 📄 Quelle: ari23_vl02, Folie 7 (S.7)",
     "source": "ari23_vl02, Folie 7 (S.7, Erkundung I – Verdopplung der Reiskörner)"
   },
   {
@@ -197,17 +197,17 @@
     "topic": "ari23_vl02_formalisieren",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lautet die formalisierte Summen-Folge GL1 für Sₙ bei der Ver-3-fachung?",
+    "question": "Wie lautet die formalisierte Summen-Folge GL1 für $S_n$ bei der Ver-3-fachung?",
     "options": [
-      "Sₙ = 1 + 3¹ + 3² + … + 3^(n-2) + 3^(n-1)",
-      "Sₙ = 1 + 3¹ + 3² + … + 3^n",
-      "Sₙ = 3¹ + 3² + … + 3^(n-1)",
-      "Sₙ = 1 + 2¹ + 2² + … + 2^(n-1)"
+      "$S_n = 1 + 3^1 + 3^2 + \\dots + 3^{n-2} + 3^{n-1}$",
+      "$S_n = 1 + 3^1 + 3^2 + \\dots + 3^n$",
+      "$S_n = 3^1 + 3^2 + \\dots + 3^{n-1}$",
+      "$S_n = 1 + 2^1 + 2^2 + \\dots + 2^{n-1}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "GL1 lautet Sₙ = 1 + 3¹ + 3² + … + 3^(n-2) + 3^(n-1). 📄 Quelle: ari23_vl02, Folie 9 (S.9)",
+    "explanation": "GL1 lautet $S_n = 1 + 3^1 + 3^2 + \\dots + 3^{n-2} + 3^{n-1}$. 📄 Quelle: ari23_vl02, Folie 9 (S.9)",
     "source": "ari23_vl02, Folie 9 (S.9, Erkundung II)"
   },
   {
@@ -215,17 +215,17 @@
     "topic": "ari23_vl02_formalisieren",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lautet die Darstellung GL2 von Sₙ, wenn man in der Summe die 3 ausklammert?",
+    "question": "Wie lautet die Darstellung GL2 von $S_n$, wenn man in der Summe die 3 ausklammert?",
     "options": [
-      "Sₙ = 1 + 3 · (1 + 3¹ + … + 3^(n-3) + 3^(n-2))",
-      "Sₙ = 3 · (1 + 3¹ + … + 3^(n-1))",
-      "Sₙ = 1 + 3 · (3¹ + 3² + … + 3^(n-1))",
-      "Sₙ = 1 + 3^(n-1) · (1 + 3 + 3²)"
+      "$S_n = 1 + 3 \\cdot (1 + 3^1 + \\dots + 3^{n-3} + 3^{n-2})$",
+      "$S_n = 3 \\cdot (1 + 3^1 + \\dots + 3^{n-1})$",
+      "$S_n = 1 + 3 \\cdot (3^1 + 3^2 + \\dots + 3^{n-1})$",
+      "$S_n = 1 + 3^{n-1} \\cdot (1 + 3 + 3^2)$"
     ],
     "correct": [
       0
     ],
-    "explanation": "GL2 entsteht durch Ausklammern der 3: Sₙ = 1 + 3 · (1 + 3¹ + … + 3^(n-3) + 3^(n-2)). 📄 Quelle: ari23_vl02, Folie 9 (S.9)",
+    "explanation": "GL2 entsteht durch Ausklammern der 3: $S_n = 1 + 3 \\cdot (1 + 3^1 + \\dots + 3^{n-3} + 3^{n-2})$. 📄 Quelle: ari23_vl02, Folie 9 (S.9)",
     "source": "ari23_vl02, Folie 9 (S.9, Erkundung II)"
   },
   {
@@ -237,7 +237,7 @@
     "options": [
       "Strategie: Anders darstellen",
       "Ziel: auf einer Seite der Gleichung eine Summen-Folge, auf der anderen eine nur noch von n abhängige Zahl",
-      "Als Vorbild dient die Gauß-Formel Sₙ = n·(n+1)/2",
+      "Als Vorbild dient die Gauß-Formel $S_n = \\frac{n \\cdot (n+1)}{2}$",
       "Ziel ist es, beide Seiten der Gleichung als Summen-Folge zu behalten"
     ],
     "correct": [
@@ -245,7 +245,7 @@
       1,
       2
     ],
-    "explanation": "Die Folie nennt die Strategie „Anders darstellen“ und die Idee, eine Seite als Summen-Folge, die andere als nur von n abhängige Zahl (wie bei Gauß Sₙ = n·(n+1)/2) zu erhalten. 📄 Quelle: ari23_vl02, Folie 9 (S.9)",
+    "explanation": "Die Folie nennt die Strategie „Anders darstellen“ und die Idee, eine Seite als Summen-Folge, die andere als nur von n abhängige Zahl (wie bei Gauß $S_n = \\frac{n \\cdot (n+1)}{2}$) zu erhalten. 📄 Quelle: ari23_vl02, Folie 9 (S.9)",
     "source": "ari23_vl02, Folie 9 (S.9, Erkundung II)"
   },
   {
@@ -255,15 +255,15 @@
     "type": "single",
     "question": "Erkundung II: Welche Gleichung ergibt sich nach dem ersten Umformungsschritt aus GL1 = GL2?",
     "options": [
-      "3^(n-1) = 1 + 2 · (1 + 3¹ + … + 3^(n-3) + 3^(n-2))",
-      "3^(n-1) = 1 + 3 · (1 + 3¹ + … + 3^(n-2))",
-      "3^(n-1) = 2 · (1 + 3¹ + … + 3^(n-1))",
-      "3^n = 1 + 2 · (1 + 3¹ + … + 3^(n-2))"
+      "$3^{n-1} = 1 + 2 \\cdot (1 + 3^1 + \\dots + 3^{n-3} + 3^{n-2})$",
+      "$3^{n-1} = 1 + 3 \\cdot (1 + 3^1 + \\dots + 3^{n-2})$",
+      "$3^{n-1} = 2 \\cdot (1 + 3^1 + \\dots + 3^{n-1})$",
+      "$3^n = 1 + 2 \\cdot (1 + 3^1 + \\dots + 3^{n-2})$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Aus GL1 = GL2 folgt 3^(n-1) = 1 + 2 · (1 + 3¹ + … + 3^(n-3) + 3^(n-2)). 📄 Quelle: ari23_vl02, Folie 10 (S.10)",
+    "explanation": "Aus GL1 = GL2 folgt $3^{n-1} = 1 + 2 \\cdot (1 + 3^1 + \\dots + 3^{n-3} + 3^{n-2})$. 📄 Quelle: ari23_vl02, Folie 10 (S.10)",
     "source": "ari23_vl02, Folie 10 (S.10, Erkundung II)"
   },
   {
@@ -271,17 +271,17 @@
     "topic": "ari23_vl02_umformung",
     "difficulty": 3,
     "type": "single",
-    "question": "Zu welchem Ausdruck ist (3^(n-1) − 1)/2 gleich?",
+    "question": "Zu welchem Ausdruck ist $\\frac{3^{n-1} - 1}{2}$ gleich?",
     "options": [
-      "1 + 3¹ + … + 3^(n-3) + 3^(n-2) = Sₙ − 3^(n-1)",
-      "Sₙ",
-      "Sₙ + 3^(n-1)",
-      "3^(n-1)"
+      "$1 + 3^1 + \\dots + 3^{n-3} + 3^{n-2} = S_n - 3^{n-1}$",
+      "$S_n$",
+      "$S_n + 3^{n-1}$",
+      "$3^{n-1}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Nach den Umformungen gilt (3^(n-1) − 1)/2 = 1 + 3¹ + … + 3^(n-3) + 3^(n-2) = Sₙ − 3^(n-1). 📄 Quelle: ari23_vl02, Folie 10 (S.10)",
+    "explanation": "Nach den Umformungen gilt $\\frac{3^{n-1} - 1}{2} = 1 + 3^1 + \\dots + 3^{n-3} + 3^{n-2} = S_n - 3^{n-1}$. 📄 Quelle: ari23_vl02, Folie 10 (S.10)",
     "source": "ari23_vl02, Folie 10 (S.10, Erkundung II)"
   },
   {
@@ -293,7 +293,7 @@
     "options": [
       "Es wird GL1 = GL2 gesetzt",
       "Die Gleichungen werden durch Umformungen manipuliert",
-      "Aus 3^(n-1) = 1 + 2 · (…) wird durch Subtraktion von 1: 3^(n-1) − 1 = 2 · (…)",
+      "Aus $3^{n-1} = 1 + 2 \\cdot (\\dots)$ wird durch Subtraktion von 1: $3^{n-1} - 1 = 2 \\cdot (\\dots)$",
       "Es wird eine zusätzliche Voraussetzung neu erfunden"
     ],
     "correct": [
@@ -301,7 +301,7 @@
       1,
       2
     ],
-    "explanation": "Die Folie setzt GL1 = GL2 und formt durch Manipulation um: 3^(n-1) − 1 = 2 · (1 + 3¹ + … + 3^(n-2)). 📄 Quelle: ari23_vl02, Folie 10 (S.10)",
+    "explanation": "Die Folie setzt GL1 = GL2 und formt durch Manipulation um: $3^{n-1} - 1 = 2 \\cdot (1 + 3^1 + \\dots + 3^{n-2})$. 📄 Quelle: ari23_vl02, Folie 10 (S.10)",
     "source": "ari23_vl02, Folie 10 (S.10, Erkundung II)"
   },
   {
@@ -309,17 +309,17 @@
     "topic": "ari23_vl02_summenformel",
     "difficulty": 2,
     "type": "single",
-    "question": "Welches Endergebnis für Sₙ (Ver-3-fachung) ergibt sich durch die Umformungen?",
+    "question": "Welches Endergebnis für $S_n$ (Ver-3-fachung) ergibt sich durch die Umformungen?",
     "options": [
-      "Sₙ = (3^n − 1)/2",
-      "Sₙ = (3^(n-1) − 1)/2",
-      "Sₙ = (3^n − 1)/3",
-      "Sₙ = 3^n − 1"
+      "$S_n = \\frac{3^n - 1}{2}$",
+      "$S_n = \\frac{3^{n-1} - 1}{2}$",
+      "$S_n = \\frac{3^n - 1}{3}$",
+      "$S_n = 3^n - 1$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Am Ende der Umformungskette steht (3^n − 1)/2 = Sₙ. 📄 Quelle: ari23_vl02, Folie 11 (S.11)",
+    "explanation": "Am Ende der Umformungskette steht $\\frac{3^n - 1}{2} = S_n$. 📄 Quelle: ari23_vl02, Folie 11 (S.11)",
     "source": "ari23_vl02, Folie 11 (S.11, Erkundung II)"
   },
   {
@@ -327,17 +327,17 @@
     "topic": "ari23_vl02_summenformel",
     "difficulty": 3,
     "type": "single",
-    "question": "Wie wird der Zähler im Schritt (3 · 3^(n-1) − 1)/2 umgeschrieben?",
+    "question": "Wie wird der Zähler im Schritt $\\frac{3 \\cdot 3^{n-1} - 1}{2}$ umgeschrieben?",
     "options": [
-      "3 · 3^(n-1) − 1 = 3^(n-1) − 1 + 2 · 3^(n-1)",
-      "3 · 3^(n-1) − 1 = 3^(n-1) + 1",
-      "3 · 3^(n-1) − 1 = 2 · 3^(n-1) − 1",
-      "3 · 3^(n-1) − 1 = 3^(n-1) − 1"
+      "$3 \\cdot 3^{n-1} - 1 = 3^{n-1} - 1 + 2 \\cdot 3^{n-1}$",
+      "$3 \\cdot 3^{n-1} - 1 = 3^{n-1} + 1$",
+      "$3 \\cdot 3^{n-1} - 1 = 2 \\cdot 3^{n-1} - 1$",
+      "$3 \\cdot 3^{n-1} - 1 = 3^{n-1} - 1$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie wird 3·3^(n-1) − 1 = 3^(n-1) − 1 + 2·3^(n-1) geschrieben, was zu (3^n − 1)/2 = Sₙ führt. 📄 Quelle: ari23_vl02, Folie 11 (S.11)",
+    "explanation": "Auf der Folie wird $3 \\cdot 3^{n-1} - 1 = 3^{n-1} - 1 + 2 \\cdot 3^{n-1}$ geschrieben, was zu $\\frac{3^n - 1}{2} = S_n$ führt. 📄 Quelle: ari23_vl02, Folie 11 (S.11)",
     "source": "ari23_vl02, Folie 11 (S.11, Erkundung II)"
   },
   {
@@ -345,11 +345,11 @@
     "topic": "ari23_vl02_summenformel",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Setze die entdeckte Formel Sₙ = (3^n − 1)/2 für n = 4 ein. Ergebnis?",
+    "question": "Setze die entdeckte Formel $S_n = \\frac{3^n - 1}{2}$ für $n = 4$ ein. Ergebnis?",
     "answer": 40,
     "tolerance": 0,
     "unit": "",
-    "explanation": "S₄ = (3⁴ − 1)/2 = (81 − 1)/2 = 40 (stimmt mit der Summe im Feld 4 der Ver-3-fachung überein). 📄 Quelle: ari23_vl02, Folie 11 (S.11)",
+    "explanation": "$S_4 = \\frac{3^4 - 1}{2} = \\frac{81 - 1}{2} = 40$ (stimmt mit der Summe im Feld 4 der Ver-3-fachung überein). 📄 Quelle: ari23_vl02, Folie 11 (S.11)",
     "source": "ari23_vl02, Folie 11 (S.11, Erkundung II)"
   },
   {
@@ -359,17 +359,17 @@
     "type": "multi",
     "question": "Welche verallgemeinerten Summenformeln (für die Ver-2-/3-/4-/5-fachung) sind korrekt?",
     "options": [
-      "1 + 2¹ + 2² + … + 2^(n-1) = (2^n − 1)/1 = 2^n − 1",
-      "1 + 3¹ + 3² + … + 3^(n-1) = (3^n − 1)/2",
-      "1 + 4¹ + 4² + … + 4^(n-1) = (4^n − 1)/3",
-      "1 + 5¹ + 5² + … + 5^(n-1) = (5^n − 1)/5"
+      "$1 + 2^1 + 2^2 + \\dots + 2^{n-1} = \\frac{2^n - 1}{1} = 2^n - 1$",
+      "$1 + 3^1 + 3^2 + \\dots + 3^{n-1} = \\frac{3^n - 1}{2}$",
+      "$1 + 4^1 + 4^2 + \\dots + 4^{n-1} = \\frac{4^n - 1}{3}$",
+      "$1 + 5^1 + 5^2 + \\dots + 5^{n-1} = \\frac{5^n - 1}{5}$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Laut Folie ist der Nenner bei der Ver-5-fachung 4, also (5^n − 1)/4, nicht /5. 📄 Quelle: ari23_vl02, Folie 12 (S.12)",
+    "explanation": "Laut Folie ist der Nenner bei der Ver-5-fachung 4, also $\\frac{5^n - 1}{4}$, nicht /5. 📄 Quelle: ari23_vl02, Folie 12 (S.12)",
     "source": "ari23_vl02, Folie 12 (S.12, Erkundung II)"
   },
   {
@@ -377,17 +377,17 @@
     "topic": "ari23_vl02_verallgemeinerung",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lautet die allgemeine Formel für 1 + k¹ + k² + … + k^(n-1) und für welche k gilt sie?",
+    "question": "Wie lautet die allgemeine Formel für $1 + k^1 + k^2 + \\dots + k^{n-1}$ und für welche k gilt sie?",
     "options": [
-      "1 + k¹ + k² + … + k^(n-1) = (k^n − 1)/(k − 1) für k ≥ 2",
-      "1 + k¹ + … + k^(n-1) = (k^n − 1)/k für k ≥ 1",
-      "1 + k¹ + … + k^(n-1) = (k^(n-1) − 1)/(k − 1) für k ≥ 2",
-      "1 + k¹ + … + k^(n-1) = k^n − 1 für alle k"
+      "$1 + k^1 + k^2 + \\dots + k^{n-1} = \\frac{k^n - 1}{k - 1}$ für $k \\ge 2$",
+      "$1 + k^1 + \\dots + k^{n-1} = \\frac{k^n - 1}{k}$ für $k \\ge 1$",
+      "$1 + k^1 + \\dots + k^{n-1} = \\frac{k^{n-1} - 1}{k - 1}$ für $k \\ge 2$",
+      "$1 + k^1 + \\dots + k^{n-1} = k^n - 1$ für alle k"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie gibt 1 + k¹ + k² + … + k^(n-1) = (k^n − 1)/(k − 1) für k ≥ 2. 📄 Quelle: ari23_vl02, Folie 12 (S.12)",
+    "explanation": "Die Folie gibt $1 + k^1 + k^2 + \\dots + k^{n-1} = \\frac{k^n - 1}{k - 1}$ für $k \\ge 2$. 📄 Quelle: ari23_vl02, Folie 12 (S.12)",
     "source": "ari23_vl02, Folie 12 (S.12, Erkundung II)"
   },
   {
@@ -395,11 +395,11 @@
     "topic": "ari23_vl02_verallgemeinerung",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Welcher Nenner gehört in die Summenformel für die Ver-6-fachung, also 1 + 6¹ + … + 6^(n-1) = (6^n − 1)/?",
+    "question": "Welcher Nenner gehört in die Summenformel für die Ver-6-fachung, also $1 + 6^1 + \\dots + 6^{n-1} = \\frac{6^n - 1}{?}$",
     "answer": 5,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Auf der Folie: 1 + 6¹ + 6² + … + 6^(n-1) = (6^n − 1)/5. 📄 Quelle: ari23_vl02, Folie 12 (S.12)",
+    "explanation": "Auf der Folie: $1 + 6^1 + 6^2 + \\dots + 6^{n-1} = \\frac{6^n - 1}{5}$. 📄 Quelle: ari23_vl02, Folie 12 (S.12)",
     "source": "ari23_vl02, Folie 12 (S.12, Erkundung II)"
   },
   {
@@ -407,17 +407,17 @@
     "topic": "ari23_vl02_formel_anwendung",
     "difficulty": 1,
     "type": "single",
-    "question": "Wie lautet die allgemeine Formel für Sₙ = 1 + k¹ + k² + k³ + … + k^(n-3) + k^(n-2) + k^(n-1)?",
+    "question": "Wie lautet die allgemeine Formel für $S_n = 1 + k^1 + k^2 + k^3 + \\dots + k^{n-3} + k^{n-2} + k^{n-1}$?",
     "options": [
-      "Sₙ = 1 + k¹ + k² + k³ + … + k^(n-3) + k^(n-2) + k^(n-1) = (k^n − 1)/(k − 1)",
-      "Sₙ = 1 + k¹ + k² + … + k^(n-1) = (k^(n-1) − 1)/(k − 1)",
-      "Sₙ = k¹ + k² + … + k^n = (k^n − 1)/k",
-      "Sₙ = 1 + k¹ + … + k^n = k^n − 1"
+      "$S_n = 1 + k^1 + k^2 + k^3 + \\dots + k^{n-3} + k^{n-2} + k^{n-1} = \\frac{k^n - 1}{k - 1}$",
+      "$S_n = 1 + k^1 + k^2 + \\dots + k^{n-1} = \\frac{k^{n-1} - 1}{k - 1}$",
+      "$S_n = k^1 + k^2 + \\dots + k^n = \\frac{k^n - 1}{k}$",
+      "$S_n = 1 + k^1 + \\dots + k^n = k^n - 1$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Kasten auf der Folie zeigt Sₙ = 1 + k¹ + k² + k³ + … + k^(n-3) + k^(n-2) + k^(n-1) = (k^n − 1)/(k − 1). 📄 Quelle: ari23_vl02, Folie 13 (S.13)",
+    "explanation": "Der Kasten auf der Folie zeigt $S_n = 1 + k^1 + k^2 + k^3 + \\dots + k^{n-3} + k^{n-2} + k^{n-1} = \\frac{k^n - 1}{k - 1}$. 📄 Quelle: ari23_vl02, Folie 13 (S.13)",
     "source": "ari23_vl02, Folie 13 (S.13, Erkundung II)"
   },
   {
@@ -437,11 +437,11 @@
     "topic": "ari23_vl02_formel_anwendung",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Berechne mit der Formel S₇ bei einer Vervierfachung: S₇ = (4⁷ − 1)/(4 − 1). Ergebnis?",
+    "question": "Berechne mit der Formel $S_7$ bei einer Vervierfachung: $S_7 = \\frac{4^7 - 1}{4 - 1}$. Ergebnis?",
     "answer": 5461,
     "tolerance": 0,
     "unit": "",
-    "explanation": "S₇ = (4⁷ − 1)/(4 − 1) = (16384 − 1)/3 = 5461. 📄 Quelle: ari23_vl02, Folie 14 (S.14)",
+    "explanation": "$S_7 = \\frac{4^7 - 1}{4 - 1} = \\frac{16384 - 1}{3} = 5461$. 📄 Quelle: ari23_vl02, Folie 14 (S.14)",
     "source": "ari23_vl02, Folie 14 (S.14, Erkundung II)"
   },
   {
@@ -449,17 +449,17 @@
     "topic": "ari23_vl02_formel_anwendung",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie berechnet man S₇ bei einer Vervierfachung (Summe der ersten 7 Felder)?",
+    "question": "Wie berechnet man $S_7$ bei einer Vervierfachung (Summe der ersten 7 Felder)?",
     "options": [
-      "S₇ = 1 + 4¹ + 4² + 4³ + 4⁴ + 4⁵ + 4⁶ = (4⁷ − 1)/(4 − 1) = (16384 − 1)/3 = 5461",
-      "S₇ = (4⁷ − 1)/4 = 4095,75",
-      "S₇ = 1 + 4¹ + 4² + … + 4⁷ = (4⁸ − 1)/3",
-      "S₇ = (4⁶ − 1)/3 = 1365"
+      "$S_7 = 1 + 4^1 + 4^2 + 4^3 + 4^4 + 4^5 + 4^6 = \\frac{4^7 - 1}{4 - 1} = \\frac{16384 - 1}{3} = 5461$",
+      "$S_7 = \\frac{4^7 - 1}{4} = 4095{,}75$",
+      "$S_7 = 1 + 4^1 + 4^2 + \\dots + 4^7 = \\frac{4^8 - 1}{3}$",
+      "$S_7 = \\frac{4^6 - 1}{3} = 1365$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie rechnet S₇ = 1 + 4¹ + 4² + 4³ + 4⁴ + 4⁵ + 4⁶ = (4⁷ − 1)/(4 − 1) = (16384 − 1)/3 = 5461. 📄 Quelle: ari23_vl02, Folie 14 (S.14)",
+    "explanation": "Die Folie rechnet $S_7 = 1 + 4^1 + 4^2 + 4^3 + 4^4 + 4^5 + 4^6 = \\frac{4^7 - 1}{4 - 1} = \\frac{16384 - 1}{3} = 5461$. 📄 Quelle: ari23_vl02, Folie 14 (S.14)",
     "source": "ari23_vl02, Folie 14 (S.14, Erkundung II)"
   },
   {
@@ -467,11 +467,11 @@
     "topic": "ari23_vl02_formel_anwendung",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welchen Zahlenwert hat 4⁷ (verwendet bei der Berechnung von S₇)?",
+    "question": "Welchen Zahlenwert hat $4^7$ (verwendet bei der Berechnung von $S_7$)?",
     "answer": 16384,
     "tolerance": 0,
     "unit": "",
-    "explanation": "In der Rechnung steht (4⁷ − 1)/3 = (16384 − 1)/3, also 4⁷ = 16384. 📄 Quelle: ari23_vl02, Folie 14 (S.14)",
+    "explanation": "In der Rechnung steht $\\frac{4^7 - 1}{3} = \\frac{16384 - 1}{3}$, also $4^7 = 16384$. 📄 Quelle: ari23_vl02, Folie 14 (S.14)",
     "source": "ari23_vl02, Folie 14 (S.14, Erkundung II)"
   },
   {
@@ -479,11 +479,11 @@
     "topic": "ari23_vl02_satz_formulieren",
     "difficulty": 2,
     "type": "multi",
-    "question": "Wie lässt sich das Vorgehen zur Berechnung von Sₙ (Aufsummierung bis zur (n-1)-ten Vervielfachung) in Worten beschreiben?",
+    "question": "Wie lässt sich das Vorgehen zur Berechnung von $S_n$ (Aufsummierung bis zur $(n-1)$-ten Vervielfachung) in Worten beschreiben?",
     "options": [
       "Man nehme die Vervielfachungszahl k hoch n",
       "Ziehe 1 ab",
-      "Teile durch die Vervielfachungszahl minus 1, also k − 1",
+      "Teile durch die Vervielfachungszahl minus 1, also $k - 1$",
       "Multipliziere mit der Vervielfachungszahl k"
     ],
     "correct": [
@@ -491,7 +491,7 @@
       1,
       2
     ],
-    "explanation": "Die Folie beschreibt: k hoch n nehmen, 1 abziehen, durch k − 1 teilen. 📄 Quelle: ari23_vl02, Folie 15 (S.15)",
+    "explanation": "Die Folie beschreibt: k hoch n nehmen, 1 abziehen, durch $k - 1$ teilen. 📄 Quelle: ari23_vl02, Folie 15 (S.15)",
     "source": "ari23_vl02, Folie 15 (S.15, Erkundung II)"
   },
   {
@@ -499,17 +499,17 @@
     "topic": "ari23_vl02_satz_formulieren",
     "difficulty": 1,
     "type": "single",
-    "question": "Bis zu welcher Vervielfachung wird bei Sₙ = 1 + k¹ + k² + … + k^(n-1) aufsummiert?",
+    "question": "Bis zu welcher Vervielfachung wird bei $S_n = 1 + k^1 + k^2 + \\dots + k^{n-1}$ aufsummiert?",
     "options": [
-      "bis zur (n-1)-ten Vervielfachung",
+      "bis zur $(n-1)$-ten Vervielfachung",
       "bis zur n-ten Vervielfachung",
-      "bis zur (n-2)-ten Vervielfachung",
+      "bis zur $(n-2)$-ten Vervielfachung",
       "bis zur k-ten Vervielfachung"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie: „Man nehme bei der Aufsummierung bis zur (n-1)-ten Vervielfachung …“ 📄 Quelle: ari23_vl02, Folie 15 (S.15)",
+    "explanation": "Die Folie: „Man nehme bei der Aufsummierung bis zur $(n-1)$-ten Vervielfachung …“ 📄 Quelle: ari23_vl02, Folie 15 (S.15)",
     "source": "ari23_vl02, Folie 15 (S.15, Erkundung II)"
   },
   {
@@ -517,17 +517,17 @@
     "topic": "ari23_vl02_satz_formulieren",
     "difficulty": 1,
     "type": "single",
-    "question": "Wie lautet die allgemeine Formel für Sₙ = 1 + k¹ + k² + k³ + … + k^(n-3) + k^(n-2) + k^(n-1)?",
+    "question": "Wie lautet die allgemeine Formel für $S_n = 1 + k^1 + k^2 + k^3 + \\dots + k^{n-3} + k^{n-2} + k^{n-1}$?",
     "options": [
-      "Sₙ = 1 + k¹ + k² + k³ + … + k^(n-3) + k^(n-2) + k^(n-1) = (k^n − 1)/(k − 1)",
-      "Sₙ = (k^(n-1) − 1)/(k − 1)",
-      "Sₙ = k^n − 1",
-      "Sₙ = 1 + k + k² + … + k^n = (k^(n+1) − 1)/(k − 1)"
+      "$S_n = 1 + k^1 + k^2 + k^3 + \\dots + k^{n-3} + k^{n-2} + k^{n-1} = \\frac{k^n - 1}{k - 1}$",
+      "$S_n = \\frac{k^{n-1} - 1}{k - 1}$",
+      "$S_n = k^n - 1$",
+      "$S_n = 1 + k + k^2 + \\dots + k^n = \\frac{k^{n+1} - 1}{k - 1}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Kasten zeigt Sₙ = 1 + k¹ + k² + k³ + … + k^(n-3) + k^(n-2) + k^(n-1) = (k^n − 1)/(k − 1). 📄 Quelle: ari23_vl02, Folie 15 (S.15)",
+    "explanation": "Der Kasten zeigt $S_n = 1 + k^1 + k^2 + k^3 + \\dots + k^{n-3} + k^{n-2} + k^{n-1} = \\frac{k^n - 1}{k - 1}$. 📄 Quelle: ari23_vl02, Folie 15 (S.15)",
     "source": "ari23_vl02, Folie 15 (S.15, Erkundung II)"
   },
   {
@@ -535,19 +535,19 @@
     "topic": "ari23_vl02_geometrische_summe",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Aussagen über den Satz zur Summe S_n = 1+k^1+k^2+k^3+…+k^(n-3)+k^(n-2)+k^(n-1) sind korrekt?",
+    "question": "Welche Aussagen über den Satz zur Summe $S_n = 1 + k^1 + k^2 + k^3 + \\dots + k^{n-3} + k^{n-2} + k^{n-1}$ sind korrekt?",
     "options": [
       "Der Satz gilt für alle natürlichen Zahlen n.",
       "Vorausgesetzt wird, dass k eine natürliche Zahl größer 1 ist.",
-      "Es gilt S_n = (k^n − 1)/(k − 1).",
-      "Es gilt S_n = (k^(n-1) − 1)/(k − 1)."
+      "Es gilt $S_n = \\frac{k^n - 1}{k - 1}$.",
+      "Es gilt $S_n = \\frac{k^{n-1} - 1}{k - 1}$."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Auf der Folie steht: „Für alle natürlichen Zahlen n gilt: Wenn k eine natürliche Zahl größer 1 ist, dann ist S_n = 1+k^1+…+k^(n-1) = (k^n − 1)/(k − 1).“ 📄 Quelle: ari23_vl02, Folie 16 (S.16)",
+    "explanation": "Auf der Folie steht: „Für alle natürlichen Zahlen n gilt: Wenn k eine natürliche Zahl größer 1 ist, dann ist $S_n = 1 + k^1 + \\dots + k^{n-1} = \\frac{k^n - 1}{k - 1}$.“ 📄 Quelle: ari23_vl02, Folie 16 (S.16)",
     "source": "ari23_vl02, Folie 16 (S.16, Arithmetik)"
   },
   {
@@ -555,11 +555,11 @@
     "topic": "ari23_vl02_geometrische_summe",
     "difficulty": 1,
     "type": "multi",
-    "question": "Nach welcher Vorschrift bildet man die Summe S_n (Aufsummierung bis zur (n−1)-ten Vervielfachung)?",
+    "question": "Nach welcher Vorschrift bildet man die Summe $S_n$ (Aufsummierung bis zur $(n-1)$-ten Vervielfachung)?",
     "options": [
       "Man bildet die Vervielfachungszahl k hoch n.",
       "Man zieht 1 ab.",
-      "Man teilt durch die Vervielfachungszahl k−1.",
+      "Man teilt durch die Vervielfachungszahl $k - 1$.",
       "Man teilt durch die Vervielfachungszahl k."
     ],
     "correct": [
@@ -567,7 +567,7 @@
       1,
       2
     ],
-    "explanation": "Die Folie beschreibt: die Vervielfachungszahl k hoch n, ziehe 1 ab und teile durch die Vervielfachungszahl k−1. 📄 Quelle: ari23_vl02, Folie 16 (S.16)",
+    "explanation": "Die Folie beschreibt: die Vervielfachungszahl k hoch n, ziehe 1 ab und teile durch die Vervielfachungszahl $k - 1$. 📄 Quelle: ari23_vl02, Folie 16 (S.16)",
     "source": "ari23_vl02, Folie 16 (S.16, Arithmetik)"
   },
   {
@@ -575,11 +575,11 @@
     "topic": "ari23_vl02_geometrische_summe",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Berechne S_n nach der Folienformel S_n = (k^n − 1)/(k − 1) für k = 3 und n = 5.",
+    "question": "Berechne $S_n$ nach der Folienformel $S_n = \\frac{k^n - 1}{k - 1}$ für $k = 3$ und $n = 5$.",
     "answer": 121,
     "tolerance": 0,
     "unit": "",
-    "explanation": "(3^5 − 1)/(3 − 1) = (243 − 1)/2 = 242/2 = 121 (vgl. Spalte „Ver-3-fachung, Summe“, Feld 5 der Tabelle). 📄 Quelle: ari23_vl02, Folie 16 (S.16)",
+    "explanation": "$\\frac{3^5 - 1}{3 - 1} = \\frac{243 - 1}{2} = \\frac{242}{2} = 121$ (vgl. Spalte „Ver-3-fachung, Summe“, Feld 5 der Tabelle). 📄 Quelle: ari23_vl02, Folie 16 (S.16)",
     "source": "ari23_vl02, Folie 16 (S.16, Arithmetik)"
   },
   {
@@ -587,11 +587,11 @@
     "topic": "ari23_vl02_geometrische_summe",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Schritte gehören zum Beweis „wie Konstruktion“ der Formel für S_n?",
+    "question": "Welche Schritte gehören zum Beweis „wie Konstruktion“ der Formel für $S_n$?",
     "options": [
       "Man stellt die gleiche Summen-Folge zweimal dar und klammert einmal aus.",
-      "Man bringt die „reduzierte“ Summen-Folge (bis (n−1)) auf eine Seite und den Rest auf die andere.",
-      "Man teilt zum Schluss durch (k−1).",
+      "Man bringt die „reduzierte“ Summen-Folge (bis $(n-1)$) auf eine Seite und den Rest auf die andere.",
+      "Man teilt zum Schluss durch $(k-1)$.",
       "Man quadriert am Ende beide Seiten der Gleichung."
     ],
     "correct": [
@@ -599,7 +599,7 @@
       1,
       2
     ],
-    "explanation": "Der Beweis „wie Konstruktion“: gleiche Summen-Folge zweimal darstellen und ausklammern, reduzierte Folge auf eine Seite bringen, rechte Seite zusammenfassen, durch (k−1) teilen. 📄 Quelle: ari23_vl02, Folie 17 (S.17)",
+    "explanation": "Der Beweis „wie Konstruktion“: gleiche Summen-Folge zweimal darstellen und ausklammern, reduzierte Folge auf eine Seite bringen, rechte Seite zusammenfassen, durch $(k-1)$ teilen. 📄 Quelle: ari23_vl02, Folie 17 (S.17)",
     "source": "ari23_vl02, Folie 17 (S.17, Arithmetik)"
   },
   {
@@ -607,19 +607,19 @@
     "topic": "ari23_vl02_geometrische_summe",
     "difficulty": 3,
     "type": "multi",
-    "question": "Welche Gleichungen treten im Beweis „wie Konstruktion“ der Formel für S_n auf?",
+    "question": "Welche Gleichungen treten im Beweis „wie Konstruktion“ der Formel für $S_n$ auf?",
     "options": [
-      "Aus dem Ausklammern: 1+k^1+…+k^(n-1)+k^n = 1 + k·(1+k^1+…+k^(n-1)).",
-      "Nach dem Zusammenfassen: k^n − 1 = (k−1)·(1+k^1+…+k^(n-1)).",
-      "Nach Division: (k^n − 1)/(k − 1) = 1+k^1+…+k^(n-1).",
-      "Es gilt k^n − 1 = (k+1)·(1+k^1+…+k^(n-1))."
+      "Aus dem Ausklammern: $1 + k^1 + \\dots + k^{n-1} + k^n = 1 + k \\cdot (1 + k^1 + \\dots + k^{n-1})$.",
+      "Nach dem Zusammenfassen: $k^n - 1 = (k-1) \\cdot (1 + k^1 + \\dots + k^{n-1})$.",
+      "Nach Division: $\\frac{k^n - 1}{k - 1} = 1 + k^1 + \\dots + k^{n-1}$.",
+      "Es gilt $k^n - 1 = (k+1) \\cdot (1 + k^1 + \\dots + k^{n-1})$."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie zeigt genau diese Umformungen; rechte Seite wird zu (k−1)·(…) zusammengefasst und dann durch (k−1) geteilt. 📄 Quelle: ari23_vl02, Folie 17 (S.17)",
+    "explanation": "Die Folie zeigt genau diese Umformungen; rechte Seite wird zu $(k-1) \\cdot (\\dots)$ zusammengefasst und dann durch $(k-1)$ geteilt. 📄 Quelle: ari23_vl02, Folie 17 (S.17)",
     "source": "ari23_vl02, Folie 17 (S.17, Arithmetik)"
   },
   {
@@ -627,17 +627,17 @@
     "topic": "ari23_vl02_geometrische_summe",
     "difficulty": 2,
     "type": "single",
-    "question": "Wozu vereinfacht sich die Formel S_n = (k^n − 1)/(k − 1) für k = 2?",
+    "question": "Wozu vereinfacht sich die Formel $S_n = \\frac{k^n - 1}{k - 1}$ für $k = 2$?",
     "options": [
-      "2^n − 1",
-      "2^n",
-      "2^(n-1) − 1",
-      "(2^n − 1)/2"
+      "$2^n - 1$",
+      "$2^n$",
+      "$2^{n-1} - 1$",
+      "$\\frac{2^n - 1}{2}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Für k=2: 1+2^1+2^2+…+2^(n-1) = (2^n − 1)/1 = 2^n − 1. 📄 Quelle: ari23_vl02, Folie 18 (S.18)",
+    "explanation": "Für $k = 2$: $1 + 2^1 + 2^2 + \\dots + 2^{n-1} = \\frac{2^n - 1}{1} = 2^n - 1$. 📄 Quelle: ari23_vl02, Folie 18 (S.18)",
     "source": "ari23_vl02, Folie 18 (S.18, Arithmetik)"
   },
   {
@@ -777,9 +777,9 @@
     "type": "multi",
     "question": "Welche Zuordnungen der Beweisschritte der vollständigen Induktion zu den Peano-Axiomen sind korrekt?",
     "options": [
-      "Induktionsanfang: man zeigt, dass A(1) wahr ist (Axiom 1).",
-      "Induktionsvoraussetzung: Annahme, dass A(n) für ein beliebiges, aber festes n wahr ist.",
-      "Induktionsschritt: aus A(n) folgt A(n+1) (Nachfolgereigenschaft, Axiom 2).",
+      "Induktionsanfang: man zeigt, dass $A(1)$ wahr ist (Axiom 1).",
+      "Induktionsvoraussetzung: Annahme, dass $A(n)$ für ein beliebiges, aber festes n wahr ist.",
+      "Induktionsschritt: aus $A(n)$ folgt $A(n+1)$ (Nachfolgereigenschaft, Axiom 2).",
       "Induktionsschluss: der Induktionsanfang allein genügt bereits für alle n."
     ],
     "correct": [
@@ -795,11 +795,11 @@
     "topic": "ari23_vl02_vollstaendige_induktion",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Welchen Wert hat S_1 im Induktionsanfang A(1) des Satzes S_n = 2^n − 1?",
+    "question": "Welchen Wert hat $S_1$ im Induktionsanfang $A(1)$ des Satzes $S_n = 2^n - 1$?",
     "answer": 1,
     "tolerance": 0,
     "unit": "",
-    "explanation": "A(1): S_1 = 2^(1-1) = 2^0 = 1 = 2 − 1 = 2^1 − 1. 📄 Quelle: ari23_vl02, Folie 27 (S.27)",
+    "explanation": "$A(1)$: $S_1 = 2^{1-1} = 2^0 = 1 = 2 - 1 = 2^1 - 1$. 📄 Quelle: ari23_vl02, Folie 27 (S.27)",
     "source": "ari23_vl02, Folie 27 (S.27, Arithmetik)"
   },
   {
@@ -807,19 +807,19 @@
     "topic": "ari23_vl02_vollstaendige_induktion",
     "difficulty": 3,
     "type": "multi",
-    "question": "Welche Umformungen des Induktionsschritts (n → n+1) für S_n = 2^n − 1 sind korrekt?",
+    "question": "Welche Umformungen des Induktionsschritts $(n \\to n+1)$ für $S_n = 2^n - 1$ sind korrekt?",
     "options": [
-      "S_(n+1) = 1+2^1+…+2^(n-1)+2^n = S_n + 2^n",
-      "S_n + 2^n = (2^n − 1) + 2^n (nach Induktionsvoraussetzung)",
-      "(2^n − 1) + 2^n = 2·2^n − 1 = 2^(n+1) − 1",
-      "S_(n+1) = S_n · 2^n"
+      "$S_{n+1} = 1 + 2^1 + \\dots + 2^{n-1} + 2^n = S_n + 2^n$",
+      "$S_n + 2^n = (2^n - 1) + 2^n$ (nach Induktionsvoraussetzung)",
+      "$(2^n - 1) + 2^n = 2 \\cdot 2^n - 1 = 2^{n+1} - 1$",
+      "$S_{n+1} = S_n \\cdot 2^n$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Folie: S_(n+1) = S_n + 2^n = 2^n − 1 + 2^n = 2·2^n − 1 = 2^(n+1) − 1. 📄 Quelle: ari23_vl02, Folie 27 (S.27)",
+    "explanation": "Folie: $S_{n+1} = S_n + 2^n = 2^n - 1 + 2^n = 2 \\cdot 2^n - 1 = 2^{n+1} - 1$. 📄 Quelle: ari23_vl02, Folie 27 (S.27)",
     "source": "ari23_vl02, Folie 27 (S.27, Arithmetik)"
   },
   {
@@ -829,15 +829,15 @@
     "type": "single",
     "question": "Was wird im Induktionsschluss (nach Induktionsanfang und Induktionsschritt) gefolgert?",
     "options": [
-      "Da A(1) wahr ist und auch A(n) → A(n+1) wahr ist, ist A(n) für alle Natürlichen Zahlen n wahr.",
-      "Der Satz gilt nur für n = 1.",
+      "Da $A(1)$ wahr ist und auch $A(n) \\to A(n+1)$ wahr ist, ist $A(n)$ für alle Natürlichen Zahlen n wahr.",
+      "Der Satz gilt nur für $n = 1$.",
       "Der Satz gilt nur für gerade n.",
       "Es folgt kein Ergebnis."
     ],
     "correct": [
       0
     ],
-    "explanation": "„Da A(1) wahr ist und auch A(n) → A(n+1) wahr ist, ist A(n) für alle Natürlichen Zahlen n wahr.“ 📄 Quelle: ari23_vl02, Folie 27 (S.27)",
+    "explanation": "„Da $A(1)$ wahr ist und auch $A(n) \\to A(n+1)$ wahr ist, ist $A(n)$ für alle Natürlichen Zahlen n wahr.“ 📄 Quelle: ari23_vl02, Folie 27 (S.27)",
     "source": "ari23_vl02, Folie 27 (S.27, Arithmetik)"
   },
   {
@@ -845,17 +845,17 @@
     "topic": "ari23_vl02_vollstaendige_induktion",
     "difficulty": 2,
     "type": "single",
-    "question": "Welche Formel gilt laut Übungsfolie für die Summe der ersten n natürlichen Zahlen S_n = 1 + 2 + 3 + … + (n−2) + (n−1) + n?",
+    "question": "Welche Formel gilt laut Übungsfolie für die Summe der ersten n natürlichen Zahlen $S_n = 1 + 2 + 3 + \\dots + (n-2) + (n-1) + n$?",
     "options": [
-      "S_n = (n/2) · (n+1)",
-      "S_n = n · (n+1)",
-      "S_n = (n/2) · (n−1)",
-      "S_n = (n+1)/2"
+      "$S_n = \\frac{n}{2} \\cdot (n+1)$",
+      "$S_n = n \\cdot (n+1)$",
+      "$S_n = \\frac{n}{2} \\cdot (n-1)$",
+      "$S_n = \\frac{n+1}{2}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "„Wenn S_n = 1 + 2 + 3 + … + n, dann ist S_n = (n/2)·(n+1).“ 📄 Quelle: ari23_vl02, Folie 28 (S.28)",
+    "explanation": "„Wenn $S_n = 1 + 2 + 3 + \\dots + n$, dann ist $S_n = \\frac{n}{2} \\cdot (n+1)$.“ 📄 Quelle: ari23_vl02, Folie 28 (S.28)",
     "source": "ari23_vl02, Folie 28 (S.28, Arithmetik)"
   },
   {
@@ -863,11 +863,11 @@
     "topic": "ari23_vl02_vollstaendige_induktion",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Berechne mit der Folienformel S_n = (n/2)·(n+1) die Summe der ersten 5 natürlichen Zahlen (n = 5).",
+    "question": "Berechne mit der Folienformel $S_n = \\frac{n}{2} \\cdot (n+1)$ die Summe der ersten 5 natürlichen Zahlen ($n = 5$).",
     "answer": 15,
     "tolerance": 0,
     "unit": "",
-    "explanation": "S_5 = (5/2)·(5+1) = (5/2)·6 = 15 (= 1+2+3+4+5). 📄 Quelle: ari23_vl02, Folie 28 (S.28)",
+    "explanation": "$S_5 = \\frac{5}{2} \\cdot (5+1) = \\frac{5}{2} \\cdot 6 = 15$ ($= 1 + 2 + 3 + 4 + 5$). 📄 Quelle: ari23_vl02, Folie 28 (S.28)",
     "source": "ari23_vl02, Folie 28 (S.28, Arithmetik)"
   },
   {
@@ -878,7 +878,7 @@
     "question": "Welche Aussagen zur Fibonacci-Folge auf der Erkundungsfolie sind korrekt?",
     "options": [
       "Die Folge stammt von Leonardo Fibonacci.",
-      "Sie wird nach der Regel f_n = f_(n-1) + f_(n-2) (für n > 2) gebildet.",
+      "Sie wird nach der Regel $f_n = f_{n-1} + f_{n-2}$ (für $n > 2$) gebildet.",
       "Die auf der Folie gezeigten Anfangsglieder sind 1, 1, 2, 3, 5, 8, 13, 21, 34.",
       "Jede Fibonacci-Zahl ist das Produkt der beiden vorangehenden Zahlen."
     ],
@@ -887,7 +887,7 @@
       1,
       2
     ],
-    "explanation": "Die Folge stammt von Leonardo Fibonacci; f_n = f_(n-1) + f_(n-2) (n>2), Startwerte f_1 = f_2 = 1, gezeigt: 1, 1, 2, 3, 5, 8, 13, 21, 34. Nicht das Produkt, sondern die Summe. 📄 Quelle: ari23_vl02, Folie 30 (S.30)",
+    "explanation": "Die Folge stammt von Leonardo Fibonacci; $f_n = f_{n-1} + f_{n-2}$ ($n > 2$), Startwerte $f_1 = f_2 = 1$, gezeigt: 1, 1, 2, 3, 5, 8, 13, 21, 34. Nicht das Produkt, sondern die Summe. 📄 Quelle: ari23_vl02, Folie 30 (S.30)",
     "source": "ari23_vl02, Folie 30 (S.30, Arithmetik)"
   },
   {
@@ -899,7 +899,7 @@
     "answer": 55,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Nach f_n = f_(n-1) + f_(n-2): 34 + 21 = 55. 📄 Quelle: ari23_vl02, Folie 30 (S.30)",
+    "explanation": "Nach $f_n = f_{n-1} + f_{n-2}$: $34 + 21 = 55$. 📄 Quelle: ari23_vl02, Folie 30 (S.30)",
     "source": "ari23_vl02, Folie 30 (S.30, Arithmetik)"
   }
 ]
