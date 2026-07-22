@@ -193,15 +193,15 @@
     "type": "single",
     "question": "Drehung – Grundaufgabe: Was ist gegeben?",
     "options": [
-      "Ein Drehzentrum Z und ein Drehwinkel α; ein Objekt wird um α an Z gedreht",
-      "Zwei kongruente Strecken; gesucht sind Z und α",
+      "Ein Drehzentrum Z und ein Drehwinkel $\\alpha$; ein Objekt wird um $\\alpha$ an Z gedreht",
+      "Zwei kongruente Strecken; gesucht sind Z und $\\alpha$",
       "Eine Spiegelachse g",
-      "Nur ein Drehwinkel α ohne Drehzentrum"
+      "Nur ein Drehwinkel $\\alpha$ ohne Drehzentrum"
     ],
     "correct": [
       0
     ],
-    "explanation": "Grundaufgabe: Gegeben ist Drehzentrum Z und ein Drehwinkel α. Drehe ein Objekt (z.B. ein Dreieck) um α an Z. 📄 Quelle: ari20_vl10, Folie 11 (S.11)",
+    "explanation": "Grundaufgabe: Gegeben ist Drehzentrum Z und ein Drehwinkel $\\alpha$. Drehe ein Objekt (z.B. ein Dreieck) um $\\alpha$ an Z. 📄 Quelle: ari20_vl10, Folie 11 (S.11)",
     "source": "ari20_vl10, Folie 11 (S.11, Bewegungen in der Ebene)"
   },
   {
@@ -211,15 +211,15 @@
     "type": "single",
     "question": "Drehung – Umkehraufgabe: Was ist gegeben und was ist zu ermitteln?",
     "options": [
-      "Gegeben sind zwei kongruente Objekte (z.B. zwei Strecken); zu ermitteln sind Drehzentrum Z und Drehwinkel α",
-      "Gegeben sind Z und α; zu ermitteln ist das Bildobjekt",
+      "Gegeben sind zwei kongruente Objekte (z.B. zwei Strecken); zu ermitteln sind Drehzentrum Z und Drehwinkel $\\alpha$",
+      "Gegeben sind Z und $\\alpha$; zu ermitteln ist das Bildobjekt",
       "Gegeben ist eine Gerade g; zu ermitteln ist das Spiegelbild",
-      "Gegeben ist nur α; zu ermitteln ist die Streckenlänge"
+      "Gegeben ist nur $\\alpha$; zu ermitteln ist die Streckenlänge"
     ],
     "correct": [
       0
     ],
-    "explanation": "Umkehraufgabe: Gegeben sind zwei (kongruente) Objekte (z.B. auch zwei Strecken), ermittle Z und α der zugehörigen Drehung. 📄 Quelle: ari20_vl10, Folie 11 (S.11)",
+    "explanation": "Umkehraufgabe: Gegeben sind zwei (kongruente) Objekte (z.B. auch zwei Strecken), ermittle Z und $\\alpha$ der zugehörigen Drehung. 📄 Quelle: ari20_vl10, Folie 11 (S.11)",
     "source": "ari20_vl10, Folie 11 (S.11, Bewegungen in der Ebene)"
   },
   {
@@ -227,11 +227,11 @@
     "topic": "ari20_vl10_drehung",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Bei einer Drehung ist die Strecke PZ = 3,36 lang. Welche Länge hat die Bildstrecke P'Z?",
+    "question": "Bei einer Drehung ist die Strecke $PZ = 3{,}36$ lang. Welche Länge hat die Bildstrecke $P'Z$?",
     "answer": 3.36,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Drehung erhält den Abstand zum Drehzentrum: die Folie zeigt PZ = 3.36 und P'Z = 3.36. 📄 Quelle: ari20_vl10, Folie 11 (S.11)",
+    "explanation": "Die Drehung erhält den Abstand zum Drehzentrum: die Folie zeigt $PZ = 3.36$ und $P'Z = 3.36$. 📄 Quelle: ari20_vl10, Folie 11 (S.11)",
     "source": "ari20_vl10, Folie 11 (S.11, Bewegungen in der Ebene)"
   },
   {
@@ -242,7 +242,7 @@
     "question": "Was ist bei der Grundaufgabe der Drehung (Bewegungen) gegeben?",
     "options": [
       "das Drehzentrum Z",
-      "der Drehwinkel α",
+      "der Drehwinkel $\\alpha$",
       "zwei kongruente Objekte",
       "der Bildpunkt P'"
     ],
@@ -250,7 +250,7 @@
       0,
       1
     ],
-    "explanation": "Bei der Grundaufgabe sind das Drehzentrum Z und ein Drehwinkel α gegeben; damit wird ein Objekt (z.B. ein Dreieck) um α an Z gedreht. 📄 Quelle: ari20_vl10, Folie 12 (S.12)",
+    "explanation": "Bei der Grundaufgabe sind das Drehzentrum Z und ein Drehwinkel $\\alpha$ gegeben; damit wird ein Objekt (z.B. ein Dreieck) um $\\alpha$ an Z gedreht. 📄 Quelle: ari20_vl10, Folie 12 (S.12)",
     "source": "ari20_vl10, Folie 12 (S.12, Bewegungen: Drehung)"
   },
   {
@@ -260,15 +260,15 @@
     "type": "single",
     "question": "Bei der Umkehraufgabe der Drehung sind zwei (kongruente) Objekte gegeben. Was ist zu ermitteln?",
     "options": [
-      "Drehzentrum Z und Drehwinkel α der zugehörigen Drehung",
-      "nur der Drehwinkel α",
+      "Drehzentrum Z und Drehwinkel $\\alpha$ der zugehörigen Drehung",
+      "nur der Drehwinkel $\\alpha$",
       "der Verschiebungsvektor",
       "die Spiegelachse"
     ],
     "correct": [
       0
     ],
-    "explanation": "Bei der Umkehraufgabe sind zwei kongruente Objekte gegeben und man ermittelt Z und α der zugehörigen Drehung. 📄 Quelle: ari20_vl10, Folie 12 (S.12)",
+    "explanation": "Bei der Umkehraufgabe sind zwei kongruente Objekte gegeben und man ermittelt Z und $\\alpha$ der zugehörigen Drehung. 📄 Quelle: ari20_vl10, Folie 12 (S.12)",
     "source": "ari20_vl10, Folie 12 (S.12, Bewegungen: Drehung)"
   },
   {
@@ -314,17 +314,17 @@
     "topic": "ari20_vl10_drehung",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lautet die Umkehrabbildung der Drehung D_{Z,α}?",
+    "question": "Wie lautet die Umkehrabbildung der Drehung $D_{Z,\\alpha}$?",
     "options": [
-      "D_{Z,α}^{-1} = D_{Z,360°-α}",
-      "D_{Z,α}^{-1} = D_{Z,-180°}",
-      "D_{Z,α}^{-1} = D_{Z,α}",
-      "D_{Z,α}^{-1} = V_{B,A}"
+      "$D_{Z,\\alpha}^{-1} = D_{Z,360^\\circ-\\alpha}$",
+      "$D_{Z,\\alpha}^{-1} = D_{Z,-180^\\circ}$",
+      "$D_{Z,\\alpha}^{-1} = D_{Z,\\alpha}$",
+      "$D_{Z,\\alpha}^{-1} = V_{B,A}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Umkehrabbildung der Drehung ist D_{Z,α}^{-1} = D_{Z,360°-α}. 📄 Quelle: ari20_vl10, Folie 13 (S.13)",
+    "explanation": "Die Umkehrabbildung der Drehung ist $D_{Z,\\alpha}^{-1} = D_{Z,360^\\circ-\\alpha}$. 📄 Quelle: ari20_vl10, Folie 13 (S.13)",
     "source": "ari20_vl10, Folie 13 (S.13, Bewegungen: Drehung)"
   },
   {
@@ -332,11 +332,11 @@
     "topic": "ari20_vl10_drehung",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Bei welchem Drehwinkel α (in Grad) erhält die Drehung als Sonderfall den Namen Punktspiegelung?",
+    "question": "Bei welchem Drehwinkel $\\alpha$ (in Grad) erhält die Drehung als Sonderfall den Namen Punktspiegelung?",
     "answer": 180,
     "tolerance": 0,
     "unit": "°",
-    "explanation": "Ist α = 180°, so erhält die Drehung den Namen Punktspiegelung. 📄 Quelle: ari20_vl10, Folie 13 (S.13)",
+    "explanation": "Ist $\\alpha = 180^\\circ$, so erhält die Drehung den Namen Punktspiegelung. 📄 Quelle: ari20_vl10, Folie 13 (S.13)",
     "source": "ari20_vl10, Folie 13 (S.13, Bewegungen: Drehung)"
   },
   {
@@ -344,10 +344,10 @@
     "topic": "ari20_vl10_verschiebung",
     "difficulty": 3,
     "type": "multi",
-    "question": "Die Abbildung V_{A,B}: E→E heißt Verschiebung um die Länge der Strecke AB (in Richtung B), wenn für jeden Punkt P und seinen Bildpunkt P' gilt:",
+    "question": "Die Abbildung $V_{A,B}: E \\to E$ heißt Verschiebung um die Länge der Strecke $AB$ (in Richtung B), wenn für jeden Punkt P und seinen Bildpunkt P' gilt:",
     "options": [
       "Liegt P auf der Geraden durch A und B, so auch P'",
-      "Die Strecken AB und PP' sind gleichlang",
+      "Die Strecken $AB$ und $PP'$ sind gleichlang",
       "Sonst bilden A, P, P', B ein Parallelogramm",
       "P und P' fallen stets zusammen"
     ],
@@ -356,7 +356,7 @@
       1,
       2
     ],
-    "explanation": "Definition: liegt P auf der Geraden durch A und B, so auch P'; die Strecken AB und PP' sind gleichlang; sonst bilden APP'B ein Parallelogramm. 📄 Quelle: ari20_vl10, Folie 14 (S.14)",
+    "explanation": "Definition: liegt P auf der Geraden durch A und B, so auch P'; die Strecken $AB$ und $PP'$ sind gleichlang; sonst bilden $APP'B$ ein Parallelogramm. 📄 Quelle: ari20_vl10, Folie 14 (S.14)",
     "source": "ari20_vl10, Folie 14 (S.14, Bewegungen: Verschiebung)"
   },
   {
@@ -364,17 +364,17 @@
     "topic": "ari20_vl10_verschiebung",
     "difficulty": 1,
     "type": "single",
-    "question": "Um welche Länge und in welche Richtung verschiebt V_{A,B}?",
+    "question": "Um welche Länge und in welche Richtung verschiebt $V_{A,B}$?",
     "options": [
-      "um die Länge der Strecke AB in Richtung B",
-      "um die Länge der Strecke AB in Richtung A",
-      "um den doppelten Betrag von AB",
+      "um die Länge der Strecke $AB$ in Richtung B",
+      "um die Länge der Strecke $AB$ in Richtung A",
+      "um den doppelten Betrag von $AB$",
       "um einen beliebigen Vektor"
     ],
     "correct": [
       0
     ],
-    "explanation": "V_{A,B} ist die Verschiebung um die Länge der Strecke AB in Richtung B. 📄 Quelle: ari20_vl10, Folie 14 (S.14)",
+    "explanation": "$V_{A,B}$ ist die Verschiebung um die Länge der Strecke $AB$ in Richtung B. 📄 Quelle: ari20_vl10, Folie 14 (S.14)",
     "source": "ari20_vl10, Folie 14 (S.14, Bewegungen: Verschiebung)"
   },
   {
@@ -386,7 +386,7 @@
     "options": [
       "Gegeben ist ein Verschiebungsvektor; verschiebe ein Objekt",
       "Gegeben sind zwei kongruente Objekte",
-      "Gegeben ist ein Drehwinkel α",
+      "Gegeben ist ein Drehwinkel $\\alpha$",
       "Gegeben ist eine Spiegelachse"
     ],
     "correct": [
@@ -404,7 +404,7 @@
     "options": [
       "Gegeben sind zwei kongruente Objekte (z.B. zwei Punkte); ermittle den Verschiebungsvektor",
       "Ermittle das Drehzentrum Z",
-      "Ermittle den Drehwinkel α",
+      "Ermittle den Drehwinkel $\\alpha$",
       "Verschiebe ein gegebenes Objekt entlang eines Vektors"
     ],
     "correct": [
@@ -438,17 +438,17 @@
     "topic": "ari20_vl10_verschiebung",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lautet die Umkehrabbildung der Verschiebung V_{A,B}?",
+    "question": "Wie lautet die Umkehrabbildung der Verschiebung $V_{A,B}$?",
     "options": [
-      "V_{A,B}^{-1} = V_{B,A}",
-      "V_{A,B}^{-1} = V_{A,B}",
-      "V_{A,B}^{-1} = D_{Z,360°-α}",
-      "V_{A,B}^{-1} = V_{A,-B}"
+      "$V_{A,B}^{-1} = V_{B,A}$",
+      "$V_{A,B}^{-1} = V_{A,B}$",
+      "$V_{A,B}^{-1} = D_{Z,360^\\circ-\\alpha}$",
+      "$V_{A,B}^{-1} = V_{A,-B}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Umkehrabbildung der Verschiebung ist V_{A,B}^{-1} = V_{B,A}. 📄 Quelle: ari20_vl10, Folie 16 (S.16)",
+    "explanation": "Die Umkehrabbildung der Verschiebung ist $V_{A,B}^{-1} = V_{B,A}$. 📄 Quelle: ari20_vl10, Folie 16 (S.16)",
     "source": "ari20_vl10, Folie 16 (S.16, Bewegungen: Verschiebung)"
   },
   {
@@ -461,7 +461,7 @@
       "Durch ein Punktepaar P und P'",
       "Durch P, Z und P'",
       "Durch drei Punkte",
-      "Durch den Drehwinkel α"
+      "Durch den Drehwinkel $\\alpha$"
     ],
     "correct": [
       0
@@ -623,17 +623,17 @@
     "topic": "ari20_vl10_verkettung",
     "difficulty": 2,
     "type": "single",
-    "question": "Was bedeutet die Konvention S_h o S_g bei der Verknüpfung zweier Abbildungen?",
+    "question": "Was bedeutet die Konvention $S_h \\circ S_g$ bei der Verknüpfung zweier Abbildungen?",
     "options": [
-      "\"S_h nach S_g\" – von innen nach außen (erst S_g, dann S_h)",
-      "\"S_g nach S_h\" – erst S_h, dann S_g",
+      "\"$S_h$ nach $S_g$\" – von innen nach außen (erst $S_g$, dann $S_h$)",
+      "\"$S_g$ nach $S_h$\" – erst $S_h$, dann $S_g$",
       "beide Spiegelungen werden gleichzeitig ausgeführt",
-      "S_h o S_g = S_g o S_h gilt stets"
+      "$S_h \\circ S_g = S_g \\circ S_h$ gilt stets"
     ],
     "correct": [
       0
     ],
-    "explanation": "Konvention von Innen nach Außen: S_h o S_g bedeutet 'S_h nach S_g'. 📄 Quelle: ari20_vl10, Folie 22 (S.22)",
+    "explanation": "Konvention von Innen nach Außen: $S_h \\circ S_g$ bedeutet '$S_h$ nach $S_g$'. 📄 Quelle: ari20_vl10, Folie 22 (S.22)",
     "source": "ari20_vl10, Folie 22 (S.22, Verkettung von Abbildungen)"
   },
   {
@@ -641,17 +641,17 @@
     "topic": "ari20_vl10_verkettung",
     "difficulty": 1,
     "type": "single",
-    "question": "Welcher aus der Analysis bekannten Schreibweise entspricht die Konvention S_h o S_g?",
+    "question": "Welcher aus der Analysis bekannten Schreibweise entspricht die Konvention $S_h \\circ S_g$?",
     "options": [
-      "g(f(x)) = g o f",
-      "f(g(x)) = g o f",
-      "g o f = f o g",
-      "S_h o S_g = S_g nach S_h"
+      "$g(f(x)) = g \\circ f$",
+      "$f(g(x)) = g \\circ f$",
+      "$g \\circ f = f \\circ g$",
+      "$S_h \\circ S_g = S_g$ nach $S_h$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Konvention entspricht der Schreibweise g(f(x)) = g o f. 📄 Quelle: ari20_vl10, Folie 22 (S.22)",
+    "explanation": "Die Konvention entspricht der Schreibweise $g(f(x)) = g \\circ f$. 📄 Quelle: ari20_vl10, Folie 22 (S.22)",
     "source": "ari20_vl10, Folie 22 (S.22, Verkettung von Abbildungen)"
   },
   {

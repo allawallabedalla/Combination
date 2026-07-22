@@ -436,15 +436,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Drehung – Grundaufgabe: Was ist gegeben?",
     "options": [
-      "Ein Drehzentrum Z und ein Drehwinkel α; ein Objekt wird um α an Z gedreht",
-      "Zwei kongruente Strecken; gesucht sind Z und α",
+      "Ein Drehzentrum Z und ein Drehwinkel $\\alpha$; ein Objekt wird um $\\alpha$ an Z gedreht",
+      "Zwei kongruente Strecken; gesucht sind Z und $\\alpha$",
       "Eine Spiegelachse g",
-      "Nur ein Drehwinkel α ohne Drehzentrum"
+      "Nur ein Drehwinkel $\\alpha$ ohne Drehzentrum"
     ],
     "correct": [
       0
     ],
-    "explanation": "Grundaufgabe: Gegeben ist Drehzentrum Z und ein Drehwinkel α. Drehe ein Objekt (z.B. ein Dreieck) um α an Z. 📄 Quelle: ari20_vl10, Folie 11 (S.11)",
+    "explanation": "Grundaufgabe: Gegeben ist Drehzentrum Z und ein Drehwinkel $\\alpha$. Drehe ein Objekt (z.B. ein Dreieck) um $\\alpha$ an Z. 📄 Quelle: ari20_vl10, Folie 11 (S.11)",
     "source": "ari20_vl10, Folie 11 (S.11, Bewegungen in der Ebene)"
   },
   {
@@ -454,15 +454,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Drehung – Umkehraufgabe: Was ist gegeben und was ist zu ermitteln?",
     "options": [
-      "Gegeben sind zwei kongruente Objekte (z.B. zwei Strecken); zu ermitteln sind Drehzentrum Z und Drehwinkel α",
-      "Gegeben sind Z und α; zu ermitteln ist das Bildobjekt",
+      "Gegeben sind zwei kongruente Objekte (z.B. zwei Strecken); zu ermitteln sind Drehzentrum Z und Drehwinkel $\\alpha$",
+      "Gegeben sind Z und $\\alpha$; zu ermitteln ist das Bildobjekt",
       "Gegeben ist eine Gerade g; zu ermitteln ist das Spiegelbild",
-      "Gegeben ist nur α; zu ermitteln ist die Streckenlänge"
+      "Gegeben ist nur $\\alpha$; zu ermitteln ist die Streckenlänge"
     ],
     "correct": [
       0
     ],
-    "explanation": "Umkehraufgabe: Gegeben sind zwei (kongruente) Objekte (z.B. auch zwei Strecken), ermittle Z und α der zugehörigen Drehung. 📄 Quelle: ari20_vl10, Folie 11 (S.11)",
+    "explanation": "Umkehraufgabe: Gegeben sind zwei (kongruente) Objekte (z.B. auch zwei Strecken), ermittle Z und $\\alpha$ der zugehörigen Drehung. 📄 Quelle: ari20_vl10, Folie 11 (S.11)",
     "source": "ari20_vl10, Folie 11 (S.11, Bewegungen in der Ebene)"
   },
   {
@@ -470,11 +470,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Bei einer Drehung ist die Strecke PZ = 3,36 lang. Welche Länge hat die Bildstrecke P'Z?",
+    "question": "Bei einer Drehung ist die Strecke $PZ = 3{,}36$ lang. Welche Länge hat die Bildstrecke $P'Z$?",
     "answer": 3.36,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Drehung erhält den Abstand zum Drehzentrum: die Folie zeigt PZ = 3.36 und P'Z = 3.36. 📄 Quelle: ari20_vl10, Folie 11 (S.11)",
+    "explanation": "Die Drehung erhält den Abstand zum Drehzentrum: die Folie zeigt $PZ = 3.36$ und $P'Z = 3.36$. 📄 Quelle: ari20_vl10, Folie 11 (S.11)",
     "source": "ari20_vl10, Folie 11 (S.11, Bewegungen in der Ebene)"
   },
   {
@@ -485,7 +485,7 @@ const SAMPLE_QUESTIONS = [
     "question": "Was ist bei der Grundaufgabe der Drehung (Bewegungen) gegeben?",
     "options": [
       "das Drehzentrum Z",
-      "der Drehwinkel α",
+      "der Drehwinkel $\\alpha$",
       "zwei kongruente Objekte",
       "der Bildpunkt P'"
     ],
@@ -493,7 +493,7 @@ const SAMPLE_QUESTIONS = [
       0,
       1
     ],
-    "explanation": "Bei der Grundaufgabe sind das Drehzentrum Z und ein Drehwinkel α gegeben; damit wird ein Objekt (z.B. ein Dreieck) um α an Z gedreht. 📄 Quelle: ari20_vl10, Folie 12 (S.12)",
+    "explanation": "Bei der Grundaufgabe sind das Drehzentrum Z und ein Drehwinkel $\\alpha$ gegeben; damit wird ein Objekt (z.B. ein Dreieck) um $\\alpha$ an Z gedreht. 📄 Quelle: ari20_vl10, Folie 12 (S.12)",
     "source": "ari20_vl10, Folie 12 (S.12, Bewegungen: Drehung)"
   },
   {
@@ -503,15 +503,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Bei der Umkehraufgabe der Drehung sind zwei (kongruente) Objekte gegeben. Was ist zu ermitteln?",
     "options": [
-      "Drehzentrum Z und Drehwinkel α der zugehörigen Drehung",
-      "nur der Drehwinkel α",
+      "Drehzentrum Z und Drehwinkel $\\alpha$ der zugehörigen Drehung",
+      "nur der Drehwinkel $\\alpha$",
       "der Verschiebungsvektor",
       "die Spiegelachse"
     ],
     "correct": [
       0
     ],
-    "explanation": "Bei der Umkehraufgabe sind zwei kongruente Objekte gegeben und man ermittelt Z und α der zugehörigen Drehung. 📄 Quelle: ari20_vl10, Folie 12 (S.12)",
+    "explanation": "Bei der Umkehraufgabe sind zwei kongruente Objekte gegeben und man ermittelt Z und $\\alpha$ der zugehörigen Drehung. 📄 Quelle: ari20_vl10, Folie 12 (S.12)",
     "source": "ari20_vl10, Folie 12 (S.12, Bewegungen: Drehung)"
   },
   {
@@ -557,17 +557,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lautet die Umkehrabbildung der Drehung D_{Z,α}?",
+    "question": "Wie lautet die Umkehrabbildung der Drehung $D_{Z,\\alpha}$?",
     "options": [
-      "D_{Z,α}^{-1} = D_{Z,360°-α}",
-      "D_{Z,α}^{-1} = D_{Z,-180°}",
-      "D_{Z,α}^{-1} = D_{Z,α}",
-      "D_{Z,α}^{-1} = V_{B,A}"
+      "$D_{Z,\\alpha}^{-1} = D_{Z,360^\\circ-\\alpha}$",
+      "$D_{Z,\\alpha}^{-1} = D_{Z,-180^\\circ}$",
+      "$D_{Z,\\alpha}^{-1} = D_{Z,\\alpha}$",
+      "$D_{Z,\\alpha}^{-1} = V_{B,A}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Umkehrabbildung der Drehung ist D_{Z,α}^{-1} = D_{Z,360°-α}. 📄 Quelle: ari20_vl10, Folie 13 (S.13)",
+    "explanation": "Die Umkehrabbildung der Drehung ist $D_{Z,\\alpha}^{-1} = D_{Z,360^\\circ-\\alpha}$. 📄 Quelle: ari20_vl10, Folie 13 (S.13)",
     "source": "ari20_vl10, Folie 13 (S.13, Bewegungen: Drehung)"
   },
   {
@@ -575,11 +575,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Bei welchem Drehwinkel α (in Grad) erhält die Drehung als Sonderfall den Namen Punktspiegelung?",
+    "question": "Bei welchem Drehwinkel $\\alpha$ (in Grad) erhält die Drehung als Sonderfall den Namen Punktspiegelung?",
     "answer": 180,
     "tolerance": 0,
     "unit": "°",
-    "explanation": "Ist α = 180°, so erhält die Drehung den Namen Punktspiegelung. 📄 Quelle: ari20_vl10, Folie 13 (S.13)",
+    "explanation": "Ist $\\alpha = 180^\\circ$, so erhält die Drehung den Namen Punktspiegelung. 📄 Quelle: ari20_vl10, Folie 13 (S.13)",
     "source": "ari20_vl10, Folie 13 (S.13, Bewegungen: Drehung)"
   },
   {
@@ -587,10 +587,10 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 3,
     "type": "multi",
-    "question": "Die Abbildung V_{A,B}: E→E heißt Verschiebung um die Länge der Strecke AB (in Richtung B), wenn für jeden Punkt P und seinen Bildpunkt P' gilt:",
+    "question": "Die Abbildung $V_{A,B}: E \\to E$ heißt Verschiebung um die Länge der Strecke $AB$ (in Richtung B), wenn für jeden Punkt P und seinen Bildpunkt P' gilt:",
     "options": [
       "Liegt P auf der Geraden durch A und B, so auch P'",
-      "Die Strecken AB und PP' sind gleichlang",
+      "Die Strecken $AB$ und $PP'$ sind gleichlang",
       "Sonst bilden A, P, P', B ein Parallelogramm",
       "P und P' fallen stets zusammen"
     ],
@@ -599,7 +599,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Definition: liegt P auf der Geraden durch A und B, so auch P'; die Strecken AB und PP' sind gleichlang; sonst bilden APP'B ein Parallelogramm. 📄 Quelle: ari20_vl10, Folie 14 (S.14)",
+    "explanation": "Definition: liegt P auf der Geraden durch A und B, so auch P'; die Strecken $AB$ und $PP'$ sind gleichlang; sonst bilden $APP'B$ ein Parallelogramm. 📄 Quelle: ari20_vl10, Folie 14 (S.14)",
     "source": "ari20_vl10, Folie 14 (S.14, Bewegungen: Verschiebung)"
   },
   {
@@ -607,17 +607,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 1,
     "type": "single",
-    "question": "Um welche Länge und in welche Richtung verschiebt V_{A,B}?",
+    "question": "Um welche Länge und in welche Richtung verschiebt $V_{A,B}$?",
     "options": [
-      "um die Länge der Strecke AB in Richtung B",
-      "um die Länge der Strecke AB in Richtung A",
-      "um den doppelten Betrag von AB",
+      "um die Länge der Strecke $AB$ in Richtung B",
+      "um die Länge der Strecke $AB$ in Richtung A",
+      "um den doppelten Betrag von $AB$",
       "um einen beliebigen Vektor"
     ],
     "correct": [
       0
     ],
-    "explanation": "V_{A,B} ist die Verschiebung um die Länge der Strecke AB in Richtung B. 📄 Quelle: ari20_vl10, Folie 14 (S.14)",
+    "explanation": "$V_{A,B}$ ist die Verschiebung um die Länge der Strecke $AB$ in Richtung B. 📄 Quelle: ari20_vl10, Folie 14 (S.14)",
     "source": "ari20_vl10, Folie 14 (S.14, Bewegungen: Verschiebung)"
   },
   {
@@ -629,7 +629,7 @@ const SAMPLE_QUESTIONS = [
     "options": [
       "Gegeben ist ein Verschiebungsvektor; verschiebe ein Objekt",
       "Gegeben sind zwei kongruente Objekte",
-      "Gegeben ist ein Drehwinkel α",
+      "Gegeben ist ein Drehwinkel $\\alpha$",
       "Gegeben ist eine Spiegelachse"
     ],
     "correct": [
@@ -647,7 +647,7 @@ const SAMPLE_QUESTIONS = [
     "options": [
       "Gegeben sind zwei kongruente Objekte (z.B. zwei Punkte); ermittle den Verschiebungsvektor",
       "Ermittle das Drehzentrum Z",
-      "Ermittle den Drehwinkel α",
+      "Ermittle den Drehwinkel $\\alpha$",
       "Verschiebe ein gegebenes Objekt entlang eines Vektors"
     ],
     "correct": [
@@ -681,17 +681,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lautet die Umkehrabbildung der Verschiebung V_{A,B}?",
+    "question": "Wie lautet die Umkehrabbildung der Verschiebung $V_{A,B}$?",
     "options": [
-      "V_{A,B}^{-1} = V_{B,A}",
-      "V_{A,B}^{-1} = V_{A,B}",
-      "V_{A,B}^{-1} = D_{Z,360°-α}",
-      "V_{A,B}^{-1} = V_{A,-B}"
+      "$V_{A,B}^{-1} = V_{B,A}$",
+      "$V_{A,B}^{-1} = V_{A,B}$",
+      "$V_{A,B}^{-1} = D_{Z,360^\\circ-\\alpha}$",
+      "$V_{A,B}^{-1} = V_{A,-B}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Umkehrabbildung der Verschiebung ist V_{A,B}^{-1} = V_{B,A}. 📄 Quelle: ari20_vl10, Folie 16 (S.16)",
+    "explanation": "Die Umkehrabbildung der Verschiebung ist $V_{A,B}^{-1} = V_{B,A}$. 📄 Quelle: ari20_vl10, Folie 16 (S.16)",
     "source": "ari20_vl10, Folie 16 (S.16, Bewegungen: Verschiebung)"
   },
   {
@@ -704,7 +704,7 @@ const SAMPLE_QUESTIONS = [
       "Durch ein Punktepaar P und P'",
       "Durch P, Z und P'",
       "Durch drei Punkte",
-      "Durch den Drehwinkel α"
+      "Durch den Drehwinkel $\\alpha$"
     ],
     "correct": [
       0
@@ -866,17 +866,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "single",
-    "question": "Was bedeutet die Konvention S_h o S_g bei der Verknüpfung zweier Abbildungen?",
+    "question": "Was bedeutet die Konvention $S_h \\circ S_g$ bei der Verknüpfung zweier Abbildungen?",
     "options": [
-      "\"S_h nach S_g\" – von innen nach außen (erst S_g, dann S_h)",
-      "\"S_g nach S_h\" – erst S_h, dann S_g",
+      "\"$S_h$ nach $S_g$\" – von innen nach außen (erst $S_g$, dann $S_h$)",
+      "\"$S_g$ nach $S_h$\" – erst $S_h$, dann $S_g$",
       "beide Spiegelungen werden gleichzeitig ausgeführt",
-      "S_h o S_g = S_g o S_h gilt stets"
+      "$S_h \\circ S_g = S_g \\circ S_h$ gilt stets"
     ],
     "correct": [
       0
     ],
-    "explanation": "Konvention von Innen nach Außen: S_h o S_g bedeutet 'S_h nach S_g'. 📄 Quelle: ari20_vl10, Folie 22 (S.22)",
+    "explanation": "Konvention von Innen nach Außen: $S_h \\circ S_g$ bedeutet '$S_h$ nach $S_g$'. 📄 Quelle: ari20_vl10, Folie 22 (S.22)",
     "source": "ari20_vl10, Folie 22 (S.22, Verkettung von Abbildungen)"
   },
   {
@@ -884,17 +884,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 1,
     "type": "single",
-    "question": "Welcher aus der Analysis bekannten Schreibweise entspricht die Konvention S_h o S_g?",
+    "question": "Welcher aus der Analysis bekannten Schreibweise entspricht die Konvention $S_h \\circ S_g$?",
     "options": [
-      "g(f(x)) = g o f",
-      "f(g(x)) = g o f",
-      "g o f = f o g",
-      "S_h o S_g = S_g nach S_h"
+      "$g(f(x)) = g \\circ f$",
+      "$f(g(x)) = g \\circ f$",
+      "$g \\circ f = f \\circ g$",
+      "$S_h \\circ S_g = S_g$ nach $S_h$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Konvention entspricht der Schreibweise g(f(x)) = g o f. 📄 Quelle: ari20_vl10, Folie 22 (S.22)",
+    "explanation": "Die Konvention entspricht der Schreibweise $g(f(x)) = g \\circ f$. 📄 Quelle: ari20_vl10, Folie 22 (S.22)",
     "source": "ari20_vl10, Folie 22 (S.22, Verkettung von Abbildungen)"
   },
   {
@@ -922,19 +922,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Aussagen zur Verkettung Sₕ ∘ S_g treffen laut der Konvention bei der Verknüpfung zweier Abbildungen zu?",
+    "question": "Welche Aussagen zur Verkettung $S_h \\circ S_g$ treffen laut der Konvention bei der Verknüpfung zweier Abbildungen zu?",
     "options": [
       "Die Verkettung wird von innen nach außen gelesen.",
-      "Sₕ ∘ S_g wird gesprochen als „Sₕ nach S_g\".",
-      "Bei Sₕ ∘ S_g wird zuerst Sₕ und danach S_g ausgeführt.",
-      "Die Schreibweise entspricht der Analogie g(f(x)) = g ∘ f."
+      "$S_h \\circ S_g$ wird gesprochen als „$S_h$ nach $S_g$\".",
+      "Bei $S_h \\circ S_g$ wird zuerst $S_h$ und danach $S_g$ ausgeführt.",
+      "Die Schreibweise entspricht der Analogie $g(f(x)) = g \\circ f$."
     ],
     "correct": [
       0,
       1,
       3
     ],
-    "explanation": "Die Folie legt fest: „Von Innen nach Außen\". In Zeichen Sₕ ∘ S_g, gesprochen „Sₕ nach S_g\" (wie g(f(x)) = g ∘ f). Daher wird zuerst S_g (innen) und dann Sₕ (außen) ausgeführt – die Reihenfolge in Antwort C ist vertauscht. 📄 Quelle: ari20_vl11, Folie 8 (S.7)",
+    "explanation": "Die Folie legt fest: „Von Innen nach Außen\". In Zeichen $S_h \\circ S_g$, gesprochen „$S_h$ nach $S_g$\" (wie $g(f(x)) = g \\circ f$). Daher wird zuerst $S_g$ (innen) und dann $S_h$ (außen) ausgeführt – die Reihenfolge in Antwort C ist vertauscht. 📄 Quelle: ari20_vl11, Folie 8 (S.7)",
     "source": "ari20_vl11, Folie 8 (S.7, Arithmetik: Verkettung von Abbildungen)"
   },
   {
@@ -942,17 +942,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "single",
-    "question": "In welcher Reihenfolge werden die beiden Geradenspiegelungen bei der Verkettung Sₕ ∘ S_g gemäß der Konvention ausgeführt?",
+    "question": "In welcher Reihenfolge werden die beiden Geradenspiegelungen bei der Verkettung $S_h \\circ S_g$ gemäß der Konvention ausgeführt?",
     "options": [
-      "Zuerst S_g, dann Sₕ (von innen nach außen).",
-      "Zuerst Sₕ, dann S_g.",
+      "Zuerst $S_g$, dann $S_h$ (von innen nach außen).",
+      "Zuerst $S_h$, dann $S_g$.",
       "Beide gleichzeitig.",
       "Die Reihenfolge ist beliebig."
     ],
     "correct": [
       0
     ],
-    "explanation": "Konvention „Von Innen nach Außen\": Sₕ ∘ S_g bedeutet „Sₕ nach S_g\", d. h. die innen stehende Abbildung S_g wird zuerst ausgeführt, danach Sₕ (analog zu g(f(x)) = g ∘ f). 📄 Quelle: ari20_vl11, Folie 8 (S.7)",
+    "explanation": "Konvention „Von Innen nach Außen\": $S_h \\circ S_g$ bedeutet „$S_h$ nach $S_g$\", d. h. die innen stehende Abbildung $S_g$ wird zuerst ausgeführt, danach $S_h$ (analog zu $g(f(x)) = g \\circ f$). 📄 Quelle: ari20_vl11, Folie 8 (S.7)",
     "source": "ari20_vl11, Folie 8 (S.7, Arithmetik: Verkettung von Abbildungen)"
   },
   {
@@ -960,7 +960,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "single",
-    "question": "In welcher Reihenfolge wird bei der Erkundung der Verkettung Sₕ ∘ S_g gespiegelt?",
+    "question": "In welcher Reihenfolge wird bei der Erkundung der Verkettung $S_h \\circ S_g$ gespiegelt?",
     "options": [
       "Erst Spiegelung an g, dann das gespiegelte Objekt an h.",
       "Erst Spiegelung an h, dann an g.",
@@ -970,7 +970,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie steht: „Erst Spiegelung an g. Dann das gespiegelte Objekt an h spiegeln\" – passend zur Konvention Sₕ ∘ S_g. 📄 Quelle: ari20_vl11, Folie 11 (S.10)",
+    "explanation": "Auf der Folie steht: „Erst Spiegelung an g. Dann das gespiegelte Objekt an h spiegeln\" – passend zur Konvention $S_h \\circ S_g$. 📄 Quelle: ari20_vl11, Folie 11 (S.10)",
     "source": "ari20_vl11, Folie 11 (S.10, Arithmetik: Verkettung von Bewegungen)"
   },
   {
@@ -996,19 +996,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Zuordnungen von Lage der Geraden zum Ergebnis der Verkettung Sₕ ∘ S_g sind laut der Fallunterscheidung korrekt?",
+    "question": "Welche Zuordnungen von Lage der Geraden zum Ergebnis der Verkettung $S_h \\circ S_g$ sind laut der Fallunterscheidung korrekt?",
     "options": [
-      "Fall 1 (g = h): Sₕ ∘ S_g = id (identische Abbildung).",
-      "Fall 2 (g ∥ h): Sₕ ∘ S_g ist eine Verschiebung (V).",
-      "Fall 3 (g ∩ h = {S}, ∠gh = α): Sₕ ∘ S_g ist eine Drehung (D).",
-      "Fall 2 (g ∥ h): Sₕ ∘ S_g ist eine Drehung (D)."
+      "Fall 1 ($g = h$): $S_h \\circ S_g = \\mathrm{id}$ (identische Abbildung).",
+      "Fall 2 ($g \\parallel h$): $S_h \\circ S_g$ ist eine Verschiebung (V).",
+      "Fall 3 ($g \\cap h = \\{S\\}$, $\\angle gh = \\alpha$): $S_h \\circ S_g$ ist eine Drehung (D).",
+      "Fall 2 ($g \\parallel h$): $S_h \\circ S_g$ ist eine Drehung (D)."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Fallunterscheidung ergibt: Fall 1 g = h → id; Fall 2 g ∥ h → Verschiebung V; Fall 3 g ∩ h = {S} mit ∠gh = α → Drehung D. Der Parallelfall liefert eine Verschiebung, keine Drehung. 📄 Quelle: ari20_vl11, Folie 12 (S.11)",
+    "explanation": "Die Fallunterscheidung ergibt: Fall 1 $g = h$ → $\\mathrm{id}$; Fall 2 $g \\parallel h$ → Verschiebung V; Fall 3 $g \\cap h = \\{S\\}$ mit $\\angle gh = \\alpha$ → Drehung D. Der Parallelfall liefert eine Verschiebung, keine Drehung. 📄 Quelle: ari20_vl11, Folie 12 (S.11)",
     "source": "ari20_vl11, Folie 12 (S.11, Arithmetik: Verkettung von Bewegungen)"
   },
   {
@@ -1016,17 +1016,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 1,
     "type": "single",
-    "question": "Was ist das Ergebnis der Verkettung Sₕ ∘ S_g im Fall g = h?",
+    "question": "Was ist das Ergebnis der Verkettung $S_h \\circ S_g$ im Fall $g = h$?",
     "options": [
-      "Die identische Abbildung id.",
+      "Die identische Abbildung $\\mathrm{id}$.",
       "Eine Verschiebung.",
-      "Eine Drehung um 90°.",
+      "Eine Drehung um $90^\\circ$.",
       "Eine Punktspiegelung."
     ],
     "correct": [
       0
     ],
-    "explanation": "Fall 1 auf der Folie: g = h, Sₕ ∘ S_g = id (Identische Abbildung). 📄 Quelle: ari20_vl11, Folie 12 (S.11)",
+    "explanation": "Fall 1 auf der Folie: $g = h$, $S_h \\circ S_g = \\mathrm{id}$ (Identische Abbildung). 📄 Quelle: ari20_vl11, Folie 12 (S.11)",
     "source": "ari20_vl11, Folie 12 (S.11, Arithmetik: Verkettung von Bewegungen)"
   },
   {
@@ -1036,15 +1036,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Welche zusätzliche Bedingung kennzeichnet Fall 3a gegenüber dem allgemeinen Fall 3?",
     "options": [
-      "Der Schnittwinkel beträgt ∠gh = 90°.",
-      "Die Geraden sind parallel (g ∥ h).",
-      "Es gilt g = h.",
-      "Der Schnittwinkel beträgt ∠gh = 45°."
+      "Der Schnittwinkel beträgt $\\angle gh = 90^\\circ$.",
+      "Die Geraden sind parallel ($g \\parallel h$).",
+      "Es gilt $g = h$.",
+      "Der Schnittwinkel beträgt $\\angle gh = 45^\\circ$."
     ],
     "correct": [
       0
     ],
-    "explanation": "Fall 3a auf der Folie: g ∩ h = {S} und ∠gh = 90° (Sonderfall von Fall 3 mit rechtem Schnittwinkel). 📄 Quelle: ari20_vl11, Folie 12 (S.11)",
+    "explanation": "Fall 3a auf der Folie: $g \\cap h = \\{S\\}$ und $\\angle gh = 90^\\circ$ (Sonderfall von Fall 3 mit rechtem Schnittwinkel). 📄 Quelle: ari20_vl11, Folie 12 (S.11)",
     "source": "ari20_vl11, Folie 12 (S.11, Arithmetik: Verkettung von Bewegungen)"
   },
   {
@@ -1052,19 +1052,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Was besagt der Satz über die Verkettung zweier Geradenspiegelungen S_g und Sₕ an den Geraden g und h? Wählen Sie die korrekten Aussagen.",
+    "question": "Was besagt der Satz über die Verkettung zweier Geradenspiegelungen $S_g$ und $S_h$ an den Geraden g und h? Wählen Sie die korrekten Aussagen.",
     "options": [
-      "Wenn g = h gilt, dann gilt Sₕ ∘ S_g = id (identische Abbildung).",
-      "Wenn g ∥ h gilt, dann gilt Sₕ ∘ S_g = V_{2|AB|}.",
-      "Wenn g ∩ h = {S} mit ∠gh = α gilt, dann gilt Sₕ ∘ S_g = D_{S,2α}.",
-      "Wenn g ∩ h = {S} mit ∠gh = α gilt, dann gilt Sₕ ∘ S_g = D_{S,α}."
+      "Wenn $g = h$ gilt, dann gilt $S_h \\circ S_g = \\mathrm{id}$ (identische Abbildung).",
+      "Wenn $g \\parallel h$ gilt, dann gilt $S_h \\circ S_g = V_{2|AB|}$.",
+      "Wenn $g \\cap h = \\{S\\}$ mit $\\angle gh = \\alpha$ gilt, dann gilt $S_h \\circ S_g = D_{S,2\\alpha}$.",
+      "Wenn $g \\cap h = \\{S\\}$ mit $\\angle gh = \\alpha$ gilt, dann gilt $S_h \\circ S_g = D_{S,\\alpha}$."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Der Satz nennt drei Fälle: g = h → id; g ∥ h → Verschiebung V_{2|AB|}; g ∩ h = {S} mit ∠gh = α → Drehung D_{S,2α} (Drehwinkel 2α, nicht α). 📄 Quelle: ari20_vl11, Folie 13 (S.12)",
+    "explanation": "Der Satz nennt drei Fälle: $g = h$ → $\\mathrm{id}$; $g \\parallel h$ → Verschiebung $V_{2|AB|}$; $g \\cap h = \\{S\\}$ mit $\\angle gh = \\alpha$ → Drehung $D_{S,2\\alpha}$ (Drehwinkel $2\\alpha$, nicht $\\alpha$). 📄 Quelle: ari20_vl11, Folie 13 (S.12)",
     "source": "ari20_vl11, Folie 13 (S.12, Arithmetik: Satz zur Verkettung von Geradenspiegelungen)"
   },
   {
@@ -1072,7 +1072,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie ist im Fall g ∥ h die Verschiebungsstrecke AB laut Satz beschrieben, für die Sₕ ∘ S_g = V_{2|AB|} gilt?",
+    "question": "Wie ist im Fall $g \\parallel h$ die Verschiebungsstrecke AB laut Satz beschrieben, für die $S_h \\circ S_g = V_{2|AB|}$ gilt?",
     "options": [
       "AB steht senkrecht zu g (bzw. h) und reicht von g nach h.",
       "AB verläuft parallel zu g und reicht von g nach h.",
@@ -1082,7 +1082,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Im Satz: bei g ∥ h ist Sₕ ∘ S_g = V_{2|AB|}, wobei AB senkrecht zu g (bzw. h) steht und von g nach h reicht. 📄 Quelle: ari20_vl11, Folie 13 (S.12)",
+    "explanation": "Im Satz: bei $g \\parallel h$ ist $S_h \\circ S_g = V_{2|AB|}$, wobei AB senkrecht zu g (bzw. h) steht und von g nach h reicht. 📄 Quelle: ari20_vl11, Folie 13 (S.12)",
     "source": "ari20_vl11, Folie 13 (S.12, Arithmetik: Satz zur Verkettung von Geradenspiegelungen)"
   },
   {
@@ -1090,17 +1090,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie wird im Fall g = h begründet, dass die Verkettung zweier Geradenspiegelungen die identische Abbildung ergibt?",
+    "question": "Wie wird im Fall $g = h$ begründet, dass die Verkettung zweier Geradenspiegelungen die identische Abbildung ergibt?",
     "options": [
-      "Wegen g = h gilt S_g ∘ Sₕ = S_g ∘ S_g⁻¹ = id (eine Geradenspiegelung ist zu sich selbst invers).",
+      "Wegen $g = h$ gilt $S_g \\circ S_h = S_g \\circ S_g^{-1} = \\mathrm{id}$ (eine Geradenspiegelung ist zu sich selbst invers).",
       "Weil zwei beliebige verschiedene Spiegelungen sich stets aufheben.",
       "Weil eine einzelne Geradenspiegelung bereits die Identität ist.",
-      "Weil S_g ∘ Sₕ = D_{S,2α} mit α = 0 eine Verschiebung ist."
+      "Weil $S_g \\circ S_h = D_{S,2\\alpha}$ mit $\\alpha = 0$ eine Verschiebung ist."
     ],
     "correct": [
       0
     ],
-    "explanation": "Fall 1 auf der Folie: g = h, also S_g ∘ Sₕ = S_g ∘ S_g⁻¹ = id; eine Geradenspiegelung ist ihre eigene Umkehrabbildung. 📄 Quelle: ari20_vl11, Folie 13 (S.12)",
+    "explanation": "Fall 1 auf der Folie: $g = h$, also $S_g \\circ S_h = S_g \\circ S_g^{-1} = \\mathrm{id}$; eine Geradenspiegelung ist ihre eigene Umkehrabbildung. 📄 Quelle: ari20_vl11, Folie 13 (S.12)",
     "source": "ari20_vl11, Folie 13 (S.12, Arithmetik: Satz zur Verkettung von Geradenspiegelungen)"
   },
   {
@@ -1108,11 +1108,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 3,
     "type": "numeric",
-    "question": "Im Fall g ∩ h = {S} mit ∠gh = α gilt Sₕ ∘ S_g = D_{S,2α}. Der Schnittwinkel beträgt α = 35°. Welchen Drehwinkel (in Grad) besitzt die entstehende Drehung?",
+    "question": "Im Fall $g \\cap h = \\{S\\}$ mit $\\angle gh = \\alpha$ gilt $S_h \\circ S_g = D_{S,2\\alpha}$. Der Schnittwinkel beträgt $\\alpha = 35^\\circ$. Welchen Drehwinkel (in Grad) besitzt die entstehende Drehung?",
     "answer": 70,
     "tolerance": 0,
     "unit": "°",
-    "explanation": "Der Drehwinkel ist 2α = 2·35° = 70° (Drehung D_{S,2α} um den Schnittpunkt S). 📄 Quelle: ari20_vl11, Folie 13 (S.12)",
+    "explanation": "Der Drehwinkel ist $2\\alpha = 2 \\cdot 35^\\circ = 70^\\circ$ (Drehung $D_{S,2\\alpha}$ um den Schnittpunkt S). 📄 Quelle: ari20_vl11, Folie 13 (S.12)",
     "source": "ari20_vl11, Folie 13 (S.12, Arithmetik: Satz zur Verkettung von Geradenspiegelungen)"
   },
   {
@@ -1120,9 +1120,9 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 1,
     "type": "single",
-    "question": "Welche Bewegung entsteht im Fall g ∥ h als Verkettung Sₕ ∘ S_g?",
+    "question": "Welche Bewegung entsteht im Fall $g \\parallel h$ als Verkettung $S_h \\circ S_g$?",
     "options": [
-      "Eine Verschiebung V_{2|AB|}.",
+      "Eine Verschiebung $V_{2|AB|}$.",
       "Eine Drehung.",
       "Die identische Abbildung.",
       "Eine Geradenspiegelung."
@@ -1130,7 +1130,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Fall 2 (g ∥ h): Die Verkettung zweier Geradenspiegelungen an parallelen Geraden ergibt eine Verschiebung V_{2|AB|}. 📄 Quelle: ari20_vl11, Folie 14 (S.13)",
+    "explanation": "Fall 2 ($g \\parallel h$): Die Verkettung zweier Geradenspiegelungen an parallelen Geraden ergibt eine Verschiebung $V_{2|AB|}$. 📄 Quelle: ari20_vl11, Folie 14 (S.13)",
     "source": "ari20_vl11, Folie 14 (S.13, Arithmetik: Satz zur Verkettung von Geradenspiegelungen)"
   },
   {
@@ -1138,11 +1138,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 3,
     "type": "numeric",
-    "question": "Bei g ∥ h ist die Länge der Verschiebung (Strecke von A zu A'') das Doppelte des Abstands der Geraden g und h (V_{2|AB|}). Der Abstand beträgt d(g,h) = 3 cm. Wie lang ist die Verschiebungsstrecke |AA''| in cm?",
+    "question": "Bei $g \\parallel h$ ist die Länge der Verschiebung (Strecke von A zu A'') das Doppelte des Abstands der Geraden g und h ($V_{2|AB|}$). Der Abstand beträgt $d(g,h) = 3$ cm. Wie lang ist die Verschiebungsstrecke $|AA''|$ in cm?",
     "answer": 6,
     "tolerance": 0,
     "unit": "cm",
-    "explanation": "Die Strecke AB steht senkrecht zwischen g und h, also |AB| = d(g,h) = 3 cm. Die Verschiebung ist V_{2|AB|}, damit |AA''| = 2·3 cm = 6 cm. 📄 Quelle: ari20_vl11, Folie 14 (S.13)",
+    "explanation": "Die Strecke AB steht senkrecht zwischen g und h, also $|AB| = d(g,h) = 3$ cm. Die Verschiebung ist $V_{2|AB|}$, damit $|AA''| = 2 \\cdot 3\\,\\mathrm{cm} = 6\\,\\mathrm{cm}$. 📄 Quelle: ari20_vl11, Folie 14 (S.13)",
     "source": "ari20_vl11, Folie 14 (S.13, Arithmetik: Satz zur Verkettung von Geradenspiegelungen)"
   },
   {
@@ -1150,17 +1150,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "single",
-    "question": "Welche Bewegung entsteht im Fall g ∩ h = {S} mit ∠gh = α als Verkettung Sₕ ∘ S_g?",
+    "question": "Welche Bewegung entsteht im Fall $g \\cap h = \\{S\\}$ mit $\\angle gh = \\alpha$ als Verkettung $S_h \\circ S_g$?",
     "options": [
-      "Eine Drehung D_{S,2α} um den Schnittpunkt S mit Drehwinkel 2α.",
-      "Eine Verschiebung um die Länge 2α.",
+      "Eine Drehung $D_{S,2\\alpha}$ um den Schnittpunkt S mit Drehwinkel $2\\alpha$.",
+      "Eine Verschiebung um die Länge $2\\alpha$.",
       "Die identische Abbildung.",
-      "Eine Drehung D_{S,α} um S mit Drehwinkel α."
+      "Eine Drehung $D_{S,\\alpha}$ um S mit Drehwinkel $\\alpha$."
     ],
     "correct": [
       0
     ],
-    "explanation": "Fall 3: g ∩ h = {S} mit ∠gh = α ergibt eine Drehung D_{S,2α} um den Schnittpunkt S mit dem doppelten Schnittwinkel als Drehwinkel. 📄 Quelle: ari20_vl11, Folie 15 (S.14)",
+    "explanation": "Fall 3: $g \\cap h = \\{S\\}$ mit $\\angle gh = \\alpha$ ergibt eine Drehung $D_{S,2\\alpha}$ um den Schnittpunkt S mit dem doppelten Schnittwinkel als Drehwinkel. 📄 Quelle: ari20_vl11, Folie 15 (S.14)",
     "source": "ari20_vl11, Folie 15 (S.14, Arithmetik: Satz zur Verkettung von Geradenspiegelungen)"
   },
   {
@@ -1168,11 +1168,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 3,
     "type": "numeric",
-    "question": "Zwei Geraden schneiden sich in S unter dem Winkel ∠gh = α = 50°. Welchen Drehwinkel (in Grad) besitzt die aus Sₕ ∘ S_g entstehende Drehung D_{S,2α}?",
+    "question": "Zwei Geraden schneiden sich in S unter dem Winkel $\\angle gh = \\alpha = 50^\\circ$. Welchen Drehwinkel (in Grad) besitzt die aus $S_h \\circ S_g$ entstehende Drehung $D_{S,2\\alpha}$?",
     "answer": 100,
     "tolerance": 0,
     "unit": "°",
-    "explanation": "Der Drehwinkel ist 2α = 2·50° = 100°. 📄 Quelle: ari20_vl11, Folie 15 (S.14)",
+    "explanation": "Der Drehwinkel ist $2\\alpha = 2 \\cdot 50^\\circ = 100^\\circ$. 📄 Quelle: ari20_vl11, Folie 15 (S.14)",
     "source": "ari20_vl11, Folie 15 (S.14, Arithmetik: Satz zur Verkettung von Geradenspiegelungen)"
   },
   {
@@ -1180,7 +1180,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 1,
     "type": "single",
-    "question": "Um welchen Punkt dreht die im Fall g ∩ h = {S} entstehende Drehung?",
+    "question": "Um welchen Punkt dreht die im Fall $g \\cap h = \\{S\\}$ entstehende Drehung?",
     "options": [
       "Um den Schnittpunkt S der Geraden g und h.",
       "Um den Punkt A.",
@@ -1190,7 +1190,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Die Drehung ist D_{S,2α}; das Drehzentrum ist der Schnittpunkt S von g und h. 📄 Quelle: ari20_vl11, Folie 15 (S.14)",
+    "explanation": "Die Drehung ist $D_{S,2\\alpha}$; das Drehzentrum ist der Schnittpunkt S von g und h. 📄 Quelle: ari20_vl11, Folie 15 (S.14)",
     "source": "ari20_vl11, Folie 15 (S.14, Arithmetik: Satz zur Verkettung von Geradenspiegelungen)"
   },
   {
@@ -1236,11 +1236,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 3,
     "type": "multi",
-    "question": "Welche Bedingungen müssen laut dem Phänomensatz für den Schnittfall erfüllt sein, damit Sₕ ∘ S_g = Sₕ' ∘ S_g' gilt?",
+    "question": "Welche Bedingungen müssen laut dem Phänomensatz für den Schnittfall erfüllt sein, damit $S_h \\circ S_g = S_{h'} \\circ S_{g'}$ gilt?",
     "options": [
-      "g und h schneiden sich in S mit ∠gh = α.",
+      "g und h schneiden sich in S mit $\\angle gh = \\alpha$.",
       "g' und h' schneiden sich im selben Punkt S.",
-      "Es gilt ∠g'h' = α (gleicher Schnittwinkel).",
+      "Es gilt $\\angle g'h' = \\alpha$ (gleicher Schnittwinkel).",
       "g und h müssen parallel sein."
     ],
     "correct": [
@@ -1248,7 +1248,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Der Satz: Wenn g ∩ h = {S} mit ∠gh = α und g' ∩ h' = {S} mit ∠g'h' = α gilt, dann ist Sₕ ∘ S_g = Sₕ' ∘ S_g'. Das Geradenpaar darf also bei gleichem Schnittpunkt und gleichem Winkel gedreht werden. 📄 Quelle: ari20_vl11, Folie 21 (S.20)",
+    "explanation": "Der Satz: Wenn $g \\cap h = \\{S\\}$ mit $\\angle gh = \\alpha$ und $g' \\cap h' = \\{S\\}$ mit $\\angle g'h' = \\alpha$ gilt, dann ist $S_h \\circ S_g = S_{h'} \\circ S_{g'}$. Das Geradenpaar darf also bei gleichem Schnittpunkt und gleichem Winkel gedreht werden. 📄 Quelle: ari20_vl11, Folie 21 (S.20)",
     "source": "ari20_vl11, Folie 21 (S.20, Arithmetik: Phänomsätze der Verkettung)"
   },
   {
@@ -1256,17 +1256,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 3,
     "type": "single",
-    "question": "Unter welcher Bedingung gilt im Parallelfall laut Phänomensatz Sₕ ∘ S_g = Sₕ' ∘ S_g'?",
+    "question": "Unter welcher Bedingung gilt im Parallelfall laut Phänomensatz $S_h \\circ S_g = S_{h'} \\circ S_{g'}$?",
     "options": [
-      "g ∥ h und g ∥ g' und g ∥ h' mit gleichem Abstand d(g,h) = d(g',h').",
-      "g ∥ h bei beliebigen Abständen.",
+      "$g \\parallel h$ und $g \\parallel g'$ und $g \\parallel h'$ mit gleichem Abstand $d(g,h) = d(g',h')$.",
+      "$g \\parallel h$ bei beliebigen Abständen.",
       "g und h schneiden sich unter gleichem Winkel.",
-      "Es gilt d(g,h) = 2·d(g',h')."
+      "Es gilt $d(g,h) = 2 \\cdot d(g',h')$."
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Satz: Wenn g ∥ h und g ∥ g' und g ∥ h' zu zwei Geraden g' und h' gilt mit d(g,h) = d(g',h'), dann ist Sₕ ∘ S_g = Sₕ' ∘ S_g'. Entscheidend ist der gleiche Abstand. 📄 Quelle: ari20_vl11, Folie 21 (S.20)",
+    "explanation": "Der Satz: Wenn $g \\parallel h$ und $g \\parallel g'$ und $g \\parallel h'$ zu zwei Geraden g' und h' gilt mit $d(g,h) = d(g',h')$, dann ist $S_h \\circ S_g = S_{h'} \\circ S_{g'}$. Entscheidend ist der gleiche Abstand. 📄 Quelle: ari20_vl11, Folie 21 (S.20)",
     "source": "ari20_vl11, Folie 21 (S.20, Arithmetik: Phänomsätze der Verkettung)"
   },
   {
@@ -1284,7 +1284,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Die beiden Sätze zeigen: Bei sich schneidenden Geraden bleibt die Verkettung gleich, solange Schnittpunkt S und Winkel α erhalten bleiben; bei parallelen Geraden, solange der Abstand d(g,h) erhalten bleibt. Das Geradenpaar ist also nicht eindeutig festgelegt. 📄 Quelle: ari20_vl11, Folie 21 (S.20)",
+    "explanation": "Die beiden Sätze zeigen: Bei sich schneidenden Geraden bleibt die Verkettung gleich, solange Schnittpunkt S und Winkel $\\alpha$ erhalten bleiben; bei parallelen Geraden, solange der Abstand $d(g,h)$ erhalten bleibt. Das Geradenpaar ist also nicht eindeutig festgelegt. 📄 Quelle: ari20_vl11, Folie 21 (S.20)",
     "source": "ari20_vl11, Folie 21 (S.20, Arithmetik: Phänomsätze der Verkettung)"
   },
   {
@@ -9498,17 +9498,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie ist die Implikation A ⇒ B mathematisch definiert?",
+    "question": "Wie ist die Implikation $A \\Rightarrow B$ mathematisch definiert?",
     "options": [
-      "A ⇒ B :⇔ ¬A ∨ B",
-      "A ⇒ B :⇔ A ∧ ¬B",
-      "A ⇒ B :⇔ ¬A ∧ B",
-      "A ⇒ B :⇔ A ∨ ¬B"
+      "$A \\Rightarrow B :\\Leftrightarrow \\neg A \\lor B$",
+      "$A \\Rightarrow B :\\Leftrightarrow A \\land \\neg B$",
+      "$A \\Rightarrow B :\\Leftrightarrow \\neg A \\land B$",
+      "$A \\Rightarrow B :\\Leftrightarrow A \\lor \\neg B$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie definiert: Die Aussage A⇒B ist mathematisch definiert als ¬A ∨ B, also A⇒B :⇔ ¬A ∨ B. Sie ist genau dann wahr, wenn ¬A ∨ B wahr ist. 📄 Quelle: ari21_vl09, Folie 5 (S.5)",
+    "explanation": "Die Folie definiert: Die Aussage $A \\Rightarrow B$ ist mathematisch definiert als $\\neg A \\lor B$, also $A \\Rightarrow B :\\Leftrightarrow \\neg A \\lor B$. Sie ist genau dann wahr, wenn $\\neg A \\lor B$ wahr ist. 📄 Quelle: ari21_vl09, Folie 5 (S.5)",
     "source": "ari21_vl09, Folie 5 (S.5, Rückblick)"
   },
   {
@@ -9516,18 +9516,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 3,
     "type": "multi",
-    "question": "Wie lautet die Verneinung ¬(A ⇒ B) der Implikation? (Mehrere Darstellungen können richtig sein.)",
+    "question": "Wie lautet die Verneinung $\\neg(A \\Rightarrow B)$ der Implikation? (Mehrere Darstellungen können richtig sein.)",
     "options": [
-      "A ∧ ¬B",
-      "¬(¬A ∨ B)",
-      "¬A ∨ B",
-      "¬A ∧ ¬B"
+      "$A \\land \\neg B$",
+      "$\\neg(\\neg A \\lor B)$",
+      "$\\neg A \\lor B$",
+      "$\\neg A \\land \\neg B$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Da A⇒B = ¬A ∨ B, ist die Verneinung ¬(¬A ∨ B) = A ∧ ¬B (De Morgan). Beide Schreibweisen bezeichnen dieselbe Aussage. 📄 Quelle: ari21_vl09, Folie 5 (S.5)",
+    "explanation": "Da $A \\Rightarrow B = \\neg A \\lor B$, ist die Verneinung $\\neg(\\neg A \\lor B) = A \\land \\neg B$ (De Morgan). Beide Schreibweisen bezeichnen dieselbe Aussage. 📄 Quelle: ari21_vl09, Folie 5 (S.5)",
     "source": "ari21_vl09, Folie 5 (S.5, Rückblick)"
   },
   {
@@ -9545,7 +9545,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Die Verneinung von „Für alle … Wenn A, dann B“ (A⇒B) ist „Es gibt mindestens einen … A und ¬B“ (A ∧ ¬B): Die Sonne scheint und ich gehe nicht joggen. 📄 Quelle: ari21_vl09, Folie 5 (S.5)",
+    "explanation": "Die Verneinung von „Für alle … Wenn A, dann B“ ($A \\Rightarrow B$) ist „Es gibt mindestens einen … A und $\\neg B$“ ($A \\land \\neg B$): Die Sonne scheint und ich gehe nicht joggen. 📄 Quelle: ari21_vl09, Folie 5 (S.5)",
     "source": "ari21_vl09, Folie 5 (S.5, Rückblick)"
   },
   {
@@ -9553,17 +9553,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "beweismethoden",
     "difficulty": 2,
     "type": "single",
-    "question": "Worin besteht die Grundidee des Widerspruchsbeweises für einen Satz A ⇒ B?",
+    "question": "Worin besteht die Grundidee des Widerspruchsbeweises für einen Satz $A \\Rightarrow B$?",
     "options": [
-      "Statt den Satz A⇒B zu zeigen, zeigt man, dass die Verneinung des Satzes (A ∧ ¬B) immer falsch ist.",
-      "Man zeigt A⇒B direkt, indem man aus A die Aussage B herleitet.",
-      "Man zeigt, dass die Verneinung des Satzes (A ∧ ¬B) immer wahr ist.",
-      "Man zeigt, dass ¬A ∨ B immer falsch ist."
+      "Statt den Satz $A \\Rightarrow B$ zu zeigen, zeigt man, dass die Verneinung des Satzes ($A \\land \\neg B$) immer falsch ist.",
+      "Man zeigt $A \\Rightarrow B$ direkt, indem man aus A die Aussage B herleitet.",
+      "Man zeigt, dass die Verneinung des Satzes ($A \\land \\neg B$) immer wahr ist.",
+      "Man zeigt, dass $\\neg A \\lor B$ immer falsch ist."
     ],
     "correct": [
       0
     ],
-    "explanation": "Beweisidee: Statt den Satz (A⇒B) zu zeigen, zeigen wir, dass die Verneinung des Satzes (A ∧ ¬B) immer falsch ist. 📄 Quelle: ari21_vl09, Folie 7 (S.7)",
+    "explanation": "Beweisidee: Statt den Satz ($A \\Rightarrow B$) zu zeigen, zeigen wir, dass die Verneinung des Satzes ($A \\land \\neg B$) immer falsch ist. 📄 Quelle: ari21_vl09, Folie 7 (S.7)",
     "source": "ari21_vl09, Folie 7 (S.7, Rückblick)"
   },
   {
@@ -9571,17 +9571,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "beweismethoden",
     "difficulty": 2,
     "type": "single",
-    "question": "Welche Aussage stellt beim Widerspruchsbeweis die Verneinung des zu beweisenden Satzes A ⇒ B dar?",
+    "question": "Welche Aussage stellt beim Widerspruchsbeweis die Verneinung des zu beweisenden Satzes $A \\Rightarrow B$ dar?",
     "options": [
-      "A ∧ ¬B",
-      "¬A ∨ B",
-      "¬A ∧ B",
-      "A ∨ ¬B"
+      "$A \\land \\neg B$",
+      "$\\neg A \\lor B$",
+      "$\\neg A \\land B$",
+      "$A \\lor \\neg B$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Verneinung des Satzes A⇒B ist A ∧ ¬B; von ihr geht der Widerspruchsbeweis aus und zeigt, dass sie immer falsch ist. 📄 Quelle: ari21_vl09, Folie 7 (S.7)",
+    "explanation": "Die Verneinung des Satzes $A \\Rightarrow B$ ist $A \\land \\neg B$; von ihr geht der Widerspruchsbeweis aus und zeigt, dass sie immer falsch ist. 📄 Quelle: ari21_vl09, Folie 7 (S.7)",
     "source": "ari21_vl09, Folie 7 (S.7, Rückblick)"
   },
   {
@@ -9591,15 +9591,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Welcher Satz wird beispielhaft per Widerspruch bewiesen?",
     "options": [
-      "Für alle natürlichen Zahlen gilt: Wenn a² gerade ist, dann ist a gerade.",
-      "Für alle natürlichen Zahlen gilt: Wenn a gerade ist, dann ist a² gerade.",
-      "Für alle natürlichen Zahlen gilt: Wenn a² ungerade ist, dann ist a gerade.",
-      "Für alle natürlichen Zahlen gilt: a² ist immer gerade."
+      "Für alle natürlichen Zahlen gilt: Wenn $a^2$ gerade ist, dann ist a gerade.",
+      "Für alle natürlichen Zahlen gilt: Wenn a gerade ist, dann ist $a^2$ gerade.",
+      "Für alle natürlichen Zahlen gilt: Wenn $a^2$ ungerade ist, dann ist a gerade.",
+      "Für alle natürlichen Zahlen gilt: $a^2$ ist immer gerade."
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Satz lautet: Für alle natürlichen Zahlen gilt: Wenn a² gerade ist, dann ist a gerade. 📄 Quelle: ari21_vl09, Folie 8 (S.8)",
+    "explanation": "Der Satz lautet: Für alle natürlichen Zahlen gilt: Wenn $a^2$ gerade ist, dann ist a gerade. 📄 Quelle: ari21_vl09, Folie 8 (S.8)",
     "source": "ari21_vl09, Folie 8 (S.8, Rückblick)"
   },
   {
@@ -9607,17 +9607,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "beweismethoden",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lautet die Gegenannahme (Verneinung des Satzes) im Beweis „Wenn a² gerade ist, dann ist a gerade“?",
+    "question": "Wie lautet die Gegenannahme (Verneinung des Satzes) im Beweis „Wenn $a^2$ gerade ist, dann ist a gerade“?",
     "options": [
-      "Es gibt natürliche Zahlen, für die gilt: a² ist gerade und (dennoch) ist a ungerade.",
-      "Für alle natürlichen Zahlen gilt: a² ist gerade und a ist gerade.",
-      "Es gibt natürliche Zahlen, für die gilt: a² ist ungerade und a ist gerade.",
-      "Für alle natürlichen Zahlen gilt: Wenn a ungerade ist, dann ist a² ungerade."
+      "Es gibt natürliche Zahlen, für die gilt: $a^2$ ist gerade und (dennoch) ist a ungerade.",
+      "Für alle natürlichen Zahlen gilt: $a^2$ ist gerade und a ist gerade.",
+      "Es gibt natürliche Zahlen, für die gilt: $a^2$ ist ungerade und a ist gerade.",
+      "Für alle natürlichen Zahlen gilt: Wenn a ungerade ist, dann ist $a^2$ ungerade."
     ],
     "correct": [
       0
     ],
-    "explanation": "Gegenannahme (¬(A⇒B) = A ∧ ¬B): Es gibt natürliche Zahlen, für die gilt: a² ist gerade und (dennoch) ist a ungerade. 📄 Quelle: ari21_vl09, Folie 8 (S.8)",
+    "explanation": "Gegenannahme ($\\neg(A \\Rightarrow B) = A \\land \\neg B$): Es gibt natürliche Zahlen, für die gilt: $a^2$ ist gerade und (dennoch) ist a ungerade. 📄 Quelle: ari21_vl09, Folie 8 (S.8)",
     "source": "ari21_vl09, Folie 8 (S.8, Rückblick)"
   },
   {
@@ -9625,18 +9625,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "beweismethoden",
     "difficulty": 2,
     "type": "multi",
-    "question": "Für eine ungerade Zahl a = 2n+1 wird a² = (2n+1)² berechnet. Welche Aussagen sind korrekt?",
+    "question": "Für eine ungerade Zahl $a = 2n+1$ wird $a^2 = (2n+1)^2$ berechnet. Welche Aussagen sind korrekt?",
     "options": [
-      "a² = 4n²+4n+1",
-      "a² ist nicht gerade (also ungerade)",
-      "a² = 4n²+2n+1",
-      "a² ist gerade"
+      "$a^2 = 4n^2+4n+1$",
+      "$a^2$ ist nicht gerade (also ungerade)",
+      "$a^2 = 4n^2+2n+1$",
+      "$a^2$ ist gerade"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Es gilt a² = (2n+1)² = (2n)²+2·2n+1² = 4n²+4n+1, und dies ist nicht gerade (= nicht A). 📄 Quelle: ari21_vl09, Folie 8 (S.8)",
+    "explanation": "Es gilt $a^2 = (2n+1)^2 = (2n)^2+2 \\cdot 2n+1^2 = 4n^2+4n+1$, und dies ist nicht gerade (= nicht A). 📄 Quelle: ari21_vl09, Folie 8 (S.8)",
     "source": "ari21_vl09, Folie 8 (S.8, Rückblick)"
   },
   {
@@ -9646,15 +9646,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Was wird am Ende aus dem gefundenen Widerspruch geschlossen?",
     "options": [
-      "¬(A⇒B) ist also falsch und damit ist A⇒B wahr.",
-      "A⇒B ist falsch.",
-      "A und ¬B sind zugleich wahr.",
+      "$\\neg(A \\Rightarrow B)$ ist also falsch und damit ist $A \\Rightarrow B$ wahr.",
+      "$A \\Rightarrow B$ ist falsch.",
+      "A und $\\neg B$ sind zugleich wahr.",
       "Der Satz konnte nicht bewiesen werden."
     ],
     "correct": [
       0
     ],
-    "explanation": "Das ist ein Widerspruch zu A (A und ¬B sind nie zugleich wahr), d.h. ¬(A⇒B) ist falsch und damit A⇒B wahr. 📄 Quelle: ari21_vl09, Folie 8 (S.8)",
+    "explanation": "Das ist ein Widerspruch zu A (A und $\\neg B$ sind nie zugleich wahr), d.h. $\\neg(A \\Rightarrow B)$ ist falsch und damit $A \\Rightarrow B$ wahr. 📄 Quelle: ari21_vl09, Folie 8 (S.8)",
     "source": "ari21_vl09, Folie 8 (S.8, Rückblick)"
   },
   {
@@ -9880,17 +9880,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Aussagen zur Kurzschreibweise und zum Synonym von 'Abbildung' sind korrekt?",
     "options": [
-      "f : E → E bedeutet 'f bildet E auf E ab'",
-      "f : P → P' bedeutet 'f bildet den Punkt P auf den Punkt P' ab'",
+      "$f : E \\to E$ bedeutet 'f bildet E auf E ab'",
+      "$f : P \\to P'$ bedeutet 'f bildet den Punkt P auf den Punkt P' ab'",
       "Der Begriff Abbildung kann auch durch den Begriff Funktion ersetzt werden",
-      "f : E → E bedeutet 'f bildet die Ebene auf eine Gerade ab'"
+      "$f : E \\to E$ bedeutet 'f bildet die Ebene auf eine Gerade ab'"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Kurzschreibweise: f:E→E (f bildet E auf E ab), f:P→P' (f bildet P auf P' ab). Synonym: Abbildung kann durch Funktion ersetzt werden. 📄 Quelle: ari21_vl09, Folie 19 (S.19)",
+    "explanation": "Kurzschreibweise: $f:E \\to E$ (f bildet E auf E ab), $f:P \\to P'$ (f bildet P auf P' ab). Synonym: Abbildung kann durch Funktion ersetzt werden. 📄 Quelle: ari21_vl09, Folie 19 (S.19)",
     "source": "ari21_vl09, Folie 19 (S.19, Geometrie)"
   },
   {
@@ -9972,17 +9972,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "single",
-    "question": "Was gilt bei der Geradenspiegelung S_g : E → E für einen Punkt P, der auf der Geraden g liegt (P ∈ g)?",
+    "question": "Was gilt bei der Geradenspiegelung $S_g : E \\to E$ für einen Punkt P, der auf der Geraden g liegt ($P \\in g$)?",
     "options": [
-      "Dann ist P' = P",
-      "Dann ist P' ≠ P",
+      "Dann ist $P' = P$",
+      "Dann ist $P' \\ne P$",
       "Dann liegt P' auf der Senkrechten zu g",
       "Dann existiert kein Bildpunkt P'"
     ],
     "correct": [
       0
     ],
-    "explanation": "Definition der Geradenspiegelung: Wenn P ∈ g, dann ist P' = P. 📄 Quelle: ari21_vl09, Folie 21 (S.21)",
+    "explanation": "Definition der Geradenspiegelung: Wenn $P \\in g$, dann ist $P' = P$. 📄 Quelle: ari21_vl09, Folie 21 (S.21)",
     "source": "ari21_vl09, Folie 21 (S.21, Geometrie)"
   },
   {
@@ -9990,19 +9990,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 3,
     "type": "multi",
-    "question": "Was gilt bei der Geradenspiegelung S_g für einen Punkt P, der NICHT auf g liegt (P ∉ g)?",
+    "question": "Was gilt bei der Geradenspiegelung $S_g$ für einen Punkt P, der NICHT auf g liegt ($P \\notin g$)?",
     "options": [
-      "P ≠ P'",
+      "$P \\ne P'$",
       "P' liegt auf der Senkrechten zu g durch P",
-      "d(P,g) = d(P',g), d. h. die Abstände von P und P' zur Geraden g sind gleich",
-      "P' = P"
+      "$d(P,g) = d(P',g)$, d. h. die Abstände von P und P' zur Geraden g sind gleich",
+      "$P' = P$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Wenn P ∉ g, dann gilt: P ≠ P'; P' liegt auf der Senkrechten zu g durch P; und d(P,g) = d(P',g), d. h. die Abstände der Punkte P und P' zur Geraden g sind gleich. 📄 Quelle: ari21_vl09, Folie 21 (S.21)",
+    "explanation": "Wenn $P \\notin g$, dann gilt: $P \\ne P'$; P' liegt auf der Senkrechten zu g durch P; und $d(P,g) = d(P',g)$, d. h. die Abstände der Punkte P und P' zur Geraden g sind gleich. 📄 Quelle: ari21_vl09, Folie 21 (S.21)",
     "source": "ari21_vl09, Folie 21 (S.21, Geometrie)"
   },
   {
@@ -10020,7 +10020,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Die Abbildung S_g heißt Geradenspiegelung (Achsenspiegelung). 📄 Quelle: ari21_vl09, Folie 21 (S.21)",
+    "explanation": "Die Abbildung $S_g$ heißt Geradenspiegelung (Achsenspiegelung). 📄 Quelle: ari21_vl09, Folie 21 (S.21)",
     "source": "ari21_vl09, Folie 21 (S.21, Geometrie)"
   },
   {
@@ -12387,15 +12387,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Was besagt der Induktionsanfang bei der vollständigen Induktion?",
     "options": [
-      "A(n) ist wahr für n=1 (bzw. die kleinste natürliche Zahl, für die die Aussage gelten soll)",
-      "A(n) sei wahr für ein festes, aber beliebiges n∈ℕ",
-      "Man zeigt, dass die Aussage für A(n+1) wahr ist",
-      "A(n) ist für alle n∈ℕ falsch"
+      "$A(n)$ ist wahr für $n=1$ (bzw. die kleinste natürliche Zahl, für die die Aussage gelten soll)",
+      "$A(n)$ sei wahr für ein festes, aber beliebiges $n \\in \\mathbb{N}$",
+      "Man zeigt, dass die Aussage für $A(n+1)$ wahr ist",
+      "$A(n)$ ist für alle $n \\in \\mathbb{N}$ falsch"
     ],
     "correct": [
       0
     ],
-    "explanation": "Induktionsanfang: A(n) ist wahr für n=1 (bzw. die kleinste natürliche Zahl, für die die Aussage gelten soll). Die zweite Option beschreibt die Induktionsvoraussetzung, die dritte den Induktionsschluss. 📄 Quelle: ari23_vl03, Folie 6 (S.6)",
+    "explanation": "Induktionsanfang: $A(n)$ ist wahr für $n=1$ (bzw. die kleinste natürliche Zahl, für die die Aussage gelten soll). Die zweite Option beschreibt die Induktionsvoraussetzung, die dritte den Induktionsschluss. 📄 Quelle: ari23_vl03, Folie 6 (S.6)",
     "source": "ari23_vl03, Folie 6 (S.6, Rückblick)"
   },
   {
@@ -12405,8 +12405,8 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Aussagen zur Technik der vollständigen Induktion sind korrekt?",
     "options": [
-      "Induktionsvoraussetzung: A(n) sei wahr für ein festes, aber beliebiges n∈ℕ",
-      "Induktionsschluss: n → (n+1) — man zeigt, dass A(n+1) wahr ist",
+      "Induktionsvoraussetzung: $A(n)$ sei wahr für ein festes, aber beliebiges $n \\in \\mathbb{N}$",
+      "Induktionsschluss: $n \\to (n+1)$ — man zeigt, dass $A(n+1)$ wahr ist",
       "Beim Induktionsschluss darf die Induktionsvoraussetzung verwendet werden",
       "Beim Induktionsschluss darf die Induktionsvoraussetzung nicht verwendet werden"
     ],
@@ -12415,7 +12415,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Induktionsvoraussetzung: A(n) sei wahr für ein festes, aber beliebiges n∈ℕ. Induktionsschluss: n → (n+1); man zeigt, dass A(n+1) wahr ist, und darf dabei die I.V. verwenden. Die letzte Option ist daher falsch. 📄 Quelle: ari23_vl03, Folie 6 (S.6)",
+    "explanation": "Induktionsvoraussetzung: $A(n)$ sei wahr für ein festes, aber beliebiges $n \\in \\mathbb{N}$. Induktionsschluss: $n \\to (n+1)$; man zeigt, dass $A(n+1)$ wahr ist, und darf dabei die I.V. verwenden. Die letzte Option ist daher falsch. 📄 Quelle: ari23_vl03, Folie 6 (S.6)",
     "source": "ari23_vl03, Folie 6 (S.6, Rückblick)"
   },
   {
@@ -12423,11 +12423,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Für die Folge 1, 4, 7, 10, … gilt a(n) = 3n − 2. Berechnen Sie a(20).",
+    "question": "Für die Folge 1, 4, 7, 10, … gilt $a(n) = 3n - 2$. Berechnen Sie $a(20)$.",
     "answer": 58,
     "tolerance": 0,
     "unit": "",
-    "explanation": "a(n) = 3n − 2, also a(20) = 3·20 − 2 = 60 − 2 = 58. 📄 Quelle: ari23_vl03, Folie 8 (S.8)",
+    "explanation": "$a(n) = 3n - 2$, also $a(20) = 3 \\cdot 20 - 2 = 60 - 2 = 58$. 📄 Quelle: ari23_vl03, Folie 8 (S.8)",
     "source": "ari23_vl03, Folie 8 (S.8, Rückblick: Entdeckung)"
   },
   {
@@ -12435,11 +12435,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Für die Folge 1, 4, 7, 10, … gilt für die Summe der ersten n Glieder Sₙ = n·(3n−1)/2. Berechnen Sie S₆ (Summe der ersten 6 Glieder).",
+    "question": "Für die Folge 1, 4, 7, 10, … gilt für die Summe der ersten n Glieder $S_n = \\frac{n \\cdot (3n-1)}{2}$. Berechnen Sie $S_6$ (Summe der ersten 6 Glieder).",
     "answer": 51,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Sₙ = n·(3n−1)/2, also S₆ = 6·(3·6−1)/2 = 6·17/2 = 51. Dies stimmt mit dem Tabellenwert S(6) = 51 überein. 📄 Quelle: ari23_vl03, Folie 8 (S.8)",
+    "explanation": "$S_n = \\frac{n \\cdot (3n-1)}{2}$, also $S_6 = \\frac{6 \\cdot (3 \\cdot 6-1)}{2} = \\frac{6 \\cdot 17}{2} = 51$. Dies stimmt mit dem Tabellenwert $S(6) = 51$ überein. 📄 Quelle: ari23_vl03, Folie 8 (S.8)",
     "source": "ari23_vl03, Folie 8 (S.8, Rückblick: Entdeckung)"
   },
   {
@@ -12449,17 +12449,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Ergebnisse wurden bei der Untersuchung der Folge 1, 4, 7, 10, … gefunden?",
     "options": [
-      "Die n-te Zahl lautet a(n) = 3n − 2",
-      "Die Summe der ersten n Glieder lautet Sₙ = n·(3n−1)/2",
+      "Die n-te Zahl lautet $a(n) = 3n - 2$",
+      "Die Summe der ersten n Glieder lautet $S_n = \\frac{n \\cdot (3n-1)}{2}$",
       "Die Herleitung der Summenformel erfolgt analog zum „kleinen Gauß\"",
-      "Die n-te Zahl lautet a(n) = 3n + 2"
+      "Die n-te Zahl lautet $a(n) = 3n + 2$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Frage 1: a(n) = 3n − 2. Frage 2: Sₙ = n·(3n−1)/2, hergeleitet analog zum kleinen Gauß (Umkehrung der Reihe und paarweises Addieren). a(n) = 3n + 2 ist falsch. 📄 Quelle: ari23_vl03, Folie 8 (S.8)",
+    "explanation": "Frage 1: $a(n) = 3n - 2$. Frage 2: $S_n = \\frac{n \\cdot (3n-1)}{2}$, hergeleitet analog zum kleinen Gauß (Umkehrung der Reihe und paarweises Addieren). $a(n) = 3n + 2$ ist falsch. 📄 Quelle: ari23_vl03, Folie 8 (S.8)",
     "source": "ari23_vl03, Folie 8 (S.8, Rückblick: Entdeckung)"
   },
   {
@@ -12467,17 +12467,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "vollstaendige_induktion",
     "difficulty": 2,
     "type": "single",
-    "question": "In der Übung zur vollständigen Induktion für Sₙ = n·(3n−1)/2: Womit soll man den Induktionsschritt laut Tipp beginnen?",
+    "question": "In der Übung zur vollständigen Induktion für $S_n = \\frac{n \\cdot (3n-1)}{2}$: Womit soll man den Induktionsschritt laut Tipp beginnen?",
     "options": [
-      "Damit, A(n+1) aufzuschreiben",
-      "Damit, A(n) aufzuschreiben",
+      "Damit, $A(n+1)$ aufzuschreiben",
+      "Damit, $A(n)$ aufzuschreiben",
       "Damit, den Induktionsanfang zu wiederholen",
       "Damit, die Startzahlen zu bestimmen"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Tipp auf der Folie lautet: „Starte damit A(n+1) aufzuschreiben!\" 📄 Quelle: ari23_vl03, Folie 9 (S.9)",
+    "explanation": "Der Tipp auf der Folie lautet: „Starte damit $A(n+1)$ aufzuschreiben!\" 📄 Quelle: ari23_vl03, Folie 9 (S.9)",
     "source": "ari23_vl03, Folie 9 (S.9, Vollständige Induktion – Übung)"
   },
   {
@@ -12485,11 +12485,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "vollstaendige_induktion",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Induktionsanfang der Übung: Prüfen Sie den zu beweisenden Satz Sₙ = n·(3n−1)/2 für n=1. Welchen Wert liefert die Formel für S₁?",
+    "question": "Induktionsanfang der Übung: Prüfen Sie den zu beweisenden Satz $S_n = \\frac{n \\cdot (3n-1)}{2}$ für $n=1$. Welchen Wert liefert die Formel für $S_1$?",
     "answer": 1,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Für n=1: S₁ = 1·(3·1−1)/2 = 1·2/2 = 1. Das entspricht dem ersten Folgenglied (1), also ist der Induktionsanfang erfüllt. 📄 Quelle: ari23_vl03, Folie 9 (S.9)",
+    "explanation": "Für $n=1$: $S_1 = \\frac{1 \\cdot (3 \\cdot 1-1)}{2} = \\frac{1 \\cdot 2}{2} = 1$. Das entspricht dem ersten Folgenglied (1), also ist der Induktionsanfang erfüllt. 📄 Quelle: ari23_vl03, Folie 9 (S.9)",
     "source": "ari23_vl03, Folie 9 (S.9, Vollständige Induktion – Übung)"
   },
   {
@@ -12497,11 +12497,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "folgen_fibonacci",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Die „neue\" Fibonacci-Folge hat die Startzahlen f̃₁ = 4 und f̃₂ = 7 und die Regel f̃ₙ = f̃₍ₙ₋₂₎ + f̃₍ₙ₋₁₎ (für n > 2). Wie lautet f̃₅?",
+    "question": "Die „neue\" Fibonacci-Folge hat die Startzahlen $\\tilde{f}_1 = 4$ und $\\tilde{f}_2 = 7$ und die Regel $\\tilde{f}_n = \\tilde{f}_{n-2} + \\tilde{f}_{n-1}$ (für $n > 2$). Wie lautet $\\tilde{f}_5$?",
     "answer": 29,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Folge lautet 4, 7, 11, 18, 29, … Also f̃₃ = 4+7 = 11, f̃₄ = 7+11 = 18, f̃₅ = 11+18 = 29. 📄 Quelle: ari23_vl03, Folie 11 (S.11)",
+    "explanation": "Die Folge lautet 4, 7, 11, 18, 29, … Also $\\tilde{f}_3 = 4+7 = 11$, $\\tilde{f}_4 = 7+11 = 18$, $\\tilde{f}_5 = 11+18 = 29$. 📄 Quelle: ari23_vl03, Folie 11 (S.11)",
     "source": "ari23_vl03, Folie 11 (S.11, Erkundung II)"
   },
   {
@@ -12511,9 +12511,9 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Aussagen zur „neuen\" (modifizierten) Fibonacci-Folge sind korrekt?",
     "options": [
-      "Die Startzahlen sind f̃₁ = 4 und f̃₂ = 7",
-      "Die Bildungsregel lautet f̃ₙ = f̃₍ₙ₋₂₎ + f̃₍ₙ₋₁₎ für n > 2",
-      "Die Schlange (Tilde) über dem f markiert den Unterschied zu den echten Fibonacci-Zahlen",
+      "Die Startzahlen sind $\\tilde{f}_1 = 4$ und $\\tilde{f}_2 = 7$",
+      "Die Bildungsregel lautet $\\tilde{f}_n = \\tilde{f}_{n-2} + \\tilde{f}_{n-1}$ für $n > 2$",
+      "Die Schlange (Tilde) über dem $f$ markiert den Unterschied zu den echten Fibonacci-Zahlen",
       "Die neue Folge lautet 4, 7, 11, 18, 29, 47, 76, …"
     ],
     "correct": [
@@ -12522,7 +12522,7 @@ const SAMPLE_QUESTIONS = [
       2,
       3
     ],
-    "explanation": "Die echte Folge 1,1,2,3,5,8,13,… wird mit Startzahlen f̃₁ = 4 und f̃₂ = 7 sowie der Regel f̃ₙ = f̃₍ₙ₋₂₎ + f̃₍ₙ₋₁₎ (n>2) verändert; die neue Folge lautet 4, 7, 11, 18, 29, 47, 76, … Die Tilde („Schlange\") kennzeichnet den Unterschied zu den echten Fibonacci-Zahlen. 📄 Quelle: ari23_vl03, Folie 11 (S.11)",
+    "explanation": "Die echte Folge 1,1,2,3,5,8,13,… wird mit Startzahlen $\\tilde{f}_1 = 4$ und $\\tilde{f}_2 = 7$ sowie der Regel $\\tilde{f}_n = \\tilde{f}_{n-2} + \\tilde{f}_{n-1}$ ($n>2$) verändert; die neue Folge lautet 4, 7, 11, 18, 29, 47, 76, … Die Tilde („Schlange\") kennzeichnet den Unterschied zu den echten Fibonacci-Zahlen. 📄 Quelle: ari23_vl03, Folie 11 (S.11)",
     "source": "ari23_vl03, Folie 11 (S.11, Erkundung II)"
   },
   {
@@ -12542,19 +12542,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "folgen_fibonacci",
     "difficulty": 3,
     "type": "multi",
-    "question": "Wie lässt sich das n-te Glied f̃ₙ der modifizierten Folge mit den echten Fibonacci-Zahlen fₙ darstellen?",
+    "question": "Wie lässt sich das n-te Glied $\\tilde{f}_n$ der modifizierten Folge mit den echten Fibonacci-Zahlen $f_n$ darstellen?",
     "options": [
-      "f̃ₙ = f₍ₙ₋₂₎·4 + f₍ₙ₋₁₎·7",
-      "Allgemein: f̃ₙ = f₍ₙ₋₂₎·s₁ + f₍ₙ₋₁₎·s₂ mit den Startzahlen s₁ und s₂",
+      "$\\tilde{f}_n = f_{n-2} \\cdot 4 + f_{n-1} \\cdot 7$",
+      "Allgemein: $\\tilde{f}_n = f_{n-2} \\cdot s_1 + f_{n-1} \\cdot s_2$ mit den Startzahlen $s_1$ und $s_2$",
       "Die Koeffizienten sind die echten Fibonacci-Zahlen",
-      "f̃ₙ = f₍ₙ₋₂₎·7 + f₍ₙ₋₁₎·4"
+      "$\\tilde{f}_n = f_{n-2} \\cdot 7 + f_{n-1} \\cdot 4$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Schreibt man die Glieder als Vielfache der Startzahlen, ergibt sich f̃ₙ = f₍ₙ₋₂₎·4 + f₍ₙ₋₁₎·7; die Koeffizienten sind die echten Fibonacci-Zahlen. Verallgemeinert für beliebige Startzahlen: f̃ₙ = f₍ₙ₋₂₎·s₁ + f₍ₙ₋₁₎·s₂. Die Vertauschung der Faktoren (7 und 4) ist falsch. 📄 Quelle: ari23_vl03, Folie 12 (S.12)",
+    "explanation": "Schreibt man die Glieder als Vielfache der Startzahlen, ergibt sich $\\tilde{f}_n = f_{n-2} \\cdot 4 + f_{n-1} \\cdot 7$; die Koeffizienten sind die echten Fibonacci-Zahlen. Verallgemeinert für beliebige Startzahlen: $\\tilde{f}_n = f_{n-2} \\cdot s_1 + f_{n-1} \\cdot s_2$. Die Vertauschung der Faktoren (7 und 4) ist falsch. 📄 Quelle: ari23_vl03, Folie 12 (S.12)",
     "source": "ari23_vl03, Folie 12 (S.12, Erkundung II)"
   },
   {
@@ -12577,7 +12577,7 @@ const SAMPLE_QUESTIONS = [
     "question": "Die Strategie „Anders darstellen: die Summe mit den einzelnen Summanden aufschreiben\" — was hat sie bei der Erkundung geleistet?",
     "options": [
       "Das Problem der Folgenglieder wurde gelöst",
-      "Die Lösung gelang sogar verallgemeinert für beliebige Startzahlen s₁ und s₂",
+      "Die Lösung gelang sogar verallgemeinert für beliebige Startzahlen $s_1$ und $s_2$",
       "Das Problem der Summe der ersten n Folgeglieder wurde damit bereits gelöst",
       "Die Strategie half beim Bestimmen der einzelnen Folgenglieder"
     ],
@@ -12586,7 +12586,7 @@ const SAMPLE_QUESTIONS = [
       1,
       3
     ],
-    "explanation": "Die Strategie half, das Problem der Folgenglieder zu lösen — sogar verallgemeinert für beliebige Startzahlen s₁ und s₂. Das Problem der Summe der ersten n Folgeglieder war damit jedoch noch nicht gelöst. 📄 Quelle: ari23_vl03, Folie 13 (S.13)",
+    "explanation": "Die Strategie half, das Problem der Folgenglieder zu lösen — sogar verallgemeinert für beliebige Startzahlen $s_1$ und $s_2$. Das Problem der Summe der ersten n Folgeglieder war damit jedoch noch nicht gelöst. 📄 Quelle: ari23_vl03, Folie 13 (S.13)",
     "source": "ari23_vl03, Folie 13 (S.13, Erkundung II)"
   },
   {
@@ -12594,19 +12594,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "folgen_fibonacci",
     "difficulty": 3,
     "type": "multi",
-    "question": "Bei der Herleitung der Summenformel S̃ₙ (Summe der ersten n Glieder der modifizierten Fibonacci-Folge) — welche Zwischenschritte sind korrekt?",
+    "question": "Bei der Herleitung der Summenformel $\\tilde{S}_n$ (Summe der ersten n Glieder der modifizierten Fibonacci-Folge) — welche Zwischenschritte sind korrekt?",
     "options": [
-      "S̃ₙ = f̃₍ₙ₊₂₎ − s₂",
-      "Mit (GL1): f̃₍ₙ₊₂₎ = fₙ·s₁ + f₍ₙ₊₁₎·s₂",
-      "S̃ₙ = fₙ·s₁ + (f₍ₙ₊₁₎ − 1)·s₂",
-      "S̃ₙ = f̃₍ₙ₊₂₎ + s₂"
+      "$\\tilde{S}_n = \\tilde{f}_{n+2} - s_2$",
+      "Mit (GL1): $\\tilde{f}_{n+2} = f_n \\cdot s_1 + f_{n+1} \\cdot s_2$",
+      "$\\tilde{S}_n = f_n \\cdot s_1 + (f_{n+1} - 1) \\cdot s_2$",
+      "$\\tilde{S}_n = \\tilde{f}_{n+2} + s_2$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Es gilt S̃ₙ = f̃₍ₙ₊₂₎ − 7 bzw. allgemein S̃ₙ = f̃₍ₙ₊₂₎ − s₂. Mit (GL1) f̃₍ₙ₊₂₎ = fₙ·s₁ + f₍ₙ₊₁₎·s₂ folgt S̃ₙ = fₙ·s₁ + f₍ₙ₊₁₎·s₂ − s₂ = fₙ·s₁ + (f₍ₙ₊₁₎ − 1)·s₂. Die Variante mit „+ s₂\" ist falsch. 📄 Quelle: ari23_vl03, Folie 14 (S.14)",
+    "explanation": "Es gilt $\\tilde{S}_n = \\tilde{f}_{n+2} - 7$ bzw. allgemein $\\tilde{S}_n = \\tilde{f}_{n+2} - s_2$. Mit (GL1) $\\tilde{f}_{n+2} = f_n \\cdot s_1 + f_{n+1} \\cdot s_2$ folgt $\\tilde{S}_n = f_n \\cdot s_1 + f_{n+1} \\cdot s_2 - s_2 = f_n \\cdot s_1 + (f_{n+1} - 1) \\cdot s_2$. Die Variante mit „+ $s_2$\" ist falsch. 📄 Quelle: ari23_vl03, Folie 14 (S.14)",
     "source": "ari23_vl03, Folie 14 (S.14, Erkundung II)"
   },
   {
@@ -12614,17 +12614,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "folgen_fibonacci",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lautet die hergeleitete Formel für die Summe S̃ₙ der ersten n Glieder der modifizierten Fibonacci-Folge?",
+    "question": "Wie lautet die hergeleitete Formel für die Summe $\\tilde{S}_n$ der ersten n Glieder der modifizierten Fibonacci-Folge?",
     "options": [
-      "S̃ₙ = fₙ·s₁ + (f₍ₙ₊₁₎ − 1)·s₂",
-      "S̃ₙ = fₙ·s₁ + f₍ₙ₊₁₎·s₂",
-      "S̃ₙ = f₍ₙ₋₂₎·s₁ + f₍ₙ₋₁₎·s₂",
-      "S̃ₙ = fₙ·s₁ − (f₍ₙ₊₁₎ − 1)·s₂"
+      "$\\tilde{S}_n = f_n \\cdot s_1 + (f_{n+1} - 1) \\cdot s_2$",
+      "$\\tilde{S}_n = f_n \\cdot s_1 + f_{n+1} \\cdot s_2$",
+      "$\\tilde{S}_n = f_{n-2} \\cdot s_1 + f_{n-1} \\cdot s_2$",
+      "$\\tilde{S}_n = f_n \\cdot s_1 - (f_{n+1} - 1) \\cdot s_2$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die hergeleitete Summenformel lautet S̃ₙ = fₙ·s₁ + (f₍ₙ₊₁₎ − 1)·s₂. 📄 Quelle: ari23_vl03, Folie 14 (S.14)",
+    "explanation": "Die hergeleitete Summenformel lautet $\\tilde{S}_n = f_n \\cdot s_1 + (f_{n+1} - 1) \\cdot s_2$. 📄 Quelle: ari23_vl03, Folie 14 (S.14)",
     "source": "ari23_vl03, Folie 14 (S.14, Erkundung II)"
   },
   {
@@ -12632,7 +12632,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "didaktik_grundlagen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Nachdem die Formel für S̃ₙ als Vermutung gefunden wurde: Welche drei Schritte sind für das weitere Vorgehen zu nennen?",
+    "question": "Nachdem die Formel für $\\tilde{S}_n$ als Vermutung gefunden wurde: Welche drei Schritte sind für das weitere Vorgehen zu nennen?",
     "options": [
       "Beispiele machen, um die gefundene Formel (Vermutung) zu testen",
       "Einen mathematischen Satz formulieren",
@@ -12652,7 +12652,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "didaktik_grundlagen",
     "difficulty": 1,
     "type": "single",
-    "question": "Welchen Status hat die gefundene Formel S̃ₙ = fₙ·s₁ + (f₍ₙ₊₁₎ − 1)·s₂ zunächst?",
+    "question": "Welchen Status hat die gefundene Formel $\\tilde{S}_n = f_n \\cdot s_1 + (f_{n+1} - 1) \\cdot s_2$ zunächst?",
     "options": [
       "Sie ist bis jetzt nur eine Vermutung",
       "Sie ist bereits vollständig bewiesen",
@@ -12709,11 +12709,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "pascal_binomial",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Die Einträge im Pascal'schen Dreieck sind Binomialkoeffizienten (n über k) = n!/(k!·(n−k)!), wobei n die Zeile und k die Spalte bezeichnet. Berechnen Sie (4 über 2).",
+    "question": "Die Einträge im Pascal'schen Dreieck sind Binomialkoeffizienten $\\binom{n}{k} = \\frac{n!}{k! \\cdot (n-k)!}$, wobei $n$ die Zeile und $k$ die Spalte bezeichnet. Berechnen Sie $\\binom{4}{2}$.",
     "answer": 6,
     "tolerance": 0,
     "unit": "",
-    "explanation": "(4 über 2) = 4!/(2!·2!) = 24/(2·2) = 24/4 = 6. 📄 Quelle: ari23_vl03, Folie 20 (S.20)",
+    "explanation": "$\\binom{4}{2} = \\frac{4!}{2! \\cdot 2!} = \\frac{24}{2 \\cdot 2} = \\frac{24}{4} = 6$. 📄 Quelle: ari23_vl03, Folie 20 (S.20)",
     "source": "ari23_vl03, Folie 20 (S.20, Erkundung 2 – Pascal'sches Dreieck)"
   },
   {
@@ -12723,17 +12723,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Da eine Zahl im Pascal'schen Dreieck stets durch die Summe der beiden darüber stehenden Zahlen entsteht, gilt welche Gleichung (und Begründung)?",
     "options": [
-      "(n+1 über k+1) = (n über k) + (n über k+1)",
+      "$\\binom{n+1}{k+1} = \\binom{n}{k} + \\binom{n}{k+1}$",
       "Jede Zahl ist die Summe der beiden darüber stehenden Zahlen",
-      "n bezeichnet die Zeile, k die Spalte",
-      "(n+1 über k+1) = (n über k) · (n über k+1)"
+      "$n$ bezeichnet die Zeile, $k$ die Spalte",
+      "$\\binom{n+1}{k+1} = \\binom{n}{k} \\cdot \\binom{n}{k+1}$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Weil jede Zahl im Pascal'schen Dreieck die Summe der beiden darüber stehenden Zahlen ist, gilt (n+1 über k+1) = (n über k) + (n über k+1); dabei bezeichnet n die Zeile und k die Spalte. Die multiplikative Variante ist falsch. 📄 Quelle: ari23_vl03, Folie 20 (S.20)",
+    "explanation": "Weil jede Zahl im Pascal'schen Dreieck die Summe der beiden darüber stehenden Zahlen ist, gilt $\\binom{n+1}{k+1} = \\binom{n}{k} + \\binom{n}{k+1}$; dabei bezeichnet $n$ die Zeile und $k$ die Spalte. Die multiplikative Variante ist falsch. 📄 Quelle: ari23_vl03, Folie 20 (S.20)",
     "source": "ari23_vl03, Folie 20 (S.20, Erkundung 2 – Pascal'sches Dreieck)"
   },
   {
@@ -17453,7 +17453,7 @@ const SAMPLE_QUESTIONS = [
     "options": [
       "Voraussetzung: Das Dreieck ABC ist rechtwinklig",
       "Die Summe der Flächeninhalte der Quadrate über den Katheten ist gleich dem Flächeninhalt des Quadrats über der Hypotenuse",
-      "Es gilt a^2 + b^2 = c^2",
+      "Es gilt $a^2 + b^2 = c^2$",
       "Die Aussage gilt für alle Dreiecke ohne jede Voraussetzung"
     ],
     "correct": [
@@ -17461,7 +17461,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Der Satz gilt fuer alle Dreiecke ABC unter der Voraussetzung, dass ABC rechtwinklig ist; dann gilt a^2 + b^2 = c^2 (Katheten a, b; Hypotenuse c). 📄 Quelle: ari23_vl08, Folie 5 (S.5)",
+    "explanation": "Der Satz gilt fuer alle Dreiecke ABC unter der Voraussetzung, dass ABC rechtwinklig ist; dann gilt $a^2 + b^2 = c^2$ (Katheten a, b; Hypotenuse c). 📄 Quelle: ari23_vl08, Folie 5 (S.5)",
     "source": "ari23_vl08, Folie 5 (S.5, Rueckblick Satzgruppe des Pythagoras)"
   },
   {
@@ -17471,15 +17471,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Welche Formel gehört zum Satz des Pythagoras?",
     "options": [
-      "a^2 + b^2 = c^2",
-      "a^2 = p·c",
-      "h_c^2 = p·q",
-      "a + b = c"
+      "$a^2 + b^2 = c^2$",
+      "$a^2 = p \\cdot c$",
+      "$h_c^2 = p \\cdot q$",
+      "$a + b = c$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Satz des Pythagoras lautet a^2 + b^2 = c^2. 📄 Quelle: ari23_vl08, Folie 5 (S.5)",
+    "explanation": "Der Satz des Pythagoras lautet $a^2 + b^2 = c^2$. 📄 Quelle: ari23_vl08, Folie 5 (S.5)",
     "source": "ari23_vl08, Folie 5 (S.5, Rueckblick Satzgruppe des Pythagoras)"
   },
   {
@@ -17491,15 +17491,15 @@ const SAMPLE_QUESTIONS = [
     "options": [
       "Voraussetzung: Das Dreieck ABC ist rechtwinklig",
       "Der Flächeninhalt des Quadrats über einer Kathete ist gleich dem Flächeninhalt des Rechtecks aus anliegendem Hypotenusenabschnitt und Hypotenuse",
-      "Es gilt a^2 = p·c",
-      "Es gilt h_c^2 = p·q"
+      "Es gilt $a^2 = p \\cdot c$",
+      "Es gilt $h_c^2 = p \\cdot q$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Kathetensatz: Wenn ABC rechtwinklig ist, ist die Summe der Flaecheninhalte des Quadrats ueber einer Kathete gleich dem Flaecheninhalt des Rechtecks aus anliegendem Hypotenusenabschnitt und Hypotenuse (a^2 = p·c). h_c^2 = p·q ist der Hoehensatz. 📄 Quelle: ari23_vl08, Folie 6 (S.6)",
+    "explanation": "Kathetensatz: Wenn ABC rechtwinklig ist, ist die Summe der Flaecheninhalte des Quadrats ueber einer Kathete gleich dem Flaecheninhalt des Rechtecks aus anliegendem Hypotenusenabschnitt und Hypotenuse ($a^2 = p \\cdot c$). $h_c^2 = p \\cdot q$ ist der Hoehensatz. 📄 Quelle: ari23_vl08, Folie 6 (S.6)",
     "source": "ari23_vl08, Folie 6 (S.6, Rueckblick Kathetensatz)"
   },
   {
@@ -17509,15 +17509,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Welche Formel gehört zum Kathetensatz?",
     "options": [
-      "a^2 = p·c",
-      "h_c^2 = p·q",
-      "a^2 + b^2 = c^2",
-      "c^2 = p + q"
+      "$a^2 = p \\cdot c$",
+      "$h_c^2 = p \\cdot q$",
+      "$a^2 + b^2 = c^2$",
+      "$c^2 = p + q$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Kathetensatz lautet a^2 = p·c (Kathetenquadrat = Rechteck aus anliegendem Hypotenusenabschnitt p und Hypotenuse c). 📄 Quelle: ari23_vl08, Folie 6 (S.6)",
+    "explanation": "Der Kathetensatz lautet $a^2 = p \\cdot c$ (Kathetenquadrat = Rechteck aus anliegendem Hypotenusenabschnitt p und Hypotenuse c). 📄 Quelle: ari23_vl08, Folie 6 (S.6)",
     "source": "ari23_vl08, Folie 6 (S.6, Rueckblick Kathetensatz)"
   },
   {
@@ -17529,15 +17529,15 @@ const SAMPLE_QUESTIONS = [
     "options": [
       "Voraussetzung: Das Dreieck ABC ist rechtwinklig",
       "Der Flächeninhalt des Quadrats über der Höhe zur Hypotenuse ist gleich dem Flächeninhalt des Rechtecks aus den beiden Hypotenusenabschnitten",
-      "Es gilt h_c^2 = p·q",
-      "Es gilt a^2 = p·c"
+      "Es gilt $h_c^2 = p \\cdot q$",
+      "Es gilt $a^2 = p \\cdot c$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Hoehensatz: Wenn ABC rechtwinklig ist, ist der Flaecheninhalt des Quadrats ueber der Hoehe zur Hypotenuse gleich dem Flaecheninhalt des Rechtecks aus den beiden Hypotenusenabschnitten (h_c^2 = p·q). a^2 = p·c ist der Kathetensatz. 📄 Quelle: ari23_vl08, Folie 7 (S.7)",
+    "explanation": "Hoehensatz: Wenn ABC rechtwinklig ist, ist der Flaecheninhalt des Quadrats ueber der Hoehe zur Hypotenuse gleich dem Flaecheninhalt des Rechtecks aus den beiden Hypotenusenabschnitten ($h_c^2 = p \\cdot q$). $a^2 = p \\cdot c$ ist der Kathetensatz. 📄 Quelle: ari23_vl08, Folie 7 (S.7)",
     "source": "ari23_vl08, Folie 7 (S.7, Rueckblick Hoehensatz)"
   },
   {
@@ -17547,15 +17547,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Welche Formel gehört zum Höhensatz?",
     "options": [
-      "h_c^2 = p·q",
-      "a^2 = p·c",
-      "a^2 + b^2 = c^2",
-      "h_c = p + q"
+      "$h_c^2 = p \\cdot q$",
+      "$a^2 = p \\cdot c$",
+      "$a^2 + b^2 = c^2$",
+      "$h_c = p + q$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Hoehensatz lautet h_c^2 = p·q. 📄 Quelle: ari23_vl08, Folie 7 (S.7)",
+    "explanation": "Der Hoehensatz lautet $h_c^2 = p \\cdot q$. 📄 Quelle: ari23_vl08, Folie 7 (S.7)",
     "source": "ari23_vl08, Folie 7 (S.7, Rueckblick Hoehensatz)"
   },
   {
@@ -17566,7 +17566,7 @@ const SAMPLE_QUESTIONS = [
     "question": "Was besagt die Umkehrung des Satzes von Pythagoras? (Mehrfachauswahl)",
     "options": [
       "Die Aussage gilt für alle Dreiecke ABC",
-      "Voraussetzung ist, dass für die Flächeninhalte der Quadrate über den Seiten a, b und c die Beziehung a^2 + b^2 = c^2 gilt",
+      "Voraussetzung ist, dass für die Flächeninhalte der Quadrate über den Seiten a, b und c die Beziehung $a^2 + b^2 = c^2$ gilt",
       "Dann hat das Dreieck ABC bei C einen rechten Winkel",
       "Dann hat das Dreieck ABC bei A einen rechten Winkel"
     ],
@@ -17575,7 +17575,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Umkehrung: Fuer alle Dreiecke ABC gilt: Wenn a^2 + b^2 = c^2 gilt, dann hat das Dreieck ABC bei C einen rechten Winkel. 📄 Quelle: ari23_vl08, Folie 8 (S.8)",
+    "explanation": "Umkehrung: Fuer alle Dreiecke ABC gilt: Wenn $a^2 + b^2 = c^2$ gilt, dann hat das Dreieck ABC bei C einen rechten Winkel. 📄 Quelle: ari23_vl08, Folie 8 (S.8)",
     "source": "ari23_vl08, Folie 8 (S.8, Umkehrung des Satzes von Pythagoras)"
   },
   {
@@ -17585,7 +17585,7 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Fasst man den Satz des Pythagoras und seine Umkehrung zu einer 'genau dann, wenn'-Aussage zusammen: Welche Aussagen treffen zu? (Mehrfachauswahl)",
     "options": [
-      "Genau dann, wenn ein Dreieck ABC rechtwinklig ist, ist die Summe der Flächeninhalte der Quadrate über den Katheten gleich dem Flächeninhalt des Quadrats über der Hypotenuse (a^2 + b^2 = c^2)",
+      "Genau dann, wenn ein Dreieck ABC rechtwinklig ist, ist die Summe der Flächeninhalte der Quadrate über den Katheten gleich dem Flächeninhalt des Quadrats über der Hypotenuse ($a^2 + b^2 = c^2$)",
       "Es handelt sich um die Zusammenfassung der beiden wenn-dann-Richtungen",
       "Die Rückrichtung wird ohne Beweis angegeben",
       "Die Aussage gilt nur für gleichseitige Dreiecke"
@@ -17595,7 +17595,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Die Folie fasst beide wenn-dann-Richtungen zusammen: Genau dann, wenn ABC rechtwinklig ist, gilt a^2 + b^2 = c^2. Die Rueckrichtung wird ohne Beweis angegeben. 📄 Quelle: ari23_vl08, Folie 9 (S.9)",
+    "explanation": "Die Folie fasst beide wenn-dann-Richtungen zusammen: Genau dann, wenn ABC rechtwinklig ist, gilt $a^2 + b^2 = c^2$. Die Rueckrichtung wird ohne Beweis angegeben. 📄 Quelle: ari23_vl08, Folie 9 (S.9)",
     "source": "ari23_vl08, Folie 9 (S.9, Satz - Zusammenfassung Pythagoras)"
   },
   {
@@ -17627,7 +17627,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 7.42,
     "tolerance": 0.05,
     "unit": "cm",
-    "explanation": "Nach Pythagoras ist die zweite Kathete sqrt(8^2 - 3^2) = sqrt(64 - 9) = sqrt(55) ≈ 7.42 cm. Die Aufgabe gibt Kathete 3 cm und Hypotenuse 8 cm vor. 📄 Quelle: ari23_vl08, Folie 10 (S.10)",
+    "explanation": "Nach Pythagoras ist die zweite Kathete $\\sqrt{8^2 - 3^2} = \\sqrt{64 - 9} = \\sqrt{55} \\approx 7.42$ cm. Die Aufgabe gibt Kathete 3 cm und Hypotenuse 8 cm vor. 📄 Quelle: ari23_vl08, Folie 10 (S.10)",
     "source": "ari23_vl08, Folie 10 (S.10, Aufgabe rechtwinkliges Dreieck)"
   },
   {
@@ -17635,7 +17635,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "flaecheninhalte",
     "difficulty": 2,
     "type": "single",
-    "question": "Ein Rechteck mit Flächeninhalt 24 cm^2 und einer Seitenlänge a = 6 cm soll durch Konstruktion (nur Zirkel und Lineal) in ein flächengleiches Quadrat verwandelt werden. Welcher Satz wird dabei verwendet?",
+    "question": "Ein Rechteck mit Flächeninhalt 24 cm^2 und einer Seitenlänge $a = 6$ cm soll durch Konstruktion (nur Zirkel und Lineal) in ein flächengleiches Quadrat verwandelt werden. Welcher Satz wird dabei verwendet?",
     "options": [
       "Höhensatz",
       "Kathetensatz",
@@ -17657,7 +17657,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 4.9,
     "tolerance": 0.05,
     "unit": "cm",
-    "explanation": "Bei flaechengleicher Verwandlung bleibt der Flaecheninhalt 24 cm^2 erhalten; die Quadratseite ist sqrt(24) ≈ 4.90 cm. 📄 Quelle: ari23_vl08, Folie 12 (S.12)",
+    "explanation": "Bei flaechengleicher Verwandlung bleibt der Flaecheninhalt 24 cm^2 erhalten; die Quadratseite ist $\\sqrt{24} \\approx 4.90$ cm. 📄 Quelle: ari23_vl08, Folie 12 (S.12)",
     "source": "ari23_vl08, Folie 12 (S.12, Flaecheninhalte bei den Griechen, Aufgabe a)"
   },
   {
@@ -17687,7 +17687,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 12,
     "tolerance": 0,
     "unit": "cm",
-    "explanation": "Bei flaechengleicher Verwandlung bleibt der Flaecheninhalt 36 cm^2 erhalten; bei Laenge 3 cm ist die andere Seite 36 / 3 = 12 cm. 📄 Quelle: ari23_vl08, Folie 13 (S.13)",
+    "explanation": "Bei flaechengleicher Verwandlung bleibt der Flaecheninhalt 36 cm^2 erhalten; bei Laenge 3 cm ist die andere Seite $\\frac{36}{3} = 12$ cm. 📄 Quelle: ari23_vl08, Folie 13 (S.13)",
     "source": "ari23_vl08, Folie 13 (S.13, Flaecheninhalte bei den Griechen, Aufgabe b)"
   },
   {
@@ -17772,15 +17772,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Welche Beziehung gilt bei den „halben Quadraten\" (Dreiecken) über den Seiten a, b und c des rechtwinkligen Dreiecks?",
     "options": [
-      "a²/2 + b²/2 = c²/2",
-      "a/2 + b/2 = c/2",
-      "a² + b² = 2·c²",
-      "a²·b² = c²"
+      "$\\frac{a^2}{2} + \\frac{b^2}{2} = \\frac{c^2}{2}$",
+      "$\\frac{a}{2} + \\frac{b}{2} = \\frac{c}{2}$",
+      "$a^2 + b^2 = 2 \\cdot c^2$",
+      "$a^2 \\cdot b^2 = c^2$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Für die halben Quadrate (Dreiecke) gilt laut Folie: a²/2 + b²/2 = c²/2. 📄 Quelle: ari23_vl08, Folie 18 (S.18)",
+    "explanation": "Für die halben Quadrate (Dreiecke) gilt laut Folie: $\\frac{a^2}{2} + \\frac{b^2}{2} = \\frac{c^2}{2}$. 📄 Quelle: ari23_vl08, Folie 18 (S.18)",
     "source": "ari23_vl08, Folie 18 (S.18, Geometrie – Satz des Pythagoras: Verallgemeinerung?)"
   },
   {
@@ -17828,17 +17828,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Annahmen und Beziehungen bilden den Ansatz des Beweises (a Kathete, c Hypotenuse)?",
     "options": [
-      "c = k·a bzw. k = c/a",
+      "$c = k \\cdot a$ bzw. $k = \\frac{c}{a}$",
       "k ist der Streckfaktor einer Ähnlichkeitsabbildung.",
-      "A(F_c) = k²·A(F_a)",
-      "A(F_c) = k·A(F_a)"
+      "$A(F_c) = k^2 \\cdot A(F_a)$",
+      "$A(F_c) = k \\cdot A(F_a)$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Sei a eine Kathete und c die Hypotenuse. Man nimmt an c = k·a bzw. k = c/a (k = Streckfaktor einer Ähnlichkeitsabbildung). Für die Flächeninhalte gilt A(F_c) = k²·A(F_a). 📄 Quelle: ari23_vl08, Folie 20 (S.20)",
+    "explanation": "Sei a eine Kathete und c die Hypotenuse. Man nimmt an $c = k \\cdot a$ bzw. $k = \\frac{c}{a}$ (k = Streckfaktor einer Ähnlichkeitsabbildung). Für die Flächeninhalte gilt $A(F_c) = k^2 \\cdot A(F_a)$. 📄 Quelle: ari23_vl08, Folie 20 (S.20)",
     "source": "ari23_vl08, Folie 20 (S.20, Geometrie – Satz des Pythagoras: Verallgemeinerung?, Beweis)"
   },
   {
@@ -17846,17 +17846,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "flaecheninhalte",
     "difficulty": 3,
     "type": "single",
-    "question": "Welchen Wert hat das Verhältnis A(F_a)/A(F_c) der Flächeninhalte der ähnlichen Figuren über der Kathete a und über der Hypotenuse c?",
+    "question": "Welchen Wert hat das Verhältnis $A(F_a)/A(F_c)$ der Flächeninhalte der ähnlichen Figuren über der Kathete a und über der Hypotenuse c?",
     "options": [
-      "(a/c)²  (= 1/k²)",
-      "(c/a)²  (= k²)",
-      "a/c",
+      "$(a/c)^2 \\; (= 1/k^2)$",
+      "$(c/a)^2 \\; (= k^2)$",
+      "$a/c$",
       "k"
     ],
     "correct": [
       0
     ],
-    "explanation": "Aus A(F_c) = k²·A(F_a) folgt A(F_a)/A(F_c) = 1/k² = (a/c)²; analog A(F_b)/A(F_c) = (b/c)². 📄 Quelle: ari23_vl08, Folie 20 (S.20)",
+    "explanation": "Aus $A(F_c) = k^2 \\cdot A(F_a)$ folgt $A(F_a)/A(F_c) = 1/k^2 = (a/c)^2$; analog $A(F_b)/A(F_c) = (b/c)^2$. 📄 Quelle: ari23_vl08, Folie 20 (S.20)",
     "source": "ari23_vl08, Folie 20 (S.20, Geometrie – Satz des Pythagoras: Verallgemeinerung?, Beweis)"
   },
   {
@@ -17864,11 +17864,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "flaecheninhalte",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Da ABC rechtwinklig ist (a² + b² = c²): Welchen Wert hat der Term (a² + b²)/c² im Beweis?",
+    "question": "Da ABC rechtwinklig ist ($a^2 + b^2 = c^2$): Welchen Wert hat der Term $(a^2 + b^2)/c^2$ im Beweis?",
     "answer": 1,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Da ABC rechtwinklig ist, gilt a² + b² = c², also (a² + b²)/c² = c²/c² = 1. Daraus folgt A(F_a) + A(F_b) = A(F_c). 📄 Quelle: ari23_vl08, Folie 21 (S.21)",
+    "explanation": "Da ABC rechtwinklig ist, gilt $a^2 + b^2 = c^2$, also $(a^2 + b^2)/c^2 = c^2/c^2 = 1$. Daraus folgt $A(F_a) + A(F_b) = A(F_c)$. 📄 Quelle: ari23_vl08, Folie 21 (S.21)",
     "source": "ari23_vl08, Folie 21 (S.21, Geometrie – Satz des Pythagoras: Verallgemeinerung?, Beweis)"
   },
   {
@@ -17878,15 +17878,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Mit welcher Schlussgleichung endet der Beweis für die ähnlichen Figuren über den Dreiecksseiten?",
     "options": [
-      "A(F_a) + A(F_b) = A(F_c)",
-      "A(F_a) · A(F_b) = A(F_c)",
-      "A(F_a) + A(F_b) = 2·A(F_c)",
-      "a + b = c"
+      "$A(F_a) + A(F_b) = A(F_c)$",
+      "$A(F_a) \\cdot A(F_b) = A(F_c)$",
+      "$A(F_a) + A(F_b) = 2 \\cdot A(F_c)$",
+      "$a + b = c$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Aus (a² + b²)/c² = 1 folgt A(F_a) + A(F_b) = A(F_c) – die Flächen der ähnlichen Figuren über den Katheten ergeben zusammen die Fläche der ähnlichen Figur über der Hypotenuse. 📄 Quelle: ari23_vl08, Folie 21 (S.21)",
+    "explanation": "Aus $(a^2 + b^2)/c^2 = 1$ folgt $A(F_a) + A(F_b) = A(F_c)$ – die Flächen der ähnlichen Figuren über den Katheten ergeben zusammen die Fläche der ähnlichen Figur über der Hypotenuse. 📄 Quelle: ari23_vl08, Folie 21 (S.21)",
     "source": "ari23_vl08, Folie 21 (S.21, Geometrie – Satz des Pythagoras: Verallgemeinerung?, Beweis)"
   },
   {
@@ -17918,7 +17918,7 @@ const SAMPLE_QUESTIONS = [
     "options": [
       "Er zerstört die Gewissheit, dass alle Phänomene durch Verhältnisse natürlicher Zahlen gedeutet werden können.",
       "Die Diagonale im Einheitsquadrat kann nicht durch einen Bruch dargestellt werden.",
-      "Die Diagonale im Einheitsquadrat hat die Länge √2.",
+      "Die Diagonale im Einheitsquadrat hat die Länge $\\sqrt{2}$.",
       "Jede Streckenlänge lässt sich als Bruch natürlicher Zahlen schreiben."
     ],
     "correct": [
@@ -17926,7 +17926,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Hippasos von Metapont zerstört die Gewissheit, dass alle Phänomene durch Verhältnisse natürlicher Zahlen gedeutet werden können: Die Diagonale im Einheitsquadrat (Länge √2 bei Seiten der Länge 1) kann nicht durch einen Bruch dargestellt werden. 📄 Quelle: ari23_vl08, Folie 25 (S.25)",
+    "explanation": "Hippasos von Metapont zerstört die Gewissheit, dass alle Phänomene durch Verhältnisse natürlicher Zahlen gedeutet werden können: Die Diagonale im Einheitsquadrat (Länge $\\sqrt{2}$ bei Seiten der Länge 1) kann nicht durch einen Bruch dargestellt werden. 📄 Quelle: ari23_vl08, Folie 25 (S.25)",
     "source": "ari23_vl08, Folie 25 (S.25, Geometrie – Pythagoras)"
   },
   {
@@ -17938,7 +17938,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 1.414,
     "tolerance": 0.01,
     "unit": "",
-    "explanation": "Im Einheitsquadrat mit Seitenlängen 1 hat die Diagonale die Länge √2 ≈ 1,414; sie lässt sich nicht als Bruch darstellen. 📄 Quelle: ari23_vl08, Folie 25 (S.25)",
+    "explanation": "Im Einheitsquadrat mit Seitenlängen 1 hat die Diagonale die Länge $\\sqrt{2} \\approx 1{,}414$; sie lässt sich nicht als Bruch darstellen. 📄 Quelle: ari23_vl08, Folie 25 (S.25)",
     "source": "ari23_vl08, Folie 25 (S.25, Geometrie – Pythagoras)"
   },
   {
@@ -21052,7 +21052,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 6263736,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Auf der Folie wird gerechnet: 8742478 − 2478742 = 6263736. 📄 Quelle: ari23_vl12, Folie 6 (S.6)",
+    "explanation": "Auf der Folie wird gerechnet: $8742478 - 2478742 = 6263736$. 📄 Quelle: ari23_vl12, Folie 6 (S.6)",
     "source": "ari23_vl12, Folie 6 (S.6, AMIRIMA-Zahlen)"
   },
   {
@@ -21064,7 +21064,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 8351648,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Auf der Folie wird gerechnet: 9621269 − 1269621 = 8351648. 📄 Quelle: ari23_vl12, Folie 6 (S.6)",
+    "explanation": "Auf der Folie wird gerechnet: $9621269 - 1269621 = 8351648$. 📄 Quelle: ari23_vl12, Folie 6 (S.6)",
     "source": "ari23_vl12, Folie 6 (S.6, AMIRIMA-Zahlen)"
   },
   {
@@ -21076,7 +21076,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 5084915,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Auf der Folie wird gerechnet: 7652567 − 2567652 = 5084915. 📄 Quelle: ari23_vl12, Folie 6 (S.6)",
+    "explanation": "Auf der Folie wird gerechnet: $7652567 - 2567652 = 5084915$. 📄 Quelle: ari23_vl12, Folie 6 (S.6)",
     "source": "ari23_vl12, Folie 6 (S.6, AMIRIMA-Zahlen)"
   },
   {
@@ -21105,9 +21105,9 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Aussagen zu Primfaktorzerlegung und Teilern sind korrekt?",
     "options": [
-      "Jede natürliche Zahl n hat eine (bis auf Reihenfolge) eindeutige Primfaktorzerlegung",
-      "Jedes Produkt von Primfaktoren ergibt einen Teiler von n",
-      "Alle Teiler von n werden in der Teilermenge T(n) zusammengefasst",
+      "Jede natürliche Zahl $n$ hat eine (bis auf Reihenfolge) eindeutige Primfaktorzerlegung",
+      "Jedes Produkt von Primfaktoren ergibt einen Teiler von $n$",
+      "Alle Teiler von $n$ werden in der Teilermenge $T(n)$ zusammengefasst",
       "Nur Primzahlen besitzen eine Primfaktorzerlegung"
     ],
     "correct": [
@@ -21115,7 +21115,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Die Folie nennt: eindeutige Primfaktorzerlegung (bis auf Reihenfolge), jedes Produkt von Primfaktoren ist ein Teiler von n, und alle Teiler werden in T(n) zusammengefasst. 📄 Quelle: ari23_vl12, Folie 7 (S.7)",
+    "explanation": "Die Folie nennt: eindeutige Primfaktorzerlegung (bis auf Reihenfolge), jedes Produkt von Primfaktoren ist ein Teiler von $n$, und alle Teiler werden in $T(n)$ zusammengefasst. 📄 Quelle: ari23_vl12, Folie 7 (S.7)",
     "source": "ari23_vl12, Folie 7 (S.7, Erinnerung – ggT)"
   },
   {
@@ -21123,17 +21123,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "euklid_ggt",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie ist der größte gemeinsame Teiler ggT(n,m) definiert?",
+    "question": "Wie ist der größte gemeinsame Teiler $\\operatorname{ggT}(n,m)$ definiert?",
     "options": [
-      "Die größte Zahl, die in den Teilmengen (Teilermengen) von zwei natürlichen Zahlen n und m enthalten ist",
-      "Das Produkt aller Primfaktoren von n und m",
-      "Die kleinste Zahl, die sowohl n als auch m teilt",
-      "Die Summe der gemeinsamen Teiler von n und m"
+      "Die größte Zahl, die in den Teilmengen (Teilermengen) von zwei natürlichen Zahlen $n$ und $m$ enthalten ist",
+      "Das Produkt aller Primfaktoren von $n$ und $m$",
+      "Die kleinste Zahl, die sowohl $n$ als auch $m$ teilt",
+      "Die Summe der gemeinsamen Teiler von $n$ und $m$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Definition: Die größte Zahl, die in den Teilmengen von zwei natürlichen Zahlen n und m enthalten ist, heißt größter gemeinsamer Teiler der Zahlen n und m. Man schreibt ggT(n,m). 📄 Quelle: ari23_vl12, Folie 7 (S.7)",
+    "explanation": "Definition: Die größte Zahl, die in den Teilmengen von zwei natürlichen Zahlen $n$ und $m$ enthalten ist, heißt größter gemeinsamer Teiler der Zahlen $n$ und $m$. Man schreibt $\\operatorname{ggT}(n,m)$. 📄 Quelle: ari23_vl12, Folie 7 (S.7)",
     "source": "ari23_vl12, Folie 7 (S.7, Erinnerung – ggT)"
   },
   {
@@ -21141,17 +21141,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "euklid_ggt",
     "difficulty": 2,
     "type": "single",
-    "question": "Welches Verfahren zur Bestimmung von ggT(n,m) über die Primfaktorzerlegung ist korrekt?",
+    "question": "Welches Verfahren zur Bestimmung von $\\operatorname{ggT}(n,m)$ über die Primfaktorzerlegung ist korrekt?",
     "options": [
-      "Ermittle die Primfaktorzerlegungen von n und m; der ggT(n,m) ist das Produkt der gemeinsamen Primfaktoren",
-      "Ermittle die Primfaktorzerlegungen von n und m; der ggT(n,m) ist die Summe der gemeinsamen Primfaktoren",
-      "Ermittle die Primfaktorzerlegungen; der ggT(n,m) ist das Produkt aller vorkommenden Primfaktoren",
-      "Ermittle die Teilermengen; der ggT(n,m) ist der kleinste gemeinsame Teiler"
+      "Ermittle die Primfaktorzerlegungen von $n$ und $m$; der $\\operatorname{ggT}(n,m)$ ist das Produkt der gemeinsamen Primfaktoren",
+      "Ermittle die Primfaktorzerlegungen von $n$ und $m$; der $\\operatorname{ggT}(n,m)$ ist die Summe der gemeinsamen Primfaktoren",
+      "Ermittle die Primfaktorzerlegungen; der $\\operatorname{ggT}(n,m)$ ist das Produkt aller vorkommenden Primfaktoren",
+      "Ermittle die Teilermengen; der $\\operatorname{ggT}(n,m)$ ist der kleinste gemeinsame Teiler"
     ],
     "correct": [
       0
     ],
-    "explanation": "Verfahren: Ermittle die Primfaktorzerlegungen von n und m. Der ggT(n,m) ist das Produkt der gemeinsamen Primfaktoren. Für ggT(8351648, 6263736) wird jedoch ein neues Verfahren benötigt. 📄 Quelle: ari23_vl12, Folie 7 (S.7)",
+    "explanation": "Verfahren: Ermittle die Primfaktorzerlegungen von $n$ und $m$. Der $\\operatorname{ggT}(n,m)$ ist das Produkt der gemeinsamen Primfaktoren. Für $\\operatorname{ggT}(8351648, 6263736)$ wird jedoch ein neues Verfahren benötigt. 📄 Quelle: ari23_vl12, Folie 7 (S.7)",
     "source": "ari23_vl12, Folie 7 (S.7, Erinnerung – ggT)"
   },
   {
@@ -21159,19 +21159,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "euklid_ggt",
     "difficulty": 2,
     "type": "multi",
-    "question": "Der Satz 'Teilen mit Rest' besagt: Für natürliche Zahlen n und m gibt es genau ein Paar natürlicher Zahlen q und r mit n = q·m + r. Welche Aussagen dazu sind korrekt?",
+    "question": "Der Satz 'Teilen mit Rest' besagt: Für natürliche Zahlen $n$ und $m$ gibt es genau ein Paar natürlicher Zahlen $q$ und $r$ mit $n = q \\cdot m + r$. Welche Aussagen dazu sind korrekt?",
     "options": [
-      "Für den Rest gilt 0 ≤ r < m",
-      "Das Paar (q, r) ist eindeutig bestimmt (genau ein Paar)",
-      "Es gilt n = q·m + r",
-      "Der Rest r darf beliebig groß sein, solange r ≥ m gilt"
+      "Für den Rest gilt $0 \\le r < m$",
+      "Das Paar $(q, r)$ ist eindeutig bestimmt (genau ein Paar)",
+      "Es gilt $n = q \\cdot m + r$",
+      "Der Rest $r$ darf beliebig groß sein, solange $r \\ge m$ gilt"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Satz: Wenn n und m natürliche Zahlen sind, dann gibt es genau ein Paar q und r natürlicher Zahlen, sodass n = q·m + r mit 0 ≤ r < m (Teilen mit Rest). 📄 Quelle: ari23_vl12, Folie 8 (S.8)",
+    "explanation": "Satz: Wenn $n$ und $m$ natürliche Zahlen sind, dann gibt es genau ein Paar $q$ und $r$ natürlicher Zahlen, sodass $n = q \\cdot m + r$ mit $0 \\le r < m$ (Teilen mit Rest). 📄 Quelle: ari23_vl12, Folie 8 (S.8)",
     "source": "ari23_vl12, Folie 8 (S.8, Satz Teilen mit Rest)"
   },
   {
@@ -21216,12 +21216,12 @@ const SAMPLE_QUESTIONS = [
     "topic": "euklid_ggt",
     "difficulty": 2,
     "type": "multi",
-    "question": "Beim geometrischen Beispiel zum Euklidischen Algorithmus wird ein 22 × 52-Rechteck in Quadrate zerlegt. Welche Quadratgrößen treten dabei auf?",
+    "question": "Beim geometrischen Beispiel zum Euklidischen Algorithmus wird ein $22 \\times 52$-Rechteck in Quadrate zerlegt. Welche Quadratgrößen treten dabei auf?",
     "options": [
-      "22 × 22",
-      "8 × 8",
-      "6 × 6",
-      "2 × 2"
+      "$22 \\times 22$",
+      "$8 \\times 8$",
+      "$6 \\times 6$",
+      "$2 \\times 2$"
     ],
     "correct": [
       0,
@@ -21229,7 +21229,7 @@ const SAMPLE_QUESTIONS = [
       2,
       3
     ],
-    "explanation": "Die Zerlegung des 22 × 52-Rechtecks zeigt Quadrate der Größen 22 × 22, 8 × 8, 6 × 6 und 2 × 2. 📄 Quelle: ari23_vl12, Folie 9 (S.9)",
+    "explanation": "Die Zerlegung des $22 \\times 52$-Rechtecks zeigt Quadrate der Größen $22 \\times 22$, $8 \\times 8$, $6 \\times 6$ und $2 \\times 2$. 📄 Quelle: ari23_vl12, Folie 9 (S.9)",
     "source": "ari23_vl12, Folie 9 (S.9, Euklidischer Algorithmus – Beispiel)"
   },
   {
@@ -21237,11 +21237,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "euklid_ggt",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Wie viele 22 × 22-Quadrate passen im geometrischen Beispiel in das 22 × 52-Rechteck (entlang der langen Seite)?",
+    "question": "Wie viele $22 \\times 22$-Quadrate passen im geometrischen Beispiel in das $22 \\times 52$-Rechteck (entlang der langen Seite)?",
     "answer": 2,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Das 22 × 52-Rechteck enthält zwei 22 × 22-Quadrate (52 = 2·22 + 8). 📄 Quelle: ari23_vl12, Folie 9 (S.9)",
+    "explanation": "Das $22 \\times 52$-Rechteck enthält zwei $22 \\times 22$-Quadrate ($52 = 2 \\cdot 22 + 8$). 📄 Quelle: ari23_vl12, Folie 9 (S.9)",
     "source": "ari23_vl12, Folie 9 (S.9, Euklidischer Algorithmus – Beispiel)"
   },
   {
@@ -21249,17 +21249,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "euklid_ggt",
     "difficulty": 1,
     "type": "single",
-    "question": "Mit welchen Quadraten lässt sich die ganze 22 × 52-Fläche vollständig parkettieren?",
+    "question": "Mit welchen Quadraten lässt sich die ganze $22 \\times 52$-Fläche vollständig parkettieren?",
     "options": [
-      "Mit 2 × 2-Quadraten",
-      "Mit 22 × 22-Quadraten",
-      "Mit 6 × 6-Quadraten",
-      "Mit 8 × 8-Quadraten"
+      "Mit $2 \\times 2$-Quadraten",
+      "Mit $22 \\times 22$-Quadraten",
+      "Mit $6 \\times 6$-Quadraten",
+      "Mit $8 \\times 8$-Quadraten"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie: 'Mit 2 × 2-Quadraten lässt sich die ganze 22 × 52-Fläche parkettieren.' 2 ist der ggT von 52 und 22. 📄 Quelle: ari23_vl12, Folie 10 (S.10)",
+    "explanation": "Die Folie: 'Mit $2 \\times 2$-Quadraten lässt sich die ganze $22 \\times 52$-Fläche parkettieren.' 2 ist der ggT von 52 und 22. 📄 Quelle: ari23_vl12, Folie 10 (S.10)",
     "source": "ari23_vl12, Folie 10 (S.10, Euklidischer Algorithmus – Beispiel)"
   },
   {
@@ -21267,12 +21267,12 @@ const SAMPLE_QUESTIONS = [
     "topic": "euklid_ggt",
     "difficulty": 2,
     "type": "multi",
-    "question": "Beim geometrischen Euklid-Beispiel (22 × 52-Rechteck) werden den Quadratgrößen Reste zugeordnet. Welche Zuordnungen sind korrekt?",
+    "question": "Beim geometrischen Euklid-Beispiel ($22 \\times 52$-Rechteck) werden den Quadratgrößen Reste zugeordnet. Welche Zuordnungen sind korrekt?",
     "options": [
-      "22 × 22-Quadrate → Rest 8",
-      "8 × 8-Quadrate → Rest 6",
-      "6 × 6-Quadrate → Rest 2",
-      "2 × 2-Quadrate → Rest 0"
+      "$22 \\times 22$-Quadrate → Rest 8",
+      "$8 \\times 8$-Quadrate → Rest 6",
+      "$6 \\times 6$-Quadrate → Rest 2",
+      "$2 \\times 2$-Quadrate → Rest 0"
     ],
     "correct": [
       0,
@@ -21280,7 +21280,7 @@ const SAMPLE_QUESTIONS = [
       2,
       3
     ],
-    "explanation": "Die Folie zeigt: nach den 22×22-Quadraten Rest 8, nach den 8×8-Quadraten Rest 6, nach den 6×6-Quadraten Rest 2, nach den 2×2-Quadraten Rest 0. 📄 Quelle: ari23_vl12, Folie 11 (S.11)",
+    "explanation": "Die Folie zeigt: nach den $22 \\times 22$-Quadraten Rest 8, nach den $8 \\times 8$-Quadraten Rest 6, nach den $6 \\times 6$-Quadraten Rest 2, nach den $2 \\times 2$-Quadraten Rest 0. 📄 Quelle: ari23_vl12, Folie 11 (S.11)",
     "source": "ari23_vl12, Folie 11 (S.11, Euklidischer Algorithmus – Beispiel)"
   },
   {
@@ -21288,11 +21288,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "euklid_ggt",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Der Euklidische Algorithmus wird für 52 und 22 durchgeführt. Wie lautet ggT(52, 22)?",
+    "question": "Der Euklidische Algorithmus wird für 52 und 22 durchgeführt. Wie lautet $\\operatorname{ggT}(52, 22)$?",
     "answer": 2,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Aus den Schritten 52 = 2·22 + 8, 22 = 2·8 + 6, 8 = 1·6 + 2, 6 = 3·2 + 0 folgt ggT(52, 22) = 2. 📄 Quelle: ari23_vl12, Folie 12 (S.12)",
+    "explanation": "Aus den Schritten $52 = 2 \\cdot 22 + 8$, $22 = 2 \\cdot 8 + 6$, $8 = 1 \\cdot 6 + 2$, $6 = 3 \\cdot 2 + 0$ folgt $\\operatorname{ggT}(52, 22) = 2$. 📄 Quelle: ari23_vl12, Folie 12 (S.12)",
     "source": "ari23_vl12, Folie 12 (S.12, Euklidischer Algorithmus – Beispiel)"
   },
   {
@@ -21300,11 +21300,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "euklid_ggt",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Im ersten Schritt des Euklidischen Algorithmus für 52 und 22 gilt 52 = q·22 + 8. Welchen Wert hat der Quotient q?",
+    "question": "Im ersten Schritt des Euklidischen Algorithmus für 52 und 22 gilt $52 = q \\cdot 22 + 8$. Welchen Wert hat der Quotient $q$?",
     "answer": 2,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Erster Schritt: 52 = 2·22 + 8 mit 0 ≤ 8 < 22, also q = 2. 📄 Quelle: ari23_vl12, Folie 12 (S.12)",
+    "explanation": "Erster Schritt: $52 = 2 \\cdot 22 + 8$ mit $0 \\le 8 < 22$, also $q = 2$. 📄 Quelle: ari23_vl12, Folie 12 (S.12)",
     "source": "ari23_vl12, Folie 12 (S.12, Euklidischer Algorithmus – Beispiel)"
   },
   {
@@ -21312,11 +21312,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "euklid_ggt",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Im Schritt 8 = 1·6 + r des Euklidischen Algorithmus (52, 22): Welchen Wert hat der Rest r?",
+    "question": "Im Schritt $8 = 1 \\cdot 6 + r$ des Euklidischen Algorithmus (52, 22): Welchen Wert hat der Rest $r$?",
     "answer": 2,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Es gilt 8 = 1·6 + 2 mit 0 ≤ 2 < 6, also Rest r = 2. 📄 Quelle: ari23_vl12, Folie 12 (S.12)",
+    "explanation": "Es gilt $8 = 1 \\cdot 6 + 2$ mit $0 \\le 2 < 6$, also Rest $r = 2$. 📄 Quelle: ari23_vl12, Folie 12 (S.12)",
     "source": "ari23_vl12, Folie 12 (S.12, Euklidischer Algorithmus – Beispiel)"
   },
   {
@@ -21326,10 +21326,10 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Divisionsschritte des Euklidischen Algorithmus für 52 und 22 sind korrekt?",
     "options": [
-      "52 = 2·22 + 8 mit 0 ≤ 8 < 22",
-      "22 = 2·8 + 6 mit 0 ≤ 6 < 8",
-      "8 = 1·6 + 2 mit 0 ≤ 2 < 6",
-      "6 = 3·2 + 0 mit Rest 0"
+      "$52 = 2 \\cdot 22 + 8$ mit $0 \\le 8 < 22$",
+      "$22 = 2 \\cdot 8 + 6$ mit $0 \\le 6 < 8$",
+      "$8 = 1 \\cdot 6 + 2$ mit $0 \\le 2 < 6$",
+      "$6 = 3 \\cdot 2 + 0$ mit Rest 0"
     ],
     "correct": [
       0,
@@ -21337,7 +21337,7 @@ const SAMPLE_QUESTIONS = [
       2,
       3
     ],
-    "explanation": "Die Folie zeigt genau diese vier Schritte: 52 = 2·22 + 8, 22 = 2·8 + 6, 8 = 1·6 + 2, 6 = 3·2 + 0. 📄 Quelle: ari23_vl12, Folie 12 (S.12)",
+    "explanation": "Die Folie zeigt genau diese vier Schritte: $52 = 2 \\cdot 22 + 8$, $22 = 2 \\cdot 8 + 6$, $8 = 1 \\cdot 6 + 2$, $6 = 3 \\cdot 2 + 0$. 📄 Quelle: ari23_vl12, Folie 12 (S.12)",
     "source": "ari23_vl12, Folie 12 (S.12, Euklidischer Algorithmus – Beispiel)"
   },
   {
@@ -21345,11 +21345,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "euklid_ggt",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Im letzten Schritt des Euklidischen Algorithmus (52, 22) gilt 6 = q·2 + 0. Welchen Wert hat der Quotient q?",
+    "question": "Im letzten Schritt des Euklidischen Algorithmus (52, 22) gilt $6 = q \\cdot 2 + 0$. Welchen Wert hat der Quotient $q$?",
     "answer": 3,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Letzter Schritt: 6 = 3·2 + 0 (Rest 0), also q = 3; damit ist 2 der ggT. 📄 Quelle: ari23_vl12, Folie 12 (S.12)",
+    "explanation": "Letzter Schritt: $6 = 3 \\cdot 2 + 0$ (Rest 0), also $q = 3$; damit ist 2 der ggT. 📄 Quelle: ari23_vl12, Folie 12 (S.12)",
     "source": "ari23_vl12, Folie 12 (S.12, Euklidischer Algorithmus – Beispiel)"
   },
   {
@@ -21357,11 +21357,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "euklid_ggt",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Bestimmen Sie mit dem Euklidischen Algorithmus den ggT(108, 42).",
+    "question": "Bestimmen Sie mit dem Euklidischen Algorithmus den $\\operatorname{ggT}(108, 42)$.",
     "answer": 6,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Folie führt den Algorithmus durch: 108 = 2·42 + 24, 42 = 1·24 + 18, 24 = 1·18 + 6, 18 = 3·6 + 0. Der letzte von Null verschiedene Rest ist 6, also ggT(108, 42) = 6. 📄 Quelle: ari23_vl12, Folie 13 (S.13)",
+    "explanation": "Die Folie führt den Algorithmus durch: $108 = 2 \\cdot 42 + 24$, $42 = 1 \\cdot 24 + 18$, $24 = 1 \\cdot 18 + 6$, $18 = 3 \\cdot 6 + 0$. Der letzte von Null verschiedene Rest ist 6, also $\\operatorname{ggT}(108, 42) = 6$. 📄 Quelle: ari23_vl12, Folie 13 (S.13)",
     "source": "ari23_vl12, Folie 13 (S.13, Euklidischer Algorithmus - Beispiel)"
   },
   {
@@ -21369,11 +21369,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "euklid_ggt",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Erster Schritt des Euklidischen Algorithmus für 108 und 42: 108 = 2·42 + r mit 0 ≤ r < 42. Welchen Wert hat der Rest r?",
+    "question": "Erster Schritt des Euklidischen Algorithmus für 108 und 42: $108 = 2 \\cdot 42 + r$ mit $0 \\le r < 42$. Welchen Wert hat der Rest $r$?",
     "answer": 24,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Laut Folie gilt 108 = 2·42 + 24 mit 0 ≤ 24 < 42, also r = 24. 📄 Quelle: ari23_vl12, Folie 13 (S.13)",
+    "explanation": "Laut Folie gilt $108 = 2 \\cdot 42 + 24$ mit $0 \\le 24 < 42$, also $r = 24$. 📄 Quelle: ari23_vl12, Folie 13 (S.13)",
     "source": "ari23_vl12, Folie 13 (S.13, Euklidischer Algorithmus - Beispiel)"
   },
   {
@@ -21383,11 +21383,11 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Gleichungen gehören zum Euklidischen Algorithmus für 108 und 42?",
     "options": [
-      "108 = 2·42 + 24 mit 0 ≤ 24 < 42",
-      "42 = 1·24 + 18 mit 0 ≤ 18 < 24",
-      "24 = 1·18 + 6 mit 0 ≤ 6 < 18",
-      "18 = 3·6 + 0 (Rest 0)",
-      "42 = 2·24 + 6 mit 0 ≤ 6 < 24"
+      "$108 = 2 \\cdot 42 + 24$ mit $0 \\le 24 < 42$",
+      "$42 = 1 \\cdot 24 + 18$ mit $0 \\le 18 < 24$",
+      "$24 = 1 \\cdot 18 + 6$ mit $0 \\le 6 < 18$",
+      "$18 = 3 \\cdot 6 + 0$ (Rest 0)",
+      "$42 = 2 \\cdot 24 + 6$ mit $0 \\le 6 < 24$"
     ],
     "correct": [
       0,
@@ -21395,7 +21395,7 @@ const SAMPLE_QUESTIONS = [
       2,
       3
     ],
-    "explanation": "Die Folie zeigt genau die Kette 108 = 2·42 + 24, 42 = 1·24 + 18, 24 = 1·18 + 6, 18 = 3·6 + 0. Die Gleichung 42 = 2·24 + 6 ist falsch (2·24 = 48 > 42). 📄 Quelle: ari23_vl12, Folie 13 (S.13)",
+    "explanation": "Die Folie zeigt genau die Kette $108 = 2 \\cdot 42 + 24$, $42 = 1 \\cdot 24 + 18$, $24 = 1 \\cdot 18 + 6$, $18 = 3 \\cdot 6 + 0$. Die Gleichung $42 = 2 \\cdot 24 + 6$ ist falsch ($2 \\cdot 24 = 48 > 42$). 📄 Quelle: ari23_vl12, Folie 13 (S.13)",
     "source": "ari23_vl12, Folie 13 (S.13, Euklidischer Algorithmus - Beispiel)"
   },
   {
@@ -21403,17 +21403,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "euklid_ggt",
     "difficulty": 2,
     "type": "single",
-    "question": "Womit ist der ggT(a, b) im allgemeinen Euklidischen Algorithmus (a > b) identisch?",
+    "question": "Womit ist der $\\operatorname{ggT}(a, b)$ im allgemeinen Euklidischen Algorithmus ($a > b$) identisch?",
     "options": [
-      "r_{n+1} (der letzte von Null verschiedene Rest)",
-      "r_n",
-      "r_{n+2}",
-      "q_{n+2}"
+      "$r_{n+1}$ (der letzte von Null verschiedene Rest)",
+      "$r_n$",
+      "$r_{n+2}$",
+      "$q_{n+2}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie hält fest: Insgesamt gilt ggT(a, b) = r_{n+1}. 📄 Quelle: ari23_vl12, Folie 16 (S.16)",
+    "explanation": "Die Folie hält fest: Insgesamt gilt $\\operatorname{ggT}(a, b) = r_{n+1}$. 📄 Quelle: ari23_vl12, Folie 16 (S.16)",
     "source": "ari23_vl12, Folie 16 (S.16, Euklidischer Algorithmus - allgemein)"
   },
   {
@@ -21421,13 +21421,13 @@ const SAMPLE_QUESTIONS = [
     "topic": "euklid_ggt",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Aussagen zum allgemeinen Euklidischen Algorithmus (für a > b) sind korrekt?",
+    "question": "Welche Aussagen zum allgemeinen Euklidischen Algorithmus (für $a > b$) sind korrekt?",
     "options": [
-      "a und b sind natürliche Zahlen mit a > b",
-      "Es gilt a = q_1·b + r_1 mit 0 ≤ r_1 < b",
-      "Für die Reste gilt 0 ≤ r_2 < r_1, 0 ≤ r_3 < r_2 usw.",
-      "Der Algorithmus endet mit r_n = q_{n+2}·r_{n+1} + 0, wobei r_{n+2} = 0",
-      "Vorausgesetzt wird, dass a und b teilerfremd (ggT = 1) sind"
+      "$a$ und $b$ sind natürliche Zahlen mit $a > b$",
+      "Es gilt $a = q_1 \\cdot b + r_1$ mit $0 \\le r_1 < b$",
+      "Für die Reste gilt $0 \\le r_2 < r_1$, $0 \\le r_3 < r_2$ usw.",
+      "Der Algorithmus endet mit $r_n = q_{n+2} \\cdot r_{n+1} + 0$, wobei $r_{n+2} = 0$",
+      "Vorausgesetzt wird, dass $a$ und $b$ teilerfremd ($\\operatorname{ggT} = 1$) sind"
     ],
     "correct": [
       0,
@@ -21435,7 +21435,7 @@ const SAMPLE_QUESTIONS = [
       2,
       3
     ],
-    "explanation": "Die Folie setzt a > b voraus und listet a = q_1·b + r_1 mit 0 ≤ r_1 < b, die absteigenden Restbedingungen sowie die Abbruchgleichung r_n = q_{n+2}·r_{n+1} + 0 mit r_{n+2} = 0. Teilerfremdheit wird nicht vorausgesetzt. 📄 Quelle: ari23_vl12, Folie 16 (S.16)",
+    "explanation": "Die Folie setzt $a > b$ voraus und listet $a = q_1 \\cdot b + r_1$ mit $0 \\le r_1 < b$, die absteigenden Restbedingungen sowie die Abbruchgleichung $r_n = q_{n+2} \\cdot r_{n+1} + 0$ mit $r_{n+2} = 0$ an. Teilerfremdheit wird nicht vorausgesetzt. 📄 Quelle: ari23_vl12, Folie 16 (S.16)",
     "source": "ari23_vl12, Folie 16 (S.16, Euklidischer Algorithmus - allgemein)"
   },
   {
@@ -21443,11 +21443,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "euklid_ggt",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Der allgemeine Euklidische Algorithmus endet mit der Gleichung r_n = q_{n+2}·r_{n+1} + r_{n+2}. Welchen Wert nimmt der Rest r_{n+2} dabei an?",
+    "question": "Der allgemeine Euklidische Algorithmus endet mit der Gleichung $r_n = q_{n+2} \\cdot r_{n+1} + r_{n+2}$. Welchen Wert nimmt der Rest $r_{n+2}$ dabei an?",
     "answer": 0,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Folie gibt die Abbruchgleichung r_n = q_{n+2}·r_{n+1} + 0 mit r_{n+2} = 0 an. 📄 Quelle: ari23_vl12, Folie 16 (S.16)",
+    "explanation": "Die Folie gibt die Abbruchgleichung $r_n = q_{n+2} \\cdot r_{n+1} + 0$ mit $r_{n+2} = 0$ an. 📄 Quelle: ari23_vl12, Folie 16 (S.16)",
     "source": "ari23_vl12, Folie 16 (S.16, Euklidischer Algorithmus - allgemein)"
   },
   {
@@ -21455,17 +21455,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "euklid_ggt",
     "difficulty": 2,
     "type": "single",
-    "question": "Im Beweis, dass d = r_{n+1} ein gemeinsamer Teiler von a und b ist: Womit wird in der letzten (n-ten) Gleichung begründet, dass mit d = r_{n+1} auch d | r_n gilt?",
+    "question": "Im Beweis, dass $d = r_{n+1}$ ein gemeinsamer Teiler von $a$ und $b$ ist: Womit wird in der letzten (n-ten) Gleichung begründet, dass mit $d = r_{n+1}$ auch $d \\mid r_n$ gilt?",
     "options": [
-      "Weil r_n ein Vielfaches von r_{n+1} ist",
-      "Weil r_n eine Primzahl ist",
-      "Weil r_{n+1} ein Vielfaches von r_n ist",
-      "Weil r_n = r_{n+1} gilt"
+      "Weil $r_n$ ein Vielfaches von $r_{n+1}$ ist",
+      "Weil $r_n$ eine Primzahl ist",
+      "Weil $r_{n+1}$ ein Vielfaches von $r_n$ ist",
+      "Weil $r_n = r_{n+1}$ gilt"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie begründet: Da r_n ein Vielfaches von r_{n+1} ist, gilt mit d = r_{n+1} auch d | r_n. 📄 Quelle: ari23_vl12, Folie 18 (S.18)",
+    "explanation": "Die Folie begründet: Da $r_n$ ein Vielfaches von $r_{n+1}$ ist, gilt mit $d = r_{n+1}$ auch $d \\mid r_n$. 📄 Quelle: ari23_vl12, Folie 18 (S.18)",
     "source": "ari23_vl12, Folie 18 (S.18, Warum ist d = r_{n+1} ein gemeinsamer Teiler von a und b?)"
   },
   {
@@ -21473,13 +21473,13 @@ const SAMPLE_QUESTIONS = [
     "topic": "euklid_ggt",
     "difficulty": 3,
     "type": "multi",
-    "question": "Welche Argumentationsschritte gehören zum Beweis, dass d = r_{n+1} ein gemeinsamer Teiler von a und b ist (von unten nach oben)?",
+    "question": "Welche Argumentationsschritte gehören zum Beweis, dass $d = r_{n+1}$ ein gemeinsamer Teiler von $a$ und $b$ ist (von unten nach oben)?",
     "options": [
-      "Da r_n ein Vielfaches von r_{n+1} ist, gilt mit d = r_{n+1} auch d | r_n",
-      "Da d | r_n und d | r_{n+1} gilt, gilt auch d | r_{n-1}",
-      "So fortfahrend ergibt sich, dass d sowohl a als auch b teilt",
-      "Am Ende gilt d | a und d | b",
-      "Aus diesen Gleichungen folgt sofort, dass d = ggT(a, b) ist"
+      "Da $r_n$ ein Vielfaches von $r_{n+1}$ ist, gilt mit $d = r_{n+1}$ auch $d \\mid r_n$",
+      "Da $d \\mid r_n$ und $d \\mid r_{n+1}$ gilt, gilt auch $d \\mid r_{n-1}$",
+      "So fortfahrend ergibt sich, dass $d$ sowohl $a$ als auch $b$ teilt",
+      "Am Ende gilt $d \\mid a$ und $d \\mid b$",
+      "Aus diesen Gleichungen folgt sofort, dass $d = \\operatorname{ggT}(a, b)$ ist"
     ],
     "correct": [
       0,
@@ -21487,7 +21487,7 @@ const SAMPLE_QUESTIONS = [
       2,
       3
     ],
-    "explanation": "Die Folie arbeitet sich von der letzten Gleichung nach oben: d | r_n, dann d | r_{n-1}, usw., bis d sowohl a als auch b teilt, also d | a und d | b. Dass d = ggT(a, b) ist, wird hier ausdrücklich noch offen gelassen ('aber ist d = ggT(a, b)?'). 📄 Quelle: ari23_vl12, Folie 18 (S.18)",
+    "explanation": "Die Folie arbeitet sich von der letzten Gleichung nach oben: $d \\mid r_n$, dann $d \\mid r_{n-1}$, usw., bis $d$ sowohl $a$ als auch $b$ teilt, also $d \\mid a$ und $d \\mid b$. Dass $d = \\operatorname{ggT}(a, b)$ ist, wird hier ausdrücklich noch offen gelassen ('aber ist $d = \\operatorname{ggT}(a, b)$?'). 📄 Quelle: ari23_vl12, Folie 18 (S.18)",
     "source": "ari23_vl12, Folie 18 (S.18, Warum ist d = r_{n+1} ein gemeinsamer Teiler von a und b?)"
   },
   {
@@ -21495,17 +21495,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "euklid_ggt",
     "difficulty": 2,
     "type": "single",
-    "question": "Im Beweis, dass d = r_{n+1} ein gemeinsamer Teiler von a und b ist: Was ist am Ende gezeigt – und was bleibt zunächst offen?",
+    "question": "Im Beweis, dass $d = r_{n+1}$ ein gemeinsamer Teiler von $a$ und $b$ ist: Was ist am Ende gezeigt – und was bleibt zunächst offen?",
     "options": [
-      "Gezeigt ist d | a und d | b; offen bleibt, ob d = ggT(a, b) ist",
-      "Gezeigt ist bereits d = ggT(a, b); es bleibt nichts offen",
-      "Gezeigt ist, dass d weder a noch b teilt",
-      "Gezeigt ist, dass a und b teilerfremd sind"
+      "Gezeigt ist $d \\mid a$ und $d \\mid b$; offen bleibt, ob $d = \\operatorname{ggT}(a, b)$ ist",
+      "Gezeigt ist bereits $d = \\operatorname{ggT}(a, b)$; es bleibt nichts offen",
+      "Gezeigt ist, dass $d$ weder $a$ noch $b$ teilt",
+      "Gezeigt ist, dass $a$ und $b$ teilerfremd sind"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie schließt: 'Es gilt also d | a und d | b, aber ist d = ggT(a, b)?' – der gemeinsame Teiler ist gezeigt, die Maximalität noch nicht. 📄 Quelle: ari23_vl12, Folie 18 (S.18)",
+    "explanation": "Die Folie schließt: 'Es gilt also $d \\mid a$ und $d \\mid b$, aber ist $d = \\operatorname{ggT}(a, b)$?' – der gemeinsame Teiler ist gezeigt, die Maximalität noch nicht. 📄 Quelle: ari23_vl12, Folie 18 (S.18)",
     "source": "ari23_vl12, Folie 18 (S.18, Warum ist d = r_{n+1} ein gemeinsamer Teiler von a und b?)"
   },
   {
@@ -21513,17 +21513,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "euklid_ggt",
     "difficulty": 2,
     "type": "single",
-    "question": "Angenommen, d' sei ein Teiler von 108 und 42. Was folgt gemäß der ersten Gleichung 108 = 2·42 + 24?",
+    "question": "Angenommen, $d'$ sei ein Teiler von 108 und 42. Was folgt gemäß der ersten Gleichung $108 = 2 \\cdot 42 + 24$?",
     "options": [
-      "d' | 24",
-      "d' | 18",
-      "d' | 6",
-      "d' ist kein Teiler von 24"
+      "$d' \\mid 24$",
+      "$d' \\mid 18$",
+      "$d' \\mid 6$",
+      "$d'$ ist kein Teiler von 24"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie argumentiert: aus d' | 108 und d' | 42 folgt d' | 2·42 und schließlich d' | 24. 📄 Quelle: ari23_vl12, Folie 19 (S.19)",
+    "explanation": "Die Folie argumentiert: aus $d' \\mid 108$ und $d' \\mid 42$ folgt $d' \\mid 2 \\cdot 42$ und schließlich $d' \\mid 24$. 📄 Quelle: ari23_vl12, Folie 19 (S.19)",
     "source": "ari23_vl12, Folie 19 (S.19, Warum ist d = 6 der ggT(108, 42)?)"
   },
   {
@@ -21531,11 +21531,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "euklid_ggt",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Im Beweis der Maximalität ergibt die letzte Gleichung d' | 6. Welche obere Schranke folgt daraus für jeden gemeinsamen Teiler d' von 108 und 42?",
+    "question": "Im Beweis der Maximalität ergibt die letzte Gleichung $d' \\mid 6$. Welche obere Schranke folgt daraus für jeden gemeinsamen Teiler $d'$ von 108 und 42?",
     "answer": 6,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Folie schließt: d' | 6 und damit ist d' ≤ 6, also ist ggT(108, 42) = 6. 📄 Quelle: ari23_vl12, Folie 19 (S.19)",
+    "explanation": "Die Folie schließt: $d' \\mid 6$ und damit ist $d' \\le 6$, also ist $\\operatorname{ggT}(108, 42) = 6$. 📄 Quelle: ari23_vl12, Folie 19 (S.19)",
     "source": "ari23_vl12, Folie 19 (S.19, Warum ist d = 6 der ggT(108, 42)?)"
   },
   {
@@ -21543,9 +21543,9 @@ const SAMPLE_QUESTIONS = [
     "topic": "euklid_ggt",
     "difficulty": 3,
     "type": "single",
-    "question": "Warum ist d = 6 tatsächlich der größte gemeinsame Teiler von 108 und 42 (und nicht nur irgendein gemeinsamer Teiler)?",
+    "question": "Warum ist $d = 6$ tatsächlich der größte gemeinsame Teiler von 108 und 42 (und nicht nur irgendein gemeinsamer Teiler)?",
     "options": [
-      "Weil jeder gemeinsame Teiler d' die Zahl 6 teilt und damit d' ≤ 6 gilt",
+      "Weil jeder gemeinsame Teiler $d'$ die Zahl 6 teilt und damit $d' \\le 6$ gilt",
       "Weil 6 eine Primzahl ist",
       "Weil 6 der kleinste Teiler von 108 ist",
       "Weil 108 und 42 beide gerade Zahlen sind"
@@ -21553,7 +21553,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Die Folie zeigt, dass ein beliebiger Teiler d' von 108 und 42 letztlich d' | 6 erfüllt, also d' ≤ 6; damit ist 6 der größte gemeinsame Teiler. 📄 Quelle: ari23_vl12, Folie 19 (S.19)",
+    "explanation": "Die Folie zeigt, dass ein beliebiger Teiler $d'$ von 108 und 42 letztlich $d' \\mid 6$ erfüllt, also $d' \\le 6$; damit ist 6 der größte gemeinsame Teiler. 📄 Quelle: ari23_vl12, Folie 19 (S.19)",
     "source": "ari23_vl12, Folie 19 (S.19, Warum ist d = 6 der ggT(108, 42)?)"
   },
   {
@@ -21561,17 +21561,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "euklid_ggt",
     "difficulty": 2,
     "type": "single",
-    "question": "Angenommen, d' sei ein Teiler von a und b. Was folgt gemäß der ersten Gleichung a = q_1·b + r_1?",
+    "question": "Angenommen, $d'$ sei ein Teiler von $a$ und $b$. Was folgt gemäß der ersten Gleichung $a = q_1 \\cdot b + r_1$?",
     "options": [
-      "d' | r_1",
-      "d' | r_2",
-      "d' | q_1",
-      "d' teilt r_1 nicht"
+      "$d' \\mid r_1$",
+      "$d' \\mid r_2$",
+      "$d' \\mid q_1$",
+      "$d'$ teilt $r_1$ nicht"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie argumentiert: aus d' | a und d' | b folgt d' | q_1·b und schließlich d' | r_1. 📄 Quelle: ari23_vl12, Folie 20 (S.20)",
+    "explanation": "Die Folie argumentiert: aus $d' \\mid a$ und $d' \\mid b$ folgt $d' \\mid q_1 \\cdot b$ und schließlich $d' \\mid r_1$. 📄 Quelle: ari23_vl12, Folie 20 (S.20)",
     "source": "ari23_vl12, Folie 20 (S.20, Warum ist d = r_{n+1} der ggT(a, b)?)"
   },
   {
@@ -21579,13 +21579,13 @@ const SAMPLE_QUESTIONS = [
     "topic": "euklid_ggt",
     "difficulty": 3,
     "type": "multi",
-    "question": "Welche Schritte gehören zum allgemeinen Beweis, dass r_{n+1} der ggT(a, b) ist?",
+    "question": "Welche Schritte gehören zum allgemeinen Beweis, dass $r_{n+1}$ der $\\operatorname{ggT}(a, b)$ ist?",
     "options": [
-      "Angenommen, d' sei ein Teiler von a und b",
-      "Aus der ersten Gleichung folgt: aus d' | a und d' | b ergibt sich d' | r_1",
-      "Aus der zweiten Gleichung folgt: aus d' | b und d' | r_1 ergibt sich d' | r_2",
-      "Aus der letzten Gleichung folgt d' | r_{n+1}, also d' ≤ r_{n+1}",
-      "Es folgt d' ≥ r_{n+1}, also ist r_{n+1} der kleinste gemeinsame Teiler"
+      "Angenommen, $d'$ sei ein Teiler von $a$ und $b$",
+      "Aus der ersten Gleichung folgt: aus $d' \\mid a$ und $d' \\mid b$ ergibt sich $d' \\mid r_1$",
+      "Aus der zweiten Gleichung folgt: aus $d' \\mid b$ und $d' \\mid r_1$ ergibt sich $d' \\mid r_2$",
+      "Aus der letzten Gleichung folgt $d' \\mid r_{n+1}$, also $d' \\le r_{n+1}$",
+      "Es folgt $d' \\ge r_{n+1}$, also ist $r_{n+1}$ der kleinste gemeinsame Teiler"
     ],
     "correct": [
       0,
@@ -21593,7 +21593,7 @@ const SAMPLE_QUESTIONS = [
       2,
       3
     ],
-    "explanation": "Die Folie nimmt einen beliebigen Teiler d' von a und b an und zeigt über die Gleichungen der Reihe nach d' | r_1, d' | r_2, ... , d' | r_{n+1}, also d' ≤ r_{n+1}. Damit ist r_{n+1} der GRÖSSTE gemeinsame Teiler; d' ≥ r_{n+1} ist falsch. 📄 Quelle: ari23_vl12, Folie 20 (S.20)",
+    "explanation": "Die Folie nimmt einen beliebigen Teiler $d'$ von $a$ und $b$ an und zeigt über die Gleichungen der Reihe nach $d' \\mid r_1$, $d' \\mid r_2$, ... , $d' \\mid r_{n+1}$, also $d' \\le r_{n+1}$. Damit ist $r_{n+1}$ der GRÖSSTE gemeinsame Teiler; $d' \\ge r_{n+1}$ ist falsch. 📄 Quelle: ari23_vl12, Folie 20 (S.20)",
     "source": "ari23_vl12, Folie 20 (S.20, Warum ist d = r_{n+1} der ggT(a, b)?)"
   },
   {
@@ -21601,17 +21601,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "euklid_ggt",
     "difficulty": 2,
     "type": "single",
-    "question": "Welche Schlussfolgerung liefert die letzte Gleichung im allgemeinen Beweis, dass r_{n+1} der ggT ist?",
+    "question": "Welche Schlussfolgerung liefert die letzte Gleichung im allgemeinen Beweis, dass $r_{n+1}$ der ggT ist?",
     "options": [
-      "d' | r_{n+1}, also d' ≤ r_{n+1}; daher ist ggT(a, b) = r_{n+1}",
-      "d' | r_{n+1}, also d' ≥ r_{n+1}",
-      "r_{n+1} | d', also r_{n+1} ≤ d'",
-      "r_{n+1} ist teilerfremd zu a und b"
+      "$d' \\mid r_{n+1}$, also $d' \\le r_{n+1}$; daher ist $\\operatorname{ggT}(a, b) = r_{n+1}$",
+      "$d' \\mid r_{n+1}$, also $d' \\ge r_{n+1}$",
+      "$r_{n+1} \\mid d'$, also $r_{n+1} \\le d'$",
+      "$r_{n+1}$ ist teilerfremd zu $a$ und $b$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie schließt: d' | r_{n+1} und damit ist d' ≤ r_{n+1}, also ist ggT(a, b) = r_{n+1}. 📄 Quelle: ari23_vl12, Folie 20 (S.20)",
+    "explanation": "Die Folie schließt: $d' \\mid r_{n+1}$ und damit ist $d' \\le r_{n+1}$, also ist $\\operatorname{ggT}(a, b) = r_{n+1}$. 📄 Quelle: ari23_vl12, Folie 20 (S.20)",
     "source": "ari23_vl12, Folie 20 (S.20, Warum ist d = r_{n+1} der ggT(a, b)?)"
   },
   {
@@ -21697,18 +21697,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "konstruktionen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Wie wird 'Mitte 1: Gleiche Entfernung' (Punkt M_U) eines Dreiecks ABC beschrieben?",
+    "question": "Wie wird 'Mitte 1: Gleiche Entfernung' (Punkt $M_U$) eines Dreiecks ABC beschrieben?",
     "options": [
-      "M_U ist der Mittelpunkt des Kreises durch die drei Punkte A, B, C (Umkreismittelpunkt)",
-      "M_U hat die gleiche Entfernung zu A, B und C",
-      "M_U ist der Punkt, für den die Summe der Entfernungen zu A, B, C minimal ist",
-      "M_U austariert das Dreieck ABC als Fläche"
+      "$M_U$ ist der Mittelpunkt des Kreises durch die drei Punkte A, B, C (Umkreismittelpunkt)",
+      "$M_U$ hat die gleiche Entfernung zu A, B und C",
+      "$M_U$ ist der Punkt, für den die Summe der Entfernungen zu A, B, C minimal ist",
+      "$M_U$ austariert das Dreieck ABC als Fläche"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Mitte 1 (Gleiche Entfernung) ist der Umkreismittelpunkt M_U, also der Mittelpunkt des Kreises durch A, B, C; er hat die gleiche Entfernung zu A, B und C. Minimale Entfernungssumme (Fermatpunkt) und Austarieren (Schwerpunkt) sind andere Mitten. 📄 Quelle: ari23_vl13, Folie 9 (S.9)",
+    "explanation": "Mitte 1 (Gleiche Entfernung) ist der Umkreismittelpunkt $M_U$, also der Mittelpunkt des Kreises durch A, B, C; er hat die gleiche Entfernung zu A, B und C. Minimale Entfernungssumme (Fermatpunkt) und Austarieren (Schwerpunkt) sind andere Mitten. 📄 Quelle: ari23_vl13, Folie 9 (S.9)",
     "source": "ari23_vl13, Folie 9 (S.9, Was ist die Mitte?)"
   },
   {
@@ -21716,7 +21716,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "konstruktionen",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie ist 'Mitte 2: Minimale Entfernung' (Punkt M_F, Fermatpunkt) eines Dreiecks definiert?",
+    "question": "Wie ist 'Mitte 2: Minimale Entfernung' (Punkt $M_F$, Fermatpunkt) eines Dreiecks definiert?",
     "options": [
       "Der Punkt, für den die Summe der Entfernungen zu den Punkten minimal ist",
       "Der Mittelpunkt des Umkreises des Dreiecks",
@@ -21726,7 +21726,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Mitte 2 ist der Fermatpunkt M_F, für den die Summe der Entfernungen zu den Punkten minimal ist. 📄 Quelle: ari23_vl13, Folie 9 (S.9)",
+    "explanation": "Mitte 2 ist der Fermatpunkt $M_F$, für den die Summe der Entfernungen zu den Punkten minimal ist. 📄 Quelle: ari23_vl13, Folie 9 (S.9)",
     "source": "ari23_vl13, Folie 9 (S.9, Was ist die Mitte?)"
   },
   {
@@ -21734,7 +21734,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "konstruktionen",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie wird 'Mitte 3: Austarieren' (Punkt M_S) eines Dreiecks ABC beschrieben?",
+    "question": "Wie wird 'Mitte 3: Austarieren' (Punkt $M_S$) eines Dreiecks ABC beschrieben?",
     "options": [
       "Der Punkt, der das Dreieck ABC als Fläche (oder mit Kugeln in den Ecken) austariert – der Schwerpunkt",
       "Der Mittelpunkt des Inkreises des Dreiecks",
@@ -21744,7 +21744,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Mitte 3 (Austarieren) ist der Schwerpunkt M_S, der das Dreieck ABC als Fläche bzw. mit Kugeln in den Ecken austariert (wenn man es balanciert bzw. an einen Faden hängt). 📄 Quelle: ari23_vl13, Folie 10 (S.10)",
+    "explanation": "Mitte 3 (Austarieren) ist der Schwerpunkt $M_S$, der das Dreieck ABC als Fläche bzw. mit Kugeln in den Ecken austariert (wenn man es balanciert bzw. an einen Faden hängt). 📄 Quelle: ari23_vl13, Folie 10 (S.10)",
     "source": "ari23_vl13, Folie 10 (S.10, Was ist die Mitte?)"
   },
   {
@@ -21752,18 +21752,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "konstruktionen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Aussagen treffen auf 'Mitte 4: Gleicher Abstand' (Punkt M_I) eines Dreiecks zu?",
+    "question": "Welche Aussagen treffen auf 'Mitte 4: Gleicher Abstand' (Punkt $M_I$) eines Dreiecks zu?",
     "options": [
-      "Der Abstand von M_I zu den Verbindungsstrecken (Seiten) ist gleich groß",
-      "M_I ist der Mittelpunkt des Inkreises eines Dreiecks",
-      "M_I ist der Mittelpunkt des Umkreises eines Dreiecks",
-      "M_I hat gleiche Entfernung zu den Ecken A, B und C"
+      "Der Abstand von $M_I$ zu den Verbindungsstrecken (Seiten) ist gleich groß",
+      "$M_I$ ist der Mittelpunkt des Inkreises eines Dreiecks",
+      "$M_I$ ist der Mittelpunkt des Umkreises eines Dreiecks",
+      "$M_I$ hat gleiche Entfernung zu den Ecken A, B und C"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Mitte 4 (Gleicher Abstand) ist der Inkreismittelpunkt M_I, für den der Abstand zu den Verbindungsstrecken (Seiten) gleich groß ist. Gleiche Entfernung zu den Ecken bzw. der Umkreismittelpunkt betreffen Mitte 1. 📄 Quelle: ari23_vl13, Folie 10 (S.10)",
+    "explanation": "Mitte 4 (Gleicher Abstand) ist der Inkreismittelpunkt $M_I$, für den der Abstand zu den Verbindungsstrecken (Seiten) gleich groß ist. Gleiche Entfernung zu den Ecken bzw. der Umkreismittelpunkt betreffen Mitte 1. 📄 Quelle: ari23_vl13, Folie 10 (S.10)",
     "source": "ari23_vl13, Folie 10 (S.10, Was ist die Mitte?)"
   },
   {
@@ -21808,7 +21808,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "konstruktionen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Laut Definition heißt eine Gerade m_AB genau dann Mittelsenkrechte zu einer Strecke AB, wenn welche Bedingungen erfüllt sind?",
+    "question": "Laut Definition heißt eine Gerade $m_{AB}$ genau dann Mittelsenkrechte zu einer Strecke AB, wenn welche Bedingungen erfüllt sind?",
     "options": [
       "Die Gerade verläuft durch den Mittelpunkt von AB",
       "Die Gerade steht senkrecht zur Strecke AB",
@@ -21819,7 +21819,7 @@ const SAMPLE_QUESTIONS = [
       0,
       1
     ],
-    "explanation": "Die Definition verlangt beide Bedingungen: Die Gerade m_AB verläuft durch den Mittelpunkt von AB und steht senkrecht zur Strecke AB. 📄 Quelle: ari23_vl13, Folie 14 (S.14)",
+    "explanation": "Die Definition verlangt beide Bedingungen: Die Gerade $m_{AB}$ verläuft durch den Mittelpunkt von AB und steht senkrecht zur Strecke AB. 📄 Quelle: ari23_vl13, Folie 14 (S.14)",
     "source": "ari23_vl13, Folie 14 (S.14, Mitte 1: Gleiche Entfernung – Definition)"
   },
   {
@@ -21847,9 +21847,9 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Der Satz zu den Mittelsenkrechten im Dreieck – welche Aussagen sind Teil von Voraussetzung bzw. Folgerung?",
     "options": [
-      "Voraussetzung: m_AB, m_BC und m_CA sind die drei Mittelsenkrechten des Dreiecks ABC",
-      "Folgerung: Sie schneiden sich in einem Punkt M_U",
-      "Folgerung: M_U ist der Mittelpunkt des Kreises durch die Punkte A, B und C",
+      "Voraussetzung: $m_{AB}$, $m_{BC}$ und $m_{CA}$ sind die drei Mittelsenkrechten des Dreiecks ABC",
+      "Folgerung: Sie schneiden sich in einem Punkt $M_U$",
+      "Folgerung: $M_U$ ist der Mittelpunkt des Kreises durch die Punkte A, B und C",
       "Voraussetzung: ABC ist ein rechtwinkliges Dreieck"
     ],
     "correct": [
@@ -21857,7 +21857,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Der Satz: Wenn m_AB, m_BC und m_CA die drei Mittelsenkrechten des Dreiecks ABC sind, dann schneiden sie sich im Punkt M_U, der der Mittelpunkt des Kreises durch A, B und C ist. Eine Einschränkung auf rechtwinklige Dreiecke gibt es nicht. 📄 Quelle: ari23_vl13, Folie 15 (S.15)",
+    "explanation": "Der Satz: Wenn $m_{AB}$, $m_{BC}$ und $m_{CA}$ die drei Mittelsenkrechten des Dreiecks ABC sind, dann schneiden sie sich im Punkt $M_U$, der der Mittelpunkt des Kreises durch A, B und C ist. Eine Einschränkung auf rechtwinklige Dreiecke gibt es nicht. 📄 Quelle: ari23_vl13, Folie 15 (S.15)",
     "source": "ari23_vl13, Folie 15 (S.15, Mitte 1: Gleiche Entfernung – Satz)"
   },
   {
@@ -21885,9 +21885,9 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Aussagen macht der Satz zu 'Mitte 1: Gleiche Entfernung' über die Mittelsenkrechten eines Dreiecks ABC der Ebene?",
     "options": [
-      "Die drei Mittelsenkrechten m_AB, m_BC und m_CA schneiden sich in einem gemeinsamen Punkt M_U.",
-      "M_U ist der Mittelpunkt des Kreises durch die Punkte A, B und C (Umkreis).",
-      "Alle Punkte auf der Mittelsenkrechten zu c (m_AB) haben die gleiche Entfernung zu A und B.",
+      "Die drei Mittelsenkrechten $m_{AB}$, $m_{BC}$ und $m_{CA}$ schneiden sich in einem gemeinsamen Punkt $M_U$.",
+      "$M_U$ ist der Mittelpunkt des Kreises durch die Punkte A, B und C (Umkreis).",
+      "Alle Punkte auf der Mittelsenkrechten zu c ($m_{AB}$) haben die gleiche Entfernung zu A und B.",
       "Der Satz gilt nur für gleichseitige Dreiecke.",
       "Die Mittelsenkrechten schneiden sich im Schwerpunkt des Dreiecks."
     ],
@@ -21896,7 +21896,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Der Satz gilt für alle Dreiecke ABC der Ebene: Sind m_AB, m_BC und m_CA die drei Mittelsenkrechten, dann schneiden sie sich in M_U, dem Mittelpunkt des Kreises durch A, B und C. Alle Punkte auf m_AB haben gleiche Entfernung zu A und B. 📄 Quelle: ari23_vl13, Folie 16 (S.16)",
+    "explanation": "Der Satz gilt für alle Dreiecke ABC der Ebene: Sind $m_{AB}$, $m_{BC}$ und $m_{CA}$ die drei Mittelsenkrechten, dann schneiden sie sich in $M_U$, dem Mittelpunkt des Kreises durch A, B und C. Alle Punkte auf $m_{AB}$ haben gleiche Entfernung zu A und B. 📄 Quelle: ari23_vl13, Folie 16 (S.16)",
     "source": "ari23_vl13, Folie 16 (S.16, Geometrie)"
   },
   {
@@ -21904,7 +21904,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "konstruktionen",
     "difficulty": 1,
     "type": "single",
-    "question": "Welche Eigenschaft haben alle Punkte auf der Mittelsenkrechten zu a (m_BC)?",
+    "question": "Welche Eigenschaft haben alle Punkte auf der Mittelsenkrechten zu a ($m_{BC}$)?",
     "options": [
       "Sie haben die gleiche Entfernung zu B und C.",
       "Sie haben die gleiche Entfernung zu A und B.",
@@ -21914,7 +21914,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Alle Punkte auf der Mittelsenkrechten zu a (m_BC) haben die gleiche Entfernung zu B und C. 📄 Quelle: ari23_vl13, Folie 16 (S.16)",
+    "explanation": "Alle Punkte auf der Mittelsenkrechten zu a ($m_{BC}$) haben die gleiche Entfernung zu B und C. 📄 Quelle: ari23_vl13, Folie 16 (S.16)",
     "source": "ari23_vl13, Folie 16 (S.16, Geometrie)"
   },
   {
@@ -21922,7 +21922,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "konstruktionen",
     "difficulty": 2,
     "type": "single",
-    "question": "Warum ist der Schnittpunkt M_U von m_AB und m_BC der Mittelpunkt des Umkreises durch A, B und C?",
+    "question": "Warum ist der Schnittpunkt $M_U$ von $m_{AB}$ und $m_{BC}$ der Mittelpunkt des Umkreises durch A, B und C?",
     "options": [
       "Weil er gleich weit von A, B und C entfernt ist.",
       "Weil er der Höhenschnittpunkt des Dreiecks ist.",
@@ -21932,7 +21932,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Der Schnittpunkt M_U von m_AB und m_BC ist gleich weit von A, B und C entfernt und damit Mittelpunkt des Kreises durch A, B und C (Umkreis). 📄 Quelle: ari23_vl13, Folie 16 (S.16)",
+    "explanation": "Der Schnittpunkt $M_U$ von $m_{AB}$ und $m_{BC}$ ist gleich weit von A, B und C entfernt und damit Mittelpunkt des Kreises durch A, B und C (Umkreis). 📄 Quelle: ari23_vl13, Folie 16 (S.16)",
     "source": "ari23_vl13, Folie 16 (S.16, Geometrie)"
   },
   {
@@ -21942,7 +21942,7 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Wie ist die 'Mitte 1: Gleiche Entfernung' eines Dreiecks ABC definiert?",
     "options": [
-      "Als Mittelpunkt M_U des Kreises durch die drei Punkte A, B, C (Umkreismittelpunkt).",
+      "Als Mittelpunkt $M_U$ des Kreises durch die drei Punkte A, B, C (Umkreismittelpunkt).",
       "Als Punkt mit minimaler Summe der Entfernungen zu A, B und C.",
       "Als Schwerpunkt der Dreiecksfläche.",
       "Als Höhenschnittpunkt des Dreiecks."
@@ -21950,7 +21950,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Mitte 1 (Gleiche Entfernung) ist der Mittelpunkt M_U des Kreises durch die drei Punkte A, B, C (Umkreismittelpunkt). 📄 Quelle: ari23_vl13, Folie 18 (S.18)",
+    "explanation": "Mitte 1 (Gleiche Entfernung) ist der Mittelpunkt $M_U$ des Kreises durch die drei Punkte A, B, C (Umkreismittelpunkt). 📄 Quelle: ari23_vl13, Folie 18 (S.18)",
     "source": "ari23_vl13, Folie 18 (S.18, Geometrie)"
   },
   {
@@ -21978,7 +21978,7 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Wie ist die 'Mitte 2: Minimale Entfernung' eines Dreiecks definiert?",
     "options": [
-      "Als Punkt M_F, für den die Summe der Entfernungen zu den Punkten minimal ist (Fermatpunkt).",
+      "Als Punkt $M_F$, für den die Summe der Entfernungen zu den Punkten minimal ist (Fermatpunkt).",
       "Als Mittelpunkt des Umkreises durch A, B, C.",
       "Als Schwerpunkt der Dreiecksfläche.",
       "Als Punkt mit gleicher Entfernung zu allen drei Ecken."
@@ -21986,7 +21986,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Mitte 2 (Minimale Entfernung) ist der Punkt M_F, für den die Summe der Entfernungen zu den Punkten minimal ist (Fermatpunkt). 📄 Quelle: ari23_vl13, Folie 19 (S.19)",
+    "explanation": "Mitte 2 (Minimale Entfernung) ist der Punkt $M_F$, für den die Summe der Entfernungen zu den Punkten minimal ist (Fermatpunkt). 📄 Quelle: ari23_vl13, Folie 19 (S.19)",
     "source": "ari23_vl13, Folie 19 (S.19, Geometrie)"
   },
   {
@@ -22014,15 +22014,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Wie ist die 'Mitte 3: Austarieren' eines Dreiecks ABC definiert?",
     "options": [
-      "Als Punkt M_S, der das Dreieck ABC als Fläche (oder mit Kugeln in den Ecken) austariert (Schwerpunkt).",
-      "Als Umkreismittelpunkt M_U.",
-      "Als Fermatpunkt M_F mit minimaler Entfernungssumme.",
+      "Als Punkt $M_S$, der das Dreieck ABC als Fläche (oder mit Kugeln in den Ecken) austariert (Schwerpunkt).",
+      "Als Umkreismittelpunkt $M_U$.",
+      "Als Fermatpunkt $M_F$ mit minimaler Entfernungssumme.",
       "Als Schnittpunkt der drei Mittelsenkrechten."
     ],
     "correct": [
       0
     ],
-    "explanation": "Mitte 3 (Austarieren) ist der Punkt M_S, der das Dreieck ABC als Fläche (oder mit Kugeln in den Ecken) austariert, wenn man es balanciert bzw. an einen Faden hängt (Schwerpunkt). 📄 Quelle: ari23_vl13, Folie 20 (S.20)",
+    "explanation": "Mitte 3 (Austarieren) ist der Punkt $M_S$, der das Dreieck ABC als Fläche (oder mit Kugeln in den Ecken) austariert, wenn man es balanciert bzw. an einen Faden hängt (Schwerpunkt). 📄 Quelle: ari23_vl13, Folie 20 (S.20)",
     "source": "ari23_vl13, Folie 20 (S.20, Geometrie)"
   },
   {
@@ -22041,7 +22041,7 @@ const SAMPLE_QUESTIONS = [
       0,
       1
     ],
-    "explanation": "Der Schwerpunkt M_S ist der Punkt, der das Dreieck ABC als Fläche oder mit Kugeln in den Ecken austariert. 📄 Quelle: ari23_vl13, Folie 20 (S.20)",
+    "explanation": "Der Schwerpunkt $M_S$ ist der Punkt, der das Dreieck ABC als Fläche oder mit Kugeln in den Ecken austariert. 📄 Quelle: ari23_vl13, Folie 20 (S.20)",
     "source": "ari23_vl13, Folie 20 (S.20, Geometrie)"
   },
   {

@@ -82,18 +82,18 @@
     "topic": "ari23_vl13_mitten",
     "difficulty": 2,
     "type": "multi",
-    "question": "Wie wird 'Mitte 1: Gleiche Entfernung' (Punkt M_U) eines Dreiecks ABC beschrieben?",
+    "question": "Wie wird 'Mitte 1: Gleiche Entfernung' (Punkt $M_U$) eines Dreiecks ABC beschrieben?",
     "options": [
-      "M_U ist der Mittelpunkt des Kreises durch die drei Punkte A, B, C (Umkreismittelpunkt)",
-      "M_U hat die gleiche Entfernung zu A, B und C",
-      "M_U ist der Punkt, für den die Summe der Entfernungen zu A, B, C minimal ist",
-      "M_U austariert das Dreieck ABC als Fläche"
+      "$M_U$ ist der Mittelpunkt des Kreises durch die drei Punkte A, B, C (Umkreismittelpunkt)",
+      "$M_U$ hat die gleiche Entfernung zu A, B und C",
+      "$M_U$ ist der Punkt, für den die Summe der Entfernungen zu A, B, C minimal ist",
+      "$M_U$ austariert das Dreieck ABC als Fläche"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Mitte 1 (Gleiche Entfernung) ist der Umkreismittelpunkt M_U, also der Mittelpunkt des Kreises durch A, B, C; er hat die gleiche Entfernung zu A, B und C. Minimale Entfernungssumme (Fermatpunkt) und Austarieren (Schwerpunkt) sind andere Mitten. 📄 Quelle: ari23_vl13, Folie 9 (S.9)",
+    "explanation": "Mitte 1 (Gleiche Entfernung) ist der Umkreismittelpunkt $M_U$, also der Mittelpunkt des Kreises durch A, B, C; er hat die gleiche Entfernung zu A, B und C. Minimale Entfernungssumme (Fermatpunkt) und Austarieren (Schwerpunkt) sind andere Mitten. 📄 Quelle: ari23_vl13, Folie 9 (S.9)",
     "source": "ari23_vl13, Folie 9 (S.9, Was ist die Mitte?)"
   },
   {
@@ -101,7 +101,7 @@
     "topic": "ari23_vl13_mitten",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie ist 'Mitte 2: Minimale Entfernung' (Punkt M_F, Fermatpunkt) eines Dreiecks definiert?",
+    "question": "Wie ist 'Mitte 2: Minimale Entfernung' (Punkt $M_F$, Fermatpunkt) eines Dreiecks definiert?",
     "options": [
       "Der Punkt, für den die Summe der Entfernungen zu den Punkten minimal ist",
       "Der Mittelpunkt des Umkreises des Dreiecks",
@@ -111,7 +111,7 @@
     "correct": [
       0
     ],
-    "explanation": "Mitte 2 ist der Fermatpunkt M_F, für den die Summe der Entfernungen zu den Punkten minimal ist. 📄 Quelle: ari23_vl13, Folie 9 (S.9)",
+    "explanation": "Mitte 2 ist der Fermatpunkt $M_F$, für den die Summe der Entfernungen zu den Punkten minimal ist. 📄 Quelle: ari23_vl13, Folie 9 (S.9)",
     "source": "ari23_vl13, Folie 9 (S.9, Was ist die Mitte?)"
   },
   {
@@ -119,7 +119,7 @@
     "topic": "ari23_vl13_mitten",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie wird 'Mitte 3: Austarieren' (Punkt M_S) eines Dreiecks ABC beschrieben?",
+    "question": "Wie wird 'Mitte 3: Austarieren' (Punkt $M_S$) eines Dreiecks ABC beschrieben?",
     "options": [
       "Der Punkt, der das Dreieck ABC als Fläche (oder mit Kugeln in den Ecken) austariert – der Schwerpunkt",
       "Der Mittelpunkt des Inkreises des Dreiecks",
@@ -129,7 +129,7 @@
     "correct": [
       0
     ],
-    "explanation": "Mitte 3 (Austarieren) ist der Schwerpunkt M_S, der das Dreieck ABC als Fläche bzw. mit Kugeln in den Ecken austariert (wenn man es balanciert bzw. an einen Faden hängt). 📄 Quelle: ari23_vl13, Folie 10 (S.10)",
+    "explanation": "Mitte 3 (Austarieren) ist der Schwerpunkt $M_S$, der das Dreieck ABC als Fläche bzw. mit Kugeln in den Ecken austariert (wenn man es balanciert bzw. an einen Faden hängt). 📄 Quelle: ari23_vl13, Folie 10 (S.10)",
     "source": "ari23_vl13, Folie 10 (S.10, Was ist die Mitte?)"
   },
   {
@@ -137,18 +137,18 @@
     "topic": "ari23_vl13_mitten",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Aussagen treffen auf 'Mitte 4: Gleicher Abstand' (Punkt M_I) eines Dreiecks zu?",
+    "question": "Welche Aussagen treffen auf 'Mitte 4: Gleicher Abstand' (Punkt $M_I$) eines Dreiecks zu?",
     "options": [
-      "Der Abstand von M_I zu den Verbindungsstrecken (Seiten) ist gleich groß",
-      "M_I ist der Mittelpunkt des Inkreises eines Dreiecks",
-      "M_I ist der Mittelpunkt des Umkreises eines Dreiecks",
-      "M_I hat gleiche Entfernung zu den Ecken A, B und C"
+      "Der Abstand von $M_I$ zu den Verbindungsstrecken (Seiten) ist gleich groß",
+      "$M_I$ ist der Mittelpunkt des Inkreises eines Dreiecks",
+      "$M_I$ ist der Mittelpunkt des Umkreises eines Dreiecks",
+      "$M_I$ hat gleiche Entfernung zu den Ecken A, B und C"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Mitte 4 (Gleicher Abstand) ist der Inkreismittelpunkt M_I, für den der Abstand zu den Verbindungsstrecken (Seiten) gleich groß ist. Gleiche Entfernung zu den Ecken bzw. der Umkreismittelpunkt betreffen Mitte 1. 📄 Quelle: ari23_vl13, Folie 10 (S.10)",
+    "explanation": "Mitte 4 (Gleicher Abstand) ist der Inkreismittelpunkt $M_I$, für den der Abstand zu den Verbindungsstrecken (Seiten) gleich groß ist. Gleiche Entfernung zu den Ecken bzw. der Umkreismittelpunkt betreffen Mitte 1. 📄 Quelle: ari23_vl13, Folie 10 (S.10)",
     "source": "ari23_vl13, Folie 10 (S.10, Was ist die Mitte?)"
   },
   {
@@ -193,7 +193,7 @@
     "topic": "ari23_vl13_mittelsenkrechte",
     "difficulty": 2,
     "type": "multi",
-    "question": "Laut Definition heißt eine Gerade m_AB genau dann Mittelsenkrechte zu einer Strecke AB, wenn welche Bedingungen erfüllt sind?",
+    "question": "Laut Definition heißt eine Gerade $m_{AB}$ genau dann Mittelsenkrechte zu einer Strecke AB, wenn welche Bedingungen erfüllt sind?",
     "options": [
       "Die Gerade verläuft durch den Mittelpunkt von AB",
       "Die Gerade steht senkrecht zur Strecke AB",
@@ -204,7 +204,7 @@
       0,
       1
     ],
-    "explanation": "Die Definition verlangt beide Bedingungen: Die Gerade m_AB verläuft durch den Mittelpunkt von AB und steht senkrecht zur Strecke AB. 📄 Quelle: ari23_vl13, Folie 14 (S.14)",
+    "explanation": "Die Definition verlangt beide Bedingungen: Die Gerade $m_{AB}$ verläuft durch den Mittelpunkt von AB und steht senkrecht zur Strecke AB. 📄 Quelle: ari23_vl13, Folie 14 (S.14)",
     "source": "ari23_vl13, Folie 14 (S.14, Mitte 1: Gleiche Entfernung – Definition)"
   },
   {
@@ -232,9 +232,9 @@
     "type": "multi",
     "question": "Der Satz zu den Mittelsenkrechten im Dreieck – welche Aussagen sind Teil von Voraussetzung bzw. Folgerung?",
     "options": [
-      "Voraussetzung: m_AB, m_BC und m_CA sind die drei Mittelsenkrechten des Dreiecks ABC",
-      "Folgerung: Sie schneiden sich in einem Punkt M_U",
-      "Folgerung: M_U ist der Mittelpunkt des Kreises durch die Punkte A, B und C",
+      "Voraussetzung: $m_{AB}$, $m_{BC}$ und $m_{CA}$ sind die drei Mittelsenkrechten des Dreiecks ABC",
+      "Folgerung: Sie schneiden sich in einem Punkt $M_U$",
+      "Folgerung: $M_U$ ist der Mittelpunkt des Kreises durch die Punkte A, B und C",
       "Voraussetzung: ABC ist ein rechtwinkliges Dreieck"
     ],
     "correct": [
@@ -242,7 +242,7 @@
       1,
       2
     ],
-    "explanation": "Der Satz: Wenn m_AB, m_BC und m_CA die drei Mittelsenkrechten des Dreiecks ABC sind, dann schneiden sie sich im Punkt M_U, der der Mittelpunkt des Kreises durch A, B und C ist. Eine Einschränkung auf rechtwinklige Dreiecke gibt es nicht. 📄 Quelle: ari23_vl13, Folie 15 (S.15)",
+    "explanation": "Der Satz: Wenn $m_{AB}$, $m_{BC}$ und $m_{CA}$ die drei Mittelsenkrechten des Dreiecks ABC sind, dann schneiden sie sich im Punkt $M_U$, der der Mittelpunkt des Kreises durch A, B und C ist. Eine Einschränkung auf rechtwinklige Dreiecke gibt es nicht. 📄 Quelle: ari23_vl13, Folie 15 (S.15)",
     "source": "ari23_vl13, Folie 15 (S.15, Mitte 1: Gleiche Entfernung – Satz)"
   },
   {
@@ -270,9 +270,9 @@
     "type": "multi",
     "question": "Welche Aussagen macht der Satz zu 'Mitte 1: Gleiche Entfernung' über die Mittelsenkrechten eines Dreiecks ABC der Ebene?",
     "options": [
-      "Die drei Mittelsenkrechten m_AB, m_BC und m_CA schneiden sich in einem gemeinsamen Punkt M_U.",
-      "M_U ist der Mittelpunkt des Kreises durch die Punkte A, B und C (Umkreis).",
-      "Alle Punkte auf der Mittelsenkrechten zu c (m_AB) haben die gleiche Entfernung zu A und B.",
+      "Die drei Mittelsenkrechten $m_{AB}$, $m_{BC}$ und $m_{CA}$ schneiden sich in einem gemeinsamen Punkt $M_U$.",
+      "$M_U$ ist der Mittelpunkt des Kreises durch die Punkte A, B und C (Umkreis).",
+      "Alle Punkte auf der Mittelsenkrechten zu c ($m_{AB}$) haben die gleiche Entfernung zu A und B.",
       "Der Satz gilt nur für gleichseitige Dreiecke.",
       "Die Mittelsenkrechten schneiden sich im Schwerpunkt des Dreiecks."
     ],
@@ -281,7 +281,7 @@
       1,
       2
     ],
-    "explanation": "Der Satz gilt für alle Dreiecke ABC der Ebene: Sind m_AB, m_BC und m_CA die drei Mittelsenkrechten, dann schneiden sie sich in M_U, dem Mittelpunkt des Kreises durch A, B und C. Alle Punkte auf m_AB haben gleiche Entfernung zu A und B. 📄 Quelle: ari23_vl13, Folie 16 (S.16)",
+    "explanation": "Der Satz gilt für alle Dreiecke ABC der Ebene: Sind $m_{AB}$, $m_{BC}$ und $m_{CA}$ die drei Mittelsenkrechten, dann schneiden sie sich in $M_U$, dem Mittelpunkt des Kreises durch A, B und C. Alle Punkte auf $m_{AB}$ haben gleiche Entfernung zu A und B. 📄 Quelle: ari23_vl13, Folie 16 (S.16)",
     "source": "ari23_vl13, Folie 16 (S.16, Geometrie)"
   },
   {
@@ -289,7 +289,7 @@
     "topic": "ari23_vl13_umkreis",
     "difficulty": 1,
     "type": "single",
-    "question": "Welche Eigenschaft haben alle Punkte auf der Mittelsenkrechten zu a (m_BC)?",
+    "question": "Welche Eigenschaft haben alle Punkte auf der Mittelsenkrechten zu a ($m_{BC}$)?",
     "options": [
       "Sie haben die gleiche Entfernung zu B und C.",
       "Sie haben die gleiche Entfernung zu A und B.",
@@ -299,7 +299,7 @@
     "correct": [
       0
     ],
-    "explanation": "Alle Punkte auf der Mittelsenkrechten zu a (m_BC) haben die gleiche Entfernung zu B und C. 📄 Quelle: ari23_vl13, Folie 16 (S.16)",
+    "explanation": "Alle Punkte auf der Mittelsenkrechten zu a ($m_{BC}$) haben die gleiche Entfernung zu B und C. 📄 Quelle: ari23_vl13, Folie 16 (S.16)",
     "source": "ari23_vl13, Folie 16 (S.16, Geometrie)"
   },
   {
@@ -307,7 +307,7 @@
     "topic": "ari23_vl13_umkreis",
     "difficulty": 2,
     "type": "single",
-    "question": "Warum ist der Schnittpunkt M_U von m_AB und m_BC der Mittelpunkt des Umkreises durch A, B und C?",
+    "question": "Warum ist der Schnittpunkt $M_U$ von $m_{AB}$ und $m_{BC}$ der Mittelpunkt des Umkreises durch A, B und C?",
     "options": [
       "Weil er gleich weit von A, B und C entfernt ist.",
       "Weil er der Höhenschnittpunkt des Dreiecks ist.",
@@ -317,7 +317,7 @@
     "correct": [
       0
     ],
-    "explanation": "Der Schnittpunkt M_U von m_AB und m_BC ist gleich weit von A, B und C entfernt und damit Mittelpunkt des Kreises durch A, B und C (Umkreis). 📄 Quelle: ari23_vl13, Folie 16 (S.16)",
+    "explanation": "Der Schnittpunkt $M_U$ von $m_{AB}$ und $m_{BC}$ ist gleich weit von A, B und C entfernt und damit Mittelpunkt des Kreises durch A, B und C (Umkreis). 📄 Quelle: ari23_vl13, Folie 16 (S.16)",
     "source": "ari23_vl13, Folie 16 (S.16, Geometrie)"
   },
   {
@@ -327,7 +327,7 @@
     "type": "single",
     "question": "Wie ist die 'Mitte 1: Gleiche Entfernung' eines Dreiecks ABC definiert?",
     "options": [
-      "Als Mittelpunkt M_U des Kreises durch die drei Punkte A, B, C (Umkreismittelpunkt).",
+      "Als Mittelpunkt $M_U$ des Kreises durch die drei Punkte A, B, C (Umkreismittelpunkt).",
       "Als Punkt mit minimaler Summe der Entfernungen zu A, B und C.",
       "Als Schwerpunkt der Dreiecksfläche.",
       "Als Höhenschnittpunkt des Dreiecks."
@@ -335,7 +335,7 @@
     "correct": [
       0
     ],
-    "explanation": "Mitte 1 (Gleiche Entfernung) ist der Mittelpunkt M_U des Kreises durch die drei Punkte A, B, C (Umkreismittelpunkt). 📄 Quelle: ari23_vl13, Folie 18 (S.18)",
+    "explanation": "Mitte 1 (Gleiche Entfernung) ist der Mittelpunkt $M_U$ des Kreises durch die drei Punkte A, B, C (Umkreismittelpunkt). 📄 Quelle: ari23_vl13, Folie 18 (S.18)",
     "source": "ari23_vl13, Folie 18 (S.18, Geometrie)"
   },
   {
@@ -363,7 +363,7 @@
     "type": "single",
     "question": "Wie ist die 'Mitte 2: Minimale Entfernung' eines Dreiecks definiert?",
     "options": [
-      "Als Punkt M_F, für den die Summe der Entfernungen zu den Punkten minimal ist (Fermatpunkt).",
+      "Als Punkt $M_F$, für den die Summe der Entfernungen zu den Punkten minimal ist (Fermatpunkt).",
       "Als Mittelpunkt des Umkreises durch A, B, C.",
       "Als Schwerpunkt der Dreiecksfläche.",
       "Als Punkt mit gleicher Entfernung zu allen drei Ecken."
@@ -371,7 +371,7 @@
     "correct": [
       0
     ],
-    "explanation": "Mitte 2 (Minimale Entfernung) ist der Punkt M_F, für den die Summe der Entfernungen zu den Punkten minimal ist (Fermatpunkt). 📄 Quelle: ari23_vl13, Folie 19 (S.19)",
+    "explanation": "Mitte 2 (Minimale Entfernung) ist der Punkt $M_F$, für den die Summe der Entfernungen zu den Punkten minimal ist (Fermatpunkt). 📄 Quelle: ari23_vl13, Folie 19 (S.19)",
     "source": "ari23_vl13, Folie 19 (S.19, Geometrie)"
   },
   {
@@ -399,15 +399,15 @@
     "type": "single",
     "question": "Wie ist die 'Mitte 3: Austarieren' eines Dreiecks ABC definiert?",
     "options": [
-      "Als Punkt M_S, der das Dreieck ABC als Fläche (oder mit Kugeln in den Ecken) austariert (Schwerpunkt).",
-      "Als Umkreismittelpunkt M_U.",
-      "Als Fermatpunkt M_F mit minimaler Entfernungssumme.",
+      "Als Punkt $M_S$, der das Dreieck ABC als Fläche (oder mit Kugeln in den Ecken) austariert (Schwerpunkt).",
+      "Als Umkreismittelpunkt $M_U$.",
+      "Als Fermatpunkt $M_F$ mit minimaler Entfernungssumme.",
       "Als Schnittpunkt der drei Mittelsenkrechten."
     ],
     "correct": [
       0
     ],
-    "explanation": "Mitte 3 (Austarieren) ist der Punkt M_S, der das Dreieck ABC als Fläche (oder mit Kugeln in den Ecken) austariert, wenn man es balanciert bzw. an einen Faden hängt (Schwerpunkt). 📄 Quelle: ari23_vl13, Folie 20 (S.20)",
+    "explanation": "Mitte 3 (Austarieren) ist der Punkt $M_S$, der das Dreieck ABC als Fläche (oder mit Kugeln in den Ecken) austariert, wenn man es balanciert bzw. an einen Faden hängt (Schwerpunkt). 📄 Quelle: ari23_vl13, Folie 20 (S.20)",
     "source": "ari23_vl13, Folie 20 (S.20, Geometrie)"
   },
   {
@@ -426,7 +426,7 @@
       0,
       1
     ],
-    "explanation": "Der Schwerpunkt M_S ist der Punkt, der das Dreieck ABC als Fläche oder mit Kugeln in den Ecken austariert. 📄 Quelle: ari23_vl13, Folie 20 (S.20)",
+    "explanation": "Der Schwerpunkt $M_S$ ist der Punkt, der das Dreieck ABC als Fläche oder mit Kugeln in den Ecken austariert. 📄 Quelle: ari23_vl13, Folie 20 (S.20)",
     "source": "ari23_vl13, Folie 20 (S.20, Geometrie)"
   },
   {

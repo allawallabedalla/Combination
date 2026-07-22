@@ -65,15 +65,15 @@
     "type": "single",
     "question": "Was besagt der Induktionsanfang bei der vollständigen Induktion?",
     "options": [
-      "A(n) ist wahr für n=1 (bzw. die kleinste natürliche Zahl, für die die Aussage gelten soll)",
-      "A(n) sei wahr für ein festes, aber beliebiges n∈ℕ",
-      "Man zeigt, dass die Aussage für A(n+1) wahr ist",
-      "A(n) ist für alle n∈ℕ falsch"
+      "$A(n)$ ist wahr für $n=1$ (bzw. die kleinste natürliche Zahl, für die die Aussage gelten soll)",
+      "$A(n)$ sei wahr für ein festes, aber beliebiges $n \\in \\mathbb{N}$",
+      "Man zeigt, dass die Aussage für $A(n+1)$ wahr ist",
+      "$A(n)$ ist für alle $n \\in \\mathbb{N}$ falsch"
     ],
     "correct": [
       0
     ],
-    "explanation": "Induktionsanfang: A(n) ist wahr für n=1 (bzw. die kleinste natürliche Zahl, für die die Aussage gelten soll). Die zweite Option beschreibt die Induktionsvoraussetzung, die dritte den Induktionsschluss. 📄 Quelle: ari23_vl03, Folie 6 (S.6)",
+    "explanation": "Induktionsanfang: $A(n)$ ist wahr für $n=1$ (bzw. die kleinste natürliche Zahl, für die die Aussage gelten soll). Die zweite Option beschreibt die Induktionsvoraussetzung, die dritte den Induktionsschluss. 📄 Quelle: ari23_vl03, Folie 6 (S.6)",
     "source": "ari23_vl03, Folie 6 (S.6, Rückblick)"
   },
   {
@@ -83,8 +83,8 @@
     "type": "multi",
     "question": "Welche Aussagen zur Technik der vollständigen Induktion sind korrekt?",
     "options": [
-      "Induktionsvoraussetzung: A(n) sei wahr für ein festes, aber beliebiges n∈ℕ",
-      "Induktionsschluss: n → (n+1) — man zeigt, dass A(n+1) wahr ist",
+      "Induktionsvoraussetzung: $A(n)$ sei wahr für ein festes, aber beliebiges $n \\in \\mathbb{N}$",
+      "Induktionsschluss: $n \\to (n+1)$ — man zeigt, dass $A(n+1)$ wahr ist",
       "Beim Induktionsschluss darf die Induktionsvoraussetzung verwendet werden",
       "Beim Induktionsschluss darf die Induktionsvoraussetzung nicht verwendet werden"
     ],
@@ -93,7 +93,7 @@
       1,
       2
     ],
-    "explanation": "Induktionsvoraussetzung: A(n) sei wahr für ein festes, aber beliebiges n∈ℕ. Induktionsschluss: n → (n+1); man zeigt, dass A(n+1) wahr ist, und darf dabei die I.V. verwenden. Die letzte Option ist daher falsch. 📄 Quelle: ari23_vl03, Folie 6 (S.6)",
+    "explanation": "Induktionsvoraussetzung: $A(n)$ sei wahr für ein festes, aber beliebiges $n \\in \\mathbb{N}$. Induktionsschluss: $n \\to (n+1)$; man zeigt, dass $A(n+1)$ wahr ist, und darf dabei die I.V. verwenden. Die letzte Option ist daher falsch. 📄 Quelle: ari23_vl03, Folie 6 (S.6)",
     "source": "ari23_vl03, Folie 6 (S.6, Rückblick)"
   },
   {
@@ -101,11 +101,11 @@
     "topic": "ari23_vl03_folgen_summen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Für die Folge 1, 4, 7, 10, … gilt a(n) = 3n − 2. Berechnen Sie a(20).",
+    "question": "Für die Folge 1, 4, 7, 10, … gilt $a(n) = 3n - 2$. Berechnen Sie $a(20)$.",
     "answer": 58,
     "tolerance": 0,
     "unit": "",
-    "explanation": "a(n) = 3n − 2, also a(20) = 3·20 − 2 = 60 − 2 = 58. 📄 Quelle: ari23_vl03, Folie 8 (S.8)",
+    "explanation": "$a(n) = 3n - 2$, also $a(20) = 3 \\cdot 20 - 2 = 60 - 2 = 58$. 📄 Quelle: ari23_vl03, Folie 8 (S.8)",
     "source": "ari23_vl03, Folie 8 (S.8, Rückblick: Entdeckung)"
   },
   {
@@ -113,11 +113,11 @@
     "topic": "ari23_vl03_folgen_summen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Für die Folge 1, 4, 7, 10, … gilt für die Summe der ersten n Glieder Sₙ = n·(3n−1)/2. Berechnen Sie S₆ (Summe der ersten 6 Glieder).",
+    "question": "Für die Folge 1, 4, 7, 10, … gilt für die Summe der ersten n Glieder $S_n = \\frac{n \\cdot (3n-1)}{2}$. Berechnen Sie $S_6$ (Summe der ersten 6 Glieder).",
     "answer": 51,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Sₙ = n·(3n−1)/2, also S₆ = 6·(3·6−1)/2 = 6·17/2 = 51. Dies stimmt mit dem Tabellenwert S(6) = 51 überein. 📄 Quelle: ari23_vl03, Folie 8 (S.8)",
+    "explanation": "$S_n = \\frac{n \\cdot (3n-1)}{2}$, also $S_6 = \\frac{6 \\cdot (3 \\cdot 6-1)}{2} = \\frac{6 \\cdot 17}{2} = 51$. Dies stimmt mit dem Tabellenwert $S(6) = 51$ überein. 📄 Quelle: ari23_vl03, Folie 8 (S.8)",
     "source": "ari23_vl03, Folie 8 (S.8, Rückblick: Entdeckung)"
   },
   {
@@ -127,17 +127,17 @@
     "type": "multi",
     "question": "Welche Ergebnisse wurden bei der Untersuchung der Folge 1, 4, 7, 10, … gefunden?",
     "options": [
-      "Die n-te Zahl lautet a(n) = 3n − 2",
-      "Die Summe der ersten n Glieder lautet Sₙ = n·(3n−1)/2",
+      "Die n-te Zahl lautet $a(n) = 3n - 2$",
+      "Die Summe der ersten n Glieder lautet $S_n = \\frac{n \\cdot (3n-1)}{2}$",
       "Die Herleitung der Summenformel erfolgt analog zum „kleinen Gauß\"",
-      "Die n-te Zahl lautet a(n) = 3n + 2"
+      "Die n-te Zahl lautet $a(n) = 3n + 2$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Frage 1: a(n) = 3n − 2. Frage 2: Sₙ = n·(3n−1)/2, hergeleitet analog zum kleinen Gauß (Umkehrung der Reihe und paarweises Addieren). a(n) = 3n + 2 ist falsch. 📄 Quelle: ari23_vl03, Folie 8 (S.8)",
+    "explanation": "Frage 1: $a(n) = 3n - 2$. Frage 2: $S_n = \\frac{n \\cdot (3n-1)}{2}$, hergeleitet analog zum kleinen Gauß (Umkehrung der Reihe und paarweises Addieren). $a(n) = 3n + 2$ ist falsch. 📄 Quelle: ari23_vl03, Folie 8 (S.8)",
     "source": "ari23_vl03, Folie 8 (S.8, Rückblick: Entdeckung)"
   },
   {
@@ -145,17 +145,17 @@
     "topic": "ari23_vl03_vollstaendige_induktion",
     "difficulty": 2,
     "type": "single",
-    "question": "In der Übung zur vollständigen Induktion für Sₙ = n·(3n−1)/2: Womit soll man den Induktionsschritt laut Tipp beginnen?",
+    "question": "In der Übung zur vollständigen Induktion für $S_n = \\frac{n \\cdot (3n-1)}{2}$: Womit soll man den Induktionsschritt laut Tipp beginnen?",
     "options": [
-      "Damit, A(n+1) aufzuschreiben",
-      "Damit, A(n) aufzuschreiben",
+      "Damit, $A(n+1)$ aufzuschreiben",
+      "Damit, $A(n)$ aufzuschreiben",
       "Damit, den Induktionsanfang zu wiederholen",
       "Damit, die Startzahlen zu bestimmen"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Tipp auf der Folie lautet: „Starte damit A(n+1) aufzuschreiben!\" 📄 Quelle: ari23_vl03, Folie 9 (S.9)",
+    "explanation": "Der Tipp auf der Folie lautet: „Starte damit $A(n+1)$ aufzuschreiben!\" 📄 Quelle: ari23_vl03, Folie 9 (S.9)",
     "source": "ari23_vl03, Folie 9 (S.9, Vollständige Induktion – Übung)"
   },
   {
@@ -163,11 +163,11 @@
     "topic": "ari23_vl03_vollstaendige_induktion",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Induktionsanfang der Übung: Prüfen Sie den zu beweisenden Satz Sₙ = n·(3n−1)/2 für n=1. Welchen Wert liefert die Formel für S₁?",
+    "question": "Induktionsanfang der Übung: Prüfen Sie den zu beweisenden Satz $S_n = \\frac{n \\cdot (3n-1)}{2}$ für $n=1$. Welchen Wert liefert die Formel für $S_1$?",
     "answer": 1,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Für n=1: S₁ = 1·(3·1−1)/2 = 1·2/2 = 1. Das entspricht dem ersten Folgenglied (1), also ist der Induktionsanfang erfüllt. 📄 Quelle: ari23_vl03, Folie 9 (S.9)",
+    "explanation": "Für $n=1$: $S_1 = \\frac{1 \\cdot (3 \\cdot 1-1)}{2} = \\frac{1 \\cdot 2}{2} = 1$. Das entspricht dem ersten Folgenglied (1), also ist der Induktionsanfang erfüllt. 📄 Quelle: ari23_vl03, Folie 9 (S.9)",
     "source": "ari23_vl03, Folie 9 (S.9, Vollständige Induktion – Übung)"
   },
   {
@@ -175,11 +175,11 @@
     "topic": "ari23_vl03_fibonacci",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Die „neue\" Fibonacci-Folge hat die Startzahlen f̃₁ = 4 und f̃₂ = 7 und die Regel f̃ₙ = f̃₍ₙ₋₂₎ + f̃₍ₙ₋₁₎ (für n > 2). Wie lautet f̃₅?",
+    "question": "Die „neue\" Fibonacci-Folge hat die Startzahlen $\\tilde{f}_1 = 4$ und $\\tilde{f}_2 = 7$ und die Regel $\\tilde{f}_n = \\tilde{f}_{n-2} + \\tilde{f}_{n-1}$ (für $n > 2$). Wie lautet $\\tilde{f}_5$?",
     "answer": 29,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Folge lautet 4, 7, 11, 18, 29, … Also f̃₃ = 4+7 = 11, f̃₄ = 7+11 = 18, f̃₅ = 11+18 = 29. 📄 Quelle: ari23_vl03, Folie 11 (S.11)",
+    "explanation": "Die Folge lautet 4, 7, 11, 18, 29, … Also $\\tilde{f}_3 = 4+7 = 11$, $\\tilde{f}_4 = 7+11 = 18$, $\\tilde{f}_5 = 11+18 = 29$. 📄 Quelle: ari23_vl03, Folie 11 (S.11)",
     "source": "ari23_vl03, Folie 11 (S.11, Erkundung II)"
   },
   {
@@ -189,9 +189,9 @@
     "type": "multi",
     "question": "Welche Aussagen zur „neuen\" (modifizierten) Fibonacci-Folge sind korrekt?",
     "options": [
-      "Die Startzahlen sind f̃₁ = 4 und f̃₂ = 7",
-      "Die Bildungsregel lautet f̃ₙ = f̃₍ₙ₋₂₎ + f̃₍ₙ₋₁₎ für n > 2",
-      "Die Schlange (Tilde) über dem f markiert den Unterschied zu den echten Fibonacci-Zahlen",
+      "Die Startzahlen sind $\\tilde{f}_1 = 4$ und $\\tilde{f}_2 = 7$",
+      "Die Bildungsregel lautet $\\tilde{f}_n = \\tilde{f}_{n-2} + \\tilde{f}_{n-1}$ für $n > 2$",
+      "Die Schlange (Tilde) über dem $f$ markiert den Unterschied zu den echten Fibonacci-Zahlen",
       "Die neue Folge lautet 4, 7, 11, 18, 29, 47, 76, …"
     ],
     "correct": [
@@ -200,7 +200,7 @@
       2,
       3
     ],
-    "explanation": "Die echte Folge 1,1,2,3,5,8,13,… wird mit Startzahlen f̃₁ = 4 und f̃₂ = 7 sowie der Regel f̃ₙ = f̃₍ₙ₋₂₎ + f̃₍ₙ₋₁₎ (n>2) verändert; die neue Folge lautet 4, 7, 11, 18, 29, 47, 76, … Die Tilde („Schlange\") kennzeichnet den Unterschied zu den echten Fibonacci-Zahlen. 📄 Quelle: ari23_vl03, Folie 11 (S.11)",
+    "explanation": "Die echte Folge 1,1,2,3,5,8,13,… wird mit Startzahlen $\\tilde{f}_1 = 4$ und $\\tilde{f}_2 = 7$ sowie der Regel $\\tilde{f}_n = \\tilde{f}_{n-2} + \\tilde{f}_{n-1}$ ($n>2$) verändert; die neue Folge lautet 4, 7, 11, 18, 29, 47, 76, … Die Tilde („Schlange\") kennzeichnet den Unterschied zu den echten Fibonacci-Zahlen. 📄 Quelle: ari23_vl03, Folie 11 (S.11)",
     "source": "ari23_vl03, Folie 11 (S.11, Erkundung II)"
   },
   {
@@ -220,19 +220,19 @@
     "topic": "ari23_vl03_fibonacci",
     "difficulty": 3,
     "type": "multi",
-    "question": "Wie lässt sich das n-te Glied f̃ₙ der modifizierten Folge mit den echten Fibonacci-Zahlen fₙ darstellen?",
+    "question": "Wie lässt sich das n-te Glied $\\tilde{f}_n$ der modifizierten Folge mit den echten Fibonacci-Zahlen $f_n$ darstellen?",
     "options": [
-      "f̃ₙ = f₍ₙ₋₂₎·4 + f₍ₙ₋₁₎·7",
-      "Allgemein: f̃ₙ = f₍ₙ₋₂₎·s₁ + f₍ₙ₋₁₎·s₂ mit den Startzahlen s₁ und s₂",
+      "$\\tilde{f}_n = f_{n-2} \\cdot 4 + f_{n-1} \\cdot 7$",
+      "Allgemein: $\\tilde{f}_n = f_{n-2} \\cdot s_1 + f_{n-1} \\cdot s_2$ mit den Startzahlen $s_1$ und $s_2$",
       "Die Koeffizienten sind die echten Fibonacci-Zahlen",
-      "f̃ₙ = f₍ₙ₋₂₎·7 + f₍ₙ₋₁₎·4"
+      "$\\tilde{f}_n = f_{n-2} \\cdot 7 + f_{n-1} \\cdot 4$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Schreibt man die Glieder als Vielfache der Startzahlen, ergibt sich f̃ₙ = f₍ₙ₋₂₎·4 + f₍ₙ₋₁₎·7; die Koeffizienten sind die echten Fibonacci-Zahlen. Verallgemeinert für beliebige Startzahlen: f̃ₙ = f₍ₙ₋₂₎·s₁ + f₍ₙ₋₁₎·s₂. Die Vertauschung der Faktoren (7 und 4) ist falsch. 📄 Quelle: ari23_vl03, Folie 12 (S.12)",
+    "explanation": "Schreibt man die Glieder als Vielfache der Startzahlen, ergibt sich $\\tilde{f}_n = f_{n-2} \\cdot 4 + f_{n-1} \\cdot 7$; die Koeffizienten sind die echten Fibonacci-Zahlen. Verallgemeinert für beliebige Startzahlen: $\\tilde{f}_n = f_{n-2} \\cdot s_1 + f_{n-1} \\cdot s_2$. Die Vertauschung der Faktoren (7 und 4) ist falsch. 📄 Quelle: ari23_vl03, Folie 12 (S.12)",
     "source": "ari23_vl03, Folie 12 (S.12, Erkundung II)"
   },
   {
@@ -255,7 +255,7 @@
     "question": "Die Strategie „Anders darstellen: die Summe mit den einzelnen Summanden aufschreiben\" — was hat sie bei der Erkundung geleistet?",
     "options": [
       "Das Problem der Folgenglieder wurde gelöst",
-      "Die Lösung gelang sogar verallgemeinert für beliebige Startzahlen s₁ und s₂",
+      "Die Lösung gelang sogar verallgemeinert für beliebige Startzahlen $s_1$ und $s_2$",
       "Das Problem der Summe der ersten n Folgeglieder wurde damit bereits gelöst",
       "Die Strategie half beim Bestimmen der einzelnen Folgenglieder"
     ],
@@ -264,7 +264,7 @@
       1,
       3
     ],
-    "explanation": "Die Strategie half, das Problem der Folgenglieder zu lösen — sogar verallgemeinert für beliebige Startzahlen s₁ und s₂. Das Problem der Summe der ersten n Folgeglieder war damit jedoch noch nicht gelöst. 📄 Quelle: ari23_vl03, Folie 13 (S.13)",
+    "explanation": "Die Strategie half, das Problem der Folgenglieder zu lösen — sogar verallgemeinert für beliebige Startzahlen $s_1$ und $s_2$. Das Problem der Summe der ersten n Folgeglieder war damit jedoch noch nicht gelöst. 📄 Quelle: ari23_vl03, Folie 13 (S.13)",
     "source": "ari23_vl03, Folie 13 (S.13, Erkundung II)"
   },
   {
@@ -272,19 +272,19 @@
     "topic": "ari23_vl03_fibonacci",
     "difficulty": 3,
     "type": "multi",
-    "question": "Bei der Herleitung der Summenformel S̃ₙ (Summe der ersten n Glieder der modifizierten Fibonacci-Folge) — welche Zwischenschritte sind korrekt?",
+    "question": "Bei der Herleitung der Summenformel $\\tilde{S}_n$ (Summe der ersten n Glieder der modifizierten Fibonacci-Folge) — welche Zwischenschritte sind korrekt?",
     "options": [
-      "S̃ₙ = f̃₍ₙ₊₂₎ − s₂",
-      "Mit (GL1): f̃₍ₙ₊₂₎ = fₙ·s₁ + f₍ₙ₊₁₎·s₂",
-      "S̃ₙ = fₙ·s₁ + (f₍ₙ₊₁₎ − 1)·s₂",
-      "S̃ₙ = f̃₍ₙ₊₂₎ + s₂"
+      "$\\tilde{S}_n = \\tilde{f}_{n+2} - s_2$",
+      "Mit (GL1): $\\tilde{f}_{n+2} = f_n \\cdot s_1 + f_{n+1} \\cdot s_2$",
+      "$\\tilde{S}_n = f_n \\cdot s_1 + (f_{n+1} - 1) \\cdot s_2$",
+      "$\\tilde{S}_n = \\tilde{f}_{n+2} + s_2$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Es gilt S̃ₙ = f̃₍ₙ₊₂₎ − 7 bzw. allgemein S̃ₙ = f̃₍ₙ₊₂₎ − s₂. Mit (GL1) f̃₍ₙ₊₂₎ = fₙ·s₁ + f₍ₙ₊₁₎·s₂ folgt S̃ₙ = fₙ·s₁ + f₍ₙ₊₁₎·s₂ − s₂ = fₙ·s₁ + (f₍ₙ₊₁₎ − 1)·s₂. Die Variante mit „+ s₂\" ist falsch. 📄 Quelle: ari23_vl03, Folie 14 (S.14)",
+    "explanation": "Es gilt $\\tilde{S}_n = \\tilde{f}_{n+2} - 7$ bzw. allgemein $\\tilde{S}_n = \\tilde{f}_{n+2} - s_2$. Mit (GL1) $\\tilde{f}_{n+2} = f_n \\cdot s_1 + f_{n+1} \\cdot s_2$ folgt $\\tilde{S}_n = f_n \\cdot s_1 + f_{n+1} \\cdot s_2 - s_2 = f_n \\cdot s_1 + (f_{n+1} - 1) \\cdot s_2$. Die Variante mit „+ $s_2$\" ist falsch. 📄 Quelle: ari23_vl03, Folie 14 (S.14)",
     "source": "ari23_vl03, Folie 14 (S.14, Erkundung II)"
   },
   {
@@ -292,17 +292,17 @@
     "topic": "ari23_vl03_fibonacci",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lautet die hergeleitete Formel für die Summe S̃ₙ der ersten n Glieder der modifizierten Fibonacci-Folge?",
+    "question": "Wie lautet die hergeleitete Formel für die Summe $\\tilde{S}_n$ der ersten n Glieder der modifizierten Fibonacci-Folge?",
     "options": [
-      "S̃ₙ = fₙ·s₁ + (f₍ₙ₊₁₎ − 1)·s₂",
-      "S̃ₙ = fₙ·s₁ + f₍ₙ₊₁₎·s₂",
-      "S̃ₙ = f₍ₙ₋₂₎·s₁ + f₍ₙ₋₁₎·s₂",
-      "S̃ₙ = fₙ·s₁ − (f₍ₙ₊₁₎ − 1)·s₂"
+      "$\\tilde{S}_n = f_n \\cdot s_1 + (f_{n+1} - 1) \\cdot s_2$",
+      "$\\tilde{S}_n = f_n \\cdot s_1 + f_{n+1} \\cdot s_2$",
+      "$\\tilde{S}_n = f_{n-2} \\cdot s_1 + f_{n-1} \\cdot s_2$",
+      "$\\tilde{S}_n = f_n \\cdot s_1 - (f_{n+1} - 1) \\cdot s_2$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die hergeleitete Summenformel lautet S̃ₙ = fₙ·s₁ + (f₍ₙ₊₁₎ − 1)·s₂. 📄 Quelle: ari23_vl03, Folie 14 (S.14)",
+    "explanation": "Die hergeleitete Summenformel lautet $\\tilde{S}_n = f_n \\cdot s_1 + (f_{n+1} - 1) \\cdot s_2$. 📄 Quelle: ari23_vl03, Folie 14 (S.14)",
     "source": "ari23_vl03, Folie 14 (S.14, Erkundung II)"
   },
   {
@@ -310,7 +310,7 @@
     "topic": "ari23_vl03_fachdidaktik",
     "difficulty": 2,
     "type": "multi",
-    "question": "Nachdem die Formel für S̃ₙ als Vermutung gefunden wurde: Welche drei Schritte sind für das weitere Vorgehen zu nennen?",
+    "question": "Nachdem die Formel für $\\tilde{S}_n$ als Vermutung gefunden wurde: Welche drei Schritte sind für das weitere Vorgehen zu nennen?",
     "options": [
       "Beispiele machen, um die gefundene Formel (Vermutung) zu testen",
       "Einen mathematischen Satz formulieren",
@@ -330,7 +330,7 @@
     "topic": "ari23_vl03_fachdidaktik",
     "difficulty": 1,
     "type": "single",
-    "question": "Welchen Status hat die gefundene Formel S̃ₙ = fₙ·s₁ + (f₍ₙ₊₁₎ − 1)·s₂ zunächst?",
+    "question": "Welchen Status hat die gefundene Formel $\\tilde{S}_n = f_n \\cdot s_1 + (f_{n+1} - 1) \\cdot s_2$ zunächst?",
     "options": [
       "Sie ist bis jetzt nur eine Vermutung",
       "Sie ist bereits vollständig bewiesen",
@@ -387,11 +387,11 @@
     "topic": "ari23_vl03_pascalsches_dreieck",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Die Einträge im Pascal'schen Dreieck sind Binomialkoeffizienten (n über k) = n!/(k!·(n−k)!), wobei n die Zeile und k die Spalte bezeichnet. Berechnen Sie (4 über 2).",
+    "question": "Die Einträge im Pascal'schen Dreieck sind Binomialkoeffizienten $\\binom{n}{k} = \\frac{n!}{k! \\cdot (n-k)!}$, wobei $n$ die Zeile und $k$ die Spalte bezeichnet. Berechnen Sie $\\binom{4}{2}$.",
     "answer": 6,
     "tolerance": 0,
     "unit": "",
-    "explanation": "(4 über 2) = 4!/(2!·2!) = 24/(2·2) = 24/4 = 6. 📄 Quelle: ari23_vl03, Folie 20 (S.20)",
+    "explanation": "$\\binom{4}{2} = \\frac{4!}{2! \\cdot 2!} = \\frac{24}{2 \\cdot 2} = \\frac{24}{4} = 6$. 📄 Quelle: ari23_vl03, Folie 20 (S.20)",
     "source": "ari23_vl03, Folie 20 (S.20, Erkundung 2 – Pascal'sches Dreieck)"
   },
   {
@@ -401,17 +401,17 @@
     "type": "multi",
     "question": "Da eine Zahl im Pascal'schen Dreieck stets durch die Summe der beiden darüber stehenden Zahlen entsteht, gilt welche Gleichung (und Begründung)?",
     "options": [
-      "(n+1 über k+1) = (n über k) + (n über k+1)",
+      "$\\binom{n+1}{k+1} = \\binom{n}{k} + \\binom{n}{k+1}$",
       "Jede Zahl ist die Summe der beiden darüber stehenden Zahlen",
-      "n bezeichnet die Zeile, k die Spalte",
-      "(n+1 über k+1) = (n über k) · (n über k+1)"
+      "$n$ bezeichnet die Zeile, $k$ die Spalte",
+      "$\\binom{n+1}{k+1} = \\binom{n}{k} \\cdot \\binom{n}{k+1}$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Weil jede Zahl im Pascal'schen Dreieck die Summe der beiden darüber stehenden Zahlen ist, gilt (n+1 über k+1) = (n über k) + (n über k+1); dabei bezeichnet n die Zeile und k die Spalte. Die multiplikative Variante ist falsch. 📄 Quelle: ari23_vl03, Folie 20 (S.20)",
+    "explanation": "Weil jede Zahl im Pascal'schen Dreieck die Summe der beiden darüber stehenden Zahlen ist, gilt $\\binom{n+1}{k+1} = \\binom{n}{k} + \\binom{n}{k+1}$; dabei bezeichnet $n$ die Zeile und $k$ die Spalte. Die multiplikative Variante ist falsch. 📄 Quelle: ari23_vl03, Folie 20 (S.20)",
     "source": "ari23_vl03, Folie 20 (S.20, Erkundung 2 – Pascal'sches Dreieck)"
   }
 ]
