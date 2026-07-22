@@ -31586,19 +31586,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Aussagen zur Herleitung von S_n bei einer Ver-3-fachung (S_n = 1 + 3^1 + 3^2 + … + 3^(n−1)) sind korrekt?",
+    "question": "Welche Aussagen zur Herleitung von $S_n$ bei einer Ver-3-fachung ($S_n = 1 + 3^1 + 3^2 + \\dots + 3^{n-1}$) sind korrekt?",
     "options": [
-      "Der geschlossene Term lautet S_n = (3^n − 1)/2",
-      "Als Ausgangsgleichung (GL1) gilt S_n = 1 + 3^1 + 3^2 + … + 3^(n−2) + 3^(n−1)",
-      "Durch Ausklammern von 3 (GL2) gilt S_n = 1 + 3·(1 + 3^1 + … + 3^(n−3) + 3^(n−2))",
-      "Der geschlossene Term lautet S_n = n·(n+1)/2"
+      "Der geschlossene Term lautet $S_n = \\frac{3^n - 1}{2}$",
+      "Als Ausgangsgleichung (GL1) gilt $S_n = 1 + 3^1 + 3^2 + \\dots + 3^{n-2} + 3^{n-1}$",
+      "Durch Ausklammern von 3 (GL2) gilt $S_n = 1 + 3 \\cdot (1 + 3^1 + \\dots + 3^{n-3} + 3^{n-2})$",
+      "Der geschlossene Term lautet $S_n = \\frac{n \\cdot (n+1)}{2}$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "GL1 ist die Summen-Folge, GL2 entsteht durch Ausklammern von 3, und die Herleitung endet bei S_n = (3^n − 1)/2. S_n = n·(n+1)/2 ist die Gaußsche Formel, die nur als Vorbild genannt wird. 📄 Quelle: skript02_live23, Folie 9 (S.1)",
+    "explanation": "GL1 ist die Summen-Folge, GL2 entsteht durch Ausklammern von 3, und die Herleitung endet bei $S_n = \\frac{3^n - 1}{2}$. $S_n = \\frac{n \\cdot (n+1)}{2}$ ist die Gaußsche Formel, die nur als Vorbild genannt wird. 📄 Quelle: skript02_live23, Folie 9 (S.1)",
     "source": "skript02_live23, Folie 9 (S.1, Arithmetik)"
   },
   {
@@ -31606,11 +31606,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Berechne mit der Formel S_n = (3^n − 1)/2 den Wert S_4 (Ver-3-fachung).",
+    "question": "Berechne mit der Formel $S_n = \\frac{3^n - 1}{2}$ den Wert $S_4$ (Ver-3-fachung).",
     "answer": 40,
     "tolerance": 0,
     "unit": "",
-    "explanation": "S_4 = (3^4 − 1)/2 = (81 − 1)/2 = 80/2 = 40 (vgl. Summe Feld 4 der Ver-3-fachung in der Tabelle). 📄 Quelle: skript02_live23, Folie 9 (S.1)",
+    "explanation": "$S_4 = \\frac{3^4 - 1}{2} = \\frac{81 - 1}{2} = \\frac{80}{2} = 40$ (vgl. Summe Feld 4 der Ver-3-fachung in der Tabelle). 📄 Quelle: skript02_live23, Folie 9 (S.1)",
     "source": "skript02_live23, Folie 9 (S.1, Arithmetik)"
   },
   {
@@ -31618,19 +31618,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 2,
     "type": "multi",
-    "question": "Was ist die Idee bzw. Strategie der Umformung von S_n = 1 + 3^1 + … + 3^(n−1) hin zu einem geschlossenen Term?",
+    "question": "Was ist die Idee bzw. Strategie der Umformung von $S_n = 1 + 3^1 + \\dots + 3^{n-1}$ hin zu einem geschlossenen Term?",
     "options": [
-      "Auf einer Seite der Gleichung eine Summen-Folge, auf der anderen eine nur noch von n abhängige Zahl zu haben",
-      "Als Vorbild dient die Gaußsche Summenformel S_n = n·(n+1)/2",
-      "S_n kann durch einen Term beschrieben werden, der nur noch von n abhängt",
-      "S_n hängt nach der Umformung von n und der Anzahl der Summanden ab"
+      "Auf einer Seite der Gleichung eine Summen-Folge, auf der anderen eine nur noch von $n$ abhängige Zahl zu haben",
+      "Als Vorbild dient die Gaußsche Summenformel $S_n = \\frac{n \\cdot (n+1)}{2}$",
+      "$S_n$ kann durch einen Term beschrieben werden, der nur noch von $n$ abhängt",
+      "$S_n$ hängt nach der Umformung von $n$ und der Anzahl der Summanden ab"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie nennt als Idee genau diese Zieldarstellung (Vorbild Gauß) und schließt handschriftlich mit der Feststellung, dass S_n nur noch von n abhängt. 📄 Quelle: skript02_live23, Folie 9 (S.1)",
+    "explanation": "Die Folie nennt als Idee genau diese Zieldarstellung (Vorbild Gauß) und schließt handschriftlich mit der Feststellung, dass $S_n$ nur noch von $n$ abhängt. 📄 Quelle: skript02_live23, Folie 9 (S.1)",
     "source": "skript02_live23, Folie 9 (S.1, Arithmetik)"
   },
   {
@@ -31638,11 +31638,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Bestimme mit der Formel S_n = (k^n − 1)/(k − 1) die Summe der ersten 7 Felder bei einer Vervierfachung (k = 4), also S_7.",
+    "question": "Bestimme mit der Formel $S_n = \\frac{k^n - 1}{k - 1}$ die Summe der ersten 7 Felder bei einer Vervierfachung ($k = 4$), also $S_7$.",
     "answer": 5461,
     "tolerance": 0,
     "unit": "",
-    "explanation": "S_7 = (4^7 − 1)/(4 − 1) = (16384 − 1)/3 = 16383/3 = 5461. 📄 Quelle: skript02_live23, Folie 13 (S.2)",
+    "explanation": "$S_7 = \\frac{4^7 - 1}{4 - 1} = \\frac{16384 - 1}{3} = \\frac{16383}{3} = 5461$. 📄 Quelle: skript02_live23, Folie 13 (S.2)",
     "source": "skript02_live23, Folie 13 (S.2, Arithmetik)"
   },
   {
@@ -31650,18 +31650,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 2,
     "type": "multi",
-    "question": "Wie lautet die allgemeine Formel für die Summe S_n = 1 + k^1 + k^2 + … + k^(n−1)?",
+    "question": "Wie lautet die allgemeine Formel für die Summe $S_n = 1 + k^1 + k^2 + \\dots + k^{n-1}$?",
     "options": [
-      "S_n = 1 + k^1 + k^2 + k^3 + … + k^(n−3) + k^(n−2) + k^(n−1) = (k^n − 1)/(k − 1)",
-      "S_n = (k^n − 1)/(k − 1)",
-      "S_n = (k^(n−1) − 1)/(k − 1)",
-      "S_n = (k^n − 1)/k"
+      "$S_n = 1 + k^1 + k^2 + k^3 + \\dots + k^{n-3} + k^{n-2} + k^{n-1} = \\frac{k^n - 1}{k - 1}$",
+      "$S_n = \\frac{k^n - 1}{k - 1}$",
+      "$S_n = \\frac{k^{n-1} - 1}{k - 1}$",
+      "$S_n = \\frac{k^n - 1}{k}$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Der eingerahmte Term auf Folie 13 setzt die Summe 1 + k^1 + … + k^(n−1) mit dem geschlossenen Ausdruck (k^n − 1)/(k − 1) gleich. 📄 Quelle: skript02_live23, Folie 13 (S.2)",
+    "explanation": "Der eingerahmte Term auf Folie 13 setzt die Summe $1 + k^1 + \\dots + k^{n-1}$ mit dem geschlossenen Ausdruck $\\frac{k^n - 1}{k - 1}$ gleich. 📄 Quelle: skript02_live23, Folie 13 (S.2)",
     "source": "skript02_live23, Folie 13 (S.2, Arithmetik)"
   },
   {
@@ -31669,11 +31669,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welchen Wert hat 4^7 (verwendet bei der Berechnung von S_7 mit Vervielfachungszahl k=4)?",
+    "question": "Welchen Wert hat $4^7$ (verwendet bei der Berechnung von $S_7$ mit Vervielfachungszahl $k=4$)?",
     "answer": 16384,
     "tolerance": 0,
     "unit": "",
-    "explanation": "In der Rechnung wird 4^7 = 16384 eingesetzt: S_7 = (16384 − 1)/3. 📄 Quelle: skript02_live23, Folie 13 (S.2)",
+    "explanation": "In der Rechnung wird $4^7 = 16384$ eingesetzt: $S_7 = \\frac{16384 - 1}{3}$. 📄 Quelle: skript02_live23, Folie 13 (S.2)",
     "source": "skript02_live23, Folie 13 (S.2, Arithmetik)"
   },
   {
@@ -31681,19 +31681,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 2,
     "type": "multi",
-    "question": "Wie lässt sich die Bildung von S_n = (k^n − 1)/(k − 1) in Worten beschreiben?",
+    "question": "Wie lässt sich die Bildung von $S_n = \\frac{k^n - 1}{k - 1}$ in Worten beschreiben?",
     "options": [
-      "Nimm die Vervielfachungszahl k hoch n",
+      "Nimm die Vervielfachungszahl $k$ hoch $n$",
       "Ziehe 1 ab",
-      "Teile durch die Vervielfachungszahl k − 1",
-      "Multipliziere zusätzlich mit der Vervielfachungszahl k"
+      "Teile durch die Vervielfachungszahl $k - 1$",
+      "Multipliziere zusätzlich mit der Vervielfachungszahl $k$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie beschreibt in Worten: k hoch n, davon 1 abziehen und durch k − 1 teilen — das entspricht (k^n − 1)/(k − 1). 📄 Quelle: skript02_live23, Folie 15 (S.3)",
+    "explanation": "Die Folie beschreibt in Worten: $k$ hoch $n$, davon 1 abziehen und durch $k - 1$ teilen — das entspricht $\\frac{k^n - 1}{k - 1}$. 📄 Quelle: skript02_live23, Folie 15 (S.3)",
     "source": "skript02_live23, Folie 15 (S.3, Arithmetik)"
   },
   {
@@ -31701,18 +31701,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Voraussetzungen und Aussagen enthält der Satz zur Summe S_n = 1 + k^1 + … + k^(n−1)?",
+    "question": "Welche Voraussetzungen und Aussagen enthält der Satz zur Summe $S_n = 1 + k^1 + \\dots + k^{n-1}$?",
     "options": [
-      "Für alle natürlichen Zahlen n (und k > 1)",
-      "Ist S_n = 1 + k^1 + k^2 + … + k^(n−2) + k^(n−1), dann ist S_n = (k^n − 1)/(k − 1)",
-      "Der Satz gilt nur für k = 3",
-      "Es muss n < k gelten"
+      "Für alle natürlichen Zahlen $n$ (und $k > 1$)",
+      "Ist $S_n = 1 + k^1 + k^2 + \\dots + k^{n-2} + k^{n-1}$, dann ist $S_n = \\frac{k^n - 1}{k - 1}$",
+      "Der Satz gilt nur für $k = 3$",
+      "Es muss $n < k$ gelten"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Der Satz gilt für alle natürlichen n und k > 1: Ist S_n die Summe der Ver-k-fachungen, dann ist S_n = (k^n − 1)/(k − 1). Einschränkungen auf k = 3 oder n < k stehen nicht auf der Folie. 📄 Quelle: skript02_live23, Folie 15 (S.3)",
+    "explanation": "Der Satz gilt für alle natürlichen $n$ und $k > 1$: Ist $S_n$ die Summe der Ver-$k$-fachungen, dann ist $S_n = \\frac{k^n - 1}{k - 1}$. Einschränkungen auf $k = 3$ oder $n < k$ stehen nicht auf der Folie. 📄 Quelle: skript02_live23, Folie 15 (S.3)",
     "source": "skript02_live23, Folie 15 (S.3, Arithmetik)"
   },
   {
@@ -31720,19 +31720,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Eigenschaften muss eine Zahlenmenge N erfüllen, um „Natürliche Zahlen“ zu heißen (Peano-Axiome)?",
+    "question": "Welche Eigenschaften muss eine Zahlenmenge $N$ erfüllen, um „Natürliche Zahlen“ zu heißen (Peano-Axiome)?",
     "options": [
       "1 ist eine Natürliche Zahl",
-      "Zu jeder natürlichen Zahl n gibt es genau einen Nachfolger n'",
-      "Kein Element von N hat als Nachfolger die 1",
-      "Jedes Element ist Nachfolger zweier verschiedener Elemente von N"
+      "Zu jeder natürlichen Zahl $n$ gibt es genau einen Nachfolger $n'$",
+      "Kein Element von $N$ hat als Nachfolger die 1",
+      "Jedes Element ist Nachfolger zweier verschiedener Elemente von $N$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die ersten drei Aussagen sind die Axiome 1–3. Axiom 4 lautet gerade umgekehrt: KEIN Element ist Nachfolger zweier verschiedener Elemente von N. 📄 Quelle: skript02_live23, Folie 22 (S.4)",
+    "explanation": "Die ersten drei Aussagen sind die Axiome 1–3. Axiom 4 lautet gerade umgekehrt: KEIN Element ist Nachfolger zweier verschiedener Elemente von $N$. 📄 Quelle: skript02_live23, Folie 22 (S.4)",
     "source": "skript02_live23, Folie 22 (S.4, Arithmetik)"
   },
   {
@@ -31742,9 +31742,9 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche weiteren Aussagen gehören zu den Peano-Axiomen der natürlichen Zahlen (bzw. den zugehörigen Notizen)?",
     "options": [
-      "Kein Element ist Nachfolger zweier verschiedener Elemente von N",
-      "Wenn M eine Teilmenge von N ist und die ersten beiden Axiome erfüllt sind, dann ist M gleich N",
-      "Für den Nachfolger gilt n' = n + 1",
+      "Kein Element ist Nachfolger zweier verschiedener Elemente von $N$",
+      "Wenn $M$ eine Teilmenge von $N$ ist und die ersten beiden Axiome erfüllt sind, dann ist $M$ gleich $N$",
+      "Für den Nachfolger gilt $n' = n + 1$",
       "Die 1 ist Nachfolger genau eines Elements"
     ],
     "correct": [
@@ -31752,7 +31752,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Axiom 4 (Eindeutigkeit des Vorgängers), Axiom 5 (Induktionsaxiom: Teilmenge M mit den ersten beiden Axiomen ist gleich N) und die handschriftliche Notiz n' = n + 1 sind belegt. Dass 1 Nachfolger sei, widerspricht Axiom 3. 📄 Quelle: skript02_live23, Folie 22 (S.4)",
+    "explanation": "Axiom 4 (Eindeutigkeit des Vorgängers), Axiom 5 (Induktionsaxiom: Teilmenge $M$ mit den ersten beiden Axiomen ist gleich $N$) und die handschriftliche Notiz $n' = n + 1$ sind belegt. Dass 1 Nachfolger sei, widerspricht Axiom 3. 📄 Quelle: skript02_live23, Folie 22 (S.4)",
     "source": "skript02_live23, Folie 22 (S.4, Arithmetik)"
   },
   {
@@ -31760,19 +31760,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "vollstaendige_induktion",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welcher Satz A(n) zur Summe der Zweierpotenzen wird durch vollständige Induktion bewiesen?",
+    "question": "Welcher Satz $A(n)$ zur Summe der Zweierpotenzen wird durch vollständige Induktion bewiesen?",
     "options": [
-      "A(n): S_n = 1 + 2^1 + 2^2 + 2^3 + … + 2^(n−2) + 2^(n−1) = 2^n − 1",
-      "S_n = 2^0 + 2^1 + … + 2^(n−1)",
-      "S_n = 2^n − 1",
-      "S_n = 2^(n−1) − 1"
+      "$A(n)$: $S_n = 1 + 2^1 + 2^2 + 2^3 + \\dots + 2^{n-2} + 2^{n-1} = 2^n - 1$",
+      "$S_n = 2^0 + 2^1 + \\dots + 2^{n-1}$",
+      "$S_n = 2^n - 1$",
+      "$S_n = 2^{n-1} - 1$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Der zu beweisende Satz A(n) lautet S_n = 1 + 2^1 + … + 2^(n−1) (= 2^0 + 2^1 + … + 2^(n−1)) = 2^n − 1. 📄 Quelle: skript02_live23, Folie 26 (S.5)",
+    "explanation": "Der zu beweisende Satz $A(n)$ lautet $S_n = 1 + 2^1 + \\dots + 2^{n-1}$ ($= 2^0 + 2^1 + \\dots + 2^{n-1}$) $= 2^n - 1$. 📄 Quelle: skript02_live23, Folie 26 (S.5)",
     "source": "skript02_live23, Folie 26 (S.5, Arithmetik)"
   },
   {
@@ -31780,11 +31780,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "vollstaendige_induktion",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Was ergibt im Induktionsanfang (n = 1) die linke Seite S_1 = 2^(1−1) = 2^0?",
+    "question": "Was ergibt im Induktionsanfang ($n = 1$) die linke Seite $S_1 = 2^{1-1} = 2^0$?",
     "answer": 1,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Linke Seite: S_1 = 2^(1−1) = 2^0 = 1; rechte Seite: 2^1 − 1 = 1. Beide Seiten sind gleich, also ist A(1) richtig. 📄 Quelle: skript02_live23, Folie 26 (S.5)",
+    "explanation": "Linke Seite: $S_1 = 2^{1-1} = 2^0 = 1$; rechte Seite: $2^1 - 1 = 1$. Beide Seiten sind gleich, also ist $A(1)$ richtig. 📄 Quelle: skript02_live23, Folie 26 (S.5)",
     "source": "skript02_live23, Folie 26 (S.5, Arithmetik)"
   },
   {
@@ -31792,19 +31792,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "vollstaendige_induktion",
     "difficulty": 3,
     "type": "multi",
-    "question": "Wie verläuft der Induktionsschritt beim Beweis von S_n = 2^n − 1 (nach Einsetzen der Induktionsvoraussetzung)?",
+    "question": "Wie verläuft der Induktionsschritt beim Beweis von $S_n = 2^n - 1$ (nach Einsetzen der Induktionsvoraussetzung)?",
     "options": [
-      "S_(n+1) = S_n + 2^n",
-      "Mit der I.V. gilt S_n = 2^n − 1, also S_(n+1) = 2^n − 1 + 2^n",
-      "= 2·2^n − 1 = 2^(n+1) − 1",
-      "= 2^n − 1 + 2^(n−1)"
+      "$S_{n+1} = S_n + 2^n$",
+      "Mit der I.V. gilt $S_n = 2^n - 1$, also $S_{n+1} = 2^n - 1 + 2^n$",
+      "$= 2 \\cdot 2^n - 1 = 2^{n+1} - 1$",
+      "$= 2^n - 1 + 2^{n-1}$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "S_(n+1) = 1 + 2^1 + … + 2^(n−1) + 2^n = S_n + 2^n; mit der I.V. (S_n = 2^n − 1) folgt 2^n − 1 + 2^n = 2·2^n − 1 = 2^(n+1) − 1. 📄 Quelle: skript02_live23, Folie 26 (S.5)",
+    "explanation": "$S_{n+1} = 1 + 2^1 + \\dots + 2^{n-1} + 2^n = S_n + 2^n$; mit der I.V. ($S_n = 2^n - 1$) folgt $2^n - 1 + 2^n = 2 \\cdot 2^n - 1 = 2^{n+1} - 1$. 📄 Quelle: skript02_live23, Folie 26 (S.5)",
     "source": "skript02_live23, Folie 26 (S.5, Arithmetik)"
   },
   {
@@ -31812,18 +31812,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "vollstaendige_induktion",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welcher Satz zur Summe der ersten n natürlichen Zahlen wird per vollständiger Induktion behandelt?",
+    "question": "Welcher Satz zur Summe der ersten $n$ natürlichen Zahlen wird per vollständiger Induktion behandelt?",
     "options": [
-      "Ist S_n die Summe der ersten n natürlichen Zahlen, also S_n = 1 + 2 + 3 + … + (n−2) + (n−1) + n",
-      "dann ist S_n = n/2 · (n+1)",
-      "dann ist S_n = 2^n − 1",
-      "S_n = (n−1)/2 · n"
+      "Ist $S_n$ die Summe der ersten $n$ natürlichen Zahlen, also $S_n = 1 + 2 + 3 + \\dots + (n-2) + (n-1) + n$",
+      "dann ist $S_n = \\frac{n}{2} \\cdot (n+1)$",
+      "dann ist $S_n = 2^n - 1$",
+      "$S_n = \\frac{n-1}{2} \\cdot n$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Auf Folie 28 wird die Gaußsche Summenformel S_n = n/2 · (n+1) für die Summe der ersten n natürlichen Zahlen bewiesen. 📄 Quelle: skript02_live23, Folie 28 (S.6)",
+    "explanation": "Auf Folie 28 wird die Gaußsche Summenformel $S_n = \\frac{n}{2} \\cdot (n+1)$ für die Summe der ersten $n$ natürlichen Zahlen bewiesen. 📄 Quelle: skript02_live23, Folie 28 (S.6)",
     "source": "skript02_live23, Folie 28 (S.6, Arithmetik)"
   },
   {
@@ -31831,18 +31831,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "vollstaendige_induktion",
     "difficulty": 3,
     "type": "multi",
-    "question": "Was ist im Induktionsschritt (n → n+1) beim Beweis von S_n = n/2 · (n+1) zu zeigen bzw. wird verwendet?",
+    "question": "Was ist im Induktionsschritt ($n \\to n+1$) beim Beweis von $S_n = \\frac{n}{2} \\cdot (n+1)$ zu zeigen bzw. wird verwendet?",
     "options": [
-      "A(n+1): S_(n+1) = (n+1)/2 · (n+2)",
-      "S_(n+1) = S_n + (n+1)",
-      "S_(n+1) = n/2 · (n+1)",
-      "S_(n+1) = (n+2)/2 · (n+3)"
+      "$A(n+1)$: $S_{n+1} = \\frac{n+1}{2} \\cdot (n+2)$",
+      "$S_{n+1} = S_n + (n+1)$",
+      "$S_{n+1} = \\frac{n}{2} \\cdot (n+1)$",
+      "$S_{n+1} = \\frac{n+2}{2} \\cdot (n+3)$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Zu zeigen ist A(n+1): S_(n+1) = (n+1)/2 · (n+2); dabei wird S_(n+1) = 1 + 2 + … + n + (n+1) = S_n + (n+1) verwendet. 📄 Quelle: skript02_live23, Folie 28 (S.6)",
+    "explanation": "Zu zeigen ist $A(n+1)$: $S_{n+1} = \\frac{n+1}{2} \\cdot (n+2)$; dabei wird $S_{n+1} = 1 + 2 + \\dots + n + (n+1) = S_n + (n+1)$ verwendet. 📄 Quelle: skript02_live23, Folie 28 (S.6)",
     "source": "skript02_live23, Folie 28 (S.6, Arithmetik)"
   },
   {
@@ -31850,11 +31850,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "vollstaendige_induktion",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Berechne mit der Formel S_n = n/2 · (n+1) den Wert S_5.",
+    "question": "Berechne mit der Formel $S_n = \\frac{n}{2} \\cdot (n+1)$ den Wert $S_5$.",
     "answer": 15,
     "tolerance": 0,
     "unit": "",
-    "explanation": "S_5 = 5/2 · (5+1) = 5/2 · 6 = 15 (= 1 + 2 + 3 + 4 + 5). 📄 Quelle: skript02_live23, Folie 28 (S.6)",
+    "explanation": "$S_5 = \\frac{5}{2} \\cdot (5+1) = \\frac{5}{2} \\cdot 6 = 15$ ($= 1 + 2 + 3 + 4 + 5$). 📄 Quelle: skript02_live23, Folie 28 (S.6)",
     "source": "skript02_live23, Folie 28 (S.6, Arithmetik)"
   },
   {
@@ -32058,11 +32058,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Welchen Wert hat die Zahl (122)_3 (Dreier-System) im Zehnersystem?",
+    "question": "Welchen Wert hat die Zahl $(122)_3$ (Dreier-System) im Zehnersystem?",
     "answer": 17,
     "tolerance": 0,
     "unit": "",
-    "explanation": "(122)_3 = 1·3² + 2·3¹ + 2·3⁰ = 9 + 6 + 2 = 17. 📄 Quelle: skript03_clean, Folie 2 (S.2)",
+    "explanation": "$(122)_3 = 1 \\cdot 3^2 + 2 \\cdot 3^1 + 2 \\cdot 3^0 = 9 + 6 + 2 = 17$. 📄 Quelle: skript03_clean, Folie 2 (S.2)",
     "source": "skript03_clean, Folie 2 (S.2, Arithmetik)"
   },
   {
@@ -32070,17 +32070,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie setzt sich der Stellenwert der Zahl (122)_3 (Dreier-System) zusammen?",
+    "question": "Wie setzt sich der Stellenwert der Zahl $(122)_3$ (Dreier-System) zusammen?",
     "options": [
-      "1·3² + 2·3¹ + 2·3⁰",
-      "1·3³ + 2·3² + 2·3¹",
-      "1·2² + 2·2¹ + 2·2⁰",
-      "1·10² + 2·10¹ + 2·10⁰"
+      "$1 \\cdot 3^2 + 2 \\cdot 3^1 + 2 \\cdot 3^0$",
+      "$1 \\cdot 3^3 + 2 \\cdot 3^2 + 2 \\cdot 3^1$",
+      "$1 \\cdot 2^2 + 2 \\cdot 2^1 + 2 \\cdot 2^0$",
+      "$1 \\cdot 10^2 + 2 \\cdot 10^1 + 2 \\cdot 10^0$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Im Dreier-System haben die Stellen von rechts die Werte 3⁰, 3¹, 3², also (122)_3 = 1·3² + 2·3¹ + 2·3⁰. 📄 Quelle: skript03_clean, Folie 2 (S.2)",
+    "explanation": "Im Dreier-System haben die Stellen von rechts die Werte $3^0$, $3^1$, $3^2$, also $(122)_3 = 1 \\cdot 3^2 + 2 \\cdot 3^1 + 2 \\cdot 3^0$. 📄 Quelle: skript03_clean, Folie 2 (S.2)",
     "source": "skript03_clean, Folie 2 (S.2, Arithmetik)"
   },
   {
@@ -32090,17 +32090,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Zuordnungen von Ebene und Potenz gelten im Zehnersystem (Potenzen zur Basis 10)?",
     "options": [
-      "Einer-Ebene ↔ 10⁰",
-      "Zehner-Ebene ↔ 10¹",
-      "Hunderter-Ebene ↔ 10³",
-      "Tausender-Ebene ↔ 10³"
+      "Einer-Ebene ↔ $10^0$",
+      "Zehner-Ebene ↔ $10^1$",
+      "Hunderter-Ebene ↔ $10^3$",
+      "Tausender-Ebene ↔ $10^3$"
     ],
     "correct": [
       0,
       1,
       3
     ],
-    "explanation": "Laut Tabelle: Einer-Ebene 10⁰, Zehner-Ebene 10¹, Hunderter-Ebene 10², Tausender-Ebene 10³. Die Hunderter-Ebene ist also 10² (nicht 10³). 📄 Quelle: skript03_clean, Folie 3 (S.3)",
+    "explanation": "Laut Tabelle: Einer-Ebene $10^0$, Zehner-Ebene $10^1$, Hunderter-Ebene $10^2$, Tausender-Ebene $10^3$. Die Hunderter-Ebene ist also $10^2$ (nicht $10^3$). 📄 Quelle: skript03_clean, Folie 3 (S.3)",
     "source": "skript03_clean, Folie 3 (S.3, Arithmetik)"
   },
   {
@@ -32108,11 +32108,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welchen Stellenwert im Zehnersystem hat die Tausender-Ebene, also 10³?",
+    "question": "Welchen Stellenwert im Zehnersystem hat die Tausender-Ebene, also $10^3$?",
     "answer": 1000,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Tausender-Ebene entspricht 10³ = 1000. 📄 Quelle: skript03_clean, Folie 3 (S.3)",
+    "explanation": "Die Tausender-Ebene entspricht $10^3 = 1000$. 📄 Quelle: skript03_clean, Folie 3 (S.3)",
     "source": "skript03_clean, Folie 3 (S.3, Arithmetik)"
   },
   {
@@ -32120,11 +32120,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 2,
     "type": "numeric",
-    "question": "In der Darstellung von 1753 im Zehnersystem: Welche Ziffer steht auf der Hunderter-Ebene (10²)?",
+    "question": "In der Darstellung von 1753 im Zehnersystem: Welche Ziffer steht auf der Hunderter-Ebene ($10^2$)?",
     "answer": 7,
     "tolerance": 0,
     "unit": "",
-    "explanation": "1753 = 1·10³ + 7·10² + 5·10¹ + 3·10⁰, die Hunderter-Ebene trägt die Ziffer 7. 📄 Quelle: skript03_clean, Folie 3 (S.3)",
+    "explanation": "$1753 = 1 \\cdot 10^3 + 7 \\cdot 10^2 + 5 \\cdot 10^1 + 3 \\cdot 10^0$, die Hunderter-Ebene trägt die Ziffer 7. 📄 Quelle: skript03_clean, Folie 3 (S.3)",
     "source": "skript03_clean, Folie 3 (S.3, Arithmetik)"
   },
   {
@@ -32134,15 +32134,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Was ist 34 im Zweiersystem?",
     "options": [
-      "(100010)_2",
-      "(101010)_2",
-      "(10001)_2",
-      "(110010)_2"
+      "$(100010)_2$",
+      "$(101010)_2$",
+      "$(10001)_2$",
+      "$(110010)_2$"
     ],
     "correct": [
       0
     ],
-    "explanation": "34 = 32 + 2 = 2⁵ + 2¹ = (100010)_2. 📄 Quelle: skript03_clean, Folie 4 (S.4)",
+    "explanation": "$34 = 32 + 2 = 2^5 + 2^1 = (100010)_2$. 📄 Quelle: skript03_clean, Folie 4 (S.4)",
     "source": "skript03_clean, Folie 4 (S.4, Arithmetik)"
   },
   {
@@ -32152,15 +32152,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Was ist 69 im Zweiersystem?",
     "options": [
-      "(1000101)_2",
-      "(1000111)_2",
-      "(100101)_2",
-      "(1010001)_2"
+      "$(1000101)_2$",
+      "$(1000111)_2$",
+      "$(100101)_2$",
+      "$(1010001)_2$"
     ],
     "correct": [
       0
     ],
-    "explanation": "69 = 64 + 4 + 1 = 2⁶ + 2² + 2⁰ = (1000101)_2. 📄 Quelle: skript03_clean, Folie 4 (S.4)",
+    "explanation": "$69 = 64 + 4 + 1 = 2^6 + 2^2 + 2^0 = (1000101)_2$. 📄 Quelle: skript03_clean, Folie 4 (S.4)",
     "source": "skript03_clean, Folie 4 (S.4, Arithmetik)"
   },
   {
@@ -32168,11 +32168,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Was ist (11001)_2 im Zehnersystem?",
+    "question": "Was ist $(11001)_2$ im Zehnersystem?",
     "answer": 25,
     "tolerance": 0,
     "unit": "",
-    "explanation": "(11001)_2 = 1·2⁴ + 1·2³ + 0·2² + 0·2¹ + 1·2⁰ = 16 + 8 + 1 = 25. 📄 Quelle: skript03_clean, Folie 5 (S.5)",
+    "explanation": "$(11001)_2 = 1 \\cdot 2^4 + 1 \\cdot 2^3 + 0 \\cdot 2^2 + 0 \\cdot 2^1 + 1 \\cdot 2^0 = 16 + 8 + 1 = 25$. 📄 Quelle: skript03_clean, Folie 5 (S.5)",
     "source": "skript03_clean, Folie 5 (S.5, Arithmetik)"
   },
   {
@@ -32180,19 +32180,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Zweierpotenzen tragen in (11001)_2 die Ziffer 1?",
+    "question": "Welche Zweierpotenzen tragen in $(11001)_2$ die Ziffer 1?",
     "options": [
-      "2⁴ (= 16)",
-      "2³ (= 8)",
-      "2² (= 4)",
-      "2⁰ (= 1)"
+      "$2^4$ (= 16)",
+      "$2^3$ (= 8)",
+      "$2^2$ (= 4)",
+      "$2^0$ (= 1)"
     ],
     "correct": [
       0,
       1,
       3
     ],
-    "explanation": "(11001)_2 hat Einsen an den Stellen 2⁴, 2³ und 2⁰; die Stelle 2² trägt eine 0. 📄 Quelle: skript03_clean, Folie 5 (S.5)",
+    "explanation": "$(11001)_2$ hat Einsen an den Stellen $2^4$, $2^3$ und $2^0$; die Stelle $2^2$ trägt eine 0. 📄 Quelle: skript03_clean, Folie 5 (S.5)",
     "source": "skript03_clean, Folie 5 (S.5, Arithmetik)"
   },
   {
@@ -32200,11 +32200,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Die Umrechnung von 1753 ins Zweiersystem beginnt mit 1753 = 876·2 + 1. Welche Ziffer der Zweierdarstellung (Einer-Ebene, 2⁰) liefert dieser erste Schritt?",
+    "question": "Die Umrechnung von 1753 ins Zweiersystem beginnt mit $1753 = 876 \\cdot 2 + 1$. Welche Ziffer der Zweierdarstellung (Einer-Ebene, $2^0$) liefert dieser erste Schritt?",
     "answer": 1,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Der Rest beim Teilen durch 2 ergibt die Ziffer der Einer-Ebene (2⁰): 1753 = 876·2 + 1, also Ziffer 1. 📄 Quelle: skript03_clean, Folie 6 (S.6)",
+    "explanation": "Der Rest beim Teilen durch 2 ergibt die Ziffer der Einer-Ebene ($2^0$): $1753 = 876 \\cdot 2 + 1$, also Ziffer 1. 📄 Quelle: skript03_clean, Folie 6 (S.6)",
     "source": "skript03_clean, Folie 6 (S.6, Arithmetik)"
   },
   {
@@ -32212,11 +32212,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Wie lautet der Quotient beim ersten Teilen von 1753 durch 2 (1753 = ?·2 + 1)?",
+    "question": "Wie lautet der Quotient beim ersten Teilen von 1753 durch 2 ($1753 = ? \\cdot 2 + 1$)?",
     "answer": 876,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Auf Folie 6 steht 1753 = 876·2 + 1; der Quotient ist 876. 📄 Quelle: skript03_clean, Folie 6 (S.6)",
+    "explanation": "Auf Folie 6 steht $1753 = 876 \\cdot 2 + 1$; der Quotient ist 876. 📄 Quelle: skript03_clean, Folie 6 (S.6)",
     "source": "skript03_clean, Folie 6 (S.6, Arithmetik)"
   },
   {
@@ -32226,9 +32226,9 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Aussagen zur Stellenwerttabelle des Zweiersystems (Ebenen als Potenzen zur Basis 2) sind richtig?",
     "options": [
-      "Die Einer-Ebene entspricht 2⁰",
-      "Die Bündel1-Ebene entspricht 2¹",
-      "Die höchste aufgeführte Ebene ist die Bündel10-Ebene (2¹⁰)",
+      "Die Einer-Ebene entspricht $2^0$",
+      "Die Bündel1-Ebene entspricht $2^1$",
+      "Die höchste aufgeführte Ebene ist die Bündel10-Ebene ($2^{10}$)",
       "Die Bündel-Ebenen sind Potenzen zur Basis 10"
     ],
     "correct": [
@@ -32236,7 +32236,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Die Tabelle listet Ebenen als Potenzen zur Basis 2: Einer-Ebene 2⁰, Bündel1-Ebene 2¹, … bis Bündel10-Ebene 2¹⁰. Die Basis ist 2, nicht 10. 📄 Quelle: skript03_clean, Folie 6 (S.6)",
+    "explanation": "Die Tabelle listet Ebenen als Potenzen zur Basis 2: Einer-Ebene $2^0$, Bündel1-Ebene $2^1$, … bis Bündel10-Ebene $2^{10}$. Die Basis ist 2, nicht 10. 📄 Quelle: skript03_clean, Folie 6 (S.6)",
     "source": "skript03_clean, Folie 6 (S.6, Arithmetik)"
   },
   {
@@ -32246,17 +32246,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Im Dreiersystem werden den Ebenen Potenzen zur Basis 3 zugeordnet. Welche Zuordnungen sind korrekt?",
     "options": [
-      "Einer-Ebene ↔ 3⁰",
-      "Bündel1-Ebene ↔ 3¹",
-      "Bündel3-Ebene ↔ 3⁹",
-      "höchste aufgeführte Ebene ist die Bündel7-Ebene (3⁷)"
+      "Einer-Ebene ↔ $3^0$",
+      "Bündel1-Ebene ↔ $3^1$",
+      "Bündel3-Ebene ↔ $3^9$",
+      "höchste aufgeführte Ebene ist die Bündel7-Ebene ($3^7$)"
     ],
     "correct": [
       0,
       1,
       3
     ],
-    "explanation": "Einer-Ebene 3⁰, Bündel1-Ebene 3¹, Bündel3-Ebene 3³ (nicht 3⁹), höchste Ebene Bündel7-Ebene 3⁷. 📄 Quelle: skript03_clean, Folie 7 (S.7)",
+    "explanation": "Einer-Ebene $3^0$, Bündel1-Ebene $3^1$, Bündel3-Ebene $3^3$ (nicht $3^9$), höchste Ebene Bündel7-Ebene $3^7$. 📄 Quelle: skript03_clean, Folie 7 (S.7)",
     "source": "skript03_clean, Folie 7 (S.7, Arithmetik)"
   },
   {
@@ -32264,11 +32264,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Welchen Stellenwert hat die Bündel3-Ebene im Dreiersystem, also 3³?",
+    "question": "Welchen Stellenwert hat die Bündel3-Ebene im Dreiersystem, also $3^3$?",
     "answer": 27,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Bündel3-Ebene entspricht 3³ = 27. 📄 Quelle: skript03_clean, Folie 7 (S.7)",
+    "explanation": "Die Bündel3-Ebene entspricht $3^3 = 27$. 📄 Quelle: skript03_clean, Folie 7 (S.7)",
     "source": "skript03_clean, Folie 7 (S.7, Arithmetik)"
   },
   {
@@ -32278,17 +32278,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "In einem Stellenwertsystem zur Basis 5 werden den Ebenen Potenzen zur Basis 5 zugeordnet. Welche Zuordnungen sind korrekt?",
     "options": [
-      "Einer-Ebene ↔ 5⁰",
-      "Bündel1-Ebene ↔ 5¹",
-      "Bündel6-Ebene ↔ 5⁶",
-      "Bündel2-Ebene ↔ 5⁵"
+      "Einer-Ebene ↔ $5^0$",
+      "Bündel1-Ebene ↔ $5^1$",
+      "Bündel6-Ebene ↔ $5^6$",
+      "Bündel2-Ebene ↔ $5^5$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Potenz-Spalte auf Folie 8 zeigt 5⁰ (Einer-Ebene), 5¹ (Bündel1), … bis 5⁶ (Bündel6); die Bündel2-Ebene ist 5² (nicht 5⁵). 📄 Quelle: skript03_clean, Folie 8 (S.8)",
+    "explanation": "Die Potenz-Spalte auf Folie 8 zeigt $5^0$ (Einer-Ebene), $5^1$ (Bündel1), … bis $5^6$ (Bündel6); die Bündel2-Ebene ist $5^2$ (nicht $5^5$). 📄 Quelle: skript03_clean, Folie 8 (S.8)",
     "source": "skript03_clean, Folie 8 (S.8, Arithmetik)"
   },
   {
@@ -32296,11 +32296,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Welchen Stellenwert hat die Bündel3-Ebene im Fünfersystem, also 5³?",
+    "question": "Welchen Stellenwert hat die Bündel3-Ebene im Fünfersystem, also $5^3$?",
     "answer": 125,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Bündel3-Ebene entspricht 5³ = 125. 📄 Quelle: skript03_clean, Folie 8 (S.8)",
+    "explanation": "Die Bündel3-Ebene entspricht $5^3 = 125$. 📄 Quelle: skript03_clean, Folie 8 (S.8)",
     "source": "skript03_clean, Folie 8 (S.8, Arithmetik)"
   },
   {
@@ -32308,17 +32308,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 3,
     "type": "single",
-    "question": "Wie lautet das Ergebnis von (133)_4 + (201)_4 im Vierer-System?",
+    "question": "Wie lautet das Ergebnis von $(133)_4 + (201)_4$ im Vierer-System?",
     "options": [
-      "(1000)_4",
-      "(334)_4",
-      "(1000)_10",
-      "(310)_4"
+      "$(1000)_4$",
+      "$(334)_4$",
+      "$(1000)_{10}$",
+      "$(310)_4$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Schriftlich mit 4er-Übergang: 3+1=10_4 (0, Übertrag 1); 3+0+1=10_4 (0, Übertrag 1); 1+2+1=10_4 (0, Übertrag 1) → (1000)_4. Kontrolle: (133)_4=31, (201)_4=33, 31+33=64=(1000)_4. 📄 Quelle: skript03_clean, Folie 9 (S.9)",
+    "explanation": "Schriftlich mit 4er-Übergang: $3+1=10_4$ (0, Übertrag 1); $3+0+1=10_4$ (0, Übertrag 1); $1+2+1=10_4$ (0, Übertrag 1) $\\to (1000)_4$. Kontrolle: $(133)_4=31$, $(201)_4=33$, $31+33=64=(1000)_4$. 📄 Quelle: skript03_clean, Folie 9 (S.9)",
     "source": "skript03_clean, Folie 9 (S.9, Arithmetik)"
   },
   {
@@ -32326,11 +32326,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Welchen Zehnersystem-Wert hat (133)_4?",
+    "question": "Welchen Zehnersystem-Wert hat $(133)_4$?",
     "answer": 31,
     "tolerance": 0,
     "unit": "",
-    "explanation": "(133)_4 = 1·4² + 3·4¹ + 3·4⁰ = 16 + 12 + 3 = 31. 📄 Quelle: skript03_clean, Folie 9 (S.9)",
+    "explanation": "$(133)_4 = 1 \\cdot 4^2 + 3 \\cdot 4^1 + 3 \\cdot 4^0 = 16 + 12 + 3 = 31$. 📄 Quelle: skript03_clean, Folie 9 (S.9)",
     "source": "skript03_clean, Folie 9 (S.9, Arithmetik)"
   },
   {
@@ -32356,17 +32356,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 3,
     "type": "single",
-    "question": "Wie lautet das Ergebnis von (301)_4 − (23)_4 im Vierer-System?",
+    "question": "Wie lautet das Ergebnis von $(301)_4 - (23)_4$ im Vierer-System?",
     "options": [
-      "(212)_4",
-      "(222)_4",
-      "(112)_4",
-      "(232)_4"
+      "$(212)_4$",
+      "$(222)_4$",
+      "$(112)_4$",
+      "$(232)_4$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Schriftlich mit 4er-Entbündelung ergibt sich (212)_4. Kontrolle: (301)_4=49, (23)_4=11, 49−11=38=(212)_4. 📄 Quelle: skript03_clean, Folie 10 (S.10)",
+    "explanation": "Schriftlich mit 4er-Entbündelung ergibt sich $(212)_4$. Kontrolle: $(301)_4=49$, $(23)_4=11$, $49-11=38=(212)_4$. 📄 Quelle: skript03_clean, Folie 10 (S.10)",
     "source": "skript03_clean, Folie 10 (S.10, Arithmetik)"
   },
   {
@@ -32374,11 +32374,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Welchen Zehnersystem-Wert hat der Minuend (301)_4?",
+    "question": "Welchen Zehnersystem-Wert hat der Minuend $(301)_4$?",
     "answer": 49,
     "tolerance": 0,
     "unit": "",
-    "explanation": "(301)_4 = 3·4² + 0·4¹ + 1·4⁰ = 48 + 0 + 1 = 49. 📄 Quelle: skript03_clean, Folie 10 (S.10)",
+    "explanation": "$(301)_4 = 3 \\cdot 4^2 + 0 \\cdot 4^1 + 1 \\cdot 4^0 = 48 + 0 + 1 = 49$. 📄 Quelle: skript03_clean, Folie 10 (S.10)",
     "source": "skript03_clean, Folie 10 (S.10, Arithmetik)"
   },
   {
@@ -32386,11 +32386,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 3,
     "type": "numeric",
-    "question": "Berechnen Sie (301)_4 − (23)_4 und geben Sie das Ergebnis im Zehnersystem an.",
+    "question": "Berechnen Sie $(301)_4 - (23)_4$ und geben Sie das Ergebnis im Zehnersystem an.",
     "answer": 38,
     "tolerance": 0,
     "unit": "",
-    "explanation": "(301)_4=49, (23)_4=11, 49−11=38 (= (212)_4). 📄 Quelle: skript03_clean, Folie 10 (S.10)",
+    "explanation": "$(301)_4=49$, $(23)_4=11$, $49-11=38$ (= $(212)_4$). 📄 Quelle: skript03_clean, Folie 10 (S.10)",
     "source": "skript03_clean, Folie 10 (S.10, Arithmetik)"
   },
   {
@@ -32398,17 +32398,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 3,
     "type": "single",
-    "question": "Wie lautet das Ergebnis von (23)_4 · (12)_4 im Vierer-System?",
+    "question": "Wie lautet das Ergebnis von $(23)_4 \\cdot (12)_4$ im Vierer-System?",
     "options": [
-      "(1002)_4",
-      "(276)_4",
-      "(1010)_4",
-      "(132)_4"
+      "$(1002)_4$",
+      "$(276)_4$",
+      "$(1010)_4$",
+      "$(132)_4$"
     ],
     "correct": [
       0
     ],
-    "explanation": "(23)_4=11, (12)_4=6, 11·6=66=(1002)_4. Schriftlich: 23_4·2=(112)_4, 23_4·1 (verschoben)=(230)_4, Summe (1002)_4. 📄 Quelle: skript03_clean, Folie 11 (S.11)",
+    "explanation": "$(23)_4=11$, $(12)_4=6$, $11 \\cdot 6=66=(1002)_4$. Schriftlich: $23_4 \\cdot 2=(112)_4$, $23_4 \\cdot 1$ (verschoben)$=(230)_4$, Summe $(1002)_4$. 📄 Quelle: skript03_clean, Folie 11 (S.11)",
     "source": "skript03_clean, Folie 11 (S.11, Arithmetik)"
   },
   {
@@ -32416,11 +32416,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 3,
     "type": "numeric",
-    "question": "Berechnen Sie (23)_4 · (12)_4 und geben Sie das Ergebnis im Zehnersystem an.",
+    "question": "Berechnen Sie $(23)_4 \\cdot (12)_4$ und geben Sie das Ergebnis im Zehnersystem an.",
     "answer": 66,
     "tolerance": 0,
     "unit": "",
-    "explanation": "(23)_4=11, (12)_4=6, 11·6=66 (= (1002)_4). 📄 Quelle: skript03_clean, Folie 11 (S.11)",
+    "explanation": "$(23)_4=11$, $(12)_4=6$, $11 \\cdot 6=66$ (= $(1002)_4$). 📄 Quelle: skript03_clean, Folie 11 (S.11)",
     "source": "skript03_clean, Folie 11 (S.11, Arithmetik)"
   },
   {
@@ -32428,17 +32428,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 3,
     "type": "single",
-    "question": "Wie lautet das Ergebnis von (11322)_4 : (21)_4 im Vierer-System?",
+    "question": "Wie lautet das Ergebnis von $(11322)_4 : (21)_4$ im Vierer-System?",
     "options": [
-      "(222)_4",
-      "(212)_4",
-      "(1102)_4",
-      "(232)_4"
+      "$(222)_4$",
+      "$(212)_4$",
+      "$(1102)_4$",
+      "$(232)_4$"
     ],
     "correct": [
       0
     ],
-    "explanation": "(11322)_4=378, (21)_4=9, 378:9=42=(222)_4. 📄 Quelle: skript03_clean, Folie 12 (S.12)",
+    "explanation": "$(11322)_4=378$, $(21)_4=9$, $378:9=42=(222)_4$. 📄 Quelle: skript03_clean, Folie 12 (S.12)",
     "source": "skript03_clean, Folie 12 (S.12, Arithmetik)"
   },
   {
@@ -32446,11 +32446,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Welchen Zehnersystem-Wert hat der Divisor (21)_4?",
+    "question": "Welchen Zehnersystem-Wert hat der Divisor $(21)_4$?",
     "answer": 9,
     "tolerance": 0,
     "unit": "",
-    "explanation": "(21)_4 = 2·4¹ + 1·4⁰ = 8 + 1 = 9. 📄 Quelle: skript03_clean, Folie 12 (S.12)",
+    "explanation": "$(21)_4 = 2 \\cdot 4^1 + 1 \\cdot 4^0 = 8 + 1 = 9$. 📄 Quelle: skript03_clean, Folie 12 (S.12)",
     "source": "skript03_clean, Folie 12 (S.12, Arithmetik)"
   },
   {
@@ -32458,11 +32458,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 3,
     "type": "numeric",
-    "question": "Berechnen Sie (11322)_4 : (21)_4 und geben Sie den Quotienten im Zehnersystem an.",
+    "question": "Berechnen Sie $(11322)_4 : (21)_4$ und geben Sie den Quotienten im Zehnersystem an.",
     "answer": 42,
     "tolerance": 0,
     "unit": "",
-    "explanation": "(11322)_4 = 256+64+48+8+2 = 378, (21)_4 = 9, 378:9 = 42 (= (222)_4). 📄 Quelle: skript03_clean, Folie 12 (S.12)",
+    "explanation": "$(11322)_4 = 256+64+48+8+2 = 378$, $(21)_4 = 9$, $378:9 = 42$ (= $(222)_4$). 📄 Quelle: skript03_clean, Folie 12 (S.12)",
     "source": "skript03_clean, Folie 12 (S.12, Arithmetik)"
   },
   {
@@ -32470,18 +32470,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 1,
     "type": "multi",
-    "question": "Betrachtet wird die Folge 1, 4, 7, 10, … . Welche Terme beschreiben die n-te Zahl a(n) korrekt?",
+    "question": "Betrachtet wird die Folge 1, 4, 7, 10, … . Welche Terme beschreiben die n-te Zahl $a(n)$ korrekt?",
     "options": [
-      "a(n) = 3n − 2",
-      "a(n) = 2·n + (n − 2)",
-      "a(n) = 3n + 2",
-      "a(n) = n + 3"
+      "$a(n) = 3n - 2$",
+      "$a(n) = 2 \\cdot n + (n - 2)$",
+      "$a(n) = 3n + 2$",
+      "$a(n) = n + 3$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Auf der Folie wird a(n) = 2·n + (n − 2) = 2n + n − 2 = 3n − 2 hergeleitet; beide Formen sind gleichwertig. 📄 Quelle: skript03_live, Folie 7 (S.1)",
+    "explanation": "Auf der Folie wird $a(n) = 2 \\cdot n + (n - 2) = 2n + n - 2 = 3n - 2$ hergeleitet; beide Formen sind gleichwertig. 📄 Quelle: skript03_live, Folie 7 (S.1)",
     "source": "skript03_live, Folie 7 (S.1, Arithmetik: Rückblick Entdeckung)"
   },
   {
@@ -32489,11 +32489,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechne mit der Bildungsvorschrift a(n) = 3n − 2 das zehnte Folgenglied a(10) der Folge 1, 4, 7, 10, … .",
+    "question": "Berechne mit der Bildungsvorschrift $a(n) = 3n - 2$ das zehnte Folgenglied $a(10)$ der Folge 1, 4, 7, 10, … .",
     "answer": 28,
     "tolerance": 0,
     "unit": "",
-    "explanation": "a(10) = 3·10 − 2 = 28; dies stimmt mit der Tabelle a(10) = 28 auf der Folie überein. 📄 Quelle: skript03_live, Folie 7 (S.1)",
+    "explanation": "$a(10) = 3 \\cdot 10 - 2 = 28$; dies stimmt mit der Tabelle $a(10) = 28$ auf der Folie überein. 📄 Quelle: skript03_live, Folie 7 (S.1)",
     "source": "skript03_live, Folie 7 (S.1, Arithmetik: Rückblick Entdeckung)"
   },
   {
@@ -32501,17 +32501,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lautet der Satz für die Summe S_n der ersten n Glieder der Folge 1, 4, 7, 10, …, also S_n = 1 + 4 + 7 + 10 + … + (3n − 2)?",
+    "question": "Wie lautet der Satz für die Summe $S_n$ der ersten $n$ Glieder der Folge 1, 4, 7, 10, …, also $S_n = 1 + 4 + 7 + 10 + \\dots + (3n - 2)$?",
     "options": [
-      "S_n = n/2 · (3n − 1)",
-      "S_n = n/2 · (3n − 2)",
-      "S_n = n · (3n − 1)",
-      "S_n = (n − 1)/2 · 3n"
+      "$S_n = \\frac{n}{2} \\cdot (3n - 1)$",
+      "$S_n = \\frac{n}{2} \\cdot (3n - 2)$",
+      "$S_n = n \\cdot (3n - 1)$",
+      "$S_n = \\frac{n - 1}{2} \\cdot 3n$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Satz auf der Folie lautet: Wenn S_n = 1 + 4 + 7 + 10 + … + (3n − 2), dann ist S_n = n/2 · (3n − 1). 📄 Quelle: skript03_live, Folie 7 (S.1)",
+    "explanation": "Der Satz auf der Folie lautet: Wenn $S_n = 1 + 4 + 7 + 10 + \\dots + (3n - 2)$, dann ist $S_n = \\frac{n}{2} \\cdot (3n - 1)$. 📄 Quelle: skript03_live, Folie 7 (S.1)",
     "source": "skript03_live, Folie 7 (S.1, Arithmetik: Rückblick Entdeckung, Satz)"
   },
   {
@@ -32519,11 +32519,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Berechne mit der Summenformel S_n = n/2 · (3n − 1) den Wert S_3 (Summe der ersten drei Glieder von 1, 4, 7, 10, …).",
+    "question": "Berechne mit der Summenformel $S_n = \\frac{n}{2} \\cdot (3n - 1)$ den Wert $S_3$ (Summe der ersten drei Glieder von 1, 4, 7, 10, …).",
     "answer": 12,
     "tolerance": 0,
     "unit": "",
-    "explanation": "S_3 = 3/2 · (3·3 − 1) = 3/2 · 8 = 12; auf der Folie als Überprüfung für ungerades n gerechnet. 📄 Quelle: skript03_live, Folie 7 (S.1)",
+    "explanation": "$S_3 = \\frac{3}{2} \\cdot (3 \\cdot 3 - 1) = \\frac{3}{2} \\cdot 8 = 12$; auf der Folie als Überprüfung für ungerades $n$ gerechnet. 📄 Quelle: skript03_live, Folie 7 (S.1)",
     "source": "skript03_live, Folie 7 (S.1, Arithmetik: Rückblick Entdeckung)"
   },
   {
@@ -32533,17 +32533,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Aus welchen Schritten besteht ein Beweis durch vollständige Induktion?",
     "options": [
-      "Induktionsanfang (zu zeigen: der Satz ist wahr für n = 1)",
-      "Induktionsvoraussetzung (Annahme: der Satz ist wahr für ein beliebiges, aber festes n)",
-      "Induktionsschritt n → (n+1)",
-      "Induktionsende (zu zeigen: der Satz ist falsch für n = 0)"
+      "Induktionsanfang (zu zeigen: der Satz ist wahr für $n = 1$)",
+      "Induktionsvoraussetzung (Annahme: der Satz ist wahr für ein beliebiges, aber festes $n$)",
+      "Induktionsschritt $n \\to (n+1)$",
+      "Induktionsende (zu zeigen: der Satz ist falsch für $n = 0$)"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie nennt Induktionsanfang (n = 1), Induktionsvoraussetzung (Annahme für beliebiges, festes n) und Induktionsschritt n → (n+1); einen 'Induktionsende'-Schritt gibt es nicht. 📄 Quelle: skript03_live, Folie 9 (S.2)",
+    "explanation": "Die Folie nennt Induktionsanfang ($n = 1$), Induktionsvoraussetzung (Annahme für beliebiges, festes $n$) und Induktionsschritt $n \\to (n+1)$; einen 'Induktionsende'-Schritt gibt es nicht. 📄 Quelle: skript03_live, Folie 9 (S.2)",
     "source": "skript03_live, Folie 9 (S.2, Vollständige Induktion – Übung)"
   },
   {
@@ -32551,11 +32551,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "vollstaendige_induktion",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Induktionsanfang für den Satz S_n = n·(3n − 1)/2: Berechne den Wert der rechten Seite für n = 1.",
+    "question": "Induktionsanfang für den Satz $S_n = \\frac{n \\cdot (3n - 1)}{2}$: Berechne den Wert der rechten Seite für $n = 1$.",
     "answer": 1,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Für n = 1: 1·(3·1 − 1)/2 = 1·2/2 = 1, also linke Seite S(1) = 1 = rechte Seite. 📄 Quelle: skript03_live, Folie 9 (S.2)",
+    "explanation": "Für $n = 1$: $\\frac{1 \\cdot (3 \\cdot 1 - 1)}{2} = \\frac{1 \\cdot 2}{2} = 1$, also linke Seite $S(1) = 1 =$ rechte Seite. 📄 Quelle: skript03_live, Folie 9 (S.2)",
     "source": "skript03_live, Folie 9 (S.2, Vollständige Induktion – Induktionsanfang)"
   },
   {
@@ -32565,15 +32565,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Was besagt die Induktionsvoraussetzung in diesem Beweis?",
     "options": [
-      "Der Satz ist wahr für ein beliebiges, aber festes n.",
-      "Der Satz ist wahr für alle n gleichzeitig.",
-      "Der Satz ist wahr für n = 1.",
-      "Der Satz ist wahr für n + 1."
+      "Der Satz ist wahr für ein beliebiges, aber festes $n$.",
+      "Der Satz ist wahr für alle $n$ gleichzeitig.",
+      "Der Satz ist wahr für $n = 1$.",
+      "Der Satz ist wahr für $n + 1$."
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Induktionsvoraussetzung ist die Annahme, dass der Satz für ein beliebiges, aber festes n wahr ist (A(n) darf benutzt werden). 📄 Quelle: skript03_live, Folie 9 (S.2)",
+    "explanation": "Die Induktionsvoraussetzung ist die Annahme, dass der Satz für ein beliebiges, aber festes $n$ wahr ist ($A(n)$ darf benutzt werden). 📄 Quelle: skript03_live, Folie 9 (S.2)",
     "source": "skript03_live, Folie 9 (S.2, Vollständige Induktion – Induktionsvoraussetzung)"
   },
   {
@@ -32581,17 +32581,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "vollstaendige_induktion",
     "difficulty": 1,
     "type": "single",
-    "question": "Welcher Tipp hilft beim Induktionsschritt n → (n+1)?",
+    "question": "Welcher Tipp hilft beim Induktionsschritt $n \\to (n+1)$?",
     "options": [
-      "Starte damit, A(n+1) aufzuschreiben.",
-      "Starte damit, A(n−1) aufzuschreiben.",
-      "Setze sofort n = 1 ein.",
-      "Beweise zuerst den Induktionsanfang für n = 2."
+      "Starte damit, $A(n+1)$ aufzuschreiben.",
+      "Starte damit, $A(n-1)$ aufzuschreiben.",
+      "Setze sofort $n = 1$ ein.",
+      "Beweise zuerst den Induktionsanfang für $n = 2$."
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Tipp auf der Folie lautet: 'Starte damit A(n+1) aufzuschreiben!' 📄 Quelle: skript03_live, Folie 9 (S.2)",
+    "explanation": "Der Tipp auf der Folie lautet: 'Starte damit $A(n+1)$ aufzuschreiben!' 📄 Quelle: skript03_live, Folie 9 (S.2)",
     "source": "skript03_live, Folie 9 (S.2, Vollständige Induktion – Induktionsschritt)"
   },
   {
@@ -32599,11 +32599,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "folgen_fibonacci",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Die veränderte Fibonacci-Folge hat die Startzahlen f̃₁ = 4, f̃₂ = 7 und die Regel f̃ₙ = f̃ₙ₋₂ + f̃ₙ₋₁ (für n > 2). Berechne f̃₅.",
+    "question": "Die veränderte Fibonacci-Folge hat die Startzahlen $\\tilde{f}_1 = 4$, $\\tilde{f}_2 = 7$ und die Regel $\\tilde{f}_n = \\tilde{f}_{n-2} + \\tilde{f}_{n-1}$ (für $n > 2$). Berechne $\\tilde{f}_5$.",
     "answer": 29,
     "tolerance": 0,
     "unit": "",
-    "explanation": "f̃₃ = 4 + 7 = 11, f̃₄ = 7 + 11 = 18, f̃₅ = 11 + 18 = 29; die neue Folge lautet 4, 7, 11, 18, 29, 47, 76, … 📄 Quelle: skript03_live, Folie 11 (S.3)",
+    "explanation": "$\\tilde{f}_3 = 4 + 7 = 11$, $\\tilde{f}_4 = 7 + 11 = 18$, $\\tilde{f}_5 = 11 + 18 = 29$; die neue Folge lautet 4, 7, 11, 18, 29, 47, 76, … 📄 Quelle: skript03_live, Folie 11 (S.3)",
     "source": "skript03_live, Folie 11 (S.3, Erkundung II)"
   },
   {
@@ -32611,18 +32611,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "folgen_fibonacci",
     "difficulty": 2,
     "type": "multi",
-    "question": "Für die veränderte Fibonacci-Folge mit f̃₁ = 4, f̃₂ = 7 sei S̃ₙ = f̃₁ + f̃₂ + … + f̃ₙ. Welcher Zusammenhang zwischen S̃ₙ und f̃ₙ gilt?",
+    "question": "Für die veränderte Fibonacci-Folge mit $\\tilde{f}_1 = 4$, $\\tilde{f}_2 = 7$ sei $\\tilde{S}_n = \\tilde{f}_1 + \\tilde{f}_2 + \\dots + \\tilde{f}_n$. Welcher Zusammenhang zwischen $\\tilde{S}_n$ und $\\tilde{f}_n$ gilt?",
     "options": [
-      "S̃ₙ + 7 = f̃ₙ₊₂",
-      "S̃ₙ = f̃ₙ₊₂ − 7",
-      "S̃ₙ = f̃ₙ₊₂ + 7",
-      "S̃ₙ = f̃ₙ − 7"
+      "$\\tilde{S}_n + 7 = \\tilde{f}_{n+2}$",
+      "$\\tilde{S}_n = \\tilde{f}_{n+2} - 7$",
+      "$\\tilde{S}_n = \\tilde{f}_{n+2} + 7$",
+      "$\\tilde{S}_n = \\tilde{f}_n - 7$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Aus S̃₁ + 7 = f̃₃, S̃₂ + 7 = f̃₄, … verallgemeinert die Folie zu S̃ₙ + 7 = f̃ₙ₊₂, gleichbedeutend mit S̃ₙ = f̃ₙ₊₂ − 7. 📄 Quelle: skript03_live, Folie 11 (S.3)",
+    "explanation": "Aus $\\tilde{S}_1 + 7 = \\tilde{f}_3$, $\\tilde{S}_2 + 7 = \\tilde{f}_4$, … verallgemeinert die Folie zu $\\tilde{S}_n + 7 = \\tilde{f}_{n+2}$, gleichbedeutend mit $\\tilde{S}_n = \\tilde{f}_{n+2} - 7$. 📄 Quelle: skript03_live, Folie 11 (S.3)",
     "source": "skript03_live, Folie 11 (S.3, Erkundung II)"
   },
   {
@@ -32630,17 +32630,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "folgen_fibonacci",
     "difficulty": 3,
     "type": "single",
-    "question": "Wie lässt sich das n-te Glied der veränderten Fibonacci-Folge mit gewöhnlichen Fibonacci-Zahlen fₙ und beliebigen Startzahlen s₁, s₂ ausdrücken?",
+    "question": "Wie lässt sich das n-te Glied der veränderten Fibonacci-Folge mit gewöhnlichen Fibonacci-Zahlen $f_n$ und beliebigen Startzahlen $s_1$, $s_2$ ausdrücken?",
     "options": [
-      "f̃ₙ = fₙ₋₂ · s₁ + fₙ₋₁ · s₂",
-      "f̃ₙ = fₙ₋₁ · s₁ + fₙ₋₂ · s₂",
-      "f̃ₙ = fₙ · s₁ + fₙ₊₁ · s₂",
-      "f̃ₙ = fₙ₋₂ + fₙ₋₁"
+      "$\\tilde{f}_n = f_{n-2} \\cdot s_1 + f_{n-1} \\cdot s_2$",
+      "$\\tilde{f}_n = f_{n-1} \\cdot s_1 + f_{n-2} \\cdot s_2$",
+      "$\\tilde{f}_n = f_n \\cdot s_1 + f_{n+1} \\cdot s_2$",
+      "$\\tilde{f}_n = f_{n-2} + f_{n-1}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie hält allgemein für beliebige Startzahlen s₁ und s₂ fest: f̃ₙ := fₙ₋₂ · s₁ + fₙ₋₁ · s₂. 📄 Quelle: skript03_live, Folie 11 (S.3)",
+    "explanation": "Die Folie hält allgemein für beliebige Startzahlen $s_1$ und $s_2$ fest: $\\tilde{f}_n := f_{n-2} \\cdot s_1 + f_{n-1} \\cdot s_2$. 📄 Quelle: skript03_live, Folie 11 (S.3)",
     "source": "skript03_live, Folie 11 (S.3, Erkundung II)"
   },
   {
@@ -32648,11 +32648,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "folgen_fibonacci",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Mit f̃ₙ = fₙ₋₂·4 + fₙ₋₁·7 (gewöhnliche Fibonacci-Zahlen f₁=1, f₂=1, f₃=2, f₄=3, f₅=5, …): Berechne f̃₆ = f₄·4 + f₅·7.",
+    "question": "Mit $\\tilde{f}_n = f_{n-2} \\cdot 4 + f_{n-1} \\cdot 7$ (gewöhnliche Fibonacci-Zahlen $f_1 = 1$, $f_2 = 1$, $f_3 = 2$, $f_4 = 3$, $f_5 = 5$, …): Berechne $\\tilde{f}_6 = f_4 \\cdot 4 + f_5 \\cdot 7$.",
     "answer": 47,
     "tolerance": 0,
     "unit": "",
-    "explanation": "f̃₆ = f₄·4 + f₅·7 = 3·4 + 5·7 = 12 + 35 = 47; entspricht dem 6. Glied der neuen Folge 4, 7, 11, 18, 29, 47, … 📄 Quelle: skript03_live, Folie 11 (S.3)",
+    "explanation": "$\\tilde{f}_6 = f_4 \\cdot 4 + f_5 \\cdot 7 = 3 \\cdot 4 + 5 \\cdot 7 = 12 + 35 = 47$; entspricht dem 6. Glied der neuen Folge 4, 7, 11, 18, 29, 47, … 📄 Quelle: skript03_live, Folie 11 (S.3)",
     "source": "skript03_live, Folie 11 (S.3, Erkundung II)"
   },
   {
@@ -32660,17 +32660,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 3,
     "type": "single",
-    "question": "Wie lautet die Vermutung für die Summe S̃ₙ = f̃₁ + f̃₂ + … + f̃ₙ der veränderten Fibonacci-Folge (mit Startzahlen s₁, s₂)?",
+    "question": "Wie lautet die Vermutung für die Summe $\\tilde{S}_n = \\tilde{f}_1 + \\tilde{f}_2 + \\dots + \\tilde{f}_n$ der veränderten Fibonacci-Folge (mit Startzahlen $s_1$, $s_2$)?",
     "options": [
-      "S̃ₙ = fₙ · s₁ + (fₙ₊₁ − 1) · s₂",
-      "S̃ₙ = fₙ · s₁ + (fₙ₋₁ − 1) · s₂",
-      "S̃ₙ = fₙ₊₁ · s₁ + (fₙ − 1) · s₂",
-      "S̃ₙ = (fₙ − 1) · s₁ + fₙ₊₁ · s₂"
+      "$\\tilde{S}_n = f_n \\cdot s_1 + (f_{n+1} - 1) \\cdot s_2$",
+      "$\\tilde{S}_n = f_n \\cdot s_1 + (f_{n-1} - 1) \\cdot s_2$",
+      "$\\tilde{S}_n = f_{n+1} \\cdot s_1 + (f_n - 1) \\cdot s_2$",
+      "$\\tilde{S}_n = (f_n - 1) \\cdot s_1 + f_{n+1} \\cdot s_2$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Vermutung auf der Folie lautet S̃ₙ = fₙ·s₁ + (fₙ₊₁ − 1)·s₂ mit S̃ₙ = f̃₁ + f̃₂ + … + f̃ₙ. 📄 Quelle: skript03_live, Folie 16 (S.4)",
+    "explanation": "Die Vermutung auf der Folie lautet $\\tilde{S}_n = f_n \\cdot s_1 + (f_{n+1} - 1) \\cdot s_2$ mit $\\tilde{S}_n = \\tilde{f}_1 + \\tilde{f}_2 + \\dots + \\tilde{f}_n$. 📄 Quelle: skript03_live, Folie 16 (S.4)",
     "source": "skript03_live, Folie 16 (S.4, Erkundung II – Vermutung)"
   },
   {
@@ -32678,11 +32678,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Beispiel 1 (s₁ = 4, s₂ = 7): Berechne S̃₃ = f₃·s₁ + (f₄ − 1)·s₂ mit f₃ = 2 und f₄ = 3.",
+    "question": "Beispiel 1 ($s_1 = 4$, $s_2 = 7$): Berechne $\\tilde{S}_3 = f_3 \\cdot s_1 + (f_4 - 1) \\cdot s_2$ mit $f_3 = 2$ und $f_4 = 3$.",
     "answer": 22,
     "tolerance": 0,
     "unit": "",
-    "explanation": "S̃₃ = 2·4 + (3 − 1)·7 = 8 + 2·7 = 8 + 14 = 22 (auf der Folie mit ✓ bestätigt). 📄 Quelle: skript03_live, Folie 16 (S.4)",
+    "explanation": "$\\tilde{S}_3 = 2 \\cdot 4 + (3 - 1) \\cdot 7 = 8 + 2 \\cdot 7 = 8 + 14 = 22$ (auf der Folie mit ✓ bestätigt). 📄 Quelle: skript03_live, Folie 16 (S.4)",
     "source": "skript03_live, Folie 16 (S.4, Erkundung II – Beispiel 1)"
   },
   {
@@ -32690,11 +32690,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Beispiel 2 (n = 4, s₁ = 13, s₂ = 9): Berechne S̃₄ = f₄·s₁ + (f₅ − 1)·s₂ mit f₄ = 3 und f₅ = 5.",
+    "question": "Beispiel 2 ($n = 4$, $s_1 = 13$, $s_2 = 9$): Berechne $\\tilde{S}_4 = f_4 \\cdot s_1 + (f_5 - 1) \\cdot s_2$ mit $f_4 = 3$ und $f_5 = 5$.",
     "answer": 75,
     "tolerance": 0,
     "unit": "",
-    "explanation": "S̃₄ = 3·13 + (5 − 1)·9 = 39 + 36 = 75 (auf der Folie mit ✓ bestätigt). 📄 Quelle: skript03_live, Folie 16 (S.4)",
+    "explanation": "$\\tilde{S}_4 = 3 \\cdot 13 + (5 - 1) \\cdot 9 = 39 + 36 = 75$ (auf der Folie mit ✓ bestätigt). 📄 Quelle: skript03_live, Folie 16 (S.4)",
     "source": "skript03_live, Folie 16 (S.4, Erkundung II – Beispiel 2)"
   },
   {
@@ -32702,11 +32702,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "pascal_binomial",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechne die Fakultät 5! = 5·4·3·2·1.",
+    "question": "Berechne die Fakultät $5! = 5 \\cdot 4 \\cdot 3 \\cdot 2 \\cdot 1$.",
     "answer": 120,
     "tolerance": 0,
     "unit": "",
-    "explanation": "5! = 5·4·3·2·1 = 20·6 = 120. 📄 Quelle: skript03_live, Folie 39 (S.5)",
+    "explanation": "$5! = 5 \\cdot 4 \\cdot 3 \\cdot 2 \\cdot 1 = 20 \\cdot 6 = 120$. 📄 Quelle: skript03_live, Folie 39 (S.5)",
     "source": "skript03_live, Folie 39 (S.5, Erkundung 2 – neue Rechenzeichen)"
   },
   {
@@ -32714,17 +32714,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "pascal_binomial",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie ist der Binomialkoeffizient (n über k) definiert?",
+    "question": "Wie ist der Binomialkoeffizient $\\binom{n}{k}$ definiert?",
     "options": [
-      "(n über k) = n! / (k! · (n − k)!)",
-      "(n über k) = n! / (k! · n!)",
-      "(n über k) = (n − k)! / (k! · n!)",
-      "(n über k) = n! / (n − k)!"
+      "$\\binom{n}{k} = \\frac{n!}{k! \\cdot (n - k)!}$",
+      "$\\binom{n}{k} = \\frac{n!}{k! \\cdot n!}$",
+      "$\\binom{n}{k} = \\frac{(n - k)!}{k! \\cdot n!}$",
+      "$\\binom{n}{k} = \\frac{n!}{(n - k)!}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Definition auf der Folie: (n über k) := n! / (k! · (n − k)!), dabei ist n die Zeile und k die Spalte im Pascal'schen Dreieck. 📄 Quelle: skript03_live, Folie 39 (S.5)",
+    "explanation": "Definition auf der Folie: $\\binom{n}{k} := \\frac{n!}{k! \\cdot (n - k)!}$, dabei ist $n$ die Zeile und $k$ die Spalte im Pascal'schen Dreieck. 📄 Quelle: skript03_live, Folie 39 (S.5)",
     "source": "skript03_live, Folie 39 (S.5, Erkundung 2 – Binomialkoeffizient)"
   },
   {
@@ -32732,11 +32732,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "pascal_binomial",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechne den Binomialkoeffizienten (5 über 3) = 5! / (3! · (5 − 3)!).",
+    "question": "Berechne den Binomialkoeffizienten $\\binom{5}{3} = \\frac{5!}{3! \\cdot (5 - 3)!}$.",
     "answer": 10,
     "tolerance": 0,
     "unit": "",
-    "explanation": "(5 über 3) = 5! / (3!·2!) = (5·4·3·2·1)/((3·2·1)·(2·1)) = 20/2 = 10. 📄 Quelle: skript03_live, Folie 39 (S.5)",
+    "explanation": "$\\binom{5}{3} = \\frac{5!}{3! \\cdot 2!} = \\frac{5 \\cdot 4 \\cdot 3 \\cdot 2 \\cdot 1}{(3 \\cdot 2 \\cdot 1) \\cdot (2 \\cdot 1)} = \\frac{20}{2} = 10$. 📄 Quelle: skript03_live, Folie 39 (S.5)",
     "source": "skript03_live, Folie 39 (S.5, Erkundung 2 – Binomialkoeffizient)"
   },
   {
@@ -32746,15 +32746,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Da im Pascal'schen Dreieck jede Zahl durch die Summe der beiden darüber stehenden entsteht: Welche Gleichung gilt?",
     "options": [
-      "(n+1 über k+1) = (n über k) + (n über k+1)",
-      "(n+1 über k+1) = (n über k) · (n über k+1)",
-      "(n+1 über k+1) = (n über k) − (n über k+1)",
-      "(n über k) = (n+1 über k+1) + (n über k+1)"
+      "$\\binom{n+1}{k+1} = \\binom{n}{k} + \\binom{n}{k+1}$",
+      "$\\binom{n+1}{k+1} = \\binom{n}{k} \\cdot \\binom{n}{k+1}$",
+      "$\\binom{n+1}{k+1} = \\binom{n}{k} - \\binom{n}{k+1}$",
+      "$\\binom{n}{k} = \\binom{n+1}{k+1} + \\binom{n}{k+1}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie gibt die Rekursion des Pascal'schen Dreiecks an: (n+1 über k+1) = (n über k) + (n über k+1). 📄 Quelle: skript03_live, Folie 39 (S.5)",
+    "explanation": "Die Folie gibt die Rekursion des Pascal'schen Dreiecks an: $\\binom{n+1}{k+1} = \\binom{n}{k} + \\binom{n}{k+1}$. 📄 Quelle: skript03_live, Folie 39 (S.5)",
     "source": "skript03_live, Folie 39 (S.5, Erkundung 2 – Pascal'sches Dreieck)"
   },
   {
@@ -32762,11 +32762,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 3,
     "type": "numeric",
-    "question": "Rechnen Sie im 4er-System schriftlich: 23 · 12 (alle Zahlen im 4er-System). Geben Sie das Ergebnis als Ziffernfolge im 4er-System an.",
+    "question": "Rechnen Sie im 4er-System schriftlich: $23 \\cdot 12$ (alle Zahlen im 4er-System). Geben Sie das Ergebnis als Ziffernfolge im 4er-System an.",
     "answer": 1002,
     "tolerance": 0,
     "unit": "",
-    "explanation": "23 im 4er-System = 11, 12 im 4er-System = 6; 11·6 = 66, und 66 = 1002 im 4er-System (1·64 + 0·16 + 0·4 + 2). 📄 Quelle: skript04_clean, Folie 1 (S.1)",
+    "explanation": "23 im 4er-System = 11, 12 im 4er-System = 6; $11 \\cdot 6 = 66$, und 66 = 1002 im 4er-System $(1 \\cdot 64 + 0 \\cdot 16 + 0 \\cdot 4 + 2)$. 📄 Quelle: skript04_clean, Folie 1 (S.1)",
     "source": "skript04_clean, Folie 1 (S.1, Arithmetik – Rückblick)"
   },
   {
@@ -32774,11 +32774,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Berechnen Sie das Produkt 23 · 12, wobei beide Faktoren im 4er-System notiert sind, und übersetzen Sie es in das Zehnersystem: Welchen Wert hat das Produkt im Zehnersystem?",
+    "question": "Berechnen Sie das Produkt $23 \\cdot 12$, wobei beide Faktoren im 4er-System notiert sind, und übersetzen Sie es in das Zehnersystem: Welchen Wert hat das Produkt im Zehnersystem?",
     "answer": 66,
     "tolerance": 0,
     "unit": "",
-    "explanation": "23 (4er) = 11 und 12 (4er) = 6, also 11·6 = 66 im Zehnersystem; das entspricht 1002 im 4er-System. 📄 Quelle: skript04_clean, Folie 1 (S.1)",
+    "explanation": "23 (4er) = 11 und 12 (4er) = 6, also $11 \\cdot 6 = 66$ im Zehnersystem; das entspricht 1002 im 4er-System. 📄 Quelle: skript04_clean, Folie 1 (S.1)",
     "source": "skript04_clean, Folie 1 (S.1, Arithmetik – Rückblick)"
   },
   {
@@ -32790,7 +32790,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 222,
     "tolerance": 0,
     "unit": "",
-    "explanation": "11322 im 4er-System = 378, 21 im 4er-System = 9; 378 : 9 = 42 (Rest 0), und 42 = 222 im 4er-System (2·16 + 2·4 + 2). 📄 Quelle: skript04_clean, Folie 2 (S.2)",
+    "explanation": "11322 im 4er-System = 378, 21 im 4er-System = 9; 378 : 9 = 42 (Rest 0), und 42 = 222 im 4er-System $(2 \\cdot 16 + 2 \\cdot 4 + 2)$. 📄 Quelle: skript04_clean, Folie 2 (S.2)",
     "source": "skript04_clean, Folie 2 (S.2, Arithmetik – Rückblick)"
   },
   {
@@ -32868,18 +32868,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeit_primzahlen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Wann teilt eine natürliche Zahl a eine natürliche Zahl b (a | b) laut Definition? Welche Aussagen sind korrekt?",
+    "question": "Wann teilt eine natürliche Zahl a eine natürliche Zahl b ($a \\mid b$) laut Definition? Welche Aussagen sind korrekt?",
     "options": [
-      "Genau dann, wenn es eine natürliche Zahl c gibt, so dass a · c = b ist.",
+      "Genau dann, wenn es eine natürliche Zahl c gibt, so dass $a \\cdot c = b$ ist.",
       "a nennt man dann auch Teiler von b.",
-      "Genau dann, wenn es eine natürliche Zahl c gibt, so dass b · c = a ist.",
-      "Genau dann, wenn es eine natürliche Zahl c gibt, so dass a + c = b ist."
+      "Genau dann, wenn es eine natürliche Zahl c gibt, so dass $b \\cdot c = a$ ist.",
+      "Genau dann, wenn es eine natürliche Zahl c gibt, so dass $a + c = b$ ist."
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Laut Folie gilt a | b genau dann, wenn es eine natürliche Zahl c gibt mit a · c = b; a heißt dann auch Teiler von b. 📄 Quelle: skript04_clean, Folie 4 (S.4)",
+    "explanation": "Laut Folie gilt $a \\mid b$ genau dann, wenn es eine natürliche Zahl c gibt mit $a \\cdot c = b$; a heißt dann auch Teiler von b. 📄 Quelle: skript04_clean, Folie 4 (S.4)",
     "source": "skript04_clean, Folie 4 (S.4, Arithmetik – Folgerungen aus einer Definition)"
   },
   {
@@ -32887,11 +32887,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeit_primzahlen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Zeigen Sie allein mit der Definition der Teilbarkeit, dass 2 die Zahl 6 teilt: Welches c erfüllt 2 · c = 6?",
+    "question": "Zeigen Sie allein mit der Definition der Teilbarkeit, dass 2 die Zahl 6 teilt: Welches c erfüllt $2 \\cdot c = 6$?",
     "answer": 3,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Mit c = 3 gilt 2 · 3 = 6, also teilt 2 die Zahl 6. 📄 Quelle: skript04_clean, Folie 4 (S.4)",
+    "explanation": "Mit $c = 3$ gilt $2 \\cdot 3 = 6$, also teilt 2 die Zahl 6. 📄 Quelle: skript04_clean, Folie 4 (S.4)",
     "source": "skript04_clean, Folie 4 (S.4, Arithmetik – Folgerungen aus einer Definition)"
   },
   {
@@ -32899,11 +32899,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeit_primzahlen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Zeigen Sie allein mit der Definition der Teilbarkeit, dass 1 die Zahl 5 teilt: Welches c erfüllt 1 · c = 5?",
+    "question": "Zeigen Sie allein mit der Definition der Teilbarkeit, dass 1 die Zahl 5 teilt: Welches c erfüllt $1 \\cdot c = 5$?",
     "answer": 5,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Mit c = 5 gilt 1 · 5 = 5, also teilt 1 die Zahl 5. 📄 Quelle: skript04_clean, Folie 4 (S.4)",
+    "explanation": "Mit $c = 5$ gilt $1 \\cdot 5 = 5$, also teilt 1 die Zahl 5. 📄 Quelle: skript04_clean, Folie 4 (S.4)",
     "source": "skript04_clean, Folie 4 (S.4, Arithmetik – Folgerungen aus einer Definition)"
   },
   {
@@ -32911,11 +32911,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeit_primzahlen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Zeigen Sie allein mit der Definition der Teilbarkeit, dass 3 die Zahl 0 teilt: Welches c erfüllt 3 · c = 0?",
+    "question": "Zeigen Sie allein mit der Definition der Teilbarkeit, dass 3 die Zahl 0 teilt: Welches c erfüllt $3 \\cdot c = 0$?",
     "answer": 0,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Mit c = 0 gilt 3 · 0 = 0, also teilt 3 die Zahl 0. 📄 Quelle: skript04_clean, Folie 4 (S.4)",
+    "explanation": "Mit $c = 0$ gilt $3 \\cdot 0 = 0$, also teilt 3 die Zahl 0. 📄 Quelle: skript04_clean, Folie 4 (S.4)",
     "source": "skript04_clean, Folie 4 (S.4, Arithmetik – Folgerungen aus einer Definition)"
   },
   {
@@ -32925,17 +32925,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche allgemeinen Aussagen lassen sich allein mit der Definition der Teilbarkeit begründen?",
     "options": [
-      "1 teilt jede natürliche Zahl b (mit c = b).",
-      "Jede natürliche Zahl b teilt sich selbst (mit c = 1).",
-      "Jede natürliche Zahl a teilt 0 (mit c = 0).",
-      "0 teilt jede natürliche Zahl b > 0."
+      "1 teilt jede natürliche Zahl b (mit $c = b$).",
+      "Jede natürliche Zahl b teilt sich selbst (mit $c = 1$).",
+      "Jede natürliche Zahl a teilt 0 (mit $c = 0$).",
+      "0 teilt jede natürliche Zahl $b > 0$."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "1 teilt jede Zahl b (1 · b = b), jede Zahl b teilt sich selbst (b · 1 = b) und jede Zahl a teilt 0 (a · 0 = 0). Dagegen teilt 0 keine Zahl b > 0. 📄 Quelle: skript04_clean, Folie 5 (S.5)",
+    "explanation": "1 teilt jede Zahl b ($1 \\cdot b = b$), jede Zahl b teilt sich selbst ($b \\cdot 1 = b$) und jede Zahl a teilt 0 ($a \\cdot 0 = 0$). Dagegen teilt 0 keine Zahl $b > 0$. 📄 Quelle: skript04_clean, Folie 5 (S.5)",
     "source": "skript04_clean, Folie 5 (S.5, Arithmetik – Folgerungen aus einer Definition)"
   },
   {
@@ -32943,11 +32943,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeit_primzahlen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Mit welchem c zeigt man, dass eine beliebige natürliche Zahl a die 0 teilt (a · c = 0)?",
+    "question": "Mit welchem c zeigt man, dass eine beliebige natürliche Zahl a die 0 teilt ($a \\cdot c = 0$)?",
     "answer": 0,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Mit c = 0 gilt a · 0 = 0, also teilt jede natürliche Zahl a die 0. 📄 Quelle: skript04_clean, Folie 5 (S.5)",
+    "explanation": "Mit $c = 0$ gilt $a \\cdot 0 = 0$, also teilt jede natürliche Zahl a die 0. 📄 Quelle: skript04_clean, Folie 5 (S.5)",
     "source": "skript04_clean, Folie 5 (S.5, Arithmetik – Folgerungen aus einer Definition)"
   },
   {
@@ -32955,17 +32955,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeit_primzahlen",
     "difficulty": 2,
     "type": "single",
-    "question": "Warum teilt 0 keine natürliche Zahl b > 0 (Begründung allein mit der Definition)?",
+    "question": "Warum teilt 0 keine natürliche Zahl $b > 0$ (Begründung allein mit der Definition)?",
     "options": [
-      "Weil es keine natürliche Zahl c gibt mit 0 · c = b, denn 0 · c = 0 ≠ b.",
+      "Weil es keine natürliche Zahl c gibt mit $0 \\cdot c = b$, denn $0 \\cdot c = 0 \\ne b$.",
       "Weil 0 keine natürliche Zahl ist.",
-      "Weil eine Zahl b > 0 gar keine Teiler besitzt.",
+      "Weil eine Zahl $b > 0$ gar keine Teiler besitzt.",
       "Weil man durch 0 nicht dividieren darf."
     ],
     "correct": [
       0
     ],
-    "explanation": "Nach Definition müsste ein c mit 0 · c = b existieren; da aber 0 · c = 0 für jedes c, kann für b > 0 nie 0 · c = b gelten. 📄 Quelle: skript04_clean, Folie 5 (S.5)",
+    "explanation": "Nach Definition müsste ein c mit $0 \\cdot c = b$ existieren; da aber $0 \\cdot c = 0$ für jedes c, kann für $b > 0$ nie $0 \\cdot c = b$ gelten. 📄 Quelle: skript04_clean, Folie 5 (S.5)",
     "source": "skript04_clean, Folie 5 (S.5, Arithmetik – Folgerungen aus einer Definition)"
   },
   {
@@ -33011,11 +33011,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "folgen_fibonacci",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Für die modifizierte Fibonacci-Folge gilt f̃₁=4, f̃₂=7 und f̃ₙ=f̃ₙ₋₂+f̃ₙ₋₁ für n>2. Berechnen Sie f̃₃.",
+    "question": "Für die modifizierte Fibonacci-Folge gilt $\\tilde{f}_1=4$, $\\tilde{f}_2=7$ und $\\tilde{f}_n=\\tilde{f}_{n-2}+\\tilde{f}_{n-1}$ für $n>2$. Berechnen Sie $\\tilde{f}_3$.",
     "answer": 11,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Nach der Bildungsregel gilt f̃₃ = f̃₁ + f̃₂ = 4 + 7 = 11. 📄 Quelle: skript04_live, Folie 9 (S.1)",
+    "explanation": "Nach der Bildungsregel gilt $\\tilde{f}_3 = \\tilde{f}_1 + \\tilde{f}_2 = 4 + 7 = 11$. 📄 Quelle: skript04_live, Folie 9 (S.1)",
     "source": "skript04_live, Folie 9 (S.1, Arithmetik)"
   },
   {
@@ -33023,11 +33023,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "folgen_fibonacci",
     "difficulty": 2,
     "type": "multi",
-    "question": "Der Satz zur Summe S̃ₙ der ersten n modifizierten Fibonacci-Zahlen lautet: S̃ₙ = fₙ·s₁ + (fₙ₊₁−1)·s₂. Welche Aussagen dazu treffen zu?",
+    "question": "Der Satz zur Summe $\\tilde{S}_n$ der ersten n modifizierten Fibonacci-Zahlen lautet: $\\tilde{S}_n = f_n \\cdot s_1 + (f_{n+1}-1) \\cdot s_2$. Welche Aussagen dazu treffen zu?",
     "options": [
-      "s₁ und s₂ sind die Startzahlen der modifizierten Fibonacci-Folge, also s₁=f̃₁ und s₂=f̃₂.",
-      "fₙ bezeichnet die Zahlen der ursprünglichen Fibonacci-Folge.",
-      "S̃ₙ = f̃₁+f̃₂+f̃₃+...+f̃ₙ₋₁+f̃ₙ (Summe der ersten n modifizierten Fibonacci-Zahlen).",
+      "$s_1$ und $s_2$ sind die Startzahlen der modifizierten Fibonacci-Folge, also $s_1=\\tilde{f}_1$ und $s_2=\\tilde{f}_2$.",
+      "$f_n$ bezeichnet die Zahlen der ursprünglichen Fibonacci-Folge.",
+      "$\\tilde{S}_n = \\tilde{f}_1+\\tilde{f}_2+\\tilde{f}_3+\\dots+\\tilde{f}_{n-1}+\\tilde{f}_n$ (Summe der ersten n modifizierten Fibonacci-Zahlen).",
       "Der Satz gilt nur für gerade natürliche Zahlen n."
     ],
     "correct": [
@@ -33035,7 +33035,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Der Satz gilt für alle natürlichen Zahlen n; s₁=f̃₁, s₂=f̃₂ sind die Startzahlen, S̃ₙ ist die Summe der ersten n modifizierten Fibonacci-Zahlen und fₙ sind die ursprünglichen Fibonacci-Zahlen. 📄 Quelle: skript04_live, Folie 9 (S.1)",
+    "explanation": "Der Satz gilt für alle natürlichen Zahlen n; $s_1=\\tilde{f}_1$, $s_2=\\tilde{f}_2$ sind die Startzahlen, $\\tilde{S}_n$ ist die Summe der ersten n modifizierten Fibonacci-Zahlen und $f_n$ sind die ursprünglichen Fibonacci-Zahlen. 📄 Quelle: skript04_live, Folie 9 (S.1)",
     "source": "skript04_live, Folie 9 (S.1, Arithmetik)"
   },
   {
@@ -33043,19 +33043,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "folgen_fibonacci",
     "difficulty": 3,
     "type": "multi",
-    "question": "Im Induktionsschritt (n→n+1) des handschriftlichen Beweises von S̃ₙ₊₁ = fₙ₊₁·s₁ + (fₙ₊₂−1)·s₂ werden welche Beziehungen verwendet?",
+    "question": "Im Induktionsschritt $(n \\to n+1)$ des handschriftlichen Beweises von $\\tilde{S}_{n+1} = f_{n+1} \\cdot s_1 + (f_{n+2}-1) \\cdot s_2$ werden welche Beziehungen verwendet?",
     "options": [
-      "S̃ₙ₊₁ = S̃ₙ + f̃ₙ₊₁",
-      "f̃ₙ₊₁ = fₙ₋₁·s₁ + fₙ·s₂ (in VL3 erarbeitet)",
-      "fₙ₊₁ = fₙ + fₙ₋₁ (Bildungsregel der Fibonacci-Zahlen)",
-      "f̃ₙ₊₁ = f̃ₙ · f̃ₙ₋₁"
+      "$\\tilde{S}_{n+1} = \\tilde{S}_n + \\tilde{f}_{n+1}$",
+      "$\\tilde{f}_{n+1} = f_{n-1} \\cdot s_1 + f_n \\cdot s_2$ (in VL3 erarbeitet)",
+      "$f_{n+1} = f_n + f_{n-1}$ (Bildungsregel der Fibonacci-Zahlen)",
+      "$\\tilde{f}_{n+1} = \\tilde{f}_n \\cdot \\tilde{f}_{n-1}$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Der Beweis nutzt S̃ₙ₊₁ = S̃ₙ + f̃ₙ₊₁, die Erinnerung f̃ₙ₊₁ = fₙ₋₁·s₁ + fₙ·s₂ und die Bildungsregel fₙ₊₁ = fₙ + fₙ₋₁ (bzw. fₙ₊₂ = fₙ₊₁ + fₙ). 📄 Quelle: skript04_live, Folie 9 (S.1)",
+    "explanation": "Der Beweis nutzt $\\tilde{S}_{n+1} = \\tilde{S}_n + \\tilde{f}_{n+1}$, die Erinnerung $\\tilde{f}_{n+1} = f_{n-1} \\cdot s_1 + f_n \\cdot s_2$ und die Bildungsregel $f_{n+1} = f_n + f_{n-1}$ (bzw. $f_{n+2} = f_{n+1} + f_n$). 📄 Quelle: skript04_live, Folie 9 (S.1)",
     "source": "skript04_live, Folie 9 (S.1, Arithmetik)"
   },
   {
@@ -33063,11 +33063,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "folgen_fibonacci",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Die Fibonacci-Folge beginnt mit f₁=1, f₂=1 und fₙ=fₙ₋₁+fₙ₋₂. Wie lautet die 10. Fibonacci-Zahl f₁₀?",
+    "question": "Die Fibonacci-Folge beginnt mit $f_1=1$, $f_2=1$ und $f_n=f_{n-1}+f_{n-2}$. Wie lautet die 10. Fibonacci-Zahl $f_{10}$?",
     "answer": 55,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Tabelle listet f₁₀ = 55. 📄 Quelle: skript04_live, Folie 18 (S.2)",
+    "explanation": "Die Tabelle listet $f_{10} = 55$. 📄 Quelle: skript04_live, Folie 18 (S.2)",
     "source": "skript04_live, Folie 18 (S.2, Arithmetik)"
   },
   {
@@ -33075,11 +33075,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "folgen_fibonacci",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Die Fibonacci-Folge beginnt mit f₁=1, f₂=1 und fₙ=fₙ₋₁+fₙ₋₂. Wie lautet die 12. Fibonacci-Zahl f₁₂?",
+    "question": "Die Fibonacci-Folge beginnt mit $f_1=1$, $f_2=1$ und $f_n=f_{n-1}+f_{n-2}$. Wie lautet die 12. Fibonacci-Zahl $f_{12}$?",
     "answer": 144,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Tabelle listet f₁₂ = 144. 📄 Quelle: skript04_live, Folie 18 (S.2)",
+    "explanation": "Die Tabelle listet $f_{12} = 144$. 📄 Quelle: skript04_live, Folie 18 (S.2)",
     "source": "skript04_live, Folie 18 (S.2, Arithmetik)"
   },
   {
@@ -33105,19 +33105,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "folgen_fibonacci",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Werte der Fibonacci-Folge (f₁=1, f₂=1, f₃=2, ...) sind korrekt angegeben?",
+    "question": "Welche Werte der Fibonacci-Folge ($f_1=1$, $f_2=1$, $f_3=2$, ...) sind korrekt angegeben?",
     "options": [
-      "f₇ = 13",
-      "f₉ = 34",
-      "f₁₃ = 233",
-      "f₆ = 13"
+      "$f_7 = 13$",
+      "$f_9 = 34$",
+      "$f_{13} = 233$",
+      "$f_6 = 13$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Laut Tabelle gilt f₇=13, f₉=34, f₁₃=233; f₆ ist jedoch 8, nicht 13. 📄 Quelle: skript04_live, Folie 18 (S.2)",
+    "explanation": "Laut Tabelle gilt $f_7=13$, $f_9=34$, $f_{13}=233$; $f_6$ ist jedoch 8, nicht 13. 📄 Quelle: skript04_live, Folie 18 (S.2)",
     "source": "skript04_live, Folie 18 (S.2, Arithmetik)"
   },
   {
@@ -33144,17 +33144,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 2,
     "type": "single",
-    "question": "Der Satz über die Summe Sₙ der Quadrate der ersten n Fibonacci-Zahlen (Sₙ = f₁²+f₂²+...+fₙ²) besagt:",
+    "question": "Der Satz über die Summe $S_n$ der Quadrate der ersten n Fibonacci-Zahlen ($S_n = f_1^2+f_2^2+\\dots+f_n^2$) besagt:",
     "options": [
-      "Sₙ = fₙ · fₙ₊₁",
-      "Sₙ = fₙ + fₙ₊₁",
-      "Sₙ = fₙ² · fₙ₊₁",
-      "Sₙ = fₙ₊₁ · fₙ₊₂"
+      "$S_n = f_n \\cdot f_{n+1}$",
+      "$S_n = f_n + f_{n+1}$",
+      "$S_n = f_n^2 \\cdot f_{n+1}$",
+      "$S_n = f_{n+1} \\cdot f_{n+2}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Satz auf der Folie: Wenn Sₙ die Summe der Quadrate der ersten n Fibonacci-Zahlen ist, dann ist Sₙ = fₙ·fₙ₊₁. 📄 Quelle: skript04_live, Folie 23 (S.3)",
+    "explanation": "Der Satz auf der Folie: Wenn $S_n$ die Summe der Quadrate der ersten n Fibonacci-Zahlen ist, dann ist $S_n = f_n \\cdot f_{n+1}$. 📄 Quelle: skript04_live, Folie 23 (S.3)",
     "source": "skript04_live, Folie 23 (S.3, Arithmetik)"
   },
   {
@@ -33162,11 +33162,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Nach dem Satz gilt Sₙ = fₙ·fₙ₊₁ für die Summe der Quadrate der ersten n Fibonacci-Zahlen. Berechnen Sie S₄ (mit f₄=3, f₅=5).",
+    "question": "Nach dem Satz gilt $S_n = f_n \\cdot f_{n+1}$ für die Summe der Quadrate der ersten n Fibonacci-Zahlen. Berechnen Sie $S_4$ (mit $f_4=3$, $f_5=5$).",
     "answer": 15,
     "tolerance": 0,
     "unit": "",
-    "explanation": "S₄ = f₄·f₅ = 3·5 = 15 (Kontrolle: 1²+1²+2²+3² = 15). 📄 Quelle: skript04_live, Folie 23 (S.3)",
+    "explanation": "$S_4 = f_4 \\cdot f_5 = 3 \\cdot 5 = 15$ (Kontrolle: $1^2+1^2+2^2+3^2 = 15$). 📄 Quelle: skript04_live, Folie 23 (S.3)",
     "source": "skript04_live, Folie 23 (S.3, Arithmetik)"
   },
   {
@@ -33174,19 +33174,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 3,
     "type": "multi",
-    "question": "Im Induktionsschritt des Beweises (z.zg. Sₙ₊₁ = fₙ₊₁·fₙ₊₂) werden welche Umformungen verwendet?",
+    "question": "Im Induktionsschritt des Beweises (z.zg. $S_{n+1} = f_{n+1} \\cdot f_{n+2}$) werden welche Umformungen verwendet?",
     "options": [
-      "Sₙ₊₁ = Sₙ + fₙ₊₁²",
-      "Sₙ = fₙ·fₙ₊₁ (Induktionsvoraussetzung)",
-      "fₙ + fₙ₊₁ = fₙ₊₂",
-      "fₙ₊₁² = fₙ² + fₙ₊₁"
+      "$S_{n+1} = S_n + f_{n+1}^2$",
+      "$S_n = f_n \\cdot f_{n+1}$ (Induktionsvoraussetzung)",
+      "$f_n + f_{n+1} = f_{n+2}$",
+      "$f_{n+1}^2 = f_n^2 + f_{n+1}$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Sₙ₊₁ = Sₙ + fₙ₊₁² = fₙ·fₙ₊₁ + fₙ₊₁² = fₙ₊₁·(fₙ+fₙ₊₁) = fₙ₊₁·fₙ₊₂. 📄 Quelle: skript04_live, Folie 23 (S.3)",
+    "explanation": "$S_{n+1} = S_n + f_{n+1}^2 = f_n \\cdot f_{n+1} + f_{n+1}^2 = f_{n+1} \\cdot (f_n+f_{n+1}) = f_{n+1} \\cdot f_{n+2}$. 📄 Quelle: skript04_live, Folie 23 (S.3)",
     "source": "skript04_live, Folie 23 (S.3, Arithmetik)"
   },
   {
@@ -33194,11 +33194,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Für die Dreieckszahlen gilt dₙ = n·(n+1)/2. Berechnen Sie d₅.",
+    "question": "Für die Dreieckszahlen gilt $d_n = \\frac{n \\cdot (n+1)}{2}$. Berechnen Sie $d_5$.",
     "answer": 15,
     "tolerance": 0,
     "unit": "",
-    "explanation": "d₅ = 5·6/2 = 15 (stimmt mit der Tabelle überein). 📄 Quelle: skript04_live, Folie 36 (S.4)",
+    "explanation": "$d_5 = \\frac{5 \\cdot 6}{2} = 15$ (stimmt mit der Tabelle überein). 📄 Quelle: skript04_live, Folie 36 (S.4)",
     "source": "skript04_live, Folie 36 (S.4, Arithmetik)"
   },
   {
@@ -33206,19 +33206,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Die Folge Sₙ (Summe der Dreieckszahlen) hat laut Tabelle die Werte 1, 4, 10, 20, 35, ... Welche Zuordnungen sind korrekt?",
+    "question": "Die Folge $S_n$ (Summe der Dreieckszahlen) hat laut Tabelle die Werte 1, 4, 10, 20, 35, ... Welche Zuordnungen sind korrekt?",
     "options": [
-      "S₄ = 20",
-      "S₅ = 35",
-      "S₇ = 84",
-      "S₆ = 84"
+      "$S_4 = 20$",
+      "$S_5 = 35$",
+      "$S_7 = 84$",
+      "$S_6 = 84$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Laut Tabelle: S₄=20, S₅=35, S₇=84; S₆ ist jedoch 56, nicht 84. 📄 Quelle: skript04_live, Folie 36 (S.4)",
+    "explanation": "Laut Tabelle: $S_4=20$, $S_5=35$, $S_7=84$; $S_6$ ist jedoch 56, nicht 84. 📄 Quelle: skript04_live, Folie 36 (S.4)",
     "source": "skript04_live, Folie 36 (S.4, Arithmetik)"
   },
   {
@@ -33226,18 +33226,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Die Folge Sₙ (Summe der Dreieckszahlen) hat die Werte 1, 4, 10, 20, 35, … Welche (rekursive) Beziehung für Sₙ gilt?",
+    "question": "Die Folge $S_n$ (Summe der Dreieckszahlen) hat die Werte 1, 4, 10, 20, 35, … Welche (rekursive) Beziehung für $S_n$ gilt?",
     "options": [
-      "Sₙ = n² + Sₙ₋₂",
-      "S₇ = 7² + S₅ = 49 + 35 = 84",
-      "Sₙ = n² + Sₙ₋₁",
-      "Sₙ = n³ + Sₙ₋₂"
+      "$S_n = n^2 + S_{n-2}$",
+      "$S_7 = 7^2 + S_5 = 49 + 35 = 84$",
+      "$S_n = n^2 + S_{n-1}$",
+      "$S_n = n^3 + S_{n-2}$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Handschriftlich: S₆ = 6² + S₄ = 36+20 = 56, S₇ = 7² + S₅ = 49+35 = 84, allgemein Sₙ = n² + Sₙ₋₂ ('leider rekursiv'). 📄 Quelle: skript04_live, Folie 36 (S.4)",
+    "explanation": "Handschriftlich: $S_6 = 6^2 + S_4 = 36+20 = 56$, $S_7 = 7^2 + S_5 = 49+35 = 84$, allgemein $S_n = n^2 + S_{n-2}$ ('leider rekursiv'). 📄 Quelle: skript04_live, Folie 36 (S.4)",
     "source": "skript04_live, Folie 36 (S.4, Arithmetik)"
   },
   {
@@ -33245,11 +33245,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Die handschriftlich hergeleitete geschlossene Formel lautet Sₙ = n·(n+1)·(n+2)/(2·3). Berechnen Sie damit S₆.",
+    "question": "Die handschriftlich hergeleitete geschlossene Formel lautet $S_n = \\frac{n \\cdot (n+1) \\cdot (n+2)}{2 \\cdot 3}$. Berechnen Sie damit $S_6$.",
     "answer": 56,
     "tolerance": 0,
     "unit": "",
-    "explanation": "S₆ = 6·7·8/(2·3) = 336/6 = 56 (stimmt mit der Tabelle). 📄 Quelle: skript04_live, Folie 36 (S.4)",
+    "explanation": "$S_6 = \\frac{6 \\cdot 7 \\cdot 8}{2 \\cdot 3} = \\frac{336}{6} = 56$ (stimmt mit der Tabelle). 📄 Quelle: skript04_live, Folie 36 (S.4)",
     "source": "skript04_live, Folie 36 (S.4, Arithmetik)"
   },
   {
@@ -33259,15 +33259,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Wie kann die Folge 1, 4, 10, 20, 35, ... (Summe der Dreieckszahlen) allgemein ausgedrückt werden?",
     "options": [
-      "Sₙ = n·(n+1)·(n+2)/(3·2)",
-      "Sₙ = n·(n+1)/2",
-      "Sₙ = n·(n+1)·(n+2)/2",
-      "Sₙ = n²·(n+1)/3"
+      "$S_n = \\frac{n \\cdot (n+1) \\cdot (n+2)}{3 \\cdot 2}$",
+      "$S_n = \\frac{n \\cdot (n+1)}{2}$",
+      "$S_n = \\frac{n \\cdot (n+1) \\cdot (n+2)}{2}$",
+      "$S_n = \\frac{n^2 \\cdot (n+1)}{3}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie: 'kann durch Sₙ = n·(n+1)·(n+2)/(3·2) allgemein ausgedrückt werden'. 📄 Quelle: skript04_live, Folie 40 (S.5)",
+    "explanation": "Auf der Folie: 'kann durch $S_n = \\frac{n \\cdot (n+1) \\cdot (n+2)}{3 \\cdot 2}$ allgemein ausgedrückt werden'. 📄 Quelle: skript04_live, Folie 40 (S.5)",
     "source": "skript04_live, Folie 40 (S.5, Arithmetik)"
   },
   {
@@ -33275,11 +33275,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Berechnen Sie mit der Formel Sₙ = n·(n+1)·(n+2)/(3·2) den Wert S₃.",
+    "question": "Berechnen Sie mit der Formel $S_n = \\frac{n \\cdot (n+1) \\cdot (n+2)}{3 \\cdot 2}$ den Wert $S_3$.",
     "answer": 10,
     "tolerance": 0,
     "unit": "",
-    "explanation": "S₃ = 3·4·5/6 = 60/6 = 10. 📄 Quelle: skript04_live, Folie 40 (S.5)",
+    "explanation": "$S_3 = \\frac{3 \\cdot 4 \\cdot 5}{6} = \\frac{60}{6} = 10$. 📄 Quelle: skript04_live, Folie 40 (S.5)",
     "source": "skript04_live, Folie 40 (S.5, Arithmetik)"
   },
   {
@@ -33287,19 +33287,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Ein Satz lautet: 'Für alle natürlichen Zahlen n gilt: Wenn Sₙ die Summe der ersten n Dreieckszahlen ist, ...'. Welche Aussagen gehören zu diesem Satz?",
+    "question": "Ein Satz lautet: 'Für alle natürlichen Zahlen n gilt: Wenn $S_n$ die Summe der ersten n Dreieckszahlen ist, ...'. Welche Aussagen gehören zu diesem Satz?",
     "options": [
-      "Voraussetzung: Sₙ = 1 + 3 + 6 + ... + n·(n+1)/2",
-      "Behauptung: dann ist Sₙ = n·(n+1)·(n+2)/(2·3)",
+      "Voraussetzung: $S_n = 1 + 3 + 6 + \\dots + \\frac{n \\cdot (n+1)}{2}$",
+      "Behauptung: dann ist $S_n = \\frac{n \\cdot (n+1) \\cdot (n+2)}{2 \\cdot 3}$",
       "Der Satz gilt für alle natürlichen Zahlen n.",
-      "Behauptung: dann ist Sₙ = n·(n+1)/2"
+      "Behauptung: dann ist $S_n = \\frac{n \\cdot (n+1)}{2}$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Der Satz: Wenn Sₙ = 1+3+6+...+n·(n+1)/2 die Summe der ersten n Dreieckszahlen ist, dann ist Sₙ = n·(n+1)·(n+2)/(2·3); gültig für alle natürlichen Zahlen n. 📄 Quelle: skript04_live, Folie 40 (S.5)",
+    "explanation": "Der Satz: Wenn $S_n = 1+3+6+\\dots+\\frac{n \\cdot (n+1)}{2}$ die Summe der ersten n Dreieckszahlen ist, dann ist $S_n = \\frac{n \\cdot (n+1) \\cdot (n+2)}{2 \\cdot 3}$; gültig für alle natürlichen Zahlen n. 📄 Quelle: skript04_live, Folie 40 (S.5)",
     "source": "skript04_live, Folie 40 (S.5, Arithmetik)"
   },
   {
@@ -33307,19 +33307,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 3,
     "type": "multi",
-    "question": "Im Induktionsschritt des Beweises (z.zg. Sₙ₊₁ = (n+1)·(n+2)·(n+3)/(2·3)) wird welche Zerlegung genutzt?",
+    "question": "Im Induktionsschritt des Beweises (z.zg. $S_{n+1} = \\frac{(n+1) \\cdot (n+2) \\cdot (n+3)}{2 \\cdot 3}$) wird welche Zerlegung genutzt?",
     "options": [
-      "Sₙ₊₁ = Sₙ + (n+1)·(n+2)/2",
-      "Der Term (n+1)·(n+2)/2 wird als 3·(n+1)·(n+2)/(2·3) geschrieben, um gleichnamig zu machen.",
-      "Ausklammern von (n+1)·(n+2) ergibt (n+3)·(n+1)·(n+2)/(2·3).",
-      "Sₙ₊₁ = Sₙ · (n+1)·(n+2)/2"
+      "$S_{n+1} = S_n + \\frac{(n+1) \\cdot (n+2)}{2}$",
+      "Der Term $\\frac{(n+1) \\cdot (n+2)}{2}$ wird als $\\frac{3 \\cdot (n+1) \\cdot (n+2)}{2 \\cdot 3}$ geschrieben, um gleichnamig zu machen.",
+      "Ausklammern von $(n+1) \\cdot (n+2)$ ergibt $\\frac{(n+3) \\cdot (n+1) \\cdot (n+2)}{2 \\cdot 3}$.",
+      "$S_{n+1} = S_n \\cdot \\frac{(n+1) \\cdot (n+2)}{2}$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Sₙ₊₁ = Sₙ + (n+1)·(n+2)/2 = n·(n+1)·(n+2)/(2·3) + 3·(n+1)·(n+2)/(2·3) = (n+3)·(n+1)·(n+2)/(2·3) = (n+1)·(n+2)·(n+3)/(2·3). 📄 Quelle: skript04_live, Folie 40 (S.5)",
+    "explanation": "$S_{n+1} = S_n + \\frac{(n+1) \\cdot (n+2)}{2} = \\frac{n \\cdot (n+1) \\cdot (n+2)}{2 \\cdot 3} + \\frac{3 \\cdot (n+1) \\cdot (n+2)}{2 \\cdot 3} = \\frac{(n+3) \\cdot (n+1) \\cdot (n+2)}{2 \\cdot 3} = \\frac{(n+1) \\cdot (n+2) \\cdot (n+3)}{2 \\cdot 3}$. 📄 Quelle: skript04_live, Folie 40 (S.5)",
     "source": "skript04_live, Folie 40 (S.5, Arithmetik)"
   },
   {
@@ -33558,7 +33558,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Laut Folie befinden sich am Äußeren des Bäumchens die Primzahlen, deren Produkt die Ausgangszahl ergibt, z. B. 12 = 3·2·2 = 2·2·3 = 2^2·3. 📄 Quelle: skript05_mit, Folie 1 (S.1)",
+    "explanation": "Laut Folie befinden sich am Äußeren des Bäumchens die Primzahlen, deren Produkt die Ausgangszahl ergibt, z. B. $12 = 3 \\cdot 2 \\cdot 2 = 2 \\cdot 2 \\cdot 3 = 2^2 \\cdot 3$. 📄 Quelle: skript05_mit, Folie 1 (S.1)",
     "source": "skript05_mit, Folie 1 (S.1, Arithmetik – Teilen)"
   },
   {
@@ -33568,15 +33568,15 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Wie lautet die Primfaktorzerlegung von 96?",
     "options": [
-      "2^5 · 3",
-      "2^4 · 3",
-      "2^6 · 3",
-      "2^3 · 12"
+      "$2^5 \\cdot 3$",
+      "$2^4 \\cdot 3$",
+      "$2^6 \\cdot 3$",
+      "$2^3 \\cdot 12$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Handschriftliche Lösung: 96 = 48·2 = 2·2·2·2·2·3 = 2^5·3. 📄 Quelle: skript05_mit, Folie 1 (S.1)",
+    "explanation": "Handschriftliche Lösung: $96 = 48 \\cdot 2 = 2 \\cdot 2 \\cdot 2 \\cdot 2 \\cdot 2 \\cdot 3 = 2^5 \\cdot 3$. 📄 Quelle: skript05_mit, Folie 1 (S.1)",
     "source": "skript05_mit, Folie 1 (S.1, Arithmetik – Teilen, Handschrift)"
   },
   {
@@ -33586,15 +33586,15 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Wie lautet die Primfaktorzerlegung von 132?",
     "options": [
-      "2^2 · 3 · 11",
-      "2 · 3 · 11",
-      "2^2 · 33",
-      "4 · 3 · 11"
+      "$2^2 \\cdot 3 \\cdot 11$",
+      "$2 \\cdot 3 \\cdot 11$",
+      "$2^2 \\cdot 33$",
+      "$4 \\cdot 3 \\cdot 11$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Handschriftliche Lösung: 132 = 2·66 = 2·2·33 = 2·2·3·11 = 2^2·3·11 (33 ist nicht durch 2 teilbar, nächste PZ ist 3). 📄 Quelle: skript05_mit, Folie 1 (S.1)",
+    "explanation": "Handschriftliche Lösung: $132 = 2 \\cdot 66 = 2 \\cdot 2 \\cdot 33 = 2 \\cdot 2 \\cdot 3 \\cdot 11 = 2^2 \\cdot 3 \\cdot 11$ (33 ist nicht durch 2 teilbar, nächste PZ ist 3). 📄 Quelle: skript05_mit, Folie 1 (S.1)",
     "source": "skript05_mit, Folie 1 (S.1, Arithmetik – Teilen, Handschrift)"
   },
   {
@@ -33604,15 +33604,15 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Wie lautet die Primfaktorzerlegung von 189?",
     "options": [
-      "3^3 · 7",
-      "3^2 · 7",
-      "3^3 · 5",
-      "9 · 21"
+      "$3^3 \\cdot 7$",
+      "$3^2 \\cdot 7$",
+      "$3^3 \\cdot 5$",
+      "$9 \\cdot 21$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Handschriftliche Lösung: 189 = 63·3 = 21·3·3 = 7·3·3·3 = 3^3·7 (kleinste PZ 2 teilt 189 nicht, nächste PZ 3 teilt 189). 📄 Quelle: skript05_mit, Folie 1 (S.1)",
+    "explanation": "Handschriftliche Lösung: $189 = 63 \\cdot 3 = 21 \\cdot 3 \\cdot 3 = 7 \\cdot 3 \\cdot 3 \\cdot 3 = 3^3 \\cdot 7$ (kleinste PZ 2 teilt 189 nicht, nächste PZ 3 teilt 189). 📄 Quelle: skript05_mit, Folie 1 (S.1)",
     "source": "skript05_mit, Folie 1 (S.1, Arithmetik – Teilen, Handschrift)"
   },
   {
@@ -33620,17 +33620,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeit_primzahlen",
     "difficulty": 1,
     "type": "multi",
-    "question": "Wie lautet die Teilermenge T_12 der Zahl 12?",
+    "question": "Wie lautet die Teilermenge $T_{12}$ der Zahl 12?",
     "options": [
-      "{1, 2, 3, 4, 6, 12}",
-      "{1, 2, 3, 4, 6}",
-      "{2, 3, 4, 6, 12}",
-      "{1, 2, 3, 6, 12}"
+      "$\\{1, 2, 3, 4, 6, 12\\}$",
+      "$\\{1, 2, 3, 4, 6\\}$",
+      "$\\{2, 3, 4, 6, 12\\}$",
+      "$\\{1, 2, 3, 6, 12\\}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Aus dem Baum zu 12 = 2^2·3^1 ergibt sich die Teilermenge T_12 = {1, 2, 3, 4, 6, 12}. 📄 Quelle: skript05_mit, Folie 2 (S.2)",
+    "explanation": "Aus dem Baum zu $12 = 2^2 \\cdot 3^1$ ergibt sich die Teilermenge $T_{12} = \\{1, 2, 3, 4, 6, 12\\}$. 📄 Quelle: skript05_mit, Folie 2 (S.2)",
     "source": "skript05_mit, Folie 2 (S.2, Arithmetik – Teilen, Handschrift)"
   },
   {
@@ -33638,11 +33638,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeit_primzahlen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Wie viele Teiler hat die Zahl 12 laut dem Baum (aus 12 = 2^2·3^1 als 3·2 abgelesen)?",
+    "question": "Wie viele Teiler hat die Zahl 12 laut dem Baum (aus $12 = 2^2 \\cdot 3^1$ als $3 \\cdot 2$ abgelesen)?",
     "answer": 6,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Auf der 2er-Ebene gibt es 3 Äste (2^0, 2^1, 2^2), auf der 3er-Ebene jeweils 2 (3^0, 3^1); Anzahl aller möglichen Teiler = 3·2 = 6. 📄 Quelle: skript05_mit, Folie 2 (S.2)",
+    "explanation": "Auf der 2er-Ebene gibt es 3 Äste ($2^0, 2^1, 2^2$), auf der 3er-Ebene jeweils 2 ($3^0, 3^1$); Anzahl aller möglichen Teiler $= 3 \\cdot 2 = 6$. 📄 Quelle: skript05_mit, Folie 2 (S.2)",
     "source": "skript05_mit, Folie 2 (S.2, Arithmetik – Teilen, Handschrift)"
   },
   {
@@ -33650,19 +33650,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeit_primzahlen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Aussagen zum Baum der Teiler von 12 (mit 12 = 2^2·3^1) sind laut Handschrift richtig?",
+    "question": "Welche Aussagen zum Baum der Teiler von 12 (mit $12 = 2^2 \\cdot 3^1$) sind laut Handschrift richtig?",
     "options": [
-      "Auf der 2er-Ebene gibt es 3 verschiedene Äste: 2^0, 2^1, 2^2",
-      "Auf der 3er-Ebene gibt es jeweils 2 Äste: 3^0, 3^1",
-      "Die Anzahl aller möglichen Teiler ergibt sich als 3·2 = 6",
-      "Der Baum liefert die Primfaktorzerlegung 2·2·3 der Zahl 12"
+      "Auf der 2er-Ebene gibt es 3 verschiedene Äste: $2^0, 2^1, 2^2$",
+      "Auf der 3er-Ebene gibt es jeweils 2 Äste: $3^0, 3^1$",
+      "Die Anzahl aller möglichen Teiler ergibt sich als $3 \\cdot 2 = 6$",
+      "Der Baum liefert die Primfaktorzerlegung $2 \\cdot 2 \\cdot 3$ der Zahl 12"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Notiert als 'geschicktes Zählen' aus der Kombinatorik: 3 Äste (2^0,2^1,2^2) auf der 2er-Ebene, jeweils 2 Äste (3^0,3^1) auf der 3er-Ebene, 3·2 = 6 Teiler. Der Baum liefert die Teilermenge, nicht die Primfaktorzerlegung. 📄 Quelle: skript05_mit, Folie 2 (S.2)",
+    "explanation": "Notiert als 'geschicktes Zählen' aus der Kombinatorik: 3 Äste ($2^0, 2^1, 2^2$) auf der 2er-Ebene, jeweils 2 Äste ($3^0, 3^1$) auf der 3er-Ebene, $3 \\cdot 2 = 6$ Teiler. Der Baum liefert die Teilermenge, nicht die Primfaktorzerlegung. 📄 Quelle: skript05_mit, Folie 2 (S.2)",
     "source": "skript05_mit, Folie 2 (S.2, Arithmetik – Teilen, Handschrift)"
   },
   {
@@ -33670,17 +33670,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeit_primzahlen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Wie lautet die Teilermenge T_96 der Zahl 96 (mit 96 = 2^5·3)?",
+    "question": "Wie lautet die Teilermenge $T_{96}$ der Zahl 96 (mit $96 = 2^5 \\cdot 3$)?",
     "options": [
-      "{1, 2, 3, 4, 6, 8, 12, 16, 24, 32, 48, 96}",
-      "{1, 2, 4, 8, 16, 32, 96}",
-      "{1, 2, 3, 4, 6, 8, 12, 24, 48, 96}",
-      "{1, 3, 6, 12, 24, 48, 96}"
+      "$\\{1, 2, 3, 4, 6, 8, 12, 16, 24, 32, 48, 96\\}$",
+      "$\\{1, 2, 4, 8, 16, 32, 96\\}$",
+      "$\\{1, 2, 3, 4, 6, 8, 12, 24, 48, 96\\}$",
+      "$\\{1, 3, 6, 12, 24, 48, 96\\}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Handschriftliche Lösung: T_96 = {1, 2, 3, 4, 6, 8, 12, 16, 24, 32, 48, 96}. 📄 Quelle: skript05_mit, Folie 3 (S.3)",
+    "explanation": "Handschriftliche Lösung: $T_{96} = \\{1, 2, 3, 4, 6, 8, 12, 16, 24, 32, 48, 96\\}$. 📄 Quelle: skript05_mit, Folie 3 (S.3)",
     "source": "skript05_mit, Folie 3 (S.3, Arithmetik – Teilen, Handschrift)"
   },
   {
@@ -33692,7 +33692,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 12,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Aus 96 = 2^5·3: 6 Äste auf der 2er-Ebene (S+1 = 5+1) und jeweils 2 Äste auf der 3er-Ebene, # = 6·2 = 12. 📄 Quelle: skript05_mit, Folie 3 (S.3)",
+    "explanation": "Aus $96 = 2^5 \\cdot 3$: 6 Äste auf der 2er-Ebene ($S+1 = 5+1$) und jeweils 2 Äste auf der 3er-Ebene, $\\# = 6 \\cdot 2 = 12$. 📄 Quelle: skript05_mit, Folie 3 (S.3)",
     "source": "skript05_mit, Folie 3 (S.3, Arithmetik – Teilen, Handschrift)"
   },
   {
@@ -33700,17 +33700,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeit_primzahlen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Wie lautet die Teilermenge T_132 der Zahl 132 (mit 132 = 2^2·3·11)?",
+    "question": "Wie lautet die Teilermenge $T_{132}$ der Zahl 132 (mit $132 = 2^2 \\cdot 3 \\cdot 11$)?",
     "options": [
-      "{1, 2, 3, 4, 6, 11, 12, 22, 33, 44, 66, 132}",
-      "{1, 2, 3, 4, 6, 12, 11, 132}",
-      "{1, 2, 4, 11, 22, 44, 132}",
-      "{1, 2, 3, 6, 11, 22, 33, 66, 132}"
+      "$\\{1, 2, 3, 4, 6, 11, 12, 22, 33, 44, 66, 132\\}$",
+      "$\\{1, 2, 3, 4, 6, 12, 11, 132\\}$",
+      "$\\{1, 2, 4, 11, 22, 44, 132\\}$",
+      "$\\{1, 2, 3, 6, 11, 22, 33, 66, 132\\}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Handschriftliche Lösung: T_132 = {1, 2, 3, 4, 6, 11, 12, 22, 33, 44, 66, 132}. 📄 Quelle: skript05_mit, Folie 3 (S.3)",
+    "explanation": "Handschriftliche Lösung: $T_{132} = \\{1, 2, 3, 4, 6, 11, 12, 22, 33, 44, 66, 132\\}$. 📄 Quelle: skript05_mit, Folie 3 (S.3)",
     "source": "skript05_mit, Folie 3 (S.3, Arithmetik – Teilen, Handschrift)"
   },
   {
@@ -33722,7 +33722,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 12,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Aus 132 = 2^2·3·11: 3 Äste, je 2 Äste, je 2 Äste; # = 3·2·2 = 12. 📄 Quelle: skript05_mit, Folie 3 (S.3)",
+    "explanation": "Aus $132 = 2^2 \\cdot 3 \\cdot 11$: 3 Äste, je 2 Äste, je 2 Äste; $\\# = 3 \\cdot 2 \\cdot 2 = 12$. 📄 Quelle: skript05_mit, Folie 3 (S.3)",
     "source": "skript05_mit, Folie 3 (S.3, Arithmetik – Teilen, Handschrift)"
   },
   {
@@ -33730,17 +33730,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeit_primzahlen",
     "difficulty": 1,
     "type": "multi",
-    "question": "Wie lautet der Satz über die Transitivität der Teilbarkeitsrelation für natürliche Zahlen a, b, c?",
+    "question": "Wie lautet der Satz über die Transitivität der Teilbarkeitsrelation für natürliche Zahlen $a$, $b$, $c$?",
     "options": [
-      "Wenn a|b und b|c, dann a|c",
-      "Wenn a|b und a|c, dann a|(b+c)",
-      "Wenn a|c und b|c, dann (a·b)|c",
-      "Wenn a|b und b|c, dann c|a"
+      "Wenn $a \\mid b$ und $b \\mid c$, dann $a \\mid c$",
+      "Wenn $a \\mid b$ und $a \\mid c$, dann $a \\mid (b+c)$",
+      "Wenn $a \\mid c$ und $b \\mid c$, dann $(a \\cdot b) \\mid c$",
+      "Wenn $a \\mid b$ und $b \\mid c$, dann $c \\mid a$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Satz: Die Teilbarkeitsrelation ist transitiv. Für natürliche Zahlen a, b, c gilt: Wenn a|b und b|c, dann a|c. 📄 Quelle: skript05_mit, Folie 4 (S.4)",
+    "explanation": "Satz: Die Teilbarkeitsrelation ist transitiv. Für natürliche Zahlen $a$, $b$, $c$ gilt: Wenn $a \\mid b$ und $b \\mid c$, dann $a \\mid c$. 📄 Quelle: skript05_mit, Folie 4 (S.4)",
     "source": "skript05_mit, Folie 4 (S.4, Arithmetik – Direkter Beweis)"
   },
   {
@@ -33748,17 +33748,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeit_primzahlen",
     "difficulty": 1,
     "type": "multi",
-    "question": "Wie ist im Beweis 'x teilt y' (x|y) definiert (verwendetes Vorwissen)?",
+    "question": "Wie ist im Beweis '$x$ teilt $y$' ($x \\mid y$) definiert (verwendetes Vorwissen)?",
     "options": [
-      "x|y, wenn es eine (natürliche) Zahl z gibt mit x·z = y",
-      "x|y, wenn x·y eine natürliche Zahl ist",
-      "x|y, wenn es ein z gibt mit y·z = x",
-      "x|y, wenn es ein z gibt mit x + z = y"
+      "$x \\mid y$, wenn es eine (natürliche) Zahl $z$ gibt mit $x \\cdot z = y$",
+      "$x \\mid y$, wenn $x \\cdot y$ eine natürliche Zahl ist",
+      "$x \\mid y$, wenn es ein $z$ gibt mit $y \\cdot z = x$",
+      "$x \\mid y$, wenn es ein $z$ gibt mit $x + z = y$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Handschrift (1. Schritt): Definition von teilen: x|y, wenn x·z = y (Vorwissen). 📄 Quelle: skript05_mit, Folie 4 (S.4)",
+    "explanation": "Handschrift (1. Schritt): Definition von teilen: $x \\mid y$, wenn $x \\cdot z = y$ (Vorwissen). 📄 Quelle: skript05_mit, Folie 4 (S.4)",
     "source": "skript05_mit, Folie 4 (S.4, Arithmetik – Direkter Beweis, Handschrift)"
   },
   {
@@ -33766,17 +33766,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeit_primzahlen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Wie werden im Transitivitäts-Beweis die Voraussetzungen a|b und b|c mit natürlichen Zahlen x_1, x_2 geschrieben?",
+    "question": "Wie werden im Transitivitäts-Beweis die Voraussetzungen $a \\mid b$ und $b \\mid c$ mit natürlichen Zahlen $x_1$, $x_2$ geschrieben?",
     "options": [
-      "a·x_1 = b und b·x_2 = c",
-      "a·x_1 = b und c·x_2 = b",
-      "b·x_1 = a und c·x_2 = b",
-      "a + x_1 = b und b + x_2 = c"
+      "$a \\cdot x_1 = b$ und $b \\cdot x_2 = c$",
+      "$a \\cdot x_1 = b$ und $c \\cdot x_2 = b$",
+      "$b \\cdot x_1 = a$ und $c \\cdot x_2 = b$",
+      "$a + x_1 = b$ und $b + x_2 = c$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Handschrift: 2 Voraussetzungen — a|b, d. h. a·x_1 = b; b|c, d. h. b·x_2 = c (mit x_1, x_2 natürliche Zahlen). 📄 Quelle: skript05_mit, Folie 4 (S.4)",
+    "explanation": "Handschrift: 2 Voraussetzungen — $a \\mid b$, d. h. $a \\cdot x_1 = b$; $b \\mid c$, d. h. $b \\cdot x_2 = c$ (mit $x_1$, $x_2$ natürliche Zahlen). 📄 Quelle: skript05_mit, Folie 4 (S.4)",
     "source": "skript05_mit, Folie 4 (S.4, Arithmetik – Direkter Beweis, Handschrift)"
   },
   {
@@ -33784,17 +33784,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeit_primzahlen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Was ergibt sich im Beweis durch Einsetzen von b = a·x_1 in b·x_2 = c?",
+    "question": "Was ergibt sich im Beweis durch Einsetzen von $b = a \\cdot x_1$ in $b \\cdot x_2 = c$?",
     "options": [
-      "a·(x_1·x_2) = c, also a|c",
-      "a·(x_1 + x_2) = c, also a|c",
-      "a·x_1·x_2 = b, also a|b",
-      "(a + x_1)·x_2 = c"
+      "$a \\cdot (x_1 \\cdot x_2) = c$, also $a \\mid c$",
+      "$a \\cdot (x_1 + x_2) = c$, also $a \\mid c$",
+      "$a \\cdot x_1 \\cdot x_2 = b$, also $a \\mid b$",
+      "$(a + x_1) \\cdot x_2 = c$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Handschrift: (a·x_1)·x_2 = c, also a·(x_1·x_2) = c; mit x = x_1·x_2 (natürliche Zahl, da Produkt zweier natürlicher Zahlen) folgt a·x = c, d. h. a|c (q.e.d.). 📄 Quelle: skript05_mit, Folie 4 (S.4)",
+    "explanation": "Handschrift: $(a \\cdot x_1) \\cdot x_2 = c$, also $a \\cdot (x_1 \\cdot x_2) = c$; mit $x = x_1 \\cdot x_2$ (natürliche Zahl, da Produkt zweier natürlicher Zahlen) folgt $a \\cdot x = c$, d. h. $a \\mid c$ (q.e.d.). 📄 Quelle: skript05_mit, Folie 4 (S.4)",
     "source": "skript05_mit, Folie 4 (S.4, Arithmetik – Direkter Beweis, Handschrift)"
   },
   {
@@ -33802,17 +33802,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeit_primzahlen",
     "difficulty": 1,
     "type": "multi",
-    "question": "Wie lautet die Summenregel für natürliche Zahlen a, b, c?",
+    "question": "Wie lautet die Summenregel für natürliche Zahlen $a$, $b$, $c$?",
     "options": [
-      "Wenn a|b und a|c, dann a|(b+c)",
-      "Wenn a|b und b|c, dann a|c",
-      "Wenn a|(b+c), dann a|b und a|c",
-      "Wenn a|b und a|c, dann a|(b·c)"
+      "Wenn $a \\mid b$ und $a \\mid c$, dann $a \\mid (b+c)$",
+      "Wenn $a \\mid b$ und $b \\mid c$, dann $a \\mid c$",
+      "Wenn $a \\mid (b+c)$, dann $a \\mid b$ und $a \\mid c$",
+      "Wenn $a \\mid b$ und $a \\mid c$, dann $a \\mid (b \\cdot c)$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Satz (Summenregel): Für natürliche Zahlen a, b, c gilt: Wenn a|b und a|c, dann a|(b+c). 📄 Quelle: skript05_mit, Folie 5 (S.5)",
+    "explanation": "Satz (Summenregel): Für natürliche Zahlen $a$, $b$, $c$ gilt: Wenn $a \\mid b$ und $a \\mid c$, dann $a \\mid (b+c)$. 📄 Quelle: skript05_mit, Folie 5 (S.5)",
     "source": "skript05_mit, Folie 5 (S.5, Arithmetik – Direkter Beweis)"
   },
   {
@@ -33820,17 +33820,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeit_primzahlen",
     "difficulty": 1,
     "type": "multi",
-    "question": "Summenregel in Worten: Wenn a Teiler von b und c ist, dann ist a auch Teiler von …?",
+    "question": "Summenregel in Worten: Wenn $a$ Teiler von $b$ und $c$ ist, dann ist $a$ auch Teiler von …?",
     "options": [
-      "(b+c)",
-      "(b·c)",
-      "(b−c)",
-      "(c−b)"
+      "$(b+c)$",
+      "$(b \\cdot c)$",
+      "$(b-c)$",
+      "$(c-b)$"
     ],
     "correct": [
       0
     ],
-    "explanation": "In Worten: Wenn a Teiler von b und c ist, dann ist a auch Teiler von (b+c). 📄 Quelle: skript05_mit, Folie 5 (S.5)",
+    "explanation": "In Worten: Wenn $a$ Teiler von $b$ und $c$ ist, dann ist $a$ auch Teiler von $(b+c)$. 📄 Quelle: skript05_mit, Folie 5 (S.5)",
     "source": "skript05_mit, Folie 5 (S.5, Arithmetik – Direkter Beweis)"
   },
   {
@@ -33838,7 +33838,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeit_primzahlen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welches Gesetz begründet im Beweis der Summenregel den Schritt a·x_1 + a·x_2 = a·(x_1 + x_2)?",
+    "question": "Welches Gesetz begründet im Beweis der Summenregel den Schritt $a \\cdot x_1 + a \\cdot x_2 = a \\cdot (x_1 + x_2)$?",
     "options": [
       "Distributivgesetz",
       "Kommutativgesetz",
@@ -33848,7 +33848,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Handschrift: b+c = a·x_1 + a·x_2 = a·(x_1 + x_2) = a·x_3 — begründet mit dem Distributivgesetz. 📄 Quelle: skript05_mit, Folie 6 (S.6)",
+    "explanation": "Handschrift: $b+c = a \\cdot x_1 + a \\cdot x_2 = a \\cdot (x_1 + x_2) = a \\cdot x_3$ — begründet mit dem Distributivgesetz. 📄 Quelle: skript05_mit, Folie 6 (S.6)",
     "source": "skript05_mit, Folie 6 (S.6, Arithmetik – Direkter Beweis, Handschrift)"
   },
   {
@@ -33856,11 +33856,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeit_primzahlen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Beispiel zur Summenregel: 2|4 und 2|12. Welchen Wert hat 4+12 (= 2·(2+6))?",
+    "question": "Beispiel zur Summenregel: $2 \\mid 4$ und $2 \\mid 12$. Welchen Wert hat $4+12$ ($= 2 \\cdot (2+6)$)?",
     "answer": 16,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Beispiel auf der Folie: 2|4 und 2|12, dann auch 2|(4+12); 2·2=4 und 2·6=12, dann auch 2·(2+6)=16. 📄 Quelle: skript05_mit, Folie 6 (S.6)",
+    "explanation": "Beispiel auf der Folie: $2 \\mid 4$ und $2 \\mid 12$, dann auch $2 \\mid (4+12)$; $2 \\cdot 2 = 4$ und $2 \\cdot 6 = 12$, dann auch $2 \\cdot (2+6) = 16$. 📄 Quelle: skript05_mit, Folie 6 (S.6)",
     "source": "skript05_mit, Folie 6 (S.6, Arithmetik – Direkter Beweis)"
   },
   {
@@ -33868,11 +33868,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeit_primzahlen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Beispiel zur Summenregel: 7|21 und 7|63. Welchen Wert hat 21+63 (= 7·(3+9))?",
+    "question": "Beispiel zur Summenregel: $7 \\mid 21$ und $7 \\mid 63$. Welchen Wert hat $21+63$ ($= 7 \\cdot (3+9)$)?",
     "answer": 84,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Beispiel auf der Folie: 7|21 und 7|63, dann auch 7|(21+63); 7·3=21 und 7·9=63, dann auch 7·(3+9)=84. 📄 Quelle: skript05_mit, Folie 6 (S.6)",
+    "explanation": "Beispiel auf der Folie: $7 \\mid 21$ und $7 \\mid 63$, dann auch $7 \\mid (21+63)$; $7 \\cdot 3 = 21$ und $7 \\cdot 9 = 63$, dann auch $7 \\cdot (3+9) = 84$. 📄 Quelle: skript05_mit, Folie 6 (S.6)",
     "source": "skript05_mit, Folie 6 (S.6, Arithmetik – Direkter Beweis)"
   },
   {
@@ -33880,17 +33880,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeit_primzahlen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Warum ist im Beweis der Summenregel x_3 = x_1 + x_2 wieder eine natürliche Zahl?",
+    "question": "Warum ist im Beweis der Summenregel $x_3 = x_1 + x_2$ wieder eine natürliche Zahl?",
     "options": [
       "Weil die Summe zweier natürlicher Zahlen wieder eine natürliche Zahl ist",
       "Weil das Produkt zweier natürlicher Zahlen wieder eine natürliche Zahl ist",
-      "Weil x_1 und x_2 Primzahlen sind",
-      "Weil a eine natürliche Zahl ist"
+      "Weil $x_1$ und $x_2$ Primzahlen sind",
+      "Weil $a$ eine natürliche Zahl ist"
     ],
     "correct": [
       0
     ],
-    "explanation": "Handschrift: 'Ja! Die Summe zweier natürlicher Zahlen ist eine natürliche Zahl' — daher ist x_3 = x_1 + x_2 natürlich und b+c = a·x_3, also a|(b+c). 📄 Quelle: skript05_mit, Folie 6 (S.6)",
+    "explanation": "Handschrift: 'Ja! Die Summe zweier natürlicher Zahlen ist eine natürliche Zahl' — daher ist $x_3 = x_1 + x_2$ natürlich und $b+c = a \\cdot x_3$, also $a \\mid (b+c)$. 📄 Quelle: skript05_mit, Folie 6 (S.6)",
     "source": "skript05_mit, Folie 6 (S.6, Arithmetik – Direkter Beweis, Handschrift)"
   },
   {
@@ -33898,17 +33898,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeit_primzahlen",
     "difficulty": 1,
     "type": "multi",
-    "question": "Wie lautet die 'andere Summenregel' für natürliche Zahlen a, b, c?",
+    "question": "Wie lautet die 'andere Summenregel' für natürliche Zahlen $a$, $b$, $c$?",
     "options": [
-      "Wenn a|b und a|(b+c), dann a|c",
-      "Wenn a|b und a|c, dann a|(b+c)",
-      "Wenn a|(b+c), dann a|b",
-      "Wenn a|b und b|(b+c), dann a|c"
+      "Wenn $a \\mid b$ und $a \\mid (b+c)$, dann $a \\mid c$",
+      "Wenn $a \\mid b$ und $a \\mid c$, dann $a \\mid (b+c)$",
+      "Wenn $a \\mid (b+c)$, dann $a \\mid b$",
+      "Wenn $a \\mid b$ und $b \\mid (b+c)$, dann $a \\mid c$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Satz (andere Summenregel): Für natürliche Zahlen a, b, c gilt: Wenn a|b und a|(b+c), dann a|c. 📄 Quelle: skript05_mit, Folie 7 (S.7)",
+    "explanation": "Satz (andere Summenregel): Für natürliche Zahlen $a$, $b$, $c$ gilt: Wenn $a \\mid b$ und $a \\mid (b+c)$, dann $a \\mid c$. 📄 Quelle: skript05_mit, Folie 7 (S.7)",
     "source": "skript05_mit, Folie 7 (S.7, Arithmetik – Direkter Beweis)"
   },
   {
@@ -33916,17 +33916,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeit_primzahlen",
     "difficulty": 1,
     "type": "multi",
-    "question": "Andere Summenregel in Worten: Wenn a Teiler von b und von (b+c) ist, dann ist a auch Teiler von …?",
+    "question": "Andere Summenregel in Worten: Wenn $a$ Teiler von $b$ und von $(b+c)$ ist, dann ist $a$ auch Teiler von …?",
     "options": [
-      "c",
-      "(b+c)",
-      "b",
-      "(b−c)"
+      "$c$",
+      "$(b+c)$",
+      "$b$",
+      "$(b-c)$"
     ],
     "correct": [
       0
     ],
-    "explanation": "In Worten: Wenn a Teiler von b und von (b+c) ist, dann ist a auch Teiler von c. 📄 Quelle: skript05_mit, Folie 7 (S.7)",
+    "explanation": "In Worten: Wenn $a$ Teiler von $b$ und von $(b+c)$ ist, dann ist $a$ auch Teiler von $c$. 📄 Quelle: skript05_mit, Folie 7 (S.7)",
     "source": "skript05_mit, Folie 7 (S.7, Arithmetik – Direkter Beweis)"
   },
   {
@@ -33934,11 +33934,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeit_primzahlen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Beispiel zur anderen Summenregel: 2|4 und 2|10. Welchen Wert hat 10−4 (= 2·(5−2))?",
+    "question": "Beispiel zur anderen Summenregel: $2 \\mid 4$ und $2 \\mid 10$. Welchen Wert hat $10-4$ ($= 2 \\cdot (5-2)$)?",
     "answer": 6,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Beispiel auf der Folie: 2|4 und 2|10, dann auch 2|6 (mit 10−4=6); 2·2=4 und 2·5=10, dann auch 2·(5−2)=2·3=6. 📄 Quelle: skript05_mit, Folie 8 (S.8)",
+    "explanation": "Beispiel auf der Folie: $2 \\mid 4$ und $2 \\mid 10$, dann auch $2 \\mid 6$ (mit $10-4=6$); $2 \\cdot 2 = 4$ und $2 \\cdot 5 = 10$, dann auch $2 \\cdot (5-2) = 2 \\cdot 3 = 6$. 📄 Quelle: skript05_mit, Folie 8 (S.8)",
     "source": "skript05_mit, Folie 8 (S.8, Arithmetik – Direkter Beweis)"
   },
   {
@@ -33946,11 +33946,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeit_primzahlen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Beispiel zur anderen Summenregel: 7|21 und 7|105. Welchen Wert hat 105−21 (= 7·(15−3))?",
+    "question": "Beispiel zur anderen Summenregel: $7 \\mid 21$ und $7 \\mid 105$. Welchen Wert hat $105-21$ ($= 7 \\cdot (15-3)$)?",
     "answer": 84,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Beispiel auf der Folie: 7|21 und 7|105, dann auch 7|84 (mit 105−21=84); 7·3=21 und 7·15=105, dann auch 7·(15−3)=7·12=84. 📄 Quelle: skript05_mit, Folie 8 (S.8)",
+    "explanation": "Beispiel auf der Folie: $7 \\mid 21$ und $7 \\mid 105$, dann auch $7 \\mid 84$ (mit $105-21=84$); $7 \\cdot 3 = 21$ und $7 \\cdot 15 = 105$, dann auch $7 \\cdot (15-3) = 7 \\cdot 12 = 84$. 📄 Quelle: skript05_mit, Folie 8 (S.8)",
     "source": "skript05_mit, Folie 8 (S.8, Arithmetik – Direkter Beweis)"
   },
   {
@@ -33958,17 +33958,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeit_primzahlen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Teilbarkeit folgt nach der anderen Summenregel aus 2|4 und 2|10 (mit c = (b+c)−b)?",
+    "question": "Welche Teilbarkeit folgt nach der anderen Summenregel aus $2 \\mid 4$ und $2 \\mid 10$ (mit $c = (b+c)-b$)?",
     "options": [
-      "2|6",
-      "2|14",
-      "2|5",
-      "2|40"
+      "$2 \\mid 6$",
+      "$2 \\mid 14$",
+      "$2 \\mid 5$",
+      "$2 \\mid 40$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Mit b=4 und b+c=10 ist c = 10−4 = 6, also folgt 2|6. 📄 Quelle: skript05_mit, Folie 8 (S.8)",
+    "explanation": "Mit $b=4$ und $b+c=10$ ist $c = 10-4 = 6$, also folgt $2 \\mid 6$. 📄 Quelle: skript05_mit, Folie 8 (S.8)",
     "source": "skript05_mit, Folie 8 (S.8, Arithmetik – Direkter Beweis)"
   },
   {
@@ -34111,17 +34111,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Für A = „Es regnet“ und B = „Die Straße ist nass“ werden vier Konjunktionen gebildet, die je in genau einem Feld der Wahrheitswertetabelle wahr sind. Welche Zuordnungen von Verknüpfung und Versprachlichung sind korrekt?",
     "options": [
-      "A∧B — „Es regnet und die Straße ist nass.“",
-      "A∧¬B — „Es regnet und die Straße ist nicht nass.“",
-      "¬A∧B — „Es regnet nicht und die Straße ist nass.“",
-      "¬A∧¬B — „Es regnet und die Straße ist nass.“"
+      "$A \\land B$ — „Es regnet und die Straße ist nass.“",
+      "$A \\land \\neg B$ — „Es regnet und die Straße ist nicht nass.“",
+      "$\\neg A \\land B$ — „Es regnet nicht und die Straße ist nass.“",
+      "$\\neg A \\land \\neg B$ — „Es regnet und die Straße ist nass.“"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie ordnet jeder der vier Konjunktionen eine Versprachlichung zu. ¬A∧¬B entspricht „Es regnet nicht und die Straße ist nicht nass“ – die vierte Option ist daher falsch. 📄 Quelle: skript07_mit, Folie 1 (S.1)",
+    "explanation": "Die Folie ordnet jeder der vier Konjunktionen eine Versprachlichung zu. $\\neg A \\land \\neg B$ entspricht „Es regnet nicht und die Straße ist nicht nass“ – die vierte Option ist daher falsch. 📄 Quelle: skript07_mit, Folie 1 (S.1)",
     "source": "skript07_mit, Folie 1 (S.1, Arithmetik – Aussagen verknüpfen)"
   },
   {
@@ -34129,19 +34129,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Aussagen zu den Wahrheitswertetabellen der vier Konjunktionen (A∧B, A∧¬B, ¬A∧B, ¬A∧¬B) sind richtig?",
+    "question": "Welche Aussagen zu den Wahrheitswertetabellen der vier Konjunktionen ($A \\land B$, $A \\land \\neg B$, $\\neg A \\land B$, $\\neg A \\land \\neg B$) sind richtig?",
     "options": [
-      "A∧B ist nur wahr, wenn A wahr und B wahr ist.",
+      "$A \\land B$ ist nur wahr, wenn A wahr und B wahr ist.",
       "Jede der vier Konjunktionen ist in genau einem der vier Felder wahr.",
-      "A∧B ist wahr, wenn A wahr und B falsch ist.",
-      "¬A∧¬B ist genau dann wahr, wenn A falsch und B falsch ist."
+      "$A \\land B$ ist wahr, wenn A wahr und B falsch ist.",
+      "$\\neg A \\land \\neg B$ ist genau dann wahr, wenn A falsch und B falsch ist."
     ],
     "correct": [
       0,
       1,
       3
     ],
-    "explanation": "Die Konjunktion A∧B ist nur bei A=w und B=w wahr; ¬A∧¬B nur bei A=f und B=f. Jede Konjunktion ist in genau einem Feld wahr (daher der Folientitel „ein Feld wahr“). 📄 Quelle: skript07_mit, Folie 1 (S.1)",
+    "explanation": "Die Konjunktion $A \\land B$ ist nur bei A=w und B=w wahr; $\\neg A \\land \\neg B$ nur bei A=f und B=f. Jede Konjunktion ist in genau einem Feld wahr (daher der Folientitel „ein Feld wahr“). 📄 Quelle: skript07_mit, Folie 1 (S.1)",
     "source": "skript07_mit, Folie 1 (S.1, Arithmetik – Aussagen verknüpfen)"
   },
   {
@@ -34149,11 +34149,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 1,
     "type": "numeric",
-    "question": "In genau wie vielen der vier Felder der Wahrheitswertetabelle ist eine einzelne Konjunktion (z. B. ¬A∧B) wahr?",
+    "question": "In genau wie vielen der vier Felder der Wahrheitswertetabelle ist eine einzelne Konjunktion (z. B. $\\neg A \\land B$) wahr?",
     "answer": 1,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Der Folientitel lautet „ein Feld wahr“: Jede der vier Konjunktionen (A∧B, A∧¬B, ¬A∧B, ¬A∧¬B) ist in genau einem Feld wahr. 📄 Quelle: skript07_mit, Folie 1 (S.1)",
+    "explanation": "Der Folientitel lautet „ein Feld wahr“: Jede der vier Konjunktionen ($A \\land B$, $A \\land \\neg B$, $\\neg A \\land B$, $\\neg A \\land \\neg B$) ist in genau einem Feld wahr. 📄 Quelle: skript07_mit, Folie 1 (S.1)",
     "source": "skript07_mit, Folie 1 (S.1, Arithmetik – Aussagen verknüpfen)"
   },
   {
@@ -34163,17 +34163,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche der folgenden Gleichungen sind (korrekte) Gesetze von De Morgan?",
     "options": [
-      "¬(A∧B) = ¬A ∨ ¬B",
-      "¬(A∨B) = ¬A ∧ ¬B",
-      "¬(A∧B) = ¬A ∧ ¬B",
-      "¬(¬A∧¬B) = A ∨ B"
+      "$\\neg(A \\land B) = \\neg A \\lor \\neg B$",
+      "$\\neg(A \\lor B) = \\neg A \\land \\neg B$",
+      "$\\neg(A \\land B) = \\neg A \\land \\neg B$",
+      "$\\neg(\\neg A \\land \\neg B) = A \\lor B$"
     ],
     "correct": [
       0,
       1,
       3
     ],
-    "explanation": "Auf der Folie stehen ¬(A∧B)=¬A∨¬B, ¬(A∨B)=¬A∧¬B und ¬(¬A∧¬B)=A∨B. ¬(A∧B)=¬A∧¬B ist falsch (Verwechslung von ∧ und ∨). 📄 Quelle: skript07_mit, Folie 2 (S.2)",
+    "explanation": "Auf der Folie stehen $\\neg(A \\land B)=\\neg A \\lor \\neg B$, $\\neg(A \\lor B)=\\neg A \\land \\neg B$ und $\\neg(\\neg A \\land \\neg B)=A \\lor B$. $\\neg(A \\land B)=\\neg A \\land \\neg B$ ist falsch (Verwechslung von $\\land$ und $\\lor$). 📄 Quelle: skript07_mit, Folie 2 (S.2)",
     "source": "skript07_mit, Folie 2 (S.2, Arithmetik – Aussagen verknüpfen)"
   },
   {
@@ -34184,7 +34184,7 @@ const SAMPLE_QUESTIONS = [
     "question": "Wann sind zwei Aussagen äquivalent (gleichwertig)? Welche Aussagen treffen zu?",
     "options": [
       "Wenn sie dieselbe Wahrheitswertetafel haben.",
-      "¬A∨¬B und ¬(A∧B) haben dieselbe Wahrheitswertetafel und sind daher äquivalent.",
+      "$\\neg A \\lor \\neg B$ und $\\neg(A \\land B)$ haben dieselbe Wahrheitswertetafel und sind daher äquivalent.",
       "Wenn sie in mindestens einem Feld übereinstimmen.",
       "Äquivalente Aussagen sind gleichwertig zueinander."
     ],
@@ -34193,7 +34193,7 @@ const SAMPLE_QUESTIONS = [
       1,
       3
     ],
-    "explanation": "Die Folie hält fest: Gleiche Wahrheitswertetafel ⇒ die Aussagen sind äquivalent (gleichwertig) zueinander. Am Beispiel stimmen ¬A∨¬B und ¬(A∧B) überein. 📄 Quelle: skript07_mit, Folie 2 (S.2)",
+    "explanation": "Die Folie hält fest: Gleiche Wahrheitswertetafel $\\Rightarrow$ die Aussagen sind äquivalent (gleichwertig) zueinander. Am Beispiel stimmen $\\neg A \\lor \\neg B$ und $\\neg(A \\land B)$ überein. 📄 Quelle: skript07_mit, Folie 2 (S.2)",
     "source": "skript07_mit, Folie 2 (S.2, Arithmetik – Aussagen verknüpfen)"
   },
   {
@@ -34203,17 +34203,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Für A = „Es regnet“ und B = „Die Straße ist nass“: Welche Aussagen zu den in drei von vier Feldern wahren Verknüpfungen sind richtig?",
     "options": [
-      "A∨B — „Es regnet oder die Straße ist nass (oder beides).“",
-      "¬(A∧B) — „Es stimmt nicht, dass es regnet und die Straße nass ist.“",
-      "¬(A∧B) ist in genau drei der vier Felder wahr.",
-      "A∨B ist nur wahr, wenn A und B beide wahr sind."
+      "$A \\lor B$ — „Es regnet oder die Straße ist nass (oder beides).“",
+      "$\\neg(A \\land B)$ — „Es stimmt nicht, dass es regnet und die Straße nass ist.“",
+      "$\\neg(A \\land B)$ ist in genau drei der vier Felder wahr.",
+      "$A \\lor B$ ist nur wahr, wenn A und B beide wahr sind."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Disjunktionen bzw. Negationen dieser Folie sind in drei der vier Felder wahr (daher „drei Felder wahr“). A∨B ist wahr, sobald A oder B wahr ist – die letzte Option ist falsch. 📄 Quelle: skript07_mit, Folie 2 (S.2)",
+    "explanation": "Die Disjunktionen bzw. Negationen dieser Folie sind in drei der vier Felder wahr (daher „drei Felder wahr“). $A \\lor B$ ist wahr, sobald A oder B wahr ist – die letzte Option ist falsch. 📄 Quelle: skript07_mit, Folie 2 (S.2)",
     "source": "skript07_mit, Folie 2 (S.2, Arithmetik – Aussagen verknüpfen)"
   },
   {
@@ -34235,9 +34235,9 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Für A = „Es regnet“ und B = „Die Straße ist nass“: Welche Vereinfachungen von in zwei Feldern wahren Verknüpfungen sind korrekt?",
     "options": [
-      "(A∧B) ∨ (A∧¬B) = A (Versprachlichung: „Es regnet.“)",
-      "B ∨ (A∧B) = B (Versprachlichung: „Die Straße ist nass.“)",
-      "(A∧B) ∨ (A∧¬B) = B",
+      "$(A \\land B) \\lor (A \\land \\neg B) = A$ (Versprachlichung: „Es regnet.“)",
+      "$B \\lor (A \\land B) = B$ (Versprachlichung: „Die Straße ist nass.“)",
+      "$(A \\land B) \\lor (A \\land \\neg B) = B$",
       "Die Frage „Warum 6 Möglichkeiten?“ wird über die Kombinatorik beantwortet."
     ],
     "correct": [
@@ -34245,7 +34245,7 @@ const SAMPLE_QUESTIONS = [
       1,
       3
     ],
-    "explanation": "(A∧B)∨(A∧¬B) hat die Spalte w,w,f,f und ist gleich A („Es regnet“); B∨(A∧B) hat die Spalte w,f,w,f und ist gleich B („Die Straße ist nass“). 📄 Quelle: skript07_mit, Folie 3 (S.3)",
+    "explanation": "$(A \\land B) \\lor (A \\land \\neg B)$ hat die Spalte w,w,f,f und ist gleich A („Es regnet“); $B \\lor (A \\land B)$ hat die Spalte w,f,w,f und ist gleich B („Die Straße ist nass“). 📄 Quelle: skript07_mit, Folie 3 (S.3)",
     "source": "skript07_mit, Folie 3 (S.3, Arithmetik – Aussagen verknüpfen)"
   },
   {
@@ -34253,7 +34253,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 2,
     "type": "single",
-    "question": "Welche Wahrheitswertespalte (Reihenfolge der Belegungen A,B: ww, wf, fw, ff) gehört zu B ∨ (A∧B)?",
+    "question": "Welche Wahrheitswertespalte (Reihenfolge der Belegungen A,B: ww, wf, fw, ff) gehört zu $B \\lor (A \\land B)$?",
     "options": [
       "w, f, w, f",
       "w, w, f, f",
@@ -34263,7 +34263,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "B∨(A∧B) vereinfacht sich zu B und hat damit dieselbe Spalte wie B: w,f,w,f. 📄 Quelle: skript07_mit, Folie 3 (S.3)",
+    "explanation": "$B \\lor (A \\land B)$ vereinfacht sich zu B und hat damit dieselbe Spalte wie B: w,f,w,f. 📄 Quelle: skript07_mit, Folie 3 (S.3)",
     "source": "skript07_mit, Folie 3 (S.3, Arithmetik – Aussagen verknüpfen)"
   },
   {
@@ -34271,17 +34271,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 2,
     "type": "single",
-    "question": "Wann ist die Aussage A ⇒ B (wenn A, dann B) genau dann wahr?",
+    "question": "Wann ist die Aussage $A \\Rightarrow B$ (wenn A, dann B) genau dann wahr?",
     "options": [
-      "genau dann, wenn ¬A ∨ B wahr ist",
-      "genau dann, wenn A ∧ B wahr ist",
-      "genau dann, wenn A ∨ ¬B wahr ist",
+      "genau dann, wenn $\\neg A \\lor B$ wahr ist",
+      "genau dann, wenn $A \\land B$ wahr ist",
+      "genau dann, wenn $A \\lor \\neg B$ wahr ist",
       "immer (in allen Fällen)"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie definiert: A⇒B (wenn A, dann B) ist genau dann wahr, wenn ¬A∨B wahr ist. 📄 Quelle: skript07_mit, Folie 33 (S.6)",
+    "explanation": "Die Folie definiert: $A \\Rightarrow B$ (wenn A, dann B) ist genau dann wahr, wenn $\\neg A \\lor B$ wahr ist. 📄 Quelle: skript07_mit, Folie 33 (S.6)",
     "source": "skript07_mit, Folie 33 (S.6, Arithmetik – Die Aussage A⇒B)"
   },
   {
@@ -34291,17 +34291,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Beispiel: „Wenn die Sonne scheint, dann gehe ich joggen.“ Welche Zuordnungen sind korrekt?",
     "options": [
-      "A := die Sonne scheint",
-      "B := ich gehe joggen",
-      "A := ich gehe joggen",
-      "Die Aussage hat die Form A ⇒ B (wenn A, dann B)."
+      "$A :=$ die Sonne scheint",
+      "$B :=$ ich gehe joggen",
+      "$A :=$ ich gehe joggen",
+      "Die Aussage hat die Form $A \\Rightarrow B$ (wenn A, dann B)."
     ],
     "correct": [
       0,
       1,
       3
     ],
-    "explanation": "Die Folie setzt A := die Sonne scheint und B := ich gehe joggen; die Aussage „Wenn A, dann B“ hat die Form A⇒B. 📄 Quelle: skript07_mit, Folie 33 (S.6)",
+    "explanation": "Die Folie setzt $A :=$ die Sonne scheint und $B :=$ ich gehe joggen; die Aussage „Wenn A, dann B“ hat die Form $A \\Rightarrow B$. 📄 Quelle: skript07_mit, Folie 33 (S.6)",
     "source": "skript07_mit, Folie 33 (S.6, Arithmetik – Die Aussage A⇒B)"
   },
   {
@@ -34309,7 +34309,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 2,
     "type": "single",
-    "question": "In welchem Fall (Belegung von A und B) ist A ⇒ B laut Wahrheitswertetabelle falsch?",
+    "question": "In welchem Fall (Belegung von A und B) ist $A \\Rightarrow B$ laut Wahrheitswertetabelle falsch?",
     "options": [
       "A wahr, B falsch",
       "A wahr, B wahr",
@@ -34319,7 +34319,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "In der Tabelle (Folie 36) ist A⇒B nur in der Zeile A=w, B=f falsch; in allen anderen Zeilen (w,w / f,w / f,f) ist sie wahr. 📄 Quelle: skript07_mit, Folie 36 (S.7)",
+    "explanation": "In der Tabelle (Folie 36) ist $A \\Rightarrow B$ nur in der Zeile A=w, B=f falsch; in allen anderen Zeilen (w,w / f,w / f,f) ist sie wahr. 📄 Quelle: skript07_mit, Folie 36 (S.7)",
     "source": "skript07_mit, Folie 36 (S.7, Arithmetik – Die Aussage A⇒B)"
   },
   {
@@ -34327,11 +34327,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 1,
     "type": "numeric",
-    "question": "In wie vielen der vier Zeilen der Wahrheitswertetabelle ist A ⇒ B wahr?",
+    "question": "In wie vielen der vier Zeilen der Wahrheitswertetabelle ist $A \\Rightarrow B$ wahr?",
     "answer": 3,
     "tolerance": 0,
     "unit": "",
-    "explanation": "A⇒B hat die Spalte w,f,w,w – also in drei der vier Zeilen wahr, nur bei A=w und B=f falsch. 📄 Quelle: skript07_mit, Folie 36 (S.7)",
+    "explanation": "$A \\Rightarrow B$ hat die Spalte w,f,w,w – also in drei der vier Zeilen wahr, nur bei A=w und B=f falsch. 📄 Quelle: skript07_mit, Folie 36 (S.7)",
     "source": "skript07_mit, Folie 36 (S.7, Arithmetik – Die Aussage A⇒B)"
   },
   {
@@ -34339,19 +34339,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 3,
     "type": "multi",
-    "question": "Was gilt beim Vergleich von A ⇒ B und ¬A ∨ B?",
+    "question": "Was gilt beim Vergleich von $A \\Rightarrow B$ und $\\neg A \\lor B$?",
     "options": [
-      "A⇒B und ¬A∨B haben dieselben Wahrheitswerte (w, f, w, w).",
-      "A⇒B ist genau dann wahr, wenn ¬A∨B wahr ist.",
-      "Für A falsch ist A⇒B stets wahr.",
-      "A⇒B ist falsch, wenn A falsch und B falsch ist."
+      "$A \\Rightarrow B$ und $\\neg A \\lor B$ haben dieselben Wahrheitswerte (w, f, w, w).",
+      "$A \\Rightarrow B$ ist genau dann wahr, wenn $\\neg A \\lor B$ wahr ist.",
+      "Für A falsch ist $A \\Rightarrow B$ stets wahr.",
+      "$A \\Rightarrow B$ ist falsch, wenn A falsch und B falsch ist."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die beiden Spalten A⇒B und ¬A∨B stimmen überein (w,f,w,w). Für A=f ist A⇒B in beiden Zeilen wahr; falsch ist sie nur bei A=w, B=f. 📄 Quelle: skript07_mit, Folie 36 (S.7)",
+    "explanation": "Die beiden Spalten $A \\Rightarrow B$ und $\\neg A \\lor B$ stimmen überein (w,f,w,w). Für A=f ist $A \\Rightarrow B$ in beiden Zeilen wahr; falsch ist sie nur bei A=w, B=f. 📄 Quelle: skript07_mit, Folie 36 (S.7)",
     "source": "skript07_mit, Folie 36 (S.7, Arithmetik – Die Aussage A⇒B)"
   },
   {
@@ -34359,18 +34359,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 3,
     "type": "multi",
-    "question": "Der Satz lautet „Für alle Elemente einer Menge M gilt: Wenn A, dann B“ (A ⇒ B). Wie lautet die Verneinung (das Gegenteil) dieses Satzes?",
+    "question": "Der Satz lautet „Für alle Elemente einer Menge M gilt: Wenn A, dann B“ ($A \\Rightarrow B$). Wie lautet die Verneinung (das Gegenteil) dieses Satzes?",
     "options": [
-      "A und nicht B (A ∧ ¬B)",
-      "Wenn A, dann nicht B (A ⇒ ¬B)",
-      "¬(¬A ∨ B) = A ∧ ¬B",
-      "nicht A und nicht B (¬A ∧ ¬B)"
+      "A und nicht B ($A \\land \\neg B$)",
+      "Wenn A, dann nicht B ($A \\Rightarrow \\neg B$)",
+      "$\\neg(\\neg A \\lor B) = A \\land \\neg B$",
+      "nicht A und nicht B ($\\neg A \\land \\neg B$)"
     ],
     "correct": [
       0,
       2
     ],
-    "explanation": "Da A⇒B ≡ ¬A∨B ist, ergibt die Verneinung ¬(¬A∨B) = A∧¬B, also „A und nicht B“ (Beispiel: „Die Sonne scheint und ich gehe nicht joggen“). „Wenn A, dann nicht B“ ist nicht die Verneinung. 📄 Quelle: skript07_mit, Folie 41 (S.8)",
+    "explanation": "Da $A \\Rightarrow B \\equiv \\neg A \\lor B$ ist, ergibt die Verneinung $\\neg(\\neg A \\lor B) = A \\land \\neg B$, also „A und nicht B“ (Beispiel: „Die Sonne scheint und ich gehe nicht joggen“). „Wenn A, dann nicht B“ ist nicht die Verneinung. 📄 Quelle: skript07_mit, Folie 41 (S.8)",
     "source": "skript07_mit, Folie 41 (S.8, Arithmetik – Sätze als verknüpfte Aussagen)"
   },
   {
@@ -34388,7 +34388,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Die Verneinung von A⇒B ist A∧¬B, hier also „Die Sonne scheint und ich gehe nicht joggen“. 📄 Quelle: skript07_mit, Folie 41 (S.8)",
+    "explanation": "Die Verneinung von $A \\Rightarrow B$ ist $A \\land \\neg B$, hier also „Die Sonne scheint und ich gehe nicht joggen“. 📄 Quelle: skript07_mit, Folie 41 (S.8)",
     "source": "skript07_mit, Folie 41 (S.8, Arithmetik – Sätze als verknüpfte Aussagen)"
   },
   {
@@ -34396,18 +34396,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 2,
     "type": "multi",
-    "question": "Wann ist die Aussage A ⇔ B (genau dann, wenn) wahr?",
+    "question": "Wann ist die Aussage $A \\Leftrightarrow B$ (genau dann, wenn) wahr?",
     "options": [
-      "wenn A⇒B und B⇒A beide wahr sind",
-      "wenn A⇒B oder B⇒A wahr ist",
-      "nur wenn A⇒B wahr ist",
-      "A⇔B = (A⇒B) ∧ (B⇒A)"
+      "wenn $A \\Rightarrow B$ und $B \\Rightarrow A$ beide wahr sind",
+      "wenn $A \\Rightarrow B$ oder $B \\Rightarrow A$ wahr ist",
+      "nur wenn $A \\Rightarrow B$ wahr ist",
+      "$A \\Leftrightarrow B = (A \\Rightarrow B) \\land (B \\Rightarrow A)$"
     ],
     "correct": [
       0,
       3
     ],
-    "explanation": "Die Folie definiert: A⇔B ist genau dann wahr, wenn A⇒B und B⇒A wahr sind (sonst falsch), also A⇔B = (A⇒B)∧(B⇒A). 📄 Quelle: skript07_mit, Folie 42 (S.9)",
+    "explanation": "Die Folie definiert: $A \\Leftrightarrow B$ ist genau dann wahr, wenn $A \\Rightarrow B$ und $B \\Rightarrow A$ wahr sind (sonst falsch), also $A \\Leftrightarrow B = (A \\Rightarrow B) \\land (B \\Rightarrow A)$. 📄 Quelle: skript07_mit, Folie 42 (S.9)",
     "source": "skript07_mit, Folie 42 (S.9, Arithmetik – Die Aussage A⇔B)"
   },
   {
@@ -34415,7 +34415,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 2,
     "type": "single",
-    "question": "Welche Wahrheitswertespalte hat die Verknüpfung A ⇒ B (Belegungen A,B: ww, wf, fw, ff)?",
+    "question": "Welche Wahrheitswertespalte hat die Verknüpfung $A \\Rightarrow B$ (Belegungen A,B: ww, wf, fw, ff)?",
     "options": [
       "w, f, w, w",
       "w, w, w, w",
@@ -34425,7 +34425,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "In der Tabelle der Folie 42 ist die Spalte A⇒B mit w, f, w, w ausgefüllt. 📄 Quelle: skript07_mit, Folie 42 (S.9)",
+    "explanation": "In der Tabelle der Folie 42 ist die Spalte $A \\Rightarrow B$ mit w, f, w, w ausgefüllt. 📄 Quelle: skript07_mit, Folie 42 (S.9)",
     "source": "skript07_mit, Folie 42 (S.9, Arithmetik – Die Aussage A⇔B)"
   },
   {

@@ -4,18 +4,18 @@
     "topic": "skript03_live_folge_summenformel",
     "difficulty": 1,
     "type": "multi",
-    "question": "Betrachtet wird die Folge 1, 4, 7, 10, … . Welche Terme beschreiben die n-te Zahl a(n) korrekt?",
+    "question": "Betrachtet wird die Folge 1, 4, 7, 10, … . Welche Terme beschreiben die n-te Zahl $a(n)$ korrekt?",
     "options": [
-      "a(n) = 3n − 2",
-      "a(n) = 2·n + (n − 2)",
-      "a(n) = 3n + 2",
-      "a(n) = n + 3"
+      "$a(n) = 3n - 2$",
+      "$a(n) = 2 \\cdot n + (n - 2)$",
+      "$a(n) = 3n + 2$",
+      "$a(n) = n + 3$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Auf der Folie wird a(n) = 2·n + (n − 2) = 2n + n − 2 = 3n − 2 hergeleitet; beide Formen sind gleichwertig. 📄 Quelle: skript03_live, Folie 7 (S.1)",
+    "explanation": "Auf der Folie wird $a(n) = 2 \\cdot n + (n - 2) = 2n + n - 2 = 3n - 2$ hergeleitet; beide Formen sind gleichwertig. 📄 Quelle: skript03_live, Folie 7 (S.1)",
     "source": "skript03_live, Folie 7 (S.1, Arithmetik: Rückblick Entdeckung)"
   },
   {
@@ -23,11 +23,11 @@
     "topic": "skript03_live_folge_summenformel",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechne mit der Bildungsvorschrift a(n) = 3n − 2 das zehnte Folgenglied a(10) der Folge 1, 4, 7, 10, … .",
+    "question": "Berechne mit der Bildungsvorschrift $a(n) = 3n - 2$ das zehnte Folgenglied $a(10)$ der Folge 1, 4, 7, 10, … .",
     "answer": 28,
     "tolerance": 0,
     "unit": "",
-    "explanation": "a(10) = 3·10 − 2 = 28; dies stimmt mit der Tabelle a(10) = 28 auf der Folie überein. 📄 Quelle: skript03_live, Folie 7 (S.1)",
+    "explanation": "$a(10) = 3 \\cdot 10 - 2 = 28$; dies stimmt mit der Tabelle $a(10) = 28$ auf der Folie überein. 📄 Quelle: skript03_live, Folie 7 (S.1)",
     "source": "skript03_live, Folie 7 (S.1, Arithmetik: Rückblick Entdeckung)"
   },
   {
@@ -35,17 +35,17 @@
     "topic": "skript03_live_folge_summenformel",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lautet der Satz für die Summe S_n der ersten n Glieder der Folge 1, 4, 7, 10, …, also S_n = 1 + 4 + 7 + 10 + … + (3n − 2)?",
+    "question": "Wie lautet der Satz für die Summe $S_n$ der ersten $n$ Glieder der Folge 1, 4, 7, 10, …, also $S_n = 1 + 4 + 7 + 10 + \\dots + (3n - 2)$?",
     "options": [
-      "S_n = n/2 · (3n − 1)",
-      "S_n = n/2 · (3n − 2)",
-      "S_n = n · (3n − 1)",
-      "S_n = (n − 1)/2 · 3n"
+      "$S_n = \\frac{n}{2} \\cdot (3n - 1)$",
+      "$S_n = \\frac{n}{2} \\cdot (3n - 2)$",
+      "$S_n = n \\cdot (3n - 1)$",
+      "$S_n = \\frac{n - 1}{2} \\cdot 3n$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Satz auf der Folie lautet: Wenn S_n = 1 + 4 + 7 + 10 + … + (3n − 2), dann ist S_n = n/2 · (3n − 1). 📄 Quelle: skript03_live, Folie 7 (S.1)",
+    "explanation": "Der Satz auf der Folie lautet: Wenn $S_n = 1 + 4 + 7 + 10 + \\dots + (3n - 2)$, dann ist $S_n = \\frac{n}{2} \\cdot (3n - 1)$. 📄 Quelle: skript03_live, Folie 7 (S.1)",
     "source": "skript03_live, Folie 7 (S.1, Arithmetik: Rückblick Entdeckung, Satz)"
   },
   {
@@ -53,11 +53,11 @@
     "topic": "skript03_live_folge_summenformel",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Berechne mit der Summenformel S_n = n/2 · (3n − 1) den Wert S_3 (Summe der ersten drei Glieder von 1, 4, 7, 10, …).",
+    "question": "Berechne mit der Summenformel $S_n = \\frac{n}{2} \\cdot (3n - 1)$ den Wert $S_3$ (Summe der ersten drei Glieder von 1, 4, 7, 10, …).",
     "answer": 12,
     "tolerance": 0,
     "unit": "",
-    "explanation": "S_3 = 3/2 · (3·3 − 1) = 3/2 · 8 = 12; auf der Folie als Überprüfung für ungerades n gerechnet. 📄 Quelle: skript03_live, Folie 7 (S.1)",
+    "explanation": "$S_3 = \\frac{3}{2} \\cdot (3 \\cdot 3 - 1) = \\frac{3}{2} \\cdot 8 = 12$; auf der Folie als Überprüfung für ungerades $n$ gerechnet. 📄 Quelle: skript03_live, Folie 7 (S.1)",
     "source": "skript03_live, Folie 7 (S.1, Arithmetik: Rückblick Entdeckung)"
   },
   {
@@ -67,17 +67,17 @@
     "type": "multi",
     "question": "Aus welchen Schritten besteht ein Beweis durch vollständige Induktion?",
     "options": [
-      "Induktionsanfang (zu zeigen: der Satz ist wahr für n = 1)",
-      "Induktionsvoraussetzung (Annahme: der Satz ist wahr für ein beliebiges, aber festes n)",
-      "Induktionsschritt n → (n+1)",
-      "Induktionsende (zu zeigen: der Satz ist falsch für n = 0)"
+      "Induktionsanfang (zu zeigen: der Satz ist wahr für $n = 1$)",
+      "Induktionsvoraussetzung (Annahme: der Satz ist wahr für ein beliebiges, aber festes $n$)",
+      "Induktionsschritt $n \\to (n+1)$",
+      "Induktionsende (zu zeigen: der Satz ist falsch für $n = 0$)"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie nennt Induktionsanfang (n = 1), Induktionsvoraussetzung (Annahme für beliebiges, festes n) und Induktionsschritt n → (n+1); einen 'Induktionsende'-Schritt gibt es nicht. 📄 Quelle: skript03_live, Folie 9 (S.2)",
+    "explanation": "Die Folie nennt Induktionsanfang ($n = 1$), Induktionsvoraussetzung (Annahme für beliebiges, festes $n$) und Induktionsschritt $n \\to (n+1)$; einen 'Induktionsende'-Schritt gibt es nicht. 📄 Quelle: skript03_live, Folie 9 (S.2)",
     "source": "skript03_live, Folie 9 (S.2, Vollständige Induktion – Übung)"
   },
   {
@@ -85,11 +85,11 @@
     "topic": "skript03_live_vollstaendige_induktion",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Induktionsanfang für den Satz S_n = n·(3n − 1)/2: Berechne den Wert der rechten Seite für n = 1.",
+    "question": "Induktionsanfang für den Satz $S_n = \\frac{n \\cdot (3n - 1)}{2}$: Berechne den Wert der rechten Seite für $n = 1$.",
     "answer": 1,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Für n = 1: 1·(3·1 − 1)/2 = 1·2/2 = 1, also linke Seite S(1) = 1 = rechte Seite. 📄 Quelle: skript03_live, Folie 9 (S.2)",
+    "explanation": "Für $n = 1$: $\\frac{1 \\cdot (3 \\cdot 1 - 1)}{2} = \\frac{1 \\cdot 2}{2} = 1$, also linke Seite $S(1) = 1 =$ rechte Seite. 📄 Quelle: skript03_live, Folie 9 (S.2)",
     "source": "skript03_live, Folie 9 (S.2, Vollständige Induktion – Induktionsanfang)"
   },
   {
@@ -99,15 +99,15 @@
     "type": "single",
     "question": "Was besagt die Induktionsvoraussetzung in diesem Beweis?",
     "options": [
-      "Der Satz ist wahr für ein beliebiges, aber festes n.",
-      "Der Satz ist wahr für alle n gleichzeitig.",
-      "Der Satz ist wahr für n = 1.",
-      "Der Satz ist wahr für n + 1."
+      "Der Satz ist wahr für ein beliebiges, aber festes $n$.",
+      "Der Satz ist wahr für alle $n$ gleichzeitig.",
+      "Der Satz ist wahr für $n = 1$.",
+      "Der Satz ist wahr für $n + 1$."
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Induktionsvoraussetzung ist die Annahme, dass der Satz für ein beliebiges, aber festes n wahr ist (A(n) darf benutzt werden). 📄 Quelle: skript03_live, Folie 9 (S.2)",
+    "explanation": "Die Induktionsvoraussetzung ist die Annahme, dass der Satz für ein beliebiges, aber festes $n$ wahr ist ($A(n)$ darf benutzt werden). 📄 Quelle: skript03_live, Folie 9 (S.2)",
     "source": "skript03_live, Folie 9 (S.2, Vollständige Induktion – Induktionsvoraussetzung)"
   },
   {
@@ -115,17 +115,17 @@
     "topic": "skript03_live_vollstaendige_induktion",
     "difficulty": 1,
     "type": "single",
-    "question": "Welcher Tipp hilft beim Induktionsschritt n → (n+1)?",
+    "question": "Welcher Tipp hilft beim Induktionsschritt $n \\to (n+1)$?",
     "options": [
-      "Starte damit, A(n+1) aufzuschreiben.",
-      "Starte damit, A(n−1) aufzuschreiben.",
-      "Setze sofort n = 1 ein.",
-      "Beweise zuerst den Induktionsanfang für n = 2."
+      "Starte damit, $A(n+1)$ aufzuschreiben.",
+      "Starte damit, $A(n-1)$ aufzuschreiben.",
+      "Setze sofort $n = 1$ ein.",
+      "Beweise zuerst den Induktionsanfang für $n = 2$."
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Tipp auf der Folie lautet: 'Starte damit A(n+1) aufzuschreiben!' 📄 Quelle: skript03_live, Folie 9 (S.2)",
+    "explanation": "Der Tipp auf der Folie lautet: 'Starte damit $A(n+1)$ aufzuschreiben!' 📄 Quelle: skript03_live, Folie 9 (S.2)",
     "source": "skript03_live, Folie 9 (S.2, Vollständige Induktion – Induktionsschritt)"
   },
   {
@@ -133,11 +133,11 @@
     "topic": "skript03_live_fibonacci_folge",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Die veränderte Fibonacci-Folge hat die Startzahlen f̃₁ = 4, f̃₂ = 7 und die Regel f̃ₙ = f̃ₙ₋₂ + f̃ₙ₋₁ (für n > 2). Berechne f̃₅.",
+    "question": "Die veränderte Fibonacci-Folge hat die Startzahlen $\\tilde{f}_1 = 4$, $\\tilde{f}_2 = 7$ und die Regel $\\tilde{f}_n = \\tilde{f}_{n-2} + \\tilde{f}_{n-1}$ (für $n > 2$). Berechne $\\tilde{f}_5$.",
     "answer": 29,
     "tolerance": 0,
     "unit": "",
-    "explanation": "f̃₃ = 4 + 7 = 11, f̃₄ = 7 + 11 = 18, f̃₅ = 11 + 18 = 29; die neue Folge lautet 4, 7, 11, 18, 29, 47, 76, … 📄 Quelle: skript03_live, Folie 11 (S.3)",
+    "explanation": "$\\tilde{f}_3 = 4 + 7 = 11$, $\\tilde{f}_4 = 7 + 11 = 18$, $\\tilde{f}_5 = 11 + 18 = 29$; die neue Folge lautet 4, 7, 11, 18, 29, 47, 76, … 📄 Quelle: skript03_live, Folie 11 (S.3)",
     "source": "skript03_live, Folie 11 (S.3, Erkundung II)"
   },
   {
@@ -145,18 +145,18 @@
     "topic": "skript03_live_fibonacci_folge",
     "difficulty": 2,
     "type": "multi",
-    "question": "Für die veränderte Fibonacci-Folge mit f̃₁ = 4, f̃₂ = 7 sei S̃ₙ = f̃₁ + f̃₂ + … + f̃ₙ. Welcher Zusammenhang zwischen S̃ₙ und f̃ₙ gilt?",
+    "question": "Für die veränderte Fibonacci-Folge mit $\\tilde{f}_1 = 4$, $\\tilde{f}_2 = 7$ sei $\\tilde{S}_n = \\tilde{f}_1 + \\tilde{f}_2 + \\dots + \\tilde{f}_n$. Welcher Zusammenhang zwischen $\\tilde{S}_n$ und $\\tilde{f}_n$ gilt?",
     "options": [
-      "S̃ₙ + 7 = f̃ₙ₊₂",
-      "S̃ₙ = f̃ₙ₊₂ − 7",
-      "S̃ₙ = f̃ₙ₊₂ + 7",
-      "S̃ₙ = f̃ₙ − 7"
+      "$\\tilde{S}_n + 7 = \\tilde{f}_{n+2}$",
+      "$\\tilde{S}_n = \\tilde{f}_{n+2} - 7$",
+      "$\\tilde{S}_n = \\tilde{f}_{n+2} + 7$",
+      "$\\tilde{S}_n = \\tilde{f}_n - 7$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Aus S̃₁ + 7 = f̃₃, S̃₂ + 7 = f̃₄, … verallgemeinert die Folie zu S̃ₙ + 7 = f̃ₙ₊₂, gleichbedeutend mit S̃ₙ = f̃ₙ₊₂ − 7. 📄 Quelle: skript03_live, Folie 11 (S.3)",
+    "explanation": "Aus $\\tilde{S}_1 + 7 = \\tilde{f}_3$, $\\tilde{S}_2 + 7 = \\tilde{f}_4$, … verallgemeinert die Folie zu $\\tilde{S}_n + 7 = \\tilde{f}_{n+2}$, gleichbedeutend mit $\\tilde{S}_n = \\tilde{f}_{n+2} - 7$. 📄 Quelle: skript03_live, Folie 11 (S.3)",
     "source": "skript03_live, Folie 11 (S.3, Erkundung II)"
   },
   {
@@ -164,17 +164,17 @@
     "topic": "skript03_live_fibonacci_folge",
     "difficulty": 3,
     "type": "single",
-    "question": "Wie lässt sich das n-te Glied der veränderten Fibonacci-Folge mit gewöhnlichen Fibonacci-Zahlen fₙ und beliebigen Startzahlen s₁, s₂ ausdrücken?",
+    "question": "Wie lässt sich das n-te Glied der veränderten Fibonacci-Folge mit gewöhnlichen Fibonacci-Zahlen $f_n$ und beliebigen Startzahlen $s_1$, $s_2$ ausdrücken?",
     "options": [
-      "f̃ₙ = fₙ₋₂ · s₁ + fₙ₋₁ · s₂",
-      "f̃ₙ = fₙ₋₁ · s₁ + fₙ₋₂ · s₂",
-      "f̃ₙ = fₙ · s₁ + fₙ₊₁ · s₂",
-      "f̃ₙ = fₙ₋₂ + fₙ₋₁"
+      "$\\tilde{f}_n = f_{n-2} \\cdot s_1 + f_{n-1} \\cdot s_2$",
+      "$\\tilde{f}_n = f_{n-1} \\cdot s_1 + f_{n-2} \\cdot s_2$",
+      "$\\tilde{f}_n = f_n \\cdot s_1 + f_{n+1} \\cdot s_2$",
+      "$\\tilde{f}_n = f_{n-2} + f_{n-1}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie hält allgemein für beliebige Startzahlen s₁ und s₂ fest: f̃ₙ := fₙ₋₂ · s₁ + fₙ₋₁ · s₂. 📄 Quelle: skript03_live, Folie 11 (S.3)",
+    "explanation": "Die Folie hält allgemein für beliebige Startzahlen $s_1$ und $s_2$ fest: $\\tilde{f}_n := f_{n-2} \\cdot s_1 + f_{n-1} \\cdot s_2$. 📄 Quelle: skript03_live, Folie 11 (S.3)",
     "source": "skript03_live, Folie 11 (S.3, Erkundung II)"
   },
   {
@@ -182,11 +182,11 @@
     "topic": "skript03_live_fibonacci_folge",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Mit f̃ₙ = fₙ₋₂·4 + fₙ₋₁·7 (gewöhnliche Fibonacci-Zahlen f₁=1, f₂=1, f₃=2, f₄=3, f₅=5, …): Berechne f̃₆ = f₄·4 + f₅·7.",
+    "question": "Mit $\\tilde{f}_n = f_{n-2} \\cdot 4 + f_{n-1} \\cdot 7$ (gewöhnliche Fibonacci-Zahlen $f_1 = 1$, $f_2 = 1$, $f_3 = 2$, $f_4 = 3$, $f_5 = 5$, …): Berechne $\\tilde{f}_6 = f_4 \\cdot 4 + f_5 \\cdot 7$.",
     "answer": 47,
     "tolerance": 0,
     "unit": "",
-    "explanation": "f̃₆ = f₄·4 + f₅·7 = 3·4 + 5·7 = 12 + 35 = 47; entspricht dem 6. Glied der neuen Folge 4, 7, 11, 18, 29, 47, … 📄 Quelle: skript03_live, Folie 11 (S.3)",
+    "explanation": "$\\tilde{f}_6 = f_4 \\cdot 4 + f_5 \\cdot 7 = 3 \\cdot 4 + 5 \\cdot 7 = 12 + 35 = 47$; entspricht dem 6. Glied der neuen Folge 4, 7, 11, 18, 29, 47, … 📄 Quelle: skript03_live, Folie 11 (S.3)",
     "source": "skript03_live, Folie 11 (S.3, Erkundung II)"
   },
   {
@@ -194,17 +194,17 @@
     "topic": "skript03_live_fibonacci_summenformel",
     "difficulty": 3,
     "type": "single",
-    "question": "Wie lautet die Vermutung für die Summe S̃ₙ = f̃₁ + f̃₂ + … + f̃ₙ der veränderten Fibonacci-Folge (mit Startzahlen s₁, s₂)?",
+    "question": "Wie lautet die Vermutung für die Summe $\\tilde{S}_n = \\tilde{f}_1 + \\tilde{f}_2 + \\dots + \\tilde{f}_n$ der veränderten Fibonacci-Folge (mit Startzahlen $s_1$, $s_2$)?",
     "options": [
-      "S̃ₙ = fₙ · s₁ + (fₙ₊₁ − 1) · s₂",
-      "S̃ₙ = fₙ · s₁ + (fₙ₋₁ − 1) · s₂",
-      "S̃ₙ = fₙ₊₁ · s₁ + (fₙ − 1) · s₂",
-      "S̃ₙ = (fₙ − 1) · s₁ + fₙ₊₁ · s₂"
+      "$\\tilde{S}_n = f_n \\cdot s_1 + (f_{n+1} - 1) \\cdot s_2$",
+      "$\\tilde{S}_n = f_n \\cdot s_1 + (f_{n-1} - 1) \\cdot s_2$",
+      "$\\tilde{S}_n = f_{n+1} \\cdot s_1 + (f_n - 1) \\cdot s_2$",
+      "$\\tilde{S}_n = (f_n - 1) \\cdot s_1 + f_{n+1} \\cdot s_2$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Vermutung auf der Folie lautet S̃ₙ = fₙ·s₁ + (fₙ₊₁ − 1)·s₂ mit S̃ₙ = f̃₁ + f̃₂ + … + f̃ₙ. 📄 Quelle: skript03_live, Folie 16 (S.4)",
+    "explanation": "Die Vermutung auf der Folie lautet $\\tilde{S}_n = f_n \\cdot s_1 + (f_{n+1} - 1) \\cdot s_2$ mit $\\tilde{S}_n = \\tilde{f}_1 + \\tilde{f}_2 + \\dots + \\tilde{f}_n$. 📄 Quelle: skript03_live, Folie 16 (S.4)",
     "source": "skript03_live, Folie 16 (S.4, Erkundung II – Vermutung)"
   },
   {
@@ -212,11 +212,11 @@
     "topic": "skript03_live_fibonacci_summenformel",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Beispiel 1 (s₁ = 4, s₂ = 7): Berechne S̃₃ = f₃·s₁ + (f₄ − 1)·s₂ mit f₃ = 2 und f₄ = 3.",
+    "question": "Beispiel 1 ($s_1 = 4$, $s_2 = 7$): Berechne $\\tilde{S}_3 = f_3 \\cdot s_1 + (f_4 - 1) \\cdot s_2$ mit $f_3 = 2$ und $f_4 = 3$.",
     "answer": 22,
     "tolerance": 0,
     "unit": "",
-    "explanation": "S̃₃ = 2·4 + (3 − 1)·7 = 8 + 2·7 = 8 + 14 = 22 (auf der Folie mit ✓ bestätigt). 📄 Quelle: skript03_live, Folie 16 (S.4)",
+    "explanation": "$\\tilde{S}_3 = 2 \\cdot 4 + (3 - 1) \\cdot 7 = 8 + 2 \\cdot 7 = 8 + 14 = 22$ (auf der Folie mit ✓ bestätigt). 📄 Quelle: skript03_live, Folie 16 (S.4)",
     "source": "skript03_live, Folie 16 (S.4, Erkundung II – Beispiel 1)"
   },
   {
@@ -224,11 +224,11 @@
     "topic": "skript03_live_fibonacci_summenformel",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Beispiel 2 (n = 4, s₁ = 13, s₂ = 9): Berechne S̃₄ = f₄·s₁ + (f₅ − 1)·s₂ mit f₄ = 3 und f₅ = 5.",
+    "question": "Beispiel 2 ($n = 4$, $s_1 = 13$, $s_2 = 9$): Berechne $\\tilde{S}_4 = f_4 \\cdot s_1 + (f_5 - 1) \\cdot s_2$ mit $f_4 = 3$ und $f_5 = 5$.",
     "answer": 75,
     "tolerance": 0,
     "unit": "",
-    "explanation": "S̃₄ = 3·13 + (5 − 1)·9 = 39 + 36 = 75 (auf der Folie mit ✓ bestätigt). 📄 Quelle: skript03_live, Folie 16 (S.4)",
+    "explanation": "$\\tilde{S}_4 = 3 \\cdot 13 + (5 - 1) \\cdot 9 = 39 + 36 = 75$ (auf der Folie mit ✓ bestätigt). 📄 Quelle: skript03_live, Folie 16 (S.4)",
     "source": "skript03_live, Folie 16 (S.4, Erkundung II – Beispiel 2)"
   },
   {
@@ -236,11 +236,11 @@
     "topic": "skript03_live_binomialkoeffizient",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechne die Fakultät 5! = 5·4·3·2·1.",
+    "question": "Berechne die Fakultät $5! = 5 \\cdot 4 \\cdot 3 \\cdot 2 \\cdot 1$.",
     "answer": 120,
     "tolerance": 0,
     "unit": "",
-    "explanation": "5! = 5·4·3·2·1 = 20·6 = 120. 📄 Quelle: skript03_live, Folie 39 (S.5)",
+    "explanation": "$5! = 5 \\cdot 4 \\cdot 3 \\cdot 2 \\cdot 1 = 20 \\cdot 6 = 120$. 📄 Quelle: skript03_live, Folie 39 (S.5)",
     "source": "skript03_live, Folie 39 (S.5, Erkundung 2 – neue Rechenzeichen)"
   },
   {
@@ -248,17 +248,17 @@
     "topic": "skript03_live_binomialkoeffizient",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie ist der Binomialkoeffizient (n über k) definiert?",
+    "question": "Wie ist der Binomialkoeffizient $\\binom{n}{k}$ definiert?",
     "options": [
-      "(n über k) = n! / (k! · (n − k)!)",
-      "(n über k) = n! / (k! · n!)",
-      "(n über k) = (n − k)! / (k! · n!)",
-      "(n über k) = n! / (n − k)!"
+      "$\\binom{n}{k} = \\frac{n!}{k! \\cdot (n - k)!}$",
+      "$\\binom{n}{k} = \\frac{n!}{k! \\cdot n!}$",
+      "$\\binom{n}{k} = \\frac{(n - k)!}{k! \\cdot n!}$",
+      "$\\binom{n}{k} = \\frac{n!}{(n - k)!}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Definition auf der Folie: (n über k) := n! / (k! · (n − k)!), dabei ist n die Zeile und k die Spalte im Pascal'schen Dreieck. 📄 Quelle: skript03_live, Folie 39 (S.5)",
+    "explanation": "Definition auf der Folie: $\\binom{n}{k} := \\frac{n!}{k! \\cdot (n - k)!}$, dabei ist $n$ die Zeile und $k$ die Spalte im Pascal'schen Dreieck. 📄 Quelle: skript03_live, Folie 39 (S.5)",
     "source": "skript03_live, Folie 39 (S.5, Erkundung 2 – Binomialkoeffizient)"
   },
   {
@@ -266,11 +266,11 @@
     "topic": "skript03_live_binomialkoeffizient",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechne den Binomialkoeffizienten (5 über 3) = 5! / (3! · (5 − 3)!).",
+    "question": "Berechne den Binomialkoeffizienten $\\binom{5}{3} = \\frac{5!}{3! \\cdot (5 - 3)!}$.",
     "answer": 10,
     "tolerance": 0,
     "unit": "",
-    "explanation": "(5 über 3) = 5! / (3!·2!) = (5·4·3·2·1)/((3·2·1)·(2·1)) = 20/2 = 10. 📄 Quelle: skript03_live, Folie 39 (S.5)",
+    "explanation": "$\\binom{5}{3} = \\frac{5!}{3! \\cdot 2!} = \\frac{5 \\cdot 4 \\cdot 3 \\cdot 2 \\cdot 1}{(3 \\cdot 2 \\cdot 1) \\cdot (2 \\cdot 1)} = \\frac{20}{2} = 10$. 📄 Quelle: skript03_live, Folie 39 (S.5)",
     "source": "skript03_live, Folie 39 (S.5, Erkundung 2 – Binomialkoeffizient)"
   },
   {
@@ -280,15 +280,15 @@
     "type": "single",
     "question": "Da im Pascal'schen Dreieck jede Zahl durch die Summe der beiden darüber stehenden entsteht: Welche Gleichung gilt?",
     "options": [
-      "(n+1 über k+1) = (n über k) + (n über k+1)",
-      "(n+1 über k+1) = (n über k) · (n über k+1)",
-      "(n+1 über k+1) = (n über k) − (n über k+1)",
-      "(n über k) = (n+1 über k+1) + (n über k+1)"
+      "$\\binom{n+1}{k+1} = \\binom{n}{k} + \\binom{n}{k+1}$",
+      "$\\binom{n+1}{k+1} = \\binom{n}{k} \\cdot \\binom{n}{k+1}$",
+      "$\\binom{n+1}{k+1} = \\binom{n}{k} - \\binom{n}{k+1}$",
+      "$\\binom{n}{k} = \\binom{n+1}{k+1} + \\binom{n}{k+1}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie gibt die Rekursion des Pascal'schen Dreiecks an: (n+1 über k+1) = (n über k) + (n über k+1). 📄 Quelle: skript03_live, Folie 39 (S.5)",
+    "explanation": "Die Folie gibt die Rekursion des Pascal'schen Dreiecks an: $\\binom{n+1}{k+1} = \\binom{n}{k} + \\binom{n}{k+1}$. 📄 Quelle: skript03_live, Folie 39 (S.5)",
     "source": "skript03_live, Folie 39 (S.5, Erkundung 2 – Pascal'sches Dreieck)"
   }
 ]

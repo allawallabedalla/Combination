@@ -1,430 +1,430 @@
 [
- {
-  "id": "skript05_mit-b1-001",
-  "topic": "skript05_mit_primfaktorzerlegung",
-  "difficulty": 1,
-  "type": "multi",
-  "question": "Was befindet sich am Äußeren des (ausgewachsenen) Zahlenbäumchens?",
-  "options": [
-   "Die Primzahlen, deren Produkt die Ausgangszahl (Zahlenzwiebel) ergibt",
-   "Alle Teiler der Ausgangszahl",
-   "Die Quadratzahlen kleiner als die Ausgangszahl",
-   "Die Vielfachen der Ausgangszahl"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Laut Folie befinden sich am Äußeren des Bäumchens die Primzahlen, deren Produkt die Ausgangszahl ergibt, z. B. 12 = 3·2·2 = 2·2·3 = 2^2·3. 📄 Quelle: skript05_mit, Folie 1 (S.1)",
-  "source": "skript05_mit, Folie 1 (S.1, Arithmetik – Teilen)"
- },
- {
-  "id": "skript05_mit-b1-002",
-  "topic": "skript05_mit_primfaktorzerlegung",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Wie lautet die Primfaktorzerlegung von 96?",
-  "options": [
-   "2^5 · 3",
-   "2^4 · 3",
-   "2^6 · 3",
-   "2^3 · 12"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Handschriftliche Lösung: 96 = 48·2 = 2·2·2·2·2·3 = 2^5·3. 📄 Quelle: skript05_mit, Folie 1 (S.1)",
-  "source": "skript05_mit, Folie 1 (S.1, Arithmetik – Teilen, Handschrift)"
- },
- {
-  "id": "skript05_mit-b1-003",
-  "topic": "skript05_mit_primfaktorzerlegung",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Wie lautet die Primfaktorzerlegung von 132?",
-  "options": [
-   "2^2 · 3 · 11",
-   "2 · 3 · 11",
-   "2^2 · 33",
-   "4 · 3 · 11"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Handschriftliche Lösung: 132 = 2·66 = 2·2·33 = 2·2·3·11 = 2^2·3·11 (33 ist nicht durch 2 teilbar, nächste PZ ist 3). 📄 Quelle: skript05_mit, Folie 1 (S.1)",
-  "source": "skript05_mit, Folie 1 (S.1, Arithmetik – Teilen, Handschrift)"
- },
- {
-  "id": "skript05_mit-b1-004",
-  "topic": "skript05_mit_primfaktorzerlegung",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Wie lautet die Primfaktorzerlegung von 189?",
-  "options": [
-   "3^3 · 7",
-   "3^2 · 7",
-   "3^3 · 5",
-   "9 · 21"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Handschriftliche Lösung: 189 = 63·3 = 21·3·3 = 7·3·3·3 = 3^3·7 (kleinste PZ 2 teilt 189 nicht, nächste PZ 3 teilt 189). 📄 Quelle: skript05_mit, Folie 1 (S.1)",
-  "source": "skript05_mit, Folie 1 (S.1, Arithmetik – Teilen, Handschrift)"
- },
- {
-  "id": "skript05_mit-b1-005",
-  "topic": "skript05_mit_teilermenge",
-  "difficulty": 1,
-  "type": "multi",
-  "question": "Wie lautet die Teilermenge T_12 der Zahl 12?",
-  "options": [
-   "{1, 2, 3, 4, 6, 12}",
-   "{1, 2, 3, 4, 6}",
-   "{2, 3, 4, 6, 12}",
-   "{1, 2, 3, 6, 12}"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Aus dem Baum zu 12 = 2^2·3^1 ergibt sich die Teilermenge T_12 = {1, 2, 3, 4, 6, 12}. 📄 Quelle: skript05_mit, Folie 2 (S.2)",
-  "source": "skript05_mit, Folie 2 (S.2, Arithmetik – Teilen, Handschrift)"
- },
- {
-  "id": "skript05_mit-b1-006",
-  "topic": "skript05_mit_teilermenge",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Wie viele Teiler hat die Zahl 12 laut dem Baum (aus 12 = 2^2·3^1 als 3·2 abgelesen)?",
-  "answer": 6,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Auf der 2er-Ebene gibt es 3 Äste (2^0, 2^1, 2^2), auf der 3er-Ebene jeweils 2 (3^0, 3^1); Anzahl aller möglichen Teiler = 3·2 = 6. 📄 Quelle: skript05_mit, Folie 2 (S.2)",
-  "source": "skript05_mit, Folie 2 (S.2, Arithmetik – Teilen, Handschrift)"
- },
- {
-  "id": "skript05_mit-b1-007",
-  "topic": "skript05_mit_teilermenge",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Aussagen zum Baum der Teiler von 12 (mit 12 = 2^2·3^1) sind laut Handschrift richtig?",
-  "options": [
-   "Auf der 2er-Ebene gibt es 3 verschiedene Äste: 2^0, 2^1, 2^2",
-   "Auf der 3er-Ebene gibt es jeweils 2 Äste: 3^0, 3^1",
-   "Die Anzahl aller möglichen Teiler ergibt sich als 3·2 = 6",
-   "Der Baum liefert die Primfaktorzerlegung 2·2·3 der Zahl 12"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "explanation": "Notiert als 'geschicktes Zählen' aus der Kombinatorik: 3 Äste (2^0,2^1,2^2) auf der 2er-Ebene, jeweils 2 Äste (3^0,3^1) auf der 3er-Ebene, 3·2 = 6 Teiler. Der Baum liefert die Teilermenge, nicht die Primfaktorzerlegung. 📄 Quelle: skript05_mit, Folie 2 (S.2)",
-  "source": "skript05_mit, Folie 2 (S.2, Arithmetik – Teilen, Handschrift)"
- },
- {
-  "id": "skript05_mit-b1-008",
-  "topic": "skript05_mit_teilermenge",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Wie lautet die Teilermenge T_96 der Zahl 96 (mit 96 = 2^5·3)?",
-  "options": [
-   "{1, 2, 3, 4, 6, 8, 12, 16, 24, 32, 48, 96}",
-   "{1, 2, 4, 8, 16, 32, 96}",
-   "{1, 2, 3, 4, 6, 8, 12, 24, 48, 96}",
-   "{1, 3, 6, 12, 24, 48, 96}"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Handschriftliche Lösung: T_96 = {1, 2, 3, 4, 6, 8, 12, 16, 24, 32, 48, 96}. 📄 Quelle: skript05_mit, Folie 3 (S.3)",
-  "source": "skript05_mit, Folie 3 (S.3, Arithmetik – Teilen, Handschrift)"
- },
- {
-  "id": "skript05_mit-b1-009",
-  "topic": "skript05_mit_teilermenge",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Wie viele Teiler hat die Zahl 96 laut Handschrift (6 Äste auf der 2er-Ebene, jeweils 2 auf der 3er-Ebene)?",
-  "answer": 12,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Aus 96 = 2^5·3: 6 Äste auf der 2er-Ebene (S+1 = 5+1) und jeweils 2 Äste auf der 3er-Ebene, # = 6·2 = 12. 📄 Quelle: skript05_mit, Folie 3 (S.3)",
-  "source": "skript05_mit, Folie 3 (S.3, Arithmetik – Teilen, Handschrift)"
- },
- {
-  "id": "skript05_mit-b1-010",
-  "topic": "skript05_mit_teilermenge",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Wie lautet die Teilermenge T_132 der Zahl 132 (mit 132 = 2^2·3·11)?",
-  "options": [
-   "{1, 2, 3, 4, 6, 11, 12, 22, 33, 44, 66, 132}",
-   "{1, 2, 3, 4, 6, 12, 11, 132}",
-   "{1, 2, 4, 11, 22, 44, 132}",
-   "{1, 2, 3, 6, 11, 22, 33, 66, 132}"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Handschriftliche Lösung: T_132 = {1, 2, 3, 4, 6, 11, 12, 22, 33, 44, 66, 132}. 📄 Quelle: skript05_mit, Folie 3 (S.3)",
-  "source": "skript05_mit, Folie 3 (S.3, Arithmetik – Teilen, Handschrift)"
- },
- {
-  "id": "skript05_mit-b1-011",
-  "topic": "skript05_mit_teilermenge",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Wie viele Teiler hat die Zahl 132 laut Handschrift (3 Äste, dann je 2, dann je 2)?",
-  "answer": 12,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Aus 132 = 2^2·3·11: 3 Äste, je 2 Äste, je 2 Äste; # = 3·2·2 = 12. 📄 Quelle: skript05_mit, Folie 3 (S.3)",
-  "source": "skript05_mit, Folie 3 (S.3, Arithmetik – Teilen, Handschrift)"
- },
- {
-  "id": "skript05_mit-b1-012",
-  "topic": "skript05_mit_teilbarkeit_transitiv",
-  "difficulty": 1,
-  "type": "multi",
-  "question": "Wie lautet der Satz über die Transitivität der Teilbarkeitsrelation für natürliche Zahlen a, b, c?",
-  "options": [
-   "Wenn a|b und b|c, dann a|c",
-   "Wenn a|b und a|c, dann a|(b+c)",
-   "Wenn a|c und b|c, dann (a·b)|c",
-   "Wenn a|b und b|c, dann c|a"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Satz: Die Teilbarkeitsrelation ist transitiv. Für natürliche Zahlen a, b, c gilt: Wenn a|b und b|c, dann a|c. 📄 Quelle: skript05_mit, Folie 4 (S.4)",
-  "source": "skript05_mit, Folie 4 (S.4, Arithmetik – Direkter Beweis)"
- },
- {
-  "id": "skript05_mit-b1-013",
-  "topic": "skript05_mit_teilbarkeit_transitiv",
-  "difficulty": 1,
-  "type": "multi",
-  "question": "Wie ist im Beweis 'x teilt y' (x|y) definiert (verwendetes Vorwissen)?",
-  "options": [
-   "x|y, wenn es eine (natürliche) Zahl z gibt mit x·z = y",
-   "x|y, wenn x·y eine natürliche Zahl ist",
-   "x|y, wenn es ein z gibt mit y·z = x",
-   "x|y, wenn es ein z gibt mit x + z = y"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Handschrift (1. Schritt): Definition von teilen: x|y, wenn x·z = y (Vorwissen). 📄 Quelle: skript05_mit, Folie 4 (S.4)",
-  "source": "skript05_mit, Folie 4 (S.4, Arithmetik – Direkter Beweis, Handschrift)"
- },
- {
-  "id": "skript05_mit-b1-014",
-  "topic": "skript05_mit_teilbarkeit_transitiv",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Wie werden im Transitivitäts-Beweis die Voraussetzungen a|b und b|c mit natürlichen Zahlen x_1, x_2 geschrieben?",
-  "options": [
-   "a·x_1 = b und b·x_2 = c",
-   "a·x_1 = b und c·x_2 = b",
-   "b·x_1 = a und c·x_2 = b",
-   "a + x_1 = b und b + x_2 = c"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Handschrift: 2 Voraussetzungen — a|b, d. h. a·x_1 = b; b|c, d. h. b·x_2 = c (mit x_1, x_2 natürliche Zahlen). 📄 Quelle: skript05_mit, Folie 4 (S.4)",
-  "source": "skript05_mit, Folie 4 (S.4, Arithmetik – Direkter Beweis, Handschrift)"
- },
- {
-  "id": "skript05_mit-b1-015",
-  "topic": "skript05_mit_teilbarkeit_transitiv",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Was ergibt sich im Beweis durch Einsetzen von b = a·x_1 in b·x_2 = c?",
-  "options": [
-   "a·(x_1·x_2) = c, also a|c",
-   "a·(x_1 + x_2) = c, also a|c",
-   "a·x_1·x_2 = b, also a|b",
-   "(a + x_1)·x_2 = c"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Handschrift: (a·x_1)·x_2 = c, also a·(x_1·x_2) = c; mit x = x_1·x_2 (natürliche Zahl, da Produkt zweier natürlicher Zahlen) folgt a·x = c, d. h. a|c (q.e.d.). 📄 Quelle: skript05_mit, Folie 4 (S.4)",
-  "source": "skript05_mit, Folie 4 (S.4, Arithmetik – Direkter Beweis, Handschrift)"
- },
- {
-  "id": "skript05_mit-b1-016",
-  "topic": "skript05_mit_summenregel",
-  "difficulty": 1,
-  "type": "multi",
-  "question": "Wie lautet die Summenregel für natürliche Zahlen a, b, c?",
-  "options": [
-   "Wenn a|b und a|c, dann a|(b+c)",
-   "Wenn a|b und b|c, dann a|c",
-   "Wenn a|(b+c), dann a|b und a|c",
-   "Wenn a|b und a|c, dann a|(b·c)"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Satz (Summenregel): Für natürliche Zahlen a, b, c gilt: Wenn a|b und a|c, dann a|(b+c). 📄 Quelle: skript05_mit, Folie 5 (S.5)",
-  "source": "skript05_mit, Folie 5 (S.5, Arithmetik – Direkter Beweis)"
- },
- {
-  "id": "skript05_mit-b1-017",
-  "topic": "skript05_mit_summenregel",
-  "difficulty": 1,
-  "type": "multi",
-  "question": "Summenregel in Worten: Wenn a Teiler von b und c ist, dann ist a auch Teiler von …?",
-  "options": [
-   "(b+c)",
-   "(b·c)",
-   "(b−c)",
-   "(c−b)"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "In Worten: Wenn a Teiler von b und c ist, dann ist a auch Teiler von (b+c). 📄 Quelle: skript05_mit, Folie 5 (S.5)",
-  "source": "skript05_mit, Folie 5 (S.5, Arithmetik – Direkter Beweis)"
- },
- {
-  "id": "skript05_mit-b1-018",
-  "topic": "skript05_mit_summenregel",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welches Gesetz begründet im Beweis der Summenregel den Schritt a·x_1 + a·x_2 = a·(x_1 + x_2)?",
-  "options": [
-   "Distributivgesetz",
-   "Kommutativgesetz",
-   "Assoziativgesetz",
-   "Transitivität"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Handschrift: b+c = a·x_1 + a·x_2 = a·(x_1 + x_2) = a·x_3 — begründet mit dem Distributivgesetz. 📄 Quelle: skript05_mit, Folie 6 (S.6)",
-  "source": "skript05_mit, Folie 6 (S.6, Arithmetik – Direkter Beweis, Handschrift)"
- },
- {
-  "id": "skript05_mit-b1-019",
-  "topic": "skript05_mit_summenregel",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Beispiel zur Summenregel: 2|4 und 2|12. Welchen Wert hat 4+12 (= 2·(2+6))?",
-  "answer": 16,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Beispiel auf der Folie: 2|4 und 2|12, dann auch 2|(4+12); 2·2=4 und 2·6=12, dann auch 2·(2+6)=16. 📄 Quelle: skript05_mit, Folie 6 (S.6)",
-  "source": "skript05_mit, Folie 6 (S.6, Arithmetik – Direkter Beweis)"
- },
- {
-  "id": "skript05_mit-b1-020",
-  "topic": "skript05_mit_summenregel",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Beispiel zur Summenregel: 7|21 und 7|63. Welchen Wert hat 21+63 (= 7·(3+9))?",
-  "answer": 84,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Beispiel auf der Folie: 7|21 und 7|63, dann auch 7|(21+63); 7·3=21 und 7·9=63, dann auch 7·(3+9)=84. 📄 Quelle: skript05_mit, Folie 6 (S.6)",
-  "source": "skript05_mit, Folie 6 (S.6, Arithmetik – Direkter Beweis)"
- },
- {
-  "id": "skript05_mit-b1-021",
-  "topic": "skript05_mit_summenregel",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Warum ist im Beweis der Summenregel x_3 = x_1 + x_2 wieder eine natürliche Zahl?",
-  "options": [
-   "Weil die Summe zweier natürlicher Zahlen wieder eine natürliche Zahl ist",
-   "Weil das Produkt zweier natürlicher Zahlen wieder eine natürliche Zahl ist",
-   "Weil x_1 und x_2 Primzahlen sind",
-   "Weil a eine natürliche Zahl ist"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Handschrift: 'Ja! Die Summe zweier natürlicher Zahlen ist eine natürliche Zahl' — daher ist x_3 = x_1 + x_2 natürlich und b+c = a·x_3, also a|(b+c). 📄 Quelle: skript05_mit, Folie 6 (S.6)",
-  "source": "skript05_mit, Folie 6 (S.6, Arithmetik – Direkter Beweis, Handschrift)"
- },
- {
-  "id": "skript05_mit-b1-022",
-  "topic": "skript05_mit_andere_summenregel",
-  "difficulty": 1,
-  "type": "multi",
-  "question": "Wie lautet die 'andere Summenregel' für natürliche Zahlen a, b, c?",
-  "options": [
-   "Wenn a|b und a|(b+c), dann a|c",
-   "Wenn a|b und a|c, dann a|(b+c)",
-   "Wenn a|(b+c), dann a|b",
-   "Wenn a|b und b|(b+c), dann a|c"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Satz (andere Summenregel): Für natürliche Zahlen a, b, c gilt: Wenn a|b und a|(b+c), dann a|c. 📄 Quelle: skript05_mit, Folie 7 (S.7)",
-  "source": "skript05_mit, Folie 7 (S.7, Arithmetik – Direkter Beweis)"
- },
- {
-  "id": "skript05_mit-b1-023",
-  "topic": "skript05_mit_andere_summenregel",
-  "difficulty": 1,
-  "type": "multi",
-  "question": "Andere Summenregel in Worten: Wenn a Teiler von b und von (b+c) ist, dann ist a auch Teiler von …?",
-  "options": [
-   "c",
-   "(b+c)",
-   "b",
-   "(b−c)"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "In Worten: Wenn a Teiler von b und von (b+c) ist, dann ist a auch Teiler von c. 📄 Quelle: skript05_mit, Folie 7 (S.7)",
-  "source": "skript05_mit, Folie 7 (S.7, Arithmetik – Direkter Beweis)"
- },
- {
-  "id": "skript05_mit-b1-024",
-  "topic": "skript05_mit_andere_summenregel",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Beispiel zur anderen Summenregel: 2|4 und 2|10. Welchen Wert hat 10−4 (= 2·(5−2))?",
-  "answer": 6,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Beispiel auf der Folie: 2|4 und 2|10, dann auch 2|6 (mit 10−4=6); 2·2=4 und 2·5=10, dann auch 2·(5−2)=2·3=6. 📄 Quelle: skript05_mit, Folie 8 (S.8)",
-  "source": "skript05_mit, Folie 8 (S.8, Arithmetik – Direkter Beweis)"
- },
- {
-  "id": "skript05_mit-b1-025",
-  "topic": "skript05_mit_andere_summenregel",
-  "difficulty": 2,
-  "type": "numeric",
-  "question": "Beispiel zur anderen Summenregel: 7|21 und 7|105. Welchen Wert hat 105−21 (= 7·(15−3))?",
-  "answer": 84,
-  "tolerance": 0,
-  "unit": "",
-  "explanation": "Beispiel auf der Folie: 7|21 und 7|105, dann auch 7|84 (mit 105−21=84); 7·3=21 und 7·15=105, dann auch 7·(15−3)=7·12=84. 📄 Quelle: skript05_mit, Folie 8 (S.8)",
-  "source": "skript05_mit, Folie 8 (S.8, Arithmetik – Direkter Beweis)"
- },
- {
-  "id": "skript05_mit-b1-026",
-  "topic": "skript05_mit_andere_summenregel",
-  "difficulty": 2,
-  "type": "multi",
-  "question": "Welche Teilbarkeit folgt nach der anderen Summenregel aus 2|4 und 2|10 (mit c = (b+c)−b)?",
-  "options": [
-   "2|6",
-   "2|14",
-   "2|5",
-   "2|40"
-  ],
-  "correct": [
-   0
-  ],
-  "explanation": "Mit b=4 und b+c=10 ist c = 10−4 = 6, also folgt 2|6. 📄 Quelle: skript05_mit, Folie 8 (S.8)",
-  "source": "skript05_mit, Folie 8 (S.8, Arithmetik – Direkter Beweis)"
- }
+  {
+    "id": "skript05_mit-b1-001",
+    "topic": "skript05_mit_primfaktorzerlegung",
+    "difficulty": 1,
+    "type": "multi",
+    "question": "Was befindet sich am Äußeren des (ausgewachsenen) Zahlenbäumchens?",
+    "options": [
+      "Die Primzahlen, deren Produkt die Ausgangszahl (Zahlenzwiebel) ergibt",
+      "Alle Teiler der Ausgangszahl",
+      "Die Quadratzahlen kleiner als die Ausgangszahl",
+      "Die Vielfachen der Ausgangszahl"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Laut Folie befinden sich am Äußeren des Bäumchens die Primzahlen, deren Produkt die Ausgangszahl ergibt, z. B. $12 = 3 \\cdot 2 \\cdot 2 = 2 \\cdot 2 \\cdot 3 = 2^2 \\cdot 3$. 📄 Quelle: skript05_mit, Folie 1 (S.1)",
+    "source": "skript05_mit, Folie 1 (S.1, Arithmetik – Teilen)"
+  },
+  {
+    "id": "skript05_mit-b1-002",
+    "topic": "skript05_mit_primfaktorzerlegung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Wie lautet die Primfaktorzerlegung von 96?",
+    "options": [
+      "$2^5 \\cdot 3$",
+      "$2^4 \\cdot 3$",
+      "$2^6 \\cdot 3$",
+      "$2^3 \\cdot 12$"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Handschriftliche Lösung: $96 = 48 \\cdot 2 = 2 \\cdot 2 \\cdot 2 \\cdot 2 \\cdot 2 \\cdot 3 = 2^5 \\cdot 3$. 📄 Quelle: skript05_mit, Folie 1 (S.1)",
+    "source": "skript05_mit, Folie 1 (S.1, Arithmetik – Teilen, Handschrift)"
+  },
+  {
+    "id": "skript05_mit-b1-003",
+    "topic": "skript05_mit_primfaktorzerlegung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Wie lautet die Primfaktorzerlegung von 132?",
+    "options": [
+      "$2^2 \\cdot 3 \\cdot 11$",
+      "$2 \\cdot 3 \\cdot 11$",
+      "$2^2 \\cdot 33$",
+      "$4 \\cdot 3 \\cdot 11$"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Handschriftliche Lösung: $132 = 2 \\cdot 66 = 2 \\cdot 2 \\cdot 33 = 2 \\cdot 2 \\cdot 3 \\cdot 11 = 2^2 \\cdot 3 \\cdot 11$ (33 ist nicht durch 2 teilbar, nächste PZ ist 3). 📄 Quelle: skript05_mit, Folie 1 (S.1)",
+    "source": "skript05_mit, Folie 1 (S.1, Arithmetik – Teilen, Handschrift)"
+  },
+  {
+    "id": "skript05_mit-b1-004",
+    "topic": "skript05_mit_primfaktorzerlegung",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Wie lautet die Primfaktorzerlegung von 189?",
+    "options": [
+      "$3^3 \\cdot 7$",
+      "$3^2 \\cdot 7$",
+      "$3^3 \\cdot 5$",
+      "$9 \\cdot 21$"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Handschriftliche Lösung: $189 = 63 \\cdot 3 = 21 \\cdot 3 \\cdot 3 = 7 \\cdot 3 \\cdot 3 \\cdot 3 = 3^3 \\cdot 7$ (kleinste PZ 2 teilt 189 nicht, nächste PZ 3 teilt 189). 📄 Quelle: skript05_mit, Folie 1 (S.1)",
+    "source": "skript05_mit, Folie 1 (S.1, Arithmetik – Teilen, Handschrift)"
+  },
+  {
+    "id": "skript05_mit-b1-005",
+    "topic": "skript05_mit_teilermenge",
+    "difficulty": 1,
+    "type": "multi",
+    "question": "Wie lautet die Teilermenge $T_{12}$ der Zahl 12?",
+    "options": [
+      "$\\{1, 2, 3, 4, 6, 12\\}$",
+      "$\\{1, 2, 3, 4, 6\\}$",
+      "$\\{2, 3, 4, 6, 12\\}$",
+      "$\\{1, 2, 3, 6, 12\\}$"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Aus dem Baum zu $12 = 2^2 \\cdot 3^1$ ergibt sich die Teilermenge $T_{12} = \\{1, 2, 3, 4, 6, 12\\}$. 📄 Quelle: skript05_mit, Folie 2 (S.2)",
+    "source": "skript05_mit, Folie 2 (S.2, Arithmetik – Teilen, Handschrift)"
+  },
+  {
+    "id": "skript05_mit-b1-006",
+    "topic": "skript05_mit_teilermenge",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Wie viele Teiler hat die Zahl 12 laut dem Baum (aus $12 = 2^2 \\cdot 3^1$ als $3 \\cdot 2$ abgelesen)?",
+    "answer": 6,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Auf der 2er-Ebene gibt es 3 Äste ($2^0, 2^1, 2^2$), auf der 3er-Ebene jeweils 2 ($3^0, 3^1$); Anzahl aller möglichen Teiler $= 3 \\cdot 2 = 6$. 📄 Quelle: skript05_mit, Folie 2 (S.2)",
+    "source": "skript05_mit, Folie 2 (S.2, Arithmetik – Teilen, Handschrift)"
+  },
+  {
+    "id": "skript05_mit-b1-007",
+    "topic": "skript05_mit_teilermenge",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Aussagen zum Baum der Teiler von 12 (mit $12 = 2^2 \\cdot 3^1$) sind laut Handschrift richtig?",
+    "options": [
+      "Auf der 2er-Ebene gibt es 3 verschiedene Äste: $2^0, 2^1, 2^2$",
+      "Auf der 3er-Ebene gibt es jeweils 2 Äste: $3^0, 3^1$",
+      "Die Anzahl aller möglichen Teiler ergibt sich als $3 \\cdot 2 = 6$",
+      "Der Baum liefert die Primfaktorzerlegung $2 \\cdot 2 \\cdot 3$ der Zahl 12"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Notiert als 'geschicktes Zählen' aus der Kombinatorik: 3 Äste ($2^0, 2^1, 2^2$) auf der 2er-Ebene, jeweils 2 Äste ($3^0, 3^1$) auf der 3er-Ebene, $3 \\cdot 2 = 6$ Teiler. Der Baum liefert die Teilermenge, nicht die Primfaktorzerlegung. 📄 Quelle: skript05_mit, Folie 2 (S.2)",
+    "source": "skript05_mit, Folie 2 (S.2, Arithmetik – Teilen, Handschrift)"
+  },
+  {
+    "id": "skript05_mit-b1-008",
+    "topic": "skript05_mit_teilermenge",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Wie lautet die Teilermenge $T_{96}$ der Zahl 96 (mit $96 = 2^5 \\cdot 3$)?",
+    "options": [
+      "$\\{1, 2, 3, 4, 6, 8, 12, 16, 24, 32, 48, 96\\}$",
+      "$\\{1, 2, 4, 8, 16, 32, 96\\}$",
+      "$\\{1, 2, 3, 4, 6, 8, 12, 24, 48, 96\\}$",
+      "$\\{1, 3, 6, 12, 24, 48, 96\\}$"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Handschriftliche Lösung: $T_{96} = \\{1, 2, 3, 4, 6, 8, 12, 16, 24, 32, 48, 96\\}$. 📄 Quelle: skript05_mit, Folie 3 (S.3)",
+    "source": "skript05_mit, Folie 3 (S.3, Arithmetik – Teilen, Handschrift)"
+  },
+  {
+    "id": "skript05_mit-b1-009",
+    "topic": "skript05_mit_teilermenge",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Wie viele Teiler hat die Zahl 96 laut Handschrift (6 Äste auf der 2er-Ebene, jeweils 2 auf der 3er-Ebene)?",
+    "answer": 12,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Aus $96 = 2^5 \\cdot 3$: 6 Äste auf der 2er-Ebene ($S+1 = 5+1$) und jeweils 2 Äste auf der 3er-Ebene, $\\# = 6 \\cdot 2 = 12$. 📄 Quelle: skript05_mit, Folie 3 (S.3)",
+    "source": "skript05_mit, Folie 3 (S.3, Arithmetik – Teilen, Handschrift)"
+  },
+  {
+    "id": "skript05_mit-b1-010",
+    "topic": "skript05_mit_teilermenge",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Wie lautet die Teilermenge $T_{132}$ der Zahl 132 (mit $132 = 2^2 \\cdot 3 \\cdot 11$)?",
+    "options": [
+      "$\\{1, 2, 3, 4, 6, 11, 12, 22, 33, 44, 66, 132\\}$",
+      "$\\{1, 2, 3, 4, 6, 12, 11, 132\\}$",
+      "$\\{1, 2, 4, 11, 22, 44, 132\\}$",
+      "$\\{1, 2, 3, 6, 11, 22, 33, 66, 132\\}$"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Handschriftliche Lösung: $T_{132} = \\{1, 2, 3, 4, 6, 11, 12, 22, 33, 44, 66, 132\\}$. 📄 Quelle: skript05_mit, Folie 3 (S.3)",
+    "source": "skript05_mit, Folie 3 (S.3, Arithmetik – Teilen, Handschrift)"
+  },
+  {
+    "id": "skript05_mit-b1-011",
+    "topic": "skript05_mit_teilermenge",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Wie viele Teiler hat die Zahl 132 laut Handschrift (3 Äste, dann je 2, dann je 2)?",
+    "answer": 12,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Aus $132 = 2^2 \\cdot 3 \\cdot 11$: 3 Äste, je 2 Äste, je 2 Äste; $\\# = 3 \\cdot 2 \\cdot 2 = 12$. 📄 Quelle: skript05_mit, Folie 3 (S.3)",
+    "source": "skript05_mit, Folie 3 (S.3, Arithmetik – Teilen, Handschrift)"
+  },
+  {
+    "id": "skript05_mit-b1-012",
+    "topic": "skript05_mit_teilbarkeit_transitiv",
+    "difficulty": 1,
+    "type": "multi",
+    "question": "Wie lautet der Satz über die Transitivität der Teilbarkeitsrelation für natürliche Zahlen $a$, $b$, $c$?",
+    "options": [
+      "Wenn $a \\mid b$ und $b \\mid c$, dann $a \\mid c$",
+      "Wenn $a \\mid b$ und $a \\mid c$, dann $a \\mid (b+c)$",
+      "Wenn $a \\mid c$ und $b \\mid c$, dann $(a \\cdot b) \\mid c$",
+      "Wenn $a \\mid b$ und $b \\mid c$, dann $c \\mid a$"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Satz: Die Teilbarkeitsrelation ist transitiv. Für natürliche Zahlen $a$, $b$, $c$ gilt: Wenn $a \\mid b$ und $b \\mid c$, dann $a \\mid c$. 📄 Quelle: skript05_mit, Folie 4 (S.4)",
+    "source": "skript05_mit, Folie 4 (S.4, Arithmetik – Direkter Beweis)"
+  },
+  {
+    "id": "skript05_mit-b1-013",
+    "topic": "skript05_mit_teilbarkeit_transitiv",
+    "difficulty": 1,
+    "type": "multi",
+    "question": "Wie ist im Beweis '$x$ teilt $y$' ($x \\mid y$) definiert (verwendetes Vorwissen)?",
+    "options": [
+      "$x \\mid y$, wenn es eine (natürliche) Zahl $z$ gibt mit $x \\cdot z = y$",
+      "$x \\mid y$, wenn $x \\cdot y$ eine natürliche Zahl ist",
+      "$x \\mid y$, wenn es ein $z$ gibt mit $y \\cdot z = x$",
+      "$x \\mid y$, wenn es ein $z$ gibt mit $x + z = y$"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Handschrift (1. Schritt): Definition von teilen: $x \\mid y$, wenn $x \\cdot z = y$ (Vorwissen). 📄 Quelle: skript05_mit, Folie 4 (S.4)",
+    "source": "skript05_mit, Folie 4 (S.4, Arithmetik – Direkter Beweis, Handschrift)"
+  },
+  {
+    "id": "skript05_mit-b1-014",
+    "topic": "skript05_mit_teilbarkeit_transitiv",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Wie werden im Transitivitäts-Beweis die Voraussetzungen $a \\mid b$ und $b \\mid c$ mit natürlichen Zahlen $x_1$, $x_2$ geschrieben?",
+    "options": [
+      "$a \\cdot x_1 = b$ und $b \\cdot x_2 = c$",
+      "$a \\cdot x_1 = b$ und $c \\cdot x_2 = b$",
+      "$b \\cdot x_1 = a$ und $c \\cdot x_2 = b$",
+      "$a + x_1 = b$ und $b + x_2 = c$"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Handschrift: 2 Voraussetzungen — $a \\mid b$, d. h. $a \\cdot x_1 = b$; $b \\mid c$, d. h. $b \\cdot x_2 = c$ (mit $x_1$, $x_2$ natürliche Zahlen). 📄 Quelle: skript05_mit, Folie 4 (S.4)",
+    "source": "skript05_mit, Folie 4 (S.4, Arithmetik – Direkter Beweis, Handschrift)"
+  },
+  {
+    "id": "skript05_mit-b1-015",
+    "topic": "skript05_mit_teilbarkeit_transitiv",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Was ergibt sich im Beweis durch Einsetzen von $b = a \\cdot x_1$ in $b \\cdot x_2 = c$?",
+    "options": [
+      "$a \\cdot (x_1 \\cdot x_2) = c$, also $a \\mid c$",
+      "$a \\cdot (x_1 + x_2) = c$, also $a \\mid c$",
+      "$a \\cdot x_1 \\cdot x_2 = b$, also $a \\mid b$",
+      "$(a + x_1) \\cdot x_2 = c$"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Handschrift: $(a \\cdot x_1) \\cdot x_2 = c$, also $a \\cdot (x_1 \\cdot x_2) = c$; mit $x = x_1 \\cdot x_2$ (natürliche Zahl, da Produkt zweier natürlicher Zahlen) folgt $a \\cdot x = c$, d. h. $a \\mid c$ (q.e.d.). 📄 Quelle: skript05_mit, Folie 4 (S.4)",
+    "source": "skript05_mit, Folie 4 (S.4, Arithmetik – Direkter Beweis, Handschrift)"
+  },
+  {
+    "id": "skript05_mit-b1-016",
+    "topic": "skript05_mit_summenregel",
+    "difficulty": 1,
+    "type": "multi",
+    "question": "Wie lautet die Summenregel für natürliche Zahlen $a$, $b$, $c$?",
+    "options": [
+      "Wenn $a \\mid b$ und $a \\mid c$, dann $a \\mid (b+c)$",
+      "Wenn $a \\mid b$ und $b \\mid c$, dann $a \\mid c$",
+      "Wenn $a \\mid (b+c)$, dann $a \\mid b$ und $a \\mid c$",
+      "Wenn $a \\mid b$ und $a \\mid c$, dann $a \\mid (b \\cdot c)$"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Satz (Summenregel): Für natürliche Zahlen $a$, $b$, $c$ gilt: Wenn $a \\mid b$ und $a \\mid c$, dann $a \\mid (b+c)$. 📄 Quelle: skript05_mit, Folie 5 (S.5)",
+    "source": "skript05_mit, Folie 5 (S.5, Arithmetik – Direkter Beweis)"
+  },
+  {
+    "id": "skript05_mit-b1-017",
+    "topic": "skript05_mit_summenregel",
+    "difficulty": 1,
+    "type": "multi",
+    "question": "Summenregel in Worten: Wenn $a$ Teiler von $b$ und $c$ ist, dann ist $a$ auch Teiler von …?",
+    "options": [
+      "$(b+c)$",
+      "$(b \\cdot c)$",
+      "$(b-c)$",
+      "$(c-b)$"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "In Worten: Wenn $a$ Teiler von $b$ und $c$ ist, dann ist $a$ auch Teiler von $(b+c)$. 📄 Quelle: skript05_mit, Folie 5 (S.5)",
+    "source": "skript05_mit, Folie 5 (S.5, Arithmetik – Direkter Beweis)"
+  },
+  {
+    "id": "skript05_mit-b1-018",
+    "topic": "skript05_mit_summenregel",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welches Gesetz begründet im Beweis der Summenregel den Schritt $a \\cdot x_1 + a \\cdot x_2 = a \\cdot (x_1 + x_2)$?",
+    "options": [
+      "Distributivgesetz",
+      "Kommutativgesetz",
+      "Assoziativgesetz",
+      "Transitivität"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Handschrift: $b+c = a \\cdot x_1 + a \\cdot x_2 = a \\cdot (x_1 + x_2) = a \\cdot x_3$ — begründet mit dem Distributivgesetz. 📄 Quelle: skript05_mit, Folie 6 (S.6)",
+    "source": "skript05_mit, Folie 6 (S.6, Arithmetik – Direkter Beweis, Handschrift)"
+  },
+  {
+    "id": "skript05_mit-b1-019",
+    "topic": "skript05_mit_summenregel",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Beispiel zur Summenregel: $2 \\mid 4$ und $2 \\mid 12$. Welchen Wert hat $4+12$ ($= 2 \\cdot (2+6)$)?",
+    "answer": 16,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Beispiel auf der Folie: $2 \\mid 4$ und $2 \\mid 12$, dann auch $2 \\mid (4+12)$; $2 \\cdot 2 = 4$ und $2 \\cdot 6 = 12$, dann auch $2 \\cdot (2+6) = 16$. 📄 Quelle: skript05_mit, Folie 6 (S.6)",
+    "source": "skript05_mit, Folie 6 (S.6, Arithmetik – Direkter Beweis)"
+  },
+  {
+    "id": "skript05_mit-b1-020",
+    "topic": "skript05_mit_summenregel",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Beispiel zur Summenregel: $7 \\mid 21$ und $7 \\mid 63$. Welchen Wert hat $21+63$ ($= 7 \\cdot (3+9)$)?",
+    "answer": 84,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Beispiel auf der Folie: $7 \\mid 21$ und $7 \\mid 63$, dann auch $7 \\mid (21+63)$; $7 \\cdot 3 = 21$ und $7 \\cdot 9 = 63$, dann auch $7 \\cdot (3+9) = 84$. 📄 Quelle: skript05_mit, Folie 6 (S.6)",
+    "source": "skript05_mit, Folie 6 (S.6, Arithmetik – Direkter Beweis)"
+  },
+  {
+    "id": "skript05_mit-b1-021",
+    "topic": "skript05_mit_summenregel",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Warum ist im Beweis der Summenregel $x_3 = x_1 + x_2$ wieder eine natürliche Zahl?",
+    "options": [
+      "Weil die Summe zweier natürlicher Zahlen wieder eine natürliche Zahl ist",
+      "Weil das Produkt zweier natürlicher Zahlen wieder eine natürliche Zahl ist",
+      "Weil $x_1$ und $x_2$ Primzahlen sind",
+      "Weil $a$ eine natürliche Zahl ist"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Handschrift: 'Ja! Die Summe zweier natürlicher Zahlen ist eine natürliche Zahl' — daher ist $x_3 = x_1 + x_2$ natürlich und $b+c = a \\cdot x_3$, also $a \\mid (b+c)$. 📄 Quelle: skript05_mit, Folie 6 (S.6)",
+    "source": "skript05_mit, Folie 6 (S.6, Arithmetik – Direkter Beweis, Handschrift)"
+  },
+  {
+    "id": "skript05_mit-b1-022",
+    "topic": "skript05_mit_andere_summenregel",
+    "difficulty": 1,
+    "type": "multi",
+    "question": "Wie lautet die 'andere Summenregel' für natürliche Zahlen $a$, $b$, $c$?",
+    "options": [
+      "Wenn $a \\mid b$ und $a \\mid (b+c)$, dann $a \\mid c$",
+      "Wenn $a \\mid b$ und $a \\mid c$, dann $a \\mid (b+c)$",
+      "Wenn $a \\mid (b+c)$, dann $a \\mid b$",
+      "Wenn $a \\mid b$ und $b \\mid (b+c)$, dann $a \\mid c$"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Satz (andere Summenregel): Für natürliche Zahlen $a$, $b$, $c$ gilt: Wenn $a \\mid b$ und $a \\mid (b+c)$, dann $a \\mid c$. 📄 Quelle: skript05_mit, Folie 7 (S.7)",
+    "source": "skript05_mit, Folie 7 (S.7, Arithmetik – Direkter Beweis)"
+  },
+  {
+    "id": "skript05_mit-b1-023",
+    "topic": "skript05_mit_andere_summenregel",
+    "difficulty": 1,
+    "type": "multi",
+    "question": "Andere Summenregel in Worten: Wenn $a$ Teiler von $b$ und von $(b+c)$ ist, dann ist $a$ auch Teiler von …?",
+    "options": [
+      "$c$",
+      "$(b+c)$",
+      "$b$",
+      "$(b-c)$"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "In Worten: Wenn $a$ Teiler von $b$ und von $(b+c)$ ist, dann ist $a$ auch Teiler von $c$. 📄 Quelle: skript05_mit, Folie 7 (S.7)",
+    "source": "skript05_mit, Folie 7 (S.7, Arithmetik – Direkter Beweis)"
+  },
+  {
+    "id": "skript05_mit-b1-024",
+    "topic": "skript05_mit_andere_summenregel",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Beispiel zur anderen Summenregel: $2 \\mid 4$ und $2 \\mid 10$. Welchen Wert hat $10-4$ ($= 2 \\cdot (5-2)$)?",
+    "answer": 6,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Beispiel auf der Folie: $2 \\mid 4$ und $2 \\mid 10$, dann auch $2 \\mid 6$ (mit $10-4=6$); $2 \\cdot 2 = 4$ und $2 \\cdot 5 = 10$, dann auch $2 \\cdot (5-2) = 2 \\cdot 3 = 6$. 📄 Quelle: skript05_mit, Folie 8 (S.8)",
+    "source": "skript05_mit, Folie 8 (S.8, Arithmetik – Direkter Beweis)"
+  },
+  {
+    "id": "skript05_mit-b1-025",
+    "topic": "skript05_mit_andere_summenregel",
+    "difficulty": 2,
+    "type": "numeric",
+    "question": "Beispiel zur anderen Summenregel: $7 \\mid 21$ und $7 \\mid 105$. Welchen Wert hat $105-21$ ($= 7 \\cdot (15-3)$)?",
+    "answer": 84,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Beispiel auf der Folie: $7 \\mid 21$ und $7 \\mid 105$, dann auch $7 \\mid 84$ (mit $105-21=84$); $7 \\cdot 3 = 21$ und $7 \\cdot 15 = 105$, dann auch $7 \\cdot (15-3) = 7 \\cdot 12 = 84$. 📄 Quelle: skript05_mit, Folie 8 (S.8)",
+    "source": "skript05_mit, Folie 8 (S.8, Arithmetik – Direkter Beweis)"
+  },
+  {
+    "id": "skript05_mit-b1-026",
+    "topic": "skript05_mit_andere_summenregel",
+    "difficulty": 2,
+    "type": "multi",
+    "question": "Welche Teilbarkeit folgt nach der anderen Summenregel aus $2 \\mid 4$ und $2 \\mid 10$ (mit $c = (b+c)-b$)?",
+    "options": [
+      "$2 \\mid 6$",
+      "$2 \\mid 14$",
+      "$2 \\mid 5$",
+      "$2 \\mid 40$"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Mit $b=4$ und $b+c=10$ ist $c = 10-4 = 6$, also folgt $2 \\mid 6$. 📄 Quelle: skript05_mit, Folie 8 (S.8)",
+    "source": "skript05_mit, Folie 8 (S.8, Arithmetik – Direkter Beweis)"
+  }
 ]

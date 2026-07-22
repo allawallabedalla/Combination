@@ -6,17 +6,17 @@
     "type": "multi",
     "question": "Für A = „Es regnet“ und B = „Die Straße ist nass“ werden vier Konjunktionen gebildet, die je in genau einem Feld der Wahrheitswertetabelle wahr sind. Welche Zuordnungen von Verknüpfung und Versprachlichung sind korrekt?",
     "options": [
-      "A∧B — „Es regnet und die Straße ist nass.“",
-      "A∧¬B — „Es regnet und die Straße ist nicht nass.“",
-      "¬A∧B — „Es regnet nicht und die Straße ist nass.“",
-      "¬A∧¬B — „Es regnet und die Straße ist nass.“"
+      "$A \\land B$ — „Es regnet und die Straße ist nass.“",
+      "$A \\land \\neg B$ — „Es regnet und die Straße ist nicht nass.“",
+      "$\\neg A \\land B$ — „Es regnet nicht und die Straße ist nass.“",
+      "$\\neg A \\land \\neg B$ — „Es regnet und die Straße ist nass.“"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie ordnet jeder der vier Konjunktionen eine Versprachlichung zu. ¬A∧¬B entspricht „Es regnet nicht und die Straße ist nicht nass“ – die vierte Option ist daher falsch. 📄 Quelle: skript07_mit, Folie 1 (S.1)",
+    "explanation": "Die Folie ordnet jeder der vier Konjunktionen eine Versprachlichung zu. $\\neg A \\land \\neg B$ entspricht „Es regnet nicht und die Straße ist nicht nass“ – die vierte Option ist daher falsch. 📄 Quelle: skript07_mit, Folie 1 (S.1)",
     "source": "skript07_mit, Folie 1 (S.1, Arithmetik – Aussagen verknüpfen)"
   },
   {
@@ -24,19 +24,19 @@
     "topic": "skript07_mit_aussagenverknuepfung",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Aussagen zu den Wahrheitswertetabellen der vier Konjunktionen (A∧B, A∧¬B, ¬A∧B, ¬A∧¬B) sind richtig?",
+    "question": "Welche Aussagen zu den Wahrheitswertetabellen der vier Konjunktionen ($A \\land B$, $A \\land \\neg B$, $\\neg A \\land B$, $\\neg A \\land \\neg B$) sind richtig?",
     "options": [
-      "A∧B ist nur wahr, wenn A wahr und B wahr ist.",
+      "$A \\land B$ ist nur wahr, wenn A wahr und B wahr ist.",
       "Jede der vier Konjunktionen ist in genau einem der vier Felder wahr.",
-      "A∧B ist wahr, wenn A wahr und B falsch ist.",
-      "¬A∧¬B ist genau dann wahr, wenn A falsch und B falsch ist."
+      "$A \\land B$ ist wahr, wenn A wahr und B falsch ist.",
+      "$\\neg A \\land \\neg B$ ist genau dann wahr, wenn A falsch und B falsch ist."
     ],
     "correct": [
       0,
       1,
       3
     ],
-    "explanation": "Die Konjunktion A∧B ist nur bei A=w und B=w wahr; ¬A∧¬B nur bei A=f und B=f. Jede Konjunktion ist in genau einem Feld wahr (daher der Folientitel „ein Feld wahr“). 📄 Quelle: skript07_mit, Folie 1 (S.1)",
+    "explanation": "Die Konjunktion $A \\land B$ ist nur bei A=w und B=w wahr; $\\neg A \\land \\neg B$ nur bei A=f und B=f. Jede Konjunktion ist in genau einem Feld wahr (daher der Folientitel „ein Feld wahr“). 📄 Quelle: skript07_mit, Folie 1 (S.1)",
     "source": "skript07_mit, Folie 1 (S.1, Arithmetik – Aussagen verknüpfen)"
   },
   {
@@ -44,11 +44,11 @@
     "topic": "skript07_mit_aussagenverknuepfung",
     "difficulty": 1,
     "type": "numeric",
-    "question": "In genau wie vielen der vier Felder der Wahrheitswertetabelle ist eine einzelne Konjunktion (z. B. ¬A∧B) wahr?",
+    "question": "In genau wie vielen der vier Felder der Wahrheitswertetabelle ist eine einzelne Konjunktion (z. B. $\\neg A \\land B$) wahr?",
     "answer": 1,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Der Folientitel lautet „ein Feld wahr“: Jede der vier Konjunktionen (A∧B, A∧¬B, ¬A∧B, ¬A∧¬B) ist in genau einem Feld wahr. 📄 Quelle: skript07_mit, Folie 1 (S.1)",
+    "explanation": "Der Folientitel lautet „ein Feld wahr“: Jede der vier Konjunktionen ($A \\land B$, $A \\land \\neg B$, $\\neg A \\land B$, $\\neg A \\land \\neg B$) ist in genau einem Feld wahr. 📄 Quelle: skript07_mit, Folie 1 (S.1)",
     "source": "skript07_mit, Folie 1 (S.1, Arithmetik – Aussagen verknüpfen)"
   },
   {
@@ -58,17 +58,17 @@
     "type": "multi",
     "question": "Welche der folgenden Gleichungen sind (korrekte) Gesetze von De Morgan?",
     "options": [
-      "¬(A∧B) = ¬A ∨ ¬B",
-      "¬(A∨B) = ¬A ∧ ¬B",
-      "¬(A∧B) = ¬A ∧ ¬B",
-      "¬(¬A∧¬B) = A ∨ B"
+      "$\\neg(A \\land B) = \\neg A \\lor \\neg B$",
+      "$\\neg(A \\lor B) = \\neg A \\land \\neg B$",
+      "$\\neg(A \\land B) = \\neg A \\land \\neg B$",
+      "$\\neg(\\neg A \\land \\neg B) = A \\lor B$"
     ],
     "correct": [
       0,
       1,
       3
     ],
-    "explanation": "Auf der Folie stehen ¬(A∧B)=¬A∨¬B, ¬(A∨B)=¬A∧¬B und ¬(¬A∧¬B)=A∨B. ¬(A∧B)=¬A∧¬B ist falsch (Verwechslung von ∧ und ∨). 📄 Quelle: skript07_mit, Folie 2 (S.2)",
+    "explanation": "Auf der Folie stehen $\\neg(A \\land B)=\\neg A \\lor \\neg B$, $\\neg(A \\lor B)=\\neg A \\land \\neg B$ und $\\neg(\\neg A \\land \\neg B)=A \\lor B$. $\\neg(A \\land B)=\\neg A \\land \\neg B$ ist falsch (Verwechslung von $\\land$ und $\\lor$). 📄 Quelle: skript07_mit, Folie 2 (S.2)",
     "source": "skript07_mit, Folie 2 (S.2, Arithmetik – Aussagen verknüpfen)"
   },
   {
@@ -79,7 +79,7 @@
     "question": "Wann sind zwei Aussagen äquivalent (gleichwertig)? Welche Aussagen treffen zu?",
     "options": [
       "Wenn sie dieselbe Wahrheitswertetafel haben.",
-      "¬A∨¬B und ¬(A∧B) haben dieselbe Wahrheitswertetafel und sind daher äquivalent.",
+      "$\\neg A \\lor \\neg B$ und $\\neg(A \\land B)$ haben dieselbe Wahrheitswertetafel und sind daher äquivalent.",
       "Wenn sie in mindestens einem Feld übereinstimmen.",
       "Äquivalente Aussagen sind gleichwertig zueinander."
     ],
@@ -88,7 +88,7 @@
       1,
       3
     ],
-    "explanation": "Die Folie hält fest: Gleiche Wahrheitswertetafel ⇒ die Aussagen sind äquivalent (gleichwertig) zueinander. Am Beispiel stimmen ¬A∨¬B und ¬(A∧B) überein. 📄 Quelle: skript07_mit, Folie 2 (S.2)",
+    "explanation": "Die Folie hält fest: Gleiche Wahrheitswertetafel $\\Rightarrow$ die Aussagen sind äquivalent (gleichwertig) zueinander. Am Beispiel stimmen $\\neg A \\lor \\neg B$ und $\\neg(A \\land B)$ überein. 📄 Quelle: skript07_mit, Folie 2 (S.2)",
     "source": "skript07_mit, Folie 2 (S.2, Arithmetik – Aussagen verknüpfen)"
   },
   {
@@ -98,17 +98,17 @@
     "type": "multi",
     "question": "Für A = „Es regnet“ und B = „Die Straße ist nass“: Welche Aussagen zu den in drei von vier Feldern wahren Verknüpfungen sind richtig?",
     "options": [
-      "A∨B — „Es regnet oder die Straße ist nass (oder beides).“",
-      "¬(A∧B) — „Es stimmt nicht, dass es regnet und die Straße nass ist.“",
-      "¬(A∧B) ist in genau drei der vier Felder wahr.",
-      "A∨B ist nur wahr, wenn A und B beide wahr sind."
+      "$A \\lor B$ — „Es regnet oder die Straße ist nass (oder beides).“",
+      "$\\neg(A \\land B)$ — „Es stimmt nicht, dass es regnet und die Straße nass ist.“",
+      "$\\neg(A \\land B)$ ist in genau drei der vier Felder wahr.",
+      "$A \\lor B$ ist nur wahr, wenn A und B beide wahr sind."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Disjunktionen bzw. Negationen dieser Folie sind in drei der vier Felder wahr (daher „drei Felder wahr“). A∨B ist wahr, sobald A oder B wahr ist – die letzte Option ist falsch. 📄 Quelle: skript07_mit, Folie 2 (S.2)",
+    "explanation": "Die Disjunktionen bzw. Negationen dieser Folie sind in drei der vier Felder wahr (daher „drei Felder wahr“). $A \\lor B$ ist wahr, sobald A oder B wahr ist – die letzte Option ist falsch. 📄 Quelle: skript07_mit, Folie 2 (S.2)",
     "source": "skript07_mit, Folie 2 (S.2, Arithmetik – Aussagen verknüpfen)"
   },
   {
@@ -130,9 +130,9 @@
     "type": "multi",
     "question": "Für A = „Es regnet“ und B = „Die Straße ist nass“: Welche Vereinfachungen von in zwei Feldern wahren Verknüpfungen sind korrekt?",
     "options": [
-      "(A∧B) ∨ (A∧¬B) = A (Versprachlichung: „Es regnet.“)",
-      "B ∨ (A∧B) = B (Versprachlichung: „Die Straße ist nass.“)",
-      "(A∧B) ∨ (A∧¬B) = B",
+      "$(A \\land B) \\lor (A \\land \\neg B) = A$ (Versprachlichung: „Es regnet.“)",
+      "$B \\lor (A \\land B) = B$ (Versprachlichung: „Die Straße ist nass.“)",
+      "$(A \\land B) \\lor (A \\land \\neg B) = B$",
       "Die Frage „Warum 6 Möglichkeiten?“ wird über die Kombinatorik beantwortet."
     ],
     "correct": [
@@ -140,7 +140,7 @@
       1,
       3
     ],
-    "explanation": "(A∧B)∨(A∧¬B) hat die Spalte w,w,f,f und ist gleich A („Es regnet“); B∨(A∧B) hat die Spalte w,f,w,f und ist gleich B („Die Straße ist nass“). 📄 Quelle: skript07_mit, Folie 3 (S.3)",
+    "explanation": "$(A \\land B) \\lor (A \\land \\neg B)$ hat die Spalte w,w,f,f und ist gleich A („Es regnet“); $B \\lor (A \\land B)$ hat die Spalte w,f,w,f und ist gleich B („Die Straße ist nass“). 📄 Quelle: skript07_mit, Folie 3 (S.3)",
     "source": "skript07_mit, Folie 3 (S.3, Arithmetik – Aussagen verknüpfen)"
   },
   {
@@ -148,7 +148,7 @@
     "topic": "skript07_mit_aussagenverknuepfung",
     "difficulty": 2,
     "type": "single",
-    "question": "Welche Wahrheitswertespalte (Reihenfolge der Belegungen A,B: ww, wf, fw, ff) gehört zu B ∨ (A∧B)?",
+    "question": "Welche Wahrheitswertespalte (Reihenfolge der Belegungen A,B: ww, wf, fw, ff) gehört zu $B \\lor (A \\land B)$?",
     "options": [
       "w, f, w, f",
       "w, w, f, f",
@@ -158,7 +158,7 @@
     "correct": [
       0
     ],
-    "explanation": "B∨(A∧B) vereinfacht sich zu B und hat damit dieselbe Spalte wie B: w,f,w,f. 📄 Quelle: skript07_mit, Folie 3 (S.3)",
+    "explanation": "$B \\lor (A \\land B)$ vereinfacht sich zu B und hat damit dieselbe Spalte wie B: w,f,w,f. 📄 Quelle: skript07_mit, Folie 3 (S.3)",
     "source": "skript07_mit, Folie 3 (S.3, Arithmetik – Aussagen verknüpfen)"
   },
   {
@@ -166,17 +166,17 @@
     "topic": "skript07_mit_implikation",
     "difficulty": 2,
     "type": "single",
-    "question": "Wann ist die Aussage A ⇒ B (wenn A, dann B) genau dann wahr?",
+    "question": "Wann ist die Aussage $A \\Rightarrow B$ (wenn A, dann B) genau dann wahr?",
     "options": [
-      "genau dann, wenn ¬A ∨ B wahr ist",
-      "genau dann, wenn A ∧ B wahr ist",
-      "genau dann, wenn A ∨ ¬B wahr ist",
+      "genau dann, wenn $\\neg A \\lor B$ wahr ist",
+      "genau dann, wenn $A \\land B$ wahr ist",
+      "genau dann, wenn $A \\lor \\neg B$ wahr ist",
       "immer (in allen Fällen)"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie definiert: A⇒B (wenn A, dann B) ist genau dann wahr, wenn ¬A∨B wahr ist. 📄 Quelle: skript07_mit, Folie 33 (S.6)",
+    "explanation": "Die Folie definiert: $A \\Rightarrow B$ (wenn A, dann B) ist genau dann wahr, wenn $\\neg A \\lor B$ wahr ist. 📄 Quelle: skript07_mit, Folie 33 (S.6)",
     "source": "skript07_mit, Folie 33 (S.6, Arithmetik – Die Aussage A⇒B)"
   },
   {
@@ -186,17 +186,17 @@
     "type": "multi",
     "question": "Beispiel: „Wenn die Sonne scheint, dann gehe ich joggen.“ Welche Zuordnungen sind korrekt?",
     "options": [
-      "A := die Sonne scheint",
-      "B := ich gehe joggen",
-      "A := ich gehe joggen",
-      "Die Aussage hat die Form A ⇒ B (wenn A, dann B)."
+      "$A :=$ die Sonne scheint",
+      "$B :=$ ich gehe joggen",
+      "$A :=$ ich gehe joggen",
+      "Die Aussage hat die Form $A \\Rightarrow B$ (wenn A, dann B)."
     ],
     "correct": [
       0,
       1,
       3
     ],
-    "explanation": "Die Folie setzt A := die Sonne scheint und B := ich gehe joggen; die Aussage „Wenn A, dann B“ hat die Form A⇒B. 📄 Quelle: skript07_mit, Folie 33 (S.6)",
+    "explanation": "Die Folie setzt $A :=$ die Sonne scheint und $B :=$ ich gehe joggen; die Aussage „Wenn A, dann B“ hat die Form $A \\Rightarrow B$. 📄 Quelle: skript07_mit, Folie 33 (S.6)",
     "source": "skript07_mit, Folie 33 (S.6, Arithmetik – Die Aussage A⇒B)"
   },
   {
@@ -204,7 +204,7 @@
     "topic": "skript07_mit_implikation",
     "difficulty": 2,
     "type": "single",
-    "question": "In welchem Fall (Belegung von A und B) ist A ⇒ B laut Wahrheitswertetabelle falsch?",
+    "question": "In welchem Fall (Belegung von A und B) ist $A \\Rightarrow B$ laut Wahrheitswertetabelle falsch?",
     "options": [
       "A wahr, B falsch",
       "A wahr, B wahr",
@@ -214,7 +214,7 @@
     "correct": [
       0
     ],
-    "explanation": "In der Tabelle (Folie 36) ist A⇒B nur in der Zeile A=w, B=f falsch; in allen anderen Zeilen (w,w / f,w / f,f) ist sie wahr. 📄 Quelle: skript07_mit, Folie 36 (S.7)",
+    "explanation": "In der Tabelle (Folie 36) ist $A \\Rightarrow B$ nur in der Zeile A=w, B=f falsch; in allen anderen Zeilen (w,w / f,w / f,f) ist sie wahr. 📄 Quelle: skript07_mit, Folie 36 (S.7)",
     "source": "skript07_mit, Folie 36 (S.7, Arithmetik – Die Aussage A⇒B)"
   },
   {
@@ -222,11 +222,11 @@
     "topic": "skript07_mit_implikation",
     "difficulty": 1,
     "type": "numeric",
-    "question": "In wie vielen der vier Zeilen der Wahrheitswertetabelle ist A ⇒ B wahr?",
+    "question": "In wie vielen der vier Zeilen der Wahrheitswertetabelle ist $A \\Rightarrow B$ wahr?",
     "answer": 3,
     "tolerance": 0,
     "unit": "",
-    "explanation": "A⇒B hat die Spalte w,f,w,w – also in drei der vier Zeilen wahr, nur bei A=w und B=f falsch. 📄 Quelle: skript07_mit, Folie 36 (S.7)",
+    "explanation": "$A \\Rightarrow B$ hat die Spalte w,f,w,w – also in drei der vier Zeilen wahr, nur bei A=w und B=f falsch. 📄 Quelle: skript07_mit, Folie 36 (S.7)",
     "source": "skript07_mit, Folie 36 (S.7, Arithmetik – Die Aussage A⇒B)"
   },
   {
@@ -234,19 +234,19 @@
     "topic": "skript07_mit_implikation",
     "difficulty": 3,
     "type": "multi",
-    "question": "Was gilt beim Vergleich von A ⇒ B und ¬A ∨ B?",
+    "question": "Was gilt beim Vergleich von $A \\Rightarrow B$ und $\\neg A \\lor B$?",
     "options": [
-      "A⇒B und ¬A∨B haben dieselben Wahrheitswerte (w, f, w, w).",
-      "A⇒B ist genau dann wahr, wenn ¬A∨B wahr ist.",
-      "Für A falsch ist A⇒B stets wahr.",
-      "A⇒B ist falsch, wenn A falsch und B falsch ist."
+      "$A \\Rightarrow B$ und $\\neg A \\lor B$ haben dieselben Wahrheitswerte (w, f, w, w).",
+      "$A \\Rightarrow B$ ist genau dann wahr, wenn $\\neg A \\lor B$ wahr ist.",
+      "Für A falsch ist $A \\Rightarrow B$ stets wahr.",
+      "$A \\Rightarrow B$ ist falsch, wenn A falsch und B falsch ist."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die beiden Spalten A⇒B und ¬A∨B stimmen überein (w,f,w,w). Für A=f ist A⇒B in beiden Zeilen wahr; falsch ist sie nur bei A=w, B=f. 📄 Quelle: skript07_mit, Folie 36 (S.7)",
+    "explanation": "Die beiden Spalten $A \\Rightarrow B$ und $\\neg A \\lor B$ stimmen überein (w,f,w,w). Für A=f ist $A \\Rightarrow B$ in beiden Zeilen wahr; falsch ist sie nur bei A=w, B=f. 📄 Quelle: skript07_mit, Folie 36 (S.7)",
     "source": "skript07_mit, Folie 36 (S.7, Arithmetik – Die Aussage A⇒B)"
   },
   {
@@ -254,18 +254,18 @@
     "topic": "skript07_mit_implikation",
     "difficulty": 3,
     "type": "multi",
-    "question": "Der Satz lautet „Für alle Elemente einer Menge M gilt: Wenn A, dann B“ (A ⇒ B). Wie lautet die Verneinung (das Gegenteil) dieses Satzes?",
+    "question": "Der Satz lautet „Für alle Elemente einer Menge M gilt: Wenn A, dann B“ ($A \\Rightarrow B$). Wie lautet die Verneinung (das Gegenteil) dieses Satzes?",
     "options": [
-      "A und nicht B (A ∧ ¬B)",
-      "Wenn A, dann nicht B (A ⇒ ¬B)",
-      "¬(¬A ∨ B) = A ∧ ¬B",
-      "nicht A und nicht B (¬A ∧ ¬B)"
+      "A und nicht B ($A \\land \\neg B$)",
+      "Wenn A, dann nicht B ($A \\Rightarrow \\neg B$)",
+      "$\\neg(\\neg A \\lor B) = A \\land \\neg B$",
+      "nicht A und nicht B ($\\neg A \\land \\neg B$)"
     ],
     "correct": [
       0,
       2
     ],
-    "explanation": "Da A⇒B ≡ ¬A∨B ist, ergibt die Verneinung ¬(¬A∨B) = A∧¬B, also „A und nicht B“ (Beispiel: „Die Sonne scheint und ich gehe nicht joggen“). „Wenn A, dann nicht B“ ist nicht die Verneinung. 📄 Quelle: skript07_mit, Folie 41 (S.8)",
+    "explanation": "Da $A \\Rightarrow B \\equiv \\neg A \\lor B$ ist, ergibt die Verneinung $\\neg(\\neg A \\lor B) = A \\land \\neg B$, also „A und nicht B“ (Beispiel: „Die Sonne scheint und ich gehe nicht joggen“). „Wenn A, dann nicht B“ ist nicht die Verneinung. 📄 Quelle: skript07_mit, Folie 41 (S.8)",
     "source": "skript07_mit, Folie 41 (S.8, Arithmetik – Sätze als verknüpfte Aussagen)"
   },
   {
@@ -283,7 +283,7 @@
     "correct": [
       0
     ],
-    "explanation": "Die Verneinung von A⇒B ist A∧¬B, hier also „Die Sonne scheint und ich gehe nicht joggen“. 📄 Quelle: skript07_mit, Folie 41 (S.8)",
+    "explanation": "Die Verneinung von $A \\Rightarrow B$ ist $A \\land \\neg B$, hier also „Die Sonne scheint und ich gehe nicht joggen“. 📄 Quelle: skript07_mit, Folie 41 (S.8)",
     "source": "skript07_mit, Folie 41 (S.8, Arithmetik – Sätze als verknüpfte Aussagen)"
   },
   {
@@ -291,18 +291,18 @@
     "topic": "skript07_mit_aequivalenz",
     "difficulty": 2,
     "type": "multi",
-    "question": "Wann ist die Aussage A ⇔ B (genau dann, wenn) wahr?",
+    "question": "Wann ist die Aussage $A \\Leftrightarrow B$ (genau dann, wenn) wahr?",
     "options": [
-      "wenn A⇒B und B⇒A beide wahr sind",
-      "wenn A⇒B oder B⇒A wahr ist",
-      "nur wenn A⇒B wahr ist",
-      "A⇔B = (A⇒B) ∧ (B⇒A)"
+      "wenn $A \\Rightarrow B$ und $B \\Rightarrow A$ beide wahr sind",
+      "wenn $A \\Rightarrow B$ oder $B \\Rightarrow A$ wahr ist",
+      "nur wenn $A \\Rightarrow B$ wahr ist",
+      "$A \\Leftrightarrow B = (A \\Rightarrow B) \\land (B \\Rightarrow A)$"
     ],
     "correct": [
       0,
       3
     ],
-    "explanation": "Die Folie definiert: A⇔B ist genau dann wahr, wenn A⇒B und B⇒A wahr sind (sonst falsch), also A⇔B = (A⇒B)∧(B⇒A). 📄 Quelle: skript07_mit, Folie 42 (S.9)",
+    "explanation": "Die Folie definiert: $A \\Leftrightarrow B$ ist genau dann wahr, wenn $A \\Rightarrow B$ und $B \\Rightarrow A$ wahr sind (sonst falsch), also $A \\Leftrightarrow B = (A \\Rightarrow B) \\land (B \\Rightarrow A)$. 📄 Quelle: skript07_mit, Folie 42 (S.9)",
     "source": "skript07_mit, Folie 42 (S.9, Arithmetik – Die Aussage A⇔B)"
   },
   {
@@ -310,7 +310,7 @@
     "topic": "skript07_mit_implikation",
     "difficulty": 2,
     "type": "single",
-    "question": "Welche Wahrheitswertespalte hat die Verknüpfung A ⇒ B (Belegungen A,B: ww, wf, fw, ff)?",
+    "question": "Welche Wahrheitswertespalte hat die Verknüpfung $A \\Rightarrow B$ (Belegungen A,B: ww, wf, fw, ff)?",
     "options": [
       "w, f, w, w",
       "w, w, w, w",
@@ -320,7 +320,7 @@
     "correct": [
       0
     ],
-    "explanation": "In der Tabelle der Folie 42 ist die Spalte A⇒B mit w, f, w, w ausgefüllt. 📄 Quelle: skript07_mit, Folie 42 (S.9)",
+    "explanation": "In der Tabelle der Folie 42 ist die Spalte $A \\Rightarrow B$ mit w, f, w, w ausgefüllt. 📄 Quelle: skript07_mit, Folie 42 (S.9)",
     "source": "skript07_mit, Folie 42 (S.9, Arithmetik – Die Aussage A⇔B)"
   }
 ]

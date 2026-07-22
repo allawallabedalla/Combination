@@ -4,11 +4,11 @@
     "topic": "skript03_clean_dreiersystem",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Welchen Wert hat die Zahl (122)_3 (Dreier-System) im Zehnersystem?",
+    "question": "Welchen Wert hat die Zahl $(122)_3$ (Dreier-System) im Zehnersystem?",
     "answer": 17,
     "tolerance": 0,
     "unit": "",
-    "explanation": "(122)_3 = 1·3² + 2·3¹ + 2·3⁰ = 9 + 6 + 2 = 17. 📄 Quelle: skript03_clean, Folie 2 (S.2)",
+    "explanation": "$(122)_3 = 1 \\cdot 3^2 + 2 \\cdot 3^1 + 2 \\cdot 3^0 = 9 + 6 + 2 = 17$. 📄 Quelle: skript03_clean, Folie 2 (S.2)",
     "source": "skript03_clean, Folie 2 (S.2, Arithmetik)"
   },
   {
@@ -16,17 +16,17 @@
     "topic": "skript03_clean_dreiersystem",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie setzt sich der Stellenwert der Zahl (122)_3 (Dreier-System) zusammen?",
+    "question": "Wie setzt sich der Stellenwert der Zahl $(122)_3$ (Dreier-System) zusammen?",
     "options": [
-      "1·3² + 2·3¹ + 2·3⁰",
-      "1·3³ + 2·3² + 2·3¹",
-      "1·2² + 2·2¹ + 2·2⁰",
-      "1·10² + 2·10¹ + 2·10⁰"
+      "$1 \\cdot 3^2 + 2 \\cdot 3^1 + 2 \\cdot 3^0$",
+      "$1 \\cdot 3^3 + 2 \\cdot 3^2 + 2 \\cdot 3^1$",
+      "$1 \\cdot 2^2 + 2 \\cdot 2^1 + 2 \\cdot 2^0$",
+      "$1 \\cdot 10^2 + 2 \\cdot 10^1 + 2 \\cdot 10^0$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Im Dreier-System haben die Stellen von rechts die Werte 3⁰, 3¹, 3², also (122)_3 = 1·3² + 2·3¹ + 2·3⁰. 📄 Quelle: skript03_clean, Folie 2 (S.2)",
+    "explanation": "Im Dreier-System haben die Stellen von rechts die Werte $3^0$, $3^1$, $3^2$, also $(122)_3 = 1 \\cdot 3^2 + 2 \\cdot 3^1 + 2 \\cdot 3^0$. 📄 Quelle: skript03_clean, Folie 2 (S.2)",
     "source": "skript03_clean, Folie 2 (S.2, Arithmetik)"
   },
   {
@@ -36,17 +36,17 @@
     "type": "multi",
     "question": "Welche Zuordnungen von Ebene und Potenz gelten im Zehnersystem (Potenzen zur Basis 10)?",
     "options": [
-      "Einer-Ebene ↔ 10⁰",
-      "Zehner-Ebene ↔ 10¹",
-      "Hunderter-Ebene ↔ 10³",
-      "Tausender-Ebene ↔ 10³"
+      "Einer-Ebene ↔ $10^0$",
+      "Zehner-Ebene ↔ $10^1$",
+      "Hunderter-Ebene ↔ $10^3$",
+      "Tausender-Ebene ↔ $10^3$"
     ],
     "correct": [
       0,
       1,
       3
     ],
-    "explanation": "Laut Tabelle: Einer-Ebene 10⁰, Zehner-Ebene 10¹, Hunderter-Ebene 10², Tausender-Ebene 10³. Die Hunderter-Ebene ist also 10² (nicht 10³). 📄 Quelle: skript03_clean, Folie 3 (S.3)",
+    "explanation": "Laut Tabelle: Einer-Ebene $10^0$, Zehner-Ebene $10^1$, Hunderter-Ebene $10^2$, Tausender-Ebene $10^3$. Die Hunderter-Ebene ist also $10^2$ (nicht $10^3$). 📄 Quelle: skript03_clean, Folie 3 (S.3)",
     "source": "skript03_clean, Folie 3 (S.3, Arithmetik)"
   },
   {
@@ -54,11 +54,11 @@
     "topic": "skript03_clean_zehnersystem",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welchen Stellenwert im Zehnersystem hat die Tausender-Ebene, also 10³?",
+    "question": "Welchen Stellenwert im Zehnersystem hat die Tausender-Ebene, also $10^3$?",
     "answer": 1000,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Tausender-Ebene entspricht 10³ = 1000. 📄 Quelle: skript03_clean, Folie 3 (S.3)",
+    "explanation": "Die Tausender-Ebene entspricht $10^3 = 1000$. 📄 Quelle: skript03_clean, Folie 3 (S.3)",
     "source": "skript03_clean, Folie 3 (S.3, Arithmetik)"
   },
   {
@@ -66,11 +66,11 @@
     "topic": "skript03_clean_zehnersystem",
     "difficulty": 2,
     "type": "numeric",
-    "question": "In der Darstellung von 1753 im Zehnersystem: Welche Ziffer steht auf der Hunderter-Ebene (10²)?",
+    "question": "In der Darstellung von 1753 im Zehnersystem: Welche Ziffer steht auf der Hunderter-Ebene ($10^2$)?",
     "answer": 7,
     "tolerance": 0,
     "unit": "",
-    "explanation": "1753 = 1·10³ + 7·10² + 5·10¹ + 3·10⁰, die Hunderter-Ebene trägt die Ziffer 7. 📄 Quelle: skript03_clean, Folie 3 (S.3)",
+    "explanation": "$1753 = 1 \\cdot 10^3 + 7 \\cdot 10^2 + 5 \\cdot 10^1 + 3 \\cdot 10^0$, die Hunderter-Ebene trägt die Ziffer 7. 📄 Quelle: skript03_clean, Folie 3 (S.3)",
     "source": "skript03_clean, Folie 3 (S.3, Arithmetik)"
   },
   {
@@ -80,15 +80,15 @@
     "type": "single",
     "question": "Was ist 34 im Zweiersystem?",
     "options": [
-      "(100010)_2",
-      "(101010)_2",
-      "(10001)_2",
-      "(110010)_2"
+      "$(100010)_2$",
+      "$(101010)_2$",
+      "$(10001)_2$",
+      "$(110010)_2$"
     ],
     "correct": [
       0
     ],
-    "explanation": "34 = 32 + 2 = 2⁵ + 2¹ = (100010)_2. 📄 Quelle: skript03_clean, Folie 4 (S.4)",
+    "explanation": "$34 = 32 + 2 = 2^5 + 2^1 = (100010)_2$. 📄 Quelle: skript03_clean, Folie 4 (S.4)",
     "source": "skript03_clean, Folie 4 (S.4, Arithmetik)"
   },
   {
@@ -98,15 +98,15 @@
     "type": "single",
     "question": "Was ist 69 im Zweiersystem?",
     "options": [
-      "(1000101)_2",
-      "(1000111)_2",
-      "(100101)_2",
-      "(1010001)_2"
+      "$(1000101)_2$",
+      "$(1000111)_2$",
+      "$(100101)_2$",
+      "$(1010001)_2$"
     ],
     "correct": [
       0
     ],
-    "explanation": "69 = 64 + 4 + 1 = 2⁶ + 2² + 2⁰ = (1000101)_2. 📄 Quelle: skript03_clean, Folie 4 (S.4)",
+    "explanation": "$69 = 64 + 4 + 1 = 2^6 + 2^2 + 2^0 = (1000101)_2$. 📄 Quelle: skript03_clean, Folie 4 (S.4)",
     "source": "skript03_clean, Folie 4 (S.4, Arithmetik)"
   },
   {
@@ -114,11 +114,11 @@
     "topic": "skript03_clean_zweiersystem",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Was ist (11001)_2 im Zehnersystem?",
+    "question": "Was ist $(11001)_2$ im Zehnersystem?",
     "answer": 25,
     "tolerance": 0,
     "unit": "",
-    "explanation": "(11001)_2 = 1·2⁴ + 1·2³ + 0·2² + 0·2¹ + 1·2⁰ = 16 + 8 + 1 = 25. 📄 Quelle: skript03_clean, Folie 5 (S.5)",
+    "explanation": "$(11001)_2 = 1 \\cdot 2^4 + 1 \\cdot 2^3 + 0 \\cdot 2^2 + 0 \\cdot 2^1 + 1 \\cdot 2^0 = 16 + 8 + 1 = 25$. 📄 Quelle: skript03_clean, Folie 5 (S.5)",
     "source": "skript03_clean, Folie 5 (S.5, Arithmetik)"
   },
   {
@@ -126,19 +126,19 @@
     "topic": "skript03_clean_zweiersystem",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Zweierpotenzen tragen in (11001)_2 die Ziffer 1?",
+    "question": "Welche Zweierpotenzen tragen in $(11001)_2$ die Ziffer 1?",
     "options": [
-      "2⁴ (= 16)",
-      "2³ (= 8)",
-      "2² (= 4)",
-      "2⁰ (= 1)"
+      "$2^4$ (= 16)",
+      "$2^3$ (= 8)",
+      "$2^2$ (= 4)",
+      "$2^0$ (= 1)"
     ],
     "correct": [
       0,
       1,
       3
     ],
-    "explanation": "(11001)_2 hat Einsen an den Stellen 2⁴, 2³ und 2⁰; die Stelle 2² trägt eine 0. 📄 Quelle: skript03_clean, Folie 5 (S.5)",
+    "explanation": "$(11001)_2$ hat Einsen an den Stellen $2^4$, $2^3$ und $2^0$; die Stelle $2^2$ trägt eine 0. 📄 Quelle: skript03_clean, Folie 5 (S.5)",
     "source": "skript03_clean, Folie 5 (S.5, Arithmetik)"
   },
   {
@@ -146,11 +146,11 @@
     "topic": "skript03_clean_zweiersystem",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Die Umrechnung von 1753 ins Zweiersystem beginnt mit 1753 = 876·2 + 1. Welche Ziffer der Zweierdarstellung (Einer-Ebene, 2⁰) liefert dieser erste Schritt?",
+    "question": "Die Umrechnung von 1753 ins Zweiersystem beginnt mit $1753 = 876 \\cdot 2 + 1$. Welche Ziffer der Zweierdarstellung (Einer-Ebene, $2^0$) liefert dieser erste Schritt?",
     "answer": 1,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Der Rest beim Teilen durch 2 ergibt die Ziffer der Einer-Ebene (2⁰): 1753 = 876·2 + 1, also Ziffer 1. 📄 Quelle: skript03_clean, Folie 6 (S.6)",
+    "explanation": "Der Rest beim Teilen durch 2 ergibt die Ziffer der Einer-Ebene ($2^0$): $1753 = 876 \\cdot 2 + 1$, also Ziffer 1. 📄 Quelle: skript03_clean, Folie 6 (S.6)",
     "source": "skript03_clean, Folie 6 (S.6, Arithmetik)"
   },
   {
@@ -158,11 +158,11 @@
     "topic": "skript03_clean_zweiersystem",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Wie lautet der Quotient beim ersten Teilen von 1753 durch 2 (1753 = ?·2 + 1)?",
+    "question": "Wie lautet der Quotient beim ersten Teilen von 1753 durch 2 ($1753 = ? \\cdot 2 + 1$)?",
     "answer": 876,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Auf Folie 6 steht 1753 = 876·2 + 1; der Quotient ist 876. 📄 Quelle: skript03_clean, Folie 6 (S.6)",
+    "explanation": "Auf Folie 6 steht $1753 = 876 \\cdot 2 + 1$; der Quotient ist 876. 📄 Quelle: skript03_clean, Folie 6 (S.6)",
     "source": "skript03_clean, Folie 6 (S.6, Arithmetik)"
   },
   {
@@ -172,9 +172,9 @@
     "type": "multi",
     "question": "Welche Aussagen zur Stellenwerttabelle des Zweiersystems (Ebenen als Potenzen zur Basis 2) sind richtig?",
     "options": [
-      "Die Einer-Ebene entspricht 2⁰",
-      "Die Bündel1-Ebene entspricht 2¹",
-      "Die höchste aufgeführte Ebene ist die Bündel10-Ebene (2¹⁰)",
+      "Die Einer-Ebene entspricht $2^0$",
+      "Die Bündel1-Ebene entspricht $2^1$",
+      "Die höchste aufgeführte Ebene ist die Bündel10-Ebene ($2^{10}$)",
       "Die Bündel-Ebenen sind Potenzen zur Basis 10"
     ],
     "correct": [
@@ -182,7 +182,7 @@
       1,
       2
     ],
-    "explanation": "Die Tabelle listet Ebenen als Potenzen zur Basis 2: Einer-Ebene 2⁰, Bündel1-Ebene 2¹, … bis Bündel10-Ebene 2¹⁰. Die Basis ist 2, nicht 10. 📄 Quelle: skript03_clean, Folie 6 (S.6)",
+    "explanation": "Die Tabelle listet Ebenen als Potenzen zur Basis 2: Einer-Ebene $2^0$, Bündel1-Ebene $2^1$, … bis Bündel10-Ebene $2^{10}$. Die Basis ist 2, nicht 10. 📄 Quelle: skript03_clean, Folie 6 (S.6)",
     "source": "skript03_clean, Folie 6 (S.6, Arithmetik)"
   },
   {
@@ -192,17 +192,17 @@
     "type": "multi",
     "question": "Im Dreiersystem werden den Ebenen Potenzen zur Basis 3 zugeordnet. Welche Zuordnungen sind korrekt?",
     "options": [
-      "Einer-Ebene ↔ 3⁰",
-      "Bündel1-Ebene ↔ 3¹",
-      "Bündel3-Ebene ↔ 3⁹",
-      "höchste aufgeführte Ebene ist die Bündel7-Ebene (3⁷)"
+      "Einer-Ebene ↔ $3^0$",
+      "Bündel1-Ebene ↔ $3^1$",
+      "Bündel3-Ebene ↔ $3^9$",
+      "höchste aufgeführte Ebene ist die Bündel7-Ebene ($3^7$)"
     ],
     "correct": [
       0,
       1,
       3
     ],
-    "explanation": "Einer-Ebene 3⁰, Bündel1-Ebene 3¹, Bündel3-Ebene 3³ (nicht 3⁹), höchste Ebene Bündel7-Ebene 3⁷. 📄 Quelle: skript03_clean, Folie 7 (S.7)",
+    "explanation": "Einer-Ebene $3^0$, Bündel1-Ebene $3^1$, Bündel3-Ebene $3^3$ (nicht $3^9$), höchste Ebene Bündel7-Ebene $3^7$. 📄 Quelle: skript03_clean, Folie 7 (S.7)",
     "source": "skript03_clean, Folie 7 (S.7, Arithmetik)"
   },
   {
@@ -210,11 +210,11 @@
     "topic": "skript03_clean_dreiersystem",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Welchen Stellenwert hat die Bündel3-Ebene im Dreiersystem, also 3³?",
+    "question": "Welchen Stellenwert hat die Bündel3-Ebene im Dreiersystem, also $3^3$?",
     "answer": 27,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Bündel3-Ebene entspricht 3³ = 27. 📄 Quelle: skript03_clean, Folie 7 (S.7)",
+    "explanation": "Die Bündel3-Ebene entspricht $3^3 = 27$. 📄 Quelle: skript03_clean, Folie 7 (S.7)",
     "source": "skript03_clean, Folie 7 (S.7, Arithmetik)"
   },
   {
@@ -224,17 +224,17 @@
     "type": "multi",
     "question": "In einem Stellenwertsystem zur Basis 5 werden den Ebenen Potenzen zur Basis 5 zugeordnet. Welche Zuordnungen sind korrekt?",
     "options": [
-      "Einer-Ebene ↔ 5⁰",
-      "Bündel1-Ebene ↔ 5¹",
-      "Bündel6-Ebene ↔ 5⁶",
-      "Bündel2-Ebene ↔ 5⁵"
+      "Einer-Ebene ↔ $5^0$",
+      "Bündel1-Ebene ↔ $5^1$",
+      "Bündel6-Ebene ↔ $5^6$",
+      "Bündel2-Ebene ↔ $5^5$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Potenz-Spalte auf Folie 8 zeigt 5⁰ (Einer-Ebene), 5¹ (Bündel1), … bis 5⁶ (Bündel6); die Bündel2-Ebene ist 5² (nicht 5⁵). 📄 Quelle: skript03_clean, Folie 8 (S.8)",
+    "explanation": "Die Potenz-Spalte auf Folie 8 zeigt $5^0$ (Einer-Ebene), $5^1$ (Bündel1), … bis $5^6$ (Bündel6); die Bündel2-Ebene ist $5^2$ (nicht $5^5$). 📄 Quelle: skript03_clean, Folie 8 (S.8)",
     "source": "skript03_clean, Folie 8 (S.8, Arithmetik)"
   },
   {
@@ -242,11 +242,11 @@
     "topic": "skript03_clean_stellenwertsysteme",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Welchen Stellenwert hat die Bündel3-Ebene im Fünfersystem, also 5³?",
+    "question": "Welchen Stellenwert hat die Bündel3-Ebene im Fünfersystem, also $5^3$?",
     "answer": 125,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Bündel3-Ebene entspricht 5³ = 125. 📄 Quelle: skript03_clean, Folie 8 (S.8)",
+    "explanation": "Die Bündel3-Ebene entspricht $5^3 = 125$. 📄 Quelle: skript03_clean, Folie 8 (S.8)",
     "source": "skript03_clean, Folie 8 (S.8, Arithmetik)"
   },
   {
@@ -254,17 +254,17 @@
     "topic": "skript03_clean_vierersystem",
     "difficulty": 3,
     "type": "single",
-    "question": "Wie lautet das Ergebnis von (133)_4 + (201)_4 im Vierer-System?",
+    "question": "Wie lautet das Ergebnis von $(133)_4 + (201)_4$ im Vierer-System?",
     "options": [
-      "(1000)_4",
-      "(334)_4",
-      "(1000)_10",
-      "(310)_4"
+      "$(1000)_4$",
+      "$(334)_4$",
+      "$(1000)_{10}$",
+      "$(310)_4$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Schriftlich mit 4er-Übergang: 3+1=10_4 (0, Übertrag 1); 3+0+1=10_4 (0, Übertrag 1); 1+2+1=10_4 (0, Übertrag 1) → (1000)_4. Kontrolle: (133)_4=31, (201)_4=33, 31+33=64=(1000)_4. 📄 Quelle: skript03_clean, Folie 9 (S.9)",
+    "explanation": "Schriftlich mit 4er-Übergang: $3+1=10_4$ (0, Übertrag 1); $3+0+1=10_4$ (0, Übertrag 1); $1+2+1=10_4$ (0, Übertrag 1) $\\to (1000)_4$. Kontrolle: $(133)_4=31$, $(201)_4=33$, $31+33=64=(1000)_4$. 📄 Quelle: skript03_clean, Folie 9 (S.9)",
     "source": "skript03_clean, Folie 9 (S.9, Arithmetik)"
   },
   {
@@ -272,11 +272,11 @@
     "topic": "skript03_clean_vierersystem",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Welchen Zehnersystem-Wert hat (133)_4?",
+    "question": "Welchen Zehnersystem-Wert hat $(133)_4$?",
     "answer": 31,
     "tolerance": 0,
     "unit": "",
-    "explanation": "(133)_4 = 1·4² + 3·4¹ + 3·4⁰ = 16 + 12 + 3 = 31. 📄 Quelle: skript03_clean, Folie 9 (S.9)",
+    "explanation": "$(133)_4 = 1 \\cdot 4^2 + 3 \\cdot 4^1 + 3 \\cdot 4^0 = 16 + 12 + 3 = 31$. 📄 Quelle: skript03_clean, Folie 9 (S.9)",
     "source": "skript03_clean, Folie 9 (S.9, Arithmetik)"
   },
   {
@@ -302,17 +302,17 @@
     "topic": "skript03_clean_vierersystem",
     "difficulty": 3,
     "type": "single",
-    "question": "Wie lautet das Ergebnis von (301)_4 − (23)_4 im Vierer-System?",
+    "question": "Wie lautet das Ergebnis von $(301)_4 - (23)_4$ im Vierer-System?",
     "options": [
-      "(212)_4",
-      "(222)_4",
-      "(112)_4",
-      "(232)_4"
+      "$(212)_4$",
+      "$(222)_4$",
+      "$(112)_4$",
+      "$(232)_4$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Schriftlich mit 4er-Entbündelung ergibt sich (212)_4. Kontrolle: (301)_4=49, (23)_4=11, 49−11=38=(212)_4. 📄 Quelle: skript03_clean, Folie 10 (S.10)",
+    "explanation": "Schriftlich mit 4er-Entbündelung ergibt sich $(212)_4$. Kontrolle: $(301)_4=49$, $(23)_4=11$, $49-11=38=(212)_4$. 📄 Quelle: skript03_clean, Folie 10 (S.10)",
     "source": "skript03_clean, Folie 10 (S.10, Arithmetik)"
   },
   {
@@ -320,11 +320,11 @@
     "topic": "skript03_clean_vierersystem",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Welchen Zehnersystem-Wert hat der Minuend (301)_4?",
+    "question": "Welchen Zehnersystem-Wert hat der Minuend $(301)_4$?",
     "answer": 49,
     "tolerance": 0,
     "unit": "",
-    "explanation": "(301)_4 = 3·4² + 0·4¹ + 1·4⁰ = 48 + 0 + 1 = 49. 📄 Quelle: skript03_clean, Folie 10 (S.10)",
+    "explanation": "$(301)_4 = 3 \\cdot 4^2 + 0 \\cdot 4^1 + 1 \\cdot 4^0 = 48 + 0 + 1 = 49$. 📄 Quelle: skript03_clean, Folie 10 (S.10)",
     "source": "skript03_clean, Folie 10 (S.10, Arithmetik)"
   },
   {
@@ -332,11 +332,11 @@
     "topic": "skript03_clean_vierersystem",
     "difficulty": 3,
     "type": "numeric",
-    "question": "Berechnen Sie (301)_4 − (23)_4 und geben Sie das Ergebnis im Zehnersystem an.",
+    "question": "Berechnen Sie $(301)_4 - (23)_4$ und geben Sie das Ergebnis im Zehnersystem an.",
     "answer": 38,
     "tolerance": 0,
     "unit": "",
-    "explanation": "(301)_4=49, (23)_4=11, 49−11=38 (= (212)_4). 📄 Quelle: skript03_clean, Folie 10 (S.10)",
+    "explanation": "$(301)_4=49$, $(23)_4=11$, $49-11=38$ (= $(212)_4$). 📄 Quelle: skript03_clean, Folie 10 (S.10)",
     "source": "skript03_clean, Folie 10 (S.10, Arithmetik)"
   },
   {
@@ -344,17 +344,17 @@
     "topic": "skript03_clean_vierersystem",
     "difficulty": 3,
     "type": "single",
-    "question": "Wie lautet das Ergebnis von (23)_4 · (12)_4 im Vierer-System?",
+    "question": "Wie lautet das Ergebnis von $(23)_4 \\cdot (12)_4$ im Vierer-System?",
     "options": [
-      "(1002)_4",
-      "(276)_4",
-      "(1010)_4",
-      "(132)_4"
+      "$(1002)_4$",
+      "$(276)_4$",
+      "$(1010)_4$",
+      "$(132)_4$"
     ],
     "correct": [
       0
     ],
-    "explanation": "(23)_4=11, (12)_4=6, 11·6=66=(1002)_4. Schriftlich: 23_4·2=(112)_4, 23_4·1 (verschoben)=(230)_4, Summe (1002)_4. 📄 Quelle: skript03_clean, Folie 11 (S.11)",
+    "explanation": "$(23)_4=11$, $(12)_4=6$, $11 \\cdot 6=66=(1002)_4$. Schriftlich: $23_4 \\cdot 2=(112)_4$, $23_4 \\cdot 1$ (verschoben)$=(230)_4$, Summe $(1002)_4$. 📄 Quelle: skript03_clean, Folie 11 (S.11)",
     "source": "skript03_clean, Folie 11 (S.11, Arithmetik)"
   },
   {
@@ -362,11 +362,11 @@
     "topic": "skript03_clean_vierersystem",
     "difficulty": 3,
     "type": "numeric",
-    "question": "Berechnen Sie (23)_4 · (12)_4 und geben Sie das Ergebnis im Zehnersystem an.",
+    "question": "Berechnen Sie $(23)_4 \\cdot (12)_4$ und geben Sie das Ergebnis im Zehnersystem an.",
     "answer": 66,
     "tolerance": 0,
     "unit": "",
-    "explanation": "(23)_4=11, (12)_4=6, 11·6=66 (= (1002)_4). 📄 Quelle: skript03_clean, Folie 11 (S.11)",
+    "explanation": "$(23)_4=11$, $(12)_4=6$, $11 \\cdot 6=66$ (= $(1002)_4$). 📄 Quelle: skript03_clean, Folie 11 (S.11)",
     "source": "skript03_clean, Folie 11 (S.11, Arithmetik)"
   },
   {
@@ -374,17 +374,17 @@
     "topic": "skript03_clean_vierersystem",
     "difficulty": 3,
     "type": "single",
-    "question": "Wie lautet das Ergebnis von (11322)_4 : (21)_4 im Vierer-System?",
+    "question": "Wie lautet das Ergebnis von $(11322)_4 : (21)_4$ im Vierer-System?",
     "options": [
-      "(222)_4",
-      "(212)_4",
-      "(1102)_4",
-      "(232)_4"
+      "$(222)_4$",
+      "$(212)_4$",
+      "$(1102)_4$",
+      "$(232)_4$"
     ],
     "correct": [
       0
     ],
-    "explanation": "(11322)_4=378, (21)_4=9, 378:9=42=(222)_4. 📄 Quelle: skript03_clean, Folie 12 (S.12)",
+    "explanation": "$(11322)_4=378$, $(21)_4=9$, $378:9=42=(222)_4$. 📄 Quelle: skript03_clean, Folie 12 (S.12)",
     "source": "skript03_clean, Folie 12 (S.12, Arithmetik)"
   },
   {
@@ -392,11 +392,11 @@
     "topic": "skript03_clean_vierersystem",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Welchen Zehnersystem-Wert hat der Divisor (21)_4?",
+    "question": "Welchen Zehnersystem-Wert hat der Divisor $(21)_4$?",
     "answer": 9,
     "tolerance": 0,
     "unit": "",
-    "explanation": "(21)_4 = 2·4¹ + 1·4⁰ = 8 + 1 = 9. 📄 Quelle: skript03_clean, Folie 12 (S.12)",
+    "explanation": "$(21)_4 = 2 \\cdot 4^1 + 1 \\cdot 4^0 = 8 + 1 = 9$. 📄 Quelle: skript03_clean, Folie 12 (S.12)",
     "source": "skript03_clean, Folie 12 (S.12, Arithmetik)"
   },
   {
@@ -404,11 +404,11 @@
     "topic": "skript03_clean_vierersystem",
     "difficulty": 3,
     "type": "numeric",
-    "question": "Berechnen Sie (11322)_4 : (21)_4 und geben Sie den Quotienten im Zehnersystem an.",
+    "question": "Berechnen Sie $(11322)_4 : (21)_4$ und geben Sie den Quotienten im Zehnersystem an.",
     "answer": 42,
     "tolerance": 0,
     "unit": "",
-    "explanation": "(11322)_4 = 256+64+48+8+2 = 378, (21)_4 = 9, 378:9 = 42 (= (222)_4). 📄 Quelle: skript03_clean, Folie 12 (S.12)",
+    "explanation": "$(11322)_4 = 256+64+48+8+2 = 378$, $(21)_4 = 9$, $378:9 = 42$ (= $(222)_4$). 📄 Quelle: skript03_clean, Folie 12 (S.12)",
     "source": "skript03_clean, Folie 12 (S.12, Arithmetik)"
   }
 ]

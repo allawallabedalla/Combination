@@ -4,11 +4,11 @@
     "topic": "skript04_clean_stellenwertsysteme",
     "difficulty": 3,
     "type": "numeric",
-    "question": "Rechnen Sie im 4er-System schriftlich: 23 · 12 (alle Zahlen im 4er-System). Geben Sie das Ergebnis als Ziffernfolge im 4er-System an.",
+    "question": "Rechnen Sie im 4er-System schriftlich: $23 \\cdot 12$ (alle Zahlen im 4er-System). Geben Sie das Ergebnis als Ziffernfolge im 4er-System an.",
     "answer": 1002,
     "tolerance": 0,
     "unit": "",
-    "explanation": "23 im 4er-System = 11, 12 im 4er-System = 6; 11·6 = 66, und 66 = 1002 im 4er-System (1·64 + 0·16 + 0·4 + 2). 📄 Quelle: skript04_clean, Folie 1 (S.1)",
+    "explanation": "23 im 4er-System = 11, 12 im 4er-System = 6; $11 \\cdot 6 = 66$, und 66 = 1002 im 4er-System $(1 \\cdot 64 + 0 \\cdot 16 + 0 \\cdot 4 + 2)$. 📄 Quelle: skript04_clean, Folie 1 (S.1)",
     "source": "skript04_clean, Folie 1 (S.1, Arithmetik – Rückblick)"
   },
   {
@@ -16,11 +16,11 @@
     "topic": "skript04_clean_stellenwertsysteme",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Berechnen Sie das Produkt 23 · 12, wobei beide Faktoren im 4er-System notiert sind, und übersetzen Sie es in das Zehnersystem: Welchen Wert hat das Produkt im Zehnersystem?",
+    "question": "Berechnen Sie das Produkt $23 \\cdot 12$, wobei beide Faktoren im 4er-System notiert sind, und übersetzen Sie es in das Zehnersystem: Welchen Wert hat das Produkt im Zehnersystem?",
     "answer": 66,
     "tolerance": 0,
     "unit": "",
-    "explanation": "23 (4er) = 11 und 12 (4er) = 6, also 11·6 = 66 im Zehnersystem; das entspricht 1002 im 4er-System. 📄 Quelle: skript04_clean, Folie 1 (S.1)",
+    "explanation": "23 (4er) = 11 und 12 (4er) = 6, also $11 \\cdot 6 = 66$ im Zehnersystem; das entspricht 1002 im 4er-System. 📄 Quelle: skript04_clean, Folie 1 (S.1)",
     "source": "skript04_clean, Folie 1 (S.1, Arithmetik – Rückblick)"
   },
   {
@@ -32,7 +32,7 @@
     "answer": 222,
     "tolerance": 0,
     "unit": "",
-    "explanation": "11322 im 4er-System = 378, 21 im 4er-System = 9; 378 : 9 = 42 (Rest 0), und 42 = 222 im 4er-System (2·16 + 2·4 + 2). 📄 Quelle: skript04_clean, Folie 2 (S.2)",
+    "explanation": "11322 im 4er-System = 378, 21 im 4er-System = 9; 378 : 9 = 42 (Rest 0), und 42 = 222 im 4er-System $(2 \\cdot 16 + 2 \\cdot 4 + 2)$. 📄 Quelle: skript04_clean, Folie 2 (S.2)",
     "source": "skript04_clean, Folie 2 (S.2, Arithmetik – Rückblick)"
   },
   {
@@ -110,18 +110,18 @@
     "topic": "skript04_clean_teilbarkeit",
     "difficulty": 2,
     "type": "multi",
-    "question": "Wann teilt eine natürliche Zahl a eine natürliche Zahl b (a | b) laut Definition? Welche Aussagen sind korrekt?",
+    "question": "Wann teilt eine natürliche Zahl a eine natürliche Zahl b ($a \\mid b$) laut Definition? Welche Aussagen sind korrekt?",
     "options": [
-      "Genau dann, wenn es eine natürliche Zahl c gibt, so dass a · c = b ist.",
+      "Genau dann, wenn es eine natürliche Zahl c gibt, so dass $a \\cdot c = b$ ist.",
       "a nennt man dann auch Teiler von b.",
-      "Genau dann, wenn es eine natürliche Zahl c gibt, so dass b · c = a ist.",
-      "Genau dann, wenn es eine natürliche Zahl c gibt, so dass a + c = b ist."
+      "Genau dann, wenn es eine natürliche Zahl c gibt, so dass $b \\cdot c = a$ ist.",
+      "Genau dann, wenn es eine natürliche Zahl c gibt, so dass $a + c = b$ ist."
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Laut Folie gilt a | b genau dann, wenn es eine natürliche Zahl c gibt mit a · c = b; a heißt dann auch Teiler von b. 📄 Quelle: skript04_clean, Folie 4 (S.4)",
+    "explanation": "Laut Folie gilt $a \\mid b$ genau dann, wenn es eine natürliche Zahl c gibt mit $a \\cdot c = b$; a heißt dann auch Teiler von b. 📄 Quelle: skript04_clean, Folie 4 (S.4)",
     "source": "skript04_clean, Folie 4 (S.4, Arithmetik – Folgerungen aus einer Definition)"
   },
   {
@@ -129,11 +129,11 @@
     "topic": "skript04_clean_teilbarkeit",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Zeigen Sie allein mit der Definition der Teilbarkeit, dass 2 die Zahl 6 teilt: Welches c erfüllt 2 · c = 6?",
+    "question": "Zeigen Sie allein mit der Definition der Teilbarkeit, dass 2 die Zahl 6 teilt: Welches c erfüllt $2 \\cdot c = 6$?",
     "answer": 3,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Mit c = 3 gilt 2 · 3 = 6, also teilt 2 die Zahl 6. 📄 Quelle: skript04_clean, Folie 4 (S.4)",
+    "explanation": "Mit $c = 3$ gilt $2 \\cdot 3 = 6$, also teilt 2 die Zahl 6. 📄 Quelle: skript04_clean, Folie 4 (S.4)",
     "source": "skript04_clean, Folie 4 (S.4, Arithmetik – Folgerungen aus einer Definition)"
   },
   {
@@ -141,11 +141,11 @@
     "topic": "skript04_clean_teilbarkeit",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Zeigen Sie allein mit der Definition der Teilbarkeit, dass 1 die Zahl 5 teilt: Welches c erfüllt 1 · c = 5?",
+    "question": "Zeigen Sie allein mit der Definition der Teilbarkeit, dass 1 die Zahl 5 teilt: Welches c erfüllt $1 \\cdot c = 5$?",
     "answer": 5,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Mit c = 5 gilt 1 · 5 = 5, also teilt 1 die Zahl 5. 📄 Quelle: skript04_clean, Folie 4 (S.4)",
+    "explanation": "Mit $c = 5$ gilt $1 \\cdot 5 = 5$, also teilt 1 die Zahl 5. 📄 Quelle: skript04_clean, Folie 4 (S.4)",
     "source": "skript04_clean, Folie 4 (S.4, Arithmetik – Folgerungen aus einer Definition)"
   },
   {
@@ -153,11 +153,11 @@
     "topic": "skript04_clean_teilbarkeit",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Zeigen Sie allein mit der Definition der Teilbarkeit, dass 3 die Zahl 0 teilt: Welches c erfüllt 3 · c = 0?",
+    "question": "Zeigen Sie allein mit der Definition der Teilbarkeit, dass 3 die Zahl 0 teilt: Welches c erfüllt $3 \\cdot c = 0$?",
     "answer": 0,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Mit c = 0 gilt 3 · 0 = 0, also teilt 3 die Zahl 0. 📄 Quelle: skript04_clean, Folie 4 (S.4)",
+    "explanation": "Mit $c = 0$ gilt $3 \\cdot 0 = 0$, also teilt 3 die Zahl 0. 📄 Quelle: skript04_clean, Folie 4 (S.4)",
     "source": "skript04_clean, Folie 4 (S.4, Arithmetik – Folgerungen aus einer Definition)"
   },
   {
@@ -167,17 +167,17 @@
     "type": "multi",
     "question": "Welche allgemeinen Aussagen lassen sich allein mit der Definition der Teilbarkeit begründen?",
     "options": [
-      "1 teilt jede natürliche Zahl b (mit c = b).",
-      "Jede natürliche Zahl b teilt sich selbst (mit c = 1).",
-      "Jede natürliche Zahl a teilt 0 (mit c = 0).",
-      "0 teilt jede natürliche Zahl b > 0."
+      "1 teilt jede natürliche Zahl b (mit $c = b$).",
+      "Jede natürliche Zahl b teilt sich selbst (mit $c = 1$).",
+      "Jede natürliche Zahl a teilt 0 (mit $c = 0$).",
+      "0 teilt jede natürliche Zahl $b > 0$."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "1 teilt jede Zahl b (1 · b = b), jede Zahl b teilt sich selbst (b · 1 = b) und jede Zahl a teilt 0 (a · 0 = 0). Dagegen teilt 0 keine Zahl b > 0. 📄 Quelle: skript04_clean, Folie 5 (S.5)",
+    "explanation": "1 teilt jede Zahl b ($1 \\cdot b = b$), jede Zahl b teilt sich selbst ($b \\cdot 1 = b$) und jede Zahl a teilt 0 ($a \\cdot 0 = 0$). Dagegen teilt 0 keine Zahl $b > 0$. 📄 Quelle: skript04_clean, Folie 5 (S.5)",
     "source": "skript04_clean, Folie 5 (S.5, Arithmetik – Folgerungen aus einer Definition)"
   },
   {
@@ -185,11 +185,11 @@
     "topic": "skript04_clean_teilbarkeit",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Mit welchem c zeigt man, dass eine beliebige natürliche Zahl a die 0 teilt (a · c = 0)?",
+    "question": "Mit welchem c zeigt man, dass eine beliebige natürliche Zahl a die 0 teilt ($a \\cdot c = 0$)?",
     "answer": 0,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Mit c = 0 gilt a · 0 = 0, also teilt jede natürliche Zahl a die 0. 📄 Quelle: skript04_clean, Folie 5 (S.5)",
+    "explanation": "Mit $c = 0$ gilt $a \\cdot 0 = 0$, also teilt jede natürliche Zahl a die 0. 📄 Quelle: skript04_clean, Folie 5 (S.5)",
     "source": "skript04_clean, Folie 5 (S.5, Arithmetik – Folgerungen aus einer Definition)"
   },
   {
@@ -197,17 +197,17 @@
     "topic": "skript04_clean_teilbarkeit",
     "difficulty": 2,
     "type": "single",
-    "question": "Warum teilt 0 keine natürliche Zahl b > 0 (Begründung allein mit der Definition)?",
+    "question": "Warum teilt 0 keine natürliche Zahl $b > 0$ (Begründung allein mit der Definition)?",
     "options": [
-      "Weil es keine natürliche Zahl c gibt mit 0 · c = b, denn 0 · c = 0 ≠ b.",
+      "Weil es keine natürliche Zahl c gibt mit $0 \\cdot c = b$, denn $0 \\cdot c = 0 \\ne b$.",
       "Weil 0 keine natürliche Zahl ist.",
-      "Weil eine Zahl b > 0 gar keine Teiler besitzt.",
+      "Weil eine Zahl $b > 0$ gar keine Teiler besitzt.",
       "Weil man durch 0 nicht dividieren darf."
     ],
     "correct": [
       0
     ],
-    "explanation": "Nach Definition müsste ein c mit 0 · c = b existieren; da aber 0 · c = 0 für jedes c, kann für b > 0 nie 0 · c = b gelten. 📄 Quelle: skript04_clean, Folie 5 (S.5)",
+    "explanation": "Nach Definition müsste ein c mit $0 \\cdot c = b$ existieren; da aber $0 \\cdot c = 0$ für jedes c, kann für $b > 0$ nie $0 \\cdot c = b$ gelten. 📄 Quelle: skript04_clean, Folie 5 (S.5)",
     "source": "skript04_clean, Folie 5 (S.5, Arithmetik – Folgerungen aus einer Definition)"
   },
   {
