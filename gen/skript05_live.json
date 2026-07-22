@@ -4,11 +4,11 @@
     "topic": "skript05_live_vollstaendige_induktion",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Vollständige Induktion: Berechne im Induktionsanfang (n=4) die linke Seite S_{4-3} = 1 + 4 + 10 + 20.",
+    "question": "Vollständige Induktion: Berechne im Induktionsanfang ($n=4$) die linke Seite $S_{4-3} = 1 + 4 + 10 + 20$.",
     "answer": 35,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Im Induktionsanfang bei n=4 ist die linke Seite S_1 = 1 + 4 + 10 + 20 = 35 (letzter Summand 4·5·6/6 = 20). 📄 Quelle: skript05_live, Folie 11 (S.1)",
+    "explanation": "Im Induktionsanfang bei $n=4$ ist die linke Seite $S_1 = 1 + 4 + 10 + 20 = 35$ (letzter Summand $\\frac{4 \\cdot 5 \\cdot 6}{6} = 20$). 📄 Quelle: skript05_live, Folie 11 (S.1)",
     "source": "skript05_live, Folie 11 (S.1, Arithmetik – Erkundung II vollständige Induktion)"
   },
   {
@@ -16,11 +16,11 @@
     "topic": "skript05_live_vollstaendige_induktion",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Vollständige Induktion: Berechne im Induktionsanfang (n=4) die rechte Seite (4·5·6·7)/24.",
+    "question": "Vollständige Induktion: Berechne im Induktionsanfang ($n=4$) die rechte Seite $\\frac{4 \\cdot 5 \\cdot 6 \\cdot 7}{24}$.",
     "answer": 35,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die rechte Seite bei n=4 ist 4·(4+1)·(4+2)·(4+3)/24 = 4·5·6·7/24 = 840/24 = 35; sie stimmt mit der linken Seite (35) überein. 📄 Quelle: skript05_live, Folie 11 (S.1)",
+    "explanation": "Die rechte Seite bei $n=4$ ist $\\frac{4 \\cdot (4+1) \\cdot (4+2) \\cdot (4+3)}{24} = \\frac{4 \\cdot 5 \\cdot 6 \\cdot 7}{24} = \\frac{840}{24} = 35$; sie stimmt mit der linken Seite (35) überein. 📄 Quelle: skript05_live, Folie 11 (S.1)",
     "source": "skript05_live, Folie 11 (S.1, Arithmetik – Erkundung II vollständige Induktion)"
   },
   {
@@ -28,19 +28,19 @@
     "topic": "skript05_live_vollstaendige_induktion",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Aussagen zum Induktionsbeweis der Summenformel für S_{n-3} sind korrekt?",
+    "question": "Welche Aussagen zum Induktionsbeweis der Summenformel für $S_{n-3}$ sind korrekt?",
     "options": [
-      "Die Aussage A(n) soll für alle natürlichen Zahlen n ≥ 4 gezeigt werden.",
-      "Der Induktionsanfang wird bei n = 4 geführt (wegen n ≥ 4).",
-      "Der Induktionsanfang wird bei n = 1 geführt.",
-      "Behauptet wird die geschlossene Form S_{n-3} = n·(n+1)·(n+2)·(n+3)/24."
+      "Die Aussage $A(n)$ soll für alle natürlichen Zahlen $n \\ge 4$ gezeigt werden.",
+      "Der Induktionsanfang wird bei $n = 4$ geführt (wegen $n \\ge 4$).",
+      "Der Induktionsanfang wird bei $n = 1$ geführt.",
+      "Behauptet wird die geschlossene Form $S_{n-3} = \\frac{n \\cdot (n+1) \\cdot (n+2) \\cdot (n+3)}{24}$."
     ],
     "correct": [
       0,
       1,
       3
     ],
-    "explanation": "Die Folie fordert 'Für alle natürlichen Zahlen n ≥ 4', daher startet der Induktionsanfang bei n = 4 (nicht bei n = 1), und behauptet wird S_{n-3} = n·(n+1)·(n+2)·(n+3)/24. 📄 Quelle: skript05_live, Folie 11 (S.1)",
+    "explanation": "Die Folie fordert 'Für alle natürlichen Zahlen $n \\ge 4$', daher startet der Induktionsanfang bei $n = 4$ (nicht bei $n = 1$), und behauptet wird $S_{n-3} = \\frac{n \\cdot (n+1) \\cdot (n+2) \\cdot (n+3)}{24}$. 📄 Quelle: skript05_live, Folie 11 (S.1)",
     "source": "skript05_live, Folie 11 (S.1, Arithmetik – Erkundung II vollständige Induktion)"
   },
   {
@@ -48,17 +48,17 @@
     "topic": "skript05_live_vollstaendige_induktion",
     "difficulty": 1,
     "type": "single",
-    "question": "Wie lautet die behauptete geschlossene Form für S_{n-3} = 1 + 4 + 10 + 20 + … + n·(n+1)·(n+2)/6?",
+    "question": "Wie lautet die behauptete geschlossene Form für $S_{n-3} = 1 + 4 + 10 + 20 + \\dots + \\frac{n \\cdot (n+1) \\cdot (n+2)}{6}$?",
     "options": [
-      "n·(n+1)·(n+2)·(n+3)/24",
-      "n·(n+1)·(n+2)/6",
-      "n·(n+1)·(n+2)·(n+3)/6",
-      "n·(n+1)·(n+2)·(n+3)/12"
+      "$\\frac{n \\cdot (n+1) \\cdot (n+2) \\cdot (n+3)}{24}$",
+      "$\\frac{n \\cdot (n+1) \\cdot (n+2)}{6}$",
+      "$\\frac{n \\cdot (n+1) \\cdot (n+2) \\cdot (n+3)}{6}$",
+      "$\\frac{n \\cdot (n+1) \\cdot (n+2) \\cdot (n+3)}{12}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Aus der Voraussetzung S_{n-3} = 1 + 4 + 10 + 20 + ... + n·(n+1)·(n+2)/6 folgt die Behauptung S_{n-3} = n·(n+1)·(n+2)·(n+3)/24. 📄 Quelle: skript05_live, Folie 11 (S.1)",
+    "explanation": "Aus der Voraussetzung $S_{n-3} = 1 + 4 + 10 + 20 + \\dots + \\frac{n \\cdot (n+1) \\cdot (n+2)}{6}$ folgt die Behauptung $S_{n-3} = \\frac{n \\cdot (n+1) \\cdot (n+2) \\cdot (n+3)}{24}$. 📄 Quelle: skript05_live, Folie 11 (S.1)",
     "source": "skript05_live, Folie 11 (S.1, Arithmetik – Erkundung II vollständige Induktion)"
   },
   {
@@ -66,11 +66,11 @@
     "topic": "skript05_live_vermutungen_beweise",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechne für n = 5 den Wert n² + n + 41.",
+    "question": "Berechne für $n = 5$ den Wert $n^2 + n + 41$.",
     "answer": 71,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Für n = 5 ist 5² + 5 + 41 = 25 + 5 + 41 = 71 (Tabellenwert). 📄 Quelle: skript05_live, Folie 15 (S.2)",
+    "explanation": "Für $n = 5$ ist $5^2 + 5 + 41 = 25 + 5 + 41 = 71$ (Tabellenwert). 📄 Quelle: skript05_live, Folie 15 (S.2)",
     "source": "skript05_live, Folie 15 (S.2, Arithmetik – Muster, Vermutungen, Sätze und Beweise)"
   },
   {
@@ -78,11 +78,11 @@
     "topic": "skript05_live_vermutungen_beweise",
     "difficulty": 2,
     "type": "multi",
-    "question": "Zur Vermutung 'Wenn n eine natürliche Zahl ist, dann ist n² + n + 41 eine Primzahl' – welche Aussagen sind korrekt?",
+    "question": "Zur Vermutung 'Wenn n eine natürliche Zahl ist, dann ist $n^2 + n + 41$ eine Primzahl' – welche Aussagen sind korrekt?",
     "options": [
-      "Der Induktionsanfang n = 1 liefert 1² + 1 + 41 = 43, eine Primzahl.",
+      "Der Induktionsanfang $n = 1$ liefert $1^2 + 1 + 41 = 43$, eine Primzahl.",
       "Die Vermutung ist insgesamt falsch.",
-      "Als Gegenbeispiel dient 1763 = 41·43 (keine Primzahl).",
+      "Als Gegenbeispiel dient $1763 = 41 \\cdot 43$ (keine Primzahl).",
       "Der Induktionsschritt gelingt und beweist die Vermutung."
     ],
     "correct": [
@@ -90,7 +90,7 @@
       1,
       2
     ],
-    "explanation": "Der Induktionsanfang n = 1 ergibt 43 (Primzahl), doch die Vermutung ist falsch ('Die Aussage ist ja falsch'); als Gegenbeispiel wird 1763 = 41·43 angeführt, ein zusammengesetzter Wert – ein vollständiger Induktionsbeweis gelingt daher nicht. 📄 Quelle: skript05_live, Folie 15 (S.2)",
+    "explanation": "Der Induktionsanfang $n = 1$ ergibt 43 (Primzahl), doch die Vermutung ist falsch ('Die Aussage ist ja falsch'); als Gegenbeispiel wird $1763 = 41 \\cdot 43$ angeführt, ein zusammengesetzter Wert – ein vollständiger Induktionsbeweis gelingt daher nicht. 📄 Quelle: skript05_live, Folie 15 (S.2)",
     "source": "skript05_live, Folie 15 (S.2, Arithmetik – Muster, Vermutungen, Sätze und Beweise)"
   },
   {
@@ -98,11 +98,11 @@
     "topic": "skript05_live_vermutungen_beweise",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Als Gegenbeispiel zur Primzahl-Vermutung (n² + n + 41): Berechne 40² + 3·40 + 43.",
+    "question": "Als Gegenbeispiel zur Primzahl-Vermutung ($n^2 + n + 41$): Berechne $40^2 + 3 \\cdot 40 + 43$.",
     "answer": 1763,
     "tolerance": 0,
     "unit": "",
-    "explanation": "40² + 3·40 + 43 = 1600 + 120 + 43 = 1763 = 41·43, also keine Primzahl – das Gegenbeispiel widerlegt die Vermutung. 📄 Quelle: skript05_live, Folie 15 (S.2)",
+    "explanation": "$40^2 + 3 \\cdot 40 + 43 = 1600 + 120 + 43 = 1763 = 41 \\cdot 43$, also keine Primzahl – das Gegenbeispiel widerlegt die Vermutung. 📄 Quelle: skript05_live, Folie 15 (S.2)",
     "source": "skript05_live, Folie 15 (S.2, Arithmetik – Muster, Vermutungen, Sätze und Beweise)"
   },
   {
@@ -110,17 +110,17 @@
     "topic": "skript05_live_teilbarkeit",
     "difficulty": 1,
     "type": "single",
-    "question": "Wann gilt a | b (a teilt b)?",
+    "question": "Wann gilt $a \\mid b$ (a teilt b)?",
     "options": [
-      "Genau dann, wenn es eine natürliche Zahl x gibt mit a·x = b.",
-      "Genau dann, wenn es eine natürliche Zahl x gibt mit b·x = a.",
-      "Genau dann, wenn a·b = x für eine natürliche Zahl x gilt.",
-      "Genau dann, wenn a + x = b für eine natürliche Zahl x gilt."
+      "Genau dann, wenn es eine natürliche Zahl x gibt mit $a \\cdot x = b$.",
+      "Genau dann, wenn es eine natürliche Zahl x gibt mit $b \\cdot x = a$.",
+      "Genau dann, wenn $a \\cdot b = x$ für eine natürliche Zahl x gilt.",
+      "Genau dann, wenn $a + x = b$ für eine natürliche Zahl x gilt."
     ],
     "correct": [
       0
     ],
-    "explanation": "Laut Folie gilt: a | b genau dann, wenn es eine natürliche Zahl x gibt mit a·x = b. 📄 Quelle: skript05_live, Folie 18 (S.3)",
+    "explanation": "Laut Folie gilt: $a \\mid b$ genau dann, wenn es eine natürliche Zahl x gibt mit $a \\cdot x = b$. 📄 Quelle: skript05_live, Folie 18 (S.3)",
     "source": "skript05_live, Folie 18 (S.3, Arithmetik – Definition n-Quadratling)"
   },
   {
@@ -130,7 +130,7 @@
     "type": "multi",
     "question": "Welche Bedingungen nennt Definition III eines n-Quadratlings?",
     "options": [
-      "Ein n-Quadratling besteht aus n vielen Quadraten mit n ≥ 2.",
+      "Ein n-Quadratling besteht aus n vielen Quadraten mit $n \\ge 2$.",
       "Die Quadrate müssen mindestens eine Seite vollständig teilen.",
       "Quadrate dürfen nicht über Eckpunkte miteinander verbunden sein.",
       "Die Quadrate dürfen unterschiedlich groß sein und nur über Eckpunkte verbunden sein."
@@ -140,7 +140,7 @@
       1,
       2
     ],
-    "explanation": "Def III fordert: n viele Quadrate mit n ≥ 2, die mindestens eine (bzw. jede geteilte) Seite vollständig teilen, und die nicht über Eckpunkte verbunden sein dürfen. 📄 Quelle: skript05_live, Folie 18 (S.3)",
+    "explanation": "Def III fordert: n viele Quadrate mit $n \\ge 2$, die mindestens eine (bzw. jede geteilte) Seite vollständig teilen, und die nicht über Eckpunkte verbunden sein dürfen. 📄 Quelle: skript05_live, Folie 18 (S.3)",
     "source": "skript05_live, Folie 18 (S.3, Arithmetik – Definition n-Quadratling)"
   },
   {
@@ -171,7 +171,7 @@
     "answer": 60,
     "tolerance": 0,
     "unit": "°",
-    "explanation": "Beim gleichseitigen Dreieck sind alle Winkel gleich groß: 60°. Sechs davon ergeben um einen Punkt 6·60° = 360°. 📄 Quelle: skript05_live, Folie 30 (S.5)",
+    "explanation": "Beim gleichseitigen Dreieck sind alle Winkel gleich groß: 60°. Sechs davon ergeben um einen Punkt $6 \\cdot 60^\\circ = 360^\\circ$. 📄 Quelle: skript05_live, Folie 30 (S.5)",
     "source": "skript05_live, Folie 30 (S.5, Arithmetik – Parkettierung)"
   },
   {
@@ -183,7 +183,7 @@
     "answer": 6,
     "tolerance": 0,
     "unit": "",
-    "explanation": "6·60° = 360°, also treffen sich 6 gleichseitige Dreiecke lückenlos in einem Punkt. 📄 Quelle: skript05_live, Folie 30 (S.5)",
+    "explanation": "$6 \\cdot 60^\\circ = 360^\\circ$, also treffen sich 6 gleichseitige Dreiecke lückenlos in einem Punkt. 📄 Quelle: skript05_live, Folie 30 (S.5)",
     "source": "skript05_live, Folie 30 (S.5, Arithmetik – Parkettierung)"
   },
   {
@@ -195,7 +195,7 @@
     "answer": 120,
     "tolerance": 0,
     "unit": "°",
-    "explanation": "Der Innenwinkel des regulären 6-Ecks ist 120°; 3·120° = 360°, daher parkettieren reguläre Sechsecke die Ebene. In einer Ecke treffen zwei Ecken zweier Dreiecke aufeinander: 2·60° = 120°. 📄 Quelle: skript05_live, Folie 30 (S.5)",
+    "explanation": "Der Innenwinkel des regulären 6-Ecks ist 120°; $3 \\cdot 120^\\circ = 360^\\circ$, daher parkettieren reguläre Sechsecke die Ebene. In einer Ecke treffen zwei Ecken zweier Dreiecke aufeinander: $2 \\cdot 60^\\circ = 120^\\circ$. 📄 Quelle: skript05_live, Folie 30 (S.5)",
     "source": "skript05_live, Folie 30 (S.5, Arithmetik – Parkettierung)"
   },
   {
@@ -206,8 +206,8 @@
     "question": "Welche Aussagen zur Parkettierung der Ebene mit regulären Polygonen sind korrekt?",
     "options": [
       "Ein reguläres Polygon hat gleiche Seitenlängen und gleiche Innenwinkel.",
-      "Mit gleichseitigen Dreiecken lässt sich die Ebene parkettieren (6·60° = 360°).",
-      "Mit regulären Sechsecken lässt sich die Ebene parkettieren (3·120° = 360°).",
+      "Mit gleichseitigen Dreiecken lässt sich die Ebene parkettieren ($6 \\cdot 60^\\circ = 360^\\circ$).",
+      "Mit regulären Sechsecken lässt sich die Ebene parkettieren ($3 \\cdot 120^\\circ = 360^\\circ$).",
       "Mit regulären Fünfecken lässt sich die Ebene parkettieren.",
       "Die Ebene lässt sich mit allen (allgemeinen) Dreiecken parkettieren."
     ],
@@ -217,7 +217,7 @@
       2,
       4
     ],
-    "explanation": "Reguläre Polygone haben gleiche Seitenlängen und gleiche Innenwinkel; gleichseitige Dreiecke (6·60°=360°) und reguläre Sechsecke (3·120°=360°) parkettieren, ebenso alle allgemeinen Dreiecke ('Es geht mit allen Dreiecken'). Reguläre Fünfecke werden auf der Folie nicht als parkettierend genannt. 📄 Quelle: skript05_live, Folie 30 (S.5)",
+    "explanation": "Reguläre Polygone haben gleiche Seitenlängen und gleiche Innenwinkel; gleichseitige Dreiecke ($6 \\cdot 60^\\circ = 360^\\circ$) und reguläre Sechsecke ($3 \\cdot 120^\\circ = 360^\\circ$) parkettieren, ebenso alle allgemeinen Dreiecke ('Es geht mit allen Dreiecken'). Reguläre Fünfecke werden auf der Folie nicht als parkettierend genannt. 📄 Quelle: skript05_live, Folie 30 (S.5)",
     "source": "skript05_live, Folie 30 (S.5, Arithmetik – Parkettierung)"
   }
 ]

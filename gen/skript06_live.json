@@ -6,17 +6,17 @@
     "type": "multi",
     "question": "Mit welchen regulären (regelmäßigen) Polygonen kann die Ebene parkettiert werden?",
     "options": [
-      "gleichseitiges Dreieck (6·60° = 360°)",
-      "Quadrat (4·90° = 360°)",
-      "regelmäßiges Sechseck (3·120° = 360°)",
-      "regelmäßiges Fünfeck (3·108° = 360°)"
+      "gleichseitiges Dreieck ($6 \\cdot 60° = 360°$)",
+      "Quadrat ($4 \\cdot 90° = 360°$)",
+      "regelmäßiges Sechseck ($3 \\cdot 120° = 360°$)",
+      "regelmäßiges Fünfeck ($3 \\cdot 108° = 360°$)"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Bei gleichseitigem Dreieck (6·60°=360°), Quadrat (4·90°=360°) und regelmäßigem Sechseck (3·120°=360°) ergänzen sich die Innenwinkel an einer Ecke genau zu 360°. Beim regelmäßigen Fünfeck gilt 3·108° = 324° ≠ 360°, daher ist eine Parkettierung nicht möglich. 📄 Quelle: skript06_live, Folie 5 (S.1)",
+    "explanation": "Bei gleichseitigem Dreieck ($6 \\cdot 60°=360°$), Quadrat ($4 \\cdot 90°=360°$) und regelmäßigem Sechseck ($3 \\cdot 120°=360°$) ergänzen sich die Innenwinkel an einer Ecke genau zu 360°. Beim regelmäßigen Fünfeck gilt $3 \\cdot 108° = 324° \\ne 360°$, daher ist eine Parkettierung nicht möglich. 📄 Quelle: skript06_live, Folie 5 (S.1)",
     "source": "skript06_live, Folie 5 (S.1, Arithmetik – Parkettierung)"
   },
   {
@@ -28,7 +28,7 @@
     "answer": 120,
     "tolerance": 0,
     "unit": "°",
-    "explanation": "Auf der Folie steht: 'Innenwinkel vom 6-Eck ist 120°', und 3·120° = 360°. Zusätzlich wird begründet, dass in einer Ecke des reg. 6-Ecks zwei Ecken von 2 Dreiecken aufeinandertreffen (2·60° = 120°). 📄 Quelle: skript06_live, Folie 5 (S.1)",
+    "explanation": "Auf der Folie steht: 'Innenwinkel vom 6-Eck ist 120°', und $3 \\cdot 120° = 360°$. Zusätzlich wird begründet, dass in einer Ecke des reg. 6-Ecks zwei Ecken von 2 Dreiecken aufeinandertreffen ($2 \\cdot 60° = 120°$). 📄 Quelle: skript06_live, Folie 5 (S.1)",
     "source": "skript06_live, Folie 5 (S.1, Arithmetik – Parkettierung)"
   },
   {
@@ -40,7 +40,7 @@
     "answer": 540,
     "tolerance": 0,
     "unit": "°",
-    "explanation": "Ein Fünfeck lässt sich in 3 Dreiecke zerlegen (n Δe → (n+2)-Eck), daher Innenwinkelsumme = 3·Innenwinkelsumme eines Dreiecks = 3·180° = 540°. Jeder Innenwinkel ist somit 540°:5 = 108°. 📄 Quelle: skript06_live, Folie 5 (S.1)",
+    "explanation": "Ein Fünfeck lässt sich in 3 Dreiecke zerlegen ($n$ Δe $\\to (n+2)$-Eck), daher Innenwinkelsumme $= 3 \\cdot$ Innenwinkelsumme eines Dreiecks $= 3 \\cdot 180° = 540°$. Jeder Innenwinkel ist somit $540° : 5 = 108°$. 📄 Quelle: skript06_live, Folie 5 (S.1)",
     "source": "skript06_live, Folie 5 (S.1, Arithmetik – Parkettierung)"
   },
   {
@@ -60,7 +60,7 @@
       1,
       2
     ],
-    "explanation": "Die Folie hält fest: 'Es geht mit allen Dreiecken'; Rechtecke und Parallelogramme parkettieren (Innenwinkelsumme 360°); mit regelmäßigen Fünfecken ist eine Parkettierung nicht möglich (3·108°=324°), aber mit bestimmten unregelmäßigen 5-Ecken geht es. 📄 Quelle: skript06_live, Folie 5 (S.1)",
+    "explanation": "Die Folie hält fest: 'Es geht mit allen Dreiecken'; Rechtecke und Parallelogramme parkettieren (Innenwinkelsumme 360°); mit regelmäßigen Fünfecken ist eine Parkettierung nicht möglich ($3 \\cdot 108°=324°$), aber mit bestimmten unregelmäßigen 5-Ecken geht es. 📄 Quelle: skript06_live, Folie 5 (S.1)",
     "source": "skript06_live, Folie 5 (S.1, Arithmetik – Parkettierung)"
   },
   {
@@ -106,11 +106,11 @@
     "topic": "skript06_live_gleiche_parkettierung",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Wie viele (nach Definition nicht gleiche) Kombinationsmöglichkeiten für die unterschiedlichen Rechtecke ergibt der systematische Aufschrieb (1+2+3+4+5+6+7)?",
+    "question": "Wie viele (nach Definition nicht gleiche) Kombinationsmöglichkeiten für die unterschiedlichen Rechtecke ergibt der systematische Aufschrieb ($1+2+3+4+5+6+7$)?",
     "answer": 28,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Im systematischen Aufschrieb ergibt sich die Anzahl als 1+2+3+4+5+6+7 = 28 = 7·8/2. 📄 Quelle: skript06_live, Folie 25 (S.2)",
+    "explanation": "Im systematischen Aufschrieb ergibt sich die Anzahl als $1+2+3+4+5+6+7 = 28 = \\frac{7 \\cdot 8}{2}$. 📄 Quelle: skript06_live, Folie 25 (S.2)",
     "source": "skript06_live, Folie 25 (S.2, Erkundung II – Systematischer Aufschrieb, Vorlesung 6)"
   },
   {
@@ -118,10 +118,10 @@
     "topic": "skript06_live_gleiche_parkettierung",
     "difficulty": 3,
     "type": "multi",
-    "question": "Warum wird im systematischen Aufschrieb die Summe 1+2+3+4+5+6+7 (statt aller 7·7 Felder) gebildet?",
+    "question": "Warum wird im systematischen Aufschrieb die Summe $1+2+3+4+5+6+7$ (statt aller $7 \\cdot 7$ Felder) gebildet?",
     "options": [
       "Weil in den weggelassenen Feldern nur zu bereits existierenden Rechtecken kongruente (paarweise kongruente) Rechtecke lägen.",
-      "Weil die Summe sich als 7·8/2 = 28 schreiben lässt (Dreiecksschema).",
+      "Weil die Summe sich als $\\frac{7 \\cdot 8}{2} = 28$ schreiben lässt (Dreiecksschema).",
       "Weil jedes Rechteck mit sich selbst kombiniert werden muss.",
       "Weil die Rechtecke keine Teilquadrate besitzen."
     ],
@@ -129,7 +129,7 @@
       0,
       1
     ],
-    "explanation": "Handschriftlich vermerkt: 'hier würden nur zu bereits existierenden Rechtecken kongruente Rechtecke liegen (paarweise kongruent)'. Daher wird nur das Dreiecksschema gezählt: 1+2+3+4+5+6+7 = 28 = 7·8/2. 📄 Quelle: skript06_live, Folie 25 (S.2)",
+    "explanation": "Handschriftlich vermerkt: 'hier würden nur zu bereits existierenden Rechtecken kongruente Rechtecke liegen (paarweise kongruent)'. Daher wird nur das Dreiecksschema gezählt: $1+2+3+4+5+6+7 = 28 = \\frac{7 \\cdot 8}{2}$. 📄 Quelle: skript06_live, Folie 25 (S.2)",
     "source": "skript06_live, Folie 25 (S.2, Erkundung II – Systematischer Aufschrieb, Vorlesung 6)"
   }
 ]

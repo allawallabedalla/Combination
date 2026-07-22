@@ -31394,11 +31394,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welchen Wert hat die Summe 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 laut der Mitschrift?",
+    "question": "Welchen Wert hat die Summe $1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10$ laut der Mitschrift?",
     "answer": 55,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Auf der Seite wird 1+2+...+10 auf mehrere Weisen berechnet, u. a. als 4·10+10+5 = 5·10+5 = 55 sowie als 5·11 = 55. 📄 Quelle: skript01_live23, Folie 1 (S.1)",
+    "explanation": "Auf der Seite wird $1+2+\\dots+10$ auf mehrere Weisen berechnet, u. a. als $4 \\cdot 10 + 10 + 5 = 5 \\cdot 10 + 5 = 55$ sowie als $5 \\cdot 11 = 55$. 📄 Quelle: skript01_live23, Folie 1 (S.1)",
     "source": "skript01_live23, Folie 1 (S.1, Arithmetik und Geometrie II (Vertiefung), SoSe 2023)"
   },
   {
@@ -31406,11 +31406,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Beim paarweisen Verbinden der Summanden (1+10, 2+9, 3+8, ...) ergibt jedes Zahlenpaar in 1+2+...+10 denselben Wert. Welchen?",
+    "question": "Beim paarweisen Verbinden der Summanden ($1+10$, $2+9$, $3+8$, ...) ergibt jedes Zahlenpaar in $1+2+\\dots+10$ denselben Wert. Welchen?",
     "answer": 11,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Mitschrift hält fest, dass die verbundenen Summanden 'immer 11' ergeben; damit ist 1+2+...+10 = 5·11 = 55. 📄 Quelle: skript01_live23, Folie 1 (S.1)",
+    "explanation": "Die Mitschrift hält fest, dass die verbundenen Summanden 'immer 11' ergeben; damit ist $1+2+\\dots+10 = 5 \\cdot 11 = 55$. 📄 Quelle: skript01_live23, Folie 1 (S.1)",
     "source": "skript01_live23, Folie 1 (S.1, Arithmetik und Geometrie II (Vertiefung), SoSe 2023)"
   },
   {
@@ -31418,11 +31418,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Welchen Wert hat die Summe 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 (ungerade Anzahl von Summanden) laut der Mitschrift?",
+    "question": "Welchen Wert hat die Summe $1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9$ (ungerade Anzahl von Summanden) laut der Mitschrift?",
     "answer": 45,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Bei ungerader Anzahl von Summanden bleibt die 5 'übrig'; die Rechnung auf der Seite lautet 4·10+5 = 45. 📄 Quelle: skript01_live23, Folie 1 (S.1)",
+    "explanation": "Bei ungerader Anzahl von Summanden bleibt die 5 'übrig'; die Rechnung auf der Seite lautet $4 \\cdot 10 + 5 = 45$. 📄 Quelle: skript01_live23, Folie 1 (S.1)",
     "source": "skript01_live23, Folie 1 (S.1, Arithmetik und Geometrie II (Vertiefung), SoSe 2023)"
   },
   {
@@ -31434,15 +31434,15 @@ const SAMPLE_QUESTIONS = [
     "options": [
       "Die '0' gehört nicht zu den natürlichen Zahlen.",
       "Das (paarweise) Verbinden der Summanden war hilfreich.",
-      "0 + 1 + 2 + ... + 10 = 5·10 + 5",
-      "Die Summe 1 + 2 + ... + 10 lässt sich nur mit einer geraden Anzahl von Summanden bilden."
+      "$0 + 1 + 2 + \\dots + 10 = 5 \\cdot 10 + 5$",
+      "Die Summe $1 + 2 + \\dots + 10$ lässt sich nur mit einer geraden Anzahl von Summanden bilden."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Notiert sind der Warnhinweis 'Die 0 gehört nicht zu den natürlichen Zahlen', die Bemerkung 'Das Verbinden war hilfreich' sowie die Rechnung 0+1+2+...+10 = 5·10+5. Die vierte Aussage steht nicht auf der Seite und ist falsch. 📄 Quelle: skript01_live23, Folie 1 (S.1)",
+    "explanation": "Notiert sind der Warnhinweis 'Die 0 gehört nicht zu den natürlichen Zahlen', die Bemerkung 'Das Verbinden war hilfreich' sowie die Rechnung $0+1+2+\\dots+10 = 5 \\cdot 10+5$. Die vierte Aussage steht nicht auf der Seite und ist falsch. 📄 Quelle: skript01_live23, Folie 1 (S.1)",
     "source": "skript01_live23, Folie 1 (S.1, Arithmetik und Geometrie II (Vertiefung), SoSe 2023)"
   },
   {
@@ -31450,11 +31450,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welchen Wert hat die Summe 1 + 2 + 3 + ... + 16 laut der Mitschrift?",
+    "question": "Welchen Wert hat die Summe $1 + 2 + 3 + \\dots + 16$ laut der Mitschrift?",
     "answer": 136,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Seite notiert 1+2+...+16 = 8·17 = 136 (16/2 = 8 Zahlenpaare zu je 17). 📄 Quelle: skript01_live23, Folie 2 (S.2)",
+    "explanation": "Die Seite notiert $1+2+\\dots+16 = 8 \\cdot 17 = 136$ ($\\frac{16}{2} = 8$ Zahlenpaare zu je 17). 📄 Quelle: skript01_live23, Folie 2 (S.2)",
     "source": "skript01_live23, Folie 2 (S.2, Arithmetik und Geometrie II (Vertiefung), SoSe 2023)"
   },
   {
@@ -31462,11 +31462,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Wie viele Zahlenpaare bildet man bei der Summe 1 + 2 + 3 + ... + 16?",
+    "question": "Wie viele Zahlenpaare bildet man bei der Summe $1 + 2 + 3 + \\dots + 16$?",
     "answer": 8,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Mitschrift gibt '16/2 Zahlenpaare' an, also 8 Paare (16+1, 15+2, 14+3, 13+4, ...) zu je 17. 📄 Quelle: skript01_live23, Folie 2 (S.2)",
+    "explanation": "Die Mitschrift gibt '$\\frac{16}{2}$ Zahlenpaare' an, also 8 Paare ($16+1$, $15+2$, $14+3$, $13+4$, ...) zu je 17. 📄 Quelle: skript01_live23, Folie 2 (S.2)",
     "source": "skript01_live23, Folie 2 (S.2, Arithmetik und Geometrie II (Vertiefung), SoSe 2023)"
   },
   {
@@ -31474,19 +31474,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 2,
     "type": "multi",
-    "question": "In der Formel 1 + 2 + 3 + ... + (n-1) + n = (n/2)·(n+1) — welche Deutungen der Bestandteile werden auf der Seite notiert?",
+    "question": "In der Formel $1 + 2 + 3 + \\dots + (n-1) + n = \\frac{n}{2} \\cdot (n+1)$ — welche Deutungen der Bestandteile werden auf der Seite notiert?",
     "options": [
-      "n/2 ist die Anzahl der Zahlenpaare.",
-      "(n+1) ist die höchste Zahl + 1.",
-      "n ist die Anzahl der Summanden.",
-      "(n+1) ist die Anzahl der Summanden."
+      "$\\frac{n}{2}$ ist die Anzahl der Zahlenpaare.",
+      "$(n+1)$ ist die höchste Zahl + 1.",
+      "$n$ ist die Anzahl der Summanden.",
+      "$(n+1)$ ist die Anzahl der Summanden."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Randnotizen erklären: n/2 = 'Anzahl der Zahlenpaare', (n+1) = 'höchste Zahl + 1' und 'n ist die Anzahl der Summanden'. Die vierte Aussage ist falsch. 📄 Quelle: skript01_live23, Folie 2 (S.2)",
+    "explanation": "Die Randnotizen erklären: $\\frac{n}{2}$ = 'Anzahl der Zahlenpaare', $(n+1)$ = 'höchste Zahl + 1' und '$n$ ist die Anzahl der Summanden'. Die vierte Aussage ist falsch. 📄 Quelle: skript01_live23, Folie 2 (S.2)",
     "source": "skript01_live23, Folie 2 (S.2, Arithmetik und Geometrie II (Vertiefung), SoSe 2023)"
   },
   {
@@ -31494,11 +31494,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Prüfe die Formel für n = 5: Welchen Wert hat 1 + 2 + 3 + 4 + 5?",
+    "question": "Prüfe die Formel für $n = 5$: Welchen Wert hat $1 + 2 + 3 + 4 + 5$?",
     "answer": 15,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Seite rechnet für n=5: 1+2+3+4+5 = 2·6+3 = (5/2)·(5+1) = 15 und prüft damit, ob die Formel auch für ungerade n stimmt. 📄 Quelle: skript01_live23, Folie 2 (S.2)",
+    "explanation": "Die Seite rechnet für $n=5$: $1+2+3+4+5 = 2 \\cdot 6+3 = \\frac{5}{2} \\cdot (5+1) = 15$ und prüft damit, ob die Formel auch für ungerade $n$ stimmt. 📄 Quelle: skript01_live23, Folie 2 (S.2)",
     "source": "skript01_live23, Folie 2 (S.2, Arithmetik und Geometrie II (Vertiefung), SoSe 2023)"
   },
   {
@@ -31506,17 +31506,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 2,
     "type": "single",
-    "question": "Der Satz auf der Seite lautet: 'Sei n eine natürliche Zahl. Dann gilt für die Summe S_n := 1 + 2 + 3 + ... + (n-1) + n, dass S_n = (n/2)·(n+1).' Für welche n gilt die Formel demnach?",
+    "question": "Der Satz auf der Seite lautet: 'Sei $n$ eine natürliche Zahl. Dann gilt für die Summe $S_n := 1 + 2 + 3 + \\dots + (n-1) + n$, dass $S_n = \\frac{n}{2} \\cdot (n+1)$.' Für welche $n$ gilt die Formel demnach?",
     "options": [
-      "Nur für gerade n",
-      "Nur für ungerade n",
-      "Für jede natürliche Zahl n",
-      "Nur für n ≥ 10"
+      "Nur für gerade $n$",
+      "Nur für ungerade $n$",
+      "Für jede natürliche Zahl $n$",
+      "Nur für $n \\ge 10$"
     ],
     "correct": [
       2
     ],
-    "explanation": "Der Satz beginnt mit 'Sei n eine natürliche Zahl' und macht keine Einschränkung auf gerade oder ungerade Zahlen; die Formel gilt für jede natürliche Zahl n. 📄 Quelle: skript01_live23, Folie 2 (S.2)",
+    "explanation": "Der Satz beginnt mit 'Sei $n$ eine natürliche Zahl' und macht keine Einschränkung auf gerade oder ungerade Zahlen; die Formel gilt für jede natürliche Zahl $n$. 📄 Quelle: skript01_live23, Folie 2 (S.2)",
     "source": "skript01_live23, Folie 2 (S.2, Arithmetik und Geometrie II (Vertiefung), SoSe 2023)"
   },
   {
@@ -31524,11 +31524,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welchen Wert hat die Summe der ersten vier ungeraden Zahlen 1 + 3 + 5 + 7?",
+    "question": "Welchen Wert hat die Summe der ersten vier ungeraden Zahlen $1 + 3 + 5 + 7$?",
     "answer": 16,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Seite notiert #4: 1+3+5+7 = 16 = 4². 📄 Quelle: skript01_live23, Folie 30 (S.3)",
+    "explanation": "Die Seite notiert #4: $1+3+5+7 = 16 = 4^2$. 📄 Quelle: skript01_live23, Folie 30 (S.3)",
     "source": "skript01_live23, Folie 30 (S.3, Arithmetik)"
   },
   {
@@ -31536,11 +31536,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Welchen Wert hat die Summe der ersten fünf ungeraden Zahlen 1 + 3 + 5 + 7 + 9?",
+    "question": "Welchen Wert hat die Summe der ersten fünf ungeraden Zahlen $1 + 3 + 5 + 7 + 9$?",
     "answer": 25,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Mitschrift führt die Reihe fort mit 25 = 5² für die Summe der ersten fünf ungeraden Zahlen. 📄 Quelle: skript01_live23, Folie 30 (S.3)",
+    "explanation": "Die Mitschrift führt die Reihe fort mit $25 = 5^2$ für die Summe der ersten fünf ungeraden Zahlen. 📄 Quelle: skript01_live23, Folie 30 (S.3)",
     "source": "skript01_live23, Folie 30 (S.3, Arithmetik)"
   },
   {
@@ -31548,19 +31548,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche der auf der Seite notierten Gleichungen zur Summe der ersten n ungeraden Zahlen sind korrekt?",
+    "question": "Welche der auf der Seite notierten Gleichungen zur Summe der ersten $n$ ungeraden Zahlen sind korrekt?",
     "options": [
-      "1 + 3 = 4 = 2²",
-      "1 + 3 + 5 = 9 = 3²",
-      "1 + 3 + 5 + 7 = 16 = 4²",
-      "1 + 3 + 5 + 7 = 5²"
+      "$1 + 3 = 4 = 2^2$",
+      "$1 + 3 + 5 = 9 = 3^2$",
+      "$1 + 3 + 5 + 7 = 16 = 4^2$",
+      "$1 + 3 + 5 + 7 = 5^2$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Notiert sind #2: 1+3 = 4 = 2², #3: 1+3+5 = 9 = 3² und #4: 1+3+5+7 = 16 = 4². Die vierte Option ist falsch (1+3+5+7 = 16, nicht 25). 📄 Quelle: skript01_live23, Folie 30 (S.3)",
+    "explanation": "Notiert sind #2: $1+3 = 4 = 2^2$, #3: $1+3+5 = 9 = 3^2$ und #4: $1+3+5+7 = 16 = 4^2$. Die vierte Option ist falsch ($1+3+5+7 = 16$, nicht 25). 📄 Quelle: skript01_live23, Folie 30 (S.3)",
     "source": "skript01_live23, Folie 30 (S.3, Arithmetik)"
   },
   {
@@ -31568,9 +31568,9 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 1,
     "type": "single",
-    "question": "Welches Phänomen zeigt sich bei der Summe der ersten n ungeraden Zahlen?",
+    "question": "Welches Phänomen zeigt sich bei der Summe der ersten $n$ ungeraden Zahlen?",
     "options": [
-      "Es entstehen Quadratzahlen (n²).",
+      "Es entstehen Quadratzahlen ($n^2$).",
       "Es entstehen Primzahlen.",
       "Es entstehen Vielfache von 3.",
       "Es entstehen Dreieckszahlen."
@@ -31578,7 +31578,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Die Folie behandelt 'Phänomene bei der Summe der ersten n ungeraden Zahlen'; die Ergebnisse 4, 9, 16, 25, 36, 49 sind mit '2², 3², 4², 5², 6², 7²' und dem Kommentar 'Quadratzahlen' markiert. 📄 Quelle: skript01_live23, Folie 30 (S.3)",
+    "explanation": "Die Folie behandelt 'Phänomene bei der Summe der ersten $n$ ungeraden Zahlen'; die Ergebnisse 4, 9, 16, 25, 36, 49 sind mit '$2^2, 3^2, 4^2, 5^2, 6^2, 7^2$' und dem Kommentar 'Quadratzahlen' markiert. 📄 Quelle: skript01_live23, Folie 30 (S.3)",
     "source": "skript01_live23, Folie 30 (S.3, Arithmetik)"
   },
   {
@@ -31862,12 +31862,12 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Eigenschaften nennt Peano dafür, dass eine Zahlenmenge N die Natürlichen Zahlen ist?",
+    "question": "Welche Eigenschaften nennt Peano dafür, dass eine Zahlenmenge $N$ die Natürlichen Zahlen ist?",
     "options": [
       "1 ist eine Natürliche Zahl.",
-      "Zu jeder natürlichen Zahl n gibt es genau einen Nachfolger n'.",
-      "Kein Element von N hat als Nachfolger die 1.",
-      "Kein Element ist Nachfolger zweier verschiedener Elemente von N.",
+      "Zu jeder natürlichen Zahl $n$ gibt es genau einen Nachfolger $n'$.",
+      "Kein Element von $N$ hat als Nachfolger die 1.",
+      "Kein Element ist Nachfolger zweier verschiedener Elemente von $N$.",
       "Jede natürliche Zahl besitzt genau einen Vorgänger."
     ],
     "correct": [
@@ -31876,7 +31876,7 @@ const SAMPLE_QUESTIONS = [
       2,
       3
     ],
-    "explanation": "Die Folie listet die Peano-Eigenschaften: (1) 1 ist eine Natürliche Zahl, (2) zu jeder natürlichen Zahl n gibt es genau einen Nachfolger n', (3) kein Element von N hat als Nachfolger die 1, (4) kein Element ist Nachfolger zweier verschiedener Elemente von N. Ein garantierter Vorgänger jeder Zahl ist NICHT aufgeführt (die 1 hat keinen Vorgänger). 📄 Quelle: skript02_liveolz, Folie 1 (S.1)",
+    "explanation": "Die Folie listet die Peano-Eigenschaften: (1) 1 ist eine Natürliche Zahl, (2) zu jeder natürlichen Zahl $n$ gibt es genau einen Nachfolger $n'$, (3) kein Element von $N$ hat als Nachfolger die 1, (4) kein Element ist Nachfolger zweier verschiedener Elemente von $N$. Ein garantierter Vorgänger jeder Zahl ist NICHT aufgeführt (die 1 hat keinen Vorgänger). 📄 Quelle: skript02_liveolz, Folie 1 (S.1)",
     "source": "skript02_liveolz, Folie 1 (S.1, Arithmetik - Rückblick, Peano-Axiome)"
   },
   {
@@ -31886,15 +31886,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Wie lautet das fünfte Peano-Axiom (Induktionsaxiom)?",
     "options": [
-      "Wenn M eine Teilmenge von N ist und die ersten beiden Axiome erfüllt sind, dann ist M gleich N.",
-      "Wenn M eine Teilmenge von N ist, dann ist M stets gleich N.",
-      "Wenn M die ersten beiden Axiome erfüllt, dann ist M eine Teilmenge von N.",
-      "Jede Teilmenge M von N enthält die 1."
+      "Wenn $M$ eine Teilmenge von $N$ ist und die ersten beiden Axiome erfüllt sind, dann ist $M$ gleich $N$.",
+      "Wenn $M$ eine Teilmenge von $N$ ist, dann ist $M$ stets gleich $N$.",
+      "Wenn $M$ die ersten beiden Axiome erfüllt, dann ist $M$ eine Teilmenge von $N$.",
+      "Jede Teilmenge $M$ von $N$ enthält die 1."
     ],
     "correct": [
       0
     ],
-    "explanation": "Das 5. Axiom fordert BEIDE Voraussetzungen zusammen: M ist Teilmenge von N UND die ersten beiden Axiome sind (in M) erfüllt; erst dann folgt M = N. Das bloße Teilmenge-Sein genügt nicht. 📄 Quelle: skript02_liveolz, Folie 1 (S.1)",
+    "explanation": "Das 5. Axiom fordert BEIDE Voraussetzungen zusammen: $M$ ist Teilmenge von $N$ UND die ersten beiden Axiome sind (in $M$) erfüllt; erst dann folgt $M = N$. Das bloße Teilmenge-Sein genügt nicht. 📄 Quelle: skript02_liveolz, Folie 1 (S.1)",
     "source": "skript02_liveolz, Folie 1 (S.1, Arithmetik - Rückblick, Peano-Axiome)"
   },
   {
@@ -31902,19 +31902,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 2,
     "type": "multi",
-    "question": "Betrachtet wird die Menge M = {1; 3; 5; 7; …} (die ungeraden natürlichen Zahlen). Welche Aussagen sind richtig?",
+    "question": "Betrachtet wird die Menge $M = \\{1; 3; 5; 7; \\dots\\}$ (die ungeraden natürlichen Zahlen). Welche Aussagen sind richtig?",
     "options": [
-      "M ist eine Teilmenge von N (M ⊂ N).",
-      "Die Elemente von M sind natürliche Zahlen.",
-      "Es gilt M ≠ N, weil die geraden natürlichen Zahlen fehlen.",
-      "Wegen M ⊂ N gilt automatisch M = N."
+      "$M$ ist eine Teilmenge von $N$ ($M \\subset N$).",
+      "Die Elemente von $M$ sind natürliche Zahlen.",
+      "Es gilt $M \\ne N$, weil die geraden natürlichen Zahlen fehlen.",
+      "Wegen $M \\subset N$ gilt automatisch $M = N$."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "In der Mitschrift wird festgehalten: {1; 3; 5; 7; …} ⊂ N, das sind natürliche Zahlen, und A1–A4 sind erfüllt. Aber die geraden natürlichen Zahlen fehlen, also ist M ≠ N. Teilmenge-Sein allein garantiert somit nicht M = N. 📄 Quelle: skript02_liveolz, Folie 1 (S.1)",
+    "explanation": "In der Mitschrift wird festgehalten: $\\{1; 3; 5; 7; \\dots\\} \\subset N$, das sind natürliche Zahlen, und A1–A4 sind erfüllt. Aber die geraden natürlichen Zahlen fehlen, also ist $M \\ne N$. Teilmenge-Sein allein garantiert somit nicht $M = N$. 📄 Quelle: skript02_liveolz, Folie 1 (S.1)",
     "source": "skript02_liveolz, Folie 1 (S.1, Arithmetik - Rückblick, Peano-Axiome)"
   },
   {
@@ -31924,16 +31924,16 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Wie wird die Addition (vor der Axiomatisierung) für beliebige Natürliche Zahlen festgesetzt?",
     "options": [
-      "n + 1 := n' (der Nachfolger von n)",
-      "n + (m + 1) := (n + m)' (der Nachfolger von n + m)",
-      "n + 1 := n (die Addition mit 1 lässt n unverändert)",
-      "n + (m + 1) := (n + m) + m"
+      "$n + 1 := n'$ (der Nachfolger von $n$)",
+      "$n + (m + 1) := (n + m)'$ (der Nachfolger von $n + m$)",
+      "$n + 1 := n$ (die Addition mit 1 lässt $n$ unverändert)",
+      "$n + (m + 1) := (n + m) + m$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Additionsdefinition lautet: 1) n + 1 := n' (Nachfolger von n) und 2) n + (m + 1) := (n + m)' — rekursiv (schrittweise rückwärts) mit 1) bestimmbar. 📄 Quelle: skript02_liveolz, Folie 2 (S.2)",
+    "explanation": "Die Additionsdefinition lautet: 1) $n + 1 := n'$ (Nachfolger von $n$) und 2) $n + (m + 1) := (n + m)'$ — rekursiv (schrittweise rückwärts) mit 1) bestimmbar. 📄 Quelle: skript02_liveolz, Folie 2 (S.2)",
     "source": "skript02_liveolz, Folie 2 (S.2, Operationen (Vertiefung) – Addition)"
   },
   {
@@ -31941,11 +31941,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechnen Sie mit der Definition der Addition: 4 + 3 = ?",
+    "question": "Berechnen Sie mit der Definition der Addition: $4 + 3$ = ?",
     "answer": 7,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Schrittweise mit der Definition: 4 + 3 = 4 + (2 + 1) = (4 + 2)' = ((4 + 1)')' = ((4')')' = ((5)')' = (6)' = 7. 📄 Quelle: skript02_liveolz, Folie 2 (S.2)",
+    "explanation": "Schrittweise mit der Definition: $4 + 3 = 4 + (2 + 1) = (4 + 2)' = ((4 + 1)')' = ((4')')' = ((5)')' = (6)' = 7$. 📄 Quelle: skript02_liveolz, Folie 2 (S.2)",
     "source": "skript02_liveolz, Folie 2 (S.2, Operationen (Vertiefung) – Addition)"
   },
   {
@@ -31953,11 +31953,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechnen Sie mit der Definition der Addition: 3 + 4 = ?",
+    "question": "Berechnen Sie mit der Definition der Addition: $3 + 4$ = ?",
     "answer": 7,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Schrittweise mit der Definition: 3 + 4 = 3 + (3 + 1) = (3 + 3)' = … = (((3 + 1)')')' = (((3')')')' = ((4')')' = ((5)')' = (6)' = 7. 📄 Quelle: skript02_liveolz, Folie 2 (S.2)",
+    "explanation": "Schrittweise mit der Definition: $3 + 4 = 3 + (3 + 1) = (3 + 3)' = \\dots = (((3 + 1)')')' = (((3')')')' = ((4')')' = ((5)')' = (6)' = 7$. 📄 Quelle: skript02_liveolz, Folie 2 (S.2)",
     "source": "skript02_liveolz, Folie 2 (S.2, Operationen (Vertiefung) – Addition)"
   },
   {
@@ -31967,16 +31967,16 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Wie wird die Multiplikation für beliebige Natürliche Zahlen festgesetzt?",
     "options": [
-      "n · 1 := n (die Multiplikation mit 1)",
-      "n · (m + 1) := n · m + n (rekursiv)",
-      "n · 1 := n' (Nachfolger von n)",
-      "n · (m + 1) := n · m + m"
+      "$n \\cdot 1 := n$ (die Multiplikation mit 1)",
+      "$n \\cdot (m + 1) := n \\cdot m + n$ (rekursiv)",
+      "$n \\cdot 1 := n'$ (Nachfolger von $n$)",
+      "$n \\cdot (m + 1) := n \\cdot m + m$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Multiplikationsdefinition lautet: 1) n · 1 := n (Multiplikation mit 1) und 2) n · (m + 1) := n · m + n (rekursiv). 📄 Quelle: skript02_liveolz, Folie 3 (S.3)",
+    "explanation": "Die Multiplikationsdefinition lautet: 1) $n \\cdot 1 := n$ (Multiplikation mit 1) und 2) $n \\cdot (m + 1) := n \\cdot m + n$ (rekursiv). 📄 Quelle: skript02_liveolz, Folie 3 (S.3)",
     "source": "skript02_liveolz, Folie 3 (S.3, Operationen (Vertiefung) – Multiplikation)"
   },
   {
@@ -31984,11 +31984,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Berechnen Sie mit der Definition der Multiplikation: 4 · 3 = ?",
+    "question": "Berechnen Sie mit der Definition der Multiplikation: $4 \\cdot 3$ = ?",
     "answer": 12,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Schrittweise mit der Definition: 4 · 3 = 4 · (2 + 1) = 4 · 2 + 4 = 4 · (1 + 1) + 4 = 4 · 1 + 4 + 4 = 4 + 4 + 4 = 12. 📄 Quelle: skript02_liveolz, Folie 3 (S.3)",
+    "explanation": "Schrittweise mit der Definition: $4 \\cdot 3 = 4 \\cdot (2 + 1) = 4 \\cdot 2 + 4 = 4 \\cdot (1 + 1) + 4 = 4 \\cdot 1 + 4 + 4 = 4 + 4 + 4 = 12$. 📄 Quelle: skript02_liveolz, Folie 3 (S.3)",
     "source": "skript02_liveolz, Folie 3 (S.3, Operationen (Vertiefung) – Multiplikation)"
   },
   {
@@ -31996,11 +31996,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechnen Sie mit der Definition der Multiplikation: 2 · 5 = ?",
+    "question": "Berechnen Sie mit der Definition der Multiplikation: $2 \\cdot 5$ = ?",
     "answer": 10,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Nach der Multiplikationsdefinition ergibt sich 2 · 5 = 10 (Aufgabe (b) der Folie). 📄 Quelle: skript02_liveolz, Folie 3 (S.3)",
+    "explanation": "Nach der Multiplikationsdefinition ergibt sich $2 \\cdot 5 = 10$ (Aufgabe (b) der Folie). 📄 Quelle: skript02_liveolz, Folie 3 (S.3)",
     "source": "skript02_liveolz, Folie 3 (S.3, Operationen (Vertiefung) – Multiplikation)"
   },
   {
@@ -32008,7 +32008,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 2,
     "type": "multi",
-    "question": "Bei einer Definition (z. B. von n^m) unterscheidet man Definiendum und Definiens. Welche Zuordnungen sind richtig?",
+    "question": "Bei einer Definition (z. B. von $n^m$) unterscheidet man Definiendum und Definiens. Welche Zuordnungen sind richtig?",
     "options": [
       "Das Definiendum ist der neu zu definierende Begriff.",
       "Das Definiens sind die definierenden Eigenschaften.",
@@ -32028,17 +32028,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie wird die Potenz n^m inhaltlich definiert (Definiens)?",
+    "question": "Wie wird die Potenz $n^m$ inhaltlich definiert (Definiens)?",
     "options": [
-      "Die Zahl n wird m-fach mit sich selbst multipliziert.",
-      "Die Zahl n wird m-fach zu sich selbst addiert.",
-      "Die Zahl m wird n-fach mit sich selbst multipliziert.",
-      "Die Zahl n wird mit ihrem Nachfolger m multipliziert."
+      "Die Zahl $n$ wird $m$-fach mit sich selbst multipliziert.",
+      "Die Zahl $n$ wird $m$-fach zu sich selbst addiert.",
+      "Die Zahl $m$ wird $n$-fach mit sich selbst multipliziert.",
+      "Die Zahl $n$ wird mit ihrem Nachfolger $m$ multipliziert."
     ],
     "correct": [
       0
     ],
-    "explanation": "Laut Mitschrift: n^m ist die Potenz der beiden natürlichen Zahlen n und m; die Potenz einer Zahl ist die m-fache Multiplikation der Zahl n mit sich selbst — d. h. die Zahl n wird m-fach mit sich selbst multipliziert. 📄 Quelle: skript02_liveolz, Folie 4 (S.4)",
+    "explanation": "Laut Mitschrift: $n^m$ ist die Potenz der beiden natürlichen Zahlen $n$ und $m$; die Potenz einer Zahl ist die $m$-fache Multiplikation der Zahl $n$ mit sich selbst — d. h. die Zahl $n$ wird $m$-fach mit sich selbst multipliziert. 📄 Quelle: skript02_liveolz, Folie 4 (S.4)",
     "source": "skript02_liveolz, Folie 4 (S.4, Eine Definition von n^m)"
   },
   {
@@ -32046,11 +32046,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 1,
     "type": "numeric",
-    "question": "In der Entdeckung zum Potenzieren steht 2·2·2·2·2 = 2^m. Wie groß ist der Exponent m?",
+    "question": "In der Entdeckung zum Potenzieren steht $2 \\cdot 2 \\cdot 2 \\cdot 2 \\cdot 2 = 2^m$. Wie groß ist der Exponent $m$?",
     "answer": 5,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Das Beispiel der Mitschrift lautet 2·2·2·2·2 = 2^5; die Zahl 2 wird fünfmal mit sich selbst multipliziert, also m = 5. 📄 Quelle: skript02_liveolz, Folie 4 (S.4)",
+    "explanation": "Das Beispiel der Mitschrift lautet $2 \\cdot 2 \\cdot 2 \\cdot 2 \\cdot 2 = 2^5$; die Zahl 2 wird fünfmal mit sich selbst multipliziert, also $m = 5$. 📄 Quelle: skript02_liveolz, Folie 4 (S.4)",
     "source": "skript02_liveolz, Folie 4 (S.4, Eine Definition von n^m)"
   },
   {
@@ -33327,11 +33327,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "vollstaendige_induktion",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Vollständige Induktion: Berechne im Induktionsanfang (n=4) die linke Seite S_{4-3} = 1 + 4 + 10 + 20.",
+    "question": "Vollständige Induktion: Berechne im Induktionsanfang ($n=4$) die linke Seite $S_{4-3} = 1 + 4 + 10 + 20$.",
     "answer": 35,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Im Induktionsanfang bei n=4 ist die linke Seite S_1 = 1 + 4 + 10 + 20 = 35 (letzter Summand 4·5·6/6 = 20). 📄 Quelle: skript05_live, Folie 11 (S.1)",
+    "explanation": "Im Induktionsanfang bei $n=4$ ist die linke Seite $S_1 = 1 + 4 + 10 + 20 = 35$ (letzter Summand $\\frac{4 \\cdot 5 \\cdot 6}{6} = 20$). 📄 Quelle: skript05_live, Folie 11 (S.1)",
     "source": "skript05_live, Folie 11 (S.1, Arithmetik – Erkundung II vollständige Induktion)"
   },
   {
@@ -33339,11 +33339,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "vollstaendige_induktion",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Vollständige Induktion: Berechne im Induktionsanfang (n=4) die rechte Seite (4·5·6·7)/24.",
+    "question": "Vollständige Induktion: Berechne im Induktionsanfang ($n=4$) die rechte Seite $\\frac{4 \\cdot 5 \\cdot 6 \\cdot 7}{24}$.",
     "answer": 35,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die rechte Seite bei n=4 ist 4·(4+1)·(4+2)·(4+3)/24 = 4·5·6·7/24 = 840/24 = 35; sie stimmt mit der linken Seite (35) überein. 📄 Quelle: skript05_live, Folie 11 (S.1)",
+    "explanation": "Die rechte Seite bei $n=4$ ist $\\frac{4 \\cdot (4+1) \\cdot (4+2) \\cdot (4+3)}{24} = \\frac{4 \\cdot 5 \\cdot 6 \\cdot 7}{24} = \\frac{840}{24} = 35$; sie stimmt mit der linken Seite (35) überein. 📄 Quelle: skript05_live, Folie 11 (S.1)",
     "source": "skript05_live, Folie 11 (S.1, Arithmetik – Erkundung II vollständige Induktion)"
   },
   {
@@ -33351,19 +33351,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "vollstaendige_induktion",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Aussagen zum Induktionsbeweis der Summenformel für S_{n-3} sind korrekt?",
+    "question": "Welche Aussagen zum Induktionsbeweis der Summenformel für $S_{n-3}$ sind korrekt?",
     "options": [
-      "Die Aussage A(n) soll für alle natürlichen Zahlen n ≥ 4 gezeigt werden.",
-      "Der Induktionsanfang wird bei n = 4 geführt (wegen n ≥ 4).",
-      "Der Induktionsanfang wird bei n = 1 geführt.",
-      "Behauptet wird die geschlossene Form S_{n-3} = n·(n+1)·(n+2)·(n+3)/24."
+      "Die Aussage $A(n)$ soll für alle natürlichen Zahlen $n \\ge 4$ gezeigt werden.",
+      "Der Induktionsanfang wird bei $n = 4$ geführt (wegen $n \\ge 4$).",
+      "Der Induktionsanfang wird bei $n = 1$ geführt.",
+      "Behauptet wird die geschlossene Form $S_{n-3} = \\frac{n \\cdot (n+1) \\cdot (n+2) \\cdot (n+3)}{24}$."
     ],
     "correct": [
       0,
       1,
       3
     ],
-    "explanation": "Die Folie fordert 'Für alle natürlichen Zahlen n ≥ 4', daher startet der Induktionsanfang bei n = 4 (nicht bei n = 1), und behauptet wird S_{n-3} = n·(n+1)·(n+2)·(n+3)/24. 📄 Quelle: skript05_live, Folie 11 (S.1)",
+    "explanation": "Die Folie fordert 'Für alle natürlichen Zahlen $n \\ge 4$', daher startet der Induktionsanfang bei $n = 4$ (nicht bei $n = 1$), und behauptet wird $S_{n-3} = \\frac{n \\cdot (n+1) \\cdot (n+2) \\cdot (n+3)}{24}$. 📄 Quelle: skript05_live, Folie 11 (S.1)",
     "source": "skript05_live, Folie 11 (S.1, Arithmetik – Erkundung II vollständige Induktion)"
   },
   {
@@ -33371,17 +33371,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "vollstaendige_induktion",
     "difficulty": 1,
     "type": "single",
-    "question": "Wie lautet die behauptete geschlossene Form für S_{n-3} = 1 + 4 + 10 + 20 + … + n·(n+1)·(n+2)/6?",
+    "question": "Wie lautet die behauptete geschlossene Form für $S_{n-3} = 1 + 4 + 10 + 20 + \\dots + \\frac{n \\cdot (n+1) \\cdot (n+2)}{6}$?",
     "options": [
-      "n·(n+1)·(n+2)·(n+3)/24",
-      "n·(n+1)·(n+2)/6",
-      "n·(n+1)·(n+2)·(n+3)/6",
-      "n·(n+1)·(n+2)·(n+3)/12"
+      "$\\frac{n \\cdot (n+1) \\cdot (n+2) \\cdot (n+3)}{24}$",
+      "$\\frac{n \\cdot (n+1) \\cdot (n+2)}{6}$",
+      "$\\frac{n \\cdot (n+1) \\cdot (n+2) \\cdot (n+3)}{6}$",
+      "$\\frac{n \\cdot (n+1) \\cdot (n+2) \\cdot (n+3)}{12}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Aus der Voraussetzung S_{n-3} = 1 + 4 + 10 + 20 + ... + n·(n+1)·(n+2)/6 folgt die Behauptung S_{n-3} = n·(n+1)·(n+2)·(n+3)/24. 📄 Quelle: skript05_live, Folie 11 (S.1)",
+    "explanation": "Aus der Voraussetzung $S_{n-3} = 1 + 4 + 10 + 20 + \\dots + \\frac{n \\cdot (n+1) \\cdot (n+2)}{6}$ folgt die Behauptung $S_{n-3} = \\frac{n \\cdot (n+1) \\cdot (n+2) \\cdot (n+3)}{24}$. 📄 Quelle: skript05_live, Folie 11 (S.1)",
     "source": "skript05_live, Folie 11 (S.1, Arithmetik – Erkundung II vollständige Induktion)"
   },
   {
@@ -33389,11 +33389,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "beweismethoden",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechne für n = 5 den Wert n² + n + 41.",
+    "question": "Berechne für $n = 5$ den Wert $n^2 + n + 41$.",
     "answer": 71,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Für n = 5 ist 5² + 5 + 41 = 25 + 5 + 41 = 71 (Tabellenwert). 📄 Quelle: skript05_live, Folie 15 (S.2)",
+    "explanation": "Für $n = 5$ ist $5^2 + 5 + 41 = 25 + 5 + 41 = 71$ (Tabellenwert). 📄 Quelle: skript05_live, Folie 15 (S.2)",
     "source": "skript05_live, Folie 15 (S.2, Arithmetik – Muster, Vermutungen, Sätze und Beweise)"
   },
   {
@@ -33401,11 +33401,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "beweismethoden",
     "difficulty": 2,
     "type": "multi",
-    "question": "Zur Vermutung 'Wenn n eine natürliche Zahl ist, dann ist n² + n + 41 eine Primzahl' – welche Aussagen sind korrekt?",
+    "question": "Zur Vermutung 'Wenn n eine natürliche Zahl ist, dann ist $n^2 + n + 41$ eine Primzahl' – welche Aussagen sind korrekt?",
     "options": [
-      "Der Induktionsanfang n = 1 liefert 1² + 1 + 41 = 43, eine Primzahl.",
+      "Der Induktionsanfang $n = 1$ liefert $1^2 + 1 + 41 = 43$, eine Primzahl.",
       "Die Vermutung ist insgesamt falsch.",
-      "Als Gegenbeispiel dient 1763 = 41·43 (keine Primzahl).",
+      "Als Gegenbeispiel dient $1763 = 41 \\cdot 43$ (keine Primzahl).",
       "Der Induktionsschritt gelingt und beweist die Vermutung."
     ],
     "correct": [
@@ -33413,7 +33413,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Der Induktionsanfang n = 1 ergibt 43 (Primzahl), doch die Vermutung ist falsch ('Die Aussage ist ja falsch'); als Gegenbeispiel wird 1763 = 41·43 angeführt, ein zusammengesetzter Wert – ein vollständiger Induktionsbeweis gelingt daher nicht. 📄 Quelle: skript05_live, Folie 15 (S.2)",
+    "explanation": "Der Induktionsanfang $n = 1$ ergibt 43 (Primzahl), doch die Vermutung ist falsch ('Die Aussage ist ja falsch'); als Gegenbeispiel wird $1763 = 41 \\cdot 43$ angeführt, ein zusammengesetzter Wert – ein vollständiger Induktionsbeweis gelingt daher nicht. 📄 Quelle: skript05_live, Folie 15 (S.2)",
     "source": "skript05_live, Folie 15 (S.2, Arithmetik – Muster, Vermutungen, Sätze und Beweise)"
   },
   {
@@ -33421,11 +33421,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "beweismethoden",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Als Gegenbeispiel zur Primzahl-Vermutung (n² + n + 41): Berechne 40² + 3·40 + 43.",
+    "question": "Als Gegenbeispiel zur Primzahl-Vermutung ($n^2 + n + 41$): Berechne $40^2 + 3 \\cdot 40 + 43$.",
     "answer": 1763,
     "tolerance": 0,
     "unit": "",
-    "explanation": "40² + 3·40 + 43 = 1600 + 120 + 43 = 1763 = 41·43, also keine Primzahl – das Gegenbeispiel widerlegt die Vermutung. 📄 Quelle: skript05_live, Folie 15 (S.2)",
+    "explanation": "$40^2 + 3 \\cdot 40 + 43 = 1600 + 120 + 43 = 1763 = 41 \\cdot 43$, also keine Primzahl – das Gegenbeispiel widerlegt die Vermutung. 📄 Quelle: skript05_live, Folie 15 (S.2)",
     "source": "skript05_live, Folie 15 (S.2, Arithmetik – Muster, Vermutungen, Sätze und Beweise)"
   },
   {
@@ -33433,17 +33433,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeit_primzahlen",
     "difficulty": 1,
     "type": "single",
-    "question": "Wann gilt a | b (a teilt b)?",
+    "question": "Wann gilt $a \\mid b$ (a teilt b)?",
     "options": [
-      "Genau dann, wenn es eine natürliche Zahl x gibt mit a·x = b.",
-      "Genau dann, wenn es eine natürliche Zahl x gibt mit b·x = a.",
-      "Genau dann, wenn a·b = x für eine natürliche Zahl x gilt.",
-      "Genau dann, wenn a + x = b für eine natürliche Zahl x gilt."
+      "Genau dann, wenn es eine natürliche Zahl x gibt mit $a \\cdot x = b$.",
+      "Genau dann, wenn es eine natürliche Zahl x gibt mit $b \\cdot x = a$.",
+      "Genau dann, wenn $a \\cdot b = x$ für eine natürliche Zahl x gilt.",
+      "Genau dann, wenn $a + x = b$ für eine natürliche Zahl x gilt."
     ],
     "correct": [
       0
     ],
-    "explanation": "Laut Folie gilt: a | b genau dann, wenn es eine natürliche Zahl x gibt mit a·x = b. 📄 Quelle: skript05_live, Folie 18 (S.3)",
+    "explanation": "Laut Folie gilt: $a \\mid b$ genau dann, wenn es eine natürliche Zahl x gibt mit $a \\cdot x = b$. 📄 Quelle: skript05_live, Folie 18 (S.3)",
     "source": "skript05_live, Folie 18 (S.3, Arithmetik – Definition n-Quadratling)"
   },
   {
@@ -33453,7 +33453,7 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Bedingungen nennt Definition III eines n-Quadratlings?",
     "options": [
-      "Ein n-Quadratling besteht aus n vielen Quadraten mit n ≥ 2.",
+      "Ein n-Quadratling besteht aus n vielen Quadraten mit $n \\ge 2$.",
       "Die Quadrate müssen mindestens eine Seite vollständig teilen.",
       "Quadrate dürfen nicht über Eckpunkte miteinander verbunden sein.",
       "Die Quadrate dürfen unterschiedlich groß sein und nur über Eckpunkte verbunden sein."
@@ -33463,7 +33463,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Def III fordert: n viele Quadrate mit n ≥ 2, die mindestens eine (bzw. jede geteilte) Seite vollständig teilen, und die nicht über Eckpunkte verbunden sein dürfen. 📄 Quelle: skript05_live, Folie 18 (S.3)",
+    "explanation": "Def III fordert: n viele Quadrate mit $n \\ge 2$, die mindestens eine (bzw. jede geteilte) Seite vollständig teilen, und die nicht über Eckpunkte verbunden sein dürfen. 📄 Quelle: skript05_live, Folie 18 (S.3)",
     "source": "skript05_live, Folie 18 (S.3, Arithmetik – Definition n-Quadratling)"
   },
   {
@@ -33494,7 +33494,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 60,
     "tolerance": 0,
     "unit": "°",
-    "explanation": "Beim gleichseitigen Dreieck sind alle Winkel gleich groß: 60°. Sechs davon ergeben um einen Punkt 6·60° = 360°. 📄 Quelle: skript05_live, Folie 30 (S.5)",
+    "explanation": "Beim gleichseitigen Dreieck sind alle Winkel gleich groß: 60°. Sechs davon ergeben um einen Punkt $6 \\cdot 60^\\circ = 360^\\circ$. 📄 Quelle: skript05_live, Folie 30 (S.5)",
     "source": "skript05_live, Folie 30 (S.5, Arithmetik – Parkettierung)"
   },
   {
@@ -33506,7 +33506,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 6,
     "tolerance": 0,
     "unit": "",
-    "explanation": "6·60° = 360°, also treffen sich 6 gleichseitige Dreiecke lückenlos in einem Punkt. 📄 Quelle: skript05_live, Folie 30 (S.5)",
+    "explanation": "$6 \\cdot 60^\\circ = 360^\\circ$, also treffen sich 6 gleichseitige Dreiecke lückenlos in einem Punkt. 📄 Quelle: skript05_live, Folie 30 (S.5)",
     "source": "skript05_live, Folie 30 (S.5, Arithmetik – Parkettierung)"
   },
   {
@@ -33518,7 +33518,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 120,
     "tolerance": 0,
     "unit": "°",
-    "explanation": "Der Innenwinkel des regulären 6-Ecks ist 120°; 3·120° = 360°, daher parkettieren reguläre Sechsecke die Ebene. In einer Ecke treffen zwei Ecken zweier Dreiecke aufeinander: 2·60° = 120°. 📄 Quelle: skript05_live, Folie 30 (S.5)",
+    "explanation": "Der Innenwinkel des regulären 6-Ecks ist 120°; $3 \\cdot 120^\\circ = 360^\\circ$, daher parkettieren reguläre Sechsecke die Ebene. In einer Ecke treffen zwei Ecken zweier Dreiecke aufeinander: $2 \\cdot 60^\\circ = 120^\\circ$. 📄 Quelle: skript05_live, Folie 30 (S.5)",
     "source": "skript05_live, Folie 30 (S.5, Arithmetik – Parkettierung)"
   },
   {
@@ -33529,8 +33529,8 @@ const SAMPLE_QUESTIONS = [
     "question": "Welche Aussagen zur Parkettierung der Ebene mit regulären Polygonen sind korrekt?",
     "options": [
       "Ein reguläres Polygon hat gleiche Seitenlängen und gleiche Innenwinkel.",
-      "Mit gleichseitigen Dreiecken lässt sich die Ebene parkettieren (6·60° = 360°).",
-      "Mit regulären Sechsecken lässt sich die Ebene parkettieren (3·120° = 360°).",
+      "Mit gleichseitigen Dreiecken lässt sich die Ebene parkettieren ($6 \\cdot 60^\\circ = 360^\\circ$).",
+      "Mit regulären Sechsecken lässt sich die Ebene parkettieren ($3 \\cdot 120^\\circ = 360^\\circ$).",
       "Mit regulären Fünfecken lässt sich die Ebene parkettieren.",
       "Die Ebene lässt sich mit allen (allgemeinen) Dreiecken parkettieren."
     ],
@@ -33540,7 +33540,7 @@ const SAMPLE_QUESTIONS = [
       2,
       4
     ],
-    "explanation": "Reguläre Polygone haben gleiche Seitenlängen und gleiche Innenwinkel; gleichseitige Dreiecke (6·60°=360°) und reguläre Sechsecke (3·120°=360°) parkettieren, ebenso alle allgemeinen Dreiecke ('Es geht mit allen Dreiecken'). Reguläre Fünfecke werden auf der Folie nicht als parkettierend genannt. 📄 Quelle: skript05_live, Folie 30 (S.5)",
+    "explanation": "Reguläre Polygone haben gleiche Seitenlängen und gleiche Innenwinkel; gleichseitige Dreiecke ($6 \\cdot 60^\\circ = 360^\\circ$) und reguläre Sechsecke ($3 \\cdot 120^\\circ = 360^\\circ$) parkettieren, ebenso alle allgemeinen Dreiecke ('Es geht mit allen Dreiecken'). Reguläre Fünfecke werden auf der Folie nicht als parkettierend genannt. 📄 Quelle: skript05_live, Folie 30 (S.5)",
     "source": "skript05_live, Folie 30 (S.5, Arithmetik – Parkettierung)"
   },
   {
@@ -33978,17 +33978,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Mit welchen regulären (regelmäßigen) Polygonen kann die Ebene parkettiert werden?",
     "options": [
-      "gleichseitiges Dreieck (6·60° = 360°)",
-      "Quadrat (4·90° = 360°)",
-      "regelmäßiges Sechseck (3·120° = 360°)",
-      "regelmäßiges Fünfeck (3·108° = 360°)"
+      "gleichseitiges Dreieck ($6 \\cdot 60° = 360°$)",
+      "Quadrat ($4 \\cdot 90° = 360°$)",
+      "regelmäßiges Sechseck ($3 \\cdot 120° = 360°$)",
+      "regelmäßiges Fünfeck ($3 \\cdot 108° = 360°$)"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Bei gleichseitigem Dreieck (6·60°=360°), Quadrat (4·90°=360°) und regelmäßigem Sechseck (3·120°=360°) ergänzen sich die Innenwinkel an einer Ecke genau zu 360°. Beim regelmäßigen Fünfeck gilt 3·108° = 324° ≠ 360°, daher ist eine Parkettierung nicht möglich. 📄 Quelle: skript06_live, Folie 5 (S.1)",
+    "explanation": "Bei gleichseitigem Dreieck ($6 \\cdot 60°=360°$), Quadrat ($4 \\cdot 90°=360°$) und regelmäßigem Sechseck ($3 \\cdot 120°=360°$) ergänzen sich die Innenwinkel an einer Ecke genau zu 360°. Beim regelmäßigen Fünfeck gilt $3 \\cdot 108° = 324° \\ne 360°$, daher ist eine Parkettierung nicht möglich. 📄 Quelle: skript06_live, Folie 5 (S.1)",
     "source": "skript06_live, Folie 5 (S.1, Arithmetik – Parkettierung)"
   },
   {
@@ -34000,7 +34000,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 120,
     "tolerance": 0,
     "unit": "°",
-    "explanation": "Auf der Folie steht: 'Innenwinkel vom 6-Eck ist 120°', und 3·120° = 360°. Zusätzlich wird begründet, dass in einer Ecke des reg. 6-Ecks zwei Ecken von 2 Dreiecken aufeinandertreffen (2·60° = 120°). 📄 Quelle: skript06_live, Folie 5 (S.1)",
+    "explanation": "Auf der Folie steht: 'Innenwinkel vom 6-Eck ist 120°', und $3 \\cdot 120° = 360°$. Zusätzlich wird begründet, dass in einer Ecke des reg. 6-Ecks zwei Ecken von 2 Dreiecken aufeinandertreffen ($2 \\cdot 60° = 120°$). 📄 Quelle: skript06_live, Folie 5 (S.1)",
     "source": "skript06_live, Folie 5 (S.1, Arithmetik – Parkettierung)"
   },
   {
@@ -34012,7 +34012,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 540,
     "tolerance": 0,
     "unit": "°",
-    "explanation": "Ein Fünfeck lässt sich in 3 Dreiecke zerlegen (n Δe → (n+2)-Eck), daher Innenwinkelsumme = 3·Innenwinkelsumme eines Dreiecks = 3·180° = 540°. Jeder Innenwinkel ist somit 540°:5 = 108°. 📄 Quelle: skript06_live, Folie 5 (S.1)",
+    "explanation": "Ein Fünfeck lässt sich in 3 Dreiecke zerlegen ($n$ Δe $\\to (n+2)$-Eck), daher Innenwinkelsumme $= 3 \\cdot$ Innenwinkelsumme eines Dreiecks $= 3 \\cdot 180° = 540°$. Jeder Innenwinkel ist somit $540° : 5 = 108°$. 📄 Quelle: skript06_live, Folie 5 (S.1)",
     "source": "skript06_live, Folie 5 (S.1, Arithmetik – Parkettierung)"
   },
   {
@@ -34032,7 +34032,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Die Folie hält fest: 'Es geht mit allen Dreiecken'; Rechtecke und Parallelogramme parkettieren (Innenwinkelsumme 360°); mit regelmäßigen Fünfecken ist eine Parkettierung nicht möglich (3·108°=324°), aber mit bestimmten unregelmäßigen 5-Ecken geht es. 📄 Quelle: skript06_live, Folie 5 (S.1)",
+    "explanation": "Die Folie hält fest: 'Es geht mit allen Dreiecken'; Rechtecke und Parallelogramme parkettieren (Innenwinkelsumme 360°); mit regelmäßigen Fünfecken ist eine Parkettierung nicht möglich ($3 \\cdot 108°=324°$), aber mit bestimmten unregelmäßigen 5-Ecken geht es. 📄 Quelle: skript06_live, Folie 5 (S.1)",
     "source": "skript06_live, Folie 5 (S.1, Arithmetik – Parkettierung)"
   },
   {
@@ -34078,11 +34078,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "parkettierung_winkel",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Wie viele (nach Definition nicht gleiche) Kombinationsmöglichkeiten für die unterschiedlichen Rechtecke ergibt der systematische Aufschrieb (1+2+3+4+5+6+7)?",
+    "question": "Wie viele (nach Definition nicht gleiche) Kombinationsmöglichkeiten für die unterschiedlichen Rechtecke ergibt der systematische Aufschrieb ($1+2+3+4+5+6+7$)?",
     "answer": 28,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Im systematischen Aufschrieb ergibt sich die Anzahl als 1+2+3+4+5+6+7 = 28 = 7·8/2. 📄 Quelle: skript06_live, Folie 25 (S.2)",
+    "explanation": "Im systematischen Aufschrieb ergibt sich die Anzahl als $1+2+3+4+5+6+7 = 28 = \\frac{7 \\cdot 8}{2}$. 📄 Quelle: skript06_live, Folie 25 (S.2)",
     "source": "skript06_live, Folie 25 (S.2, Erkundung II – Systematischer Aufschrieb, Vorlesung 6)"
   },
   {
@@ -34090,10 +34090,10 @@ const SAMPLE_QUESTIONS = [
     "topic": "parkettierung_winkel",
     "difficulty": 3,
     "type": "multi",
-    "question": "Warum wird im systematischen Aufschrieb die Summe 1+2+3+4+5+6+7 (statt aller 7·7 Felder) gebildet?",
+    "question": "Warum wird im systematischen Aufschrieb die Summe $1+2+3+4+5+6+7$ (statt aller $7 \\cdot 7$ Felder) gebildet?",
     "options": [
       "Weil in den weggelassenen Feldern nur zu bereits existierenden Rechtecken kongruente (paarweise kongruente) Rechtecke lägen.",
-      "Weil die Summe sich als 7·8/2 = 28 schreiben lässt (Dreiecksschema).",
+      "Weil die Summe sich als $\\frac{7 \\cdot 8}{2} = 28$ schreiben lässt (Dreiecksschema).",
       "Weil jedes Rechteck mit sich selbst kombiniert werden muss.",
       "Weil die Rechtecke keine Teilquadrate besitzen."
     ],
@@ -34101,7 +34101,7 @@ const SAMPLE_QUESTIONS = [
       0,
       1
     ],
-    "explanation": "Handschriftlich vermerkt: 'hier würden nur zu bereits existierenden Rechtecken kongruente Rechtecke liegen (paarweise kongruent)'. Daher wird nur das Dreiecksschema gezählt: 1+2+3+4+5+6+7 = 28 = 7·8/2. 📄 Quelle: skript06_live, Folie 25 (S.2)",
+    "explanation": "Handschriftlich vermerkt: 'hier würden nur zu bereits existierenden Rechtecken kongruente Rechtecke liegen (paarweise kongruent)'. Daher wird nur das Dreiecksschema gezählt: $1+2+3+4+5+6+7 = 28 = \\frac{7 \\cdot 8}{2}$. 📄 Quelle: skript06_live, Folie 25 (S.2)",
     "source": "skript06_live, Folie 25 (S.2, Erkundung II – Systematischer Aufschrieb, Vorlesung 6)"
   },
   {
@@ -34433,11 +34433,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "flaecheninhalte",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Ein Rechteck mit Flächeninhalt A(F_R) = 24 cm² soll in ein Quadrat verwandelt werden. Aus dem Ansatz 24 = p·q mit q = 6 cm folgt für p welcher Wert?",
+    "question": "Ein Rechteck mit Flächeninhalt $A(F_R) = 24$ cm² soll in ein Quadrat verwandelt werden. Aus dem Ansatz $24 = p \\cdot q$ mit $q = 6$ cm folgt für $p$ welcher Wert?",
     "answer": 4,
     "tolerance": 0,
     "unit": "cm",
-    "explanation": "Aus 24 = p·q mit q = 6 cm folgt p = 24/6 = 4 cm. 📄 Quelle: skript08_live, Folie 12 (S.1)",
+    "explanation": "Aus $24 = p \\cdot q$ mit $q = 6$ cm folgt $p = \\frac{24}{6} = 4$ cm. 📄 Quelle: skript08_live, Folie 12 (S.1)",
     "source": "skript08_live, Folie 12 (S.1, Flächeninhalte bei den Griechen)"
   },
   {
@@ -34445,11 +34445,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "pythagoras",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Beim Höhensatz-Verfahren gilt p + q = c (Hypotenuse). Mit p = 4 cm und q = 6 cm: Wie lang ist die Hypotenuse c?",
+    "question": "Beim Höhensatz-Verfahren gilt $p + q = c$ (Hypotenuse). Mit $p = 4$ cm und $q = 6$ cm: Wie lang ist die Hypotenuse $c$?",
     "answer": 10,
     "tolerance": 0,
     "unit": "cm",
-    "explanation": "c = p + q = 4 cm + 6 cm = 10 cm. 📄 Quelle: skript08_live, Folie 12 (S.1)",
+    "explanation": "$c = p + q$ = 4 cm + 6 cm = 10 cm. 📄 Quelle: skript08_live, Folie 12 (S.1)",
     "source": "skript08_live, Folie 12 (S.1, Flächeninhalte bei den Griechen)"
   },
   {
@@ -34457,18 +34457,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "pythagoras",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Aussagen entsprechen dem Höhensatz (mit Höhe h_c und den Hypotenusenabschnitten p, q)?",
+    "question": "Welche Aussagen entsprechen dem Höhensatz (mit Höhe $h_c$ und den Hypotenusenabschnitten $p$, $q$)?",
     "options": [
-      "h_c · h_c = p · q",
-      "p + q = c, und h_c teilt c in p und q",
-      "a² = p · c",
-      "h_c = p + q"
+      "$h_c \\cdot h_c = p \\cdot q$",
+      "$p + q = c$, und $h_c$ teilt $c$ in $p$ und $q$",
+      "$a^2 = p \\cdot c$",
+      "$h_c = p + q$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Auf der Folie steht der Höhensatz h_c·h_c = p·q sowie p+q = c und dass h_c die Hypotenuse c in p und q teilt. a² = p·c ist der Kathetensatz (falsch hier), h_c = p+q ist falsch. 📄 Quelle: skript08_live, Folie 12 (S.1)",
+    "explanation": "Auf der Folie steht der Höhensatz $h_c \\cdot h_c = p \\cdot q$ sowie $p + q = c$ und dass $h_c$ die Hypotenuse $c$ in $p$ und $q$ teilt. $a^2 = p \\cdot c$ ist der Kathetensatz (falsch hier), $h_c = p + q$ ist falsch. 📄 Quelle: skript08_live, Folie 12 (S.1)",
     "source": "skript08_live, Folie 12 (S.1, Flächeninhalte bei den Griechen)"
   },
   {
@@ -34476,11 +34476,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "konstruktionen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Schritte gehören zum Konstruktionsprotokoll der Höhensatz-Konstruktion (Verwandlung Rechteck → Quadrat, mit c = 10 cm, p = 4 cm, q = 6 cm)?",
+    "question": "Welche Schritte gehören zum Konstruktionsprotokoll der Höhensatz-Konstruktion (Verwandlung Rechteck → Quadrat, mit $c = 10$ cm, $p = 4$ cm, $q = 6$ cm)?",
     "options": [
-      "Konstruiere c = AB = 10 cm mit den Abschnitten q = 6 cm und p = 4 cm",
-      "Konstruiere den Thaleskreis mit Mittelpunkt M_AB und Radius |AM_AB| = 5 cm",
-      "Der Schnittpunkt von Thaleskreis und der Höhe h_c ist der Punkt C des rechtwinkligen Dreiecks",
+      "Konstruiere $c = AB = 10$ cm mit den Abschnitten $q = 6$ cm und $p = 4$ cm",
+      "Konstruiere den Thaleskreis mit Mittelpunkt $M_{AB}$ und Radius $|AM_{AB}| = 5$ cm",
+      "Der Schnittpunkt von Thaleskreis und der Höhe $h_c$ ist der Punkt $C$ des rechtwinkligen Dreiecks",
       "Der Radius des Thaleskreises beträgt 10 cm"
     ],
     "correct": [
@@ -34488,7 +34488,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Laut Konstruktionsprotokoll: c = AB = 10 cm mit q = 6 cm und p = 4 cm; Thaleskreis mit Mittelpunkt M_AB und Radius |AM_AB| = |BM_AB| = 5 cm; Schnittpunkt von Thaleskreis und Höhe h_c ist C. Der Radius ist 5 cm, nicht 10 cm. 📄 Quelle: skript08_live, Folie 12 (S.1)",
+    "explanation": "Laut Konstruktionsprotokoll: $c = AB = 10$ cm mit $q = 6$ cm und $p = 4$ cm; Thaleskreis mit Mittelpunkt $M_{AB}$ und Radius $|AM_{AB}| = |BM_{AB}| = 5$ cm; Schnittpunkt von Thaleskreis und Höhe $h_c$ ist $C$. Der Radius ist 5 cm, nicht 10 cm. 📄 Quelle: skript08_live, Folie 12 (S.1)",
     "source": "skript08_live, Folie 12 (S.1, Flächeninhalte bei den Griechen)"
   },
   {
@@ -34496,19 +34496,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "pythagoras",
     "difficulty": 2,
     "type": "multi",
-    "question": "In Schritt 7 wird der Höhensatz angewendet: Wenn ABC rechtwinklig ist, dann gilt h_c·h_c = p·q. Wie werden die beiden Seiten dieser Gleichung auf der Mitschrift gedeutet?",
+    "question": "In Schritt 7 wird der Höhensatz angewendet: Wenn $ABC$ rechtwinklig ist, dann gilt $h_c \\cdot h_c = p \\cdot q$. Wie werden die beiden Seiten dieser Gleichung auf der Mitschrift gedeutet?",
     "options": [
-      "h_c · h_c ist das gesuchte Quadrat",
-      "p · q ist das gegebene Rechteck",
-      "Die Beziehung gilt nur, wenn ABC rechtwinklig ist",
-      "Die Beziehung gilt für jedes beliebige Dreieck ABC"
+      "$h_c \\cdot h_c$ ist das gesuchte Quadrat",
+      "$p \\cdot q$ ist das gegebene Rechteck",
+      "Die Beziehung gilt nur, wenn $ABC$ rechtwinklig ist",
+      "Die Beziehung gilt für jedes beliebige Dreieck $ABC$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "In der Mitschrift ist h_c·h_c als 'gesuchtes Quadrat' und p·q als 'unser gegebenes Rechteck' bezeichnet; Voraussetzung ist, dass ABC rechtwinklig (⊾) ist. 📄 Quelle: skript08_live, Folie 12 (S.2)",
+    "explanation": "In der Mitschrift ist $h_c \\cdot h_c$ als 'gesuchtes Quadrat' und $p \\cdot q$ als 'unser gegebenes Rechteck' bezeichnet; Voraussetzung ist, dass $ABC$ rechtwinklig (⊾) ist. 📄 Quelle: skript08_live, Folie 12 (S.2)",
     "source": "skript08_live, Folie 12 (S.2, Flächeninhalte bei den Griechen)"
   },
   {
@@ -34516,19 +34516,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "konstruktionen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Konstruktion des Quadrats (Schritt 8): Man trägt mit dem Zirkel die Länge PC (der Höhe h_c) ab. Welche Angaben sind korrekt?",
+    "question": "Konstruktion des Quadrats (Schritt 8): Man trägt mit dem Zirkel die Länge $PC$ (der Höhe $h_c$) ab. Welche Angaben sind korrekt?",
     "options": [
-      "Schlage den Kreis um Punkt P und erhalte Punkt R",
-      "Schlage den Kreis um Punkt C und um Punkt R; der Schnittpunkt ergibt Punkt S",
-      "Die mit dem Zirkel abgetragene Länge ist die Höhe h_c (= Strecke PC)",
-      "Die abgetragene Länge ist die Hypotenuse c = 10 cm"
+      "Schlage den Kreis um Punkt $P$ und erhalte Punkt $R$",
+      "Schlage den Kreis um Punkt $C$ und um Punkt $R$; der Schnittpunkt ergibt Punkt $S$",
+      "Die mit dem Zirkel abgetragene Länge ist die Höhe $h_c$ (= Strecke $PC$)",
+      "Die abgetragene Länge ist die Hypotenuse $c = 10$ cm"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Schritt 8: Länge PC (= h_c) abtragen; Kreis um P → Punkt R; Kreis um C und um R → Schnittpunkt = Punkt S. Abgetragen wird die Höhe h_c, nicht die Hypotenuse c. 📄 Quelle: skript08_live, Folie 12 (S.2)",
+    "explanation": "Schritt 8: Länge $PC$ (= $h_c$) abtragen; Kreis um $P$ → Punkt $R$; Kreis um $C$ und um $R$ → Schnittpunkt = Punkt $S$. Abgetragen wird die Höhe $h_c$, nicht die Hypotenuse $c$. 📄 Quelle: skript08_live, Folie 12 (S.2)",
     "source": "skript08_live, Folie 12 (S.2, Flächeninhalte bei den Griechen)"
   },
   {
@@ -34536,11 +34536,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "flaecheninhalte",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Ein Quadrat mit A(F_Q) = 36 cm² soll in ein Rechteck der Länge 3 cm verwandelt werden. Welche Seitenlänge hat das gegebene Quadrat (36 = 6·6)?",
+    "question": "Ein Quadrat mit $A(F_Q) = 36$ cm² soll in ein Rechteck der Länge 3 cm verwandelt werden. Welche Seitenlänge hat das gegebene Quadrat ($36 = 6 \\cdot 6$)?",
     "answer": 6,
     "tolerance": 0,
     "unit": "cm",
-    "explanation": "36 cm² = 6·6, d. h. das Quadrat hat die Seitenlänge 6 cm. 📄 Quelle: skript08_live, Folie 13 (S.3)",
+    "explanation": "36 cm² $= 6 \\cdot 6$, d. h. das Quadrat hat die Seitenlänge 6 cm. 📄 Quelle: skript08_live, Folie 13 (S.3)",
     "source": "skript08_live, Folie 13 (S.3, Flächeninhalte bei den Griechen)"
   },
   {
@@ -34568,17 +34568,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Schritte gehören zum Konstruktionsprotokoll der Kathetensatz-Konstruktion (Quadrat → Rechteck der Länge 3 cm)?",
     "options": [
-      "Zeichne den Thaleskreis über BC durch M_BC",
-      "Zeichne einen Kreis durch B mit Radius 3 cm",
-      "P = Schnittpunkt von Thaleskreis (TK) und K_3(B)",
-      "Zeichne einen Kreis durch B mit Radius 6 cm"
+      "Zeichne den Thaleskreis über $BC$ durch $M_{BC}$",
+      "Zeichne einen Kreis durch $B$ mit Radius 3 cm",
+      "$P$ = Schnittpunkt von Thaleskreis (TK) und $K_3(B)$",
+      "Zeichne einen Kreis durch $B$ mit Radius 6 cm"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Protokoll b): 1) Thaleskreis über BC durch M_BC, 2) Kreis durch B mit Radius 3 cm, 3) P = SP von TK und K_3(B), außerdem h_c = PC. Der Kreis um B hat Radius 3 cm (nicht 6 cm). 📄 Quelle: skript08_live, Folie 13 (S.3)",
+    "explanation": "Protokoll b): 1) Thaleskreis über $BC$ durch $M_{BC}$, 2) Kreis durch $B$ mit Radius 3 cm, 3) $P$ = SP von TK und $K_3(B)$, außerdem $h_c = PC$. Der Kreis um $B$ hat Radius 3 cm (nicht 6 cm). 📄 Quelle: skript08_live, Folie 13 (S.3)",
     "source": "skript08_live, Folie 13 (S.3, Flächeninhalte bei den Griechen)"
   },
   {
@@ -34586,19 +34586,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "pythagoras",
     "difficulty": 2,
     "type": "multi",
-    "question": "Kathetensatz: ABC ist ein rechtwinkliges Dreieck und h_c teilt AB in p und q, so dass c = p + q. Welche Aussagen sind korrekt?",
+    "question": "Kathetensatz: $ABC$ ist ein rechtwinkliges Dreieck und $h_c$ teilt $AB$ in $p$ und $q$, so dass $c = p + q$. Welche Aussagen sind korrekt?",
     "options": [
-      "a² = p · c",
-      "Voraussetzung ist, dass ABC ein rechtwinkliges Dreieck ist",
-      "c = p + q",
-      "a² = h_c · c"
+      "$a^2 = p \\cdot c$",
+      "Voraussetzung ist, dass $ABC$ ein rechtwinkliges Dreieck ist",
+      "$c = p + q$",
+      "$a^2 = h_c \\cdot c$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Kathetensatz laut Mitschrift: für das rechtwinklige Dreieck ABC mit c = p + q gilt a² = p·c. a² = h_c·c ist falsch. 📄 Quelle: skript08_live, Folie 13 (S.4)",
+    "explanation": "Kathetensatz laut Mitschrift: für das rechtwinklige Dreieck $ABC$ mit $c = p + q$ gilt $a^2 = p \\cdot c$. $a^2 = h_c \\cdot c$ ist falsch. 📄 Quelle: skript08_live, Folie 13 (S.4)",
     "source": "skript08_live, Folie 13 (S.4, Flächeninhalte bei den Griechen)"
   },
   {
@@ -34606,11 +34606,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "konstruktionen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Letzter Konstruktionsschritt der Quadrat-in-Rechteck-Verwandlung (Rechteck p·c): Welche Aussagen sind korrekt?",
+    "question": "Letzter Konstruktionsschritt der Quadrat-in-Rechteck-Verwandlung (Rechteck $p \\cdot c$): Welche Aussagen sind korrekt?",
     "options": [
-      "Man trägt die Länge von c ab und schlägt den Kreis um P und um B mit Radius c",
-      "K_3(R) ∩ K_c(B) = S",
-      "Man erhält das Rechteck PBRS mit demselben Flächeninhalt (36 cm²) wie das gegebene Quadrat",
+      "Man trägt die Länge von $c$ ab und schlägt den Kreis um $P$ und um $B$ mit Radius $c$",
+      "$K_3(R) \\cap K_c(B) = S$",
+      "Man erhält das Rechteck $PBRS$ mit demselben Flächeninhalt (36 cm²) wie das gegebene Quadrat",
       "Das entstehende Rechteck hat den Flächeninhalt 18 cm²"
     ],
     "correct": [
@@ -34618,7 +34618,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Konstruktion: Länge c abtragen, Kreise um P und um B mit Radius c; über K_3(R) ∩ K_c(B) = S erhält man das Rechteck PBRS mit gleichem Flächeninhalt 36 cm² wie das gegebene Quadrat. 📄 Quelle: skript08_live, Folie 13 (S.4)",
+    "explanation": "Konstruktion: Länge $c$ abtragen, Kreise um $P$ und um $B$ mit Radius $c$; über $K_3(R) \\cap K_c(B) = S$ erhält man das Rechteck $PBRS$ mit gleichem Flächeninhalt 36 cm² wie das gegebene Quadrat. 📄 Quelle: skript08_live, Folie 13 (S.4)",
     "source": "skript08_live, Folie 13 (S.4, Flächeninhalte bei den Griechen)"
   },
   {
@@ -34626,18 +34626,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 2,
     "type": "multi",
-    "question": "Die Aussage A ⟺ B ('A genau dann, wenn B') ist genau dann wahr, wenn welche Bedingungen gelten?",
+    "question": "Die Aussage $A \\Leftrightarrow B$ ('A genau dann, wenn B') ist genau dann wahr, wenn welche Bedingungen gelten?",
     "options": [
-      "(A ⟹ B) ∧ (B ⟹ A) gilt",
+      "$(A \\Rightarrow B) \\land (B \\Rightarrow A)$ gilt",
       "A und B die gleichen Wahrheitswerte haben",
       "A wahr und B falsch ist",
-      "ausschließlich A ⟹ B gilt"
+      "ausschließlich $A \\Rightarrow B$ gilt"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Laut Folie ist A ⟺ B genau dann wahr, wenn 'wenn A dann B und wenn B dann A' gilt, also (A ⟹ B) ∧ (B ⟹ A); handschriftlich ergänzt: wenn A und B die gleichen Wahrheitswerte haben. 📄 Quelle: skript08_mit, Folie 22 (S.1)",
+    "explanation": "Laut Folie ist $A \\Leftrightarrow B$ genau dann wahr, wenn 'wenn A dann B und wenn B dann A' gilt, also $(A \\Rightarrow B) \\land (B \\Rightarrow A)$; handschriftlich ergänzt: wenn A und B die gleichen Wahrheitswerte haben. 📄 Quelle: skript08_mit, Folie 22 (S.1)",
     "source": "skript08_mit, Folie 22 (S.1, Arithmetik)"
   },
   {
@@ -34645,7 +34645,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 2,
     "type": "multi",
-    "question": "In welchen Zeilen der Wahrheitstafel ist A ⟺ B wahr?",
+    "question": "In welchen Zeilen der Wahrheitstafel ist $A \\Leftrightarrow B$ wahr?",
     "options": [
       "A = w, B = w",
       "A = w, B = f",
@@ -34656,7 +34656,7 @@ const SAMPLE_QUESTIONS = [
       0,
       3
     ],
-    "explanation": "In der Wahrheitstafel ist A ⟺ B nur dann wahr, wenn A und B denselben Wahrheitswert haben: w/w → w und f/f → w; bei w/f und f/w ist A ⟺ B falsch. 📄 Quelle: skript08_mit, Folie 22 (S.1)",
+    "explanation": "In der Wahrheitstafel ist $A \\Leftrightarrow B$ nur dann wahr, wenn A und B denselben Wahrheitswert haben: w/w → w und f/f → w; bei w/f und f/w ist $A \\Leftrightarrow B$ falsch. 📄 Quelle: skript08_mit, Folie 22 (S.1)",
     "source": "skript08_mit, Folie 22 (S.1, Arithmetik)"
   },
   {
@@ -34664,7 +34664,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 2,
     "type": "single",
-    "question": "In welcher Zeile der Wahrheitstafel ist A ⟹ B falsch?",
+    "question": "In welcher Zeile der Wahrheitstafel ist $A \\Rightarrow B$ falsch?",
     "options": [
       "A = w, B = w",
       "A = w, B = f",
@@ -34674,7 +34674,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       1
     ],
-    "explanation": "Laut Wahrheitstafel ist A ⟹ B nur in der Zeile A = w, B = f falsch; in allen anderen Zeilen (w/w, f/w, f/f) ist A ⟹ B wahr. 📄 Quelle: skript08_mit, Folie 22 (S.1)",
+    "explanation": "Laut Wahrheitstafel ist $A \\Rightarrow B$ nur in der Zeile A = w, B = f falsch; in allen anderen Zeilen (w/w, f/w, f/f) ist $A \\Rightarrow B$ wahr. 📄 Quelle: skript08_mit, Folie 22 (S.1)",
     "source": "skript08_mit, Folie 22 (S.1, Arithmetik)"
   },
   {
@@ -34682,17 +34682,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "de_morgan_verneinung",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lautet die Verneinung ¬(A ⟹ B)?",
+    "question": "Wie lautet die Verneinung $\\lnot(A \\Rightarrow B)$?",
     "options": [
-      "A ∧ ¬B",
-      "¬A ∨ B",
-      "¬A ∧ B",
-      "A ∨ ¬B"
+      "$A \\land \\lnot B$",
+      "$\\lnot A \\lor B$",
+      "$\\lnot A \\land B$",
+      "$A \\lor \\lnot B$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie: A ⟹ B ≡ ¬A ∨ B, daher ¬(A ⟹ B) = ¬(¬A ∨ B) = A ∧ ¬B. 📄 Quelle: skript08_mit, Folie 41 (S.2)",
+    "explanation": "Auf der Folie: $A \\Rightarrow B \\equiv \\lnot A \\lor B$, daher $\\lnot(A \\Rightarrow B) = \\lnot(\\lnot A \\lor B) = A \\land \\lnot B$. 📄 Quelle: skript08_mit, Folie 41 (S.2)",
     "source": "skript08_mit, Folie 41 (S.2, Arithmetik)"
   },
   {
@@ -34700,17 +34700,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "de_morgan_verneinung",
     "difficulty": 1,
     "type": "single",
-    "question": "Zu welchem Ausdruck ist die Implikation A ⟹ B äquivalent?",
+    "question": "Zu welchem Ausdruck ist die Implikation $A \\Rightarrow B$ äquivalent?",
     "options": [
-      "¬A ∨ B",
-      "A ∧ ¬B",
-      "A ∨ B",
-      "¬A ∧ ¬B"
+      "$\\lnot A \\lor B$",
+      "$A \\land \\lnot B$",
+      "$A \\lor B$",
+      "$\\lnot A \\land \\lnot B$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie steht A ⟹ B = ¬A ∨ B. 📄 Quelle: skript08_mit, Folie 41 (S.2)",
+    "explanation": "Auf der Folie steht $A \\Rightarrow B = \\lnot A \\lor B$. 📄 Quelle: skript08_mit, Folie 41 (S.2)",
     "source": "skript08_mit, Folie 41 (S.2, Arithmetik)"
   },
   {
@@ -34736,7 +34736,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "beweismethoden",
     "difficulty": 1,
     "type": "multi",
-    "question": "Im Satz 'Wenn die Sonne scheint, dann gehe ich joggen' (A ⟹ B): Welche Zuordnungen von A und B sind korrekt?",
+    "question": "Im Satz 'Wenn die Sonne scheint, dann gehe ich joggen' ($A \\Rightarrow B$): Welche Zuordnungen von A und B sind korrekt?",
     "options": [
       "A: Die Sonne scheint",
       "B: Ich gehe joggen",
@@ -34755,17 +34755,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "beweismethoden",
     "difficulty": 1,
     "type": "single",
-    "question": "Zu welchem gleichwertigen Ausdruck ist die Implikation A ⟹ B äquivalent?",
+    "question": "Zu welchem gleichwertigen Ausdruck ist die Implikation $A \\Rightarrow B$ äquivalent?",
     "options": [
-      "¬A ∨ B",
-      "A ∧ ¬B",
-      "¬A ∧ B",
-      "A ∨ B"
+      "$\\lnot A \\lor B$",
+      "$A \\land \\lnot B$",
+      "$\\lnot A \\land B$",
+      "$A \\lor B$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie steht A ⟹ B = ¬A ∨ B. 📄 Quelle: skript08_mit, Folie 36 (S.3)",
+    "explanation": "Auf der Folie steht $A \\Rightarrow B = \\lnot A \\lor B$. 📄 Quelle: skript08_mit, Folie 36 (S.3)",
     "source": "skript08_mit, Folie 36 (S.3, Arithmetik)"
   },
   {
@@ -34775,15 +34775,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Zu welchem Ausdruck ist die Verneinung „Nicht(Wenn A, dann B)“ gleich?",
     "options": [
-      "¬(¬A ∨ B) = A ∧ ¬B",
-      "¬A ∨ B",
-      "¬A ∧ ¬B",
-      "A ∨ ¬B"
+      "$\\lnot(\\lnot A \\lor B) = A \\land \\lnot B$",
+      "$\\lnot A \\lor B$",
+      "$\\lnot A \\land \\lnot B$",
+      "$A \\lor \\lnot B$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie zeigt: Nicht(A ⟹ B) ist gleich zu ¬(¬A ∨ B) = A ∧ ¬B. 📄 Quelle: skript08_mit, Folie 38 (S.4)",
+    "explanation": "Die Folie zeigt: Nicht($A \\Rightarrow B$) ist gleich zu $\\lnot(\\lnot A \\lor B) = A \\land \\lnot B$. 📄 Quelle: skript08_mit, Folie 38 (S.4)",
     "source": "skript08_mit, Folie 38 (S.4, Arithmetik)"
   },
   {
@@ -34791,17 +34791,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "beweismethoden",
     "difficulty": 2,
     "type": "single",
-    "question": "Wende die Regel von De Morgan auf ¬(¬A ∨ B) an. Welches Ergebnis ist korrekt?",
+    "question": "Wende die Regel von De Morgan auf $\\lnot(\\lnot A \\lor B)$ an. Welches Ergebnis ist korrekt?",
     "options": [
-      "A ∧ ¬B",
-      "A ∨ ¬B",
-      "¬A ∧ B",
-      "A ∧ B"
+      "$A \\land \\lnot B$",
+      "$A \\lor \\lnot B$",
+      "$\\lnot A \\land B$",
+      "$A \\land B$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Mit De Morgan: ¬(¬A ∨ B) = ¬(¬A) ∧ ¬B = A ∧ ¬B. 📄 Quelle: skript08_mit, Folie 38 (S.4)",
+    "explanation": "Mit De Morgan: $\\lnot(\\lnot A \\lor B) = \\lnot(\\lnot A) \\land \\lnot B = A \\land \\lnot B$. 📄 Quelle: skript08_mit, Folie 38 (S.4)",
     "source": "skript08_mit, Folie 38 (S.4, Arithmetik)"
   },
   {
@@ -34809,7 +34809,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "euklid_ggt",
     "difficulty": 2,
     "type": "multi",
-    "question": "Im Satz von Euklid 'Wenn P die Menge der Primzahlen ist, dann ist P unendlich' (A ⟹ B): Welche Zuordnungen von A und B sind korrekt?",
+    "question": "Im Satz von Euklid 'Wenn P die Menge der Primzahlen ist, dann ist P unendlich' ($A \\Rightarrow B$): Welche Zuordnungen von A und B sind korrekt?",
     "options": [
       "A: P ist die Menge der Primzahlen",
       "B: P ist unendlich",
@@ -34828,7 +34828,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "euklid_ggt",
     "difficulty": 3,
     "type": "single",
-    "question": "Wie lautet der korrekt verneinte Satz von Euklid (Form A ∧ ¬B)?",
+    "question": "Wie lautet der korrekt verneinte Satz von Euklid (Form $A \\land \\lnot B$)?",
     "options": [
       "P ist die Menge der Primzahlen und P ist endlich",
       "Wenn P die Menge der Primzahlen ist, dann ist P endlich",
@@ -34838,7 +34838,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Da ¬(A ⟹ B) = A ∧ ¬B, lautet der verneinte Satz 'P ist die Menge der Primzahlen und P ist endlich'. Man darf nicht einfach 'Nicht' davorschreiben oder wieder eine Implikation bilden. 📄 Quelle: skript08_mit, Folie 65 (S.5)",
+    "explanation": "Da $\\lnot(A \\Rightarrow B) = A \\land \\lnot B$, lautet der verneinte Satz 'P ist die Menge der Primzahlen und P ist endlich'. Man darf nicht einfach 'Nicht' davorschreiben oder wieder eine Implikation bilden. 📄 Quelle: skript08_mit, Folie 65 (S.5)",
     "source": "skript08_mit, Folie 65 (S.5, Arithmetik)"
   },
   {
@@ -34848,7 +34848,7 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Warum ist 'Wenn P die Menge der Primzahlen ist, dann ist P endlich' NICHT die korrekte Verneinung des Euklid-Satzes?",
     "options": [
-      "Weil die Verneinung von A ⟹ B nicht wieder eine Implikation, sondern A ∧ ¬B ist",
+      "Weil die Verneinung von $A \\Rightarrow B$ nicht wieder eine Implikation, sondern $A \\land \\lnot B$ ist",
       "Weil man nicht einfach 'nicht' vor die Aussage schreiben darf",
       "Weil diese Aussage ebenfalls immer wahr ist",
       "Weil P keine Menge sein kann"
@@ -34857,7 +34857,7 @@ const SAMPLE_QUESTIONS = [
       0,
       1
     ],
-    "explanation": "Die Verneinung von A ⟹ B ist A ∧ ¬B, keine Implikation. Der handschriftliche Hinweis ('einfach NICHT davorschreiben') markiert dieses Vorgehen als falsch. 📄 Quelle: skript08_mit, Folie 65 (S.5)",
+    "explanation": "Die Verneinung von $A \\Rightarrow B$ ist $A \\land \\lnot B$, keine Implikation. Der handschriftliche Hinweis ('einfach NICHT davorschreiben') markiert dieses Vorgehen als falsch. 📄 Quelle: skript08_mit, Folie 65 (S.5)",
     "source": "skript08_mit, Folie 65 (S.5, Arithmetik)"
   },
   {
@@ -34865,11 +34865,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "konstruktionen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Konstruktion für P = {2, 3, 5, 7}: Berechne das Produkt aller Elemente plus 1, also 2·3·5·7 + 1.",
+    "question": "Konstruktion für $P = \\{2, 3, 5, 7\\}$: Berechne das Produkt aller Elemente plus 1, also $2 \\cdot 3 \\cdot 5 \\cdot 7 + 1$.",
     "answer": 211,
     "tolerance": 0,
     "unit": "",
-    "explanation": "2·3·5·7 = 210, plus 1 ergibt 211. 211 ist eine Primzahl, die nicht in P = {2, 3, 5, 7} liegt (Widerspruch). 📄 Quelle: skript08_mit, Folie 67 (S.6)",
+    "explanation": "$2 \\cdot 3 \\cdot 5 \\cdot 7 = 210$, plus 1 ergibt 211. 211 ist eine Primzahl, die nicht in $P = \\{2, 3, 5, 7\\}$ liegt (Widerspruch). 📄 Quelle: skript08_mit, Folie 67 (S.6)",
     "source": "skript08_mit, Folie 67 (S.6, Arithmetik)"
   },
   {
@@ -34877,11 +34877,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "konstruktionen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Konstruktion für P = {3, 5}: Berechne a := 3·5 + 1.",
+    "question": "Konstruktion für $P = \\{3, 5\\}$: Berechne $a := 3 \\cdot 5 + 1$.",
     "answer": 16,
     "tolerance": 0,
     "unit": "",
-    "explanation": "3·5 = 15, plus 1 ergibt 16. 16 ist zwar keine Primzahl, aber ihr Primteiler 2 liegt nicht in P = {3, 5}. 📄 Quelle: skript08_mit, Folie 67 (S.6)",
+    "explanation": "$3 \\cdot 5 = 15$, plus 1 ergibt 16. 16 ist zwar keine Primzahl, aber ihr Primteiler 2 liegt nicht in $P = \\{3, 5\\}$. 📄 Quelle: skript08_mit, Folie 67 (S.6)",
     "source": "skript08_mit, Folie 67 (S.6, Arithmetik)"
   },
   {
@@ -34908,10 +34908,10 @@ const SAMPLE_QUESTIONS = [
     "topic": "konstruktionen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Warum führt die Zahl 211 bei P = {2, 3, 5, 7} zum Widerspruch?",
+    "question": "Warum führt die Zahl 211 bei $P = \\{2, 3, 5, 7\\}$ zum Widerspruch?",
     "options": [
       "211 ist eine Primzahl",
-      "211 ist nicht in P = {2, 3, 5, 7} enthalten, müsste als Primzahl aber in P liegen",
+      "211 ist nicht in $P = \\{2, 3, 5, 7\\}$ enthalten, müsste als Primzahl aber in P liegen",
       "211 ist durch 2, 3, 5 und 7 teilbar",
       "211 ist keine natürliche Zahl"
     ],
@@ -34919,7 +34919,7 @@ const SAMPLE_QUESTIONS = [
       0,
       1
     ],
-    "explanation": "211 = 2·3·5·7 + 1 ist eine Primzahl, liegt aber nicht in P = {2, 3, 5, 7}; da P alle Primzahlen enthalten soll, ist das ein Widerspruch. 📄 Quelle: skript08_mit, Folie 67 (S.6)",
+    "explanation": "$211 = 2 \\cdot 3 \\cdot 5 \\cdot 7 + 1$ ist eine Primzahl, liegt aber nicht in $P = \\{2, 3, 5, 7\\}$; da P alle Primzahlen enthalten soll, ist das ein Widerspruch. 📄 Quelle: skript08_mit, Folie 67 (S.6)",
     "source": "skript08_mit, Folie 67 (S.6, Arithmetik)"
   },
   {
@@ -34984,7 +34984,7 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Was besagt der Satz zur Endstellenregel für die Teilbarkeit durch 2?",
     "options": [
-      "Für alle natürlichen Zahlen n gilt: Wenn die Zahl n₁, die aus der letzten Ziffer von n besteht, durch 2 teilbar ist, dann ist n durch 2 teilbar.",
+      "Für alle natürlichen Zahlen n gilt: Wenn die Zahl $n_1$, die aus der letzten Ziffer von n besteht, durch 2 teilbar ist, dann ist n durch 2 teilbar.",
       "Der Satz gilt für alle natürlichen Zahlen n.",
       "Man muss die Quersumme von n betrachten.",
       "Man muss die aus den letzten beiden Ziffern gebildete Zahl betrachten."
@@ -34993,7 +34993,7 @@ const SAMPLE_QUESTIONS = [
       0,
       1
     ],
-    "explanation": "Der Satz lautet: Für alle natürlichen Zahlen n gilt: Wenn die aus der letzten Ziffer bestehende Zahl n₁ durch 2 teilbar ist, dann ist n durch 2 teilbar. Es zählt nur die letzte Ziffer, nicht die Quersumme oder zwei Endziffern. 📄 Quelle: skript09_live, Folie 11 (S.1)",
+    "explanation": "Der Satz lautet: Für alle natürlichen Zahlen n gilt: Wenn die aus der letzten Ziffer bestehende Zahl $n_1$ durch 2 teilbar ist, dann ist n durch 2 teilbar. Es zählt nur die letzte Ziffer, nicht die Quersumme oder zwei Endziffern. 📄 Quelle: skript09_live, Folie 11 (S.1)",
     "source": "skript09_live, Folie 11 (S.1, Teilbarkeitsregeln – Endstellenregeln)"
   },
   {
@@ -35001,11 +35001,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeitsregeln",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Für das handschriftliche Beispiel n = 1132 mit der Zerlegung n = n₄·10³ + n₃·10² + n₂·10¹ + n₁·10⁰: Welchen Wert hat die letzte Ziffer n₁?",
+    "question": "Für das handschriftliche Beispiel $n = 1132$ mit der Zerlegung $n = n_4 \\cdot 10^3 + n_3 \\cdot 10^2 + n_2 \\cdot 10^1 + n_1 \\cdot 10^0$: Welchen Wert hat die letzte Ziffer $n_1$?",
     "answer": 2,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Im Beispiel n = 1132 ist n₁ die letzte Ziffer (Einerstelle), also n₁ = 2. Diese Ziffer entscheidet über die Teilbarkeit durch 2. 📄 Quelle: skript09_live, Folie 11 (S.1)",
+    "explanation": "Im Beispiel $n = 1132$ ist $n_1$ die letzte Ziffer (Einerstelle), also $n_1 = 2$. Diese Ziffer entscheidet über die Teilbarkeit durch 2. 📄 Quelle: skript09_live, Folie 11 (S.1)",
     "source": "skript09_live, Folie 11 (S.1, Teilbarkeitsregeln – Endstellenregeln)"
   },
   {
@@ -35013,19 +35013,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeitsregeln",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Aussagen gehören zur Beweisidee der Endstellenregel für 2 (n = nₘ·10^(m-1) + … + n₁ = 2·[nₘ·2^(m-2)·5^(m-1) + … + n₂·5] + n₁)?",
+    "question": "Welche Aussagen gehören zur Beweisidee der Endstellenregel für 2 ($n = n_m \\cdot 10^{m-1} + \\dots + n_1 = 2 \\cdot [n_m \\cdot 2^{m-2} \\cdot 5^{m-1} + \\dots + n_2 \\cdot 5] + n_1$)?",
     "options": [
-      "Es gilt 10 = 2·5, 100 = (2·5)², 1000 = (2·5)³.",
-      "Es wird das Potenzgesetz (2·5)^k = 2^k·5^k verwendet.",
-      "Die letzte Ziffer n₁ entscheidet, ob 2|n oder 2∤n.",
-      "Die Summe n₂ + n₃ + … + nₘ entscheidet über die Teilbarkeit durch 2."
+      "Es gilt $10 = 2 \\cdot 5$, $100 = (2 \\cdot 5)^2$, $1000 = (2 \\cdot 5)^3$.",
+      "Es wird das Potenzgesetz $(2 \\cdot 5)^k = 2^k \\cdot 5^k$ verwendet.",
+      "Die letzte Ziffer $n_1$ entscheidet, ob $2 \\mid n$ oder $2 \\nmid n$.",
+      "Die Summe $n_2 + n_3 + \\dots + n_m$ entscheidet über die Teilbarkeit durch 2."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Aus 10 = 2·5 und dem Potenzgesetz (2·5)^k = 2^k·5^k lässt sich in allen Summanden außer n₁ der Faktor 2 ausklammern; somit entscheidet allein die letzte Ziffer n₁ über die Teilbarkeit durch 2. Die Summe der übrigen Ziffern ist irrelevant. 📄 Quelle: skript09_live, Folie 11 (S.1)",
+    "explanation": "Aus $10 = 2 \\cdot 5$ und dem Potenzgesetz $(2 \\cdot 5)^k = 2^k \\cdot 5^k$ lässt sich in allen Summanden außer $n_1$ der Faktor 2 ausklammern; somit entscheidet allein die letzte Ziffer $n_1$ über die Teilbarkeit durch 2. Die Summe der übrigen Ziffern ist irrelevant. 📄 Quelle: skript09_live, Folie 11 (S.1)",
     "source": "skript09_live, Folie 11 (S.1, Teilbarkeitsregeln – Endstellenregeln)"
   },
   {
@@ -35035,10 +35035,10 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Endstellenregeln für Zweierpotenzen werden in der Mitschrift genannt?",
     "options": [
-      "Teilbarkeit durch 4 (= 2²): die letzten beiden Ziffern betrachten.",
-      "Teilbarkeit durch 8 (= 2³): die letzten 3 Ziffern betrachten.",
-      "Teilbarkeit durch 16 (= 2⁴): die letzten 4 Ziffern betrachten.",
-      "Teilbarkeit durch 2^k: die letzten k Ziffern betrachten.",
+      "Teilbarkeit durch 4 ($= 2^2$): die letzten beiden Ziffern betrachten.",
+      "Teilbarkeit durch 8 ($= 2^3$): die letzten 3 Ziffern betrachten.",
+      "Teilbarkeit durch 16 ($= 2^4$): die letzten 4 Ziffern betrachten.",
+      "Teilbarkeit durch $2^k$: die letzten k Ziffern betrachten.",
       "Teilbarkeit durch 6: nur die letzte Ziffer betrachten."
     ],
     "correct": [
@@ -35047,7 +35047,7 @@ const SAMPLE_QUESTIONS = [
       2,
       3
     ],
-    "explanation": "Die Mitschrift ordnet zu: 2² = 4 → letzte 2 Ziffern, 2³ = 8 → letzte 3 Ziffern, 2⁴ = 16 → letzte 4 Ziffern, allgemein 2^k → letzte k Ziffern. Eine Endstellenregel für 6 wird nicht angegeben. 📄 Quelle: skript09_live, Folie 14 (S.2)",
+    "explanation": "Die Mitschrift ordnet zu: $2^2 = 4$ → letzte 2 Ziffern, $2^3 = 8$ → letzte 3 Ziffern, $2^4 = 16$ → letzte 4 Ziffern, allgemein $2^k$ → letzte k Ziffern. Eine Endstellenregel für 6 wird nicht angegeben. 📄 Quelle: skript09_live, Folie 14 (S.2)",
     "source": "skript09_live, Folie 14 (S.2, Teilbarkeitsregeln – Endstellenregeln)"
   },
   {
@@ -35055,11 +35055,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeitsregeln",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Bei der Teilbarkeit durch 2^k betrachtet man die letzten k Ziffern. Wie viele Endziffern muss man laut Mitschrift für die Teilbarkeit durch 8 betrachten?",
+    "question": "Bei der Teilbarkeit durch $2^k$ betrachtet man die letzten k Ziffern. Wie viele Endziffern muss man laut Mitschrift für die Teilbarkeit durch 8 betrachten?",
     "answer": 3,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Wegen 8 = 2³ ist k = 3, also entscheiden die letzten 3 Ziffern über die Teilbarkeit durch 8. 📄 Quelle: skript09_live, Folie 14 (S.2)",
+    "explanation": "Wegen $8 = 2^3$ ist $k = 3$, also entscheiden die letzten 3 Ziffern über die Teilbarkeit durch 8. 📄 Quelle: skript09_live, Folie 14 (S.2)",
     "source": "skript09_live, Folie 14 (S.2, Teilbarkeitsregeln – Endstellenregeln)"
   },
   {
@@ -35069,8 +35069,8 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Vermutungen bzw. Regeln zu 5 und 10 hält die Mitschrift fest?",
     "options": [
-      "25 = 5²: die letzten 2 Stellen betrachten.",
-      "125 = 5³: die letzten 3 Stellen betrachten.",
+      "$25 = 5^2$: die letzten 2 Stellen betrachten.",
+      "$125 = 5^3$: die letzten 3 Stellen betrachten.",
       "Teilbarkeit durch 10: Ist die letzte Ziffer 0, dann ist n durch 10 teilbar.",
       "Teilbarkeit durch 10: Ist die Quersumme durch 10 teilbar, dann ist n durch 10 teilbar."
     ],
@@ -35079,7 +35079,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Zur Teilbarkeit durch 5 werden die Vermutungen 25 = 5² → letzte 2 Stellen und 125 = 5³ → letzte 3 Stellen notiert. Für 10 (= 2·5) gilt: ist die letzte Stelle durch 10 teilbar bzw. die letzte Ziffer 0, dann ist n durch 10 teilbar. Eine Quersummenregel für 10 wird nicht genannt. 📄 Quelle: skript09_live, Folie 14 (S.2)",
+    "explanation": "Zur Teilbarkeit durch 5 werden die Vermutungen $25 = 5^2$ → letzte 2 Stellen und $125 = 5^3$ → letzte 3 Stellen notiert. Für 10 ($= 2 \\cdot 5$) gilt: ist die letzte Stelle durch 10 teilbar bzw. die letzte Ziffer 0, dann ist n durch 10 teilbar. Eine Quersummenregel für 10 wird nicht genannt. 📄 Quelle: skript09_live, Folie 14 (S.2)",
     "source": "skript09_live, Folie 14 (S.2, Teilbarkeitsregeln – Endstellenregeln)"
   },
   {
@@ -35089,17 +35089,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Was besagt die Endstellenregel für die Teilbarkeit durch 4?",
     "options": [
-      "Wenn die aus den letzten beiden Ziffern gebildete Zahl n₁ durch 4 teilbar ist, dann ist n durch 4 teilbar.",
+      "Wenn die aus den letzten beiden Ziffern gebildete Zahl $n_1$ durch 4 teilbar ist, dann ist n durch 4 teilbar.",
       "4 teilt jeden 100er, 1000er usw.",
-      "Die Zahl n₁ = x₁·10 + x₀ der letzten beiden Ziffern entscheidet über die Teilbarkeit durch 4.",
-      "Es genügt, die letzte Ziffer x₀ zu betrachten."
+      "Die Zahl $n_1 = x_1 \\cdot 10 + x_0$ der letzten beiden Ziffern entscheidet über die Teilbarkeit durch 4.",
+      "Es genügt, die letzte Ziffer $x_0$ zu betrachten."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Der Satz: Wenn die aus den letzten beiden Ziffern bestehende Zahl n₁ durch 4 teilbar ist, dann ist n durch 4 teilbar. Da 4 jeden 100er, 1000er usw. teilt, entscheidet n₁ = x₁·10 + x₀. Die letzte Ziffer allein reicht nicht. 📄 Quelle: skript09_live, Folie 17 (S.3)",
+    "explanation": "Der Satz: Wenn die aus den letzten beiden Ziffern bestehende Zahl $n_1$ durch 4 teilbar ist, dann ist n durch 4 teilbar. Da 4 jeden 100er, 1000er usw. teilt, entscheidet $n_1 = x_1 \\cdot 10 + x_0$. Die letzte Ziffer allein reicht nicht. 📄 Quelle: skript09_live, Folie 17 (S.3)",
     "source": "skript09_live, Folie 17 (S.3, Teilbarkeitsregeln – Endstellenregeln)"
   },
   {
@@ -35109,17 +35109,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche der folgenden Umformungen zur Herleitung der Teilbarkeitsregel für 4 sind korrekt notiert?",
     "options": [
-      "100 = 10² = 4·25 = 4·5²",
-      "1000 = 10³ = 4·2·5³",
-      "10.000 = 10⁴ = 4·2²·5⁴",
-      "10 = 4·… (10 ist durch 4 teilbar)"
+      "$100 = 10^2 = 4 \\cdot 25 = 4 \\cdot 5^2$",
+      "$1000 = 10^3 = 4 \\cdot 2 \\cdot 5^3$",
+      "$10.000 = 10^4 = 4 \\cdot 2^2 \\cdot 5^4$",
+      "$10 = 4 \\cdot \\dots$ (10 ist durch 4 teilbar)"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Auf der Folie steht 100 = (2·5)² = 4·5², 1000 = (2·5)³ = 4·2·5³ und 10.000 = (2·5)⁴ = 4·2²·5⁴. Ab 100 lässt sich der Faktor 4 ausklammern; 10 dagegen ist nicht durch 4 teilbar. 📄 Quelle: skript09_live, Folie 17 (S.3)",
+    "explanation": "Auf der Folie steht $100 = (2 \\cdot 5)^2 = 4 \\cdot 5^2$, $1000 = (2 \\cdot 5)^3 = 4 \\cdot 2 \\cdot 5^3$ und $10.000 = (2 \\cdot 5)^4 = 4 \\cdot 2^2 \\cdot 5^4$. Ab 100 lässt sich der Faktor 4 ausklammern; 10 dagegen ist nicht durch 4 teilbar. 📄 Quelle: skript09_live, Folie 17 (S.3)",
     "source": "skript09_live, Folie 17 (S.3, Teilbarkeitsregeln – Endstellenregeln)"
   },
   {
@@ -35127,11 +35127,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeitsregeln",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Es gilt 100 = 4·? . Welchen Wert hat der fehlende Faktor?",
+    "question": "Es gilt $100 = 4 \\cdot\\;?$. Welchen Wert hat der fehlende Faktor?",
     "answer": 25,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Es gilt 100 = 4·25·10⁰ = 4·25, der fehlende Faktor ist also 25. Deshalb teilt 4 jeden 100er. 📄 Quelle: skript09_live, Folie 17 (S.3)",
+    "explanation": "Es gilt $100 = 4 \\cdot 25 \\cdot 10^0 = 4 \\cdot 25$, der fehlende Faktor ist also 25. Deshalb teilt 4 jeden 100er. 📄 Quelle: skript09_live, Folie 17 (S.3)",
     "source": "skript09_live, Folie 17 (S.3, Teilbarkeitsregeln – Endstellenregeln)"
   },
   {
@@ -35139,19 +35139,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeitsregeln",
     "difficulty": 2,
     "type": "multi",
-    "question": "Was besagt der allgemeine Satz zur Endstellenregel für 2^k?",
+    "question": "Was besagt der allgemeine Satz zur Endstellenregel für $2^k$?",
     "options": [
-      "Wenn die aus den letzten k Ziffern gebildete Zahl n₁ durch 2^k teilbar ist, dann ist n durch 2^k teilbar.",
+      "Wenn die aus den letzten k Ziffern gebildete Zahl $n_1$ durch $2^k$ teilbar ist, dann ist n durch $2^k$ teilbar.",
       "Die Übung verlangt, die Schritte aus den Beweisen für die Teilbarkeit durch 2 und 4 zu analogisieren.",
-      "Für k = 3 betrachtet man die Teilbarkeit durch 2³ = 8, also die letzten 3 Ziffern.",
-      "Man betrachtet die letzten 2^k Ziffern von n."
+      "Für $k = 3$ betrachtet man die Teilbarkeit durch $2^3 = 8$, also die letzten 3 Ziffern.",
+      "Man betrachtet die letzten $2^k$ Ziffern von n."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Der Satz verallgemeinert die Regel: aus den letzten k Ziffern gebildete Zahl n₁ durch 2^k teilbar ⇒ n durch 2^k teilbar. Die Übung ('Analogisieren Sie die Schritte aus den Beweisen für 2 und 4') und der Hinweis für k = 3 (2³ = 8 → letzte 3 Ziffern) stehen handschriftlich dabei. Man betrachtet k Ziffern, nicht 2^k Ziffern. 📄 Quelle: skript09_live, Folie 20 (S.4)",
+    "explanation": "Der Satz verallgemeinert die Regel: aus den letzten k Ziffern gebildete Zahl $n_1$ durch $2^k$ teilbar $\\Rightarrow$ n durch $2^k$ teilbar. Die Übung ('Analogisieren Sie die Schritte aus den Beweisen für 2 und 4') und der Hinweis für $k = 3$ ($2^3 = 8$ → letzte 3 Ziffern) stehen handschriftlich dabei. Man betrachtet k Ziffern, nicht $2^k$ Ziffern. 📄 Quelle: skript09_live, Folie 20 (S.4)",
     "source": "skript09_live, Folie 20 (S.4, Teilbarkeitsregeln – Endstellenregeln)"
   },
   {
@@ -35159,11 +35159,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeitsregeln",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Man führe den Beweis für k = 3. Welchen Wert hat dann 2^k = 2³?",
+    "question": "Man führe den Beweis für $k = 3$. Welchen Wert hat dann $2^k = 2^3$?",
     "answer": 8,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Für k = 3 ist 2³ = 8; man betrachtet dann die letzten 3 Ziffern. 📄 Quelle: skript09_live, Folie 20 (S.4)",
+    "explanation": "Für $k = 3$ ist $2^3 = 8$; man betrachtet dann die letzten 3 Ziffern. 📄 Quelle: skript09_live, Folie 20 (S.4)",
     "source": "skript09_live, Folie 20 (S.4, Teilbarkeitsregeln – Endstellenregeln)"
   },
   {
@@ -35173,9 +35173,9 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Was besagt die Endstellenregel für die Teilbarkeit durch 5?",
     "options": [
-      "Wenn die aus der letzten Ziffer gebildete Zahl n₁ durch 5 teilbar ist, dann ist n durch 5 teilbar.",
+      "Wenn die aus der letzten Ziffer gebildete Zahl $n_1$ durch 5 teilbar ist, dann ist n durch 5 teilbar.",
       "5 teilt jeden 10er, 100er, 1000er usw.",
-      "Die letzte Ziffer a₀ entscheidet, ob 5|n oder 5∤n.",
+      "Die letzte Ziffer $a_0$ entscheidet, ob $5 \\mid n$ oder $5 \\nmid n$.",
       "Man muss die letzten beiden Ziffern betrachten."
     ],
     "correct": [
@@ -35183,7 +35183,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Der Satz: Wenn die letzte Ziffer durch 5 teilbar ist, dann ist n durch 5 teilbar. Da 5 jeden 10er, 100er, 1000er teilt, entscheidet allein die letzte Ziffer a₀. Zwei Endziffern sind nicht nötig. 📄 Quelle: skript09_live, Folie 23 (S.5)",
+    "explanation": "Der Satz: Wenn die letzte Ziffer durch 5 teilbar ist, dann ist n durch 5 teilbar. Da 5 jeden 10er, 100er, 1000er teilt, entscheidet allein die letzte Ziffer $a_0$. Zwei Endziffern sind nicht nötig. 📄 Quelle: skript09_live, Folie 23 (S.5)",
     "source": "skript09_live, Folie 23 (S.5, Teilbarkeitsregeln – Endstellenregeln)"
   },
   {
@@ -35191,11 +35191,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeitsregeln",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Schritte gehören zur Beweisidee der Endstellenregel für 5 (n = 5·[aₘ·2^m·5^(m-1) + … + a₁·2] + a₀)?",
+    "question": "Welche Schritte gehören zur Beweisidee der Endstellenregel für 5 ($n = 5 \\cdot [a_m \\cdot 2^m \\cdot 5^{m-1} + \\dots + a_1 \\cdot 2] + a_0$)?",
     "options": [
       "In der Zerlegung wird der Faktor 5 ausgeklammert.",
-      "Es wird 10 = 2·5 verwendet.",
-      "Der Term in der eckigen Klammer ist durch 5 teilbar, sodass nur a₀ übrig bleibt.",
+      "Es wird $10 = 2 \\cdot 5$ verwendet.",
+      "Der Term in der eckigen Klammer ist durch 5 teilbar, sodass nur $a_0$ übrig bleibt.",
       "In der Zerlegung wird der Faktor 2 ausgeklammert."
     ],
     "correct": [
@@ -35203,7 +35203,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Mit 10 = 2·5 wird n = aₘ·(2·5)^m + … + a₁·(2·5) + a₀ = 5·[aₘ·2^m·5^(m-1) + … + a₁·2] + a₀. Der Klammerterm ist durch 5 teilbar; damit entscheidet die letzte Ziffer a₀. Ausgeklammert wird 5, nicht 2. 📄 Quelle: skript09_live, Folie 23 (S.5)",
+    "explanation": "Mit $10 = 2 \\cdot 5$ wird $n = a_m \\cdot (2 \\cdot 5)^m + \\dots + a_1 \\cdot (2 \\cdot 5) + a_0 = 5 \\cdot [a_m \\cdot 2^m \\cdot 5^{m-1} + \\dots + a_1 \\cdot 2] + a_0$. Der Klammerterm ist durch 5 teilbar; damit entscheidet die letzte Ziffer $a_0$. Ausgeklammert wird 5, nicht 2. 📄 Quelle: skript09_live, Folie 23 (S.5)",
     "source": "skript09_live, Folie 23 (S.5, Teilbarkeitsregeln – Endstellenregeln)"
   },
   {
@@ -35215,7 +35215,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 5,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Im Beweis wird n = 5·[…] + a₀ geschrieben; ausgeklammert wird der Faktor 5. 📄 Quelle: skript09_live, Folie 23 (S.5)",
+    "explanation": "Im Beweis wird $n = 5 \\cdot [\\dots] + a_0$ geschrieben; ausgeklammert wird der Faktor 5. 📄 Quelle: skript09_live, Folie 23 (S.5)",
     "source": "skript09_live, Folie 23 (S.5, Teilbarkeitsregeln – Endstellenregeln)"
   },
   {
@@ -35223,19 +35223,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeitsregeln",
     "difficulty": 2,
     "type": "multi",
-    "question": "Was besagt der allgemeine Satz zur Endstellenregel für 5^k?",
+    "question": "Was besagt der allgemeine Satz zur Endstellenregel für $5^k$?",
     "options": [
-      "Wenn die aus den letzten k Ziffern gebildete Zahl n₁ durch 5^k teilbar ist, dann ist n durch 5^k teilbar.",
+      "Wenn die aus den letzten k Ziffern gebildete Zahl $n_1$ durch $5^k$ teilbar ist, dann ist n durch $5^k$ teilbar.",
       "Die Übung verlangt, die Schritte aus dem Beweis für die Teilbarkeit durch 5 zu analogisieren.",
-      "Der Rat lautet, zuerst k = 2 zu betrachten: n₁ besteht aus den letzten 2 Ziffern, durch 5² teilbar.",
-      "Man betrachtet die letzten 5^k Ziffern von n."
+      "Der Rat lautet, zuerst $k = 2$ zu betrachten: $n_1$ besteht aus den letzten 2 Ziffern, durch $5^2$ teilbar.",
+      "Man betrachtet die letzten $5^k$ Ziffern von n."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Der Satz verallgemeinert: aus den letzten k Ziffern gebildete Zahl n₁ durch 5^k teilbar ⇒ n durch 5^k teilbar. Die Übung ('Analogisieren Sie die Schritte aus dem Beweis für 5') und der handschriftliche Rat für k = 2 (letzte 2 Ziffern, durch 5² teilbar) stehen dabei. Man betrachtet k Ziffern, nicht 5^k Ziffern. 📄 Quelle: skript09_live, Folie 26 (S.6)",
+    "explanation": "Der Satz verallgemeinert: aus den letzten k Ziffern gebildete Zahl $n_1$ durch $5^k$ teilbar $\\Rightarrow$ n durch $5^k$ teilbar. Die Übung ('Analogisieren Sie die Schritte aus dem Beweis für 5') und der handschriftliche Rat für $k = 2$ (letzte 2 Ziffern, durch $5^2$ teilbar) stehen dabei. Man betrachtet k Ziffern, nicht $5^k$ Ziffern. 📄 Quelle: skript09_live, Folie 26 (S.6)",
     "source": "skript09_live, Folie 26 (S.6, Teilbarkeitsregeln – Endstellenregeln)"
   },
   {
@@ -35243,11 +35243,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeitsregeln",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Man führe den Beweis zuerst für k = 2. Welchen Wert hat dann 5^k = 5²?",
+    "question": "Man führe den Beweis zuerst für $k = 2$. Welchen Wert hat dann $5^k = 5^2$?",
     "answer": 25,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Für k = 2 ist 5² = 25; man betrachtet dann die letzten 2 Ziffern. 📄 Quelle: skript09_live, Folie 26 (S.6)",
+    "explanation": "Für $k = 2$ ist $5^2 = 25$; man betrachtet dann die letzten 2 Ziffern. 📄 Quelle: skript09_live, Folie 26 (S.6)",
     "source": "skript09_live, Folie 26 (S.6, Teilbarkeitsregeln – Endstellenregeln)"
   },
   {

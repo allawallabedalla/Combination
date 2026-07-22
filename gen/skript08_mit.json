@@ -4,18 +4,18 @@
     "topic": "skript08_mit_aequivalenz",
     "difficulty": 2,
     "type": "multi",
-    "question": "Die Aussage A ⟺ B ('A genau dann, wenn B') ist genau dann wahr, wenn welche Bedingungen gelten?",
+    "question": "Die Aussage $A \\Leftrightarrow B$ ('A genau dann, wenn B') ist genau dann wahr, wenn welche Bedingungen gelten?",
     "options": [
-      "(A ⟹ B) ∧ (B ⟹ A) gilt",
+      "$(A \\Rightarrow B) \\land (B \\Rightarrow A)$ gilt",
       "A und B die gleichen Wahrheitswerte haben",
       "A wahr und B falsch ist",
-      "ausschließlich A ⟹ B gilt"
+      "ausschließlich $A \\Rightarrow B$ gilt"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Laut Folie ist A ⟺ B genau dann wahr, wenn 'wenn A dann B und wenn B dann A' gilt, also (A ⟹ B) ∧ (B ⟹ A); handschriftlich ergänzt: wenn A und B die gleichen Wahrheitswerte haben. 📄 Quelle: skript08_mit, Folie 22 (S.1)",
+    "explanation": "Laut Folie ist $A \\Leftrightarrow B$ genau dann wahr, wenn 'wenn A dann B und wenn B dann A' gilt, also $(A \\Rightarrow B) \\land (B \\Rightarrow A)$; handschriftlich ergänzt: wenn A und B die gleichen Wahrheitswerte haben. 📄 Quelle: skript08_mit, Folie 22 (S.1)",
     "source": "skript08_mit, Folie 22 (S.1, Arithmetik)"
   },
   {
@@ -23,7 +23,7 @@
     "topic": "skript08_mit_aequivalenz",
     "difficulty": 2,
     "type": "multi",
-    "question": "In welchen Zeilen der Wahrheitstafel ist A ⟺ B wahr?",
+    "question": "In welchen Zeilen der Wahrheitstafel ist $A \\Leftrightarrow B$ wahr?",
     "options": [
       "A = w, B = w",
       "A = w, B = f",
@@ -34,7 +34,7 @@
       0,
       3
     ],
-    "explanation": "In der Wahrheitstafel ist A ⟺ B nur dann wahr, wenn A und B denselben Wahrheitswert haben: w/w → w und f/f → w; bei w/f und f/w ist A ⟺ B falsch. 📄 Quelle: skript08_mit, Folie 22 (S.1)",
+    "explanation": "In der Wahrheitstafel ist $A \\Leftrightarrow B$ nur dann wahr, wenn A und B denselben Wahrheitswert haben: w/w → w und f/f → w; bei w/f und f/w ist $A \\Leftrightarrow B$ falsch. 📄 Quelle: skript08_mit, Folie 22 (S.1)",
     "source": "skript08_mit, Folie 22 (S.1, Arithmetik)"
   },
   {
@@ -42,7 +42,7 @@
     "topic": "skript08_mit_aequivalenz",
     "difficulty": 2,
     "type": "single",
-    "question": "In welcher Zeile der Wahrheitstafel ist A ⟹ B falsch?",
+    "question": "In welcher Zeile der Wahrheitstafel ist $A \\Rightarrow B$ falsch?",
     "options": [
       "A = w, B = w",
       "A = w, B = f",
@@ -52,7 +52,7 @@
     "correct": [
       1
     ],
-    "explanation": "Laut Wahrheitstafel ist A ⟹ B nur in der Zeile A = w, B = f falsch; in allen anderen Zeilen (w/w, f/w, f/f) ist A ⟹ B wahr. 📄 Quelle: skript08_mit, Folie 22 (S.1)",
+    "explanation": "Laut Wahrheitstafel ist $A \\Rightarrow B$ nur in der Zeile A = w, B = f falsch; in allen anderen Zeilen (w/w, f/w, f/f) ist $A \\Rightarrow B$ wahr. 📄 Quelle: skript08_mit, Folie 22 (S.1)",
     "source": "skript08_mit, Folie 22 (S.1, Arithmetik)"
   },
   {
@@ -60,17 +60,17 @@
     "topic": "skript08_mit_verneinung_implikation",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lautet die Verneinung ¬(A ⟹ B)?",
+    "question": "Wie lautet die Verneinung $\\lnot(A \\Rightarrow B)$?",
     "options": [
-      "A ∧ ¬B",
-      "¬A ∨ B",
-      "¬A ∧ B",
-      "A ∨ ¬B"
+      "$A \\land \\lnot B$",
+      "$\\lnot A \\lor B$",
+      "$\\lnot A \\land B$",
+      "$A \\lor \\lnot B$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie: A ⟹ B ≡ ¬A ∨ B, daher ¬(A ⟹ B) = ¬(¬A ∨ B) = A ∧ ¬B. 📄 Quelle: skript08_mit, Folie 41 (S.2)",
+    "explanation": "Auf der Folie: $A \\Rightarrow B \\equiv \\lnot A \\lor B$, daher $\\lnot(A \\Rightarrow B) = \\lnot(\\lnot A \\lor B) = A \\land \\lnot B$. 📄 Quelle: skript08_mit, Folie 41 (S.2)",
     "source": "skript08_mit, Folie 41 (S.2, Arithmetik)"
   },
   {
@@ -78,17 +78,17 @@
     "topic": "skript08_mit_verneinung_implikation",
     "difficulty": 1,
     "type": "single",
-    "question": "Zu welchem Ausdruck ist die Implikation A ⟹ B äquivalent?",
+    "question": "Zu welchem Ausdruck ist die Implikation $A \\Rightarrow B$ äquivalent?",
     "options": [
-      "¬A ∨ B",
-      "A ∧ ¬B",
-      "A ∨ B",
-      "¬A ∧ ¬B"
+      "$\\lnot A \\lor B$",
+      "$A \\land \\lnot B$",
+      "$A \\lor B$",
+      "$\\lnot A \\land \\lnot B$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie steht A ⟹ B = ¬A ∨ B. 📄 Quelle: skript08_mit, Folie 41 (S.2)",
+    "explanation": "Auf der Folie steht $A \\Rightarrow B = \\lnot A \\lor B$. 📄 Quelle: skript08_mit, Folie 41 (S.2)",
     "source": "skript08_mit, Folie 41 (S.2, Arithmetik)"
   },
   {
@@ -114,7 +114,7 @@
     "topic": "skript08_mit_widerspruchsbeweis",
     "difficulty": 1,
     "type": "multi",
-    "question": "Im Satz 'Wenn die Sonne scheint, dann gehe ich joggen' (A ⟹ B): Welche Zuordnungen von A und B sind korrekt?",
+    "question": "Im Satz 'Wenn die Sonne scheint, dann gehe ich joggen' ($A \\Rightarrow B$): Welche Zuordnungen von A und B sind korrekt?",
     "options": [
       "A: Die Sonne scheint",
       "B: Ich gehe joggen",
@@ -133,17 +133,17 @@
     "topic": "skript08_mit_widerspruchsbeweis",
     "difficulty": 1,
     "type": "single",
-    "question": "Zu welchem gleichwertigen Ausdruck ist die Implikation A ⟹ B äquivalent?",
+    "question": "Zu welchem gleichwertigen Ausdruck ist die Implikation $A \\Rightarrow B$ äquivalent?",
     "options": [
-      "¬A ∨ B",
-      "A ∧ ¬B",
-      "¬A ∧ B",
-      "A ∨ B"
+      "$\\lnot A \\lor B$",
+      "$A \\land \\lnot B$",
+      "$\\lnot A \\land B$",
+      "$A \\lor B$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie steht A ⟹ B = ¬A ∨ B. 📄 Quelle: skript08_mit, Folie 36 (S.3)",
+    "explanation": "Auf der Folie steht $A \\Rightarrow B = \\lnot A \\lor B$. 📄 Quelle: skript08_mit, Folie 36 (S.3)",
     "source": "skript08_mit, Folie 36 (S.3, Arithmetik)"
   },
   {
@@ -153,15 +153,15 @@
     "type": "single",
     "question": "Zu welchem Ausdruck ist die Verneinung „Nicht(Wenn A, dann B)“ gleich?",
     "options": [
-      "¬(¬A ∨ B) = A ∧ ¬B",
-      "¬A ∨ B",
-      "¬A ∧ ¬B",
-      "A ∨ ¬B"
+      "$\\lnot(\\lnot A \\lor B) = A \\land \\lnot B$",
+      "$\\lnot A \\lor B$",
+      "$\\lnot A \\land \\lnot B$",
+      "$A \\lor \\lnot B$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie zeigt: Nicht(A ⟹ B) ist gleich zu ¬(¬A ∨ B) = A ∧ ¬B. 📄 Quelle: skript08_mit, Folie 38 (S.4)",
+    "explanation": "Die Folie zeigt: Nicht($A \\Rightarrow B$) ist gleich zu $\\lnot(\\lnot A \\lor B) = A \\land \\lnot B$. 📄 Quelle: skript08_mit, Folie 38 (S.4)",
     "source": "skript08_mit, Folie 38 (S.4, Arithmetik)"
   },
   {
@@ -169,17 +169,17 @@
     "topic": "skript08_mit_widerspruchsbeweis",
     "difficulty": 2,
     "type": "single",
-    "question": "Wende die Regel von De Morgan auf ¬(¬A ∨ B) an. Welches Ergebnis ist korrekt?",
+    "question": "Wende die Regel von De Morgan auf $\\lnot(\\lnot A \\lor B)$ an. Welches Ergebnis ist korrekt?",
     "options": [
-      "A ∧ ¬B",
-      "A ∨ ¬B",
-      "¬A ∧ B",
-      "A ∧ B"
+      "$A \\land \\lnot B$",
+      "$A \\lor \\lnot B$",
+      "$\\lnot A \\land B$",
+      "$A \\land B$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Mit De Morgan: ¬(¬A ∨ B) = ¬(¬A) ∧ ¬B = A ∧ ¬B. 📄 Quelle: skript08_mit, Folie 38 (S.4)",
+    "explanation": "Mit De Morgan: $\\lnot(\\lnot A \\lor B) = \\lnot(\\lnot A) \\land \\lnot B = A \\land \\lnot B$. 📄 Quelle: skript08_mit, Folie 38 (S.4)",
     "source": "skript08_mit, Folie 38 (S.4, Arithmetik)"
   },
   {
@@ -187,7 +187,7 @@
     "topic": "skript08_mit_euklid",
     "difficulty": 2,
     "type": "multi",
-    "question": "Im Satz von Euklid 'Wenn P die Menge der Primzahlen ist, dann ist P unendlich' (A ⟹ B): Welche Zuordnungen von A und B sind korrekt?",
+    "question": "Im Satz von Euklid 'Wenn P die Menge der Primzahlen ist, dann ist P unendlich' ($A \\Rightarrow B$): Welche Zuordnungen von A und B sind korrekt?",
     "options": [
       "A: P ist die Menge der Primzahlen",
       "B: P ist unendlich",
@@ -206,7 +206,7 @@
     "topic": "skript08_mit_euklid",
     "difficulty": 3,
     "type": "single",
-    "question": "Wie lautet der korrekt verneinte Satz von Euklid (Form A ∧ ¬B)?",
+    "question": "Wie lautet der korrekt verneinte Satz von Euklid (Form $A \\land \\lnot B$)?",
     "options": [
       "P ist die Menge der Primzahlen und P ist endlich",
       "Wenn P die Menge der Primzahlen ist, dann ist P endlich",
@@ -216,7 +216,7 @@
     "correct": [
       0
     ],
-    "explanation": "Da ¬(A ⟹ B) = A ∧ ¬B, lautet der verneinte Satz 'P ist die Menge der Primzahlen und P ist endlich'. Man darf nicht einfach 'Nicht' davorschreiben oder wieder eine Implikation bilden. 📄 Quelle: skript08_mit, Folie 65 (S.5)",
+    "explanation": "Da $\\lnot(A \\Rightarrow B) = A \\land \\lnot B$, lautet der verneinte Satz 'P ist die Menge der Primzahlen und P ist endlich'. Man darf nicht einfach 'Nicht' davorschreiben oder wieder eine Implikation bilden. 📄 Quelle: skript08_mit, Folie 65 (S.5)",
     "source": "skript08_mit, Folie 65 (S.5, Arithmetik)"
   },
   {
@@ -226,7 +226,7 @@
     "type": "multi",
     "question": "Warum ist 'Wenn P die Menge der Primzahlen ist, dann ist P endlich' NICHT die korrekte Verneinung des Euklid-Satzes?",
     "options": [
-      "Weil die Verneinung von A ⟹ B nicht wieder eine Implikation, sondern A ∧ ¬B ist",
+      "Weil die Verneinung von $A \\Rightarrow B$ nicht wieder eine Implikation, sondern $A \\land \\lnot B$ ist",
       "Weil man nicht einfach 'nicht' vor die Aussage schreiben darf",
       "Weil diese Aussage ebenfalls immer wahr ist",
       "Weil P keine Menge sein kann"
@@ -235,7 +235,7 @@
       0,
       1
     ],
-    "explanation": "Die Verneinung von A ⟹ B ist A ∧ ¬B, keine Implikation. Der handschriftliche Hinweis ('einfach NICHT davorschreiben') markiert dieses Vorgehen als falsch. 📄 Quelle: skript08_mit, Folie 65 (S.5)",
+    "explanation": "Die Verneinung von $A \\Rightarrow B$ ist $A \\land \\lnot B$, keine Implikation. Der handschriftliche Hinweis ('einfach NICHT davorschreiben') markiert dieses Vorgehen als falsch. 📄 Quelle: skript08_mit, Folie 65 (S.5)",
     "source": "skript08_mit, Folie 65 (S.5, Arithmetik)"
   },
   {
@@ -243,11 +243,11 @@
     "topic": "skript08_mit_euklid_konstruktion",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Konstruktion für P = {2, 3, 5, 7}: Berechne das Produkt aller Elemente plus 1, also 2·3·5·7 + 1.",
+    "question": "Konstruktion für $P = \\{2, 3, 5, 7\\}$: Berechne das Produkt aller Elemente plus 1, also $2 \\cdot 3 \\cdot 5 \\cdot 7 + 1$.",
     "answer": 211,
     "tolerance": 0,
     "unit": "",
-    "explanation": "2·3·5·7 = 210, plus 1 ergibt 211. 211 ist eine Primzahl, die nicht in P = {2, 3, 5, 7} liegt (Widerspruch). 📄 Quelle: skript08_mit, Folie 67 (S.6)",
+    "explanation": "$2 \\cdot 3 \\cdot 5 \\cdot 7 = 210$, plus 1 ergibt 211. 211 ist eine Primzahl, die nicht in $P = \\{2, 3, 5, 7\\}$ liegt (Widerspruch). 📄 Quelle: skript08_mit, Folie 67 (S.6)",
     "source": "skript08_mit, Folie 67 (S.6, Arithmetik)"
   },
   {
@@ -255,11 +255,11 @@
     "topic": "skript08_mit_euklid_konstruktion",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Konstruktion für P = {3, 5}: Berechne a := 3·5 + 1.",
+    "question": "Konstruktion für $P = \\{3, 5\\}$: Berechne $a := 3 \\cdot 5 + 1$.",
     "answer": 16,
     "tolerance": 0,
     "unit": "",
-    "explanation": "3·5 = 15, plus 1 ergibt 16. 16 ist zwar keine Primzahl, aber ihr Primteiler 2 liegt nicht in P = {3, 5}. 📄 Quelle: skript08_mit, Folie 67 (S.6)",
+    "explanation": "$3 \\cdot 5 = 15$, plus 1 ergibt 16. 16 ist zwar keine Primzahl, aber ihr Primteiler 2 liegt nicht in $P = \\{3, 5\\}$. 📄 Quelle: skript08_mit, Folie 67 (S.6)",
     "source": "skript08_mit, Folie 67 (S.6, Arithmetik)"
   },
   {
@@ -286,10 +286,10 @@
     "topic": "skript08_mit_euklid_konstruktion",
     "difficulty": 2,
     "type": "multi",
-    "question": "Warum führt die Zahl 211 bei P = {2, 3, 5, 7} zum Widerspruch?",
+    "question": "Warum führt die Zahl 211 bei $P = \\{2, 3, 5, 7\\}$ zum Widerspruch?",
     "options": [
       "211 ist eine Primzahl",
-      "211 ist nicht in P = {2, 3, 5, 7} enthalten, müsste als Primzahl aber in P liegen",
+      "211 ist nicht in $P = \\{2, 3, 5, 7\\}$ enthalten, müsste als Primzahl aber in P liegen",
       "211 ist durch 2, 3, 5 und 7 teilbar",
       "211 ist keine natürliche Zahl"
     ],
@@ -297,7 +297,7 @@
       0,
       1
     ],
-    "explanation": "211 = 2·3·5·7 + 1 ist eine Primzahl, liegt aber nicht in P = {2, 3, 5, 7}; da P alle Primzahlen enthalten soll, ist das ein Widerspruch. 📄 Quelle: skript08_mit, Folie 67 (S.6)",
+    "explanation": "$211 = 2 \\cdot 3 \\cdot 5 \\cdot 7 + 1$ ist eine Primzahl, liegt aber nicht in $P = \\{2, 3, 5, 7\\}$; da P alle Primzahlen enthalten soll, ist das ein Widerspruch. 📄 Quelle: skript08_mit, Folie 67 (S.6)",
     "source": "skript08_mit, Folie 67 (S.6, Arithmetik)"
   },
   {

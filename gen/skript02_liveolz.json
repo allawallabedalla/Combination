@@ -4,12 +4,12 @@
     "topic": "skript02_liveolz_peano_axiome",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Eigenschaften nennt Peano dafür, dass eine Zahlenmenge N die Natürlichen Zahlen ist?",
+    "question": "Welche Eigenschaften nennt Peano dafür, dass eine Zahlenmenge $N$ die Natürlichen Zahlen ist?",
     "options": [
       "1 ist eine Natürliche Zahl.",
-      "Zu jeder natürlichen Zahl n gibt es genau einen Nachfolger n'.",
-      "Kein Element von N hat als Nachfolger die 1.",
-      "Kein Element ist Nachfolger zweier verschiedener Elemente von N.",
+      "Zu jeder natürlichen Zahl $n$ gibt es genau einen Nachfolger $n'$.",
+      "Kein Element von $N$ hat als Nachfolger die 1.",
+      "Kein Element ist Nachfolger zweier verschiedener Elemente von $N$.",
       "Jede natürliche Zahl besitzt genau einen Vorgänger."
     ],
     "correct": [
@@ -18,7 +18,7 @@
       2,
       3
     ],
-    "explanation": "Die Folie listet die Peano-Eigenschaften: (1) 1 ist eine Natürliche Zahl, (2) zu jeder natürlichen Zahl n gibt es genau einen Nachfolger n', (3) kein Element von N hat als Nachfolger die 1, (4) kein Element ist Nachfolger zweier verschiedener Elemente von N. Ein garantierter Vorgänger jeder Zahl ist NICHT aufgeführt (die 1 hat keinen Vorgänger). 📄 Quelle: skript02_liveolz, Folie 1 (S.1)",
+    "explanation": "Die Folie listet die Peano-Eigenschaften: (1) 1 ist eine Natürliche Zahl, (2) zu jeder natürlichen Zahl $n$ gibt es genau einen Nachfolger $n'$, (3) kein Element von $N$ hat als Nachfolger die 1, (4) kein Element ist Nachfolger zweier verschiedener Elemente von $N$. Ein garantierter Vorgänger jeder Zahl ist NICHT aufgeführt (die 1 hat keinen Vorgänger). 📄 Quelle: skript02_liveolz, Folie 1 (S.1)",
     "source": "skript02_liveolz, Folie 1 (S.1, Arithmetik - Rückblick, Peano-Axiome)"
   },
   {
@@ -28,15 +28,15 @@
     "type": "single",
     "question": "Wie lautet das fünfte Peano-Axiom (Induktionsaxiom)?",
     "options": [
-      "Wenn M eine Teilmenge von N ist und die ersten beiden Axiome erfüllt sind, dann ist M gleich N.",
-      "Wenn M eine Teilmenge von N ist, dann ist M stets gleich N.",
-      "Wenn M die ersten beiden Axiome erfüllt, dann ist M eine Teilmenge von N.",
-      "Jede Teilmenge M von N enthält die 1."
+      "Wenn $M$ eine Teilmenge von $N$ ist und die ersten beiden Axiome erfüllt sind, dann ist $M$ gleich $N$.",
+      "Wenn $M$ eine Teilmenge von $N$ ist, dann ist $M$ stets gleich $N$.",
+      "Wenn $M$ die ersten beiden Axiome erfüllt, dann ist $M$ eine Teilmenge von $N$.",
+      "Jede Teilmenge $M$ von $N$ enthält die 1."
     ],
     "correct": [
       0
     ],
-    "explanation": "Das 5. Axiom fordert BEIDE Voraussetzungen zusammen: M ist Teilmenge von N UND die ersten beiden Axiome sind (in M) erfüllt; erst dann folgt M = N. Das bloße Teilmenge-Sein genügt nicht. 📄 Quelle: skript02_liveolz, Folie 1 (S.1)",
+    "explanation": "Das 5. Axiom fordert BEIDE Voraussetzungen zusammen: $M$ ist Teilmenge von $N$ UND die ersten beiden Axiome sind (in $M$) erfüllt; erst dann folgt $M = N$. Das bloße Teilmenge-Sein genügt nicht. 📄 Quelle: skript02_liveolz, Folie 1 (S.1)",
     "source": "skript02_liveolz, Folie 1 (S.1, Arithmetik - Rückblick, Peano-Axiome)"
   },
   {
@@ -44,19 +44,19 @@
     "topic": "skript02_liveolz_peano_axiome",
     "difficulty": 2,
     "type": "multi",
-    "question": "Betrachtet wird die Menge M = {1; 3; 5; 7; …} (die ungeraden natürlichen Zahlen). Welche Aussagen sind richtig?",
+    "question": "Betrachtet wird die Menge $M = \\{1; 3; 5; 7; \\dots\\}$ (die ungeraden natürlichen Zahlen). Welche Aussagen sind richtig?",
     "options": [
-      "M ist eine Teilmenge von N (M ⊂ N).",
-      "Die Elemente von M sind natürliche Zahlen.",
-      "Es gilt M ≠ N, weil die geraden natürlichen Zahlen fehlen.",
-      "Wegen M ⊂ N gilt automatisch M = N."
+      "$M$ ist eine Teilmenge von $N$ ($M \\subset N$).",
+      "Die Elemente von $M$ sind natürliche Zahlen.",
+      "Es gilt $M \\ne N$, weil die geraden natürlichen Zahlen fehlen.",
+      "Wegen $M \\subset N$ gilt automatisch $M = N$."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "In der Mitschrift wird festgehalten: {1; 3; 5; 7; …} ⊂ N, das sind natürliche Zahlen, und A1–A4 sind erfüllt. Aber die geraden natürlichen Zahlen fehlen, also ist M ≠ N. Teilmenge-Sein allein garantiert somit nicht M = N. 📄 Quelle: skript02_liveolz, Folie 1 (S.1)",
+    "explanation": "In der Mitschrift wird festgehalten: $\\{1; 3; 5; 7; \\dots\\} \\subset N$, das sind natürliche Zahlen, und A1–A4 sind erfüllt. Aber die geraden natürlichen Zahlen fehlen, also ist $M \\ne N$. Teilmenge-Sein allein garantiert somit nicht $M = N$. 📄 Quelle: skript02_liveolz, Folie 1 (S.1)",
     "source": "skript02_liveolz, Folie 1 (S.1, Arithmetik - Rückblick, Peano-Axiome)"
   },
   {
@@ -66,16 +66,16 @@
     "type": "multi",
     "question": "Wie wird die Addition (vor der Axiomatisierung) für beliebige Natürliche Zahlen festgesetzt?",
     "options": [
-      "n + 1 := n' (der Nachfolger von n)",
-      "n + (m + 1) := (n + m)' (der Nachfolger von n + m)",
-      "n + 1 := n (die Addition mit 1 lässt n unverändert)",
-      "n + (m + 1) := (n + m) + m"
+      "$n + 1 := n'$ (der Nachfolger von $n$)",
+      "$n + (m + 1) := (n + m)'$ (der Nachfolger von $n + m$)",
+      "$n + 1 := n$ (die Addition mit 1 lässt $n$ unverändert)",
+      "$n + (m + 1) := (n + m) + m$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Additionsdefinition lautet: 1) n + 1 := n' (Nachfolger von n) und 2) n + (m + 1) := (n + m)' — rekursiv (schrittweise rückwärts) mit 1) bestimmbar. 📄 Quelle: skript02_liveolz, Folie 2 (S.2)",
+    "explanation": "Die Additionsdefinition lautet: 1) $n + 1 := n'$ (Nachfolger von $n$) und 2) $n + (m + 1) := (n + m)'$ — rekursiv (schrittweise rückwärts) mit 1) bestimmbar. 📄 Quelle: skript02_liveolz, Folie 2 (S.2)",
     "source": "skript02_liveolz, Folie 2 (S.2, Operationen (Vertiefung) – Addition)"
   },
   {
@@ -83,11 +83,11 @@
     "topic": "skript02_liveolz_addition",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechnen Sie mit der Definition der Addition: 4 + 3 = ?",
+    "question": "Berechnen Sie mit der Definition der Addition: $4 + 3$ = ?",
     "answer": 7,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Schrittweise mit der Definition: 4 + 3 = 4 + (2 + 1) = (4 + 2)' = ((4 + 1)')' = ((4')')' = ((5)')' = (6)' = 7. 📄 Quelle: skript02_liveolz, Folie 2 (S.2)",
+    "explanation": "Schrittweise mit der Definition: $4 + 3 = 4 + (2 + 1) = (4 + 2)' = ((4 + 1)')' = ((4')')' = ((5)')' = (6)' = 7$. 📄 Quelle: skript02_liveolz, Folie 2 (S.2)",
     "source": "skript02_liveolz, Folie 2 (S.2, Operationen (Vertiefung) – Addition)"
   },
   {
@@ -95,11 +95,11 @@
     "topic": "skript02_liveolz_addition",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechnen Sie mit der Definition der Addition: 3 + 4 = ?",
+    "question": "Berechnen Sie mit der Definition der Addition: $3 + 4$ = ?",
     "answer": 7,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Schrittweise mit der Definition: 3 + 4 = 3 + (3 + 1) = (3 + 3)' = … = (((3 + 1)')')' = (((3')')')' = ((4')')' = ((5)')' = (6)' = 7. 📄 Quelle: skript02_liveolz, Folie 2 (S.2)",
+    "explanation": "Schrittweise mit der Definition: $3 + 4 = 3 + (3 + 1) = (3 + 3)' = \\dots = (((3 + 1)')')' = (((3')')')' = ((4')')' = ((5)')' = (6)' = 7$. 📄 Quelle: skript02_liveolz, Folie 2 (S.2)",
     "source": "skript02_liveolz, Folie 2 (S.2, Operationen (Vertiefung) – Addition)"
   },
   {
@@ -109,16 +109,16 @@
     "type": "multi",
     "question": "Wie wird die Multiplikation für beliebige Natürliche Zahlen festgesetzt?",
     "options": [
-      "n · 1 := n (die Multiplikation mit 1)",
-      "n · (m + 1) := n · m + n (rekursiv)",
-      "n · 1 := n' (Nachfolger von n)",
-      "n · (m + 1) := n · m + m"
+      "$n \\cdot 1 := n$ (die Multiplikation mit 1)",
+      "$n \\cdot (m + 1) := n \\cdot m + n$ (rekursiv)",
+      "$n \\cdot 1 := n'$ (Nachfolger von $n$)",
+      "$n \\cdot (m + 1) := n \\cdot m + m$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Multiplikationsdefinition lautet: 1) n · 1 := n (Multiplikation mit 1) und 2) n · (m + 1) := n · m + n (rekursiv). 📄 Quelle: skript02_liveolz, Folie 3 (S.3)",
+    "explanation": "Die Multiplikationsdefinition lautet: 1) $n \\cdot 1 := n$ (Multiplikation mit 1) und 2) $n \\cdot (m + 1) := n \\cdot m + n$ (rekursiv). 📄 Quelle: skript02_liveolz, Folie 3 (S.3)",
     "source": "skript02_liveolz, Folie 3 (S.3, Operationen (Vertiefung) – Multiplikation)"
   },
   {
@@ -126,11 +126,11 @@
     "topic": "skript02_liveolz_multiplikation",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Berechnen Sie mit der Definition der Multiplikation: 4 · 3 = ?",
+    "question": "Berechnen Sie mit der Definition der Multiplikation: $4 \\cdot 3$ = ?",
     "answer": 12,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Schrittweise mit der Definition: 4 · 3 = 4 · (2 + 1) = 4 · 2 + 4 = 4 · (1 + 1) + 4 = 4 · 1 + 4 + 4 = 4 + 4 + 4 = 12. 📄 Quelle: skript02_liveolz, Folie 3 (S.3)",
+    "explanation": "Schrittweise mit der Definition: $4 \\cdot 3 = 4 \\cdot (2 + 1) = 4 \\cdot 2 + 4 = 4 \\cdot (1 + 1) + 4 = 4 \\cdot 1 + 4 + 4 = 4 + 4 + 4 = 12$. 📄 Quelle: skript02_liveolz, Folie 3 (S.3)",
     "source": "skript02_liveolz, Folie 3 (S.3, Operationen (Vertiefung) – Multiplikation)"
   },
   {
@@ -138,11 +138,11 @@
     "topic": "skript02_liveolz_multiplikation",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechnen Sie mit der Definition der Multiplikation: 2 · 5 = ?",
+    "question": "Berechnen Sie mit der Definition der Multiplikation: $2 \\cdot 5$ = ?",
     "answer": 10,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Nach der Multiplikationsdefinition ergibt sich 2 · 5 = 10 (Aufgabe (b) der Folie). 📄 Quelle: skript02_liveolz, Folie 3 (S.3)",
+    "explanation": "Nach der Multiplikationsdefinition ergibt sich $2 \\cdot 5 = 10$ (Aufgabe (b) der Folie). 📄 Quelle: skript02_liveolz, Folie 3 (S.3)",
     "source": "skript02_liveolz, Folie 3 (S.3, Operationen (Vertiefung) – Multiplikation)"
   },
   {
@@ -150,7 +150,7 @@
     "topic": "skript02_liveolz_potenz_definition",
     "difficulty": 2,
     "type": "multi",
-    "question": "Bei einer Definition (z. B. von n^m) unterscheidet man Definiendum und Definiens. Welche Zuordnungen sind richtig?",
+    "question": "Bei einer Definition (z. B. von $n^m$) unterscheidet man Definiendum und Definiens. Welche Zuordnungen sind richtig?",
     "options": [
       "Das Definiendum ist der neu zu definierende Begriff.",
       "Das Definiens sind die definierenden Eigenschaften.",
@@ -170,17 +170,17 @@
     "topic": "skript02_liveolz_potenz_definition",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie wird die Potenz n^m inhaltlich definiert (Definiens)?",
+    "question": "Wie wird die Potenz $n^m$ inhaltlich definiert (Definiens)?",
     "options": [
-      "Die Zahl n wird m-fach mit sich selbst multipliziert.",
-      "Die Zahl n wird m-fach zu sich selbst addiert.",
-      "Die Zahl m wird n-fach mit sich selbst multipliziert.",
-      "Die Zahl n wird mit ihrem Nachfolger m multipliziert."
+      "Die Zahl $n$ wird $m$-fach mit sich selbst multipliziert.",
+      "Die Zahl $n$ wird $m$-fach zu sich selbst addiert.",
+      "Die Zahl $m$ wird $n$-fach mit sich selbst multipliziert.",
+      "Die Zahl $n$ wird mit ihrem Nachfolger $m$ multipliziert."
     ],
     "correct": [
       0
     ],
-    "explanation": "Laut Mitschrift: n^m ist die Potenz der beiden natürlichen Zahlen n und m; die Potenz einer Zahl ist die m-fache Multiplikation der Zahl n mit sich selbst — d. h. die Zahl n wird m-fach mit sich selbst multipliziert. 📄 Quelle: skript02_liveolz, Folie 4 (S.4)",
+    "explanation": "Laut Mitschrift: $n^m$ ist die Potenz der beiden natürlichen Zahlen $n$ und $m$; die Potenz einer Zahl ist die $m$-fache Multiplikation der Zahl $n$ mit sich selbst — d. h. die Zahl $n$ wird $m$-fach mit sich selbst multipliziert. 📄 Quelle: skript02_liveolz, Folie 4 (S.4)",
     "source": "skript02_liveolz, Folie 4 (S.4, Eine Definition von n^m)"
   },
   {
@@ -188,11 +188,11 @@
     "topic": "skript02_liveolz_potenz_definition",
     "difficulty": 1,
     "type": "numeric",
-    "question": "In der Entdeckung zum Potenzieren steht 2·2·2·2·2 = 2^m. Wie groß ist der Exponent m?",
+    "question": "In der Entdeckung zum Potenzieren steht $2 \\cdot 2 \\cdot 2 \\cdot 2 \\cdot 2 = 2^m$. Wie groß ist der Exponent $m$?",
     "answer": 5,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Das Beispiel der Mitschrift lautet 2·2·2·2·2 = 2^5; die Zahl 2 wird fünfmal mit sich selbst multipliziert, also m = 5. 📄 Quelle: skript02_liveolz, Folie 4 (S.4)",
+    "explanation": "Das Beispiel der Mitschrift lautet $2 \\cdot 2 \\cdot 2 \\cdot 2 \\cdot 2 = 2^5$; die Zahl 2 wird fünfmal mit sich selbst multipliziert, also $m = 5$. 📄 Quelle: skript02_liveolz, Folie 4 (S.4)",
     "source": "skript02_liveolz, Folie 4 (S.4, Eine Definition von n^m)"
   }
 ]

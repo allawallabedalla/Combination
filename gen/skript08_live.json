@@ -4,11 +4,11 @@
     "topic": "skript08_live_flaechenverwandlung",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Ein Rechteck mit Flächeninhalt A(F_R) = 24 cm² soll in ein Quadrat verwandelt werden. Aus dem Ansatz 24 = p·q mit q = 6 cm folgt für p welcher Wert?",
+    "question": "Ein Rechteck mit Flächeninhalt $A(F_R) = 24$ cm² soll in ein Quadrat verwandelt werden. Aus dem Ansatz $24 = p \\cdot q$ mit $q = 6$ cm folgt für $p$ welcher Wert?",
     "answer": 4,
     "tolerance": 0,
     "unit": "cm",
-    "explanation": "Aus 24 = p·q mit q = 6 cm folgt p = 24/6 = 4 cm. 📄 Quelle: skript08_live, Folie 12 (S.1)",
+    "explanation": "Aus $24 = p \\cdot q$ mit $q = 6$ cm folgt $p = \\frac{24}{6} = 4$ cm. 📄 Quelle: skript08_live, Folie 12 (S.1)",
     "source": "skript08_live, Folie 12 (S.1, Flächeninhalte bei den Griechen)"
   },
   {
@@ -16,11 +16,11 @@
     "topic": "skript08_live_hoehensatz",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Beim Höhensatz-Verfahren gilt p + q = c (Hypotenuse). Mit p = 4 cm und q = 6 cm: Wie lang ist die Hypotenuse c?",
+    "question": "Beim Höhensatz-Verfahren gilt $p + q = c$ (Hypotenuse). Mit $p = 4$ cm und $q = 6$ cm: Wie lang ist die Hypotenuse $c$?",
     "answer": 10,
     "tolerance": 0,
     "unit": "cm",
-    "explanation": "c = p + q = 4 cm + 6 cm = 10 cm. 📄 Quelle: skript08_live, Folie 12 (S.1)",
+    "explanation": "$c = p + q$ = 4 cm + 6 cm = 10 cm. 📄 Quelle: skript08_live, Folie 12 (S.1)",
     "source": "skript08_live, Folie 12 (S.1, Flächeninhalte bei den Griechen)"
   },
   {
@@ -28,18 +28,18 @@
     "topic": "skript08_live_hoehensatz",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Aussagen entsprechen dem Höhensatz (mit Höhe h_c und den Hypotenusenabschnitten p, q)?",
+    "question": "Welche Aussagen entsprechen dem Höhensatz (mit Höhe $h_c$ und den Hypotenusenabschnitten $p$, $q$)?",
     "options": [
-      "h_c · h_c = p · q",
-      "p + q = c, und h_c teilt c in p und q",
-      "a² = p · c",
-      "h_c = p + q"
+      "$h_c \\cdot h_c = p \\cdot q$",
+      "$p + q = c$, und $h_c$ teilt $c$ in $p$ und $q$",
+      "$a^2 = p \\cdot c$",
+      "$h_c = p + q$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Auf der Folie steht der Höhensatz h_c·h_c = p·q sowie p+q = c und dass h_c die Hypotenuse c in p und q teilt. a² = p·c ist der Kathetensatz (falsch hier), h_c = p+q ist falsch. 📄 Quelle: skript08_live, Folie 12 (S.1)",
+    "explanation": "Auf der Folie steht der Höhensatz $h_c \\cdot h_c = p \\cdot q$ sowie $p + q = c$ und dass $h_c$ die Hypotenuse $c$ in $p$ und $q$ teilt. $a^2 = p \\cdot c$ ist der Kathetensatz (falsch hier), $h_c = p + q$ ist falsch. 📄 Quelle: skript08_live, Folie 12 (S.1)",
     "source": "skript08_live, Folie 12 (S.1, Flächeninhalte bei den Griechen)"
   },
   {
@@ -47,11 +47,11 @@
     "topic": "skript08_live_konstruktion",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Schritte gehören zum Konstruktionsprotokoll der Höhensatz-Konstruktion (Verwandlung Rechteck → Quadrat, mit c = 10 cm, p = 4 cm, q = 6 cm)?",
+    "question": "Welche Schritte gehören zum Konstruktionsprotokoll der Höhensatz-Konstruktion (Verwandlung Rechteck → Quadrat, mit $c = 10$ cm, $p = 4$ cm, $q = 6$ cm)?",
     "options": [
-      "Konstruiere c = AB = 10 cm mit den Abschnitten q = 6 cm und p = 4 cm",
-      "Konstruiere den Thaleskreis mit Mittelpunkt M_AB und Radius |AM_AB| = 5 cm",
-      "Der Schnittpunkt von Thaleskreis und der Höhe h_c ist der Punkt C des rechtwinkligen Dreiecks",
+      "Konstruiere $c = AB = 10$ cm mit den Abschnitten $q = 6$ cm und $p = 4$ cm",
+      "Konstruiere den Thaleskreis mit Mittelpunkt $M_{AB}$ und Radius $|AM_{AB}| = 5$ cm",
+      "Der Schnittpunkt von Thaleskreis und der Höhe $h_c$ ist der Punkt $C$ des rechtwinkligen Dreiecks",
       "Der Radius des Thaleskreises beträgt 10 cm"
     ],
     "correct": [
@@ -59,7 +59,7 @@
       1,
       2
     ],
-    "explanation": "Laut Konstruktionsprotokoll: c = AB = 10 cm mit q = 6 cm und p = 4 cm; Thaleskreis mit Mittelpunkt M_AB und Radius |AM_AB| = |BM_AB| = 5 cm; Schnittpunkt von Thaleskreis und Höhe h_c ist C. Der Radius ist 5 cm, nicht 10 cm. 📄 Quelle: skript08_live, Folie 12 (S.1)",
+    "explanation": "Laut Konstruktionsprotokoll: $c = AB = 10$ cm mit $q = 6$ cm und $p = 4$ cm; Thaleskreis mit Mittelpunkt $M_{AB}$ und Radius $|AM_{AB}| = |BM_{AB}| = 5$ cm; Schnittpunkt von Thaleskreis und Höhe $h_c$ ist $C$. Der Radius ist 5 cm, nicht 10 cm. 📄 Quelle: skript08_live, Folie 12 (S.1)",
     "source": "skript08_live, Folie 12 (S.1, Flächeninhalte bei den Griechen)"
   },
   {
@@ -67,19 +67,19 @@
     "topic": "skript08_live_hoehensatz",
     "difficulty": 2,
     "type": "multi",
-    "question": "In Schritt 7 wird der Höhensatz angewendet: Wenn ABC rechtwinklig ist, dann gilt h_c·h_c = p·q. Wie werden die beiden Seiten dieser Gleichung auf der Mitschrift gedeutet?",
+    "question": "In Schritt 7 wird der Höhensatz angewendet: Wenn $ABC$ rechtwinklig ist, dann gilt $h_c \\cdot h_c = p \\cdot q$. Wie werden die beiden Seiten dieser Gleichung auf der Mitschrift gedeutet?",
     "options": [
-      "h_c · h_c ist das gesuchte Quadrat",
-      "p · q ist das gegebene Rechteck",
-      "Die Beziehung gilt nur, wenn ABC rechtwinklig ist",
-      "Die Beziehung gilt für jedes beliebige Dreieck ABC"
+      "$h_c \\cdot h_c$ ist das gesuchte Quadrat",
+      "$p \\cdot q$ ist das gegebene Rechteck",
+      "Die Beziehung gilt nur, wenn $ABC$ rechtwinklig ist",
+      "Die Beziehung gilt für jedes beliebige Dreieck $ABC$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "In der Mitschrift ist h_c·h_c als 'gesuchtes Quadrat' und p·q als 'unser gegebenes Rechteck' bezeichnet; Voraussetzung ist, dass ABC rechtwinklig (⊾) ist. 📄 Quelle: skript08_live, Folie 12 (S.2)",
+    "explanation": "In der Mitschrift ist $h_c \\cdot h_c$ als 'gesuchtes Quadrat' und $p \\cdot q$ als 'unser gegebenes Rechteck' bezeichnet; Voraussetzung ist, dass $ABC$ rechtwinklig (⊾) ist. 📄 Quelle: skript08_live, Folie 12 (S.2)",
     "source": "skript08_live, Folie 12 (S.2, Flächeninhalte bei den Griechen)"
   },
   {
@@ -87,19 +87,19 @@
     "topic": "skript08_live_konstruktion",
     "difficulty": 2,
     "type": "multi",
-    "question": "Konstruktion des Quadrats (Schritt 8): Man trägt mit dem Zirkel die Länge PC (der Höhe h_c) ab. Welche Angaben sind korrekt?",
+    "question": "Konstruktion des Quadrats (Schritt 8): Man trägt mit dem Zirkel die Länge $PC$ (der Höhe $h_c$) ab. Welche Angaben sind korrekt?",
     "options": [
-      "Schlage den Kreis um Punkt P und erhalte Punkt R",
-      "Schlage den Kreis um Punkt C und um Punkt R; der Schnittpunkt ergibt Punkt S",
-      "Die mit dem Zirkel abgetragene Länge ist die Höhe h_c (= Strecke PC)",
-      "Die abgetragene Länge ist die Hypotenuse c = 10 cm"
+      "Schlage den Kreis um Punkt $P$ und erhalte Punkt $R$",
+      "Schlage den Kreis um Punkt $C$ und um Punkt $R$; der Schnittpunkt ergibt Punkt $S$",
+      "Die mit dem Zirkel abgetragene Länge ist die Höhe $h_c$ (= Strecke $PC$)",
+      "Die abgetragene Länge ist die Hypotenuse $c = 10$ cm"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Schritt 8: Länge PC (= h_c) abtragen; Kreis um P → Punkt R; Kreis um C und um R → Schnittpunkt = Punkt S. Abgetragen wird die Höhe h_c, nicht die Hypotenuse c. 📄 Quelle: skript08_live, Folie 12 (S.2)",
+    "explanation": "Schritt 8: Länge $PC$ (= $h_c$) abtragen; Kreis um $P$ → Punkt $R$; Kreis um $C$ und um $R$ → Schnittpunkt = Punkt $S$. Abgetragen wird die Höhe $h_c$, nicht die Hypotenuse $c$. 📄 Quelle: skript08_live, Folie 12 (S.2)",
     "source": "skript08_live, Folie 12 (S.2, Flächeninhalte bei den Griechen)"
   },
   {
@@ -107,11 +107,11 @@
     "topic": "skript08_live_flaechenverwandlung",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Ein Quadrat mit A(F_Q) = 36 cm² soll in ein Rechteck der Länge 3 cm verwandelt werden. Welche Seitenlänge hat das gegebene Quadrat (36 = 6·6)?",
+    "question": "Ein Quadrat mit $A(F_Q) = 36$ cm² soll in ein Rechteck der Länge 3 cm verwandelt werden. Welche Seitenlänge hat das gegebene Quadrat ($36 = 6 \\cdot 6$)?",
     "answer": 6,
     "tolerance": 0,
     "unit": "cm",
-    "explanation": "36 cm² = 6·6, d. h. das Quadrat hat die Seitenlänge 6 cm. 📄 Quelle: skript08_live, Folie 13 (S.3)",
+    "explanation": "36 cm² $= 6 \\cdot 6$, d. h. das Quadrat hat die Seitenlänge 6 cm. 📄 Quelle: skript08_live, Folie 13 (S.3)",
     "source": "skript08_live, Folie 13 (S.3, Flächeninhalte bei den Griechen)"
   },
   {
@@ -139,17 +139,17 @@
     "type": "multi",
     "question": "Welche Schritte gehören zum Konstruktionsprotokoll der Kathetensatz-Konstruktion (Quadrat → Rechteck der Länge 3 cm)?",
     "options": [
-      "Zeichne den Thaleskreis über BC durch M_BC",
-      "Zeichne einen Kreis durch B mit Radius 3 cm",
-      "P = Schnittpunkt von Thaleskreis (TK) und K_3(B)",
-      "Zeichne einen Kreis durch B mit Radius 6 cm"
+      "Zeichne den Thaleskreis über $BC$ durch $M_{BC}$",
+      "Zeichne einen Kreis durch $B$ mit Radius 3 cm",
+      "$P$ = Schnittpunkt von Thaleskreis (TK) und $K_3(B)$",
+      "Zeichne einen Kreis durch $B$ mit Radius 6 cm"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Protokoll b): 1) Thaleskreis über BC durch M_BC, 2) Kreis durch B mit Radius 3 cm, 3) P = SP von TK und K_3(B), außerdem h_c = PC. Der Kreis um B hat Radius 3 cm (nicht 6 cm). 📄 Quelle: skript08_live, Folie 13 (S.3)",
+    "explanation": "Protokoll b): 1) Thaleskreis über $BC$ durch $M_{BC}$, 2) Kreis durch $B$ mit Radius 3 cm, 3) $P$ = SP von TK und $K_3(B)$, außerdem $h_c = PC$. Der Kreis um $B$ hat Radius 3 cm (nicht 6 cm). 📄 Quelle: skript08_live, Folie 13 (S.3)",
     "source": "skript08_live, Folie 13 (S.3, Flächeninhalte bei den Griechen)"
   },
   {
@@ -157,19 +157,19 @@
     "topic": "skript08_live_kathetensatz",
     "difficulty": 2,
     "type": "multi",
-    "question": "Kathetensatz: ABC ist ein rechtwinkliges Dreieck und h_c teilt AB in p und q, so dass c = p + q. Welche Aussagen sind korrekt?",
+    "question": "Kathetensatz: $ABC$ ist ein rechtwinkliges Dreieck und $h_c$ teilt $AB$ in $p$ und $q$, so dass $c = p + q$. Welche Aussagen sind korrekt?",
     "options": [
-      "a² = p · c",
-      "Voraussetzung ist, dass ABC ein rechtwinkliges Dreieck ist",
-      "c = p + q",
-      "a² = h_c · c"
+      "$a^2 = p \\cdot c$",
+      "Voraussetzung ist, dass $ABC$ ein rechtwinkliges Dreieck ist",
+      "$c = p + q$",
+      "$a^2 = h_c \\cdot c$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Kathetensatz laut Mitschrift: für das rechtwinklige Dreieck ABC mit c = p + q gilt a² = p·c. a² = h_c·c ist falsch. 📄 Quelle: skript08_live, Folie 13 (S.4)",
+    "explanation": "Kathetensatz laut Mitschrift: für das rechtwinklige Dreieck $ABC$ mit $c = p + q$ gilt $a^2 = p \\cdot c$. $a^2 = h_c \\cdot c$ ist falsch. 📄 Quelle: skript08_live, Folie 13 (S.4)",
     "source": "skript08_live, Folie 13 (S.4, Flächeninhalte bei den Griechen)"
   },
   {
@@ -177,11 +177,11 @@
     "topic": "skript08_live_konstruktion",
     "difficulty": 2,
     "type": "multi",
-    "question": "Letzter Konstruktionsschritt der Quadrat-in-Rechteck-Verwandlung (Rechteck p·c): Welche Aussagen sind korrekt?",
+    "question": "Letzter Konstruktionsschritt der Quadrat-in-Rechteck-Verwandlung (Rechteck $p \\cdot c$): Welche Aussagen sind korrekt?",
     "options": [
-      "Man trägt die Länge von c ab und schlägt den Kreis um P und um B mit Radius c",
-      "K_3(R) ∩ K_c(B) = S",
-      "Man erhält das Rechteck PBRS mit demselben Flächeninhalt (36 cm²) wie das gegebene Quadrat",
+      "Man trägt die Länge von $c$ ab und schlägt den Kreis um $P$ und um $B$ mit Radius $c$",
+      "$K_3(R) \\cap K_c(B) = S$",
+      "Man erhält das Rechteck $PBRS$ mit demselben Flächeninhalt (36 cm²) wie das gegebene Quadrat",
       "Das entstehende Rechteck hat den Flächeninhalt 18 cm²"
     ],
     "correct": [
@@ -189,7 +189,7 @@
       1,
       2
     ],
-    "explanation": "Konstruktion: Länge c abtragen, Kreise um P und um B mit Radius c; über K_3(R) ∩ K_c(B) = S erhält man das Rechteck PBRS mit gleichem Flächeninhalt 36 cm² wie das gegebene Quadrat. 📄 Quelle: skript08_live, Folie 13 (S.4)",
+    "explanation": "Konstruktion: Länge $c$ abtragen, Kreise um $P$ und um $B$ mit Radius $c$; über $K_3(R) \\cap K_c(B) = S$ erhält man das Rechteck $PBRS$ mit gleichem Flächeninhalt 36 cm² wie das gegebene Quadrat. 📄 Quelle: skript08_live, Folie 13 (S.4)",
     "source": "skript08_live, Folie 13 (S.4, Flächeninhalte bei den Griechen)"
   }
 ]
