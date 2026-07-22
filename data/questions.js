@@ -18028,7 +18028,7 @@ const SAMPLE_QUESTIONS = [
     "options": [
       "mit Hilfe der Satzgruppe des Pythagoras",
       "mit dem Strahlensatz",
-      "mit der Kreiszahl π",
+      "mit der Kreiszahl $\\pi$",
       "mit dem Sinussatz"
     ],
     "correct": [
@@ -18082,15 +18082,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Wie lautet der „Satz von der eindeutigen Division mit Rest“?",
     "options": [
-      "Für alle Natürlichen Zahlen n, m gilt: Wenn n ≥ m, dann gibt es genau ein Paar Natürlicher Zahlen q und r mit n = q·m + r und 0 ≤ r < m",
-      "Für alle Natürlichen Zahlen n, m gilt: Wenn n ≥ m, dann gibt es q, r mit n = q·m + r und 0 < r ≤ m",
-      "Für alle Natürlichen Zahlen n, m gilt: Es gibt q, r mit n = q·m + r und r < m (ohne Untergrenze)",
-      "Für alle Natürlichen Zahlen n, m gilt: n = m·q + r mit 0 ≤ r < q"
+      "Für alle Natürlichen Zahlen $n$, $m$ gilt: Wenn $n \\ge m$, dann gibt es genau ein Paar Natürlicher Zahlen $q$ und $r$ mit $n = q \\cdot m + r$ und $0 \\le r < m$",
+      "Für alle Natürlichen Zahlen $n$, $m$ gilt: Wenn $n \\ge m$, dann gibt es $q$, $r$ mit $n = q \\cdot m + r$ und $0 < r \\le m$",
+      "Für alle Natürlichen Zahlen $n$, $m$ gilt: Es gibt $q$, $r$ mit $n = q \\cdot m + r$ und $r < m$ (ohne Untergrenze)",
+      "Für alle Natürlichen Zahlen $n$, $m$ gilt: $n = m \\cdot q + r$ mit $0 \\le r < q$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Satz lautet: Wenn n ≥ m ist, dann gibt es genau ein Paar Natürlicher Zahlen q und r, so dass n = q·m + r mit 0 ≤ r < m gilt. 📄 Quelle: ari23_vl09, Folie 8 (S.8)",
+    "explanation": "Der Satz lautet: Wenn $n \\ge m$ ist, dann gibt es genau ein Paar Natürlicher Zahlen $q$ und $r$, so dass $n = q \\cdot m + r$ mit $0 \\le r < m$ gilt. 📄 Quelle: ari23_vl09, Folie 8 (S.8)",
     "source": "ari23_vl09, Folie 8 (S.8, Erkundung II – Vorbemerkungen)"
   },
   {
@@ -18100,10 +18100,10 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Bedingungen/Voraussetzungen nennt der Satz von der eindeutigen Division mit Rest?",
     "options": [
-      "Er gilt für alle Natürlichen Zahlen n, m",
-      "Es muss n ≥ m gelten",
-      "Es gibt genau ein Paar Natürlicher Zahlen q und r",
-      "Es muss 0 ≤ r < m gelten"
+      "Er gilt für alle Natürlichen Zahlen $n$, $m$",
+      "Es muss $n \\ge m$ gelten",
+      "Es gibt genau ein Paar Natürlicher Zahlen $q$ und $r$",
+      "Es muss $0 \\le r < m$ gelten"
     ],
     "correct": [
       0,
@@ -18111,7 +18111,7 @@ const SAMPLE_QUESTIONS = [
       2,
       3
     ],
-    "explanation": "Der Satz fordert: für alle Natürlichen Zahlen n, m, Voraussetzung n ≥ m, dann genau ein Paar q, r mit n = q·m + r und 0 ≤ r < m. 📄 Quelle: ari23_vl09, Folie 8 (S.8)",
+    "explanation": "Der Satz fordert: für alle Natürlichen Zahlen $n$, $m$, Voraussetzung $n \\ge m$, dann genau ein Paar $q$, $r$ mit $n = q \\cdot m + r$ und $0 \\le r < m$. 📄 Quelle: ari23_vl09, Folie 8 (S.8)",
     "source": "ari23_vl09, Folie 8 (S.8, Erkundung II – Vorbemerkungen)"
   },
   {
@@ -18119,11 +18119,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "restklassen_kongruenzen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "In der Grundschule schreibt man „7 : 2 = 3 Rest r“. Wie groß ist r?",
+    "question": "In der Grundschule schreibt man „$7 : 2 = 3$ Rest $r$“. Wie groß ist $r$?",
     "answer": 1,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Auf der Folie steht das Beispiel 7 : 2 = 3 Rest 1, also r = 1. 📄 Quelle: ari23_vl09, Folie 8 (S.8)",
+    "explanation": "Auf der Folie steht das Beispiel $7 : 2 = 3$ Rest 1, also $r = 1$. 📄 Quelle: ari23_vl09, Folie 8 (S.8)",
     "source": "ari23_vl09, Folie 8 (S.8, Erkundung II – Vorbemerkungen)"
   },
   {
@@ -18133,15 +18133,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Wie wird „3 Rest 1“ (als eigentlich nötige Definition) festgelegt?",
     "options": [
-      "3 Rest 1 := 3 + (1/2)",
-      "3 Rest 1 := 3 + 1",
-      "3 Rest 1 := 3 · (1/2)",
-      "3 Rest 1 := 3 − (1/2)"
+      "3 Rest 1 $:= 3 + \\frac{1}{2}$",
+      "3 Rest 1 $:= 3 + 1$",
+      "3 Rest 1 $:= 3 \\cdot \\frac{1}{2}$",
+      "3 Rest 1 $:= 3 - \\frac{1}{2}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie definiert beispielhaft 3 Rest 1 := 3 + (1/2); ohne weitere Definition kann man 7 = 3·2 + 1 schreiben. 📄 Quelle: ari23_vl09, Folie 8 (S.8)",
+    "explanation": "Die Folie definiert beispielhaft 3 Rest 1 $:= 3 + \\frac{1}{2}$; ohne weitere Definition kann man $7 = 3 \\cdot 2 + 1$ schreiben. 📄 Quelle: ari23_vl09, Folie 8 (S.8)",
     "source": "ari23_vl09, Folie 8 (S.8, Erkundung II – Vorbemerkungen)"
   },
   {
@@ -18149,17 +18149,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lässt sich eine Natürliche Zahl n im b-adischen Stellenwertsystem schreiben?",
+    "question": "Wie lässt sich eine Natürliche Zahl $n$ im b-adischen Stellenwertsystem schreiben?",
     "options": [
-      "n = a_m·b^m + a_{m-1}·b^{m-1} + … + a_1·b^1 + a_0·b^0",
-      "n = a_m·b + a_{m-1}·b + … + a_1·b + a_0·b",
-      "n = b^m + b^{m-1} + … + b^1 + b^0",
-      "n = a_0·b^m + a_1·b^{m-1} + … + a_m·b^0"
+      "$n = a_m \\cdot b^m + a_{m-1} \\cdot b^{m-1} + \\dots + a_1 \\cdot b^1 + a_0 \\cdot b^0$",
+      "$n = a_m \\cdot b + a_{m-1} \\cdot b + \\dots + a_1 \\cdot b + a_0 \\cdot b$",
+      "$n = b^m + b^{m-1} + \\dots + b^1 + b^0$",
+      "$n = a_0 \\cdot b^m + a_1 \\cdot b^{m-1} + \\dots + a_m \\cdot b^0$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie gibt n = a_m·b^m + a_{m-1}·b^{m-1} + … + a_1·b^1 + a_0·b^0. 📄 Quelle: ari23_vl09, Folie 9 (S.9)",
+    "explanation": "Die Folie gibt $n = a_m \\cdot b^m + a_{m-1} \\cdot b^{m-1} + \\dots + a_1 \\cdot b^1 + a_0 \\cdot b^0$. 📄 Quelle: ari23_vl09, Folie 9 (S.9)",
     "source": "ari23_vl09, Folie 9 (S.9, Erkundung II – Stellenwertsystem)"
   },
   {
@@ -18169,17 +18169,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Aussagen zum b-adischen Stellenwertsystem sind korrekt?",
     "options": [
-      "m ist eine Natürliche Zahl (inklusive 0)",
+      "$m$ ist eine Natürliche Zahl (inklusive 0)",
       "Die Darstellung gilt für das b-adische Stellenwertsystem, z. B. das dekadische",
-      "Der letzte Summand ist a_0·b^0",
-      "m muss ungerade sein"
+      "Der letzte Summand ist $a_0 \\cdot b^0$",
+      "$m$ muss ungerade sein"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Laut Folie ist m eine Natürliche Zahl inklusive 0, die Darstellung gilt für das b-adische (z. B. dekadische) Stellenwertsystem, und der letzte Summand ist a_0·b^0. 📄 Quelle: ari23_vl09, Folie 9 (S.9)",
+    "explanation": "Laut Folie ist $m$ eine Natürliche Zahl inklusive 0, die Darstellung gilt für das b-adische (z. B. dekadische) Stellenwertsystem, und der letzte Summand ist $a_0 \\cdot b^0$. 📄 Quelle: ari23_vl09, Folie 9 (S.9)",
     "source": "ari23_vl09, Folie 9 (S.9, Erkundung II – Stellenwertsystem)"
   },
   {
@@ -18189,15 +18189,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Wie wird 1123 im dekadischen Stellenwertsystem geschrieben?",
     "options": [
-      "1123 = 1·10^3 + 1·10^2 + 2·10^1 + 3·10^0",
-      "1123 = 1·10^3 + 1·10^2 + 2·10^1 + 3·10^1",
-      "1123 = 1·10^2 + 1·10^1 + 2·10^0 + 3",
-      "1123 = 1·10^3 + 2·10^2 + 1·10^1 + 3·10^0"
+      "$1123 = 1 \\cdot 10^3 + 1 \\cdot 10^2 + 2 \\cdot 10^1 + 3 \\cdot 10^0$",
+      "$1123 = 1 \\cdot 10^3 + 1 \\cdot 10^2 + 2 \\cdot 10^1 + 3 \\cdot 10^1$",
+      "$1123 = 1 \\cdot 10^2 + 1 \\cdot 10^1 + 2 \\cdot 10^0 + 3$",
+      "$1123 = 1 \\cdot 10^3 + 2 \\cdot 10^2 + 1 \\cdot 10^1 + 3 \\cdot 10^0$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Das Beispiel lautet 1123 = 1·10^3 + 1·10^2 + 2·10^1 + 3·10^0. 📄 Quelle: ari23_vl09, Folie 9 (S.9)",
+    "explanation": "Das Beispiel lautet $1123 = 1 \\cdot 10^3 + 1 \\cdot 10^2 + 2 \\cdot 10^1 + 3 \\cdot 10^0$. 📄 Quelle: ari23_vl09, Folie 9 (S.9)",
     "source": "ari23_vl09, Folie 9 (S.9, Erkundung II – Stellenwertsystem)"
   },
   {
@@ -18205,11 +18205,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "euklid_ggt",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Beim Teilen durch m = 2 gilt für die Einer: 3 = 1·2 + r. Wie groß ist der Rest r?",
+    "question": "Beim Teilen durch $m = 2$ gilt für die Einer: $3 = 1 \\cdot 2 + r$. Wie groß ist der Rest $r$?",
     "answer": 1,
     "tolerance": 0,
     "unit": "",
-    "explanation": "In der Tabelle steht 3 = 1·2 + 1, also r = 1. 📄 Quelle: ari23_vl09, Folie 10 (S.10)",
+    "explanation": "In der Tabelle steht $3 = 1 \\cdot 2 + 1$, also $r = 1$. 📄 Quelle: ari23_vl09, Folie 10 (S.10)",
     "source": "ari23_vl09, Folie 10 (S.10, Erkundung II – Teilen durch m)"
   },
   {
@@ -18219,17 +18219,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche der folgenden Gleichungen zur Division durch 2 (Einer-Spalte) sind korrekt?",
     "options": [
-      "1 = 0·2 + 1",
-      "2 = 1·2 + 0",
-      "3 = 1·2 + 1",
-      "4 = 2·2 + 1"
+      "$1 = 0 \\cdot 2 + 1$",
+      "$2 = 1 \\cdot 2 + 0$",
+      "$3 = 1 \\cdot 2 + 1$",
+      "$4 = 2 \\cdot 2 + 1$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Tabelle zeigt 1 = 0·2 + 1, 2 = 1·2 + 0, 3 = 1·2 + 1 und 4 = 2·2 + 0 (nicht 4 = 2·2 + 1). 📄 Quelle: ari23_vl09, Folie 10 (S.10)",
+    "explanation": "Die Tabelle zeigt $1 = 0 \\cdot 2 + 1$, $2 = 1 \\cdot 2 + 0$, $3 = 1 \\cdot 2 + 1$ und $4 = 2 \\cdot 2 + 0$ (nicht $4 = 2 \\cdot 2 + 1$). 📄 Quelle: ari23_vl09, Folie 10 (S.10)",
     "source": "ari23_vl09, Folie 10 (S.10, Erkundung II – Teilen durch m)"
   },
   {
@@ -18237,11 +18237,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "euklid_ggt",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Beim Teilen durch 2 gilt für die Zehner: 10 = q·2 + 0. Wie groß ist q?",
+    "question": "Beim Teilen durch 2 gilt für die Zehner: $10 = q \\cdot 2 + 0$. Wie groß ist $q$?",
     "answer": 5,
     "tolerance": 0,
     "unit": "",
-    "explanation": "In der Tabelle steht 10 = 5·2 + 0, also q = 5. 📄 Quelle: ari23_vl09, Folie 10 (S.10)",
+    "explanation": "In der Tabelle steht $10 = 5 \\cdot 2 + 0$, also $q = 5$. 📄 Quelle: ari23_vl09, Folie 10 (S.10)",
     "source": "ari23_vl09, Folie 10 (S.10, Erkundung II – Teilen durch m)"
   },
   {
@@ -18269,15 +18269,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Wie lautet die Endstellenregel für die Teilbarkeit durch 2 als Satz?",
     "options": [
-      "Wenn die Zahl n₁, die aus der letzten Ziffer einer Zahl n besteht, durch 2 teilbar ist, dann ist die Zahl n durch 2 teilbar",
-      "Wenn n durch 2 teilbar ist, dann ist die Quersumme von n durch 2 teilbar",
-      "Wenn die letzte Ziffer durch 5 teilbar ist, dann ist n durch 2 teilbar",
-      "Wenn n₁ durch 2 teilbar ist, dann ist n durch 4 teilbar"
+      "Wenn die Zahl $n_1$, die aus der letzten Ziffer einer Zahl $n$ besteht, durch 2 teilbar ist, dann ist die Zahl $n$ durch 2 teilbar",
+      "Wenn $n$ durch 2 teilbar ist, dann ist die Quersumme von $n$ durch 2 teilbar",
+      "Wenn die letzte Ziffer durch 5 teilbar ist, dann ist $n$ durch 2 teilbar",
+      "Wenn $n_1$ durch 2 teilbar ist, dann ist $n$ durch 4 teilbar"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Satz lautet: Für alle natürlichen Zahlen n gilt: Wenn die Zahl n₁, die aus der letzten Ziffer einer Zahl n besteht, durch 2 teilbar ist, dann ist die Zahl n durch 2 teilbar. 📄 Quelle: ari23_vl09, Folie 11 (S.11)",
+    "explanation": "Der Satz lautet: Für alle natürlichen Zahlen $n$ gilt: Wenn die Zahl $n_1$, die aus der letzten Ziffer einer Zahl $n$ besteht, durch 2 teilbar ist, dann ist die Zahl $n$ durch 2 teilbar. 📄 Quelle: ari23_vl09, Folie 11 (S.11)",
     "source": "ari23_vl09, Folie 11 (S.11, Teilbarkeitsregeln – Endstellenregeln)"
   },
   {
@@ -18289,7 +18289,7 @@ const SAMPLE_QUESTIONS = [
     "options": [
       "2 teilt jeden 10er, 100er, 1000er usw.",
       "Es kommt nur darauf an, ob 2 die letzte Ziffer als Zahl gelesen teilt",
-      "n₁ besteht aus der letzten Ziffer der Zahl n",
+      "$n_1$ besteht aus der letzten Ziffer der Zahl $n$",
       "Es kommt auf die Quersumme an"
     ],
     "correct": [
@@ -18297,7 +18297,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Der Kasten erklärt: 2 teilt jeden 10er, 100er, 1000er usw., also kommt es nur darauf an, ob 2 die letzte Ziffer als Zahl gelesen teilt; n₁ ist die letzte Ziffer von n. Die Quersumme spielt hier keine Rolle. 📄 Quelle: ari23_vl09, Folie 11 (S.11)",
+    "explanation": "Der Kasten erklärt: 2 teilt jeden 10er, 100er, 1000er usw., also kommt es nur darauf an, ob 2 die letzte Ziffer als Zahl gelesen teilt; $n_1$ ist die letzte Ziffer von $n$. Die Quersumme spielt hier keine Rolle. 📄 Quelle: ari23_vl09, Folie 11 (S.11)",
     "source": "ari23_vl09, Folie 11 (S.11, Teilbarkeitsregeln – Endstellenregeln)"
   },
   {
@@ -18309,7 +18309,7 @@ const SAMPLE_QUESTIONS = [
     "options": [
       "Beweisen Sie den Satz!",
       "Widerlegen Sie den Satz durch ein Gegenbeispiel",
-      "Berechnen Sie n₁ für n = 1123",
+      "Berechnen Sie $n_1$ für $n = 1123$",
       "Formulieren Sie eine Quersummenregel"
     ],
     "correct": [
@@ -18341,17 +18341,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeitsregeln",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie wird n im Beweis der Endstellenregel mit figurierten Zahlen zerlegt?",
+    "question": "Wie wird $n$ im Beweis der Endstellenregel mit figurierten Zahlen zerlegt?",
     "options": [
-      "n = ??? + n₁",
-      "n = n₁ · 2",
-      "n = ??? − n₁",
-      "n = a_0 · n₁"
+      "$n = ??? + n_1$",
+      "$n = n_1 \\cdot 2$",
+      "$n = ??? - n_1$",
+      "$n = a_0 \\cdot n_1$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie steht n = ??? + n₁ = ??? + (Punktbild), also die Zerlegung in einen Rest und den Endstellenanteil n₁. 📄 Quelle: ari23_vl09, Folie 12 (S.12)",
+    "explanation": "Auf der Folie steht $n = ??? + n_1 = ??? +$ (Punktbild), also die Zerlegung in einen Rest und den Endstellenanteil $n_1$. 📄 Quelle: ari23_vl09, Folie 12 (S.12)",
     "source": "ari23_vl09, Folie 12 (S.12, Teilbarkeitsregeln – Beweis figurierte Zahlen)"
   },
   {
@@ -18361,15 +18361,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Welche Zerlegung von 10 nutzt der formale Beweis der Endstellenregel?",
     "options": [
-      "10 = 2·5",
-      "10 = 2 + 5",
-      "10 = 2·5·1 mit Rest",
-      "10 = 5²"
+      "$10 = 2 \\cdot 5$",
+      "$10 = 2 + 5$",
+      "$10 = 2 \\cdot 5 \\cdot 1$ mit Rest",
+      "$10 = 5^2$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Beweis schreibt die Zehnerpotenzen mit 10 = 2·5, z. B. n = a_m·(2·5)^m + … 📄 Quelle: ari23_vl09, Folie 13 (S.13)",
+    "explanation": "Der Beweis schreibt die Zehnerpotenzen mit $10 = 2 \\cdot 5$, z. B. $n = a_m \\cdot (2 \\cdot 5)^m + \\dots$ 📄 Quelle: ari23_vl09, Folie 13 (S.13)",
     "source": "ari23_vl09, Folie 13 (S.13, Teilbarkeitsregeln – Beweis formal)"
   },
   {
@@ -18377,17 +18377,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeitsregeln",
     "difficulty": 3,
     "type": "single",
-    "question": "Wie lautet die ausgeklammerte Darstellung von n im formalen Beweis der Endstellenregel für die Teilbarkeit durch 2?",
+    "question": "Wie lautet die ausgeklammerte Darstellung von $n$ im formalen Beweis der Endstellenregel für die Teilbarkeit durch 2?",
     "options": [
-      "n = 2·(a_m·2^{m-1}·5^m + a_{m-1}·2^{m-2}·5^{m-1} + … + a_1·5) + a_0",
-      "n = 2·(a_m·5^m + a_{m-1}·5^{m-1} + … + a_1·5) + a_0",
-      "n = 5·(a_m·2^m + a_{m-1}·2^{m-1} + … + a_1·2) + a_0",
-      "n = 2·(a_m·2^{m-1}·5^m + … + a_1·5) + a_1"
+      "$n = 2 \\cdot (a_m \\cdot 2^{m-1} \\cdot 5^m + a_{m-1} \\cdot 2^{m-2} \\cdot 5^{m-1} + \\dots + a_1 \\cdot 5) + a_0$",
+      "$n = 2 \\cdot (a_m \\cdot 5^m + a_{m-1} \\cdot 5^{m-1} + \\dots + a_1 \\cdot 5) + a_0$",
+      "$n = 5 \\cdot (a_m \\cdot 2^m + a_{m-1} \\cdot 2^{m-1} + \\dots + a_1 \\cdot 2) + a_0$",
+      "$n = 2 \\cdot (a_m \\cdot 2^{m-1} \\cdot 5^m + \\dots + a_1 \\cdot 5) + a_1$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Nach Ausklammern von 2 steht n = 2·(a_m·2^{m-1}·5^m + a_{m-1}·2^{m-2}·5^{m-1} + … + a_1·5) + a_0. 📄 Quelle: ari23_vl09, Folie 13 (S.13)",
+    "explanation": "Nach Ausklammern von 2 steht $n = 2 \\cdot (a_m \\cdot 2^{m-1} \\cdot 5^m + a_{m-1} \\cdot 2^{m-2} \\cdot 5^{m-1} + \\dots + a_1 \\cdot 5) + a_0$. 📄 Quelle: ari23_vl09, Folie 13 (S.13)",
     "source": "ari23_vl09, Folie 13 (S.13, Teilbarkeitsregeln – Beweis formal)"
   },
   {
@@ -18397,15 +18397,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Welche Schlussfolgerung zieht der formale Beweis der Endstellenregel für die Teilbarkeit durch 2?",
     "options": [
-      "Es entscheidet also nur a₀, da der erste Term durch 2 teilbar ist",
-      "Es entscheidet nur a_m",
+      "Es entscheidet also nur $a_0$, da der erste Term durch 2 teilbar ist",
+      "Es entscheidet nur $a_m$",
       "Der erste Term ist nie durch 2 teilbar",
       "Es entscheidet die Quersumme"
     ],
     "correct": [
       0
     ],
-    "explanation": "Am Ende steht: „Es entscheidet also nur a₀, da der erste Term durch 2 teilbar ist.“ 📄 Quelle: ari23_vl09, Folie 13 (S.13)",
+    "explanation": "Am Ende steht: „Es entscheidet also nur $a_0$, da der erste Term durch 2 teilbar ist.“ 📄 Quelle: ari23_vl09, Folie 13 (S.13)",
     "source": "ari23_vl09, Folie 13 (S.13, Teilbarkeitsregeln – Beweis formal)"
   },
   {
@@ -18415,16 +18415,16 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welcher weiterführende Arbeitsauftrag schließt an die Endstellenregel für die Teilbarkeit durch 2 an?",
     "options": [
-      "Suchen Sie alle weiteren Divisoren m, für die es eine Endstellenregel gibt",
+      "Suchen Sie alle weiteren Divisoren $m$, für die es eine Endstellenregel gibt",
       "Formulieren Sie einen möglichst allgemeinen Satz",
       "Beweisen Sie die Quersummenregel",
-      "Berechnen Sie 7 : 2"
+      "Berechnen Sie $7 : 2$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Der Aufgabenkasten fordert: „Suchen Sie alle weiteren Divisoren m, für die es eine Endstellenregel gibt. Formulieren Sie einen möglichst allgemeinen Satz.“ 📄 Quelle: ari23_vl09, Folie 14 (S.14)",
+    "explanation": "Der Aufgabenkasten fordert: „Suchen Sie alle weiteren Divisoren $m$, für die es eine Endstellenregel gibt. Formulieren Sie einen möglichst allgemeinen Satz.“ 📄 Quelle: ari23_vl09, Folie 14 (S.14)",
     "source": "ari23_vl09, Folie 14 (S.14, Teilbarkeitsregeln – Endstellenregeln)"
   },
   {
@@ -18434,15 +18434,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Wie lautet die Voraussetzung des Satzes zur Endstellenregel für die Teilbarkeit durch 2?",
     "options": [
-      "Wenn die Zahl n₁, die aus der letzten Ziffer einer Zahl n besteht, durch 2 teilbar ist",
-      "Wenn die Zahl n₁ durch 3 teilbar ist",
-      "Wenn n₁ aus den ersten Ziffern von n besteht",
-      "Wenn n₁ durch 2 teilbar ist, dann ist n₁ durch 2 teilbar"
+      "Wenn die Zahl $n_1$, die aus der letzten Ziffer einer Zahl $n$ besteht, durch 2 teilbar ist",
+      "Wenn die Zahl $n_1$ durch 3 teilbar ist",
+      "Wenn $n_1$ aus den ersten Ziffern von $n$ besteht",
+      "Wenn $n_1$ durch 2 teilbar ist, dann ist $n_1$ durch 2 teilbar"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der wiederholte Satz lautet: Für alle natürlichen Zahlen n gilt: Wenn die Zahl n₁, die aus der letzten Ziffer einer Zahl n besteht, durch 2 teilbar ist, dann ist die Zahl n durch 2 teilbar. 📄 Quelle: ari23_vl09, Folie 14 (S.14)",
+    "explanation": "Der wiederholte Satz lautet: Für alle natürlichen Zahlen $n$ gilt: Wenn die Zahl $n_1$, die aus der letzten Ziffer einer Zahl $n$ besteht, durch 2 teilbar ist, dann ist die Zahl $n$ durch 2 teilbar. 📄 Quelle: ari23_vl09, Folie 14 (S.14)",
     "source": "ari23_vl09, Folie 14 (S.14, Teilbarkeitsregeln – Endstellenregeln)"
   },
   {
@@ -18450,12 +18450,12 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeitsregeln",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche der folgenden Endstellenregeln für das Dezimalsystem gelten als Sätze (für alle natürlichen Zahlen n)?",
+    "question": "Welche der folgenden Endstellenregeln für das Dezimalsystem gelten als Sätze (für alle natürlichen Zahlen $n$)?",
     "options": [
-      "Wenn die aus der letzten Ziffer bestehende Zahl n1 durch 2 teilbar ist, dann ist n durch 2 teilbar.",
-      "Wenn die aus den letzten zwei Ziffern bestehende Zahl n1 durch 4 teilbar ist, dann ist n durch 4 teilbar.",
-      "Wenn die aus den letzten drei Ziffern bestehende Zahl n1 durch 8 teilbar ist, dann ist n durch 8 teilbar.",
-      "Wenn die letzte Ziffer durch 4 teilbar ist, dann ist n durch 4 teilbar."
+      "Wenn die aus der letzten Ziffer bestehende Zahl $n_1$ durch 2 teilbar ist, dann ist $n$ durch 2 teilbar.",
+      "Wenn die aus den letzten zwei Ziffern bestehende Zahl $n_1$ durch 4 teilbar ist, dann ist $n$ durch 4 teilbar.",
+      "Wenn die aus den letzten drei Ziffern bestehende Zahl $n_1$ durch 8 teilbar ist, dann ist $n$ durch 8 teilbar.",
+      "Wenn die letzte Ziffer durch 4 teilbar ist, dann ist $n$ durch 4 teilbar."
     ],
     "correct": [
       0,
@@ -18470,11 +18470,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeitsregeln",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Aus wie vielen der letzten Ziffern muss die Zahl n1 gebildet werden, um mit der Endstellenregel die Teilbarkeit durch 8 zu entscheiden?",
+    "question": "Aus wie vielen der letzten Ziffern muss die Zahl $n_1$ gebildet werden, um mit der Endstellenregel die Teilbarkeit durch 8 zu entscheiden?",
     "answer": 3,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Für die Teilbarkeit durch 8 betrachtet man die aus den letzten drei Ziffern bestehende Zahl n1. 📄 Quelle: ari23_vl09, Folie 15 (S.15)",
+    "explanation": "Für die Teilbarkeit durch 8 betrachtet man die aus den letzten drei Ziffern bestehende Zahl $n_1$. 📄 Quelle: ari23_vl09, Folie 15 (S.15)",
     "source": "ari23_vl09, Folie 15 (S.15, Teilbarkeitsregeln – Endstellenregeln)"
   },
   {
@@ -18484,17 +18484,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Die Endstellenregeln für Potenzen von 2 lassen sich allgemein zusammenfassen. Welche Aussagen zu dieser allgemeinen Endstellenregel sind korrekt?",
     "options": [
-      "Wenn die aus den letzten k Ziffern bestehende Zahl n1 durch 2^k teilbar ist, dann ist n durch 2^k teilbar.",
-      "Für k=1 erhält man die Regel für die Teilbarkeit durch 2.",
-      "Für k=3 erhält man die Regel für die Teilbarkeit durch 8.",
-      "Wenn n1 aus den letzten k Ziffern durch 2·k teilbar ist, dann ist n durch 2·k teilbar."
+      "Wenn die aus den letzten $k$ Ziffern bestehende Zahl $n_1$ durch $2^k$ teilbar ist, dann ist $n$ durch $2^k$ teilbar.",
+      "Für $k=1$ erhält man die Regel für die Teilbarkeit durch 2.",
+      "Für $k=3$ erhält man die Regel für die Teilbarkeit durch 8.",
+      "Wenn $n_1$ aus den letzten $k$ Ziffern durch $2 \\cdot k$ teilbar ist, dann ist $n$ durch $2 \\cdot k$ teilbar."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die allgemeine Regel lautet: Ist die aus den letzten k Ziffern bestehende Zahl n1 durch 2^k teilbar, so ist n durch 2^k teilbar. Für k=1 folgt die 2er-Regel (2^1=2), für k=3 die 8er-Regel (2^3=8). Es geht um 2^k, nicht um 2·k. 📄 Quelle: ari23_vl09, Folie 16 (S.16)",
+    "explanation": "Die allgemeine Regel lautet: Ist die aus den letzten $k$ Ziffern bestehende Zahl $n_1$ durch $2^k$ teilbar, so ist $n$ durch $2^k$ teilbar. Für $k=1$ folgt die 2er-Regel ($2^1=2$), für $k=3$ die 8er-Regel ($2^3=8$). Es geht um $2^k$, nicht um $2 \\cdot k$. 📄 Quelle: ari23_vl09, Folie 16 (S.16)",
     "source": "ari23_vl09, Folie 16 (S.16, Teilbarkeitsregeln – Endstellenregeln)"
   },
   {
@@ -18502,11 +18502,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeitsregeln",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Wie viele der letzten Ziffern muss man gemäß der allgemeinen Regel (2^k) betrachten, um die Teilbarkeit durch 16 zu entscheiden?",
+    "question": "Wie viele der letzten Ziffern muss man gemäß der allgemeinen Regel ($2^k$) betrachten, um die Teilbarkeit durch 16 zu entscheiden?",
     "answer": 4,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Es ist 16 = 2^4, also k=4: Man betrachtet die aus den letzten vier Ziffern bestehende Zahl n1. 📄 Quelle: ari23_vl09, Folie 16 (S.16)",
+    "explanation": "Es ist $16 = 2^4$, also $k=4$: Man betrachtet die aus den letzten vier Ziffern bestehende Zahl $n_1$. 📄 Quelle: ari23_vl09, Folie 16 (S.16)",
     "source": "ari23_vl09, Folie 16 (S.16, Teilbarkeitsregeln – Endstellenregeln)"
   },
   {
@@ -18532,19 +18532,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeitsregeln",
     "difficulty": 3,
     "type": "multi",
-    "question": "Im formalen Beweis wird n umgeformt zu n = 4·(a_m·2^(m-2)·5^m + a_(m-1)·2^(m-3)·5^(m-1) + ... + a_2·5^2) + a_1·10 + a_0. Welche Aussagen treffen zu?",
+    "question": "Im formalen Beweis wird $n$ umgeformt zu $n = 4 \\cdot (a_m \\cdot 2^{m-2} \\cdot 5^m + a_{m-1} \\cdot 2^{m-3} \\cdot 5^{m-1} + \\dots + a_2 \\cdot 5^2) + a_1 \\cdot 10 + a_0$. Welche Aussagen treffen zu?",
     "options": [
       "Der Klammerterm mal 4 ist durch 4 teilbar.",
-      "Über die Teilbarkeit durch 4 entscheidet nur der Rest a_1·10 + a_0, also die letzten beiden Ziffern.",
-      "Im Beweis wird 10 = 2·5 verwendet.",
-      "Der Term a_1·10 + a_0 ist stets durch 4 teilbar."
+      "Über die Teilbarkeit durch 4 entscheidet nur der Rest $a_1 \\cdot 10 + a_0$, also die letzten beiden Ziffern.",
+      "Im Beweis wird $10 = 2 \\cdot 5$ verwendet.",
+      "Der Term $a_1 \\cdot 10 + a_0$ ist stets durch 4 teilbar."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Durch Ausklammern von 4 (unter Verwendung von 10=2·5) ist der erste Term durch 4 teilbar; es entscheidet also nur a_1·10 + a_0, die letzten beiden Ziffern. Dieser Rest ist nicht automatisch durch 4 teilbar. 📄 Quelle: ari23_vl09, Folie 19 (S.19)",
+    "explanation": "Durch Ausklammern von 4 (unter Verwendung von $10=2 \\cdot 5$) ist der erste Term durch 4 teilbar; es entscheidet also nur $a_1 \\cdot 10 + a_0$, die letzten beiden Ziffern. Dieser Rest ist nicht automatisch durch 4 teilbar. 📄 Quelle: ari23_vl09, Folie 19 (S.19)",
     "source": "ari23_vl09, Folie 19 (S.19, Teilbarkeitsregeln – formaler Beweis)"
   },
   {
@@ -18556,7 +18556,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 4,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Wegen 10=2·5 wird aus den vorderen Summanden der Faktor 2^2 = 4 ausgeklammert. 📄 Quelle: ari23_vl09, Folie 19 (S.19)",
+    "explanation": "Wegen $10=2 \\cdot 5$ wird aus den vorderen Summanden der Faktor $2^2 = 4$ ausgeklammert. 📄 Quelle: ari23_vl09, Folie 19 (S.19)",
     "source": "ari23_vl09, Folie 19 (S.19, Teilbarkeitsregeln – formaler Beweis)"
   },
   {
@@ -18566,10 +18566,10 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Endstellenregeln für Potenzen von 5 gelten als Sätze?",
     "options": [
-      "Ist die aus der letzten Ziffer bestehende Zahl n1 durch 5 teilbar, so ist n durch 5 teilbar.",
-      "Ist die aus den letzten zwei Ziffern bestehende Zahl n1 durch 25 teilbar, so ist n durch 25 teilbar.",
-      "Ist die aus den letzten drei Ziffern bestehende Zahl n1 durch 125 teilbar, so ist n durch 125 teilbar.",
-      "Ist die aus den letzten zwei Ziffern bestehende Zahl n1 durch 5 teilbar, so ist n durch 25 teilbar."
+      "Ist die aus der letzten Ziffer bestehende Zahl $n_1$ durch 5 teilbar, so ist $n$ durch 5 teilbar.",
+      "Ist die aus den letzten zwei Ziffern bestehende Zahl $n_1$ durch 25 teilbar, so ist $n$ durch 25 teilbar.",
+      "Ist die aus den letzten drei Ziffern bestehende Zahl $n_1$ durch 125 teilbar, so ist $n$ durch 125 teilbar.",
+      "Ist die aus den letzten zwei Ziffern bestehende Zahl $n_1$ durch 5 teilbar, so ist $n$ durch 25 teilbar."
     ],
     "correct": [
       0,
@@ -18588,7 +18588,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 3,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Für die Teilbarkeit durch 125 (=5^3) betrachtet man die aus den letzten drei Ziffern bestehende Zahl n1. 📄 Quelle: ari23_vl09, Folie 21 (S.21)",
+    "explanation": "Für die Teilbarkeit durch 125 ($=5^3$) betrachtet man die aus den letzten drei Ziffern bestehende Zahl $n_1$. 📄 Quelle: ari23_vl09, Folie 21 (S.21)",
     "source": "ari23_vl09, Folie 21 (S.21, Teilbarkeitsregeln – Endstellenregeln)"
   },
   {
@@ -18598,17 +18598,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Wie lautet die allgemeine Endstellenregel für Potenzen von 5, und welche Spezialfälle folgen daraus?",
     "options": [
-      "Ist die aus den letzten k Ziffern bestehende Zahl n1 durch 5^k teilbar, dann ist n durch 5^k teilbar.",
-      "Für k=2 folgt die Regel für die Teilbarkeit durch 25.",
-      "Für k=3 folgt die Regel für die Teilbarkeit durch 125.",
-      "Für k=1 folgt die Regel für die Teilbarkeit durch 10."
+      "Ist die aus den letzten $k$ Ziffern bestehende Zahl $n_1$ durch $5^k$ teilbar, dann ist $n$ durch $5^k$ teilbar.",
+      "Für $k=2$ folgt die Regel für die Teilbarkeit durch 25.",
+      "Für $k=3$ folgt die Regel für die Teilbarkeit durch 125.",
+      "Für $k=1$ folgt die Regel für die Teilbarkeit durch 10."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Allgemein: Ist n1 aus den letzten k Ziffern durch 5^k teilbar, so ist n durch 5^k teilbar. k=2 → 25, k=3 → 125; für k=1 ergibt sich 5 (nicht 10). 📄 Quelle: ari23_vl09, Folie 22 (S.22)",
+    "explanation": "Allgemein: Ist $n_1$ aus den letzten $k$ Ziffern durch $5^k$ teilbar, so ist $n$ durch $5^k$ teilbar. $k=2 \\to 25$, $k=3 \\to 125$; für $k=1$ ergibt sich 5 (nicht 10). 📄 Quelle: ari23_vl09, Folie 22 (S.22)",
     "source": "ari23_vl09, Folie 22 (S.22, Teilbarkeitsregeln – Endstellenregeln)"
   },
   {
@@ -18616,11 +18616,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeitsregeln",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Durch welche Zahl ist n teilbar, wenn die aus den letzten zwei Ziffern bestehende Zahl durch 5^2 teilbar ist?",
+    "question": "Durch welche Zahl ist $n$ teilbar, wenn die aus den letzten zwei Ziffern bestehende Zahl durch $5^2$ teilbar ist?",
     "answer": 25,
     "tolerance": 0,
     "unit": "",
-    "explanation": "5^2 = 25: Ist n1 aus den letzten zwei Ziffern durch 25 teilbar, so ist n durch 25 teilbar. 📄 Quelle: ari23_vl09, Folie 22 (S.22)",
+    "explanation": "$5^2 = 25$: Ist $n_1$ aus den letzten zwei Ziffern durch 25 teilbar, so ist $n$ durch 25 teilbar. 📄 Quelle: ari23_vl09, Folie 22 (S.22)",
     "source": "ari23_vl09, Folie 22 (S.22, Teilbarkeitsregeln – Endstellenregeln)"
   },
   {
@@ -18646,19 +18646,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeitsregeln",
     "difficulty": 3,
     "type": "multi",
-    "question": "Im formalen Beweis wird n umgeformt zu n = 5·(a_m·2^m·5^(m-1) + a_(m-1)·2^(m-1)·5^(m-2) + ... + a_1·2) + a_0. Welche Aussagen treffen zu?",
+    "question": "Im formalen Beweis wird $n$ umgeformt zu $n = 5 \\cdot (a_m \\cdot 2^m \\cdot 5^{m-1} + a_{m-1} \\cdot 2^{m-1} \\cdot 5^{m-2} + \\dots + a_1 \\cdot 2) + a_0$. Welche Aussagen treffen zu?",
     "options": [
       "Der ausgeklammerte erste Term (Klammer mal 5) ist durch 5 teilbar.",
-      "Über die Teilbarkeit durch 5 entscheidet nur a_0, die letzte Ziffer.",
-      "Im Beweis wird 10 = 2·5 verwendet.",
-      "Auch a_0 ist stets durch 5 teilbar."
+      "Über die Teilbarkeit durch 5 entscheidet nur $a_0$, die letzte Ziffer.",
+      "Im Beweis wird $10 = 2 \\cdot 5$ verwendet.",
+      "Auch $a_0$ ist stets durch 5 teilbar."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Durch Ausklammern von 5 (mit 10=2·5) ist der erste Term durch 5 teilbar; es entscheidet also nur a_0, die letzte Ziffer. a_0 selbst ist nicht automatisch durch 5 teilbar. 📄 Quelle: ari23_vl09, Folie 25 (S.25)",
+    "explanation": "Durch Ausklammern von 5 (mit $10=2 \\cdot 5$) ist der erste Term durch 5 teilbar; es entscheidet also nur $a_0$, die letzte Ziffer. $a_0$ selbst ist nicht automatisch durch 5 teilbar. 📄 Quelle: ari23_vl09, Folie 25 (S.25)",
     "source": "ari23_vl09, Folie 25 (S.25, Teilbarkeitsregeln – formaler Beweis)"
   },
   {
@@ -18670,7 +18670,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 5,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Wegen 10=2·5 wird aus den vorderen Summanden der Faktor 5 ausgeklammert; es entscheidet nur a_0. 📄 Quelle: ari23_vl09, Folie 25 (S.25)",
+    "explanation": "Wegen $10=2 \\cdot 5$ wird aus den vorderen Summanden der Faktor 5 ausgeklammert; es entscheidet nur $a_0$. 📄 Quelle: ari23_vl09, Folie 25 (S.25)",
     "source": "ari23_vl09, Folie 25 (S.25, Teilbarkeitsregeln – formaler Beweis)"
   },
   {
