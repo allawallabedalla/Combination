@@ -79,11 +79,11 @@
     "topic": "erk05_groessen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "In der verkleinerten Darstellung (handschriftliche Einträge) hat das Rechteck A die Höhe a und die Länge 2a. Wie groß ist sein Flächeninhalt als Vielfaches von a²?",
+    "question": "In der verkleinerten Darstellung (handschriftliche Einträge) hat das Rechteck A die Höhe $a$ und die Länge $2a$. Wie groß ist sein Flächeninhalt als Vielfaches von $a^2$?",
     "answer": 2,
     "tolerance": 0,
     "unit": "a²",
-    "explanation": "Der Flächeninhalt eines Rechtecks ist Länge mal Höhe: 2a · a = 2a². Das Rechteck A hat also den Flächeninhalt 2a². 📄 Quelle: erk05, Folie 4 (S.4)",
+    "explanation": "Der Flächeninhalt eines Rechtecks ist Länge mal Höhe: $2a \\cdot a = 2a^2$. Das Rechteck A hat also den Flächeninhalt $2a^2$. 📄 Quelle: erk05, Folie 4 (S.4)",
     "source": "erk05, Folie 4 (S.4, verkleinerte Darstellung mit handschriftlichen Größen)"
   },
   {
@@ -91,11 +91,11 @@
     "topic": "erk05_groessen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Das große Quadrat hat die Seitenlänge a. Welche Seitenlänge hat das kleine Quadrat als Vielfaches von a?",
+    "question": "Das große Quadrat hat die Seitenlänge $a$. Welche Seitenlänge hat das kleine Quadrat als Vielfaches von $a$?",
     "answer": 0.5,
     "tolerance": 0,
     "unit": "a",
-    "explanation": "Das kleine Quadrat hat die halbe Seitenlänge des großen Quadrats, also ½a = 0,5a. In der verkleinerten Darstellung ist das kleine Quadrat entsprechend mit ½a beschriftet. 📄 Quelle: erk05, Folie 4 (S.4)",
+    "explanation": "Das kleine Quadrat hat die halbe Seitenlänge des großen Quadrats, also $\\frac{1}{2}a = 0{,}5a$. In der verkleinerten Darstellung ist das kleine Quadrat entsprechend mit $\\frac{1}{2}a$ beschriftet. 📄 Quelle: erk05, Folie 4 (S.4)",
     "source": "erk05, Folie 4 (S.4, verkleinerte Darstellung mit handschriftlichen Größen)"
   },
   {
@@ -105,17 +105,17 @@
     "type": "multi",
     "question": "Welche Größen sind in der verkleinerten Darstellung handschriftlich eingetragen?",
     "options": [
-      "Das Rechteck A hat die Länge 2a und die Höhe a.",
-      "Das kleine Quadrat hat die Seitenlänge ½a.",
-      "Das große Quadrat hat die Seitenlänge 2a.",
-      "Die beiden gleich langen Seiten des Dreiecks B sind mit 2a beschriftet."
+      "Das Rechteck A hat die Länge $2a$ und die Höhe $a$.",
+      "Das kleine Quadrat hat die Seitenlänge $\\frac{1}{2}a$.",
+      "Das große Quadrat hat die Seitenlänge $2a$.",
+      "Die beiden gleich langen Seiten des Dreiecks B sind mit $2a$ beschriftet."
     ],
     "correct": [
       0,
       1,
       3
     ],
-    "explanation": "Handschriftlich eingetragen sind für das Rechteck A die Länge 2a und die Höhe a, für das kleine Quadrat die Seitenlänge ½a und für die beiden gleich langen Seiten des Dreiecks B jeweils 2a. Das große Quadrat hat die Seitenlänge a (nicht 2a). 📄 Quelle: erk05, Folie 4 (S.4)",
+    "explanation": "Handschriftlich eingetragen sind für das Rechteck A die Länge $2a$ und die Höhe $a$, für das kleine Quadrat die Seitenlänge $\\frac{1}{2}a$ und für die beiden gleich langen Seiten des Dreiecks B jeweils $2a$. Das große Quadrat hat die Seitenlänge $a$ (nicht $2a$). 📄 Quelle: erk05, Folie 4 (S.4)",
     "source": "erk05, Folie 4 (S.4, verkleinerte Darstellung mit handschriftlichen Größen)"
   }
 ]

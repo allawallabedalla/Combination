@@ -77,17 +77,17 @@
     "topic": "erk03_binomialkoeffizient",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie ist der Binomialkoeffizient (n über k) definiert?",
+    "question": "Wie ist der Binomialkoeffizient $\\binom{n}{k}$ definiert?",
     "options": [
-      "(n über k) = n! / (k! · (n−k)!)",
-      "(n über k) = n! / (k! · n!)",
-      "(n über k) = (n−k)! / (k! · n!)",
-      "(n über k) = n! · k! · (n−k)!"
+      "$\\binom{n}{k} = \\frac{n!}{k! \\cdot (n-k)!}$",
+      "$\\binom{n}{k} = \\frac{n!}{k! \\cdot n!}$",
+      "$\\binom{n}{k} = \\frac{(n-k)!}{k! \\cdot n!}$",
+      "$\\binom{n}{k} = n! \\cdot k! \\cdot (n-k)!$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie definiert den Binomialkoeffizienten als (n über k) = n! / (k! · (n−k)!). 📄 Quelle: erk03, Folie 3 (S.3)",
+    "explanation": "Die Folie definiert den Binomialkoeffizienten als $\\binom{n}{k} = \\frac{n!}{k! \\cdot (n-k)!}$. 📄 Quelle: erk03, Folie 3 (S.3)",
     "source": "erk03, Folie 3 (S.3, Formalisieren)"
   },
   {
@@ -95,17 +95,17 @@
     "topic": "erk03_binomialkoeffizient",
     "difficulty": 1,
     "type": "single",
-    "question": "Was bezeichnen n und k im Binomialkoeffizienten (n über k) beim Pascalschen Dreieck?",
+    "question": "Was bezeichnen $n$ und $k$ im Binomialkoeffizienten $\\binom{n}{k}$ beim Pascalschen Dreieck?",
     "options": [
-      "n die Zeile und k die Spalte",
-      "n die Spalte und k die Zeile",
-      "n die Anzahl der Einträge und k die Zeilensumme",
-      "n den größten Eintrag und k den kleinsten Eintrag"
+      "$n$ die Zeile und $k$ die Spalte",
+      "$n$ die Spalte und $k$ die Zeile",
+      "$n$ die Anzahl der Einträge und $k$ die Zeilensumme",
+      "$n$ den größten Eintrag und $k$ den kleinsten Eintrag"
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie steht: \"Dabei bezeichnet n die Zeile und k die Spalte.\" 📄 Quelle: erk03, Folie 3 (S.3)",
+    "explanation": "Auf der Folie steht: \"Dabei bezeichnet $n$ die Zeile und $k$ die Spalte.\" 📄 Quelle: erk03, Folie 3 (S.3)",
     "source": "erk03, Folie 3 (S.3, Formalisieren)"
   },
   {
@@ -116,15 +116,15 @@
     "question": "Welche Aussagen zur Entstehung der Zahlen im Pascalschen Dreieck sind korrekt?",
     "options": [
       "Eine Zahl entsteht stets durch die Summe der beiden darüber stehenden Zahlen.",
-      "Es gilt (n+1 über k+1) = (n über k) + (n über k+1).",
+      "Es gilt $\\binom{n+1}{k+1} = \\binom{n}{k} + \\binom{n}{k+1}$.",
       "Eine Zahl entsteht durch das Produkt der beiden darüber stehenden Zahlen.",
-      "Es gilt (n+1 über k+1) = (n über k) · (n über k+1)."
+      "Es gilt $\\binom{n+1}{k+1} = \\binom{n}{k} \\cdot \\binom{n}{k+1}$."
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Folie hält fest, dass eine Zahl stets durch die Summe der beiden darüber stehenden Zahlen entsteht, und dass deshalb (n+1 über k+1) = (n über k) + (n über k+1) gilt. Produkt-Varianten sind falsch. 📄 Quelle: erk03, Folie 3 (S.3)",
+    "explanation": "Die Folie hält fest, dass eine Zahl stets durch die Summe der beiden darüber stehenden Zahlen entsteht, und dass deshalb $\\binom{n+1}{k+1} = \\binom{n}{k} + \\binom{n}{k+1}$ gilt. Produkt-Varianten sind falsch. 📄 Quelle: erk03, Folie 3 (S.3)",
     "source": "erk03, Folie 3 (S.3, Formalisieren)"
   },
   {
@@ -132,11 +132,11 @@
     "topic": "erk03_binomialkoeffizient",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Berechnen Sie mit der Definition (n über k) = n!/(k!·(n−k)!) den Binomialkoeffizienten (4 über 2) = 4!/(2!·2!).",
+    "question": "Berechnen Sie mit der Definition $\\binom{n}{k} = \\frac{n!}{k! \\cdot (n-k)!}$ den Binomialkoeffizienten $\\binom{4}{2} = \\frac{4!}{2! \\cdot 2!}$.",
     "answer": 6,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Mit (n über k) = n!/(k!·(n−k)!) ergibt sich (4 über 2) = 24/(2·2) = 6; dies entspricht dem mittleren Eintrag der Zeile 1, 4, 6, 4, 1. 📄 Quelle: erk03, Folie 3 (S.3)",
+    "explanation": "Mit $\\binom{n}{k} = \\frac{n!}{k! \\cdot (n-k)!}$ ergibt sich $\\binom{4}{2} = \\frac{24}{2 \\cdot 2} = 6$; dies entspricht dem mittleren Eintrag der Zeile 1, 4, 6, 4, 1. 📄 Quelle: erk03, Folie 3 (S.3)",
     "source": "erk03, Folie 3 (S.3, Formalisieren)"
   }
 ]

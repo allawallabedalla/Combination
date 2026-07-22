@@ -34,10 +34,10 @@
     "topic": "erk04_quadratlinge",
     "difficulty": 2,
     "type": "multi",
-    "question": "Ein Vierling ist eine Figur aus 4 Quadraten; ein n-Quadratling besteht entsprechend aus n Quadraten. Welche Aussagen zu den n-Quadratlingen (mit n = 3, 4, 5 oder 6) sind korrekt?",
+    "question": "Ein Vierling ist eine Figur aus 4 Quadraten; ein $n$-Quadratling besteht entsprechend aus $n$ Quadraten. Welche Aussagen zu den $n$-Quadratlingen (mit $n = 3, 4, 5$ oder $6$) sind korrekt?",
     "options": [
       "Ein Vier-Quadratling ist dasselbe wie ein Vierling",
-      "Untersucht werden n-Quadratlinge mit n = 3, 4, 5 oder 6",
+      "Untersucht werden $n$-Quadratlinge mit $n = 3, 4, 5$ oder $6$",
       "Man muss festlegen (definieren), wann zwei Quadratlinge gleich oder verschieden sind",
       "Ein Sechs-Quadratling besteht aus acht Quadraten"
     ],
@@ -46,7 +46,7 @@
       1,
       2
     ],
-    "explanation": "Aufgabe 2a nennt Drei-, Vier-, Fünf- und Sechs-Quadratlinge (ein Vier-Quadratling entspricht dem Vierling aus 4 Quadraten), fordert das Festlegen von Gleichheit/Verschiedenheit und Aufgabe 2c spricht von „alle n-Quadratlinge mit n = 3, 4, 5 oder 6“. Ein Sechs-Quadratling besteht aus 6 (nicht 8) Quadraten. 📄 Quelle: erk04, Folie 2 (S.2)",
+    "explanation": "Aufgabe 2a nennt Drei-, Vier-, Fünf- und Sechs-Quadratlinge (ein Vier-Quadratling entspricht dem Vierling aus 4 Quadraten), fordert das Festlegen von Gleichheit/Verschiedenheit und Aufgabe 2c spricht von „alle $n$-Quadratlinge mit $n = 3, 4, 5$ oder $6$“. Ein Sechs-Quadratling besteht aus 6 (nicht 8) Quadraten. 📄 Quelle: erk04, Folie 2 (S.2)",
     "source": "erk04, Folie 2 (S.2, Erkundung IV zu Vierlingen, Erkundung I)"
   },
   {
@@ -58,7 +58,7 @@
     "answer": 6,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Ein n-Quadratling besteht aus n Quadraten (vgl. Vier-Quadratling = Vierling aus 4 Quadraten); ein Sechs-Quadratling besteht daher aus 6 Quadraten. 📄 Quelle: erk04, Folie 2 (S.2)",
+    "explanation": "Ein $n$-Quadratling besteht aus $n$ Quadraten (vgl. Vier-Quadratling = Vierling aus 4 Quadraten); ein Sechs-Quadratling besteht daher aus 6 Quadraten. 📄 Quelle: erk04, Folie 2 (S.2)",
     "source": "erk04, Folie 2 (S.2, Erkundung IV zu Vierlingen, Erkundung I, Aufgabe 2a)"
   },
   {
@@ -66,11 +66,11 @@
     "topic": "erk04_flaeche",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Aus wie vielen Kästchen besteht ein Rechteck mit 6 x 8 Kästchen?",
+    "question": "Aus wie vielen Kästchen besteht ein Rechteck mit $6 \\times 8$ Kästchen?",
     "answer": 48,
     "tolerance": 0,
     "unit": "",
-    "explanation": "In Erkundung II wird ein Rechteck mit 6 x 8 Kästchen betrachtet: 6 · 8 = 48 Kästchen. 📄 Quelle: erk04, Folie 2 (S.2)",
+    "explanation": "In Erkundung II wird ein Rechteck mit $6 \\times 8$ Kästchen betrachtet: $6 \\cdot 8 = 48$ Kästchen. 📄 Quelle: erk04, Folie 2 (S.2)",
     "source": "erk04, Folie 2 (S.2, Erkundung IV zu Vierlingen, Erkundung II, Aufgabe 3)"
   },
   {
@@ -81,7 +81,7 @@
     "question": "Was bedeutet „die Ebene parkettieren“?",
     "options": [
       "Die Steine so lückenlos aneinanderlegen, dass man dies prinzipiell zu allen Seiten endlos fortsetzen könnte",
-      "Nur ein einzelnes 6 x 8-Rechteck lückenlos ausfüllen",
+      "Nur ein einzelnes $6 \\times 8$-Rechteck lückenlos ausfüllen",
       "Die Steine mit möglichst wenig Farben einfärben",
       "Die Steine überlappend übereinanderlegen"
     ],

@@ -8,7 +8,7 @@
     "answer": 8,
     "tolerance": 0,
     "unit": "mm²",
-    "explanation": "Laut Tabelle: Fläche 2 hat Breite 2 mm und Länge 4 mm, also Flächeninhalt 2·4 = 8 mm². 📄 Quelle: erk01, Folie 1 (S.1)",
+    "explanation": "Laut Tabelle: Fläche 2 hat Breite 2 mm und Länge 4 mm, also Flächeninhalt $2 \\cdot 4 = 8$ mm². 📄 Quelle: erk01, Folie 1 (S.1)",
     "source": "erk01, Folie 1 (S.1, Die Matheprofis 4, S. 72)"
   },
   {
@@ -20,7 +20,7 @@
     "answer": 16,
     "tolerance": 0,
     "unit": "mm²",
-    "explanation": "Laut Tabelle: Fläche 3 hat Breite 4 mm und Länge 4 mm, also Flächeninhalt 4·4 = 16 mm². 📄 Quelle: erk01, Folie 1 (S.1)",
+    "explanation": "Laut Tabelle: Fläche 3 hat Breite 4 mm und Länge 4 mm, also Flächeninhalt $4 \\cdot 4 = 16$ mm². 📄 Quelle: erk01, Folie 1 (S.1)",
     "source": "erk01, Folie 1 (S.1, Die Matheprofis 4, S. 72)"
   },
   {
@@ -32,7 +32,7 @@
     "answer": 4,
     "tolerance": 0,
     "unit": "mm²",
-    "explanation": "Laut Tabelle: Fläche 1 hat Breite 2 mm und Länge 2 mm, also Flächeninhalt 2·2 = 4 mm². 📄 Quelle: erk01, Folie 1 (S.1)",
+    "explanation": "Laut Tabelle: Fläche 1 hat Breite 2 mm und Länge 2 mm, also Flächeninhalt $2 \\cdot 2 = 4$ mm². 📄 Quelle: erk01, Folie 1 (S.1)",
     "source": "erk01, Folie 1 (S.1, Die Matheprofis 4, S. 72)"
   },
   {

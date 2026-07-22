@@ -6,17 +6,17 @@
     "type": "multi",
     "question": "Wie ist die Fibonacci-Folge definiert? Wähle alle zutreffenden Aussagen.",
     "options": [
-      "f_1 = 1",
-      "f_2 = 1",
-      "f_n = f_{n-2} + f_{n-1} (für n > 2)",
-      "f_n = f_{n-1} · f_{n-2} (für n > 2)"
+      "$f_1 = 1$",
+      "$f_2 = 1$",
+      "$f_n = f_{n-2} + f_{n-1}$ (für $n > 2$)",
+      "$f_n = f_{n-1} \\cdot f_{n-2}$ (für $n > 2$)"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Laut Erkundungsblatt wird die Folge mit f_1 = 1 und f_2 = 1 sowie f_n = f_{n-2} + f_{n-1} für n > 2 gebildet (Addition der beiden Vorgänger, kein Produkt). 📄 Quelle: erk02, Folie 2 (S.2)",
+    "explanation": "Laut Erkundungsblatt wird die Folge mit $f_1 = 1$ und $f_2 = 1$ sowie $f_n = f_{n-2} + f_{n-1}$ für $n > 2$ gebildet (Addition der beiden Vorgänger, kein Produkt). 📄 Quelle: erk02, Folie 2 (S.2)",
     "source": "erk02, Folie 2 (S.2, Erkundung II zu „Zahlenfolgen…\")"
   },
   {
@@ -24,11 +24,11 @@
     "topic": "erk02_fibonacci",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Die Fibonacci-Folge wird mit f_1 = 1, f_2 = 1 und f_n = f_{n-2} + f_{n-1} (für n > 2) gebildet, also 1, 1, 2, 3, 5, 8, 13, 21, 34, … Welche Zahl folgt unmittelbar auf die 34?",
+    "question": "Die Fibonacci-Folge wird mit $f_1 = 1$, $f_2 = 1$ und $f_n = f_{n-2} + f_{n-1}$ (für $n > 2$) gebildet, also 1, 1, 2, 3, 5, 8, 13, 21, 34, … Welche Zahl folgt unmittelbar auf die 34?",
     "answer": 55,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Nach der Regel ist die nächste Zahl die Summe der beiden vorangehenden: 21 + 34 = 55. 📄 Quelle: erk02, Folie 2 (S.2)",
+    "explanation": "Nach der Regel ist die nächste Zahl die Summe der beiden vorangehenden: $21 + 34 = 55$. 📄 Quelle: erk02, Folie 2 (S.2)",
     "source": "erk02, Folie 2 (S.2, Erkundung II zu „Zahlenfolgen…\")"
   },
   {
@@ -60,7 +60,7 @@
     "answer": 390,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Nach der Fibonacci-Regel ist die dritte Zahl 170 + 220 = 390. 📄 Quelle: erk02, Folie 1 (S.1)",
+    "explanation": "Nach der Fibonacci-Regel ist die dritte Zahl $170 + 220 = 390$. 📄 Quelle: erk02, Folie 1 (S.1)",
     "source": "erk02, Folie 1 (S.1, Die Matheprofis 3, S. 108, Aufgabe 2)"
   },
   {
@@ -70,17 +70,17 @@
     "type": "multi",
     "question": "Eine Variante der Fibonacci-Folge wird mit anderen Startzahlen gebildet. Welche Aussagen zu dieser Erkundung treffen zu? Wähle alle zutreffenden Aussagen.",
     "options": [
-      "Die Folge wird nicht mit f_1 = 1 und f_2 = 1, sondern mit anderen Startzahlen gebildet.",
-      "Als Beispiel-Startzahlen werden f_1 = 4 und f_2 = 7 vorgeschlagen.",
+      "Die Folge wird nicht mit $f_1 = 1$ und $f_2 = 1$, sondern mit anderen Startzahlen gebildet.",
+      "Als Beispiel-Startzahlen werden $f_1 = 4$ und $f_2 = 7$ vorgeschlagen.",
       "Es soll untersucht werden, wie oft die erste und zweite Startzahl in den Folgezahlen bzw. in der Summe auftauchen.",
-      "Die Bildungsregel wird zu f_n = f_{n-1} − f_{n-2} geändert."
+      "Die Bildungsregel wird zu $f_n = f_{n-1} - f_{n-2}$ geändert."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "In Erkundung II wird die Folge mit anderen Startzahlen gebildet (Beispiel f_1 = 4 und f_2 = 7); untersucht werden soll, wie oft die erste und zweite Startzahl in den Folgezahlen bzw. der Summe auftauchen. Die Additionsregel f_n = f_{n-2} + f_{n-1} bleibt unverändert. 📄 Quelle: erk02, Folie 2 (S.2)",
+    "explanation": "In Erkundung II wird die Folge mit anderen Startzahlen gebildet (Beispiel $f_1 = 4$ und $f_2 = 7$); untersucht werden soll, wie oft die erste und zweite Startzahl in den Folgezahlen bzw. der Summe auftauchen. Die Additionsregel $f_n = f_{n-2} + f_{n-1}$ bleibt unverändert. 📄 Quelle: erk02, Folie 2 (S.2)",
     "source": "erk02, Folie 2 (S.2, Erkundung II zu „Zahlenfolgen…\")"
   },
   {

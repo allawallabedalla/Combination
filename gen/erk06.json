@@ -56,7 +56,7 @@
     "options": [
       "Auf eine Seite des Dreiecks passen drei Quadrate, auf die nächste vier und auf die letzte fünf",
       "Die Seitenlängen des Dreiecks betragen genau 3 cm, 4 cm und 5 cm",
-      "Das Bild ist aus 3·4·5 = 60 gleich großen Quadraten zusammengesetzt",
+      "Das Bild ist aus $3 \\cdot 4 \\cdot 5 = 60$ gleich großen Quadraten zusammengesetzt",
       "Das Dreieck wird in die Verhältnisse 3, 4 und 5 zerschnitten"
     ],
     "correct": [
@@ -94,7 +94,7 @@
     "answer": 25,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Erkundung I: In das Quadrat über der größten Dreiecksseite passen genauso viele kleine Quadrate (25) wie in die Quadrate über den kleineren Seiten (9 und 16); 9 + 16 = 25. 📄 Quelle: erk06, Folie 2 (S.2)",
+    "explanation": "Erkundung I: In das Quadrat über der größten Dreiecksseite passen genauso viele kleine Quadrate (25) wie in die Quadrate über den kleineren Seiten (9 und 16); $9 + 16 = 25$. 📄 Quelle: erk06, Folie 2 (S.2)",
     "source": "erk06, Folie 2 (S.2, Erkundung I)"
   },
   {
@@ -102,19 +102,19 @@
     "topic": "erk06_pythagoreische_tripel",
     "difficulty": 3,
     "type": "multi",
-    "question": "Für zwei natürliche Zahlen u und v mit u > v wird eine Methode zur Erzeugung pythagoreischer Tripel festgelegt. Welche Festlegungen trifft diese Methode?",
+    "question": "Für zwei natürliche Zahlen $u$ und $v$ mit $u > v$ wird eine Methode zur Erzeugung pythagoreischer Tripel festgelegt. Welche Festlegungen trifft diese Methode?",
     "options": [
-      "x = u² − v²",
-      "y = 2·u·v",
-      "z² = x² + y²",
-      "u < v"
+      "$x = u^2 - v^2$",
+      "$y = 2 \\cdot u \\cdot v$",
+      "$z^2 = x^2 + y^2$",
+      "$u < v$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Aufgabe c): mit u > v gilt 1) x = u² − v² und 2) y = 2·u·v; dann ist z² = x² + y² das Quadrat einer natürlichen Zahl z. Die Bedingung lautet u > v, nicht u < v. 📄 Quelle: erk06, Folie 2 (S.2)",
+    "explanation": "Aufgabe c): mit $u > v$ gilt 1) $x = u^2 - v^2$ und 2) $y = 2 \\cdot u \\cdot v$; dann ist $z^2 = x^2 + y^2$ das Quadrat einer natürlichen Zahl $z$. Die Bedingung lautet $u > v$, nicht $u < v$. 📄 Quelle: erk06, Folie 2 (S.2)",
     "source": "erk06, Folie 2 (S.2, Erkundung I, Aufgabe c)"
   },
   {
@@ -122,11 +122,11 @@
     "topic": "erk06_pythagoreische_tripel",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Wendet man die Methode (x = u² − v², y = 2·u·v, z² = x² + y²) mit u = 2 und v = 1 an, welchen Wert hat z?",
+    "question": "Wendet man die Methode ($x = u^2 - v^2$, $y = 2 \\cdot u \\cdot v$, $z^2 = x^2 + y^2$) mit $u = 2$ und $v = 1$ an, welchen Wert hat $z$?",
     "answer": 5,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Mit u = 2, v = 1: x = 4 − 1 = 3, y = 2·2·1 = 4, z² = 3² + 4² = 9 + 16 = 25, also z = 5 (Tripel 3, 4, 5). 📄 Quelle: erk06, Folie 2 (S.2)",
+    "explanation": "Mit $u = 2$, $v = 1$: $x = 4 - 1 = 3$, $y = 2 \\cdot 2 \\cdot 1 = 4$, $z^2 = 3^2 + 4^2 = 9 + 16 = 25$, also $z = 5$ (Tripel 3, 4, 5). 📄 Quelle: erk06, Folie 2 (S.2)",
     "source": "erk06, Folie 2 (S.2, Erkundung I, Aufgabe c)"
   }
 ]

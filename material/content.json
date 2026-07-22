@@ -29285,7 +29285,7 @@
       "answer": 8,
       "tolerance": 0,
       "unit": "mm²",
-      "explanation": "Laut Tabelle: Fläche 2 hat Breite 2 mm und Länge 4 mm, also Flächeninhalt 2·4 = 8 mm². 📄 Quelle: erk01, Folie 1 (S.1)",
+      "explanation": "Laut Tabelle: Fläche 2 hat Breite 2 mm und Länge 4 mm, also Flächeninhalt $2 \\cdot 4 = 8$ mm². 📄 Quelle: erk01, Folie 1 (S.1)",
       "source": "erk01, Folie 1 (S.1, Die Matheprofis 4, S. 72)"
     },
     {
@@ -29297,7 +29297,7 @@
       "answer": 16,
       "tolerance": 0,
       "unit": "mm²",
-      "explanation": "Laut Tabelle: Fläche 3 hat Breite 4 mm und Länge 4 mm, also Flächeninhalt 4·4 = 16 mm². 📄 Quelle: erk01, Folie 1 (S.1)",
+      "explanation": "Laut Tabelle: Fläche 3 hat Breite 4 mm und Länge 4 mm, also Flächeninhalt $4 \\cdot 4 = 16$ mm². 📄 Quelle: erk01, Folie 1 (S.1)",
       "source": "erk01, Folie 1 (S.1, Die Matheprofis 4, S. 72)"
     },
     {
@@ -29309,7 +29309,7 @@
       "answer": 4,
       "tolerance": 0,
       "unit": "mm²",
-      "explanation": "Laut Tabelle: Fläche 1 hat Breite 2 mm und Länge 2 mm, also Flächeninhalt 2·2 = 4 mm². 📄 Quelle: erk01, Folie 1 (S.1)",
+      "explanation": "Laut Tabelle: Fläche 1 hat Breite 2 mm und Länge 2 mm, also Flächeninhalt $2 \\cdot 2 = 4$ mm². 📄 Quelle: erk01, Folie 1 (S.1)",
       "source": "erk01, Folie 1 (S.1, Die Matheprofis 4, S. 72)"
     },
     {
@@ -29396,17 +29396,17 @@
       "type": "multi",
       "question": "Wie ist die Fibonacci-Folge definiert? Wähle alle zutreffenden Aussagen.",
       "options": [
-        "f_1 = 1",
-        "f_2 = 1",
-        "f_n = f_{n-2} + f_{n-1} (für n > 2)",
-        "f_n = f_{n-1} · f_{n-2} (für n > 2)"
+        "$f_1 = 1$",
+        "$f_2 = 1$",
+        "$f_n = f_{n-2} + f_{n-1}$ (für $n > 2$)",
+        "$f_n = f_{n-1} \\cdot f_{n-2}$ (für $n > 2$)"
       ],
       "correct": [
         0,
         1,
         2
       ],
-      "explanation": "Laut Erkundungsblatt wird die Folge mit f_1 = 1 und f_2 = 1 sowie f_n = f_{n-2} + f_{n-1} für n > 2 gebildet (Addition der beiden Vorgänger, kein Produkt). 📄 Quelle: erk02, Folie 2 (S.2)",
+      "explanation": "Laut Erkundungsblatt wird die Folge mit $f_1 = 1$ und $f_2 = 1$ sowie $f_n = f_{n-2} + f_{n-1}$ für $n > 2$ gebildet (Addition der beiden Vorgänger, kein Produkt). 📄 Quelle: erk02, Folie 2 (S.2)",
       "source": "erk02, Folie 2 (S.2, Erkundung II zu „Zahlenfolgen…\")"
     },
     {
@@ -29414,11 +29414,11 @@
       "topic": "folgen_fibonacci",
       "difficulty": 2,
       "type": "numeric",
-      "question": "Die Fibonacci-Folge wird mit f_1 = 1, f_2 = 1 und f_n = f_{n-2} + f_{n-1} (für n > 2) gebildet, also 1, 1, 2, 3, 5, 8, 13, 21, 34, … Welche Zahl folgt unmittelbar auf die 34?",
+      "question": "Die Fibonacci-Folge wird mit $f_1 = 1$, $f_2 = 1$ und $f_n = f_{n-2} + f_{n-1}$ (für $n > 2$) gebildet, also 1, 1, 2, 3, 5, 8, 13, 21, 34, … Welche Zahl folgt unmittelbar auf die 34?",
       "answer": 55,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Nach der Regel ist die nächste Zahl die Summe der beiden vorangehenden: 21 + 34 = 55. 📄 Quelle: erk02, Folie 2 (S.2)",
+      "explanation": "Nach der Regel ist die nächste Zahl die Summe der beiden vorangehenden: $21 + 34 = 55$. 📄 Quelle: erk02, Folie 2 (S.2)",
       "source": "erk02, Folie 2 (S.2, Erkundung II zu „Zahlenfolgen…\")"
     },
     {
@@ -29450,7 +29450,7 @@
       "answer": 390,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Nach der Fibonacci-Regel ist die dritte Zahl 170 + 220 = 390. 📄 Quelle: erk02, Folie 1 (S.1)",
+      "explanation": "Nach der Fibonacci-Regel ist die dritte Zahl $170 + 220 = 390$. 📄 Quelle: erk02, Folie 1 (S.1)",
       "source": "erk02, Folie 1 (S.1, Die Matheprofis 3, S. 108, Aufgabe 2)"
     },
     {
@@ -29460,17 +29460,17 @@
       "type": "multi",
       "question": "Eine Variante der Fibonacci-Folge wird mit anderen Startzahlen gebildet. Welche Aussagen zu dieser Erkundung treffen zu? Wähle alle zutreffenden Aussagen.",
       "options": [
-        "Die Folge wird nicht mit f_1 = 1 und f_2 = 1, sondern mit anderen Startzahlen gebildet.",
-        "Als Beispiel-Startzahlen werden f_1 = 4 und f_2 = 7 vorgeschlagen.",
+        "Die Folge wird nicht mit $f_1 = 1$ und $f_2 = 1$, sondern mit anderen Startzahlen gebildet.",
+        "Als Beispiel-Startzahlen werden $f_1 = 4$ und $f_2 = 7$ vorgeschlagen.",
         "Es soll untersucht werden, wie oft die erste und zweite Startzahl in den Folgezahlen bzw. in der Summe auftauchen.",
-        "Die Bildungsregel wird zu f_n = f_{n-1} − f_{n-2} geändert."
+        "Die Bildungsregel wird zu $f_n = f_{n-1} - f_{n-2}$ geändert."
       ],
       "correct": [
         0,
         1,
         2
       ],
-      "explanation": "In Erkundung II wird die Folge mit anderen Startzahlen gebildet (Beispiel f_1 = 4 und f_2 = 7); untersucht werden soll, wie oft die erste und zweite Startzahl in den Folgezahlen bzw. der Summe auftauchen. Die Additionsregel f_n = f_{n-2} + f_{n-1} bleibt unverändert. 📄 Quelle: erk02, Folie 2 (S.2)",
+      "explanation": "In Erkundung II wird die Folge mit anderen Startzahlen gebildet (Beispiel $f_1 = 4$ und $f_2 = 7$); untersucht werden soll, wie oft die erste und zweite Startzahl in den Folgezahlen bzw. der Summe auftauchen. Die Additionsregel $f_n = f_{n-2} + f_{n-1}$ bleibt unverändert. 📄 Quelle: erk02, Folie 2 (S.2)",
       "source": "erk02, Folie 2 (S.2, Erkundung II zu „Zahlenfolgen…\")"
     },
     {
@@ -29571,17 +29571,17 @@
       "topic": "pascal_binomial",
       "difficulty": 2,
       "type": "single",
-      "question": "Wie ist der Binomialkoeffizient (n über k) definiert?",
+      "question": "Wie ist der Binomialkoeffizient $\\binom{n}{k}$ definiert?",
       "options": [
-        "(n über k) = n! / (k! · (n−k)!)",
-        "(n über k) = n! / (k! · n!)",
-        "(n über k) = (n−k)! / (k! · n!)",
-        "(n über k) = n! · k! · (n−k)!"
+        "$\\binom{n}{k} = \\frac{n!}{k! \\cdot (n-k)!}$",
+        "$\\binom{n}{k} = \\frac{n!}{k! \\cdot n!}$",
+        "$\\binom{n}{k} = \\frac{(n-k)!}{k! \\cdot n!}$",
+        "$\\binom{n}{k} = n! \\cdot k! \\cdot (n-k)!$"
       ],
       "correct": [
         0
       ],
-      "explanation": "Die Folie definiert den Binomialkoeffizienten als (n über k) = n! / (k! · (n−k)!). 📄 Quelle: erk03, Folie 3 (S.3)",
+      "explanation": "Die Folie definiert den Binomialkoeffizienten als $\\binom{n}{k} = \\frac{n!}{k! \\cdot (n-k)!}$. 📄 Quelle: erk03, Folie 3 (S.3)",
       "source": "erk03, Folie 3 (S.3, Formalisieren)"
     },
     {
@@ -29589,17 +29589,17 @@
       "topic": "pascal_binomial",
       "difficulty": 1,
       "type": "single",
-      "question": "Was bezeichnen n und k im Binomialkoeffizienten (n über k) beim Pascalschen Dreieck?",
+      "question": "Was bezeichnen $n$ und $k$ im Binomialkoeffizienten $\\binom{n}{k}$ beim Pascalschen Dreieck?",
       "options": [
-        "n die Zeile und k die Spalte",
-        "n die Spalte und k die Zeile",
-        "n die Anzahl der Einträge und k die Zeilensumme",
-        "n den größten Eintrag und k den kleinsten Eintrag"
+        "$n$ die Zeile und $k$ die Spalte",
+        "$n$ die Spalte und $k$ die Zeile",
+        "$n$ die Anzahl der Einträge und $k$ die Zeilensumme",
+        "$n$ den größten Eintrag und $k$ den kleinsten Eintrag"
       ],
       "correct": [
         0
       ],
-      "explanation": "Auf der Folie steht: \"Dabei bezeichnet n die Zeile und k die Spalte.\" 📄 Quelle: erk03, Folie 3 (S.3)",
+      "explanation": "Auf der Folie steht: \"Dabei bezeichnet $n$ die Zeile und $k$ die Spalte.\" 📄 Quelle: erk03, Folie 3 (S.3)",
       "source": "erk03, Folie 3 (S.3, Formalisieren)"
     },
     {
@@ -29610,15 +29610,15 @@
       "question": "Welche Aussagen zur Entstehung der Zahlen im Pascalschen Dreieck sind korrekt?",
       "options": [
         "Eine Zahl entsteht stets durch die Summe der beiden darüber stehenden Zahlen.",
-        "Es gilt (n+1 über k+1) = (n über k) + (n über k+1).",
+        "Es gilt $\\binom{n+1}{k+1} = \\binom{n}{k} + \\binom{n}{k+1}$.",
         "Eine Zahl entsteht durch das Produkt der beiden darüber stehenden Zahlen.",
-        "Es gilt (n+1 über k+1) = (n über k) · (n über k+1)."
+        "Es gilt $\\binom{n+1}{k+1} = \\binom{n}{k} \\cdot \\binom{n}{k+1}$."
       ],
       "correct": [
         0,
         1
       ],
-      "explanation": "Die Folie hält fest, dass eine Zahl stets durch die Summe der beiden darüber stehenden Zahlen entsteht, und dass deshalb (n+1 über k+1) = (n über k) + (n über k+1) gilt. Produkt-Varianten sind falsch. 📄 Quelle: erk03, Folie 3 (S.3)",
+      "explanation": "Die Folie hält fest, dass eine Zahl stets durch die Summe der beiden darüber stehenden Zahlen entsteht, und dass deshalb $\\binom{n+1}{k+1} = \\binom{n}{k} + \\binom{n}{k+1}$ gilt. Produkt-Varianten sind falsch. 📄 Quelle: erk03, Folie 3 (S.3)",
       "source": "erk03, Folie 3 (S.3, Formalisieren)"
     },
     {
@@ -29626,11 +29626,11 @@
       "topic": "pascal_binomial",
       "difficulty": 2,
       "type": "numeric",
-      "question": "Berechnen Sie mit der Definition (n über k) = n!/(k!·(n−k)!) den Binomialkoeffizienten (4 über 2) = 4!/(2!·2!).",
+      "question": "Berechnen Sie mit der Definition $\\binom{n}{k} = \\frac{n!}{k! \\cdot (n-k)!}$ den Binomialkoeffizienten $\\binom{4}{2} = \\frac{4!}{2! \\cdot 2!}$.",
       "answer": 6,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Mit (n über k) = n!/(k!·(n−k)!) ergibt sich (4 über 2) = 24/(2·2) = 6; dies entspricht dem mittleren Eintrag der Zeile 1, 4, 6, 4, 1. 📄 Quelle: erk03, Folie 3 (S.3)",
+      "explanation": "Mit $\\binom{n}{k} = \\frac{n!}{k! \\cdot (n-k)!}$ ergibt sich $\\binom{4}{2} = \\frac{24}{2 \\cdot 2} = 6$; dies entspricht dem mittleren Eintrag der Zeile 1, 4, 6, 4, 1. 📄 Quelle: erk03, Folie 3 (S.3)",
       "source": "erk03, Folie 3 (S.3, Formalisieren)"
     },
     {
@@ -29668,10 +29668,10 @@
       "topic": "figurierte_zahlen",
       "difficulty": 2,
       "type": "multi",
-      "question": "Ein Vierling ist eine Figur aus 4 Quadraten; ein n-Quadratling besteht entsprechend aus n Quadraten. Welche Aussagen zu den n-Quadratlingen (mit n = 3, 4, 5 oder 6) sind korrekt?",
+      "question": "Ein Vierling ist eine Figur aus 4 Quadraten; ein $n$-Quadratling besteht entsprechend aus $n$ Quadraten. Welche Aussagen zu den $n$-Quadratlingen (mit $n = 3, 4, 5$ oder $6$) sind korrekt?",
       "options": [
         "Ein Vier-Quadratling ist dasselbe wie ein Vierling",
-        "Untersucht werden n-Quadratlinge mit n = 3, 4, 5 oder 6",
+        "Untersucht werden $n$-Quadratlinge mit $n = 3, 4, 5$ oder $6$",
         "Man muss festlegen (definieren), wann zwei Quadratlinge gleich oder verschieden sind",
         "Ein Sechs-Quadratling besteht aus acht Quadraten"
       ],
@@ -29680,7 +29680,7 @@
         1,
         2
       ],
-      "explanation": "Aufgabe 2a nennt Drei-, Vier-, Fünf- und Sechs-Quadratlinge (ein Vier-Quadratling entspricht dem Vierling aus 4 Quadraten), fordert das Festlegen von Gleichheit/Verschiedenheit und Aufgabe 2c spricht von „alle n-Quadratlinge mit n = 3, 4, 5 oder 6“. Ein Sechs-Quadratling besteht aus 6 (nicht 8) Quadraten. 📄 Quelle: erk04, Folie 2 (S.2)",
+      "explanation": "Aufgabe 2a nennt Drei-, Vier-, Fünf- und Sechs-Quadratlinge (ein Vier-Quadratling entspricht dem Vierling aus 4 Quadraten), fordert das Festlegen von Gleichheit/Verschiedenheit und Aufgabe 2c spricht von „alle $n$-Quadratlinge mit $n = 3, 4, 5$ oder $6$“. Ein Sechs-Quadratling besteht aus 6 (nicht 8) Quadraten. 📄 Quelle: erk04, Folie 2 (S.2)",
       "source": "erk04, Folie 2 (S.2, Erkundung IV zu Vierlingen, Erkundung I)"
     },
     {
@@ -29692,7 +29692,7 @@
       "answer": 6,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Ein n-Quadratling besteht aus n Quadraten (vgl. Vier-Quadratling = Vierling aus 4 Quadraten); ein Sechs-Quadratling besteht daher aus 6 Quadraten. 📄 Quelle: erk04, Folie 2 (S.2)",
+      "explanation": "Ein $n$-Quadratling besteht aus $n$ Quadraten (vgl. Vier-Quadratling = Vierling aus 4 Quadraten); ein Sechs-Quadratling besteht daher aus 6 Quadraten. 📄 Quelle: erk04, Folie 2 (S.2)",
       "source": "erk04, Folie 2 (S.2, Erkundung IV zu Vierlingen, Erkundung I, Aufgabe 2a)"
     },
     {
@@ -29700,11 +29700,11 @@
       "topic": "flaecheninhalte",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Aus wie vielen Kästchen besteht ein Rechteck mit 6 x 8 Kästchen?",
+      "question": "Aus wie vielen Kästchen besteht ein Rechteck mit $6 \\times 8$ Kästchen?",
       "answer": 48,
       "tolerance": 0,
       "unit": "",
-      "explanation": "In Erkundung II wird ein Rechteck mit 6 x 8 Kästchen betrachtet: 6 · 8 = 48 Kästchen. 📄 Quelle: erk04, Folie 2 (S.2)",
+      "explanation": "In Erkundung II wird ein Rechteck mit $6 \\times 8$ Kästchen betrachtet: $6 \\cdot 8 = 48$ Kästchen. 📄 Quelle: erk04, Folie 2 (S.2)",
       "source": "erk04, Folie 2 (S.2, Erkundung IV zu Vierlingen, Erkundung II, Aufgabe 3)"
     },
     {
@@ -29715,7 +29715,7 @@
       "question": "Was bedeutet „die Ebene parkettieren“?",
       "options": [
         "Die Steine so lückenlos aneinanderlegen, dass man dies prinzipiell zu allen Seiten endlos fortsetzen könnte",
-        "Nur ein einzelnes 6 x 8-Rechteck lückenlos ausfüllen",
+        "Nur ein einzelnes $6 \\times 8$-Rechteck lückenlos ausfüllen",
         "Die Steine mit möglichst wenig Farben einfärben",
         "Die Steine überlappend übereinanderlegen"
       ],
@@ -29805,11 +29805,11 @@
       "topic": "flaecheninhalte",
       "difficulty": 2,
       "type": "numeric",
-      "question": "In der verkleinerten Darstellung (handschriftliche Einträge) hat das Rechteck A die Höhe a und die Länge 2a. Wie groß ist sein Flächeninhalt als Vielfaches von a²?",
+      "question": "In der verkleinerten Darstellung (handschriftliche Einträge) hat das Rechteck A die Höhe $a$ und die Länge $2a$. Wie groß ist sein Flächeninhalt als Vielfaches von $a^2$?",
       "answer": 2,
       "tolerance": 0,
       "unit": "a²",
-      "explanation": "Der Flächeninhalt eines Rechtecks ist Länge mal Höhe: 2a · a = 2a². Das Rechteck A hat also den Flächeninhalt 2a². 📄 Quelle: erk05, Folie 4 (S.4)",
+      "explanation": "Der Flächeninhalt eines Rechtecks ist Länge mal Höhe: $2a \\cdot a = 2a^2$. Das Rechteck A hat also den Flächeninhalt $2a^2$. 📄 Quelle: erk05, Folie 4 (S.4)",
       "source": "erk05, Folie 4 (S.4, verkleinerte Darstellung mit handschriftlichen Größen)"
     },
     {
@@ -29817,11 +29817,11 @@
       "topic": "flaecheninhalte",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Das große Quadrat hat die Seitenlänge a. Welche Seitenlänge hat das kleine Quadrat als Vielfaches von a?",
+      "question": "Das große Quadrat hat die Seitenlänge $a$. Welche Seitenlänge hat das kleine Quadrat als Vielfaches von $a$?",
       "answer": 0.5,
       "tolerance": 0,
       "unit": "a",
-      "explanation": "Das kleine Quadrat hat die halbe Seitenlänge des großen Quadrats, also ½a = 0,5a. In der verkleinerten Darstellung ist das kleine Quadrat entsprechend mit ½a beschriftet. 📄 Quelle: erk05, Folie 4 (S.4)",
+      "explanation": "Das kleine Quadrat hat die halbe Seitenlänge des großen Quadrats, also $\\frac{1}{2}a = 0{,}5a$. In der verkleinerten Darstellung ist das kleine Quadrat entsprechend mit $\\frac{1}{2}a$ beschriftet. 📄 Quelle: erk05, Folie 4 (S.4)",
       "source": "erk05, Folie 4 (S.4, verkleinerte Darstellung mit handschriftlichen Größen)"
     },
     {
@@ -29831,17 +29831,17 @@
       "type": "multi",
       "question": "Welche Größen sind in der verkleinerten Darstellung handschriftlich eingetragen?",
       "options": [
-        "Das Rechteck A hat die Länge 2a und die Höhe a.",
-        "Das kleine Quadrat hat die Seitenlänge ½a.",
-        "Das große Quadrat hat die Seitenlänge 2a.",
-        "Die beiden gleich langen Seiten des Dreiecks B sind mit 2a beschriftet."
+        "Das Rechteck A hat die Länge $2a$ und die Höhe $a$.",
+        "Das kleine Quadrat hat die Seitenlänge $\\frac{1}{2}a$.",
+        "Das große Quadrat hat die Seitenlänge $2a$.",
+        "Die beiden gleich langen Seiten des Dreiecks B sind mit $2a$ beschriftet."
       ],
       "correct": [
         0,
         1,
         3
       ],
-      "explanation": "Handschriftlich eingetragen sind für das Rechteck A die Länge 2a und die Höhe a, für das kleine Quadrat die Seitenlänge ½a und für die beiden gleich langen Seiten des Dreiecks B jeweils 2a. Das große Quadrat hat die Seitenlänge a (nicht 2a). 📄 Quelle: erk05, Folie 4 (S.4)",
+      "explanation": "Handschriftlich eingetragen sind für das Rechteck A die Länge $2a$ und die Höhe $a$, für das kleine Quadrat die Seitenlänge $\\frac{1}{2}a$ und für die beiden gleich langen Seiten des Dreiecks B jeweils $2a$. Das große Quadrat hat die Seitenlänge $a$ (nicht $2a$). 📄 Quelle: erk05, Folie 4 (S.4)",
       "source": "erk05, Folie 4 (S.4, verkleinerte Darstellung mit handschriftlichen Größen)"
     },
     {
@@ -29901,7 +29901,7 @@
       "options": [
         "Auf eine Seite des Dreiecks passen drei Quadrate, auf die nächste vier und auf die letzte fünf",
         "Die Seitenlängen des Dreiecks betragen genau 3 cm, 4 cm und 5 cm",
-        "Das Bild ist aus 3·4·5 = 60 gleich großen Quadraten zusammengesetzt",
+        "Das Bild ist aus $3 \\cdot 4 \\cdot 5 = 60$ gleich großen Quadraten zusammengesetzt",
         "Das Dreieck wird in die Verhältnisse 3, 4 und 5 zerschnitten"
       ],
       "correct": [
@@ -29939,7 +29939,7 @@
       "answer": 25,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Erkundung I: In das Quadrat über der größten Dreiecksseite passen genauso viele kleine Quadrate (25) wie in die Quadrate über den kleineren Seiten (9 und 16); 9 + 16 = 25. 📄 Quelle: erk06, Folie 2 (S.2)",
+      "explanation": "Erkundung I: In das Quadrat über der größten Dreiecksseite passen genauso viele kleine Quadrate (25) wie in die Quadrate über den kleineren Seiten (9 und 16); $9 + 16 = 25$. 📄 Quelle: erk06, Folie 2 (S.2)",
       "source": "erk06, Folie 2 (S.2, Erkundung I)"
     },
     {
@@ -29947,19 +29947,19 @@
       "topic": "flaecheninhalte",
       "difficulty": 3,
       "type": "multi",
-      "question": "Für zwei natürliche Zahlen u und v mit u > v wird eine Methode zur Erzeugung pythagoreischer Tripel festgelegt. Welche Festlegungen trifft diese Methode?",
+      "question": "Für zwei natürliche Zahlen $u$ und $v$ mit $u > v$ wird eine Methode zur Erzeugung pythagoreischer Tripel festgelegt. Welche Festlegungen trifft diese Methode?",
       "options": [
-        "x = u² − v²",
-        "y = 2·u·v",
-        "z² = x² + y²",
-        "u < v"
+        "$x = u^2 - v^2$",
+        "$y = 2 \\cdot u \\cdot v$",
+        "$z^2 = x^2 + y^2$",
+        "$u < v$"
       ],
       "correct": [
         0,
         1,
         2
       ],
-      "explanation": "Aufgabe c): mit u > v gilt 1) x = u² − v² und 2) y = 2·u·v; dann ist z² = x² + y² das Quadrat einer natürlichen Zahl z. Die Bedingung lautet u > v, nicht u < v. 📄 Quelle: erk06, Folie 2 (S.2)",
+      "explanation": "Aufgabe c): mit $u > v$ gilt 1) $x = u^2 - v^2$ und 2) $y = 2 \\cdot u \\cdot v$; dann ist $z^2 = x^2 + y^2$ das Quadrat einer natürlichen Zahl $z$. Die Bedingung lautet $u > v$, nicht $u < v$. 📄 Quelle: erk06, Folie 2 (S.2)",
       "source": "erk06, Folie 2 (S.2, Erkundung I, Aufgabe c)"
     },
     {
@@ -29967,11 +29967,11 @@
       "topic": "flaecheninhalte",
       "difficulty": 2,
       "type": "numeric",
-      "question": "Wendet man die Methode (x = u² − v², y = 2·u·v, z² = x² + y²) mit u = 2 und v = 1 an, welchen Wert hat z?",
+      "question": "Wendet man die Methode ($x = u^2 - v^2$, $y = 2 \\cdot u \\cdot v$, $z^2 = x^2 + y^2$) mit $u = 2$ und $v = 1$ an, welchen Wert hat $z$?",
       "answer": 5,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Mit u = 2, v = 1: x = 4 − 1 = 3, y = 2·2·1 = 4, z² = 3² + 4² = 9 + 16 = 25, also z = 5 (Tripel 3, 4, 5). 📄 Quelle: erk06, Folie 2 (S.2)",
+      "explanation": "Mit $u = 2$, $v = 1$: $x = 4 - 1 = 3$, $y = 2 \\cdot 2 \\cdot 1 = 4$, $z^2 = 3^2 + 4^2 = 9 + 16 = 25$, also $z = 5$ (Tripel 3, 4, 5). 📄 Quelle: erk06, Folie 2 (S.2)",
       "source": "erk06, Folie 2 (S.2, Erkundung I, Aufgabe c)"
     },
     {
@@ -30099,11 +30099,11 @@
       "topic": "iri_mirim_zahlen",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Welches Ergebnis liefert die Subtraktion der ANNA-Zahlen 7 227 − 2 772?",
+      "question": "Welches Ergebnis liefert die Subtraktion der ANNA-Zahlen $7\\,227 - 2\\,772$?",
       "answer": 4455,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Die auf dem Blatt notierte Rechnung ergibt 7 227 − 2 772 = 4 455. 📄 Quelle: erk08, Folie 1 (S.1)",
+      "explanation": "Die auf dem Blatt notierte Rechnung ergibt $7\\,227 - 2\\,772 = 4\\,455$. 📄 Quelle: erk08, Folie 1 (S.1)",
       "source": "erk08, Folie 1 (S.1, Zahlenmuster / ANNA-Zahlen)"
     },
     {
@@ -30111,11 +30111,11 @@
       "topic": "iri_mirim_zahlen",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Welches Ergebnis liefert die Subtraktion der ANNA-Zahlen 8 558 − 5 885?",
+      "question": "Welches Ergebnis liefert die Subtraktion der ANNA-Zahlen $8\\,558 - 5\\,885$?",
       "answer": 2673,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Die auf dem Blatt notierte Rechnung ergibt 8 558 − 5 885 = 2 673. 📄 Quelle: erk08, Folie 1 (S.1)",
+      "explanation": "Die auf dem Blatt notierte Rechnung ergibt $8\\,558 - 5\\,885 = 2\\,673$. 📄 Quelle: erk08, Folie 1 (S.1)",
       "source": "erk08, Folie 1 (S.1, Zahlenmuster / ANNA-Zahlen)"
     },
     {
@@ -30123,11 +30123,11 @@
       "topic": "iri_mirim_zahlen",
       "difficulty": 2,
       "type": "numeric",
-      "question": "Auf dem Blatt wird begründet: 3 223 ist um 891 größer als 2 332, denn 1 000 − 100 − 10 + 1 = ? Welcher Wert steht rechts?",
+      "question": "Auf dem Blatt wird begründet: 3 223 ist um 891 größer als 2 332, denn $1\\,000 - 100 - 10 + 1$ = ? Welcher Wert steht rechts?",
       "answer": 891,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Für ANNA-Zahlen gilt: 3 223 ist um 891 größer als 2 332, denn 1 000 − 100 − 10 + 1 = 891. 📄 Quelle: erk08, Folie 1 (S.1)",
+      "explanation": "Für ANNA-Zahlen gilt: 3 223 ist um 891 größer als 2 332, denn $1\\,000 - 100 - 10 + 1 = 891$. 📄 Quelle: erk08, Folie 1 (S.1)",
       "source": "erk08, Folie 1 (S.1, Zahlenmuster / ANNA-Zahlen)"
     },
     {
@@ -30135,11 +30135,11 @@
       "topic": "iri_mirim_zahlen",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Welches Ergebnis liefert 891 · 4?",
+      "question": "Welches Ergebnis liefert $891 \\cdot 4$?",
       "answer": 3564,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Die auf dem Blatt aufgelisteten Ergebnisse sind 1 782, 2 673, 3 564, 4 455, 5 346, 6 237, 7 128, 8 019; 891 · 4 = 3 564. 📄 Quelle: erk08, Folie 1 (S.1)",
+      "explanation": "Die auf dem Blatt aufgelisteten Ergebnisse sind 1 782, 2 673, 3 564, 4 455, 5 346, 6 237, 7 128, 8 019; $891 \\cdot 4 = 3\\,564$. 📄 Quelle: erk08, Folie 1 (S.1)",
       "source": "erk08, Folie 1 (S.1, Zahlenmuster / ANNA-Zahlen)"
     },
     {
@@ -30147,7 +30147,7 @@
       "topic": "iri_mirim_zahlen",
       "difficulty": 3,
       "type": "multi",
-      "question": "Die Ergebnisse von 891 · 2, 3, …, 9 sind 1 782, 2 673, …, 8 019. Was gilt für die Ergebnisse, die beim Subtrahieren zweier ANNA-Zahlen auftreten können?",
+      "question": "Die Ergebnisse von $891 \\cdot 2, 3, \\dots, 9$ sind 1 782, 2 673, …, 8 019. Was gilt für die Ergebnisse, die beim Subtrahieren zweier ANNA-Zahlen auftreten können?",
       "options": [
         "Es sind Vielfache von 891",
         "Zusammen mit 891 sind es genau diese aufgelisteten Ergebnisse",
@@ -30185,11 +30185,11 @@
       "topic": "iri_mirim_zahlen",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Welches Ergebnis liefert die Subtraktion der NANA-Zahlen 7 272 − 2 727?",
+      "question": "Welches Ergebnis liefert die Subtraktion der NANA-Zahlen $7\\,272 - 2\\,727$?",
       "answer": 4545,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Die auf dem Blatt notierte Rechnung ergibt 7 272 − 2 727 = 4 545. 📄 Quelle: erk08, Folie 1 (S.1)",
+      "explanation": "Die auf dem Blatt notierte Rechnung ergibt $7\\,272 - 2\\,727 = 4\\,545$. 📄 Quelle: erk08, Folie 1 (S.1)",
       "source": "erk08, Folie 1 (S.1, Zahlenmuster / NANA-Zahlen)"
     },
     {
@@ -30197,11 +30197,11 @@
       "topic": "iri_mirim_zahlen",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Welches Ergebnis liefert die Subtraktion der NANA-Zahlen 6 363 − 3 636?",
+      "question": "Welches Ergebnis liefert die Subtraktion der NANA-Zahlen $6\\,363 - 3\\,636$?",
       "answer": 2727,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Die auf dem Blatt notierte Rechnung ergibt 6 363 − 3 636 = 2 727. 📄 Quelle: erk08, Folie 1 (S.1)",
+      "explanation": "Die auf dem Blatt notierte Rechnung ergibt $6\\,363 - 3\\,636 = 2\\,727$. 📄 Quelle: erk08, Folie 1 (S.1)",
       "source": "erk08, Folie 1 (S.1, Zahlenmuster / NANA-Zahlen)"
     },
     {
@@ -30209,11 +30209,11 @@
       "topic": "iri_mirim_zahlen",
       "difficulty": 2,
       "type": "numeric",
-      "question": "Auf dem Blatt wird begründet: 3 232 ist um 909 größer als 2 323, denn 1 000 − 100 + 10 − 1 = ? Welcher Wert steht rechts?",
+      "question": "Auf dem Blatt wird begründet: 3 232 ist um 909 größer als 2 323, denn $1\\,000 - 100 + 10 - 1$ = ? Welcher Wert steht rechts?",
       "answer": 909,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Für NANA-Zahlen gilt: 3 232 ist um 909 größer als 2 323, denn 1 000 − 100 + 10 − 1 = 909. 📄 Quelle: erk08, Folie 1 (S.1)",
+      "explanation": "Für NANA-Zahlen gilt: 3 232 ist um 909 größer als 2 323, denn $1\\,000 - 100 + 10 - 1 = 909$. 📄 Quelle: erk08, Folie 1 (S.1)",
       "source": "erk08, Folie 1 (S.1, Zahlenmuster / NANA-Zahlen)"
     },
     {
@@ -30221,11 +30221,11 @@
       "topic": "iri_mirim_zahlen",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Welches Ergebnis liefert 909 · 6?",
+      "question": "Welches Ergebnis liefert $909 \\cdot 6$?",
       "answer": 5454,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Die auf dem Blatt aufgelisteten Ergebnisse sind 1 818, 2 727, 3 636, 4 545, 5 454, 6 363, 7 272, 8 181; 909 · 6 = 5 454. 📄 Quelle: erk08, Folie 1 (S.1)",
+      "explanation": "Die auf dem Blatt aufgelisteten Ergebnisse sind 1 818, 2 727, 3 636, 4 545, 5 454, 6 363, 7 272, 8 181; $909 \\cdot 6 = 5\\,454$. 📄 Quelle: erk08, Folie 1 (S.1)",
       "source": "erk08, Folie 1 (S.1, Zahlenmuster / NANA-Zahlen)"
     },
     {
@@ -30434,11 +30434,11 @@
       "topic": "natuerliche_zahlen_peano",
       "difficulty": 1,
       "type": "numeric",
-      "question": "In der Ausarbeitung 'Erkundung 1' werden die Felder durch fortlaufendes Verdoppeln berechnet. Für das 6. Feld steht dort '16 · 2'. Welches Ergebnis ist notiert?",
+      "question": "In der Ausarbeitung 'Erkundung 1' werden die Felder durch fortlaufendes Verdoppeln berechnet. Für das 6. Feld steht dort '$16 \\cdot 2$'. Welches Ergebnis ist notiert?",
       "answer": 32,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Notiert ist '6. Feld: 16 · 2 = 32'. 📄 Quelle: erk_hand, Folie 1 (S.1)",
+      "explanation": "Notiert ist '6. Feld: $16 \\cdot 2 = 32$'. 📄 Quelle: erk_hand, Folie 1 (S.1)",
       "source": "erk_hand, Folie 1 (S.1, Erkundung 1, Aufgabe 1)"
     },
     {
@@ -30446,11 +30446,11 @@
       "topic": "natuerliche_zahlen_peano",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Laut den Verdopplungsrechnungen der Ausarbeitung gilt für das 8. Feld '64 · 2'. Welches Ergebnis ist notiert?",
+      "question": "Laut den Verdopplungsrechnungen der Ausarbeitung gilt für das 8. Feld '$64 \\cdot 2$'. Welches Ergebnis ist notiert?",
       "answer": 128,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Notiert ist '8. Feld: 64 · 2 = 128'. 📄 Quelle: erk_hand, Folie 1 (S.1)",
+      "explanation": "Notiert ist '8. Feld: $64 \\cdot 2 = 128$'. 📄 Quelle: erk_hand, Folie 1 (S.1)",
       "source": "erk_hand, Folie 1 (S.1, Erkundung 1, Aufgabe 1)"
     },
     {
@@ -30458,11 +30458,11 @@
       "topic": "natuerliche_zahlen_peano",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Laut den Verdopplungsrechnungen der Ausarbeitung gilt für das 10. Feld '256 · 2'. Welches Ergebnis ist notiert?",
+      "question": "Laut den Verdopplungsrechnungen der Ausarbeitung gilt für das 10. Feld '$256 \\cdot 2$'. Welches Ergebnis ist notiert?",
       "answer": 512,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Notiert ist '10. Feld: 256 · 2 = 512'. 📄 Quelle: erk_hand, Folie 1 (S.1)",
+      "explanation": "Notiert ist '10. Feld: $256 \\cdot 2 = 512$'. 📄 Quelle: erk_hand, Folie 1 (S.1)",
       "source": "erk_hand, Folie 1 (S.1, Erkundung 1, Aufgabe 1)"
     },
     {
@@ -30480,7 +30480,7 @@
       "correct": [
         0
       ],
-      "explanation": "Die notierten Rechnungen (1·2=2, 2·2=4, 4·2=8, 8·2=16, 16·2=32 …) multiplizieren jeweils mit 2, jedes Feld hat also doppelt so viele Körner wie das vorhergehende. 📄 Quelle: erk_hand, Folie 1 (S.1)",
+      "explanation": "Die notierten Rechnungen ($1 \\cdot 2 = 2$, $2 \\cdot 2 = 4$, $4 \\cdot 2 = 8$, $8 \\cdot 2 = 16$, $16 \\cdot 2 = 32$ …) multiplizieren jeweils mit 2, jedes Feld hat also doppelt so viele Körner wie das vorhergehende. 📄 Quelle: erk_hand, Folie 1 (S.1)",
       "source": "erk_hand, Folie 1 (S.1, Erkundung 1, Aufgabe 1)"
     },
     {
@@ -30522,15 +30522,15 @@
       "type": "single",
       "question": "Welche Formel notiert die Ausarbeitung zur Bestimmung der Körneranzahl für das n-te Feld?",
       "options": [
-        "2^(n-1)",
-        "2^n",
-        "2^n − 1",
-        "n^2"
+        "$2^{n-1}$",
+        "$2^n$",
+        "$2^n - 1$",
+        "$n^2$"
       ],
       "correct": [
         0
       ],
-      "explanation": "Notiert (unterstrichen): 'Formel für Bestimmung der Körneranzahl für n-tes Feld: 2^(n-1)'. 📄 Quelle: erk_hand, Folie 3 (S.3)",
+      "explanation": "Notiert (unterstrichen): 'Formel für Bestimmung der Körneranzahl für n-tes Feld: $2^{n-1}$'. 📄 Quelle: erk_hand, Folie 3 (S.3)",
       "source": "erk_hand, Folie 3 (S.3, Erkundung 1, Aufgabe 1)"
     },
     {
@@ -30538,11 +30538,11 @@
       "topic": "summenformeln_gauss",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Berechne für n = 6 die Summe 1 + 2 + 4 + 8 + 16 + 32.",
+      "question": "Berechne für $n = 6$ die Summe $1 + 2 + 4 + 8 + 16 + 32$.",
       "answer": 63,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Notiert: 'n=6: 1 + 2 + 4 + 8 + 16 + 32 = 63'. 📄 Quelle: erk_hand, Folie 3 (S.3)",
+      "explanation": "Notiert: '$n = 6$: $1 + 2 + 4 + 8 + 16 + 32 = 63$'. 📄 Quelle: erk_hand, Folie 3 (S.3)",
       "source": "erk_hand, Folie 3 (S.3, Erkundung 1, Aufgabe 2a)"
     },
     {
@@ -30550,11 +30550,11 @@
       "topic": "summenformeln_gauss",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Berechne für n = 8 die Summe 1 + 2 + 4 + 8 + 16 + 32 + 64 + 128.",
+      "question": "Berechne für $n = 8$ die Summe $1 + 2 + 4 + 8 + 16 + 32 + 64 + 128$.",
       "answer": 255,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Notiert: 'n=8: 1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 = 255'. 📄 Quelle: erk_hand, Folie 3 (S.3)",
+      "explanation": "Notiert: '$n = 8$: $1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 = 255$'. 📄 Quelle: erk_hand, Folie 3 (S.3)",
       "source": "erk_hand, Folie 3 (S.3, Erkundung 1, Aufgabe 2a)"
     },
     {
@@ -30562,10 +30562,10 @@
       "topic": "summenformeln_gauss",
       "difficulty": 2,
       "type": "multi",
-      "question": "Betrachtet werden die Summen Sₙ = 1 + 2 + 4 + … + 2^(n−1) (Körnerzahlen der ersten n Felder eines sich verdoppelnden Musters). Welche Vermutungen über diese Summen Sₙ treffen zu?",
+      "question": "Betrachtet werden die Summen $S_n = 1 + 2 + 4 + \\dots + 2^{n-1}$ (Körnerzahlen der ersten n Felder eines sich verdoppelnden Musters). Welche Vermutungen über diese Summen $S_n$ treffen zu?",
       "options": [
-        "Alle Summen Sn sind ungerade Zahlen",
-        "Alle Summen sind der Vorgänger der Anzahl der Körner auf dem Feld n+1",
+        "Alle Summen $S_n$ sind ungerade Zahlen",
+        "Alle Summen sind der Vorgänger der Anzahl der Körner auf dem Feld $n+1$",
         "Alle Summen sind gerade Zahlen",
         "Alle Summen sind Vielfache von 3"
       ],
@@ -30573,7 +30573,7 @@
         0,
         1
       ],
-      "explanation": "Notiert unter 'Vermutung': Alle Summen Sn sind ungerade Zahlen; alle Summen sind der Vorgänger der Anzahl der Körner auf dem Feld n+1. 📄 Quelle: erk_hand, Folie 3 (S.3)",
+      "explanation": "Notiert unter 'Vermutung': Alle Summen $S_n$ sind ungerade Zahlen; alle Summen sind der Vorgänger der Anzahl der Körner auf dem Feld $n+1$. 📄 Quelle: erk_hand, Folie 3 (S.3)",
       "source": "erk_hand, Folie 3 (S.3, Erkundung 1, Aufgabe 2a)"
     },
     {
@@ -30581,18 +30581,18 @@
       "topic": "aussagenlogik",
       "difficulty": 2,
       "type": "multi",
-      "question": "Betrachtet wird die Summe Sₙ = 1 + 2 + 4 + … + 2^(n−1) der Körnerzahlen der ersten n Felder (jedes Feld doppelt so viele Körner wie das vorige). Welche Sätze gelten für alle natürlichen Zahlen n?",
+      "question": "Betrachtet wird die Summe $S_n = 1 + 2 + 4 + \\dots + 2^{n-1}$ der Körnerzahlen der ersten n Felder (jedes Feld doppelt so viele Körner wie das vorige). Welche Sätze gelten für alle natürlichen Zahlen n?",
       "options": [
-        "Wenn Sn die Summe der Körner der ersten Felder ist, dann ist die Summe ungerade",
-        "Wenn Sn die Summe der Anzahl aller Körner der ersten Felder ist, dann ist Sn der Vorgänger der Anzahl der Körner auf dem nächsten Feld",
-        "Wenn Sn die Summe der ersten Felder ist, dann ist die Summe gerade",
-        "Sn ist stets eine Zweierpotenz"
+        "Wenn $S_n$ die Summe der Körner der ersten Felder ist, dann ist die Summe ungerade",
+        "Wenn $S_n$ die Summe der Anzahl aller Körner der ersten Felder ist, dann ist $S_n$ der Vorgänger der Anzahl der Körner auf dem nächsten Feld",
+        "Wenn $S_n$ die Summe der ersten Felder ist, dann ist die Summe gerade",
+        "$S_n$ ist stets eine Zweierpotenz"
       ],
       "correct": [
         0,
         1
       ],
-      "explanation": "In 2b) werden die beiden Vermutungen als Sätze formuliert: die Summe ist ungerade; Sn ist der Vorgänger der Anzahl der Körner auf dem nächsten Feld. 📄 Quelle: erk_hand, Folie 4 (S.4)",
+      "explanation": "In 2b) werden die beiden Vermutungen als Sätze formuliert: die Summe ist ungerade; $S_n$ ist der Vorgänger der Anzahl der Körner auf dem nächsten Feld. 📄 Quelle: erk_hand, Folie 4 (S.4)",
       "source": "erk_hand, Folie 4 (S.4, Erkundung 1, Aufgabe 2b)"
     },
     {
@@ -30600,11 +30600,11 @@
       "topic": "aussagenlogik",
       "difficulty": 3,
       "type": "multi",
-      "question": "Wie lässt sich begründen, dass die Summe Sₙ = 2^0 + 2^1 + 2^2 + … + 2^(n−1) stets ungerade ist?",
+      "question": "Wie lässt sich begründen, dass die Summe $S_n = 2^0 + 2^1 + 2^2 + \\dots + 2^{n-1}$ stets ungerade ist?",
       "options": [
         "Es werden nur gerade Zahlen addiert und das Ergebnis anschließend um +1 erweitert",
-        "2 · (n − 1) ergibt eine gerade Zahl",
-        "Die 1 kommt als Startwert hinzu, denn x^0 = 1",
+        "$2 \\cdot (n - 1)$ ergibt eine gerade Zahl",
+        "Die 1 kommt als Startwert hinzu, denn $x^0 = 1$",
         "Es werden ausschließlich ungerade Zahlen addiert"
       ],
       "correct": [
@@ -30612,7 +30612,7 @@
         1,
         2
       ],
-      "explanation": "Begründung 2c): nur gerade Zahlen werden addiert, dann um +1 erweitert; 2·(n−1) ist gerade (außer bei 1, da x^0 = 1), wodurch die 1 als Startwert die ungerade Summe erzeugt. 📄 Quelle: erk_hand, Folie 4 (S.4)",
+      "explanation": "Begründung 2c): nur gerade Zahlen werden addiert, dann um +1 erweitert; $2 \\cdot (n - 1)$ ist gerade (außer bei 1, da $x^0 = 1$), wodurch die 1 als Startwert die ungerade Summe erzeugt. 📄 Quelle: erk_hand, Folie 4 (S.4)",
       "source": "erk_hand, Folie 4 (S.4, Erkundung 1, Aufgabe 2c)"
     },
     {
@@ -30620,11 +30620,11 @@
       "topic": "natuerliche_zahlen_peano",
       "difficulty": 2,
       "type": "numeric",
-      "question": "Berechne für n = 4 die Summe 2^0 + 2^1 + 2^2 + 2^3 = 1 + 2 + 4 + 8.",
+      "question": "Berechne für $n = 4$ die Summe $2^0 + 2^1 + 2^2 + 2^3 = 1 + 2 + 4 + 8$.",
       "answer": 15,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Notiert: '2^0 + 2^1 + 2^2 + 2^3 = 1 + 2 + 4 + 8 = 15'. 📄 Quelle: erk_hand, Folie 5 (S.5)",
+      "explanation": "Notiert: '$2^0 + 2^1 + 2^2 + 2^3 = 1 + 2 + 4 + 8 = 15$'. 📄 Quelle: erk_hand, Folie 5 (S.5)",
       "source": "erk_hand, Folie 5 (S.5, Erkundung 1, Aufgabe 2c)"
     },
     {
@@ -30632,11 +30632,11 @@
       "topic": "natuerliche_zahlen_peano",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Berechne für das 5. Feld 2^(5−1) = 2 · 2 · 2 · 2.",
+      "question": "Berechne für das 5. Feld $2^{5-1} = 2 \\cdot 2 \\cdot 2 \\cdot 2$.",
       "answer": 16,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Notiert: '5. Feld: 2^(5-1) = 2·2·2·2 = 16'. 📄 Quelle: erk_hand, Folie 5 (S.5)",
+      "explanation": "Notiert: '5. Feld: $2^{5-1} = 2 \\cdot 2 \\cdot 2 \\cdot 2 = 16$'. 📄 Quelle: erk_hand, Folie 5 (S.5)",
       "source": "erk_hand, Folie 5 (S.5, Erkundung 1, Aufgabe 2c)"
     },
     {
@@ -30644,19 +30644,19 @@
       "topic": "natuerliche_zahlen_peano",
       "difficulty": 2,
       "type": "multi",
-      "question": "Im grafischen Beweis (ausgemalte Flächen) werden 2^n und 2^n − 1 gegenübergestellt. Welche Zuordnungen sind dort notiert?",
+      "question": "Im grafischen Beweis (ausgemalte Flächen) werden $2^n$ und $2^n - 1$ gegenübergestellt. Welche Zuordnungen sind dort notiert?",
       "options": [
-        "n=1: 2^1 = 2 und 2 − 1 = 1",
-        "n=2: 2^2 = 4 und 4 − 1 = 3",
-        "n=3: 2^3 = 8 und 8 − 1 = 7",
-        "n=3: 2^3 = 6 und 6 − 1 = 5"
+        "$n=1$: $2^1 = 2$ und $2 - 1 = 1$",
+        "$n=2$: $2^2 = 4$ und $4 - 1 = 3$",
+        "$n=3$: $2^3 = 8$ und $8 - 1 = 7$",
+        "$n=3$: $2^3 = 6$ und $6 - 1 = 5$"
       ],
       "correct": [
         0,
         1,
         2
       ],
-      "explanation": "Im grafischen Beweis stehen u.a.: n=0: 2^0=1, 1−1=0; n=1: 2^1=2, 2−1=1; n=2: 2^2=4, 4−1=3; n=3: 2^3=8, 8−1=7. 2^3 ist 8, nicht 6. 📄 Quelle: erk_hand, Folie 5 (S.5)",
+      "explanation": "Im grafischen Beweis stehen u.a.: $n=0$: $2^0 = 1$, $1 - 1 = 0$; $n=1$: $2^1 = 2$, $2 - 1 = 1$; $n=2$: $2^2 = 4$, $4 - 1 = 3$; $n=3$: $2^3 = 8$, $8 - 1 = 7$. $2^3$ ist 8, nicht 6. 📄 Quelle: erk_hand, Folie 5 (S.5)",
       "source": "erk_hand, Folie 5 (S.5, Erkundung 1, Aufgabe 2c)"
     },
     {
@@ -30664,11 +30664,11 @@
       "topic": "natuerliche_zahlen_peano",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Im grafischen Beweis der Ausarbeitung steht für n = 3: 2^3 − 1 = ?",
+      "question": "Im grafischen Beweis der Ausarbeitung steht für $n = 3$: $2^3 - 1$ = ?",
       "answer": 7,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Notiert im grafischen Beweis: 'n=3: 2^3 = 8, 8 − 1 = 7'. 📄 Quelle: erk_hand, Folie 5 (S.5)",
+      "explanation": "Notiert im grafischen Beweis: '$n=3$: $2^3 = 8$, $8 - 1 = 7$'. 📄 Quelle: erk_hand, Folie 5 (S.5)",
       "source": "erk_hand, Folie 5 (S.5, Erkundung 1, Aufgabe 2c)"
     },
     {
@@ -30678,8 +30678,8 @@
       "type": "multi",
       "question": "Wie erklärt die Ausarbeitung den grafischen Beweis mit den 'ausgemalten Flächen'?",
       "options": [
-        "Die ausgemalten Flächen stehen für das 2^n",
-        "Das ausgemalte Feld innerhalb der großen Reihe ist dem −1 der Formel gleichzusetzen",
+        "Die ausgemalten Flächen stehen für das $2^n$",
+        "Das ausgemalte Feld innerhalb der großen Reihe ist dem $-1$ der Formel gleichzusetzen",
         "Die Summanden sind jeweils farbig markiert",
         "Die ausgemalten Flächen stehen für die Zahl n selbst"
       ],
@@ -30688,7 +30688,7 @@
         1,
         2
       ],
-      "explanation": "Erläuterung: die ausgemalten Flächen stehen für das 2^n; die Summanden sind jeweils farbig markiert; das ausgemalte Feld innerhalb der großen Reihe ist dem −1 der Formel gleichzusetzen. 📄 Quelle: erk_hand, Folie 5 (S.5)",
+      "explanation": "Erläuterung: die ausgemalten Flächen stehen für das $2^n$; die Summanden sind jeweils farbig markiert; das ausgemalte Feld innerhalb der großen Reihe ist dem $-1$ der Formel gleichzusetzen. 📄 Quelle: erk_hand, Folie 5 (S.5)",
       "source": "erk_hand, Folie 5 (S.5, Erkundung 1, Aufgabe 2c)"
     },
     {
@@ -30696,11 +30696,11 @@
       "topic": "summenformeln_gauss",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Auf der Tutoriumsseite (Tutorium A+G II, 13.04.2023) steht S_10 = 2^10 − 1. Welchen Wert hat S_10?",
+      "question": "Auf der Tutoriumsseite (Tutorium A+G II, 13.04.2023) steht $S_{10} = 2^{10} - 1$. Welchen Wert hat $S_{10}$?",
       "answer": 1023,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Notiert: 'S_10 = 1023 = 2^10 − 1'. 📄 Quelle: erk_hand, Folie 6 (S.6)",
+      "explanation": "Notiert: '$S_{10} = 1023 = 2^{10} - 1$'. 📄 Quelle: erk_hand, Folie 6 (S.6)",
       "source": "erk_hand, Folie 6 (S.6, Erkundung 1, Tutorium A+G II)"
     },
     {
@@ -30708,11 +30708,11 @@
       "topic": "summenformeln_gauss",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Auf der Tutoriumsseite steht S_5 = 2^5 − 1. Welchen Wert hat S_5?",
+      "question": "Auf der Tutoriumsseite steht $S_5 = 2^5 - 1$. Welchen Wert hat $S_5$?",
       "answer": 31,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Notiert: 'S_5 = 31 = 2^5 − 1'. 📄 Quelle: erk_hand, Folie 6 (S.6)",
+      "explanation": "Notiert: '$S_5 = 31 = 2^5 - 1$'. 📄 Quelle: erk_hand, Folie 6 (S.6)",
       "source": "erk_hand, Folie 6 (S.6, Erkundung 1, Tutorium A+G II)"
     },
     {
@@ -30720,11 +30720,11 @@
       "topic": "summenformeln_gauss",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Auf der Tutoriumsseite steht S_4 = 2^4 − 1. Welchen Wert hat S_4?",
+      "question": "Auf der Tutoriumsseite steht $S_4 = 2^4 - 1$. Welchen Wert hat $S_4$?",
       "answer": 15,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Notiert: 'S_4 = 15 = 2^4 − 1'. 📄 Quelle: erk_hand, Folie 6 (S.6)",
+      "explanation": "Notiert: '$S_4 = 15 = 2^4 - 1$'. 📄 Quelle: erk_hand, Folie 6 (S.6)",
       "source": "erk_hand, Folie 6 (S.6, Erkundung 1, Tutorium A+G II)"
     },
     {
@@ -30732,11 +30732,11 @@
       "topic": "summenformeln_gauss",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Auf der Tutoriumsseite steht S_3 = 2^3 − 1. Welchen Wert hat S_3?",
+      "question": "Auf der Tutoriumsseite steht $S_3 = 2^3 - 1$. Welchen Wert hat $S_3$?",
       "answer": 7,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Notiert: 'S_3 = 7 = 2^3 − 1'. 📄 Quelle: erk_hand, Folie 6 (S.6)",
+      "explanation": "Notiert: '$S_3 = 7 = 2^3 - 1$'. 📄 Quelle: erk_hand, Folie 6 (S.6)",
       "source": "erk_hand, Folie 6 (S.6, Erkundung 1, Tutorium A+G II)"
     },
     {
@@ -30744,17 +30744,17 @@
       "topic": "summenformeln_gauss",
       "difficulty": 2,
       "type": "single",
-      "question": "Welche allgemeine Summenformel hält die Ausarbeitung als Vermutung fest? Sn = 2^0 + 2^1 + 2^2 + … + 2^(n-1) = ?",
+      "question": "Welche allgemeine Summenformel hält die Ausarbeitung als Vermutung fest? $S_n = 2^0 + 2^1 + 2^2 + \\dots + 2^{n-1}$ = ?",
       "options": [
-        "2^n − 1",
-        "2^(n-1)",
-        "2^n",
-        "n^2 − 1"
+        "$2^n - 1$",
+        "$2^{n-1}$",
+        "$2^n$",
+        "$n^2 - 1$"
       ],
       "correct": [
         0
       ],
-      "explanation": "Notiert (Vermutung): 'Sn = 2^0 + 2^1 + 2^2 + … + 2^(n-1) = 2^n − 1'. 📄 Quelle: erk_hand, Folie 6 (S.6)",
+      "explanation": "Notiert (Vermutung): '$S_n = 2^0 + 2^1 + 2^2 + \\dots + 2^{n-1} = 2^n - 1$'. 📄 Quelle: erk_hand, Folie 6 (S.6)",
       "source": "erk_hand, Folie 6 (S.6, Erkundung 1, Tutorium A+G II)"
     },
     {
@@ -30762,17 +30762,17 @@
       "topic": "summenformeln_gauss",
       "difficulty": 2,
       "type": "single",
-      "question": "Für S_20 = 2^0 + 2^1 + 2^2 + … + 2^19 notiert die Ausarbeitung welches Ergebnis?",
+      "question": "Für $S_{20} = 2^0 + 2^1 + 2^2 + \\dots + 2^{19}$ notiert die Ausarbeitung welches Ergebnis?",
       "options": [
-        "2^20 − 1",
-        "2^19 − 1",
-        "2^20",
-        "20^2 − 1"
+        "$2^{20} - 1$",
+        "$2^{19} - 1$",
+        "$2^{20}$",
+        "$20^2 - 1$"
       ],
       "correct": [
         0
       ],
-      "explanation": "Notiert: 'S_20 = 2^0 + 2^1 + 2^2 + … + 2^19 = 2^20 − 1'. 📄 Quelle: erk_hand, Folie 6 (S.6)",
+      "explanation": "Notiert: '$S_{20} = 2^0 + 2^1 + 2^2 + \\dots + 2^{19} = 2^{20} - 1$'. 📄 Quelle: erk_hand, Folie 6 (S.6)",
       "source": "erk_hand, Folie 6 (S.6, Erkundung 1, Tutorium A+G II)"
     },
     {

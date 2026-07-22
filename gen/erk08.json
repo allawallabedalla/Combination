@@ -23,11 +23,11 @@
     "topic": "erk08_anna_zahlen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welches Ergebnis liefert die Subtraktion der ANNA-Zahlen 7 227 − 2 772?",
+    "question": "Welches Ergebnis liefert die Subtraktion der ANNA-Zahlen $7\\,227 - 2\\,772$?",
     "answer": 4455,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die auf dem Blatt notierte Rechnung ergibt 7 227 − 2 772 = 4 455. 📄 Quelle: erk08, Folie 1 (S.1)",
+    "explanation": "Die auf dem Blatt notierte Rechnung ergibt $7\\,227 - 2\\,772 = 4\\,455$. 📄 Quelle: erk08, Folie 1 (S.1)",
     "source": "erk08, Folie 1 (S.1, Zahlenmuster / ANNA-Zahlen)"
   },
   {
@@ -35,11 +35,11 @@
     "topic": "erk08_anna_zahlen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welches Ergebnis liefert die Subtraktion der ANNA-Zahlen 8 558 − 5 885?",
+    "question": "Welches Ergebnis liefert die Subtraktion der ANNA-Zahlen $8\\,558 - 5\\,885$?",
     "answer": 2673,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die auf dem Blatt notierte Rechnung ergibt 8 558 − 5 885 = 2 673. 📄 Quelle: erk08, Folie 1 (S.1)",
+    "explanation": "Die auf dem Blatt notierte Rechnung ergibt $8\\,558 - 5\\,885 = 2\\,673$. 📄 Quelle: erk08, Folie 1 (S.1)",
     "source": "erk08, Folie 1 (S.1, Zahlenmuster / ANNA-Zahlen)"
   },
   {
@@ -47,11 +47,11 @@
     "topic": "erk08_anna_zahlen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Auf dem Blatt wird begründet: 3 223 ist um 891 größer als 2 332, denn 1 000 − 100 − 10 + 1 = ? Welcher Wert steht rechts?",
+    "question": "Auf dem Blatt wird begründet: 3 223 ist um 891 größer als 2 332, denn $1\\,000 - 100 - 10 + 1$ = ? Welcher Wert steht rechts?",
     "answer": 891,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Für ANNA-Zahlen gilt: 3 223 ist um 891 größer als 2 332, denn 1 000 − 100 − 10 + 1 = 891. 📄 Quelle: erk08, Folie 1 (S.1)",
+    "explanation": "Für ANNA-Zahlen gilt: 3 223 ist um 891 größer als 2 332, denn $1\\,000 - 100 - 10 + 1 = 891$. 📄 Quelle: erk08, Folie 1 (S.1)",
     "source": "erk08, Folie 1 (S.1, Zahlenmuster / ANNA-Zahlen)"
   },
   {
@@ -59,11 +59,11 @@
     "topic": "erk08_anna_zahlen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welches Ergebnis liefert 891 · 4?",
+    "question": "Welches Ergebnis liefert $891 \\cdot 4$?",
     "answer": 3564,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die auf dem Blatt aufgelisteten Ergebnisse sind 1 782, 2 673, 3 564, 4 455, 5 346, 6 237, 7 128, 8 019; 891 · 4 = 3 564. 📄 Quelle: erk08, Folie 1 (S.1)",
+    "explanation": "Die auf dem Blatt aufgelisteten Ergebnisse sind 1 782, 2 673, 3 564, 4 455, 5 346, 6 237, 7 128, 8 019; $891 \\cdot 4 = 3\\,564$. 📄 Quelle: erk08, Folie 1 (S.1)",
     "source": "erk08, Folie 1 (S.1, Zahlenmuster / ANNA-Zahlen)"
   },
   {
@@ -71,7 +71,7 @@
     "topic": "erk08_anna_zahlen",
     "difficulty": 3,
     "type": "multi",
-    "question": "Die Ergebnisse von 891 · 2, 3, …, 9 sind 1 782, 2 673, …, 8 019. Was gilt für die Ergebnisse, die beim Subtrahieren zweier ANNA-Zahlen auftreten können?",
+    "question": "Die Ergebnisse von $891 \\cdot 2, 3, \\dots, 9$ sind 1 782, 2 673, …, 8 019. Was gilt für die Ergebnisse, die beim Subtrahieren zweier ANNA-Zahlen auftreten können?",
     "options": [
       "Es sind Vielfache von 891",
       "Zusammen mit 891 sind es genau diese aufgelisteten Ergebnisse",
@@ -109,11 +109,11 @@
     "topic": "erk08_nana_zahlen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welches Ergebnis liefert die Subtraktion der NANA-Zahlen 7 272 − 2 727?",
+    "question": "Welches Ergebnis liefert die Subtraktion der NANA-Zahlen $7\\,272 - 2\\,727$?",
     "answer": 4545,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die auf dem Blatt notierte Rechnung ergibt 7 272 − 2 727 = 4 545. 📄 Quelle: erk08, Folie 1 (S.1)",
+    "explanation": "Die auf dem Blatt notierte Rechnung ergibt $7\\,272 - 2\\,727 = 4\\,545$. 📄 Quelle: erk08, Folie 1 (S.1)",
     "source": "erk08, Folie 1 (S.1, Zahlenmuster / NANA-Zahlen)"
   },
   {
@@ -121,11 +121,11 @@
     "topic": "erk08_nana_zahlen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welches Ergebnis liefert die Subtraktion der NANA-Zahlen 6 363 − 3 636?",
+    "question": "Welches Ergebnis liefert die Subtraktion der NANA-Zahlen $6\\,363 - 3\\,636$?",
     "answer": 2727,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die auf dem Blatt notierte Rechnung ergibt 6 363 − 3 636 = 2 727. 📄 Quelle: erk08, Folie 1 (S.1)",
+    "explanation": "Die auf dem Blatt notierte Rechnung ergibt $6\\,363 - 3\\,636 = 2\\,727$. 📄 Quelle: erk08, Folie 1 (S.1)",
     "source": "erk08, Folie 1 (S.1, Zahlenmuster / NANA-Zahlen)"
   },
   {
@@ -133,11 +133,11 @@
     "topic": "erk08_nana_zahlen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Auf dem Blatt wird begründet: 3 232 ist um 909 größer als 2 323, denn 1 000 − 100 + 10 − 1 = ? Welcher Wert steht rechts?",
+    "question": "Auf dem Blatt wird begründet: 3 232 ist um 909 größer als 2 323, denn $1\\,000 - 100 + 10 - 1$ = ? Welcher Wert steht rechts?",
     "answer": 909,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Für NANA-Zahlen gilt: 3 232 ist um 909 größer als 2 323, denn 1 000 − 100 + 10 − 1 = 909. 📄 Quelle: erk08, Folie 1 (S.1)",
+    "explanation": "Für NANA-Zahlen gilt: 3 232 ist um 909 größer als 2 323, denn $1\\,000 - 100 + 10 - 1 = 909$. 📄 Quelle: erk08, Folie 1 (S.1)",
     "source": "erk08, Folie 1 (S.1, Zahlenmuster / NANA-Zahlen)"
   },
   {
@@ -145,11 +145,11 @@
     "topic": "erk08_nana_zahlen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welches Ergebnis liefert 909 · 6?",
+    "question": "Welches Ergebnis liefert $909 \\cdot 6$?",
     "answer": 5454,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die auf dem Blatt aufgelisteten Ergebnisse sind 1 818, 2 727, 3 636, 4 545, 5 454, 6 363, 7 272, 8 181; 909 · 6 = 5 454. 📄 Quelle: erk08, Folie 1 (S.1)",
+    "explanation": "Die auf dem Blatt aufgelisteten Ergebnisse sind 1 818, 2 727, 3 636, 4 545, 5 454, 6 363, 7 272, 8 181; $909 \\cdot 6 = 5\\,454$. 📄 Quelle: erk08, Folie 1 (S.1)",
     "source": "erk08, Folie 1 (S.1, Zahlenmuster / NANA-Zahlen)"
   },
   {
