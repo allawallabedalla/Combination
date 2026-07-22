@@ -45,17 +45,17 @@
     "topic": "klausur_wise20_verknuepfungen",
     "difficulty": 2,
     "type": "single",
-    "question": "Die Operation 'Binomieren' ist definiert durch x◆y := (x + y)·(x − y). Ist diese Operation kommutativ?",
+    "question": "Die Operation 'Binomieren' ist definiert durch $x \\blacklozenge y := (x + y) \\cdot (x - y)$. Ist diese Operation kommutativ?",
     "options": [
-      "Nein, denn x◆y = x² − y², während y◆x = y² − x²; beide sind im Allgemeinen verschieden.",
+      "Nein, denn $x \\blacklozenge y = x^2 - y^2$, während $y \\blacklozenge x = y^2 - x^2$; beide sind im Allgemeinen verschieden.",
       "Ja, weil die Multiplikation kommutativ ist.",
-      "Ja, weil x◆y = y◆x für alle x, y gilt.",
-      "Ja, weil (x + y)·(x − y) symmetrisch in x und y ist."
+      "Ja, weil $x \\blacklozenge y = y \\blacklozenge x$ für alle x, y gilt.",
+      "Ja, weil $(x + y) \\cdot (x - y)$ symmetrisch in x und y ist."
     ],
     "correct": [
       0
     ],
-    "explanation": "Es gilt x◆y = (x+y)(x−y) = x²−y², aber y◆x = (y+x)(y−x) = y²−x² = −(x²−y²). Für x ≠ y ist x◆y ≠ y◆x, die Operation ist also nicht kommutativ. 📄 Quelle: klausur_wise20, Folie 3 (S.3)",
+    "explanation": "Es gilt $x \\blacklozenge y = (x+y)(x-y) = x^2-y^2$, aber $y \\blacklozenge x = (y+x)(y-x) = y^2-x^2 = -(x^2-y^2)$. Für $x \\ne y$ ist $x \\blacklozenge y \\ne y \\blacklozenge x$, die Operation ist also nicht kommutativ. 📄 Quelle: klausur_wise20, Folie 3 (S.3)",
     "source": "klausur_wise20, Folie 3 (S.3, Aufgabe 1c: Grundbegriffe Arithmetik)"
   },
   {
@@ -63,11 +63,11 @@
     "topic": "klausur_wise20_verknuepfungen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Die Operation 'Binomieren' ist definiert durch x◆y := (x + y)·(x − y). Berechnen Sie 5◆3.",
+    "question": "Die Operation 'Binomieren' ist definiert durch $x \\blacklozenge y := (x + y) \\cdot (x - y)$. Berechnen Sie $5 \\blacklozenge 3$.",
     "answer": 16,
     "tolerance": 0,
     "unit": "",
-    "explanation": "5◆3 = (5+3)·(5−3) = 8·2 = 16. 📄 Quelle: klausur_wise20, Folie 3 (S.3)",
+    "explanation": "$5 \\blacklozenge 3 = (5+3) \\cdot (5-3) = 8 \\cdot 2 = 16$. 📄 Quelle: klausur_wise20, Folie 3 (S.3)",
     "source": "klausur_wise20, Folie 3 (S.3, Aufgabe 1c: Grundbegriffe Arithmetik)"
   },
   {
@@ -79,7 +79,7 @@
     "answer": 10201,
     "tolerance": 0,
     "unit": "",
-    "explanation": "100 = 1·81 + 0·27 + 2·9 + 0·3 + 1·1 = 81 + 18 + 1. Die Ziffern von 3^4 bis 3^0 sind 1,0,2,0,1, also 10201 im Dreiersystem. 📄 Quelle: klausur_wise20, Folie 3 (S.3)",
+    "explanation": "$100 = 1 \\cdot 81 + 0 \\cdot 27 + 2 \\cdot 9 + 0 \\cdot 3 + 1 \\cdot 1 = 81 + 18 + 1$. Die Ziffern von $3^4$ bis $3^0$ sind 1,0,2,0,1, also 10201 im Dreiersystem. 📄 Quelle: klausur_wise20, Folie 3 (S.3)",
     "source": "klausur_wise20, Folie 3 (S.3, Aufgabe 1d: Grundbegriffe Arithmetik)"
   },
   {
@@ -90,17 +90,17 @@
     "question": "Welche Aussagen zur vollständigen Dreierbündelung der 100 Kreise sind korrekt?",
     "options": [
       "Im Dreiersystem lautet die Zahl 100 gleich 10201.",
-      "In Potenzschreibweise gilt 100 = 1·3⁴ + 2·3² + 1·3⁰.",
+      "In Potenzschreibweise gilt $100 = 1 \\cdot 3^4 + 2 \\cdot 3^2 + 1 \\cdot 3^0$.",
       "Es entstehen ein Bündel zu 81, zwei Bündel zu 9 und ein einzelner Kreis.",
       "Im Dreiersystem lautet die Zahl 100 gleich 10001.",
-      "In Potenzschreibweise gilt 100 = 2·3⁴ + 1·3²."
+      "In Potenzschreibweise gilt $100 = 2 \\cdot 3^4 + 1 \\cdot 3^2$."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "100 = 1·3⁴ + 0·3³ + 2·3² + 0·3¹ + 1·3⁰ = 81 + 18 + 1, also 10201₃. Das entspricht einem 81er-Bündel, zwei 9er-Bündeln und einem Einzelkreis. 10001₃ = 82 und 2·3⁴+1·3² = 171 sind falsch. 📄 Quelle: klausur_wise20, Folie 3 (S.3)",
+    "explanation": "$100 = 1 \\cdot 3^4 + 0 \\cdot 3^3 + 2 \\cdot 3^2 + 0 \\cdot 3^1 + 1 \\cdot 3^0 = 81 + 18 + 1$, also $10201_3$. Das entspricht einem 81er-Bündel, zwei 9er-Bündeln und einem Einzelkreis. $10001_3 = 82$ und $2 \\cdot 3^4 + 1 \\cdot 3^2 = 171$ sind falsch. 📄 Quelle: klausur_wise20, Folie 3 (S.3)",
     "source": "klausur_wise20, Folie 3 (S.3, Aufgabe 1d: Grundbegriffe Arithmetik)"
   },
   {
@@ -108,17 +108,17 @@
     "topic": "klausur_wise20_logik",
     "difficulty": 2,
     "type": "single",
-    "question": "Gegeben sei der Satz: 'Für alle natürlichen Zahlen a und b gilt: Wenn a|b, dann a|(b − a).' Wie lautet die korrekte Verneinung dieses Satzes?",
+    "question": "Gegeben sei der Satz: 'Für alle natürlichen Zahlen a und b gilt: Wenn $a \\mid b$, dann $a \\mid (b - a)$.' Wie lautet die korrekte Verneinung dieses Satzes?",
     "options": [
-      "Es gibt natürliche Zahlen a und b mit a|b und a∤(b − a).",
-      "Für alle natürlichen Zahlen a und b gilt: Wenn a∤b, dann a∤(b − a).",
-      "Es gibt natürliche Zahlen a und b mit a∤b und a|(b − a).",
-      "Für alle natürlichen Zahlen a und b gilt a|b und a∤(b − a)."
+      "Es gibt natürliche Zahlen a und b mit $a \\mid b$ und $a \\nmid (b - a)$.",
+      "Für alle natürlichen Zahlen a und b gilt: Wenn $a \\nmid b$, dann $a \\nmid (b - a)$.",
+      "Es gibt natürliche Zahlen a und b mit $a \\nmid b$ und $a \\mid (b - a)$.",
+      "Für alle natürlichen Zahlen a und b gilt $a \\mid b$ und $a \\nmid (b - a)$."
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Negation einer Allaussage der Form ∀a,b: (a|b ⇒ a|(b−a)) ist eine Existenzaussage, bei der die Prämisse gilt und die Konklusion verletzt ist: ∃a,b: a|b ∧ a∤(b−a). 📄 Quelle: klausur_wise20, Folie 4 (S.4)",
+    "explanation": "Die Negation einer Allaussage der Form $\\forall a,b: (a \\mid b \\Rightarrow a \\mid (b-a))$ ist eine Existenzaussage, bei der die Prämisse gilt und die Konklusion verletzt ist: $\\exists a,b: a \\mid b \\land a \\nmid (b-a)$. 📄 Quelle: klausur_wise20, Folie 4 (S.4)",
     "source": "klausur_wise20, Folie 4 (S.4, Aufgabe 2b: Logik und Beweise)"
   },
   {
@@ -126,7 +126,7 @@
     "topic": "klausur_wise20_abbildungsgeometrie",
     "difficulty": 3,
     "type": "single",
-    "question": "Drei Spiegelachsen f, g und h verlaufen durch einen gemeinsamen Punkt S. Durch welche einfache (nicht verkettete) Bewegung lässt sich die dreifache Geradenspiegelung S_h ∘ S_g ∘ S_f ersetzen?",
+    "question": "Drei Spiegelachsen f, g und h verlaufen durch einen gemeinsamen Punkt S. Durch welche einfache (nicht verkettete) Bewegung lässt sich die dreifache Geradenspiegelung $S_h \\circ S_g \\circ S_f$ ersetzen?",
     "options": [
       "Durch eine Geradenspiegelung, da die drei Achsen kopunktal sind (gemeinsamer Punkt S).",
       "Durch eine Verschiebung.",
@@ -144,17 +144,17 @@
     "topic": "klausur_wise20_logik",
     "difficulty": 2,
     "type": "single",
-    "question": "Betrachtet werden A: 'Zahl a ist gerade' und B: 'Quadratzahl a² ist gerade'. Zu welcher Implikation ist die Implikation A ⇒ B logisch äquivalent (gleiche Wahrheitstafel)?",
+    "question": "Betrachtet werden A: 'Zahl a ist gerade' und B: 'Quadratzahl $a^2$ ist gerade'. Zu welcher Implikation ist die Implikation $A \\Rightarrow B$ logisch äquivalent (gleiche Wahrheitstafel)?",
     "options": [
-      "¬B ⇒ ¬A (Kontraposition)",
-      "B ⇒ A (Umkehrung)",
-      "¬A ⇒ ¬B",
-      "A ∧ B"
+      "$\\neg B \\Rightarrow \\neg A$ (Kontraposition)",
+      "$B \\Rightarrow A$ (Umkehrung)",
+      "$\\neg A \\Rightarrow \\neg B$",
+      "$A \\land B$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Eine Implikation A ⇒ B ist stets logisch äquivalent zu ihrer Kontraposition ¬B ⇒ ¬A; beide besitzen dieselbe Wahrheitstafel. Die Umkehrung B ⇒ A und ¬A ⇒ ¬B sind dagegen nicht äquivalent zu A ⇒ B. 📄 Quelle: klausur_wise20, Folie 7 (S.7)",
+    "explanation": "Eine Implikation $A \\Rightarrow B$ ist stets logisch äquivalent zu ihrer Kontraposition $\\neg B \\Rightarrow \\neg A$; beide besitzen dieselbe Wahrheitstafel. Die Umkehrung $B \\Rightarrow A$ und $\\neg A \\Rightarrow \\neg B$ sind dagegen nicht äquivalent zu $A \\Rightarrow B$. 📄 Quelle: klausur_wise20, Folie 7 (S.7)",
     "source": "klausur_wise20, Folie 7 (S.7, Aufgabe 4b: Erkundungen)"
   },
   {
@@ -162,11 +162,11 @@
     "topic": "klausur_wise20_quadratzahlen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Man geht von 6·6 = 36 aus, verringert den ersten Faktor um 1 und erhöht den zweiten um 1. Berechnen Sie das entstehende Produkt 5·7.",
+    "question": "Man geht von $6 \\cdot 6 = 36$ aus, verringert den ersten Faktor um 1 und erhöht den zweiten um 1. Berechnen Sie das entstehende Produkt $5 \\cdot 7$.",
     "answer": 35,
     "tolerance": 0,
     "unit": "",
-    "explanation": "5·7 = 35, also genau 1 kleiner als die Ausgangsquadratzahl 36 (= 6²). 📄 Quelle: klausur_wise20, Folie 8 (S.8)",
+    "explanation": "$5 \\cdot 7 = 35$, also genau 1 kleiner als die Ausgangsquadratzahl 36 ($= 6^2$). 📄 Quelle: klausur_wise20, Folie 8 (S.8)",
     "source": "klausur_wise20, Folie 8 (S.8, Aufgabe 5a: Erkundung)"
   },
   {
@@ -174,20 +174,20 @@
     "topic": "klausur_wise20_quadratzahlen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Ausgehend von einer Quadratzahl a·a wird der erste Faktor um k verringert und der zweite um k erhöht. Welche Aussagen beschreiben das entstehende Muster korrekt?",
+    "question": "Ausgehend von einer Quadratzahl $a \\cdot a$ wird der erste Faktor um k verringert und der zweite um k erhöht. Welche Aussagen beschreiben das entstehende Muster korrekt?",
     "options": [
-      "(a − 1)·(a + 1) = a² − 1.",
-      "(a − k)·(a + k) = a² − k².",
-      "Das Produkt ist gegenüber der Quadratzahl a² um k² kleiner.",
-      "(a − k)·(a + k) = a² + k².",
-      "Das Produkt bleibt stets gleich a²."
+      "$(a - 1) \\cdot (a + 1) = a^2 - 1$.",
+      "$(a - k) \\cdot (a + k) = a^2 - k^2$.",
+      "Das Produkt ist gegenüber der Quadratzahl $a^2$ um $k^2$ kleiner.",
+      "$(a - k) \\cdot (a + k) = a^2 + k^2$.",
+      "Das Produkt bleibt stets gleich $a^2$."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Nach der dritten binomischen Formel gilt (a − k)(a + k) = a² − k². Das Produkt ist also um k² kleiner als die Quadratzahl a² (für k = 1 um 1, für k = 2 um 4, usw.). Die Varianten a² + k² und 'bleibt gleich a²' sind falsch. 📄 Quelle: klausur_wise20, Folie 8 (S.8)",
+    "explanation": "Nach der dritten binomischen Formel gilt $(a - k)(a + k) = a^2 - k^2$. Das Produkt ist also um $k^2$ kleiner als die Quadratzahl $a^2$ (für $k = 1$ um 1, für $k = 2$ um 4, usw.). Die Varianten $a^2 + k^2$ und 'bleibt gleich $a^2$' sind falsch. 📄 Quelle: klausur_wise20, Folie 8 (S.8)",
     "source": "klausur_wise20, Folie 8 (S.8, Aufgabe 5a/b: Erkundung)"
   }
 ]

@@ -4,17 +4,17 @@
     "topic": "uebung_2023_summenfolgen",
     "difficulty": 1,
     "type": "single",
-    "question": "Welchen geschlossenen Wert hat die Summe der ersten n ungeraden Zahlen 1+3+5+…+(2n−1)?",
+    "question": "Welchen geschlossenen Wert hat die Summe der ersten n ungeraden Zahlen $1+3+5+\\dots+(2n-1)$?",
     "options": [
-      "n^2",
-      "n·(n+1)",
-      "2n−1",
-      "n(n+1)/2"
+      "$n^2$",
+      "$n\\cdot(n+1)$",
+      "$2n-1$",
+      "$\\frac{n(n+1)}{2}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie steht: 1+3+5+…+(2n−1)=∑_{i=1}^{n}(2i−1)=n^2. 📄 Quelle: uebung_2023, Folie 1 (S.1)",
+    "explanation": "Auf der Folie steht: $1+3+5+\\dots+(2n-1)=\\sum_{i=1}^{n}(2i-1)=n^2$. 📄 Quelle: uebung_2023, Folie 1 (S.1)",
     "source": "uebung_2023, Folie 1 (S.1, VL 1-4, Aufgabe 1a)"
   },
   {
@@ -22,11 +22,11 @@
     "topic": "uebung_2023_summenfolgen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechne mit der Formel 1+3+5+…+(2n−1)=n² den Wert der Summe 1+3+5+…+19 (die ersten 10 ungeraden Zahlen).",
+    "question": "Berechne mit der Formel $1+3+5+\\dots+(2n-1)=n^2$ den Wert der Summe $1+3+5+\\dots+19$ (die ersten 10 ungeraden Zahlen).",
     "answer": 100,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Für n=10 gilt 1+3+…+(2·10−1)=1+3+…+19=n^2=10^2=100. 📄 Quelle: uebung_2023, Folie 1 (S.1)",
+    "explanation": "Für $n=10$ gilt $1+3+\\dots+(2\\cdot10-1)=1+3+\\dots+19=n^2=10^2=100$. 📄 Quelle: uebung_2023, Folie 1 (S.1)",
     "source": "uebung_2023, Folie 1 (S.1, VL 1-4, Aufgabe 1a)"
   },
   {
@@ -34,11 +34,11 @@
     "topic": "uebung_2023_dreieckszahlen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechne mit der Formel Δ_n=∑_{i=1}^{n} i = n(n+1)/2 die 5-te Dreieckszahl Δ_5.",
+    "question": "Berechne mit der Formel $\\Delta_n=\\sum_{i=1}^{n} i = \\frac{n(n+1)}{2}$ die 5-te Dreieckszahl $\\Delta_5$.",
     "answer": 15,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Δ_5 = 5·(5+1)/2 = 5·6/2 = 15. 📄 Quelle: uebung_2023, Folie 1 (S.1)",
+    "explanation": "$\\Delta_5 = \\frac{5\\cdot(5+1)}{2} = \\frac{5\\cdot6}{2} = 15$. 📄 Quelle: uebung_2023, Folie 1 (S.1)",
     "source": "uebung_2023, Folie 1 (S.1, VL 1-4, Aufgabe 1b)"
   },
   {
@@ -64,11 +64,11 @@
     "topic": "uebung_2023_teilbarkeit",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Durch welche Zahl ist n³−n für alle natürlichen Zahlen n teilbar?",
+    "question": "Durch welche Zahl ist $n^3-n$ für alle natürlichen Zahlen n teilbar?",
     "answer": 6,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Aussage der Folie lautet: 'Für alle natürlichen Zahlen n gilt: n^3−n ist durch 6 teilbar.' 📄 Quelle: uebung_2023, Folie 1 (S.1)",
+    "explanation": "Die Aussage der Folie lautet: 'Für alle natürlichen Zahlen n gilt: $n^3-n$ ist durch 6 teilbar.' 📄 Quelle: uebung_2023, Folie 1 (S.1)",
     "source": "uebung_2023, Folie 1 (S.1, VL 1-4, Aufgabe 2a)"
   },
   {
@@ -76,17 +76,17 @@
     "topic": "uebung_2023_summenfolgen",
     "difficulty": 1,
     "type": "single",
-    "question": "Welcher geschlossene Ausdruck gilt für die Summe ∑_{k=1}^{n} k = 1+2+3+…+n?",
+    "question": "Welcher geschlossene Ausdruck gilt für die Summe $\\sum_{k=1}^{n} k = 1+2+3+\\dots+n$?",
     "options": [
-      "(n^2+n)/2",
-      "(n^2−n)/2",
-      "n^2/2",
-      "n^2"
+      "$\\frac{n^2+n}{2}$",
+      "$\\frac{n^2-n}{2}$",
+      "$\\frac{n^2}{2}$",
+      "$n^2$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie gibt an: ∑_{k=1}^{n} k = 1+2+3+…+n = (n^2+n)/2. 📄 Quelle: uebung_2023, Folie 1 (S.1)",
+    "explanation": "Die Folie gibt an: $\\sum_{k=1}^{n} k = 1+2+3+\\dots+n = \\frac{n^2+n}{2}$. 📄 Quelle: uebung_2023, Folie 1 (S.1)",
     "source": "uebung_2023, Folie 1 (S.1, VL 1-4, Aufgabe 2b)"
   },
   {
@@ -94,11 +94,11 @@
     "topic": "uebung_2023_summenfolgen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechne mit der Formel ∑_{k=1}^{n} k = (n²+n)/2 den Wert der Summe 1+2+3+…+10.",
+    "question": "Berechne mit der Formel $\\sum_{k=1}^{n} k = \\frac{n^2+n}{2}$ den Wert der Summe $1+2+3+\\dots+10$.",
     "answer": 55,
     "tolerance": 0,
     "unit": "",
-    "explanation": "∑_{k=1}^{10} k = (n^2+n)/2 = (10^2+10)/2 = 110/2 = 55. 📄 Quelle: uebung_2023, Folie 1 (S.1)",
+    "explanation": "$\\sum_{k=1}^{10} k = \\frac{n^2+n}{2} = \\frac{10^2+10}{2} = \\frac{110}{2} = 55$. 📄 Quelle: uebung_2023, Folie 1 (S.1)",
     "source": "uebung_2023, Folie 1 (S.1, VL 1-4, Aufgabe 2b)"
   },
   {
@@ -106,17 +106,17 @@
     "topic": "uebung_2023_fibonacci",
     "difficulty": 2,
     "type": "single",
-    "question": "Welchen Wert hat die rechte Seite der Fibonacci-Identität f_n² + f_n·f_{n+1} − f_{n+1}² = … ?",
+    "question": "Welchen Wert hat die rechte Seite der Fibonacci-Identität $f_n^2 + f_n\\cdot f_{n+1} - f_{n+1}^2 = \\dots$ ?",
     "options": [
-      "(−1)^{n+1}",
-      "(−1)^{n}",
-      "n+1",
+      "$(-1)^{n+1}$",
+      "$(-1)^{n}$",
+      "$n+1$",
       "1"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie gibt die Identität f_n^2 + f_n·f_{n+1} − f_{n+1}^2 = (−1)^{n+1} an. 📄 Quelle: uebung_2023, Folie 1 (S.1)",
+    "explanation": "Die Folie gibt die Identität $f_n^2 + f_n\\cdot f_{n+1} - f_{n+1}^2 = (-1)^{n+1}$ an. 📄 Quelle: uebung_2023, Folie 1 (S.1)",
     "source": "uebung_2023, Folie 1 (S.1, VL 1-4, Aufgabe 2c)"
   },
   {
@@ -126,15 +126,15 @@
     "type": "single",
     "question": "Wie lautet die Flächeninhaltsformel für das Trapez (mit Höhe h und parallelen Seiten a und c)?",
     "options": [
-      "A=(a+c)·h/2",
-      "A=(a+c)·h",
-      "A=a·c/2",
-      "A=(a−c)·h/2"
+      "$A=\\frac{(a+c)\\cdot h}{2}$",
+      "$A=(a+c)\\cdot h$",
+      "$A=\\frac{a\\cdot c}{2}$",
+      "$A=\\frac{(a-c)\\cdot h}{2}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie gibt A=((a+c)·h)/2 = ((a+c)/2)·h = (a+c)·(h/2) an. 📄 Quelle: uebung_2023, Folie 2 (S.2)",
+    "explanation": "Die Folie gibt $A=\\frac{(a+c)\\cdot h}{2} = \\frac{(a+c)}{2}\\cdot h = (a+c)\\cdot\\frac{h}{2}$ an. 📄 Quelle: uebung_2023, Folie 2 (S.2)",
     "source": "uebung_2023, Folie 2 (S.2, VL 5-6, Aufgabe 4)"
   },
   {
@@ -142,11 +142,11 @@
     "topic": "uebung_2023_flaecheninhalt",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechne mit der Trapezformel A=(a+c)·h/2 den Flächeninhalt eines Trapezes mit den parallelen Seiten a=6 cm und c=4 cm sowie der Höhe h=3 cm.",
+    "question": "Berechne mit der Trapezformel $A=\\frac{(a+c)\\cdot h}{2}$ den Flächeninhalt eines Trapezes mit den parallelen Seiten $a=6$ cm und $c=4$ cm sowie der Höhe $h=3$ cm.",
     "answer": 15,
     "tolerance": 0,
     "unit": "cm²",
-    "explanation": "A=(a+c)·h/2 = (6+4)·3/2 = 10·3/2 = 15 cm². 📄 Quelle: uebung_2023, Folie 2 (S.2)",
+    "explanation": "$A=\\frac{(a+c)\\cdot h}{2} = \\frac{(6+4)\\cdot3}{2} = \\frac{10\\cdot3}{2} = 15$ cm². 📄 Quelle: uebung_2023, Folie 2 (S.2)",
     "source": "uebung_2023, Folie 2 (S.2, VL 5-6, Aufgabe 4)"
   },
   {
@@ -173,11 +173,11 @@
     "topic": "uebung_2023_restklassen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Löse die Restklassengleichung x + 4̄ = 1̄ für m=6. Gib den kleinsten nichtnegativen Vertreter der Lösungs-Restklasse an.",
+    "question": "Löse die Restklassengleichung $x + \\overline{4} = \\overline{1}$ für $m=6$. Gib den kleinsten nichtnegativen Vertreter der Lösungs-Restklasse an.",
     "answer": 3,
     "tolerance": 0,
     "unit": "",
-    "explanation": "x ≡ 1 − 4 = −3 ≡ 3 (mod 6); die Lösung ist die Restklasse 3̄. Probe: 3+4=7≡1 (mod 6). 📄 Quelle: uebung_2023, Folie 3 (S.3)",
+    "explanation": "$x \\equiv 1 - 4 = -3 \\equiv 3 \\pmod{6}$; die Lösung ist die Restklasse $\\overline{3}$. Probe: $3+4=7\\equiv1 \\pmod{6}$. 📄 Quelle: uebung_2023, Folie 3 (S.3)",
     "source": "uebung_2023, Folie 3 (S.3, VL 9-11, Aufgabe 7b)"
   },
   {
@@ -185,11 +185,11 @@
     "topic": "uebung_2023_restklassen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Löse die Restklassengleichung x · 3̄ = 2̄ für m=4. Gib den kleinsten nichtnegativen Vertreter der Lösungs-Restklasse an.",
+    "question": "Löse die Restklassengleichung $x \\cdot \\overline{3} = \\overline{2}$ für $m=4$. Gib den kleinsten nichtnegativen Vertreter der Lösungs-Restklasse an.",
     "answer": 2,
     "tolerance": 0,
     "unit": "",
-    "explanation": "3 ist invertierbar mod 4 (3·3≡1), also x ≡ 3·2 = 6 ≡ 2 (mod 4); Lösung 2̄. Probe: 3·2=6≡2 (mod 4). 📄 Quelle: uebung_2023, Folie 3 (S.3)",
+    "explanation": "3 ist invertierbar mod 4 ($3\\cdot3\\equiv1$), also $x \\equiv 3\\cdot2 = 6 \\equiv 2 \\pmod{4}$; Lösung $\\overline{2}$. Probe: $3\\cdot2=6\\equiv2 \\pmod{4}$. 📄 Quelle: uebung_2023, Folie 3 (S.3)",
     "source": "uebung_2023, Folie 3 (S.3, VL 9-11, Aufgabe 7b)"
   },
   {
@@ -197,11 +197,11 @@
     "topic": "uebung_2023_restklassen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Löse die Kongruenz x − 3 ≡ 2 (mod 4). Gib den kleinsten nichtnegativen Vertreter der Lösungs-Restklasse an.",
+    "question": "Löse die Kongruenz $x - 3 \\equiv 2 \\pmod{4}$. Gib den kleinsten nichtnegativen Vertreter der Lösungs-Restklasse an.",
     "answer": 1,
     "tolerance": 0,
     "unit": "",
-    "explanation": "x ≡ 2 + 3 = 5 ≡ 1 (mod 4); Lösung 1̄. Probe: 1−3=−2≡2 (mod 4). 📄 Quelle: uebung_2023, Folie 3 (S.3)",
+    "explanation": "$x \\equiv 2 + 3 = 5 \\equiv 1 \\pmod{4}$; Lösung $\\overline{1}$. Probe: $1-3=-2\\equiv2 \\pmod{4}$. 📄 Quelle: uebung_2023, Folie 3 (S.3)",
     "source": "uebung_2023, Folie 3 (S.3, VL 9-11, Aufgabe 7b)"
   },
   {
@@ -211,17 +211,17 @@
     "type": "multi",
     "question": "Welche der folgenden Kongruenzen sind korrekt?",
     "options": [
-      "17 ≡ 3 (mod 7)",
-      "1234 ≡ 4 (mod 10)",
-      "221 ≡ 6 (mod 4)",
-      "17 ≡ 11 (mod 3)"
+      "$17 \\equiv 3 \\pmod{7}$",
+      "$1234 \\equiv 4 \\pmod{10}$",
+      "$221 \\equiv 6 \\pmod{4}$",
+      "$17 \\equiv 11 \\pmod{3}$"
     ],
     "correct": [
       0,
       1,
       3
     ],
-    "explanation": "17−3=14=2·7 ✓; 1234 endet auf 4, also ≡4 (mod 10) ✓; 221≡1 und 6≡2 (mod 4), daher 221≢6 (mod 4) ✗; 17−11=6=2·3, also 17≡11 (mod 3) ✓. 📄 Quelle: uebung_2023, Folie 3 (S.3)",
+    "explanation": "$17-3=14=2\\cdot7$ ✓; 1234 endet auf 4, also $\\equiv4 \\pmod{10}$ ✓; $221\\equiv1$ und $6\\equiv2 \\pmod{4}$, daher $221\\not\\equiv6 \\pmod{4}$ ✗; $17-11=6=2\\cdot3$, also $17\\equiv11 \\pmod{3}$ ✓. 📄 Quelle: uebung_2023, Folie 3 (S.3)",
     "source": "uebung_2023, Folie 3 (S.3, VL 9-11, Aufgabe 7c)"
   },
   {
@@ -229,11 +229,11 @@
     "topic": "uebung_2023_restklassen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Bestimme den Wert X mit 2·3·5·7 ≡ X (mod 4) (kleinster nichtnegativer Vertreter).",
+    "question": "Bestimme den Wert X mit $2\\cdot3\\cdot5\\cdot7 \\equiv X \\pmod{4}$ (kleinster nichtnegativer Vertreter).",
     "answer": 2,
     "tolerance": 0,
     "unit": "",
-    "explanation": "2·3·5·7 = 210, und 210 = 52·4 + 2, also 210 ≡ 2 (mod 4). 📄 Quelle: uebung_2023, Folie 3 (S.3)",
+    "explanation": "$2\\cdot3\\cdot5\\cdot7 = 210$, und $210 = 52\\cdot4 + 2$, also $210 \\equiv 2 \\pmod{4}$. 📄 Quelle: uebung_2023, Folie 3 (S.3)",
     "source": "uebung_2023, Folie 3 (S.3, VL 9-11, Aufgabe 7d)"
   },
   {
@@ -241,11 +241,11 @@
     "topic": "uebung_2023_restklassen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Bestimme den Wert X mit 3²·5·11 ≡ X (mod 11) (kleinster nichtnegativer Vertreter).",
+    "question": "Bestimme den Wert X mit $3^2\\cdot5\\cdot11 \\equiv X \\pmod{11}$ (kleinster nichtnegativer Vertreter).",
     "answer": 0,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Das Produkt enthält den Faktor 11, ist also durch 11 teilbar: 3^2·5·11 ≡ 0 (mod 11). 📄 Quelle: uebung_2023, Folie 3 (S.3)",
+    "explanation": "Das Produkt enthält den Faktor 11, ist also durch 11 teilbar: $3^2\\cdot5\\cdot11 \\equiv 0 \\pmod{11}$. 📄 Quelle: uebung_2023, Folie 3 (S.3)",
     "source": "uebung_2023, Folie 3 (S.3, VL 9-11, Aufgabe 7d)"
   },
   {
@@ -253,11 +253,11 @@
     "topic": "uebung_2023_restklassen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Bestimme den Wert X mit 5⁴ ≡ X (mod 4) (kleinster nichtnegativer Vertreter).",
+    "question": "Bestimme den Wert X mit $5^4 \\equiv X \\pmod{4}$ (kleinster nichtnegativer Vertreter).",
     "answer": 1,
     "tolerance": 0,
     "unit": "",
-    "explanation": "5 ≡ 1 (mod 4), also 5^4 ≡ 1^4 = 1 (mod 4). (Kontrolle: 5^4=625=156·4+1.) 📄 Quelle: uebung_2023, Folie 3 (S.3)",
+    "explanation": "$5 \\equiv 1 \\pmod{4}$, also $5^4 \\equiv 1^4 = 1 \\pmod{4}$. (Kontrolle: $5^4=625=156\\cdot4+1$.) 📄 Quelle: uebung_2023, Folie 3 (S.3)",
     "source": "uebung_2023, Folie 3 (S.3, VL 9-11, Aufgabe 7d)"
   },
   {
@@ -265,11 +265,11 @@
     "topic": "uebung_2023_restklassen",
     "difficulty": 3,
     "type": "numeric",
-    "question": "Bestimme den Wert X mit 38⁷·39² ≡ X (mod 37) (kleinster nichtnegativer Vertreter).",
+    "question": "Bestimme den Wert X mit $38^7\\cdot39^2 \\equiv X \\pmod{37}$ (kleinster nichtnegativer Vertreter).",
     "answer": 4,
     "tolerance": 0,
     "unit": "",
-    "explanation": "38 ≡ 1 und 39 ≡ 2 (mod 37), also 38^7·39^2 ≡ 1^7·2^2 = 4 (mod 37). 📄 Quelle: uebung_2023, Folie 3 (S.3)",
+    "explanation": "$38 \\equiv 1$ und $39 \\equiv 2 \\pmod{37}$, also $38^7\\cdot39^2 \\equiv 1^7\\cdot2^2 = 4 \\pmod{37}$. 📄 Quelle: uebung_2023, Folie 3 (S.3)",
     "source": "uebung_2023, Folie 3 (S.3, VL 9-11, Aufgabe 7d)"
   },
   {
@@ -277,11 +277,11 @@
     "topic": "uebung_2023_euklidischer_algorithmus",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Bestimme den größten gemeinsamen Teiler von 76 und 209 (zum Kürzen von 76/209).",
+    "question": "Bestimme den größten gemeinsamen Teiler von 76 und 209 (zum Kürzen von $\\frac{76}{209}$).",
     "answer": 19,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Euklidischer Algorithmus: 209=2·76+57, 76=1·57+19, 57=3·19+0 ⇒ ggT=19. 📄 Quelle: uebung_2023, Folie 4 (S.4)",
+    "explanation": "Euklidischer Algorithmus: $209=2\\cdot76+57$, $76=1\\cdot57+19$, $57=3\\cdot19+0 \\Rightarrow \\mathrm{ggT}=19$. 📄 Quelle: uebung_2023, Folie 4 (S.4)",
     "source": "uebung_2023, Folie 4 (S.4, VL 12, Aufgabe 8a)"
   },
   {
@@ -289,17 +289,17 @@
     "topic": "uebung_2023_euklidischer_algorithmus",
     "difficulty": 2,
     "type": "single",
-    "question": "Zu welchem vollständig gekürzten Bruch lässt sich 76/209 kürzen?",
+    "question": "Zu welchem vollständig gekürzten Bruch lässt sich $\\frac{76}{209}$ kürzen?",
     "options": [
-      "4/11",
-      "4/19",
-      "3/11",
-      "8/22"
+      "$\\frac{4}{11}$",
+      "$\\frac{4}{19}$",
+      "$\\frac{3}{11}$",
+      "$\\frac{8}{22}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "ggT(76,209)=19; 76/19=4 und 209/19=11, also 76/209 = 4/11. 📄 Quelle: uebung_2023, Folie 4 (S.4)",
+    "explanation": "$\\mathrm{ggT}(76,209)=19$; $\\frac{76}{19}=4$ und $\\frac{209}{19}=11$, also $\\frac{76}{209} = \\frac{4}{11}$. 📄 Quelle: uebung_2023, Folie 4 (S.4)",
     "source": "uebung_2023, Folie 4 (S.4, VL 12, Aufgabe 8a)"
   },
   {
@@ -307,11 +307,11 @@
     "topic": "uebung_2023_euklidischer_algorithmus",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Bestimme den größten gemeinsamen Teiler von 105 und 330 (zum Kürzen von 105/330).",
+    "question": "Bestimme den größten gemeinsamen Teiler von 105 und 330 (zum Kürzen von $\\frac{105}{330}$).",
     "answer": 15,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Euklidischer Algorithmus: 330=3·105+15, 105=7·15+0 ⇒ ggT=15. 📄 Quelle: uebung_2023, Folie 4 (S.4)",
+    "explanation": "Euklidischer Algorithmus: $330=3\\cdot105+15$, $105=7\\cdot15+0 \\Rightarrow \\mathrm{ggT}=15$. 📄 Quelle: uebung_2023, Folie 4 (S.4)",
     "source": "uebung_2023, Folie 4 (S.4, VL 12, Aufgabe 8a)"
   },
   {
@@ -319,17 +319,17 @@
     "topic": "uebung_2023_euklidischer_algorithmus",
     "difficulty": 2,
     "type": "single",
-    "question": "Zu welchem vollständig gekürzten Bruch lässt sich 105/330 kürzen?",
+    "question": "Zu welchem vollständig gekürzten Bruch lässt sich $\\frac{105}{330}$ kürzen?",
     "options": [
-      "7/22",
-      "7/20",
-      "3/11",
-      "15/22"
+      "$\\frac{7}{22}$",
+      "$\\frac{7}{20}$",
+      "$\\frac{3}{11}$",
+      "$\\frac{15}{22}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "ggT(105,330)=15; 105/15=7 und 330/15=22, also 105/330 = 7/22. 📄 Quelle: uebung_2023, Folie 4 (S.4)",
+    "explanation": "$\\mathrm{ggT}(105,330)=15$; $\\frac{105}{15}=7$ und $\\frac{330}{15}=22$, also $\\frac{105}{330} = \\frac{7}{22}$. 📄 Quelle: uebung_2023, Folie 4 (S.4)",
     "source": "uebung_2023, Folie 4 (S.4, VL 12, Aufgabe 8a)"
   }
 ]

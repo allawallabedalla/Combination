@@ -30780,17 +30780,17 @@
       "topic": "pruefung",
       "difficulty": 2,
       "type": "single",
-      "question": "Gegeben ist ein Ausschnitt einer Verknüpfungstafel der Restklassen bei Division durch 8 (Multiplikation). In einer Zeile steht der Eintrag (Zeilenkopf) · 3̄ = 5̄. Welche Restklasse steht im Zeilenkopf dieser Zeile?",
+      "question": "Gegeben ist ein Ausschnitt einer Verknüpfungstafel der Restklassen bei Division durch 8 (Multiplikation). In einer Zeile steht der Eintrag (Zeilenkopf) $\\cdot \\overline{3} = \\overline{5}$. Welche Restklasse steht im Zeilenkopf dieser Zeile?",
       "options": [
-        "1̄",
-        "5̄",
-        "7̄",
-        "3̄"
+        "$\\overline{1}$",
+        "$\\overline{5}$",
+        "$\\overline{7}$",
+        "$\\overline{3}$"
       ],
       "correct": [
         2
       ],
-      "explanation": "Gesucht ist r mit 3·r ≡ 5 (mod 8). Wegen 3·3 = 9 ≡ 1 ist 3⁻¹ = 3 modulo 8, also r ≡ 3·5 = 15 ≡ 7 (mod 8). Probe: 7·3 = 21 = 2·8 + 5 ≡ 5̄. Der Zeilenkopf ist somit 7̄. 📄 Quelle: klausur_sose22, Folie 2 (S.2)",
+      "explanation": "Gesucht ist $r$ mit $3 \\cdot r \\equiv 5 \\pmod{8}$. Wegen $3 \\cdot 3 = 9 \\equiv 1$ ist $3^{-1} = 3$ modulo 8, also $r \\equiv 3 \\cdot 5 = 15 \\equiv 7 \\pmod{8}$. Probe: $7 \\cdot 3 = 21 = 2 \\cdot 8 + 5 \\equiv \\overline{5}$. Der Zeilenkopf ist somit $\\overline{7}$. 📄 Quelle: klausur_sose22, Folie 2 (S.2)",
       "source": "klausur_sose22, Folie 2 (S.2, Aufgabe 1a)"
     },
     {
@@ -30798,11 +30798,11 @@
       "topic": "pruefung",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Berechnen Sie in den Restklassen modulo 8 (Multiplikation) das Produkt 2̄ · 7̄. Geben Sie den kleinsten nichtnegativen Repräsentanten an.",
+      "question": "Berechnen Sie in den Restklassen modulo 8 (Multiplikation) das Produkt $\\overline{2} \\cdot \\overline{7}$. Geben Sie den kleinsten nichtnegativen Repräsentanten an.",
       "answer": 6,
       "tolerance": 0,
       "unit": "",
-      "explanation": "2·7 = 14 = 1·8 + 6, also 14 ≡ 6 (mod 8). Das Produkt ist 6̄. 📄 Quelle: klausur_sose22, Folie 2 (S.2)",
+      "explanation": "$2 \\cdot 7 = 14 = 1 \\cdot 8 + 6$, also $14 \\equiv 6 \\pmod{8}$. Das Produkt ist $\\overline{6}$. 📄 Quelle: klausur_sose22, Folie 2 (S.2)",
       "source": "klausur_sose22, Folie 2 (S.2, Aufgabe 1a)"
     },
     {
@@ -30810,11 +30810,11 @@
       "topic": "pruefung",
       "difficulty": 2,
       "type": "numeric",
-      "question": "Sei n = 40^5 · 41^2 · 42. Welche Zahl aus {0, 1, …, 38} ist zu n kongruent modulo 39?",
+      "question": "Sei $n = 40^5 \\cdot 41^2 \\cdot 42$. Welche Zahl aus $\\{0, 1, \\ldots, 38\\}$ ist zu $n$ kongruent modulo 39?",
       "answer": 12,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Modulo 39 gilt 40 ≡ 1, 41 ≡ 2, 42 ≡ 3. Daher n ≡ 1^5 · 2^2 · 3 = 1·4·3 = 12 (mod 39). Da 0 ≤ 12 < 39, ist der kleinste nichtnegative Repräsentant 12. 📄 Quelle: klausur_sose22, Folie 2 (S.2)",
+      "explanation": "Modulo 39 gilt $40 \\equiv 1$, $41 \\equiv 2$, $42 \\equiv 3$. Daher $n \\equiv 1^5 \\cdot 2^2 \\cdot 3 = 1 \\cdot 4 \\cdot 3 = 12 \\pmod{39}$. Da $0 \\le 12 < 39$, ist der kleinste nichtnegative Repräsentant 12. 📄 Quelle: klausur_sose22, Folie 2 (S.2)",
       "source": "klausur_sose22, Folie 2 (S.2, Aufgabe 1b)"
     },
     {
@@ -30822,7 +30822,7 @@
       "topic": "pruefung",
       "difficulty": 2,
       "type": "multi",
-      "question": "Sei n = 40^5 · 41^2 · 42. Welche der folgenden Zahlen sind zu n kongruent modulo 39?",
+      "question": "Sei $n = 40^5 \\cdot 41^2 \\cdot 42$. Welche der folgenden Zahlen sind zu $n$ kongruent modulo 39?",
       "options": [
         "12",
         "51",
@@ -30834,7 +30834,7 @@
         1,
         2
       ],
-      "explanation": "Es gilt n ≡ 12 (mod 39) (denn 40 ≡ 1, 41 ≡ 2, 42 ≡ 3 ⇒ 1·4·3 = 12). Kongruent zu 12 sind alle Zahlen der Form 12 + 39k: 12, 51 = 12 + 39, 90 = 12 + 2·39. 24 dagegen erfüllt 24 ≢ 12 (mod 39) und ist daher nicht kongruent. 📄 Quelle: klausur_sose22, Folie 2 (S.2)",
+      "explanation": "Es gilt $n \\equiv 12 \\pmod{39}$ (denn $40 \\equiv 1$, $41 \\equiv 2$, $42 \\equiv 3 \\Rightarrow 1 \\cdot 4 \\cdot 3 = 12$). Kongruent zu 12 sind alle Zahlen der Form $12 + 39k$: 12, $51 = 12 + 39$, $90 = 12 + 2 \\cdot 39$. 24 dagegen erfüllt $24 \\not\\equiv 12 \\pmod{39}$ und ist daher nicht kongruent. 📄 Quelle: klausur_sose22, Folie 2 (S.2)",
       "source": "klausur_sose22, Folie 2 (S.2, Aufgabe 1b)"
     },
     {
@@ -30846,7 +30846,7 @@
       "answer": 1,
       "tolerance": 0,
       "unit": "",
-      "explanation": "1223 = 5·221 + 118; 221 = 1·118 + 103; 118 = 1·103 + 15; 103 = 6·15 + 13; 15 = 1·13 + 2; 13 = 6·2 + 1; 2 = 2·1 + 0. Der letzte von 0 verschiedene Rest ist 1, also ggT(1223, 221) = 1 (die Zahlen sind teilerfremd). 📄 Quelle: klausur_sose22, Folie 3 (S.3)",
+      "explanation": "$1223 = 5 \\cdot 221 + 118$; $221 = 1 \\cdot 118 + 103$; $118 = 1 \\cdot 103 + 15$; $103 = 6 \\cdot 15 + 13$; $15 = 1 \\cdot 13 + 2$; $13 = 6 \\cdot 2 + 1$; $2 = 2 \\cdot 1 + 0$. Der letzte von 0 verschiedene Rest ist 1, also $\\operatorname{ggT}(1223, 221) = 1$ (die Zahlen sind teilerfremd). 📄 Quelle: klausur_sose22, Folie 3 (S.3)",
       "source": "klausur_sose22, Folie 3 (S.3, Aufgabe 1c)"
     },
     {
@@ -30854,11 +30854,11 @@
       "topic": "pruefung",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Betrachtet wird die veränderte Fibonacci-Folge mit a₁ = 3, a₂ = 3 und a_n = a_{n-1} + a_{n-2}. Bestimmen Sie das zehnte Folgenglied a₁₀.",
+      "question": "Betrachtet wird die veränderte Fibonacci-Folge mit $a_1 = 3$, $a_2 = 3$ und $a_n = a_{n-1} + a_{n-2}$. Bestimmen Sie das zehnte Folgenglied $a_{10}$.",
       "answer": 165,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Die Folge lautet: 3, 3, 6, 9, 15, 24, 39, 63, 102, 165. Das zehnte Folgenglied ist a₁₀ = 102 + 63 = 165. 📄 Quelle: klausur_sose22, Folie 3 (S.3)",
+      "explanation": "Die Folge lautet: 3, 3, 6, 9, 15, 24, 39, 63, 102, 165. Das zehnte Folgenglied ist $a_{10} = 102 + 63 = 165$. 📄 Quelle: klausur_sose22, Folie 3 (S.3)",
       "source": "klausur_sose22, Folie 3 (S.3, Aufgabe 1d)"
     },
     {
@@ -30866,11 +30866,11 @@
       "topic": "pruefung",
       "difficulty": 2,
       "type": "numeric",
-      "question": "Veränderte Fibonacci-Folge mit a₁ = 3, a₂ = 3 und a_n = a_{n-1} + a_{n-2}. Bestimmen Sie die Summe der Folgenglieder a₁ bis a₁₀.",
+      "question": "Veränderte Fibonacci-Folge mit $a_1 = 3$, $a_2 = 3$ und $a_n = a_{n-1} + a_{n-2}$. Bestimmen Sie die Summe der Folgenglieder $a_1$ bis $a_{10}$.",
       "answer": 429,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Die ersten zehn Glieder sind 3, 3, 6, 9, 15, 24, 39, 63, 102, 165. Ihre Summe beträgt 3+3+6+9+15+24+39+63+102+165 = 429 (Kontrolle über die Identität ∑_{i=1}^{10} a_i = a₁₂ − a₂ = 432 − 3 = 429). 📄 Quelle: klausur_sose22, Folie 3 (S.3)",
+      "explanation": "Die ersten zehn Glieder sind 3, 3, 6, 9, 15, 24, 39, 63, 102, 165. Ihre Summe beträgt $3+3+6+9+15+24+39+63+102+165 = 429$ (Kontrolle über die Identität $\\sum_{i=1}^{10} a_i = a_{12} - a_2 = 432 - 3 = 429$). 📄 Quelle: klausur_sose22, Folie 3 (S.3)",
       "source": "klausur_sose22, Folie 3 (S.3, Aufgabe 1d)"
     },
     {
@@ -30878,11 +30878,11 @@
       "topic": "pruefung",
       "difficulty": 2,
       "type": "numeric",
-      "question": "Auf dem Aufgabenblatt wird die Formel ∑_{i=1}^{n} (2i−1)² = n(2n−1)(2n+1)/3 angegeben. Berechnen Sie mit dieser Formel den Wert der Summe für n = 3, also 1² + 3² + 5².",
+      "question": "Auf dem Aufgabenblatt wird die Formel $\\sum_{i=1}^{n} (2i-1)^2 = \\frac{n(2n-1)(2n+1)}{3}$ angegeben. Berechnen Sie mit dieser Formel den Wert der Summe für $n = 3$, also $1^2 + 3^2 + 5^2$.",
       "answer": 35,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Direkt: 1² + 3² + 5² = 1 + 9 + 25 = 35. Über die Formel: 3·(2·3−1)·(2·3+1)/3 = 3·5·7/3 = 35. Beide Wege liefern 35. 📄 Quelle: klausur_sose22, Folie 4 (S.4)",
+      "explanation": "Direkt: $1^2 + 3^2 + 5^2 = 1 + 9 + 25 = 35$. Über die Formel: $\\frac{3 \\cdot (2 \\cdot 3 - 1) \\cdot (2 \\cdot 3 + 1)}{3} = \\frac{3 \\cdot 5 \\cdot 7}{3} = 35$. Beide Wege liefern 35. 📄 Quelle: klausur_sose22, Folie 4 (S.4)",
       "source": "klausur_sose22, Folie 4 (S.4, Aufgabe 2b)"
     },
     {
@@ -30890,17 +30890,17 @@
       "topic": "pruefung",
       "difficulty": 2,
       "type": "single",
-      "question": "Als Summe welcher zwei Binomialkoeffizienten aus der vorherigen Zeile des Pascal'schen Dreiecks lässt sich (6 über 4) schreiben?",
+      "question": "Als Summe welcher zwei Binomialkoeffizienten aus der vorherigen Zeile des Pascal'schen Dreiecks lässt sich $\\binom{6}{4}$ schreiben?",
       "options": [
-        "(5 über 3) + (5 über 4)",
-        "(5 über 4) + (5 über 5)",
-        "(6 über 3) + (6 über 5)",
-        "(5 über 2) + (5 über 3)"
+        "$\\binom{5}{3} + \\binom{5}{4}$",
+        "$\\binom{5}{4} + \\binom{5}{5}$",
+        "$\\binom{6}{3} + \\binom{6}{5}$",
+        "$\\binom{5}{2} + \\binom{5}{3}$"
       ],
       "correct": [
         0
       ],
-      "explanation": "Nach der Additionsregel des Pascal'schen Dreiecks gilt (6 über 4) = (5 über 3) + (5 über 4). Probe: (6 über 4) = 15 und (5 über 3) + (5 über 4) = 10 + 5 = 15. 📄 Quelle: klausur_sose22, Folie 7 (S.7)",
+      "explanation": "Nach der Additionsregel des Pascal'schen Dreiecks gilt $\\binom{6}{4} = \\binom{5}{3} + \\binom{5}{4}$. Probe: $\\binom{6}{4} = 15$ und $\\binom{5}{3} + \\binom{5}{4} = 10 + 5 = 15$. 📄 Quelle: klausur_sose22, Folie 7 (S.7)",
       "source": "klausur_sose22, Folie 7 (S.7, Aufgabe 4a)"
     },
     {
@@ -30908,11 +30908,11 @@
       "topic": "pruefung",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Welchen Wert hat der Binomialkoeffizient (6 über 4)?",
+      "question": "Welchen Wert hat der Binomialkoeffizient $\\binom{6}{4}$?",
       "answer": 15,
       "tolerance": 0,
       "unit": "",
-      "explanation": "(6 über 4) = 6! / (4!·2!) = (6·5)/(2·1) = 15. 📄 Quelle: klausur_sose22, Folie 7 (S.7)",
+      "explanation": "$\\binom{6}{4} = \\frac{6!}{4! \\cdot 2!} = \\frac{6 \\cdot 5}{2 \\cdot 1} = 15$. 📄 Quelle: klausur_sose22, Folie 7 (S.7)",
       "source": "klausur_sose22, Folie 7 (S.7, Aufgabe 4a)"
     },
     {
@@ -30922,15 +30922,15 @@
       "type": "multi",
       "question": "Wie lautet die allgemeine Formel (Additionsregel des Pascal'schen Dreiecks), mit der sich jeder Eintrag als Summe zweier Einträge der vorherigen Zeile schreiben lässt?",
       "options": [
-        "(n über k) = (n−1 über k−1) + (n−1 über k)",
-        "(n über k) = (n−1 über k) + (n über k−1)",
-        "(n über k) = (n über k−1) + (n über k+1)",
-        "(n über k) = (n+1 über k) + (n+1 über k+1)"
+        "$\\binom{n}{k} = \\binom{n-1}{k-1} + \\binom{n-1}{k}$",
+        "$\\binom{n}{k} = \\binom{n-1}{k} + \\binom{n}{k-1}$",
+        "$\\binom{n}{k} = \\binom{n}{k-1} + \\binom{n}{k+1}$",
+        "$\\binom{n}{k} = \\binom{n+1}{k} + \\binom{n+1}{k+1}$"
       ],
       "correct": [
         0
       ],
-      "explanation": "Die Additionsregel (Pascalsche Regel) lautet (n über k) = (n−1 über k−1) + (n−1 über k): Jeder Eintrag ist die Summe der beiden über ihm stehenden Einträge der vorherigen Zeile. Für n = 6, k = 4 ergibt das (6 über 4) = (5 über 3) + (5 über 4). 📄 Quelle: klausur_sose22, Folie 7 (S.7)",
+      "explanation": "Die Additionsregel (Pascalsche Regel) lautet $\\binom{n}{k} = \\binom{n-1}{k-1} + \\binom{n-1}{k}$: Jeder Eintrag ist die Summe der beiden über ihm stehenden Einträge der vorherigen Zeile. Für $n = 6$, $k = 4$ ergibt das $\\binom{6}{4} = \\binom{5}{3} + \\binom{5}{4}$. 📄 Quelle: klausur_sose22, Folie 7 (S.7)",
       "source": "klausur_sose22, Folie 7 (S.7, Aufgabe 4a)"
     },
     {
@@ -30946,7 +30946,7 @@
       "correct": [
         1
       ],
-      "explanation": "Falsch. Die Symmetrie bedeutet (n über k) = (n über n−k). In Zeilen mit einer ungeraden Anzahl an Einträgen (n gerade) fällt für k = n/2 der Eintrag mit seinem Spiegelbild zusammen, tritt also nur ein einziges Mal auf. Gegenbeispiel Zeile n = 2: 1, 2, 1 – die Zahl 2 kommt nur einmal vor. Somit gilt nicht, dass jede Zahl genau zwei Mal vorkommt. 📄 Quelle: klausur_sose22, Folie 7 (S.7)",
+      "explanation": "Falsch. Die Symmetrie bedeutet $\\binom{n}{k} = \\binom{n}{n-k}$. In Zeilen mit einer ungeraden Anzahl an Einträgen ($n$ gerade) fällt für $k = \\frac{n}{2}$ der Eintrag mit seinem Spiegelbild zusammen, tritt also nur ein einziges Mal auf. Gegenbeispiel Zeile $n = 2$: 1, 2, 1 – die Zahl 2 kommt nur einmal vor. Somit gilt nicht, dass jede Zahl genau zwei Mal vorkommt. 📄 Quelle: klausur_sose22, Folie 7 (S.7)",
       "source": "klausur_sose22, Folie 7 (S.7, Aufgabe 4b)"
     },
     {
@@ -30958,7 +30958,7 @@
       "answer": 36,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Die Gesamtzahl der Kugeln ist stets das Quadrat der Seitenlänge: 3²=9, 4²=16, 5²=25, also 6²=36 für die 4. Figur. 📄 Quelle: klausur_sose22, Folie 9 (S.9)",
+      "explanation": "Die Gesamtzahl der Kugeln ist stets das Quadrat der Seitenlänge: $3^2=9$, $4^2=16$, $5^2=25$, also $6^2=36$ für die 4. Figur. 📄 Quelle: klausur_sose22, Folie 9 (S.9)",
       "source": "klausur_sose22, Folie 9 (S.9, Aufgabe 5a)"
     },
     {
@@ -30966,11 +30966,11 @@
       "topic": "pruefung",
       "difficulty": 2,
       "type": "numeric",
-      "question": "In den Figuren bilden die roten Kugeln jeweils ein inneres Quadrat (1×1, 2×2, 3×3). Wie viele rote Kugeln hat die 4. Figur (Seitenlänge 6)?",
+      "question": "In den Figuren bilden die roten Kugeln jeweils ein inneres Quadrat ($1 \\times 1$, $2 \\times 2$, $3 \\times 3$). Wie viele rote Kugeln hat die 4. Figur (Seitenlänge 6)?",
       "answer": 16,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Das rote Innenquadrat hat die Seitenlänge (Gesamtseitenlänge − 2). Bei Seitenlänge 6 ist das rote Quadrat 4×4, also 16 rote Kugeln. 📄 Quelle: klausur_sose22, Folie 9 (S.9)",
+      "explanation": "Das rote Innenquadrat hat die Seitenlänge (Gesamtseitenlänge − 2). Bei Seitenlänge 6 ist das rote Quadrat $4 \\times 4$, also 16 rote Kugeln. 📄 Quelle: klausur_sose22, Folie 9 (S.9)",
       "source": "klausur_sose22, Folie 9 (S.9, Aufgabe 5a)"
     },
     {
@@ -30982,7 +30982,7 @@
       "answer": 20,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Blaue Kugeln = Gesamtzahl − rote Kugeln = 6² − 4² = 36 − 16 = 20. Allgemein ergibt der Rand 4·(Seitenlänge − 1) = 4·5 = 20. 📄 Quelle: klausur_sose22, Folie 9 (S.9)",
+      "explanation": "Blaue Kugeln = Gesamtzahl − rote Kugeln $= 6^2 - 4^2 = 36 - 16 = 20$. Allgemein ergibt der Rand 4·(Seitenlänge − 1) $= 4 \\cdot 5 = 20$. 📄 Quelle: klausur_sose22, Folie 9 (S.9)",
       "source": "klausur_sose22, Folie 9 (S.9, Aufgabe 5a)"
     },
     {
@@ -30994,7 +30994,7 @@
       "answer": 49,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Die Gesamtzahl ist das Quadrat der Seitenlänge: 7² = 49. 📄 Quelle: klausur_sose22, Folie 9 (S.9)",
+      "explanation": "Die Gesamtzahl ist das Quadrat der Seitenlänge: $7^2 = 49$. 📄 Quelle: klausur_sose22, Folie 9 (S.9)",
       "source": "klausur_sose22, Folie 9 (S.9, Aufgabe 5a)"
     },
     {
@@ -31152,17 +31152,17 @@
       "topic": "pruefung",
       "difficulty": 2,
       "type": "single",
-      "question": "Die Operation 'Binomieren' ist definiert durch x◆y := (x + y)·(x − y). Ist diese Operation kommutativ?",
+      "question": "Die Operation 'Binomieren' ist definiert durch $x \\blacklozenge y := (x + y) \\cdot (x - y)$. Ist diese Operation kommutativ?",
       "options": [
-        "Nein, denn x◆y = x² − y², während y◆x = y² − x²; beide sind im Allgemeinen verschieden.",
+        "Nein, denn $x \\blacklozenge y = x^2 - y^2$, während $y \\blacklozenge x = y^2 - x^2$; beide sind im Allgemeinen verschieden.",
         "Ja, weil die Multiplikation kommutativ ist.",
-        "Ja, weil x◆y = y◆x für alle x, y gilt.",
-        "Ja, weil (x + y)·(x − y) symmetrisch in x und y ist."
+        "Ja, weil $x \\blacklozenge y = y \\blacklozenge x$ für alle x, y gilt.",
+        "Ja, weil $(x + y) \\cdot (x - y)$ symmetrisch in x und y ist."
       ],
       "correct": [
         0
       ],
-      "explanation": "Es gilt x◆y = (x+y)(x−y) = x²−y², aber y◆x = (y+x)(y−x) = y²−x² = −(x²−y²). Für x ≠ y ist x◆y ≠ y◆x, die Operation ist also nicht kommutativ. 📄 Quelle: klausur_wise20, Folie 3 (S.3)",
+      "explanation": "Es gilt $x \\blacklozenge y = (x+y)(x-y) = x^2-y^2$, aber $y \\blacklozenge x = (y+x)(y-x) = y^2-x^2 = -(x^2-y^2)$. Für $x \\ne y$ ist $x \\blacklozenge y \\ne y \\blacklozenge x$, die Operation ist also nicht kommutativ. 📄 Quelle: klausur_wise20, Folie 3 (S.3)",
       "source": "klausur_wise20, Folie 3 (S.3, Aufgabe 1c: Grundbegriffe Arithmetik)"
     },
     {
@@ -31170,11 +31170,11 @@
       "topic": "pruefung",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Die Operation 'Binomieren' ist definiert durch x◆y := (x + y)·(x − y). Berechnen Sie 5◆3.",
+      "question": "Die Operation 'Binomieren' ist definiert durch $x \\blacklozenge y := (x + y) \\cdot (x - y)$. Berechnen Sie $5 \\blacklozenge 3$.",
       "answer": 16,
       "tolerance": 0,
       "unit": "",
-      "explanation": "5◆3 = (5+3)·(5−3) = 8·2 = 16. 📄 Quelle: klausur_wise20, Folie 3 (S.3)",
+      "explanation": "$5 \\blacklozenge 3 = (5+3) \\cdot (5-3) = 8 \\cdot 2 = 16$. 📄 Quelle: klausur_wise20, Folie 3 (S.3)",
       "source": "klausur_wise20, Folie 3 (S.3, Aufgabe 1c: Grundbegriffe Arithmetik)"
     },
     {
@@ -31186,7 +31186,7 @@
       "answer": 10201,
       "tolerance": 0,
       "unit": "",
-      "explanation": "100 = 1·81 + 0·27 + 2·9 + 0·3 + 1·1 = 81 + 18 + 1. Die Ziffern von 3^4 bis 3^0 sind 1,0,2,0,1, also 10201 im Dreiersystem. 📄 Quelle: klausur_wise20, Folie 3 (S.3)",
+      "explanation": "$100 = 1 \\cdot 81 + 0 \\cdot 27 + 2 \\cdot 9 + 0 \\cdot 3 + 1 \\cdot 1 = 81 + 18 + 1$. Die Ziffern von $3^4$ bis $3^0$ sind 1,0,2,0,1, also 10201 im Dreiersystem. 📄 Quelle: klausur_wise20, Folie 3 (S.3)",
       "source": "klausur_wise20, Folie 3 (S.3, Aufgabe 1d: Grundbegriffe Arithmetik)"
     },
     {
@@ -31197,17 +31197,17 @@
       "question": "Welche Aussagen zur vollständigen Dreierbündelung der 100 Kreise sind korrekt?",
       "options": [
         "Im Dreiersystem lautet die Zahl 100 gleich 10201.",
-        "In Potenzschreibweise gilt 100 = 1·3⁴ + 2·3² + 1·3⁰.",
+        "In Potenzschreibweise gilt $100 = 1 \\cdot 3^4 + 2 \\cdot 3^2 + 1 \\cdot 3^0$.",
         "Es entstehen ein Bündel zu 81, zwei Bündel zu 9 und ein einzelner Kreis.",
         "Im Dreiersystem lautet die Zahl 100 gleich 10001.",
-        "In Potenzschreibweise gilt 100 = 2·3⁴ + 1·3²."
+        "In Potenzschreibweise gilt $100 = 2 \\cdot 3^4 + 1 \\cdot 3^2$."
       ],
       "correct": [
         0,
         1,
         2
       ],
-      "explanation": "100 = 1·3⁴ + 0·3³ + 2·3² + 0·3¹ + 1·3⁰ = 81 + 18 + 1, also 10201₃. Das entspricht einem 81er-Bündel, zwei 9er-Bündeln und einem Einzelkreis. 10001₃ = 82 und 2·3⁴+1·3² = 171 sind falsch. 📄 Quelle: klausur_wise20, Folie 3 (S.3)",
+      "explanation": "$100 = 1 \\cdot 3^4 + 0 \\cdot 3^3 + 2 \\cdot 3^2 + 0 \\cdot 3^1 + 1 \\cdot 3^0 = 81 + 18 + 1$, also $10201_3$. Das entspricht einem 81er-Bündel, zwei 9er-Bündeln und einem Einzelkreis. $10001_3 = 82$ und $2 \\cdot 3^4 + 1 \\cdot 3^2 = 171$ sind falsch. 📄 Quelle: klausur_wise20, Folie 3 (S.3)",
       "source": "klausur_wise20, Folie 3 (S.3, Aufgabe 1d: Grundbegriffe Arithmetik)"
     },
     {
@@ -31215,17 +31215,17 @@
       "topic": "pruefung",
       "difficulty": 2,
       "type": "single",
-      "question": "Gegeben sei der Satz: 'Für alle natürlichen Zahlen a und b gilt: Wenn a|b, dann a|(b − a).' Wie lautet die korrekte Verneinung dieses Satzes?",
+      "question": "Gegeben sei der Satz: 'Für alle natürlichen Zahlen a und b gilt: Wenn $a \\mid b$, dann $a \\mid (b - a)$.' Wie lautet die korrekte Verneinung dieses Satzes?",
       "options": [
-        "Es gibt natürliche Zahlen a und b mit a|b und a∤(b − a).",
-        "Für alle natürlichen Zahlen a und b gilt: Wenn a∤b, dann a∤(b − a).",
-        "Es gibt natürliche Zahlen a und b mit a∤b und a|(b − a).",
-        "Für alle natürlichen Zahlen a und b gilt a|b und a∤(b − a)."
+        "Es gibt natürliche Zahlen a und b mit $a \\mid b$ und $a \\nmid (b - a)$.",
+        "Für alle natürlichen Zahlen a und b gilt: Wenn $a \\nmid b$, dann $a \\nmid (b - a)$.",
+        "Es gibt natürliche Zahlen a und b mit $a \\nmid b$ und $a \\mid (b - a)$.",
+        "Für alle natürlichen Zahlen a und b gilt $a \\mid b$ und $a \\nmid (b - a)$."
       ],
       "correct": [
         0
       ],
-      "explanation": "Die Negation einer Allaussage der Form ∀a,b: (a|b ⇒ a|(b−a)) ist eine Existenzaussage, bei der die Prämisse gilt und die Konklusion verletzt ist: ∃a,b: a|b ∧ a∤(b−a). 📄 Quelle: klausur_wise20, Folie 4 (S.4)",
+      "explanation": "Die Negation einer Allaussage der Form $\\forall a,b: (a \\mid b \\Rightarrow a \\mid (b-a))$ ist eine Existenzaussage, bei der die Prämisse gilt und die Konklusion verletzt ist: $\\exists a,b: a \\mid b \\land a \\nmid (b-a)$. 📄 Quelle: klausur_wise20, Folie 4 (S.4)",
       "source": "klausur_wise20, Folie 4 (S.4, Aufgabe 2b: Logik und Beweise)"
     },
     {
@@ -31233,7 +31233,7 @@
       "topic": "pruefung",
       "difficulty": 3,
       "type": "single",
-      "question": "Drei Spiegelachsen f, g und h verlaufen durch einen gemeinsamen Punkt S. Durch welche einfache (nicht verkettete) Bewegung lässt sich die dreifache Geradenspiegelung S_h ∘ S_g ∘ S_f ersetzen?",
+      "question": "Drei Spiegelachsen f, g und h verlaufen durch einen gemeinsamen Punkt S. Durch welche einfache (nicht verkettete) Bewegung lässt sich die dreifache Geradenspiegelung $S_h \\circ S_g \\circ S_f$ ersetzen?",
       "options": [
         "Durch eine Geradenspiegelung, da die drei Achsen kopunktal sind (gemeinsamer Punkt S).",
         "Durch eine Verschiebung.",
@@ -31251,17 +31251,17 @@
       "topic": "pruefung",
       "difficulty": 2,
       "type": "single",
-      "question": "Betrachtet werden A: 'Zahl a ist gerade' und B: 'Quadratzahl a² ist gerade'. Zu welcher Implikation ist die Implikation A ⇒ B logisch äquivalent (gleiche Wahrheitstafel)?",
+      "question": "Betrachtet werden A: 'Zahl a ist gerade' und B: 'Quadratzahl $a^2$ ist gerade'. Zu welcher Implikation ist die Implikation $A \\Rightarrow B$ logisch äquivalent (gleiche Wahrheitstafel)?",
       "options": [
-        "¬B ⇒ ¬A (Kontraposition)",
-        "B ⇒ A (Umkehrung)",
-        "¬A ⇒ ¬B",
-        "A ∧ B"
+        "$\\neg B \\Rightarrow \\neg A$ (Kontraposition)",
+        "$B \\Rightarrow A$ (Umkehrung)",
+        "$\\neg A \\Rightarrow \\neg B$",
+        "$A \\land B$"
       ],
       "correct": [
         0
       ],
-      "explanation": "Eine Implikation A ⇒ B ist stets logisch äquivalent zu ihrer Kontraposition ¬B ⇒ ¬A; beide besitzen dieselbe Wahrheitstafel. Die Umkehrung B ⇒ A und ¬A ⇒ ¬B sind dagegen nicht äquivalent zu A ⇒ B. 📄 Quelle: klausur_wise20, Folie 7 (S.7)",
+      "explanation": "Eine Implikation $A \\Rightarrow B$ ist stets logisch äquivalent zu ihrer Kontraposition $\\neg B \\Rightarrow \\neg A$; beide besitzen dieselbe Wahrheitstafel. Die Umkehrung $B \\Rightarrow A$ und $\\neg A \\Rightarrow \\neg B$ sind dagegen nicht äquivalent zu $A \\Rightarrow B$. 📄 Quelle: klausur_wise20, Folie 7 (S.7)",
       "source": "klausur_wise20, Folie 7 (S.7, Aufgabe 4b: Erkundungen)"
     },
     {
@@ -31269,11 +31269,11 @@
       "topic": "pruefung",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Man geht von 6·6 = 36 aus, verringert den ersten Faktor um 1 und erhöht den zweiten um 1. Berechnen Sie das entstehende Produkt 5·7.",
+      "question": "Man geht von $6 \\cdot 6 = 36$ aus, verringert den ersten Faktor um 1 und erhöht den zweiten um 1. Berechnen Sie das entstehende Produkt $5 \\cdot 7$.",
       "answer": 35,
       "tolerance": 0,
       "unit": "",
-      "explanation": "5·7 = 35, also genau 1 kleiner als die Ausgangsquadratzahl 36 (= 6²). 📄 Quelle: klausur_wise20, Folie 8 (S.8)",
+      "explanation": "$5 \\cdot 7 = 35$, also genau 1 kleiner als die Ausgangsquadratzahl 36 ($= 6^2$). 📄 Quelle: klausur_wise20, Folie 8 (S.8)",
       "source": "klausur_wise20, Folie 8 (S.8, Aufgabe 5a: Erkundung)"
     },
     {
@@ -31281,20 +31281,20 @@
       "topic": "pruefung",
       "difficulty": 2,
       "type": "multi",
-      "question": "Ausgehend von einer Quadratzahl a·a wird der erste Faktor um k verringert und der zweite um k erhöht. Welche Aussagen beschreiben das entstehende Muster korrekt?",
+      "question": "Ausgehend von einer Quadratzahl $a \\cdot a$ wird der erste Faktor um k verringert und der zweite um k erhöht. Welche Aussagen beschreiben das entstehende Muster korrekt?",
       "options": [
-        "(a − 1)·(a + 1) = a² − 1.",
-        "(a − k)·(a + k) = a² − k².",
-        "Das Produkt ist gegenüber der Quadratzahl a² um k² kleiner.",
-        "(a − k)·(a + k) = a² + k².",
-        "Das Produkt bleibt stets gleich a²."
+        "$(a - 1) \\cdot (a + 1) = a^2 - 1$.",
+        "$(a - k) \\cdot (a + k) = a^2 - k^2$.",
+        "Das Produkt ist gegenüber der Quadratzahl $a^2$ um $k^2$ kleiner.",
+        "$(a - k) \\cdot (a + k) = a^2 + k^2$.",
+        "Das Produkt bleibt stets gleich $a^2$."
       ],
       "correct": [
         0,
         1,
         2
       ],
-      "explanation": "Nach der dritten binomischen Formel gilt (a − k)(a + k) = a² − k². Das Produkt ist also um k² kleiner als die Quadratzahl a² (für k = 1 um 1, für k = 2 um 4, usw.). Die Varianten a² + k² und 'bleibt gleich a²' sind falsch. 📄 Quelle: klausur_wise20, Folie 8 (S.8)",
+      "explanation": "Nach der dritten binomischen Formel gilt $(a - k)(a + k) = a^2 - k^2$. Das Produkt ist also um $k^2$ kleiner als die Quadratzahl $a^2$ (für $k = 1$ um 1, für $k = 2$ um 4, usw.). Die Varianten $a^2 + k^2$ und 'bleibt gleich $a^2$' sind falsch. 📄 Quelle: klausur_wise20, Folie 8 (S.8)",
       "source": "klausur_wise20, Folie 8 (S.8, Aufgabe 5a/b: Erkundung)"
     },
     {
@@ -35241,16 +35241,16 @@
       "type": "multi",
       "question": "Welche Aussagen zum Satz der Quersummenregel für die Teilbarkeit durch 3 sind korrekt?",
       "options": [
-        "Wenn die Quersumme einer Zahl n durch 3 teilbar ist, dann ist die Zahl n durch 3 teilbar.",
-        "Der Satz gilt für alle natürlichen Zahlen n.",
-        "Wenn n durch 3 teilbar ist, dann ist die Quersumme nicht durch 3 teilbar.",
+        "Wenn die Quersumme einer Zahl $n$ durch 3 teilbar ist, dann ist die Zahl $n$ durch 3 teilbar.",
+        "Der Satz gilt für alle natürlichen Zahlen $n$.",
+        "Wenn $n$ durch 3 teilbar ist, dann ist die Quersumme nicht durch 3 teilbar.",
         "Der Satz gilt nur für Vielfache von 10."
       ],
       "correct": [
         0,
         1
       ],
-      "explanation": "Der Satz lautet: 'Für alle natürlichen Zahlen n gilt: Wenn die Quersumme einer Zahl n durch 3 teilbar ist, dann ist die Zahl n durch 3 teilbar.' 📄 Quelle: skript10_live, Folie 11 (S.1)",
+      "explanation": "Der Satz lautet: 'Für alle natürlichen Zahlen $n$ gilt: Wenn die Quersumme einer Zahl $n$ durch 3 teilbar ist, dann ist die Zahl $n$ durch 3 teilbar.' 📄 Quelle: skript10_live, Folie 11 (S.1)",
       "source": "skript10_live, Folie 11 (S.1, Geometrie)"
     },
     {
@@ -35258,11 +35258,11 @@
       "topic": "teilbarkeitsregeln",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Im Beweis wird genutzt, dass 10^k − 1 durch 3 teilbar ist (z. B. 100 = 99 + 1, 1000 = 999 + 1). Welchen Wert hat 1000 − 1?",
+      "question": "Im Beweis wird genutzt, dass $10^k - 1$ durch 3 teilbar ist (z. B. $100 = 99 + 1$, $1000 = 999 + 1$). Welchen Wert hat $1000 - 1$?",
       "answer": 999,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Auf der Folie steht 1000 = 999 + 1, also 1000 − 1 = 999 (= 3·333), was durch 3 teilbar ist. 📄 Quelle: skript10_live, Folie 11 (S.1)",
+      "explanation": "Auf der Folie steht $1000 = 999 + 1$, also $1000 - 1 = 999$ (= $3 \\cdot 333$), was durch 3 teilbar ist. 📄 Quelle: skript10_live, Folie 11 (S.1)",
       "source": "skript10_live, Folie 11 (S.1, Geometrie)"
     },
     {
@@ -35272,15 +35272,15 @@
       "type": "single",
       "question": "Auf welchen Hilfssatz stützt sich der Beweis der Quersummenregel für die Teilbarkeit durch 3?",
       "options": [
-        "Wenn k|a und k|b, dann k|(a+b).",
-        "Wenn k|a und k|b, dann k|(a·b).",
-        "Wenn k|(a+b), dann k|a und k|b.",
-        "Wenn k|a, dann k|(a+1)."
+        "Wenn $k \\mid a$ und $k \\mid b$, dann $k \\mid (a+b)$.",
+        "Wenn $k \\mid a$ und $k \\mid b$, dann $k \\mid (a \\cdot b)$.",
+        "Wenn $k \\mid (a+b)$, dann $k \\mid a$ und $k \\mid b$.",
+        "Wenn $k \\mid a$, dann $k \\mid (a+1)$."
       ],
       "correct": [
         0
       ],
-      "explanation": "Der Beweis folgt mit dem Satz 'Wenn k|a und k|b, dann k|(a+b)': ist die Summe der Terme a_i·(10^i−1) durch 3 teilbar und die Quersumme durch 3 teilbar, dann auch n. 📄 Quelle: skript10_live, Folie 11 (S.1)",
+      "explanation": "Der Beweis folgt mit dem Satz 'Wenn $k \\mid a$ und $k \\mid b$, dann $k \\mid (a+b)$': ist die Summe der Terme $a_i \\cdot (10^i - 1)$ durch 3 teilbar und die Quersumme durch 3 teilbar, dann auch $n$. 📄 Quelle: skript10_live, Folie 11 (S.1)",
       "source": "skript10_live, Folie 11 (S.1, Geometrie)"
     },
     {
@@ -35290,9 +35290,9 @@
       "type": "multi",
       "question": "Welche Schritte/Ideen gehören zum Beweis der Quersummenregel für die Teilbarkeit durch 3?",
       "options": [
-        "Man schreibt n = a_m·10^m + ... + a_1·10 + a_0 und fügt 'additive Nullen' ein, indem man 10^k als (10^k − 1) + 1 auffasst.",
-        "Die Summe der Terme a_m·(10^m − 1) + ... + a_1·(10 − 1) ist durch 3 teilbar.",
-        "Der verbleibende Rest a_m + ... + a_1 + a_0 ist die Quersumme q.",
+        "Man schreibt $n = a_m \\cdot 10^m + \\ldots + a_1 \\cdot 10 + a_0$ und fügt 'additive Nullen' ein, indem man $10^k$ als $(10^k - 1) + 1$ auffasst.",
+        "Die Summe der Terme $a_m \\cdot (10^m - 1) + \\ldots + a_1 \\cdot (10 - 1)$ ist durch 3 teilbar.",
+        "Der verbleibende Rest $a_m + \\ldots + a_1 + a_0$ ist die Quersumme $q$.",
         "Der Beweis funktioniert nur für höchstens dreistellige Zahlen."
       ],
       "correct": [
@@ -35300,7 +35300,7 @@
         1,
         2
       ],
-      "explanation": "Durch Einfügen additiver Nullen wird n = a_m·(10^m−1) + ... + a_1·(10−1) + (a_m+...+a_1+a_0). Der erste Teil ist durch 3 teilbar (10^k−1 = 3·(...)), der zweite ist die Quersumme q; der Beweis gilt allgemein. 📄 Quelle: skript10_live, Folie 11 (S.1)",
+      "explanation": "Durch Einfügen additiver Nullen wird $n = a_m \\cdot (10^m - 1) + \\ldots + a_1 \\cdot (10 - 1) + (a_m + \\ldots + a_1 + a_0)$. Der erste Teil ist durch 3 teilbar ($10^k - 1 = 3 \\cdot (\\ldots)$), der zweite ist die Quersumme $q$; der Beweis gilt allgemein. 📄 Quelle: skript10_live, Folie 11 (S.1)",
       "source": "skript10_live, Folie 11 (S.1, Geometrie)"
     },
     {
@@ -35310,16 +35310,16 @@
       "type": "multi",
       "question": "Welche Aussagen zum Satz der Quersummenregel für die Teilbarkeit durch 9 sind korrekt?",
       "options": [
-        "Wenn die Quersumme einer Zahl n durch 9 teilbar ist, dann ist die Zahl n durch 9 teilbar.",
-        "Der Satz gilt für alle natürlichen Zahlen n.",
-        "Wenn die Quersumme durch 9 teilbar ist, ist n nur durch 3 teilbar.",
+        "Wenn die Quersumme einer Zahl $n$ durch 9 teilbar ist, dann ist die Zahl $n$ durch 9 teilbar.",
+        "Der Satz gilt für alle natürlichen Zahlen $n$.",
+        "Wenn die Quersumme durch 9 teilbar ist, ist $n$ nur durch 3 teilbar.",
         "Der Satz gilt nur für gerade Zahlen."
       ],
       "correct": [
         0,
         1
       ],
-      "explanation": "Folie 16 formuliert die Quersummenregel für 9: 'Für alle natürlichen Zahlen n gilt: Wenn die Quersumme einer Zahl n durch 9 teilbar ist, dann ist die Zahl n durch 9 teilbar.' 📄 Quelle: skript10_live, Folie 16 (S.2)",
+      "explanation": "Folie 16 formuliert die Quersummenregel für 9: 'Für alle natürlichen Zahlen $n$ gilt: Wenn die Quersumme einer Zahl $n$ durch 9 teilbar ist, dann ist die Zahl $n$ durch 9 teilbar.' 📄 Quelle: skript10_live, Folie 16 (S.2)",
       "source": "skript10_live, Folie 16 (S.2, Geometrie)"
     },
     {
@@ -35327,19 +35327,19 @@
       "topic": "kongruenzabbildungen",
       "difficulty": 2,
       "type": "multi",
-      "question": "In einer Multiplikationstafel für die Teilbarkeit durch 3 (t = durch 3 teilbar, n = nicht durch 3 teilbar): Welche Einträge sind korrekt?",
+      "question": "In einer Multiplikationstafel für die Teilbarkeit durch 3 ($t$ = durch 3 teilbar, $n$ = nicht durch 3 teilbar): Welche Einträge sind korrekt?",
       "options": [
-        "t · t = t",
-        "t · n = t",
-        "n · n = n",
-        "n · n = t"
+        "$t \\cdot t = t$",
+        "$t \\cdot n = t$",
+        "$n \\cdot n = n$",
+        "$n \\cdot n = t$"
       ],
       "correct": [
         0,
         1,
         2
       ],
-      "explanation": "Die Multiplikationstafel liefert t·t = t, t·n = t und n·n = n. Auf der Folie: t·t = 3x·3x = 3·(3x²) und t·n = 3x·(3z−y) = 3·(x·(3z−y)), beide durch 3 teilbar. 📄 Quelle: skript10_live, Folie 30 (S.3)",
+      "explanation": "Die Multiplikationstafel liefert $t \\cdot t = t$, $t \\cdot n = t$ und $n \\cdot n = n$. Auf der Folie: $t \\cdot t = 3x \\cdot 3x = 3 \\cdot (3x^2)$ und $t \\cdot n = 3x \\cdot (3z - y) = 3 \\cdot (x \\cdot (3z - y))$, beide durch 3 teilbar. 📄 Quelle: skript10_live, Folie 30 (S.3)",
       "source": "skript10_live, Folie 30 (S.3, Geometrie)"
     },
     {
@@ -35347,19 +35347,19 @@
       "topic": "kongruenzabbildungen",
       "difficulty": 2,
       "type": "multi",
-      "question": "In einer Additionstafel für die Teilbarkeit durch 3 (t = durch 3 teilbar, n = nicht durch 3 teilbar): Welche Aussagen sind korrekt?",
+      "question": "In einer Additionstafel für die Teilbarkeit durch 3 ($t$ = durch 3 teilbar, $n$ = nicht durch 3 teilbar): Welche Aussagen sind korrekt?",
       "options": [
-        "t + t = t",
-        "t + n = n",
-        "n + n ergibt eindeutig t",
-        "n + n kann sowohl t als auch n ergeben (kommt auf die Reste an)"
+        "$t + t = t$",
+        "$t + n = n$",
+        "$n + n$ ergibt eindeutig $t$",
+        "$n + n$ kann sowohl $t$ als auch $n$ ergeben (kommt auf die Reste an)"
       ],
       "correct": [
         0,
         1,
         3
       ],
-      "explanation": "Die Additionstafel liefert t+t = t und t+n = n. Der Eintrag n+n ist auf der Folie als 't/n' markiert ('kommt drauf an', abhängig von den Resten). 📄 Quelle: skript10_live, Folie 30 (S.3)",
+      "explanation": "Die Additionstafel liefert $t + t = t$ und $t + n = n$. Der Eintrag $n + n$ ist auf der Folie als 't/n' markiert ('kommt drauf an', abhängig von den Resten). 📄 Quelle: skript10_live, Folie 30 (S.3)",
       "source": "skript10_live, Folie 30 (S.3, Geometrie)"
     },
     {
@@ -35367,19 +35367,19 @@
       "topic": "kongruenzabbildungen",
       "difficulty": 2,
       "type": "multi",
-      "question": "Wie lassen sich durch 3 teilbare (t) und nicht durch 3 teilbare (n) Zahlen allgemein darstellen?",
+      "question": "Wie lassen sich durch 3 teilbare ($t$) und nicht durch 3 teilbare ($n$) Zahlen allgemein darstellen?",
       "options": [
-        "Eine durch 3 teilbare Zahl als t = 3x.",
-        "Eine nicht durch 3 teilbare Zahl als n = 3x − y mit y ∈ {1, 2}.",
-        "n = 3x − 1 oder n = 3x − 2.",
-        "Eine nicht durch 3 teilbare Zahl als n = 3x."
+        "Eine durch 3 teilbare Zahl als $t = 3x$.",
+        "Eine nicht durch 3 teilbare Zahl als $n = 3x - y$ mit $y \\in \\{1, 2\\}$.",
+        "$n = 3x - 1$ oder $n = 3x - 2$.",
+        "Eine nicht durch 3 teilbare Zahl als $n = 3x$."
       ],
       "correct": [
         0,
         1,
         2
       ],
-      "explanation": "Auf der Folie: t = 3x und n = 3x − 1 oder n = 3x − 2, also n = 3x − y mit y ∈ {1, 2} (mit x einer natürlichen Zahl). 📄 Quelle: skript10_live, Folie 30 (S.3)",
+      "explanation": "Auf der Folie: $t = 3x$ und $n = 3x - 1$ oder $n = 3x - 2$, also $n = 3x - y$ mit $y \\in \\{1, 2\\}$ (mit $x$ einer natürlichen Zahl). 📄 Quelle: skript10_live, Folie 30 (S.3)",
       "source": "skript10_live, Folie 30 (S.3, Geometrie)"
     },
     {
@@ -35389,17 +35389,17 @@
       "type": "multi",
       "question": "Welche der folgenden Rechenbeispiele zur Addition sind bezüglich der Teilbarkeit durch 3 korrekt notiert?",
       "options": [
-        "5 + 8 = 13 ist nicht durch 3 teilbar (n)",
-        "4 + 8 = 12 ist durch 3 teilbar (t)",
-        "4 + 7 = 11 ist nicht durch 3 teilbar (n)",
-        "5 + 8 = 13 ist durch 3 teilbar (t)"
+        "$5 + 8 = 13$ ist nicht durch 3 teilbar ($n$)",
+        "$4 + 8 = 12$ ist durch 3 teilbar ($t$)",
+        "$4 + 7 = 11$ ist nicht durch 3 teilbar ($n$)",
+        "$5 + 8 = 13$ ist durch 3 teilbar ($t$)"
       ],
       "correct": [
         0,
         1,
         2
       ],
-      "explanation": "Die Folie zeigt 5+8 = 13 → n, 4+8 = 12 → t und 4+7 = 11 → n. Diese Beispiele belegen, dass n + n mal t und mal n ergeben kann. 📄 Quelle: skript10_live, Folie 30 (S.3)",
+      "explanation": "Die Folie zeigt $5 + 8 = 13 \\to n$, $4 + 8 = 12 \\to t$ und $4 + 7 = 11 \\to n$. Diese Beispiele belegen, dass $n + n$ mal $t$ und mal $n$ ergeben kann. 📄 Quelle: skript10_live, Folie 30 (S.3)",
       "source": "skript10_live, Folie 30 (S.3, Geometrie)"
     },
     {
@@ -35411,7 +35411,7 @@
       "answer": 7,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Es gibt 7 Restklassen: 0̄, 1̄, 2̄, 3̄, 4̄, 5̄, 6̄. 📄 Quelle: skript10_live, Folie 38 (S.4)",
+      "explanation": "Es gibt 7 Restklassen: $\\bar{0}, \\bar{1}, \\bar{2}, \\bar{3}, \\bar{4}, \\bar{5}, \\bar{6}$. 📄 Quelle: skript10_live, Folie 38 (S.4)",
       "source": "skript10_live, Folie 38 (S.4, Geometrie)"
     },
     {
@@ -35421,17 +35421,17 @@
       "type": "multi",
       "question": "Welche Aussagen zu den Restklassen beim Teilen durch 7 sind korrekt?",
       "options": [
-        "0̄ = {0, 7, 14, ...}",
-        "1̄ = {1, 8, 15, ...}",
-        "Es gibt genau die Restklassen 0̄, 1̄, 2̄, 3̄, 4̄, 5̄, 6̄.",
-        "0̄ = {0, 3, 6, ...}"
+        "$\\bar{0} = \\{0, 7, 14, \\ldots\\}$",
+        "$\\bar{1} = \\{1, 8, 15, \\ldots\\}$",
+        "Es gibt genau die Restklassen $\\bar{0}, \\bar{1}, \\bar{2}, \\bar{3}, \\bar{4}, \\bar{5}, \\bar{6}$.",
+        "$\\bar{0} = \\{0, 3, 6, \\ldots\\}$"
       ],
       "correct": [
         0,
         1,
         2
       ],
-      "explanation": "Auf der Folie: 0̄ = {0, 7, 14, ...}, 1̄ = {1, 8, 15, ...}, und es gibt 7 Restklassen 0̄ bis 6̄. 📄 Quelle: skript10_live, Folie 38 (S.4)",
+      "explanation": "Auf der Folie: $\\bar{0} = \\{0, 7, 14, \\ldots\\}$, $\\bar{1} = \\{1, 8, 15, \\ldots\\}$, und es gibt 7 Restklassen $\\bar{0}$ bis $\\bar{6}$. 📄 Quelle: skript10_live, Folie 38 (S.4)",
       "source": "skript10_live, Folie 38 (S.4, Geometrie)"
     },
     {
@@ -35439,11 +35439,11 @@
       "topic": "restklassen_kongruenzen",
       "difficulty": 2,
       "type": "numeric",
-      "question": "Zahlen der Form 11k₁+7 und 11k₂+4 lassen beim Teilen durch 11 die Reste 7 bzw. 4. Welchen Rest (Restklasse) beim Teilen durch 11 hat ihre Summe?",
+      "question": "Zahlen der Form $11k_1 + 7$ und $11k_2 + 4$ lassen beim Teilen durch 11 die Reste 7 bzw. 4. Welchen Rest (Restklasse) beim Teilen durch 11 hat ihre Summe?",
       "answer": 0,
       "tolerance": 0,
       "unit": "",
-      "explanation": "(11k₁+7) + (11k₂+4) = 11·(k₁+k₂) + 7+4 = 11·(k₁+k₂+1) + 0, also 7̄ ⊕ 4̄ = 0̄. 📄 Quelle: skript10_live, Folie 38 (S.4)",
+      "explanation": "$(11k_1 + 7) + (11k_2 + 4) = 11 \\cdot (k_1 + k_2) + 7 + 4 = 11 \\cdot (k_1 + k_2 + 1) + 0$, also $\\bar{7} \\oplus \\bar{4} = \\bar{0}$. 📄 Quelle: skript10_live, Folie 38 (S.4)",
       "source": "skript10_live, Folie 38 (S.4, Geometrie)"
     },
     {
@@ -35451,11 +35451,11 @@
       "topic": "restklassen_kongruenzen",
       "difficulty": 3,
       "type": "numeric",
-      "question": "Welchen Rest (Restklasse) beim Teilen durch 11 hat das Produkt (11k₁+7)·(11k₂+4)?",
+      "question": "Welchen Rest (Restklasse) beim Teilen durch 11 hat das Produkt $(11k_1 + 7) \\cdot (11k_2 + 4)$?",
       "answer": 6,
       "tolerance": 0,
       "unit": "",
-      "explanation": "(11k₁+7)·(11k₂+4) = (11k₁·11k₂ + 11k₁·4 + 11k₂·7) + 7·4; alle 11-Terme fallen weg, es bleibt 7·4 = 28 = 2·11 + 6, also 7̄ ⊙ 4̄ = 6̄. 📄 Quelle: skript10_live, Folie 38 (S.4)",
+      "explanation": "$(11k_1 + 7) \\cdot (11k_2 + 4) = (11k_1 \\cdot 11k_2 + 11k_1 \\cdot 4 + 11k_2 \\cdot 7) + 7 \\cdot 4$; alle 11-Terme fallen weg, es bleibt $7 \\cdot 4 = 28 = 2 \\cdot 11 + 6$, also $\\bar{7} \\odot \\bar{4} = \\bar{6}$. 📄 Quelle: skript10_live, Folie 38 (S.4)",
       "source": "skript10_live, Folie 38 (S.4, Geometrie)"
     },
     {
@@ -35467,14 +35467,14 @@
       "options": [
         "Wenn a und b beim Teilen durch m den gleichen Rest lassen",
         "Wenn a und b beim Teilen durch m verschiedene Reste lassen",
-        "Die Schreibweise dafür ist a ≡ b mod m",
+        "Die Schreibweise dafür ist $a \\equiv b \\pmod{m}$",
         "Wenn a und b beim Teilen durch m beide den Rest 0 lassen"
       ],
       "correct": [
         0,
         2
       ],
-      "explanation": "Laut Definition heißen a und b kongruent modulo m, wenn sie beim Teilen durch m den gleichen Rest lassen; Schreibweise a ≡ b mod m. 📄 Quelle: skript11_live, Folie 9 (S.1)",
+      "explanation": "Laut Definition heißen a und b kongruent modulo m, wenn sie beim Teilen durch m den gleichen Rest lassen; Schreibweise $a \\equiv b \\pmod{m}$. 📄 Quelle: skript11_live, Folie 9 (S.1)",
       "source": "skript11_live, Folie 9 (S.1, Restklassen systematisch)"
     },
     {
@@ -35482,11 +35482,11 @@
       "topic": "restklassen_kongruenzen",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Für m = 7 gilt 3̄ = {3, 10, 17, 24, 31, …}. In welcher Restklasse r̄ (mit 0 ≤ r < 7) liegt somit die Zahl 10?",
+      "question": "Für $m = 7$ gilt $\\overline{3} = \\{3, 10, 17, 24, 31, \\dots\\}$. In welcher Restklasse $\\overline{r}$ (mit $0 \\le r < 7$) liegt somit die Zahl 10?",
       "answer": 3,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Auf der Folie ist notiert 10 ∈ 3̄ für m = 7, denn 10 lässt beim Teilen durch 7 den Rest 3. 📄 Quelle: skript11_live, Folie 9 (S.1)",
+      "explanation": "Auf der Folie ist notiert $10 \\in \\overline{3}$ für $m = 7$, denn 10 lässt beim Teilen durch 7 den Rest 3. 📄 Quelle: skript11_live, Folie 9 (S.1)",
       "source": "skript11_live, Folie 9 (S.1, Restklassen systematisch)"
     },
     {
@@ -35494,11 +35494,11 @@
       "topic": "restklassen_kongruenzen",
       "difficulty": 2,
       "type": "numeric",
-      "question": "Handschriftliches Beispiel ②: 2 ≡ 5 mod 3. Man bildet 2 + 5 = 7 und teilt das Ergebnis durch 3. Welchen Rest erhält man?",
+      "question": "Handschriftliches Beispiel ②: $2 \\equiv 5 \\pmod{3}$. Man bildet $2 + 5 = 7$ und teilt das Ergebnis durch 3. Welchen Rest erhält man?",
       "answer": 1,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Es gilt 2 + 5 = 7 und 7 : 3 = 2 R 1, also 4̄ = 1̄. Der Rest ist 1 (die Reste können größer als die Restklassen sein). 📄 Quelle: skript11_live, Folie 9 (S.1)",
+      "explanation": "Es gilt $2 + 5 = 7$ und $7 : 3 = 2 \\text{ R } 1$, also $\\overline{4} = \\overline{1}$. Der Rest ist 1 (die Reste können größer als die Restklassen sein). 📄 Quelle: skript11_live, Folie 9 (S.1)",
       "source": "skript11_live, Folie 9 (S.1, Restklassen systematisch)"
     },
     {
@@ -35508,15 +35508,15 @@
       "type": "multi",
       "question": "Welche der handschriftlich notierten Aussagen zu ③ (Bildung von Differenzen) sind korrekt belegt?",
       "options": [
-        "Bei kongruenten Zahlen verschwindet der Rest, z. B. 13 ≡ 8 mod 5 mit 13 − 8 = 5",
-        "Bei nicht-kongruenten Zahlen liefert die Differenz einen Rest, z. B. modulo 5: 13 − 7 = 6, und 6 ∈ 1̄",
+        "Bei kongruenten Zahlen verschwindet der Rest, z. B. $13 \\equiv 8 \\pmod{5}$ mit $13 - 8 = 5$",
+        "Bei nicht-kongruenten Zahlen liefert die Differenz einen Rest, z. B. modulo 5: $13 - 7 = 6$, und $6 \\in \\overline{1}$",
         "Bei kongruenten Zahlen ist die Differenz niemals durch m teilbar"
       ],
       "correct": [
         0,
         1
       ],
-      "explanation": "Notiert: „Bei kongruenten Zahlen verschwindet der Rest\" (13 ≡ 8 mod 5, 13 − 8 = 5). Bei nicht-kongruenten Zahlen (7 ∈ 2̄, 13 ∈ 3̄ modulo 5) ist 13 − 7 = 6 → 6 ∈ 1̄. 📄 Quelle: skript11_live, Folie 9 (S.1)",
+      "explanation": "Notiert: „Bei kongruenten Zahlen verschwindet der Rest\" ($13 \\equiv 8 \\pmod{5}$, $13 - 8 = 5$). Bei nicht-kongruenten Zahlen ($7 \\in \\overline{2}$, $13 \\in \\overline{3}$ modulo 5) ist $13 - 7 = 6 \\to 6 \\in \\overline{1}$. 📄 Quelle: skript11_live, Folie 9 (S.1)",
       "source": "skript11_live, Folie 9 (S.1, Restklassen systematisch)"
     },
     {
@@ -35526,15 +35526,15 @@
       "type": "multi",
       "question": "Wie werden die Verknüpfungen von Restklassen (Modul m) definiert?",
       "options": [
-        "x̄ + ȳ := (x+y)‾, also die Restklasse, die sich beim Teilen von x + y durch m ergibt",
-        "x̄ · ȳ := (x·y)‾, also die Restklasse, die sich beim Teilen von x · y durch m ergibt",
-        "x̄ + ȳ := (x·y)‾"
+        "$\\overline{x} + \\overline{y} := \\overline{x+y}$, also die Restklasse, die sich beim Teilen von $x + y$ durch m ergibt",
+        "$\\overline{x} \\cdot \\overline{y} := \\overline{x \\cdot y}$, also die Restklasse, die sich beim Teilen von $x \\cdot y$ durch m ergibt",
+        "$\\overline{x} + \\overline{y} := \\overline{x \\cdot y}$"
       ],
       "correct": [
         0,
         1
       ],
-      "explanation": "Definiert sind x̄ + ȳ := (x+y)‾ und x̄ · ȳ := (x·y)‾, jeweils als die Restklasse beim Teilen durch m. 📄 Quelle: skript11_live, Folie 16 (S.2)",
+      "explanation": "Definiert sind $\\overline{x} + \\overline{y} := \\overline{x+y}$ und $\\overline{x} \\cdot \\overline{y} := \\overline{x \\cdot y}$, jeweils als die Restklasse beim Teilen durch m. 📄 Quelle: skript11_live, Folie 16 (S.2)",
       "source": "skript11_live, Folie 16 (S.2, Restklassen systematisch)"
     },
     {
@@ -35542,11 +35542,11 @@
       "topic": "restklassen_kongruenzen",
       "difficulty": 2,
       "type": "numeric",
-      "question": "In der Additionstafel modulo 5: Welchen Vertreter r (mit 0 ≤ r < 5) hat die Restklasse 3̄ + 4̄?",
+      "question": "In der Additionstafel modulo 5: Welchen Vertreter r (mit $0 \\le r < 5$) hat die Restklasse $\\overline{3} + \\overline{4}$?",
       "answer": 2,
       "tolerance": 0,
       "unit": "",
-      "explanation": "3̄ + 4̄ = (3+4)‾ = 7‾ = 2̄, denn 7 lässt beim Teilen durch 5 den Rest 2. 📄 Quelle: skript11_live, Folie 16 (S.2)",
+      "explanation": "$\\overline{3} + \\overline{4} = \\overline{3+4} = \\overline{7} = \\overline{2}$, denn 7 lässt beim Teilen durch 5 den Rest 2. 📄 Quelle: skript11_live, Folie 16 (S.2)",
       "source": "skript11_live, Folie 16 (S.2, Restklassen systematisch)"
     },
     {
@@ -35554,11 +35554,11 @@
       "topic": "restklassen_kongruenzen",
       "difficulty": 2,
       "type": "numeric",
-      "question": "In der Multiplikationstafel modulo 5: Welchen Vertreter r (mit 0 ≤ r < 5) hat die Restklasse 2̄ · 3̄?",
+      "question": "In der Multiplikationstafel modulo 5: Welchen Vertreter r (mit $0 \\le r < 5$) hat die Restklasse $\\overline{2} \\cdot \\overline{3}$?",
       "answer": 1,
       "tolerance": 0,
       "unit": "",
-      "explanation": "2̄ · 3̄ = (2·3)‾ = 6‾ = 1̄, denn 6 lässt beim Teilen durch 5 den Rest 1. 📄 Quelle: skript11_live, Folie 16 (S.2)",
+      "explanation": "$\\overline{2} \\cdot \\overline{3} = \\overline{2 \\cdot 3} = \\overline{6} = \\overline{1}$, denn 6 lässt beim Teilen durch 5 den Rest 1. 📄 Quelle: skript11_live, Folie 16 (S.2)",
       "source": "skript11_live, Folie 16 (S.2, Restklassen systematisch)"
     },
     {
@@ -35566,11 +35566,11 @@
       "topic": "iri_mirim_zahlen",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Additionstafel modulo 5 (handschriftlich): Welchen Vertreter r (mit 0 ≤ r < 5) hat 4̄ + 1̄?",
+      "question": "Additionstafel modulo 5 (handschriftlich): Welchen Vertreter r (mit $0 \\le r < 5$) hat $\\overline{4} + \\overline{1}$?",
       "answer": 0,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Notiert ist 4̄ + 1̄ = 0̄, denn 4 + 1 = 5 lässt beim Teilen durch 5 den Rest 0. 📄 Quelle: skript11_live, Folie 18 (S.3)",
+      "explanation": "Notiert ist $\\overline{4} + \\overline{1} = \\overline{0}$, denn $4 + 1 = 5$ lässt beim Teilen durch 5 den Rest 0. 📄 Quelle: skript11_live, Folie 18 (S.3)",
       "source": "skript11_live, Folie 18 (S.3, Restklassen systematisch)"
     },
     {
@@ -35580,11 +35580,11 @@
       "type": "multi",
       "question": "Welche Restklassen erzeugen durch fortgesetzte Addition die gesamte Menge der Restklassen modulo 5?",
       "options": [
-        "0̄",
-        "1̄",
-        "2̄",
-        "3̄",
-        "4̄"
+        "$\\overline{0}$",
+        "$\\overline{1}$",
+        "$\\overline{2}$",
+        "$\\overline{3}$",
+        "$\\overline{4}$"
       ],
       "correct": [
         1,
@@ -35592,7 +35592,7 @@
         3,
         4
       ],
-      "explanation": "Notiert: „Die 1̄ erzeugt die gesamte Menge der Restklassen\" und „Die 3̄ (wie auch die 2̄ und die 4̄) erzeugt auch die gesamte Menge der Restklassen\". Die 0̄ erzeugt sie nicht. 📄 Quelle: skript11_live, Folie 18 (S.3)",
+      "explanation": "Notiert: „Die $\\overline{1}$ erzeugt die gesamte Menge der Restklassen\" und „Die $\\overline{3}$ (wie auch die $\\overline{2}$ und die $\\overline{4}$) erzeugt auch die gesamte Menge der Restklassen\". Die $\\overline{0}$ erzeugt sie nicht. 📄 Quelle: skript11_live, Folie 18 (S.3)",
       "source": "skript11_live, Folie 18 (S.3, Restklassen systematisch)"
     },
     {
@@ -35618,18 +35618,18 @@
       "topic": "iri_mirim_zahlen",
       "difficulty": 2,
       "type": "multi",
-      "question": "Bei der Multiplikation modulo 5: Welche Restklassen erzeugen die gesamte Menge der Restklassen bis auf die 0̄?",
+      "question": "Bei der Multiplikation modulo 5: Welche Restklassen erzeugen die gesamte Menge der Restklassen bis auf die $\\overline{0}$?",
       "options": [
-        "1̄",
-        "2̄",
-        "3̄",
-        "4̄"
+        "$\\overline{1}$",
+        "$\\overline{2}$",
+        "$\\overline{3}$",
+        "$\\overline{4}$"
       ],
       "correct": [
         1,
         2
       ],
-      "explanation": "Notiert: „Die 2̄ erzeugt die gesamte Menge der Restklassen bis auf die 0̄. Das gleiche gilt für die 3̄, nicht aber für die 1̄ und die 4̄.\" 📄 Quelle: skript11_live, Folie 19 (S.3)",
+      "explanation": "Notiert: „Die $\\overline{2}$ erzeugt die gesamte Menge der Restklassen bis auf die $\\overline{0}$. Das gleiche gilt für die $\\overline{3}$, nicht aber für die $\\overline{1}$ und die $\\overline{4}$.\" 📄 Quelle: skript11_live, Folie 19 (S.3)",
       "source": "skript11_live, Folie 19 (S.3, Restklassen systematisch)"
     },
     {
@@ -35637,11 +35637,11 @@
       "topic": "iri_mirim_zahlen",
       "difficulty": 2,
       "type": "numeric",
-      "question": "Multiplikationstafel modulo 5 (handschriftlich): Welchen Vertreter r (mit 0 ≤ r < 5) hat 4̄ · 2̄?",
+      "question": "Multiplikationstafel modulo 5 (handschriftlich): Welchen Vertreter r (mit $0 \\le r < 5$) hat $\\overline{4} \\cdot \\overline{2}$?",
       "answer": 3,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Notiert ist 4̄ · 2̄ = 3̄, denn 4 · 2 = 8 lässt beim Teilen durch 5 den Rest 3. 📄 Quelle: skript11_live, Folie 19 (S.3)",
+      "explanation": "Notiert ist $\\overline{4} \\cdot \\overline{2} = \\overline{3}$, denn $4 \\cdot 2 = 8$ lässt beim Teilen durch 5 den Rest 3. 📄 Quelle: skript11_live, Folie 19 (S.3)",
       "source": "skript11_live, Folie 19 (S.3, Restklassen systematisch)"
     },
     {
@@ -35649,11 +35649,11 @@
       "topic": "iri_mirim_zahlen",
       "difficulty": 1,
       "type": "numeric",
-      "question": "IRI-Zahlen – Phänomene: Berechne die Differenz 212 − 121.",
+      "question": "IRI-Zahlen – Phänomene: Berechne die Differenz $212 - 121$.",
       "answer": 91,
       "tolerance": 0,
       "unit": "",
-      "explanation": "212 − 121 = 91. 📄 Quelle: skript11_live, Folie 27 (S.4)",
+      "explanation": "$212 - 121 = 91$. 📄 Quelle: skript11_live, Folie 27 (S.4)",
       "source": "skript11_live, Folie 27 (S.4, IRI-Zahlen)"
     },
     {
@@ -35661,11 +35661,11 @@
       "topic": "iri_mirim_zahlen",
       "difficulty": 1,
       "type": "numeric",
-      "question": "IRI-Zahlen – Phänomene: Berechne die Differenz 313 − 131.",
+      "question": "IRI-Zahlen – Phänomene: Berechne die Differenz $313 - 131$.",
       "answer": 182,
       "tolerance": 0,
       "unit": "",
-      "explanation": "313 − 131 = 182. 📄 Quelle: skript11_live, Folie 27 (S.4)",
+      "explanation": "$313 - 131 = 182$. 📄 Quelle: skript11_live, Folie 27 (S.4)",
       "source": "skript11_live, Folie 27 (S.4, IRI-Zahlen)"
     },
     {
@@ -35673,11 +35673,11 @@
       "topic": "iri_mirim_zahlen",
       "difficulty": 1,
       "type": "numeric",
-      "question": "IRI-Zahlen – Phänomene: Berechne die Differenz 414 − 141.",
+      "question": "IRI-Zahlen – Phänomene: Berechne die Differenz $414 - 141$.",
       "answer": 273,
       "tolerance": 0,
       "unit": "",
-      "explanation": "414 − 141 = 273. 📄 Quelle: skript11_live, Folie 27 (S.4)",
+      "explanation": "$414 - 141 = 273$. 📄 Quelle: skript11_live, Folie 27 (S.4)",
       "source": "skript11_live, Folie 27 (S.4, IRI-Zahlen)"
     },
     {
@@ -35707,7 +35707,7 @@
       "type": "single",
       "question": "Wie ist die Gegenzahl einer IRI-Zahl (die sogenannte RIR-Zahl) definiert?",
       "options": [
-        "Eine 3-stellige Zahl, bei der erste und dritte Ziffer gleich R (≠ 0) sind und die zweite Ziffer gleich I ist",
+        "Eine 3-stellige Zahl, bei der erste und dritte Ziffer gleich R ($\\ne 0$) sind und die zweite Ziffer gleich I ist",
         "Eine Zahl, bei der alle drei Ziffern gleich sind",
         "Eine 4-stellige symmetrische Zahl",
         "Die Zahl, die entsteht, wenn man die IRI-Zahl verdoppelt"
@@ -35715,7 +35715,7 @@
       "correct": [
         0
       ],
-      "explanation": "Definition: Eine 3-stellige natürliche Zahl heißt Gegenzahl einer IRI-Zahl (RIR-Zahl), wenn erste und dritte Ziffer (R ≠ 0) gleich sind und die zweite Ziffer nicht gleich der ersten/dritten, aber gleich I ist. 📄 Quelle: skript11_live, Folie 27 (S.5)",
+      "explanation": "Definition: Eine 3-stellige natürliche Zahl heißt Gegenzahl einer IRI-Zahl (RIR-Zahl), wenn erste und dritte Ziffer ($R \\ne 0$) gleich sind und die zweite Ziffer nicht gleich der ersten/dritten, aber gleich I ist. 📄 Quelle: skript11_live, Folie 27 (S.5)",
       "source": "skript11_live, Folie 27 (S.5, IRI-Zahlen)"
     },
     {
@@ -35723,17 +35723,17 @@
       "topic": "iri_mirim_zahlen",
       "difficulty": 2,
       "type": "single",
-      "question": "Wann gilt laut handschriftlicher Notiz die Zusatzbedingung I > R für eine IRI-Zahl?",
+      "question": "Wann gilt laut handschriftlicher Notiz die Zusatzbedingung $I > R$ für eine IRI-Zahl?",
       "options": [
         "Nur wenn keine negativen Differenzen erwünscht sind (relevant für das Rechnen mit IRI-Zahlen)",
         "Immer, sonst ist es keine IRI-Zahl",
-        "Nur wenn R = 0 ist",
+        "Nur wenn $R = 0$ ist",
         "Nur bei geraden Zahlen"
       ],
       "correct": [
         0
       ],
-      "explanation": "Notiert: „(I > R, wenn keine negativen Differenzen erwünscht sind)\"; dies wird erst für das Rechnen mit IRI-Zahlen relevant. 📄 Quelle: skript11_live, Folie 27 (S.5)",
+      "explanation": "Notiert: „($I > R$, wenn keine negativen Differenzen erwünscht sind)\"; dies wird erst für das Rechnen mit IRI-Zahlen relevant. 📄 Quelle: skript11_live, Folie 27 (S.5)",
       "source": "skript11_live, Folie 27 (S.5, IRI-Zahlen)"
     },
     {
@@ -35745,7 +35745,7 @@
       "options": [
         "Es ist eine fünfstellige symmetrische natürliche Zahl",
         "Die 1. und 5. Ziffer (M), die 2. und 4. Ziffer (I) sowie die Mittelzahl 3. (R) sind paarweise gleich",
-        "Es gilt M ≠ I ≠ R und M, I, R ≠ 0",
+        "Es gilt $M \\ne I \\ne R$ und $M, I, R \\ne 0$",
         "Es ist eine dreistellige Zahl"
       ],
       "correct": [
@@ -35753,7 +35753,7 @@
         1,
         2
       ],
-      "explanation": "Definition (a): Eine fünfstellige symmetrische natürliche Zahl, bei der die 1. und 5. (M), 2. und 4. (I) und eine Mittelzahl (3.) (R) paarweise gleich sind, mit M ≠ I ≠ R und M, I, R ≠ 0. 📄 Quelle: skript11_live, Folie 32 (S.6)",
+      "explanation": "Definition (a): Eine fünfstellige symmetrische natürliche Zahl, bei der die 1. und 5. (M), 2. und 4. (I) und eine Mittelzahl (3.) (R) paarweise gleich sind, mit $M \\ne I \\ne R$ und $M, I, R \\ne 0$. 📄 Quelle: skript11_live, Folie 32 (S.6)",
       "source": "skript11_live, Folie 32 (S.6, MIRIM-Zahlen)"
     },
     {
@@ -35781,11 +35781,11 @@
       "topic": "euklid_ggt",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Berechnen Sie mit dem Euklidischen Algorithmus den ggT(108, 42).",
+      "question": "Berechnen Sie mit dem Euklidischen Algorithmus den $\\operatorname{ggT}(108, 42)$.",
       "answer": 6,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Die Divisionskette lautet 108 = 2·42 + 24, 42 = 1·24 + 18, 24 = 1·18 + 6, 18 = 3·6 + 0; der letzte Rest ungleich 0 ist 6, also ggT(108, 42) = 6. 📄 Quelle: skript12_live, Folie 15 (S.1)",
+      "explanation": "Die Divisionskette lautet $108 = 2 \\cdot 42 + 24$, $42 = 1 \\cdot 24 + 18$, $24 = 1 \\cdot 18 + 6$, $18 = 3 \\cdot 6 + 0$; der letzte Rest ungleich 0 ist 6, also $\\operatorname{ggT}(108, 42) = 6$. 📄 Quelle: skript12_live, Folie 15 (S.1)",
       "source": "skript12_live, Folie 15 (S.1, Geometrie)"
     },
     {
@@ -35795,17 +35795,17 @@
       "type": "multi",
       "question": "Welche Gleichungen gehören zum Euklidischen Algorithmus für 108 und 42?",
       "options": [
-        "108 = 2·42 + 24  mit 0 ≤ 24 < 42",
-        "42 = 1·24 + 18  mit 0 ≤ 18 < 24",
-        "24 = 1·18 + 6  mit 0 ≤ 6 < 18",
-        "42 = 2·24 + 6  mit 0 ≤ 6 < 24"
+        "$108 = 2 \\cdot 42 + 24$  mit $0 \\le 24 < 42$",
+        "$42 = 1 \\cdot 24 + 18$  mit $0 \\le 18 < 24$",
+        "$24 = 1 \\cdot 18 + 6$  mit $0 \\le 6 < 18$",
+        "$42 = 2 \\cdot 24 + 6$  mit $0 \\le 6 < 24$"
       ],
       "correct": [
         0,
         1,
         2
       ],
-      "explanation": "Auf der Folie stehen 108 = 2·42 + 24, 42 = 1·24 + 18, 24 = 1·18 + 6 und 18 = 3·6 + 0. Die Gleichung 42 = 2·24 + 6 ist falsch (2·24 = 48 > 42). 📄 Quelle: skript12_live, Folie 15 (S.1)",
+      "explanation": "Auf der Folie stehen $108 = 2 \\cdot 42 + 24$, $42 = 1 \\cdot 24 + 18$, $24 = 1 \\cdot 18 + 6$ und $18 = 3 \\cdot 6 + 0$. Die Gleichung $42 = 2 \\cdot 24 + 6$ ist falsch ($2 \\cdot 24 = 48 > 42$). 📄 Quelle: skript12_live, Folie 15 (S.1)",
       "source": "skript12_live, Folie 15 (S.1, Geometrie)"
     },
     {
@@ -35813,19 +35813,19 @@
       "topic": "beweismethoden",
       "difficulty": 2,
       "type": "multi",
-      "question": "Welche Aussagen entsprechen der handschriftlichen Primfaktorzerlegung (PFZ) zur Bestimmung von ggT(108, 42)?",
+      "question": "Welche Aussagen entsprechen der handschriftlichen Primfaktorzerlegung (PFZ) zur Bestimmung von $\\operatorname{ggT}(108, 42)$?",
       "options": [
-        "108 = 2·2·3·3·3",
-        "42 = 2·3·7",
-        "ggT(108, 42) = 2·3 = 6",
-        "42 = 2·2·3·7"
+        "$108 = 2 \\cdot 2 \\cdot 3 \\cdot 3 \\cdot 3$",
+        "$42 = 2 \\cdot 3 \\cdot 7$",
+        "$\\operatorname{ggT}(108, 42) = 2 \\cdot 3 = 6$",
+        "$42 = 2 \\cdot 2 \\cdot 3 \\cdot 7$"
       ],
       "correct": [
         0,
         1,
         2
       ],
-      "explanation": "Die Mitschrift gibt 108 = 2·2·3·3·3 und 42 = 2·3·7 an; die gemeinsamen Primfaktoren 2·3 liefern ggT(108, 42) = 6. 42 = 2·2·3·7 ist falsch (das wäre 84). 📄 Quelle: skript12_live, Folie 15 (S.1)",
+      "explanation": "Die Mitschrift gibt $108 = 2 \\cdot 2 \\cdot 3 \\cdot 3 \\cdot 3$ und $42 = 2 \\cdot 3 \\cdot 7$ an; die gemeinsamen Primfaktoren $2 \\cdot 3$ liefern $\\operatorname{ggT}(108, 42) = 6$. $42 = 2 \\cdot 2 \\cdot 3 \\cdot 7$ ist falsch (das wäre 84). 📄 Quelle: skript12_live, Folie 15 (S.1)",
       "source": "skript12_live, Folie 15 (S.1, Geometrie)"
     },
     {
@@ -35835,17 +35835,17 @@
       "type": "multi",
       "question": "Wie wird in der Mitschrift begründet, dass 6 ein Teiler von 108 und 42 ist (von unten beginnend)?",
       "options": [
-        "Es gilt das Prinzip: Wenn a|b und a|c, dann a|(b+c).",
-        "Aus 6|18 und 6|6 folgt 6|24, weil 24 = 18 + 6.",
-        "Aus 6|42 und 6|24 folgt 6|108, weil 108 = 2·42 + 24.",
-        "Aus 6|108 folgt automatisch 6|42, weil 42 ein Teiler von 108 ist."
+        "Es gilt das Prinzip: Wenn $a \\mid b$ und $a \\mid c$, dann $a \\mid (b+c)$.",
+        "Aus $6 \\mid 18$ und $6 \\mid 6$ folgt $6 \\mid 24$, weil $24 = 18 + 6$.",
+        "Aus $6 \\mid 42$ und $6 \\mid 24$ folgt $6 \\mid 108$, weil $108 = 2 \\cdot 42 + 24$.",
+        "Aus $6 \\mid 108$ folgt automatisch $6 \\mid 42$, weil 42 ein Teiler von 108 ist."
       ],
       "correct": [
         0,
         1,
         2
       ],
-      "explanation": "Die Mitschrift nutzt die Regel 'Wenn a|b und a|c, dann a|(b+c)' und schließt von unten: aus 6|18 und 6|6 folgt 6|24, aus 6|24 und 6|18 folgt 6|42, aus 6|42 und 6|24 folgt 6|108. Die letzte Option ist falsch: 42 ist kein Teiler von 108, und der Schluss ist umgekehrt. 📄 Quelle: skript12_live, Folie 15 (S.1)",
+      "explanation": "Die Mitschrift nutzt die Regel 'Wenn $a \\mid b$ und $a \\mid c$, dann $a \\mid (b+c)$' und schließt von unten: aus $6 \\mid 18$ und $6 \\mid 6$ folgt $6 \\mid 24$, aus $6 \\mid 24$ und $6 \\mid 18$ folgt $6 \\mid 42$, aus $6 \\mid 42$ und $6 \\mid 24$ folgt $6 \\mid 108$. Die letzte Option ist falsch: 42 ist kein Teiler von 108, und der Schluss ist umgekehrt. 📄 Quelle: skript12_live, Folie 15 (S.1)",
       "source": "skript12_live, Folie 15 (S.1, Geometrie)"
     },
     {
@@ -35853,17 +35853,17 @@
       "topic": "euklid_ggt",
       "difficulty": 2,
       "type": "single",
-      "question": "Was ist das Ergebnis des Euklidischen Algorithmus für zwei natürliche Zahlen a und b mit a > b?",
+      "question": "Was ist das Ergebnis des Euklidischen Algorithmus für zwei natürliche Zahlen $a$ und $b$ mit $a > b$?",
       "options": [
-        "ggT(a, b) = r_{n+1}, der letzte Rest ungleich 0",
-        "ggT(a, b) = r_n",
-        "ggT(a, b) = q_{n+1}",
-        "ggT(a, b) = b, die kleinere der beiden Zahlen"
+        "$\\operatorname{ggT}(a, b) = r_{n+1}$, der letzte Rest ungleich 0",
+        "$\\operatorname{ggT}(a, b) = r_n$",
+        "$\\operatorname{ggT}(a, b) = q_{n+1}$",
+        "$\\operatorname{ggT}(a, b) = b$, die kleinere der beiden Zahlen"
       ],
       "correct": [
         0
       ],
-      "explanation": "Auf der Folie steht 'Insgesamt gilt: ggT(a, b) = r_{n+1}', wobei r_{n+1} laut handschriftlicher Anmerkung der letzte Rest ungleich 0 ist. 📄 Quelle: skript12_live, Folie 17 (S.2)",
+      "explanation": "Auf der Folie steht 'Insgesamt gilt: $\\operatorname{ggT}(a, b) = r_{n+1}$', wobei $r_{n+1}$ laut handschriftlicher Anmerkung der letzte Rest ungleich 0 ist. 📄 Quelle: skript12_live, Folie 17 (S.2)",
       "source": "skript12_live, Folie 17 (S.2, Geometrie)"
     },
     {
@@ -35871,19 +35871,19 @@
       "topic": "euklid_ggt",
       "difficulty": 2,
       "type": "multi",
-      "question": "Welche Voraussetzungen und Bedingungen gelten für den allgemeinen Euklidischen Algorithmus mit a und b?",
+      "question": "Welche Voraussetzungen und Bedingungen gelten für den allgemeinen Euklidischen Algorithmus mit $a$ und $b$?",
       "options": [
-        "a und b sind natürliche Zahlen mit a > b.",
-        "Es gibt natürliche Zahlen q_i und r_i mit i = 1, …, n.",
-        "Für die erste Zeile gilt a = q_1·b + r_1 mit 0 ≤ r_1 < b.",
-        "Die Reste wachsen von Zeile zu Zeile: r_1 < r_2 < r_3 < …"
+        "$a$ und $b$ sind natürliche Zahlen mit $a > b$.",
+        "Es gibt natürliche Zahlen $q_i$ und $r_i$ mit $i = 1, \\dots, n$.",
+        "Für die erste Zeile gilt $a = q_1 \\cdot b + r_1$ mit $0 \\le r_1 < b$.",
+        "Die Reste wachsen von Zeile zu Zeile: $r_1 < r_2 < r_3 < \\dots$"
       ],
       "correct": [
         0,
         1,
         2
       ],
-      "explanation": "Die Folie betrachtet natürliche Zahlen a und b mit a > b, natürliche Zahlen q_i und r_i (i = 1, …, n) und beginnt mit a = q_1·b + r_1, 0 ≤ r_1 < b. Die Reste werden jedoch kleiner (0 ≤ r_2 < r_1, 0 ≤ r_3 < r_2, …), nicht größer. 📄 Quelle: skript12_live, Folie 17 (S.2)",
+      "explanation": "Die Folie betrachtet natürliche Zahlen $a$ und $b$ mit $a > b$, natürliche Zahlen $q_i$ und $r_i$ ($i = 1, \\dots, n$) und beginnt mit $a = q_1 \\cdot b + r_1$, $0 \\le r_1 < b$. Die Reste werden jedoch kleiner ($0 \\le r_2 < r_1$, $0 \\le r_3 < r_2$, $\\dots$), nicht größer. 📄 Quelle: skript12_live, Folie 17 (S.2)",
       "source": "skript12_live, Folie 17 (S.2, Geometrie)"
     },
     {
@@ -35891,19 +35891,19 @@
       "topic": "teilbarkeit_primzahlen",
       "difficulty": 3,
       "type": "multi",
-      "question": "Wie wird in der Mitschrift begründet, dass r_{n+1} ein gemeinsamer Teiler von a und b ist?",
+      "question": "Wie wird in der Mitschrift begründet, dass $r_{n+1}$ ein gemeinsamer Teiler von $a$ und $b$ ist?",
       "options": [
-        "Verwendet wird die Regel (*): a|b und a|c ⇒ a|(b+c).",
-        "Aus der Zeile r_n = q_{n+2}·r_{n+1} folgt r_{n+1}|r_n.",
-        "Man schließt zeilenweise nach oben bis r_{n+1}|a und r_{n+1}|b.",
-        "r_{n+1} teilt a und b, weil r_{n+1} die größte der Zahlen a, b, r_1, … ist."
+        "Verwendet wird die Regel (*): $a \\mid b$ und $a \\mid c \\Rightarrow a \\mid (b+c)$.",
+        "Aus der Zeile $r_n = q_{n+2} \\cdot r_{n+1}$ folgt $r_{n+1} \\mid r_n$.",
+        "Man schließt zeilenweise nach oben bis $r_{n+1} \\mid a$ und $r_{n+1} \\mid b$.",
+        "$r_{n+1}$ teilt $a$ und $b$, weil $r_{n+1}$ die größte der Zahlen $a, b, r_1, \\dots$ ist."
       ],
       "correct": [
         0,
         1,
         2
       ],
-      "explanation": "Die Mitschrift nutzt die Regel (*) a|b und a|c ⇒ a|(b+c). Aus r_n = q_{n+2}·r_{n+1} folgt r_{n+1}|r_n; von dort schließt man zeilenweise nach oben bis r_{n+1}|b (Zeile b) und r_{n+1}|a (Zeile a). r_{n+1} ist gerade der letzte kleine Rest, nicht die größte Zahl. 📄 Quelle: skript12_live, Folie 17 (S.2)",
+      "explanation": "Die Mitschrift nutzt die Regel (*) $a \\mid b$ und $a \\mid c \\Rightarrow a \\mid (b+c)$. Aus $r_n = q_{n+2} \\cdot r_{n+1}$ folgt $r_{n+1} \\mid r_n$; von dort schließt man zeilenweise nach oben bis $r_{n+1} \\mid b$ (Zeile b) und $r_{n+1} \\mid a$ (Zeile a). $r_{n+1}$ ist gerade der letzte kleine Rest, nicht die größte Zahl. 📄 Quelle: skript12_live, Folie 17 (S.2)",
       "source": "skript12_live, Folie 17 (S.2, Geometrie)"
     },
     {
@@ -35911,17 +35911,17 @@
       "topic": "pruefung",
       "difficulty": 1,
       "type": "single",
-      "question": "Welchen geschlossenen Wert hat die Summe der ersten n ungeraden Zahlen 1+3+5+…+(2n−1)?",
+      "question": "Welchen geschlossenen Wert hat die Summe der ersten n ungeraden Zahlen $1+3+5+\\dots+(2n-1)$?",
       "options": [
-        "n^2",
-        "n·(n+1)",
-        "2n−1",
-        "n(n+1)/2"
+        "$n^2$",
+        "$n\\cdot(n+1)$",
+        "$2n-1$",
+        "$\\frac{n(n+1)}{2}$"
       ],
       "correct": [
         0
       ],
-      "explanation": "Auf der Folie steht: 1+3+5+…+(2n−1)=∑_{i=1}^{n}(2i−1)=n^2. 📄 Quelle: uebung_2023, Folie 1 (S.1)",
+      "explanation": "Auf der Folie steht: $1+3+5+\\dots+(2n-1)=\\sum_{i=1}^{n}(2i-1)=n^2$. 📄 Quelle: uebung_2023, Folie 1 (S.1)",
       "source": "uebung_2023, Folie 1 (S.1, VL 1-4, Aufgabe 1a)"
     },
     {
@@ -35929,11 +35929,11 @@
       "topic": "pruefung",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Berechne mit der Formel 1+3+5+…+(2n−1)=n² den Wert der Summe 1+3+5+…+19 (die ersten 10 ungeraden Zahlen).",
+      "question": "Berechne mit der Formel $1+3+5+\\dots+(2n-1)=n^2$ den Wert der Summe $1+3+5+\\dots+19$ (die ersten 10 ungeraden Zahlen).",
       "answer": 100,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Für n=10 gilt 1+3+…+(2·10−1)=1+3+…+19=n^2=10^2=100. 📄 Quelle: uebung_2023, Folie 1 (S.1)",
+      "explanation": "Für $n=10$ gilt $1+3+\\dots+(2\\cdot10-1)=1+3+\\dots+19=n^2=10^2=100$. 📄 Quelle: uebung_2023, Folie 1 (S.1)",
       "source": "uebung_2023, Folie 1 (S.1, VL 1-4, Aufgabe 1a)"
     },
     {
@@ -35941,11 +35941,11 @@
       "topic": "pruefung",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Berechne mit der Formel Δ_n=∑_{i=1}^{n} i = n(n+1)/2 die 5-te Dreieckszahl Δ_5.",
+      "question": "Berechne mit der Formel $\\Delta_n=\\sum_{i=1}^{n} i = \\frac{n(n+1)}{2}$ die 5-te Dreieckszahl $\\Delta_5$.",
       "answer": 15,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Δ_5 = 5·(5+1)/2 = 5·6/2 = 15. 📄 Quelle: uebung_2023, Folie 1 (S.1)",
+      "explanation": "$\\Delta_5 = \\frac{5\\cdot(5+1)}{2} = \\frac{5\\cdot6}{2} = 15$. 📄 Quelle: uebung_2023, Folie 1 (S.1)",
       "source": "uebung_2023, Folie 1 (S.1, VL 1-4, Aufgabe 1b)"
     },
     {
@@ -35971,11 +35971,11 @@
       "topic": "pruefung",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Durch welche Zahl ist n³−n für alle natürlichen Zahlen n teilbar?",
+      "question": "Durch welche Zahl ist $n^3-n$ für alle natürlichen Zahlen n teilbar?",
       "answer": 6,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Die Aussage der Folie lautet: 'Für alle natürlichen Zahlen n gilt: n^3−n ist durch 6 teilbar.' 📄 Quelle: uebung_2023, Folie 1 (S.1)",
+      "explanation": "Die Aussage der Folie lautet: 'Für alle natürlichen Zahlen n gilt: $n^3-n$ ist durch 6 teilbar.' 📄 Quelle: uebung_2023, Folie 1 (S.1)",
       "source": "uebung_2023, Folie 1 (S.1, VL 1-4, Aufgabe 2a)"
     },
     {
@@ -35983,17 +35983,17 @@
       "topic": "pruefung",
       "difficulty": 1,
       "type": "single",
-      "question": "Welcher geschlossene Ausdruck gilt für die Summe ∑_{k=1}^{n} k = 1+2+3+…+n?",
+      "question": "Welcher geschlossene Ausdruck gilt für die Summe $\\sum_{k=1}^{n} k = 1+2+3+\\dots+n$?",
       "options": [
-        "(n^2+n)/2",
-        "(n^2−n)/2",
-        "n^2/2",
-        "n^2"
+        "$\\frac{n^2+n}{2}$",
+        "$\\frac{n^2-n}{2}$",
+        "$\\frac{n^2}{2}$",
+        "$n^2$"
       ],
       "correct": [
         0
       ],
-      "explanation": "Die Folie gibt an: ∑_{k=1}^{n} k = 1+2+3+…+n = (n^2+n)/2. 📄 Quelle: uebung_2023, Folie 1 (S.1)",
+      "explanation": "Die Folie gibt an: $\\sum_{k=1}^{n} k = 1+2+3+\\dots+n = \\frac{n^2+n}{2}$. 📄 Quelle: uebung_2023, Folie 1 (S.1)",
       "source": "uebung_2023, Folie 1 (S.1, VL 1-4, Aufgabe 2b)"
     },
     {
@@ -36001,11 +36001,11 @@
       "topic": "pruefung",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Berechne mit der Formel ∑_{k=1}^{n} k = (n²+n)/2 den Wert der Summe 1+2+3+…+10.",
+      "question": "Berechne mit der Formel $\\sum_{k=1}^{n} k = \\frac{n^2+n}{2}$ den Wert der Summe $1+2+3+\\dots+10$.",
       "answer": 55,
       "tolerance": 0,
       "unit": "",
-      "explanation": "∑_{k=1}^{10} k = (n^2+n)/2 = (10^2+10)/2 = 110/2 = 55. 📄 Quelle: uebung_2023, Folie 1 (S.1)",
+      "explanation": "$\\sum_{k=1}^{10} k = \\frac{n^2+n}{2} = \\frac{10^2+10}{2} = \\frac{110}{2} = 55$. 📄 Quelle: uebung_2023, Folie 1 (S.1)",
       "source": "uebung_2023, Folie 1 (S.1, VL 1-4, Aufgabe 2b)"
     },
     {
@@ -36013,17 +36013,17 @@
       "topic": "pruefung",
       "difficulty": 2,
       "type": "single",
-      "question": "Welchen Wert hat die rechte Seite der Fibonacci-Identität f_n² + f_n·f_{n+1} − f_{n+1}² = … ?",
+      "question": "Welchen Wert hat die rechte Seite der Fibonacci-Identität $f_n^2 + f_n\\cdot f_{n+1} - f_{n+1}^2 = \\dots$ ?",
       "options": [
-        "(−1)^{n+1}",
-        "(−1)^{n}",
-        "n+1",
+        "$(-1)^{n+1}$",
+        "$(-1)^{n}$",
+        "$n+1$",
         "1"
       ],
       "correct": [
         0
       ],
-      "explanation": "Die Folie gibt die Identität f_n^2 + f_n·f_{n+1} − f_{n+1}^2 = (−1)^{n+1} an. 📄 Quelle: uebung_2023, Folie 1 (S.1)",
+      "explanation": "Die Folie gibt die Identität $f_n^2 + f_n\\cdot f_{n+1} - f_{n+1}^2 = (-1)^{n+1}$ an. 📄 Quelle: uebung_2023, Folie 1 (S.1)",
       "source": "uebung_2023, Folie 1 (S.1, VL 1-4, Aufgabe 2c)"
     },
     {
@@ -36033,15 +36033,15 @@
       "type": "single",
       "question": "Wie lautet die Flächeninhaltsformel für das Trapez (mit Höhe h und parallelen Seiten a und c)?",
       "options": [
-        "A=(a+c)·h/2",
-        "A=(a+c)·h",
-        "A=a·c/2",
-        "A=(a−c)·h/2"
+        "$A=\\frac{(a+c)\\cdot h}{2}$",
+        "$A=(a+c)\\cdot h$",
+        "$A=\\frac{a\\cdot c}{2}$",
+        "$A=\\frac{(a-c)\\cdot h}{2}$"
       ],
       "correct": [
         0
       ],
-      "explanation": "Die Folie gibt A=((a+c)·h)/2 = ((a+c)/2)·h = (a+c)·(h/2) an. 📄 Quelle: uebung_2023, Folie 2 (S.2)",
+      "explanation": "Die Folie gibt $A=\\frac{(a+c)\\cdot h}{2} = \\frac{(a+c)}{2}\\cdot h = (a+c)\\cdot\\frac{h}{2}$ an. 📄 Quelle: uebung_2023, Folie 2 (S.2)",
       "source": "uebung_2023, Folie 2 (S.2, VL 5-6, Aufgabe 4)"
     },
     {
@@ -36049,11 +36049,11 @@
       "topic": "pruefung",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Berechne mit der Trapezformel A=(a+c)·h/2 den Flächeninhalt eines Trapezes mit den parallelen Seiten a=6 cm und c=4 cm sowie der Höhe h=3 cm.",
+      "question": "Berechne mit der Trapezformel $A=\\frac{(a+c)\\cdot h}{2}$ den Flächeninhalt eines Trapezes mit den parallelen Seiten $a=6$ cm und $c=4$ cm sowie der Höhe $h=3$ cm.",
       "answer": 15,
       "tolerance": 0,
       "unit": "cm²",
-      "explanation": "A=(a+c)·h/2 = (6+4)·3/2 = 10·3/2 = 15 cm². 📄 Quelle: uebung_2023, Folie 2 (S.2)",
+      "explanation": "$A=\\frac{(a+c)\\cdot h}{2} = \\frac{(6+4)\\cdot3}{2} = \\frac{10\\cdot3}{2} = 15$ cm². 📄 Quelle: uebung_2023, Folie 2 (S.2)",
       "source": "uebung_2023, Folie 2 (S.2, VL 5-6, Aufgabe 4)"
     },
     {
@@ -36080,11 +36080,11 @@
       "topic": "pruefung",
       "difficulty": 2,
       "type": "numeric",
-      "question": "Löse die Restklassengleichung x + 4̄ = 1̄ für m=6. Gib den kleinsten nichtnegativen Vertreter der Lösungs-Restklasse an.",
+      "question": "Löse die Restklassengleichung $x + \\overline{4} = \\overline{1}$ für $m=6$. Gib den kleinsten nichtnegativen Vertreter der Lösungs-Restklasse an.",
       "answer": 3,
       "tolerance": 0,
       "unit": "",
-      "explanation": "x ≡ 1 − 4 = −3 ≡ 3 (mod 6); die Lösung ist die Restklasse 3̄. Probe: 3+4=7≡1 (mod 6). 📄 Quelle: uebung_2023, Folie 3 (S.3)",
+      "explanation": "$x \\equiv 1 - 4 = -3 \\equiv 3 \\pmod{6}$; die Lösung ist die Restklasse $\\overline{3}$. Probe: $3+4=7\\equiv1 \\pmod{6}$. 📄 Quelle: uebung_2023, Folie 3 (S.3)",
       "source": "uebung_2023, Folie 3 (S.3, VL 9-11, Aufgabe 7b)"
     },
     {
@@ -36092,11 +36092,11 @@
       "topic": "pruefung",
       "difficulty": 2,
       "type": "numeric",
-      "question": "Löse die Restklassengleichung x · 3̄ = 2̄ für m=4. Gib den kleinsten nichtnegativen Vertreter der Lösungs-Restklasse an.",
+      "question": "Löse die Restklassengleichung $x \\cdot \\overline{3} = \\overline{2}$ für $m=4$. Gib den kleinsten nichtnegativen Vertreter der Lösungs-Restklasse an.",
       "answer": 2,
       "tolerance": 0,
       "unit": "",
-      "explanation": "3 ist invertierbar mod 4 (3·3≡1), also x ≡ 3·2 = 6 ≡ 2 (mod 4); Lösung 2̄. Probe: 3·2=6≡2 (mod 4). 📄 Quelle: uebung_2023, Folie 3 (S.3)",
+      "explanation": "3 ist invertierbar mod 4 ($3\\cdot3\\equiv1$), also $x \\equiv 3\\cdot2 = 6 \\equiv 2 \\pmod{4}$; Lösung $\\overline{2}$. Probe: $3\\cdot2=6\\equiv2 \\pmod{4}$. 📄 Quelle: uebung_2023, Folie 3 (S.3)",
       "source": "uebung_2023, Folie 3 (S.3, VL 9-11, Aufgabe 7b)"
     },
     {
@@ -36104,11 +36104,11 @@
       "topic": "pruefung",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Löse die Kongruenz x − 3 ≡ 2 (mod 4). Gib den kleinsten nichtnegativen Vertreter der Lösungs-Restklasse an.",
+      "question": "Löse die Kongruenz $x - 3 \\equiv 2 \\pmod{4}$. Gib den kleinsten nichtnegativen Vertreter der Lösungs-Restklasse an.",
       "answer": 1,
       "tolerance": 0,
       "unit": "",
-      "explanation": "x ≡ 2 + 3 = 5 ≡ 1 (mod 4); Lösung 1̄. Probe: 1−3=−2≡2 (mod 4). 📄 Quelle: uebung_2023, Folie 3 (S.3)",
+      "explanation": "$x \\equiv 2 + 3 = 5 \\equiv 1 \\pmod{4}$; Lösung $\\overline{1}$. Probe: $1-3=-2\\equiv2 \\pmod{4}$. 📄 Quelle: uebung_2023, Folie 3 (S.3)",
       "source": "uebung_2023, Folie 3 (S.3, VL 9-11, Aufgabe 7b)"
     },
     {
@@ -36118,17 +36118,17 @@
       "type": "multi",
       "question": "Welche der folgenden Kongruenzen sind korrekt?",
       "options": [
-        "17 ≡ 3 (mod 7)",
-        "1234 ≡ 4 (mod 10)",
-        "221 ≡ 6 (mod 4)",
-        "17 ≡ 11 (mod 3)"
+        "$17 \\equiv 3 \\pmod{7}$",
+        "$1234 \\equiv 4 \\pmod{10}$",
+        "$221 \\equiv 6 \\pmod{4}$",
+        "$17 \\equiv 11 \\pmod{3}$"
       ],
       "correct": [
         0,
         1,
         3
       ],
-      "explanation": "17−3=14=2·7 ✓; 1234 endet auf 4, also ≡4 (mod 10) ✓; 221≡1 und 6≡2 (mod 4), daher 221≢6 (mod 4) ✗; 17−11=6=2·3, also 17≡11 (mod 3) ✓. 📄 Quelle: uebung_2023, Folie 3 (S.3)",
+      "explanation": "$17-3=14=2\\cdot7$ ✓; 1234 endet auf 4, also $\\equiv4 \\pmod{10}$ ✓; $221\\equiv1$ und $6\\equiv2 \\pmod{4}$, daher $221\\not\\equiv6 \\pmod{4}$ ✗; $17-11=6=2\\cdot3$, also $17\\equiv11 \\pmod{3}$ ✓. 📄 Quelle: uebung_2023, Folie 3 (S.3)",
       "source": "uebung_2023, Folie 3 (S.3, VL 9-11, Aufgabe 7c)"
     },
     {
@@ -36136,11 +36136,11 @@
       "topic": "pruefung",
       "difficulty": 2,
       "type": "numeric",
-      "question": "Bestimme den Wert X mit 2·3·5·7 ≡ X (mod 4) (kleinster nichtnegativer Vertreter).",
+      "question": "Bestimme den Wert X mit $2\\cdot3\\cdot5\\cdot7 \\equiv X \\pmod{4}$ (kleinster nichtnegativer Vertreter).",
       "answer": 2,
       "tolerance": 0,
       "unit": "",
-      "explanation": "2·3·5·7 = 210, und 210 = 52·4 + 2, also 210 ≡ 2 (mod 4). 📄 Quelle: uebung_2023, Folie 3 (S.3)",
+      "explanation": "$2\\cdot3\\cdot5\\cdot7 = 210$, und $210 = 52\\cdot4 + 2$, also $210 \\equiv 2 \\pmod{4}$. 📄 Quelle: uebung_2023, Folie 3 (S.3)",
       "source": "uebung_2023, Folie 3 (S.3, VL 9-11, Aufgabe 7d)"
     },
     {
@@ -36148,11 +36148,11 @@
       "topic": "pruefung",
       "difficulty": 2,
       "type": "numeric",
-      "question": "Bestimme den Wert X mit 3²·5·11 ≡ X (mod 11) (kleinster nichtnegativer Vertreter).",
+      "question": "Bestimme den Wert X mit $3^2\\cdot5\\cdot11 \\equiv X \\pmod{11}$ (kleinster nichtnegativer Vertreter).",
       "answer": 0,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Das Produkt enthält den Faktor 11, ist also durch 11 teilbar: 3^2·5·11 ≡ 0 (mod 11). 📄 Quelle: uebung_2023, Folie 3 (S.3)",
+      "explanation": "Das Produkt enthält den Faktor 11, ist also durch 11 teilbar: $3^2\\cdot5\\cdot11 \\equiv 0 \\pmod{11}$. 📄 Quelle: uebung_2023, Folie 3 (S.3)",
       "source": "uebung_2023, Folie 3 (S.3, VL 9-11, Aufgabe 7d)"
     },
     {
@@ -36160,11 +36160,11 @@
       "topic": "pruefung",
       "difficulty": 2,
       "type": "numeric",
-      "question": "Bestimme den Wert X mit 5⁴ ≡ X (mod 4) (kleinster nichtnegativer Vertreter).",
+      "question": "Bestimme den Wert X mit $5^4 \\equiv X \\pmod{4}$ (kleinster nichtnegativer Vertreter).",
       "answer": 1,
       "tolerance": 0,
       "unit": "",
-      "explanation": "5 ≡ 1 (mod 4), also 5^4 ≡ 1^4 = 1 (mod 4). (Kontrolle: 5^4=625=156·4+1.) 📄 Quelle: uebung_2023, Folie 3 (S.3)",
+      "explanation": "$5 \\equiv 1 \\pmod{4}$, also $5^4 \\equiv 1^4 = 1 \\pmod{4}$. (Kontrolle: $5^4=625=156\\cdot4+1$.) 📄 Quelle: uebung_2023, Folie 3 (S.3)",
       "source": "uebung_2023, Folie 3 (S.3, VL 9-11, Aufgabe 7d)"
     },
     {
@@ -36172,11 +36172,11 @@
       "topic": "pruefung",
       "difficulty": 3,
       "type": "numeric",
-      "question": "Bestimme den Wert X mit 38⁷·39² ≡ X (mod 37) (kleinster nichtnegativer Vertreter).",
+      "question": "Bestimme den Wert X mit $38^7\\cdot39^2 \\equiv X \\pmod{37}$ (kleinster nichtnegativer Vertreter).",
       "answer": 4,
       "tolerance": 0,
       "unit": "",
-      "explanation": "38 ≡ 1 und 39 ≡ 2 (mod 37), also 38^7·39^2 ≡ 1^7·2^2 = 4 (mod 37). 📄 Quelle: uebung_2023, Folie 3 (S.3)",
+      "explanation": "$38 \\equiv 1$ und $39 \\equiv 2 \\pmod{37}$, also $38^7\\cdot39^2 \\equiv 1^7\\cdot2^2 = 4 \\pmod{37}$. 📄 Quelle: uebung_2023, Folie 3 (S.3)",
       "source": "uebung_2023, Folie 3 (S.3, VL 9-11, Aufgabe 7d)"
     },
     {
@@ -36184,11 +36184,11 @@
       "topic": "pruefung",
       "difficulty": 2,
       "type": "numeric",
-      "question": "Bestimme den größten gemeinsamen Teiler von 76 und 209 (zum Kürzen von 76/209).",
+      "question": "Bestimme den größten gemeinsamen Teiler von 76 und 209 (zum Kürzen von $\\frac{76}{209}$).",
       "answer": 19,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Euklidischer Algorithmus: 209=2·76+57, 76=1·57+19, 57=3·19+0 ⇒ ggT=19. 📄 Quelle: uebung_2023, Folie 4 (S.4)",
+      "explanation": "Euklidischer Algorithmus: $209=2\\cdot76+57$, $76=1\\cdot57+19$, $57=3\\cdot19+0 \\Rightarrow \\mathrm{ggT}=19$. 📄 Quelle: uebung_2023, Folie 4 (S.4)",
       "source": "uebung_2023, Folie 4 (S.4, VL 12, Aufgabe 8a)"
     },
     {
@@ -36196,17 +36196,17 @@
       "topic": "pruefung",
       "difficulty": 2,
       "type": "single",
-      "question": "Zu welchem vollständig gekürzten Bruch lässt sich 76/209 kürzen?",
+      "question": "Zu welchem vollständig gekürzten Bruch lässt sich $\\frac{76}{209}$ kürzen?",
       "options": [
-        "4/11",
-        "4/19",
-        "3/11",
-        "8/22"
+        "$\\frac{4}{11}$",
+        "$\\frac{4}{19}$",
+        "$\\frac{3}{11}$",
+        "$\\frac{8}{22}$"
       ],
       "correct": [
         0
       ],
-      "explanation": "ggT(76,209)=19; 76/19=4 und 209/19=11, also 76/209 = 4/11. 📄 Quelle: uebung_2023, Folie 4 (S.4)",
+      "explanation": "$\\mathrm{ggT}(76,209)=19$; $\\frac{76}{19}=4$ und $\\frac{209}{19}=11$, also $\\frac{76}{209} = \\frac{4}{11}$. 📄 Quelle: uebung_2023, Folie 4 (S.4)",
       "source": "uebung_2023, Folie 4 (S.4, VL 12, Aufgabe 8a)"
     },
     {
@@ -36214,11 +36214,11 @@
       "topic": "pruefung",
       "difficulty": 2,
       "type": "numeric",
-      "question": "Bestimme den größten gemeinsamen Teiler von 105 und 330 (zum Kürzen von 105/330).",
+      "question": "Bestimme den größten gemeinsamen Teiler von 105 und 330 (zum Kürzen von $\\frac{105}{330}$).",
       "answer": 15,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Euklidischer Algorithmus: 330=3·105+15, 105=7·15+0 ⇒ ggT=15. 📄 Quelle: uebung_2023, Folie 4 (S.4)",
+      "explanation": "Euklidischer Algorithmus: $330=3\\cdot105+15$, $105=7\\cdot15+0 \\Rightarrow \\mathrm{ggT}=15$. 📄 Quelle: uebung_2023, Folie 4 (S.4)",
       "source": "uebung_2023, Folie 4 (S.4, VL 12, Aufgabe 8a)"
     },
     {
@@ -36226,17 +36226,17 @@
       "topic": "pruefung",
       "difficulty": 2,
       "type": "single",
-      "question": "Zu welchem vollständig gekürzten Bruch lässt sich 105/330 kürzen?",
+      "question": "Zu welchem vollständig gekürzten Bruch lässt sich $\\frac{105}{330}$ kürzen?",
       "options": [
-        "7/22",
-        "7/20",
-        "3/11",
-        "15/22"
+        "$\\frac{7}{22}$",
+        "$\\frac{7}{20}$",
+        "$\\frac{3}{11}$",
+        "$\\frac{15}{22}$"
       ],
       "correct": [
         0
       ],
-      "explanation": "ggT(105,330)=15; 105/15=7 und 330/15=22, also 105/330 = 7/22. 📄 Quelle: uebung_2023, Folie 4 (S.4)",
+      "explanation": "$\\mathrm{ggT}(105,330)=15$; $\\frac{105}{15}=7$ und $\\frac{330}{15}=22$, also $\\frac{105}{330} = \\frac{7}{22}$. 📄 Quelle: uebung_2023, Folie 4 (S.4)",
       "source": "uebung_2023, Folie 4 (S.4, VL 12, Aufgabe 8a)"
     },
     {
@@ -36244,11 +36244,11 @@
       "topic": "pruefung",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Berechnen Sie mit der Formel Δ_n = n(n+1)/2 für die n-te Dreieckszahl die 5-te Dreieckszahl Δ_5.",
+      "question": "Berechnen Sie mit der Formel $\\Delta_n = \\frac{n(n+1)}{2}$ für die n-te Dreieckszahl die 5-te Dreieckszahl $\\Delta_5$.",
       "answer": 15,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Δ_5 = 5·(5+1)/2 = 30/2 = 15. 📄 Quelle: uebung_gesamt, Folie 1 (S.1)",
+      "explanation": "$\\Delta_5 = \\frac{5 \\cdot (5+1)}{2} = \\frac{30}{2} = 15$. 📄 Quelle: uebung_gesamt, Folie 1 (S.1)",
       "source": "uebung_gesamt, Folie 1 (S.1, VL 1-4, Aufgabe 1)"
     },
     {
@@ -36256,18 +36256,18 @@
       "topic": "pruefung",
       "difficulty": 2,
       "type": "multi",
-      "question": "Wie ist die n-te Dreieckszahl Δ_n (Summe der ersten n natürlichen Zahlen) gegeben?",
+      "question": "Wie ist die n-te Dreieckszahl $\\Delta_n$ (Summe der ersten n natürlichen Zahlen) gegeben?",
       "options": [
-        "Δ_n = n(n+1)/2",
-        "Δ_n = ∑_{i=1}^n i",
-        "Δ_n = n²/2",
-        "Δ_n = (n+1)/2"
+        "$\\Delta_n = \\frac{n(n+1)}{2}$",
+        "$\\Delta_n = \\sum_{i=1}^n i$",
+        "$\\Delta_n = \\frac{n^2}{2}$",
+        "$\\Delta_n = \\frac{n+1}{2}$"
       ],
       "correct": [
         0,
         1
       ],
-      "explanation": "Auf der Folie steht Δ_n = 1+2+3+...+n = ∑_{i=1}^n i = n(n+1)/2. 📄 Quelle: uebung_gesamt, Folie 1 (S.1)",
+      "explanation": "Auf der Folie steht $\\Delta_n = 1+2+3+\\dots+n = \\sum_{i=1}^n i = \\frac{n(n+1)}{2}$. 📄 Quelle: uebung_gesamt, Folie 1 (S.1)",
       "source": "uebung_gesamt, Folie 1 (S.1, VL 1-4, Aufgabe 1)"
     },
     {
@@ -36275,11 +36275,11 @@
       "topic": "pruefung",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Wie groß ist die Summe der ersten 5 ungeraden Zahlen (1+3+5+7+9)?",
+      "question": "Wie groß ist die Summe der ersten 5 ungeraden Zahlen ($1+3+5+7+9$)?",
       "answer": 25,
       "tolerance": 0,
       "unit": "",
-      "explanation": "1+3+5+7+9 = 25 = 5². Nach Aufgabe 1a) gilt allgemein ∑_{i=1}^n (2i−1) = n². 📄 Quelle: uebung_gesamt, Folie 1 (S.1)",
+      "explanation": "$1+3+5+7+9 = 25 = 5^2$. Nach Aufgabe 1a) gilt allgemein $\\sum_{i=1}^n (2i-1) = n^2$. 📄 Quelle: uebung_gesamt, Folie 1 (S.1)",
       "source": "uebung_gesamt, Folie 1 (S.1, VL 1-4, Aufgabe 1a)"
     },
     {
@@ -36289,16 +36289,16 @@
       "type": "multi",
       "question": "Welche Aussage über die Summe der ersten n ungeraden Zahlen lässt sich für alle natürlichen Zahlen n durch vollständige Induktion beweisen?",
       "options": [
-        "1+3+5+...+(2n−1) = n²",
-        "∑_{i=1}^n (2i−1) = n²",
-        "1+3+5+...+(2n−1) = n(n+1)/2",
-        "∑_{i=1}^n (2i−1) = 2^n"
+        "$1+3+5+\\dots+(2n-1) = n^2$",
+        "$\\sum_{i=1}^n (2i-1) = n^2$",
+        "$1+3+5+\\dots+(2n-1) = \\frac{n(n+1)}{2}$",
+        "$\\sum_{i=1}^n (2i-1) = 2^n$"
       ],
       "correct": [
         0,
         1
       ],
-      "explanation": "Die Folie gibt die Aussage 1+3+5+...+(2n−1) = ∑_{i=1}^n (2i−1) = n² an. 📄 Quelle: uebung_gesamt, Folie 1 (S.1)",
+      "explanation": "Die Folie gibt die Aussage $1+3+5+\\dots+(2n-1) = \\sum_{i=1}^n (2i-1) = n^2$ an. 📄 Quelle: uebung_gesamt, Folie 1 (S.1)",
       "source": "uebung_gesamt, Folie 1 (S.1, VL 1-4, Aufgabe 1a)"
     },
     {
@@ -36306,11 +36306,11 @@
       "topic": "pruefung",
       "difficulty": 2,
       "type": "numeric",
-      "question": "Die n-te Dreieckszahl ist Δ_n = n(n+1)/2, und die Summe zweier aufeinanderfolgender Dreieckszahlen ist stets eine Quadratzahl. Welchen Wert hat diese Summe für n=3 (also Δ_3 + Δ_4)?",
+      "question": "Die n-te Dreieckszahl ist $\\Delta_n = \\frac{n(n+1)}{2}$, und die Summe zweier aufeinanderfolgender Dreieckszahlen ist stets eine Quadratzahl. Welchen Wert hat diese Summe für $n=3$ (also $\\Delta_3 + \\Delta_4$)?",
       "answer": 16,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Δ_3 = 6, Δ_4 = 10, Summe = 16 = 4². Allgemein ist Δ_n + Δ_{n+1} = (n+1)². 📄 Quelle: uebung_gesamt, Folie 1 (S.1)",
+      "explanation": "$\\Delta_3 = 6$, $\\Delta_4 = 10$, Summe $= 16 = 4^2$. Allgemein ist $\\Delta_n + \\Delta_{n+1} = (n+1)^2$. 📄 Quelle: uebung_gesamt, Folie 1 (S.1)",
       "source": "uebung_gesamt, Folie 1 (S.1, VL 1-4, Aufgabe 1b)"
     },
     {
@@ -36318,18 +36318,18 @@
       "topic": "pruefung",
       "difficulty": 2,
       "type": "multi",
-      "question": "Was gilt für die Summe der n-ten und der (n+1)-ten Dreieckszahl (mit Δ_n = n(n+1)/2)?",
+      "question": "Was gilt für die Summe der n-ten und der (n+1)-ten Dreieckszahl (mit $\\Delta_n = \\frac{n(n+1)}{2}$)?",
       "options": [
         "Sie ist stets eine Quadratzahl",
-        "Sie ist gleich (n+1)²",
+        "Sie ist gleich $(n+1)^2$",
         "Sie ist stets eine Primzahl",
-        "Sie ist gleich Δ_{2n}"
+        "Sie ist gleich $\\Delta_{2n}$"
       ],
       "correct": [
         0,
         1
       ],
-      "explanation": "Die Folie stellt fest, dass die Summe eine Quadratzahl ist; konkret gilt Δ_n + Δ_{n+1} = n(n+1)/2 + (n+1)(n+2)/2 = (n+1)². 📄 Quelle: uebung_gesamt, Folie 1 (S.1)",
+      "explanation": "Die Folie stellt fest, dass die Summe eine Quadratzahl ist; konkret gilt $\\Delta_n + \\Delta_{n+1} = \\frac{n(n+1)}{2} + \\frac{(n+1)(n+2)}{2} = (n+1)^2$. 📄 Quelle: uebung_gesamt, Folie 1 (S.1)",
       "source": "uebung_gesamt, Folie 1 (S.1, VL 1-4, Aufgabe 1b)"
     },
     {
@@ -36337,17 +36337,17 @@
       "topic": "pruefung",
       "difficulty": 2,
       "type": "multi",
-      "question": "Welche Aussage über n³ − n lässt sich für alle natürlichen Zahlen n beweisen?",
+      "question": "Welche Aussage über $n^3 - n$ lässt sich für alle natürlichen Zahlen n beweisen?",
       "options": [
-        "n³ − n ist durch 6 teilbar",
-        "n³ − n ist durch 9 teilbar",
-        "n³ − n ist durch 4 teilbar",
-        "n³ − n ist niemals durch 6 teilbar"
+        "$n^3 - n$ ist durch 6 teilbar",
+        "$n^3 - n$ ist durch 9 teilbar",
+        "$n^3 - n$ ist durch 4 teilbar",
+        "$n^3 - n$ ist niemals durch 6 teilbar"
       ],
       "correct": [
         0
       ],
-      "explanation": "Aufgabe 2a) lautet: Für alle natürlichen Zahlen n gilt, n³ − n ist durch 6 teilbar. 📄 Quelle: uebung_gesamt, Folie 1 (S.1)",
+      "explanation": "Aufgabe 2a) lautet: Für alle natürlichen Zahlen n gilt, $n^3 - n$ ist durch 6 teilbar. 📄 Quelle: uebung_gesamt, Folie 1 (S.1)",
       "source": "uebung_gesamt, Folie 1 (S.1, VL 1-4, Aufgabe 2a)"
     },
     {
@@ -36355,11 +36355,11 @@
       "topic": "pruefung",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Berechnen Sie mit der Formel ∑_{k=1}^n k = (n²+n)/2 den Wert für n=10.",
+      "question": "Berechnen Sie mit der Formel $\\sum_{k=1}^n k = \\frac{n^2+n}{2}$ den Wert für $n=10$.",
       "answer": 55,
       "tolerance": 0,
       "unit": "",
-      "explanation": "(10²+10)/2 = 110/2 = 55. 📄 Quelle: uebung_gesamt, Folie 1 (S.1)",
+      "explanation": "$\\frac{10^2+10}{2} = \\frac{110}{2} = 55$. 📄 Quelle: uebung_gesamt, Folie 1 (S.1)",
       "source": "uebung_gesamt, Folie 1 (S.1, VL 1-4, Aufgabe 2b)"
     },
     {
@@ -36367,11 +36367,11 @@
       "topic": "pruefung",
       "difficulty": 3,
       "type": "multi",
-      "question": "Welche Aussagen über den Ausdruck f_n² + f_n·f_{n+1} − f_{n+1}² (für die Fibonacci-Folge f_n) sind korrekt?",
+      "question": "Welche Aussagen über den Ausdruck $f_n^2 + f_n \\cdot f_{n+1} - f_{n+1}^2$ (für die Fibonacci-Folge $f_n$) sind korrekt?",
       "options": [
-        "Er ist gleich (−1)^{n+1}",
-        "Für gerade n hat er den Wert −1",
-        "Für ungerade n hat er den Wert +1",
+        "Er ist gleich $(-1)^{n+1}$",
+        "Für gerade n hat er den Wert $-1$",
+        "Für ungerade n hat er den Wert $+1$",
         "Er ist stets gleich 0"
       ],
       "correct": [
@@ -36379,7 +36379,7 @@
         1,
         2
       ],
-      "explanation": "Laut Aufgabe 2c) gilt f_n² + f_n·f_{n+1} − f_{n+1}² = (−1)^{n+1}; für gerades n ist (−1)^{n+1} = −1, für ungerades n ist (−1)^{n+1} = +1. 📄 Quelle: uebung_gesamt, Folie 1 (S.1)",
+      "explanation": "Laut Aufgabe 2c) gilt $f_n^2 + f_n \\cdot f_{n+1} - f_{n+1}^2 = (-1)^{n+1}$; für gerades n ist $(-1)^{n+1} = -1$, für ungerades n ist $(-1)^{n+1} = +1$. 📄 Quelle: uebung_gesamt, Folie 1 (S.1)",
       "source": "uebung_gesamt, Folie 1 (S.1, VL 1-4, Aufgabe 2c)"
     },
     {
@@ -36387,11 +36387,11 @@
       "topic": "pruefung",
       "difficulty": 2,
       "type": "numeric",
-      "question": "Die Fibonacci-Zahlen sind durch f_1 = f_2 = 1 und f_{n+1} = f_n + f_{n−1} gegeben. Wie lautet f_16?",
+      "question": "Die Fibonacci-Zahlen sind durch $f_1 = f_2 = 1$ und $f_{n+1} = f_n + f_{n-1}$ gegeben. Wie lautet $f_{16}$?",
       "answer": 987,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Die Folge lautet 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987; also f_16 = 987. 📄 Quelle: uebung_gesamt, Folie 2 (S.2)",
+      "explanation": "Die Folge lautet 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987; also $f_{16} = 987$. 📄 Quelle: uebung_gesamt, Folie 2 (S.2)",
       "source": "uebung_gesamt, Folie 2 (S.2, VL 1-4, Aufgabe 3a)"
     },
     {
@@ -36399,11 +36399,11 @@
       "topic": "pruefung",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Wie lautet die 10-te Fibonacci-Zahl f_10 (mit f_1 = f_2 = 1 und f_{n+1} = f_n + f_{n−1})?",
+      "question": "Wie lautet die 10-te Fibonacci-Zahl $f_{10}$ (mit $f_1 = f_2 = 1$ und $f_{n+1} = f_n + f_{n-1}$)?",
       "answer": 55,
       "tolerance": 0,
       "unit": "",
-      "explanation": "1, 1, 2, 3, 5, 8, 13, 21, 34, 55, ...; also f_10 = 55. 📄 Quelle: uebung_gesamt, Folie 2 (S.2)",
+      "explanation": "1, 1, 2, 3, 5, 8, 13, 21, 34, 55, ...; also $f_{10} = 55$. 📄 Quelle: uebung_gesamt, Folie 2 (S.2)",
       "source": "uebung_gesamt, Folie 2 (S.2, VL 1-4, Aufgabe 3a)"
     },
     {
@@ -36413,17 +36413,17 @@
       "type": "multi",
       "question": "Welche Ausdrücke sind gleich dem Flächeninhalt A eines Trapezes (mit den parallelen Seiten a, c und der Höhe h)?",
       "options": [
-        "((a+c)·h)/2",
-        "((a+c)/2)·h",
-        "(a+c)·(h/2)",
-        "(a·c·h)/2"
+        "$\\frac{(a+c) \\cdot h}{2}$",
+        "$\\frac{a+c}{2} \\cdot h$",
+        "$(a+c) \\cdot \\frac{h}{2}$",
+        "$\\frac{a \\cdot c \\cdot h}{2}$"
       ],
       "correct": [
         0,
         1,
         2
       ],
-      "explanation": "Die Folie gibt A = ((a+c)·h)/2 = ((a+c)/2)·h = (a+c)·(h/2) an. 📄 Quelle: uebung_gesamt, Folie 2 (S.2)",
+      "explanation": "Die Folie gibt $A = \\frac{(a+c) \\cdot h}{2} = \\frac{a+c}{2} \\cdot h = (a+c) \\cdot \\frac{h}{2}$ an. 📄 Quelle: uebung_gesamt, Folie 2 (S.2)",
       "source": "uebung_gesamt, Folie 2 (S.2, VL 5-6, Aufgabe 4)"
     },
     {
@@ -36431,7 +36431,7 @@
       "topic": "pruefung",
       "difficulty": 1,
       "type": "multi",
-      "question": "Was bezeichnen in der Trapezformel A = ((a+c)·h)/2 die Größen a, c und h?",
+      "question": "Was bezeichnen in der Trapezformel $A = \\frac{(a+c) \\cdot h}{2}$ die Größen a, c und h?",
       "options": [
         "a und c sind die zueinander parallelen Seiten",
         "h ist die Höhe",
@@ -36473,7 +36473,7 @@
       "answer": 15,
       "tolerance": 0,
       "unit": "cm²",
-      "explanation": "A = 5 cm · 3 cm = 15 cm². 📄 Quelle: uebung_gesamt, Folie 3 (S.3)",
+      "explanation": "$A = 5\\,\\text{cm} \\cdot 3\\,\\text{cm} = 15\\,\\text{cm}^2$. 📄 Quelle: uebung_gesamt, Folie 3 (S.3)",
       "source": "uebung_gesamt, Folie 3 (S.3, VL 7-8, Aufgabe 6)"
     },
     {
@@ -36481,11 +36481,11 @@
       "topic": "pruefung",
       "difficulty": 2,
       "type": "numeric",
-      "question": "Ein Rechteck (5 cm × 3 cm) soll in ein flächengleiches Quadrat umgewandelt werden. Wie lang ist die Seite dieses Quadrats (in cm)?",
+      "question": "Ein Rechteck ($5\\,\\text{cm} \\times 3\\,\\text{cm}$) soll in ein flächengleiches Quadrat umgewandelt werden. Wie lang ist die Seite dieses Quadrats (in cm)?",
       "answer": 3.873,
       "tolerance": 0.01,
       "unit": "cm",
-      "explanation": "Das Quadrat muss die Fläche 15 cm² haben, also Seitenlänge √15 ≈ 3.873 cm. 📄 Quelle: uebung_gesamt, Folie 3 (S.3)",
+      "explanation": "Das Quadrat muss die Fläche $15\\,\\text{cm}^2$ haben, also Seitenlänge $\\sqrt{15} \\approx 3.873\\,\\text{cm}$. 📄 Quelle: uebung_gesamt, Folie 3 (S.3)",
       "source": "uebung_gesamt, Folie 3 (S.3, VL 7-8, Aufgabe 6)"
     },
     {
@@ -36493,11 +36493,11 @@
       "topic": "pruefung",
       "difficulty": 2,
       "type": "numeric",
-      "question": "Lösen Sie die Gleichung x + 4̄ = 1̄ in den Restklassen modulo m = 6. Geben Sie den Repräsentanten der Lösung x in {0,...,5} an.",
+      "question": "Lösen Sie die Gleichung $x + \\overline{4} = \\overline{1}$ in den Restklassen modulo $m = 6$. Geben Sie den Repräsentanten der Lösung x in $\\{0,\\dots,5\\}$ an.",
       "answer": 3,
       "tolerance": 0,
       "unit": "",
-      "explanation": "x ≡ 1 − 4 ≡ −3 ≡ 3 (mod 6), also x = 3̄. 📄 Quelle: uebung_gesamt, Folie 3 (S.3)",
+      "explanation": "$x \\equiv 1 - 4 \\equiv -3 \\equiv 3 \\pmod{6}$, also $x = \\overline{3}$. 📄 Quelle: uebung_gesamt, Folie 3 (S.3)",
       "source": "uebung_gesamt, Folie 3 (S.3, VL 9-11, Aufgabe 7b)"
     },
     {
@@ -36505,11 +36505,11 @@
       "topic": "pruefung",
       "difficulty": 3,
       "type": "numeric",
-      "question": "Lösen Sie die Gleichung x · 3̄ = 2̄ in den Restklassen modulo m = 4. Geben Sie den Repräsentanten der Lösung x in {0,...,3} an.",
+      "question": "Lösen Sie die Gleichung $x \\cdot \\overline{3} = \\overline{2}$ in den Restklassen modulo $m = 4$. Geben Sie den Repräsentanten der Lösung x in $\\{0,\\dots,3\\}$ an.",
       "answer": 2,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Da ggT(3,4)=1, ist 3 invertierbar (3·3 ≡ 1 mod 4). x ≡ 3·2 ≡ 6 ≡ 2 (mod 4); Probe 3·2 = 6 ≡ 2. 📄 Quelle: uebung_gesamt, Folie 3 (S.3)",
+      "explanation": "Da $\\operatorname{ggT}(3,4)=1$, ist 3 invertierbar ($3 \\cdot 3 \\equiv 1 \\bmod 4$). $x \\equiv 3 \\cdot 2 \\equiv 6 \\equiv 2 \\pmod{4}$; Probe $3 \\cdot 2 = 6 \\equiv 2$. 📄 Quelle: uebung_gesamt, Folie 3 (S.3)",
       "source": "uebung_gesamt, Folie 3 (S.3, VL 9-11, Aufgabe 7b)"
     },
     {
@@ -36517,11 +36517,11 @@
       "topic": "pruefung",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Lösen Sie x − 3 ≡ 2 (mod 4). Geben Sie den Repräsentanten der Lösung x in {0,...,3} an.",
+      "question": "Lösen Sie $x - 3 \\equiv 2 \\pmod{4}$. Geben Sie den Repräsentanten der Lösung x in $\\{0,\\dots,3\\}$ an.",
       "answer": 1,
       "tolerance": 0,
       "unit": "",
-      "explanation": "x ≡ 2 + 3 ≡ 5 ≡ 1 (mod 4). 📄 Quelle: uebung_gesamt, Folie 3 (S.3)",
+      "explanation": "$x \\equiv 2 + 3 \\equiv 5 \\equiv 1 \\pmod{4}$. 📄 Quelle: uebung_gesamt, Folie 3 (S.3)",
       "source": "uebung_gesamt, Folie 3 (S.3, VL 9-11, Aufgabe 7b)"
     },
     {
@@ -36531,10 +36531,10 @@
       "type": "multi",
       "question": "Welche der folgenden Kongruenzen sind wahr?",
       "options": [
-        "17 ≡ 3 (mod 7)",
-        "1234 ≡ 4 (mod 10)",
-        "17 ≡ 11 (mod 3)",
-        "221 ≡ 5 (mod 4)"
+        "$17 \\equiv 3 \\pmod{7}$",
+        "$1234 \\equiv 4 \\pmod{10}$",
+        "$17 \\equiv 11 \\pmod{3}$",
+        "$221 \\equiv 5 \\pmod{4}$"
       ],
       "correct": [
         0,
@@ -36542,7 +36542,7 @@
         2,
         3
       ],
-      "explanation": "17−3=14=2·7; 1234 endet auf 4, also ≡ 4 mod 10; 17≡2 und 11≡2 mod 3; 221≡1 und 5≡1 mod 4. Alle vier Kongruenzen sind wahr. 📄 Quelle: uebung_gesamt, Folie 3 (S.3)",
+      "explanation": "$17-3=14=2 \\cdot 7$; 1234 endet auf 4, also $\\equiv 4 \\bmod 10$; $17 \\equiv 2$ und $11 \\equiv 2 \\bmod 3$; $221 \\equiv 1$ und $5 \\equiv 1 \\bmod 4$. Alle vier Kongruenzen sind wahr. 📄 Quelle: uebung_gesamt, Folie 3 (S.3)",
       "source": "uebung_gesamt, Folie 3 (S.3, VL 9-11, Aufgabe 7c)"
     },
     {
@@ -36550,11 +36550,11 @@
       "topic": "pruefung",
       "difficulty": 2,
       "type": "numeric",
-      "question": "Bestimmen Sie X in 2·3·5·7 ≡ X (mod 4) mit 0 ≤ X < 4.",
+      "question": "Bestimmen Sie X in $2 \\cdot 3 \\cdot 5 \\cdot 7 \\equiv X \\pmod{4}$ mit $0 \\le X < 4$.",
       "answer": 2,
       "tolerance": 0,
       "unit": "",
-      "explanation": "2·3·5·7 = 210, und 210 = 52·4 + 2, also 210 ≡ 2 (mod 4). 📄 Quelle: uebung_gesamt, Folie 3 (S.3)",
+      "explanation": "$2 \\cdot 3 \\cdot 5 \\cdot 7 = 210$, und $210 = 52 \\cdot 4 + 2$, also $210 \\equiv 2 \\pmod{4}$. 📄 Quelle: uebung_gesamt, Folie 3 (S.3)",
       "source": "uebung_gesamt, Folie 3 (S.3, VL 9-11, Aufgabe 7d)"
     },
     {
@@ -36562,11 +36562,11 @@
       "topic": "pruefung",
       "difficulty": 2,
       "type": "numeric",
-      "question": "Bestimmen Sie X in 3²·5·11 ≡ X (mod 11) mit 0 ≤ X < 11.",
+      "question": "Bestimmen Sie X in $3^2 \\cdot 5 \\cdot 11 \\equiv X \\pmod{11}$ mit $0 \\le X < 11$.",
       "answer": 0,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Der Faktor 11 macht das Produkt durch 11 teilbar: 3²·5·11 = 495 = 45·11 ≡ 0 (mod 11). 📄 Quelle: uebung_gesamt, Folie 3 (S.3)",
+      "explanation": "Der Faktor 11 macht das Produkt durch 11 teilbar: $3^2 \\cdot 5 \\cdot 11 = 495 = 45 \\cdot 11 \\equiv 0 \\pmod{11}$. 📄 Quelle: uebung_gesamt, Folie 3 (S.3)",
       "source": "uebung_gesamt, Folie 3 (S.3, VL 9-11, Aufgabe 7d)"
     },
     {
@@ -36574,11 +36574,11 @@
       "topic": "pruefung",
       "difficulty": 3,
       "type": "numeric",
-      "question": "Bestimmen Sie X in 38^7·39^2 ≡ X (mod 37) mit 0 ≤ X < 37.",
+      "question": "Bestimmen Sie X in $38^7 \\cdot 39^2 \\equiv X \\pmod{37}$ mit $0 \\le X < 37$.",
       "answer": 4,
       "tolerance": 0,
       "unit": "",
-      "explanation": "38 ≡ 1 und 39 ≡ 2 (mod 37), daher 38^7·39^2 ≡ 1^7·2^2 = 4 (mod 37). 📄 Quelle: uebung_gesamt, Folie 3 (S.3)",
+      "explanation": "$38 \\equiv 1$ und $39 \\equiv 2 \\pmod{37}$, daher $38^7 \\cdot 39^2 \\equiv 1^7 \\cdot 2^2 = 4 \\pmod{37}$. 📄 Quelle: uebung_gesamt, Folie 3 (S.3)",
       "source": "uebung_gesamt, Folie 3 (S.3, VL 9-11, Aufgabe 7d)"
     },
     {
@@ -36590,7 +36590,7 @@
       "answer": 19,
       "tolerance": 0,
       "unit": "",
-      "explanation": "209 = 2·76 + 57; 76 = 1·57 + 19; 57 = 3·19 + 0, also ggT(76,209) = 19. 📄 Quelle: uebung_gesamt, Folie 4 (S.4)",
+      "explanation": "$209 = 2 \\cdot 76 + 57$; $76 = 1 \\cdot 57 + 19$; $57 = 3 \\cdot 19 + 0$, also $\\operatorname{ggT}(76,209) = 19$. 📄 Quelle: uebung_gesamt, Folie 4 (S.4)",
       "source": "uebung_gesamt, Folie 4 (S.4, VL 12, Aufgabe 8a)"
     },
     {
@@ -36600,16 +36600,16 @@
       "type": "multi",
       "question": "Auf welche vollständig gekürzten Brüche führen die beiden Aufgaben 8a)?",
       "options": [
-        "76/209 = 4/11",
-        "105/330 = 7/22",
-        "76/209 = 3/11",
-        "105/330 = 7/21"
+        "$\\frac{76}{209} = \\frac{4}{11}$",
+        "$\\frac{105}{330} = \\frac{7}{22}$",
+        "$\\frac{76}{209} = \\frac{3}{11}$",
+        "$\\frac{105}{330} = \\frac{7}{21}$"
       ],
       "correct": [
         0,
         1
       ],
-      "explanation": "ggT(76,209)=19 → 76/209 = 4/11; ggT(105,330)=15 → 105/330 = 7/22. 📄 Quelle: uebung_gesamt, Folie 4 (S.4)",
+      "explanation": "$\\operatorname{ggT}(76,209)=19 \\to \\frac{76}{209} = \\frac{4}{11}$; $\\operatorname{ggT}(105,330)=15 \\to \\frac{105}{330} = \\frac{7}{22}$. 📄 Quelle: uebung_gesamt, Folie 4 (S.4)",
       "source": "uebung_gesamt, Folie 4 (S.4, VL 12, Aufgabe 8a)"
     },
     {
@@ -36617,11 +36617,11 @@
       "topic": "pruefung",
       "difficulty": 2,
       "type": "numeric",
-      "question": "Ein Rechteck 120 cm × 45 cm soll einheitlich mit gleichgroßen Quadraten parkettiert werden. Welche maximale Seitenlänge (ggT der Seitenlängen, in cm) müsste ein passendes Quadrat haben?",
+      "question": "Ein Rechteck $120\\,\\text{cm} \\times 45\\,\\text{cm}$ soll einheitlich mit gleichgroßen Quadraten parkettiert werden. Welche maximale Seitenlänge (ggT der Seitenlängen, in cm) müsste ein passendes Quadrat haben?",
       "answer": 15,
       "tolerance": 0,
       "unit": "cm",
-      "explanation": "Die Quadratseite muss ein gemeinsamer Teiler von 120 und 45 sein; ggT(120,45)=15. Die vorhandenen Quadrate (10, 20, 30) teilen 45 nicht, daher ist eine vollständige Parkettierung damit unmöglich. 📄 Quelle: uebung_gesamt, Folie 4 (S.4)",
+      "explanation": "Die Quadratseite muss ein gemeinsamer Teiler von 120 und 45 sein; $\\operatorname{ggT}(120,45)=15$. Die vorhandenen Quadrate (10, 20, 30) teilen 45 nicht, daher ist eine vollständige Parkettierung damit unmöglich. 📄 Quelle: uebung_gesamt, Folie 4 (S.4)",
       "source": "uebung_gesamt, Folie 4 (S.4, VL 12, Aufgabe 8c)"
     },
     {
@@ -36629,11 +36629,11 @@
       "topic": "pruefung",
       "difficulty": 3,
       "type": "numeric",
-      "question": "Ein Rechteck 84 cm × 56 cm soll mit möglichst wenigen Quadraten vollständig parkettiert werden. Wie viele Quadrate benötigt man mindestens?",
+      "question": "Ein Rechteck $84\\,\\text{cm} \\times 56\\,\\text{cm}$ soll mit möglichst wenigen Quadraten vollständig parkettiert werden. Wie viele Quadrate benötigt man mindestens?",
       "answer": 3,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Euklidisch: 84 = 1·56 + 28 (ein 56×56-Quadrat), Rest 56×28 = zwei 28×28-Quadrate, insgesamt 3. Mit 2 Quadraten ist es unmöglich, da dies ein Seitenverhältnis 2:1 erfordern würde, 84:56 aber 3:2 beträgt. 📄 Quelle: uebung_gesamt, Folie 4 (S.4)",
+      "explanation": "Euklidisch: $84 = 1 \\cdot 56 + 28$ (ein $56 \\times 56$-Quadrat), Rest $56 \\times 28$ = zwei $28 \\times 28$-Quadrate, insgesamt 3. Mit 2 Quadraten ist es unmöglich, da dies ein Seitenverhältnis 2:1 erfordern würde, 84:56 aber 3:2 beträgt. 📄 Quelle: uebung_gesamt, Folie 4 (S.4)",
       "source": "uebung_gesamt, Folie 4 (S.4, VL 12, Aufgabe 8b)"
     }
   ]

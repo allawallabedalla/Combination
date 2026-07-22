@@ -4,17 +4,17 @@
     "topic": "klausur_sose22_restklassen",
     "difficulty": 2,
     "type": "single",
-    "question": "Gegeben ist ein Ausschnitt einer Verknüpfungstafel der Restklassen bei Division durch 8 (Multiplikation). In einer Zeile steht der Eintrag (Zeilenkopf) · 3̄ = 5̄. Welche Restklasse steht im Zeilenkopf dieser Zeile?",
+    "question": "Gegeben ist ein Ausschnitt einer Verknüpfungstafel der Restklassen bei Division durch 8 (Multiplikation). In einer Zeile steht der Eintrag (Zeilenkopf) $\\cdot \\overline{3} = \\overline{5}$. Welche Restklasse steht im Zeilenkopf dieser Zeile?",
     "options": [
-      "1̄",
-      "5̄",
-      "7̄",
-      "3̄"
+      "$\\overline{1}$",
+      "$\\overline{5}$",
+      "$\\overline{7}$",
+      "$\\overline{3}$"
     ],
     "correct": [
       2
     ],
-    "explanation": "Gesucht ist r mit 3·r ≡ 5 (mod 8). Wegen 3·3 = 9 ≡ 1 ist 3⁻¹ = 3 modulo 8, also r ≡ 3·5 = 15 ≡ 7 (mod 8). Probe: 7·3 = 21 = 2·8 + 5 ≡ 5̄. Der Zeilenkopf ist somit 7̄. 📄 Quelle: klausur_sose22, Folie 2 (S.2)",
+    "explanation": "Gesucht ist $r$ mit $3 \\cdot r \\equiv 5 \\pmod{8}$. Wegen $3 \\cdot 3 = 9 \\equiv 1$ ist $3^{-1} = 3$ modulo 8, also $r \\equiv 3 \\cdot 5 = 15 \\equiv 7 \\pmod{8}$. Probe: $7 \\cdot 3 = 21 = 2 \\cdot 8 + 5 \\equiv \\overline{5}$. Der Zeilenkopf ist somit $\\overline{7}$. 📄 Quelle: klausur_sose22, Folie 2 (S.2)",
     "source": "klausur_sose22, Folie 2 (S.2, Aufgabe 1a)"
   },
   {
@@ -22,11 +22,11 @@
     "topic": "klausur_sose22_restklassen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechnen Sie in den Restklassen modulo 8 (Multiplikation) das Produkt 2̄ · 7̄. Geben Sie den kleinsten nichtnegativen Repräsentanten an.",
+    "question": "Berechnen Sie in den Restklassen modulo 8 (Multiplikation) das Produkt $\\overline{2} \\cdot \\overline{7}$. Geben Sie den kleinsten nichtnegativen Repräsentanten an.",
     "answer": 6,
     "tolerance": 0,
     "unit": "",
-    "explanation": "2·7 = 14 = 1·8 + 6, also 14 ≡ 6 (mod 8). Das Produkt ist 6̄. 📄 Quelle: klausur_sose22, Folie 2 (S.2)",
+    "explanation": "$2 \\cdot 7 = 14 = 1 \\cdot 8 + 6$, also $14 \\equiv 6 \\pmod{8}$. Das Produkt ist $\\overline{6}$. 📄 Quelle: klausur_sose22, Folie 2 (S.2)",
     "source": "klausur_sose22, Folie 2 (S.2, Aufgabe 1a)"
   },
   {
@@ -34,11 +34,11 @@
     "topic": "klausur_sose22_restklassen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Sei n = 40^5 · 41^2 · 42. Welche Zahl aus {0, 1, …, 38} ist zu n kongruent modulo 39?",
+    "question": "Sei $n = 40^5 \\cdot 41^2 \\cdot 42$. Welche Zahl aus $\\{0, 1, \\ldots, 38\\}$ ist zu $n$ kongruent modulo 39?",
     "answer": 12,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Modulo 39 gilt 40 ≡ 1, 41 ≡ 2, 42 ≡ 3. Daher n ≡ 1^5 · 2^2 · 3 = 1·4·3 = 12 (mod 39). Da 0 ≤ 12 < 39, ist der kleinste nichtnegative Repräsentant 12. 📄 Quelle: klausur_sose22, Folie 2 (S.2)",
+    "explanation": "Modulo 39 gilt $40 \\equiv 1$, $41 \\equiv 2$, $42 \\equiv 3$. Daher $n \\equiv 1^5 \\cdot 2^2 \\cdot 3 = 1 \\cdot 4 \\cdot 3 = 12 \\pmod{39}$. Da $0 \\le 12 < 39$, ist der kleinste nichtnegative Repräsentant 12. 📄 Quelle: klausur_sose22, Folie 2 (S.2)",
     "source": "klausur_sose22, Folie 2 (S.2, Aufgabe 1b)"
   },
   {
@@ -46,7 +46,7 @@
     "topic": "klausur_sose22_restklassen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Sei n = 40^5 · 41^2 · 42. Welche der folgenden Zahlen sind zu n kongruent modulo 39?",
+    "question": "Sei $n = 40^5 \\cdot 41^2 \\cdot 42$. Welche der folgenden Zahlen sind zu $n$ kongruent modulo 39?",
     "options": [
       "12",
       "51",
@@ -58,7 +58,7 @@
       1,
       2
     ],
-    "explanation": "Es gilt n ≡ 12 (mod 39) (denn 40 ≡ 1, 41 ≡ 2, 42 ≡ 3 ⇒ 1·4·3 = 12). Kongruent zu 12 sind alle Zahlen der Form 12 + 39k: 12, 51 = 12 + 39, 90 = 12 + 2·39. 24 dagegen erfüllt 24 ≢ 12 (mod 39) und ist daher nicht kongruent. 📄 Quelle: klausur_sose22, Folie 2 (S.2)",
+    "explanation": "Es gilt $n \\equiv 12 \\pmod{39}$ (denn $40 \\equiv 1$, $41 \\equiv 2$, $42 \\equiv 3 \\Rightarrow 1 \\cdot 4 \\cdot 3 = 12$). Kongruent zu 12 sind alle Zahlen der Form $12 + 39k$: 12, $51 = 12 + 39$, $90 = 12 + 2 \\cdot 39$. 24 dagegen erfüllt $24 \\not\\equiv 12 \\pmod{39}$ und ist daher nicht kongruent. 📄 Quelle: klausur_sose22, Folie 2 (S.2)",
     "source": "klausur_sose22, Folie 2 (S.2, Aufgabe 1b)"
   },
   {
@@ -70,7 +70,7 @@
     "answer": 1,
     "tolerance": 0,
     "unit": "",
-    "explanation": "1223 = 5·221 + 118; 221 = 1·118 + 103; 118 = 1·103 + 15; 103 = 6·15 + 13; 15 = 1·13 + 2; 13 = 6·2 + 1; 2 = 2·1 + 0. Der letzte von 0 verschiedene Rest ist 1, also ggT(1223, 221) = 1 (die Zahlen sind teilerfremd). 📄 Quelle: klausur_sose22, Folie 3 (S.3)",
+    "explanation": "$1223 = 5 \\cdot 221 + 118$; $221 = 1 \\cdot 118 + 103$; $118 = 1 \\cdot 103 + 15$; $103 = 6 \\cdot 15 + 13$; $15 = 1 \\cdot 13 + 2$; $13 = 6 \\cdot 2 + 1$; $2 = 2 \\cdot 1 + 0$. Der letzte von 0 verschiedene Rest ist 1, also $\\operatorname{ggT}(1223, 221) = 1$ (die Zahlen sind teilerfremd). 📄 Quelle: klausur_sose22, Folie 3 (S.3)",
     "source": "klausur_sose22, Folie 3 (S.3, Aufgabe 1c)"
   },
   {
@@ -78,11 +78,11 @@
     "topic": "klausur_sose22_fibonacci",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Betrachtet wird die veränderte Fibonacci-Folge mit a₁ = 3, a₂ = 3 und a_n = a_{n-1} + a_{n-2}. Bestimmen Sie das zehnte Folgenglied a₁₀.",
+    "question": "Betrachtet wird die veränderte Fibonacci-Folge mit $a_1 = 3$, $a_2 = 3$ und $a_n = a_{n-1} + a_{n-2}$. Bestimmen Sie das zehnte Folgenglied $a_{10}$.",
     "answer": 165,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Folge lautet: 3, 3, 6, 9, 15, 24, 39, 63, 102, 165. Das zehnte Folgenglied ist a₁₀ = 102 + 63 = 165. 📄 Quelle: klausur_sose22, Folie 3 (S.3)",
+    "explanation": "Die Folge lautet: 3, 3, 6, 9, 15, 24, 39, 63, 102, 165. Das zehnte Folgenglied ist $a_{10} = 102 + 63 = 165$. 📄 Quelle: klausur_sose22, Folie 3 (S.3)",
     "source": "klausur_sose22, Folie 3 (S.3, Aufgabe 1d)"
   },
   {
@@ -90,11 +90,11 @@
     "topic": "klausur_sose22_fibonacci",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Veränderte Fibonacci-Folge mit a₁ = 3, a₂ = 3 und a_n = a_{n-1} + a_{n-2}. Bestimmen Sie die Summe der Folgenglieder a₁ bis a₁₀.",
+    "question": "Veränderte Fibonacci-Folge mit $a_1 = 3$, $a_2 = 3$ und $a_n = a_{n-1} + a_{n-2}$. Bestimmen Sie die Summe der Folgenglieder $a_1$ bis $a_{10}$.",
     "answer": 429,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die ersten zehn Glieder sind 3, 3, 6, 9, 15, 24, 39, 63, 102, 165. Ihre Summe beträgt 3+3+6+9+15+24+39+63+102+165 = 429 (Kontrolle über die Identität ∑_{i=1}^{10} a_i = a₁₂ − a₂ = 432 − 3 = 429). 📄 Quelle: klausur_sose22, Folie 3 (S.3)",
+    "explanation": "Die ersten zehn Glieder sind 3, 3, 6, 9, 15, 24, 39, 63, 102, 165. Ihre Summe beträgt $3+3+6+9+15+24+39+63+102+165 = 429$ (Kontrolle über die Identität $\\sum_{i=1}^{10} a_i = a_{12} - a_2 = 432 - 3 = 429$). 📄 Quelle: klausur_sose22, Folie 3 (S.3)",
     "source": "klausur_sose22, Folie 3 (S.3, Aufgabe 1d)"
   },
   {
@@ -102,11 +102,11 @@
     "topic": "klausur_sose22_induktion",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Auf dem Aufgabenblatt wird die Formel ∑_{i=1}^{n} (2i−1)² = n(2n−1)(2n+1)/3 angegeben. Berechnen Sie mit dieser Formel den Wert der Summe für n = 3, also 1² + 3² + 5².",
+    "question": "Auf dem Aufgabenblatt wird die Formel $\\sum_{i=1}^{n} (2i-1)^2 = \\frac{n(2n-1)(2n+1)}{3}$ angegeben. Berechnen Sie mit dieser Formel den Wert der Summe für $n = 3$, also $1^2 + 3^2 + 5^2$.",
     "answer": 35,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Direkt: 1² + 3² + 5² = 1 + 9 + 25 = 35. Über die Formel: 3·(2·3−1)·(2·3+1)/3 = 3·5·7/3 = 35. Beide Wege liefern 35. 📄 Quelle: klausur_sose22, Folie 4 (S.4)",
+    "explanation": "Direkt: $1^2 + 3^2 + 5^2 = 1 + 9 + 25 = 35$. Über die Formel: $\\frac{3 \\cdot (2 \\cdot 3 - 1) \\cdot (2 \\cdot 3 + 1)}{3} = \\frac{3 \\cdot 5 \\cdot 7}{3} = 35$. Beide Wege liefern 35. 📄 Quelle: klausur_sose22, Folie 4 (S.4)",
     "source": "klausur_sose22, Folie 4 (S.4, Aufgabe 2b)"
   },
   {
@@ -114,17 +114,17 @@
     "topic": "klausur_sose22_pascal",
     "difficulty": 2,
     "type": "single",
-    "question": "Als Summe welcher zwei Binomialkoeffizienten aus der vorherigen Zeile des Pascal'schen Dreiecks lässt sich (6 über 4) schreiben?",
+    "question": "Als Summe welcher zwei Binomialkoeffizienten aus der vorherigen Zeile des Pascal'schen Dreiecks lässt sich $\\binom{6}{4}$ schreiben?",
     "options": [
-      "(5 über 3) + (5 über 4)",
-      "(5 über 4) + (5 über 5)",
-      "(6 über 3) + (6 über 5)",
-      "(5 über 2) + (5 über 3)"
+      "$\\binom{5}{3} + \\binom{5}{4}$",
+      "$\\binom{5}{4} + \\binom{5}{5}$",
+      "$\\binom{6}{3} + \\binom{6}{5}$",
+      "$\\binom{5}{2} + \\binom{5}{3}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Nach der Additionsregel des Pascal'schen Dreiecks gilt (6 über 4) = (5 über 3) + (5 über 4). Probe: (6 über 4) = 15 und (5 über 3) + (5 über 4) = 10 + 5 = 15. 📄 Quelle: klausur_sose22, Folie 7 (S.7)",
+    "explanation": "Nach der Additionsregel des Pascal'schen Dreiecks gilt $\\binom{6}{4} = \\binom{5}{3} + \\binom{5}{4}$. Probe: $\\binom{6}{4} = 15$ und $\\binom{5}{3} + \\binom{5}{4} = 10 + 5 = 15$. 📄 Quelle: klausur_sose22, Folie 7 (S.7)",
     "source": "klausur_sose22, Folie 7 (S.7, Aufgabe 4a)"
   },
   {
@@ -132,11 +132,11 @@
     "topic": "klausur_sose22_pascal",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welchen Wert hat der Binomialkoeffizient (6 über 4)?",
+    "question": "Welchen Wert hat der Binomialkoeffizient $\\binom{6}{4}$?",
     "answer": 15,
     "tolerance": 0,
     "unit": "",
-    "explanation": "(6 über 4) = 6! / (4!·2!) = (6·5)/(2·1) = 15. 📄 Quelle: klausur_sose22, Folie 7 (S.7)",
+    "explanation": "$\\binom{6}{4} = \\frac{6!}{4! \\cdot 2!} = \\frac{6 \\cdot 5}{2 \\cdot 1} = 15$. 📄 Quelle: klausur_sose22, Folie 7 (S.7)",
     "source": "klausur_sose22, Folie 7 (S.7, Aufgabe 4a)"
   },
   {
@@ -146,15 +146,15 @@
     "type": "multi",
     "question": "Wie lautet die allgemeine Formel (Additionsregel des Pascal'schen Dreiecks), mit der sich jeder Eintrag als Summe zweier Einträge der vorherigen Zeile schreiben lässt?",
     "options": [
-      "(n über k) = (n−1 über k−1) + (n−1 über k)",
-      "(n über k) = (n−1 über k) + (n über k−1)",
-      "(n über k) = (n über k−1) + (n über k+1)",
-      "(n über k) = (n+1 über k) + (n+1 über k+1)"
+      "$\\binom{n}{k} = \\binom{n-1}{k-1} + \\binom{n-1}{k}$",
+      "$\\binom{n}{k} = \\binom{n-1}{k} + \\binom{n}{k-1}$",
+      "$\\binom{n}{k} = \\binom{n}{k-1} + \\binom{n}{k+1}$",
+      "$\\binom{n}{k} = \\binom{n+1}{k} + \\binom{n+1}{k+1}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Additionsregel (Pascalsche Regel) lautet (n über k) = (n−1 über k−1) + (n−1 über k): Jeder Eintrag ist die Summe der beiden über ihm stehenden Einträge der vorherigen Zeile. Für n = 6, k = 4 ergibt das (6 über 4) = (5 über 3) + (5 über 4). 📄 Quelle: klausur_sose22, Folie 7 (S.7)",
+    "explanation": "Die Additionsregel (Pascalsche Regel) lautet $\\binom{n}{k} = \\binom{n-1}{k-1} + \\binom{n-1}{k}$: Jeder Eintrag ist die Summe der beiden über ihm stehenden Einträge der vorherigen Zeile. Für $n = 6$, $k = 4$ ergibt das $\\binom{6}{4} = \\binom{5}{3} + \\binom{5}{4}$. 📄 Quelle: klausur_sose22, Folie 7 (S.7)",
     "source": "klausur_sose22, Folie 7 (S.7, Aufgabe 4a)"
   },
   {
@@ -170,7 +170,7 @@
     "correct": [
       1
     ],
-    "explanation": "Falsch. Die Symmetrie bedeutet (n über k) = (n über n−k). In Zeilen mit einer ungeraden Anzahl an Einträgen (n gerade) fällt für k = n/2 der Eintrag mit seinem Spiegelbild zusammen, tritt also nur ein einziges Mal auf. Gegenbeispiel Zeile n = 2: 1, 2, 1 – die Zahl 2 kommt nur einmal vor. Somit gilt nicht, dass jede Zahl genau zwei Mal vorkommt. 📄 Quelle: klausur_sose22, Folie 7 (S.7)",
+    "explanation": "Falsch. Die Symmetrie bedeutet $\\binom{n}{k} = \\binom{n}{n-k}$. In Zeilen mit einer ungeraden Anzahl an Einträgen ($n$ gerade) fällt für $k = \\frac{n}{2}$ der Eintrag mit seinem Spiegelbild zusammen, tritt also nur ein einziges Mal auf. Gegenbeispiel Zeile $n = 2$: 1, 2, 1 – die Zahl 2 kommt nur einmal vor. Somit gilt nicht, dass jede Zahl genau zwei Mal vorkommt. 📄 Quelle: klausur_sose22, Folie 7 (S.7)",
     "source": "klausur_sose22, Folie 7 (S.7, Aufgabe 4b)"
   },
   {
@@ -182,7 +182,7 @@
     "answer": 36,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Gesamtzahl der Kugeln ist stets das Quadrat der Seitenlänge: 3²=9, 4²=16, 5²=25, also 6²=36 für die 4. Figur. 📄 Quelle: klausur_sose22, Folie 9 (S.9)",
+    "explanation": "Die Gesamtzahl der Kugeln ist stets das Quadrat der Seitenlänge: $3^2=9$, $4^2=16$, $5^2=25$, also $6^2=36$ für die 4. Figur. 📄 Quelle: klausur_sose22, Folie 9 (S.9)",
     "source": "klausur_sose22, Folie 9 (S.9, Aufgabe 5a)"
   },
   {
@@ -190,11 +190,11 @@
     "topic": "klausur_sose22_figurierte_zahlen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "In den Figuren bilden die roten Kugeln jeweils ein inneres Quadrat (1×1, 2×2, 3×3). Wie viele rote Kugeln hat die 4. Figur (Seitenlänge 6)?",
+    "question": "In den Figuren bilden die roten Kugeln jeweils ein inneres Quadrat ($1 \\times 1$, $2 \\times 2$, $3 \\times 3$). Wie viele rote Kugeln hat die 4. Figur (Seitenlänge 6)?",
     "answer": 16,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Das rote Innenquadrat hat die Seitenlänge (Gesamtseitenlänge − 2). Bei Seitenlänge 6 ist das rote Quadrat 4×4, also 16 rote Kugeln. 📄 Quelle: klausur_sose22, Folie 9 (S.9)",
+    "explanation": "Das rote Innenquadrat hat die Seitenlänge (Gesamtseitenlänge − 2). Bei Seitenlänge 6 ist das rote Quadrat $4 \\times 4$, also 16 rote Kugeln. 📄 Quelle: klausur_sose22, Folie 9 (S.9)",
     "source": "klausur_sose22, Folie 9 (S.9, Aufgabe 5a)"
   },
   {
@@ -206,7 +206,7 @@
     "answer": 20,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Blaue Kugeln = Gesamtzahl − rote Kugeln = 6² − 4² = 36 − 16 = 20. Allgemein ergibt der Rand 4·(Seitenlänge − 1) = 4·5 = 20. 📄 Quelle: klausur_sose22, Folie 9 (S.9)",
+    "explanation": "Blaue Kugeln = Gesamtzahl − rote Kugeln $= 6^2 - 4^2 = 36 - 16 = 20$. Allgemein ergibt der Rand 4·(Seitenlänge − 1) $= 4 \\cdot 5 = 20$. 📄 Quelle: klausur_sose22, Folie 9 (S.9)",
     "source": "klausur_sose22, Folie 9 (S.9, Aufgabe 5a)"
   },
   {
@@ -218,7 +218,7 @@
     "answer": 49,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Gesamtzahl ist das Quadrat der Seitenlänge: 7² = 49. 📄 Quelle: klausur_sose22, Folie 9 (S.9)",
+    "explanation": "Die Gesamtzahl ist das Quadrat der Seitenlänge: $7^2 = 49$. 📄 Quelle: klausur_sose22, Folie 9 (S.9)",
     "source": "klausur_sose22, Folie 9 (S.9, Aufgabe 5a)"
   },
   {

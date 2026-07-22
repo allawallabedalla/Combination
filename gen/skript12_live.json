@@ -4,11 +4,11 @@
     "topic": "skript12_live_euklidischer_algorithmus",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechnen Sie mit dem Euklidischen Algorithmus den ggT(108, 42).",
+    "question": "Berechnen Sie mit dem Euklidischen Algorithmus den $\\operatorname{ggT}(108, 42)$.",
     "answer": 6,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Divisionskette lautet 108 = 2·42 + 24, 42 = 1·24 + 18, 24 = 1·18 + 6, 18 = 3·6 + 0; der letzte Rest ungleich 0 ist 6, also ggT(108, 42) = 6. 📄 Quelle: skript12_live, Folie 15 (S.1)",
+    "explanation": "Die Divisionskette lautet $108 = 2 \\cdot 42 + 24$, $42 = 1 \\cdot 24 + 18$, $24 = 1 \\cdot 18 + 6$, $18 = 3 \\cdot 6 + 0$; der letzte Rest ungleich 0 ist 6, also $\\operatorname{ggT}(108, 42) = 6$. 📄 Quelle: skript12_live, Folie 15 (S.1)",
     "source": "skript12_live, Folie 15 (S.1, Geometrie)"
   },
   {
@@ -18,17 +18,17 @@
     "type": "multi",
     "question": "Welche Gleichungen gehören zum Euklidischen Algorithmus für 108 und 42?",
     "options": [
-      "108 = 2·42 + 24  mit 0 ≤ 24 < 42",
-      "42 = 1·24 + 18  mit 0 ≤ 18 < 24",
-      "24 = 1·18 + 6  mit 0 ≤ 6 < 18",
-      "42 = 2·24 + 6  mit 0 ≤ 6 < 24"
+      "$108 = 2 \\cdot 42 + 24$  mit $0 \\le 24 < 42$",
+      "$42 = 1 \\cdot 24 + 18$  mit $0 \\le 18 < 24$",
+      "$24 = 1 \\cdot 18 + 6$  mit $0 \\le 6 < 18$",
+      "$42 = 2 \\cdot 24 + 6$  mit $0 \\le 6 < 24$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Auf der Folie stehen 108 = 2·42 + 24, 42 = 1·24 + 18, 24 = 1·18 + 6 und 18 = 3·6 + 0. Die Gleichung 42 = 2·24 + 6 ist falsch (2·24 = 48 > 42). 📄 Quelle: skript12_live, Folie 15 (S.1)",
+    "explanation": "Auf der Folie stehen $108 = 2 \\cdot 42 + 24$, $42 = 1 \\cdot 24 + 18$, $24 = 1 \\cdot 18 + 6$ und $18 = 3 \\cdot 6 + 0$. Die Gleichung $42 = 2 \\cdot 24 + 6$ ist falsch ($2 \\cdot 24 = 48 > 42$). 📄 Quelle: skript12_live, Folie 15 (S.1)",
     "source": "skript12_live, Folie 15 (S.1, Geometrie)"
   },
   {
@@ -36,19 +36,19 @@
     "topic": "skript12_live_primfaktorzerlegung",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Aussagen entsprechen der handschriftlichen Primfaktorzerlegung (PFZ) zur Bestimmung von ggT(108, 42)?",
+    "question": "Welche Aussagen entsprechen der handschriftlichen Primfaktorzerlegung (PFZ) zur Bestimmung von $\\operatorname{ggT}(108, 42)$?",
     "options": [
-      "108 = 2·2·3·3·3",
-      "42 = 2·3·7",
-      "ggT(108, 42) = 2·3 = 6",
-      "42 = 2·2·3·7"
+      "$108 = 2 \\cdot 2 \\cdot 3 \\cdot 3 \\cdot 3$",
+      "$42 = 2 \\cdot 3 \\cdot 7$",
+      "$\\operatorname{ggT}(108, 42) = 2 \\cdot 3 = 6$",
+      "$42 = 2 \\cdot 2 \\cdot 3 \\cdot 7$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Mitschrift gibt 108 = 2·2·3·3·3 und 42 = 2·3·7 an; die gemeinsamen Primfaktoren 2·3 liefern ggT(108, 42) = 6. 42 = 2·2·3·7 ist falsch (das wäre 84). 📄 Quelle: skript12_live, Folie 15 (S.1)",
+    "explanation": "Die Mitschrift gibt $108 = 2 \\cdot 2 \\cdot 3 \\cdot 3 \\cdot 3$ und $42 = 2 \\cdot 3 \\cdot 7$ an; die gemeinsamen Primfaktoren $2 \\cdot 3$ liefern $\\operatorname{ggT}(108, 42) = 6$. $42 = 2 \\cdot 2 \\cdot 3 \\cdot 7$ ist falsch (das wäre 84). 📄 Quelle: skript12_live, Folie 15 (S.1)",
     "source": "skript12_live, Folie 15 (S.1, Geometrie)"
   },
   {
@@ -58,17 +58,17 @@
     "type": "multi",
     "question": "Wie wird in der Mitschrift begründet, dass 6 ein Teiler von 108 und 42 ist (von unten beginnend)?",
     "options": [
-      "Es gilt das Prinzip: Wenn a|b und a|c, dann a|(b+c).",
-      "Aus 6|18 und 6|6 folgt 6|24, weil 24 = 18 + 6.",
-      "Aus 6|42 und 6|24 folgt 6|108, weil 108 = 2·42 + 24.",
-      "Aus 6|108 folgt automatisch 6|42, weil 42 ein Teiler von 108 ist."
+      "Es gilt das Prinzip: Wenn $a \\mid b$ und $a \\mid c$, dann $a \\mid (b+c)$.",
+      "Aus $6 \\mid 18$ und $6 \\mid 6$ folgt $6 \\mid 24$, weil $24 = 18 + 6$.",
+      "Aus $6 \\mid 42$ und $6 \\mid 24$ folgt $6 \\mid 108$, weil $108 = 2 \\cdot 42 + 24$.",
+      "Aus $6 \\mid 108$ folgt automatisch $6 \\mid 42$, weil 42 ein Teiler von 108 ist."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Mitschrift nutzt die Regel 'Wenn a|b und a|c, dann a|(b+c)' und schließt von unten: aus 6|18 und 6|6 folgt 6|24, aus 6|24 und 6|18 folgt 6|42, aus 6|42 und 6|24 folgt 6|108. Die letzte Option ist falsch: 42 ist kein Teiler von 108, und der Schluss ist umgekehrt. 📄 Quelle: skript12_live, Folie 15 (S.1)",
+    "explanation": "Die Mitschrift nutzt die Regel 'Wenn $a \\mid b$ und $a \\mid c$, dann $a \\mid (b+c)$' und schließt von unten: aus $6 \\mid 18$ und $6 \\mid 6$ folgt $6 \\mid 24$, aus $6 \\mid 24$ und $6 \\mid 18$ folgt $6 \\mid 42$, aus $6 \\mid 42$ und $6 \\mid 24$ folgt $6 \\mid 108$. Die letzte Option ist falsch: 42 ist kein Teiler von 108, und der Schluss ist umgekehrt. 📄 Quelle: skript12_live, Folie 15 (S.1)",
     "source": "skript12_live, Folie 15 (S.1, Geometrie)"
   },
   {
@@ -76,17 +76,17 @@
     "topic": "skript12_live_euklidischer_algorithmus",
     "difficulty": 2,
     "type": "single",
-    "question": "Was ist das Ergebnis des Euklidischen Algorithmus für zwei natürliche Zahlen a und b mit a > b?",
+    "question": "Was ist das Ergebnis des Euklidischen Algorithmus für zwei natürliche Zahlen $a$ und $b$ mit $a > b$?",
     "options": [
-      "ggT(a, b) = r_{n+1}, der letzte Rest ungleich 0",
-      "ggT(a, b) = r_n",
-      "ggT(a, b) = q_{n+1}",
-      "ggT(a, b) = b, die kleinere der beiden Zahlen"
+      "$\\operatorname{ggT}(a, b) = r_{n+1}$, der letzte Rest ungleich 0",
+      "$\\operatorname{ggT}(a, b) = r_n$",
+      "$\\operatorname{ggT}(a, b) = q_{n+1}$",
+      "$\\operatorname{ggT}(a, b) = b$, die kleinere der beiden Zahlen"
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie steht 'Insgesamt gilt: ggT(a, b) = r_{n+1}', wobei r_{n+1} laut handschriftlicher Anmerkung der letzte Rest ungleich 0 ist. 📄 Quelle: skript12_live, Folie 17 (S.2)",
+    "explanation": "Auf der Folie steht 'Insgesamt gilt: $\\operatorname{ggT}(a, b) = r_{n+1}$', wobei $r_{n+1}$ laut handschriftlicher Anmerkung der letzte Rest ungleich 0 ist. 📄 Quelle: skript12_live, Folie 17 (S.2)",
     "source": "skript12_live, Folie 17 (S.2, Geometrie)"
   },
   {
@@ -94,19 +94,19 @@
     "topic": "skript12_live_euklidischer_algorithmus",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Voraussetzungen und Bedingungen gelten für den allgemeinen Euklidischen Algorithmus mit a und b?",
+    "question": "Welche Voraussetzungen und Bedingungen gelten für den allgemeinen Euklidischen Algorithmus mit $a$ und $b$?",
     "options": [
-      "a und b sind natürliche Zahlen mit a > b.",
-      "Es gibt natürliche Zahlen q_i und r_i mit i = 1, …, n.",
-      "Für die erste Zeile gilt a = q_1·b + r_1 mit 0 ≤ r_1 < b.",
-      "Die Reste wachsen von Zeile zu Zeile: r_1 < r_2 < r_3 < …"
+      "$a$ und $b$ sind natürliche Zahlen mit $a > b$.",
+      "Es gibt natürliche Zahlen $q_i$ und $r_i$ mit $i = 1, \\dots, n$.",
+      "Für die erste Zeile gilt $a = q_1 \\cdot b + r_1$ mit $0 \\le r_1 < b$.",
+      "Die Reste wachsen von Zeile zu Zeile: $r_1 < r_2 < r_3 < \\dots$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie betrachtet natürliche Zahlen a und b mit a > b, natürliche Zahlen q_i und r_i (i = 1, …, n) und beginnt mit a = q_1·b + r_1, 0 ≤ r_1 < b. Die Reste werden jedoch kleiner (0 ≤ r_2 < r_1, 0 ≤ r_3 < r_2, …), nicht größer. 📄 Quelle: skript12_live, Folie 17 (S.2)",
+    "explanation": "Die Folie betrachtet natürliche Zahlen $a$ und $b$ mit $a > b$, natürliche Zahlen $q_i$ und $r_i$ ($i = 1, \\dots, n$) und beginnt mit $a = q_1 \\cdot b + r_1$, $0 \\le r_1 < b$. Die Reste werden jedoch kleiner ($0 \\le r_2 < r_1$, $0 \\le r_3 < r_2$, $\\dots$), nicht größer. 📄 Quelle: skript12_live, Folie 17 (S.2)",
     "source": "skript12_live, Folie 17 (S.2, Geometrie)"
   },
   {
@@ -114,19 +114,19 @@
     "topic": "skript12_live_teilbarkeit",
     "difficulty": 3,
     "type": "multi",
-    "question": "Wie wird in der Mitschrift begründet, dass r_{n+1} ein gemeinsamer Teiler von a und b ist?",
+    "question": "Wie wird in der Mitschrift begründet, dass $r_{n+1}$ ein gemeinsamer Teiler von $a$ und $b$ ist?",
     "options": [
-      "Verwendet wird die Regel (*): a|b und a|c ⇒ a|(b+c).",
-      "Aus der Zeile r_n = q_{n+2}·r_{n+1} folgt r_{n+1}|r_n.",
-      "Man schließt zeilenweise nach oben bis r_{n+1}|a und r_{n+1}|b.",
-      "r_{n+1} teilt a und b, weil r_{n+1} die größte der Zahlen a, b, r_1, … ist."
+      "Verwendet wird die Regel (*): $a \\mid b$ und $a \\mid c \\Rightarrow a \\mid (b+c)$.",
+      "Aus der Zeile $r_n = q_{n+2} \\cdot r_{n+1}$ folgt $r_{n+1} \\mid r_n$.",
+      "Man schließt zeilenweise nach oben bis $r_{n+1} \\mid a$ und $r_{n+1} \\mid b$.",
+      "$r_{n+1}$ teilt $a$ und $b$, weil $r_{n+1}$ die größte der Zahlen $a, b, r_1, \\dots$ ist."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Mitschrift nutzt die Regel (*) a|b und a|c ⇒ a|(b+c). Aus r_n = q_{n+2}·r_{n+1} folgt r_{n+1}|r_n; von dort schließt man zeilenweise nach oben bis r_{n+1}|b (Zeile b) und r_{n+1}|a (Zeile a). r_{n+1} ist gerade der letzte kleine Rest, nicht die größte Zahl. 📄 Quelle: skript12_live, Folie 17 (S.2)",
+    "explanation": "Die Mitschrift nutzt die Regel (*) $a \\mid b$ und $a \\mid c \\Rightarrow a \\mid (b+c)$. Aus $r_n = q_{n+2} \\cdot r_{n+1}$ folgt $r_{n+1} \\mid r_n$; von dort schließt man zeilenweise nach oben bis $r_{n+1} \\mid b$ (Zeile b) und $r_{n+1} \\mid a$ (Zeile a). $r_{n+1}$ ist gerade der letzte kleine Rest, nicht die größte Zahl. 📄 Quelle: skript12_live, Folie 17 (S.2)",
     "source": "skript12_live, Folie 17 (S.2, Geometrie)"
   }
 ]
