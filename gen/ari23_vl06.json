@@ -96,7 +96,7 @@
     "answer": 120,
     "tolerance": 0,
     "unit": "°",
-    "explanation": "Der Innenwinkel vom regulären 6-Eck ist 120° (3·120° = 360°). 📄 Quelle: ari23_vl06, Folie 6 (S.6)",
+    "explanation": "Der Innenwinkel vom regulären 6-Eck ist 120° ($3 \\cdot 120^\\circ = 360^\\circ$). 📄 Quelle: ari23_vl06, Folie 6 (S.6)",
     "source": "ari23_vl06, Folie 6 (S.6, Parkettierung – Entdeckungen)"
   },
   {
@@ -106,8 +106,8 @@
     "type": "multi",
     "question": "Welche Aussagen zur Parkettierung mit Dreiecken und Sechsecken sind richtig?",
     "options": [
-      "In einer Ecke treffen 6 gleichseitige Dreiecke aufeinander, denn 6·60° = 360°",
-      "Drei reguläre Sechsecke füllen eine Ecke, denn 3·120° = 360°",
+      "In einer Ecke treffen 6 gleichseitige Dreiecke aufeinander, denn $6 \\cdot 60^\\circ = 360^\\circ$",
+      "Drei reguläre Sechsecke füllen eine Ecke, denn $3 \\cdot 120^\\circ = 360^\\circ$",
       "Die Ebene lässt sich mit allen (auch nicht gleichseitigen) Dreiecken parkettieren",
       "Die Ebene lässt sich nur mit gleichschenkligen Dreiecken parkettieren"
     ],
@@ -116,7 +116,7 @@
       1,
       2
     ],
-    "explanation": "6·60° = 360° (sechs gleichseitige Dreiecke), 3·120° = 360° (drei reguläre Sechsecke), und 'Es geht mit allen Dreiecken'. Die Beschränkung auf gleichschenklige Dreiecke steht nicht auf der Folie. 📄 Quelle: ari23_vl06, Folie 6 (S.6)",
+    "explanation": "$6 \\cdot 60^\\circ = 360^\\circ$ (sechs gleichseitige Dreiecke), $3 \\cdot 120^\\circ = 360^\\circ$ (drei reguläre Sechsecke), und 'Es geht mit allen Dreiecken'. Die Beschränkung auf gleichschenklige Dreiecke steht nicht auf der Folie. 📄 Quelle: ari23_vl06, Folie 6 (S.6)",
     "source": "ari23_vl06, Folie 6 (S.6, Parkettierung – Entdeckungen)"
   },
   {
@@ -161,11 +161,11 @@
     "topic": "ari23_vl06_innenwinkel",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Wie groß ist die Summe der Innenwinkel α + β + γ in jedem Dreieck ABC (in Grad)?",
+    "question": "Wie groß ist die Summe der Innenwinkel $\\alpha + \\beta + \\gamma$ in jedem Dreieck ABC (in Grad)?",
     "answer": 180,
     "tolerance": 0,
     "unit": "°",
-    "explanation": "Satz: Für alle Dreiecke ABC gilt: Wenn α, β und γ die Innenwinkel des Dreiecks ABC sind, dann gilt α + β + γ = 180°. 📄 Quelle: ari23_vl06, Folie 9 (S.9)",
+    "explanation": "Satz: Für alle Dreiecke ABC gilt: Wenn $\\alpha$, $\\beta$ und $\\gamma$ die Innenwinkel des Dreiecks ABC sind, dann gilt $\\alpha + \\beta + \\gamma = 180^\\circ$. 📄 Quelle: ari23_vl06, Folie 9 (S.9)",
     "source": "ari23_vl06, Folie 9 (S.9, Parkettierung und Innenwinkel)"
   },
   {
@@ -189,15 +189,15 @@
     "options": [
       "Viereck, Fünfeck usw. bestehen aus zusammengesetzten Dreiecken",
       "Bei jeder weiteren Ecke kommen 180° zur Innenwinkelsumme dazu",
-      "Für alle Dreiecke ABC gilt α + β + γ = 180°",
-      "Für alle Dreiecke ABC gilt α + β + γ = 360°"
+      "Für alle Dreiecke ABC gilt $\\alpha + \\beta + \\gamma = 180^\\circ$",
+      "Für alle Dreiecke ABC gilt $\\alpha + \\beta + \\gamma = 360^\\circ$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Phänomene: Viereck, Fünfeck ... bestehen aus zusammengesetzten Dreiecken; bei jeder weiteren Ecke kommen 180° dazu; Satz: für alle Dreiecke ABC gilt α + β + γ = 180°. 📄 Quelle: ari23_vl06, Folie 9 (S.9)",
+    "explanation": "Phänomene: Viereck, Fünfeck ... bestehen aus zusammengesetzten Dreiecken; bei jeder weiteren Ecke kommen 180° dazu; Satz: für alle Dreiecke ABC gilt $\\alpha + \\beta + \\gamma = 180^\\circ$. 📄 Quelle: ari23_vl06, Folie 9 (S.9)",
     "source": "ari23_vl06, Folie 9 (S.9, Parkettierung und Innenwinkel)"
   },
   {
@@ -216,7 +216,7 @@
       0,
       1
     ],
-    "explanation": "Beweis (geometrisch): Man zeichnet eine Parallele durch C; über Wechselwinkel an der Parallelen ergibt sich α + β + γ = 180°. 📄 Quelle: ari23_vl06, Folie 10 (S.10)",
+    "explanation": "Beweis (geometrisch): Man zeichnet eine Parallele durch C; über Wechselwinkel an der Parallelen ergibt sich $\\alpha + \\beta + \\gamma = 180^\\circ$. 📄 Quelle: ari23_vl06, Folie 10 (S.10)",
     "source": "ari23_vl06, Folie 10 (S.10, Innenwinkel)"
   },
   {
@@ -226,15 +226,15 @@
     "type": "single",
     "question": "Welche Aussage über die Innenwinkel eines Dreiecks ABC wird bewiesen?",
     "options": [
-      "Für alle Dreiecke ABC gilt α + β + γ = 180°",
-      "Für alle Dreiecke ABC gilt α + β + γ = 360°",
+      "Für alle Dreiecke ABC gilt $\\alpha + \\beta + \\gamma = 180^\\circ$",
+      "Für alle Dreiecke ABC gilt $\\alpha + \\beta + \\gamma = 360^\\circ$",
       "Jedes Dreieck hat drei gleiche Winkel",
       "Jedes Dreieck ist rechtwinklig"
     ],
     "correct": [
       0
     ],
-    "explanation": "Bewiesen wird der Satz: Für alle Dreiecke ABC gilt, wenn α, β und γ die Innenwinkel sind, dann α + β + γ = 180°. 📄 Quelle: ari23_vl06, Folie 10 (S.10)",
+    "explanation": "Bewiesen wird der Satz: Für alle Dreiecke ABC gilt, wenn $\\alpha$, $\\beta$ und $\\gamma$ die Innenwinkel sind, dann $\\alpha + \\beta + \\gamma = 180^\\circ$. 📄 Quelle: ari23_vl06, Folie 10 (S.10)",
     "source": "ari23_vl06, Folie 10 (S.10, Innenwinkel)"
   },
   {
@@ -242,17 +242,17 @@
     "topic": "ari23_vl06_innenwinkel",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lautet die Formel für die Innenwinkelsumme eines n-Ecks (für alle natürlichen Zahlen n ≥ 3)?",
+    "question": "Wie lautet die Formel für die Innenwinkelsumme eines n-Ecks (für alle natürlichen Zahlen $n \\ge 3$)?",
     "options": [
-      "(n − 2) · 180°",
-      "n · 180°",
-      "(n − 1) · 180°",
-      "(n − 2) · 360°"
+      "$(n - 2) \\cdot 180^\\circ$",
+      "$n \\cdot 180^\\circ$",
+      "$(n - 1) \\cdot 180^\\circ$",
+      "$(n - 2) \\cdot 360^\\circ$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Satz: Für alle natürlichen Zahlen n ≥ 3 gilt: Ist n die Anzahl der Ecken eines n-Ecks, dann ist die Innenwinkelsumme (n − 2) · 180°. 📄 Quelle: ari23_vl06, Folie 12 (S.12)",
+    "explanation": "Satz: Für alle natürlichen Zahlen $n \\ge 3$ gilt: Ist n die Anzahl der Ecken eines n-Ecks, dann ist die Innenwinkelsumme $(n - 2) \\cdot 180^\\circ$. 📄 Quelle: ari23_vl06, Folie 12 (S.12)",
     "source": "ari23_vl06, Folie 12 (S.12, Innenwinkel)"
   },
   {
@@ -260,11 +260,11 @@
     "topic": "ari23_vl06_innenwinkel",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Wie groß ist die Innenwinkelsumme in einem Sechseck (n = 6, in Grad)?",
+    "question": "Wie groß ist die Innenwinkelsumme in einem Sechseck ($n = 6$, in Grad)?",
     "answer": 720,
     "tolerance": 0,
     "unit": "°",
-    "explanation": "Nach der Formel (n − 2) · 180°: (6 − 2) · 180° = 4 · 180° = 720°. 📄 Quelle: ari23_vl06, Folie 12 (S.12)",
+    "explanation": "Nach der Formel $(n - 2) \\cdot 180^\\circ$: $(6 - 2) \\cdot 180^\\circ = 4 \\cdot 180^\\circ = 720^\\circ$. 📄 Quelle: ari23_vl06, Folie 12 (S.12)",
     "source": "ari23_vl06, Folie 12 (S.12, Innenwinkel)"
   },
   {
@@ -276,7 +276,7 @@
     "answer": 3,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Der Satz gilt für alle natürlichen Zahlen n ≥ 3, also ab n = 3. 📄 Quelle: ari23_vl06, Folie 12 (S.12)",
+    "explanation": "Der Satz gilt für alle natürlichen Zahlen $n \\ge 3$, also ab $n = 3$. 📄 Quelle: ari23_vl06, Folie 12 (S.12)",
     "source": "ari23_vl06, Folie 12 (S.12, Innenwinkel)"
   },
   {
@@ -284,11 +284,11 @@
     "topic": "ari23_vl06_innenwinkel",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Im Induktionsschluss für das konvexe (n+1)-Eck: um wie viele Grad wächst die Innenwinkelsumme beim Übergang vom n-Eck zum (n+1)-Eck?",
+    "question": "Im Induktionsschluss für das konvexe $(n+1)$-Eck: um wie viele Grad wächst die Innenwinkelsumme beim Übergang vom n-Eck zum $(n+1)$-Eck?",
     "answer": 180,
     "tolerance": 0,
     "unit": "°",
-    "explanation": "Es kommen 180° an Innenwinkelsumme hinzu: (n−2)·180° + 180° = ((n+1)−2)·180°. 📄 Quelle: ari23_vl06, Folie 13 (S.13)",
+    "explanation": "Es kommen 180° an Innenwinkelsumme hinzu: $(n-2) \\cdot 180^\\circ + 180^\\circ = ((n+1)-2) \\cdot 180^\\circ$. 📄 Quelle: ari23_vl06, Folie 13 (S.13)",
     "source": "ari23_vl06, Folie 13 (S.13, Innenwinkel – Konvexes n-Eck)"
   },
   {
@@ -298,17 +298,17 @@
     "type": "multi",
     "question": "Welche Aussagen beschreiben den Induktionsbeweis der Innenwinkelsumme für das konvexe n-Eck korrekt?",
     "options": [
-      "Er besteht aus Induktionsanfang, Induktionsvoraussetzung und Induktionsschluss n → (n+1)",
-      "Im Induktionsschluss gilt (n−2)·180° + 180° = ((n+1)−2)·180°",
-      "Beim Übergang zum (n+1)-Eck wird ein Dreieck angefügt (180° kommen hinzu)",
-      "Beim Übergang zum (n+1)-Eck verdoppelt sich die Innenwinkelsumme"
+      "Er besteht aus Induktionsanfang, Induktionsvoraussetzung und Induktionsschluss $n \\to (n+1)$",
+      "Im Induktionsschluss gilt $(n-2) \\cdot 180^\\circ + 180^\\circ = ((n+1)-2) \\cdot 180^\\circ$",
+      "Beim Übergang zum $(n+1)$-Eck wird ein Dreieck angefügt (180° kommen hinzu)",
+      "Beim Übergang zum $(n+1)$-Eck verdoppelt sich die Innenwinkelsumme"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Der Beweis nutzt Induktionsanfang, Induktionsvoraussetzung und Induktionsschluss n → (n+1); es kommt ein Dreieck (180°) hinzu: (n−2)·180° + 180° = ((n+1)−2)·180°. Eine Verdopplung findet nicht statt. 📄 Quelle: ari23_vl06, Folie 13 (S.13)",
+    "explanation": "Der Beweis nutzt Induktionsanfang, Induktionsvoraussetzung und Induktionsschluss $n \\to (n+1)$; es kommt ein Dreieck (180°) hinzu: $(n-2) \\cdot 180^\\circ + 180^\\circ = ((n+1)-2) \\cdot 180^\\circ$. Eine Verdopplung findet nicht statt. 📄 Quelle: ari23_vl06, Folie 13 (S.13)",
     "source": "ari23_vl06, Folie 13 (S.13, Innenwinkel – Konvexes n-Eck)"
   },
   {
@@ -316,11 +316,11 @@
     "topic": "ari23_vl06_innenwinkel",
     "difficulty": 3,
     "type": "numeric",
-    "question": "Auch beim konkaven (n+1)-Eck: um wie viele Grad wächst die Innenwinkelsumme laut der Rechnung insgesamt?",
+    "question": "Auch beim konkaven $(n+1)$-Eck: um wie viele Grad wächst die Innenwinkelsumme laut der Rechnung insgesamt?",
     "answer": 180,
     "tolerance": 0,
     "unit": "°",
-    "explanation": "Die Rechnung ergibt (α − α₁) + (β − β₁) + γ₂ = α + β + 180°; auch im konkaven Fall kommen also 180° hinzu: (n−2)·180° + 180° = ((n+1)−2)·180°. 📄 Quelle: ari23_vl06, Folie 16 (S.16)",
+    "explanation": "Die Rechnung ergibt $(\\alpha - \\alpha_1) + (\\beta - \\beta_1) + \\gamma_2 = \\alpha + \\beta + 180^\\circ$; auch im konkaven Fall kommen also 180° hinzu: $(n-2) \\cdot 180^\\circ + 180^\\circ = ((n+1)-2) \\cdot 180^\\circ$. 📄 Quelle: ari23_vl06, Folie 16 (S.16)",
     "source": "ari23_vl06, Folie 16 (S.16, Innenwinkel – Konkaves n-Eck)"
   },
   {
@@ -331,8 +331,8 @@
     "question": "Welche Aussagen gelten beim Induktionsschluss für konkave Ecken?",
     "options": [
       "Die roten Winkel gehen weg, die grünen Winkel kommen hinzu",
-      "Der überstumpfe Winkel erfüllt γ₂ = 360° − γ₁",
-      "Für das angefügte Dreieck gilt α₁ + β₁ + γ₁ = 180°",
+      "Der überstumpfe Winkel erfüllt $\\gamma_2 = 360^\\circ - \\gamma_1$",
+      "Für das angefügte Dreieck gilt $\\alpha_1 + \\beta_1 + \\gamma_1 = 180^\\circ$",
       "Im konkaven Fall kommen insgesamt 360° zur Innenwinkelsumme hinzu"
     ],
     "correct": [
@@ -340,7 +340,7 @@
       1,
       2
     ],
-    "explanation": "Beim (n+1)-Eck gehen die roten Winkel weg, die grünen kommen hinzu; mit γ₂ = 360° − γ₁ und α₁ + β₁ + γ₁ = 180° ergibt sich α + β + 180°, also 180° zusätzlich – nicht 360°. 📄 Quelle: ari23_vl06, Folie 16 (S.16)",
+    "explanation": "Beim $(n+1)$-Eck gehen die roten Winkel weg, die grünen kommen hinzu; mit $\\gamma_2 = 360^\\circ - \\gamma_1$ und $\\alpha_1 + \\beta_1 + \\gamma_1 = 180^\\circ$ ergibt sich $\\alpha + \\beta + 180^\\circ$, also 180° zusätzlich – nicht 360°. 📄 Quelle: ari23_vl06, Folie 16 (S.16)",
     "source": "ari23_vl06, Folie 16 (S.16, Innenwinkel – Konkaves n-Eck)"
   },
   {
@@ -364,7 +364,7 @@
     "answer": 900,
     "tolerance": 0,
     "unit": "°",
-    "explanation": "Laut Tabelle: 7 Ecken, Innenwinkelsumme 900° (entspricht (7−2)·180°). 📄 Quelle: ari23_vl06, Folie 17 (S.17)",
+    "explanation": "Laut Tabelle: 7 Ecken, Innenwinkelsumme 900° (entspricht $(7-2) \\cdot 180^\\circ$). 📄 Quelle: ari23_vl06, Folie 17 (S.17)",
     "source": "ari23_vl06, Folie 17 (S.17, Parkettierung)"
   },
   {
@@ -384,7 +384,7 @@
       1,
       3
     ],
-    "explanation": "Nimmt man regelmäßige n-Ecke, so lässt sich die Ebene allein mit 3-, 4- und 6-Ecken parkettieren; beim regelmäßigen Fünfeck ist 360° : 108° kein ganzzahliger Wert. 📄 Quelle: ari23_vl06, Folie 17 (S.17)",
+    "explanation": "Nimmt man regelmäßige n-Ecke, so lässt sich die Ebene allein mit 3-, 4- und 6-Ecken parkettieren; beim regelmäßigen Fünfeck ist $360^\\circ : 108^\\circ$ kein ganzzahliger Wert. 📄 Quelle: ari23_vl06, Folie 17 (S.17)",
     "source": "ari23_vl06, Folie 17 (S.17, Parkettierung)"
   },
   {
@@ -392,11 +392,11 @@
     "topic": "ari23_vl06_parkettierung",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Wie viele Quadrate (regelmäßige 4-Ecke) stoßen an einer Ecke des Parketts zusammen, da 360° = ? · 90°?",
+    "question": "Wie viele Quadrate (regelmäßige 4-Ecke) stoßen an einer Ecke des Parketts zusammen, da $360^\\circ = ? \\cdot 90^\\circ$?",
     "answer": 4,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Laut Tabelle: 360° = 4 · 90°, also treffen vier Quadrate in einer Ecke zusammen. 📄 Quelle: ari23_vl06, Folie 17 (S.17)",
+    "explanation": "Laut Tabelle: $360^\\circ = 4 \\cdot 90^\\circ$, also treffen vier Quadrate in einer Ecke zusammen. 📄 Quelle: ari23_vl06, Folie 17 (S.17)",
     "source": "ari23_vl06, Folie 17 (S.17, Parkettierung)"
   },
   {
@@ -517,7 +517,7 @@
     "topic": "ari23_vl06_gauss_summen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Für alle Rechtecke mit zwei Teilquadraten gilt: Wenn es n Möglichkeiten für das Parkettieren eines Teilquadrats gibt, dann gibt es n·(n+1)/2 Möglichkeiten, das Rechteck zu parkettieren. Wie viele Möglichkeiten ergeben sich für n = 7?",
+    "question": "Für alle Rechtecke mit zwei Teilquadraten gilt: Wenn es n Möglichkeiten für das Parkettieren eines Teilquadrats gibt, dann gibt es $\\frac{n(n+1)}{2}$ Möglichkeiten, das Rechteck zu parkettieren. Wie viele Möglichkeiten ergeben sich für $n = 7$?",
     "answer": 28,
     "tolerance": 0,
     "unit": "",
@@ -529,19 +529,19 @@
     "topic": "ari23_vl06_gauss_summen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche der folgenden Aussagen zur Regel n·(n+1)/2 und den zugehörigen Gauß-Summen sind korrekt?",
+    "question": "Welche der folgenden Aussagen zur Regel $\\frac{n(n+1)}{2}$ und den zugehörigen Gauß-Summen sind korrekt?",
     "options": [
-      "1 + 2 + 3 + 4 = 4·5/2 = 10",
-      "Die Anzahl der Parkettierungen des Rechtecks ist n·(n+1)/2.",
-      "1 + 2 + 3 + 4 + 5 + 6 + 7 = 28",
-      "Die Anzahl der Parkettierungen des Rechtecks ist n²."
+      "$1 + 2 + 3 + 4 = \\frac{4 \\cdot 5}{2} = 10$",
+      "Die Anzahl der Parkettierungen des Rechtecks ist $\\frac{n(n+1)}{2}$.",
+      "$1 + 2 + 3 + 4 + 5 + 6 + 7 = 28$",
+      "Die Anzahl der Parkettierungen des Rechtecks ist $n^2$."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie zeigt u. a. 1+2+3+4 = 10 = 4·5/2 und 1+2+3+4+5+6+7 = 28 = 7·8/2 sowie die Regel n·(n+1)/2. n² ist falsch. 📄 Quelle: ari23_vl06, Folie 27 (S.27)",
+    "explanation": "Die Folie zeigt u. a. $1+2+3+4 = 10 = \\frac{4 \\cdot 5}{2}$ und $1+2+3+4+5+6+7 = 28 = \\frac{7 \\cdot 8}{2}$ sowie die Regel $\\frac{n(n+1)}{2}$. $n^2$ ist falsch. 📄 Quelle: ari23_vl06, Folie 27 (S.27)",
     "source": "ari23_vl06, Folie 27 (S.27, Erkundung II)"
   },
   {
@@ -549,7 +549,7 @@
     "topic": "ari23_vl06_gauss_summen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Gemäß der Regel n·(n+1)/2: Wie viele Möglichkeiten gibt es, das Rechteck mit zwei Teilquadraten zu parkettieren, wenn es n = 6 Möglichkeiten pro Teilquadrat gibt?",
+    "question": "Gemäß der Regel $\\frac{n(n+1)}{2}$: Wie viele Möglichkeiten gibt es, das Rechteck mit zwei Teilquadraten zu parkettieren, wenn es $n = 6$ Möglichkeiten pro Teilquadrat gibt?",
     "answer": 21,
     "tolerance": 0,
     "unit": "",
@@ -561,7 +561,7 @@
     "topic": "ari23_vl06_gauss_summen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Die Gauß-Summe S_n = 1 + 2 + ... + n lässt sich als Binomialkoeffizient schreiben. Berechne 8·7/2 = 8! / ((8−2)!·2!), also den Wert des Binomialkoeffizienten \"8 über 2\".",
+    "question": "Die Gauß-Summe $S_n = 1 + 2 + \\ldots + n$ lässt sich als Binomialkoeffizient schreiben. Berechne $\\frac{8 \\cdot 7}{2} = \\frac{8!}{(8-2)! \\cdot 2!}$, also den Wert des Binomialkoeffizienten $\\binom{8}{2}$.",
     "answer": 28,
     "tolerance": 0,
     "unit": "",
@@ -573,19 +573,19 @@
     "topic": "ari23_vl06_gauss_summen",
     "difficulty": 3,
     "type": "multi",
-    "question": "Welche Darstellungen der Gauß-Summe S_n = 1 + 2 + 3 + ... + n sind korrekt (Zusammenhang mit Dominospiel und Pascal'schem Dreieck)?",
+    "question": "Welche Darstellungen der Gauß-Summe $S_n = 1 + 2 + 3 + \\ldots + n$ sind korrekt (Zusammenhang mit Dominospiel und Pascal'schem Dreieck)?",
     "options": [
-      "S_n = n·(n+1)/2",
-      "S_n = \"n+1 über 2\" (Binomialkoeffizient)",
+      "$S_n = \\frac{n(n+1)}{2}$",
+      "$S_n = \\binom{n+1}{2}$ (Binomialkoeffizient)",
       "Die Werte der Gauß-Summen stehen im Pascal'schen Dreieck.",
-      "S_n = 2^n"
+      "$S_n = 2^n$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie gibt S_n = 1+2+...+n = n·(n+1)/2 = (n+1 über 2) an, verweist auf das Pascal'sche Dreieck (z. B. 28 in der 8. Zeile) und stellt den Zusammenhang zum Dominospiel her. 2^n kommt nicht vor. 📄 Quelle: ari23_vl06, Folie 28 (S.28)",
+    "explanation": "Die Folie gibt $S_n = 1+2+\\ldots+n = \\frac{n(n+1)}{2} = \\binom{n+1}{2}$ an, verweist auf das Pascal'sche Dreieck (z. B. 28 in der 8. Zeile) und stellt den Zusammenhang zum Dominospiel her. $2^n$ kommt nicht vor. 📄 Quelle: ari23_vl06, Folie 28 (S.28)",
     "source": "ari23_vl06, Folie 28 (S.28, Erkundung II)"
   },
   {
@@ -611,17 +611,17 @@
     "topic": "ari23_vl06_flaechenmessung",
     "difficulty": 2,
     "type": "single",
-    "question": "Eine Figur F_X ist aus vier Einheitsquadraten der Kantenlänge e zusammengesetzt. Wie groß ist ihr Flächeninhalt A(F_X)?",
+    "question": "Eine Figur $F_X$ ist aus vier Einheitsquadraten der Kantenlänge e zusammengesetzt. Wie groß ist ihr Flächeninhalt $A(F_X)$?",
     "options": [
-      "A(F_X) = 4·e²",
-      "A(F_X) = e²",
-      "A(F_X) = 3·e²",
-      "A(F_X) = 4·e"
+      "$A(F_X) = 4 \\cdot e^2$",
+      "$A(F_X) = e^2$",
+      "$A(F_X) = 3 \\cdot e^2$",
+      "$A(F_X) = 4 \\cdot e$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie ist zur Figur die Formel A(F_X) = 4·e² angegeben. 📄 Quelle: ari23_vl06, Folie 34 (S.34)",
+    "explanation": "Auf der Folie ist zur Figur die Formel $A(F_X) = 4 \\cdot e^2$ angegeben. 📄 Quelle: ari23_vl06, Folie 34 (S.34)",
     "source": "ari23_vl06, Folie 34 (S.34, Messen von Flächeninhalten – Allgemeine Verunsicherung)"
   },
   {
@@ -649,7 +649,7 @@
     "type": "single",
     "question": "Welcher kritische Fall stellt das Konzept des Auslegens bzw. Verfeinerns mit Einheitsquadraten infrage?",
     "options": [
-      "Ein Rechteck mit der Seitenlänge π.",
+      "Ein Rechteck mit der Seitenlänge $\\pi$.",
       "Ein Rechteck mit der Seitenlänge 2.",
       "Ein Kreis mit Radius 1.",
       "Ein gleichseitiges Dreieck."
@@ -657,7 +657,7 @@
     "correct": [
       0
     ],
-    "explanation": "Karla fragt: \"Prima, ich habe ein Rechteck mit der Länge π Meter konstruiert, geht das dann genauso?\" – die irrationale Seitenlänge π stellt das Verfeinern von Einheitsquadraten infrage. 📄 Quelle: ari23_vl06, Folie 35 (S.35)",
+    "explanation": "Karla fragt: \"Prima, ich habe ein Rechteck mit der Länge $\\pi$ Meter konstruiert, geht das dann genauso?\" – die irrationale Seitenlänge $\\pi$ stellt das Verfeinern von Einheitsquadraten infrage. 📄 Quelle: ari23_vl06, Folie 35 (S.35)",
     "source": "ari23_vl06, Folie 35 (S.35, Messen von Flächeninhalten – Allgemeine Verunsicherung)"
   },
   {
@@ -667,15 +667,15 @@
     "type": "single",
     "question": "Wie lautet die Formel für den Flächeninhalt eines Kreises mit Radius r?",
     "options": [
-      "π·r²",
-      "2·π·r",
-      "π·d",
-      "r²"
+      "$\\pi \\cdot r^2$",
+      "$2 \\cdot \\pi \\cdot r$",
+      "$\\pi \\cdot d$",
+      "$r^2$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Lehrer sagt: \"Wie wir wissen, ist der Flächeninhalt des Kreises π·r².\" 📄 Quelle: ari23_vl06, Folie 36 (S.36)",
+    "explanation": "Der Lehrer sagt: \"Wie wir wissen, ist der Flächeninhalt des Kreises $\\pi \\cdot r^2$.\" 📄 Quelle: ari23_vl06, Folie 36 (S.36)",
     "source": "ari23_vl06, Folie 36 (S.36, Messen von Flächeninhalten – Allgemeine Verunsicherung)"
   },
   {
@@ -683,7 +683,7 @@
     "topic": "ari23_vl06_flaechenmessung",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Berechne mit der Formel A = π·r² den Flächeninhalt eines Kreises mit Radius r = 2 (Einheiten). Gib den Zahlenwert an.",
+    "question": "Berechne mit der Formel $A = \\pi \\cdot r^2$ den Flächeninhalt eines Kreises mit Radius $r = 2$ (Einheiten). Gib den Zahlenwert an.",
     "answer": 12.566,
     "tolerance": 0.05,
     "unit": "",
@@ -920,17 +920,17 @@
     "topic": "ari23_vl06_messen",
     "difficulty": 2,
     "type": "single",
-    "question": "Beispiel: In Figur F1 passen 10 Dreiecke gleicher Größe, in Figur F2 weniger als 10. Welche Schlussfolgerung wird gezogen?",
+    "question": "Beispiel: In Figur $F_1$ passen 10 Dreiecke gleicher Größe, in Figur $F_2$ weniger als 10. Welche Schlussfolgerung wird gezogen?",
     "options": [
-      "Also ist F1 größer als F2.",
-      "Also ist F2 größer als F1.",
-      "Also sind F1 und F2 gleich groß.",
-      "Also sind F1 und F2 kongruent."
+      "Also ist $F_1$ größer als $F_2$.",
+      "Also ist $F_2$ größer als $F_1$.",
+      "Also sind $F_1$ und $F_2$ gleich groß.",
+      "Also sind $F_1$ und $F_2$ kongruent."
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie: In F1 passen 10 Dreiecke gleicher Größe, in F2 weniger als 10. Also ist F1 größer als F2. 📄 Quelle: ari23_vl06, Folie 50 (S.50)",
+    "explanation": "Auf der Folie: In $F_1$ passen 10 Dreiecke gleicher Größe, in $F_2$ weniger als 10. Also ist $F_1$ größer als $F_2$. 📄 Quelle: ari23_vl06, Folie 50 (S.50)",
     "source": "ari23_vl06, Folie 50 (S.50, Ausbauen eines Maßes)"
   },
   {
@@ -958,10 +958,10 @@
     "type": "multi",
     "question": "Welche Eigenschaften kennzeichnen ein Maß A für den Flächeninhalt?",
     "options": [
-      "A(∅) = 0",
-      "A(F) ≥ 0 (Nichtnegativität)",
-      "Wenn F ∩ G = ∅, dann gilt A(F ∪ G) = A(F) + A(G) (Additivität)",
-      "Für das Einheitsquadrat E gilt A(E) = 1"
+      "$A(\\varnothing) = 0$",
+      "$A(F) \\ge 0$ (Nichtnegativität)",
+      "Wenn $F \\cap G = \\varnothing$, dann gilt $A(F \\cup G) = A(F) + A(G)$ (Additivität)",
+      "Für das Einheitsquadrat E gilt $A(E) = 1$"
     ],
     "correct": [
       0,
@@ -969,7 +969,7 @@
       2,
       3
     ],
-    "explanation": "Auf der Folie: A(∅)=0; A(F)≥0 (Nichtnegativität); wenn F∩G=∅, dann A(F∪G)=A(F)+A(G) (Additivität); für das Einheitsquadrat E gilt A(E)=1. 📄 Quelle: ari23_vl06, Folie 51 (S.51)",
+    "explanation": "Auf der Folie: $A(\\varnothing)=0$; $A(F)\\ge 0$ (Nichtnegativität); wenn $F\\cap G=\\varnothing$, dann $A(F\\cup G)=A(F)+A(G)$ (Additivität); für das Einheitsquadrat E gilt $A(E)=1$. 📄 Quelle: ari23_vl06, Folie 51 (S.51)",
     "source": "ari23_vl06, Folie 51 (S.51, Ausbauen eines Maßes)"
   },
   {
@@ -977,9 +977,9 @@
     "topic": "ari23_vl06_mass_eigenschaften",
     "difficulty": 3,
     "type": "single",
-    "question": "Unter welcher Voraussetzung gilt für ein Flächenmaß die Additivität A(F ∪ G) = A(F) + A(G)?",
+    "question": "Unter welcher Voraussetzung gilt für ein Flächenmaß die Additivität $A(F \\cup G) = A(F) + A(G)$?",
     "options": [
-      "Wenn die Teilflächen keine inneren Punkte gemeinsam haben (also nur Randpunkte gemeinsam sind), d. h. F ∩ G = ∅.",
+      "Wenn die Teilflächen keine inneren Punkte gemeinsam haben (also nur Randpunkte gemeinsam sind), d. h. $F \\cap G = \\varnothing$.",
       "Wenn die Teilflächen kongruent sind.",
       "Wenn die Teilflächen den gleichen Flächeninhalt haben.",
       "Wenn F vollständig in G enthalten ist."
@@ -987,7 +987,7 @@
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie: Wenn F∩G=∅, dann gilt A(F∪G)=A(F)+A(G); die Additivität gilt, wenn die Teilflächen keine inneren Punkte gemeinsam haben (also nur Randpunkte gemeinsam sind). 📄 Quelle: ari23_vl06, Folie 51 (S.51)",
+    "explanation": "Auf der Folie: Wenn $F\\cap G=\\varnothing$, dann gilt $A(F\\cup G)=A(F)+A(G)$; die Additivität gilt, wenn die Teilflächen keine inneren Punkte gemeinsam haben (also nur Randpunkte gemeinsam sind). 📄 Quelle: ari23_vl06, Folie 51 (S.51)",
     "source": "ari23_vl06, Folie 51 (S.51, Ausbauen eines Maßes)"
   },
   {
@@ -1013,11 +1013,11 @@
     "topic": "ari23_vl06_mass_eigenschaften",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welchen Wert hat der Flächeninhalt A(E) des Einheitsquadrats E (als Maßeinheit)?",
+    "question": "Welchen Wert hat der Flächeninhalt $A(E)$ des Einheitsquadrats E (als Maßeinheit)?",
     "answer": 1,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Auf der Folie: Für das Einheitsquadrat E gilt A(E) = 1. 📄 Quelle: ari23_vl06, Folie 51 (S.51)",
+    "explanation": "Auf der Folie: Für das Einheitsquadrat E gilt $A(E) = 1$. 📄 Quelle: ari23_vl06, Folie 51 (S.51)",
     "source": "ari23_vl06, Folie 51 (S.51, Ausbauen eines Maßes)"
   },
   {
@@ -1027,15 +1027,15 @@
     "type": "single",
     "question": "Wie wird der Flächeninhalt des Einheitsquadrats E mit Seitenlänge e festgelegt?",
     "options": [
-      "Als A(E) = 1, also mit der Maßzahl 1 und dem Maß e²",
-      "Als A(E) = e, also mit dem Maß e",
-      "Als A(E) = 1/100, also mit dem Maß e'²",
-      "Als A(E) = 4e²"
+      "Als $A(E) = 1$, also mit der Maßzahl 1 und dem Maß $e^2$",
+      "Als $A(E) = e$, also mit dem Maß e",
+      "Als $A(E) = \\frac{1}{100}$, also mit dem Maß ${e'}^2$",
+      "Als $A(E) = 4e^2$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie: Der Flächeninhalt des Einheitsquadrates wird als A(E)=1, also mit der Maßzahl 1 und dem Maß e², festgelegt. 📄 Quelle: ari23_vl06, Folie 52 (S.52)",
+    "explanation": "Auf der Folie: Der Flächeninhalt des Einheitsquadrates wird als $A(E)=1$, also mit der Maßzahl 1 und dem Maß $e^2$, festgelegt. 📄 Quelle: ari23_vl06, Folie 52 (S.52)",
     "source": "ari23_vl06, Folie 52 (S.52, Ausbauen eines Maßes)"
   },
   {
@@ -1043,17 +1043,17 @@
     "topic": "ari23_vl06_einheitsquadrat",
     "difficulty": 2,
     "type": "single",
-    "question": "Welchen Flächeninhalt hat eine Figur Fx, die sich in n Einheitsquadrate (Seitenlänge e) zerlegen lässt?",
+    "question": "Welchen Flächeninhalt hat eine Figur $F_x$, die sich in n Einheitsquadrate (Seitenlänge e) zerlegen lässt?",
     "options": [
-      "n · e²",
-      "n · e",
-      "n² · e",
-      "e² / n"
+      "$n \\cdot e^2$",
+      "$n \\cdot e$",
+      "$n^2 \\cdot e$",
+      "$\\frac{e^2}{n}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie: Eine Figur Fx, die sich in n Einheitsquadraten zerlegen lässt, hat den Flächeninhalt n · e². 📄 Quelle: ari23_vl06, Folie 52 (S.52)",
+    "explanation": "Auf der Folie: Eine Figur $F_x$, die sich in n Einheitsquadraten zerlegen lässt, hat den Flächeninhalt $n \\cdot e^2$. 📄 Quelle: ari23_vl06, Folie 52 (S.52)",
     "source": "ari23_vl06, Folie 52 (S.52, Ausbauen eines Maßes)"
   },
   {
@@ -1061,11 +1061,11 @@
     "topic": "ari23_vl06_einheitsquadrat",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Für eine Figur Fx gilt A(Fx) = 4e² (mit Einheitsquadrat der Seitenlänge e). Aus wie vielen Einheitsquadraten n besteht Fx?",
+    "question": "Für eine Figur $F_x$ gilt $A(F_x) = 4e^2$ (mit Einheitsquadrat der Seitenlänge e). Aus wie vielen Einheitsquadraten n besteht $F_x$?",
     "answer": 4,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Da A(Fx) = n · e² und laut Folie A(Fx) = 4e², ist n = 4. 📄 Quelle: ari23_vl06, Folie 52 (S.52)",
+    "explanation": "Da $A(F_x) = n \\cdot e^2$ und laut Folie $A(F_x) = 4e^2$, ist $n = 4$. 📄 Quelle: ari23_vl06, Folie 52 (S.52)",
     "source": "ari23_vl06, Folie 52 (S.52, Ausbauen eines Maßes)"
   },
   {
@@ -1073,17 +1073,17 @@
     "topic": "ari23_vl06_verfeinertes_mass",
     "difficulty": 2,
     "type": "single",
-    "question": "E sei das Einheitsquadrat mit A(E)=1 und Seitenlänge e. Wie sind ein feineres Einheitsquadrat E' und seine Seitenlänge e' festgelegt?",
+    "question": "E sei das Einheitsquadrat mit $A(E)=1$ und Seitenlänge e. Wie sind ein feineres Einheitsquadrat E' und seine Seitenlänge e' festgelegt?",
     "options": [
-      "A(E') = 1/100 und e' = 1/10 e",
-      "A(E') = 1/10 und e' = 1/100 e",
-      "A(E') = 1/100 und e' = 1/100 e",
-      "A(E') = 1/2 und e' = 1/2 e"
+      "$A(E') = \\frac{1}{100}$ und $e' = \\frac{1}{10} e$",
+      "$A(E') = \\frac{1}{10}$ und $e' = \\frac{1}{100} e$",
+      "$A(E') = \\frac{1}{100}$ und $e' = \\frac{1}{100} e$",
+      "$A(E') = \\frac{1}{2}$ und $e' = \\frac{1}{2} e$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie: Einheitsquadrat E mit A(E)=1, Seitenlänge e und E' mit A(E')=1/100, Seitenlänge e'=1/10 e. 📄 Quelle: ari23_vl06, Folie 53 (S.53)",
+    "explanation": "Auf der Folie: Einheitsquadrat E mit $A(E)=1$, Seitenlänge e und E' mit $A(E')=\\frac{1}{100}$, Seitenlänge $e'=\\frac{1}{10} e$. 📄 Quelle: ari23_vl06, Folie 53 (S.53)",
     "source": "ari23_vl06, Folie 53 (S.53, Ausbauen eines Maßes)"
   },
   {
@@ -1091,11 +1091,11 @@
     "topic": "ari23_vl06_verfeinertes_mass",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Ein Rechteck R wird mit 5 mal 2 Einheitsquadraten ausgelegt, es gilt A(R) = 5 · 2 · A(E) = 10e². Wie groß ist die Maßzahl (der Faktor vor e²)?",
+    "question": "Ein Rechteck R wird mit 5 mal 2 Einheitsquadraten ausgelegt, es gilt $A(R) = 5 \\cdot 2 \\cdot A(E) = 10e^2$. Wie groß ist die Maßzahl (der Faktor vor $e^2$)?",
     "answer": 10,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Auf der Folie: A(R) = 5 · 2 · A(E) = 10e², also Maßzahl 10. 📄 Quelle: ari23_vl06, Folie 53 (S.53)",
+    "explanation": "Auf der Folie: $A(R) = 5 \\cdot 2 \\cdot A(E) = 10e^2$, also Maßzahl 10. 📄 Quelle: ari23_vl06, Folie 53 (S.53)",
     "source": "ari23_vl06, Folie 53 (S.53, Ausbauen eines Maßes)"
   },
   {
@@ -1103,11 +1103,11 @@
     "topic": "ari23_vl06_verfeinertes_mass",
     "difficulty": 3,
     "type": "numeric",
-    "question": "Legt man ein Rechteck R mit 1 Einheitsquadrat E (A(E)=1) und 32 feineren Einheitsquadraten E' (A(E')=1/100 A(E)) aus, so gilt A(R) = 1·e² + 32·e'² = 132 e'². Welchen Wert hat A(R), ausgedrückt in e² (also der Faktor vor e²)?",
+    "question": "Legt man ein Rechteck R mit 1 Einheitsquadrat E ($A(E)=1$) und 32 feineren Einheitsquadraten E' ($A(E')=\\frac{1}{100} A(E)$) aus, so gilt $A(R) = 1 \\cdot e^2 + 32 \\cdot {e'}^2 = 132 {e'}^2$. Welchen Wert hat $A(R)$, ausgedrückt in $e^2$ (also der Faktor vor $e^2$)?",
     "answer": 1.32,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Auf der Folie: A(R) = 1·e² + 32·e'² = 132 e'² = 1,32 e² (da e'² = 1/100 e²). 📄 Quelle: ari23_vl06, Folie 53 (S.53)",
+    "explanation": "Auf der Folie: $A(R) = 1 \\cdot e^2 + 32 \\cdot {e'}^2 = 132 {e'}^2 = 1{,}32 e^2$ (da ${e'}^2 = \\frac{1}{100} e^2$). 📄 Quelle: ari23_vl06, Folie 53 (S.53)",
     "source": "ari23_vl06, Folie 53 (S.53, Ausbauen eines Maßes)"
   },
   {

@@ -2839,11 +2839,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechne die Dreier-Aufgabe 4 + 5 + 6.",
+    "question": "Berechne die Dreier-Aufgabe $4 + 5 + 6$.",
     "answer": 15,
     "tolerance": 0,
     "unit": "",
-    "explanation": "4 + 5 + 6 = 15. Die Aufgabe 4 + 5 + 6 ist im gelben Forscherauftrag-Kasten als Beispiel abgebildet. 📄 Quelle: ari21_vl01, Folie 4 (S.4)",
+    "explanation": "$4 + 5 + 6 = 15$. Die Aufgabe $4 + 5 + 6$ ist im gelben Forscherauftrag-Kasten als Beispiel abgebildet. 📄 Quelle: ari21_vl01, Folie 4 (S.4)",
     "source": "ari21_vl01, Folie 4 (S.4, Plusaufgaben erforschen)"
   },
   {
@@ -2964,7 +2964,7 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Wofür steht das „m“ in einer „m-Aufgabe“ (Verallgemeinerung der Dreier-/Fünfer-Aufgabe)?",
     "options": [
-      "für die Anzahl der aufeinander folgenden Zahlen, die addiert werden (m = 2, 3, 4, …)",
+      "für die Anzahl der aufeinander folgenden Zahlen, die addiert werden ($m = 2, 3, 4, \\ldots$)",
       "für das Ergebnis der Addition",
       "für die größte auftretende Zahl",
       "für die Anzahl der Lösungen"
@@ -2972,7 +2972,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Die m-Aufgabe verallgemeinert die Dreier-/Fünfer-Aufgabe: m (= 2, 3, 4, …) gibt die Anzahl der aufeinander folgenden Zahlen an, die addiert werden. 📄 Quelle: ari21_vl01, Folie 8 (S.8)",
+    "explanation": "Die m-Aufgabe verallgemeinert die Dreier-/Fünfer-Aufgabe: $m$ ($= 2, 3, 4, \\ldots$) gibt die Anzahl der aufeinander folgenden Zahlen an, die addiert werden. 📄 Quelle: ari21_vl01, Folie 8 (S.8)",
     "source": "ari21_vl01, Folie 8 (S.8, Erkundung: ICH)"
   },
   {
@@ -2980,19 +2980,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Fragen sollen bei der Untersuchung der „m-Aufgaben“ (Addition von m aufeinander folgenden Zahlen) geklärt werden?",
+    "question": "Welche Fragen sollen bei der Untersuchung der „m-Aufgaben“ (Addition von $m$ aufeinander folgenden Zahlen) geklärt werden?",
     "options": [
-      "Kann jede natürliche Zahl n durch eine m-Aufgabe dargestellt werden?",
+      "Kann jede natürliche Zahl $n$ durch eine m-Aufgabe dargestellt werden?",
       "Gibt es Zahlen, die mehr verschiedene m-Aufgaben haben als andere?",
       "Die Erkenntnisse sollen in einem möglichst gut verständlichen Satz formuliert werden.",
-      "Wie lautet die Ableitung der Funktion f(n)?"
+      "Wie lautet die Ableitung der Funktion $f(n)$?"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Untersucht werden soll, ob jede Zahl n durch eine m-Aufgabe darstellbar ist und ob es Zahlen mit mehr verschiedenen m-Aufgaben gibt; die Erkenntnisse sind in einem gut verständlichen Satz zu formulieren. Ableitungen sind nicht Thema. 📄 Quelle: ari21_vl01, Folie 8 (S.8)",
+    "explanation": "Untersucht werden soll, ob jede Zahl $n$ durch eine m-Aufgabe darstellbar ist und ob es Zahlen mit mehr verschiedenen m-Aufgaben gibt; die Erkenntnisse sind in einem gut verständlichen Satz zu formulieren. Ableitungen sind nicht Thema. 📄 Quelle: ari21_vl01, Folie 8 (S.8)",
     "source": "ari21_vl01, Folie 8 (S.8, Erkundung: ICH)"
   },
   {
@@ -3068,7 +3068,7 @@ const SAMPLE_QUESTIONS = [
       0,
       1
     ],
-    "explanation": "Das Beispiel-DeG notiert 1+2=3, 2+3=5, 3+4=7, … (also ungerade Zahlen) und die Erkenntnis „Hat was mit Teilern zu tun – Teiler müssen ungerade sein“. Ausdrücklich wird festgehalten, dass nicht alle geraden Zahlen so darstellbar sind. 📄 Quelle: ari21_vl01, Folie 10 (S.10)",
+    "explanation": "Das Beispiel-DeG notiert $1+2=3$, $2+3=5$, $3+4=7$, … (also ungerade Zahlen) und die Erkenntnis „Hat was mit Teilern zu tun – Teiler müssen ungerade sein“. Ausdrücklich wird festgehalten, dass nicht alle geraden Zahlen so darstellbar sind. 📄 Quelle: ari21_vl01, Folie 10 (S.10)",
     "source": "ari21_vl01, Folie 10 (S.10, Erkundung: ICH)"
   },
   {
@@ -3076,11 +3076,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 1,
     "type": "numeric",
-    "question": "12 wird als Summe aufeinander folgender Zahlen dargestellt: 3 + 4 + 5. Wie groß ist diese Summe?",
+    "question": "12 wird als Summe aufeinander folgender Zahlen dargestellt: $3 + 4 + 5$. Wie groß ist diese Summe?",
     "answer": 12,
     "tolerance": 0,
     "unit": "",
-    "explanation": "3 + 4 + 5 = 12; genau diese Darstellung „12 = 3+4+5“ ist im Beispiel-DeG notiert. 📄 Quelle: ari21_vl01, Folie 10 (S.10)",
+    "explanation": "$3 + 4 + 5 = 12$; genau diese Darstellung „$12 = 3+4+5$“ ist im Beispiel-DeG notiert. 📄 Quelle: ari21_vl01, Folie 10 (S.10)",
     "source": "ari21_vl01, Folie 10 (S.10, Erkundung: ICH)"
   },
   {
@@ -3251,17 +3251,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 2,
     "type": "single",
-    "question": "Wovon hängt gemäß der Vermutung die Anzahl k der m-Aufgaben einer natürlichen Zahl n ab (eine m-Aufgabe ist die Darstellung als Summe aufeinander folgender Zahlen)?",
+    "question": "Wovon hängt gemäß der Vermutung die Anzahl $k$ der m-Aufgaben einer natürlichen Zahl $n$ ab (eine m-Aufgabe ist die Darstellung als Summe aufeinander folgender Zahlen)?",
     "options": [
-      "Von der Anzahl der ungeraden Teiler von n",
-      "Von der Anzahl aller Teiler von n",
-      "Von der Anzahl der geraden Teiler von n",
-      "Von der Anzahl der Primteiler von n"
+      "Von der Anzahl der ungeraden Teiler von $n$",
+      "Von der Anzahl aller Teiler von $n$",
+      "Von der Anzahl der geraden Teiler von $n$",
+      "Von der Anzahl der Primteiler von $n$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Vermutung: \"Wenn n eine gewisse Anzahl von ungeraden Teilern hat (die Anzahl kann man k nennen), dann hat die Zahl n genau k von den m-Aufgaben.\" 📄 Quelle: ari21_vl01, Folie 18 (S.18)",
+    "explanation": "Vermutung: \"Wenn $n$ eine gewisse Anzahl von ungeraden Teilern hat (die Anzahl kann man $k$ nennen), dann hat die Zahl $n$ genau $k$ von den m-Aufgaben.\" 📄 Quelle: ari21_vl01, Folie 18 (S.18)",
     "source": "ari21_vl01, Folie 18 (S.18, Erkundung: WIR)"
   },
   {
@@ -3271,7 +3271,7 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Für welche Zahlen wird die Vermutung zu den m-Aufgaben formuliert?",
     "options": [
-      "Für jede Natürliche Zahl n",
+      "Für jede Natürliche Zahl $n$",
       "Nur für gerade Zahlen",
       "Nur für Primzahlen",
       "Nur für Quadratzahlen"
@@ -3279,7 +3279,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Die Folie beginnt mit \"Für jede Natürliche Zahl n gilt: ...\" 📄 Quelle: ari21_vl01, Folie 18 (S.18)",
+    "explanation": "Die Folie beginnt mit \"Für jede Natürliche Zahl $n$ gilt: ...\" 📄 Quelle: ari21_vl01, Folie 18 (S.18)",
     "source": "ari21_vl01, Folie 18 (S.18, Erkundung: WIR)"
   },
   {
@@ -3305,11 +3305,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Welche Summe steht laut Tabelle in der Zeile n = 15 (Summe der ungeraden Zahlen von 1 bis 15)?",
+    "question": "Welche Summe steht laut Tabelle in der Zeile $n = 15$ (Summe der ungeraden Zahlen von 1 bis 15)?",
     "answer": 64,
     "tolerance": 0,
     "unit": "",
-    "explanation": "In der Tabelle steht für n = 15 die Summe 64 (= 8²). 📄 Quelle: ari21_vl01, Folie 19 (S.19)",
+    "explanation": "In der Tabelle steht für $n = 15$ die Summe 64 (= $8^2$). 📄 Quelle: ari21_vl01, Folie 19 (S.19)",
     "source": "ari21_vl01, Folie 19 (S.19, Erkundung: WIR)"
   },
   {
@@ -3317,11 +3317,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Welchen Wert hat laut Tabelle die letzte angegebene Summe (Zeile n = 27)?",
+    "question": "Welchen Wert hat laut Tabelle die letzte angegebene Summe (Zeile $n = 27$)?",
     "answer": 196,
     "tolerance": 0,
     "unit": "",
-    "explanation": "In der Tabelle steht für n = 27 die Summe 196 (= 14²). 📄 Quelle: ari21_vl01, Folie 19 (S.19)",
+    "explanation": "In der Tabelle steht für $n = 27$ die Summe 196 (= $14^2$). 📄 Quelle: ari21_vl01, Folie 19 (S.19)",
     "source": "ari21_vl01, Folie 19 (S.19, Erkundung: WIR)"
   },
   {
@@ -3329,17 +3329,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 2,
     "type": "single",
-    "question": "Welche allgemeine Vermutung zur Differenz aufeinander folgender Quadrate gilt für alle natürlichen Zahlen n?",
+    "question": "Welche allgemeine Vermutung zur Differenz aufeinander folgender Quadrate gilt für alle natürlichen Zahlen $n$?",
     "options": [
-      "(n+1)² − n² = (n+1) + n",
-      "(n+1)² − n² = (n+1) · n",
-      "n² − (n+1)² = (n+1) + n",
-      "(n+1)² + n² = (n+1) + n"
+      "$(n+1)^2 - n^2 = (n+1) + n$",
+      "$(n+1)^2 - n^2 = (n+1) \\cdot n$",
+      "$n^2 - (n+1)^2 = (n+1) + n$",
+      "$(n+1)^2 + n^2 = (n+1) + n$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie formuliert die Vermutung: (n+1)² − n² = (n+1) + n, veranschaulicht durch 2²−1²=2+1, 3²−2²=3+2, ... 📄 Quelle: ari21_vl01, Folie 20 (S.20)",
+    "explanation": "Die Folie formuliert die Vermutung: $(n+1)^2 - n^2 = (n+1) + n$, veranschaulicht durch $2^2-1^2=2+1$, $3^2-2^2=3+2$, ... 📄 Quelle: ari21_vl01, Folie 20 (S.20)",
     "source": "ari21_vl01, Folie 20 (S.20, Erkundung: WIR)"
   },
   {
@@ -3347,11 +3347,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welchen Wert hat 5² − 4² (mit 5² − 4² = 5 + 4)?",
+    "question": "Welchen Wert hat $5^2 - 4^2$ (mit $5^2 - 4^2 = 5 + 4$)?",
     "answer": 9,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Auf der Folie steht 5² − 4² = 5 + 4 = 9. 📄 Quelle: ari21_vl01, Folie 20 (S.20)",
+    "explanation": "Auf der Folie steht $5^2 - 4^2 = 5 + 4 = 9$. 📄 Quelle: ari21_vl01, Folie 20 (S.20)",
     "source": "ari21_vl01, Folie 20 (S.20, Erkundung: WIR)"
   },
   {
@@ -3449,12 +3449,12 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 3,
     "type": "multi",
-    "question": "Welche Eigenschaften muss eine Zahlenmenge N nach den angegebenen Axiomen (Peano) haben, um Natürliche Zahlen zu heißen?",
+    "question": "Welche Eigenschaften muss eine Zahlenmenge $N$ nach den angegebenen Axiomen (Peano) haben, um Natürliche Zahlen zu heißen?",
     "options": [
       "1 ist eine Natürliche Zahl",
-      "Zu jeder natürlichen Zahl n gibt es genau einen Nachfolger n'",
-      "Kein Element von N hat als Nachfolger die 1",
-      "Kein Element ist Nachfolger zweier verschiedener Elemente von N",
+      "Zu jeder natürlichen Zahl $n$ gibt es genau einen Nachfolger $n'$",
+      "Kein Element von $N$ hat als Nachfolger die 1",
+      "Kein Element ist Nachfolger zweier verschiedener Elemente von $N$",
       "Jede natürliche Zahl hat genau einen Vorgänger"
     ],
     "correct": [
@@ -3463,7 +3463,7 @@ const SAMPLE_QUESTIONS = [
       2,
       3
     ],
-    "explanation": "Die Folie nennt: (1) 1 ist eine Natürliche Zahl; (2) zu jeder Zahl n genau ein Nachfolger n'; (3) kein Element hat als Nachfolger die 1; (4) kein Element ist Nachfolger zweier verschiedener Elemente von N. Ein \"eindeutiger Vorgänger jeder Zahl\" gehört nicht dazu. 📄 Quelle: ari21_vl01, Folie 24 (S.24)",
+    "explanation": "Die Folie nennt: (1) 1 ist eine Natürliche Zahl; (2) zu jeder Zahl $n$ genau ein Nachfolger $n'$; (3) kein Element hat als Nachfolger die 1; (4) kein Element ist Nachfolger zweier verschiedener Elemente von $N$. Ein \"eindeutiger Vorgänger jeder Zahl\" gehört nicht dazu. 📄 Quelle: ari21_vl01, Folie 24 (S.24)",
     "source": "ari21_vl01, Folie 24 (S.24, Erkundung: WIR)"
   },
   {
@@ -3471,7 +3471,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 2,
     "type": "single",
-    "question": "Welche Zahl ist laut dem 3. Axiom Nachfolger keines Elements von N?",
+    "question": "Welche Zahl ist laut dem 3. Axiom Nachfolger keines Elements von $N$?",
     "options": [
       "Die 1",
       "Die 0",
@@ -3481,7 +3481,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "3. Axiom: \"Kein Element von N hat als Nachfolger die 1.\" 📄 Quelle: ari21_vl01, Folie 24 (S.24)",
+    "explanation": "3. Axiom: \"Kein Element von $N$ hat als Nachfolger die 1.\" 📄 Quelle: ari21_vl01, Folie 24 (S.24)",
     "source": "ari21_vl01, Folie 24 (S.24, Erkundung: WIR)"
   },
   {
@@ -3525,7 +3525,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Rechengesetze gelten für alle Natürlichen Zahlen l, m und n?",
+    "question": "Welche Rechengesetze gelten für alle Natürlichen Zahlen $l$, $m$ und $n$?",
     "options": [
       "Assoziativgesetz der Addition",
       "Kommutativgesetz der Addition",
@@ -3551,7 +3551,7 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Für welche Zahlen werden die Rechengesetze (Assoziativ-, Kommutativ-, Distributivgesetz) formuliert?",
     "options": [
-      "Für alle Natürlichen Zahlen l, m und n",
+      "Für alle Natürlichen Zahlen $l$, $m$ und $n$",
       "Für alle reellen Zahlen",
       "Nur für Primzahlen",
       "Nur für gerade Zahlen"
@@ -3559,7 +3559,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie steht: \"Für alle Natürlichen Zahlen l, m und n gilt: ...\" 📄 Quelle: ari21_vl01, Folie 27 (S.27)",
+    "explanation": "Auf der Folie steht: \"Für alle Natürlichen Zahlen $l$, $m$ und $n$ gilt: ...\" 📄 Quelle: ari21_vl01, Folie 27 (S.27)",
     "source": "ari21_vl01, Folie 27 (S.27, Erkundung: WIR)"
   },
   {
@@ -3569,16 +3569,16 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Wie wird die Addition für beliebige Natürliche Zahlen rekursiv festgesetzt?",
     "options": [
-      "n + 1 := n' (Nachfolger von n)",
-      "n + (m+1) := (n+m)'",
-      "n + 1 := n",
-      "n + (m+1) := n + m"
+      "$n + 1 := n'$ (Nachfolger von $n$)",
+      "$n + (m+1) := (n+m)'$",
+      "$n + 1 := n$",
+      "$n + (m+1) := n + m$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Rekursive Festsetzung der Addition: 1) n + 1 := n' (Nachfolger von n); 2) n + (m+1) := (n+m)' (Nachfolger von n+m), was schrittweise rückwärts mit 1) bestimmt werden kann. 📄 Quelle: ari21_vl01, Folie 28 (S.28)",
+    "explanation": "Rekursive Festsetzung der Addition: 1) $n + 1 := n'$ (Nachfolger von $n$); 2) $n + (m+1) := (n+m)'$ (Nachfolger von $n+m$), was schrittweise rückwärts mit 1) bestimmt werden kann. 📄 Quelle: ari21_vl01, Folie 28 (S.28)",
     "source": "ari21_vl01, Folie 28 (S.28, Erkundung: WIR)"
   },
   {
@@ -3588,16 +3588,16 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Wie wird die Multiplikation rekursiv definiert?",
     "options": [
-      "n · 1 := n",
-      "n · (m+1) := n·m + n",
-      "n · 1 := 1",
-      "n · (m+1) := n·m · n"
+      "$n \\cdot 1 := n$",
+      "$n \\cdot (m+1) := n \\cdot m + n$",
+      "$n \\cdot 1 := 1$",
+      "$n \\cdot (m+1) := n \\cdot m \\cdot n$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Rekursive Definition der Multiplikation: 1) n · 1 := n; 2) n · (m+1) := n·m + n. 📄 Quelle: ari21_vl01, Folie 28 (S.28)",
+    "explanation": "Rekursive Definition der Multiplikation: 1) $n \\cdot 1 := n$; 2) $n \\cdot (m+1) := n \\cdot m + n$. 📄 Quelle: ari21_vl01, Folie 28 (S.28)",
     "source": "ari21_vl01, Folie 28 (S.28, Erkundung: WIR)"
   },
   {
@@ -3679,11 +3679,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Für die (fiktive) Rechenoperation „Abblitzation“ gilt 12 ▽ 2 = (12+2)·2. Welches Ergebnis der Abblitzation ergibt sich?",
+    "question": "Für die (fiktive) Rechenoperation „Abblitzation“ gilt $12 \\triangledown 2 = (12+2) \\cdot 2$. Welches Ergebnis der Abblitzation ergibt sich?",
     "answer": 28,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Laut Folie gilt 12 ▽ 2 = (12+2)·2 = 14·2 = 28; 28 ist das Ergebnis der Abblitzation. 📄 Quelle: ari21_vl01, Folie 45 (S.45)",
+    "explanation": "Laut Folie gilt $12 \\triangledown 2 = (12+2) \\cdot 2 = 14 \\cdot 2 = 28$; 28 ist das Ergebnis der Abblitzation. 📄 Quelle: ari21_vl01, Folie 45 (S.45)",
     "source": "ari21_vl01, Folie 45 (S.45, Vorlesung 1 / Erkundung 1, nach Leuders 2010)"
   },
   {
@@ -3691,7 +3691,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 2,
     "type": "multi",
-    "question": "Für die Abblitzation 12 ▽ 2 = (12+2)·2 = 28 werden Fachbegriffe eingeführt. Welche Zuordnungen sind korrekt?",
+    "question": "Für die Abblitzation $12 \\triangledown 2 = (12+2) \\cdot 2 = 28$ werden Fachbegriffe eingeführt. Welche Zuordnungen sind korrekt?",
     "options": [
       "12 ist der Abblitzent",
       "2 ist der Abblitzator",
@@ -3703,7 +3703,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Die Folie beschriftet 12 als Abblitzent, 2 als Abblitzator und 28 als Ergebnis der Abblitzation. Die 14 (= 12+2) ist ein Zwischenwert und nicht der Abblitzator. 📄 Quelle: ari21_vl01, Folie 45 (S.45)",
+    "explanation": "Die Folie beschriftet 12 als Abblitzent, 2 als Abblitzator und 28 als Ergebnis der Abblitzation. Die 14 (= $12+2$) ist ein Zwischenwert und nicht der Abblitzator. 📄 Quelle: ari21_vl01, Folie 45 (S.45)",
     "source": "ari21_vl01, Folie 45 (S.45, Vorlesung 1 / Erkundung 1, nach Leuders 2010)"
   },
   {
@@ -3711,7 +3711,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Eigenschaften der Abblitzation (12 ▽ 2 = (12+2)·2) sollen laut den Erkundungsaufträgen untersucht werden?",
+    "question": "Welche Eigenschaften der Abblitzation ($12 \\triangledown 2 = (12+2) \\cdot 2$) sollen laut den Erkundungsaufträgen untersucht werden?",
     "options": [
       "Ob die Abblitzation kommutativ ist (Tauschaufgabe)",
       "Ob die Abblitzation assoziativ ist",
@@ -3731,12 +3731,12 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 2,
     "type": "multi",
-    "question": "Paula bildet aus nur 3 Zahlen die Aufgaben 3+4=7, 4+3=7, 7−3=4 und 7−4=3. Welche Aussagen dazu treffen zu?",
+    "question": "Paula bildet aus nur 3 Zahlen die Aufgaben $3+4=7$, $4+3=7$, $7-3=4$ und $7-4=3$. Welche Aussagen dazu treffen zu?",
     "options": [
-      "Die zweite Rechnung (4+3=7) heißt Tauschaufgabe",
-      "Die dritte und vierte Rechnung (7−3=4, 7−4=3) sind Umkehraufgaben zu den ersten beiden",
+      "Die zweite Rechnung ($4+3=7$) heißt Tauschaufgabe",
+      "Die dritte und vierte Rechnung ($7-3=4$, $7-4=3$) sind Umkehraufgaben zu den ersten beiden",
       "Paula macht die Aufgaben mit nur 3 Zahlen",
-      "Die erste Rechnung (3+4=7) ist eine Umkehraufgabe"
+      "Die erste Rechnung ($3+4=7$) ist eine Umkehraufgabe"
     ],
     "correct": [
       0,
@@ -3751,11 +3751,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 2,
     "type": "multi",
-    "question": "Nach Giuseppe Peano heißt eine Zahlenmenge N genau dann Natürliche Zahlen, wenn sie bestimmte Eigenschaften (Axiome) hat. Welche der folgenden Aussagen gehören zu diesen Peano-Axiomen?",
+    "question": "Nach Giuseppe Peano heißt eine Zahlenmenge $N$ genau dann Natürliche Zahlen, wenn sie bestimmte Eigenschaften (Axiome) hat. Welche der folgenden Aussagen gehören zu diesen Peano-Axiomen?",
     "options": [
       "1 ist eine Natürliche Zahl.",
-      "Zu jeder natürlichen Zahl n gibt es genau einen Nachfolger n'.",
-      "Kein Element von N hat als Nachfolger die 1.",
+      "Zu jeder natürlichen Zahl $n$ gibt es genau einen Nachfolger $n'$.",
+      "Kein Element von $N$ hat als Nachfolger die 1.",
       "Jede natürliche Zahl hat genau einen Vorgänger."
     ],
     "correct": [
@@ -3763,7 +3763,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Die Peano-Axiome auf der Folie lauten: 1 ist eine Natürliche Zahl; zu jeder Zahl n gibt es genau einen Nachfolger n'; kein Element hat als Nachfolger die 1; kein Element ist Nachfolger zweier verschiedener Elemente; sowie das Induktionsaxiom. Dass jede natürliche Zahl genau einen Vorgänger hat, gehört NICHT dazu (die 1 hat keinen Vorgänger). 📄 Quelle: ari21_vl02, Folie 5 (S.5)",
+    "explanation": "Die Peano-Axiome auf der Folie lauten: 1 ist eine Natürliche Zahl; zu jeder Zahl $n$ gibt es genau einen Nachfolger $n'$; kein Element hat als Nachfolger die 1; kein Element ist Nachfolger zweier verschiedener Elemente; sowie das Induktionsaxiom. Dass jede natürliche Zahl genau einen Vorgänger hat, gehört NICHT dazu (die 1 hat keinen Vorgänger). 📄 Quelle: ari21_vl02, Folie 5 (S.5)",
     "source": "ari21_vl02, Folie 5 (S.5, Rückblick)"
   },
   {
@@ -3773,15 +3773,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Wie lautet das fünfte Peano-Axiom (Induktionsaxiom)?",
     "options": [
-      "Wenn M eine Teilmenge von N ist und die ersten beiden Axiome erfüllt sind, dann ist M gleich N.",
-      "Wenn M eine Teilmenge von N ist, dann ist M gleich N.",
-      "Kein Element ist Nachfolger zweier verschiedener Elemente von N.",
-      "Zu jeder natürlichen Zahl n gibt es genau einen Nachfolger n'."
+      "Wenn $M$ eine Teilmenge von $N$ ist und die ersten beiden Axiome erfüllt sind, dann ist $M$ gleich $N$.",
+      "Wenn $M$ eine Teilmenge von $N$ ist, dann ist $M$ gleich $N$.",
+      "Kein Element ist Nachfolger zweier verschiedener Elemente von $N$.",
+      "Zu jeder natürlichen Zahl $n$ gibt es genau einen Nachfolger $n'$."
     ],
     "correct": [
       0
     ],
-    "explanation": "Das fünfte Axiom lautet folientreu: 'Wenn M eine Teilmenge von N ist und die ersten beiden Axiome erfüllt sind, dann ist M gleich N.' Die Voraussetzung 'die ersten beiden Axiome erfüllt' darf nicht weggelassen werden. 📄 Quelle: ari21_vl02, Folie 5 (S.5)",
+    "explanation": "Das fünfte Axiom lautet folientreu: 'Wenn $M$ eine Teilmenge von $N$ ist und die ersten beiden Axiome erfüllt sind, dann ist $M$ gleich $N$.' Die Voraussetzung 'die ersten beiden Axiome erfüllt' darf nicht weggelassen werden. 📄 Quelle: ari21_vl02, Folie 5 (S.5)",
     "source": "ari21_vl02, Folie 5 (S.5, Rückblick)"
   },
   {
@@ -3846,16 +3846,16 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Wie wird die Addition (vor der Axiomatisierung, rekursiv) für beliebige Natürliche Zahlen definiert?",
     "options": [
-      "n + 1 := n' (der Nachfolger von n)",
-      "n + (m + 1) := (n + m)' (der Nachfolger von n + m)",
-      "n · 1 := n (die Multiplikation mit 1)",
-      "n + (m + 1) := (n · m)' "
+      "$n + 1 := n'$ (der Nachfolger von $n$)",
+      "$n + (m + 1) := (n + m)'$ (der Nachfolger von $n + m$)",
+      "$n \\cdot 1 := n$ (die Multiplikation mit 1)",
+      "$n + (m + 1) := (n \\cdot m)'$ "
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Folie setzt fest: 1) n + 1 := n' (Nachfolger von n) und 2) n + (m + 1) := (n + m)' (Nachfolger von n + m), rekursiv mit 1) bestimmbar. Die anderen Optionen sind falsch (n · 1 := n gehört zur Multiplikation). 📄 Quelle: ari21_vl02, Folie 10 (S.10)",
+    "explanation": "Die Folie setzt fest: 1) $n + 1 := n'$ (Nachfolger von $n$) und 2) $n + (m + 1) := (n + m)'$ (Nachfolger von $n + m$), rekursiv mit 1) bestimmbar. Die anderen Optionen sind falsch ($n \\cdot 1 := n$ gehört zur Multiplikation). 📄 Quelle: ari21_vl02, Folie 10 (S.10)",
     "source": "ari21_vl02, Folie 10 (S.10, Operationen (Vertiefung))"
   },
   {
@@ -3881,11 +3881,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechnen Sie mit der Definition der Addition: 4 + 3 = ?",
+    "question": "Berechnen Sie mit der Definition der Addition: $4 + 3 = ?$",
     "answer": 7,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Mit der rekursiven Definition der Addition ergibt sich 4 + 3 = 7. 📄 Quelle: ari21_vl02, Folie 11 (S.11)",
+    "explanation": "Mit der rekursiven Definition der Addition ergibt sich $4 + 3 = 7$. 📄 Quelle: ari21_vl02, Folie 11 (S.11)",
     "source": "ari21_vl02, Folie 11 (S.11, Operationen (Vertiefung))"
   },
   {
@@ -3893,11 +3893,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechnen Sie mit der Definition der Addition: 3 + 4 = ?",
+    "question": "Berechnen Sie mit der Definition der Addition: $3 + 4 = ?$",
     "answer": 7,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Mit der rekursiven Definition der Addition ergibt sich 3 + 4 = 7. 📄 Quelle: ari21_vl02, Folie 11 (S.11)",
+    "explanation": "Mit der rekursiven Definition der Addition ergibt sich $3 + 4 = 7$. 📄 Quelle: ari21_vl02, Folie 11 (S.11)",
     "source": "ari21_vl02, Folie 11 (S.11, Operationen (Vertiefung))"
   },
   {
@@ -3907,16 +3907,16 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Wie wird die Multiplikation (rekursiv) für beliebige Natürliche Zahlen definiert?",
     "options": [
-      "n · 1 := n (die Multiplikation mit 1)",
-      "n · (m + 1) := n · m + n (rekursiv)",
-      "n · 1 := n' (der Nachfolger von n)",
-      "n · (m + 1) := n · m + m"
+      "$n \\cdot 1 := n$ (die Multiplikation mit 1)",
+      "$n \\cdot (m + 1) := n \\cdot m + n$ (rekursiv)",
+      "$n \\cdot 1 := n'$ (der Nachfolger von $n$)",
+      "$n \\cdot (m + 1) := n \\cdot m + m$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Folie setzt fest: 1) n · 1 := n und 2) n · (m + 1) := n · m + n (rekursiv). Die Optionen n · 1 := n' und n · (m+1) := n·m + m sind falsch. 📄 Quelle: ari21_vl02, Folie 12 (S.12)",
+    "explanation": "Die Folie setzt fest: 1) $n \\cdot 1 := n$ und 2) $n \\cdot (m + 1) := n \\cdot m + n$ (rekursiv). Die Optionen $n \\cdot 1 := n'$ und $n \\cdot (m+1) := n \\cdot m + m$ sind falsch. 📄 Quelle: ari21_vl02, Folie 12 (S.12)",
     "source": "ari21_vl02, Folie 12 (S.12, Operationen (Vertiefung))"
   },
   {
@@ -3924,11 +3924,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechnen Sie mit der Definition der Multiplikation: 4 · 3 = ?",
+    "question": "Berechnen Sie mit der Definition der Multiplikation: $4 \\cdot 3 = ?$",
     "answer": 12,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Mit der rekursiven Definition der Multiplikation ergibt sich 4 · 3 = 12. 📄 Quelle: ari21_vl02, Folie 12 (S.12)",
+    "explanation": "Mit der rekursiven Definition der Multiplikation ergibt sich $4 \\cdot 3 = 12$. 📄 Quelle: ari21_vl02, Folie 12 (S.12)",
     "source": "ari21_vl02, Folie 12 (S.12, Operationen (Vertiefung))"
   },
   {
@@ -3936,11 +3936,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechnen Sie mit der Definition der Multiplikation: 2 · 5 = ?",
+    "question": "Berechnen Sie mit der Definition der Multiplikation: $2 \\cdot 5 = ?$",
     "answer": 10,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Mit der rekursiven Definition der Multiplikation ergibt sich 2 · 5 = 10. 📄 Quelle: ari21_vl02, Folie 12 (S.12)",
+    "explanation": "Mit der rekursiven Definition der Multiplikation ergibt sich $2 \\cdot 5 = 10$. 📄 Quelle: ari21_vl02, Folie 12 (S.12)",
     "source": "ari21_vl02, Folie 12 (S.12, Operationen (Vertiefung))"
   },
   {
@@ -3948,11 +3948,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Die „Abblitzation“ ist definiert durch a ⚡ b = (a + b) · b. Welches Ergebnis liefert 12 ⚡ 2 = (12 + 2) · 2?",
+    "question": "Die „Abblitzation“ ist definiert durch $a$ ⚡ $b = (a + b) \\cdot b$. Welches Ergebnis liefert $12$ ⚡ $2 = (12 + 2) \\cdot 2$?",
     "answer": 28,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Laut Folie ist 12 ⚡ 2 = (12 + 2) · 2 = 28. 📄 Quelle: ari21_vl02, Folie 14 (S.14)",
+    "explanation": "Laut Folie ist $12$ ⚡ $2 = (12 + 2) \\cdot 2 = 28$. 📄 Quelle: ari21_vl02, Folie 14 (S.14)",
     "source": "ari21_vl02, Folie 14 (S.14, Erkundung)"
   },
   {
@@ -3960,7 +3960,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 2,
     "type": "multi",
-    "question": "Wie werden in der Abblitzation 12 ⚡ 2 = (12 + 2) · 2 = 28 die einzelnen Bestandteile benannt?",
+    "question": "Wie werden in der Abblitzation $12$ ⚡ $2 = (12 + 2) \\cdot 2 = 28$ die einzelnen Bestandteile benannt?",
     "options": [
       "12 heißt Abblitzent.",
       "2 heißt Abblitzator.",
@@ -3980,7 +3980,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Eigenschaften gelten für die Abblitzation (a ⚡ b = (a+b)·b) und die (normale) Addition bezüglich der einsetzbaren Zahlen?",
+    "question": "Welche Eigenschaften gelten für die Abblitzation ($a$ ⚡ $b = (a+b) \\cdot b$) und die (normale) Addition bezüglich der einsetzbaren Zahlen?",
     "options": [
       "Alle Natürlichen Zahlen können in die Abblitzation eingesetzt werden, so dass das Ergebnis auch eine natürliche Zahl ist.",
       "Bei der (normalen) Addition können auch alle natürlichen Zahlen eingesetzt werden.",
@@ -4000,7 +4000,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 1,
     "type": "single",
-    "question": "Welche Zahlen lassen sich in die einfache Operation Addition (a + b, z. B. 2 + 3 = 5) einsetzen?",
+    "question": "Welche Zahlen lassen sich in die einfache Operation Addition ($a + b$, z. B. $2 + 3 = 5$) einsetzen?",
     "options": [
       "alle natürlichen Zahlen (auch die 0)",
       "nur die natürlichen Zahlen ohne die 0",
@@ -4018,7 +4018,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Aussagen zur Erzeugung natürlicher Zahlen durch die Abblitzation a △ b := (a+b)·b sind richtig?",
+    "question": "Welche Aussagen zur Erzeugung natürlicher Zahlen durch die Abblitzation $a \\triangle b := (a+b) \\cdot b$ sind richtig?",
     "options": [
       "Lässt man 0 als Abblitzent/Abblitzator zu, so können alle natürlichen Zahlen erzeugt werden.",
       "Ohne die 0 werden alle natürlichen Zahlen größer gleich 2 erzeugt.",
@@ -4038,11 +4038,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechnen Sie das Ergebnis der Abblitzation 12 △ 2 (a △ b = (a+b)·b).",
+    "question": "Berechnen Sie das Ergebnis der Abblitzation $12 \\triangle 2$ ($a \\triangle b = (a+b) \\cdot b$).",
     "answer": 28,
     "tolerance": 0,
     "unit": "",
-    "explanation": "12 △ 2 = (12+2)·2 = 14·2 = 28. 📄 Quelle: ari21_vl02, Folie 18 (S.18)",
+    "explanation": "$12 \\triangle 2 = (12+2) \\cdot 2 = 14 \\cdot 2 = 28$. 📄 Quelle: ari21_vl02, Folie 18 (S.18)",
     "source": "ari21_vl02, Folie 18 (S.18, Arithmetik – Operationen (Vertiefung))"
   },
   {
@@ -4050,7 +4050,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 1,
     "type": "multi",
-    "question": "Wie heißen die Bestandteile in der Abblitzation 12 △ 2 = 28?",
+    "question": "Wie heißen die Bestandteile in der Abblitzation $12 \\triangle 2 = 28$?",
     "options": [
       "12 ist der Abblitzent.",
       "2 ist der Abblitzator.",
@@ -4070,7 +4070,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 1,
     "type": "single",
-    "question": "Welche Eigenschaft der Abblitzation zeigt das Beispiel 12 △ 2 = 28 ≠ 168 = 2 △ 12?",
+    "question": "Welche Eigenschaft der Abblitzation zeigt das Beispiel $12 \\triangle 2 = 28 \\ne 168 = 2 \\triangle 12$?",
     "options": [
       "Sie ist nicht kommutativ.",
       "Sie ist nicht assoziativ.",
@@ -4080,7 +4080,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Weil 12 △ 2 = 28 ungleich 2 △ 12 = 168 ist, ist die Abblitzation nicht kommutativ. 📄 Quelle: ari21_vl02, Folie 19 (S.19)",
+    "explanation": "Weil $12 \\triangle 2 = 28$ ungleich $2 \\triangle 12 = 168$ ist, ist die Abblitzation nicht kommutativ. 📄 Quelle: ari21_vl02, Folie 19 (S.19)",
     "source": "ari21_vl02, Folie 19 (S.19, Arithmetik – Operationen (Vertiefung))"
   },
   {
@@ -4088,11 +4088,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Berechnen Sie 2 △ 12 (Abblitzation, a △ b = (a+b)·b).",
+    "question": "Berechnen Sie $2 \\triangle 12$ (Abblitzation, $a \\triangle b = (a+b) \\cdot b$).",
     "answer": 168,
     "tolerance": 0,
     "unit": "",
-    "explanation": "2 △ 12 = (2+12)·12 = 14·12 = 168. 📄 Quelle: ari21_vl02, Folie 19 (S.19)",
+    "explanation": "$2 \\triangle 12 = (2+12) \\cdot 12 = 14 \\cdot 12 = 168$. 📄 Quelle: ari21_vl02, Folie 19 (S.19)",
     "source": "ari21_vl02, Folie 19 (S.19, Arithmetik – Operationen (Vertiefung))"
   },
   {
@@ -4102,16 +4102,16 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Aussagen zur Kommutativität (von Abblitzation, Addition und Potenzieren) sind richtig?",
     "options": [
-      "Auch das Potenzieren ist nicht kommutativ, z. B. 2^3 = 8 ≠ 9 = 3^2.",
-      "Die Addition ist kommutativ: a+b = b+a.",
+      "Auch das Potenzieren ist nicht kommutativ, z. B. $2^3 = 8 \\ne 9 = 3^2$.",
+      "Die Addition ist kommutativ: $a+b = b+a$.",
       "Die Abblitzation ist kommutativ.",
-      "Es gilt 2^3 = 3^2."
+      "Es gilt $2^3 = 3^2$."
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Folie zeigt 2^3 = 8 ≠ 9 = 3^2 (Potenzieren nicht kommutativ) und a+b = b+a (Addition kommutativ). 📄 Quelle: ari21_vl02, Folie 19 (S.19)",
+    "explanation": "Die Folie zeigt $2^3 = 8 \\ne 9 = 3^2$ (Potenzieren nicht kommutativ) und $a+b = b+a$ (Addition kommutativ). 📄 Quelle: ari21_vl02, Folie 19 (S.19)",
     "source": "ari21_vl02, Folie 19 (S.19, Arithmetik – Operationen (Vertiefung))"
   },
   {
@@ -4119,7 +4119,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 1,
     "type": "single",
-    "question": "Welche Eigenschaft der Abblitzation zeigt (12 △ 2) △ 4 = 128 ≠ 864 = 12 △ (2 △ 4)?",
+    "question": "Welche Eigenschaft der Abblitzation zeigt $(12 \\triangle 2) \\triangle 4 = 128 \\ne 864 = 12 \\triangle (2 \\triangle 4)$?",
     "options": [
       "Sie ist nicht assoziativ.",
       "Sie ist nicht kommutativ.",
@@ -4129,7 +4129,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Da (12 △ 2) △ 4 = 128 ungleich 12 △ (2 △ 4) = 864 ist, ist die Abblitzation nicht assoziativ. 📄 Quelle: ari21_vl02, Folie 20 (S.20)",
+    "explanation": "Da $(12 \\triangle 2) \\triangle 4 = 128$ ungleich $12 \\triangle (2 \\triangle 4) = 864$ ist, ist die Abblitzation nicht assoziativ. 📄 Quelle: ari21_vl02, Folie 20 (S.20)",
     "source": "ari21_vl02, Folie 20 (S.20, Arithmetik – Operationen (Vertiefung))"
   },
   {
@@ -4137,11 +4137,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Berechnen Sie (12 △ 2) △ 4 (Abblitzation, a △ b = (a+b)·b).",
+    "question": "Berechnen Sie $(12 \\triangle 2) \\triangle 4$ (Abblitzation, $a \\triangle b = (a+b) \\cdot b$).",
     "answer": 128,
     "tolerance": 0,
     "unit": "",
-    "explanation": "12 △ 2 = 28; 28 △ 4 = (28+4)·4 = 32·4 = 128. 📄 Quelle: ari21_vl02, Folie 20 (S.20)",
+    "explanation": "$12 \\triangle 2 = 28$; $28 \\triangle 4 = (28+4) \\cdot 4 = 32 \\cdot 4 = 128$. 📄 Quelle: ari21_vl02, Folie 20 (S.20)",
     "source": "ari21_vl02, Folie 20 (S.20, Arithmetik – Operationen (Vertiefung))"
   },
   {
@@ -4149,11 +4149,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 3,
     "type": "numeric",
-    "question": "Berechnen Sie 12 △ (2 △ 4) (Abblitzation, a △ b = (a+b)·b).",
+    "question": "Berechnen Sie $12 \\triangle (2 \\triangle 4)$ (Abblitzation, $a \\triangle b = (a+b) \\cdot b$).",
     "answer": 864,
     "tolerance": 0,
     "unit": "",
-    "explanation": "2 △ 4 = (2+4)·4 = 24; 12 △ 24 = (12+24)·24 = 36·24 = 864. 📄 Quelle: ari21_vl02, Folie 20 (S.20)",
+    "explanation": "$2 \\triangle 4 = (2+4) \\cdot 4 = 24$; $12 \\triangle 24 = (12+24) \\cdot 24 = 36 \\cdot 24 = 864$. 📄 Quelle: ari21_vl02, Folie 20 (S.20)",
     "source": "ari21_vl02, Folie 20 (S.20, Arithmetik – Operationen (Vertiefung))"
   },
   {
@@ -4163,16 +4163,16 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Aussagen zur Assoziativität (von Abblitzation, Addition und Potenzieren) sind richtig?",
     "options": [
-      "Auch das Potenzieren ist nicht assoziativ: (2^3)^2 = 81 ≠ 512 = 2^(3^2).",
-      "Die Addition ist assoziativ: a+(b+c) = (a+b)+c.",
+      "Auch das Potenzieren ist nicht assoziativ: $(2^3)^2 = 81 \\ne 512 = 2^{3^2}$.",
+      "Die Addition ist assoziativ: $a+(b+c) = (a+b)+c$.",
       "Die Abblitzation ist assoziativ.",
-      "Es gilt (2^3)^2 = 2^(3^2)."
+      "Es gilt $(2^3)^2 = 2^{3^2}$."
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Folie zeigt (2^3)^2 = 81 ≠ 512 = 2^(3^2) (Potenzieren nicht assoziativ) und a+(b+c) = (a+b)+c (Addition assoziativ). 📄 Quelle: ari21_vl02, Folie 20 (S.20)",
+    "explanation": "Die Folie zeigt $(2^3)^2 = 81 \\ne 512 = 2^{3^2}$ (Potenzieren nicht assoziativ) und $a+(b+c) = (a+b)+c$ (Addition assoziativ). 📄 Quelle: ari21_vl02, Folie 20 (S.20)",
     "source": "ari21_vl02, Folie 20 (S.20, Arithmetik – Operationen (Vertiefung))"
   },
   {
@@ -4180,7 +4180,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 1,
     "type": "single",
-    "question": "Welche Aussage über die Umkehrung(en) der Abblitzation (a △ b = (a+b)·b) ist richtig?",
+    "question": "Welche Aussage über die Umkehrung(en) der Abblitzation ($a \\triangle b = (a+b) \\cdot b$) ist richtig?",
     "options": [
       "Sie hat zwei Umkehroperationen.",
       "Sie ist kommutativ.",
@@ -4198,10 +4198,10 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 3,
     "type": "multi",
-    "question": "Welche Aussagen zu den Umkehroperationen der Abblitzation sind richtig? (a △ b = (a+b)·b = c)",
+    "question": "Welche Aussagen zu den Umkehroperationen der Abblitzation sind richtig? ($a \\triangle b = (a+b) \\cdot b = c$)",
     "options": [
-      "Die beiden Umkehrungen sind a = c/b − b und b² + ab − c = 0.",
-      "Auch das Potenzieren hat zwei Umkehroperationen, z. B. √9 = 3 und log_3(9) = 2.",
+      "Die beiden Umkehrungen sind $a = \\frac{c}{b} - b$ und $b^2 + ab - c = 0$.",
+      "Auch das Potenzieren hat zwei Umkehroperationen, z. B. $\\sqrt{9} = 3$ und $\\log_3(9) = 2$.",
       "Weil die Addition kommutativ ist, ist ihre Umkehroperation eindeutig (nur das „−“).",
       "Die Abblitzation hat nur eine Umkehroperation."
     ],
@@ -4210,7 +4210,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Die Folie gibt für a △ b = c die Umkehrungen a = c/b − b und b² + ab − c = 0 an, nennt beim Potenzieren Wurzel und Logarithmus (√9 = 3, log_3(9) = 2) und begründet die Eindeutigkeit der Umkehrung der Addition mit deren Kommutativität. 📄 Quelle: ari21_vl02, Folie 21 (S.21)",
+    "explanation": "Die Folie gibt für $a \\triangle b = c$ die Umkehrungen $a = \\frac{c}{b} - b$ und $b^2 + ab - c = 0$ an, nennt beim Potenzieren Wurzel und Logarithmus ($\\sqrt{9} = 3$, $\\log_3(9) = 2$) und begründet die Eindeutigkeit der Umkehrung der Addition mit deren Kommutativität. 📄 Quelle: ari21_vl02, Folie 21 (S.21)",
     "source": "ari21_vl02, Folie 21 (S.21, Arithmetik – Operationen (Vertiefung))"
   },
   {
@@ -4218,11 +4218,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welchen Wert hat log_3(9)?",
+    "question": "Welchen Wert hat $\\log_3(9)$?",
     "answer": 2,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Als Umkehroperation des Potenzierens gilt laut Folie log_3(9) = 2 (denn 3^2 = 9). 📄 Quelle: ari21_vl02, Folie 21 (S.21)",
+    "explanation": "Als Umkehroperation des Potenzierens gilt laut Folie $\\log_3(9) = 2$ (denn $3^2 = 9$). 📄 Quelle: ari21_vl02, Folie 21 (S.21)",
     "source": "ari21_vl02, Folie 21 (S.21, Arithmetik – Operationen (Vertiefung))"
   },
   {
@@ -4288,18 +4288,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche definierenden Regeln gelten für das Produkt m·n (formal, rekursiv)?",
+    "question": "Welche definierenden Regeln gelten für das Produkt $m \\cdot n$ (formal, rekursiv)?",
     "options": [
-      "n·1 := n",
-      "n·(m+1) := n·m + n",
-      "n·(m+1) := n·m · n",
-      "n·1 := 1"
+      "$n \\cdot 1 := n$",
+      "$n \\cdot (m+1) := n \\cdot m + n$",
+      "$n \\cdot (m+1) := n \\cdot m \\cdot n$",
+      "$n \\cdot 1 := 1$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Folie gibt die Regeln 1) n·1 := n und 2) n·(m+1) := n·m + n an. 📄 Quelle: ari21_vl02, Folie 24 (S.24)",
+    "explanation": "Die Folie gibt die Regeln 1) $n \\cdot 1 := n$ und 2) $n \\cdot (m+1) := n \\cdot m + n$ an. 📄 Quelle: ari21_vl02, Folie 24 (S.24)",
     "source": "ari21_vl02, Folie 24 (S.24, Arithmetik – Eine Definition (Multiplikation))"
   },
   {
@@ -4325,18 +4325,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 2,
     "type": "multi",
-    "question": "Wie lauten die definierenden Regeln für m·n in Worten?",
+    "question": "Wie lauten die definierenden Regeln für $m \\cdot n$ in Worten?",
     "options": [
-      "Jede Zahl n mit 1 multipliziert ergibt n.",
-      "Jede Multiplikation einer Zahl n mit einer Zahl (m+1) entspricht der Multiplikation mit dem Vorgänger m und der Addition mit n.",
+      "Jede Zahl $n$ mit 1 multipliziert ergibt $n$.",
+      "Jede Multiplikation einer Zahl $n$ mit einer Zahl $(m+1)$ entspricht der Multiplikation mit dem Vorgänger $m$ und der Addition mit $n$.",
       "Jede Zahl n mit 1 multipliziert ergibt 1.",
-      "Jede Multiplikation von n mit (m+1) entspricht der Multiplikation mit dem Nachfolger und der Subtraktion von n."
+      "Jede Multiplikation von $n$ mit $(m+1)$ entspricht der Multiplikation mit dem Nachfolger und der Subtraktion von $n$."
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Folie formuliert wörtlich: 1) Jede Zahl n mit 1 multipliziert ergibt n. 2) Jede Multiplikation von n mit (m+1) entspricht der Multiplikation mit dem Vorgänger m und der Addition mit n. 📄 Quelle: ari21_vl02, Folie 25 (S.25)",
+    "explanation": "Die Folie formuliert wörtlich: 1) Jede Zahl $n$ mit 1 multipliziert ergibt $n$. 2) Jede Multiplikation von $n$ mit $(m+1)$ entspricht der Multiplikation mit dem Vorgänger $m$ und der Addition mit $n$. 📄 Quelle: ari21_vl02, Folie 25 (S.25)",
     "source": "ari21_vl02, Folie 25 (S.25, Arithmetik – Eine Definition (Multiplikation))"
   },
   {
@@ -4344,17 +4344,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 1,
     "type": "single",
-    "question": "Was ergibt „jede Zahl n mit 1 multipliziert“ (Regel 1 der Multiplikationsdefinition)?",
+    "question": "Was ergibt „jede Zahl $n$ mit 1 multipliziert“ (Regel 1 der Multiplikationsdefinition)?",
     "options": [
-      "n",
+      "$n$",
       "1",
-      "n+1",
+      "$n+1$",
       "0"
     ],
     "correct": [
       0
     ],
-    "explanation": "Regel 1 (wörtlich): Jede Zahl n mit 1 multipliziert ergibt n (entspricht n·1 := n). 📄 Quelle: ari21_vl02, Folie 25 (S.25)",
+    "explanation": "Regel 1 (wörtlich): Jede Zahl $n$ mit 1 multipliziert ergibt $n$ (entspricht $n \\cdot 1 := n$). 📄 Quelle: ari21_vl02, Folie 25 (S.25)",
     "source": "ari21_vl02, Folie 25 (S.25, Arithmetik – Eine Definition (Multiplikation))"
   },
   {
@@ -4362,17 +4362,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 1,
     "type": "single",
-    "question": "Wie lautet die definierende Gleichung für das Produkt m·n (als wiederholte Addition)?",
+    "question": "Wie lautet die definierende Gleichung für das Produkt $m \\cdot n$ (als wiederholte Addition)?",
     "options": [
-      "m·n = n + n + … + n (m-mal)",
-      "m·n = n · n · … · n (m-mal)",
-      "m·n = n + n + … + n (n-mal)",
-      "m·n = (m+n) + (m+n)"
+      "$m \\cdot n = n + n + \\dots + n$ (m-mal)",
+      "$m \\cdot n = n \\cdot n \\cdot \\dots \\cdot n$ (m-mal)",
+      "$m \\cdot n = n + n + \\dots + n$ (n-mal)",
+      "$m \\cdot n = (m+n) + (m+n)$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie definiert m·n = n + n + … + n mit m Summanden (m-mal). 📄 Quelle: ari21_vl02, Folie 26 (S.26)",
+    "explanation": "Die Folie definiert $m \\cdot n = n + n + \\dots + n$ mit $m$ Summanden (m-mal). 📄 Quelle: ari21_vl02, Folie 26 (S.26)",
     "source": "ari21_vl02, Folie 26 (S.26, Arithmetik – Eine Definition (Multiplikation))"
   },
   {
@@ -4380,17 +4380,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 2,
     "type": "multi",
-    "question": "Was besagt die Definition m·n = n + n + … + n (m-mal)?",
+    "question": "Was besagt die Definition $m \\cdot n = n + n + \\dots + n$ (m-mal)?",
     "options": [
-      "Es entsteht durch m-maliges Addieren von n.",
-      "Der Faktor m gibt an, wie oft n addiert wird.",
-      "n gibt an, wie oft m addiert wird."
+      "Es entsteht durch m-maliges Addieren von $n$.",
+      "Der Faktor $m$ gibt an, wie oft $n$ addiert wird.",
+      "$n$ gibt an, wie oft $m$ addiert wird."
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Laut Folie ist m·n die Summe aus m Summanden n, also m-maliges Addieren von n. 📄 Quelle: ari21_vl02, Folie 26 (S.26)",
+    "explanation": "Laut Folie ist $m \\cdot n$ die Summe aus $m$ Summanden $n$, also m-maliges Addieren von $n$. 📄 Quelle: ari21_vl02, Folie 26 (S.26)",
     "source": "ari21_vl02, Folie 26 (S.26, Arithmetik – Eine Definition (Multiplikation))"
   },
   {
@@ -4398,11 +4398,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechnen Sie 3·4 gemäß der Definition m·n = n + n + … + n (m-mal).",
+    "question": "Berechnen Sie $3 \\cdot 4$ gemäß der Definition $m \\cdot n = n + n + \\dots + n$ (m-mal).",
     "answer": 12,
     "tolerance": 0,
     "unit": "",
-    "explanation": "3·4 = 4 + 4 + 4 (3-mal) = 12. 📄 Quelle: ari21_vl02, Folie 26 (S.26)",
+    "explanation": "$3 \\cdot 4 = 4 + 4 + 4$ (3-mal) $= 12$. 📄 Quelle: ari21_vl02, Folie 26 (S.26)",
     "source": "ari21_vl02, Folie 26 (S.26, Arithmetik – Eine Definition (Multiplikation))"
   },
   {
@@ -4410,18 +4410,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche definierenden Regeln gelten für n^m (formal, rekursiv)?",
+    "question": "Welche definierenden Regeln gelten für $n^m$ (formal, rekursiv)?",
     "options": [
-      "n^1 := n",
-      "n^(m+1) := n^m · n",
-      "n^(m+1) := n^m + n",
-      "n^1 := 1"
+      "$n^1 := n$",
+      "$n^{m+1} := n^m \\cdot n$",
+      "$n^{m+1} := n^m + n$",
+      "$n^1 := 1$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Folie gibt die Regeln 1) n^1 := n und 2) n^(m+1) := n^m · n an. 📄 Quelle: ari21_vl02, Folie 28 (S.28)",
+    "explanation": "Die Folie gibt die Regeln 1) $n^1 := n$ und 2) $n^{m+1} := n^m \\cdot n$ an. 📄 Quelle: ari21_vl02, Folie 28 (S.28)",
     "source": "ari21_vl02, Folie 28 (S.28, Arithmetik – Eine Definition von n^m)"
   },
   {
@@ -4429,17 +4429,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 1,
     "type": "single",
-    "question": "Als was wird n^m bezeichnet (Definiendum)?",
+    "question": "Als was wird $n^m$ bezeichnet (Definiendum)?",
     "options": [
-      "als m-te Potenz der natürlichen Zahl n (wobei m auch eine natürliche Zahl ist)",
-      "als n-te Potenz der natürlichen Zahl m",
-      "als Produkt der natürlichen Zahlen n und m",
-      "als Summe von n, m-mal genommen"
+      "als m-te Potenz der natürlichen Zahl $n$ (wobei $m$ auch eine natürliche Zahl ist)",
+      "als n-te Potenz der natürlichen Zahl $m$",
+      "als Produkt der natürlichen Zahlen $n$ und $m$",
+      "als Summe von $n$, m-mal genommen"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie: „n^m wird als m-te Potenz der natürlichen Zahl n bezeichnet (wobei m auch eine natürliche Zahl ist).“ 📄 Quelle: ari21_vl02, Folie 28 (S.28)",
+    "explanation": "Die Folie: „$n^m$ wird als m-te Potenz der natürlichen Zahl $n$ bezeichnet (wobei $m$ auch eine natürliche Zahl ist).“ 📄 Quelle: ari21_vl02, Folie 28 (S.28)",
     "source": "ari21_vl02, Folie 28 (S.28, Arithmetik – Eine Definition von n^m)"
   },
   {
@@ -4447,11 +4447,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Berechnen Sie 2^2 mithilfe der Regeln n^1 := n und n^(m+1) := n^m · n.",
+    "question": "Berechnen Sie $2^2$ mithilfe der Regeln $n^1 := n$ und $n^{m+1} := n^m \\cdot n$.",
     "answer": 4,
     "tolerance": 0,
     "unit": "",
-    "explanation": "2^2 = 2^(1+1) = 2^1 · 2 = 2 · 2 = 4. 📄 Quelle: ari21_vl02, Folie 28 (S.28)",
+    "explanation": "$2^2 = 2^{1+1} = 2^1 \\cdot 2 = 2 \\cdot 2 = 4$. 📄 Quelle: ari21_vl02, Folie 28 (S.28)",
     "source": "ari21_vl02, Folie 28 (S.28, Arithmetik – Eine Definition von n^m)"
   },
   {
@@ -4459,18 +4459,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 2,
     "type": "multi",
-    "question": "Wie lauten die definierenden Regeln für n^m in Worten?",
+    "question": "Wie lauten die definierenden Regeln für $n^m$ in Worten?",
     "options": [
-      "Jede Zahl n mit 1 potenziert ergibt n.",
-      "Jede (m+1)-te Potenz einer Zahl n entspricht der m-ten Potenz von n multipliziert mit n.",
+      "Jede Zahl $n$ mit 1 potenziert ergibt $n$.",
+      "Jede $(m+1)$-te Potenz einer Zahl $n$ entspricht der m-ten Potenz von $n$ multipliziert mit $n$.",
       "Jede Zahl n mit 1 potenziert ergibt 1.",
-      "Jede (m+1)-te Potenz von n entspricht der m-ten Potenz von n addiert mit n."
+      "Jede $(m+1)$-te Potenz von $n$ entspricht der m-ten Potenz von $n$ addiert mit $n$."
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Folie formuliert wörtlich: 1) Jede Zahl n mit 1 potenziert ergibt n. 2) Jede (m+1)-te Potenz von n entspricht der m-ten Potenz von n multipliziert mit n. 📄 Quelle: ari21_vl02, Folie 29 (S.29)",
+    "explanation": "Die Folie formuliert wörtlich: 1) Jede Zahl $n$ mit 1 potenziert ergibt $n$. 2) Jede $(m+1)$-te Potenz von $n$ entspricht der m-ten Potenz von $n$ multipliziert mit $n$. 📄 Quelle: ari21_vl02, Folie 29 (S.29)",
     "source": "ari21_vl02, Folie 29 (S.29, Arithmetik – Eine Definition von n^m)"
   },
   {
@@ -4478,17 +4478,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 1,
     "type": "single",
-    "question": "Was ergibt „jede Zahl n mit 1 potenziert“ (Regel 1 der Potenzdefinition)?",
+    "question": "Was ergibt „jede Zahl $n$ mit 1 potenziert“ (Regel 1 der Potenzdefinition)?",
     "options": [
-      "n",
+      "$n$",
       "1",
-      "n·n",
-      "n+1"
+      "$n \\cdot n$",
+      "$n+1$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Regel 1 (wörtlich): Jede Zahl n mit 1 potenziert ergibt n (entspricht n^1 := n). 📄 Quelle: ari21_vl02, Folie 29 (S.29)",
+    "explanation": "Regel 1 (wörtlich): Jede Zahl $n$ mit 1 potenziert ergibt $n$ (entspricht $n^1 := n$). 📄 Quelle: ari21_vl02, Folie 29 (S.29)",
     "source": "ari21_vl02, Folie 29 (S.29, Arithmetik – Eine Definition von n^m)"
   },
   {
@@ -4496,17 +4496,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 1,
     "type": "single",
-    "question": "Welche wörtliche definierende Eigenschaft hat n^m?",
+    "question": "Welche wörtliche definierende Eigenschaft hat $n^m$?",
     "options": [
-      "Die Zahl n wird m-fach mit sich selbst multipliziert.",
-      "Die Zahl m wird n-fach mit sich selbst multipliziert.",
-      "Die Zahl n wird m-fach zu sich selbst addiert.",
-      "Die Zahl n wird mit m multipliziert."
+      "Die Zahl $n$ wird m-fach mit sich selbst multipliziert.",
+      "Die Zahl $m$ wird n-fach mit sich selbst multipliziert.",
+      "Die Zahl $n$ wird m-fach zu sich selbst addiert.",
+      "Die Zahl $n$ wird mit $m$ multipliziert."
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie: n^m genau dann, wenn die Zahl n m-fach mit sich selbst multipliziert wird. 📄 Quelle: ari21_vl02, Folie 30 (S.30)",
+    "explanation": "Die Folie: $n^m$ genau dann, wenn die Zahl $n$ m-fach mit sich selbst multipliziert wird. 📄 Quelle: ari21_vl02, Folie 30 (S.30)",
     "source": "ari21_vl02, Folie 30 (S.30, Arithmetik – Eine Definition von n^m)"
   },
   {
@@ -4514,17 +4514,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Aussagen treffen auf die Definition von n^m zu?",
+    "question": "Welche Aussagen treffen auf die Definition von $n^m$ zu?",
     "options": [
-      "n^m bedeutet, dass n m-fach mit sich selbst multipliziert wird.",
-      "Das Definiendum ist n^m, das Definiens die m-fache Multiplikation von n mit sich selbst.",
-      "n^m bedeutet, dass n m-fach mit sich selbst addiert wird."
+      "$n^m$ bedeutet, dass $n$ m-fach mit sich selbst multipliziert wird.",
+      "Das Definiendum ist $n^m$, das Definiens die m-fache Multiplikation von $n$ mit sich selbst.",
+      "$n^m$ bedeutet, dass $n$ m-fach mit sich selbst addiert wird."
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Definiendum n^m, Definiens: die Zahl n wird m-fach mit sich selbst multipliziert (nicht addiert). 📄 Quelle: ari21_vl02, Folie 30 (S.30)",
+    "explanation": "Definiendum $n^m$, Definiens: die Zahl $n$ wird m-fach mit sich selbst multipliziert (nicht addiert). 📄 Quelle: ari21_vl02, Folie 30 (S.30)",
     "source": "ari21_vl02, Folie 30 (S.30, Arithmetik – Eine Definition von n^m)"
   },
   {
@@ -4532,17 +4532,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 1,
     "type": "single",
-    "question": "Wie lautet die definierende Gleichung für n^m (als wiederholte Multiplikation)?",
+    "question": "Wie lautet die definierende Gleichung für $n^m$ (als wiederholte Multiplikation)?",
     "options": [
-      "n^m = n · n · … · n (m-mal)",
-      "n^m = n + n + … + n (m-mal)",
-      "n^m = n · n · … · n (n-mal)",
-      "n^m = m · m · … · m (n-mal)"
+      "$n^m = n \\cdot n \\cdot \\dots \\cdot n$ (m-mal)",
+      "$n^m = n + n + \\dots + n$ (m-mal)",
+      "$n^m = n \\cdot n \\cdot \\dots \\cdot n$ (n-mal)",
+      "$n^m = m \\cdot m \\cdot \\dots \\cdot m$ (n-mal)"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie definiert n^m = n · n · … · n mit m Faktoren (m-mal). 📄 Quelle: ari21_vl02, Folie 31 (S.31)",
+    "explanation": "Die Folie definiert $n^m = n \\cdot n \\cdot \\dots \\cdot n$ mit $m$ Faktoren (m-mal). 📄 Quelle: ari21_vl02, Folie 31 (S.31)",
     "source": "ari21_vl02, Folie 31 (S.31, Arithmetik – Eine Definition von n^m)"
   },
   {
@@ -4550,11 +4550,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechnen Sie 2^4 gemäß der Definition n^m = n · n · … · n (m-mal).",
+    "question": "Berechnen Sie $2^4$ gemäß der Definition $n^m = n \\cdot n \\cdot \\dots \\cdot n$ (m-mal).",
     "answer": 16,
     "tolerance": 0,
     "unit": "",
-    "explanation": "2^4 = 2 · 2 · 2 · 2 (4-mal) = 16. 📄 Quelle: ari21_vl02, Folie 31 (S.31)",
+    "explanation": "$2^4 = 2 \\cdot 2 \\cdot 2 \\cdot 2$ (4-mal) $= 16$. 📄 Quelle: ari21_vl02, Folie 31 (S.31)",
     "source": "ari21_vl02, Folie 31 (S.31, Arithmetik – Eine Definition von n^m)"
   },
   {
@@ -4562,17 +4562,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "natuerliche_zahlen_peano",
     "difficulty": 2,
     "type": "multi",
-    "question": "Was besagt die Definition n^m = n · n · … · n (m-mal)?",
+    "question": "Was besagt die Definition $n^m = n \\cdot n \\cdot \\dots \\cdot n$ (m-mal)?",
     "options": [
-      "Der Exponent m gibt an, wie oft n als Faktor multipliziert wird.",
-      "n ist die Basis, die m-mal als Faktor auftritt.",
-      "n gibt an, wie oft m als Faktor auftritt."
+      "Der Exponent $m$ gibt an, wie oft $n$ als Faktor multipliziert wird.",
+      "$n$ ist die Basis, die m-mal als Faktor auftritt.",
+      "$n$ gibt an, wie oft $m$ als Faktor auftritt."
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Laut Folie ist n^m das Produkt aus m Faktoren n; m gibt die Anzahl der Faktoren an. 📄 Quelle: ari21_vl02, Folie 31 (S.31)",
+    "explanation": "Laut Folie ist $n^m$ das Produkt aus $m$ Faktoren $n$; $m$ gibt die Anzahl der Faktoren an. 📄 Quelle: ari21_vl02, Folie 31 (S.31)",
     "source": "ari21_vl02, Folie 31 (S.31, Arithmetik – Eine Definition von n^m)"
   },
   {
@@ -6799,18 +6799,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeit_primzahlen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Summenregel (Rückblick): Welche Aussage(n) geben den Satz für natürliche Zahlen a, b, c korrekt wieder?",
+    "question": "Summenregel (Rückblick): Welche Aussage(n) geben den Satz für natürliche Zahlen $a$, $b$, $c$ korrekt wieder?",
     "options": [
-      "Wenn a|b und a|c, dann a|(b+c).",
-      "Wenn a Teiler von b und c ist, dann ist a auch Teiler von (b+c).",
-      "Wenn a|b und a|c, dann a|(b·c), aber nicht a|(b+c).",
-      "Wenn a|(b+c), dann gilt stets a|b und a|c."
+      "Wenn $a \\mid b$ und $a \\mid c$, dann $a \\mid (b+c)$.",
+      "Wenn $a$ Teiler von $b$ und $c$ ist, dann ist $a$ auch Teiler von $(b+c)$.",
+      "Wenn $a \\mid b$ und $a \\mid c$, dann $a \\mid (b \\cdot c)$, aber nicht $a \\mid (b+c)$.",
+      "Wenn $a \\mid (b+c)$, dann gilt stets $a \\mid b$ und $a \\mid c$."
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Folie formuliert die Summenregel: „Für natürliche Zahlen a, b, c gilt: Wenn a|b und a|c, dann a|(b+c).“ In Worten: Wenn a Teiler von b und c ist, dann ist a auch Teiler von (b+c). Die Umkehrung wird nicht behauptet. 📄 Quelle: ari21_vl06, Folie 12 (S.12)",
+    "explanation": "Die Folie formuliert die Summenregel: „Für natürliche Zahlen $a$, $b$, $c$ gilt: Wenn $a \\mid b$ und $a \\mid c$, dann $a \\mid (b+c)$.“ In Worten: Wenn $a$ Teiler von $b$ und $c$ ist, dann ist $a$ auch Teiler von $(b+c)$. Die Umkehrung wird nicht behauptet. 📄 Quelle: ari21_vl06, Folie 12 (S.12)",
     "source": "ari21_vl06, Folie 12 (S.12, Rückblick)"
   },
   {
@@ -6818,11 +6818,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeit_primzahlen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Nach der Summenregel gilt wegen 2|4 und 2|12 auch 2|(4+12). Berechne 4+12.",
+    "question": "Nach der Summenregel gilt wegen $2 \\mid 4$ und $2 \\mid 12$ auch $2 \\mid (4+12)$. Berechne $4+12$.",
     "answer": 16,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Folie 12 zeigt das Beispiel 2|4 und 2|12 ⇒ 2|(4+12), dargestellt als 2·(2+6)=16; also 4+12=16. 📄 Quelle: ari21_vl06, Folie 12 (S.12)",
+    "explanation": "Folie 12 zeigt das Beispiel $2 \\mid 4$ und $2 \\mid 12 \\Rightarrow 2 \\mid (4+12)$, dargestellt als $2 \\cdot (2+6) = 16$; also $4+12 = 16$. 📄 Quelle: ari21_vl06, Folie 12 (S.12)",
     "source": "ari21_vl06, Folie 12 (S.12, Rückblick)"
   },
   {
@@ -6830,11 +6830,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeit_primzahlen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Nach der Summenregel gilt wegen 7|21 und 7|63 auch 7|(21+63). Berechne 21+63.",
+    "question": "Nach der Summenregel gilt wegen $7 \\mid 21$ und $7 \\mid 63$ auch $7 \\mid (21+63)$. Berechne $21+63$.",
     "answer": 84,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Folie 12 zeigt das Beispiel 7|21 und 7|63 ⇒ 7|(21+63), dargestellt als 7·(3+9)=84; also 21+63=84. 📄 Quelle: ari21_vl06, Folie 12 (S.12)",
+    "explanation": "Folie 12 zeigt das Beispiel $7 \\mid 21$ und $7 \\mid 63 \\Rightarrow 7 \\mid (21+63)$, dargestellt als $7 \\cdot (3+9) = 84$; also $21+63 = 84$. 📄 Quelle: ari21_vl06, Folie 12 (S.12)",
     "source": "ari21_vl06, Folie 12 (S.12, Rückblick)"
   },
   {
@@ -6842,18 +6842,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeit_primzahlen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Die Teilbarkeitsrelation ist transitiv. Welche Formulierung(en) geben diesen Satz für natürliche Zahlen a, b, c korrekt wieder?",
+    "question": "Die Teilbarkeitsrelation ist transitiv. Welche Formulierung(en) geben diesen Satz für natürliche Zahlen $a$, $b$, $c$ korrekt wieder?",
     "options": [
-      "Wenn a|b und b|c, dann a|c.",
-      "Wenn a Teiler von b ist und b Teiler von c, dann ist auch a Teiler von c.",
-      "Wenn a|b und b|c, dann c|a.",
-      "Wenn a|b und a|c, dann b|c."
+      "Wenn $a \\mid b$ und $b \\mid c$, dann $a \\mid c$.",
+      "Wenn $a$ Teiler von $b$ ist und $b$ Teiler von $c$, dann ist auch $a$ Teiler von $c$.",
+      "Wenn $a \\mid b$ und $b \\mid c$, dann $c \\mid a$.",
+      "Wenn $a \\mid b$ und $a \\mid c$, dann $b \\mid c$."
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Folie gibt den Satz zur Transitivität an: „Wenn a|b und b|c, dann a|c.“ In Worten: Wenn a Teiler von b ist und b Teiler von c, dann ist auch a Teiler von c. 📄 Quelle: ari21_vl06, Folie 11 (S.11)",
+    "explanation": "Die Folie gibt den Satz zur Transitivität an: „Wenn $a \\mid b$ und $b \\mid c$, dann $a \\mid c$.“ In Worten: Wenn $a$ Teiler von $b$ ist und $b$ Teiler von $c$, dann ist auch $a$ Teiler von $c$. 📄 Quelle: ari21_vl06, Folie 11 (S.11)",
     "source": "ari21_vl06, Folie 11 (S.11, Rückblick)"
   },
   {
@@ -6863,16 +6863,16 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche der folgenden Schlüsse sind Beispiele für die Transitivität der Teilbarkeitsrelation?",
     "options": [
-      "2|4 und 4|12, dann auch 2|12.",
-      "7|21 und 21|63, dann auch 7|63.",
-      "2|4 und 2|12, dann auch 2|(4+12).",
-      "4|2 und 12|4, dann auch 12|2."
+      "$2 \\mid 4$ und $4 \\mid 12$, dann auch $2 \\mid 12$.",
+      "$7 \\mid 21$ und $21 \\mid 63$, dann auch $7 \\mid 63$.",
+      "$2 \\mid 4$ und $2 \\mid 12$, dann auch $2 \\mid (4+12)$.",
+      "$4 \\mid 2$ und $12 \\mid 4$, dann auch $12 \\mid 2$."
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Folie nennt als Beispiele der Transitivität: „2|4 und 4|12, dann auch 2|12“ sowie „7|21 und 21|63, dann auch 7|63“. Der Schluss 2|4 und 2|12 ⇒ 2|(4+12) gehört zur Summenregel, nicht zur Transitivität; 4|2 und 12|4 sind falsch, da 4 kein Teiler von 2 ist. 📄 Quelle: ari21_vl06, Folie 11 (S.11)",
+    "explanation": "Die Folie nennt als Beispiele der Transitivität: „$2 \\mid 4$ und $4 \\mid 12$, dann auch $2 \\mid 12$“ sowie „$7 \\mid 21$ und $21 \\mid 63$, dann auch $7 \\mid 63$“. Der Schluss $2 \\mid 4$ und $2 \\mid 12 \\Rightarrow 2 \\mid (4+12)$ gehört zur Summenregel, nicht zur Transitivität; $4 \\mid 2$ und $12 \\mid 4$ sind falsch, da 4 kein Teiler von 2 ist. 📄 Quelle: ari21_vl06, Folie 11 (S.11)",
     "source": "ari21_vl06, Folie 11 (S.11, Rückblick)"
   },
   {
@@ -6919,18 +6919,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "beweismethoden",
     "difficulty": 3,
     "type": "multi",
-    "question": "Im Beweis mit figurierten Zahlen zu „a|b und b|c ⇒ a|c“: Welche Schritte/Gleichungen sind korrekt?",
+    "question": "Im Beweis mit figurierten Zahlen zu „$a \\mid b$ und $b \\mid c \\Rightarrow a \\mid c$“: Welche Schritte/Gleichungen sind korrekt?",
     "options": [
-      "Aus a|b folgt b = a·p, aus b|c folgt c = q·b (q mal b).",
-      "c = q·b = q·a·p = a·(q·p), also a|c.",
-      "c = a + b, also a|c.",
-      "Weil q·p keine natürliche Zahl ist, folgt a∤c."
+      "Aus $a \\mid b$ folgt $b = a \\cdot p$, aus $b \\mid c$ folgt $c = q \\cdot b$ ($q$ mal $b$).",
+      "$c = q \\cdot b = q \\cdot a \\cdot p = a \\cdot (q \\cdot p)$, also $a \\mid c$.",
+      "$c = a + b$, also $a \\mid c$.",
+      "Weil $q \\cdot p$ keine natürliche Zahl ist, folgt $a \\nmid c$."
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die figurierte Darstellung zeigt a|b als b = a·p und b|c als c = q·b (q mal b). Einsetzen ergibt c = q·b = q·a·p = a·(q·p); da q·p eine natürliche Zahl ist, folgt a|c. 📄 Quelle: ari21_vl06, Folie 7 (S.7)",
+    "explanation": "Die figurierte Darstellung zeigt $a \\mid b$ als $b = a \\cdot p$ und $b \\mid c$ als $c = q \\cdot b$ ($q$ mal $b$). Einsetzen ergibt $c = q \\cdot b = q \\cdot a \\cdot p = a \\cdot (q \\cdot p)$; da $q \\cdot p$ eine natürliche Zahl ist, folgt $a \\mid c$. 📄 Quelle: ari21_vl06, Folie 7 (S.7)",
     "source": "ari21_vl06, Folie 7 (S.7, Rückblick)"
   },
   {
@@ -6938,17 +6938,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 1,
     "type": "single",
-    "question": "Wie definiert Cantor (naiv) eine Menge M?",
+    "question": "Wie definiert Cantor (naiv) eine Menge $M$?",
     "options": [
-      "Eine Menge M ist die Zusammenfassung unterscheidbarer Objekte (Elemente).",
-      "Eine Menge M ist eine geordnete Liste gleicher Objekte.",
-      "Eine Menge M ist eine Zahl, die aus Ziffern besteht.",
-      "Eine Menge M ist die Summe ihrer Elemente."
+      "Eine Menge $M$ ist die Zusammenfassung unterscheidbarer Objekte (Elemente).",
+      "Eine Menge $M$ ist eine geordnete Liste gleicher Objekte.",
+      "Eine Menge $M$ ist eine Zahl, die aus Ziffern besteht.",
+      "Eine Menge $M$ ist die Summe ihrer Elemente."
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie gibt die naive Mengendefinition nach Cantor an: „Eine Menge M ist die Zusammenfassung unterscheidbarer Objekte (Elemente).“ 📄 Quelle: ari21_vl06, Folie 14 (S.14)",
+    "explanation": "Die Folie gibt die naive Mengendefinition nach Cantor an: „Eine Menge $M$ ist die Zusammenfassung unterscheidbarer Objekte (Elemente).“ 📄 Quelle: ari21_vl06, Folie 14 (S.14)",
     "source": "ari21_vl06, Folie 14 (S.14, Definitionen)"
   },
   {
@@ -6956,18 +6956,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 2,
     "type": "multi",
-    "question": "Was gilt für die Element-Beziehung zwischen einem Objekt x und einer Menge M?",
+    "question": "Was gilt für die Element-Beziehung zwischen einem Objekt $x$ und einer Menge $M$?",
     "options": [
-      "Man kann stets unterscheiden, ob ein Objekt Element einer Menge ist (x∈M) oder nicht (x∉M).",
-      "x∈M bedeutet: x ist Element der Menge M.",
-      "x∉M bedeutet: x ist Element der Menge M.",
+      "Man kann stets unterscheiden, ob ein Objekt Element einer Menge ist ($x \\in M$) oder nicht ($x \\notin M$).",
+      "$x \\in M$ bedeutet: $x$ ist Element der Menge $M$.",
+      "$x \\notin M$ bedeutet: $x$ ist Element der Menge $M$.",
       "Ob ein Objekt zu einer Menge gehört, lässt sich grundsätzlich nicht entscheiden."
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Folie stellt fest: „Man kann stets unterscheiden, ob ein Objekt Element einer Menge ist (x∈M) oder nicht (x∉M).“ Somit steht x∈M für Zugehörigkeit und x∉M für Nicht-Zugehörigkeit. 📄 Quelle: ari21_vl06, Folie 15 (S.15)",
+    "explanation": "Die Folie stellt fest: „Man kann stets unterscheiden, ob ein Objekt Element einer Menge ist ($x \\in M$) oder nicht ($x \\notin M$).“ Somit steht $x \\in M$ für Zugehörigkeit und $x \\notin M$ für Nicht-Zugehörigkeit. 📄 Quelle: ari21_vl06, Folie 15 (S.15)",
     "source": "ari21_vl06, Folie 15 (S.15, Definitionen)"
   },
   {
@@ -6975,17 +6975,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie wird eine Teilmenge A einer Menge M definiert?",
+    "question": "Wie wird eine Teilmenge $A$ einer Menge $M$ definiert?",
     "options": [
-      "Mengen A, die nur aus Elementen einer Menge M bestehen, heißen Teilmengen (A⊆M).",
-      "A⊆M bedeutet, dass A mindestens ein Element enthält, das nicht in M liegt.",
-      "Jede Teilmenge A von M muss genauso viele Elemente wie M haben.",
-      "A⊆M bedeutet, dass A und M keine gemeinsamen Elemente haben."
+      "Mengen $A$, die nur aus Elementen einer Menge $M$ bestehen, heißen Teilmengen ($A \\subseteq M$).",
+      "$A \\subseteq M$ bedeutet, dass $A$ mindestens ein Element enthält, das nicht in $M$ liegt.",
+      "Jede Teilmenge $A$ von $M$ muss genauso viele Elemente wie $M$ haben.",
+      "$A \\subseteq M$ bedeutet, dass $A$ und $M$ keine gemeinsamen Elemente haben."
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie definiert: „Mengen A, die nur aus Elementen einer Menge M bestehen, heißen Teilmengen (A⊆M).“ 📄 Quelle: ari21_vl06, Folie 16 (S.16)",
+    "explanation": "Die Folie definiert: „Mengen $A$, die nur aus Elementen einer Menge $M$ bestehen, heißen Teilmengen ($A \\subseteq M$).“ 📄 Quelle: ari21_vl06, Folie 16 (S.16)",
     "source": "ari21_vl06, Folie 16 (S.16, Definitionen)"
   },
   {
@@ -6993,17 +6993,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 1,
     "type": "single",
-    "question": "Wie wird eine Menge M in aufzählender Schreibweise notiert?",
+    "question": "Wie wird eine Menge $M$ in aufzählender Schreibweise notiert?",
     "options": [
-      "M = {a, b, c, ...}",
-      "M = (a, b, c, ...)",
-      "M = [a, b, c, ...]",
-      "M = a + b + c + ..."
+      "$M = \\{a, b, c, \\ldots\\}$",
+      "$M = (a, b, c, \\ldots)$",
+      "$M = [a, b, c, \\ldots]$",
+      "$M = a + b + c + \\ldots$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie gibt die aufzählende Schreibweise an: M = {a, b, c, ...}. 📄 Quelle: ari21_vl06, Folie 17 (S.17)",
+    "explanation": "Die Folie gibt die aufzählende Schreibweise an: $M = \\{a, b, c, \\ldots\\}$. 📄 Quelle: ari21_vl06, Folie 17 (S.17)",
     "source": "ari21_vl06, Folie 17 (S.17, Definitionen)"
   },
   {
@@ -7011,17 +7011,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 1,
     "type": "single",
-    "question": "Welches der folgenden Beispiele ist eine Aussage A im Sinne der Aussagenlogik?",
+    "question": "Welches der folgenden Beispiele ist eine Aussage $A$ im Sinne der Aussagenlogik?",
     "options": [
-      "A: Es regnet.",
-      "A: 2 + 2",
-      "A: Wie spät ist es?",
-      "A: x + 1"
+      "$A$: Es regnet.",
+      "$A$: $2 + 2$",
+      "$A$: Wie spät ist es?",
+      "$A$: $x + 1$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie führt den Begriff „Aussage“ ein und nennt als Beispiel „A: Es regnet.“ 📄 Quelle: ari21_vl06, Folie 20 (S.20)",
+    "explanation": "Die Folie führt den Begriff „Aussage“ ein und nennt als Beispiel „$A$: Es regnet.“ 📄 Quelle: ari21_vl06, Folie 20 (S.20)",
     "source": "ari21_vl06, Folie 20 (S.20, Aussagen)"
   },
   {
@@ -7034,14 +7034,14 @@ const SAMPLE_QUESTIONS = [
       "Nach Festlegung ist eine Aussage entweder wahr oder falsch.",
       "Der Grundsatz „Tertium non datur“ bedeutet „Ein Drittes ist nicht gegeben.“",
       "Eine Aussage kann einen dritten Wahrheitswert zwischen wahr und falsch annehmen.",
-      "„A: Es regnet.“ ist ein Beispiel für eine Aussage."
+      "„$A$: Es regnet.“ ist ein Beispiel für eine Aussage."
     ],
     "correct": [
       0,
       1,
       3
     ],
-    "explanation": "Eine Aussage ist nach Festlegung entweder richtig (wahr) oder falsch; ein Drittes ist nicht gegeben (Tertium non datur). „A: Es regnet.“ dient als Beispiel. 📄 Quelle: ari21_vl06, Folie 21 (S.21)",
+    "explanation": "Eine Aussage ist nach Festlegung entweder richtig (wahr) oder falsch; ein Drittes ist nicht gegeben (Tertium non datur). „$A$: Es regnet.“ dient als Beispiel. 📄 Quelle: ari21_vl06, Folie 21 (S.21)",
     "source": "ari21_vl06, Folie 21 (S.21, Aussagen)"
   },
   {
@@ -7067,17 +7067,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "de_morgan_verneinung",
     "difficulty": 1,
     "type": "single",
-    "question": "Mit welchem Zeichen wird die Verneinung (das Gegenteil) einer Aussage A notiert?",
+    "question": "Mit welchem Zeichen wird die Verneinung (das Gegenteil) einer Aussage $A$ notiert?",
     "options": [
-      "¬A",
-      "A*",
-      "−A",
-      "1/A"
+      "$\\neg A$",
+      "$A^*$",
+      "$-A$",
+      "$\\frac{1}{A}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Verneinung einer Aussage A wird auf der Folie in Zeichen als ¬A geschrieben. 📄 Quelle: ari21_vl06, Folie 22 (S.22)",
+    "explanation": "Die Verneinung einer Aussage $A$ wird auf der Folie in Zeichen als $\\neg A$ geschrieben. 📄 Quelle: ari21_vl06, Folie 22 (S.22)",
     "source": "ari21_vl06, Folie 22 (S.22, Aussagen)"
   },
   {
@@ -7085,12 +7085,12 @@ const SAMPLE_QUESTIONS = [
     "topic": "de_morgan_verneinung",
     "difficulty": 2,
     "type": "multi",
-    "question": "Für die Aussage A: „Alle sind da.“ – welche Zuordnungen von Gegenteilen (kontradiktorisch/konträr) sind korrekt?",
+    "question": "Für die Aussage $A$: „Alle sind da.“ – welche Zuordnungen von Gegenteilen (kontradiktorisch/konträr) sind korrekt?",
     "options": [
-      "Kontradiktorisch: ¬A: Nicht alle sind da (also z.B. manche).",
-      "Konträr: ¬A: Niemand ist da.",
-      "Kontradiktorisch: ¬A: Niemand ist da.",
-      "Konträr: ¬A: Manche sind da."
+      "Kontradiktorisch: $\\neg A$: Nicht alle sind da (also z.B. manche).",
+      "Konträr: $\\neg A$: Niemand ist da.",
+      "Kontradiktorisch: $\\neg A$: Niemand ist da.",
+      "Konträr: $\\neg A$: Manche sind da."
     ],
     "correct": [
       0,
@@ -7104,7 +7104,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "de_morgan_verneinung",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lautet das kontradiktorische Gegenteil von A: „Alle sind da.“?",
+    "question": "Wie lautet das kontradiktorische Gegenteil von $A$: „Alle sind da.“?",
     "options": [
       "Nicht alle sind da (also z.B. manche).",
       "Niemand ist da.",
@@ -7122,7 +7122,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "de_morgan_verneinung",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lautet das konträre Gegenteil von A: „Alle sind da.“?",
+    "question": "Wie lautet das konträre Gegenteil von $A$: „Alle sind da.“?",
     "options": [
       "Niemand ist da.",
       "Nicht alle sind da.",
@@ -7140,7 +7140,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "de_morgan_verneinung",
     "difficulty": 2,
     "type": "multi",
-    "question": "Für A: „Es gibt unendlich viele Primzahlen.“ – welche Gegenteile (kontradiktorisch/konträr) sind korrekt zugeordnet?",
+    "question": "Für $A$: „Es gibt unendlich viele Primzahlen.“ – welche Gegenteile (kontradiktorisch/konträr) sind korrekt zugeordnet?",
     "options": [
       "Kontradiktorisch: Es gibt nicht unendlich (also endlich) viele Primzahlen.",
       "Konträr: Es gibt keine Primzahlen.",
@@ -7179,7 +7179,7 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Warum verwendet man in der mathematischen Logik das kontradiktorische (und nicht das konträre) Gegenteil als Verneinung?",
     "options": [
-      "Damit ¬A automatisch falsch ist, wenn A wahr ist (und umgekehrt).",
+      "Damit $\\neg A$ automatisch falsch ist, wenn $A$ wahr ist (und umgekehrt).",
       "Beim konträren Gegenteil wäre dies nicht der Fall.",
       "Weil das konträre Gegenteil grundsätzlich sinnlos ist.",
       "Weil das kontradiktorische Gegenteil immer wahr ist."
@@ -7188,7 +7188,7 @@ const SAMPLE_QUESTIONS = [
       0,
       1
     ],
-    "explanation": "Laut Folie nutzt man das kontradiktorische Gegenteil als Verneinung, damit ¬A automatisch falsch ist, wenn A wahr ist (und umgekehrt); beim konträren Gegenteil wäre das nicht der Fall. 📄 Quelle: ari21_vl06, Folie 33 (S.33)",
+    "explanation": "Laut Folie nutzt man das kontradiktorische Gegenteil als Verneinung, damit $\\neg A$ automatisch falsch ist, wenn $A$ wahr ist (und umgekehrt); beim konträren Gegenteil wäre das nicht der Fall. 📄 Quelle: ari21_vl06, Folie 33 (S.33)",
     "source": "ari21_vl06, Folie 33 (S.33, Aussagen)"
   },
   {
@@ -7196,17 +7196,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "de_morgan_verneinung",
     "difficulty": 2,
     "type": "single",
-    "question": "Was gilt für die als Verneinung verwendete Form ¬A (das kontradiktorische Gegenteil), wenn A wahr ist?",
+    "question": "Was gilt für die als Verneinung verwendete Form $\\neg A$ (das kontradiktorische Gegenteil), wenn $A$ wahr ist?",
     "options": [
-      "¬A ist automatisch falsch.",
-      "¬A ist automatisch wahr.",
-      "¬A ist unbestimmt.",
-      "¬A ist ebenfalls wahr."
+      "$\\neg A$ ist automatisch falsch.",
+      "$\\neg A$ ist automatisch wahr.",
+      "$\\neg A$ ist unbestimmt.",
+      "$\\neg A$ ist ebenfalls wahr."
     ],
     "correct": [
       0
     ],
-    "explanation": "Beim kontradiktorischen Gegenteil (der verwendeten Verneinung) ist ¬A automatisch falsch, wenn A wahr ist. 📄 Quelle: ari21_vl06, Folie 33 (S.33)",
+    "explanation": "Beim kontradiktorischen Gegenteil (der verwendeten Verneinung) ist $\\neg A$ automatisch falsch, wenn $A$ wahr ist. 📄 Quelle: ari21_vl06, Folie 33 (S.33)",
     "source": "ari21_vl06, Folie 33 (S.33, Aussagen)"
   },
   {
@@ -7214,12 +7214,12 @@ const SAMPLE_QUESTIONS = [
     "topic": "de_morgan_verneinung",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Verneinungen (¬A, kontradiktorisches Gegenteil) zu den Beispielen sind korrekt?",
+    "question": "Welche Verneinungen ($\\neg A$, kontradiktorisches Gegenteil) zu den Beispielen sind korrekt?",
     "options": [
-      "A: Es regnet. → ¬A: Es regnet nicht.",
-      "A: Es gibt unendlich viele Primzahlen. → ¬A: Es gibt endlich viele Primzahlen.",
-      "A: Es regnet. → ¬A: Es ist sonnig.",
-      "A: Es gibt unendlich viele Primzahlen. → ¬A: Es gibt keine Primzahlen."
+      "$A$: Es regnet. $\\to$ $\\neg A$: Es regnet nicht.",
+      "$A$: Es gibt unendlich viele Primzahlen. $\\to$ $\\neg A$: Es gibt endlich viele Primzahlen.",
+      "$A$: Es regnet. $\\to$ $\\neg A$: Es ist sonnig.",
+      "$A$: Es gibt unendlich viele Primzahlen. $\\to$ $\\neg A$: Es gibt keine Primzahlen."
     ],
     "correct": [
       0,
@@ -7233,7 +7233,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "de_morgan_verneinung",
     "difficulty": 1,
     "type": "single",
-    "question": "Wie lautet die Verneinung ¬A der Aussage „Es regnet.“?",
+    "question": "Wie lautet die Verneinung $\\neg A$ der Aussage „Es regnet.“?",
     "options": [
       "Es regnet nicht.",
       "Es ist trocken.",
@@ -7255,7 +7255,7 @@ const SAMPLE_QUESTIONS = [
     "options": [
       "Die Zustände von Aussagen können in Kurzform in einer Tabelle/Tafel aufgeschrieben werden.",
       "Für „wahr“ wird die Kurzform w, für „falsch“ die Kurzform f verwendet.",
-      "Die Tabelle enthält Spalten für Aussage A und Aussage ¬A.",
+      "Die Tabelle enthält Spalten für Aussage $A$ und Aussage $\\neg A$.",
       "Die Tabelle verwendet die Kurzformen 1 für wahr und 0 für falsch."
     ],
     "correct": [
@@ -7263,7 +7263,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Die Folie zeigt eine Tabelle/Tafel mit den Spalten „Aussage A“ und „Aussage ¬A“ sowie die Kurzformen wahr (w) und falsch (f). 📄 Quelle: ari21_vl06, Folie 35 (S.35)",
+    "explanation": "Die Folie zeigt eine Tabelle/Tafel mit den Spalten „Aussage $A$“ und „Aussage $\\neg A$“ sowie die Kurzformen wahr (w) und falsch (f). 📄 Quelle: ari21_vl06, Folie 35 (S.35)",
     "source": "ari21_vl06, Folie 35 (S.35, Aussagen)"
   },
   {
@@ -7289,18 +7289,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 1,
     "type": "multi",
-    "question": "Ein Beispielpaar verknüpfter Aussagen A und B beschreibt Regen und eine dadurch nasse Straße. Welche beiden Aussagen bilden dieses Paar?",
+    "question": "Ein Beispielpaar verknüpfter Aussagen $A$ und $B$ beschreibt Regen und eine dadurch nasse Straße. Welche beiden Aussagen bilden dieses Paar?",
     "options": [
-      "A: Es regnet.",
-      "B: Die Straße ist nass.",
-      "B: Es ist bewölkt.",
-      "A: Die Sonne scheint."
+      "$A$: Es regnet.",
+      "$B$: Die Straße ist nass.",
+      "$B$: Es ist bewölkt.",
+      "$A$: Die Sonne scheint."
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Bei verknüpften Aussagen sind zwei Aussagen gegeben; die Folie nennt als Beispiel A: „Es regnet.“ und B: „Die Straße ist nass.“ 📄 Quelle: ari21_vl06, Folie 39 (S.39)",
+    "explanation": "Bei verknüpften Aussagen sind zwei Aussagen gegeben; die Folie nennt als Beispiel $A$: „Es regnet.“ und $B$: „Die Straße ist nass.“ 📄 Quelle: ari21_vl06, Folie 39 (S.39)",
     "source": "ari21_vl06, Folie 39 (S.39, Verknüpfte Aussagen)"
   },
   {
@@ -7308,18 +7308,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 1,
     "type": "multi",
-    "question": "Ein Beispielpaar von Aussagen A und B beschreibt Regen und eine nasse Straße. Welche beiden Aussagen bilden dieses Paar?",
+    "question": "Ein Beispielpaar von Aussagen $A$ und $B$ beschreibt Regen und eine nasse Straße. Welche beiden Aussagen bilden dieses Paar?",
     "options": [
-      "A: Es regnet.",
-      "B: Die Straße ist nass.",
-      "A: Die Sonne scheint.",
-      "B: Der Boden ist trocken."
+      "$A$: Es regnet.",
+      "$B$: Die Straße ist nass.",
+      "$A$: Die Sonne scheint.",
+      "$B$: Der Boden ist trocken."
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Auf der Folie sind die Beispielaussagen A: „Es regnet.“ und B: „Die Straße ist nass.“ angegeben. 📄 Quelle: ari21_vl06, Folie 40 (S.40)",
+    "explanation": "Auf der Folie sind die Beispielaussagen $A$: „Es regnet.“ und $B$: „Die Straße ist nass.“ angegeben. 📄 Quelle: ari21_vl06, Folie 40 (S.40)",
     "source": "ari21_vl06, Folie 40 (S.40, Arithmetik – Aussagen)"
   },
   {
@@ -7327,11 +7327,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 1,
     "type": "single",
-    "question": "Was gilt für die beiden Beispielaussagen A („Es regnet.“) und B („Die Straße ist nass.“) hinsichtlich ihrer Wahrheitswerte?",
+    "question": "Was gilt für die beiden Beispielaussagen $A$ („Es regnet.“) und $B$ („Die Straße ist nass.“) hinsichtlich ihrer Wahrheitswerte?",
     "options": [
       "Beide Aussagen können entweder wahr oder falsch sein.",
       "Beide Aussagen sind immer gleichzeitig wahr.",
-      "A ist immer wahr, B immer falsch.",
+      "$A$ ist immer wahr, $B$ immer falsch.",
       "Die Aussagen können weder wahr noch falsch sein."
     ],
     "correct": [
@@ -7345,18 +7345,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 2,
     "type": "multi",
-    "question": "Für eine Wahrheitstafel zu zwei Aussagen A und B: Welche Anforderungen sind korrekt?",
+    "question": "Für eine Wahrheitstafel zu zwei Aussagen $A$ und $B$: Welche Anforderungen sind korrekt?",
     "options": [
-      "Die Tafel soll Spalten für A und B haben.",
+      "Die Tafel soll Spalten für $A$ und $B$ haben.",
       "In den Zeilen sollen alle Kombinationen von Wahrheitswerten w und f vorkommen.",
       "Die Tafel soll nur die wahren Fälle enthalten.",
-      "Es soll eine einzige Zeile mit A und B genügen."
+      "Es soll eine einzige Zeile mit $A$ und $B$ genügen."
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Aufgabe lautet: „Zeichnen Sie eine Tafel mit den Spalten für A und B. In den Zeilen sollen alle Kombinationen von Wahrheitswerten w und f vorkommen.“ 📄 Quelle: ari21_vl06, Folie 41 (S.41)",
+    "explanation": "Die Aufgabe lautet: „Zeichnen Sie eine Tafel mit den Spalten für $A$ und $B$. In den Zeilen sollen alle Kombinationen von Wahrheitswerten w und f vorkommen.“ 📄 Quelle: ari21_vl06, Folie 41 (S.41)",
     "source": "ari21_vl06, Folie 41 (S.41, Arithmetik – Aussagen)"
   },
   {
@@ -7364,17 +7364,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 1,
     "type": "single",
-    "question": "Wann ist die Verknüpfung A ∧ B („A und B“) wahr?",
+    "question": "Wann ist die Verknüpfung $A \\wedge B$ („$A$ und $B$“) wahr?",
     "options": [
-      "Genau dann, wenn sowohl A als auch B wahr ist.",
+      "Genau dann, wenn sowohl $A$ als auch $B$ wahr ist.",
       "Genau dann, wenn mindestens eine der Aussagen wahr ist.",
-      "Genau dann, wenn A wahr und B falsch ist.",
+      "Genau dann, wenn $A$ wahr und $B$ falsch ist.",
       "Genau dann, wenn beide Aussagen falsch sind."
     ],
     "correct": [
       0
     ],
-    "explanation": "Folie 42: „A ∧ B (‚A und B‘) ist genau dann wahr, wenn sowohl A als auch B wahr ist (und sonst falsch).“ 📄 Quelle: ari21_vl06, Folie 42 (S.42)",
+    "explanation": "Folie 42: „$A \\wedge B$ (‚$A$ und $B$‘) ist genau dann wahr, wenn sowohl $A$ als auch $B$ wahr ist (und sonst falsch).“ 📄 Quelle: ari21_vl06, Folie 42 (S.42)",
     "source": "ari21_vl06, Folie 42 (S.42, Arithmetik – Aussagen)"
   },
   {
@@ -7382,17 +7382,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 2,
     "type": "multi",
-    "question": "Bei welchen Belegungen von A und B ist A ∧ B laut der Wahrheitstafel wahr (w)?",
+    "question": "Bei welchen Belegungen von $A$ und $B$ ist $A \\wedge B$ laut der Wahrheitstafel wahr (w)?",
     "options": [
-      "A = w, B = w",
-      "A = w, B = f",
-      "A = f, B = w",
-      "A = f, B = f"
+      "$A = w$, $B = w$",
+      "$A = w$, $B = f$",
+      "$A = f$, $B = w$",
+      "$A = f$, $B = f$"
     ],
     "correct": [
       0
     ],
-    "explanation": "In der Wahrheitstafel für A ∧ B ist nur die Zeile w/w wahr; alle anderen Zeilen (w/f, f/w, f/f) liefern f. 📄 Quelle: ari21_vl06, Folie 42 (S.42)",
+    "explanation": "In der Wahrheitstafel für $A \\wedge B$ ist nur die Zeile w/w wahr; alle anderen Zeilen (w/f, f/w, f/f) liefern f. 📄 Quelle: ari21_vl06, Folie 42 (S.42)",
     "source": "ari21_vl06, Folie 42 (S.42, Arithmetik – Aussagen)"
   },
   {
@@ -7400,7 +7400,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 2,
     "type": "numeric",
-    "question": "In wie vielen der vier Zeilen der Wahrheitstafel für A ∧ B ergibt sich der Wert wahr (w)?",
+    "question": "In wie vielen der vier Zeilen der Wahrheitstafel für $A \\wedge B$ ergibt sich der Wert wahr (w)?",
     "answer": 1,
     "tolerance": 0,
     "unit": "",
@@ -7412,17 +7412,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 1,
     "type": "single",
-    "question": "Wann ist die Verknüpfung A ∨ B („A oder B“) falsch?",
+    "question": "Wann ist die Verknüpfung $A \\vee B$ („$A$ oder $B$“) falsch?",
     "options": [
-      "Genau dann, wenn sowohl A als auch B falsch ist.",
+      "Genau dann, wenn sowohl $A$ als auch $B$ falsch ist.",
       "Genau dann, wenn genau eine der Aussagen falsch ist.",
-      "Genau dann, wenn A und B beide wahr sind.",
-      "Nie, A ∨ B ist immer wahr."
+      "Genau dann, wenn $A$ und $B$ beide wahr sind.",
+      "Nie, $A \\vee B$ ist immer wahr."
     ],
     "correct": [
       0
     ],
-    "explanation": "Folie 43: „A ∨ B (‚A oder B‘) ist genau dann falsch, wenn sowohl A als auch B falsch ist (und sonst wahr).“ 📄 Quelle: ari21_vl06, Folie 43 (S.43)",
+    "explanation": "Folie 43: „$A \\vee B$ (‚$A$ oder $B$‘) ist genau dann falsch, wenn sowohl $A$ als auch $B$ falsch ist (und sonst wahr).“ 📄 Quelle: ari21_vl06, Folie 43 (S.43)",
     "source": "ari21_vl06, Folie 43 (S.43, Arithmetik – Aussagen)"
   },
   {
@@ -7430,19 +7430,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 2,
     "type": "multi",
-    "question": "Bei welchen Belegungen von A und B ist A ∨ B laut der Wahrheitstafel wahr (w)?",
+    "question": "Bei welchen Belegungen von $A$ und $B$ ist $A \\vee B$ laut der Wahrheitstafel wahr (w)?",
     "options": [
-      "A = w, B = w",
-      "A = w, B = f",
-      "A = f, B = w",
-      "A = f, B = f"
+      "$A = w$, $B = w$",
+      "$A = w$, $B = f$",
+      "$A = f$, $B = w$",
+      "$A = f$, $B = f$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "In der Wahrheitstafel für A ∨ B liefern die Zeilen w/w, w/f und f/w jeweils w; nur f/f liefert f. 📄 Quelle: ari21_vl06, Folie 43 (S.43)",
+    "explanation": "In der Wahrheitstafel für $A \\vee B$ liefern die Zeilen w/w, w/f und f/w jeweils w; nur f/f liefert f. 📄 Quelle: ari21_vl06, Folie 43 (S.43)",
     "source": "ari21_vl06, Folie 43 (S.43, Arithmetik – Aussagen)"
   },
   {
@@ -7450,7 +7450,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 2,
     "type": "numeric",
-    "question": "In wie vielen der vier Zeilen der Wahrheitstafel für A ∨ B ergibt sich der Wert wahr (w)?",
+    "question": "In wie vielen der vier Zeilen der Wahrheitstafel für $A \\vee B$ ergibt sich der Wert wahr (w)?",
     "answer": 3,
     "tolerance": 0,
     "unit": "",
@@ -7462,10 +7462,10 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Spalten kann eine Wahrheitswertetafel zur Auswertung einer verknüpften Aussage aus A und B enthalten?",
+    "question": "Welche Spalten kann eine Wahrheitswertetafel zur Auswertung einer verknüpften Aussage aus $A$ und $B$ enthalten?",
     "options": [
-      "A",
-      "B",
+      "$A$",
+      "$B$",
       "Zwischenschritte",
       "Verknüpfung"
     ],
@@ -7475,7 +7475,7 @@ const SAMPLE_QUESTIONS = [
       2,
       3
     ],
-    "explanation": "Die Wahrheitswertetafel auf Folie 46 hat die Spalten A, B, Zwischenschritte und Verknüpfung. 📄 Quelle: ari21_vl06, Folie 46 (S.46)",
+    "explanation": "Die Wahrheitswertetafel auf Folie 46 hat die Spalten $A$, $B$, Zwischenschritte und Verknüpfung. 📄 Quelle: ari21_vl06, Folie 46 (S.46)",
     "source": "ari21_vl06, Folie 46 (S.46, Arithmetik – Aussagen)"
   },
   {
@@ -7483,19 +7483,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 2,
     "type": "multi",
-    "question": "Mit welchen Verknüpfungen (Junktoren) sollen die Aussagen A und B verbunden werden?",
+    "question": "Mit welchen Verknüpfungen (Junktoren) sollen die Aussagen $A$ und $B$ verbunden werden?",
     "options": [
-      "nicht (¬)",
-      "und (∧)",
-      "einschließendes oder (∨)",
-      "wenn-dann (→)"
+      "nicht ($\\neg$)",
+      "und ($\\wedge$)",
+      "einschließendes oder ($\\vee$)",
+      "wenn-dann ($\\to$)"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Folie 47: „Verknüpfen Sie die beiden Aussagen A und B mit ‚nicht‘ (¬), ‚und‘ (∧) und einschließendem ‚oder‘ (∨)“. 📄 Quelle: ari21_vl06, Folie 47 (S.47)",
+    "explanation": "Folie 47: „Verknüpfen Sie die beiden Aussagen $A$ und $B$ mit ‚nicht‘ ($\\neg$), ‚und‘ ($\\wedge$) und einschließendem ‚oder‘ ($\\vee$)“. 📄 Quelle: ari21_vl06, Folie 47 (S.47)",
     "source": "ari21_vl06, Folie 47 (S.47, Arithmetik – Aussagen)"
   },
   {
@@ -7503,7 +7503,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 1,
     "type": "single",
-    "question": "Welche Art von „oder“ bezeichnet das Symbol ∨ ausdrücklich?",
+    "question": "Welche Art von „oder“ bezeichnet das Symbol $\\vee$ ausdrücklich?",
     "options": [
       "Das einschließende „oder“",
       "Das ausschließende „oder“ (entweder-oder)",
@@ -7513,7 +7513,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie wird ∨ als „einschließendes ‚oder‘“ bezeichnet. 📄 Quelle: ari21_vl06, Folie 47 (S.47)",
+    "explanation": "Auf der Folie wird $\\vee$ als „einschließendes ‚oder‘“ bezeichnet. 📄 Quelle: ari21_vl06, Folie 47 (S.47)",
     "source": "ari21_vl06, Folie 47 (S.47, Arithmetik – Aussagen)"
   },
   {
@@ -7521,7 +7521,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 2,
     "type": "multi",
-    "question": "Eine verknüpfte Aussage aus A und B soll so gebildet werden, dass sie in der Tafel bzw. im Mengendiagramm in einer vorgegebenen Anzahl von Feldern wahr ist. Welche Anzahlen wahrer Felder werden dabei betrachtet?",
+    "question": "Eine verknüpfte Aussage aus $A$ und $B$ soll so gebildet werden, dass sie in der Tafel bzw. im Mengendiagramm in einer vorgegebenen Anzahl von Feldern wahr ist. Welche Anzahlen wahrer Felder werden dabei betrachtet?",
     "options": [
       "nur in einem Feld",
       "in drei Feldern",
@@ -7541,7 +7541,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 1,
     "type": "multi",
-    "question": "Welche Hinweise zur Bearbeitung solcher Verknüpfungsaufgaben (Tafel mit A und B) sind zutreffend?",
+    "question": "Welche Hinweise zur Bearbeitung solcher Verknüpfungsaufgaben (Tafel mit $A$ und $B$) sind zutreffend?",
     "options": [
       "In der Tafel müssen evtl. Zwischenschritte verwendet werden.",
       "Die Verknüpfung soll immer auch sprachlich ausgedrückt werden.",
@@ -15220,7 +15220,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 120,
     "tolerance": 0,
     "unit": "°",
-    "explanation": "Der Innenwinkel vom regulären 6-Eck ist 120° (3·120° = 360°). 📄 Quelle: ari23_vl06, Folie 6 (S.6)",
+    "explanation": "Der Innenwinkel vom regulären 6-Eck ist 120° ($3 \\cdot 120^\\circ = 360^\\circ$). 📄 Quelle: ari23_vl06, Folie 6 (S.6)",
     "source": "ari23_vl06, Folie 6 (S.6, Parkettierung – Entdeckungen)"
   },
   {
@@ -15230,8 +15230,8 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Aussagen zur Parkettierung mit Dreiecken und Sechsecken sind richtig?",
     "options": [
-      "In einer Ecke treffen 6 gleichseitige Dreiecke aufeinander, denn 6·60° = 360°",
-      "Drei reguläre Sechsecke füllen eine Ecke, denn 3·120° = 360°",
+      "In einer Ecke treffen 6 gleichseitige Dreiecke aufeinander, denn $6 \\cdot 60^\\circ = 360^\\circ$",
+      "Drei reguläre Sechsecke füllen eine Ecke, denn $3 \\cdot 120^\\circ = 360^\\circ$",
       "Die Ebene lässt sich mit allen (auch nicht gleichseitigen) Dreiecken parkettieren",
       "Die Ebene lässt sich nur mit gleichschenkligen Dreiecken parkettieren"
     ],
@@ -15240,7 +15240,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "6·60° = 360° (sechs gleichseitige Dreiecke), 3·120° = 360° (drei reguläre Sechsecke), und 'Es geht mit allen Dreiecken'. Die Beschränkung auf gleichschenklige Dreiecke steht nicht auf der Folie. 📄 Quelle: ari23_vl06, Folie 6 (S.6)",
+    "explanation": "$6 \\cdot 60^\\circ = 360^\\circ$ (sechs gleichseitige Dreiecke), $3 \\cdot 120^\\circ = 360^\\circ$ (drei reguläre Sechsecke), und 'Es geht mit allen Dreiecken'. Die Beschränkung auf gleichschenklige Dreiecke steht nicht auf der Folie. 📄 Quelle: ari23_vl06, Folie 6 (S.6)",
     "source": "ari23_vl06, Folie 6 (S.6, Parkettierung – Entdeckungen)"
   },
   {
@@ -15285,11 +15285,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "parkettierung_winkel",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Wie groß ist die Summe der Innenwinkel α + β + γ in jedem Dreieck ABC (in Grad)?",
+    "question": "Wie groß ist die Summe der Innenwinkel $\\alpha + \\beta + \\gamma$ in jedem Dreieck ABC (in Grad)?",
     "answer": 180,
     "tolerance": 0,
     "unit": "°",
-    "explanation": "Satz: Für alle Dreiecke ABC gilt: Wenn α, β und γ die Innenwinkel des Dreiecks ABC sind, dann gilt α + β + γ = 180°. 📄 Quelle: ari23_vl06, Folie 9 (S.9)",
+    "explanation": "Satz: Für alle Dreiecke ABC gilt: Wenn $\\alpha$, $\\beta$ und $\\gamma$ die Innenwinkel des Dreiecks ABC sind, dann gilt $\\alpha + \\beta + \\gamma = 180^\\circ$. 📄 Quelle: ari23_vl06, Folie 9 (S.9)",
     "source": "ari23_vl06, Folie 9 (S.9, Parkettierung und Innenwinkel)"
   },
   {
@@ -15313,15 +15313,15 @@ const SAMPLE_QUESTIONS = [
     "options": [
       "Viereck, Fünfeck usw. bestehen aus zusammengesetzten Dreiecken",
       "Bei jeder weiteren Ecke kommen 180° zur Innenwinkelsumme dazu",
-      "Für alle Dreiecke ABC gilt α + β + γ = 180°",
-      "Für alle Dreiecke ABC gilt α + β + γ = 360°"
+      "Für alle Dreiecke ABC gilt $\\alpha + \\beta + \\gamma = 180^\\circ$",
+      "Für alle Dreiecke ABC gilt $\\alpha + \\beta + \\gamma = 360^\\circ$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Phänomene: Viereck, Fünfeck ... bestehen aus zusammengesetzten Dreiecken; bei jeder weiteren Ecke kommen 180° dazu; Satz: für alle Dreiecke ABC gilt α + β + γ = 180°. 📄 Quelle: ari23_vl06, Folie 9 (S.9)",
+    "explanation": "Phänomene: Viereck, Fünfeck ... bestehen aus zusammengesetzten Dreiecken; bei jeder weiteren Ecke kommen 180° dazu; Satz: für alle Dreiecke ABC gilt $\\alpha + \\beta + \\gamma = 180^\\circ$. 📄 Quelle: ari23_vl06, Folie 9 (S.9)",
     "source": "ari23_vl06, Folie 9 (S.9, Parkettierung und Innenwinkel)"
   },
   {
@@ -15340,7 +15340,7 @@ const SAMPLE_QUESTIONS = [
       0,
       1
     ],
-    "explanation": "Beweis (geometrisch): Man zeichnet eine Parallele durch C; über Wechselwinkel an der Parallelen ergibt sich α + β + γ = 180°. 📄 Quelle: ari23_vl06, Folie 10 (S.10)",
+    "explanation": "Beweis (geometrisch): Man zeichnet eine Parallele durch C; über Wechselwinkel an der Parallelen ergibt sich $\\alpha + \\beta + \\gamma = 180^\\circ$. 📄 Quelle: ari23_vl06, Folie 10 (S.10)",
     "source": "ari23_vl06, Folie 10 (S.10, Innenwinkel)"
   },
   {
@@ -15350,15 +15350,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Welche Aussage über die Innenwinkel eines Dreiecks ABC wird bewiesen?",
     "options": [
-      "Für alle Dreiecke ABC gilt α + β + γ = 180°",
-      "Für alle Dreiecke ABC gilt α + β + γ = 360°",
+      "Für alle Dreiecke ABC gilt $\\alpha + \\beta + \\gamma = 180^\\circ$",
+      "Für alle Dreiecke ABC gilt $\\alpha + \\beta + \\gamma = 360^\\circ$",
       "Jedes Dreieck hat drei gleiche Winkel",
       "Jedes Dreieck ist rechtwinklig"
     ],
     "correct": [
       0
     ],
-    "explanation": "Bewiesen wird der Satz: Für alle Dreiecke ABC gilt, wenn α, β und γ die Innenwinkel sind, dann α + β + γ = 180°. 📄 Quelle: ari23_vl06, Folie 10 (S.10)",
+    "explanation": "Bewiesen wird der Satz: Für alle Dreiecke ABC gilt, wenn $\\alpha$, $\\beta$ und $\\gamma$ die Innenwinkel sind, dann $\\alpha + \\beta + \\gamma = 180^\\circ$. 📄 Quelle: ari23_vl06, Folie 10 (S.10)",
     "source": "ari23_vl06, Folie 10 (S.10, Innenwinkel)"
   },
   {
@@ -15366,17 +15366,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "parkettierung_winkel",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lautet die Formel für die Innenwinkelsumme eines n-Ecks (für alle natürlichen Zahlen n ≥ 3)?",
+    "question": "Wie lautet die Formel für die Innenwinkelsumme eines n-Ecks (für alle natürlichen Zahlen $n \\ge 3$)?",
     "options": [
-      "(n − 2) · 180°",
-      "n · 180°",
-      "(n − 1) · 180°",
-      "(n − 2) · 360°"
+      "$(n - 2) \\cdot 180^\\circ$",
+      "$n \\cdot 180^\\circ$",
+      "$(n - 1) \\cdot 180^\\circ$",
+      "$(n - 2) \\cdot 360^\\circ$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Satz: Für alle natürlichen Zahlen n ≥ 3 gilt: Ist n die Anzahl der Ecken eines n-Ecks, dann ist die Innenwinkelsumme (n − 2) · 180°. 📄 Quelle: ari23_vl06, Folie 12 (S.12)",
+    "explanation": "Satz: Für alle natürlichen Zahlen $n \\ge 3$ gilt: Ist n die Anzahl der Ecken eines n-Ecks, dann ist die Innenwinkelsumme $(n - 2) \\cdot 180^\\circ$. 📄 Quelle: ari23_vl06, Folie 12 (S.12)",
     "source": "ari23_vl06, Folie 12 (S.12, Innenwinkel)"
   },
   {
@@ -15384,11 +15384,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "parkettierung_winkel",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Wie groß ist die Innenwinkelsumme in einem Sechseck (n = 6, in Grad)?",
+    "question": "Wie groß ist die Innenwinkelsumme in einem Sechseck ($n = 6$, in Grad)?",
     "answer": 720,
     "tolerance": 0,
     "unit": "°",
-    "explanation": "Nach der Formel (n − 2) · 180°: (6 − 2) · 180° = 4 · 180° = 720°. 📄 Quelle: ari23_vl06, Folie 12 (S.12)",
+    "explanation": "Nach der Formel $(n - 2) \\cdot 180^\\circ$: $(6 - 2) \\cdot 180^\\circ = 4 \\cdot 180^\\circ = 720^\\circ$. 📄 Quelle: ari23_vl06, Folie 12 (S.12)",
     "source": "ari23_vl06, Folie 12 (S.12, Innenwinkel)"
   },
   {
@@ -15400,7 +15400,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 3,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Der Satz gilt für alle natürlichen Zahlen n ≥ 3, also ab n = 3. 📄 Quelle: ari23_vl06, Folie 12 (S.12)",
+    "explanation": "Der Satz gilt für alle natürlichen Zahlen $n \\ge 3$, also ab $n = 3$. 📄 Quelle: ari23_vl06, Folie 12 (S.12)",
     "source": "ari23_vl06, Folie 12 (S.12, Innenwinkel)"
   },
   {
@@ -15408,11 +15408,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "parkettierung_winkel",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Im Induktionsschluss für das konvexe (n+1)-Eck: um wie viele Grad wächst die Innenwinkelsumme beim Übergang vom n-Eck zum (n+1)-Eck?",
+    "question": "Im Induktionsschluss für das konvexe $(n+1)$-Eck: um wie viele Grad wächst die Innenwinkelsumme beim Übergang vom n-Eck zum $(n+1)$-Eck?",
     "answer": 180,
     "tolerance": 0,
     "unit": "°",
-    "explanation": "Es kommen 180° an Innenwinkelsumme hinzu: (n−2)·180° + 180° = ((n+1)−2)·180°. 📄 Quelle: ari23_vl06, Folie 13 (S.13)",
+    "explanation": "Es kommen 180° an Innenwinkelsumme hinzu: $(n-2) \\cdot 180^\\circ + 180^\\circ = ((n+1)-2) \\cdot 180^\\circ$. 📄 Quelle: ari23_vl06, Folie 13 (S.13)",
     "source": "ari23_vl06, Folie 13 (S.13, Innenwinkel – Konvexes n-Eck)"
   },
   {
@@ -15422,17 +15422,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Aussagen beschreiben den Induktionsbeweis der Innenwinkelsumme für das konvexe n-Eck korrekt?",
     "options": [
-      "Er besteht aus Induktionsanfang, Induktionsvoraussetzung und Induktionsschluss n → (n+1)",
-      "Im Induktionsschluss gilt (n−2)·180° + 180° = ((n+1)−2)·180°",
-      "Beim Übergang zum (n+1)-Eck wird ein Dreieck angefügt (180° kommen hinzu)",
-      "Beim Übergang zum (n+1)-Eck verdoppelt sich die Innenwinkelsumme"
+      "Er besteht aus Induktionsanfang, Induktionsvoraussetzung und Induktionsschluss $n \\to (n+1)$",
+      "Im Induktionsschluss gilt $(n-2) \\cdot 180^\\circ + 180^\\circ = ((n+1)-2) \\cdot 180^\\circ$",
+      "Beim Übergang zum $(n+1)$-Eck wird ein Dreieck angefügt (180° kommen hinzu)",
+      "Beim Übergang zum $(n+1)$-Eck verdoppelt sich die Innenwinkelsumme"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Der Beweis nutzt Induktionsanfang, Induktionsvoraussetzung und Induktionsschluss n → (n+1); es kommt ein Dreieck (180°) hinzu: (n−2)·180° + 180° = ((n+1)−2)·180°. Eine Verdopplung findet nicht statt. 📄 Quelle: ari23_vl06, Folie 13 (S.13)",
+    "explanation": "Der Beweis nutzt Induktionsanfang, Induktionsvoraussetzung und Induktionsschluss $n \\to (n+1)$; es kommt ein Dreieck (180°) hinzu: $(n-2) \\cdot 180^\\circ + 180^\\circ = ((n+1)-2) \\cdot 180^\\circ$. Eine Verdopplung findet nicht statt. 📄 Quelle: ari23_vl06, Folie 13 (S.13)",
     "source": "ari23_vl06, Folie 13 (S.13, Innenwinkel – Konvexes n-Eck)"
   },
   {
@@ -15440,11 +15440,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "parkettierung_winkel",
     "difficulty": 3,
     "type": "numeric",
-    "question": "Auch beim konkaven (n+1)-Eck: um wie viele Grad wächst die Innenwinkelsumme laut der Rechnung insgesamt?",
+    "question": "Auch beim konkaven $(n+1)$-Eck: um wie viele Grad wächst die Innenwinkelsumme laut der Rechnung insgesamt?",
     "answer": 180,
     "tolerance": 0,
     "unit": "°",
-    "explanation": "Die Rechnung ergibt (α − α₁) + (β − β₁) + γ₂ = α + β + 180°; auch im konkaven Fall kommen also 180° hinzu: (n−2)·180° + 180° = ((n+1)−2)·180°. 📄 Quelle: ari23_vl06, Folie 16 (S.16)",
+    "explanation": "Die Rechnung ergibt $(\\alpha - \\alpha_1) + (\\beta - \\beta_1) + \\gamma_2 = \\alpha + \\beta + 180^\\circ$; auch im konkaven Fall kommen also 180° hinzu: $(n-2) \\cdot 180^\\circ + 180^\\circ = ((n+1)-2) \\cdot 180^\\circ$. 📄 Quelle: ari23_vl06, Folie 16 (S.16)",
     "source": "ari23_vl06, Folie 16 (S.16, Innenwinkel – Konkaves n-Eck)"
   },
   {
@@ -15455,8 +15455,8 @@ const SAMPLE_QUESTIONS = [
     "question": "Welche Aussagen gelten beim Induktionsschluss für konkave Ecken?",
     "options": [
       "Die roten Winkel gehen weg, die grünen Winkel kommen hinzu",
-      "Der überstumpfe Winkel erfüllt γ₂ = 360° − γ₁",
-      "Für das angefügte Dreieck gilt α₁ + β₁ + γ₁ = 180°",
+      "Der überstumpfe Winkel erfüllt $\\gamma_2 = 360^\\circ - \\gamma_1$",
+      "Für das angefügte Dreieck gilt $\\alpha_1 + \\beta_1 + \\gamma_1 = 180^\\circ$",
       "Im konkaven Fall kommen insgesamt 360° zur Innenwinkelsumme hinzu"
     ],
     "correct": [
@@ -15464,7 +15464,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Beim (n+1)-Eck gehen die roten Winkel weg, die grünen kommen hinzu; mit γ₂ = 360° − γ₁ und α₁ + β₁ + γ₁ = 180° ergibt sich α + β + 180°, also 180° zusätzlich – nicht 360°. 📄 Quelle: ari23_vl06, Folie 16 (S.16)",
+    "explanation": "Beim $(n+1)$-Eck gehen die roten Winkel weg, die grünen kommen hinzu; mit $\\gamma_2 = 360^\\circ - \\gamma_1$ und $\\alpha_1 + \\beta_1 + \\gamma_1 = 180^\\circ$ ergibt sich $\\alpha + \\beta + 180^\\circ$, also 180° zusätzlich – nicht 360°. 📄 Quelle: ari23_vl06, Folie 16 (S.16)",
     "source": "ari23_vl06, Folie 16 (S.16, Innenwinkel – Konkaves n-Eck)"
   },
   {
@@ -15488,7 +15488,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 900,
     "tolerance": 0,
     "unit": "°",
-    "explanation": "Laut Tabelle: 7 Ecken, Innenwinkelsumme 900° (entspricht (7−2)·180°). 📄 Quelle: ari23_vl06, Folie 17 (S.17)",
+    "explanation": "Laut Tabelle: 7 Ecken, Innenwinkelsumme 900° (entspricht $(7-2) \\cdot 180^\\circ$). 📄 Quelle: ari23_vl06, Folie 17 (S.17)",
     "source": "ari23_vl06, Folie 17 (S.17, Parkettierung)"
   },
   {
@@ -15508,7 +15508,7 @@ const SAMPLE_QUESTIONS = [
       1,
       3
     ],
-    "explanation": "Nimmt man regelmäßige n-Ecke, so lässt sich die Ebene allein mit 3-, 4- und 6-Ecken parkettieren; beim regelmäßigen Fünfeck ist 360° : 108° kein ganzzahliger Wert. 📄 Quelle: ari23_vl06, Folie 17 (S.17)",
+    "explanation": "Nimmt man regelmäßige n-Ecke, so lässt sich die Ebene allein mit 3-, 4- und 6-Ecken parkettieren; beim regelmäßigen Fünfeck ist $360^\\circ : 108^\\circ$ kein ganzzahliger Wert. 📄 Quelle: ari23_vl06, Folie 17 (S.17)",
     "source": "ari23_vl06, Folie 17 (S.17, Parkettierung)"
   },
   {
@@ -15516,11 +15516,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "parkettierung_winkel",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Wie viele Quadrate (regelmäßige 4-Ecke) stoßen an einer Ecke des Parketts zusammen, da 360° = ? · 90°?",
+    "question": "Wie viele Quadrate (regelmäßige 4-Ecke) stoßen an einer Ecke des Parketts zusammen, da $360^\\circ = ? \\cdot 90^\\circ$?",
     "answer": 4,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Laut Tabelle: 360° = 4 · 90°, also treffen vier Quadrate in einer Ecke zusammen. 📄 Quelle: ari23_vl06, Folie 17 (S.17)",
+    "explanation": "Laut Tabelle: $360^\\circ = 4 \\cdot 90^\\circ$, also treffen vier Quadrate in einer Ecke zusammen. 📄 Quelle: ari23_vl06, Folie 17 (S.17)",
     "source": "ari23_vl06, Folie 17 (S.17, Parkettierung)"
   },
   {
@@ -15641,7 +15641,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Für alle Rechtecke mit zwei Teilquadraten gilt: Wenn es n Möglichkeiten für das Parkettieren eines Teilquadrats gibt, dann gibt es n·(n+1)/2 Möglichkeiten, das Rechteck zu parkettieren. Wie viele Möglichkeiten ergeben sich für n = 7?",
+    "question": "Für alle Rechtecke mit zwei Teilquadraten gilt: Wenn es n Möglichkeiten für das Parkettieren eines Teilquadrats gibt, dann gibt es $\\frac{n(n+1)}{2}$ Möglichkeiten, das Rechteck zu parkettieren. Wie viele Möglichkeiten ergeben sich für $n = 7$?",
     "answer": 28,
     "tolerance": 0,
     "unit": "",
@@ -15653,19 +15653,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche der folgenden Aussagen zur Regel n·(n+1)/2 und den zugehörigen Gauß-Summen sind korrekt?",
+    "question": "Welche der folgenden Aussagen zur Regel $\\frac{n(n+1)}{2}$ und den zugehörigen Gauß-Summen sind korrekt?",
     "options": [
-      "1 + 2 + 3 + 4 = 4·5/2 = 10",
-      "Die Anzahl der Parkettierungen des Rechtecks ist n·(n+1)/2.",
-      "1 + 2 + 3 + 4 + 5 + 6 + 7 = 28",
-      "Die Anzahl der Parkettierungen des Rechtecks ist n²."
+      "$1 + 2 + 3 + 4 = \\frac{4 \\cdot 5}{2} = 10$",
+      "Die Anzahl der Parkettierungen des Rechtecks ist $\\frac{n(n+1)}{2}$.",
+      "$1 + 2 + 3 + 4 + 5 + 6 + 7 = 28$",
+      "Die Anzahl der Parkettierungen des Rechtecks ist $n^2$."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie zeigt u. a. 1+2+3+4 = 10 = 4·5/2 und 1+2+3+4+5+6+7 = 28 = 7·8/2 sowie die Regel n·(n+1)/2. n² ist falsch. 📄 Quelle: ari23_vl06, Folie 27 (S.27)",
+    "explanation": "Die Folie zeigt u. a. $1+2+3+4 = 10 = \\frac{4 \\cdot 5}{2}$ und $1+2+3+4+5+6+7 = 28 = \\frac{7 \\cdot 8}{2}$ sowie die Regel $\\frac{n(n+1)}{2}$. $n^2$ ist falsch. 📄 Quelle: ari23_vl06, Folie 27 (S.27)",
     "source": "ari23_vl06, Folie 27 (S.27, Erkundung II)"
   },
   {
@@ -15673,7 +15673,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Gemäß der Regel n·(n+1)/2: Wie viele Möglichkeiten gibt es, das Rechteck mit zwei Teilquadraten zu parkettieren, wenn es n = 6 Möglichkeiten pro Teilquadrat gibt?",
+    "question": "Gemäß der Regel $\\frac{n(n+1)}{2}$: Wie viele Möglichkeiten gibt es, das Rechteck mit zwei Teilquadraten zu parkettieren, wenn es $n = 6$ Möglichkeiten pro Teilquadrat gibt?",
     "answer": 21,
     "tolerance": 0,
     "unit": "",
@@ -15685,7 +15685,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Die Gauß-Summe S_n = 1 + 2 + ... + n lässt sich als Binomialkoeffizient schreiben. Berechne 8·7/2 = 8! / ((8−2)!·2!), also den Wert des Binomialkoeffizienten \"8 über 2\".",
+    "question": "Die Gauß-Summe $S_n = 1 + 2 + \\ldots + n$ lässt sich als Binomialkoeffizient schreiben. Berechne $\\frac{8 \\cdot 7}{2} = \\frac{8!}{(8-2)! \\cdot 2!}$, also den Wert des Binomialkoeffizienten $\\binom{8}{2}$.",
     "answer": 28,
     "tolerance": 0,
     "unit": "",
@@ -15697,19 +15697,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 3,
     "type": "multi",
-    "question": "Welche Darstellungen der Gauß-Summe S_n = 1 + 2 + 3 + ... + n sind korrekt (Zusammenhang mit Dominospiel und Pascal'schem Dreieck)?",
+    "question": "Welche Darstellungen der Gauß-Summe $S_n = 1 + 2 + 3 + \\ldots + n$ sind korrekt (Zusammenhang mit Dominospiel und Pascal'schem Dreieck)?",
     "options": [
-      "S_n = n·(n+1)/2",
-      "S_n = \"n+1 über 2\" (Binomialkoeffizient)",
+      "$S_n = \\frac{n(n+1)}{2}$",
+      "$S_n = \\binom{n+1}{2}$ (Binomialkoeffizient)",
       "Die Werte der Gauß-Summen stehen im Pascal'schen Dreieck.",
-      "S_n = 2^n"
+      "$S_n = 2^n$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie gibt S_n = 1+2+...+n = n·(n+1)/2 = (n+1 über 2) an, verweist auf das Pascal'sche Dreieck (z. B. 28 in der 8. Zeile) und stellt den Zusammenhang zum Dominospiel her. 2^n kommt nicht vor. 📄 Quelle: ari23_vl06, Folie 28 (S.28)",
+    "explanation": "Die Folie gibt $S_n = 1+2+\\ldots+n = \\frac{n(n+1)}{2} = \\binom{n+1}{2}$ an, verweist auf das Pascal'sche Dreieck (z. B. 28 in der 8. Zeile) und stellt den Zusammenhang zum Dominospiel her. $2^n$ kommt nicht vor. 📄 Quelle: ari23_vl06, Folie 28 (S.28)",
     "source": "ari23_vl06, Folie 28 (S.28, Erkundung II)"
   },
   {
@@ -15735,17 +15735,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "flaecheninhalte",
     "difficulty": 2,
     "type": "single",
-    "question": "Eine Figur F_X ist aus vier Einheitsquadraten der Kantenlänge e zusammengesetzt. Wie groß ist ihr Flächeninhalt A(F_X)?",
+    "question": "Eine Figur $F_X$ ist aus vier Einheitsquadraten der Kantenlänge e zusammengesetzt. Wie groß ist ihr Flächeninhalt $A(F_X)$?",
     "options": [
-      "A(F_X) = 4·e²",
-      "A(F_X) = e²",
-      "A(F_X) = 3·e²",
-      "A(F_X) = 4·e"
+      "$A(F_X) = 4 \\cdot e^2$",
+      "$A(F_X) = e^2$",
+      "$A(F_X) = 3 \\cdot e^2$",
+      "$A(F_X) = 4 \\cdot e$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie ist zur Figur die Formel A(F_X) = 4·e² angegeben. 📄 Quelle: ari23_vl06, Folie 34 (S.34)",
+    "explanation": "Auf der Folie ist zur Figur die Formel $A(F_X) = 4 \\cdot e^2$ angegeben. 📄 Quelle: ari23_vl06, Folie 34 (S.34)",
     "source": "ari23_vl06, Folie 34 (S.34, Messen von Flächeninhalten – Allgemeine Verunsicherung)"
   },
   {
@@ -15773,7 +15773,7 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Welcher kritische Fall stellt das Konzept des Auslegens bzw. Verfeinerns mit Einheitsquadraten infrage?",
     "options": [
-      "Ein Rechteck mit der Seitenlänge π.",
+      "Ein Rechteck mit der Seitenlänge $\\pi$.",
       "Ein Rechteck mit der Seitenlänge 2.",
       "Ein Kreis mit Radius 1.",
       "Ein gleichseitiges Dreieck."
@@ -15781,7 +15781,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Karla fragt: \"Prima, ich habe ein Rechteck mit der Länge π Meter konstruiert, geht das dann genauso?\" – die irrationale Seitenlänge π stellt das Verfeinern von Einheitsquadraten infrage. 📄 Quelle: ari23_vl06, Folie 35 (S.35)",
+    "explanation": "Karla fragt: \"Prima, ich habe ein Rechteck mit der Länge $\\pi$ Meter konstruiert, geht das dann genauso?\" – die irrationale Seitenlänge $\\pi$ stellt das Verfeinern von Einheitsquadraten infrage. 📄 Quelle: ari23_vl06, Folie 35 (S.35)",
     "source": "ari23_vl06, Folie 35 (S.35, Messen von Flächeninhalten – Allgemeine Verunsicherung)"
   },
   {
@@ -15791,15 +15791,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Wie lautet die Formel für den Flächeninhalt eines Kreises mit Radius r?",
     "options": [
-      "π·r²",
-      "2·π·r",
-      "π·d",
-      "r²"
+      "$\\pi \\cdot r^2$",
+      "$2 \\cdot \\pi \\cdot r$",
+      "$\\pi \\cdot d$",
+      "$r^2$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Lehrer sagt: \"Wie wir wissen, ist der Flächeninhalt des Kreises π·r².\" 📄 Quelle: ari23_vl06, Folie 36 (S.36)",
+    "explanation": "Der Lehrer sagt: \"Wie wir wissen, ist der Flächeninhalt des Kreises $\\pi \\cdot r^2$.\" 📄 Quelle: ari23_vl06, Folie 36 (S.36)",
     "source": "ari23_vl06, Folie 36 (S.36, Messen von Flächeninhalten – Allgemeine Verunsicherung)"
   },
   {
@@ -15807,7 +15807,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "flaecheninhalte",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Berechne mit der Formel A = π·r² den Flächeninhalt eines Kreises mit Radius r = 2 (Einheiten). Gib den Zahlenwert an.",
+    "question": "Berechne mit der Formel $A = \\pi \\cdot r^2$ den Flächeninhalt eines Kreises mit Radius $r = 2$ (Einheiten). Gib den Zahlenwert an.",
     "answer": 12.566,
     "tolerance": 0.05,
     "unit": "",
@@ -16044,17 +16044,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "flaecheninhalte",
     "difficulty": 2,
     "type": "single",
-    "question": "Beispiel: In Figur F1 passen 10 Dreiecke gleicher Größe, in Figur F2 weniger als 10. Welche Schlussfolgerung wird gezogen?",
+    "question": "Beispiel: In Figur $F_1$ passen 10 Dreiecke gleicher Größe, in Figur $F_2$ weniger als 10. Welche Schlussfolgerung wird gezogen?",
     "options": [
-      "Also ist F1 größer als F2.",
-      "Also ist F2 größer als F1.",
-      "Also sind F1 und F2 gleich groß.",
-      "Also sind F1 und F2 kongruent."
+      "Also ist $F_1$ größer als $F_2$.",
+      "Also ist $F_2$ größer als $F_1$.",
+      "Also sind $F_1$ und $F_2$ gleich groß.",
+      "Also sind $F_1$ und $F_2$ kongruent."
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie: In F1 passen 10 Dreiecke gleicher Größe, in F2 weniger als 10. Also ist F1 größer als F2. 📄 Quelle: ari23_vl06, Folie 50 (S.50)",
+    "explanation": "Auf der Folie: In $F_1$ passen 10 Dreiecke gleicher Größe, in $F_2$ weniger als 10. Also ist $F_1$ größer als $F_2$. 📄 Quelle: ari23_vl06, Folie 50 (S.50)",
     "source": "ari23_vl06, Folie 50 (S.50, Ausbauen eines Maßes)"
   },
   {
@@ -16082,10 +16082,10 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Eigenschaften kennzeichnen ein Maß A für den Flächeninhalt?",
     "options": [
-      "A(∅) = 0",
-      "A(F) ≥ 0 (Nichtnegativität)",
-      "Wenn F ∩ G = ∅, dann gilt A(F ∪ G) = A(F) + A(G) (Additivität)",
-      "Für das Einheitsquadrat E gilt A(E) = 1"
+      "$A(\\varnothing) = 0$",
+      "$A(F) \\ge 0$ (Nichtnegativität)",
+      "Wenn $F \\cap G = \\varnothing$, dann gilt $A(F \\cup G) = A(F) + A(G)$ (Additivität)",
+      "Für das Einheitsquadrat E gilt $A(E) = 1$"
     ],
     "correct": [
       0,
@@ -16093,7 +16093,7 @@ const SAMPLE_QUESTIONS = [
       2,
       3
     ],
-    "explanation": "Auf der Folie: A(∅)=0; A(F)≥0 (Nichtnegativität); wenn F∩G=∅, dann A(F∪G)=A(F)+A(G) (Additivität); für das Einheitsquadrat E gilt A(E)=1. 📄 Quelle: ari23_vl06, Folie 51 (S.51)",
+    "explanation": "Auf der Folie: $A(\\varnothing)=0$; $A(F)\\ge 0$ (Nichtnegativität); wenn $F\\cap G=\\varnothing$, dann $A(F\\cup G)=A(F)+A(G)$ (Additivität); für das Einheitsquadrat E gilt $A(E)=1$. 📄 Quelle: ari23_vl06, Folie 51 (S.51)",
     "source": "ari23_vl06, Folie 51 (S.51, Ausbauen eines Maßes)"
   },
   {
@@ -16101,9 +16101,9 @@ const SAMPLE_QUESTIONS = [
     "topic": "flaecheninhalte",
     "difficulty": 3,
     "type": "single",
-    "question": "Unter welcher Voraussetzung gilt für ein Flächenmaß die Additivität A(F ∪ G) = A(F) + A(G)?",
+    "question": "Unter welcher Voraussetzung gilt für ein Flächenmaß die Additivität $A(F \\cup G) = A(F) + A(G)$?",
     "options": [
-      "Wenn die Teilflächen keine inneren Punkte gemeinsam haben (also nur Randpunkte gemeinsam sind), d. h. F ∩ G = ∅.",
+      "Wenn die Teilflächen keine inneren Punkte gemeinsam haben (also nur Randpunkte gemeinsam sind), d. h. $F \\cap G = \\varnothing$.",
       "Wenn die Teilflächen kongruent sind.",
       "Wenn die Teilflächen den gleichen Flächeninhalt haben.",
       "Wenn F vollständig in G enthalten ist."
@@ -16111,7 +16111,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie: Wenn F∩G=∅, dann gilt A(F∪G)=A(F)+A(G); die Additivität gilt, wenn die Teilflächen keine inneren Punkte gemeinsam haben (also nur Randpunkte gemeinsam sind). 📄 Quelle: ari23_vl06, Folie 51 (S.51)",
+    "explanation": "Auf der Folie: Wenn $F\\cap G=\\varnothing$, dann gilt $A(F\\cup G)=A(F)+A(G)$; die Additivität gilt, wenn die Teilflächen keine inneren Punkte gemeinsam haben (also nur Randpunkte gemeinsam sind). 📄 Quelle: ari23_vl06, Folie 51 (S.51)",
     "source": "ari23_vl06, Folie 51 (S.51, Ausbauen eines Maßes)"
   },
   {
@@ -16137,11 +16137,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "flaecheninhalte",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welchen Wert hat der Flächeninhalt A(E) des Einheitsquadrats E (als Maßeinheit)?",
+    "question": "Welchen Wert hat der Flächeninhalt $A(E)$ des Einheitsquadrats E (als Maßeinheit)?",
     "answer": 1,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Auf der Folie: Für das Einheitsquadrat E gilt A(E) = 1. 📄 Quelle: ari23_vl06, Folie 51 (S.51)",
+    "explanation": "Auf der Folie: Für das Einheitsquadrat E gilt $A(E) = 1$. 📄 Quelle: ari23_vl06, Folie 51 (S.51)",
     "source": "ari23_vl06, Folie 51 (S.51, Ausbauen eines Maßes)"
   },
   {
@@ -16151,15 +16151,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Wie wird der Flächeninhalt des Einheitsquadrats E mit Seitenlänge e festgelegt?",
     "options": [
-      "Als A(E) = 1, also mit der Maßzahl 1 und dem Maß e²",
-      "Als A(E) = e, also mit dem Maß e",
-      "Als A(E) = 1/100, also mit dem Maß e'²",
-      "Als A(E) = 4e²"
+      "Als $A(E) = 1$, also mit der Maßzahl 1 und dem Maß $e^2$",
+      "Als $A(E) = e$, also mit dem Maß e",
+      "Als $A(E) = \\frac{1}{100}$, also mit dem Maß ${e'}^2$",
+      "Als $A(E) = 4e^2$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie: Der Flächeninhalt des Einheitsquadrates wird als A(E)=1, also mit der Maßzahl 1 und dem Maß e², festgelegt. 📄 Quelle: ari23_vl06, Folie 52 (S.52)",
+    "explanation": "Auf der Folie: Der Flächeninhalt des Einheitsquadrates wird als $A(E)=1$, also mit der Maßzahl 1 und dem Maß $e^2$, festgelegt. 📄 Quelle: ari23_vl06, Folie 52 (S.52)",
     "source": "ari23_vl06, Folie 52 (S.52, Ausbauen eines Maßes)"
   },
   {
@@ -16167,17 +16167,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "flaecheninhalte",
     "difficulty": 2,
     "type": "single",
-    "question": "Welchen Flächeninhalt hat eine Figur Fx, die sich in n Einheitsquadrate (Seitenlänge e) zerlegen lässt?",
+    "question": "Welchen Flächeninhalt hat eine Figur $F_x$, die sich in n Einheitsquadrate (Seitenlänge e) zerlegen lässt?",
     "options": [
-      "n · e²",
-      "n · e",
-      "n² · e",
-      "e² / n"
+      "$n \\cdot e^2$",
+      "$n \\cdot e$",
+      "$n^2 \\cdot e$",
+      "$\\frac{e^2}{n}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie: Eine Figur Fx, die sich in n Einheitsquadraten zerlegen lässt, hat den Flächeninhalt n · e². 📄 Quelle: ari23_vl06, Folie 52 (S.52)",
+    "explanation": "Auf der Folie: Eine Figur $F_x$, die sich in n Einheitsquadraten zerlegen lässt, hat den Flächeninhalt $n \\cdot e^2$. 📄 Quelle: ari23_vl06, Folie 52 (S.52)",
     "source": "ari23_vl06, Folie 52 (S.52, Ausbauen eines Maßes)"
   },
   {
@@ -16185,11 +16185,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "flaecheninhalte",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Für eine Figur Fx gilt A(Fx) = 4e² (mit Einheitsquadrat der Seitenlänge e). Aus wie vielen Einheitsquadraten n besteht Fx?",
+    "question": "Für eine Figur $F_x$ gilt $A(F_x) = 4e^2$ (mit Einheitsquadrat der Seitenlänge e). Aus wie vielen Einheitsquadraten n besteht $F_x$?",
     "answer": 4,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Da A(Fx) = n · e² und laut Folie A(Fx) = 4e², ist n = 4. 📄 Quelle: ari23_vl06, Folie 52 (S.52)",
+    "explanation": "Da $A(F_x) = n \\cdot e^2$ und laut Folie $A(F_x) = 4e^2$, ist $n = 4$. 📄 Quelle: ari23_vl06, Folie 52 (S.52)",
     "source": "ari23_vl06, Folie 52 (S.52, Ausbauen eines Maßes)"
   },
   {
@@ -16197,17 +16197,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "flaecheninhalte",
     "difficulty": 2,
     "type": "single",
-    "question": "E sei das Einheitsquadrat mit A(E)=1 und Seitenlänge e. Wie sind ein feineres Einheitsquadrat E' und seine Seitenlänge e' festgelegt?",
+    "question": "E sei das Einheitsquadrat mit $A(E)=1$ und Seitenlänge e. Wie sind ein feineres Einheitsquadrat E' und seine Seitenlänge e' festgelegt?",
     "options": [
-      "A(E') = 1/100 und e' = 1/10 e",
-      "A(E') = 1/10 und e' = 1/100 e",
-      "A(E') = 1/100 und e' = 1/100 e",
-      "A(E') = 1/2 und e' = 1/2 e"
+      "$A(E') = \\frac{1}{100}$ und $e' = \\frac{1}{10} e$",
+      "$A(E') = \\frac{1}{10}$ und $e' = \\frac{1}{100} e$",
+      "$A(E') = \\frac{1}{100}$ und $e' = \\frac{1}{100} e$",
+      "$A(E') = \\frac{1}{2}$ und $e' = \\frac{1}{2} e$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie: Einheitsquadrat E mit A(E)=1, Seitenlänge e und E' mit A(E')=1/100, Seitenlänge e'=1/10 e. 📄 Quelle: ari23_vl06, Folie 53 (S.53)",
+    "explanation": "Auf der Folie: Einheitsquadrat E mit $A(E)=1$, Seitenlänge e und E' mit $A(E')=\\frac{1}{100}$, Seitenlänge $e'=\\frac{1}{10} e$. 📄 Quelle: ari23_vl06, Folie 53 (S.53)",
     "source": "ari23_vl06, Folie 53 (S.53, Ausbauen eines Maßes)"
   },
   {
@@ -16215,11 +16215,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "flaecheninhalte",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Ein Rechteck R wird mit 5 mal 2 Einheitsquadraten ausgelegt, es gilt A(R) = 5 · 2 · A(E) = 10e². Wie groß ist die Maßzahl (der Faktor vor e²)?",
+    "question": "Ein Rechteck R wird mit 5 mal 2 Einheitsquadraten ausgelegt, es gilt $A(R) = 5 \\cdot 2 \\cdot A(E) = 10e^2$. Wie groß ist die Maßzahl (der Faktor vor $e^2$)?",
     "answer": 10,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Auf der Folie: A(R) = 5 · 2 · A(E) = 10e², also Maßzahl 10. 📄 Quelle: ari23_vl06, Folie 53 (S.53)",
+    "explanation": "Auf der Folie: $A(R) = 5 \\cdot 2 \\cdot A(E) = 10e^2$, also Maßzahl 10. 📄 Quelle: ari23_vl06, Folie 53 (S.53)",
     "source": "ari23_vl06, Folie 53 (S.53, Ausbauen eines Maßes)"
   },
   {
@@ -16227,11 +16227,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "flaecheninhalte",
     "difficulty": 3,
     "type": "numeric",
-    "question": "Legt man ein Rechteck R mit 1 Einheitsquadrat E (A(E)=1) und 32 feineren Einheitsquadraten E' (A(E')=1/100 A(E)) aus, so gilt A(R) = 1·e² + 32·e'² = 132 e'². Welchen Wert hat A(R), ausgedrückt in e² (also der Faktor vor e²)?",
+    "question": "Legt man ein Rechteck R mit 1 Einheitsquadrat E ($A(E)=1$) und 32 feineren Einheitsquadraten E' ($A(E')=\\frac{1}{100} A(E)$) aus, so gilt $A(R) = 1 \\cdot e^2 + 32 \\cdot {e'}^2 = 132 {e'}^2$. Welchen Wert hat $A(R)$, ausgedrückt in $e^2$ (also der Faktor vor $e^2$)?",
     "answer": 1.32,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Auf der Folie: A(R) = 1·e² + 32·e'² = 132 e'² = 1,32 e² (da e'² = 1/100 e²). 📄 Quelle: ari23_vl06, Folie 53 (S.53)",
+    "explanation": "Auf der Folie: $A(R) = 1 \\cdot e^2 + 32 \\cdot {e'}^2 = 132 {e'}^2 = 1{,}32 e^2$ (da ${e'}^2 = \\frac{1}{100} e^2$). 📄 Quelle: ari23_vl06, Folie 53 (S.53)",
     "source": "ari23_vl06, Folie 53 (S.53, Ausbauen eines Maßes)"
   },
   {
@@ -16276,11 +16276,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "flaecheninhalte",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Aussagen zum Satz über den Flächeninhalt von Rechtecken (mit e := 1 als Länge des Einheitsquadrats) sind korrekt?",
+    "question": "Welche Aussagen zum Satz über den Flächeninhalt von Rechtecken (mit $e := 1$ als Länge des Einheitsquadrats) sind korrekt?",
     "options": [
-      "Voraussetzung ist, dass a = n·e und b = m·e gilt.",
-      "Für den Flächeninhalt gilt A(R) = (n · m) · e² = a · b.",
-      "e := 1 ist die Länge des Einheitsquadrats.",
+      "Voraussetzung ist, dass $a = n \\cdot e$ und $b = m \\cdot e$ gilt.",
+      "Für den Flächeninhalt gilt $A(R) = (n \\cdot m) \\cdot e^2 = a \\cdot b$.",
+      "$e := 1$ ist die Länge des Einheitsquadrats.",
       "Der Satz gilt für beliebige reelle Seitenlängen ohne jede Einschränkung."
     ],
     "correct": [
@@ -16288,7 +16288,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Der Satz setzt voraus, dass ein Rechteck R die Seitenlängen a und b mit a = n·e und b = m·e hat, und liefert dann A(R) = (n·m)·e² = a·b; dabei ist e := 1 die Länge des Einheitsquadrats. Eine uneingeschränkte Gültigkeit für beliebige Seitenlängen wird laut Anmerkung gerade nicht behauptet. 📄 Quelle: ari23_vl07, Folie 6 (S.6)",
+    "explanation": "Der Satz setzt voraus, dass ein Rechteck R die Seitenlängen a und b mit $a = n \\cdot e$ und $b = m \\cdot e$ hat, und liefert dann $A(R) = (n \\cdot m) \\cdot e^2 = a \\cdot b$; dabei ist $e := 1$ die Länge des Einheitsquadrats. Eine uneingeschränkte Gültigkeit für beliebige Seitenlängen wird laut Anmerkung gerade nicht behauptet. 📄 Quelle: ari23_vl07, Folie 6 (S.6)",
     "source": "ari23_vl07, Folie 6 (S.6, Anwenden des Maßes)"
   },
   {
@@ -16314,11 +16314,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "flaecheninhalte",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Ein Rechteck R hat die Seitenlängen a = 4·e und b = 3·e mit e := 1. Wie groß ist A(R) = (n · m) · e²?",
+    "question": "Ein Rechteck R hat die Seitenlängen $a = 4 \\cdot e$ und $b = 3 \\cdot e$ mit $e := 1$. Wie groß ist $A(R) = (n \\cdot m) \\cdot e^2$?",
     "answer": 12,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Mit n = 4, m = 3 und e = 1 folgt A(R) = (n·m)·e² = (4·3)·1² = 12. 📄 Quelle: ari23_vl07, Folie 6 (S.6)",
+    "explanation": "Mit $n = 4$, $m = 3$ und $e = 1$ folgt $A(R) = (n \\cdot m) \\cdot e^2 = (4 \\cdot 3) \\cdot 1^2 = 12$. 📄 Quelle: ari23_vl07, Folie 6 (S.6)",
     "source": "ari23_vl07, Folie 6 (S.6, Anwenden des Maßes)"
   },
   {
@@ -16326,17 +16326,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "flaecheninhalte",
     "difficulty": 1,
     "type": "single",
-    "question": "Ein Parallelogramm P hat die Grundseite g und die Höhe h. Wie lautet sein Flächeninhalt A(F_P)?",
+    "question": "Ein Parallelogramm P hat die Grundseite g und die Höhe h. Wie lautet sein Flächeninhalt $A(F_P)$?",
     "options": [
-      "A(F_P) = g · h",
-      "A(F_P) = (g · h)/2",
-      "A(F_P) = g + h",
-      "A(F_P) = 2 · (g + h)"
+      "$A(F_P) = g \\cdot h$",
+      "$A(F_P) = \\frac{g \\cdot h}{2}$",
+      "$A(F_P) = g + h$",
+      "$A(F_P) = 2 \\cdot (g + h)$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Laut Satz gilt für den Flächeninhalt eines Parallelogramms mit Grundseite g und Höhe h: A(F_P) = g · h. 📄 Quelle: ari23_vl07, Folie 7 (S.7)",
+    "explanation": "Laut Satz gilt für den Flächeninhalt eines Parallelogramms mit Grundseite g und Höhe h: $A(F_P) = g \\cdot h$. 📄 Quelle: ari23_vl07, Folie 7 (S.7)",
     "source": "ari23_vl07, Folie 7 (S.7, Anwenden des Maßes)"
   },
   {
@@ -16364,11 +16364,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "flaecheninhalte",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Ein Parallelogramm hat die Grundseite g = 6 und die Höhe h = 4. Wie groß ist sein Flächeninhalt A(F_P) = g · h?",
+    "question": "Ein Parallelogramm hat die Grundseite $g = 6$ und die Höhe $h = 4$. Wie groß ist sein Flächeninhalt $A(F_P) = g \\cdot h$?",
     "answer": 24,
     "tolerance": 0,
     "unit": "",
-    "explanation": "A(F_P) = g · h = 6 · 4 = 24. 📄 Quelle: ari23_vl07, Folie 7 (S.7)",
+    "explanation": "$A(F_P) = g \\cdot h = 6 \\cdot 4 = 24$. 📄 Quelle: ari23_vl07, Folie 7 (S.7)",
     "source": "ari23_vl07, Folie 7 (S.7, Anwenden des Maßes)"
   },
   {
@@ -16451,17 +16451,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "flaecheninhalte",
     "difficulty": 1,
     "type": "single",
-    "question": "Ein Dreieck D hat die Grundseite g und die Höhe h. Wie lautet sein Flächeninhalt A(F_D)?",
+    "question": "Ein Dreieck D hat die Grundseite g und die Höhe h. Wie lautet sein Flächeninhalt $A(F_D)$?",
     "options": [
-      "A(F_D) = (g · h)/2",
-      "A(F_D) = g · h",
-      "A(F_D) = (g + h)/2",
-      "A(F_D) = g · h · 2"
+      "$A(F_D) = \\frac{g \\cdot h}{2}$",
+      "$A(F_D) = g \\cdot h$",
+      "$A(F_D) = \\frac{g + h}{2}$",
+      "$A(F_D) = g \\cdot h \\cdot 2$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Laut Satz gilt für ein Dreieck D mit Grundseite g und Höhe h: A(F_D) = (g · h)/2. 📄 Quelle: ari23_vl07, Folie 11 (S.11)",
+    "explanation": "Laut Satz gilt für ein Dreieck D mit Grundseite g und Höhe h: $A(F_D) = \\frac{g \\cdot h}{2}$. 📄 Quelle: ari23_vl07, Folie 11 (S.11)",
     "source": "ari23_vl07, Folie 11 (S.11, Anwenden des Maßes)"
   },
   {
@@ -16471,17 +16471,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche der folgenden Schreibweisen für den Flächeninhalt des Dreiecks (mit Grundseite g und Höhe h) sind äquivalent?",
     "options": [
-      "(g · h)/2",
-      "(g/2) · h",
-      "g · (h/2)",
-      "(g + h)/2"
+      "$\\frac{g \\cdot h}{2}$",
+      "$\\frac{g}{2} \\cdot h$",
+      "$g \\cdot \\frac{h}{2}$",
+      "$\\frac{g + h}{2}$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Auf der Folie wird umgeformt: A(F_D) = (g·h)/2 = (g/2)·h = g·(h/2). Die Summenform (g+h)/2 gehört nicht dazu. 📄 Quelle: ari23_vl07, Folie 11 (S.11)",
+    "explanation": "Auf der Folie wird umgeformt: $A(F_D) = \\frac{g \\cdot h}{2} = \\frac{g}{2} \\cdot h = g \\cdot \\frac{h}{2}$. Die Summenform $\\frac{g + h}{2}$ gehört nicht dazu. 📄 Quelle: ari23_vl07, Folie 11 (S.11)",
     "source": "ari23_vl07, Folie 11 (S.11, Anwenden des Maßes)"
   },
   {
@@ -16489,11 +16489,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "flaecheninhalte",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Ein Dreieck hat die Grundseite g = 8 und die Höhe h = 5. Wie groß ist sein Flächeninhalt A(F_D) = (g · h)/2?",
+    "question": "Ein Dreieck hat die Grundseite $g = 8$ und die Höhe $h = 5$. Wie groß ist sein Flächeninhalt $A(F_D) = \\frac{g \\cdot h}{2}$?",
     "answer": 20,
     "tolerance": 0,
     "unit": "",
-    "explanation": "A(F_D) = (g · h)/2 = (8 · 5)/2 = 40/2 = 20. 📄 Quelle: ari23_vl07, Folie 11 (S.11)",
+    "explanation": "$A(F_D) = \\frac{g \\cdot h}{2} = \\frac{8 \\cdot 5}{2} = \\frac{40}{2} = 20$. 📄 Quelle: ari23_vl07, Folie 11 (S.11)",
     "source": "ari23_vl07, Folie 11 (S.11, Anwenden des Maßes)"
   },
   {
@@ -16503,15 +16503,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Wie lautet der Flächeninhalt eines symmetrischen Drachenvierecks DR, wenn g und h seine Diagonalen sind?",
     "options": [
-      "A(F_DR) = (g · h)/2",
-      "A(F_DR) = g · h",
-      "A(F_DR) = (g + h)/2",
-      "A(F_DR) = (g · h)/4"
+      "$A(F_{DR}) = \\frac{g \\cdot h}{2}$",
+      "$A(F_{DR}) = g \\cdot h$",
+      "$A(F_{DR}) = \\frac{g + h}{2}$",
+      "$A(F_{DR}) = \\frac{g \\cdot h}{4}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Für alle symmetrischen Drachenvierecke DR gilt, wenn g und h die Diagonalen sind: A(F_DR) = (g · h)/2. 📄 Quelle: ari23_vl07, Folie 12 (S.12)",
+    "explanation": "Für alle symmetrischen Drachenvierecke DR gilt, wenn g und h die Diagonalen sind: $A(F_{DR}) = \\frac{g \\cdot h}{2}$. 📄 Quelle: ari23_vl07, Folie 12 (S.12)",
     "source": "ari23_vl07, Folie 12 (S.12, Anwenden des Maßes)"
   },
   {
@@ -16530,7 +16530,7 @@ const SAMPLE_QUESTIONS = [
       0,
       1
     ],
-    "explanation": "Der Satz gilt für alle symmetrischen Drachenvierecke DR und setzt voraus, dass g und h die Diagonalen des Drachenvierecks sind; dann gilt A(F_DR) = (g·h)/2. 📄 Quelle: ari23_vl07, Folie 12 (S.12)",
+    "explanation": "Der Satz gilt für alle symmetrischen Drachenvierecke DR und setzt voraus, dass g und h die Diagonalen des Drachenvierecks sind; dann gilt $A(F_{DR}) = \\frac{g \\cdot h}{2}$. 📄 Quelle: ari23_vl07, Folie 12 (S.12)",
     "source": "ari23_vl07, Folie 12 (S.12, Anwenden des Maßes)"
   },
   {
@@ -16538,11 +16538,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "flaecheninhalte",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Ein symmetrisches Drachenviereck hat die Diagonalen g = 6 und h = 8. Wie groß ist A(F_DR) = (g · h)/2?",
+    "question": "Ein symmetrisches Drachenviereck hat die Diagonalen $g = 6$ und $h = 8$. Wie groß ist $A(F_{DR}) = \\frac{g \\cdot h}{2}$?",
     "answer": 24,
     "tolerance": 0,
     "unit": "",
-    "explanation": "A(F_DR) = (g · h)/2 = (6 · 8)/2 = 48/2 = 24. 📄 Quelle: ari23_vl07, Folie 12 (S.12)",
+    "explanation": "$A(F_{DR}) = \\frac{g \\cdot h}{2} = \\frac{6 \\cdot 8}{2} = \\frac{48}{2} = 24$. 📄 Quelle: ari23_vl07, Folie 12 (S.12)",
     "source": "ari23_vl07, Folie 12 (S.12, Anwenden des Maßes)"
   },
   {
@@ -16568,7 +16568,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "flaecheninhalte",
     "difficulty": 2,
     "type": "single",
-    "question": "Ein Beispiel zum allgemeinen Drachen ergibt A(F_R) = 29,59 und A(F_Dr) = 29,59. Was zeigt dieses Beispiel?",
+    "question": "Ein Beispiel zum allgemeinen Drachen ergibt $A(F_R) = 29{,}59$ und $A(F_{Dr}) = 29{,}59$. Was zeigt dieses Beispiel?",
     "options": [
       "Auch im allgemeinen Fall ist der Drache flächengleich zum zugehörigen Rechteck.",
       "Der Drache hat einen größeren Flächeninhalt als das Rechteck.",
@@ -16578,7 +16578,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Die Frage, ob sich die Flächengleichheit auch im allgemeinen Fall nachweisen lässt, wird durch A(F_R) = A(F_Dr) = 29,59 bejaht. 📄 Quelle: ari23_vl07, Folie 13 (S.13)",
+    "explanation": "Die Frage, ob sich die Flächengleichheit auch im allgemeinen Fall nachweisen lässt, wird durch $A(F_R) = A(F_{Dr}) = 29{,}59$ bejaht. 📄 Quelle: ari23_vl07, Folie 13 (S.13)",
     "source": "ari23_vl07, Folie 13 (S.13, Anwenden des Maßes)"
   },
   {
@@ -16604,7 +16604,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "flaecheninhalte",
     "difficulty": 2,
     "type": "single",
-    "question": "In einem Trapez ABCD mit den Seiten a = AB (unten) und c = DC (oben): Welche beiden Seiten sind zueinander parallel?",
+    "question": "In einem Trapez ABCD mit den Seiten $a = AB$ (unten) und $c = DC$ (oben): Welche beiden Seiten sind zueinander parallel?",
     "options": [
       "Die Seiten a und c.",
       "Die Seiten b und d.",
@@ -16644,7 +16644,7 @@ const SAMPLE_QUESTIONS = [
     "options": [
       "Die Additivität beim Flächeninhalt bedeutet, dass die Teilflächen keine gemeinsamen inneren Punkte haben",
       "Die beiden zum Parallelogramm zusammengesetzten Trapeze überlappen sich nur durch eine Strecke (unerheblich)",
-      "Es gilt A(F_TR) = 1/2 · A(F_P)",
+      "Es gilt $A(F_{TR}) = \\frac{1}{2} \\cdot A(F_P)$",
       "Das Trapez hat den doppelten Flächeninhalt des zusammengesetzten Parallelogramms"
     ],
     "correct": [
@@ -16652,7 +16652,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Die 1. Idee setzt zwei Trapeze zu einem Parallelogramm zusammen; es gilt A(F_TR)=1/2·A(F_P). Die Additivität verlangt Teilflächen ohne gemeinsame innere Punkte, und die zusammengesetzten Trapeze überlappen nur durch eine (unerhebliche) Strecke. Das Trapez ist die Hälfte, nicht das Doppelte des Parallelogramms. 📄 Quelle: ari23_vl07, Folie 16 (S.16)",
+    "explanation": "Die 1. Idee setzt zwei Trapeze zu einem Parallelogramm zusammen; es gilt $A(F_{TR}) = \\frac{1}{2} \\cdot A(F_P)$. Die Additivität verlangt Teilflächen ohne gemeinsame innere Punkte, und die zusammengesetzten Trapeze überlappen nur durch eine (unerhebliche) Strecke. Das Trapez ist die Hälfte, nicht das Doppelte des Parallelogramms. 📄 Quelle: ari23_vl07, Folie 16 (S.16)",
     "source": "ari23_vl07, Folie 16 (S.16, Geometrie)"
   },
   {
@@ -16660,11 +16660,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "flaecheninhalte",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Berechne den Flächeninhalt eines Trapezes nach der Formel A(F_TR)=h·(g1+g2)/2 für h=3, g1=8 und g2=4 (dimensionslos).",
+    "question": "Berechne den Flächeninhalt eines Trapezes nach der Formel $A(F_{TR}) = \\frac{h \\cdot (g_1 + g_2)}{2}$ für $h = 3$, $g_1 = 8$ und $g_2 = 4$ (dimensionslos).",
     "answer": 18,
     "tolerance": 0,
     "unit": "",
-    "explanation": "A(F_TR)=h·(g1+g2)/2 = 3·(8+4)/2 = 3·12/2 = 18. 📄 Quelle: ari23_vl07, Folie 16 (S.16)",
+    "explanation": "$A(F_{TR}) = \\frac{h \\cdot (g_1 + g_2)}{2} = \\frac{3 \\cdot (8 + 4)}{2} = \\frac{3 \\cdot 12}{2} = 18$. 📄 Quelle: ari23_vl07, Folie 16 (S.16)",
     "source": "ari23_vl07, Folie 16 (S.16, Geometrie)"
   },
   {
@@ -16674,9 +16674,9 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Worauf beruht die 2. Idee zur Herleitung der Trapezformel?",
     "options": [
-      "Das Trapez wird in ein flächengleiches Rechteck umgewandelt (A(F_TR)=A(F_R))",
-      "Es gilt A(F_TR)=1/2·h·(g1+g2)=h/2·(g1+g2)",
-      "Das Ergebnis ist A(F_TR)=h·(g1+g2)/2",
+      "Das Trapez wird in ein flächengleiches Rechteck umgewandelt ($A(F_{TR}) = A(F_R)$)",
+      "Es gilt $A(F_{TR}) = \\frac{1}{2} \\cdot h \\cdot (g_1 + g_2) = \\frac{h}{2} \\cdot (g_1 + g_2)$",
+      "Das Ergebnis ist $A(F_{TR}) = \\frac{h \\cdot (g_1 + g_2)}{2}$",
       "Die 2. Idee liefert einen anderen Trapez-Flächeninhalt als die 1. Idee"
     ],
     "correct": [
@@ -16684,7 +16684,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Die 2. Idee wandelt das Trapez in ein flächengleiches Rechteck um: A(F_TR)=A(F_R)=1/2·h·(g1+g2)=h/2·(g1+g2)=h·(g1+g2)/2 — dasselbe Ergebnis wie die 1. Idee. 📄 Quelle: ari23_vl07, Folie 17 (S.17)",
+    "explanation": "Die 2. Idee wandelt das Trapez in ein flächengleiches Rechteck um: $A(F_{TR}) = A(F_R) = \\frac{1}{2} \\cdot h \\cdot (g_1 + g_2) = \\frac{h}{2} \\cdot (g_1 + g_2) = \\frac{h \\cdot (g_1 + g_2)}{2}$ — dasselbe Ergebnis wie die 1. Idee. 📄 Quelle: ari23_vl07, Folie 17 (S.17)",
     "source": "ari23_vl07, Folie 17 (S.17, Geometrie)"
   },
   {
@@ -16692,11 +16692,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "flaecheninhalte",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Nach der 2. Idee gilt A(F_TR)=h/2·(g1+g2). Berechne den Flächeninhalt für h=10, g1=7 und g2=3 (dimensionslos).",
+    "question": "Nach der 2. Idee gilt $A(F_{TR}) = \\frac{h}{2} \\cdot (g_1 + g_2)$. Berechne den Flächeninhalt für $h = 10$, $g_1 = 7$ und $g_2 = 3$ (dimensionslos).",
     "answer": 50,
     "tolerance": 0,
     "unit": "",
-    "explanation": "A(F_TR)=h/2·(g1+g2)=10/2·(7+3)=5·10=50. 📄 Quelle: ari23_vl07, Folie 17 (S.17)",
+    "explanation": "$A(F_{TR}) = \\frac{h}{2} \\cdot (g_1 + g_2) = \\frac{10}{2} \\cdot (7 + 3) = 5 \\cdot 10 = 50$. 📄 Quelle: ari23_vl07, Folie 17 (S.17)",
     "source": "ari23_vl07, Folie 17 (S.17, Geometrie)"
   },
   {
@@ -16724,8 +16724,8 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Aussagen zur 3. Idee (Nutzung der Zerlegungsgleichheit bei der Herleitung der Trapezformel) sind korrekt?",
     "options": [
-      "Es gilt A(F_TR)=A(F_R)=1/2·h·(g1+g2)=h/2·(g1+g2)=h·(g1+g2)/2",
-      "Das zugehörige Rechteck hat die Höhe ½·h",
+      "Es gilt $A(F_{TR}) = A(F_R) = \\frac{1}{2} \\cdot h \\cdot (g_1 + g_2) = \\frac{h}{2} \\cdot (g_1 + g_2) = \\frac{h \\cdot (g_1 + g_2)}{2}$",
+      "Das zugehörige Rechteck hat die Höhe $\\frac{1}{2} \\cdot h$",
       "Zerlegungsgleiche Figuren haben nach dem Satz den gleichen Flächeninhalt",
       "Der Satz über die Zerlegungsgleichheit setzt voraus, dass die Figuren deckungsgleich (kongruent) sind"
     ],
@@ -16734,7 +16734,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Die 3. Idee nutzt die Zerlegungsgleichheit; das Rechteck hat die Höhe ½·h und es gilt A(F_TR)=A(F_R)=h·(g1+g2)/2. Der Satz verlangt Zerlegungsgleichheit, nicht Kongruenz der Figuren. 📄 Quelle: ari23_vl07, Folie 18 (S.18)",
+    "explanation": "Die 3. Idee nutzt die Zerlegungsgleichheit; das Rechteck hat die Höhe $\\frac{1}{2} \\cdot h$ und es gilt $A(F_{TR}) = A(F_R) = \\frac{h \\cdot (g_1 + g_2)}{2}$. Der Satz verlangt Zerlegungsgleichheit, nicht Kongruenz der Figuren. 📄 Quelle: ari23_vl07, Folie 18 (S.18)",
     "source": "ari23_vl07, Folie 18 (S.18, Geometrie)"
   },
   {
@@ -16744,17 +16744,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Die allgemeine Trapezformel umfasst Sonderfälle. Welche Aussagen dazu sind korrekt?",
     "options": [
-      "Für das Parallelogramm gilt g2=g1, und A(F_P)=h·(g1+g1)/2=h·(2·g1)/2=h·g1",
-      "Für das Dreieck gilt g2=0, und A(F_D)=h·(g1+0)/2=h·g1/2",
-      "Die allgemeine Trapezformel lautet A(F_TR)=h·(g1+g2)/2",
-      "Für das Dreieck gilt g2=g1"
+      "Für das Parallelogramm gilt $g_2 = g_1$, und $A(F_P) = \\frac{h \\cdot (g_1 + g_1)}{2} = \\frac{h \\cdot (2 \\cdot g_1)}{2} = h \\cdot g_1$",
+      "Für das Dreieck gilt $g_2 = 0$, und $A(F_D) = \\frac{h \\cdot (g_1 + 0)}{2} = \\frac{h \\cdot g_1}{2}$",
+      "Die allgemeine Trapezformel lautet $A(F_{TR}) = \\frac{h \\cdot (g_1 + g_2)}{2}$",
+      "Für das Dreieck gilt $g_2 = g_1$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Setzt man g2=g1, erhält man das Parallelogramm mit A(F_P)=h·g1; setzt man g2=0, erhält man das Dreieck mit A(F_D)=h·g1/2. Beide folgen aus A(F_TR)=h·(g1+g2)/2. Beim Dreieck ist g2=0, nicht g2=g1. 📄 Quelle: ari23_vl07, Folie 19 (S.19)",
+    "explanation": "Setzt man $g_2 = g_1$, erhält man das Parallelogramm mit $A(F_P) = h \\cdot g_1$; setzt man $g_2 = 0$, erhält man das Dreieck mit $A(F_D) = \\frac{h \\cdot g_1}{2}$. Beide folgen aus $A(F_{TR}) = \\frac{h \\cdot (g_1 + g_2)}{2}$. Beim Dreieck ist $g_2 = 0$, nicht $g_2 = g_1$. 📄 Quelle: ari23_vl07, Folie 19 (S.19)",
     "source": "ari23_vl07, Folie 19 (S.19, Geometrie)"
   },
   {
@@ -16762,11 +16762,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "flaecheninhalte",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Setzt man in der Trapezformel g2=0 (Sonderfall Dreieck), so gilt A(F_D)=h·g1/2. Berechne den Flächeninhalt für g1=10 und h=6 (dimensionslos).",
+    "question": "Setzt man in der Trapezformel $g_2 = 0$ (Sonderfall Dreieck), so gilt $A(F_D) = \\frac{h \\cdot g_1}{2}$. Berechne den Flächeninhalt für $g_1 = 10$ und $h = 6$ (dimensionslos).",
     "answer": 30,
     "tolerance": 0,
     "unit": "",
-    "explanation": "A(F_D)=h·g1/2 = 6·10/2 = 30. 📄 Quelle: ari23_vl07, Folie 19 (S.19)",
+    "explanation": "$A(F_D) = \\frac{h \\cdot g_1}{2} = \\frac{6 \\cdot 10}{2} = 30$. 📄 Quelle: ari23_vl07, Folie 19 (S.19)",
     "source": "ari23_vl07, Folie 19 (S.19, Geometrie)"
   },
   {
@@ -16794,17 +16794,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "flaecheninhalte",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lautet der Flächeninhalt eines (symmetrischen) Drachens mit den Diagonalen d1 und d2?",
+    "question": "Wie lautet der Flächeninhalt eines (symmetrischen) Drachens mit den Diagonalen $d_1$ und $d_2$?",
     "options": [
-      "A(F_DR)=d1·d2/2",
-      "A(F_DR)=d1·d2",
-      "A(F_DR)=(d1+d2)/2",
-      "A(F_DR)=h·(d1+d2)/2"
+      "$A(F_{DR}) = \\frac{d_1 \\cdot d_2}{2}$",
+      "$A(F_{DR}) = d_1 \\cdot d_2$",
+      "$A(F_{DR}) = \\frac{d_1 + d_2}{2}$",
+      "$A(F_{DR}) = \\frac{h \\cdot (d_1 + d_2)}{2}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie steht A(F_DR)=d1·d2/2 (halbes Produkt der Diagonalen). 📄 Quelle: ari23_vl07, Folie 20 (S.20)",
+    "explanation": "Auf der Folie steht $A(F_{DR}) = \\frac{d_1 \\cdot d_2}{2}$ (halbes Produkt der Diagonalen). 📄 Quelle: ari23_vl07, Folie 20 (S.20)",
     "source": "ari23_vl07, Folie 20 (S.20, Geometrie)"
   },
   {
@@ -16812,11 +16812,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "flaecheninhalte",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Berechne nach der Drachenformel A(F_DR)=d1·d2/2 den Flächeninhalt für die Diagonalen d1=6 und d2=8 (dimensionslos).",
+    "question": "Berechne nach der Drachenformel $A(F_{DR}) = \\frac{d_1 \\cdot d_2}{2}$ den Flächeninhalt für die Diagonalen $d_1 = 6$ und $d_2 = 8$ (dimensionslos).",
     "answer": 24,
     "tolerance": 0,
     "unit": "",
-    "explanation": "A(F_DR)=d1·d2/2 = 6·8/2 = 24. 📄 Quelle: ari23_vl07, Folie 20 (S.20)",
+    "explanation": "$A(F_{DR}) = \\frac{d_1 \\cdot d_2}{2} = \\frac{6 \\cdot 8}{2} = 24$. 📄 Quelle: ari23_vl07, Folie 20 (S.20)",
     "source": "ari23_vl07, Folie 20 (S.20, Geometrie)"
   },
   {
@@ -16828,7 +16828,7 @@ const SAMPLE_QUESTIONS = [
     "options": [
       "Voraussetzung ist, dass das Dreieck ABC rechtwinklig ist",
       "Behauptung: Die Summe der Flächeninhalte der Quadrate über den Katheten ist gleich dem Flächeninhalt des Quadrats über der Hypotenuse",
-      "In Formeln gilt a²+b²=c²",
+      "In Formeln gilt $a^2 + b^2 = c^2$",
       "Der Satz gilt für jedes beliebige (auch nicht rechtwinklige) Dreieck"
     ],
     "correct": [
@@ -16836,7 +16836,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Voraussetzung ('Wenn') ist die Rechtwinkligkeit von ABC; die Behauptung ('dann') ist a²+b²=c², d. h. die Quadrate über den Katheten ergeben zusammen das Quadrat über der Hypotenuse. Ohne Rechtwinkligkeit gilt der Satz nicht. 📄 Quelle: ari23_vl07, Folie 23 (S.23)",
+    "explanation": "Voraussetzung ('Wenn') ist die Rechtwinkligkeit von ABC; die Behauptung ('dann') ist $a^2 + b^2 = c^2$, d. h. die Quadrate über den Katheten ergeben zusammen das Quadrat über der Hypotenuse. Ohne Rechtwinkligkeit gilt der Satz nicht. 📄 Quelle: ari23_vl07, Folie 23 (S.23)",
     "source": "ari23_vl07, Folie 23 (S.23, Geometrie)"
   },
   {
@@ -16844,7 +16844,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "pythagoras",
     "difficulty": 1,
     "type": "single",
-    "question": "In der Formel a²+b²=c² des Satzes des Pythagoras bezeichnet c …",
+    "question": "In der Formel $a^2 + b^2 = c^2$ des Satzes des Pythagoras bezeichnet c …",
     "options": [
       "die Hypotenuse",
       "eine Kathete",
@@ -16854,7 +16854,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "c² ist der Flächeninhalt des Quadrats über der Hypotenuse; a und b sind die Katheten. 📄 Quelle: ari23_vl07, Folie 23 (S.23)",
+    "explanation": "$c^2$ ist der Flächeninhalt des Quadrats über der Hypotenuse; a und b sind die Katheten. 📄 Quelle: ari23_vl07, Folie 23 (S.23)",
     "source": "ari23_vl07, Folie 23 (S.23, Geometrie)"
   },
   {
@@ -16880,11 +16880,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "pythagoras",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Das große (äußere) Quadrat im Beweis des Satzes des Pythagoras hat die Seitenlänge (a+b), also A(F_gQ)=(a+b)²=a²+2ab+b². Berechne den Flächeninhalt für a=3 und b=4 (dimensionslos).",
+    "question": "Das große (äußere) Quadrat im Beweis des Satzes des Pythagoras hat die Seitenlänge $(a+b)$, also $A(F_{gQ}) = (a+b)^2 = a^2 + 2ab + b^2$. Berechne den Flächeninhalt für $a = 3$ und $b = 4$ (dimensionslos).",
     "answer": 49,
     "tolerance": 0,
     "unit": "",
-    "explanation": "A(F_gQ)=(a+b)²=(3+4)²=7²=49 (bzw. a²+2ab+b²=9+24+16=49). 📄 Quelle: ari23_vl07, Folie 26 (S.26)",
+    "explanation": "$A(F_{gQ}) = (a+b)^2 = (3+4)^2 = 7^2 = 49$ (bzw. $a^2 + 2ab + b^2 = 9 + 24 + 16 = 49$). 📄 Quelle: ari23_vl07, Folie 26 (S.26)",
     "source": "ari23_vl07, Folie 26 (S.26, Geometrie)"
   },
   {
@@ -16892,11 +16892,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "pythagoras",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Aussagen gehören zum Ergänzungsbeweis des Satzes des Pythagoras (mit einem äußeren Quadrat der Seitenlänge a+b)?",
+    "question": "Welche Aussagen gehören zum Ergänzungsbeweis des Satzes des Pythagoras (mit einem äußeren Quadrat der Seitenlänge $a+b$)?",
     "options": [
-      "Für das große Quadrat gilt A(F_gQ)=(a+b)²=a²+2ab+b²",
+      "Für das große Quadrat gilt $A(F_{gQ}) = (a+b)^2 = a^2 + 2ab + b^2$",
       "Die vier Dreiecke mit den Seiten a, b und c sind zueinander kongruent (SSS)",
-      "Da α+β=90°, sind die Innenwinkel des kleineren (inneren) Vierecks rechtwinklig",
+      "Da $\\alpha + \\beta = 90^\\circ$, sind die Innenwinkel des kleineren (inneren) Vierecks rechtwinklig",
       "Das innere Viereck ist ein allgemeines Parallelogramm ohne rechte Winkel"
     ],
     "correct": [
@@ -16904,7 +16904,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Das äußere Quadrat hat Flächeninhalt (a+b)²=a²+2ab+b²; die vier Dreiecke sind nach SSS kongruent; wegen α+β=90° hat das innere Viereck rechte Innenwinkel, ist also ein Quadrat (mit Seite c) – nicht ein Parallelogramm ohne rechte Winkel. 📄 Quelle: ari23_vl07, Folie 26 (S.26)",
+    "explanation": "Das äußere Quadrat hat Flächeninhalt $(a+b)^2 = a^2 + 2ab + b^2$; die vier Dreiecke sind nach SSS kongruent; wegen $\\alpha + \\beta = 90^\\circ$ hat das innere Viereck rechte Innenwinkel, ist also ein Quadrat (mit Seite c) – nicht ein Parallelogramm ohne rechte Winkel. 📄 Quelle: ari23_vl07, Folie 26 (S.26)",
     "source": "ari23_vl07, Folie 26 (S.26, Geometrie)"
   },
   {
@@ -16912,19 +16912,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "pythagoras",
     "difficulty": 3,
     "type": "multi",
-    "question": "Aus 'A(F_gQ)=4·A(F_D)+A(F_kQ)' ergeben sich im Beweis des Satzes des Pythagoras welche Gleichungen?",
+    "question": "Aus '$A(F_{gQ}) = 4 \\cdot A(F_D) + A(F_{kQ})$' ergeben sich im Beweis des Satzes des Pythagoras welche Gleichungen?",
     "options": [
-      "(a+b)²=4·(a·b/2)+c²",
-      "a²+2ab+b²=2ab+c²",
-      "also a²+b²=c²",
-      "also a²+b²=2c²"
+      "$(a+b)^2 = 4 \\cdot \\frac{a \\cdot b}{2} + c^2$",
+      "$a^2 + 2ab + b^2 = 2ab + c^2$",
+      "also $a^2 + b^2 = c^2$",
+      "also $a^2 + b^2 = 2c^2$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Das große Quadrat ist gleich vier Dreiecken (je a·b/2) plus dem inneren Quadrat c²: (a+b)²=4·(a·b/2)+c². Ausmultipliziert a²+2ab+b²=2ab+c², nach Kürzen von 2ab folgt a²+b²=c² (nicht 2c²). 📄 Quelle: ari23_vl07, Folie 26 (S.26)",
+    "explanation": "Das große Quadrat ist gleich vier Dreiecken (je $\\frac{a \\cdot b}{2}$) plus dem inneren Quadrat $c^2$: $(a+b)^2 = 4 \\cdot \\frac{a \\cdot b}{2} + c^2$. Ausmultipliziert $a^2 + 2ab + b^2 = 2ab + c^2$, nach Kürzen von $2ab$ folgt $a^2 + b^2 = c^2$ (nicht $2c^2$). 📄 Quelle: ari23_vl07, Folie 26 (S.26)",
     "source": "ari23_vl07, Folie 26 (S.26, Geometrie)"
   },
   {
@@ -16935,7 +16935,7 @@ const SAMPLE_QUESTIONS = [
     "question": "Der (Katheten-)Satz lautet: 'Für alle Dreiecke ABC gilt: Wenn ABC rechtwinklig ist, dann …'. Welche Aussagen sind korrekt?",
     "options": [
       "Der Flächeninhalt des Quadrats über einer Kathete ist gleich dem Flächeninhalt des Rechtecks aus anliegendem Hypotenusenabschnitt und Hypotenuse",
-      "In Formeln gilt a²=p·c",
+      "In Formeln gilt $a^2 = p \\cdot c$",
       "Voraussetzung ist, dass das Dreieck ABC rechtwinklig ist",
       "Der Satz gilt für jedes beliebige Dreieck"
     ],
@@ -16944,7 +16944,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Der Kathetensatz besagt bei Rechtwinkligkeit: a²=p·c, d. h. das Quadrat über einer Kathete ist flächengleich dem Rechteck aus anliegendem Hypotenusenabschnitt p und Hypotenuse c. Ohne Rechtwinkligkeit gilt er nicht. 📄 Quelle: ari23_vl07, Folie 30 (S.30)",
+    "explanation": "Der Kathetensatz besagt bei Rechtwinkligkeit: $a^2 = p \\cdot c$, d. h. das Quadrat über einer Kathete ist flächengleich dem Rechteck aus anliegendem Hypotenusenabschnitt p und Hypotenuse c. Ohne Rechtwinkligkeit gilt er nicht. 📄 Quelle: ari23_vl07, Folie 30 (S.30)",
     "source": "ari23_vl07, Folie 30 (S.30, Geometrie)"
   },
   {
@@ -16952,11 +16952,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "pythagoras",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Nach dem Kathetensatz gilt a²=p·c. Berechne die Kathete a für den Hypotenusenabschnitt p=4 und die Hypotenuse c=9 (dimensionslos).",
+    "question": "Nach dem Kathetensatz gilt $a^2 = p \\cdot c$. Berechne die Kathete a für den Hypotenusenabschnitt $p = 4$ und die Hypotenuse $c = 9$ (dimensionslos).",
     "answer": 6,
     "tolerance": 0,
     "unit": "",
-    "explanation": "a²=p·c=4·9=36, also a=√36=6. 📄 Quelle: ari23_vl07, Folie 30 (S.30)",
+    "explanation": "$a^2 = p \\cdot c = 4 \\cdot 9 = 36$, also $a = \\sqrt{36} = 6$. 📄 Quelle: ari23_vl07, Folie 30 (S.30)",
     "source": "ari23_vl07, Folie 30 (S.30, Geometrie)"
   },
   {
@@ -16968,7 +16968,7 @@ const SAMPLE_QUESTIONS = [
     "options": [
       "Voraussetzung: Das Dreieck ABC ist rechtwinklig",
       "Der Flaecheninhalt des Quadrats ueber einer Kathete ist gleich dem Flaecheninhalt des Rechtecks aus anliegendem Hypotenusenabschnitt und Hypotenuse",
-      "Es gilt a^2 = p·c",
+      "Es gilt $a^2 = p \\cdot c$",
       "Die Aussage gilt fuer beliebige Dreiecke ohne jede Voraussetzung"
     ],
     "correct": [
@@ -16976,7 +16976,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Der Katheten-Satz gilt unter der Voraussetzung, dass ABC rechtwinklig ist; dann ist das Quadrat ueber einer Kathete flaechengleich dem Rechteck aus anliegendem Hypotenusenabschnitt und Hypotenuse, also a^2 = p·c. 📄 Quelle: ari23_vl07, Folie 31 (S.31)",
+    "explanation": "Der Katheten-Satz gilt unter der Voraussetzung, dass ABC rechtwinklig ist; dann ist das Quadrat ueber einer Kathete flaechengleich dem Rechteck aus anliegendem Hypotenusenabschnitt und Hypotenuse, also $a^2 = p \\cdot c$. 📄 Quelle: ari23_vl07, Folie 31 (S.31)",
     "source": "ari23_vl07, Folie 31 (S.31, Satzgruppe des Pythagoras - Kathetensatz)"
   },
   {
@@ -16986,15 +16986,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Welche Formel gibt der (Katheten-)Satz an?",
     "options": [
-      "a^2 = p·c",
-      "a^2 = p·q",
-      "h_c^2 = p·q",
-      "a^2 + b^2 = c^2"
+      "$a^2 = p \\cdot c$",
+      "$a^2 = p \\cdot q$",
+      "$h_c^2 = p \\cdot q$",
+      "$a^2 + b^2 = c^2$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Katheten-Satz lautet auf der Folie a^2 = p·c (Quadrat ueber der Kathete gleich Rechteck aus anliegendem Hypotenusenabschnitt p und Hypotenuse c). 📄 Quelle: ari23_vl07, Folie 31 (S.31)",
+    "explanation": "Der Katheten-Satz lautet auf der Folie $a^2 = p \\cdot c$ (Quadrat ueber der Kathete gleich Rechteck aus anliegendem Hypotenusenabschnitt p und Hypotenuse c). 📄 Quelle: ari23_vl07, Folie 31 (S.31)",
     "source": "ari23_vl07, Folie 31 (S.31, Satzgruppe des Pythagoras - Kathetensatz)"
   },
   {
@@ -17004,17 +17004,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Von welchen Beziehungen geht der Beweis des Kathetensatzes aus ('Wir wissen, dass ...')?",
     "options": [
-      "a^2 + b^2 = c^2 (Satz des Pythagoras)",
-      "c = p + q",
-      "a^2 = h_c^2 + p^2",
-      "c = p - q"
+      "$a^2 + b^2 = c^2$ (Satz des Pythagoras)",
+      "$c = p + q$",
+      "$a^2 = h_c^2 + p^2$",
+      "$c = p - q$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Der Beweis startet mit a^2 + b^2 = c^2 (Satz des Pythagoras), mit c = p + q und erhaelt daraus b^2 = h_c^2 + q^2 sowie a^2 = h_c^2 + p^2. c = p - q ist falsch. 📄 Quelle: ari23_vl07, Folie 31 (S.31)",
+    "explanation": "Der Beweis startet mit $a^2 + b^2 = c^2$ (Satz des Pythagoras), mit $c = p + q$ und erhaelt daraus $b^2 = h_c^2 + q^2$ sowie $a^2 = h_c^2 + p^2$. $c = p - q$ ist falsch. 📄 Quelle: ari23_vl07, Folie 31 (S.31)",
     "source": "ari23_vl07, Folie 31 (S.31, Satzgruppe des Pythagoras - Kathetensatz, Beweis)"
   },
   {
@@ -17024,17 +17024,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Hilfsgleichungen (1)-(4) werden im Kathetensatz-Beweis verwendet?",
     "options": [
-      "(1) a^2 + b^2 = c^2",
-      "(2) c = p + q",
-      "(3) b^2 = h_c^2 + q^2",
-      "(4) a^2 = h_c^2 - p^2"
+      "(1) $a^2 + b^2 = c^2$",
+      "(2) $c = p + q$",
+      "(3) $b^2 = h_c^2 + q^2$",
+      "(4) $a^2 = h_c^2 - p^2$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie nummeriert (1) a^2+b^2=c^2, (2) c=p+q, (3) b^2=h_c^2+q^2 und (4) a^2=h_c^2+p^2. Die Variante mit Minus (h_c^2 - p^2) ist falsch. 📄 Quelle: ari23_vl07, Folie 32 (S.32)",
+    "explanation": "Die Folie nummeriert (1) $a^2 + b^2 = c^2$, (2) $c = p + q$, (3) $b^2 = h_c^2 + q^2$ und (4) $a^2 = h_c^2 + p^2$. Die Variante mit Minus ($h_c^2 - p^2$) ist falsch. 📄 Quelle: ari23_vl07, Folie 32 (S.32)",
     "source": "ari23_vl07, Folie 32 (S.32, Satzgruppe des Pythagoras - Kathetensatz, Beweis)"
   },
   {
@@ -17044,17 +17044,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Umformungen werden im Kathetensatz-Beweis vorgenommen?",
     "options": [
-      "Mit (1) ergibt sich a^2 = c^2 - b^2",
-      "Mit (2) und (3) folgt a^2 = (p+q)^2 - (h_c^2 + q^2)",
-      "Ausmultipliziert erhaelt man p^2 + 2pq - h_c^2",
-      "Mit (1) ergibt sich a^2 = c^2 + b^2"
+      "Mit (1) ergibt sich $a^2 = c^2 - b^2$",
+      "Mit (2) und (3) folgt $a^2 = (p+q)^2 - (h_c^2 + q^2)$",
+      "Ausmultipliziert erhaelt man $p^2 + 2pq - h_c^2$",
+      "Mit (1) ergibt sich $a^2 = c^2 + b^2$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Aus (1) folgt a^2 = c^2 - b^2; Einsetzen von (2) und (3) liefert a^2 = (p+q)^2 - (h_c^2 + q^2) = p^2 + 2pq + q^2 - h_c^2 - q^2 = p^2 + 2pq - h_c^2. a^2 = c^2 + b^2 ist falsch. 📄 Quelle: ari23_vl07, Folie 32 (S.32)",
+    "explanation": "Aus (1) folgt $a^2 = c^2 - b^2$; Einsetzen von (2) und (3) liefert $a^2 = (p+q)^2 - (h_c^2 + q^2) = p^2 + 2pq + q^2 - h_c^2 - q^2 = p^2 + 2pq - h_c^2$. $a^2 = c^2 + b^2$ ist falsch. 📄 Quelle: ari23_vl07, Folie 32 (S.32)",
     "source": "ari23_vl07, Folie 32 (S.32, Satzgruppe des Pythagoras - Kathetensatz, Beweis)"
   },
   {
@@ -17062,17 +17062,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "pythagoras",
     "difficulty": 2,
     "type": "single",
-    "question": "Im Kathetensatz-Beweis wurde a^2 = p^2 + 2pq - h_c^2 hergeleitet. Welcher Ausdruck ergibt sich für a^2 nach Einsetzen von (4) a^2 = h_c^2 + p^2 (also h_c^2 = a^2 - p^2)?",
+    "question": "Im Kathetensatz-Beweis wurde $a^2 = p^2 + 2pq - h_c^2$ hergeleitet. Welcher Ausdruck ergibt sich für $a^2$ nach Einsetzen von (4) $a^2 = h_c^2 + p^2$ (also $h_c^2 = a^2 - p^2$)?",
     "options": [
-      "2p^2 + 2pq - a^2",
-      "p^2 + 2pq - a^2",
-      "2p^2 + 2pq + a^2",
-      "p^2 + 2pq"
+      "$2p^2 + 2pq - a^2$",
+      "$p^2 + 2pq - a^2$",
+      "$2p^2 + 2pq + a^2$",
+      "$p^2 + 2pq$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Aus p^2 + 2pq - h_c^2 wird mit (4) h_c^2 = a^2 - p^2: p^2 + 2pq - (a^2 - p^2) = p^2 + 2pq - a^2 + p^2 = 2p^2 + 2pq - a^2. 📄 Quelle: ari23_vl07, Folie 32 (S.32)",
+    "explanation": "Aus $p^2 + 2pq - h_c^2$ wird mit (4) $h_c^2 = a^2 - p^2$: $p^2 + 2pq - (a^2 - p^2) = p^2 + 2pq - a^2 + p^2 = 2p^2 + 2pq - a^2$. 📄 Quelle: ari23_vl07, Folie 32 (S.32)",
     "source": "ari23_vl07, Folie 32 (S.32, Satzgruppe des Pythagoras - Kathetensatz, Beweis)"
   },
   {
@@ -17082,17 +17082,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Schritte führen im Kathetensatz-Beweis zum Ergebnis?",
     "options": [
-      "Aus a^2 = 2p^2 + 2pq - a^2 folgt 2a^2 = 2p^2 + 2pq",
-      "2a^2 = 2p·(p+q), also a^2 = p·(p+q)",
-      "Mit (2) c = p + q folgt a^2 = p·c",
-      "Es folgt a^2 = p + c"
+      "Aus $a^2 = 2p^2 + 2pq - a^2$ folgt $2a^2 = 2p^2 + 2pq$",
+      "$2a^2 = 2p \\cdot (p+q)$, also $a^2 = p \\cdot (p+q)$",
+      "Mit (2) $c = p + q$ folgt $a^2 = p \\cdot c$",
+      "Es folgt $a^2 = p + c$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Aus a^2 = 2p^2 + 2pq - a^2 folgt 2a^2 = 2p^2 + 2pq = 2p·(p+q), also a^2 = p·(p+q); mit (2) c = p+q ergibt sich a^2 = p·c. a^2 = p + c ist falsch. 📄 Quelle: ari23_vl07, Folie 33 (S.33)",
+    "explanation": "Aus $a^2 = 2p^2 + 2pq - a^2$ folgt $2a^2 = 2p^2 + 2pq = 2p \\cdot (p+q)$, also $a^2 = p \\cdot (p+q)$; mit (2) $c = p+q$ ergibt sich $a^2 = p \\cdot c$. $a^2 = p + c$ ist falsch. 📄 Quelle: ari23_vl07, Folie 33 (S.33)",
     "source": "ari23_vl07, Folie 33 (S.33, Satzgruppe des Pythagoras - Kathetensatz, Beweis)"
   },
   {
@@ -17100,17 +17100,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "pythagoras",
     "difficulty": 1,
     "type": "single",
-    "question": "Was gilt im Kathetensatz entsprechend für b^2 (mit dem Hypotenusenabschnitt q)?",
+    "question": "Was gilt im Kathetensatz entsprechend für $b^2$ (mit dem Hypotenusenabschnitt q)?",
     "options": [
-      "b^2 = q·c",
-      "b^2 = p·c",
-      "b^2 = p·q",
-      "b^2 = q + c"
+      "$b^2 = q \\cdot c$",
+      "$b^2 = p \\cdot c$",
+      "$b^2 = p \\cdot q$",
+      "$b^2 = q + c$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie haelt fest: 'Entsprechend zeigt man, dass auch b^2 = q·c gilt.' 📄 Quelle: ari23_vl07, Folie 33 (S.33)",
+    "explanation": "Die Folie haelt fest: 'Entsprechend zeigt man, dass auch $b^2 = q \\cdot c$ gilt.' 📄 Quelle: ari23_vl07, Folie 33 (S.33)",
     "source": "ari23_vl07, Folie 33 (S.33, Satzgruppe des Pythagoras - Kathetensatz, Beweis)"
   },
   {
@@ -17122,15 +17122,15 @@ const SAMPLE_QUESTIONS = [
     "options": [
       "Voraussetzung: Das Dreieck ABC ist rechtwinklig",
       "Der Flaecheninhalt des Quadrats ueber der Hoehe zur Hypotenuse ist gleich dem Flaecheninhalt des Rechtecks aus den beiden Hypotenusenabschnitten",
-      "Es gilt h_c^2 = p·q",
-      "Es gilt h_c^2 = p·c"
+      "Es gilt $h_c^2 = p \\cdot q$",
+      "Es gilt $h_c^2 = p \\cdot c$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Der Hoehensatz gilt unter der Voraussetzung, dass ABC rechtwinklig ist; dann ist das Quadrat ueber der Hoehe h_c flaechengleich dem Rechteck aus den beiden Hypotenusenabschnitten p und q, also h_c^2 = p·q. h_c^2 = p·c ist falsch. 📄 Quelle: ari23_vl07, Folie 34 (S.34)",
+    "explanation": "Der Hoehensatz gilt unter der Voraussetzung, dass ABC rechtwinklig ist; dann ist das Quadrat ueber der Hoehe $h_c$ flaechengleich dem Rechteck aus den beiden Hypotenusenabschnitten p und q, also $h_c^2 = p \\cdot q$. $h_c^2 = p \\cdot c$ ist falsch. 📄 Quelle: ari23_vl07, Folie 34 (S.34)",
     "source": "ari23_vl07, Folie 34 (S.34, Satzgruppe des Pythagoras - Hoehensatz)"
   },
   {
@@ -17140,15 +17140,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Welche Formel gehört zum (Höhen-)Satz?",
     "options": [
-      "h_c^2 = p·q",
-      "h_c^2 = p·c",
-      "a^2 = p·c",
-      "h_c^2 = a^2 + p^2"
+      "$h_c^2 = p \\cdot q$",
+      "$h_c^2 = p \\cdot c$",
+      "$a^2 = p \\cdot c$",
+      "$h_c^2 = a^2 + p^2$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Hoehensatz lautet auf der Folie h_c^2 = p·q. 📄 Quelle: ari23_vl07, Folie 34 (S.34)",
+    "explanation": "Der Hoehensatz lautet auf der Folie $h_c^2 = p \\cdot q$. 📄 Quelle: ari23_vl07, Folie 34 (S.34)",
     "source": "ari23_vl07, Folie 34 (S.34, Satzgruppe des Pythagoras - Hoehensatz)"
   },
   {
@@ -17158,16 +17158,16 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Von welchen Beziehungen geht der Beweis des Höhensatzes aus ('Wir wissen, dass ...')?",
     "options": [
-      "c = p + q",
-      "a^2 = p·c (Katheten-Satz)",
-      "h_c^2 = p·q",
-      "c = p·q"
+      "$c = p + q$",
+      "$a^2 = p \\cdot c$ (Katheten-Satz)",
+      "$h_c^2 = p \\cdot q$",
+      "$c = p \\cdot q$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Der Beweis geht aus von c = p + q und a^2 = p·c (Katheten-Satz). h_c^2 = p·q ist erst die zu beweisende Behauptung; c = p·q ist falsch. 📄 Quelle: ari23_vl07, Folie 35 (S.35)",
+    "explanation": "Der Beweis geht aus von $c = p + q$ und $a^2 = p \\cdot c$ (Katheten-Satz). $h_c^2 = p \\cdot q$ ist erst die zu beweisende Behauptung; $c = p \\cdot q$ ist falsch. 📄 Quelle: ari23_vl07, Folie 35 (S.35)",
     "source": "ari23_vl07, Folie 35 (S.35, Satzgruppe des Pythagoras - Hoehensatz, Beweis)"
   },
   {
@@ -17175,7 +17175,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "pythagoras",
     "difficulty": 1,
     "type": "single",
-    "question": "Welcher Satz wird herangezogen, um a^2 = p·c zu begründen?",
+    "question": "Welcher Satz wird herangezogen, um $a^2 = p \\cdot c$ zu begründen?",
     "options": [
       "Katheten-Satz",
       "Hoehen-Satz",
@@ -17185,7 +17185,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Die Folie kennzeichnet a^2 = p·c ausdruecklich als Katheten-Satz. 📄 Quelle: ari23_vl07, Folie 35 (S.35)",
+    "explanation": "Die Folie kennzeichnet $a^2 = p \\cdot c$ ausdruecklich als Katheten-Satz. 📄 Quelle: ari23_vl07, Folie 35 (S.35)",
     "source": "ari23_vl07, Folie 35 (S.35, Satzgruppe des Pythagoras - Hoehensatz, Beweis)"
   },
   {
@@ -17195,17 +17195,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Schritte enthält der Höhensatz-Beweis?",
     "options": [
-      "a^2 = h_c^2 + p^2 (Satz des Pythagoras), also h_c^2 = a^2 - p^2",
-      "Mit (2) a^2 = p·c folgt h_c^2 = p·c - p^2 = p·(c - p)",
-      "Mit (1) c = p + q folgt h_c^2 = p·q",
-      "Mit (1) folgt h_c^2 = p + q"
+      "$a^2 = h_c^2 + p^2$ (Satz des Pythagoras), also $h_c^2 = a^2 - p^2$",
+      "Mit (2) $a^2 = p \\cdot c$ folgt $h_c^2 = p \\cdot c - p^2 = p \\cdot (c - p)$",
+      "Mit (1) $c = p + q$ folgt $h_c^2 = p \\cdot q$",
+      "Mit (1) folgt $h_c^2 = p + q$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Aus a^2 = h_c^2 + p^2 folgt h_c^2 = a^2 - p^2; mit (2) a^2 = p·c wird daraus p·c - p^2 = p·(c - p); mit (1) c = p + q folgt c - p = q, also h_c^2 = p·q. h_c^2 = p + q ist falsch. 📄 Quelle: ari23_vl07, Folie 36 (S.36)",
+    "explanation": "Aus $a^2 = h_c^2 + p^2$ folgt $h_c^2 = a^2 - p^2$; mit (2) $a^2 = p \\cdot c$ wird daraus $p \\cdot c - p^2 = p \\cdot (c - p)$; mit (1) $c = p + q$ folgt $c - p = q$, also $h_c^2 = p \\cdot q$. $h_c^2 = p + q$ ist falsch. 📄 Quelle: ari23_vl07, Folie 36 (S.36)",
     "source": "ari23_vl07, Folie 36 (S.36, Satzgruppe des Pythagoras - Hoehensatz, Beweis)"
   },
   {
@@ -17215,15 +17215,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Welches Ergebnis liefert der Beweis des Höhensatzes?",
     "options": [
-      "h_c^2 = p·q",
-      "h_c^2 = p·c",
-      "h_c^2 = a^2 - q^2",
-      "h_c^2 = p·(p + q)"
+      "$h_c^2 = p \\cdot q$",
+      "$h_c^2 = p \\cdot c$",
+      "$h_c^2 = a^2 - q^2$",
+      "$h_c^2 = p \\cdot (p + q)$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Beweis endet mit 'mit (1) folgt h_c^2 = p·q'. 📄 Quelle: ari23_vl07, Folie 36 (S.36)",
+    "explanation": "Der Beweis endet mit 'mit (1) folgt $h_c^2 = p \\cdot q$'. 📄 Quelle: ari23_vl07, Folie 36 (S.36)",
     "source": "ari23_vl07, Folie 36 (S.36, Satzgruppe des Pythagoras - Hoehensatz, Beweis)"
   },
   {
@@ -17251,11 +17251,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "pythagoras",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Prüfen Sie das Tripel mit Seitenlängen 5:4:3: Berechnen Sie 3^2 + 4^2.",
+    "question": "Prüfen Sie das Tripel mit Seitenlängen 5:4:3: Berechnen Sie $3^2 + 4^2$.",
     "answer": 25,
     "tolerance": 0,
     "unit": "",
-    "explanation": "3^2 + 4^2 = 9 + 16 = 25 = 5^2, also ist 3:4:5 ein pythagoreisches Tripel. 📄 Quelle: ari23_vl07, Folie 38 (S.38)",
+    "explanation": "$3^2 + 4^2 = 9 + 16 = 25 = 5^2$, also ist 3:4:5 ein pythagoreisches Tripel. 📄 Quelle: ari23_vl07, Folie 38 (S.38)",
     "source": "ari23_vl07, Folie 38 (S.38, Umkehrung: Satz des Thales)"
   },
   {
@@ -17265,8 +17265,8 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Wie werden der Satz des Pythagoras und der 'Bauarbeitersatz' unterschieden?",
     "options": [
-      "Satz (Pythagoras): Wenn rechter Winkel, dann a^2 + b^2 = c^2",
-      "Bauarbeitersatz: Wenn a^2 + b^2 = c^2, dann rechter Winkel",
+      "Satz (Pythagoras): Wenn rechter Winkel, dann $a^2 + b^2 = c^2$",
+      "Bauarbeitersatz: Wenn $a^2 + b^2 = c^2$, dann rechter Winkel",
       "Der Bauarbeitersatz ist die Umkehrung des Satzes von Pythagoras",
       "Beide Aussagen sind identisch und folgen unmittelbar auseinander"
     ],
@@ -17275,7 +17275,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Die Folie stellt gegenueber: Pythagoras 'Wenn rechter Winkel, dann a^2+b^2=c^2' und Bauarbeitersatz 'Wenn a^2+b^2=c^2, dann rechter Winkel' - also Voraussetzung und Folgerung vertauscht (Umkehrung). Sie sind nicht identisch. 📄 Quelle: ari23_vl07, Folie 39 (S.39)",
+    "explanation": "Die Folie stellt gegenueber: Pythagoras 'Wenn rechter Winkel, dann $a^2 + b^2 = c^2$' und Bauarbeitersatz 'Wenn $a^2 + b^2 = c^2$, dann rechter Winkel' - also Voraussetzung und Folgerung vertauscht (Umkehrung). Sie sind nicht identisch. 📄 Quelle: ari23_vl07, Folie 39 (S.39)",
     "source": "ari23_vl07, Folie 39 (S.39, Umkehrung: Satz des Thales)"
   },
   {
@@ -17287,7 +17287,7 @@ const SAMPLE_QUESTIONS = [
     "options": [
       "Weil der Bauarbeitersatz die Umkehrung ist und die Umkehrung eines Satzes nicht automatisch mitbewiesen ist",
       "Weil der Satz des Pythagoras falsch ist",
-      "Weil a^2 + b^2 = c^2 nur fuer gleichschenklige Dreiecke gilt",
+      "Weil $a^2 + b^2 = c^2$ nur fuer gleichschenklige Dreiecke gilt",
       "Weil Bauarbeiter keine Mathematiker sind"
     ],
     "correct": [
@@ -17303,17 +17303,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Was besagt die 'Umkehrung des Satzes von Pythagoras'?",
     "options": [
-      "Fuer alle Dreiecke ABC gilt: Wenn fuer die Flaecheninhalte der Quadrate ueber den Seiten a, b und c die Beziehung a^2 + b^2 = c^2 gilt, dann hat das Dreieck bei C einen rechten Winkel",
-      "Die Voraussetzung ist a^2 + b^2 = c^2, die Folgerung ist ein rechter Winkel bei C",
+      "Fuer alle Dreiecke ABC gilt: Wenn fuer die Flaecheninhalte der Quadrate ueber den Seiten a, b und c die Beziehung $a^2 + b^2 = c^2$ gilt, dann hat das Dreieck bei C einen rechten Winkel",
+      "Die Voraussetzung ist $a^2 + b^2 = c^2$, die Folgerung ist ein rechter Winkel bei C",
       "Der Beweis wird auf der Folie mit dem Satz des Thales angekuendigt (nicht in der Vorlesung)",
-      "Die Voraussetzung ist der rechte Winkel, die Folgerung ist a^2 + b^2 = c^2"
+      "Die Voraussetzung ist der rechte Winkel, die Folgerung ist $a^2 + b^2 = c^2$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Umkehrung setzt a^2 + b^2 = c^2 voraus und folgert einen rechten Winkel bei C; der Beweis 'nicht in der Vorlesung' wird mit dem Satz des Thales angekuendigt. Die letzte Option vertauscht Voraussetzung und Folgerung (das ist der Satz des Pythagoras selbst). 📄 Quelle: ari23_vl07, Folie 40 (S.40)",
+    "explanation": "Die Umkehrung setzt $a^2 + b^2 = c^2$ voraus und folgert einen rechten Winkel bei C; der Beweis 'nicht in der Vorlesung' wird mit dem Satz des Thales angekuendigt. Die letzte Option vertauscht Voraussetzung und Folgerung (das ist der Satz des Pythagoras selbst). 📄 Quelle: ari23_vl07, Folie 40 (S.40)",
     "source": "ari23_vl07, Folie 40 (S.40, Umkehrung: Satz des Thales)"
   },
   {
@@ -17339,9 +17339,9 @@ const SAMPLE_QUESTIONS = [
     "topic": "pythagoras",
     "difficulty": 2,
     "type": "multi",
-    "question": "Was fasst der zusammenfassende 'Satz' zu Rechtwinkligkeit und a^2 + b^2 = c^2 zusammen?",
+    "question": "Was fasst der zusammenfassende 'Satz' zu Rechtwinkligkeit und $a^2 + b^2 = c^2$ zusammen?",
     "options": [
-      "Genau dann, wenn ein Dreieck ABC rechtwinklig ist, gilt a^2 + b^2 = c^2",
+      "Genau dann, wenn ein Dreieck ABC rechtwinklig ist, gilt $a^2 + b^2 = c^2$",
       "Er fasst beide wenn-dann-Richtungen (Hin- und Rueckrichtung) zusammen",
       "Die Rueckrichtung wird ohne Beweis angegeben",
       "Die Aussage gilt nur, wenn zusaetzlich der Hoehensatz vorausgesetzt wird"
@@ -17351,7 +17351,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Die Folie formuliert 'Genau dann, wenn ABC rechtwinklig ist, ist a^2 + b^2 = c^2' und vermerkt: Zusammenfassung beider wenn-dann-Richtungen, Rueckrichtung ohne Beweis. Der Hoehensatz ist keine Voraussetzung. 📄 Quelle: ari23_vl07, Folie 41 (S.41)",
+    "explanation": "Die Folie formuliert 'Genau dann, wenn ABC rechtwinklig ist, ist $a^2 + b^2 = c^2$' und vermerkt: Zusammenfassung beider wenn-dann-Richtungen, Rueckrichtung ohne Beweis. Der Hoehensatz ist keine Voraussetzung. 📄 Quelle: ari23_vl07, Folie 41 (S.41)",
     "source": "ari23_vl07, Folie 41 (S.41, Umkehrung: Satz des Thales - Zusammenfassung)"
   },
   {
@@ -17417,11 +17417,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "vollstaendige_induktion",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Werten Sie die Formel n·(2n-1)·(2n+1)/3 für n = 3 aus (Summe 1^2 + 3^2 + 5^2).",
+    "question": "Werten Sie die Formel $\\frac{n \\cdot (2n-1) \\cdot (2n+1)}{3}$ für $n = 3$ aus (Summe $1^2 + 3^2 + 5^2$).",
     "answer": 35,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Fuer n = 3: 3·(2·3-1)·(2·3+1)/3 = 3·5·7/3 = 35; Probe 1^2 + 3^2 + 5^2 = 1 + 9 + 25 = 35. 📄 Quelle: ari23_vl07, Folie 45 (S.45)",
+    "explanation": "Fuer $n = 3$: $\\frac{3 \\cdot (2 \\cdot 3 - 1) \\cdot (2 \\cdot 3 + 1)}{3} = \\frac{3 \\cdot 5 \\cdot 7}{3} = 35$; Probe $1^2 + 3^2 + 5^2 = 1 + 9 + 25 = 35$. 📄 Quelle: ari23_vl07, Folie 45 (S.45)",
     "source": "ari23_vl07, Folie 45 (S.45, Erkundungspause - Vertiefende Uebungen zur Induktion)"
   },
   {
@@ -17433,15 +17433,15 @@ const SAMPLE_QUESTIONS = [
     "options": [
       "Das Prinzip der vollstaendigen Induktion soll einem/r Kommilitonen/in schriftlich erlaeutert werden",
       "Es soll erklaert werden, worin das Prinzip begruendet liegt und wie es sich auf die Struktur der vollstaendigen Induktion uebertraegt",
-      "Die Aussage Summe von (2i-1)^2 = 1^2 + 3^2 + 5^2 + ... + (2n-1)^2 = n·(2n-1)·(2n+1)/3 soll fuer alle natuerlichen Zahlen mit vollstaendiger Induktion bewiesen werden",
-      "Die Formel soll nur fuer n = 10 durch Einsetzen ueberprueft werden"
+      "Die Aussage Summe von $(2i-1)^2 = 1^2 + 3^2 + 5^2 + \\dots + (2n-1)^2 = \\frac{n \\cdot (2n-1) \\cdot (2n+1)}{3}$ soll fuer alle natuerlichen Zahlen mit vollstaendiger Induktion bewiesen werden",
+      "Die Formel soll nur fuer $n = 10$ durch Einsetzen ueberprueft werden"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Teil (a) verlangt eine schriftliche Erlaeuterung des Prinzips der vollstaendigen Induktion (worin es begruendet liegt, wie es sich auf die Struktur uebertraegt); Teil (b) verlangt den Beweis der Summenformel fuer alle natuerlichen Zahlen mit vollstaendiger Induktion. Eine blosse Ueberpruefung fuer n = 10 ist nicht verlangt. 📄 Quelle: ari23_vl07, Folie 45 (S.45)",
+    "explanation": "Teil (a) verlangt eine schriftliche Erlaeuterung des Prinzips der vollstaendigen Induktion (worin es begruendet liegt, wie es sich auf die Struktur uebertraegt); Teil (b) verlangt den Beweis der Summenformel fuer alle natuerlichen Zahlen mit vollstaendiger Induktion. Eine blosse Ueberpruefung fuer $n = 10$ ist nicht verlangt. 📄 Quelle: ari23_vl07, Folie 45 (S.45)",
     "source": "ari23_vl07, Folie 45 (S.45, Erkundungspause - Vertiefende Uebungen zur Induktion)"
   },
   {
@@ -20060,17 +20060,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Wie werden die Restklassen beim Teilen durch 3 beschrieben?",
     "options": [
-      "0̄ = {n∈ℕ | n = 3k, k∈ℕ₀}",
-      "1̄ = {n∈ℕ | n = 3k+1, k∈ℕ₀}",
-      "2̄ = {n∈ℕ | n = 3k+2, k∈ℕ₀}",
-      "2̄ = {n∈ℕ | n = 3k+3, k∈ℕ₀}"
+      "$\\overline{0} = \\{n \\in \\mathbb{N} \\mid n = 3k,\\ k \\in \\mathbb{N}_0\\}$",
+      "$\\overline{1} = \\{n \\in \\mathbb{N} \\mid n = 3k+1,\\ k \\in \\mathbb{N}_0\\}$",
+      "$\\overline{2} = \\{n \\in \\mathbb{N} \\mid n = 3k+2,\\ k \\in \\mathbb{N}_0\\}$",
+      "$\\overline{2} = \\{n \\in \\mathbb{N} \\mid n = 3k+3,\\ k \\in \\mathbb{N}_0\\}$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie gibt 0̄={0,3,6,...}=​{n∈ℕ|n=3k}, 1̄={1,4,7,...}=​{n∈ℕ|n=3k+1} und 2̄={2,5,8,...}=​{n∈ℕ|n=3k+2}, jeweils mit k∈ℕ₀. 📄 Quelle: ari23_vl11, Folie 4 (S.4)",
+    "explanation": "Die Folie gibt $\\overline{0}=\\{0,3,6,\\ldots\\}=\\{n \\in \\mathbb{N} \\mid n=3k\\}$, $\\overline{1}=\\{1,4,7,\\ldots\\}=\\{n \\in \\mathbb{N} \\mid n=3k+1\\}$ und $\\overline{2}=\\{2,5,8,\\ldots\\}=\\{n \\in \\mathbb{N} \\mid n=3k+2\\}$, jeweils mit $k \\in \\mathbb{N}_0$. 📄 Quelle: ari23_vl11, Folie 4 (S.4)",
     "source": "ari23_vl11, Folie 4 (S.4, Rückblick)"
   },
   {
@@ -20078,17 +20078,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "restklassen_kongruenzen",
     "difficulty": 2,
     "type": "single",
-    "question": "Warum ist die Verknüpfung „n + n\" in der Additionstafel der durch 3 teilbaren (t) und nicht teilbaren (n) Zahlen mathematisch ungewollt?",
+    "question": "Warum ist die Verknüpfung „$n + n$\" in der Additionstafel der durch 3 teilbaren (t) und nicht teilbaren (n) Zahlen mathematisch ungewollt?",
     "options": [
       "Weil sie nicht „wohldefiniert\" ist, da zwei Ergebnisse (n oder t) herauskommen können",
       "Weil man t und n grundsätzlich nicht addieren darf",
-      "Weil das Ergebnis von n + n immer t ergibt",
+      "Weil das Ergebnis von $n + n$ immer t ergibt",
       "Weil natürliche Zahlen nicht durch 3 teilbar sein können"
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie ist n+n als „n/t\" eingekreist; das ist mathematisch ungewollt, weil es nicht „wohldefiniert\" ist – es können zwei Ergebnisse herauskommen. 📄 Quelle: ari23_vl11, Folie 4 (S.4)",
+    "explanation": "Auf der Folie ist $n+n$ als „n/t\" eingekreist; das ist mathematisch ungewollt, weil es nicht „wohldefiniert\" ist – es können zwei Ergebnisse herauskommen. 📄 Quelle: ari23_vl11, Folie 4 (S.4)",
     "source": "ari23_vl11, Folie 4 (S.4, Rückblick)"
   },
   {
@@ -20098,17 +20098,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Ergebnisse zeigt die Multiplikationstafel (·) für durch 3 teilbare (t) und nicht teilbare (n) Zahlen?",
     "options": [
-      "t · t = t",
-      "t · n = t",
-      "n · n = n",
-      "n · n = t"
+      "$t \\cdot t = t$",
+      "$t \\cdot n = t$",
+      "$n \\cdot n = n$",
+      "$n \\cdot n = t$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Multiplikationstafel liefert t·t=t, t·n=t, n·t=t und n·n=n; nur n·n=n ist korrekt (nicht t). 📄 Quelle: ari23_vl11, Folie 4 (S.4)",
+    "explanation": "Die Multiplikationstafel liefert $t \\cdot t = t$, $t \\cdot n = t$, $n \\cdot t = t$ und $n \\cdot n = n$; nur $n \\cdot n = n$ ist korrekt (nicht t). 📄 Quelle: ari23_vl11, Folie 4 (S.4)",
     "source": "ari23_vl11, Folie 4 (S.4, Rückblick)"
   },
   {
@@ -20116,11 +20116,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "restklassen_kongruenzen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Nach der formalen Rechnung (3k₁+2)·(3k₂+1) = 3(3k₁k₂+k₁+2k₂)+2: In welcher Restklasse mod 3 liegt das Produkt? Gib den Repräsentanten (0, 1 oder 2) an.",
+    "question": "Nach der formalen Rechnung $(3k_1+2) \\cdot (3k_2+1) = 3(3k_1 k_2 + k_1 + 2k_2) + 2$: In welcher Restklasse mod 3 liegt das Produkt? Gib den Repräsentanten (0, 1 oder 2) an.",
     "answer": 2,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Das Umformen ergibt 3·(...)+2, also den Rest 2 beim Teilen durch 3 – die Restklasse 2̄. 📄 Quelle: ari23_vl11, Folie 5 (S.5)",
+    "explanation": "Das Umformen ergibt $3 \\cdot (\\ldots) + 2$, also den Rest 2 beim Teilen durch 3 – die Restklasse $\\overline{2}$. 📄 Quelle: ari23_vl11, Folie 5 (S.5)",
     "source": "ari23_vl11, Folie 5 (S.5, Rückblick)"
   },
   {
@@ -20150,17 +20150,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Einträge hat die Multiplikations-Verknüpfungstafel der durch 3 teilbaren (t) und nicht teilbaren (n) Zahlen? Hinweis: t und n stehen für die Restklassen mod 3.",
     "options": [
-      "2̄ · 2̄ = 1̄",
-      "2̄ · 1̄ = 2̄",
-      "0̄ · 2̄ = 0̄",
-      "2̄ · 2̄ = 0̄"
+      "$\\overline{2} \\cdot \\overline{2} = \\overline{1}$",
+      "$\\overline{2} \\cdot \\overline{1} = \\overline{2}$",
+      "$\\overline{0} \\cdot \\overline{2} = \\overline{0}$",
+      "$\\overline{2} \\cdot \\overline{2} = \\overline{0}$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "In der Tafel gilt 2̄·2̄=1̄ (hervorgehoben), 2̄·1̄=2̄ und 0̄·2̄=0̄; 2̄·2̄=0̄ ist falsch. 📄 Quelle: ari23_vl11, Folie 5 (S.5)",
+    "explanation": "In der Tafel gilt $\\overline{2} \\cdot \\overline{2} = \\overline{1}$ (hervorgehoben), $\\overline{2} \\cdot \\overline{1} = \\overline{2}$ und $\\overline{0} \\cdot \\overline{2} = \\overline{0}$; $\\overline{2} \\cdot \\overline{2} = \\overline{0}$ ist falsch. 📄 Quelle: ari23_vl11, Folie 5 (S.5)",
     "source": "ari23_vl11, Folie 5 (S.5, Rückblick)"
   },
   {
@@ -20172,7 +20172,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 7,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Es gibt 7 Restklassen: 0̄, 1̄, 2̄, 3̄, 4̄, 5̄, 6̄. 📄 Quelle: ari23_vl11, Folie 6 (S.6)",
+    "explanation": "Es gibt 7 Restklassen: $\\overline{0}, \\overline{1}, \\overline{2}, \\overline{3}, \\overline{4}, \\overline{5}, \\overline{6}$. 📄 Quelle: ari23_vl11, Folie 6 (S.6)",
     "source": "ari23_vl11, Folie 6 (S.6, Rückblick)"
   },
   {
@@ -20182,16 +20182,16 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Elemente gehören laut Lösung zu den Restklassen beim Teilen durch 7?",
     "options": [
-      "0̄ = {0, 7, 14, ...}",
-      "1̄ = {1, 8, 15, ...}",
-      "0̄ = {0, 1, 2, ...}",
-      "1̄ = {1, 7, 14, ...}"
+      "$\\overline{0} = \\{0, 7, 14, \\ldots\\}$",
+      "$\\overline{1} = \\{1, 8, 15, \\ldots\\}$",
+      "$\\overline{0} = \\{0, 1, 2, \\ldots\\}$",
+      "$\\overline{1} = \\{1, 7, 14, \\ldots\\}$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die handschriftliche Lösung notiert 0̄={0,7,14,...} und 1̄={1,8,15,...}. 📄 Quelle: ari23_vl11, Folie 6 (S.6)",
+    "explanation": "Die handschriftliche Lösung notiert $\\overline{0}=\\{0,7,14,\\ldots\\}$ und $\\overline{1}=\\{1,8,15,\\ldots\\}$. 📄 Quelle: ari23_vl11, Folie 6 (S.6)",
     "source": "ari23_vl11, Folie 6 (S.6, Rückblick)"
   },
   {
@@ -20203,7 +20203,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 0,
     "tolerance": 0,
     "unit": "",
-    "explanation": "(11k₁+7)+(11k₂+4) = 11·(k₁+k₂+1) + 0, also 7̄ ⊕ 4̄ = 0̄ mod 11. 📄 Quelle: ari23_vl11, Folie 7 (S.7)",
+    "explanation": "$(11k_1+7)+(11k_2+4) = 11 \\cdot (k_1+k_2+1) + 0$, also $\\overline{7} \\oplus \\overline{4} = \\overline{0} \\bmod 11$. 📄 Quelle: ari23_vl11, Folie 7 (S.7)",
     "source": "ari23_vl11, Folie 7 (S.7, Rückblick)"
   },
   {
@@ -20215,7 +20215,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 6,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Das Produkt liefert als Restanteil 7·4 = 28 = 2·11 + 6, also 7̄ ⊙ 4̄ = 6̄ mod 11. 📄 Quelle: ari23_vl11, Folie 7 (S.7)",
+    "explanation": "Das Produkt liefert als Restanteil $7 \\cdot 4 = 28 = 2 \\cdot 11 + 6$, also $\\overline{7} \\odot \\overline{4} = \\overline{6} \\bmod 11$. 📄 Quelle: ari23_vl11, Folie 7 (S.7)",
     "source": "ari23_vl11, Folie 7 (S.7, Rückblick)"
   },
   {
@@ -20223,18 +20223,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "restklassen_kongruenzen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Was ergibt sich für Zahlen der Form 11k₁+7 und 11k₂+4 (Rest 7 bzw. Rest 4 beim Teilen durch 11)?",
+    "question": "Was ergibt sich für Zahlen der Form $11k_1+7$ und $11k_2+4$ (Rest 7 bzw. Rest 4 beim Teilen durch 11)?",
     "options": [
-      "Die Summe liegt in der Restklasse 0̄ (mod 11)",
-      "Das Produkt liegt in der Restklasse 6̄ (mod 11)",
-      "Die Summe liegt in der Restklasse 11̄ (mod 11)",
-      "Das Produkt liegt in der Restklasse 3̄ (mod 11)"
+      "Die Summe liegt in der Restklasse $\\overline{0}$ (mod 11)",
+      "Das Produkt liegt in der Restklasse $\\overline{6}$ (mod 11)",
+      "Die Summe liegt in der Restklasse $\\overline{11}$ (mod 11)",
+      "Das Produkt liegt in der Restklasse $\\overline{3}$ (mod 11)"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Summe: 11·(k₁+k₂+1)+0 → 0̄; Produkt: Restanteil 7·4=28=2·11+6 → 6̄. 📄 Quelle: ari23_vl11, Folie 7 (S.7)",
+    "explanation": "Summe: $11 \\cdot (k_1+k_2+1)+0 \\to \\overline{0}$; Produkt: Restanteil $7 \\cdot 4 = 28 = 2 \\cdot 11 + 6 \\to \\overline{6}$. 📄 Quelle: ari23_vl11, Folie 7 (S.7)",
     "source": "ari23_vl11, Folie 7 (S.7, Rückblick)"
   },
   {
@@ -20242,17 +20242,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "restklassen_kongruenzen",
     "difficulty": 1,
     "type": "single",
-    "question": "Wann heißen zwei natürliche Zahlen a und b „kongruent modulo m\" (m ebenfalls natürliche Zahl)?",
+    "question": "Wann heißen zwei natürliche Zahlen $a$ und $b$ „kongruent modulo $m$\" ($m$ ebenfalls natürliche Zahl)?",
     "options": [
-      "Wenn a und b beim Teilen durch m den gleichen Rest lassen",
-      "Wenn a und b beide durch m teilbar sind",
-      "Wenn a + b durch m teilbar ist",
-      "Wenn a und b beim Teilen durch m den gleichen Quotienten haben"
+      "Wenn $a$ und $b$ beim Teilen durch $m$ den gleichen Rest lassen",
+      "Wenn $a$ und $b$ beide durch $m$ teilbar sind",
+      "Wenn $a + b$ durch $m$ teilbar ist",
+      "Wenn $a$ und $b$ beim Teilen durch $m$ den gleichen Quotienten haben"
     ],
     "correct": [
       0
     ],
-    "explanation": "Definition: a und b heißen kongruent modulo m, wenn sie beim Teilen durch m den gleichen Rest lassen. 📄 Quelle: ari23_vl11, Folie 9 (S.9)",
+    "explanation": "Definition: $a$ und $b$ heißen kongruent modulo $m$, wenn sie beim Teilen durch $m$ den gleichen Rest lassen. 📄 Quelle: ari23_vl11, Folie 9 (S.9)",
     "source": "ari23_vl11, Folie 9 (S.9, Rechnen mit Resten: systematisch)"
   },
   {
@@ -20260,17 +20260,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "restklassen_kongruenzen",
     "difficulty": 1,
     "type": "single",
-    "question": "Welche Schreibweise gibt es für die Kongruenz von a und b modulo m?",
+    "question": "Welche Schreibweise gibt es für die Kongruenz von $a$ und $b$ modulo $m$?",
     "options": [
-      "a ≡ b mod m",
-      "a = b · m",
-      "a | b mod m",
-      "a ≈ b (m)"
+      "$a \\equiv b \\bmod m$",
+      "$a = b \\cdot m$",
+      "$a \\mid b \\bmod m$",
+      "$a \\approx b\\ (m)$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie gibt die Schreibweise a ≡ b mod m an. 📄 Quelle: ari23_vl11, Folie 9 (S.9)",
+    "explanation": "Die Folie gibt die Schreibweise $a \\equiv b \\bmod m$ an. 📄 Quelle: ari23_vl11, Folie 9 (S.9)",
     "source": "ari23_vl11, Folie 9 (S.9, Rechnen mit Resten: systematisch)"
   },
   {
@@ -20278,19 +20278,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Aussagen zum Satz „Wenn a ≡ b mod m, dann m | (a−b)\" sind korrekt?",
+    "question": "Welche Aussagen zum Satz „Wenn $a \\equiv b \\bmod m$, dann $m \\mid (a-b)$\" sind korrekt?",
     "options": [
-      "Voraussetzung: a, b, m sind natürliche Zahlen mit a ≥ b",
-      "Wenn a ≡ b mod m gilt, dann gilt m | (a−b)",
-      "In der Herleitung gilt (a−b) = (q₁ − q₂)·m",
-      "Aus a ≡ b mod m folgt (a−b) | m"
+      "Voraussetzung: $a$, $b$, $m$ sind natürliche Zahlen mit $a \\ge b$",
+      "Wenn $a \\equiv b \\bmod m$ gilt, dann gilt $m \\mid (a-b)$",
+      "In der Herleitung gilt $(a-b) = (q_1 - q_2) \\cdot m$",
+      "Aus $a \\equiv b \\bmod m$ folgt $(a-b) \\mid m$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Der Satz gilt für natürliche Zahlen a, b, m mit a ≥ b: aus a ≡ b mod m folgt m|(a−b), da (a−b)=(q₁−q₂)·m. Die Teilbarkeit ist m|(a−b), nicht (a−b)|m. 📄 Quelle: ari23_vl11, Folie 10 (S.10)",
+    "explanation": "Der Satz gilt für natürliche Zahlen $a$, $b$, $m$ mit $a \\ge b$: aus $a \\equiv b \\bmod m$ folgt $m \\mid (a-b)$, da $(a-b)=(q_1-q_2) \\cdot m$. Die Teilbarkeit ist $m \\mid (a-b)$, nicht $(a-b) \\mid m$. 📄 Quelle: ari23_vl11, Folie 10 (S.10)",
     "source": "ari23_vl11, Folie 10 (S.10, Rechnen mit Resten: systematisch)"
   },
   {
@@ -20298,17 +20298,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 2,
     "type": "single",
-    "question": "Was ist die Kernidee des Beweises, dass aus a ≡ b mod m folgt m | (a−b)?",
+    "question": "Was ist die Kernidee des Beweises, dass aus $a \\equiv b \\bmod m$ folgt $m \\mid (a-b)$?",
     "options": [
-      "Die gleichen Reste r heben sich weg, sodass (a−b) = (q₁−q₂)·m ein Vielfaches von m ist",
-      "a und b sind beide durch m teilbar",
-      "Es gilt r₁ − r₂ = m",
-      "Es gilt q₁ = q₂"
+      "Die gleichen Reste $r$ heben sich weg, sodass $(a-b) = (q_1-q_2) \\cdot m$ ein Vielfaches von $m$ ist",
+      "$a$ und $b$ sind beide durch $m$ teilbar",
+      "Es gilt $r_1 - r_2 = m$",
+      "Es gilt $q_1 = q_2$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Da a und b denselben Rest r haben, ist (a−b)=q₁·m+r−(q₂·m+r)=(q₁−q₂)·m, also ein Vielfaches von m. 📄 Quelle: ari23_vl11, Folie 10 (S.10)",
+    "explanation": "Da $a$ und $b$ denselben Rest $r$ haben, ist $(a-b)=q_1 \\cdot m+r-(q_2 \\cdot m+r)=(q_1-q_2) \\cdot m$, also ein Vielfaches von $m$. 📄 Quelle: ari23_vl11, Folie 10 (S.10)",
     "source": "ari23_vl11, Folie 10 (S.10, Rechnen mit Resten: systematisch)"
   },
   {
@@ -20316,19 +20316,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Voraussetzungen nennt der Satz zur Addition/Subtraktion von Kongruenzen (a ± c ≡ b ± d mod m)?",
+    "question": "Welche Voraussetzungen nennt der Satz zur Addition/Subtraktion von Kongruenzen ($a \\pm c \\equiv b \\pm d \\bmod m$)?",
     "options": [
-      "a, b, c, d, m sind natürliche Zahlen",
-      "a > c und b > d",
-      "a ≡ b mod m und c ≡ d mod m",
-      "a = b und c = d"
+      "$a$, $b$, $c$, $d$, $m$ sind natürliche Zahlen",
+      "$a > c$ und $b > d$",
+      "$a \\equiv b \\bmod m$ und $c \\equiv d \\bmod m$",
+      "$a = b$ und $c = d$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Der Satz gilt für natürliche Zahlen a, b, c, d, m mit a > c und b > d, wenn a ≡ b mod m und c ≡ d mod m gilt. 📄 Quelle: ari23_vl11, Folie 11 (S.11)",
+    "explanation": "Der Satz gilt für natürliche Zahlen $a$, $b$, $c$, $d$, $m$ mit $a > c$ und $b > d$, wenn $a \\equiv b \\bmod m$ und $c \\equiv d \\bmod m$ gilt. 📄 Quelle: ari23_vl11, Folie 11 (S.11)",
     "source": "ari23_vl11, Folie 11 (S.11, Rechnen mit Resten: systematisch)"
   },
   {
@@ -20336,17 +20336,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 2,
     "type": "single",
-    "question": "Welche Schlussfolgerung zieht der Satz zur Addition/Subtraktion von Kongruenzen bei a ≡ b mod m und c ≡ d mod m?",
+    "question": "Welche Schlussfolgerung zieht der Satz zur Addition/Subtraktion von Kongruenzen bei $a \\equiv b \\bmod m$ und $c \\equiv d \\bmod m$?",
     "options": [
-      "a ± c ≡ b ± d mod m",
-      "a · c ≡ b · d mod m",
-      "a ± c ≡ b ∓ d mod m",
-      "a ± c ≡ b + d mod m"
+      "$a \\pm c \\equiv b \\pm d \\bmod m$",
+      "$a \\cdot c \\equiv b \\cdot d \\bmod m$",
+      "$a \\pm c \\equiv b \\mp d \\bmod m$",
+      "$a \\pm c \\equiv b + d \\bmod m$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Dann gilt a ± c ≡ b ± d mod m. 📄 Quelle: ari23_vl11, Folie 11 (S.11)",
+    "explanation": "Dann gilt $a \\pm c \\equiv b \\pm d \\bmod m$. 📄 Quelle: ari23_vl11, Folie 11 (S.11)",
     "source": "ari23_vl11, Folie 11 (S.11, Rechnen mit Resten: systematisch)"
   },
   {
@@ -20354,17 +20354,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 3,
     "type": "single",
-    "question": "Was gilt in der Herleitung zur Addition/Subtraktion von Kongruenzen für den Rest (r₁ − r₂)?",
+    "question": "Was gilt in der Herleitung zur Addition/Subtraktion von Kongruenzen für den Rest $(r_1 - r_2)$?",
     "options": [
       "Er ist in beiden Fällen gleich und kann auch negativ sein",
       "Er ist immer positiv",
       "Er ist immer 0",
-      "Er ist gleich m"
+      "Er ist gleich $m$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Für (a−c) und (b−d) ergibt sich derselbe Rest (r₁ − r₂), der auch negativ sein kann. 📄 Quelle: ari23_vl11, Folie 11 (S.11)",
+    "explanation": "Für $(a-c)$ und $(b-d)$ ergibt sich derselbe Rest $(r_1 - r_2)$, der auch negativ sein kann. 📄 Quelle: ari23_vl11, Folie 11 (S.11)",
     "source": "ari23_vl11, Folie 11 (S.11, Rechnen mit Resten: systematisch)"
   },
   {
@@ -20374,15 +20374,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Welche Aussage macht der Multiplikationssatz für Kongruenzen?",
     "options": [
-      "Wenn a ≡ b mod m und c ≡ d mod m, dann a·c ≡ b·d mod m",
-      "Wenn a ≡ b mod m und c ≡ d mod m, dann a+c ≡ b+d mod m",
-      "Wenn a ≡ b mod m, dann a·c ≡ b mod m",
-      "Wenn a·c ≡ b·d mod m, dann a ≡ b mod m"
+      "Wenn $a \\equiv b \\bmod m$ und $c \\equiv d \\bmod m$, dann $a \\cdot c \\equiv b \\cdot d \\bmod m$",
+      "Wenn $a \\equiv b \\bmod m$ und $c \\equiv d \\bmod m$, dann $a+c \\equiv b+d \\bmod m$",
+      "Wenn $a \\equiv b \\bmod m$, dann $a \\cdot c \\equiv b \\bmod m$",
+      "Wenn $a \\cdot c \\equiv b \\cdot d \\bmod m$, dann $a \\equiv b \\bmod m$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Für a > c und b > d gilt: aus a ≡ b mod m und c ≡ d mod m folgt a·c ≡ b·d mod m. 📄 Quelle: ari23_vl11, Folie 12 (S.12)",
+    "explanation": "Für $a > c$ und $b > d$ gilt: aus $a \\equiv b \\bmod m$ und $c \\equiv d \\bmod m$ folgt $a \\cdot c \\equiv b \\cdot d \\bmod m$. 📄 Quelle: ari23_vl11, Folie 12 (S.12)",
     "source": "ari23_vl11, Folie 12 (S.12, Rechnen mit Resten: systematisch)"
   },
   {
@@ -20390,19 +20390,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 3,
     "type": "multi",
-    "question": "Welche Schritte gehören zum Beweis von a·c ≡ b·d mod m?",
+    "question": "Welche Schritte gehören zum Beweis von $a \\cdot c \\equiv b \\cdot d \\bmod m$?",
     "options": [
-      "Aus m | (a−b) folgt m | (a−b)·c (Teilbarkeit)",
-      "Aus m | (c−d) folgt m | (c−d)·b (Teilbarkeit)",
-      "Aus m | (a−b)·c + (c−d)·b folgt durch Umformen m | (ac − db)",
-      "Aus m | (a−b) folgt direkt a = b"
+      "Aus $m \\mid (a-b)$ folgt $m \\mid (a-b) \\cdot c$ (Teilbarkeit)",
+      "Aus $m \\mid (c-d)$ folgt $m \\mid (c-d) \\cdot b$ (Teilbarkeit)",
+      "Aus $m \\mid (a-b) \\cdot c + (c-d) \\cdot b$ folgt durch Umformen $m \\mid (ac - db)$",
+      "Aus $m \\mid (a-b)$ folgt direkt $a = b$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Der Beweis nutzt m|(a−b)·c und m|(c−d)·b, addiert und formt um zu m|(ac−bc+bc−db)=m|(ac−db). 📄 Quelle: ari23_vl11, Folie 12 (S.12)",
+    "explanation": "Der Beweis nutzt $m \\mid (a-b) \\cdot c$ und $m \\mid (c-d) \\cdot b$, addiert und formt um zu $m \\mid (ac-bc+bc-db)=m \\mid (ac-db)$. 📄 Quelle: ari23_vl11, Folie 12 (S.12)",
     "source": "ari23_vl11, Folie 12 (S.12, Rechnen mit Resten: systematisch)"
   },
   {
@@ -20410,11 +20410,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "restklassen_kongruenzen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Beispiel mod 7: 10 ≡ ? mod 7. Gib den kleinsten nichtnegativen Rest an.",
+    "question": "Beispiel mod 7: $10 \\equiv ? \\bmod 7$. Gib den kleinsten nichtnegativen Rest an.",
     "answer": 3,
     "tolerance": 0,
     "unit": "",
-    "explanation": "10 = 1·7 + 3, also 10 ≡ 3 mod 7. 📄 Quelle: ari23_vl11, Folie 13 (S.13)",
+    "explanation": "$10 = 1 \\cdot 7 + 3$, also $10 \\equiv 3 \\bmod 7$. 📄 Quelle: ari23_vl11, Folie 13 (S.13)",
     "source": "ari23_vl11, Folie 13 (S.13, Rechnen mit Resten: systematisch)"
   },
   {
@@ -20422,11 +20422,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "restklassen_kongruenzen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Es gilt 10·10 ≡ 3·3 mod 7. Zu welchem kleinsten nichtnegativen Rest mod 7 ist das kongruent?",
+    "question": "Es gilt $10 \\cdot 10 \\equiv 3 \\cdot 3 \\bmod 7$. Zu welchem kleinsten nichtnegativen Rest mod 7 ist das kongruent?",
     "answer": 2,
     "tolerance": 0,
     "unit": "",
-    "explanation": "3·3 = 9 = 1·7 + 2, also 10·10 ≡ 2 mod 7. 📄 Quelle: ari23_vl11, Folie 13 (S.13)",
+    "explanation": "$3 \\cdot 3 = 9 = 1 \\cdot 7 + 2$, also $10 \\cdot 10 \\equiv 2 \\bmod 7$. 📄 Quelle: ari23_vl11, Folie 13 (S.13)",
     "source": "ari23_vl11, Folie 13 (S.13, Rechnen mit Resten: systematisch)"
   },
   {
@@ -20436,17 +20436,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche der folgenden Kongruenzen mod 7 sind korrekt?",
     "options": [
-      "100·10 ≡ 6 mod 7 ≡ −1 mod 7",
-      "100000·10 ≡ 1 mod 7",
-      "10000·10 ≡ −2 mod 7",
-      "10·10 ≡ 0 mod 7"
+      "$100 \\cdot 10 \\equiv 6 \\bmod 7 \\equiv -1 \\bmod 7$",
+      "$100000 \\cdot 10 \\equiv 1 \\bmod 7$",
+      "$10000 \\cdot 10 \\equiv -2 \\bmod 7$",
+      "$10 \\cdot 10 \\equiv 0 \\bmod 7$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie zeigt u. a. 100·10 ≡ 6 ≡ −1, 10000·10 ≡ −2 und 100000·10 ≡ 1 (jeweils mod 7); 10·10 ≡ 2, nicht 0. 📄 Quelle: ari23_vl11, Folie 13 (S.13)",
+    "explanation": "Die Folie zeigt u. a. $100 \\cdot 10 \\equiv 6 \\equiv -1$, $10000 \\cdot 10 \\equiv -2$ und $100000 \\cdot 10 \\equiv 1$ (jeweils mod 7); $10 \\cdot 10 \\equiv 2$, nicht 0. 📄 Quelle: ari23_vl11, Folie 13 (S.13)",
     "source": "ari23_vl11, Folie 13 (S.13, Rechnen mit Resten: systematisch)"
   },
   {
@@ -20454,19 +20454,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "iri_mirim_zahlen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Was besagt die Definition von Z_m?",
+    "question": "Was besagt die Definition von $\\mathbb{Z}_m$?",
     "options": [
-      "Z_m = {0̄, 1̄, 2̄, 3̄, ..., (m−1)‾} ist die Menge der Restklassen beim Teilen durch m",
-      "x̄ + ȳ := (x+y)‾, wobei (x+y)‾ die Restklasse beim Teilen von x+y durch m ist",
-      "x̄ · ȳ := (x·y)‾, wobei (x·y)‾ die Restklasse beim Teilen von x·y durch m ist",
-      "Z_m enthält unendlich viele Restklassen"
+      "$\\mathbb{Z}_m = \\{\\overline{0}, \\overline{1}, \\overline{2}, \\overline{3}, \\ldots, \\overline{m-1}\\}$ ist die Menge der Restklassen beim Teilen durch $m$",
+      "$\\overline{x} + \\overline{y} := \\overline{x+y}$, wobei $\\overline{x+y}$ die Restklasse beim Teilen von $x+y$ durch $m$ ist",
+      "$\\overline{x} \\cdot \\overline{y} := \\overline{x \\cdot y}$, wobei $\\overline{x \\cdot y}$ die Restklasse beim Teilen von $x \\cdot y$ durch $m$ ist",
+      "$\\mathbb{Z}_m$ enthält unendlich viele Restklassen"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Z_m ist die (endliche) Menge {0̄,...,(m−1)‾} der Restklassen mod m; Addition und Multiplikation sind über die Restklassen der Repräsentantensummen bzw. -produkte definiert. 📄 Quelle: ari23_vl11, Folie 15 (S.15)",
+    "explanation": "$\\mathbb{Z}_m$ ist die (endliche) Menge $\\{\\overline{0},\\ldots,\\overline{m-1}\\}$ der Restklassen mod $m$; Addition und Multiplikation sind über die Restklassen der Repräsentantensummen bzw. -produkte definiert. 📄 Quelle: ari23_vl11, Folie 15 (S.15)",
     "source": "ari23_vl11, Folie 15 (S.15, Erkundung II)"
   },
   {
@@ -20474,7 +20474,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "iri_mirim_zahlen",
     "difficulty": 1,
     "type": "single",
-    "question": "Wie wird m in Z_m mit Addition und Multiplikation genannt?",
+    "question": "Wie wird $m$ in $\\mathbb{Z}_m$ mit Addition und Multiplikation genannt?",
     "options": [
       "Modul",
       "Rest",
@@ -20484,7 +20484,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "m heißt Modul der Menge Z_m mit der Addition und Multiplikation. 📄 Quelle: ari23_vl11, Folie 15 (S.15)",
+    "explanation": "$m$ heißt Modul der Menge $\\mathbb{Z}_m$ mit der Addition und Multiplikation. 📄 Quelle: ari23_vl11, Folie 15 (S.15)",
     "source": "ari23_vl11, Folie 15 (S.15, Erkundung II)"
   },
   {
@@ -20495,7 +20495,7 @@ const SAMPLE_QUESTIONS = [
     "question": "Was gilt für die „neue“ (neu definierte) Addition von Restklassen?",
     "options": [
       "Es ist eine neu definierte Addition von Restklassen, nicht die Addition natürlicher Zahlen",
-      "Sie wird teilweise durch ⊕ (bzw. ⊙) abgegrenzt",
+      "Sie wird teilweise durch $\\oplus$ (bzw. $\\odot$) abgegrenzt",
       "Es werden Mengen addiert, indem Repräsentanten der Mengen addiert werden",
       "Sie ist identisch mit der Addition natürlicher Zahlen"
     ],
@@ -20504,7 +20504,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Die Folie grenzt die neu definierte Restklassen-Addition (⊕, ⊙) von der Addition natürlicher Zahlen ab; es werden Repräsentanten der Mengen addiert. 📄 Quelle: ari23_vl11, Folie 15 (S.15)",
+    "explanation": "Die Folie grenzt die neu definierte Restklassen-Addition ($\\oplus$, $\\odot$) von der Addition natürlicher Zahlen ab; es werden Repräsentanten der Mengen addiert. 📄 Quelle: ari23_vl11, Folie 15 (S.15)",
     "source": "ari23_vl11, Folie 15 (S.15, Erkundung II)"
   },
   {
@@ -20512,11 +20512,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "iri_mirim_zahlen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "In Z_5: 3̄ + 4̄ = ? Gib den Repräsentanten (0–4) an.",
+    "question": "In $\\mathbb{Z}_5$: $\\overline{3} + \\overline{4} = ?$ Gib den Repräsentanten (0–4) an.",
     "answer": 2,
     "tolerance": 0,
     "unit": "",
-    "explanation": "3 + 4 = 7 = 1·5 + 2, also 3̄ + 4̄ = 2̄ in Z_5. 📄 Quelle: ari23_vl11, Folie 17 (S.17)",
+    "explanation": "$3 + 4 = 7 = 1 \\cdot 5 + 2$, also $\\overline{3} + \\overline{4} = \\overline{2}$ in $\\mathbb{Z}_5$. 📄 Quelle: ari23_vl11, Folie 17 (S.17)",
     "source": "ari23_vl11, Folie 17 (S.17, Erkundung II)"
   },
   {
@@ -20524,11 +20524,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "iri_mirim_zahlen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "In Z_5: 2̄ · 3̄ = ? Gib den Repräsentanten (0–4) an.",
+    "question": "In $\\mathbb{Z}_5$: $\\overline{2} \\cdot \\overline{3} = ?$ Gib den Repräsentanten (0–4) an.",
     "answer": 1,
     "tolerance": 0,
     "unit": "",
-    "explanation": "2 · 3 = 6 = 1·5 + 1, also 2̄ · 3̄ = 1̄ in Z_5. 📄 Quelle: ari23_vl11, Folie 17 (S.17)",
+    "explanation": "$2 \\cdot 3 = 6 = 1 \\cdot 5 + 1$, also $\\overline{2} \\cdot \\overline{3} = \\overline{1}$ in $\\mathbb{Z}_5$. 📄 Quelle: ari23_vl11, Folie 17 (S.17)",
     "source": "ari23_vl11, Folie 17 (S.17, Erkundung II)"
   },
   {
@@ -20536,19 +20536,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "iri_mirim_zahlen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Einträge der Z_5-Tafeln (Addition und Multiplikation) sind korrekt?",
+    "question": "Welche Einträge der $\\mathbb{Z}_5$-Tafeln (Addition und Multiplikation) sind korrekt?",
     "options": [
-      "4̄ + 4̄ = 3̄",
-      "4̄ · 4̄ = 1̄",
-      "2̄ · 4̄ = 3̄",
-      "3̄ + 3̄ = 0̄"
+      "$\\overline{4} + \\overline{4} = \\overline{3}$",
+      "$\\overline{4} \\cdot \\overline{4} = \\overline{1}$",
+      "$\\overline{2} \\cdot \\overline{4} = \\overline{3}$",
+      "$\\overline{3} + \\overline{3} = \\overline{0}$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "4+4=8≡3, 4·4=16≡1, 2·4=8≡3 (alle mod 5) sind korrekt; 3+3=6≡1, also nicht 0̄. 📄 Quelle: ari23_vl11, Folie 17 (S.17)",
+    "explanation": "$4+4=8\\equiv3$, $4 \\cdot 4=16\\equiv1$, $2 \\cdot 4=8\\equiv3$ (alle mod 5) sind korrekt; $3+3=6\\equiv1$, also nicht $\\overline{0}$. 📄 Quelle: ari23_vl11, Folie 17 (S.17)",
     "source": "ari23_vl11, Folie 17 (S.17, Erkundung II)"
   },
   {
@@ -20556,19 +20556,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "iri_mirim_zahlen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Was gilt für die Erzeugung der Restklassen in Z_5 durch Addition?",
+    "question": "Was gilt für die Erzeugung der Restklassen in $\\mathbb{Z}_5$ durch Addition?",
     "options": [
-      "Die 1̄ erzeugt die gesamte Menge der Restklassen",
+      "Die $\\overline{1}$ erzeugt die gesamte Menge der Restklassen",
       "Die Restklassen kann man sich wie einen Zahlenkreis (nicht Zahlenstrahl) vorstellen",
-      "Die 3̄ (wie auch 2̄ und 4̄) erzeugt ebenfalls die gesamte Menge der Restklassen",
-      "Nur die 0̄ erzeugt die gesamte Menge der Restklassen"
+      "Die $\\overline{3}$ (wie auch $\\overline{2}$ und $\\overline{4}$) erzeugt ebenfalls die gesamte Menge der Restklassen",
+      "Nur die $\\overline{0}$ erzeugt die gesamte Menge der Restklassen"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Durch fortgesetzte Addition erzeugt 1̄ (und ebenso 2̄, 3̄, 4̄) alle Restklassen; man stellt sie sich als Zahlenkreis vor. 📄 Quelle: ari23_vl11, Folie 19 (S.19)",
+    "explanation": "Durch fortgesetzte Addition erzeugt $\\overline{1}$ (und ebenso $\\overline{2}$, $\\overline{3}$, $\\overline{4}$) alle Restklassen; man stellt sie sich als Zahlenkreis vor. 📄 Quelle: ari23_vl11, Folie 19 (S.19)",
     "source": "ari23_vl11, Folie 19 (S.19, Erkundung II)"
   },
   {
@@ -20576,11 +20576,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "iri_mirim_zahlen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "In Z_5: 4̄ + 1̄ = ? Gib den Repräsentanten (0–4) an.",
+    "question": "In $\\mathbb{Z}_5$: $\\overline{4} + \\overline{1} = ?$ Gib den Repräsentanten (0–4) an.",
     "answer": 0,
     "tolerance": 0,
     "unit": "",
-    "explanation": "4 + 1 = 5 ≡ 0 mod 5, also 4̄ + 1̄ = 0̄. 📄 Quelle: ari23_vl11, Folie 19 (S.19)",
+    "explanation": "$4 + 1 = 5 \\equiv 0 \\bmod 5$, also $\\overline{4} + \\overline{1} = \\overline{0}$. 📄 Quelle: ari23_vl11, Folie 19 (S.19)",
     "source": "ari23_vl11, Folie 19 (S.19, Erkundung II)"
   },
   {
@@ -20588,19 +20588,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "iri_mirim_zahlen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Was gilt für die Erzeugung durch Multiplikation in Z_5?",
+    "question": "Was gilt für die Erzeugung durch Multiplikation in $\\mathbb{Z}_5$?",
     "options": [
-      "Die 2̄ erzeugt die gesamte Menge der Restklassen bis auf die 0̄",
-      "Das Gleiche gilt für die 3̄",
-      "Für die 1̄ und die 4̄ gilt das nicht",
-      "Die 4̄ erzeugt alle Restklassen außer 0̄"
+      "Die $\\overline{2}$ erzeugt die gesamte Menge der Restklassen bis auf die $\\overline{0}$",
+      "Das Gleiche gilt für die $\\overline{3}$",
+      "Für die $\\overline{1}$ und die $\\overline{4}$ gilt das nicht",
+      "Die $\\overline{4}$ erzeugt alle Restklassen außer $\\overline{0}$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Durch fortgesetzte Multiplikation erzeugt 2̄ (und ebenso 3̄) alle Restklassen außer 0̄; für 1̄ und 4̄ gilt das nicht. 📄 Quelle: ari23_vl11, Folie 20 (S.20)",
+    "explanation": "Durch fortgesetzte Multiplikation erzeugt $\\overline{2}$ (und ebenso $\\overline{3}$) alle Restklassen außer $\\overline{0}$; für $\\overline{1}$ und $\\overline{4}$ gilt das nicht. 📄 Quelle: ari23_vl11, Folie 20 (S.20)",
     "source": "ari23_vl11, Folie 20 (S.20, Erkundung II)"
   },
   {
@@ -20608,11 +20608,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "iri_mirim_zahlen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "In Z_5: 3̄ · 2̄ = ? Gib den Repräsentanten (0–4) an.",
+    "question": "In $\\mathbb{Z}_5$: $\\overline{3} \\cdot \\overline{2} = ?$ Gib den Repräsentanten (0–4) an.",
     "answer": 1,
     "tolerance": 0,
     "unit": "",
-    "explanation": "3 · 2 = 6 = 1·5 + 1, also 3̄ · 2̄ = 1̄ in Z_5. 📄 Quelle: ari23_vl11, Folie 20 (S.20)",
+    "explanation": "$3 \\cdot 2 = 6 = 1 \\cdot 5 + 1$, also $\\overline{3} \\cdot \\overline{2} = \\overline{1}$ in $\\mathbb{Z}_5$. 📄 Quelle: ari23_vl11, Folie 20 (S.20)",
     "source": "ari23_vl11, Folie 20 (S.20, Erkundung II)"
   },
   {
@@ -20620,18 +20620,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "iri_mirim_zahlen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welchen Unterschied zwischen Z_5 und Z_6 gibt es hinsichtlich erzeugender Restklassen?",
+    "question": "Welchen Unterschied zwischen $\\mathbb{Z}_5$ und $\\mathbb{Z}_6$ gibt es hinsichtlich erzeugender Restklassen?",
     "options": [
-      "Bei Z_5 erzeugen alle Restklassen (außer 0̄) die anderen Restklassen",
-      "Bei Z_6 erzeugt keine Restklasse alle Restklassen (außer 1̄)",
-      "Bei Z_6 erzeugt jede Restklasse alle anderen Restklassen",
-      "Bei Z_5 erzeugt nur die 0̄ alle Restklassen"
+      "Bei $\\mathbb{Z}_5$ erzeugen alle Restklassen (außer $\\overline{0}$) die anderen Restklassen",
+      "Bei $\\mathbb{Z}_6$ erzeugt keine Restklasse alle Restklassen (außer $\\overline{1}$)",
+      "Bei $\\mathbb{Z}_6$ erzeugt jede Restklasse alle anderen Restklassen",
+      "Bei $\\mathbb{Z}_5$ erzeugt nur die $\\overline{0}$ alle Restklassen"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Bei Z_5 erzeugen alle Restklassen außer 0̄ die anderen; bei Z_6 erzeugt keine Restklasse (außer 1̄) alle Restklassen. 📄 Quelle: ari23_vl11, Folie 21 (S.21)",
+    "explanation": "Bei $\\mathbb{Z}_5$ erzeugen alle Restklassen außer $\\overline{0}$ die anderen; bei $\\mathbb{Z}_6$ erzeugt keine Restklasse (außer $\\overline{1}$) alle Restklassen. 📄 Quelle: ari23_vl11, Folie 21 (S.21)",
     "source": "ari23_vl11, Folie 21 (S.21, Erkundung II)"
   },
   {
@@ -20639,11 +20639,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "iri_mirim_zahlen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "In Z_6: 3̄ · 2̄ = ? Gib den Repräsentanten (0–5) an.",
+    "question": "In $\\mathbb{Z}_6$: $\\overline{3} \\cdot \\overline{2} = ?$ Gib den Repräsentanten (0–5) an.",
     "answer": 0,
     "tolerance": 0,
     "unit": "",
-    "explanation": "3 · 2 = 6 ≡ 0 mod 6, also 3̄ · 2̄ = 0̄ in Z_6. 📄 Quelle: ari23_vl11, Folie 21 (S.21)",
+    "explanation": "$3 \\cdot 2 = 6 \\equiv 0 \\bmod 6$, also $\\overline{3} \\cdot \\overline{2} = \\overline{0}$ in $\\mathbb{Z}_6$. 📄 Quelle: ari23_vl11, Folie 21 (S.21)",
     "source": "ari23_vl11, Folie 21 (S.21, Erkundung II)"
   },
   {
@@ -20651,11 +20651,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "iri_mirim_zahlen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "In Z_6: 4̄ · 5̄ = ? Gib den Repräsentanten (0–5) an.",
+    "question": "In $\\mathbb{Z}_6$: $\\overline{4} \\cdot \\overline{5} = ?$ Gib den Repräsentanten (0–5) an.",
     "answer": 2,
     "tolerance": 0,
     "unit": "",
-    "explanation": "4 · 5 = 20 = 3·6 + 2, also 4̄ · 5̄ = 2̄ in Z_6. 📄 Quelle: ari23_vl11, Folie 21 (S.21)",
+    "explanation": "$4 \\cdot 5 = 20 = 3 \\cdot 6 + 2$, also $\\overline{4} \\cdot \\overline{5} = \\overline{2}$ in $\\mathbb{Z}_6$. 📄 Quelle: ari23_vl11, Folie 21 (S.21)",
     "source": "ari23_vl11, Folie 21 (S.21, Erkundung II)"
   },
   {
@@ -20665,17 +20665,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Aussagen über erzeugende Elemente bezüglich der Multiplikation treffen zu?",
     "options": [
-      "In Z5 erzeugen alle Restklassen außer 0̄ die anderen Restklassen.",
-      "In Z6 erzeugt keine Restklasse alle Restklassen (außer 1̄).",
-      "In Z7 erzeugen nur 3̄ und 5̄ die Restklassen (außer 0̄).",
-      "In Z7 erzeugt jede Restklasse außer 0̄ alle übrigen Restklassen."
+      "In $\\mathbb{Z}_5$ erzeugen alle Restklassen außer $\\overline{0}$ die anderen Restklassen.",
+      "In $\\mathbb{Z}_6$ erzeugt keine Restklasse alle Restklassen (außer $\\overline{1}$).",
+      "In $\\mathbb{Z}_7$ erzeugen nur $\\overline{3}$ und $\\overline{5}$ die Restklassen (außer $\\overline{0}$).",
+      "In $\\mathbb{Z}_7$ erzeugt jede Restklasse außer $\\overline{0}$ alle übrigen Restklassen."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Laut Folie erzeugen bei Z5 alle Restklassen außer 0̄ die anderen, bei Z6 erzeugt keine (außer 1̄) alle Restklassen, und bei Z7 erzeugen nur 3̄ und 5̄ (außer 0̄). 📄 Quelle: ari23_vl11, Folie 22 (S.22)",
+    "explanation": "Laut Folie erzeugen bei $\\mathbb{Z}_5$ alle Restklassen außer $\\overline{0}$ die anderen, bei $\\mathbb{Z}_6$ erzeugt keine (außer $\\overline{1}$) alle Restklassen, und bei $\\mathbb{Z}_7$ erzeugen nur $\\overline{3}$ und $\\overline{5}$ (außer $\\overline{0}$). 📄 Quelle: ari23_vl11, Folie 22 (S.22)",
     "source": "ari23_vl11, Folie 22 (S.22, Restklassen systematisch)"
   },
   {
@@ -20687,7 +20687,7 @@ const SAMPLE_QUESTIONS = [
     "options": [
       "Erzeugt man Restklassen zu Primzahlen, findet man auch zur Multiplikation erzeugende Elemente.",
       "Bei zusammengesetzten Zahlen findet man dagegen keine multiplikativ erzeugenden Elemente.",
-      "Hinsichtlich der Addition ist zumindest 1̄ stets ein erzeugendes Element.",
+      "Hinsichtlich der Addition ist zumindest $\\overline{1}$ stets ein erzeugendes Element.",
       "Hinsichtlich der Addition gibt es nie ein erzeugendes Element."
     ],
     "correct": [
@@ -20695,7 +20695,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Die Hypothese lautet: Zu Primzahlen findet man zur Multiplikation erzeugende Elemente, zu zusammengesetzten Zahlen nicht; hinsichtlich der Addition ist zumindest 1̄ stets erzeugend. 📄 Quelle: ari23_vl11, Folie 22 (S.22)",
+    "explanation": "Die Hypothese lautet: Zu Primzahlen findet man zur Multiplikation erzeugende Elemente, zu zusammengesetzten Zahlen nicht; hinsichtlich der Addition ist zumindest $\\overline{1}$ stets erzeugend. 📄 Quelle: ari23_vl11, Folie 22 (S.22)",
     "source": "ari23_vl11, Folie 22 (S.22, Restklassen systematisch)"
   },
   {
@@ -20705,17 +20705,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Eigenschaften haben Restklassenmengen?",
     "options": [
-      "Sie sind bezüglich + und · kommutativ und assoziativ.",
-      "Sie haben ein (neutrales) Element ē mit ā+ē=ē+ā=ā.",
-      "Sie haben zu jedem Element ein inverses Element ā^(-1) mit ā+ā^(-1)=ē.",
-      "Sie sind bezüglich + und · weder kommutativ noch assoziativ."
+      "Sie sind bezüglich $+$ und $\\cdot$ kommutativ und assoziativ.",
+      "Sie haben ein (neutrales) Element $\\overline{e}$ mit $\\overline{a}+\\overline{e}=\\overline{e}+\\overline{a}=\\overline{a}$.",
+      "Sie haben zu jedem Element ein inverses Element $\\overline{a}^{-1}$ mit $\\overline{a}+\\overline{a}^{-1}=\\overline{e}$.",
+      "Sie sind bezüglich $+$ und $\\cdot$ weder kommutativ noch assoziativ."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Restklassenmengen sind zu + und · kommutativ und assoziativ, haben ein neutrales Element ē mit ā+ē=ē+ā=ā und zu jedem Element ein inverses Element ā^(-1) mit ā+ā^(-1)=ē. 📄 Quelle: ari23_vl11, Folie 23 (S.23)",
+    "explanation": "Restklassenmengen sind zu $+$ und $\\cdot$ kommutativ und assoziativ, haben ein neutrales Element $\\overline{e}$ mit $\\overline{a}+\\overline{e}=\\overline{e}+\\overline{a}=\\overline{a}$ und zu jedem Element ein inverses Element $\\overline{a}^{-1}$ mit $\\overline{a}+\\overline{a}^{-1}=\\overline{e}$. 📄 Quelle: ari23_vl11, Folie 23 (S.23)",
     "source": "ari23_vl11, Folie 23 (S.23, Restklassen systematisch)"
   },
   {
@@ -20723,17 +20723,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "restklassen_kongruenzen",
     "difficulty": 2,
     "type": "single",
-    "question": "Welche Gleichung beschreibt das neutrale Element ē einer Restklassenmenge?",
+    "question": "Welche Gleichung beschreibt das neutrale Element $\\overline{e}$ einer Restklassenmenge?",
     "options": [
-      "ā+ē=ē+ā=ā",
-      "ā+ē=0̄",
-      "ā·ē=0̄",
-      "ā+ā^(-1)=ā"
+      "$\\overline{a}+\\overline{e}=\\overline{e}+\\overline{a}=\\overline{a}$",
+      "$\\overline{a}+\\overline{e}=\\overline{0}$",
+      "$\\overline{a} \\cdot \\overline{e}=\\overline{0}$",
+      "$\\overline{a}+\\overline{a}^{-1}=\\overline{a}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Das neutrale Element ē erfüllt ā+ē=ē+ā=ā; die Gleichung ā+ā^(-1)=ē beschreibt dagegen das inverse Element. 📄 Quelle: ari23_vl11, Folie 23 (S.23)",
+    "explanation": "Das neutrale Element $\\overline{e}$ erfüllt $\\overline{a}+\\overline{e}=\\overline{e}+\\overline{a}=\\overline{a}$; die Gleichung $\\overline{a}+\\overline{a}^{-1}=\\overline{e}$ beschreibt dagegen das inverse Element. 📄 Quelle: ari23_vl11, Folie 23 (S.23)",
     "source": "ari23_vl11, Folie 23 (S.23, Restklassen systematisch)"
   },
   {
@@ -20741,11 +20741,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "iri_mirim_zahlen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Für die IRI-Zahl 313 und ihre Gegenzahl 131 wird 313 − 131 gerechnet. Welches Ergebnis ergibt sich?",
+    "question": "Für die IRI-Zahl 313 und ihre Gegenzahl 131 wird $313 - 131$ gerechnet. Welches Ergebnis ergibt sich?",
     "answer": 182,
     "tolerance": 0,
     "unit": "",
-    "explanation": "313 − 131 = 182 (dies ist 2·91). 📄 Quelle: ari23_vl11, Folie 26 (S.26)",
+    "explanation": "$313 - 131 = 182$ (dies ist $2 \\cdot 91$). 📄 Quelle: ari23_vl11, Folie 26 (S.26)",
     "source": "ari23_vl11, Folie 26 (S.26, Definition – Satz – Beweis)"
   },
   {
@@ -20753,11 +20753,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "iri_mirim_zahlen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Für die IRI-Zahl 414 und ihre Gegenzahl 141 wird 414 − 141 gerechnet. Welches Ergebnis ergibt sich?",
+    "question": "Für die IRI-Zahl 414 und ihre Gegenzahl 141 wird $414 - 141$ gerechnet. Welches Ergebnis ergibt sich?",
     "answer": 273,
     "tolerance": 0,
     "unit": "",
-    "explanation": "414 − 141 = 273 (dies ist 3·91). 📄 Quelle: ari23_vl11, Folie 26 (S.26)",
+    "explanation": "$414 - 141 = 273$ (dies ist $3 \\cdot 91$). 📄 Quelle: ari23_vl11, Folie 26 (S.26)",
     "source": "ari23_vl11, Folie 26 (S.26, Definition – Satz – Beweis)"
   },
   {
@@ -20765,7 +20765,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "iri_mirim_zahlen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Wann heißt eine dreistellige natürliche Zahl n laut Definition eine IRI-Zahl?",
+    "question": "Wann heißt eine dreistellige natürliche Zahl $n$ laut Definition eine IRI-Zahl?",
     "options": [
       "Die äußeren beiden Ziffern sind gleich.",
       "Die mittlere Ziffer ist ungleich den beiden äußeren Ziffern.",
@@ -20777,7 +20777,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Eine dreistellige natürliche Zahl n heißt IRI-Zahl, wenn die äußeren beiden Ziffern gleich, die mittlere Ziffer ungleich den beiden äußeren und alle Ziffern ungleich 0 sind. 📄 Quelle: ari23_vl11, Folie 28 (S.28)",
+    "explanation": "Eine dreistellige natürliche Zahl $n$ heißt IRI-Zahl, wenn die äußeren beiden Ziffern gleich, die mittlere Ziffer ungleich den beiden äußeren und alle Ziffern ungleich 0 sind. 📄 Quelle: ari23_vl11, Folie 28 (S.28)",
     "source": "ari23_vl11, Folie 28 (S.28, Definition – Satz – Beweis)"
   },
   {
@@ -20785,19 +20785,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "iri_mirim_zahlen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Wie ist laut Definition die Gegenzahl m einer IRI-Zahl festgelegt?",
+    "question": "Wie ist laut Definition die Gegenzahl $m$ einer IRI-Zahl festgelegt?",
     "options": [
-      "Die beiden äußeren Ziffern von m sind gleich R (ungleich 0).",
-      "Die innere Ziffer von m ist gleich I (ungleich 0).",
-      "m hat die Ziffernfolge R I R.",
-      "m hat dieselbe Ziffernfolge wie die IRI-Zahl selbst."
+      "Die beiden äußeren Ziffern von $m$ sind gleich $R$ (ungleich 0).",
+      "Die innere Ziffer von $m$ ist gleich $I$ (ungleich 0).",
+      "$m$ hat die Ziffernfolge $R\\,I\\,R$.",
+      "$m$ hat dieselbe Ziffernfolge wie die IRI-Zahl selbst."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Gegenzahl m einer IRI-Zahl hat die äußeren beiden Ziffern gleich R (ungleich 0) und die innere Ziffer gleich I (ungleich 0), also die Ziffernfolge R I R. 📄 Quelle: ari23_vl11, Folie 28 (S.28)",
+    "explanation": "Die Gegenzahl $m$ einer IRI-Zahl hat die äußeren beiden Ziffern gleich $R$ (ungleich 0) und die innere Ziffer gleich $I$ (ungleich 0), also die Ziffernfolge $R\\,I\\,R$. 📄 Quelle: ari23_vl11, Folie 28 (S.28)",
     "source": "ari23_vl11, Folie 28 (S.28, Definition – Satz – Beweis)"
   },
   {
@@ -20805,17 +20805,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "iri_mirim_zahlen",
     "difficulty": 2,
     "type": "single",
-    "question": "Was besagt der Satz über eine IRI-Zahl n und ihre Gegenzahl m?",
+    "question": "Was besagt der Satz über eine IRI-Zahl $n$ und ihre Gegenzahl $m$?",
     "options": [
-      "n ≡ m mod 91, d.h. 91 teilt die Differenz n − m.",
-      "n ≡ m mod 9, d.h. 9 teilt die Differenz n − m.",
-      "n − m ist stets eine Primzahl.",
-      "n und m sind stets gleich."
+      "$n \\equiv m \\bmod 91$, d.h. 91 teilt die Differenz $n - m$.",
+      "$n \\equiv m \\bmod 9$, d.h. 9 teilt die Differenz $n - m$.",
+      "$n - m$ ist stets eine Primzahl.",
+      "$n$ und $m$ sind stets gleich."
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Satz besagt: Ist n eine IRI-Zahl und m ihre Gegenzahl, dann gilt n ≡ m mod 91, d.h. 91 teilt die Differenz n − m. 📄 Quelle: ari23_vl11, Folie 29 (S.29)",
+    "explanation": "Der Satz besagt: Ist $n$ eine IRI-Zahl und $m$ ihre Gegenzahl, dann gilt $n \\equiv m \\bmod 91$, d.h. 91 teilt die Differenz $n - m$. 📄 Quelle: ari23_vl11, Folie 29 (S.29)",
     "source": "ari23_vl11, Folie 29 (S.29, Definition – Satz – Beweis)"
   },
   {
@@ -20823,11 +20823,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "iri_mirim_zahlen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Die Differenzen von IRI-Zahlen und ihren Gegenzahlen bilden die 91er-Reihe. Als welches Vielfache von 91 lässt sich 273 schreiben (273 = k·91, k = ?)",
+    "question": "Die Differenzen von IRI-Zahlen und ihren Gegenzahlen bilden die 91er-Reihe. Als welches Vielfache von 91 lässt sich 273 schreiben ($273 = k \\cdot 91$, $k = ?$)",
     "answer": 3,
     "tolerance": 0,
     "unit": "",
-    "explanation": "273 = 3·91, die Differenzen bilden die 91er-Reihe (182 = 2·91, 273 = 3·91, 364 = 4·91). 📄 Quelle: ari23_vl11, Folie 29 (S.29)",
+    "explanation": "$273 = 3 \\cdot 91$, die Differenzen bilden die 91er-Reihe ($182 = 2 \\cdot 91$, $273 = 3 \\cdot 91$, $364 = 4 \\cdot 91$). 📄 Quelle: ari23_vl11, Folie 29 (S.29)",
     "source": "ari23_vl11, Folie 29 (S.29, Definition – Satz – Beweis)"
   },
   {
@@ -20835,11 +20835,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "iri_mirim_zahlen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Im Beweis wird n − m = (I − R)·(100 − 10 + 1) berechnet. Welchen Wert hat der Faktor 100 − 10 + 1?",
+    "question": "Im Beweis wird $n - m = (I - R) \\cdot (100 - 10 + 1)$ berechnet. Welchen Wert hat der Faktor $100 - 10 + 1$?",
     "answer": 91,
     "tolerance": 0,
     "unit": "",
-    "explanation": "100 − 10 + 1 = 91, daher gilt n − m = (I − R)·91. 📄 Quelle: ari23_vl11, Folie 31 (S.31)",
+    "explanation": "$100 - 10 + 1 = 91$, daher gilt $n - m = (I - R) \\cdot 91$. 📄 Quelle: ari23_vl11, Folie 31 (S.31)",
     "source": "ari23_vl11, Folie 31 (S.31, Definition – Satz – Beweis)"
   },
   {
@@ -20847,18 +20847,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "iri_mirim_zahlen",
     "difficulty": 3,
     "type": "multi",
-    "question": "Mit n = I·10² + R·10¹ + I·10⁰ und m = R·10² + I·10¹ + R·10⁰: Welche Darstellungen der Differenz n − m ergeben sich laut Beweis?",
+    "question": "Mit $n = I \\cdot 10^2 + R \\cdot 10^1 + I \\cdot 10^0$ und $m = R \\cdot 10^2 + I \\cdot 10^1 + R \\cdot 10^0$: Welche Darstellungen der Differenz $n - m$ ergeben sich laut Beweis?",
     "options": [
-      "n − m = (I − R)·91",
-      "n − m = (I − R)·(100 − 10 + 1)",
-      "n − m = (I − R)·(100 + 10 + 1)",
-      "n − m = (I − R)·9"
+      "$n - m = (I - R) \\cdot 91$",
+      "$n - m = (I - R) \\cdot (100 - 10 + 1)$",
+      "$n - m = (I - R) \\cdot (100 + 10 + 1)$",
+      "$n - m = (I - R) \\cdot 9$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Der Beweis liefert n − m = (I − R)·10² + (R − I)·10¹ + (I − R)·10⁰ = (I − R)·(100 − 10 + 1) = (I − R)·91. 📄 Quelle: ari23_vl11, Folie 31 (S.31)",
+    "explanation": "Der Beweis liefert $n - m = (I - R) \\cdot 10^2 + (R - I) \\cdot 10^1 + (I - R) \\cdot 10^0 = (I - R) \\cdot (100 - 10 + 1) = (I - R) \\cdot 91$. 📄 Quelle: ari23_vl11, Folie 31 (S.31)",
     "source": "ari23_vl11, Folie 31 (S.31, Definition – Satz – Beweis)"
   },
   {
@@ -20866,7 +20866,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "iri_mirim_zahlen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Wann heißt eine fünfstellige natürliche Zahl n laut Definition eine MIRIM-Zahl?",
+    "question": "Wann heißt eine fünfstellige natürliche Zahl $n$ laut Definition eine MIRIM-Zahl?",
     "options": [
       "Die äußeren beiden Ziffern sind gleich.",
       "Die zweite und die vierte Ziffer sind gleich.",
@@ -20878,7 +20878,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Eine fünfstellige natürliche Zahl n heißt MIRIM-Zahl, wenn die äußeren beiden Ziffern sowie die zweite und vierte Ziffer paarweise gleich und alle Ziffern ungleich 0 sind. 📄 Quelle: ari23_vl11, Folie 33 (S.33)",
+    "explanation": "Eine fünfstellige natürliche Zahl $n$ heißt MIRIM-Zahl, wenn die äußeren beiden Ziffern sowie die zweite und vierte Ziffer paarweise gleich und alle Ziffern ungleich 0 sind. 📄 Quelle: ari23_vl11, Folie 33 (S.33)",
     "source": "ari23_vl11, Folie 33 (S.33, Definition – Satz – Beweis)"
   },
   {
@@ -20888,17 +20888,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Ziffernfolgen haben die drei Gegenzahlen einer MIRIM-Zahl laut Definition?",
     "options": [
-      "Gegenzahl 1: R I M I R",
-      "Gegenzahl 2: I M R M I",
-      "Gegenzahl 3: M R I R M",
-      "Gegenzahl 3: I R M R I"
+      "Gegenzahl 1: $R\\,I\\,M\\,I\\,R$",
+      "Gegenzahl 2: $I\\,M\\,R\\,M\\,I$",
+      "Gegenzahl 3: $M\\,R\\,I\\,R\\,M$",
+      "Gegenzahl 3: $I\\,R\\,M\\,R\\,I$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Gegenzahl 1 hat die Folge RIMIR, Gegenzahl 2 die Folge IMRMI und Gegenzahl 3 die Folge MRIRM. 📄 Quelle: ari23_vl11, Folie 33 (S.33)",
+    "explanation": "Gegenzahl 1 hat die Folge $RIMIR$, Gegenzahl 2 die Folge $IMRMI$ und Gegenzahl 3 die Folge $MRIRM$. 📄 Quelle: ari23_vl11, Folie 33 (S.33)",
     "source": "ari23_vl11, Folie 33 (S.33, Definition – Satz – Beweis)"
   },
   {
@@ -20906,19 +20906,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "iri_mirim_zahlen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Zu welchem Modul ist eine MIRIM-Zahl n laut Satz kongruent zu ihrer jeweiligen Gegenzahl?",
+    "question": "Zu welchem Modul ist eine MIRIM-Zahl $n$ laut Satz kongruent zu ihrer jeweiligen Gegenzahl?",
     "options": [
-      "Zu Gegenzahl 1 (RIMIR): mod 9901",
-      "Zu Gegenzahl 2 (IMRMI): mod 8991",
-      "Zu Gegenzahl 3 (MRIRM): mod 910",
-      "Zu Gegenzahl 1 (RIMIR): mod 91"
+      "Zu Gegenzahl 1 ($RIMIR$): mod 9901",
+      "Zu Gegenzahl 2 ($IMRMI$): mod 8991",
+      "Zu Gegenzahl 3 ($MRIRM$): mod 910",
+      "Zu Gegenzahl 1 ($RIMIR$): mod 91"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Laut Satz gilt n ≡ m1 mod 9901, n ≡ m2 mod 8991 und n ≡ m3 mod 910. 📄 Quelle: ari23_vl11, Folie 34 (S.34)",
+    "explanation": "Laut Satz gilt $n \\equiv m_1 \\bmod 9901$, $n \\equiv m_2 \\bmod 8991$ und $n \\equiv m_3 \\bmod 910$. 📄 Quelle: ari23_vl11, Folie 34 (S.34)",
     "source": "ari23_vl11, Folie 34 (S.34, Definition – Satz – Beweis)"
   },
   {
@@ -20926,11 +20926,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "iri_mirim_zahlen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Zu welchem Modul ist eine MIRIM-Zahl n laut Satz kongruent zu ihrer Gegenzahl 1 (RIMIR)?",
+    "question": "Zu welchem Modul ist eine MIRIM-Zahl $n$ laut Satz kongruent zu ihrer Gegenzahl 1 ($RIMIR$)?",
     "answer": 9901,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Es gilt n ≡ m1 mod 9901; anders gesagt teilt 9901 die Differenz n − m1. 📄 Quelle: ari23_vl11, Folie 34 (S.34)",
+    "explanation": "Es gilt $n \\equiv m_1 \\bmod 9901$; anders gesagt teilt 9901 die Differenz $n - m_1$. 📄 Quelle: ari23_vl11, Folie 34 (S.34)",
     "source": "ari23_vl11, Folie 34 (S.34, Definition – Satz – Beweis)"
   },
   {
@@ -20938,11 +20938,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "iri_mirim_zahlen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Im Beweis zur Gegenzahl 1 (RIMIR) wird n − m = (M − R)·(10000 − 100 + 1) berechnet. Welchen Wert hat 10000 − 100 + 1?",
+    "question": "Im Beweis zur Gegenzahl 1 ($RIMIR$) wird $n - m = (M - R) \\cdot (10000 - 100 + 1)$ berechnet. Welchen Wert hat $10000 - 100 + 1$?",
     "answer": 9901,
     "tolerance": 0,
     "unit": "",
-    "explanation": "10000 − 100 + 1 = 9901, daher gilt n − m = (M − R)·9901. 📄 Quelle: ari23_vl11, Folie 35 (S.35)",
+    "explanation": "$10000 - 100 + 1 = 9901$, daher gilt $n - m = (M - R) \\cdot 9901$. 📄 Quelle: ari23_vl11, Folie 35 (S.35)",
     "source": "ari23_vl11, Folie 35 (S.35, Definition – Satz – Beweis)"
   },
   {
@@ -20950,17 +20950,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "iri_mirim_zahlen",
     "difficulty": 2,
     "type": "single",
-    "question": "Welche Darstellung ergibt der Beweis für die Differenz n − m einer MIRIM-Zahl und ihrer Gegenzahl 1 (RIMIR)?",
+    "question": "Welche Darstellung ergibt der Beweis für die Differenz $n - m$ einer MIRIM-Zahl und ihrer Gegenzahl 1 ($RIMIR$)?",
     "options": [
-      "n − m = (M − R)·9901",
-      "n − m = (M − R)·8991",
-      "n − m = (M − R)·910",
-      "n − m = (M − R)·91"
+      "$n - m = (M - R) \\cdot 9901$",
+      "$n - m = (M - R) \\cdot 8991$",
+      "$n - m = (M - R) \\cdot 910$",
+      "$n - m = (M - R) \\cdot 91$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Beweis liefert n − m = (M − R)·(10000 − 100 + 1) = (M − R)·9901. 📄 Quelle: ari23_vl11, Folie 35 (S.35)",
+    "explanation": "Der Beweis liefert $n - m = (M - R) \\cdot (10000 - 100 + 1) = (M - R) \\cdot 9901$. 📄 Quelle: ari23_vl11, Folie 35 (S.35)",
     "source": "ari23_vl11, Folie 35 (S.35, Definition – Satz – Beweis)"
   },
   {
@@ -20968,11 +20968,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "iri_mirim_zahlen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Im Beweis zur Gegenzahl 2 (IMRMI) wird n − m = (M − I)·(10000 − 1000 − 10 + 1) berechnet. Welchen Wert hat 10000 − 1000 − 10 + 1?",
+    "question": "Im Beweis zur Gegenzahl 2 ($IMRMI$) wird $n - m = (M - I) \\cdot (10000 - 1000 - 10 + 1)$ berechnet. Welchen Wert hat $10000 - 1000 - 10 + 1$?",
     "answer": 8991,
     "tolerance": 0,
     "unit": "",
-    "explanation": "10000 − 1000 − 10 + 1 = 8991, daher gilt n − m = (M − I)·8991. 📄 Quelle: ari23_vl11, Folie 36 (S.36)",
+    "explanation": "$10000 - 1000 - 10 + 1 = 8991$, daher gilt $n - m = (M - I) \\cdot 8991$. 📄 Quelle: ari23_vl11, Folie 36 (S.36)",
     "source": "ari23_vl11, Folie 36 (S.36, Definition – Satz – Beweis)"
   },
   {
@@ -20980,17 +20980,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "iri_mirim_zahlen",
     "difficulty": 2,
     "type": "single",
-    "question": "Welche Darstellung ergibt der Beweis für die Differenz n − m einer MIRIM-Zahl und ihrer Gegenzahl 2 (IMRMI)?",
+    "question": "Welche Darstellung ergibt der Beweis für die Differenz $n - m$ einer MIRIM-Zahl und ihrer Gegenzahl 2 ($IMRMI$)?",
     "options": [
-      "n − m = (M − I)·8991",
-      "n − m = (M − I)·9901",
-      "n − m = (M − I)·910",
-      "n − m = (I − R)·910"
+      "$n - m = (M - I) \\cdot 8991$",
+      "$n - m = (M - I) \\cdot 9901$",
+      "$n - m = (M - I) \\cdot 910$",
+      "$n - m = (I - R) \\cdot 910$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Beweis liefert n − m = (M − I)·(10000 − 1000 − 10 + 1) = (M − I)·8991. 📄 Quelle: ari23_vl11, Folie 36 (S.36)",
+    "explanation": "Der Beweis liefert $n - m = (M - I) \\cdot (10000 - 1000 - 10 + 1) = (M - I) \\cdot 8991$. 📄 Quelle: ari23_vl11, Folie 36 (S.36)",
     "source": "ari23_vl11, Folie 36 (S.36, Definition – Satz – Beweis)"
   },
   {
@@ -20998,11 +20998,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "iri_mirim_zahlen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Im Beweis zur Gegenzahl 3 (MRIRM) wird n − m = (I − R)·(1000 − 100 + 10) berechnet. Welchen Wert hat 1000 − 100 + 10?",
+    "question": "Im Beweis zur Gegenzahl 3 ($MRIRM$) wird $n - m = (I - R) \\cdot (1000 - 100 + 10)$ berechnet. Welchen Wert hat $1000 - 100 + 10$?",
     "answer": 910,
     "tolerance": 0,
     "unit": "",
-    "explanation": "1000 − 100 + 10 = 910, daher gilt n − m = (I − R)·910. 📄 Quelle: ari23_vl11, Folie 37 (S.37)",
+    "explanation": "$1000 - 100 + 10 = 910$, daher gilt $n - m = (I - R) \\cdot 910$. 📄 Quelle: ari23_vl11, Folie 37 (S.37)",
     "source": "ari23_vl11, Folie 37 (S.37, Definition – Satz – Beweis)"
   },
   {
@@ -21010,17 +21010,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "iri_mirim_zahlen",
     "difficulty": 2,
     "type": "single",
-    "question": "Welche Darstellung ergibt der Beweis für die Differenz n − m einer MIRIM-Zahl und ihrer Gegenzahl 3 (MRIRM)?",
+    "question": "Welche Darstellung ergibt der Beweis für die Differenz $n - m$ einer MIRIM-Zahl und ihrer Gegenzahl 3 ($MRIRM$)?",
     "options": [
-      "n − m = (I − R)·910",
-      "n − m = (M − R)·9901",
-      "n − m = (M − I)·8991",
-      "n − m = (I − R)·91"
+      "$n - m = (I - R) \\cdot 910$",
+      "$n - m = (M - R) \\cdot 9901$",
+      "$n - m = (M - I) \\cdot 8991$",
+      "$n - m = (I - R) \\cdot 91$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Beweis liefert n − m = (I − R)·(1000 − 100 + 10) = (I − R)·910. 📄 Quelle: ari23_vl11, Folie 37 (S.37)",
+    "explanation": "Der Beweis liefert $n - m = (I - R) \\cdot (1000 - 100 + 10) = (I - R) \\cdot 910$. 📄 Quelle: ari23_vl11, Folie 37 (S.37)",
     "source": "ari23_vl11, Folie 37 (S.37, Definition – Satz – Beweis)"
   },
   {

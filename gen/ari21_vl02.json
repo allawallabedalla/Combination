@@ -4,11 +4,11 @@
     "topic": "ari21_vl02_peano",
     "difficulty": 2,
     "type": "multi",
-    "question": "Nach Giuseppe Peano heißt eine Zahlenmenge N genau dann Natürliche Zahlen, wenn sie bestimmte Eigenschaften (Axiome) hat. Welche der folgenden Aussagen gehören zu diesen Peano-Axiomen?",
+    "question": "Nach Giuseppe Peano heißt eine Zahlenmenge $N$ genau dann Natürliche Zahlen, wenn sie bestimmte Eigenschaften (Axiome) hat. Welche der folgenden Aussagen gehören zu diesen Peano-Axiomen?",
     "options": [
       "1 ist eine Natürliche Zahl.",
-      "Zu jeder natürlichen Zahl n gibt es genau einen Nachfolger n'.",
-      "Kein Element von N hat als Nachfolger die 1.",
+      "Zu jeder natürlichen Zahl $n$ gibt es genau einen Nachfolger $n'$.",
+      "Kein Element von $N$ hat als Nachfolger die 1.",
       "Jede natürliche Zahl hat genau einen Vorgänger."
     ],
     "correct": [
@@ -16,7 +16,7 @@
       1,
       2
     ],
-    "explanation": "Die Peano-Axiome auf der Folie lauten: 1 ist eine Natürliche Zahl; zu jeder Zahl n gibt es genau einen Nachfolger n'; kein Element hat als Nachfolger die 1; kein Element ist Nachfolger zweier verschiedener Elemente; sowie das Induktionsaxiom. Dass jede natürliche Zahl genau einen Vorgänger hat, gehört NICHT dazu (die 1 hat keinen Vorgänger). 📄 Quelle: ari21_vl02, Folie 5 (S.5)",
+    "explanation": "Die Peano-Axiome auf der Folie lauten: 1 ist eine Natürliche Zahl; zu jeder Zahl $n$ gibt es genau einen Nachfolger $n'$; kein Element hat als Nachfolger die 1; kein Element ist Nachfolger zweier verschiedener Elemente; sowie das Induktionsaxiom. Dass jede natürliche Zahl genau einen Vorgänger hat, gehört NICHT dazu (die 1 hat keinen Vorgänger). 📄 Quelle: ari21_vl02, Folie 5 (S.5)",
     "source": "ari21_vl02, Folie 5 (S.5, Rückblick)"
   },
   {
@@ -26,15 +26,15 @@
     "type": "single",
     "question": "Wie lautet das fünfte Peano-Axiom (Induktionsaxiom)?",
     "options": [
-      "Wenn M eine Teilmenge von N ist und die ersten beiden Axiome erfüllt sind, dann ist M gleich N.",
-      "Wenn M eine Teilmenge von N ist, dann ist M gleich N.",
-      "Kein Element ist Nachfolger zweier verschiedener Elemente von N.",
-      "Zu jeder natürlichen Zahl n gibt es genau einen Nachfolger n'."
+      "Wenn $M$ eine Teilmenge von $N$ ist und die ersten beiden Axiome erfüllt sind, dann ist $M$ gleich $N$.",
+      "Wenn $M$ eine Teilmenge von $N$ ist, dann ist $M$ gleich $N$.",
+      "Kein Element ist Nachfolger zweier verschiedener Elemente von $N$.",
+      "Zu jeder natürlichen Zahl $n$ gibt es genau einen Nachfolger $n'$."
     ],
     "correct": [
       0
     ],
-    "explanation": "Das fünfte Axiom lautet folientreu: 'Wenn M eine Teilmenge von N ist und die ersten beiden Axiome erfüllt sind, dann ist M gleich N.' Die Voraussetzung 'die ersten beiden Axiome erfüllt' darf nicht weggelassen werden. 📄 Quelle: ari21_vl02, Folie 5 (S.5)",
+    "explanation": "Das fünfte Axiom lautet folientreu: 'Wenn $M$ eine Teilmenge von $N$ ist und die ersten beiden Axiome erfüllt sind, dann ist $M$ gleich $N$.' Die Voraussetzung 'die ersten beiden Axiome erfüllt' darf nicht weggelassen werden. 📄 Quelle: ari21_vl02, Folie 5 (S.5)",
     "source": "ari21_vl02, Folie 5 (S.5, Rückblick)"
   },
   {
@@ -99,16 +99,16 @@
     "type": "multi",
     "question": "Wie wird die Addition (vor der Axiomatisierung, rekursiv) für beliebige Natürliche Zahlen definiert?",
     "options": [
-      "n + 1 := n' (der Nachfolger von n)",
-      "n + (m + 1) := (n + m)' (der Nachfolger von n + m)",
-      "n · 1 := n (die Multiplikation mit 1)",
-      "n + (m + 1) := (n · m)' "
+      "$n + 1 := n'$ (der Nachfolger von $n$)",
+      "$n + (m + 1) := (n + m)'$ (der Nachfolger von $n + m$)",
+      "$n \\cdot 1 := n$ (die Multiplikation mit 1)",
+      "$n + (m + 1) := (n \\cdot m)'$ "
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Folie setzt fest: 1) n + 1 := n' (Nachfolger von n) und 2) n + (m + 1) := (n + m)' (Nachfolger von n + m), rekursiv mit 1) bestimmbar. Die anderen Optionen sind falsch (n · 1 := n gehört zur Multiplikation). 📄 Quelle: ari21_vl02, Folie 10 (S.10)",
+    "explanation": "Die Folie setzt fest: 1) $n + 1 := n'$ (Nachfolger von $n$) und 2) $n + (m + 1) := (n + m)'$ (Nachfolger von $n + m$), rekursiv mit 1) bestimmbar. Die anderen Optionen sind falsch ($n \\cdot 1 := n$ gehört zur Multiplikation). 📄 Quelle: ari21_vl02, Folie 10 (S.10)",
     "source": "ari21_vl02, Folie 10 (S.10, Operationen (Vertiefung))"
   },
   {
@@ -134,11 +134,11 @@
     "topic": "ari21_vl02_addition",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechnen Sie mit der Definition der Addition: 4 + 3 = ?",
+    "question": "Berechnen Sie mit der Definition der Addition: $4 + 3 = ?$",
     "answer": 7,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Mit der rekursiven Definition der Addition ergibt sich 4 + 3 = 7. 📄 Quelle: ari21_vl02, Folie 11 (S.11)",
+    "explanation": "Mit der rekursiven Definition der Addition ergibt sich $4 + 3 = 7$. 📄 Quelle: ari21_vl02, Folie 11 (S.11)",
     "source": "ari21_vl02, Folie 11 (S.11, Operationen (Vertiefung))"
   },
   {
@@ -146,11 +146,11 @@
     "topic": "ari21_vl02_addition",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechnen Sie mit der Definition der Addition: 3 + 4 = ?",
+    "question": "Berechnen Sie mit der Definition der Addition: $3 + 4 = ?$",
     "answer": 7,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Mit der rekursiven Definition der Addition ergibt sich 3 + 4 = 7. 📄 Quelle: ari21_vl02, Folie 11 (S.11)",
+    "explanation": "Mit der rekursiven Definition der Addition ergibt sich $3 + 4 = 7$. 📄 Quelle: ari21_vl02, Folie 11 (S.11)",
     "source": "ari21_vl02, Folie 11 (S.11, Operationen (Vertiefung))"
   },
   {
@@ -160,16 +160,16 @@
     "type": "multi",
     "question": "Wie wird die Multiplikation (rekursiv) für beliebige Natürliche Zahlen definiert?",
     "options": [
-      "n · 1 := n (die Multiplikation mit 1)",
-      "n · (m + 1) := n · m + n (rekursiv)",
-      "n · 1 := n' (der Nachfolger von n)",
-      "n · (m + 1) := n · m + m"
+      "$n \\cdot 1 := n$ (die Multiplikation mit 1)",
+      "$n \\cdot (m + 1) := n \\cdot m + n$ (rekursiv)",
+      "$n \\cdot 1 := n'$ (der Nachfolger von $n$)",
+      "$n \\cdot (m + 1) := n \\cdot m + m$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Folie setzt fest: 1) n · 1 := n und 2) n · (m + 1) := n · m + n (rekursiv). Die Optionen n · 1 := n' und n · (m+1) := n·m + m sind falsch. 📄 Quelle: ari21_vl02, Folie 12 (S.12)",
+    "explanation": "Die Folie setzt fest: 1) $n \\cdot 1 := n$ und 2) $n \\cdot (m + 1) := n \\cdot m + n$ (rekursiv). Die Optionen $n \\cdot 1 := n'$ und $n \\cdot (m+1) := n \\cdot m + m$ sind falsch. 📄 Quelle: ari21_vl02, Folie 12 (S.12)",
     "source": "ari21_vl02, Folie 12 (S.12, Operationen (Vertiefung))"
   },
   {
@@ -177,11 +177,11 @@
     "topic": "ari21_vl02_multiplikation",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechnen Sie mit der Definition der Multiplikation: 4 · 3 = ?",
+    "question": "Berechnen Sie mit der Definition der Multiplikation: $4 \\cdot 3 = ?$",
     "answer": 12,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Mit der rekursiven Definition der Multiplikation ergibt sich 4 · 3 = 12. 📄 Quelle: ari21_vl02, Folie 12 (S.12)",
+    "explanation": "Mit der rekursiven Definition der Multiplikation ergibt sich $4 \\cdot 3 = 12$. 📄 Quelle: ari21_vl02, Folie 12 (S.12)",
     "source": "ari21_vl02, Folie 12 (S.12, Operationen (Vertiefung))"
   },
   {
@@ -189,11 +189,11 @@
     "topic": "ari21_vl02_multiplikation",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechnen Sie mit der Definition der Multiplikation: 2 · 5 = ?",
+    "question": "Berechnen Sie mit der Definition der Multiplikation: $2 \\cdot 5 = ?$",
     "answer": 10,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Mit der rekursiven Definition der Multiplikation ergibt sich 2 · 5 = 10. 📄 Quelle: ari21_vl02, Folie 12 (S.12)",
+    "explanation": "Mit der rekursiven Definition der Multiplikation ergibt sich $2 \\cdot 5 = 10$. 📄 Quelle: ari21_vl02, Folie 12 (S.12)",
     "source": "ari21_vl02, Folie 12 (S.12, Operationen (Vertiefung))"
   },
   {
@@ -201,11 +201,11 @@
     "topic": "ari21_vl02_abblitzation",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Die „Abblitzation“ ist definiert durch a ⚡ b = (a + b) · b. Welches Ergebnis liefert 12 ⚡ 2 = (12 + 2) · 2?",
+    "question": "Die „Abblitzation“ ist definiert durch $a$ ⚡ $b = (a + b) \\cdot b$. Welches Ergebnis liefert $12$ ⚡ $2 = (12 + 2) \\cdot 2$?",
     "answer": 28,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Laut Folie ist 12 ⚡ 2 = (12 + 2) · 2 = 28. 📄 Quelle: ari21_vl02, Folie 14 (S.14)",
+    "explanation": "Laut Folie ist $12$ ⚡ $2 = (12 + 2) \\cdot 2 = 28$. 📄 Quelle: ari21_vl02, Folie 14 (S.14)",
     "source": "ari21_vl02, Folie 14 (S.14, Erkundung)"
   },
   {
@@ -213,7 +213,7 @@
     "topic": "ari21_vl02_abblitzation",
     "difficulty": 2,
     "type": "multi",
-    "question": "Wie werden in der Abblitzation 12 ⚡ 2 = (12 + 2) · 2 = 28 die einzelnen Bestandteile benannt?",
+    "question": "Wie werden in der Abblitzation $12$ ⚡ $2 = (12 + 2) \\cdot 2 = 28$ die einzelnen Bestandteile benannt?",
     "options": [
       "12 heißt Abblitzent.",
       "2 heißt Abblitzator.",
@@ -233,7 +233,7 @@
     "topic": "ari21_vl02_abblitzation",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Eigenschaften gelten für die Abblitzation (a ⚡ b = (a+b)·b) und die (normale) Addition bezüglich der einsetzbaren Zahlen?",
+    "question": "Welche Eigenschaften gelten für die Abblitzation ($a$ ⚡ $b = (a+b) \\cdot b$) und die (normale) Addition bezüglich der einsetzbaren Zahlen?",
     "options": [
       "Alle Natürlichen Zahlen können in die Abblitzation eingesetzt werden, so dass das Ergebnis auch eine natürliche Zahl ist.",
       "Bei der (normalen) Addition können auch alle natürlichen Zahlen eingesetzt werden.",
@@ -253,7 +253,7 @@
     "topic": "ari21_vl02_abblitzation",
     "difficulty": 1,
     "type": "single",
-    "question": "Welche Zahlen lassen sich in die einfache Operation Addition (a + b, z. B. 2 + 3 = 5) einsetzen?",
+    "question": "Welche Zahlen lassen sich in die einfache Operation Addition ($a + b$, z. B. $2 + 3 = 5$) einsetzen?",
     "options": [
       "alle natürlichen Zahlen (auch die 0)",
       "nur die natürlichen Zahlen ohne die 0",
@@ -271,7 +271,7 @@
     "topic": "ari21_vl02_abblitzation",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Aussagen zur Erzeugung natürlicher Zahlen durch die Abblitzation a △ b := (a+b)·b sind richtig?",
+    "question": "Welche Aussagen zur Erzeugung natürlicher Zahlen durch die Abblitzation $a \\triangle b := (a+b) \\cdot b$ sind richtig?",
     "options": [
       "Lässt man 0 als Abblitzent/Abblitzator zu, so können alle natürlichen Zahlen erzeugt werden.",
       "Ohne die 0 werden alle natürlichen Zahlen größer gleich 2 erzeugt.",
@@ -291,11 +291,11 @@
     "topic": "ari21_vl02_abblitzation",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechnen Sie das Ergebnis der Abblitzation 12 △ 2 (a △ b = (a+b)·b).",
+    "question": "Berechnen Sie das Ergebnis der Abblitzation $12 \\triangle 2$ ($a \\triangle b = (a+b) \\cdot b$).",
     "answer": 28,
     "tolerance": 0,
     "unit": "",
-    "explanation": "12 △ 2 = (12+2)·2 = 14·2 = 28. 📄 Quelle: ari21_vl02, Folie 18 (S.18)",
+    "explanation": "$12 \\triangle 2 = (12+2) \\cdot 2 = 14 \\cdot 2 = 28$. 📄 Quelle: ari21_vl02, Folie 18 (S.18)",
     "source": "ari21_vl02, Folie 18 (S.18, Arithmetik – Operationen (Vertiefung))"
   },
   {
@@ -303,7 +303,7 @@
     "topic": "ari21_vl02_abblitzation",
     "difficulty": 1,
     "type": "multi",
-    "question": "Wie heißen die Bestandteile in der Abblitzation 12 △ 2 = 28?",
+    "question": "Wie heißen die Bestandteile in der Abblitzation $12 \\triangle 2 = 28$?",
     "options": [
       "12 ist der Abblitzent.",
       "2 ist der Abblitzator.",
@@ -323,7 +323,7 @@
     "topic": "ari21_vl02_abblitzation",
     "difficulty": 1,
     "type": "single",
-    "question": "Welche Eigenschaft der Abblitzation zeigt das Beispiel 12 △ 2 = 28 ≠ 168 = 2 △ 12?",
+    "question": "Welche Eigenschaft der Abblitzation zeigt das Beispiel $12 \\triangle 2 = 28 \\ne 168 = 2 \\triangle 12$?",
     "options": [
       "Sie ist nicht kommutativ.",
       "Sie ist nicht assoziativ.",
@@ -333,7 +333,7 @@
     "correct": [
       0
     ],
-    "explanation": "Weil 12 △ 2 = 28 ungleich 2 △ 12 = 168 ist, ist die Abblitzation nicht kommutativ. 📄 Quelle: ari21_vl02, Folie 19 (S.19)",
+    "explanation": "Weil $12 \\triangle 2 = 28$ ungleich $2 \\triangle 12 = 168$ ist, ist die Abblitzation nicht kommutativ. 📄 Quelle: ari21_vl02, Folie 19 (S.19)",
     "source": "ari21_vl02, Folie 19 (S.19, Arithmetik – Operationen (Vertiefung))"
   },
   {
@@ -341,11 +341,11 @@
     "topic": "ari21_vl02_abblitzation",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Berechnen Sie 2 △ 12 (Abblitzation, a △ b = (a+b)·b).",
+    "question": "Berechnen Sie $2 \\triangle 12$ (Abblitzation, $a \\triangle b = (a+b) \\cdot b$).",
     "answer": 168,
     "tolerance": 0,
     "unit": "",
-    "explanation": "2 △ 12 = (2+12)·12 = 14·12 = 168. 📄 Quelle: ari21_vl02, Folie 19 (S.19)",
+    "explanation": "$2 \\triangle 12 = (2+12) \\cdot 12 = 14 \\cdot 12 = 168$. 📄 Quelle: ari21_vl02, Folie 19 (S.19)",
     "source": "ari21_vl02, Folie 19 (S.19, Arithmetik – Operationen (Vertiefung))"
   },
   {
@@ -355,16 +355,16 @@
     "type": "multi",
     "question": "Welche Aussagen zur Kommutativität (von Abblitzation, Addition und Potenzieren) sind richtig?",
     "options": [
-      "Auch das Potenzieren ist nicht kommutativ, z. B. 2^3 = 8 ≠ 9 = 3^2.",
-      "Die Addition ist kommutativ: a+b = b+a.",
+      "Auch das Potenzieren ist nicht kommutativ, z. B. $2^3 = 8 \\ne 9 = 3^2$.",
+      "Die Addition ist kommutativ: $a+b = b+a$.",
       "Die Abblitzation ist kommutativ.",
-      "Es gilt 2^3 = 3^2."
+      "Es gilt $2^3 = 3^2$."
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Folie zeigt 2^3 = 8 ≠ 9 = 3^2 (Potenzieren nicht kommutativ) und a+b = b+a (Addition kommutativ). 📄 Quelle: ari21_vl02, Folie 19 (S.19)",
+    "explanation": "Die Folie zeigt $2^3 = 8 \\ne 9 = 3^2$ (Potenzieren nicht kommutativ) und $a+b = b+a$ (Addition kommutativ). 📄 Quelle: ari21_vl02, Folie 19 (S.19)",
     "source": "ari21_vl02, Folie 19 (S.19, Arithmetik – Operationen (Vertiefung))"
   },
   {
@@ -372,7 +372,7 @@
     "topic": "ari21_vl02_abblitzation",
     "difficulty": 1,
     "type": "single",
-    "question": "Welche Eigenschaft der Abblitzation zeigt (12 △ 2) △ 4 = 128 ≠ 864 = 12 △ (2 △ 4)?",
+    "question": "Welche Eigenschaft der Abblitzation zeigt $(12 \\triangle 2) \\triangle 4 = 128 \\ne 864 = 12 \\triangle (2 \\triangle 4)$?",
     "options": [
       "Sie ist nicht assoziativ.",
       "Sie ist nicht kommutativ.",
@@ -382,7 +382,7 @@
     "correct": [
       0
     ],
-    "explanation": "Da (12 △ 2) △ 4 = 128 ungleich 12 △ (2 △ 4) = 864 ist, ist die Abblitzation nicht assoziativ. 📄 Quelle: ari21_vl02, Folie 20 (S.20)",
+    "explanation": "Da $(12 \\triangle 2) \\triangle 4 = 128$ ungleich $12 \\triangle (2 \\triangle 4) = 864$ ist, ist die Abblitzation nicht assoziativ. 📄 Quelle: ari21_vl02, Folie 20 (S.20)",
     "source": "ari21_vl02, Folie 20 (S.20, Arithmetik – Operationen (Vertiefung))"
   },
   {
@@ -390,11 +390,11 @@
     "topic": "ari21_vl02_abblitzation",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Berechnen Sie (12 △ 2) △ 4 (Abblitzation, a △ b = (a+b)·b).",
+    "question": "Berechnen Sie $(12 \\triangle 2) \\triangle 4$ (Abblitzation, $a \\triangle b = (a+b) \\cdot b$).",
     "answer": 128,
     "tolerance": 0,
     "unit": "",
-    "explanation": "12 △ 2 = 28; 28 △ 4 = (28+4)·4 = 32·4 = 128. 📄 Quelle: ari21_vl02, Folie 20 (S.20)",
+    "explanation": "$12 \\triangle 2 = 28$; $28 \\triangle 4 = (28+4) \\cdot 4 = 32 \\cdot 4 = 128$. 📄 Quelle: ari21_vl02, Folie 20 (S.20)",
     "source": "ari21_vl02, Folie 20 (S.20, Arithmetik – Operationen (Vertiefung))"
   },
   {
@@ -402,11 +402,11 @@
     "topic": "ari21_vl02_abblitzation",
     "difficulty": 3,
     "type": "numeric",
-    "question": "Berechnen Sie 12 △ (2 △ 4) (Abblitzation, a △ b = (a+b)·b).",
+    "question": "Berechnen Sie $12 \\triangle (2 \\triangle 4)$ (Abblitzation, $a \\triangle b = (a+b) \\cdot b$).",
     "answer": 864,
     "tolerance": 0,
     "unit": "",
-    "explanation": "2 △ 4 = (2+4)·4 = 24; 12 △ 24 = (12+24)·24 = 36·24 = 864. 📄 Quelle: ari21_vl02, Folie 20 (S.20)",
+    "explanation": "$2 \\triangle 4 = (2+4) \\cdot 4 = 24$; $12 \\triangle 24 = (12+24) \\cdot 24 = 36 \\cdot 24 = 864$. 📄 Quelle: ari21_vl02, Folie 20 (S.20)",
     "source": "ari21_vl02, Folie 20 (S.20, Arithmetik – Operationen (Vertiefung))"
   },
   {
@@ -416,16 +416,16 @@
     "type": "multi",
     "question": "Welche Aussagen zur Assoziativität (von Abblitzation, Addition und Potenzieren) sind richtig?",
     "options": [
-      "Auch das Potenzieren ist nicht assoziativ: (2^3)^2 = 81 ≠ 512 = 2^(3^2).",
-      "Die Addition ist assoziativ: a+(b+c) = (a+b)+c.",
+      "Auch das Potenzieren ist nicht assoziativ: $(2^3)^2 = 81 \\ne 512 = 2^{3^2}$.",
+      "Die Addition ist assoziativ: $a+(b+c) = (a+b)+c$.",
       "Die Abblitzation ist assoziativ.",
-      "Es gilt (2^3)^2 = 2^(3^2)."
+      "Es gilt $(2^3)^2 = 2^{3^2}$."
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Folie zeigt (2^3)^2 = 81 ≠ 512 = 2^(3^2) (Potenzieren nicht assoziativ) und a+(b+c) = (a+b)+c (Addition assoziativ). 📄 Quelle: ari21_vl02, Folie 20 (S.20)",
+    "explanation": "Die Folie zeigt $(2^3)^2 = 81 \\ne 512 = 2^{3^2}$ (Potenzieren nicht assoziativ) und $a+(b+c) = (a+b)+c$ (Addition assoziativ). 📄 Quelle: ari21_vl02, Folie 20 (S.20)",
     "source": "ari21_vl02, Folie 20 (S.20, Arithmetik – Operationen (Vertiefung))"
   },
   {
@@ -433,7 +433,7 @@
     "topic": "ari21_vl02_abblitzation",
     "difficulty": 1,
     "type": "single",
-    "question": "Welche Aussage über die Umkehrung(en) der Abblitzation (a △ b = (a+b)·b) ist richtig?",
+    "question": "Welche Aussage über die Umkehrung(en) der Abblitzation ($a \\triangle b = (a+b) \\cdot b$) ist richtig?",
     "options": [
       "Sie hat zwei Umkehroperationen.",
       "Sie ist kommutativ.",
@@ -451,10 +451,10 @@
     "topic": "ari21_vl02_abblitzation",
     "difficulty": 3,
     "type": "multi",
-    "question": "Welche Aussagen zu den Umkehroperationen der Abblitzation sind richtig? (a △ b = (a+b)·b = c)",
+    "question": "Welche Aussagen zu den Umkehroperationen der Abblitzation sind richtig? ($a \\triangle b = (a+b) \\cdot b = c$)",
     "options": [
-      "Die beiden Umkehrungen sind a = c/b − b und b² + ab − c = 0.",
-      "Auch das Potenzieren hat zwei Umkehroperationen, z. B. √9 = 3 und log_3(9) = 2.",
+      "Die beiden Umkehrungen sind $a = \\frac{c}{b} - b$ und $b^2 + ab - c = 0$.",
+      "Auch das Potenzieren hat zwei Umkehroperationen, z. B. $\\sqrt{9} = 3$ und $\\log_3(9) = 2$.",
       "Weil die Addition kommutativ ist, ist ihre Umkehroperation eindeutig (nur das „−“).",
       "Die Abblitzation hat nur eine Umkehroperation."
     ],
@@ -463,7 +463,7 @@
       1,
       2
     ],
-    "explanation": "Die Folie gibt für a △ b = c die Umkehrungen a = c/b − b und b² + ab − c = 0 an, nennt beim Potenzieren Wurzel und Logarithmus (√9 = 3, log_3(9) = 2) und begründet die Eindeutigkeit der Umkehrung der Addition mit deren Kommutativität. 📄 Quelle: ari21_vl02, Folie 21 (S.21)",
+    "explanation": "Die Folie gibt für $a \\triangle b = c$ die Umkehrungen $a = \\frac{c}{b} - b$ und $b^2 + ab - c = 0$ an, nennt beim Potenzieren Wurzel und Logarithmus ($\\sqrt{9} = 3$, $\\log_3(9) = 2$) und begründet die Eindeutigkeit der Umkehrung der Addition mit deren Kommutativität. 📄 Quelle: ari21_vl02, Folie 21 (S.21)",
     "source": "ari21_vl02, Folie 21 (S.21, Arithmetik – Operationen (Vertiefung))"
   },
   {
@@ -471,11 +471,11 @@
     "topic": "ari21_vl02_abblitzation",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welchen Wert hat log_3(9)?",
+    "question": "Welchen Wert hat $\\log_3(9)$?",
     "answer": 2,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Als Umkehroperation des Potenzierens gilt laut Folie log_3(9) = 2 (denn 3^2 = 9). 📄 Quelle: ari21_vl02, Folie 21 (S.21)",
+    "explanation": "Als Umkehroperation des Potenzierens gilt laut Folie $\\log_3(9) = 2$ (denn $3^2 = 9$). 📄 Quelle: ari21_vl02, Folie 21 (S.21)",
     "source": "ari21_vl02, Folie 21 (S.21, Arithmetik – Operationen (Vertiefung))"
   },
   {
@@ -541,18 +541,18 @@
     "topic": "ari21_vl02_multiplikation_def",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche definierenden Regeln gelten für das Produkt m·n (formal, rekursiv)?",
+    "question": "Welche definierenden Regeln gelten für das Produkt $m \\cdot n$ (formal, rekursiv)?",
     "options": [
-      "n·1 := n",
-      "n·(m+1) := n·m + n",
-      "n·(m+1) := n·m · n",
-      "n·1 := 1"
+      "$n \\cdot 1 := n$",
+      "$n \\cdot (m+1) := n \\cdot m + n$",
+      "$n \\cdot (m+1) := n \\cdot m \\cdot n$",
+      "$n \\cdot 1 := 1$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Folie gibt die Regeln 1) n·1 := n und 2) n·(m+1) := n·m + n an. 📄 Quelle: ari21_vl02, Folie 24 (S.24)",
+    "explanation": "Die Folie gibt die Regeln 1) $n \\cdot 1 := n$ und 2) $n \\cdot (m+1) := n \\cdot m + n$ an. 📄 Quelle: ari21_vl02, Folie 24 (S.24)",
     "source": "ari21_vl02, Folie 24 (S.24, Arithmetik – Eine Definition (Multiplikation))"
   },
   {
@@ -578,18 +578,18 @@
     "topic": "ari21_vl02_multiplikation_def",
     "difficulty": 2,
     "type": "multi",
-    "question": "Wie lauten die definierenden Regeln für m·n in Worten?",
+    "question": "Wie lauten die definierenden Regeln für $m \\cdot n$ in Worten?",
     "options": [
-      "Jede Zahl n mit 1 multipliziert ergibt n.",
-      "Jede Multiplikation einer Zahl n mit einer Zahl (m+1) entspricht der Multiplikation mit dem Vorgänger m und der Addition mit n.",
+      "Jede Zahl $n$ mit 1 multipliziert ergibt $n$.",
+      "Jede Multiplikation einer Zahl $n$ mit einer Zahl $(m+1)$ entspricht der Multiplikation mit dem Vorgänger $m$ und der Addition mit $n$.",
       "Jede Zahl n mit 1 multipliziert ergibt 1.",
-      "Jede Multiplikation von n mit (m+1) entspricht der Multiplikation mit dem Nachfolger und der Subtraktion von n."
+      "Jede Multiplikation von $n$ mit $(m+1)$ entspricht der Multiplikation mit dem Nachfolger und der Subtraktion von $n$."
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Folie formuliert wörtlich: 1) Jede Zahl n mit 1 multipliziert ergibt n. 2) Jede Multiplikation von n mit (m+1) entspricht der Multiplikation mit dem Vorgänger m und der Addition mit n. 📄 Quelle: ari21_vl02, Folie 25 (S.25)",
+    "explanation": "Die Folie formuliert wörtlich: 1) Jede Zahl $n$ mit 1 multipliziert ergibt $n$. 2) Jede Multiplikation von $n$ mit $(m+1)$ entspricht der Multiplikation mit dem Vorgänger $m$ und der Addition mit $n$. 📄 Quelle: ari21_vl02, Folie 25 (S.25)",
     "source": "ari21_vl02, Folie 25 (S.25, Arithmetik – Eine Definition (Multiplikation))"
   },
   {
@@ -597,17 +597,17 @@
     "topic": "ari21_vl02_multiplikation_def",
     "difficulty": 1,
     "type": "single",
-    "question": "Was ergibt „jede Zahl n mit 1 multipliziert“ (Regel 1 der Multiplikationsdefinition)?",
+    "question": "Was ergibt „jede Zahl $n$ mit 1 multipliziert“ (Regel 1 der Multiplikationsdefinition)?",
     "options": [
-      "n",
+      "$n$",
       "1",
-      "n+1",
+      "$n+1$",
       "0"
     ],
     "correct": [
       0
     ],
-    "explanation": "Regel 1 (wörtlich): Jede Zahl n mit 1 multipliziert ergibt n (entspricht n·1 := n). 📄 Quelle: ari21_vl02, Folie 25 (S.25)",
+    "explanation": "Regel 1 (wörtlich): Jede Zahl $n$ mit 1 multipliziert ergibt $n$ (entspricht $n \\cdot 1 := n$). 📄 Quelle: ari21_vl02, Folie 25 (S.25)",
     "source": "ari21_vl02, Folie 25 (S.25, Arithmetik – Eine Definition (Multiplikation))"
   },
   {
@@ -615,17 +615,17 @@
     "topic": "ari21_vl02_multiplikation_def",
     "difficulty": 1,
     "type": "single",
-    "question": "Wie lautet die definierende Gleichung für das Produkt m·n (als wiederholte Addition)?",
+    "question": "Wie lautet die definierende Gleichung für das Produkt $m \\cdot n$ (als wiederholte Addition)?",
     "options": [
-      "m·n = n + n + … + n (m-mal)",
-      "m·n = n · n · … · n (m-mal)",
-      "m·n = n + n + … + n (n-mal)",
-      "m·n = (m+n) + (m+n)"
+      "$m \\cdot n = n + n + \\dots + n$ (m-mal)",
+      "$m \\cdot n = n \\cdot n \\cdot \\dots \\cdot n$ (m-mal)",
+      "$m \\cdot n = n + n + \\dots + n$ (n-mal)",
+      "$m \\cdot n = (m+n) + (m+n)$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie definiert m·n = n + n + … + n mit m Summanden (m-mal). 📄 Quelle: ari21_vl02, Folie 26 (S.26)",
+    "explanation": "Die Folie definiert $m \\cdot n = n + n + \\dots + n$ mit $m$ Summanden (m-mal). 📄 Quelle: ari21_vl02, Folie 26 (S.26)",
     "source": "ari21_vl02, Folie 26 (S.26, Arithmetik – Eine Definition (Multiplikation))"
   },
   {
@@ -633,17 +633,17 @@
     "topic": "ari21_vl02_multiplikation_def",
     "difficulty": 2,
     "type": "multi",
-    "question": "Was besagt die Definition m·n = n + n + … + n (m-mal)?",
+    "question": "Was besagt die Definition $m \\cdot n = n + n + \\dots + n$ (m-mal)?",
     "options": [
-      "Es entsteht durch m-maliges Addieren von n.",
-      "Der Faktor m gibt an, wie oft n addiert wird.",
-      "n gibt an, wie oft m addiert wird."
+      "Es entsteht durch m-maliges Addieren von $n$.",
+      "Der Faktor $m$ gibt an, wie oft $n$ addiert wird.",
+      "$n$ gibt an, wie oft $m$ addiert wird."
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Laut Folie ist m·n die Summe aus m Summanden n, also m-maliges Addieren von n. 📄 Quelle: ari21_vl02, Folie 26 (S.26)",
+    "explanation": "Laut Folie ist $m \\cdot n$ die Summe aus $m$ Summanden $n$, also m-maliges Addieren von $n$. 📄 Quelle: ari21_vl02, Folie 26 (S.26)",
     "source": "ari21_vl02, Folie 26 (S.26, Arithmetik – Eine Definition (Multiplikation))"
   },
   {
@@ -651,11 +651,11 @@
     "topic": "ari21_vl02_multiplikation_def",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechnen Sie 3·4 gemäß der Definition m·n = n + n + … + n (m-mal).",
+    "question": "Berechnen Sie $3 \\cdot 4$ gemäß der Definition $m \\cdot n = n + n + \\dots + n$ (m-mal).",
     "answer": 12,
     "tolerance": 0,
     "unit": "",
-    "explanation": "3·4 = 4 + 4 + 4 (3-mal) = 12. 📄 Quelle: ari21_vl02, Folie 26 (S.26)",
+    "explanation": "$3 \\cdot 4 = 4 + 4 + 4$ (3-mal) $= 12$. 📄 Quelle: ari21_vl02, Folie 26 (S.26)",
     "source": "ari21_vl02, Folie 26 (S.26, Arithmetik – Eine Definition (Multiplikation))"
   },
   {
@@ -663,18 +663,18 @@
     "topic": "ari21_vl02_potenz_def",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche definierenden Regeln gelten für n^m (formal, rekursiv)?",
+    "question": "Welche definierenden Regeln gelten für $n^m$ (formal, rekursiv)?",
     "options": [
-      "n^1 := n",
-      "n^(m+1) := n^m · n",
-      "n^(m+1) := n^m + n",
-      "n^1 := 1"
+      "$n^1 := n$",
+      "$n^{m+1} := n^m \\cdot n$",
+      "$n^{m+1} := n^m + n$",
+      "$n^1 := 1$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Folie gibt die Regeln 1) n^1 := n und 2) n^(m+1) := n^m · n an. 📄 Quelle: ari21_vl02, Folie 28 (S.28)",
+    "explanation": "Die Folie gibt die Regeln 1) $n^1 := n$ und 2) $n^{m+1} := n^m \\cdot n$ an. 📄 Quelle: ari21_vl02, Folie 28 (S.28)",
     "source": "ari21_vl02, Folie 28 (S.28, Arithmetik – Eine Definition von n^m)"
   },
   {
@@ -682,17 +682,17 @@
     "topic": "ari21_vl02_potenz_def",
     "difficulty": 1,
     "type": "single",
-    "question": "Als was wird n^m bezeichnet (Definiendum)?",
+    "question": "Als was wird $n^m$ bezeichnet (Definiendum)?",
     "options": [
-      "als m-te Potenz der natürlichen Zahl n (wobei m auch eine natürliche Zahl ist)",
-      "als n-te Potenz der natürlichen Zahl m",
-      "als Produkt der natürlichen Zahlen n und m",
-      "als Summe von n, m-mal genommen"
+      "als m-te Potenz der natürlichen Zahl $n$ (wobei $m$ auch eine natürliche Zahl ist)",
+      "als n-te Potenz der natürlichen Zahl $m$",
+      "als Produkt der natürlichen Zahlen $n$ und $m$",
+      "als Summe von $n$, m-mal genommen"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie: „n^m wird als m-te Potenz der natürlichen Zahl n bezeichnet (wobei m auch eine natürliche Zahl ist).“ 📄 Quelle: ari21_vl02, Folie 28 (S.28)",
+    "explanation": "Die Folie: „$n^m$ wird als m-te Potenz der natürlichen Zahl $n$ bezeichnet (wobei $m$ auch eine natürliche Zahl ist).“ 📄 Quelle: ari21_vl02, Folie 28 (S.28)",
     "source": "ari21_vl02, Folie 28 (S.28, Arithmetik – Eine Definition von n^m)"
   },
   {
@@ -700,11 +700,11 @@
     "topic": "ari21_vl02_potenz_def",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Berechnen Sie 2^2 mithilfe der Regeln n^1 := n und n^(m+1) := n^m · n.",
+    "question": "Berechnen Sie $2^2$ mithilfe der Regeln $n^1 := n$ und $n^{m+1} := n^m \\cdot n$.",
     "answer": 4,
     "tolerance": 0,
     "unit": "",
-    "explanation": "2^2 = 2^(1+1) = 2^1 · 2 = 2 · 2 = 4. 📄 Quelle: ari21_vl02, Folie 28 (S.28)",
+    "explanation": "$2^2 = 2^{1+1} = 2^1 \\cdot 2 = 2 \\cdot 2 = 4$. 📄 Quelle: ari21_vl02, Folie 28 (S.28)",
     "source": "ari21_vl02, Folie 28 (S.28, Arithmetik – Eine Definition von n^m)"
   },
   {
@@ -712,18 +712,18 @@
     "topic": "ari21_vl02_potenz_def",
     "difficulty": 2,
     "type": "multi",
-    "question": "Wie lauten die definierenden Regeln für n^m in Worten?",
+    "question": "Wie lauten die definierenden Regeln für $n^m$ in Worten?",
     "options": [
-      "Jede Zahl n mit 1 potenziert ergibt n.",
-      "Jede (m+1)-te Potenz einer Zahl n entspricht der m-ten Potenz von n multipliziert mit n.",
+      "Jede Zahl $n$ mit 1 potenziert ergibt $n$.",
+      "Jede $(m+1)$-te Potenz einer Zahl $n$ entspricht der m-ten Potenz von $n$ multipliziert mit $n$.",
       "Jede Zahl n mit 1 potenziert ergibt 1.",
-      "Jede (m+1)-te Potenz von n entspricht der m-ten Potenz von n addiert mit n."
+      "Jede $(m+1)$-te Potenz von $n$ entspricht der m-ten Potenz von $n$ addiert mit $n$."
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Folie formuliert wörtlich: 1) Jede Zahl n mit 1 potenziert ergibt n. 2) Jede (m+1)-te Potenz von n entspricht der m-ten Potenz von n multipliziert mit n. 📄 Quelle: ari21_vl02, Folie 29 (S.29)",
+    "explanation": "Die Folie formuliert wörtlich: 1) Jede Zahl $n$ mit 1 potenziert ergibt $n$. 2) Jede $(m+1)$-te Potenz von $n$ entspricht der m-ten Potenz von $n$ multipliziert mit $n$. 📄 Quelle: ari21_vl02, Folie 29 (S.29)",
     "source": "ari21_vl02, Folie 29 (S.29, Arithmetik – Eine Definition von n^m)"
   },
   {
@@ -731,17 +731,17 @@
     "topic": "ari21_vl02_potenz_def",
     "difficulty": 1,
     "type": "single",
-    "question": "Was ergibt „jede Zahl n mit 1 potenziert“ (Regel 1 der Potenzdefinition)?",
+    "question": "Was ergibt „jede Zahl $n$ mit 1 potenziert“ (Regel 1 der Potenzdefinition)?",
     "options": [
-      "n",
+      "$n$",
       "1",
-      "n·n",
-      "n+1"
+      "$n \\cdot n$",
+      "$n+1$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Regel 1 (wörtlich): Jede Zahl n mit 1 potenziert ergibt n (entspricht n^1 := n). 📄 Quelle: ari21_vl02, Folie 29 (S.29)",
+    "explanation": "Regel 1 (wörtlich): Jede Zahl $n$ mit 1 potenziert ergibt $n$ (entspricht $n^1 := n$). 📄 Quelle: ari21_vl02, Folie 29 (S.29)",
     "source": "ari21_vl02, Folie 29 (S.29, Arithmetik – Eine Definition von n^m)"
   },
   {
@@ -749,17 +749,17 @@
     "topic": "ari21_vl02_potenz_def",
     "difficulty": 1,
     "type": "single",
-    "question": "Welche wörtliche definierende Eigenschaft hat n^m?",
+    "question": "Welche wörtliche definierende Eigenschaft hat $n^m$?",
     "options": [
-      "Die Zahl n wird m-fach mit sich selbst multipliziert.",
-      "Die Zahl m wird n-fach mit sich selbst multipliziert.",
-      "Die Zahl n wird m-fach zu sich selbst addiert.",
-      "Die Zahl n wird mit m multipliziert."
+      "Die Zahl $n$ wird m-fach mit sich selbst multipliziert.",
+      "Die Zahl $m$ wird n-fach mit sich selbst multipliziert.",
+      "Die Zahl $n$ wird m-fach zu sich selbst addiert.",
+      "Die Zahl $n$ wird mit $m$ multipliziert."
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie: n^m genau dann, wenn die Zahl n m-fach mit sich selbst multipliziert wird. 📄 Quelle: ari21_vl02, Folie 30 (S.30)",
+    "explanation": "Die Folie: $n^m$ genau dann, wenn die Zahl $n$ m-fach mit sich selbst multipliziert wird. 📄 Quelle: ari21_vl02, Folie 30 (S.30)",
     "source": "ari21_vl02, Folie 30 (S.30, Arithmetik – Eine Definition von n^m)"
   },
   {
@@ -767,17 +767,17 @@
     "topic": "ari21_vl02_potenz_def",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Aussagen treffen auf die Definition von n^m zu?",
+    "question": "Welche Aussagen treffen auf die Definition von $n^m$ zu?",
     "options": [
-      "n^m bedeutet, dass n m-fach mit sich selbst multipliziert wird.",
-      "Das Definiendum ist n^m, das Definiens die m-fache Multiplikation von n mit sich selbst.",
-      "n^m bedeutet, dass n m-fach mit sich selbst addiert wird."
+      "$n^m$ bedeutet, dass $n$ m-fach mit sich selbst multipliziert wird.",
+      "Das Definiendum ist $n^m$, das Definiens die m-fache Multiplikation von $n$ mit sich selbst.",
+      "$n^m$ bedeutet, dass $n$ m-fach mit sich selbst addiert wird."
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Definiendum n^m, Definiens: die Zahl n wird m-fach mit sich selbst multipliziert (nicht addiert). 📄 Quelle: ari21_vl02, Folie 30 (S.30)",
+    "explanation": "Definiendum $n^m$, Definiens: die Zahl $n$ wird m-fach mit sich selbst multipliziert (nicht addiert). 📄 Quelle: ari21_vl02, Folie 30 (S.30)",
     "source": "ari21_vl02, Folie 30 (S.30, Arithmetik – Eine Definition von n^m)"
   },
   {
@@ -785,17 +785,17 @@
     "topic": "ari21_vl02_potenz_def",
     "difficulty": 1,
     "type": "single",
-    "question": "Wie lautet die definierende Gleichung für n^m (als wiederholte Multiplikation)?",
+    "question": "Wie lautet die definierende Gleichung für $n^m$ (als wiederholte Multiplikation)?",
     "options": [
-      "n^m = n · n · … · n (m-mal)",
-      "n^m = n + n + … + n (m-mal)",
-      "n^m = n · n · … · n (n-mal)",
-      "n^m = m · m · … · m (n-mal)"
+      "$n^m = n \\cdot n \\cdot \\dots \\cdot n$ (m-mal)",
+      "$n^m = n + n + \\dots + n$ (m-mal)",
+      "$n^m = n \\cdot n \\cdot \\dots \\cdot n$ (n-mal)",
+      "$n^m = m \\cdot m \\cdot \\dots \\cdot m$ (n-mal)"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie definiert n^m = n · n · … · n mit m Faktoren (m-mal). 📄 Quelle: ari21_vl02, Folie 31 (S.31)",
+    "explanation": "Die Folie definiert $n^m = n \\cdot n \\cdot \\dots \\cdot n$ mit $m$ Faktoren (m-mal). 📄 Quelle: ari21_vl02, Folie 31 (S.31)",
     "source": "ari21_vl02, Folie 31 (S.31, Arithmetik – Eine Definition von n^m)"
   },
   {
@@ -803,11 +803,11 @@
     "topic": "ari21_vl02_potenz_def",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechnen Sie 2^4 gemäß der Definition n^m = n · n · … · n (m-mal).",
+    "question": "Berechnen Sie $2^4$ gemäß der Definition $n^m = n \\cdot n \\cdot \\dots \\cdot n$ (m-mal).",
     "answer": 16,
     "tolerance": 0,
     "unit": "",
-    "explanation": "2^4 = 2 · 2 · 2 · 2 (4-mal) = 16. 📄 Quelle: ari21_vl02, Folie 31 (S.31)",
+    "explanation": "$2^4 = 2 \\cdot 2 \\cdot 2 \\cdot 2$ (4-mal) $= 16$. 📄 Quelle: ari21_vl02, Folie 31 (S.31)",
     "source": "ari21_vl02, Folie 31 (S.31, Arithmetik – Eine Definition von n^m)"
   },
   {
@@ -815,17 +815,17 @@
     "topic": "ari21_vl02_potenz_def",
     "difficulty": 2,
     "type": "multi",
-    "question": "Was besagt die Definition n^m = n · n · … · n (m-mal)?",
+    "question": "Was besagt die Definition $n^m = n \\cdot n \\cdot \\dots \\cdot n$ (m-mal)?",
     "options": [
-      "Der Exponent m gibt an, wie oft n als Faktor multipliziert wird.",
-      "n ist die Basis, die m-mal als Faktor auftritt.",
-      "n gibt an, wie oft m als Faktor auftritt."
+      "Der Exponent $m$ gibt an, wie oft $n$ als Faktor multipliziert wird.",
+      "$n$ ist die Basis, die m-mal als Faktor auftritt.",
+      "$n$ gibt an, wie oft $m$ als Faktor auftritt."
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Laut Folie ist n^m das Produkt aus m Faktoren n; m gibt die Anzahl der Faktoren an. 📄 Quelle: ari21_vl02, Folie 31 (S.31)",
+    "explanation": "Laut Folie ist $n^m$ das Produkt aus $m$ Faktoren $n$; $m$ gibt die Anzahl der Faktoren an. 📄 Quelle: ari21_vl02, Folie 31 (S.31)",
     "source": "ari21_vl02, Folie 31 (S.31, Arithmetik – Eine Definition von n^m)"
   }
 ]

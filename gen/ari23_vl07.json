@@ -4,11 +4,11 @@
     "topic": "ari23_vl07_flaeche_rechteck",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Aussagen zum Satz über den Flächeninhalt von Rechtecken (mit e := 1 als Länge des Einheitsquadrats) sind korrekt?",
+    "question": "Welche Aussagen zum Satz über den Flächeninhalt von Rechtecken (mit $e := 1$ als Länge des Einheitsquadrats) sind korrekt?",
     "options": [
-      "Voraussetzung ist, dass a = n·e und b = m·e gilt.",
-      "Für den Flächeninhalt gilt A(R) = (n · m) · e² = a · b.",
-      "e := 1 ist die Länge des Einheitsquadrats.",
+      "Voraussetzung ist, dass $a = n \\cdot e$ und $b = m \\cdot e$ gilt.",
+      "Für den Flächeninhalt gilt $A(R) = (n \\cdot m) \\cdot e^2 = a \\cdot b$.",
+      "$e := 1$ ist die Länge des Einheitsquadrats.",
       "Der Satz gilt für beliebige reelle Seitenlängen ohne jede Einschränkung."
     ],
     "correct": [
@@ -16,7 +16,7 @@
       1,
       2
     ],
-    "explanation": "Der Satz setzt voraus, dass ein Rechteck R die Seitenlängen a und b mit a = n·e und b = m·e hat, und liefert dann A(R) = (n·m)·e² = a·b; dabei ist e := 1 die Länge des Einheitsquadrats. Eine uneingeschränkte Gültigkeit für beliebige Seitenlängen wird laut Anmerkung gerade nicht behauptet. 📄 Quelle: ari23_vl07, Folie 6 (S.6)",
+    "explanation": "Der Satz setzt voraus, dass ein Rechteck R die Seitenlängen a und b mit $a = n \\cdot e$ und $b = m \\cdot e$ hat, und liefert dann $A(R) = (n \\cdot m) \\cdot e^2 = a \\cdot b$; dabei ist $e := 1$ die Länge des Einheitsquadrats. Eine uneingeschränkte Gültigkeit für beliebige Seitenlängen wird laut Anmerkung gerade nicht behauptet. 📄 Quelle: ari23_vl07, Folie 6 (S.6)",
     "source": "ari23_vl07, Folie 6 (S.6, Anwenden des Maßes)"
   },
   {
@@ -42,11 +42,11 @@
     "topic": "ari23_vl07_flaeche_rechteck",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Ein Rechteck R hat die Seitenlängen a = 4·e und b = 3·e mit e := 1. Wie groß ist A(R) = (n · m) · e²?",
+    "question": "Ein Rechteck R hat die Seitenlängen $a = 4 \\cdot e$ und $b = 3 \\cdot e$ mit $e := 1$. Wie groß ist $A(R) = (n \\cdot m) \\cdot e^2$?",
     "answer": 12,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Mit n = 4, m = 3 und e = 1 folgt A(R) = (n·m)·e² = (4·3)·1² = 12. 📄 Quelle: ari23_vl07, Folie 6 (S.6)",
+    "explanation": "Mit $n = 4$, $m = 3$ und $e = 1$ folgt $A(R) = (n \\cdot m) \\cdot e^2 = (4 \\cdot 3) \\cdot 1^2 = 12$. 📄 Quelle: ari23_vl07, Folie 6 (S.6)",
     "source": "ari23_vl07, Folie 6 (S.6, Anwenden des Maßes)"
   },
   {
@@ -54,17 +54,17 @@
     "topic": "ari23_vl07_flaeche_parallelogramm",
     "difficulty": 1,
     "type": "single",
-    "question": "Ein Parallelogramm P hat die Grundseite g und die Höhe h. Wie lautet sein Flächeninhalt A(F_P)?",
+    "question": "Ein Parallelogramm P hat die Grundseite g und die Höhe h. Wie lautet sein Flächeninhalt $A(F_P)$?",
     "options": [
-      "A(F_P) = g · h",
-      "A(F_P) = (g · h)/2",
-      "A(F_P) = g + h",
-      "A(F_P) = 2 · (g + h)"
+      "$A(F_P) = g \\cdot h$",
+      "$A(F_P) = \\frac{g \\cdot h}{2}$",
+      "$A(F_P) = g + h$",
+      "$A(F_P) = 2 \\cdot (g + h)$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Laut Satz gilt für den Flächeninhalt eines Parallelogramms mit Grundseite g und Höhe h: A(F_P) = g · h. 📄 Quelle: ari23_vl07, Folie 7 (S.7)",
+    "explanation": "Laut Satz gilt für den Flächeninhalt eines Parallelogramms mit Grundseite g und Höhe h: $A(F_P) = g \\cdot h$. 📄 Quelle: ari23_vl07, Folie 7 (S.7)",
     "source": "ari23_vl07, Folie 7 (S.7, Anwenden des Maßes)"
   },
   {
@@ -92,11 +92,11 @@
     "topic": "ari23_vl07_flaeche_parallelogramm",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Ein Parallelogramm hat die Grundseite g = 6 und die Höhe h = 4. Wie groß ist sein Flächeninhalt A(F_P) = g · h?",
+    "question": "Ein Parallelogramm hat die Grundseite $g = 6$ und die Höhe $h = 4$. Wie groß ist sein Flächeninhalt $A(F_P) = g \\cdot h$?",
     "answer": 24,
     "tolerance": 0,
     "unit": "",
-    "explanation": "A(F_P) = g · h = 6 · 4 = 24. 📄 Quelle: ari23_vl07, Folie 7 (S.7)",
+    "explanation": "$A(F_P) = g \\cdot h = 6 \\cdot 4 = 24$. 📄 Quelle: ari23_vl07, Folie 7 (S.7)",
     "source": "ari23_vl07, Folie 7 (S.7, Anwenden des Maßes)"
   },
   {
@@ -179,17 +179,17 @@
     "topic": "ari23_vl07_flaeche_dreieck",
     "difficulty": 1,
     "type": "single",
-    "question": "Ein Dreieck D hat die Grundseite g und die Höhe h. Wie lautet sein Flächeninhalt A(F_D)?",
+    "question": "Ein Dreieck D hat die Grundseite g und die Höhe h. Wie lautet sein Flächeninhalt $A(F_D)$?",
     "options": [
-      "A(F_D) = (g · h)/2",
-      "A(F_D) = g · h",
-      "A(F_D) = (g + h)/2",
-      "A(F_D) = g · h · 2"
+      "$A(F_D) = \\frac{g \\cdot h}{2}$",
+      "$A(F_D) = g \\cdot h$",
+      "$A(F_D) = \\frac{g + h}{2}$",
+      "$A(F_D) = g \\cdot h \\cdot 2$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Laut Satz gilt für ein Dreieck D mit Grundseite g und Höhe h: A(F_D) = (g · h)/2. 📄 Quelle: ari23_vl07, Folie 11 (S.11)",
+    "explanation": "Laut Satz gilt für ein Dreieck D mit Grundseite g und Höhe h: $A(F_D) = \\frac{g \\cdot h}{2}$. 📄 Quelle: ari23_vl07, Folie 11 (S.11)",
     "source": "ari23_vl07, Folie 11 (S.11, Anwenden des Maßes)"
   },
   {
@@ -199,17 +199,17 @@
     "type": "multi",
     "question": "Welche der folgenden Schreibweisen für den Flächeninhalt des Dreiecks (mit Grundseite g und Höhe h) sind äquivalent?",
     "options": [
-      "(g · h)/2",
-      "(g/2) · h",
-      "g · (h/2)",
-      "(g + h)/2"
+      "$\\frac{g \\cdot h}{2}$",
+      "$\\frac{g}{2} \\cdot h$",
+      "$g \\cdot \\frac{h}{2}$",
+      "$\\frac{g + h}{2}$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Auf der Folie wird umgeformt: A(F_D) = (g·h)/2 = (g/2)·h = g·(h/2). Die Summenform (g+h)/2 gehört nicht dazu. 📄 Quelle: ari23_vl07, Folie 11 (S.11)",
+    "explanation": "Auf der Folie wird umgeformt: $A(F_D) = \\frac{g \\cdot h}{2} = \\frac{g}{2} \\cdot h = g \\cdot \\frac{h}{2}$. Die Summenform $\\frac{g + h}{2}$ gehört nicht dazu. 📄 Quelle: ari23_vl07, Folie 11 (S.11)",
     "source": "ari23_vl07, Folie 11 (S.11, Anwenden des Maßes)"
   },
   {
@@ -217,11 +217,11 @@
     "topic": "ari23_vl07_flaeche_dreieck",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Ein Dreieck hat die Grundseite g = 8 und die Höhe h = 5. Wie groß ist sein Flächeninhalt A(F_D) = (g · h)/2?",
+    "question": "Ein Dreieck hat die Grundseite $g = 8$ und die Höhe $h = 5$. Wie groß ist sein Flächeninhalt $A(F_D) = \\frac{g \\cdot h}{2}$?",
     "answer": 20,
     "tolerance": 0,
     "unit": "",
-    "explanation": "A(F_D) = (g · h)/2 = (8 · 5)/2 = 40/2 = 20. 📄 Quelle: ari23_vl07, Folie 11 (S.11)",
+    "explanation": "$A(F_D) = \\frac{g \\cdot h}{2} = \\frac{8 \\cdot 5}{2} = \\frac{40}{2} = 20$. 📄 Quelle: ari23_vl07, Folie 11 (S.11)",
     "source": "ari23_vl07, Folie 11 (S.11, Anwenden des Maßes)"
   },
   {
@@ -231,15 +231,15 @@
     "type": "single",
     "question": "Wie lautet der Flächeninhalt eines symmetrischen Drachenvierecks DR, wenn g und h seine Diagonalen sind?",
     "options": [
-      "A(F_DR) = (g · h)/2",
-      "A(F_DR) = g · h",
-      "A(F_DR) = (g + h)/2",
-      "A(F_DR) = (g · h)/4"
+      "$A(F_{DR}) = \\frac{g \\cdot h}{2}$",
+      "$A(F_{DR}) = g \\cdot h$",
+      "$A(F_{DR}) = \\frac{g + h}{2}$",
+      "$A(F_{DR}) = \\frac{g \\cdot h}{4}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Für alle symmetrischen Drachenvierecke DR gilt, wenn g und h die Diagonalen sind: A(F_DR) = (g · h)/2. 📄 Quelle: ari23_vl07, Folie 12 (S.12)",
+    "explanation": "Für alle symmetrischen Drachenvierecke DR gilt, wenn g und h die Diagonalen sind: $A(F_{DR}) = \\frac{g \\cdot h}{2}$. 📄 Quelle: ari23_vl07, Folie 12 (S.12)",
     "source": "ari23_vl07, Folie 12 (S.12, Anwenden des Maßes)"
   },
   {
@@ -258,7 +258,7 @@
       0,
       1
     ],
-    "explanation": "Der Satz gilt für alle symmetrischen Drachenvierecke DR und setzt voraus, dass g und h die Diagonalen des Drachenvierecks sind; dann gilt A(F_DR) = (g·h)/2. 📄 Quelle: ari23_vl07, Folie 12 (S.12)",
+    "explanation": "Der Satz gilt für alle symmetrischen Drachenvierecke DR und setzt voraus, dass g und h die Diagonalen des Drachenvierecks sind; dann gilt $A(F_{DR}) = \\frac{g \\cdot h}{2}$. 📄 Quelle: ari23_vl07, Folie 12 (S.12)",
     "source": "ari23_vl07, Folie 12 (S.12, Anwenden des Maßes)"
   },
   {
@@ -266,11 +266,11 @@
     "topic": "ari23_vl07_flaeche_drachenviereck",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Ein symmetrisches Drachenviereck hat die Diagonalen g = 6 und h = 8. Wie groß ist A(F_DR) = (g · h)/2?",
+    "question": "Ein symmetrisches Drachenviereck hat die Diagonalen $g = 6$ und $h = 8$. Wie groß ist $A(F_{DR}) = \\frac{g \\cdot h}{2}$?",
     "answer": 24,
     "tolerance": 0,
     "unit": "",
-    "explanation": "A(F_DR) = (g · h)/2 = (6 · 8)/2 = 48/2 = 24. 📄 Quelle: ari23_vl07, Folie 12 (S.12)",
+    "explanation": "$A(F_{DR}) = \\frac{g \\cdot h}{2} = \\frac{6 \\cdot 8}{2} = \\frac{48}{2} = 24$. 📄 Quelle: ari23_vl07, Folie 12 (S.12)",
     "source": "ari23_vl07, Folie 12 (S.12, Anwenden des Maßes)"
   },
   {
@@ -296,7 +296,7 @@
     "topic": "ari23_vl07_drache_allgemein",
     "difficulty": 2,
     "type": "single",
-    "question": "Ein Beispiel zum allgemeinen Drachen ergibt A(F_R) = 29,59 und A(F_Dr) = 29,59. Was zeigt dieses Beispiel?",
+    "question": "Ein Beispiel zum allgemeinen Drachen ergibt $A(F_R) = 29{,}59$ und $A(F_{Dr}) = 29{,}59$. Was zeigt dieses Beispiel?",
     "options": [
       "Auch im allgemeinen Fall ist der Drache flächengleich zum zugehörigen Rechteck.",
       "Der Drache hat einen größeren Flächeninhalt als das Rechteck.",
@@ -306,7 +306,7 @@
     "correct": [
       0
     ],
-    "explanation": "Die Frage, ob sich die Flächengleichheit auch im allgemeinen Fall nachweisen lässt, wird durch A(F_R) = A(F_Dr) = 29,59 bejaht. 📄 Quelle: ari23_vl07, Folie 13 (S.13)",
+    "explanation": "Die Frage, ob sich die Flächengleichheit auch im allgemeinen Fall nachweisen lässt, wird durch $A(F_R) = A(F_{Dr}) = 29{,}59$ bejaht. 📄 Quelle: ari23_vl07, Folie 13 (S.13)",
     "source": "ari23_vl07, Folie 13 (S.13, Anwenden des Maßes)"
   },
   {
@@ -332,7 +332,7 @@
     "topic": "ari23_vl07_trapez",
     "difficulty": 2,
     "type": "single",
-    "question": "In einem Trapez ABCD mit den Seiten a = AB (unten) und c = DC (oben): Welche beiden Seiten sind zueinander parallel?",
+    "question": "In einem Trapez ABCD mit den Seiten $a = AB$ (unten) und $c = DC$ (oben): Welche beiden Seiten sind zueinander parallel?",
     "options": [
       "Die Seiten a und c.",
       "Die Seiten b und d.",
@@ -372,7 +372,7 @@
     "options": [
       "Die Additivität beim Flächeninhalt bedeutet, dass die Teilflächen keine gemeinsamen inneren Punkte haben",
       "Die beiden zum Parallelogramm zusammengesetzten Trapeze überlappen sich nur durch eine Strecke (unerheblich)",
-      "Es gilt A(F_TR) = 1/2 · A(F_P)",
+      "Es gilt $A(F_{TR}) = \\frac{1}{2} \\cdot A(F_P)$",
       "Das Trapez hat den doppelten Flächeninhalt des zusammengesetzten Parallelogramms"
     ],
     "correct": [
@@ -380,7 +380,7 @@
       1,
       2
     ],
-    "explanation": "Die 1. Idee setzt zwei Trapeze zu einem Parallelogramm zusammen; es gilt A(F_TR)=1/2·A(F_P). Die Additivität verlangt Teilflächen ohne gemeinsame innere Punkte, und die zusammengesetzten Trapeze überlappen nur durch eine (unerhebliche) Strecke. Das Trapez ist die Hälfte, nicht das Doppelte des Parallelogramms. 📄 Quelle: ari23_vl07, Folie 16 (S.16)",
+    "explanation": "Die 1. Idee setzt zwei Trapeze zu einem Parallelogramm zusammen; es gilt $A(F_{TR}) = \\frac{1}{2} \\cdot A(F_P)$. Die Additivität verlangt Teilflächen ohne gemeinsame innere Punkte, und die zusammengesetzten Trapeze überlappen nur durch eine (unerhebliche) Strecke. Das Trapez ist die Hälfte, nicht das Doppelte des Parallelogramms. 📄 Quelle: ari23_vl07, Folie 16 (S.16)",
     "source": "ari23_vl07, Folie 16 (S.16, Geometrie)"
   },
   {
@@ -388,11 +388,11 @@
     "topic": "ari23_vl07_trapez",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Berechne den Flächeninhalt eines Trapezes nach der Formel A(F_TR)=h·(g1+g2)/2 für h=3, g1=8 und g2=4 (dimensionslos).",
+    "question": "Berechne den Flächeninhalt eines Trapezes nach der Formel $A(F_{TR}) = \\frac{h \\cdot (g_1 + g_2)}{2}$ für $h = 3$, $g_1 = 8$ und $g_2 = 4$ (dimensionslos).",
     "answer": 18,
     "tolerance": 0,
     "unit": "",
-    "explanation": "A(F_TR)=h·(g1+g2)/2 = 3·(8+4)/2 = 3·12/2 = 18. 📄 Quelle: ari23_vl07, Folie 16 (S.16)",
+    "explanation": "$A(F_{TR}) = \\frac{h \\cdot (g_1 + g_2)}{2} = \\frac{3 \\cdot (8 + 4)}{2} = \\frac{3 \\cdot 12}{2} = 18$. 📄 Quelle: ari23_vl07, Folie 16 (S.16)",
     "source": "ari23_vl07, Folie 16 (S.16, Geometrie)"
   },
   {
@@ -402,9 +402,9 @@
     "type": "multi",
     "question": "Worauf beruht die 2. Idee zur Herleitung der Trapezformel?",
     "options": [
-      "Das Trapez wird in ein flächengleiches Rechteck umgewandelt (A(F_TR)=A(F_R))",
-      "Es gilt A(F_TR)=1/2·h·(g1+g2)=h/2·(g1+g2)",
-      "Das Ergebnis ist A(F_TR)=h·(g1+g2)/2",
+      "Das Trapez wird in ein flächengleiches Rechteck umgewandelt ($A(F_{TR}) = A(F_R)$)",
+      "Es gilt $A(F_{TR}) = \\frac{1}{2} \\cdot h \\cdot (g_1 + g_2) = \\frac{h}{2} \\cdot (g_1 + g_2)$",
+      "Das Ergebnis ist $A(F_{TR}) = \\frac{h \\cdot (g_1 + g_2)}{2}$",
       "Die 2. Idee liefert einen anderen Trapez-Flächeninhalt als die 1. Idee"
     ],
     "correct": [
@@ -412,7 +412,7 @@
       1,
       2
     ],
-    "explanation": "Die 2. Idee wandelt das Trapez in ein flächengleiches Rechteck um: A(F_TR)=A(F_R)=1/2·h·(g1+g2)=h/2·(g1+g2)=h·(g1+g2)/2 — dasselbe Ergebnis wie die 1. Idee. 📄 Quelle: ari23_vl07, Folie 17 (S.17)",
+    "explanation": "Die 2. Idee wandelt das Trapez in ein flächengleiches Rechteck um: $A(F_{TR}) = A(F_R) = \\frac{1}{2} \\cdot h \\cdot (g_1 + g_2) = \\frac{h}{2} \\cdot (g_1 + g_2) = \\frac{h \\cdot (g_1 + g_2)}{2}$ — dasselbe Ergebnis wie die 1. Idee. 📄 Quelle: ari23_vl07, Folie 17 (S.17)",
     "source": "ari23_vl07, Folie 17 (S.17, Geometrie)"
   },
   {
@@ -420,11 +420,11 @@
     "topic": "ari23_vl07_trapez",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Nach der 2. Idee gilt A(F_TR)=h/2·(g1+g2). Berechne den Flächeninhalt für h=10, g1=7 und g2=3 (dimensionslos).",
+    "question": "Nach der 2. Idee gilt $A(F_{TR}) = \\frac{h}{2} \\cdot (g_1 + g_2)$. Berechne den Flächeninhalt für $h = 10$, $g_1 = 7$ und $g_2 = 3$ (dimensionslos).",
     "answer": 50,
     "tolerance": 0,
     "unit": "",
-    "explanation": "A(F_TR)=h/2·(g1+g2)=10/2·(7+3)=5·10=50. 📄 Quelle: ari23_vl07, Folie 17 (S.17)",
+    "explanation": "$A(F_{TR}) = \\frac{h}{2} \\cdot (g_1 + g_2) = \\frac{10}{2} \\cdot (7 + 3) = 5 \\cdot 10 = 50$. 📄 Quelle: ari23_vl07, Folie 17 (S.17)",
     "source": "ari23_vl07, Folie 17 (S.17, Geometrie)"
   },
   {
@@ -452,8 +452,8 @@
     "type": "multi",
     "question": "Welche Aussagen zur 3. Idee (Nutzung der Zerlegungsgleichheit bei der Herleitung der Trapezformel) sind korrekt?",
     "options": [
-      "Es gilt A(F_TR)=A(F_R)=1/2·h·(g1+g2)=h/2·(g1+g2)=h·(g1+g2)/2",
-      "Das zugehörige Rechteck hat die Höhe ½·h",
+      "Es gilt $A(F_{TR}) = A(F_R) = \\frac{1}{2} \\cdot h \\cdot (g_1 + g_2) = \\frac{h}{2} \\cdot (g_1 + g_2) = \\frac{h \\cdot (g_1 + g_2)}{2}$",
+      "Das zugehörige Rechteck hat die Höhe $\\frac{1}{2} \\cdot h$",
       "Zerlegungsgleiche Figuren haben nach dem Satz den gleichen Flächeninhalt",
       "Der Satz über die Zerlegungsgleichheit setzt voraus, dass die Figuren deckungsgleich (kongruent) sind"
     ],
@@ -462,7 +462,7 @@
       1,
       2
     ],
-    "explanation": "Die 3. Idee nutzt die Zerlegungsgleichheit; das Rechteck hat die Höhe ½·h und es gilt A(F_TR)=A(F_R)=h·(g1+g2)/2. Der Satz verlangt Zerlegungsgleichheit, nicht Kongruenz der Figuren. 📄 Quelle: ari23_vl07, Folie 18 (S.18)",
+    "explanation": "Die 3. Idee nutzt die Zerlegungsgleichheit; das Rechteck hat die Höhe $\\frac{1}{2} \\cdot h$ und es gilt $A(F_{TR}) = A(F_R) = \\frac{h \\cdot (g_1 + g_2)}{2}$. Der Satz verlangt Zerlegungsgleichheit, nicht Kongruenz der Figuren. 📄 Quelle: ari23_vl07, Folie 18 (S.18)",
     "source": "ari23_vl07, Folie 18 (S.18, Geometrie)"
   },
   {
@@ -472,17 +472,17 @@
     "type": "multi",
     "question": "Die allgemeine Trapezformel umfasst Sonderfälle. Welche Aussagen dazu sind korrekt?",
     "options": [
-      "Für das Parallelogramm gilt g2=g1, und A(F_P)=h·(g1+g1)/2=h·(2·g1)/2=h·g1",
-      "Für das Dreieck gilt g2=0, und A(F_D)=h·(g1+0)/2=h·g1/2",
-      "Die allgemeine Trapezformel lautet A(F_TR)=h·(g1+g2)/2",
-      "Für das Dreieck gilt g2=g1"
+      "Für das Parallelogramm gilt $g_2 = g_1$, und $A(F_P) = \\frac{h \\cdot (g_1 + g_1)}{2} = \\frac{h \\cdot (2 \\cdot g_1)}{2} = h \\cdot g_1$",
+      "Für das Dreieck gilt $g_2 = 0$, und $A(F_D) = \\frac{h \\cdot (g_1 + 0)}{2} = \\frac{h \\cdot g_1}{2}$",
+      "Die allgemeine Trapezformel lautet $A(F_{TR}) = \\frac{h \\cdot (g_1 + g_2)}{2}$",
+      "Für das Dreieck gilt $g_2 = g_1$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Setzt man g2=g1, erhält man das Parallelogramm mit A(F_P)=h·g1; setzt man g2=0, erhält man das Dreieck mit A(F_D)=h·g1/2. Beide folgen aus A(F_TR)=h·(g1+g2)/2. Beim Dreieck ist g2=0, nicht g2=g1. 📄 Quelle: ari23_vl07, Folie 19 (S.19)",
+    "explanation": "Setzt man $g_2 = g_1$, erhält man das Parallelogramm mit $A(F_P) = h \\cdot g_1$; setzt man $g_2 = 0$, erhält man das Dreieck mit $A(F_D) = \\frac{h \\cdot g_1}{2}$. Beide folgen aus $A(F_{TR}) = \\frac{h \\cdot (g_1 + g_2)}{2}$. Beim Dreieck ist $g_2 = 0$, nicht $g_2 = g_1$. 📄 Quelle: ari23_vl07, Folie 19 (S.19)",
     "source": "ari23_vl07, Folie 19 (S.19, Geometrie)"
   },
   {
@@ -490,11 +490,11 @@
     "topic": "ari23_vl07_trapez",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Setzt man in der Trapezformel g2=0 (Sonderfall Dreieck), so gilt A(F_D)=h·g1/2. Berechne den Flächeninhalt für g1=10 und h=6 (dimensionslos).",
+    "question": "Setzt man in der Trapezformel $g_2 = 0$ (Sonderfall Dreieck), so gilt $A(F_D) = \\frac{h \\cdot g_1}{2}$. Berechne den Flächeninhalt für $g_1 = 10$ und $h = 6$ (dimensionslos).",
     "answer": 30,
     "tolerance": 0,
     "unit": "",
-    "explanation": "A(F_D)=h·g1/2 = 6·10/2 = 30. 📄 Quelle: ari23_vl07, Folie 19 (S.19)",
+    "explanation": "$A(F_D) = \\frac{h \\cdot g_1}{2} = \\frac{6 \\cdot 10}{2} = 30$. 📄 Quelle: ari23_vl07, Folie 19 (S.19)",
     "source": "ari23_vl07, Folie 19 (S.19, Geometrie)"
   },
   {
@@ -522,17 +522,17 @@
     "topic": "ari23_vl07_vierecke",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lautet der Flächeninhalt eines (symmetrischen) Drachens mit den Diagonalen d1 und d2?",
+    "question": "Wie lautet der Flächeninhalt eines (symmetrischen) Drachens mit den Diagonalen $d_1$ und $d_2$?",
     "options": [
-      "A(F_DR)=d1·d2/2",
-      "A(F_DR)=d1·d2",
-      "A(F_DR)=(d1+d2)/2",
-      "A(F_DR)=h·(d1+d2)/2"
+      "$A(F_{DR}) = \\frac{d_1 \\cdot d_2}{2}$",
+      "$A(F_{DR}) = d_1 \\cdot d_2$",
+      "$A(F_{DR}) = \\frac{d_1 + d_2}{2}$",
+      "$A(F_{DR}) = \\frac{h \\cdot (d_1 + d_2)}{2}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie steht A(F_DR)=d1·d2/2 (halbes Produkt der Diagonalen). 📄 Quelle: ari23_vl07, Folie 20 (S.20)",
+    "explanation": "Auf der Folie steht $A(F_{DR}) = \\frac{d_1 \\cdot d_2}{2}$ (halbes Produkt der Diagonalen). 📄 Quelle: ari23_vl07, Folie 20 (S.20)",
     "source": "ari23_vl07, Folie 20 (S.20, Geometrie)"
   },
   {
@@ -540,11 +540,11 @@
     "topic": "ari23_vl07_vierecke",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Berechne nach der Drachenformel A(F_DR)=d1·d2/2 den Flächeninhalt für die Diagonalen d1=6 und d2=8 (dimensionslos).",
+    "question": "Berechne nach der Drachenformel $A(F_{DR}) = \\frac{d_1 \\cdot d_2}{2}$ den Flächeninhalt für die Diagonalen $d_1 = 6$ und $d_2 = 8$ (dimensionslos).",
     "answer": 24,
     "tolerance": 0,
     "unit": "",
-    "explanation": "A(F_DR)=d1·d2/2 = 6·8/2 = 24. 📄 Quelle: ari23_vl07, Folie 20 (S.20)",
+    "explanation": "$A(F_{DR}) = \\frac{d_1 \\cdot d_2}{2} = \\frac{6 \\cdot 8}{2} = 24$. 📄 Quelle: ari23_vl07, Folie 20 (S.20)",
     "source": "ari23_vl07, Folie 20 (S.20, Geometrie)"
   },
   {
@@ -556,7 +556,7 @@
     "options": [
       "Voraussetzung ist, dass das Dreieck ABC rechtwinklig ist",
       "Behauptung: Die Summe der Flächeninhalte der Quadrate über den Katheten ist gleich dem Flächeninhalt des Quadrats über der Hypotenuse",
-      "In Formeln gilt a²+b²=c²",
+      "In Formeln gilt $a^2 + b^2 = c^2$",
       "Der Satz gilt für jedes beliebige (auch nicht rechtwinklige) Dreieck"
     ],
     "correct": [
@@ -564,7 +564,7 @@
       1,
       2
     ],
-    "explanation": "Voraussetzung ('Wenn') ist die Rechtwinkligkeit von ABC; die Behauptung ('dann') ist a²+b²=c², d. h. die Quadrate über den Katheten ergeben zusammen das Quadrat über der Hypotenuse. Ohne Rechtwinkligkeit gilt der Satz nicht. 📄 Quelle: ari23_vl07, Folie 23 (S.23)",
+    "explanation": "Voraussetzung ('Wenn') ist die Rechtwinkligkeit von ABC; die Behauptung ('dann') ist $a^2 + b^2 = c^2$, d. h. die Quadrate über den Katheten ergeben zusammen das Quadrat über der Hypotenuse. Ohne Rechtwinkligkeit gilt der Satz nicht. 📄 Quelle: ari23_vl07, Folie 23 (S.23)",
     "source": "ari23_vl07, Folie 23 (S.23, Geometrie)"
   },
   {
@@ -572,7 +572,7 @@
     "topic": "ari23_vl07_pythagoras",
     "difficulty": 1,
     "type": "single",
-    "question": "In der Formel a²+b²=c² des Satzes des Pythagoras bezeichnet c …",
+    "question": "In der Formel $a^2 + b^2 = c^2$ des Satzes des Pythagoras bezeichnet c …",
     "options": [
       "die Hypotenuse",
       "eine Kathete",
@@ -582,7 +582,7 @@
     "correct": [
       0
     ],
-    "explanation": "c² ist der Flächeninhalt des Quadrats über der Hypotenuse; a und b sind die Katheten. 📄 Quelle: ari23_vl07, Folie 23 (S.23)",
+    "explanation": "$c^2$ ist der Flächeninhalt des Quadrats über der Hypotenuse; a und b sind die Katheten. 📄 Quelle: ari23_vl07, Folie 23 (S.23)",
     "source": "ari23_vl07, Folie 23 (S.23, Geometrie)"
   },
   {
@@ -608,11 +608,11 @@
     "topic": "ari23_vl07_pythagoras",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Das große (äußere) Quadrat im Beweis des Satzes des Pythagoras hat die Seitenlänge (a+b), also A(F_gQ)=(a+b)²=a²+2ab+b². Berechne den Flächeninhalt für a=3 und b=4 (dimensionslos).",
+    "question": "Das große (äußere) Quadrat im Beweis des Satzes des Pythagoras hat die Seitenlänge $(a+b)$, also $A(F_{gQ}) = (a+b)^2 = a^2 + 2ab + b^2$. Berechne den Flächeninhalt für $a = 3$ und $b = 4$ (dimensionslos).",
     "answer": 49,
     "tolerance": 0,
     "unit": "",
-    "explanation": "A(F_gQ)=(a+b)²=(3+4)²=7²=49 (bzw. a²+2ab+b²=9+24+16=49). 📄 Quelle: ari23_vl07, Folie 26 (S.26)",
+    "explanation": "$A(F_{gQ}) = (a+b)^2 = (3+4)^2 = 7^2 = 49$ (bzw. $a^2 + 2ab + b^2 = 9 + 24 + 16 = 49$). 📄 Quelle: ari23_vl07, Folie 26 (S.26)",
     "source": "ari23_vl07, Folie 26 (S.26, Geometrie)"
   },
   {
@@ -620,11 +620,11 @@
     "topic": "ari23_vl07_pythagoras",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Aussagen gehören zum Ergänzungsbeweis des Satzes des Pythagoras (mit einem äußeren Quadrat der Seitenlänge a+b)?",
+    "question": "Welche Aussagen gehören zum Ergänzungsbeweis des Satzes des Pythagoras (mit einem äußeren Quadrat der Seitenlänge $a+b$)?",
     "options": [
-      "Für das große Quadrat gilt A(F_gQ)=(a+b)²=a²+2ab+b²",
+      "Für das große Quadrat gilt $A(F_{gQ}) = (a+b)^2 = a^2 + 2ab + b^2$",
       "Die vier Dreiecke mit den Seiten a, b und c sind zueinander kongruent (SSS)",
-      "Da α+β=90°, sind die Innenwinkel des kleineren (inneren) Vierecks rechtwinklig",
+      "Da $\\alpha + \\beta = 90^\\circ$, sind die Innenwinkel des kleineren (inneren) Vierecks rechtwinklig",
       "Das innere Viereck ist ein allgemeines Parallelogramm ohne rechte Winkel"
     ],
     "correct": [
@@ -632,7 +632,7 @@
       1,
       2
     ],
-    "explanation": "Das äußere Quadrat hat Flächeninhalt (a+b)²=a²+2ab+b²; die vier Dreiecke sind nach SSS kongruent; wegen α+β=90° hat das innere Viereck rechte Innenwinkel, ist also ein Quadrat (mit Seite c) – nicht ein Parallelogramm ohne rechte Winkel. 📄 Quelle: ari23_vl07, Folie 26 (S.26)",
+    "explanation": "Das äußere Quadrat hat Flächeninhalt $(a+b)^2 = a^2 + 2ab + b^2$; die vier Dreiecke sind nach SSS kongruent; wegen $\\alpha + \\beta = 90^\\circ$ hat das innere Viereck rechte Innenwinkel, ist also ein Quadrat (mit Seite c) – nicht ein Parallelogramm ohne rechte Winkel. 📄 Quelle: ari23_vl07, Folie 26 (S.26)",
     "source": "ari23_vl07, Folie 26 (S.26, Geometrie)"
   },
   {
@@ -640,19 +640,19 @@
     "topic": "ari23_vl07_pythagoras",
     "difficulty": 3,
     "type": "multi",
-    "question": "Aus 'A(F_gQ)=4·A(F_D)+A(F_kQ)' ergeben sich im Beweis des Satzes des Pythagoras welche Gleichungen?",
+    "question": "Aus '$A(F_{gQ}) = 4 \\cdot A(F_D) + A(F_{kQ})$' ergeben sich im Beweis des Satzes des Pythagoras welche Gleichungen?",
     "options": [
-      "(a+b)²=4·(a·b/2)+c²",
-      "a²+2ab+b²=2ab+c²",
-      "also a²+b²=c²",
-      "also a²+b²=2c²"
+      "$(a+b)^2 = 4 \\cdot \\frac{a \\cdot b}{2} + c^2$",
+      "$a^2 + 2ab + b^2 = 2ab + c^2$",
+      "also $a^2 + b^2 = c^2$",
+      "also $a^2 + b^2 = 2c^2$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Das große Quadrat ist gleich vier Dreiecken (je a·b/2) plus dem inneren Quadrat c²: (a+b)²=4·(a·b/2)+c². Ausmultipliziert a²+2ab+b²=2ab+c², nach Kürzen von 2ab folgt a²+b²=c² (nicht 2c²). 📄 Quelle: ari23_vl07, Folie 26 (S.26)",
+    "explanation": "Das große Quadrat ist gleich vier Dreiecken (je $\\frac{a \\cdot b}{2}$) plus dem inneren Quadrat $c^2$: $(a+b)^2 = 4 \\cdot \\frac{a \\cdot b}{2} + c^2$. Ausmultipliziert $a^2 + 2ab + b^2 = 2ab + c^2$, nach Kürzen von $2ab$ folgt $a^2 + b^2 = c^2$ (nicht $2c^2$). 📄 Quelle: ari23_vl07, Folie 26 (S.26)",
     "source": "ari23_vl07, Folie 26 (S.26, Geometrie)"
   },
   {
@@ -663,7 +663,7 @@
     "question": "Der (Katheten-)Satz lautet: 'Für alle Dreiecke ABC gilt: Wenn ABC rechtwinklig ist, dann …'. Welche Aussagen sind korrekt?",
     "options": [
       "Der Flächeninhalt des Quadrats über einer Kathete ist gleich dem Flächeninhalt des Rechtecks aus anliegendem Hypotenusenabschnitt und Hypotenuse",
-      "In Formeln gilt a²=p·c",
+      "In Formeln gilt $a^2 = p \\cdot c$",
       "Voraussetzung ist, dass das Dreieck ABC rechtwinklig ist",
       "Der Satz gilt für jedes beliebige Dreieck"
     ],
@@ -672,7 +672,7 @@
       1,
       2
     ],
-    "explanation": "Der Kathetensatz besagt bei Rechtwinkligkeit: a²=p·c, d. h. das Quadrat über einer Kathete ist flächengleich dem Rechteck aus anliegendem Hypotenusenabschnitt p und Hypotenuse c. Ohne Rechtwinkligkeit gilt er nicht. 📄 Quelle: ari23_vl07, Folie 30 (S.30)",
+    "explanation": "Der Kathetensatz besagt bei Rechtwinkligkeit: $a^2 = p \\cdot c$, d. h. das Quadrat über einer Kathete ist flächengleich dem Rechteck aus anliegendem Hypotenusenabschnitt p und Hypotenuse c. Ohne Rechtwinkligkeit gilt er nicht. 📄 Quelle: ari23_vl07, Folie 30 (S.30)",
     "source": "ari23_vl07, Folie 30 (S.30, Geometrie)"
   },
   {
@@ -680,11 +680,11 @@
     "topic": "ari23_vl07_kathetensatz",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Nach dem Kathetensatz gilt a²=p·c. Berechne die Kathete a für den Hypotenusenabschnitt p=4 und die Hypotenuse c=9 (dimensionslos).",
+    "question": "Nach dem Kathetensatz gilt $a^2 = p \\cdot c$. Berechne die Kathete a für den Hypotenusenabschnitt $p = 4$ und die Hypotenuse $c = 9$ (dimensionslos).",
     "answer": 6,
     "tolerance": 0,
     "unit": "",
-    "explanation": "a²=p·c=4·9=36, also a=√36=6. 📄 Quelle: ari23_vl07, Folie 30 (S.30)",
+    "explanation": "$a^2 = p \\cdot c = 4 \\cdot 9 = 36$, also $a = \\sqrt{36} = 6$. 📄 Quelle: ari23_vl07, Folie 30 (S.30)",
     "source": "ari23_vl07, Folie 30 (S.30, Geometrie)"
   },
   {
@@ -696,7 +696,7 @@
     "options": [
       "Voraussetzung: Das Dreieck ABC ist rechtwinklig",
       "Der Flaecheninhalt des Quadrats ueber einer Kathete ist gleich dem Flaecheninhalt des Rechtecks aus anliegendem Hypotenusenabschnitt und Hypotenuse",
-      "Es gilt a^2 = p·c",
+      "Es gilt $a^2 = p \\cdot c$",
       "Die Aussage gilt fuer beliebige Dreiecke ohne jede Voraussetzung"
     ],
     "correct": [
@@ -704,7 +704,7 @@
       1,
       2
     ],
-    "explanation": "Der Katheten-Satz gilt unter der Voraussetzung, dass ABC rechtwinklig ist; dann ist das Quadrat ueber einer Kathete flaechengleich dem Rechteck aus anliegendem Hypotenusenabschnitt und Hypotenuse, also a^2 = p·c. 📄 Quelle: ari23_vl07, Folie 31 (S.31)",
+    "explanation": "Der Katheten-Satz gilt unter der Voraussetzung, dass ABC rechtwinklig ist; dann ist das Quadrat ueber einer Kathete flaechengleich dem Rechteck aus anliegendem Hypotenusenabschnitt und Hypotenuse, also $a^2 = p \\cdot c$. 📄 Quelle: ari23_vl07, Folie 31 (S.31)",
     "source": "ari23_vl07, Folie 31 (S.31, Satzgruppe des Pythagoras - Kathetensatz)"
   },
   {
@@ -714,15 +714,15 @@
     "type": "single",
     "question": "Welche Formel gibt der (Katheten-)Satz an?",
     "options": [
-      "a^2 = p·c",
-      "a^2 = p·q",
-      "h_c^2 = p·q",
-      "a^2 + b^2 = c^2"
+      "$a^2 = p \\cdot c$",
+      "$a^2 = p \\cdot q$",
+      "$h_c^2 = p \\cdot q$",
+      "$a^2 + b^2 = c^2$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Katheten-Satz lautet auf der Folie a^2 = p·c (Quadrat ueber der Kathete gleich Rechteck aus anliegendem Hypotenusenabschnitt p und Hypotenuse c). 📄 Quelle: ari23_vl07, Folie 31 (S.31)",
+    "explanation": "Der Katheten-Satz lautet auf der Folie $a^2 = p \\cdot c$ (Quadrat ueber der Kathete gleich Rechteck aus anliegendem Hypotenusenabschnitt p und Hypotenuse c). 📄 Quelle: ari23_vl07, Folie 31 (S.31)",
     "source": "ari23_vl07, Folie 31 (S.31, Satzgruppe des Pythagoras - Kathetensatz)"
   },
   {
@@ -732,17 +732,17 @@
     "type": "multi",
     "question": "Von welchen Beziehungen geht der Beweis des Kathetensatzes aus ('Wir wissen, dass ...')?",
     "options": [
-      "a^2 + b^2 = c^2 (Satz des Pythagoras)",
-      "c = p + q",
-      "a^2 = h_c^2 + p^2",
-      "c = p - q"
+      "$a^2 + b^2 = c^2$ (Satz des Pythagoras)",
+      "$c = p + q$",
+      "$a^2 = h_c^2 + p^2$",
+      "$c = p - q$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Der Beweis startet mit a^2 + b^2 = c^2 (Satz des Pythagoras), mit c = p + q und erhaelt daraus b^2 = h_c^2 + q^2 sowie a^2 = h_c^2 + p^2. c = p - q ist falsch. 📄 Quelle: ari23_vl07, Folie 31 (S.31)",
+    "explanation": "Der Beweis startet mit $a^2 + b^2 = c^2$ (Satz des Pythagoras), mit $c = p + q$ und erhaelt daraus $b^2 = h_c^2 + q^2$ sowie $a^2 = h_c^2 + p^2$. $c = p - q$ ist falsch. 📄 Quelle: ari23_vl07, Folie 31 (S.31)",
     "source": "ari23_vl07, Folie 31 (S.31, Satzgruppe des Pythagoras - Kathetensatz, Beweis)"
   },
   {
@@ -752,17 +752,17 @@
     "type": "multi",
     "question": "Welche Hilfsgleichungen (1)-(4) werden im Kathetensatz-Beweis verwendet?",
     "options": [
-      "(1) a^2 + b^2 = c^2",
-      "(2) c = p + q",
-      "(3) b^2 = h_c^2 + q^2",
-      "(4) a^2 = h_c^2 - p^2"
+      "(1) $a^2 + b^2 = c^2$",
+      "(2) $c = p + q$",
+      "(3) $b^2 = h_c^2 + q^2$",
+      "(4) $a^2 = h_c^2 - p^2$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie nummeriert (1) a^2+b^2=c^2, (2) c=p+q, (3) b^2=h_c^2+q^2 und (4) a^2=h_c^2+p^2. Die Variante mit Minus (h_c^2 - p^2) ist falsch. 📄 Quelle: ari23_vl07, Folie 32 (S.32)",
+    "explanation": "Die Folie nummeriert (1) $a^2 + b^2 = c^2$, (2) $c = p + q$, (3) $b^2 = h_c^2 + q^2$ und (4) $a^2 = h_c^2 + p^2$. Die Variante mit Minus ($h_c^2 - p^2$) ist falsch. 📄 Quelle: ari23_vl07, Folie 32 (S.32)",
     "source": "ari23_vl07, Folie 32 (S.32, Satzgruppe des Pythagoras - Kathetensatz, Beweis)"
   },
   {
@@ -772,17 +772,17 @@
     "type": "multi",
     "question": "Welche Umformungen werden im Kathetensatz-Beweis vorgenommen?",
     "options": [
-      "Mit (1) ergibt sich a^2 = c^2 - b^2",
-      "Mit (2) und (3) folgt a^2 = (p+q)^2 - (h_c^2 + q^2)",
-      "Ausmultipliziert erhaelt man p^2 + 2pq - h_c^2",
-      "Mit (1) ergibt sich a^2 = c^2 + b^2"
+      "Mit (1) ergibt sich $a^2 = c^2 - b^2$",
+      "Mit (2) und (3) folgt $a^2 = (p+q)^2 - (h_c^2 + q^2)$",
+      "Ausmultipliziert erhaelt man $p^2 + 2pq - h_c^2$",
+      "Mit (1) ergibt sich $a^2 = c^2 + b^2$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Aus (1) folgt a^2 = c^2 - b^2; Einsetzen von (2) und (3) liefert a^2 = (p+q)^2 - (h_c^2 + q^2) = p^2 + 2pq + q^2 - h_c^2 - q^2 = p^2 + 2pq - h_c^2. a^2 = c^2 + b^2 ist falsch. 📄 Quelle: ari23_vl07, Folie 32 (S.32)",
+    "explanation": "Aus (1) folgt $a^2 = c^2 - b^2$; Einsetzen von (2) und (3) liefert $a^2 = (p+q)^2 - (h_c^2 + q^2) = p^2 + 2pq + q^2 - h_c^2 - q^2 = p^2 + 2pq - h_c^2$. $a^2 = c^2 + b^2$ ist falsch. 📄 Quelle: ari23_vl07, Folie 32 (S.32)",
     "source": "ari23_vl07, Folie 32 (S.32, Satzgruppe des Pythagoras - Kathetensatz, Beweis)"
   },
   {
@@ -790,17 +790,17 @@
     "topic": "ari23_vl07_kathetensatz",
     "difficulty": 2,
     "type": "single",
-    "question": "Im Kathetensatz-Beweis wurde a^2 = p^2 + 2pq - h_c^2 hergeleitet. Welcher Ausdruck ergibt sich für a^2 nach Einsetzen von (4) a^2 = h_c^2 + p^2 (also h_c^2 = a^2 - p^2)?",
+    "question": "Im Kathetensatz-Beweis wurde $a^2 = p^2 + 2pq - h_c^2$ hergeleitet. Welcher Ausdruck ergibt sich für $a^2$ nach Einsetzen von (4) $a^2 = h_c^2 + p^2$ (also $h_c^2 = a^2 - p^2$)?",
     "options": [
-      "2p^2 + 2pq - a^2",
-      "p^2 + 2pq - a^2",
-      "2p^2 + 2pq + a^2",
-      "p^2 + 2pq"
+      "$2p^2 + 2pq - a^2$",
+      "$p^2 + 2pq - a^2$",
+      "$2p^2 + 2pq + a^2$",
+      "$p^2 + 2pq$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Aus p^2 + 2pq - h_c^2 wird mit (4) h_c^2 = a^2 - p^2: p^2 + 2pq - (a^2 - p^2) = p^2 + 2pq - a^2 + p^2 = 2p^2 + 2pq - a^2. 📄 Quelle: ari23_vl07, Folie 32 (S.32)",
+    "explanation": "Aus $p^2 + 2pq - h_c^2$ wird mit (4) $h_c^2 = a^2 - p^2$: $p^2 + 2pq - (a^2 - p^2) = p^2 + 2pq - a^2 + p^2 = 2p^2 + 2pq - a^2$. 📄 Quelle: ari23_vl07, Folie 32 (S.32)",
     "source": "ari23_vl07, Folie 32 (S.32, Satzgruppe des Pythagoras - Kathetensatz, Beweis)"
   },
   {
@@ -810,17 +810,17 @@
     "type": "multi",
     "question": "Welche Schritte führen im Kathetensatz-Beweis zum Ergebnis?",
     "options": [
-      "Aus a^2 = 2p^2 + 2pq - a^2 folgt 2a^2 = 2p^2 + 2pq",
-      "2a^2 = 2p·(p+q), also a^2 = p·(p+q)",
-      "Mit (2) c = p + q folgt a^2 = p·c",
-      "Es folgt a^2 = p + c"
+      "Aus $a^2 = 2p^2 + 2pq - a^2$ folgt $2a^2 = 2p^2 + 2pq$",
+      "$2a^2 = 2p \\cdot (p+q)$, also $a^2 = p \\cdot (p+q)$",
+      "Mit (2) $c = p + q$ folgt $a^2 = p \\cdot c$",
+      "Es folgt $a^2 = p + c$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Aus a^2 = 2p^2 + 2pq - a^2 folgt 2a^2 = 2p^2 + 2pq = 2p·(p+q), also a^2 = p·(p+q); mit (2) c = p+q ergibt sich a^2 = p·c. a^2 = p + c ist falsch. 📄 Quelle: ari23_vl07, Folie 33 (S.33)",
+    "explanation": "Aus $a^2 = 2p^2 + 2pq - a^2$ folgt $2a^2 = 2p^2 + 2pq = 2p \\cdot (p+q)$, also $a^2 = p \\cdot (p+q)$; mit (2) $c = p+q$ ergibt sich $a^2 = p \\cdot c$. $a^2 = p + c$ ist falsch. 📄 Quelle: ari23_vl07, Folie 33 (S.33)",
     "source": "ari23_vl07, Folie 33 (S.33, Satzgruppe des Pythagoras - Kathetensatz, Beweis)"
   },
   {
@@ -828,17 +828,17 @@
     "topic": "ari23_vl07_kathetensatz",
     "difficulty": 1,
     "type": "single",
-    "question": "Was gilt im Kathetensatz entsprechend für b^2 (mit dem Hypotenusenabschnitt q)?",
+    "question": "Was gilt im Kathetensatz entsprechend für $b^2$ (mit dem Hypotenusenabschnitt q)?",
     "options": [
-      "b^2 = q·c",
-      "b^2 = p·c",
-      "b^2 = p·q",
-      "b^2 = q + c"
+      "$b^2 = q \\cdot c$",
+      "$b^2 = p \\cdot c$",
+      "$b^2 = p \\cdot q$",
+      "$b^2 = q + c$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie haelt fest: 'Entsprechend zeigt man, dass auch b^2 = q·c gilt.' 📄 Quelle: ari23_vl07, Folie 33 (S.33)",
+    "explanation": "Die Folie haelt fest: 'Entsprechend zeigt man, dass auch $b^2 = q \\cdot c$ gilt.' 📄 Quelle: ari23_vl07, Folie 33 (S.33)",
     "source": "ari23_vl07, Folie 33 (S.33, Satzgruppe des Pythagoras - Kathetensatz, Beweis)"
   },
   {
@@ -850,15 +850,15 @@
     "options": [
       "Voraussetzung: Das Dreieck ABC ist rechtwinklig",
       "Der Flaecheninhalt des Quadrats ueber der Hoehe zur Hypotenuse ist gleich dem Flaecheninhalt des Rechtecks aus den beiden Hypotenusenabschnitten",
-      "Es gilt h_c^2 = p·q",
-      "Es gilt h_c^2 = p·c"
+      "Es gilt $h_c^2 = p \\cdot q$",
+      "Es gilt $h_c^2 = p \\cdot c$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Der Hoehensatz gilt unter der Voraussetzung, dass ABC rechtwinklig ist; dann ist das Quadrat ueber der Hoehe h_c flaechengleich dem Rechteck aus den beiden Hypotenusenabschnitten p und q, also h_c^2 = p·q. h_c^2 = p·c ist falsch. 📄 Quelle: ari23_vl07, Folie 34 (S.34)",
+    "explanation": "Der Hoehensatz gilt unter der Voraussetzung, dass ABC rechtwinklig ist; dann ist das Quadrat ueber der Hoehe $h_c$ flaechengleich dem Rechteck aus den beiden Hypotenusenabschnitten p und q, also $h_c^2 = p \\cdot q$. $h_c^2 = p \\cdot c$ ist falsch. 📄 Quelle: ari23_vl07, Folie 34 (S.34)",
     "source": "ari23_vl07, Folie 34 (S.34, Satzgruppe des Pythagoras - Hoehensatz)"
   },
   {
@@ -868,15 +868,15 @@
     "type": "single",
     "question": "Welche Formel gehört zum (Höhen-)Satz?",
     "options": [
-      "h_c^2 = p·q",
-      "h_c^2 = p·c",
-      "a^2 = p·c",
-      "h_c^2 = a^2 + p^2"
+      "$h_c^2 = p \\cdot q$",
+      "$h_c^2 = p \\cdot c$",
+      "$a^2 = p \\cdot c$",
+      "$h_c^2 = a^2 + p^2$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Hoehensatz lautet auf der Folie h_c^2 = p·q. 📄 Quelle: ari23_vl07, Folie 34 (S.34)",
+    "explanation": "Der Hoehensatz lautet auf der Folie $h_c^2 = p \\cdot q$. 📄 Quelle: ari23_vl07, Folie 34 (S.34)",
     "source": "ari23_vl07, Folie 34 (S.34, Satzgruppe des Pythagoras - Hoehensatz)"
   },
   {
@@ -886,16 +886,16 @@
     "type": "multi",
     "question": "Von welchen Beziehungen geht der Beweis des Höhensatzes aus ('Wir wissen, dass ...')?",
     "options": [
-      "c = p + q",
-      "a^2 = p·c (Katheten-Satz)",
-      "h_c^2 = p·q",
-      "c = p·q"
+      "$c = p + q$",
+      "$a^2 = p \\cdot c$ (Katheten-Satz)",
+      "$h_c^2 = p \\cdot q$",
+      "$c = p \\cdot q$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Der Beweis geht aus von c = p + q und a^2 = p·c (Katheten-Satz). h_c^2 = p·q ist erst die zu beweisende Behauptung; c = p·q ist falsch. 📄 Quelle: ari23_vl07, Folie 35 (S.35)",
+    "explanation": "Der Beweis geht aus von $c = p + q$ und $a^2 = p \\cdot c$ (Katheten-Satz). $h_c^2 = p \\cdot q$ ist erst die zu beweisende Behauptung; $c = p \\cdot q$ ist falsch. 📄 Quelle: ari23_vl07, Folie 35 (S.35)",
     "source": "ari23_vl07, Folie 35 (S.35, Satzgruppe des Pythagoras - Hoehensatz, Beweis)"
   },
   {
@@ -903,7 +903,7 @@
     "topic": "ari23_vl07_hoehensatz",
     "difficulty": 1,
     "type": "single",
-    "question": "Welcher Satz wird herangezogen, um a^2 = p·c zu begründen?",
+    "question": "Welcher Satz wird herangezogen, um $a^2 = p \\cdot c$ zu begründen?",
     "options": [
       "Katheten-Satz",
       "Hoehen-Satz",
@@ -913,7 +913,7 @@
     "correct": [
       0
     ],
-    "explanation": "Die Folie kennzeichnet a^2 = p·c ausdruecklich als Katheten-Satz. 📄 Quelle: ari23_vl07, Folie 35 (S.35)",
+    "explanation": "Die Folie kennzeichnet $a^2 = p \\cdot c$ ausdruecklich als Katheten-Satz. 📄 Quelle: ari23_vl07, Folie 35 (S.35)",
     "source": "ari23_vl07, Folie 35 (S.35, Satzgruppe des Pythagoras - Hoehensatz, Beweis)"
   },
   {
@@ -923,17 +923,17 @@
     "type": "multi",
     "question": "Welche Schritte enthält der Höhensatz-Beweis?",
     "options": [
-      "a^2 = h_c^2 + p^2 (Satz des Pythagoras), also h_c^2 = a^2 - p^2",
-      "Mit (2) a^2 = p·c folgt h_c^2 = p·c - p^2 = p·(c - p)",
-      "Mit (1) c = p + q folgt h_c^2 = p·q",
-      "Mit (1) folgt h_c^2 = p + q"
+      "$a^2 = h_c^2 + p^2$ (Satz des Pythagoras), also $h_c^2 = a^2 - p^2$",
+      "Mit (2) $a^2 = p \\cdot c$ folgt $h_c^2 = p \\cdot c - p^2 = p \\cdot (c - p)$",
+      "Mit (1) $c = p + q$ folgt $h_c^2 = p \\cdot q$",
+      "Mit (1) folgt $h_c^2 = p + q$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Aus a^2 = h_c^2 + p^2 folgt h_c^2 = a^2 - p^2; mit (2) a^2 = p·c wird daraus p·c - p^2 = p·(c - p); mit (1) c = p + q folgt c - p = q, also h_c^2 = p·q. h_c^2 = p + q ist falsch. 📄 Quelle: ari23_vl07, Folie 36 (S.36)",
+    "explanation": "Aus $a^2 = h_c^2 + p^2$ folgt $h_c^2 = a^2 - p^2$; mit (2) $a^2 = p \\cdot c$ wird daraus $p \\cdot c - p^2 = p \\cdot (c - p)$; mit (1) $c = p + q$ folgt $c - p = q$, also $h_c^2 = p \\cdot q$. $h_c^2 = p + q$ ist falsch. 📄 Quelle: ari23_vl07, Folie 36 (S.36)",
     "source": "ari23_vl07, Folie 36 (S.36, Satzgruppe des Pythagoras - Hoehensatz, Beweis)"
   },
   {
@@ -943,15 +943,15 @@
     "type": "single",
     "question": "Welches Ergebnis liefert der Beweis des Höhensatzes?",
     "options": [
-      "h_c^2 = p·q",
-      "h_c^2 = p·c",
-      "h_c^2 = a^2 - q^2",
-      "h_c^2 = p·(p + q)"
+      "$h_c^2 = p \\cdot q$",
+      "$h_c^2 = p \\cdot c$",
+      "$h_c^2 = a^2 - q^2$",
+      "$h_c^2 = p \\cdot (p + q)$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Beweis endet mit 'mit (1) folgt h_c^2 = p·q'. 📄 Quelle: ari23_vl07, Folie 36 (S.36)",
+    "explanation": "Der Beweis endet mit 'mit (1) folgt $h_c^2 = p \\cdot q$'. 📄 Quelle: ari23_vl07, Folie 36 (S.36)",
     "source": "ari23_vl07, Folie 36 (S.36, Satzgruppe des Pythagoras - Hoehensatz, Beweis)"
   },
   {
@@ -979,11 +979,11 @@
     "topic": "ari23_vl07_umkehrung_pythagoras",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Prüfen Sie das Tripel mit Seitenlängen 5:4:3: Berechnen Sie 3^2 + 4^2.",
+    "question": "Prüfen Sie das Tripel mit Seitenlängen 5:4:3: Berechnen Sie $3^2 + 4^2$.",
     "answer": 25,
     "tolerance": 0,
     "unit": "",
-    "explanation": "3^2 + 4^2 = 9 + 16 = 25 = 5^2, also ist 3:4:5 ein pythagoreisches Tripel. 📄 Quelle: ari23_vl07, Folie 38 (S.38)",
+    "explanation": "$3^2 + 4^2 = 9 + 16 = 25 = 5^2$, also ist 3:4:5 ein pythagoreisches Tripel. 📄 Quelle: ari23_vl07, Folie 38 (S.38)",
     "source": "ari23_vl07, Folie 38 (S.38, Umkehrung: Satz des Thales)"
   },
   {
@@ -993,8 +993,8 @@
     "type": "multi",
     "question": "Wie werden der Satz des Pythagoras und der 'Bauarbeitersatz' unterschieden?",
     "options": [
-      "Satz (Pythagoras): Wenn rechter Winkel, dann a^2 + b^2 = c^2",
-      "Bauarbeitersatz: Wenn a^2 + b^2 = c^2, dann rechter Winkel",
+      "Satz (Pythagoras): Wenn rechter Winkel, dann $a^2 + b^2 = c^2$",
+      "Bauarbeitersatz: Wenn $a^2 + b^2 = c^2$, dann rechter Winkel",
       "Der Bauarbeitersatz ist die Umkehrung des Satzes von Pythagoras",
       "Beide Aussagen sind identisch und folgen unmittelbar auseinander"
     ],
@@ -1003,7 +1003,7 @@
       1,
       2
     ],
-    "explanation": "Die Folie stellt gegenueber: Pythagoras 'Wenn rechter Winkel, dann a^2+b^2=c^2' und Bauarbeitersatz 'Wenn a^2+b^2=c^2, dann rechter Winkel' - also Voraussetzung und Folgerung vertauscht (Umkehrung). Sie sind nicht identisch. 📄 Quelle: ari23_vl07, Folie 39 (S.39)",
+    "explanation": "Die Folie stellt gegenueber: Pythagoras 'Wenn rechter Winkel, dann $a^2 + b^2 = c^2$' und Bauarbeitersatz 'Wenn $a^2 + b^2 = c^2$, dann rechter Winkel' - also Voraussetzung und Folgerung vertauscht (Umkehrung). Sie sind nicht identisch. 📄 Quelle: ari23_vl07, Folie 39 (S.39)",
     "source": "ari23_vl07, Folie 39 (S.39, Umkehrung: Satz des Thales)"
   },
   {
@@ -1015,7 +1015,7 @@
     "options": [
       "Weil der Bauarbeitersatz die Umkehrung ist und die Umkehrung eines Satzes nicht automatisch mitbewiesen ist",
       "Weil der Satz des Pythagoras falsch ist",
-      "Weil a^2 + b^2 = c^2 nur fuer gleichschenklige Dreiecke gilt",
+      "Weil $a^2 + b^2 = c^2$ nur fuer gleichschenklige Dreiecke gilt",
       "Weil Bauarbeiter keine Mathematiker sind"
     ],
     "correct": [
@@ -1031,17 +1031,17 @@
     "type": "multi",
     "question": "Was besagt die 'Umkehrung des Satzes von Pythagoras'?",
     "options": [
-      "Fuer alle Dreiecke ABC gilt: Wenn fuer die Flaecheninhalte der Quadrate ueber den Seiten a, b und c die Beziehung a^2 + b^2 = c^2 gilt, dann hat das Dreieck bei C einen rechten Winkel",
-      "Die Voraussetzung ist a^2 + b^2 = c^2, die Folgerung ist ein rechter Winkel bei C",
+      "Fuer alle Dreiecke ABC gilt: Wenn fuer die Flaecheninhalte der Quadrate ueber den Seiten a, b und c die Beziehung $a^2 + b^2 = c^2$ gilt, dann hat das Dreieck bei C einen rechten Winkel",
+      "Die Voraussetzung ist $a^2 + b^2 = c^2$, die Folgerung ist ein rechter Winkel bei C",
       "Der Beweis wird auf der Folie mit dem Satz des Thales angekuendigt (nicht in der Vorlesung)",
-      "Die Voraussetzung ist der rechte Winkel, die Folgerung ist a^2 + b^2 = c^2"
+      "Die Voraussetzung ist der rechte Winkel, die Folgerung ist $a^2 + b^2 = c^2$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Umkehrung setzt a^2 + b^2 = c^2 voraus und folgert einen rechten Winkel bei C; der Beweis 'nicht in der Vorlesung' wird mit dem Satz des Thales angekuendigt. Die letzte Option vertauscht Voraussetzung und Folgerung (das ist der Satz des Pythagoras selbst). 📄 Quelle: ari23_vl07, Folie 40 (S.40)",
+    "explanation": "Die Umkehrung setzt $a^2 + b^2 = c^2$ voraus und folgert einen rechten Winkel bei C; der Beweis 'nicht in der Vorlesung' wird mit dem Satz des Thales angekuendigt. Die letzte Option vertauscht Voraussetzung und Folgerung (das ist der Satz des Pythagoras selbst). 📄 Quelle: ari23_vl07, Folie 40 (S.40)",
     "source": "ari23_vl07, Folie 40 (S.40, Umkehrung: Satz des Thales)"
   },
   {
@@ -1067,9 +1067,9 @@
     "topic": "ari23_vl07_umkehrung_pythagoras",
     "difficulty": 2,
     "type": "multi",
-    "question": "Was fasst der zusammenfassende 'Satz' zu Rechtwinkligkeit und a^2 + b^2 = c^2 zusammen?",
+    "question": "Was fasst der zusammenfassende 'Satz' zu Rechtwinkligkeit und $a^2 + b^2 = c^2$ zusammen?",
     "options": [
-      "Genau dann, wenn ein Dreieck ABC rechtwinklig ist, gilt a^2 + b^2 = c^2",
+      "Genau dann, wenn ein Dreieck ABC rechtwinklig ist, gilt $a^2 + b^2 = c^2$",
       "Er fasst beide wenn-dann-Richtungen (Hin- und Rueckrichtung) zusammen",
       "Die Rueckrichtung wird ohne Beweis angegeben",
       "Die Aussage gilt nur, wenn zusaetzlich der Hoehensatz vorausgesetzt wird"
@@ -1079,7 +1079,7 @@
       1,
       2
     ],
-    "explanation": "Die Folie formuliert 'Genau dann, wenn ABC rechtwinklig ist, ist a^2 + b^2 = c^2' und vermerkt: Zusammenfassung beider wenn-dann-Richtungen, Rueckrichtung ohne Beweis. Der Hoehensatz ist keine Voraussetzung. 📄 Quelle: ari23_vl07, Folie 41 (S.41)",
+    "explanation": "Die Folie formuliert 'Genau dann, wenn ABC rechtwinklig ist, ist $a^2 + b^2 = c^2$' und vermerkt: Zusammenfassung beider wenn-dann-Richtungen, Rueckrichtung ohne Beweis. Der Hoehensatz ist keine Voraussetzung. 📄 Quelle: ari23_vl07, Folie 41 (S.41)",
     "source": "ari23_vl07, Folie 41 (S.41, Umkehrung: Satz des Thales - Zusammenfassung)"
   },
   {
@@ -1145,11 +1145,11 @@
     "topic": "ari23_vl07_vollstaendige_induktion",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Werten Sie die Formel n·(2n-1)·(2n+1)/3 für n = 3 aus (Summe 1^2 + 3^2 + 5^2).",
+    "question": "Werten Sie die Formel $\\frac{n \\cdot (2n-1) \\cdot (2n+1)}{3}$ für $n = 3$ aus (Summe $1^2 + 3^2 + 5^2$).",
     "answer": 35,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Fuer n = 3: 3·(2·3-1)·(2·3+1)/3 = 3·5·7/3 = 35; Probe 1^2 + 3^2 + 5^2 = 1 + 9 + 25 = 35. 📄 Quelle: ari23_vl07, Folie 45 (S.45)",
+    "explanation": "Fuer $n = 3$: $\\frac{3 \\cdot (2 \\cdot 3 - 1) \\cdot (2 \\cdot 3 + 1)}{3} = \\frac{3 \\cdot 5 \\cdot 7}{3} = 35$; Probe $1^2 + 3^2 + 5^2 = 1 + 9 + 25 = 35$. 📄 Quelle: ari23_vl07, Folie 45 (S.45)",
     "source": "ari23_vl07, Folie 45 (S.45, Erkundungspause - Vertiefende Uebungen zur Induktion)"
   },
   {
@@ -1161,15 +1161,15 @@
     "options": [
       "Das Prinzip der vollstaendigen Induktion soll einem/r Kommilitonen/in schriftlich erlaeutert werden",
       "Es soll erklaert werden, worin das Prinzip begruendet liegt und wie es sich auf die Struktur der vollstaendigen Induktion uebertraegt",
-      "Die Aussage Summe von (2i-1)^2 = 1^2 + 3^2 + 5^2 + ... + (2n-1)^2 = n·(2n-1)·(2n+1)/3 soll fuer alle natuerlichen Zahlen mit vollstaendiger Induktion bewiesen werden",
-      "Die Formel soll nur fuer n = 10 durch Einsetzen ueberprueft werden"
+      "Die Aussage Summe von $(2i-1)^2 = 1^2 + 3^2 + 5^2 + \\dots + (2n-1)^2 = \\frac{n \\cdot (2n-1) \\cdot (2n+1)}{3}$ soll fuer alle natuerlichen Zahlen mit vollstaendiger Induktion bewiesen werden",
+      "Die Formel soll nur fuer $n = 10$ durch Einsetzen ueberprueft werden"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Teil (a) verlangt eine schriftliche Erlaeuterung des Prinzips der vollstaendigen Induktion (worin es begruendet liegt, wie es sich auf die Struktur uebertraegt); Teil (b) verlangt den Beweis der Summenformel fuer alle natuerlichen Zahlen mit vollstaendiger Induktion. Eine blosse Ueberpruefung fuer n = 10 ist nicht verlangt. 📄 Quelle: ari23_vl07, Folie 45 (S.45)",
+    "explanation": "Teil (a) verlangt eine schriftliche Erlaeuterung des Prinzips der vollstaendigen Induktion (worin es begruendet liegt, wie es sich auf die Struktur uebertraegt); Teil (b) verlangt den Beweis der Summenformel fuer alle natuerlichen Zahlen mit vollstaendiger Induktion. Eine blosse Ueberpruefung fuer $n = 10$ ist nicht verlangt. 📄 Quelle: ari23_vl07, Folie 45 (S.45)",
     "source": "ari23_vl07, Folie 45 (S.45, Erkundungspause - Vertiefende Uebungen zur Induktion)"
   }
 ]

@@ -4,18 +4,18 @@
     "topic": "ari21_vl06_teilbarkeit_summenregel",
     "difficulty": 2,
     "type": "multi",
-    "question": "Summenregel (Rückblick): Welche Aussage(n) geben den Satz für natürliche Zahlen a, b, c korrekt wieder?",
+    "question": "Summenregel (Rückblick): Welche Aussage(n) geben den Satz für natürliche Zahlen $a$, $b$, $c$ korrekt wieder?",
     "options": [
-      "Wenn a|b und a|c, dann a|(b+c).",
-      "Wenn a Teiler von b und c ist, dann ist a auch Teiler von (b+c).",
-      "Wenn a|b und a|c, dann a|(b·c), aber nicht a|(b+c).",
-      "Wenn a|(b+c), dann gilt stets a|b und a|c."
+      "Wenn $a \\mid b$ und $a \\mid c$, dann $a \\mid (b+c)$.",
+      "Wenn $a$ Teiler von $b$ und $c$ ist, dann ist $a$ auch Teiler von $(b+c)$.",
+      "Wenn $a \\mid b$ und $a \\mid c$, dann $a \\mid (b \\cdot c)$, aber nicht $a \\mid (b+c)$.",
+      "Wenn $a \\mid (b+c)$, dann gilt stets $a \\mid b$ und $a \\mid c$."
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Folie formuliert die Summenregel: „Für natürliche Zahlen a, b, c gilt: Wenn a|b und a|c, dann a|(b+c).“ In Worten: Wenn a Teiler von b und c ist, dann ist a auch Teiler von (b+c). Die Umkehrung wird nicht behauptet. 📄 Quelle: ari21_vl06, Folie 12 (S.12)",
+    "explanation": "Die Folie formuliert die Summenregel: „Für natürliche Zahlen $a$, $b$, $c$ gilt: Wenn $a \\mid b$ und $a \\mid c$, dann $a \\mid (b+c)$.“ In Worten: Wenn $a$ Teiler von $b$ und $c$ ist, dann ist $a$ auch Teiler von $(b+c)$. Die Umkehrung wird nicht behauptet. 📄 Quelle: ari21_vl06, Folie 12 (S.12)",
     "source": "ari21_vl06, Folie 12 (S.12, Rückblick)"
   },
   {
@@ -23,11 +23,11 @@
     "topic": "ari21_vl06_teilbarkeit_summenregel",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Nach der Summenregel gilt wegen 2|4 und 2|12 auch 2|(4+12). Berechne 4+12.",
+    "question": "Nach der Summenregel gilt wegen $2 \\mid 4$ und $2 \\mid 12$ auch $2 \\mid (4+12)$. Berechne $4+12$.",
     "answer": 16,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Folie 12 zeigt das Beispiel 2|4 und 2|12 ⇒ 2|(4+12), dargestellt als 2·(2+6)=16; also 4+12=16. 📄 Quelle: ari21_vl06, Folie 12 (S.12)",
+    "explanation": "Folie 12 zeigt das Beispiel $2 \\mid 4$ und $2 \\mid 12 \\Rightarrow 2 \\mid (4+12)$, dargestellt als $2 \\cdot (2+6) = 16$; also $4+12 = 16$. 📄 Quelle: ari21_vl06, Folie 12 (S.12)",
     "source": "ari21_vl06, Folie 12 (S.12, Rückblick)"
   },
   {
@@ -35,11 +35,11 @@
     "topic": "ari21_vl06_teilbarkeit_summenregel",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Nach der Summenregel gilt wegen 7|21 und 7|63 auch 7|(21+63). Berechne 21+63.",
+    "question": "Nach der Summenregel gilt wegen $7 \\mid 21$ und $7 \\mid 63$ auch $7 \\mid (21+63)$. Berechne $21+63$.",
     "answer": 84,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Folie 12 zeigt das Beispiel 7|21 und 7|63 ⇒ 7|(21+63), dargestellt als 7·(3+9)=84; also 21+63=84. 📄 Quelle: ari21_vl06, Folie 12 (S.12)",
+    "explanation": "Folie 12 zeigt das Beispiel $7 \\mid 21$ und $7 \\mid 63 \\Rightarrow 7 \\mid (21+63)$, dargestellt als $7 \\cdot (3+9) = 84$; also $21+63 = 84$. 📄 Quelle: ari21_vl06, Folie 12 (S.12)",
     "source": "ari21_vl06, Folie 12 (S.12, Rückblick)"
   },
   {
@@ -47,18 +47,18 @@
     "topic": "ari21_vl06_teilbarkeit_transitiv",
     "difficulty": 2,
     "type": "multi",
-    "question": "Die Teilbarkeitsrelation ist transitiv. Welche Formulierung(en) geben diesen Satz für natürliche Zahlen a, b, c korrekt wieder?",
+    "question": "Die Teilbarkeitsrelation ist transitiv. Welche Formulierung(en) geben diesen Satz für natürliche Zahlen $a$, $b$, $c$ korrekt wieder?",
     "options": [
-      "Wenn a|b und b|c, dann a|c.",
-      "Wenn a Teiler von b ist und b Teiler von c, dann ist auch a Teiler von c.",
-      "Wenn a|b und b|c, dann c|a.",
-      "Wenn a|b und a|c, dann b|c."
+      "Wenn $a \\mid b$ und $b \\mid c$, dann $a \\mid c$.",
+      "Wenn $a$ Teiler von $b$ ist und $b$ Teiler von $c$, dann ist auch $a$ Teiler von $c$.",
+      "Wenn $a \\mid b$ und $b \\mid c$, dann $c \\mid a$.",
+      "Wenn $a \\mid b$ und $a \\mid c$, dann $b \\mid c$."
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Folie gibt den Satz zur Transitivität an: „Wenn a|b und b|c, dann a|c.“ In Worten: Wenn a Teiler von b ist und b Teiler von c, dann ist auch a Teiler von c. 📄 Quelle: ari21_vl06, Folie 11 (S.11)",
+    "explanation": "Die Folie gibt den Satz zur Transitivität an: „Wenn $a \\mid b$ und $b \\mid c$, dann $a \\mid c$.“ In Worten: Wenn $a$ Teiler von $b$ ist und $b$ Teiler von $c$, dann ist auch $a$ Teiler von $c$. 📄 Quelle: ari21_vl06, Folie 11 (S.11)",
     "source": "ari21_vl06, Folie 11 (S.11, Rückblick)"
   },
   {
@@ -68,16 +68,16 @@
     "type": "multi",
     "question": "Welche der folgenden Schlüsse sind Beispiele für die Transitivität der Teilbarkeitsrelation?",
     "options": [
-      "2|4 und 4|12, dann auch 2|12.",
-      "7|21 und 21|63, dann auch 7|63.",
-      "2|4 und 2|12, dann auch 2|(4+12).",
-      "4|2 und 12|4, dann auch 12|2."
+      "$2 \\mid 4$ und $4 \\mid 12$, dann auch $2 \\mid 12$.",
+      "$7 \\mid 21$ und $21 \\mid 63$, dann auch $7 \\mid 63$.",
+      "$2 \\mid 4$ und $2 \\mid 12$, dann auch $2 \\mid (4+12)$.",
+      "$4 \\mid 2$ und $12 \\mid 4$, dann auch $12 \\mid 2$."
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Folie nennt als Beispiele der Transitivität: „2|4 und 4|12, dann auch 2|12“ sowie „7|21 und 21|63, dann auch 7|63“. Der Schluss 2|4 und 2|12 ⇒ 2|(4+12) gehört zur Summenregel, nicht zur Transitivität; 4|2 und 12|4 sind falsch, da 4 kein Teiler von 2 ist. 📄 Quelle: ari21_vl06, Folie 11 (S.11)",
+    "explanation": "Die Folie nennt als Beispiele der Transitivität: „$2 \\mid 4$ und $4 \\mid 12$, dann auch $2 \\mid 12$“ sowie „$7 \\mid 21$ und $21 \\mid 63$, dann auch $7 \\mid 63$“. Der Schluss $2 \\mid 4$ und $2 \\mid 12 \\Rightarrow 2 \\mid (4+12)$ gehört zur Summenregel, nicht zur Transitivität; $4 \\mid 2$ und $12 \\mid 4$ sind falsch, da 4 kein Teiler von 2 ist. 📄 Quelle: ari21_vl06, Folie 11 (S.11)",
     "source": "ari21_vl06, Folie 11 (S.11, Rückblick)"
   },
   {
@@ -124,18 +124,18 @@
     "topic": "ari21_vl06_beweis",
     "difficulty": 3,
     "type": "multi",
-    "question": "Im Beweis mit figurierten Zahlen zu „a|b und b|c ⇒ a|c“: Welche Schritte/Gleichungen sind korrekt?",
+    "question": "Im Beweis mit figurierten Zahlen zu „$a \\mid b$ und $b \\mid c \\Rightarrow a \\mid c$“: Welche Schritte/Gleichungen sind korrekt?",
     "options": [
-      "Aus a|b folgt b = a·p, aus b|c folgt c = q·b (q mal b).",
-      "c = q·b = q·a·p = a·(q·p), also a|c.",
-      "c = a + b, also a|c.",
-      "Weil q·p keine natürliche Zahl ist, folgt a∤c."
+      "Aus $a \\mid b$ folgt $b = a \\cdot p$, aus $b \\mid c$ folgt $c = q \\cdot b$ ($q$ mal $b$).",
+      "$c = q \\cdot b = q \\cdot a \\cdot p = a \\cdot (q \\cdot p)$, also $a \\mid c$.",
+      "$c = a + b$, also $a \\mid c$.",
+      "Weil $q \\cdot p$ keine natürliche Zahl ist, folgt $a \\nmid c$."
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die figurierte Darstellung zeigt a|b als b = a·p und b|c als c = q·b (q mal b). Einsetzen ergibt c = q·b = q·a·p = a·(q·p); da q·p eine natürliche Zahl ist, folgt a|c. 📄 Quelle: ari21_vl06, Folie 7 (S.7)",
+    "explanation": "Die figurierte Darstellung zeigt $a \\mid b$ als $b = a \\cdot p$ und $b \\mid c$ als $c = q \\cdot b$ ($q$ mal $b$). Einsetzen ergibt $c = q \\cdot b = q \\cdot a \\cdot p = a \\cdot (q \\cdot p)$; da $q \\cdot p$ eine natürliche Zahl ist, folgt $a \\mid c$. 📄 Quelle: ari21_vl06, Folie 7 (S.7)",
     "source": "ari21_vl06, Folie 7 (S.7, Rückblick)"
   },
   {
@@ -143,17 +143,17 @@
     "topic": "ari21_vl06_mengen",
     "difficulty": 1,
     "type": "single",
-    "question": "Wie definiert Cantor (naiv) eine Menge M?",
+    "question": "Wie definiert Cantor (naiv) eine Menge $M$?",
     "options": [
-      "Eine Menge M ist die Zusammenfassung unterscheidbarer Objekte (Elemente).",
-      "Eine Menge M ist eine geordnete Liste gleicher Objekte.",
-      "Eine Menge M ist eine Zahl, die aus Ziffern besteht.",
-      "Eine Menge M ist die Summe ihrer Elemente."
+      "Eine Menge $M$ ist die Zusammenfassung unterscheidbarer Objekte (Elemente).",
+      "Eine Menge $M$ ist eine geordnete Liste gleicher Objekte.",
+      "Eine Menge $M$ ist eine Zahl, die aus Ziffern besteht.",
+      "Eine Menge $M$ ist die Summe ihrer Elemente."
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie gibt die naive Mengendefinition nach Cantor an: „Eine Menge M ist die Zusammenfassung unterscheidbarer Objekte (Elemente).“ 📄 Quelle: ari21_vl06, Folie 14 (S.14)",
+    "explanation": "Die Folie gibt die naive Mengendefinition nach Cantor an: „Eine Menge $M$ ist die Zusammenfassung unterscheidbarer Objekte (Elemente).“ 📄 Quelle: ari21_vl06, Folie 14 (S.14)",
     "source": "ari21_vl06, Folie 14 (S.14, Definitionen)"
   },
   {
@@ -161,18 +161,18 @@
     "topic": "ari21_vl06_mengen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Was gilt für die Element-Beziehung zwischen einem Objekt x und einer Menge M?",
+    "question": "Was gilt für die Element-Beziehung zwischen einem Objekt $x$ und einer Menge $M$?",
     "options": [
-      "Man kann stets unterscheiden, ob ein Objekt Element einer Menge ist (x∈M) oder nicht (x∉M).",
-      "x∈M bedeutet: x ist Element der Menge M.",
-      "x∉M bedeutet: x ist Element der Menge M.",
+      "Man kann stets unterscheiden, ob ein Objekt Element einer Menge ist ($x \\in M$) oder nicht ($x \\notin M$).",
+      "$x \\in M$ bedeutet: $x$ ist Element der Menge $M$.",
+      "$x \\notin M$ bedeutet: $x$ ist Element der Menge $M$.",
       "Ob ein Objekt zu einer Menge gehört, lässt sich grundsätzlich nicht entscheiden."
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Folie stellt fest: „Man kann stets unterscheiden, ob ein Objekt Element einer Menge ist (x∈M) oder nicht (x∉M).“ Somit steht x∈M für Zugehörigkeit und x∉M für Nicht-Zugehörigkeit. 📄 Quelle: ari21_vl06, Folie 15 (S.15)",
+    "explanation": "Die Folie stellt fest: „Man kann stets unterscheiden, ob ein Objekt Element einer Menge ist ($x \\in M$) oder nicht ($x \\notin M$).“ Somit steht $x \\in M$ für Zugehörigkeit und $x \\notin M$ für Nicht-Zugehörigkeit. 📄 Quelle: ari21_vl06, Folie 15 (S.15)",
     "source": "ari21_vl06, Folie 15 (S.15, Definitionen)"
   },
   {
@@ -180,17 +180,17 @@
     "topic": "ari21_vl06_mengen",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie wird eine Teilmenge A einer Menge M definiert?",
+    "question": "Wie wird eine Teilmenge $A$ einer Menge $M$ definiert?",
     "options": [
-      "Mengen A, die nur aus Elementen einer Menge M bestehen, heißen Teilmengen (A⊆M).",
-      "A⊆M bedeutet, dass A mindestens ein Element enthält, das nicht in M liegt.",
-      "Jede Teilmenge A von M muss genauso viele Elemente wie M haben.",
-      "A⊆M bedeutet, dass A und M keine gemeinsamen Elemente haben."
+      "Mengen $A$, die nur aus Elementen einer Menge $M$ bestehen, heißen Teilmengen ($A \\subseteq M$).",
+      "$A \\subseteq M$ bedeutet, dass $A$ mindestens ein Element enthält, das nicht in $M$ liegt.",
+      "Jede Teilmenge $A$ von $M$ muss genauso viele Elemente wie $M$ haben.",
+      "$A \\subseteq M$ bedeutet, dass $A$ und $M$ keine gemeinsamen Elemente haben."
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie definiert: „Mengen A, die nur aus Elementen einer Menge M bestehen, heißen Teilmengen (A⊆M).“ 📄 Quelle: ari21_vl06, Folie 16 (S.16)",
+    "explanation": "Die Folie definiert: „Mengen $A$, die nur aus Elementen einer Menge $M$ bestehen, heißen Teilmengen ($A \\subseteq M$).“ 📄 Quelle: ari21_vl06, Folie 16 (S.16)",
     "source": "ari21_vl06, Folie 16 (S.16, Definitionen)"
   },
   {
@@ -198,17 +198,17 @@
     "topic": "ari21_vl06_mengen",
     "difficulty": 1,
     "type": "single",
-    "question": "Wie wird eine Menge M in aufzählender Schreibweise notiert?",
+    "question": "Wie wird eine Menge $M$ in aufzählender Schreibweise notiert?",
     "options": [
-      "M = {a, b, c, ...}",
-      "M = (a, b, c, ...)",
-      "M = [a, b, c, ...]",
-      "M = a + b + c + ..."
+      "$M = \\{a, b, c, \\ldots\\}$",
+      "$M = (a, b, c, \\ldots)$",
+      "$M = [a, b, c, \\ldots]$",
+      "$M = a + b + c + \\ldots$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie gibt die aufzählende Schreibweise an: M = {a, b, c, ...}. 📄 Quelle: ari21_vl06, Folie 17 (S.17)",
+    "explanation": "Die Folie gibt die aufzählende Schreibweise an: $M = \\{a, b, c, \\ldots\\}$. 📄 Quelle: ari21_vl06, Folie 17 (S.17)",
     "source": "ari21_vl06, Folie 17 (S.17, Definitionen)"
   },
   {
@@ -216,17 +216,17 @@
     "topic": "ari21_vl06_aussagen",
     "difficulty": 1,
     "type": "single",
-    "question": "Welches der folgenden Beispiele ist eine Aussage A im Sinne der Aussagenlogik?",
+    "question": "Welches der folgenden Beispiele ist eine Aussage $A$ im Sinne der Aussagenlogik?",
     "options": [
-      "A: Es regnet.",
-      "A: 2 + 2",
-      "A: Wie spät ist es?",
-      "A: x + 1"
+      "$A$: Es regnet.",
+      "$A$: $2 + 2$",
+      "$A$: Wie spät ist es?",
+      "$A$: $x + 1$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie führt den Begriff „Aussage“ ein und nennt als Beispiel „A: Es regnet.“ 📄 Quelle: ari21_vl06, Folie 20 (S.20)",
+    "explanation": "Die Folie führt den Begriff „Aussage“ ein und nennt als Beispiel „$A$: Es regnet.“ 📄 Quelle: ari21_vl06, Folie 20 (S.20)",
     "source": "ari21_vl06, Folie 20 (S.20, Aussagen)"
   },
   {
@@ -239,14 +239,14 @@
       "Nach Festlegung ist eine Aussage entweder wahr oder falsch.",
       "Der Grundsatz „Tertium non datur“ bedeutet „Ein Drittes ist nicht gegeben.“",
       "Eine Aussage kann einen dritten Wahrheitswert zwischen wahr und falsch annehmen.",
-      "„A: Es regnet.“ ist ein Beispiel für eine Aussage."
+      "„$A$: Es regnet.“ ist ein Beispiel für eine Aussage."
     ],
     "correct": [
       0,
       1,
       3
     ],
-    "explanation": "Eine Aussage ist nach Festlegung entweder richtig (wahr) oder falsch; ein Drittes ist nicht gegeben (Tertium non datur). „A: Es regnet.“ dient als Beispiel. 📄 Quelle: ari21_vl06, Folie 21 (S.21)",
+    "explanation": "Eine Aussage ist nach Festlegung entweder richtig (wahr) oder falsch; ein Drittes ist nicht gegeben (Tertium non datur). „$A$: Es regnet.“ dient als Beispiel. 📄 Quelle: ari21_vl06, Folie 21 (S.21)",
     "source": "ari21_vl06, Folie 21 (S.21, Aussagen)"
   },
   {
@@ -272,17 +272,17 @@
     "topic": "ari21_vl06_verneinung",
     "difficulty": 1,
     "type": "single",
-    "question": "Mit welchem Zeichen wird die Verneinung (das Gegenteil) einer Aussage A notiert?",
+    "question": "Mit welchem Zeichen wird die Verneinung (das Gegenteil) einer Aussage $A$ notiert?",
     "options": [
-      "¬A",
-      "A*",
-      "−A",
-      "1/A"
+      "$\\neg A$",
+      "$A^*$",
+      "$-A$",
+      "$\\frac{1}{A}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Verneinung einer Aussage A wird auf der Folie in Zeichen als ¬A geschrieben. 📄 Quelle: ari21_vl06, Folie 22 (S.22)",
+    "explanation": "Die Verneinung einer Aussage $A$ wird auf der Folie in Zeichen als $\\neg A$ geschrieben. 📄 Quelle: ari21_vl06, Folie 22 (S.22)",
     "source": "ari21_vl06, Folie 22 (S.22, Aussagen)"
   },
   {
@@ -290,12 +290,12 @@
     "topic": "ari21_vl06_verneinung",
     "difficulty": 2,
     "type": "multi",
-    "question": "Für die Aussage A: „Alle sind da.“ – welche Zuordnungen von Gegenteilen (kontradiktorisch/konträr) sind korrekt?",
+    "question": "Für die Aussage $A$: „Alle sind da.“ – welche Zuordnungen von Gegenteilen (kontradiktorisch/konträr) sind korrekt?",
     "options": [
-      "Kontradiktorisch: ¬A: Nicht alle sind da (also z.B. manche).",
-      "Konträr: ¬A: Niemand ist da.",
-      "Kontradiktorisch: ¬A: Niemand ist da.",
-      "Konträr: ¬A: Manche sind da."
+      "Kontradiktorisch: $\\neg A$: Nicht alle sind da (also z.B. manche).",
+      "Konträr: $\\neg A$: Niemand ist da.",
+      "Kontradiktorisch: $\\neg A$: Niemand ist da.",
+      "Konträr: $\\neg A$: Manche sind da."
     ],
     "correct": [
       0,
@@ -309,7 +309,7 @@
     "topic": "ari21_vl06_verneinung",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lautet das kontradiktorische Gegenteil von A: „Alle sind da.“?",
+    "question": "Wie lautet das kontradiktorische Gegenteil von $A$: „Alle sind da.“?",
     "options": [
       "Nicht alle sind da (also z.B. manche).",
       "Niemand ist da.",
@@ -327,7 +327,7 @@
     "topic": "ari21_vl06_verneinung",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lautet das konträre Gegenteil von A: „Alle sind da.“?",
+    "question": "Wie lautet das konträre Gegenteil von $A$: „Alle sind da.“?",
     "options": [
       "Niemand ist da.",
       "Nicht alle sind da.",
@@ -345,7 +345,7 @@
     "topic": "ari21_vl06_verneinung",
     "difficulty": 2,
     "type": "multi",
-    "question": "Für A: „Es gibt unendlich viele Primzahlen.“ – welche Gegenteile (kontradiktorisch/konträr) sind korrekt zugeordnet?",
+    "question": "Für $A$: „Es gibt unendlich viele Primzahlen.“ – welche Gegenteile (kontradiktorisch/konträr) sind korrekt zugeordnet?",
     "options": [
       "Kontradiktorisch: Es gibt nicht unendlich (also endlich) viele Primzahlen.",
       "Konträr: Es gibt keine Primzahlen.",
@@ -384,7 +384,7 @@
     "type": "multi",
     "question": "Warum verwendet man in der mathematischen Logik das kontradiktorische (und nicht das konträre) Gegenteil als Verneinung?",
     "options": [
-      "Damit ¬A automatisch falsch ist, wenn A wahr ist (und umgekehrt).",
+      "Damit $\\neg A$ automatisch falsch ist, wenn $A$ wahr ist (und umgekehrt).",
       "Beim konträren Gegenteil wäre dies nicht der Fall.",
       "Weil das konträre Gegenteil grundsätzlich sinnlos ist.",
       "Weil das kontradiktorische Gegenteil immer wahr ist."
@@ -393,7 +393,7 @@
       0,
       1
     ],
-    "explanation": "Laut Folie nutzt man das kontradiktorische Gegenteil als Verneinung, damit ¬A automatisch falsch ist, wenn A wahr ist (und umgekehrt); beim konträren Gegenteil wäre das nicht der Fall. 📄 Quelle: ari21_vl06, Folie 33 (S.33)",
+    "explanation": "Laut Folie nutzt man das kontradiktorische Gegenteil als Verneinung, damit $\\neg A$ automatisch falsch ist, wenn $A$ wahr ist (und umgekehrt); beim konträren Gegenteil wäre das nicht der Fall. 📄 Quelle: ari21_vl06, Folie 33 (S.33)",
     "source": "ari21_vl06, Folie 33 (S.33, Aussagen)"
   },
   {
@@ -401,17 +401,17 @@
     "topic": "ari21_vl06_verneinung",
     "difficulty": 2,
     "type": "single",
-    "question": "Was gilt für die als Verneinung verwendete Form ¬A (das kontradiktorische Gegenteil), wenn A wahr ist?",
+    "question": "Was gilt für die als Verneinung verwendete Form $\\neg A$ (das kontradiktorische Gegenteil), wenn $A$ wahr ist?",
     "options": [
-      "¬A ist automatisch falsch.",
-      "¬A ist automatisch wahr.",
-      "¬A ist unbestimmt.",
-      "¬A ist ebenfalls wahr."
+      "$\\neg A$ ist automatisch falsch.",
+      "$\\neg A$ ist automatisch wahr.",
+      "$\\neg A$ ist unbestimmt.",
+      "$\\neg A$ ist ebenfalls wahr."
     ],
     "correct": [
       0
     ],
-    "explanation": "Beim kontradiktorischen Gegenteil (der verwendeten Verneinung) ist ¬A automatisch falsch, wenn A wahr ist. 📄 Quelle: ari21_vl06, Folie 33 (S.33)",
+    "explanation": "Beim kontradiktorischen Gegenteil (der verwendeten Verneinung) ist $\\neg A$ automatisch falsch, wenn $A$ wahr ist. 📄 Quelle: ari21_vl06, Folie 33 (S.33)",
     "source": "ari21_vl06, Folie 33 (S.33, Aussagen)"
   },
   {
@@ -419,12 +419,12 @@
     "topic": "ari21_vl06_verneinung",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Verneinungen (¬A, kontradiktorisches Gegenteil) zu den Beispielen sind korrekt?",
+    "question": "Welche Verneinungen ($\\neg A$, kontradiktorisches Gegenteil) zu den Beispielen sind korrekt?",
     "options": [
-      "A: Es regnet. → ¬A: Es regnet nicht.",
-      "A: Es gibt unendlich viele Primzahlen. → ¬A: Es gibt endlich viele Primzahlen.",
-      "A: Es regnet. → ¬A: Es ist sonnig.",
-      "A: Es gibt unendlich viele Primzahlen. → ¬A: Es gibt keine Primzahlen."
+      "$A$: Es regnet. $\\to$ $\\neg A$: Es regnet nicht.",
+      "$A$: Es gibt unendlich viele Primzahlen. $\\to$ $\\neg A$: Es gibt endlich viele Primzahlen.",
+      "$A$: Es regnet. $\\to$ $\\neg A$: Es ist sonnig.",
+      "$A$: Es gibt unendlich viele Primzahlen. $\\to$ $\\neg A$: Es gibt keine Primzahlen."
     ],
     "correct": [
       0,
@@ -438,7 +438,7 @@
     "topic": "ari21_vl06_verneinung",
     "difficulty": 1,
     "type": "single",
-    "question": "Wie lautet die Verneinung ¬A der Aussage „Es regnet.“?",
+    "question": "Wie lautet die Verneinung $\\neg A$ der Aussage „Es regnet.“?",
     "options": [
       "Es regnet nicht.",
       "Es ist trocken.",
@@ -460,7 +460,7 @@
     "options": [
       "Die Zustände von Aussagen können in Kurzform in einer Tabelle/Tafel aufgeschrieben werden.",
       "Für „wahr“ wird die Kurzform w, für „falsch“ die Kurzform f verwendet.",
-      "Die Tabelle enthält Spalten für Aussage A und Aussage ¬A.",
+      "Die Tabelle enthält Spalten für Aussage $A$ und Aussage $\\neg A$.",
       "Die Tabelle verwendet die Kurzformen 1 für wahr und 0 für falsch."
     ],
     "correct": [
@@ -468,7 +468,7 @@
       1,
       2
     ],
-    "explanation": "Die Folie zeigt eine Tabelle/Tafel mit den Spalten „Aussage A“ und „Aussage ¬A“ sowie die Kurzformen wahr (w) und falsch (f). 📄 Quelle: ari21_vl06, Folie 35 (S.35)",
+    "explanation": "Die Folie zeigt eine Tabelle/Tafel mit den Spalten „Aussage $A$“ und „Aussage $\\neg A$“ sowie die Kurzformen wahr (w) und falsch (f). 📄 Quelle: ari21_vl06, Folie 35 (S.35)",
     "source": "ari21_vl06, Folie 35 (S.35, Aussagen)"
   },
   {
@@ -494,18 +494,18 @@
     "topic": "ari21_vl06_verknuepfte_aussagen",
     "difficulty": 1,
     "type": "multi",
-    "question": "Ein Beispielpaar verknüpfter Aussagen A und B beschreibt Regen und eine dadurch nasse Straße. Welche beiden Aussagen bilden dieses Paar?",
+    "question": "Ein Beispielpaar verknüpfter Aussagen $A$ und $B$ beschreibt Regen und eine dadurch nasse Straße. Welche beiden Aussagen bilden dieses Paar?",
     "options": [
-      "A: Es regnet.",
-      "B: Die Straße ist nass.",
-      "B: Es ist bewölkt.",
-      "A: Die Sonne scheint."
+      "$A$: Es regnet.",
+      "$B$: Die Straße ist nass.",
+      "$B$: Es ist bewölkt.",
+      "$A$: Die Sonne scheint."
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Bei verknüpften Aussagen sind zwei Aussagen gegeben; die Folie nennt als Beispiel A: „Es regnet.“ und B: „Die Straße ist nass.“ 📄 Quelle: ari21_vl06, Folie 39 (S.39)",
+    "explanation": "Bei verknüpften Aussagen sind zwei Aussagen gegeben; die Folie nennt als Beispiel $A$: „Es regnet.“ und $B$: „Die Straße ist nass.“ 📄 Quelle: ari21_vl06, Folie 39 (S.39)",
     "source": "ari21_vl06, Folie 39 (S.39, Verknüpfte Aussagen)"
   },
   {
@@ -513,18 +513,18 @@
     "topic": "ari21_vl06_aussagenlogik",
     "difficulty": 1,
     "type": "multi",
-    "question": "Ein Beispielpaar von Aussagen A und B beschreibt Regen und eine nasse Straße. Welche beiden Aussagen bilden dieses Paar?",
+    "question": "Ein Beispielpaar von Aussagen $A$ und $B$ beschreibt Regen und eine nasse Straße. Welche beiden Aussagen bilden dieses Paar?",
     "options": [
-      "A: Es regnet.",
-      "B: Die Straße ist nass.",
-      "A: Die Sonne scheint.",
-      "B: Der Boden ist trocken."
+      "$A$: Es regnet.",
+      "$B$: Die Straße ist nass.",
+      "$A$: Die Sonne scheint.",
+      "$B$: Der Boden ist trocken."
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Auf der Folie sind die Beispielaussagen A: „Es regnet.“ und B: „Die Straße ist nass.“ angegeben. 📄 Quelle: ari21_vl06, Folie 40 (S.40)",
+    "explanation": "Auf der Folie sind die Beispielaussagen $A$: „Es regnet.“ und $B$: „Die Straße ist nass.“ angegeben. 📄 Quelle: ari21_vl06, Folie 40 (S.40)",
     "source": "ari21_vl06, Folie 40 (S.40, Arithmetik – Aussagen)"
   },
   {
@@ -532,11 +532,11 @@
     "topic": "ari21_vl06_aussagenlogik",
     "difficulty": 1,
     "type": "single",
-    "question": "Was gilt für die beiden Beispielaussagen A („Es regnet.“) und B („Die Straße ist nass.“) hinsichtlich ihrer Wahrheitswerte?",
+    "question": "Was gilt für die beiden Beispielaussagen $A$ („Es regnet.“) und $B$ („Die Straße ist nass.“) hinsichtlich ihrer Wahrheitswerte?",
     "options": [
       "Beide Aussagen können entweder wahr oder falsch sein.",
       "Beide Aussagen sind immer gleichzeitig wahr.",
-      "A ist immer wahr, B immer falsch.",
+      "$A$ ist immer wahr, $B$ immer falsch.",
       "Die Aussagen können weder wahr noch falsch sein."
     ],
     "correct": [
@@ -550,18 +550,18 @@
     "topic": "ari21_vl06_wahrheitstafel",
     "difficulty": 2,
     "type": "multi",
-    "question": "Für eine Wahrheitstafel zu zwei Aussagen A und B: Welche Anforderungen sind korrekt?",
+    "question": "Für eine Wahrheitstafel zu zwei Aussagen $A$ und $B$: Welche Anforderungen sind korrekt?",
     "options": [
-      "Die Tafel soll Spalten für A und B haben.",
+      "Die Tafel soll Spalten für $A$ und $B$ haben.",
       "In den Zeilen sollen alle Kombinationen von Wahrheitswerten w und f vorkommen.",
       "Die Tafel soll nur die wahren Fälle enthalten.",
-      "Es soll eine einzige Zeile mit A und B genügen."
+      "Es soll eine einzige Zeile mit $A$ und $B$ genügen."
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Aufgabe lautet: „Zeichnen Sie eine Tafel mit den Spalten für A und B. In den Zeilen sollen alle Kombinationen von Wahrheitswerten w und f vorkommen.“ 📄 Quelle: ari21_vl06, Folie 41 (S.41)",
+    "explanation": "Die Aufgabe lautet: „Zeichnen Sie eine Tafel mit den Spalten für $A$ und $B$. In den Zeilen sollen alle Kombinationen von Wahrheitswerten w und f vorkommen.“ 📄 Quelle: ari21_vl06, Folie 41 (S.41)",
     "source": "ari21_vl06, Folie 41 (S.41, Arithmetik – Aussagen)"
   },
   {
@@ -569,17 +569,17 @@
     "topic": "ari21_vl06_konjunktion",
     "difficulty": 1,
     "type": "single",
-    "question": "Wann ist die Verknüpfung A ∧ B („A und B“) wahr?",
+    "question": "Wann ist die Verknüpfung $A \\wedge B$ („$A$ und $B$“) wahr?",
     "options": [
-      "Genau dann, wenn sowohl A als auch B wahr ist.",
+      "Genau dann, wenn sowohl $A$ als auch $B$ wahr ist.",
       "Genau dann, wenn mindestens eine der Aussagen wahr ist.",
-      "Genau dann, wenn A wahr und B falsch ist.",
+      "Genau dann, wenn $A$ wahr und $B$ falsch ist.",
       "Genau dann, wenn beide Aussagen falsch sind."
     ],
     "correct": [
       0
     ],
-    "explanation": "Folie 42: „A ∧ B (‚A und B‘) ist genau dann wahr, wenn sowohl A als auch B wahr ist (und sonst falsch).“ 📄 Quelle: ari21_vl06, Folie 42 (S.42)",
+    "explanation": "Folie 42: „$A \\wedge B$ (‚$A$ und $B$‘) ist genau dann wahr, wenn sowohl $A$ als auch $B$ wahr ist (und sonst falsch).“ 📄 Quelle: ari21_vl06, Folie 42 (S.42)",
     "source": "ari21_vl06, Folie 42 (S.42, Arithmetik – Aussagen)"
   },
   {
@@ -587,17 +587,17 @@
     "topic": "ari21_vl06_konjunktion",
     "difficulty": 2,
     "type": "multi",
-    "question": "Bei welchen Belegungen von A und B ist A ∧ B laut der Wahrheitstafel wahr (w)?",
+    "question": "Bei welchen Belegungen von $A$ und $B$ ist $A \\wedge B$ laut der Wahrheitstafel wahr (w)?",
     "options": [
-      "A = w, B = w",
-      "A = w, B = f",
-      "A = f, B = w",
-      "A = f, B = f"
+      "$A = w$, $B = w$",
+      "$A = w$, $B = f$",
+      "$A = f$, $B = w$",
+      "$A = f$, $B = f$"
     ],
     "correct": [
       0
     ],
-    "explanation": "In der Wahrheitstafel für A ∧ B ist nur die Zeile w/w wahr; alle anderen Zeilen (w/f, f/w, f/f) liefern f. 📄 Quelle: ari21_vl06, Folie 42 (S.42)",
+    "explanation": "In der Wahrheitstafel für $A \\wedge B$ ist nur die Zeile w/w wahr; alle anderen Zeilen (w/f, f/w, f/f) liefern f. 📄 Quelle: ari21_vl06, Folie 42 (S.42)",
     "source": "ari21_vl06, Folie 42 (S.42, Arithmetik – Aussagen)"
   },
   {
@@ -605,7 +605,7 @@
     "topic": "ari21_vl06_konjunktion",
     "difficulty": 2,
     "type": "numeric",
-    "question": "In wie vielen der vier Zeilen der Wahrheitstafel für A ∧ B ergibt sich der Wert wahr (w)?",
+    "question": "In wie vielen der vier Zeilen der Wahrheitstafel für $A \\wedge B$ ergibt sich der Wert wahr (w)?",
     "answer": 1,
     "tolerance": 0,
     "unit": "",
@@ -617,17 +617,17 @@
     "topic": "ari21_vl06_disjunktion",
     "difficulty": 1,
     "type": "single",
-    "question": "Wann ist die Verknüpfung A ∨ B („A oder B“) falsch?",
+    "question": "Wann ist die Verknüpfung $A \\vee B$ („$A$ oder $B$“) falsch?",
     "options": [
-      "Genau dann, wenn sowohl A als auch B falsch ist.",
+      "Genau dann, wenn sowohl $A$ als auch $B$ falsch ist.",
       "Genau dann, wenn genau eine der Aussagen falsch ist.",
-      "Genau dann, wenn A und B beide wahr sind.",
-      "Nie, A ∨ B ist immer wahr."
+      "Genau dann, wenn $A$ und $B$ beide wahr sind.",
+      "Nie, $A \\vee B$ ist immer wahr."
     ],
     "correct": [
       0
     ],
-    "explanation": "Folie 43: „A ∨ B (‚A oder B‘) ist genau dann falsch, wenn sowohl A als auch B falsch ist (und sonst wahr).“ 📄 Quelle: ari21_vl06, Folie 43 (S.43)",
+    "explanation": "Folie 43: „$A \\vee B$ (‚$A$ oder $B$‘) ist genau dann falsch, wenn sowohl $A$ als auch $B$ falsch ist (und sonst wahr).“ 📄 Quelle: ari21_vl06, Folie 43 (S.43)",
     "source": "ari21_vl06, Folie 43 (S.43, Arithmetik – Aussagen)"
   },
   {
@@ -635,19 +635,19 @@
     "topic": "ari21_vl06_disjunktion",
     "difficulty": 2,
     "type": "multi",
-    "question": "Bei welchen Belegungen von A und B ist A ∨ B laut der Wahrheitstafel wahr (w)?",
+    "question": "Bei welchen Belegungen von $A$ und $B$ ist $A \\vee B$ laut der Wahrheitstafel wahr (w)?",
     "options": [
-      "A = w, B = w",
-      "A = w, B = f",
-      "A = f, B = w",
-      "A = f, B = f"
+      "$A = w$, $B = w$",
+      "$A = w$, $B = f$",
+      "$A = f$, $B = w$",
+      "$A = f$, $B = f$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "In der Wahrheitstafel für A ∨ B liefern die Zeilen w/w, w/f und f/w jeweils w; nur f/f liefert f. 📄 Quelle: ari21_vl06, Folie 43 (S.43)",
+    "explanation": "In der Wahrheitstafel für $A \\vee B$ liefern die Zeilen w/w, w/f und f/w jeweils w; nur f/f liefert f. 📄 Quelle: ari21_vl06, Folie 43 (S.43)",
     "source": "ari21_vl06, Folie 43 (S.43, Arithmetik – Aussagen)"
   },
   {
@@ -655,7 +655,7 @@
     "topic": "ari21_vl06_disjunktion",
     "difficulty": 2,
     "type": "numeric",
-    "question": "In wie vielen der vier Zeilen der Wahrheitstafel für A ∨ B ergibt sich der Wert wahr (w)?",
+    "question": "In wie vielen der vier Zeilen der Wahrheitstafel für $A \\vee B$ ergibt sich der Wert wahr (w)?",
     "answer": 3,
     "tolerance": 0,
     "unit": "",
@@ -667,10 +667,10 @@
     "topic": "ari21_vl06_wahrheitstafel",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Spalten kann eine Wahrheitswertetafel zur Auswertung einer verknüpften Aussage aus A und B enthalten?",
+    "question": "Welche Spalten kann eine Wahrheitswertetafel zur Auswertung einer verknüpften Aussage aus $A$ und $B$ enthalten?",
     "options": [
-      "A",
-      "B",
+      "$A$",
+      "$B$",
       "Zwischenschritte",
       "Verknüpfung"
     ],
@@ -680,7 +680,7 @@
       2,
       3
     ],
-    "explanation": "Die Wahrheitswertetafel auf Folie 46 hat die Spalten A, B, Zwischenschritte und Verknüpfung. 📄 Quelle: ari21_vl06, Folie 46 (S.46)",
+    "explanation": "Die Wahrheitswertetafel auf Folie 46 hat die Spalten $A$, $B$, Zwischenschritte und Verknüpfung. 📄 Quelle: ari21_vl06, Folie 46 (S.46)",
     "source": "ari21_vl06, Folie 46 (S.46, Arithmetik – Aussagen)"
   },
   {
@@ -688,19 +688,19 @@
     "topic": "ari21_vl06_junktoren",
     "difficulty": 2,
     "type": "multi",
-    "question": "Mit welchen Verknüpfungen (Junktoren) sollen die Aussagen A und B verbunden werden?",
+    "question": "Mit welchen Verknüpfungen (Junktoren) sollen die Aussagen $A$ und $B$ verbunden werden?",
     "options": [
-      "nicht (¬)",
-      "und (∧)",
-      "einschließendes oder (∨)",
-      "wenn-dann (→)"
+      "nicht ($\\neg$)",
+      "und ($\\wedge$)",
+      "einschließendes oder ($\\vee$)",
+      "wenn-dann ($\\to$)"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Folie 47: „Verknüpfen Sie die beiden Aussagen A und B mit ‚nicht‘ (¬), ‚und‘ (∧) und einschließendem ‚oder‘ (∨)“. 📄 Quelle: ari21_vl06, Folie 47 (S.47)",
+    "explanation": "Folie 47: „Verknüpfen Sie die beiden Aussagen $A$ und $B$ mit ‚nicht‘ ($\\neg$), ‚und‘ ($\\wedge$) und einschließendem ‚oder‘ ($\\vee$)“. 📄 Quelle: ari21_vl06, Folie 47 (S.47)",
     "source": "ari21_vl06, Folie 47 (S.47, Arithmetik – Aussagen)"
   },
   {
@@ -708,7 +708,7 @@
     "topic": "ari21_vl06_junktoren",
     "difficulty": 1,
     "type": "single",
-    "question": "Welche Art von „oder“ bezeichnet das Symbol ∨ ausdrücklich?",
+    "question": "Welche Art von „oder“ bezeichnet das Symbol $\\vee$ ausdrücklich?",
     "options": [
       "Das einschließende „oder“",
       "Das ausschließende „oder“ (entweder-oder)",
@@ -718,7 +718,7 @@
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie wird ∨ als „einschließendes ‚oder‘“ bezeichnet. 📄 Quelle: ari21_vl06, Folie 47 (S.47)",
+    "explanation": "Auf der Folie wird $\\vee$ als „einschließendes ‚oder‘“ bezeichnet. 📄 Quelle: ari21_vl06, Folie 47 (S.47)",
     "source": "ari21_vl06, Folie 47 (S.47, Arithmetik – Aussagen)"
   },
   {
@@ -726,7 +726,7 @@
     "topic": "ari21_vl06_junktoren",
     "difficulty": 2,
     "type": "multi",
-    "question": "Eine verknüpfte Aussage aus A und B soll so gebildet werden, dass sie in der Tafel bzw. im Mengendiagramm in einer vorgegebenen Anzahl von Feldern wahr ist. Welche Anzahlen wahrer Felder werden dabei betrachtet?",
+    "question": "Eine verknüpfte Aussage aus $A$ und $B$ soll so gebildet werden, dass sie in der Tafel bzw. im Mengendiagramm in einer vorgegebenen Anzahl von Feldern wahr ist. Welche Anzahlen wahrer Felder werden dabei betrachtet?",
     "options": [
       "nur in einem Feld",
       "in drei Feldern",
@@ -746,7 +746,7 @@
     "topic": "ari21_vl06_junktoren",
     "difficulty": 1,
     "type": "multi",
-    "question": "Welche Hinweise zur Bearbeitung solcher Verknüpfungsaufgaben (Tafel mit A und B) sind zutreffend?",
+    "question": "Welche Hinweise zur Bearbeitung solcher Verknüpfungsaufgaben (Tafel mit $A$ und $B$) sind zutreffend?",
     "options": [
       "In der Tafel müssen evtl. Zwischenschritte verwendet werden.",
       "Die Verknüpfung soll immer auch sprachlich ausgedrückt werden.",

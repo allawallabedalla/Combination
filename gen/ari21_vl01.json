@@ -43,11 +43,11 @@
     "topic": "ari21_vl01_plusaufgaben",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechne die Dreier-Aufgabe 4 + 5 + 6.",
+    "question": "Berechne die Dreier-Aufgabe $4 + 5 + 6$.",
     "answer": 15,
     "tolerance": 0,
     "unit": "",
-    "explanation": "4 + 5 + 6 = 15. Die Aufgabe 4 + 5 + 6 ist im gelben Forscherauftrag-Kasten als Beispiel abgebildet. 📄 Quelle: ari21_vl01, Folie 4 (S.4)",
+    "explanation": "$4 + 5 + 6 = 15$. Die Aufgabe $4 + 5 + 6$ ist im gelben Forscherauftrag-Kasten als Beispiel abgebildet. 📄 Quelle: ari21_vl01, Folie 4 (S.4)",
     "source": "ari21_vl01, Folie 4 (S.4, Plusaufgaben erforschen)"
   },
   {
@@ -168,7 +168,7 @@
     "type": "single",
     "question": "Wofür steht das „m“ in einer „m-Aufgabe“ (Verallgemeinerung der Dreier-/Fünfer-Aufgabe)?",
     "options": [
-      "für die Anzahl der aufeinander folgenden Zahlen, die addiert werden (m = 2, 3, 4, …)",
+      "für die Anzahl der aufeinander folgenden Zahlen, die addiert werden ($m = 2, 3, 4, \\ldots$)",
       "für das Ergebnis der Addition",
       "für die größte auftretende Zahl",
       "für die Anzahl der Lösungen"
@@ -176,7 +176,7 @@
     "correct": [
       0
     ],
-    "explanation": "Die m-Aufgabe verallgemeinert die Dreier-/Fünfer-Aufgabe: m (= 2, 3, 4, …) gibt die Anzahl der aufeinander folgenden Zahlen an, die addiert werden. 📄 Quelle: ari21_vl01, Folie 8 (S.8)",
+    "explanation": "Die m-Aufgabe verallgemeinert die Dreier-/Fünfer-Aufgabe: $m$ ($= 2, 3, 4, \\ldots$) gibt die Anzahl der aufeinander folgenden Zahlen an, die addiert werden. 📄 Quelle: ari21_vl01, Folie 8 (S.8)",
     "source": "ari21_vl01, Folie 8 (S.8, Erkundung: ICH)"
   },
   {
@@ -184,19 +184,19 @@
     "topic": "ari21_vl01_plusaufgaben",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Fragen sollen bei der Untersuchung der „m-Aufgaben“ (Addition von m aufeinander folgenden Zahlen) geklärt werden?",
+    "question": "Welche Fragen sollen bei der Untersuchung der „m-Aufgaben“ (Addition von $m$ aufeinander folgenden Zahlen) geklärt werden?",
     "options": [
-      "Kann jede natürliche Zahl n durch eine m-Aufgabe dargestellt werden?",
+      "Kann jede natürliche Zahl $n$ durch eine m-Aufgabe dargestellt werden?",
       "Gibt es Zahlen, die mehr verschiedene m-Aufgaben haben als andere?",
       "Die Erkenntnisse sollen in einem möglichst gut verständlichen Satz formuliert werden.",
-      "Wie lautet die Ableitung der Funktion f(n)?"
+      "Wie lautet die Ableitung der Funktion $f(n)$?"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Untersucht werden soll, ob jede Zahl n durch eine m-Aufgabe darstellbar ist und ob es Zahlen mit mehr verschiedenen m-Aufgaben gibt; die Erkenntnisse sind in einem gut verständlichen Satz zu formulieren. Ableitungen sind nicht Thema. 📄 Quelle: ari21_vl01, Folie 8 (S.8)",
+    "explanation": "Untersucht werden soll, ob jede Zahl $n$ durch eine m-Aufgabe darstellbar ist und ob es Zahlen mit mehr verschiedenen m-Aufgaben gibt; die Erkenntnisse sind in einem gut verständlichen Satz zu formulieren. Ableitungen sind nicht Thema. 📄 Quelle: ari21_vl01, Folie 8 (S.8)",
     "source": "ari21_vl01, Folie 8 (S.8, Erkundung: ICH)"
   },
   {
@@ -272,7 +272,7 @@
       0,
       1
     ],
-    "explanation": "Das Beispiel-DeG notiert 1+2=3, 2+3=5, 3+4=7, … (also ungerade Zahlen) und die Erkenntnis „Hat was mit Teilern zu tun – Teiler müssen ungerade sein“. Ausdrücklich wird festgehalten, dass nicht alle geraden Zahlen so darstellbar sind. 📄 Quelle: ari21_vl01, Folie 10 (S.10)",
+    "explanation": "Das Beispiel-DeG notiert $1+2=3$, $2+3=5$, $3+4=7$, … (also ungerade Zahlen) und die Erkenntnis „Hat was mit Teilern zu tun – Teiler müssen ungerade sein“. Ausdrücklich wird festgehalten, dass nicht alle geraden Zahlen so darstellbar sind. 📄 Quelle: ari21_vl01, Folie 10 (S.10)",
     "source": "ari21_vl01, Folie 10 (S.10, Erkundung: ICH)"
   },
   {
@@ -280,11 +280,11 @@
     "topic": "ari21_vl01_plusaufgaben",
     "difficulty": 1,
     "type": "numeric",
-    "question": "12 wird als Summe aufeinander folgender Zahlen dargestellt: 3 + 4 + 5. Wie groß ist diese Summe?",
+    "question": "12 wird als Summe aufeinander folgender Zahlen dargestellt: $3 + 4 + 5$. Wie groß ist diese Summe?",
     "answer": 12,
     "tolerance": 0,
     "unit": "",
-    "explanation": "3 + 4 + 5 = 12; genau diese Darstellung „12 = 3+4+5“ ist im Beispiel-DeG notiert. 📄 Quelle: ari21_vl01, Folie 10 (S.10)",
+    "explanation": "$3 + 4 + 5 = 12$; genau diese Darstellung „$12 = 3+4+5$“ ist im Beispiel-DeG notiert. 📄 Quelle: ari21_vl01, Folie 10 (S.10)",
     "source": "ari21_vl01, Folie 10 (S.10, Erkundung: ICH)"
   },
   {
@@ -455,17 +455,17 @@
     "topic": "ari21_vl01_plusaufgaben",
     "difficulty": 2,
     "type": "single",
-    "question": "Wovon hängt gemäß der Vermutung die Anzahl k der m-Aufgaben einer natürlichen Zahl n ab (eine m-Aufgabe ist die Darstellung als Summe aufeinander folgender Zahlen)?",
+    "question": "Wovon hängt gemäß der Vermutung die Anzahl $k$ der m-Aufgaben einer natürlichen Zahl $n$ ab (eine m-Aufgabe ist die Darstellung als Summe aufeinander folgender Zahlen)?",
     "options": [
-      "Von der Anzahl der ungeraden Teiler von n",
-      "Von der Anzahl aller Teiler von n",
-      "Von der Anzahl der geraden Teiler von n",
-      "Von der Anzahl der Primteiler von n"
+      "Von der Anzahl der ungeraden Teiler von $n$",
+      "Von der Anzahl aller Teiler von $n$",
+      "Von der Anzahl der geraden Teiler von $n$",
+      "Von der Anzahl der Primteiler von $n$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Vermutung: \"Wenn n eine gewisse Anzahl von ungeraden Teilern hat (die Anzahl kann man k nennen), dann hat die Zahl n genau k von den m-Aufgaben.\" 📄 Quelle: ari21_vl01, Folie 18 (S.18)",
+    "explanation": "Vermutung: \"Wenn $n$ eine gewisse Anzahl von ungeraden Teilern hat (die Anzahl kann man $k$ nennen), dann hat die Zahl $n$ genau $k$ von den m-Aufgaben.\" 📄 Quelle: ari21_vl01, Folie 18 (S.18)",
     "source": "ari21_vl01, Folie 18 (S.18, Erkundung: WIR)"
   },
   {
@@ -475,7 +475,7 @@
     "type": "single",
     "question": "Für welche Zahlen wird die Vermutung zu den m-Aufgaben formuliert?",
     "options": [
-      "Für jede Natürliche Zahl n",
+      "Für jede Natürliche Zahl $n$",
       "Nur für gerade Zahlen",
       "Nur für Primzahlen",
       "Nur für Quadratzahlen"
@@ -483,7 +483,7 @@
     "correct": [
       0
     ],
-    "explanation": "Die Folie beginnt mit \"Für jede Natürliche Zahl n gilt: ...\" 📄 Quelle: ari21_vl01, Folie 18 (S.18)",
+    "explanation": "Die Folie beginnt mit \"Für jede Natürliche Zahl $n$ gilt: ...\" 📄 Quelle: ari21_vl01, Folie 18 (S.18)",
     "source": "ari21_vl01, Folie 18 (S.18, Erkundung: WIR)"
   },
   {
@@ -509,11 +509,11 @@
     "topic": "ari21_vl01_quadratzahlen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Welche Summe steht laut Tabelle in der Zeile n = 15 (Summe der ungeraden Zahlen von 1 bis 15)?",
+    "question": "Welche Summe steht laut Tabelle in der Zeile $n = 15$ (Summe der ungeraden Zahlen von 1 bis 15)?",
     "answer": 64,
     "tolerance": 0,
     "unit": "",
-    "explanation": "In der Tabelle steht für n = 15 die Summe 64 (= 8²). 📄 Quelle: ari21_vl01, Folie 19 (S.19)",
+    "explanation": "In der Tabelle steht für $n = 15$ die Summe 64 (= $8^2$). 📄 Quelle: ari21_vl01, Folie 19 (S.19)",
     "source": "ari21_vl01, Folie 19 (S.19, Erkundung: WIR)"
   },
   {
@@ -521,11 +521,11 @@
     "topic": "ari21_vl01_quadratzahlen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Welchen Wert hat laut Tabelle die letzte angegebene Summe (Zeile n = 27)?",
+    "question": "Welchen Wert hat laut Tabelle die letzte angegebene Summe (Zeile $n = 27$)?",
     "answer": 196,
     "tolerance": 0,
     "unit": "",
-    "explanation": "In der Tabelle steht für n = 27 die Summe 196 (= 14²). 📄 Quelle: ari21_vl01, Folie 19 (S.19)",
+    "explanation": "In der Tabelle steht für $n = 27$ die Summe 196 (= $14^2$). 📄 Quelle: ari21_vl01, Folie 19 (S.19)",
     "source": "ari21_vl01, Folie 19 (S.19, Erkundung: WIR)"
   },
   {
@@ -533,17 +533,17 @@
     "topic": "ari21_vl01_quadratzahlen",
     "difficulty": 2,
     "type": "single",
-    "question": "Welche allgemeine Vermutung zur Differenz aufeinander folgender Quadrate gilt für alle natürlichen Zahlen n?",
+    "question": "Welche allgemeine Vermutung zur Differenz aufeinander folgender Quadrate gilt für alle natürlichen Zahlen $n$?",
     "options": [
-      "(n+1)² − n² = (n+1) + n",
-      "(n+1)² − n² = (n+1) · n",
-      "n² − (n+1)² = (n+1) + n",
-      "(n+1)² + n² = (n+1) + n"
+      "$(n+1)^2 - n^2 = (n+1) + n$",
+      "$(n+1)^2 - n^2 = (n+1) \\cdot n$",
+      "$n^2 - (n+1)^2 = (n+1) + n$",
+      "$(n+1)^2 + n^2 = (n+1) + n$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie formuliert die Vermutung: (n+1)² − n² = (n+1) + n, veranschaulicht durch 2²−1²=2+1, 3²−2²=3+2, ... 📄 Quelle: ari21_vl01, Folie 20 (S.20)",
+    "explanation": "Die Folie formuliert die Vermutung: $(n+1)^2 - n^2 = (n+1) + n$, veranschaulicht durch $2^2-1^2=2+1$, $3^2-2^2=3+2$, ... 📄 Quelle: ari21_vl01, Folie 20 (S.20)",
     "source": "ari21_vl01, Folie 20 (S.20, Erkundung: WIR)"
   },
   {
@@ -551,11 +551,11 @@
     "topic": "ari21_vl01_quadratzahlen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welchen Wert hat 5² − 4² (mit 5² − 4² = 5 + 4)?",
+    "question": "Welchen Wert hat $5^2 - 4^2$ (mit $5^2 - 4^2 = 5 + 4$)?",
     "answer": 9,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Auf der Folie steht 5² − 4² = 5 + 4 = 9. 📄 Quelle: ari21_vl01, Folie 20 (S.20)",
+    "explanation": "Auf der Folie steht $5^2 - 4^2 = 5 + 4 = 9$. 📄 Quelle: ari21_vl01, Folie 20 (S.20)",
     "source": "ari21_vl01, Folie 20 (S.20, Erkundung: WIR)"
   },
   {
@@ -653,12 +653,12 @@
     "topic": "ari21_vl01_peano_axiome",
     "difficulty": 3,
     "type": "multi",
-    "question": "Welche Eigenschaften muss eine Zahlenmenge N nach den angegebenen Axiomen (Peano) haben, um Natürliche Zahlen zu heißen?",
+    "question": "Welche Eigenschaften muss eine Zahlenmenge $N$ nach den angegebenen Axiomen (Peano) haben, um Natürliche Zahlen zu heißen?",
     "options": [
       "1 ist eine Natürliche Zahl",
-      "Zu jeder natürlichen Zahl n gibt es genau einen Nachfolger n'",
-      "Kein Element von N hat als Nachfolger die 1",
-      "Kein Element ist Nachfolger zweier verschiedener Elemente von N",
+      "Zu jeder natürlichen Zahl $n$ gibt es genau einen Nachfolger $n'$",
+      "Kein Element von $N$ hat als Nachfolger die 1",
+      "Kein Element ist Nachfolger zweier verschiedener Elemente von $N$",
       "Jede natürliche Zahl hat genau einen Vorgänger"
     ],
     "correct": [
@@ -667,7 +667,7 @@
       2,
       3
     ],
-    "explanation": "Die Folie nennt: (1) 1 ist eine Natürliche Zahl; (2) zu jeder Zahl n genau ein Nachfolger n'; (3) kein Element hat als Nachfolger die 1; (4) kein Element ist Nachfolger zweier verschiedener Elemente von N. Ein \"eindeutiger Vorgänger jeder Zahl\" gehört nicht dazu. 📄 Quelle: ari21_vl01, Folie 24 (S.24)",
+    "explanation": "Die Folie nennt: (1) 1 ist eine Natürliche Zahl; (2) zu jeder Zahl $n$ genau ein Nachfolger $n'$; (3) kein Element hat als Nachfolger die 1; (4) kein Element ist Nachfolger zweier verschiedener Elemente von $N$. Ein \"eindeutiger Vorgänger jeder Zahl\" gehört nicht dazu. 📄 Quelle: ari21_vl01, Folie 24 (S.24)",
     "source": "ari21_vl01, Folie 24 (S.24, Erkundung: WIR)"
   },
   {
@@ -675,7 +675,7 @@
     "topic": "ari21_vl01_peano_axiome",
     "difficulty": 2,
     "type": "single",
-    "question": "Welche Zahl ist laut dem 3. Axiom Nachfolger keines Elements von N?",
+    "question": "Welche Zahl ist laut dem 3. Axiom Nachfolger keines Elements von $N$?",
     "options": [
       "Die 1",
       "Die 0",
@@ -685,7 +685,7 @@
     "correct": [
       0
     ],
-    "explanation": "3. Axiom: \"Kein Element von N hat als Nachfolger die 1.\" 📄 Quelle: ari21_vl01, Folie 24 (S.24)",
+    "explanation": "3. Axiom: \"Kein Element von $N$ hat als Nachfolger die 1.\" 📄 Quelle: ari21_vl01, Folie 24 (S.24)",
     "source": "ari21_vl01, Folie 24 (S.24, Erkundung: WIR)"
   },
   {
@@ -729,7 +729,7 @@
     "topic": "ari21_vl01_rechengesetze",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Rechengesetze gelten für alle Natürlichen Zahlen l, m und n?",
+    "question": "Welche Rechengesetze gelten für alle Natürlichen Zahlen $l$, $m$ und $n$?",
     "options": [
       "Assoziativgesetz der Addition",
       "Kommutativgesetz der Addition",
@@ -755,7 +755,7 @@
     "type": "single",
     "question": "Für welche Zahlen werden die Rechengesetze (Assoziativ-, Kommutativ-, Distributivgesetz) formuliert?",
     "options": [
-      "Für alle Natürlichen Zahlen l, m und n",
+      "Für alle Natürlichen Zahlen $l$, $m$ und $n$",
       "Für alle reellen Zahlen",
       "Nur für Primzahlen",
       "Nur für gerade Zahlen"
@@ -763,7 +763,7 @@
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie steht: \"Für alle Natürlichen Zahlen l, m und n gilt: ...\" 📄 Quelle: ari21_vl01, Folie 27 (S.27)",
+    "explanation": "Auf der Folie steht: \"Für alle Natürlichen Zahlen $l$, $m$ und $n$ gilt: ...\" 📄 Quelle: ari21_vl01, Folie 27 (S.27)",
     "source": "ari21_vl01, Folie 27 (S.27, Erkundung: WIR)"
   },
   {
@@ -773,16 +773,16 @@
     "type": "multi",
     "question": "Wie wird die Addition für beliebige Natürliche Zahlen rekursiv festgesetzt?",
     "options": [
-      "n + 1 := n' (Nachfolger von n)",
-      "n + (m+1) := (n+m)'",
-      "n + 1 := n",
-      "n + (m+1) := n + m"
+      "$n + 1 := n'$ (Nachfolger von $n$)",
+      "$n + (m+1) := (n+m)'$",
+      "$n + 1 := n$",
+      "$n + (m+1) := n + m$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Rekursive Festsetzung der Addition: 1) n + 1 := n' (Nachfolger von n); 2) n + (m+1) := (n+m)' (Nachfolger von n+m), was schrittweise rückwärts mit 1) bestimmt werden kann. 📄 Quelle: ari21_vl01, Folie 28 (S.28)",
+    "explanation": "Rekursive Festsetzung der Addition: 1) $n + 1 := n'$ (Nachfolger von $n$); 2) $n + (m+1) := (n+m)'$ (Nachfolger von $n+m$), was schrittweise rückwärts mit 1) bestimmt werden kann. 📄 Quelle: ari21_vl01, Folie 28 (S.28)",
     "source": "ari21_vl01, Folie 28 (S.28, Erkundung: WIR)"
   },
   {
@@ -792,16 +792,16 @@
     "type": "multi",
     "question": "Wie wird die Multiplikation rekursiv definiert?",
     "options": [
-      "n · 1 := n",
-      "n · (m+1) := n·m + n",
-      "n · 1 := 1",
-      "n · (m+1) := n·m · n"
+      "$n \\cdot 1 := n$",
+      "$n \\cdot (m+1) := n \\cdot m + n$",
+      "$n \\cdot 1 := 1$",
+      "$n \\cdot (m+1) := n \\cdot m \\cdot n$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Rekursive Definition der Multiplikation: 1) n · 1 := n; 2) n · (m+1) := n·m + n. 📄 Quelle: ari21_vl01, Folie 28 (S.28)",
+    "explanation": "Rekursive Definition der Multiplikation: 1) $n \\cdot 1 := n$; 2) $n \\cdot (m+1) := n \\cdot m + n$. 📄 Quelle: ari21_vl01, Folie 28 (S.28)",
     "source": "ari21_vl01, Folie 28 (S.28, Erkundung: WIR)"
   },
   {
@@ -883,11 +883,11 @@
     "topic": "ari21_vl01_rechenoperationen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Für die (fiktive) Rechenoperation „Abblitzation“ gilt 12 ▽ 2 = (12+2)·2. Welches Ergebnis der Abblitzation ergibt sich?",
+    "question": "Für die (fiktive) Rechenoperation „Abblitzation“ gilt $12 \\triangledown 2 = (12+2) \\cdot 2$. Welches Ergebnis der Abblitzation ergibt sich?",
     "answer": 28,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Laut Folie gilt 12 ▽ 2 = (12+2)·2 = 14·2 = 28; 28 ist das Ergebnis der Abblitzation. 📄 Quelle: ari21_vl01, Folie 45 (S.45)",
+    "explanation": "Laut Folie gilt $12 \\triangledown 2 = (12+2) \\cdot 2 = 14 \\cdot 2 = 28$; 28 ist das Ergebnis der Abblitzation. 📄 Quelle: ari21_vl01, Folie 45 (S.45)",
     "source": "ari21_vl01, Folie 45 (S.45, Vorlesung 1 / Erkundung 1, nach Leuders 2010)"
   },
   {
@@ -895,7 +895,7 @@
     "topic": "ari21_vl01_rechenoperationen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Für die Abblitzation 12 ▽ 2 = (12+2)·2 = 28 werden Fachbegriffe eingeführt. Welche Zuordnungen sind korrekt?",
+    "question": "Für die Abblitzation $12 \\triangledown 2 = (12+2) \\cdot 2 = 28$ werden Fachbegriffe eingeführt. Welche Zuordnungen sind korrekt?",
     "options": [
       "12 ist der Abblitzent",
       "2 ist der Abblitzator",
@@ -907,7 +907,7 @@
       1,
       2
     ],
-    "explanation": "Die Folie beschriftet 12 als Abblitzent, 2 als Abblitzator und 28 als Ergebnis der Abblitzation. Die 14 (= 12+2) ist ein Zwischenwert und nicht der Abblitzator. 📄 Quelle: ari21_vl01, Folie 45 (S.45)",
+    "explanation": "Die Folie beschriftet 12 als Abblitzent, 2 als Abblitzator und 28 als Ergebnis der Abblitzation. Die 14 (= $12+2$) ist ein Zwischenwert und nicht der Abblitzator. 📄 Quelle: ari21_vl01, Folie 45 (S.45)",
     "source": "ari21_vl01, Folie 45 (S.45, Vorlesung 1 / Erkundung 1, nach Leuders 2010)"
   },
   {
@@ -915,7 +915,7 @@
     "topic": "ari21_vl01_rechenoperationen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Eigenschaften der Abblitzation (12 ▽ 2 = (12+2)·2) sollen laut den Erkundungsaufträgen untersucht werden?",
+    "question": "Welche Eigenschaften der Abblitzation ($12 \\triangledown 2 = (12+2) \\cdot 2$) sollen laut den Erkundungsaufträgen untersucht werden?",
     "options": [
       "Ob die Abblitzation kommutativ ist (Tauschaufgabe)",
       "Ob die Abblitzation assoziativ ist",
@@ -935,12 +935,12 @@
     "topic": "ari21_vl01_umkehraufgaben",
     "difficulty": 2,
     "type": "multi",
-    "question": "Paula bildet aus nur 3 Zahlen die Aufgaben 3+4=7, 4+3=7, 7−3=4 und 7−4=3. Welche Aussagen dazu treffen zu?",
+    "question": "Paula bildet aus nur 3 Zahlen die Aufgaben $3+4=7$, $4+3=7$, $7-3=4$ und $7-4=3$. Welche Aussagen dazu treffen zu?",
     "options": [
-      "Die zweite Rechnung (4+3=7) heißt Tauschaufgabe",
-      "Die dritte und vierte Rechnung (7−3=4, 7−4=3) sind Umkehraufgaben zu den ersten beiden",
+      "Die zweite Rechnung ($4+3=7$) heißt Tauschaufgabe",
+      "Die dritte und vierte Rechnung ($7-3=4$, $7-4=3$) sind Umkehraufgaben zu den ersten beiden",
       "Paula macht die Aufgaben mit nur 3 Zahlen",
-      "Die erste Rechnung (3+4=7) ist eine Umkehraufgabe"
+      "Die erste Rechnung ($3+4=7$) ist eine Umkehraufgabe"
     ],
     "correct": [
       0,
