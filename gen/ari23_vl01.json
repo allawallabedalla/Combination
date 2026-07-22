@@ -60,11 +60,11 @@
     "topic": "ari23_vl01_gauss_summe",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechne die Summe der ersten zehn natürlichen Zahlen: 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10.",
+    "question": "Berechne die Summe der ersten zehn natürlichen Zahlen: $1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10$.",
     "answer": 55,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Aufgabe 2a fordert das Addieren der ersten zehn Zahlen; 1+2+3+4+5+6+7+8+9+10 = 55. 📄 Quelle: ari23_vl01, Folie 6 (S.6)",
+    "explanation": "Aufgabe 2a fordert das Addieren der ersten zehn Zahlen; $1+2+3+4+5+6+7+8+9+10 = 55$. 📄 Quelle: ari23_vl01, Folie 6 (S.6)",
     "source": "ari23_vl01, Folie 6 (S.6, Erkundung: ICH)"
   },
   {
@@ -72,11 +72,11 @@
     "topic": "ari23_vl01_gauss_summe",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Es gilt 1 + 2 + 3 + 4 + … + 30 = 31 · 15. Welchen Wert hat diese Summe?",
+    "question": "Es gilt $1 + 2 + 3 + 4 + \\dots + 30 = 31 \\cdot 15$. Welchen Wert hat diese Summe?",
     "answer": 465,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Der auf der Folie angegebene Zahlensatz 1+2+3+4+…+30 = 31·15 ergibt 31·15 = 465. 📄 Quelle: ari23_vl01, Folie 6 (S.6)",
+    "explanation": "Der auf der Folie angegebene Zahlensatz $1+2+3+4+\\dots+30 = 31\\cdot 15$ ergibt $31\\cdot 15 = 465$. 📄 Quelle: ari23_vl01, Folie 6 (S.6)",
     "source": "ari23_vl01, Folie 6 (S.6, Erkundung: ICH)"
   },
   {
@@ -106,7 +106,7 @@
     "type": "single",
     "question": "Wie bildet der \"kleine Gauß\" die Summe 1 + 2 + … + 10 geschickt?",
     "options": [
-      "Er addiert Paare aus erster und letzter Zahl (1+10, 2+9, …), die jeweils 11 ergeben",
+      "Er addiert Paare aus erster und letzter Zahl ($1+10$, $2+9$, …), die jeweils 11 ergeben",
       "Er verdoppelt die größte Zahl",
       "Er zieht die kleinste von der größten Zahl ab",
       "Er multipliziert alle Zahlen miteinander"
@@ -114,7 +114,7 @@
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie bildet der kleine Gauß Paare (1 und 10, 2 und 9, …) mit jeweils der Summe 11; es entstehen 5 solche Paare, also 5·11 = 55. 📄 Quelle: ari23_vl01, Folie 7 (S.7)",
+    "explanation": "Auf der Folie bildet der kleine Gauß Paare (1 und 10, 2 und 9, …) mit jeweils der Summe 11; es entstehen 5 solche Paare, also $5\\cdot 11 = 55$. 📄 Quelle: ari23_vl01, Folie 7 (S.7)",
     "source": "ari23_vl01, Folie 7 (S.7, Erkundung: ICH)"
   },
   {
@@ -124,15 +124,15 @@
     "type": "single",
     "question": "Welche Formel gilt für die Summe der ersten n natürlichen Zahlen?",
     "options": [
-      "n/2 · (n+1)",
-      "n · (n+1)",
-      "n/2 · (n−1)",
-      "(n+1)/2 · (n+2)"
+      "$\\frac{n}{2} \\cdot (n+1)$",
+      "$n \\cdot (n+1)$",
+      "$\\frac{n}{2} \\cdot (n-1)$",
+      "$\\frac{n+1}{2} \\cdot (n+2)$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie hält fest: die Summe der ersten n Zahlen ist gleich n/2 · (n+1). 📄 Quelle: ari23_vl01, Folie 7 (S.7)",
+    "explanation": "Die Folie hält fest: die Summe der ersten n Zahlen ist gleich $\\frac{n}{2} \\cdot (n+1)$. 📄 Quelle: ari23_vl01, Folie 7 (S.7)",
     "source": "ari23_vl01, Folie 7 (S.7, Erkundung: ICH)"
   },
   {
@@ -140,11 +140,11 @@
     "topic": "ari23_vl01_gauss_summe",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Es gilt \"Summe bis 6\" = 3 · 7. Welchen Wert hat 1 + 2 + 3 + 4 + 5 + 6?",
+    "question": "Es gilt \"Summe bis 6\" = $3 \\cdot 7$. Welchen Wert hat $1 + 2 + 3 + 4 + 5 + 6$?",
     "answer": 21,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Der auf der Folie notierte Zusammenhang \"Summe bis 6 ist 3·7\" ergibt 3·7 = 21 = 1+2+3+4+5+6. 📄 Quelle: ari23_vl01, Folie 7 (S.7)",
+    "explanation": "Der auf der Folie notierte Zusammenhang \"Summe bis 6 ist $3\\cdot 7$\" ergibt $3\\cdot 7 = 21 = 1+2+3+4+5+6$. 📄 Quelle: ari23_vl01, Folie 7 (S.7)",
     "source": "ari23_vl01, Folie 7 (S.7, Erkundung: ICH)"
   },
   {
@@ -209,7 +209,7 @@
     "topic": "ari23_vl01_darstellungen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Darstellungsformen werden zur Systematisierung der Summe 1 + 2 + … + 100 unterschieden?",
+    "question": "Welche Darstellungsformen werden zur Systematisierung der Summe $1 + 2 + \\dots + 100$ unterschieden?",
     "options": [
       "Darstellung der Päckchenbildung",
       "Balkendiagramm",
@@ -229,11 +229,11 @@
     "topic": "ari23_vl01_darstellungen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "In der Päckchenbildung entstehen für 1 + 2 + 3 + … + 100 genau 50 Päckchen mit der Summe 101. Welchen Wert hat 50 · 101?",
+    "question": "In der Päckchenbildung entstehen für $1 + 2 + 3 + \\dots + 100$ genau 50 Päckchen mit der Summe 101. Welchen Wert hat $50 \\cdot 101$?",
     "answer": 5050,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Folie bildet 50 Päckchen à 101, also 1+2+3+…+100 = 50·101 = 5050. 📄 Quelle: ari23_vl01, Folie 11 (S.11)",
+    "explanation": "Die Folie bildet 50 Päckchen à 101, also $1+2+3+\\dots+100 = 50\\cdot 101 = 5050$. 📄 Quelle: ari23_vl01, Folie 11 (S.11)",
     "source": "ari23_vl01, Folie 11 (S.11, Erkundung: ICH)"
   },
   {
@@ -241,17 +241,17 @@
     "topic": "ari23_vl01_darstellungen",
     "difficulty": 3,
     "type": "single",
-    "question": "Wie ergibt sich im Balkendiagramm-Ansatz die gesuchte Summe 1 + 2 + … + 100?",
+    "question": "Wie ergibt sich im Balkendiagramm-Ansatz die gesuchte Summe $1 + 2 + \\dots + 100$?",
     "options": [
-      "Als (100 · 101) : 2, da das Diagramm die doppelte Summe (100 · 101) darstellt",
-      "Als 100 · 101, ohne Halbierung",
-      "Als 100 + 101",
-      "Als 100² : 2"
+      "Als $(100 \\cdot 101) : 2$, da das Diagramm die doppelte Summe $(100 \\cdot 101)$ darstellt",
+      "Als $100 \\cdot 101$, ohne Halbierung",
+      "Als $100 + 101$",
+      "Als $100^2 : 2$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Im Balkendiagramm entsteht das Rechteck 100·101 = 10100, das die doppelte Summe darstellt; die gesuchte Summe ist daher (100·101):2. 📄 Quelle: ari23_vl01, Folie 11 (S.11)",
+    "explanation": "Im Balkendiagramm entsteht das Rechteck $100\\cdot 101 = 10100$, das die doppelte Summe darstellt; die gesuchte Summe ist daher $(100\\cdot 101):2$. 📄 Quelle: ari23_vl01, Folie 11 (S.11)",
     "source": "ari23_vl01, Folie 11 (S.11, Erkundung: ICH)"
   },
   {
@@ -261,15 +261,15 @@
     "type": "single",
     "question": "Wie wird die Summe der ersten n natürlichen Zahlen allgemein notiert?",
     "options": [
-      "1 + 2 + 3 + … + (n−2) + (n−1) + n",
-      "1 + 3 + 5 + … + (2n−1)",
-      "2 + 4 + 6 + … + n",
-      "1 · 2 · 3 · … · n"
+      "$1 + 2 + 3 + \\dots + (n-2) + (n-1) + n$",
+      "$1 + 3 + 5 + \\dots + (2n-1)$",
+      "$2 + 4 + 6 + \\dots + n$",
+      "$1 \\cdot 2 \\cdot 3 \\cdot \\dots \\cdot n$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Verallgemeinerung für die ersten n natürlichen Zahlen wird als 1 + 2 + 3 + … + (n−2) + (n−1) + n mit n ∈ ℕ notiert. 📄 Quelle: ari23_vl01, Folie 12 (S.12)",
+    "explanation": "Die Verallgemeinerung für die ersten n natürlichen Zahlen wird als $1 + 2 + 3 + \\dots + (n-2) + (n-1) + n$ mit $n \\in \\mathbb{N}$ notiert. 📄 Quelle: ari23_vl01, Folie 12 (S.12)",
     "source": "ari23_vl01, Folie 12 (S.12, Erkundung: ICH)"
   },
   {
@@ -279,15 +279,15 @@
     "type": "single",
     "question": "Für welche Zahlen n gilt die allgemeine Summenformel für 1 + 2 + 3 + … + n?",
     "options": [
-      "für alle n ∈ ℕ",
+      "für alle $n \\in \\mathbb{N}$",
       "nur für gerade n",
-      "nur für n ≤ 100",
+      "nur für $n \\le 100$",
       "nur für Primzahlen n"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie formuliert die Verallgemeinerung ausdrücklich für n ∈ ℕ, also für alle natürlichen Zahlen. 📄 Quelle: ari23_vl01, Folie 12 (S.12)",
+    "explanation": "Die Folie formuliert die Verallgemeinerung ausdrücklich für $n \\in \\mathbb{N}$, also für alle natürlichen Zahlen. 📄 Quelle: ari23_vl01, Folie 12 (S.12)",
     "source": "ari23_vl01, Folie 12 (S.12, Erkundung: ICH)"
   },
   {
@@ -295,17 +295,17 @@
     "topic": "ari23_vl01_gauss_summe",
     "difficulty": 2,
     "type": "single",
-    "question": "Warum werden in der allgemeinen Summe 1 + 2 + … + (n−2) + (n−1) + n auch die Glieder n−2 und n−1 mit aufgeschrieben?",
+    "question": "Warum werden in der allgemeinen Summe $1 + 2 + \\dots + (n-2) + (n-1) + n$ auch die Glieder $n-2$ und $n-1$ mit aufgeschrieben?",
     "options": [
-      "Um nicht nur den letzten Summanden (n) vor Augen zu haben, sondern das Bildungsmuster deutlich zu machen",
+      "Um nicht nur den letzten Summanden ($n$) vor Augen zu haben, sondern das Bildungsmuster deutlich zu machen",
       "Weil die Summe sonst falsch wäre",
-      "Weil n−2 und n−1 die einzigen relevanten Summanden sind",
+      "Weil $n-2$ und $n-1$ die einzigen relevanten Summanden sind",
       "Um die Zahl der Summanden zu halbieren"
     ],
     "correct": [
       0
     ],
-    "explanation": "Im Text der Folie werden n−2 und n−1 als Glieder aufgeführt, um nicht nur den letzten Summanden n vor Augen zu haben, sondern das Muster der Summe zu verdeutlichen. 📄 Quelle: ari23_vl01, Folie 12 (S.12)",
+    "explanation": "Im Text der Folie werden $n-2$ und $n-1$ als Glieder aufgeführt, um nicht nur den letzten Summanden $n$ vor Augen zu haben, sondern das Muster der Summe zu verdeutlichen. 📄 Quelle: ari23_vl01, Folie 12 (S.12)",
     "source": "ari23_vl01, Folie 12 (S.12, Erkundung: ICH)"
   },
   {
@@ -313,17 +313,17 @@
     "topic": "ari23_vl01_beweis",
     "difficulty": 3,
     "type": "single",
-    "question": "Auf welcher Idee beruht die Begründung der Summenformel 1 + 2 + … + n = n · (n+1) / 2?",
+    "question": "Auf welcher Idee beruht die Begründung der Summenformel $1 + 2 + \\dots + n = \\frac{n \\cdot (n+1)}{2}$?",
     "options": [
-      "Die Summe wird zweimal notiert (aufsteigend und absteigend); je zwei übereinanderstehende Glieder ergeben n+1",
+      "Die Summe wird zweimal notiert (aufsteigend und absteigend); je zwei übereinanderstehende Glieder ergeben $n+1$",
       "Die Summe wird durch fortgesetztes Verdoppeln der größten Zahl gebildet",
       "Man wendet vollständige Induktion über n an",
-      "Man integriert die Funktion f(x) = x"
+      "Man integriert die Funktion $f(x) = x$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Begründung notiert die Summe zweimal (einmal aufsteigend, einmal absteigend); je zwei übereinanderstehende Glieder ergeben n+1, und es gibt n solche Spalten. 📄 Quelle: ari23_vl01, Folie 13 (S.13)",
+    "explanation": "Die Begründung notiert die Summe zweimal (einmal aufsteigend, einmal absteigend); je zwei übereinanderstehende Glieder ergeben $n+1$, und es gibt n solche Spalten. 📄 Quelle: ari23_vl01, Folie 13 (S.13)",
     "source": "ari23_vl01, Folie 13 (S.13, Erkundung: ICH)"
   },
   {
@@ -331,17 +331,17 @@
     "topic": "ari23_vl01_beweis",
     "difficulty": 2,
     "type": "single",
-    "question": "Welche Gleichung ergibt sich bei der Begründung der Summenformel 1 + 2 + … + n zunächst, bevor am Ende halbiert wird?",
+    "question": "Welche Gleichung ergibt sich bei der Begründung der Summenformel $1 + 2 + \\dots + n$ zunächst, bevor am Ende halbiert wird?",
     "options": [
-      "2 · (1 + 2 + 3 + … + n) = n · (n+1)",
-      "1 + 2 + 3 + … + n = n · (n+1)",
-      "1 + 2 + 3 + … + n = n · (n−1)",
-      "2 · (1 + 2 + 3 + … + n) = (n+1)²"
+      "$2 \\cdot (1 + 2 + 3 + \\dots + n) = n \\cdot (n+1)$",
+      "$1 + 2 + 3 + \\dots + n = n \\cdot (n+1)$",
+      "$1 + 2 + 3 + \\dots + n = n \\cdot (n-1)$",
+      "$2 \\cdot (1 + 2 + 3 + \\dots + n) = (n+1)^2$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Da die Summe doppelt notiert wird und jede der n Spalten n+1 ergibt, folgt zunächst 2·(1+2+3+…+n) = n·(n+1). 📄 Quelle: ari23_vl01, Folie 13 (S.13)",
+    "explanation": "Da die Summe doppelt notiert wird und jede der n Spalten $n+1$ ergibt, folgt zunächst $2\\cdot(1+2+3+\\dots+n) = n\\cdot(n+1)$. 📄 Quelle: ari23_vl01, Folie 13 (S.13)",
     "source": "ari23_vl01, Folie 13 (S.13, Erkundung: ICH)"
   },
   {
@@ -349,9 +349,9 @@
     "topic": "ari23_vl01_beweis",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie erhält man aus 2 · (1 + 2 + 3 + … + n) = n · (n+1) die Summenformel?",
+    "question": "Wie erhält man aus $2 \\cdot (1 + 2 + 3 + \\dots + n) = n \\cdot (n+1)$ die Summenformel?",
     "options": [
-      "Man halbiert die Gleichung und erhält 1 + 2 + 3 + … + n = n · (n+1) / 2",
+      "Man halbiert die Gleichung und erhält $1 + 2 + 3 + \\dots + n = \\frac{n \\cdot (n+1)}{2}$",
       "Man quadriert beide Seiten",
       "Man subtrahiert n auf beiden Seiten",
       "Man multipliziert beide Seiten mit 2"
@@ -359,7 +359,7 @@
     "correct": [
       0
     ],
-    "explanation": "Laut Folie wird die letzte Zeile halbiert, weil zunächst nur eine Formel für das Doppelte der Summe gefunden war; so ergibt sich 1+2+3+…+n = n·(n+1)/2. 📄 Quelle: ari23_vl01, Folie 13 (S.13)",
+    "explanation": "Laut Folie wird die letzte Zeile halbiert, weil zunächst nur eine Formel für das Doppelte der Summe gefunden war; so ergibt sich $1+2+3+\\dots+n = \\frac{n\\cdot(n+1)}{2}$. 📄 Quelle: ari23_vl01, Folie 13 (S.13)",
     "source": "ari23_vl01, Folie 13 (S.13, Erkundung: ICH)"
   },
   {
@@ -369,15 +369,15 @@
     "type": "single",
     "question": "Welche Aussage wird im Beweis zur Summe der ersten n natürlichen Zahlen gezeigt?",
     "options": [
-      "∑ von k=1 bis n über k = n · (n+1) / 2 für n ∈ ℕ",
-      "∑ von k=1 bis n über k = n²",
-      "∑ von k=1 bis n über k² = n(n+1)(2n+1)/6",
-      "∑ von k=1 bis n über k = 2^n − 1"
+      "$\\sum_{k=1}^{n} k = \\frac{n \\cdot (n+1)}{2}$ für $n \\in \\mathbb{N}$",
+      "$\\sum_{k=1}^{n} k = n^2$",
+      "$\\sum_{k=1}^{n} k^2 = \\frac{n(n+1)(2n+1)}{6}$",
+      "$\\sum_{k=1}^{n} k = 2^n - 1$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Beweis nennt als zu zeigende Aussage 1+2+3+…+n = ∑_{k=1}^{n} k = n·(n+1)/2 für n ∈ ℕ. 📄 Quelle: ari23_vl01, Folie 14 (S.14)",
+    "explanation": "Der Beweis nennt als zu zeigende Aussage $1+2+3+\\dots+n = \\sum_{k=1}^{n} k = \\frac{n\\cdot(n+1)}{2}$ für $n \\in \\mathbb{N}$. 📄 Quelle: ari23_vl01, Folie 14 (S.14)",
     "source": "ari23_vl01, Folie 14 (S.14, Erkundung: ICH)"
   },
   {
@@ -389,7 +389,7 @@
     "options": [
       "Die Summe wird mit 2 multipliziert",
       "Die zweite Summe wird in umgekehrter Reihenfolge notiert",
-      "Je zwei zusammengehörige Summanden ergeben n+1, wodurch n · (n+1) entsteht",
+      "Je zwei zusammengehörige Summanden ergeben $n+1$, wodurch $n \\cdot (n+1)$ entsteht",
       "Es wird der binomische Lehrsatz angewendet"
     ],
     "correct": [
@@ -397,7 +397,7 @@
       1,
       2
     ],
-    "explanation": "Der Beweis multipliziert die Summe mit 2, notiert die zweite Summe rückwärts, fasst je zwei Summanden zu n+1 zusammen (n·(n+1)) und teilt am Ende durch 2. Der binomische Lehrsatz wird nicht verwendet. 📄 Quelle: ari23_vl01, Folie 14 (S.14)",
+    "explanation": "Der Beweis multipliziert die Summe mit 2, notiert die zweite Summe rückwärts, fasst je zwei Summanden zu $n+1$ zusammen ($n\\cdot(n+1)$) und teilt am Ende durch 2. Der binomische Lehrsatz wird nicht verwendet. 📄 Quelle: ari23_vl01, Folie 14 (S.14)",
     "source": "ari23_vl01, Folie 14 (S.14, Erkundung: ICH)"
   },
   {
@@ -407,15 +407,15 @@
     "type": "single",
     "question": "In welche Form werden die Summanden nach dem Umkehren der zweiten Summe zusammengefasst?",
     "options": [
-      "Jede Spalte ergibt (n+1); insgesamt n Spalten, also n · (n+1)",
-      "Jede Spalte ergibt n; insgesamt n Spalten, also n · n",
-      "Jede Spalte ergibt 2n; insgesamt n Spalten, also 2n²",
-      "Jede Spalte ergibt n−1; insgesamt n Spalten, also n · (n−1)"
+      "Jede Spalte ergibt $(n+1)$; insgesamt n Spalten, also $n \\cdot (n+1)$",
+      "Jede Spalte ergibt $n$; insgesamt n Spalten, also $n \\cdot n$",
+      "Jede Spalte ergibt $2n$; insgesamt n Spalten, also $2n^2$",
+      "Jede Spalte ergibt $n-1$; insgesamt n Spalten, also $n \\cdot (n-1)$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Nach dem Umkehren der zweiten Summe ergibt jede der n Spalten (n+1), sodass 2·∑ = n·(n+1) und nach Halbierung ∑ = n·(n+1)/2 folgt. 📄 Quelle: ari23_vl01, Folie 14 (S.14)",
+    "explanation": "Nach dem Umkehren der zweiten Summe ergibt jede der n Spalten $(n+1)$, sodass $2\\cdot\\sum = n\\cdot(n+1)$ und nach Halbierung $\\sum = \\frac{n\\cdot(n+1)}{2}$ folgt. 📄 Quelle: ari23_vl01, Folie 14 (S.14)",
     "source": "ari23_vl01, Folie 14 (S.14, Erkundung: ICH)"
   },
   {
@@ -535,17 +535,17 @@
     "topic": "ari23_vl01_gauss_summenformel",
     "difficulty": 2,
     "type": "single",
-    "question": "Sₙ sei die Summe der ersten n natürlichen Zahlen, also Sₙ = 1 + 2 + 3 + … + (n-2) + (n-1) + n. Welche Formel wird als Vermutung angegeben?",
+    "question": "$S_n$ sei die Summe der ersten n natürlichen Zahlen, also $S_n = 1 + 2 + 3 + \\dots + (n-2) + (n-1) + n$. Welche Formel wird als Vermutung angegeben?",
     "options": [
-      "Sₙ = n/2 · (n+1)",
-      "Sₙ = n · (n+1)",
-      "Sₙ = (n/2) · (n-1)",
-      "Sₙ = n²"
+      "$S_n = \\frac{n}{2} \\cdot (n+1)$",
+      "$S_n = n \\cdot (n+1)$",
+      "$S_n = \\frac{n}{2} \\cdot (n-1)$",
+      "$S_n = n^2$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Vermutung lautet: dann ist Sₙ = n/2 · (n+1). 📄 Quelle: ari23_vl01, Folie 23 (S.23)",
+    "explanation": "Die Vermutung lautet: dann ist $S_n = \\frac{n}{2} \\cdot (n+1)$. 📄 Quelle: ari23_vl01, Folie 23 (S.23)",
     "source": "ari23_vl01, Folie 23 (S.23, Erkundung: WIR)"
   },
   {
@@ -556,16 +556,16 @@
     "question": "Was besagt die Vermutung zur Summe der ersten n natürlichen Zahlen?",
     "options": [
       "Sie gilt für alle natürlichen Zahlen n",
-      "Sₙ = 1 + 2 + 3 + … + (n-2) + (n-1) + n",
-      "Dann ist Sₙ = n/2 · (n+1)",
-      "Dann ist Sₙ = n²"
+      "$S_n = 1 + 2 + 3 + \\dots + (n-2) + (n-1) + n$",
+      "Dann ist $S_n = \\frac{n}{2} \\cdot (n+1)$",
+      "Dann ist $S_n = n^2$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Vermutung: „Für alle natürlichen Zahlen n gilt: Wenn Sₙ = 1 + 2 + … + n, dann ist Sₙ = n/2 · (n+1).\" Sₙ = n² ist die Formel für die ungeraden Zahlen, nicht hier. 📄 Quelle: ari23_vl01, Folie 23 (S.23)",
+    "explanation": "Die Vermutung: „Für alle natürlichen Zahlen n gilt: Wenn $S_n = 1 + 2 + \\dots + n$, dann ist $S_n = \\frac{n}{2} \\cdot (n+1)$.\" $S_n = n^2$ ist die Formel für die ungeraden Zahlen, nicht hier. 📄 Quelle: ari23_vl01, Folie 23 (S.23)",
     "source": "ari23_vl01, Folie 23 (S.23, Erkundung: WIR)"
   },
   {
@@ -573,11 +573,11 @@
     "topic": "ari23_vl01_gauss_summenformel",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Im Beweis werden die Zahlen 1..50 über und die Zahlen 50..1 unter einer Tabelle angeordnet. Welche Summe steht in jeder Spalte zusammen (für n = 50)?",
+    "question": "Im Beweis werden die Zahlen 1..50 über und die Zahlen 50..1 unter einer Tabelle angeordnet. Welche Summe steht in jeder Spalte zusammen (für $n = 50$)?",
     "answer": 51,
     "tolerance": 0,
     "unit": "",
-    "explanation": "In jeder Spalte stehen zusammen 51 (bzw. n+1). 📄 Quelle: ari23_vl01, Folie 24 (S.24)",
+    "explanation": "In jeder Spalte stehen zusammen 51 (bzw. $n+1$). 📄 Quelle: ari23_vl01, Folie 24 (S.24)",
     "source": "ari23_vl01, Folie 24 (S.24, Erkundung: WIR)"
   },
   {
@@ -585,7 +585,7 @@
     "topic": "ari23_vl01_gauss_summenformel",
     "difficulty": 2,
     "type": "single",
-    "question": "Warum ergibt das Produkt aus Spaltensumme und Spaltenanzahl (50 · 51) nicht direkt Sₙ, sondern das Doppelte?",
+    "question": "Warum ergibt das Produkt aus Spaltensumme und Spaltenanzahl ($50 \\cdot 51$) nicht direkt $S_n$, sondern das Doppelte?",
     "options": [
       "Weil man beim Zusammenzählen die Summe der ersten Zahlen doppelt gezählt hat",
       "Weil eine Spalte fehlt",
@@ -595,7 +595,7 @@
     "correct": [
       0
     ],
-    "explanation": "„Zählt man alles zusammen, so hat man die Summe der ersten 50 (bzw. n) Zahlen aber doppelt gezählt: 50 · 51.\" 📄 Quelle: ari23_vl01, Folie 24 (S.24)",
+    "explanation": "„Zählt man alles zusammen, so hat man die Summe der ersten 50 (bzw. n) Zahlen aber doppelt gezählt: $50 \\cdot 51$.\" 📄 Quelle: ari23_vl01, Folie 24 (S.24)",
     "source": "ari23_vl01, Folie 24 (S.24, Erkundung: WIR)"
   },
   {
@@ -603,19 +603,19 @@
     "topic": "ari23_vl01_gauss_summenformel",
     "difficulty": 2,
     "type": "multi",
-    "question": "Für den Tabellenbeweis der Summenformel werden die Zahlen 1..50 und darunter 50..1 angeordnet (n = 50). Welche Aussagen dazu sind richtig?",
+    "question": "Für den Tabellenbeweis der Summenformel werden die Zahlen 1..50 und darunter 50..1 angeordnet ($n = 50$). Welche Aussagen dazu sind richtig?",
     "options": [
-      "In jeder Spalte stehen zusammen 51 (bzw. n+1)",
+      "In jeder Spalte stehen zusammen 51 (bzw. $n+1$)",
       "Es gibt 50 (bzw. n) Spalten",
-      "Das Produkt 50 · 51 zählt die gesuchte Summe doppelt",
-      "Daher ist Sₙ = n · (n+1) ohne Halbierung"
+      "Das Produkt $50 \\cdot 51$ zählt die gesuchte Summe doppelt",
+      "Daher ist $S_n = n \\cdot (n+1)$ ohne Halbierung"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Jede Spalte ergibt n+1, es gibt n Spalten, das Produkt zählt die Summe doppelt – daher muss halbiert werden (Sₙ = n/2 · (n+1)), nicht n·(n+1). 📄 Quelle: ari23_vl01, Folie 24 (S.24)",
+    "explanation": "Jede Spalte ergibt $n+1$, es gibt n Spalten, das Produkt zählt die Summe doppelt – daher muss halbiert werden ($S_n = \\frac{n}{2} \\cdot (n+1)$), nicht $n\\cdot(n+1)$. 📄 Quelle: ari23_vl01, Folie 24 (S.24)",
     "source": "ari23_vl01, Folie 24 (S.24, Erkundung: WIR)"
   },
   {
@@ -623,7 +623,7 @@
     "topic": "ari23_vl01_figurierte_zahlen",
     "difficulty": 1,
     "type": "single",
-    "question": "Mit welcher Darstellungsform wird die Summe 1 + 2 + 3 + … + 10 als dreiecksförmige Anordnung veranschaulicht?",
+    "question": "Mit welcher Darstellungsform wird die Summe $1 + 2 + 3 + \\dots + 10$ als dreiecksförmige Anordnung veranschaulicht?",
     "options": [
       "Darstellung durch figurierte Zahlen",
       "Stellenwerttafel",
@@ -643,15 +643,15 @@
     "type": "single",
     "question": "Eine dreiecksförmige Anordnung von Plättchen hat in aufeinanderfolgenden Reihen 1, 2, 3, …, 10 Plättchen. Welche Summe stellt sie dar?",
     "options": [
-      "Die Summe der ersten 10 natürlichen Zahlen (1+2+3+…+10)",
+      "Die Summe der ersten 10 natürlichen Zahlen ($1+2+3+\\dots+10$)",
       "Die Summe der ersten 10 ungeraden Zahlen",
-      "Das Produkt 1·2·3·…·10",
+      "Das Produkt $1\\cdot 2\\cdot 3\\cdot \\dots \\cdot 10$",
       "Die Summe der ersten 5 Quadratzahlen"
     ],
     "correct": [
       0
     ],
-    "explanation": "Über der Figur steht 1+2+3+4+5+6+7+8+9+10. 📄 Quelle: ari23_vl01, Folie 25 (S.25)",
+    "explanation": "Über der Figur steht $1+2+3+4+5+6+7+8+9+10$. 📄 Quelle: ari23_vl01, Folie 25 (S.25)",
     "source": "ari23_vl01, Folie 25 (S.25, Erkundung: WIR)"
   },
   {
@@ -659,11 +659,11 @@
     "topic": "ari23_vl01_beispiel_vs_beweis",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Es gilt 1 + 2 + 3 + … + 10 = 5 · 11. Welchen Wert hat die Summe 1 + 2 + 3 + … + 10?",
+    "question": "Es gilt $1 + 2 + 3 + \\dots + 10 = 5 \\cdot 11$. Welchen Wert hat die Summe $1 + 2 + 3 + \\dots + 10$?",
     "answer": 55,
     "tolerance": 0,
     "unit": "",
-    "explanation": "1+2+3+…+10 = 5 · 11 = 55 (= 10/2 · (10+1)). 📄 Quelle: ari23_vl01, Folie 26 (S.26)",
+    "explanation": "$1+2+3+\\dots+10 = 5 \\cdot 11 = 55$ (= $\\frac{10}{2} \\cdot (10+1)$). 📄 Quelle: ari23_vl01, Folie 26 (S.26)",
     "source": "ari23_vl01, Folie 26 (S.26, Erkundung: WIR)"
   },
   {
@@ -671,7 +671,7 @@
     "topic": "ari23_vl01_beispiel_vs_beweis",
     "difficulty": 2,
     "type": "single",
-    "question": "Worauf weist ein Warnhinweis zur Rechnung 1 + 2 + 3 + … + 10 = 5 · 11 hin?",
+    "question": "Worauf weist ein Warnhinweis zur Rechnung $1 + 2 + 3 + \\dots + 10 = 5 \\cdot 11$ hin?",
     "options": [
       "Dies ist nur ein Beispiel und kein Beweis für jede beliebige natürliche Zahl n",
       "Die Rechnung ist falsch",
@@ -689,17 +689,17 @@
     "topic": "ari23_vl01_beispiel_vs_beweis",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie wird die Summe 1 + 2 + 3 + … + 10 nach der Gauß-Idee umgeformt?",
+    "question": "Wie wird die Summe $1 + 2 + 3 + \\dots + 10$ nach der Gauß-Idee umgeformt?",
     "options": [
-      "= 5 · 11 = 10/2 · (10+1)",
-      "= 10 · 11 = 10 · (10+1)",
-      "= 11/2 · 10",
-      "= 5 · 10 = 50"
+      "$= 5 \\cdot 11 = \\frac{10}{2} \\cdot (10+1)$",
+      "$= 10 \\cdot 11 = 10 \\cdot (10+1)$",
+      "$= \\frac{11}{2} \\cdot 10$",
+      "$= 5 \\cdot 10 = 50$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie: 1+2+3+…+10 = 5 · 11 = 10/2 · (10+1). 📄 Quelle: ari23_vl01, Folie 26 (S.26)",
+    "explanation": "Auf der Folie: $1+2+3+\\dots+10 = 5 \\cdot 11 = \\frac{10}{2} \\cdot (10+1)$. 📄 Quelle: ari23_vl01, Folie 26 (S.26)",
     "source": "ari23_vl01, Folie 26 (S.26, Erkundung: WIR)"
   },
   {
@@ -707,11 +707,11 @@
     "topic": "ari23_vl01_beispiel_vs_beweis",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Prüfe die Summenformel für n = 5: Welchen Wert hat 1 + 2 + 3 + 4 + 5?",
+    "question": "Prüfe die Summenformel für $n = 5$: Welchen Wert hat $1 + 2 + 3 + 4 + 5$?",
     "answer": 15,
     "tolerance": 0,
     "unit": "",
-    "explanation": "„für n = 5 ergibt sich 1 + 2 + 3 + 4 + 5 = 15\". 📄 Quelle: ari23_vl01, Folie 27 (S.27)",
+    "explanation": "„für $n = 5$ ergibt sich $1 + 2 + 3 + 4 + 5 = 15$\". 📄 Quelle: ari23_vl01, Folie 27 (S.27)",
     "source": "ari23_vl01, Folie 27 (S.27, Erkundung: WIR)"
   },
   {
@@ -719,11 +719,11 @@
     "topic": "ari23_vl01_beispiel_vs_beweis",
     "difficulty": 2,
     "type": "single",
-    "question": "Worin besteht die „mathematische Falle\" beim Prüfen einzelner Fälle (n = 1, 2, 5, …) einer Summenformel?",
+    "question": "Worin besteht die „mathematische Falle\" beim Prüfen einzelner Fälle ($n = 1, 2, 5, \\dots$) einer Summenformel?",
     "options": [
       "Man kann die Aussage prüfen, aber nur in unendlicher Zeit für unendlich viele Zahlen",
       "Die geprüften Werte sind falsch",
-      "Die Formel gilt nur für n = 1",
+      "Die Formel gilt nur für $n = 1$",
       "Einzelfälle sind bereits ein vollständiger Beweis"
     ],
     "correct": [
@@ -775,11 +775,11 @@
     "topic": "ari23_vl01_ungerade_summen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechnen Sie: 1 + 3 + 5 + 7 + 9 = ?",
+    "question": "Berechnen Sie: $1 + 3 + 5 + 7 + 9$ = ?",
     "answer": 25,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Beispiel der Folie: 1 + 3 + 5 + 7 + 9 = 25. 📄 Quelle: ari23_vl01, Folie 30 (S.30)",
+    "explanation": "Beispiel der Folie: $1 + 3 + 5 + 7 + 9 = 25$. 📄 Quelle: ari23_vl01, Folie 30 (S.30)",
     "source": "ari23_vl01, Folie 30 (S.30, Erkundung: WIR)"
   },
   {
@@ -787,7 +787,7 @@
     "topic": "ari23_vl01_ungerade_summen",
     "difficulty": 1,
     "type": "single",
-    "question": "Was fällt bei den Summen der ersten n ungeraden Zahlen (1+3=4; 1+3+5=9; 1+3+5+7=16; 1+3+5+7+9=25) auf?",
+    "question": "Was fällt bei den Summen der ersten n ungeraden Zahlen ($1+3=4$; $1+3+5=9$; $1+3+5+7=16$; $1+3+5+7+9=25$) auf?",
     "options": [
       "Es sind alles Quadratzahlen",
       "Es sind alles Primzahlen",
@@ -809,13 +809,13 @@
     "options": [
       "2 zum Quadrat (= 4)",
       "3 zum Quadrat (= 9)",
-      "2 · 3 (= 6)",
+      "$2 \\cdot 3$ (= 6)",
       "1 zum Quadrat (= 1)"
     ],
     "correct": [
       0
     ],
-    "explanation": "„Bei der Summe der ersten beiden ungeraden Zahlen kommt 2 zum Quadrat heraus\" (1 + 3 = 4). 📄 Quelle: ari23_vl01, Folie 30 (S.30)",
+    "explanation": "„Bei der Summe der ersten beiden ungeraden Zahlen kommt 2 zum Quadrat heraus\" ($1 + 3 = 4$). 📄 Quelle: ari23_vl01, Folie 30 (S.30)",
     "source": "ari23_vl01, Folie 30 (S.30, Erkundung: WIR)"
   },
   {
@@ -825,16 +825,16 @@
     "type": "multi",
     "question": "Wie kann man eine ungerade Zahl allgemein ausdrücken?",
     "options": [
-      "m = 2n + 1",
-      "m = 2n − 1",
-      "m = 2n",
-      "m = n²"
+      "$m = 2n + 1$",
+      "$m = 2n - 1$",
+      "$m = 2n$",
+      "$m = n^2$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "„Eine ungerade Zahl allgemein kann man ausdrücken durch m = 2n + 1 oder = 2n − 1.\" 📄 Quelle: ari23_vl01, Folie 31 (S.31)",
+    "explanation": "„Eine ungerade Zahl allgemein kann man ausdrücken durch $m = 2n + 1$ oder $= 2n - 1$.\" 📄 Quelle: ari23_vl01, Folie 31 (S.31)",
     "source": "ari23_vl01, Folie 31 (S.31, Erkundung: WIR)"
   },
   {
@@ -842,17 +842,17 @@
     "topic": "ari23_vl01_ungerade_summen",
     "difficulty": 2,
     "type": "single",
-    "question": "Warum wählt man beim Summieren der ersten n ungeraden Zahlen die Variante m = 2n − 1 (statt 2n + 1)?",
+    "question": "Warum wählt man beim Summieren der ersten n ungeraden Zahlen die Variante $m = 2n - 1$ (statt $2n + 1$)?",
     "options": [
       "Damit die zweite ungerade Zahl 3 ist",
       "Damit die erste ungerade Zahl 0 ist",
-      "Weil 2n + 1 keine ungerade Zahl liefert",
-      "Weil 2n − 1 immer gerade ist"
+      "Weil $2n + 1$ keine ungerade Zahl liefert",
+      "Weil $2n - 1$ immer gerade ist"
     ],
     "correct": [
       0
     ],
-    "explanation": "„Die zweite ungerade Zahl soll 3 sein, also wählt man die zweite Variante\" (für n = 2: 2·2 − 1 = 3). 📄 Quelle: ari23_vl01, Folie 31 (S.31)",
+    "explanation": "„Die zweite ungerade Zahl soll 3 sein, also wählt man die zweite Variante\" (für $n = 2$: $2\\cdot 2 - 1 = 3$). 📄 Quelle: ari23_vl01, Folie 31 (S.31)",
     "source": "ari23_vl01, Folie 31 (S.31, Erkundung: WIR)"
   },
   {
@@ -862,10 +862,10 @@
     "type": "single",
     "question": "Summiert man die ersten n ungeraden Zahlen, welches Ergebnis erhält man?",
     "options": [
-      "n zum Quadrat (n²)",
-      "2n − 1",
-      "n/2 · (n+1)",
-      "2n"
+      "n zum Quadrat ($n^2$)",
+      "$2n - 1$",
+      "$\\frac{n}{2} \\cdot (n+1)$",
+      "$2n$"
     ],
     "correct": [
       0
@@ -878,17 +878,17 @@
     "topic": "ari23_vl01_ungerade_summen",
     "difficulty": 1,
     "type": "single",
-    "question": "Sₙ sei die Summe der ersten n ungeraden natürlichen Zahlen, also Sₙ = 1 + 3 + … + (2n-1). Welche Formel gilt laut Satz?",
+    "question": "$S_n$ sei die Summe der ersten n ungeraden natürlichen Zahlen, also $S_n = 1 + 3 + \\dots + (2n-1)$. Welche Formel gilt laut Satz?",
     "options": [
-      "Sₙ = n²",
-      "Sₙ = 2n − 1",
-      "Sₙ = n/2 · (n+1)",
-      "Sₙ = 2n²"
+      "$S_n = n^2$",
+      "$S_n = 2n - 1$",
+      "$S_n = \\frac{n}{2} \\cdot (n+1)$",
+      "$S_n = 2n^2$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Satz: „…dann ist Sₙ = n².\" 📄 Quelle: ari23_vl01, Folie 32 (S.32)",
+    "explanation": "Der Satz: „…dann ist $S_n = n^2$.\" 📄 Quelle: ari23_vl01, Folie 32 (S.32)",
     "source": "ari23_vl01, Folie 32 (S.32, Erkundung: WIR)"
   },
   {
@@ -899,16 +899,16 @@
     "question": "Was besagt der Satz zur Summe der ersten n ungeraden Zahlen genau?",
     "options": [
       "Er gilt für alle natürlichen Zahlen n",
-      "Sₙ ist die Summe der ersten n ungeraden natürlichen Zahlen",
-      "Sₙ = 1 + 3 + … + (2n-1)",
-      "Dann ist Sₙ = 2n − 1"
+      "$S_n$ ist die Summe der ersten n ungeraden natürlichen Zahlen",
+      "$S_n = 1 + 3 + \\dots + (2n-1)$",
+      "Dann ist $S_n = 2n - 1$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "„Für alle natürlichen Zahlen n gilt: Wenn Sₙ die Summe der ersten n ungeraden natürlichen Zahlen ist, also Sₙ = 1 + 3 + … + (2n-1), dann ist Sₙ = n².\" Nicht 2n−1. 📄 Quelle: ari23_vl01, Folie 32 (S.32)",
+    "explanation": "„Für alle natürlichen Zahlen n gilt: Wenn $S_n$ die Summe der ersten n ungeraden natürlichen Zahlen ist, also $S_n = 1 + 3 + \\dots + (2n-1)$, dann ist $S_n = n^2$.\" Nicht $2n-1$. 📄 Quelle: ari23_vl01, Folie 32 (S.32)",
     "source": "ari23_vl01, Folie 32 (S.32, Erkundung: WIR)"
   },
   {
@@ -916,11 +916,11 @@
     "topic": "ari23_vl01_ungerade_summen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Berechnen Sie mit der Formel Sₙ = n² die Summe der ersten 7 ungeraden natürlichen Zahlen.",
+    "question": "Berechnen Sie mit der Formel $S_n = n^2$ die Summe der ersten 7 ungeraden natürlichen Zahlen.",
     "answer": 49,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Nach dem Satz Sₙ = n² gilt für n = 7: S₇ = 7² = 49 (= 1+3+5+7+9+11+13). 📄 Quelle: ari23_vl01, Folie 32 (S.32)",
+    "explanation": "Nach dem Satz $S_n = n^2$ gilt für $n = 7$: $S_7 = 7^2 = 49$ (= $1+3+5+7+9+11+13$). 📄 Quelle: ari23_vl01, Folie 32 (S.32)",
     "source": "ari23_vl01, Folie 32 (S.32, Erkundung: WIR)"
   },
   {
@@ -946,11 +946,11 @@
     "topic": "ari23_vl01_ungerade_summen_beweis",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Ergänzt man ein Quadrat aus 4 Plättchen um die nächste ungerade Zahl 5, entsteht ein größeres Quadrat. Berechne 4 + 5.",
+    "question": "Ergänzt man ein Quadrat aus 4 Plättchen um die nächste ungerade Zahl 5, entsteht ein größeres Quadrat. Berechne $4 + 5$.",
     "answer": 9,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Auf der Folie: 4 + 5 = 9 (= 3²). 📄 Quelle: ari23_vl01, Folie 35 (S.35)",
+    "explanation": "Auf der Folie: $4 + 5 = 9$ (= $3^2$). 📄 Quelle: ari23_vl01, Folie 35 (S.35)",
     "source": "ari23_vl01, Folie 35 (S.35, Erkundung: WIR)"
   },
   {
@@ -976,7 +976,7 @@
     "topic": "ari23_vl01_folge_definition",
     "difficulty": 2,
     "type": "multi",
-    "question": "Was gehört zur Definition einer (endlichen) Folge (a)ₙ?",
+    "question": "Was gehört zur Definition einer (endlichen) Folge $(a)_n$?",
     "options": [
       "Eine Folge ist eine Funktion",
       "Jedem Element aus den natürlichen Zahlen (bzw. einer endlichen Teilmenge) wird genau ein Element einer Menge X zugeordnet",
@@ -988,7 +988,7 @@
       1,
       2
     ],
-    "explanation": "„Eine (endliche) Folge (a)ₙ … ist eine Funktion, bei der jedem Element aus den natürlichen Zahlen (bzw. einer endlichen Teilmenge) genau ein Element einer anderen Menge X (bei uns: Natürliche Zahlen) zugeordnet wird.\" Genau ein Element, nicht beliebig viele. 📄 Quelle: ari23_vl01, Folie 37 (S.37)",
+    "explanation": "„Eine (endliche) Folge $(a)_n$ … ist eine Funktion, bei der jedem Element aus den natürlichen Zahlen (bzw. einer endlichen Teilmenge) genau ein Element einer anderen Menge X (bei uns: Natürliche Zahlen) zugeordnet wird.\" Genau ein Element, nicht beliebig viele. 📄 Quelle: ari23_vl01, Folie 37 (S.37)",
     "source": "ari23_vl01, Folie 37 (S.37, Erkundung: WIR)"
   },
   {
@@ -996,7 +996,7 @@
     "topic": "ari23_vl01_folge_definition",
     "difficulty": 1,
     "type": "single",
-    "question": "Als was wird eine (endliche) Folge (a)ₙ definiert?",
+    "question": "Als was wird eine (endliche) Folge $(a)_n$ definiert?",
     "options": [
       "Als eine Funktion",
       "Als eine Menge",
@@ -1032,9 +1032,9 @@
     "topic": "ari23_vl01_summenfolge_definition",
     "difficulty": 2,
     "type": "single",
-    "question": "Was versteht man unter der Summen-Folge zu einer Folge (a)ₙ?",
+    "question": "Was versteht man unter der Summen-Folge zu einer Folge $(a)_n$?",
     "options": [
-      "Die Summen der jeweils ersten n Glieder einer Folge (a)ₙ",
+      "Die Summen der jeweils ersten n Glieder einer Folge $(a)_n$",
       "Das Produkt der ersten n Glieder",
       "Die Differenz aufeinanderfolgender Glieder",
       "Die n-te Wurzel der Glieder"
@@ -1042,7 +1042,7 @@
     "correct": [
       0
     ],
-    "explanation": "„Die Summen der jeweils ersten n Glieder einer Folge (a)ₙ nennen wir Summen-Folge zu (a)ₙ.\" 📄 Quelle: ari23_vl01, Folie 38 (S.38)",
+    "explanation": "„Die Summen der jeweils ersten n Glieder einer Folge $(a)_n$ nennen wir Summen-Folge zu $(a)_n$.\" 📄 Quelle: ari23_vl01, Folie 38 (S.38)",
     "source": "ari23_vl01, Folie 38 (S.38, Ein neuer Begriff: Summen-Folge)"
   },
   {
@@ -1084,7 +1084,7 @@
     "answer": 210,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Laut Lösung auf der Folie: 210 Plättchen (21 · 10 = 210). 📄 Quelle: ari23_vl01, Folie 39 (S.39)",
+    "explanation": "Laut Lösung auf der Folie: 210 Plättchen ($21 \\cdot 10 = 210$). 📄 Quelle: ari23_vl01, Folie 39 (S.39)",
     "source": "ari23_vl01, Folie 39 (S.39, Erkundung: WIR)"
   },
   {
@@ -1094,15 +1094,15 @@
     "type": "single",
     "question": "Bei einer Dreiecksanordnung mit 20 Plättchen in der untersten Reihe: Wie wird die Gesamtzahl 210 berechnet?",
     "options": [
-      "21 · 10 = 210",
-      "20 · 10 = 200",
-      "20 · 11 = 220",
-      "21 · 11 = 231"
+      "$21 \\cdot 10 = 210$",
+      "$20 \\cdot 10 = 200$",
+      "$20 \\cdot 11 = 220$",
+      "$21 \\cdot 11 = 231$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie steht: 21 · 10 = 210. 📄 Quelle: ari23_vl01, Folie 39 (S.39)",
+    "explanation": "Auf der Folie steht: $21 \\cdot 10 = 210$. 📄 Quelle: ari23_vl01, Folie 39 (S.39)",
     "source": "ari23_vl01, Folie 39 (S.39, Erkundung: WIR)"
   },
   {
@@ -1193,7 +1193,7 @@
     "answer": 16,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Tabelle nennt für Fläche 1 (2 mm × 2 mm) den Flächeninhalt 4, für Fläche 2 (2 mm × 4 mm) den Flächeninhalt 8 und für Fläche 3 (4 mm × 4 mm) den Flächeninhalt 16 Millimeterquadrate. 📄 Quelle: ari23_vl01, Folie 60 (S.60)",
+    "explanation": "Die Tabelle nennt für Fläche 1 ($2\\,\\text{mm} \\times 2\\,\\text{mm}$) den Flächeninhalt 4, für Fläche 2 ($2\\,\\text{mm} \\times 4\\,\\text{mm}$) den Flächeninhalt 8 und für Fläche 3 ($4\\,\\text{mm} \\times 4\\,\\text{mm}$) den Flächeninhalt 16 Millimeterquadrate. 📄 Quelle: ari23_vl01, Folie 60 (S.60)",
     "source": "ari23_vl01, Folie 60 (S.60, Erkundung 1: Flächen vergrößern und verkleinern)"
   },
   {

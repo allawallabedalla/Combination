@@ -24,17 +24,17 @@
     "topic": "ari21_vl08_wahrheitstafeln",
     "difficulty": 1,
     "type": "multi",
-    "question": "Für welche Belegung von A und B ist die Konjunktion A∧B wahr?",
+    "question": "Für welche Belegung von $A$ und $B$ ist die Konjunktion $A \\wedge B$ wahr?",
     "options": [
-      "A wahr, B wahr",
-      "A wahr, B falsch",
-      "A falsch, B wahr",
-      "A falsch, B falsch"
+      "$A$ wahr, $B$ wahr",
+      "$A$ wahr, $B$ falsch",
+      "$A$ falsch, $B$ wahr",
+      "$A$ falsch, $B$ falsch"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Wahrheitswertetafel für A∧B liefert von oben w, f, f, f. A∧B ist also nur dann wahr, wenn beide Teilaussagen wahr sind. 📄 Quelle: ari21_vl08, Folie 4 (S.4)",
+    "explanation": "Die Wahrheitswertetafel für $A \\wedge B$ liefert von oben w, f, f, f. $A \\wedge B$ ist also nur dann wahr, wenn beide Teilaussagen wahr sind. 📄 Quelle: ari21_vl08, Folie 4 (S.4)",
     "source": "ari21_vl08, Folie 4 (S.4, Arithmetik)"
   },
   {
@@ -42,7 +42,7 @@
     "topic": "ari21_vl08_versprachlichung",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie wird die Aussage ¬(A∧B) versprachlicht (A: 'es regnet', B: 'die Straße ist nass')?",
+    "question": "Wie wird die Aussage $\\neg(A \\wedge B)$ versprachlicht ($A$: 'es regnet', $B$: 'die Straße ist nass')?",
     "options": [
       "Es stimmt nicht, dass es regnet und die Straße nass ist",
       "Es regnet und die Straße ist nass",
@@ -52,7 +52,7 @@
     "correct": [
       0
     ],
-    "explanation": "Die Versprachlichung des Gegenteils ¬(A∧B) lautet auf der Folie: 'Es stimmt nicht, dass es regnet und die Straße nass ist.' 📄 Quelle: ari21_vl08, Folie 4 (S.4)",
+    "explanation": "Die Versprachlichung des Gegenteils $\\neg(A \\wedge B)$ lautet auf der Folie: 'Es stimmt nicht, dass es regnet und die Straße nass ist.' 📄 Quelle: ari21_vl08, Folie 4 (S.4)",
     "source": "ari21_vl08, Folie 4 (S.4, Arithmetik)"
   },
   {
@@ -70,7 +70,7 @@
     "correct": [
       0
     ],
-    "explanation": "Folie 5 hält fest: gleiche Wahrheitswertetafel ⇒ die Aussagen sind äquivalent (gleichwertig) zueinander. 📄 Quelle: ari21_vl08, Folie 5 (S.5)",
+    "explanation": "Folie 5 hält fest: gleiche Wahrheitswertetafel $\\Rightarrow$ die Aussagen sind äquivalent (gleichwertig) zueinander. 📄 Quelle: ari21_vl08, Folie 5 (S.5)",
     "source": "ari21_vl08, Folie 5 (S.5, Arithmetik)"
   },
   {
@@ -80,16 +80,16 @@
     "type": "multi",
     "question": "Welche beiden der folgenden Aussagen sind zueinander äquivalent (gleichwertig)?",
     "options": [
-      "¬(A∧B)",
-      "¬A ∨ ¬B",
-      "A ∧ B",
-      "A ∨ B"
+      "$\\neg(A \\wedge B)$",
+      "$\\neg A \\vee \\neg B$",
+      "$A \\wedge B$",
+      "$A \\vee B$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "¬(A∧B) und ¬A ∨ ¬B haben auf Folie 5 dieselbe Wahrheitswertetafel (f, w, w, w) und sind daher äquivalent. 📄 Quelle: ari21_vl08, Folie 5 (S.5)",
+    "explanation": "$\\neg(A \\wedge B)$ und $\\neg A \\vee \\neg B$ haben auf Folie 5 dieselbe Wahrheitswertetafel (f, w, w, w) und sind daher äquivalent. 📄 Quelle: ari21_vl08, Folie 5 (S.5)",
     "source": "ari21_vl08, Folie 5 (S.5, Arithmetik)"
   },
   {
@@ -97,19 +97,19 @@
     "topic": "ari21_vl08_wahrheitstafeln",
     "difficulty": 2,
     "type": "multi",
-    "question": "Für welche Belegungen ist ¬A ∨ ¬B wahr?",
+    "question": "Für welche Belegungen ist $\\neg A \\vee \\neg B$ wahr?",
     "options": [
-      "A wahr, B wahr",
-      "A wahr, B falsch",
-      "A falsch, B wahr",
-      "A falsch, B falsch"
+      "$A$ wahr, $B$ wahr",
+      "$A$ wahr, $B$ falsch",
+      "$A$ falsch, $B$ wahr",
+      "$A$ falsch, $B$ falsch"
     ],
     "correct": [
       1,
       2,
       3
     ],
-    "explanation": "Die Wahrheitswertetafel von ¬A ∨ ¬B liefert von oben f, w, w, w. Der Term ist also in allen Belegungen außer 'A wahr, B wahr' wahr. 📄 Quelle: ari21_vl08, Folie 5 (S.5)",
+    "explanation": "Die Wahrheitswertetafel von $\\neg A \\vee \\neg B$ liefert von oben f, w, w, w. Der Term ist also in allen Belegungen außer '$A$ wahr, $B$ wahr' wahr. 📄 Quelle: ari21_vl08, Folie 5 (S.5)",
     "source": "ari21_vl08, Folie 5 (S.5, Arithmetik)"
   },
   {
@@ -117,7 +117,7 @@
     "topic": "ari21_vl08_versprachlichung",
     "difficulty": 1,
     "type": "single",
-    "question": "Wie wird ¬B versprachlicht (B: 'die Straße ist nass')?",
+    "question": "Wie wird $\\neg B$ versprachlicht ($B$: 'die Straße ist nass')?",
     "options": [
       "Die Straße ist nicht nass",
       "Die Straße ist nass",
@@ -127,7 +127,7 @@
     "correct": [
       0
     ],
-    "explanation": "Auf Folie 6 wird ¬B versprachlicht als 'Die Straße ist nicht nass.' 📄 Quelle: ari21_vl08, Folie 6 (S.6)",
+    "explanation": "Auf Folie 6 wird $\\neg B$ versprachlicht als 'Die Straße ist nicht nass.' 📄 Quelle: ari21_vl08, Folie 6 (S.6)",
     "source": "ari21_vl08, Folie 6 (S.6, Arithmetik)"
   },
   {
@@ -135,7 +135,7 @@
     "topic": "ari21_vl08_wahrheitstafeln",
     "difficulty": 2,
     "type": "multi",
-    "question": "Für welche Belegungen (A,B) ist B ∨ (A∧B) wahr?",
+    "question": "Für welche Belegungen $(A,B)$ ist $B \\vee (A \\wedge B)$ wahr?",
     "options": [
       "(w, w)",
       "(w, f)",
@@ -146,7 +146,7 @@
       0,
       2
     ],
-    "explanation": "Die Wahrheitswertetafel von B ∨ (A∧B) liefert von oben w, f, w, f; der Term ist also für (w,w) und (f,w) wahr. 📄 Quelle: ari21_vl08, Folie 6 (S.6)",
+    "explanation": "Die Wahrheitswertetafel von $B \\vee (A \\wedge B)$ liefert von oben w, f, w, f; der Term ist also für (w,w) und (f,w) wahr. 📄 Quelle: ari21_vl08, Folie 6 (S.6)",
     "source": "ari21_vl08, Folie 6 (S.6, Arithmetik)"
   },
   {
@@ -156,16 +156,16 @@
     "type": "multi",
     "question": "Welche zwei der folgenden Terme haben dieselbe Wahrheitswertetafel (f, w, w, f) und sind damit äquivalent?",
     "options": [
-      "(A∨B) ∧ ¬(A∧B)",
-      "(A∧¬B) ∨ (B∧¬A)",
-      "A ∧ B",
-      "A ∨ B"
+      "$(A \\vee B) \\wedge \\neg(A \\wedge B)$",
+      "$(A \\wedge \\neg B) \\vee (B \\wedge \\neg A)$",
+      "$A \\wedge B$",
+      "$A \\vee B$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Sowohl (A∨B) ∧ ¬(A∧B) als auch (A∧¬B) ∨ (B∧¬A) haben die Wahrheitswertetafel f, w, w, f und sind daher äquivalent (das exklusive Oder). 📄 Quelle: ari21_vl08, Folie 7 (S.7)",
+    "explanation": "Sowohl $(A \\vee B) \\wedge \\neg(A \\wedge B)$ als auch $(A \\wedge \\neg B) \\vee (B \\wedge \\neg A)$ haben die Wahrheitswertetafel f, w, w, f und sind daher äquivalent (das exklusive Oder). 📄 Quelle: ari21_vl08, Folie 7 (S.7)",
     "source": "ari21_vl08, Folie 7 (S.7, Arithmetik)"
   },
   {
@@ -173,18 +173,18 @@
     "topic": "ari21_vl08_wahrheitstafeln",
     "difficulty": 2,
     "type": "multi",
-    "question": "Für welche Belegungen ist (A∨B) ∧ ¬(A∧B) wahr?",
+    "question": "Für welche Belegungen ist $(A \\vee B) \\wedge \\neg(A \\wedge B)$ wahr?",
     "options": [
-      "A wahr, B wahr",
-      "A wahr, B falsch",
-      "A falsch, B wahr",
-      "A falsch, B falsch"
+      "$A$ wahr, $B$ wahr",
+      "$A$ wahr, $B$ falsch",
+      "$A$ falsch, $B$ wahr",
+      "$A$ falsch, $B$ falsch"
     ],
     "correct": [
       1,
       2
     ],
-    "explanation": "Die Wahrheitswertetafel liefert von oben f, w, w, f; der Term ist genau dann wahr, wenn A und B verschiedene Wahrheitswerte haben. 📄 Quelle: ari21_vl08, Folie 7 (S.7)",
+    "explanation": "Die Wahrheitswertetafel liefert von oben f, w, w, f; der Term ist genau dann wahr, wenn $A$ und $B$ verschiedene Wahrheitswerte haben. 📄 Quelle: ari21_vl08, Folie 7 (S.7)",
     "source": "ari21_vl08, Folie 7 (S.7, Arithmetik)"
   },
   {
@@ -192,18 +192,18 @@
     "topic": "ari21_vl08_wahrheitstafeln",
     "difficulty": 3,
     "type": "multi",
-    "question": "Für welche Belegungen ist (¬A∧¬B) ∨ (A∧B) wahr?",
+    "question": "Für welche Belegungen ist $(\\neg A \\wedge \\neg B) \\vee (A \\wedge B)$ wahr?",
     "options": [
-      "A wahr, B wahr",
-      "A wahr, B falsch",
-      "A falsch, B wahr",
-      "A falsch, B falsch"
+      "$A$ wahr, $B$ wahr",
+      "$A$ wahr, $B$ falsch",
+      "$A$ falsch, $B$ wahr",
+      "$A$ falsch, $B$ falsch"
     ],
     "correct": [
       0,
       3
     ],
-    "explanation": "Die Wahrheitswertetafel liefert von oben w, f, f, w; der Term ist genau dann wahr, wenn A und B denselben Wahrheitswert haben. 📄 Quelle: ari21_vl08, Folie 7 (S.7)",
+    "explanation": "Die Wahrheitswertetafel liefert von oben w, f, f, w; der Term ist genau dann wahr, wenn $A$ und $B$ denselben Wahrheitswert haben. 📄 Quelle: ari21_vl08, Folie 7 (S.7)",
     "source": "ari21_vl08, Folie 7 (S.7, Arithmetik)"
   },
   {
@@ -211,17 +211,17 @@
     "topic": "ari21_vl08_implikation",
     "difficulty": 2,
     "type": "single",
-    "question": "Für welche einzige Belegung ist die Implikation A⇒B falsch?",
+    "question": "Für welche einzige Belegung ist die Implikation $A \\Rightarrow B$ falsch?",
     "options": [
-      "A wahr, B falsch",
-      "A wahr, B wahr",
-      "A falsch, B wahr",
-      "A falsch, B falsch"
+      "$A$ wahr, $B$ falsch",
+      "$A$ wahr, $B$ wahr",
+      "$A$ falsch, $B$ wahr",
+      "$A$ falsch, $B$ falsch"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Wahrheitswertetafel von A⇒B liefert von oben w, f, w, w. A⇒B ist also nur dann falsch, wenn A wahr und B falsch ist. 📄 Quelle: ari21_vl08, Folie 8 (S.8)",
+    "explanation": "Die Wahrheitswertetafel von $A \\Rightarrow B$ liefert von oben w, f, w, w. $A \\Rightarrow B$ ist also nur dann falsch, wenn $A$ wahr und $B$ falsch ist. 📄 Quelle: ari21_vl08, Folie 8 (S.8)",
     "source": "ari21_vl08, Folie 8 (S.8, Arithmetik)"
   },
   {
@@ -229,17 +229,17 @@
     "topic": "ari21_vl08_implikation",
     "difficulty": 2,
     "type": "single",
-    "question": "Zu welcher Aussage ist A⇒B äquivalent (gleiche Wahrheitswertetafel)?",
+    "question": "Zu welcher Aussage ist $A \\Rightarrow B$ äquivalent (gleiche Wahrheitswertetafel)?",
     "options": [
-      "¬A ∨ B",
-      "A ∧ ¬B",
-      "¬A ∧ B",
-      "A ∨ ¬B"
+      "$\\neg A \\vee B$",
+      "$A \\wedge \\neg B$",
+      "$\\neg A \\wedge B$",
+      "$A \\vee \\neg B$"
     ],
     "correct": [
       0
     ],
-    "explanation": "A⇒B ist genau dann wahr, wenn ¬A ∨ B wahr ist; beide haben die Wahrheitswertetafel w, f, w, w. 📄 Quelle: ari21_vl08, Folie 8 (S.8)",
+    "explanation": "$A \\Rightarrow B$ ist genau dann wahr, wenn $\\neg A \\vee B$ wahr ist; beide haben die Wahrheitswertetafel w, f, w, w. 📄 Quelle: ari21_vl08, Folie 8 (S.8)",
     "source": "ari21_vl08, Folie 8 (S.8, Arithmetik)"
   },
   {
@@ -247,11 +247,11 @@
     "topic": "ari21_vl08_implikation",
     "difficulty": 1,
     "type": "numeric",
-    "question": "In wie vielen der vier möglichen Belegungen von A und B ist die Implikation A⇒B wahr?",
+    "question": "In wie vielen der vier möglichen Belegungen von $A$ und $B$ ist die Implikation $A \\Rightarrow B$ wahr?",
     "answer": 3,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Wahrheitswertetafel von A⇒B ist w, f, w, w; in drei der vier Belegungen ist die Implikation wahr. 📄 Quelle: ari21_vl08, Folie 8 (S.8)",
+    "explanation": "Die Wahrheitswertetafel von $A \\Rightarrow B$ ist w, f, w, w; in drei der vier Belegungen ist die Implikation wahr. 📄 Quelle: ari21_vl08, Folie 8 (S.8)",
     "source": "ari21_vl08, Folie 8 (S.8, Arithmetik)"
   },
   {
@@ -261,15 +261,15 @@
     "type": "single",
     "question": "Welche Umformung hält die Regel von De Morgan fest?",
     "options": [
-      "¬(A∧B) = ¬A ∨ ¬B",
-      "¬(A∧B) = ¬A ∧ ¬B",
-      "¬(A∨B) = ¬A ∨ ¬B",
-      "¬(A∧B) = A ∨ B"
+      "$\\neg(A \\wedge B) = \\neg A \\vee \\neg B$",
+      "$\\neg(A \\wedge B) = \\neg A \\wedge \\neg B$",
+      "$\\neg(A \\vee B) = \\neg A \\vee \\neg B$",
+      "$\\neg(A \\wedge B) = A \\vee B$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die notierte Idee lautet ¬(A∧B) = ¬A ∨ ¬B (Regel von De Morgan). 📄 Quelle: ari21_vl08, Folie 10 (S.10)",
+    "explanation": "Die notierte Idee lautet $\\neg(A \\wedge B) = \\neg A \\vee \\neg B$ (Regel von De Morgan). 📄 Quelle: ari21_vl08, Folie 10 (S.10)",
     "source": "ari21_vl08, Folie 10 (S.10, Arithmetik)"
   },
   {
@@ -277,17 +277,17 @@
     "topic": "ari21_vl08_de_morgan",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lautet die Verneinung (Negation) von A∧B?",
+    "question": "Wie lautet die Verneinung (Negation) von $A \\wedge B$?",
     "options": [
-      "¬A ∨ ¬B",
-      "¬A ∧ ¬B",
-      "A ∨ B",
-      "¬A ⇒ ¬B"
+      "$\\neg A \\vee \\neg B$",
+      "$\\neg A \\wedge \\neg B$",
+      "$A \\vee B$",
+      "$\\neg A \\Rightarrow \\neg B$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Nach ¬(A∧B) = ¬A ∨ ¬B ist die Negation der Konjunktion A∧B gerade ¬A ∨ ¬B. 📄 Quelle: ari21_vl08, Folie 10 (S.10)",
+    "explanation": "Nach $\\neg(A \\wedge B) = \\neg A \\vee \\neg B$ ist die Negation der Konjunktion $A \\wedge B$ gerade $\\neg A \\vee \\neg B$. 📄 Quelle: ari21_vl08, Folie 10 (S.10)",
     "source": "ari21_vl08, Folie 10 (S.10, Arithmetik)"
   },
   {
@@ -295,17 +295,17 @@
     "topic": "ari21_vl08_implikation",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lautet die Negation der Implikation, ¬(A⇒B)?",
+    "question": "Wie lautet die Negation der Implikation, $\\neg(A \\Rightarrow B)$?",
     "options": [
-      "A ∧ ¬B",
-      "¬A ∨ B",
-      "¬A ∧ ¬B",
-      "A ∨ ¬B"
+      "$A \\wedge \\neg B$",
+      "$\\neg A \\vee B$",
+      "$\\neg A \\wedge \\neg B$",
+      "$A \\vee \\neg B$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf Folie 11 wird ¬(A⇒B) = ¬(¬A ∨ B) = A ∧ ¬B hergeleitet. 📄 Quelle: ari21_vl08, Folie 11 (S.11)",
+    "explanation": "Auf Folie 11 wird $\\neg(A \\Rightarrow B) = \\neg(\\neg A \\vee B) = A \\wedge \\neg B$ hergeleitet. 📄 Quelle: ari21_vl08, Folie 11 (S.11)",
     "source": "ari21_vl08, Folie 11 (S.11, Arithmetik)"
   },
   {
@@ -313,18 +313,18 @@
     "topic": "ari21_vl08_implikation",
     "difficulty": 3,
     "type": "multi",
-    "question": "Welche Umformungsschritte zur Negation von A⇒B sind korrekt?",
+    "question": "Welche Umformungsschritte zur Negation von $A \\Rightarrow B$ sind korrekt?",
     "options": [
-      "¬(A⇒B) = ¬(¬A ∨ B)",
-      "¬(¬A ∨ B) = A ∧ ¬B",
-      "¬(A⇒B) = ¬A ∧ B",
-      "¬(A⇒B) = A ∨ ¬B"
+      "$\\neg(A \\Rightarrow B) = \\neg(\\neg A \\vee B)$",
+      "$\\neg(\\neg A \\vee B) = A \\wedge \\neg B$",
+      "$\\neg(A \\Rightarrow B) = \\neg A \\wedge B$",
+      "$\\neg(A \\Rightarrow B) = A \\vee \\neg B$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Folie zeigt ¬(A⇒B) = ¬(¬A ∨ B) = A ∧ ¬B; zunächst wird A⇒B durch ¬A ∨ B ersetzt, dann per De Morgan negiert. 📄 Quelle: ari21_vl08, Folie 11 (S.11)",
+    "explanation": "Die Folie zeigt $\\neg(A \\Rightarrow B) = \\neg(\\neg A \\vee B) = A \\wedge \\neg B$; zunächst wird $A \\Rightarrow B$ durch $\\neg A \\vee B$ ersetzt, dann per De Morgan negiert. 📄 Quelle: ari21_vl08, Folie 11 (S.11)",
     "source": "ari21_vl08, Folie 11 (S.11, Arithmetik)"
   },
   {
@@ -332,17 +332,17 @@
     "topic": "ari21_vl08_implikation",
     "difficulty": 2,
     "type": "single",
-    "question": "Auf welcher Äquivalenz beruht der Zwischenschritt ¬(A⇒B) = ¬(¬A ∨ B)?",
+    "question": "Auf welcher Äquivalenz beruht der Zwischenschritt $\\neg(A \\Rightarrow B) = \\neg(\\neg A \\vee B)$?",
     "options": [
-      "A⇒B ist äquivalent zu ¬A ∨ B",
-      "A⇒B ist äquivalent zu A ∧ B",
-      "A⇒B ist äquivalent zu A ∨ ¬B",
-      "A⇒B ist äquivalent zu B ⇒ A"
+      "$A \\Rightarrow B$ ist äquivalent zu $\\neg A \\vee B$",
+      "$A \\Rightarrow B$ ist äquivalent zu $A \\wedge B$",
+      "$A \\Rightarrow B$ ist äquivalent zu $A \\vee \\neg B$",
+      "$A \\Rightarrow B$ ist äquivalent zu $B \\Rightarrow A$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Umformung nutzt, dass A⇒B äquivalent zu ¬A ∨ B ist; deshalb kann A⇒B beim Negieren durch ¬A ∨ B ersetzt werden. 📄 Quelle: ari21_vl08, Folie 11 (S.11)",
+    "explanation": "Die Umformung nutzt, dass $A \\Rightarrow B$ äquivalent zu $\\neg A \\vee B$ ist; deshalb kann $A \\Rightarrow B$ beim Negieren durch $\\neg A \\vee B$ ersetzt werden. 📄 Quelle: ari21_vl08, Folie 11 (S.11)",
     "source": "ari21_vl08, Folie 11 (S.11, Arithmetik)"
   },
   {
@@ -350,17 +350,17 @@
     "topic": "ari21_vl08_aussagenlogik",
     "difficulty": 1,
     "type": "single",
-    "question": "Wie wird der Satz 'Für alle Elemente einer Menge M gilt: Wenn A, dann B' symbolisch notiert?",
+    "question": "Wie wird der Satz 'Für alle Elemente einer Menge $M$ gilt: Wenn $A$, dann $B$' symbolisch notiert?",
     "options": [
-      "A ⇒ B",
-      "A ∧ B",
-      "A ⇔ B",
-      "A ∨ B"
+      "$A \\Rightarrow B$",
+      "$A \\wedge B$",
+      "$A \\Leftrightarrow B$",
+      "$A \\vee B$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Satz 'Wenn A, dann B' wird auf Folie 12 als A ⇒ B notiert. 📄 Quelle: ari21_vl08, Folie 12 (S.12)",
+    "explanation": "Der Satz 'Wenn $A$, dann $B$' wird auf Folie 12 als $A \\Rightarrow B$ notiert. 📄 Quelle: ari21_vl08, Folie 12 (S.12)",
     "source": "ari21_vl08, Folie 12 (S.12, Arithmetik)"
   },
   {
@@ -368,19 +368,19 @@
     "topic": "ari21_vl08_widerspruchsbeweis",
     "difficulty": 1,
     "type": "multi",
-    "question": "In einem Beispiel zur Aussagenlogik werden die Grundmenge M und die Aussagen A und B festgelegt. Welche Festlegungen gehören dazu?",
+    "question": "In einem Beispiel zur Aussagenlogik werden die Grundmenge $M$ und die Aussagen $A$ und $B$ festgelegt. Welche Festlegungen gehören dazu?",
     "options": [
-      "M := alle Tage im Jahr",
-      "A := die Sonne scheint",
-      "B := ich gehe joggen",
-      "M := alle Stunden eines Tages"
+      "$M :=$ alle Tage im Jahr",
+      "$A :=$ die Sonne scheint",
+      "$B :=$ ich gehe joggen",
+      "$M :=$ alle Stunden eines Tages"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Folie 14 legt fest: M := alle Tage im Jahr, A := die Sonne scheint, B := ich gehe joggen. 📄 Quelle: ari21_vl08, Folie 14 (S.14)",
+    "explanation": "Folie 14 legt fest: $M :=$ alle Tage im Jahr, $A :=$ die Sonne scheint, $B :=$ ich gehe joggen. 📄 Quelle: ari21_vl08, Folie 14 (S.14)",
     "source": "ari21_vl08, Folie 14 (S.14, Arithmetik)"
   },
   {
@@ -388,7 +388,7 @@
     "topic": "ari21_vl08_widerspruchsbeweis",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lautet der konkrete Beispielsatz zur Grundmenge 'alle Tage im Jahr' mit A: 'die Sonne scheint' und B: 'ich gehe joggen'?",
+    "question": "Wie lautet der konkrete Beispielsatz zur Grundmenge 'alle Tage im Jahr' mit $A$: 'die Sonne scheint' und $B$: 'ich gehe joggen'?",
     "options": [
       "Für alle Tage im Jahr gilt: Wenn die Sonne scheint, dann gehe ich joggen",
       "Für alle Tage im Jahr gilt: Wenn ich joggen gehe, dann scheint die Sonne",
@@ -406,17 +406,17 @@
     "topic": "ari21_vl08_implikation",
     "difficulty": 2,
     "type": "single",
-    "question": "Zu welchen symbolischen Formen wird 'Wenn A, dann B' gleichgesetzt?",
+    "question": "Zu welchen symbolischen Formen wird 'Wenn $A$, dann $B$' gleichgesetzt?",
     "options": [
-      "A ⇒ B bzw. ¬A ∨ B",
-      "A ∧ B bzw. ¬A ∧ B",
-      "A ⇔ B bzw. ¬A ∨ ¬B",
-      "B ⇒ A bzw. ¬B ∨ A"
+      "$A \\Rightarrow B$ bzw. $\\neg A \\vee B$",
+      "$A \\wedge B$ bzw. $\\neg A \\wedge B$",
+      "$A \\Leftrightarrow B$ bzw. $\\neg A \\vee \\neg B$",
+      "$B \\Rightarrow A$ bzw. $\\neg B \\vee A$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf Folie 14 steht in Klammern: (Wenn A, dann B; A ⇒ B; ¬A ∨ B). 📄 Quelle: ari21_vl08, Folie 14 (S.14)",
+    "explanation": "Auf Folie 14 steht in Klammern: (Wenn $A$, dann $B$; $A \\Rightarrow B$; $\\neg A \\vee B$). 📄 Quelle: ari21_vl08, Folie 14 (S.14)",
     "source": "ari21_vl08, Folie 14 (S.14, Arithmetik)"
   },
   {
@@ -442,17 +442,17 @@
     "topic": "ari21_vl08_implikation",
     "difficulty": 1,
     "type": "single",
-    "question": "Welche Gleichwertigkeit zur Implikation A ⇒ B ist korrekt?",
+    "question": "Welche Gleichwertigkeit zur Implikation $A \\Rightarrow B$ ist korrekt?",
     "options": [
-      "A ⇒ B = ¬A ∨ B",
-      "A ⇒ B = A ∧ ¬B",
-      "A ⇒ B = ¬A ∧ B",
-      "A ⇒ B = A ∨ B"
+      "$A \\Rightarrow B = \\neg A \\vee B$",
+      "$A \\Rightarrow B = A \\wedge \\neg B$",
+      "$A \\Rightarrow B = \\neg A \\wedge B$",
+      "$A \\Rightarrow B = A \\vee B$"
     ],
     "correct": [
       0
     ],
-    "explanation": "In der Klammer auf Folie 16 steht: (Wenn A, dann B; A ⇒ B = ¬A ∨ B). 📄 Quelle: ari21_vl08, Folie 16 (S.16)",
+    "explanation": "In der Klammer auf Folie 16 steht: (Wenn $A$, dann $B$; $A \\Rightarrow B = \\neg A \\vee B$). 📄 Quelle: ari21_vl08, Folie 16 (S.16)",
     "source": "ari21_vl08, Folie 16 (S.16, Arithmetik)"
   },
   {
@@ -460,17 +460,17 @@
     "topic": "ari21_vl08_verneinung",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lässt sich die Implikation \"A ⇒ B\" logisch gleichwertig darstellen?",
+    "question": "Wie lässt sich die Implikation \"$A \\Rightarrow B$\" logisch gleichwertig darstellen?",
     "options": [
-      "¬A ∨ B",
-      "A ∧ B",
-      "¬A ∧ ¬B",
-      "A ∨ ¬B"
+      "$\\neg A \\vee B$",
+      "$A \\wedge B$",
+      "$\\neg A \\wedge \\neg B$",
+      "$A \\vee \\neg B$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie wird notiert: A ⇒ B = ¬A ∨ B. 📄 Quelle: ari21_vl08, Folie 17 (S.17)",
+    "explanation": "Auf der Folie wird notiert: $A \\Rightarrow B = \\neg A \\vee B$. 📄 Quelle: ari21_vl08, Folie 17 (S.17)",
     "source": "ari21_vl08, Folie 17 (S.17, Arithmetik)"
   },
   {
@@ -478,17 +478,17 @@
     "topic": "ari21_vl08_verneinung",
     "difficulty": 2,
     "type": "single",
-    "question": "Die Verneinung der Implikation, Nicht(A ⇒ B), ist gleich zu welchem Ausdruck?",
+    "question": "Die Verneinung der Implikation, Nicht($A \\Rightarrow B$), ist gleich zu welchem Ausdruck?",
     "options": [
-      "A ∧ ¬B",
-      "¬A ∨ B",
-      "¬A ∧ B",
-      "A ∨ B"
+      "$A \\wedge \\neg B$",
+      "$\\neg A \\vee B$",
+      "$\\neg A \\wedge B$",
+      "$A \\vee B$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie zeigt: ist gleich zu [¬(¬A ∨ B) = A ∧ ¬B]. 📄 Quelle: ari21_vl08, Folie 17 (S.17)",
+    "explanation": "Die Folie zeigt: ist gleich zu [$\\neg(\\neg A \\vee B) = A \\wedge \\neg B$]. 📄 Quelle: ari21_vl08, Folie 17 (S.17)",
     "source": "ari21_vl08, Folie 17 (S.17, Arithmetik)"
   },
   {
@@ -516,15 +516,15 @@
     "type": "single",
     "question": "Wie lautet die Verneinung von \"Wenn die Sonne scheint, dann gehe ich joggen\"?",
     "options": [
-      "Die Sonne scheint und ich gehe nicht joggen. (A ∧ ¬B)",
-      "Wenn die Sonne nicht scheint, gehe ich joggen. (¬A ⇒ B)",
-      "Die Sonne scheint nicht und ich gehe joggen. (¬A ∧ B)",
-      "Die Sonne scheint nicht oder ich gehe joggen. (¬A ∨ B)"
+      "Die Sonne scheint und ich gehe nicht joggen. ($A \\wedge \\neg B$)",
+      "Wenn die Sonne nicht scheint, gehe ich joggen. ($\\neg A \\Rightarrow B$)",
+      "Die Sonne scheint nicht und ich gehe joggen. ($\\neg A \\wedge B$)",
+      "Die Sonne scheint nicht oder ich gehe joggen. ($\\neg A \\vee B$)"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der verneinte Satz (A ∧ ¬B): \"Die Sonne scheint und ich gehe nicht joggen.\" 📄 Quelle: ari21_vl08, Folie 18 (S.18)",
+    "explanation": "Der verneinte Satz ($A \\wedge \\neg B$): \"Die Sonne scheint und ich gehe nicht joggen.\" 📄 Quelle: ari21_vl08, Folie 18 (S.18)",
     "source": "ari21_vl08, Folie 18 (S.18, Arithmetik)"
   },
   {
@@ -532,17 +532,17 @@
     "topic": "ari21_vl08_widerspruchsbeweis",
     "difficulty": 2,
     "type": "single",
-    "question": "Was zeigt man beim Widerspruchsbeweis, statt den Satz (A ⇒ B) direkt zu beweisen?",
+    "question": "Was zeigt man beim Widerspruchsbeweis, statt den Satz ($A \\Rightarrow B$) direkt zu beweisen?",
     "options": [
-      "Dass die Verneinung des Satzes (A ∧ ¬B) immer falsch ist",
-      "Dass die Umkehrung (B ⇒ A) immer wahr ist",
-      "Dass ¬A ∨ B immer falsch ist",
-      "Dass A und B nie zugleich wahr sind"
+      "Dass die Verneinung des Satzes ($A \\wedge \\neg B$) immer falsch ist",
+      "Dass die Umkehrung ($B \\Rightarrow A$) immer wahr ist",
+      "Dass $\\neg A \\vee B$ immer falsch ist",
+      "Dass $A$ und $B$ nie zugleich wahr sind"
     ],
     "correct": [
       0
     ],
-    "explanation": "Beweisidee: Statt A ⇒ B zu zeigen, zeigen wir, dass die Verneinung des Satzes (A ∧ ¬B) immer falsch ist. 📄 Quelle: ari21_vl08, Folie 19 (S.19)",
+    "explanation": "Beweisidee: Statt $A \\Rightarrow B$ zu zeigen, zeigen wir, dass die Verneinung des Satzes ($A \\wedge \\neg B$) immer falsch ist. 📄 Quelle: ari21_vl08, Folie 19 (S.19)",
     "source": "ari21_vl08, Folie 19 (S.19, Arithmetik)"
   },
   {
@@ -550,17 +550,17 @@
     "topic": "ari21_vl08_widerspruchsbeweis",
     "difficulty": 1,
     "type": "single",
-    "question": "Welche logische Form hat die Verneinung eines Satzes A ⇒ B, deren Falschheit beim Widerspruchsbeweis gezeigt wird?",
+    "question": "Welche logische Form hat die Verneinung eines Satzes $A \\Rightarrow B$, deren Falschheit beim Widerspruchsbeweis gezeigt wird?",
     "options": [
-      "A ∧ ¬B",
-      "¬A ∨ B",
-      "A ⇒ B",
-      "¬A ∧ ¬B"
+      "$A \\wedge \\neg B$",
+      "$\\neg A \\vee B$",
+      "$A \\Rightarrow B$",
+      "$\\neg A \\wedge \\neg B$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Verneinung des Satzes wird auf der Folie als (A ∧ ¬B) angegeben. 📄 Quelle: ari21_vl08, Folie 19 (S.19)",
+    "explanation": "Die Verneinung des Satzes wird auf der Folie als ($A \\wedge \\neg B$) angegeben. 📄 Quelle: ari21_vl08, Folie 19 (S.19)",
     "source": "ari21_vl08, Folie 19 (S.19, Arithmetik)"
   },
   {
@@ -568,18 +568,18 @@
     "topic": "ari21_vl08_gerade_zahlen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Der direkte Beweis von \"Wenn a gerade ist, dann ist a² gerade\" setzt a = 2·n. Was gilt dann?",
+    "question": "Der direkte Beweis von \"Wenn $a$ gerade ist, dann ist $a^2$ gerade\" setzt $a = 2 \\cdot n$. Was gilt dann?",
     "options": [
-      "a² = (2·n)² = 4·n²",
-      "a² ist eine gerade Zahl",
-      "a² = 2·n²",
-      "a² ist ungerade"
+      "$a^2 = (2 \\cdot n)^2 = 4 \\cdot n^2$",
+      "$a^2$ ist eine gerade Zahl",
+      "$a^2 = 2 \\cdot n^2$",
+      "$a^2$ ist ungerade"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Mit a = 2·n folgt a² = (2·n)² = 4·n², und das ist eine gerade Zahl. 📄 Quelle: ari21_vl08, Folie 20 (S.20)",
+    "explanation": "Mit $a = 2 \\cdot n$ folgt $a^2 = (2 \\cdot n)^2 = 4 \\cdot n^2$, und das ist eine gerade Zahl. 📄 Quelle: ari21_vl08, Folie 20 (S.20)",
     "source": "ari21_vl08, Folie 20 (S.20, Arithmetik)"
   },
   {
@@ -587,17 +587,17 @@
     "topic": "ari21_vl08_gerade_zahlen",
     "difficulty": 1,
     "type": "single",
-    "question": "Wie wird eine gerade Zahl a im direkten Beweis dargestellt?",
+    "question": "Wie wird eine gerade Zahl $a$ im direkten Beweis dargestellt?",
     "options": [
-      "a = 2·n",
-      "a = n²",
-      "a = 2·n + 1",
-      "a = 4·n"
+      "$a = 2 \\cdot n$",
+      "$a = n^2$",
+      "$a = 2 \\cdot n + 1$",
+      "$a = 4 \\cdot n$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie schreibt: a = 2·n, dann ist a² = (2·n)² = 4·n². 📄 Quelle: ari21_vl08, Folie 20 (S.20)",
+    "explanation": "Die Folie schreibt: $a = 2 \\cdot n$, dann ist $a^2 = (2 \\cdot n)^2 = 4 \\cdot n^2$. 📄 Quelle: ari21_vl08, Folie 20 (S.20)",
     "source": "ari21_vl08, Folie 20 (S.20, Arithmetik)"
   },
   {
@@ -605,17 +605,17 @@
     "topic": "ari21_vl08_gerade_zahlen",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lautet die Umkehrung des Satzes \"Wenn a gerade ist, dann ist a² gerade\"?",
+    "question": "Wie lautet die Umkehrung des Satzes \"Wenn $a$ gerade ist, dann ist $a^2$ gerade\"?",
     "options": [
-      "Wenn a² gerade ist, dann ist a gerade",
-      "Wenn a nicht gerade ist, dann ist a² nicht gerade",
-      "Wenn a² ungerade ist, dann ist a gerade",
-      "Wenn a gerade ist, dann ist a² ungerade"
+      "Wenn $a^2$ gerade ist, dann ist $a$ gerade",
+      "Wenn $a$ nicht gerade ist, dann ist $a^2$ nicht gerade",
+      "Wenn $a^2$ ungerade ist, dann ist $a$ gerade",
+      "Wenn $a$ gerade ist, dann ist $a^2$ ungerade"
     ],
     "correct": [
       0
     ],
-    "explanation": "Umkehrung des Satzes: Für alle natürlichen Zahlen gilt: Wenn a² gerade ist, dann ist a gerade. 📄 Quelle: ari21_vl08, Folie 22 (S.22)",
+    "explanation": "Umkehrung des Satzes: Für alle natürlichen Zahlen gilt: Wenn $a^2$ gerade ist, dann ist $a$ gerade. 📄 Quelle: ari21_vl08, Folie 22 (S.22)",
     "source": "ari21_vl08, Folie 22 (S.22, Arithmetik)"
   },
   {
@@ -623,17 +623,17 @@
     "topic": "ari21_vl08_gerade_zahlen",
     "difficulty": 2,
     "type": "single",
-    "question": "Beim Widerspruchsbeweis der Umkehrung lautet die Gegenannahme (¬(A ⇒ B) = A ∧ ¬B): \"Es gibt natürliche Zahlen, für die gilt …\". Wie geht es weiter?",
+    "question": "Beim Widerspruchsbeweis der Umkehrung lautet die Gegenannahme ($\\neg(A \\Rightarrow B) = A \\wedge \\neg B$): \"Es gibt natürliche Zahlen, für die gilt …\". Wie geht es weiter?",
     "options": [
-      "a² ist gerade und (dennoch) ist a ungerade",
-      "a² ist ungerade und a ist gerade",
-      "a ist gerade und a² ist ungerade",
-      "a² ist gerade und a ist gerade"
+      "$a^2$ ist gerade und (dennoch) ist $a$ ungerade",
+      "$a^2$ ist ungerade und $a$ ist gerade",
+      "$a$ ist gerade und $a^2$ ist ungerade",
+      "$a^2$ ist gerade und $a$ ist gerade"
     ],
     "correct": [
       0
     ],
-    "explanation": "Gegenannahme: Es gibt natürliche Zahlen, für die gilt: a² ist gerade und (dennoch) ist a ungerade. 📄 Quelle: ari21_vl08, Folie 23 (S.23)",
+    "explanation": "Gegenannahme: Es gibt natürliche Zahlen, für die gilt: $a^2$ ist gerade und (dennoch) ist $a$ ungerade. 📄 Quelle: ari21_vl08, Folie 23 (S.23)",
     "source": "ari21_vl08, Folie 23 (S.23, Arithmetik)"
   },
   {
@@ -641,11 +641,11 @@
     "topic": "ari21_vl08_gerade_zahlen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Erste Überlegung anhand eines Beispiels (¬B: a ist ungerade): Man wählt a = 5. Welchen Wert hat dann a²?",
+    "question": "Erste Überlegung anhand eines Beispiels ($\\neg B$: $a$ ist ungerade): Man wählt $a = 5$. Welchen Wert hat dann $a^2$?",
     "answer": 25,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Für a = 5 gilt a² = 5² = 25, und 25 ist nicht gerade (= nicht A). 📄 Quelle: ari21_vl08, Folie 23 (S.23)",
+    "explanation": "Für $a = 5$ gilt $a^2 = 5^2 = 25$, und 25 ist nicht gerade (= nicht $A$). 📄 Quelle: ari21_vl08, Folie 23 (S.23)",
     "source": "ari21_vl08, Folie 23 (S.23, Arithmetik)"
   },
   {
@@ -653,18 +653,18 @@
     "topic": "ari21_vl08_gerade_zahlen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Für ein allgemeines ungerades a = 2n+1 wird a² berechnet. Was ergibt sich?",
+    "question": "Für ein allgemeines ungerades $a = 2n+1$ wird $a^2$ berechnet. Was ergibt sich?",
     "options": [
-      "a² = (2n+1)² = 4n² + 4n + 1",
-      "a² ist nicht gerade (ungerade)",
-      "a² = 4n²",
-      "a² ist gerade"
+      "$a^2 = (2n+1)^2 = 4n^2 + 4n + 1$",
+      "$a^2$ ist nicht gerade (ungerade)",
+      "$a^2 = 4n^2$",
+      "$a^2$ ist gerade"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Für ¬B (a ist ungerade), a = 2n+1: a² = (2n+1)² = (2n)² + 2·2n + 1² = 4n² + 4n + 1, das ist nicht gerade (= nicht A). 📄 Quelle: ari21_vl08, Folie 24 (S.24)",
+    "explanation": "Für $\\neg B$ ($a$ ist ungerade), $a = 2n+1$: $a^2 = (2n+1)^2 = (2n)^2 + 2 \\cdot 2n + 1^2 = 4n^2 + 4n + 1$, das ist nicht gerade (= nicht $A$). 📄 Quelle: ari21_vl08, Folie 24 (S.24)",
     "source": "ari21_vl08, Folie 24 (S.24, Arithmetik)"
   },
   {
@@ -672,17 +672,17 @@
     "topic": "ari21_vl08_widerspruchsbeweis",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie schließt der Widerspruchsbeweis der Umkehrung \"Wenn a² gerade ist, dann ist a gerade\" ab?",
+    "question": "Wie schließt der Widerspruchsbeweis der Umkehrung \"Wenn $a^2$ gerade ist, dann ist $a$ gerade\" ab?",
     "options": [
-      "A und ¬B sind nie zugleich wahr, d.h. ¬(A ⇒ B) ist falsch und damit A ⇒ B wahr",
-      "A und ¬B sind immer zugleich wahr, damit ist A ⇒ B falsch",
-      "¬B ist wahr, also ist A ⇒ B falsch",
-      "A ist falsch, damit ist der Satz nicht beweisbar"
+      "$A$ und $\\neg B$ sind nie zugleich wahr, d.h. $\\neg(A \\Rightarrow B)$ ist falsch und damit $A \\Rightarrow B$ wahr",
+      "$A$ und $\\neg B$ sind immer zugleich wahr, damit ist $A \\Rightarrow B$ falsch",
+      "$\\neg B$ ist wahr, also ist $A \\Rightarrow B$ falsch",
+      "$A$ ist falsch, damit ist der Satz nicht beweisbar"
     ],
     "correct": [
       0
     ],
-    "explanation": "Das ist ein Widerspruch zu A (A und ¬B sind nie zugleich wahr), d.h. ¬(A ⇒ B) ist falsch und damit A ⇒ B wahr. 📄 Quelle: ari21_vl08, Folie 24 (S.24)",
+    "explanation": "Das ist ein Widerspruch zu $A$ ($A$ und $\\neg B$ sind nie zugleich wahr), d.h. $\\neg(A \\Rightarrow B)$ ist falsch und damit $A \\Rightarrow B$ wahr. 📄 Quelle: ari21_vl08, Folie 24 (S.24)",
     "source": "ari21_vl08, Folie 24 (S.24, Arithmetik)"
   },
   {
@@ -690,17 +690,17 @@
     "topic": "ari21_vl08_aequivalenz",
     "difficulty": 2,
     "type": "single",
-    "question": "Aus dem Satz \"Wenn a gerade ist, dann ist a² gerade\" (A ⇒ B) und seiner Umkehrung (B ⇒ A) folgt welcher Satz?",
+    "question": "Aus dem Satz \"Wenn $a$ gerade ist, dann ist $a^2$ gerade\" ($A \\Rightarrow B$) und seiner Umkehrung ($B \\Rightarrow A$) folgt welcher Satz?",
     "options": [
-      "Genau dann wenn a gerade ist, ist a² gerade (A ⇔ B)",
-      "Wenn a gerade ist, dann ist a² ungerade",
-      "Nur A ⇒ B gilt",
-      "Nur B ⇒ A gilt"
+      "Genau dann wenn $a$ gerade ist, ist $a^2$ gerade ($A \\Leftrightarrow B$)",
+      "Wenn $a$ gerade ist, dann ist $a^2$ ungerade",
+      "Nur $A \\Rightarrow B$ gilt",
+      "Nur $B \\Rightarrow A$ gilt"
     ],
     "correct": [
       0
     ],
-    "explanation": "Es gelten A ⇒ B ∧ B ⇒ A und damit der Satz (A ⇔ B): Genau dann wenn a gerade ist, dann ist a² gerade. 📄 Quelle: ari21_vl08, Folie 25 (S.25)",
+    "explanation": "Es gelten $A \\Rightarrow B \\wedge B \\Rightarrow A$ und damit der Satz ($A \\Leftrightarrow B$): Genau dann wenn $a$ gerade ist, dann ist $a^2$ gerade. 📄 Quelle: ari21_vl08, Folie 25 (S.25)",
     "source": "ari21_vl08, Folie 25 (S.25, Arithmetik)"
   },
   {
@@ -708,18 +708,18 @@
     "topic": "ari21_vl08_aequivalenz",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche beiden Sätze wurden gezeigt, sodass daraus die Äquivalenz A ⇔ B (a gerade ⇔ a² gerade) folgt?",
+    "question": "Welche beiden Sätze wurden gezeigt, sodass daraus die Äquivalenz $A \\Leftrightarrow B$ ($a$ gerade $\\Leftrightarrow a^2$ gerade) folgt?",
     "options": [
-      "Wenn a gerade ist, dann ist a² gerade (A ⇒ B)",
-      "Wenn a² gerade ist, dann ist a gerade (B ⇒ A)",
-      "Wenn a ungerade ist, dann ist a² gerade",
-      "Wenn a² ungerade ist, dann ist a gerade"
+      "Wenn $a$ gerade ist, dann ist $a^2$ gerade ($A \\Rightarrow B$)",
+      "Wenn $a^2$ gerade ist, dann ist $a$ gerade ($B \\Rightarrow A$)",
+      "Wenn $a$ ungerade ist, dann ist $a^2$ gerade",
+      "Wenn $a^2$ ungerade ist, dann ist $a$ gerade"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Gezeigt wurden der Satz (A ⇒ B) und seine Umkehrung (B ⇒ A); es gelten A ⇒ B ∧ B ⇒ A. 📄 Quelle: ari21_vl08, Folie 25 (S.25)",
+    "explanation": "Gezeigt wurden der Satz ($A \\Rightarrow B$) und seine Umkehrung ($B \\Rightarrow A$); es gelten $A \\Rightarrow B \\wedge B \\Rightarrow A$. 📄 Quelle: ari21_vl08, Folie 25 (S.25)",
     "source": "ari21_vl08, Folie 25 (S.25, Arithmetik)"
   },
   {
@@ -729,7 +729,7 @@
     "type": "multi",
     "question": "Wie lautet der Satz von Euklid über die Menge der Primzahlen?",
     "options": [
-      "Wenn P die Menge der Primzahlen ist, dann ist P unendlich",
+      "Wenn $P$ die Menge der Primzahlen ist, dann ist $P$ unendlich",
       "Es gibt unendlich viele Primzahlen",
       "Es gibt nur endlich viele Primzahlen",
       "Die Menge der Primzahlen ist endlich"
@@ -738,7 +738,7 @@
       0,
       1
     ],
-    "explanation": "Satz (Euklid): Wenn P die Menge der Primzahlen ist, dann ist P unendlich. (Es gibt unendlich viele Primzahlen.) 📄 Quelle: ari21_vl08, Folie 26 (S.26)",
+    "explanation": "Satz (Euklid): Wenn $P$ die Menge der Primzahlen ist, dann ist $P$ unendlich. (Es gibt unendlich viele Primzahlen.) 📄 Quelle: ari21_vl08, Folie 26 (S.26)",
     "source": "ari21_vl08, Folie 26 (S.26, Arithmetik)"
   },
   {
@@ -767,16 +767,16 @@
     "type": "multi",
     "question": "Wie lautet der verneinte Satz von Euklid (Verneinung von \"Die Menge der Primzahlen ist unendlich\")?",
     "options": [
-      "P ist die Menge der Primzahlen und P ist (dennoch) nicht unendlich",
-      "P ist die Menge der Primzahlen und P ist (dennoch) endlich",
-      "P ist die Menge der Primzahlen und P ist unendlich",
-      "P ist keine Menge von Primzahlen"
+      "$P$ ist die Menge der Primzahlen und $P$ ist (dennoch) nicht unendlich",
+      "$P$ ist die Menge der Primzahlen und $P$ ist (dennoch) endlich",
+      "$P$ ist die Menge der Primzahlen und $P$ ist unendlich",
+      "$P$ ist keine Menge von Primzahlen"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Verneinter Satz: P ist die Menge der Primzahlen und P ist (dennoch) nicht unendlich = P ist die Menge der Primzahlen und P ist (dennoch) endlich. 📄 Quelle: ari21_vl08, Folie 28 (S.28)",
+    "explanation": "Verneinter Satz: $P$ ist die Menge der Primzahlen und $P$ ist (dennoch) nicht unendlich = $P$ ist die Menge der Primzahlen und $P$ ist (dennoch) endlich. 📄 Quelle: ari21_vl08, Folie 28 (S.28)",
     "source": "ari21_vl08, Folie 28 (S.28, Arithmetik)"
   },
   {
@@ -784,11 +784,11 @@
     "topic": "ari21_vl08_primzahlen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Beispiel mit der endlichen Menge P = {3; 5}: Man baut a als Produkt aller Primzahlen und addiert 1, also a = 3·5 + 1. Welchen Wert hat a?",
+    "question": "Beispiel mit der endlichen Menge $P = \\{3; 5\\}$: Man baut $a$ als Produkt aller Primzahlen und addiert 1, also $a = 3 \\cdot 5 + 1$. Welchen Wert hat $a$?",
     "answer": 16,
     "tolerance": 0,
     "unit": "",
-    "explanation": "a = 3·5 + 1 = 16. 📄 Quelle: ari21_vl08, Folie 30 (S.30)",
+    "explanation": "$a = 3 \\cdot 5 + 1 = 16$. 📄 Quelle: ari21_vl08, Folie 30 (S.30)",
     "source": "ari21_vl08, Folie 30 (S.30, Arithmetik)"
   },
   {
@@ -796,17 +796,17 @@
     "topic": "ari21_vl08_primzahlen",
     "difficulty": 2,
     "type": "single",
-    "question": "Warum liefert a = 16 (aus P = {3; 5}) einen Widerspruch?",
+    "question": "Warum liefert $a = 16$ (aus $P = \\{3; 5\\}$) einen Widerspruch?",
     "options": [
-      "q = 2 teilt die 16, hat genau zwei Teiler, war aber nicht in der Menge {3; 5}",
-      "16 ist selbst eine Primzahl, die in P fehlt",
+      "$q = 2$ teilt die 16, hat genau zwei Teiler, war aber nicht in der Menge $\\{3; 5\\}$",
+      "16 ist selbst eine Primzahl, die in $P$ fehlt",
       "16 ist durch 3 und 5 teilbar",
-      "16 ist kleiner als alle Primzahlen in P"
+      "16 ist kleiner als alle Primzahlen in $P$"
     ],
     "correct": [
       0
     ],
-    "explanation": "q = 2 teilt die 16, hat genau zwei Teiler, war aber nicht in der Menge der Primzahlen {3; 5} — Widerspruch dazu, dass {3; 5} alle Primzahlen sind. 📄 Quelle: ari21_vl08, Folie 30 (S.30)",
+    "explanation": "$q = 2$ teilt die 16, hat genau zwei Teiler, war aber nicht in der Menge der Primzahlen $\\{3; 5\\}$ — Widerspruch dazu, dass $\\{3; 5\\}$ alle Primzahlen sind. 📄 Quelle: ari21_vl08, Folie 30 (S.30)",
     "source": "ari21_vl08, Folie 30 (S.30, Arithmetik)"
   },
   {
@@ -814,11 +814,11 @@
     "topic": "ari21_vl08_primzahlen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Beispiel mit P = {2; 3; 5; 7}: a = 2·3·5·7 + 1. Welchen Wert hat a?",
+    "question": "Beispiel mit $P = \\{2; 3; 5; 7\\}$: $a = 2 \\cdot 3 \\cdot 5 \\cdot 7 + 1$. Welchen Wert hat $a$?",
     "answer": 211,
     "tolerance": 0,
     "unit": "",
-    "explanation": "a = 2·3·5·7 + 1 = 211 (Primzahl). 📄 Quelle: ari21_vl08, Folie 31 (S.31)",
+    "explanation": "$a = 2 \\cdot 3 \\cdot 5 \\cdot 7 + 1 = 211$ (Primzahl). 📄 Quelle: ari21_vl08, Folie 31 (S.31)",
     "source": "ari21_vl08, Folie 31 (S.31, Arithmetik)"
   },
   {
@@ -826,17 +826,17 @@
     "topic": "ari21_vl08_primzahlen",
     "difficulty": 2,
     "type": "single",
-    "question": "Warum liefert a = 211 (aus P = {2; 3; 5; 7}) einen Widerspruch?",
+    "question": "Warum liefert $a = 211$ (aus $P = \\{2; 3; 5; 7\\}$) einen Widerspruch?",
     "options": [
-      "211 ist selbst eine Primzahl und taucht in P nicht auf",
+      "211 ist selbst eine Primzahl und taucht in $P$ nicht auf",
       "211 ist durch 2, 3, 5 und 7 teilbar",
       "211 ist keine natürliche Zahl",
-      "211 ist gleich 2·3·5·7"
+      "211 ist gleich $2 \\cdot 3 \\cdot 5 \\cdot 7$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Widerspruch dazu, dass {2, 3, 5, 7} alle Primzahlen sind, denn auch 211 ist Primzahl und taucht in P nicht auf. 📄 Quelle: ari21_vl08, Folie 31 (S.31)",
+    "explanation": "Widerspruch dazu, dass $\\{2, 3, 5, 7\\}$ alle Primzahlen sind, denn auch 211 ist Primzahl und taucht in $P$ nicht auf. 📄 Quelle: ari21_vl08, Folie 31 (S.31)",
     "source": "ari21_vl08, Folie 31 (S.31, Arithmetik)"
   },
   {
@@ -844,18 +844,18 @@
     "topic": "ari21_vl08_primzahlen",
     "difficulty": 3,
     "type": "multi",
-    "question": "Im allgemeinen Beweis (Euklid) bildet man a = p₁·…·pₙ + 1. Welche Fälle werden unterschieden?",
+    "question": "Im allgemeinen Beweis (Euklid) bildet man $a = p_1 \\cdot \\dots \\cdot p_n + 1$. Welche Fälle werden unterschieden?",
     "options": [
-      "1. Fall: a könnte eine neue Primzahl sein (Widerspruch zum verneinten Satz)",
-      "2. Fall: Wenn a keine Primzahl ist, lässt sich a durch eine Primzahl q teilen",
-      "1. Fall: a ist immer durch p₁ teilbar",
-      "2. Fall: a ist stets gerade"
+      "1. Fall: $a$ könnte eine neue Primzahl sein (Widerspruch zum verneinten Satz)",
+      "2. Fall: Wenn $a$ keine Primzahl ist, lässt sich $a$ durch eine Primzahl $q$ teilen",
+      "1. Fall: $a$ ist immer durch $p_1$ teilbar",
+      "2. Fall: $a$ ist stets gerade"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "1. Fall: a könnte eine neue Primzahl sein (Widerspruch zum verneinten Satz). 2. Fall: Wenn a keine Primzahl ist, lässt sich a durch eine Primzahl q teilen. 📄 Quelle: ari21_vl08, Folie 32 (S.32)",
+    "explanation": "1. Fall: $a$ könnte eine neue Primzahl sein (Widerspruch zum verneinten Satz). 2. Fall: Wenn $a$ keine Primzahl ist, lässt sich $a$ durch eine Primzahl $q$ teilen. 📄 Quelle: ari21_vl08, Folie 32 (S.32)",
     "source": "ari21_vl08, Folie 32 (S.32, Arithmetik)"
   },
   {
@@ -863,17 +863,17 @@
     "topic": "ari21_vl08_widerspruchsbeweis",
     "difficulty": 2,
     "type": "single",
-    "question": "Welche zu \"A ⇒ B\" gleichwertige Umformung gibt es?",
+    "question": "Welche zu \"$A \\Rightarrow B$\" gleichwertige Umformung gibt es?",
     "options": [
-      "Die Kontraposition ¬B ⇒ ¬A",
-      "Die Umkehrung B ⇒ A",
-      "Die Verneinung ¬A ⇒ ¬B",
-      "Die Konjunktion A ∧ B"
+      "Die Kontraposition $\\neg B \\Rightarrow \\neg A$",
+      "Die Umkehrung $B \\Rightarrow A$",
+      "Die Verneinung $\\neg A \\Rightarrow \\neg B$",
+      "Die Konjunktion $A \\wedge B$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie nennt die gleichwertige Kontraposition (A ⇒ B ist gleichwertig zu ¬B ⇒ ¬A). 📄 Quelle: ari21_vl08, Folie 32 (S.32)",
+    "explanation": "Die Folie nennt die gleichwertige Kontraposition ($A \\Rightarrow B$ ist gleichwertig zu $\\neg B \\Rightarrow \\neg A$). 📄 Quelle: ari21_vl08, Folie 32 (S.32)",
     "source": "ari21_vl08, Folie 32 (S.32, Arithmetik)"
   },
   {
@@ -883,16 +883,16 @@
     "type": "multi",
     "question": "Welches Ergebnis wurde zuvor bewiesen und im allgemeinen Beweis verwendet?",
     "options": [
-      "Wenn q teilt p₁·…·pₙ und q teilt (p₁·…·pₙ + c), dann teilt q auch c",
-      "Wenn q nicht c (=1) teilt, dann teilt q nicht p₁·…·pₙ oder p₁·…·pₙ + 1",
-      "Wenn q das Produkt p₁·…·pₙ teilt, dann teilt q immer 1",
-      "q teilt jede natürliche Zahl"
+      "Wenn $q$ teilt $p_1 \\cdot \\dots \\cdot p_n$ und $q$ teilt $(p_1 \\cdot \\dots \\cdot p_n + c)$, dann teilt $q$ auch $c$",
+      "Wenn $q$ nicht $c$ ($=1$) teilt, dann teilt $q$ nicht $p_1 \\cdot \\dots \\cdot p_n$ oder $p_1 \\cdot \\dots \\cdot p_n + 1$",
+      "Wenn $q$ das Produkt $p_1 \\cdot \\dots \\cdot p_n$ teilt, dann teilt $q$ immer 1",
+      "$q$ teilt jede natürliche Zahl"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Bewiesen: Wenn q teilt p₁·…·pₙ und q teilt (p₁·…·pₙ + c), dann q teilt c; per Kontraposition: Wenn q nicht c (=1) teilt, dann teilt q nicht p₁·…·pₙ oder p₁·…·pₙ + 1. 📄 Quelle: ari21_vl08, Folie 32 (S.32)",
+    "explanation": "Bewiesen: Wenn $q$ teilt $p_1 \\cdot \\dots \\cdot p_n$ und $q$ teilt $(p_1 \\cdot \\dots \\cdot p_n + c)$, dann $q$ teilt $c$; per Kontraposition: Wenn $q$ nicht $c$ ($=1$) teilt, dann teilt $q$ nicht $p_1 \\cdot \\dots \\cdot p_n$ oder $p_1 \\cdot \\dots \\cdot p_n + 1$. 📄 Quelle: ari21_vl08, Folie 32 (S.32)",
     "source": "ari21_vl08, Folie 32 (S.32, Arithmetik)"
   },
   {
@@ -902,15 +902,15 @@
     "type": "single",
     "question": "Wie ergibt sich im allgemeinen Beweis (2. Fall) der Widerspruch zum verneinten Satz?",
     "options": [
-      "Da q die Zahl a = p₁·…·pₙ + 1 teilt, teilt q nicht p₁·…·pₙ und kann keine der Zahlen p₁, …, pₙ sein",
-      "q teilt sowohl a als auch alle p₁, …, pₙ",
-      "q ist gleich einer der Zahlen p₁, …, pₙ",
-      "q teilt 1, also ist q selbst prim"
+      "Da $q$ die Zahl $a = p_1 \\cdot \\dots \\cdot p_n + 1$ teilt, teilt $q$ nicht $p_1 \\cdot \\dots \\cdot p_n$ und kann keine der Zahlen $p_1, \\dots, p_n$ sein",
+      "$q$ teilt sowohl $a$ als auch alle $p_1, \\dots, p_n$",
+      "$q$ ist gleich einer der Zahlen $p_1, \\dots, p_n$",
+      "$q$ teilt 1, also ist $q$ selbst prim"
     ],
     "correct": [
       0
     ],
-    "explanation": "Da q die Zahl a = p₁·…·pₙ + 1 teilt (weil a keine Primzahl ist), teilt q also p₁·…·pₙ nicht und kann damit keine der Zahlen p₁, …, pₙ sein — Widerspruch zum verneinten Satz. 📄 Quelle: ari21_vl08, Folie 32 (S.32)",
+    "explanation": "Da $q$ die Zahl $a = p_1 \\cdot \\dots \\cdot p_n + 1$ teilt (weil $a$ keine Primzahl ist), teilt $q$ also $p_1 \\cdot \\dots \\cdot p_n$ nicht und kann damit keine der Zahlen $p_1, \\dots, p_n$ sein — Widerspruch zum verneinten Satz. 📄 Quelle: ari21_vl08, Folie 32 (S.32)",
     "source": "ari21_vl08, Folie 32 (S.32, Arithmetik)"
   },
   {
@@ -920,17 +920,17 @@
     "type": "multi",
     "question": "Welche Aussagen zur Logik des Widerspruchsbeweises von Euklid sind korrekt?",
     "options": [
-      "Ist ein Satz (A ⇒ B) falsch, ist dessen Verneinung ¬(A ⇒ B) wahr.",
-      "Wenn der verneinte Satz ¬(A ⇒ B) falsch ist, ist dessen Verneinung ¬(¬(A ⇒ B)), also A ⇒ B, wahr.",
+      "Ist ein Satz ($A \\Rightarrow B$) falsch, ist dessen Verneinung $\\neg(A \\Rightarrow B)$ wahr.",
+      "Wenn der verneinte Satz $\\neg(A \\Rightarrow B)$ falsch ist, ist dessen Verneinung $\\neg(\\neg(A \\Rightarrow B))$, also $A \\Rightarrow B$, wahr.",
       "Der verneinte Satz führt immer zum Widerspruch.",
-      "Ist ein Satz (A ⇒ B) falsch, ist auch dessen Verneinung ¬(A ⇒ B) falsch."
+      "Ist ein Satz ($A \\Rightarrow B$) falsch, ist auch dessen Verneinung $\\neg(A \\Rightarrow B)$ falsch."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Folie 33 hält fest: Ist (A ⇒ B) falsch, ist ¬(A ⇒ B) wahr; ist umgekehrt der verneinte Satz ¬(A ⇒ B) falsch, so ist ¬(¬(A ⇒ B)), also A ⇒ B, wahr. Der verneinte Satz (P endlich) führt immer zum Widerspruch. Die letzte Option verdreht dies. 📄 Quelle: ari21_vl08, Folie 33 (S.33)",
+    "explanation": "Folie 33 hält fest: Ist ($A \\Rightarrow B$) falsch, ist $\\neg(A \\Rightarrow B)$ wahr; ist umgekehrt der verneinte Satz $\\neg(A \\Rightarrow B)$ falsch, so ist $\\neg(\\neg(A \\Rightarrow B))$, also $A \\Rightarrow B$, wahr. Der verneinte Satz ($P$ endlich) führt immer zum Widerspruch. Die letzte Option verdreht dies. 📄 Quelle: ari21_vl08, Folie 33 (S.33)",
     "source": "ari21_vl08, Folie 33 (S.33, Berühmter Widerspruchsbeweis)"
   },
   {
@@ -940,7 +940,7 @@
     "type": "multi",
     "question": "Wie lautet der durch den berühmten Widerspruchsbeweis bestätigte Satz (Euklid)?",
     "options": [
-      "Wenn P die Menge der Primzahlen ist, dann ist P unendlich.",
+      "Wenn $P$ die Menge der Primzahlen ist, dann ist $P$ unendlich.",
       "Es gibt unendlich viele Primzahlen.",
       "Die Menge der Primzahlen ist endlich.",
       "Es gibt eine größte Primzahl."
@@ -949,7 +949,7 @@
       0,
       1
     ],
-    "explanation": "Der Satz auf Folie 33 lautet: 'Wenn P die Menge der Primzahlen ist, dann ist P unendlich. (Es gibt unendlich viele Primzahlen.)' Die endliche Menge bzw. eine größte Primzahl gehören zum widerlegten verneinten Satz. 📄 Quelle: ari21_vl08, Folie 33 (S.33)",
+    "explanation": "Der Satz auf Folie 33 lautet: 'Wenn $P$ die Menge der Primzahlen ist, dann ist $P$ unendlich. (Es gibt unendlich viele Primzahlen.)' Die endliche Menge bzw. eine größte Primzahl gehören zum widerlegten verneinten Satz. 📄 Quelle: ari21_vl08, Folie 33 (S.33)",
     "source": "ari21_vl08, Folie 33 (S.33, Berühmter Widerspruchsbeweis)"
   },
   {
@@ -957,11 +957,11 @@
     "topic": "ari21_vl08_euklid_primzahlen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Womit erzeugt man den Widerspruch zur Annahme, die Menge P der Primzahlen sei endlich?",
+    "question": "Womit erzeugt man den Widerspruch zur Annahme, die Menge $P$ der Primzahlen sei endlich?",
     "options": [
-      "Mit einer Zahl, die entweder selbst Primzahl ist oder durch eine neue (nicht in P enthaltene) Primzahl teilbar ist.",
+      "Mit einer Zahl, die entweder selbst Primzahl ist oder durch eine neue (nicht in $P$ enthaltene) Primzahl teilbar ist.",
       "Mit einer Zahl, die keine Teiler besitzt.",
-      "Mit der Summe aller Elemente von P.",
+      "Mit der Summe aller Elemente von $P$.",
       "Mit dem kleinsten gemeinsamen Vielfachen von 2 und 3."
     ],
     "correct": [
@@ -977,16 +977,16 @@
     "type": "multi",
     "question": "Welche Voraussetzung und welche Behauptung gehören zum Fundamentalsatz der Arithmetik?",
     "options": [
-      "Voraussetzung: n ist eine natürliche Zahl größer 1.",
-      "Behauptung: n lässt sich (bis auf Reihenfolge) eindeutig in Primfaktoren zerlegen.",
-      "Behauptung: n lässt sich auf genau zwei Arten in Primfaktoren zerlegen.",
-      "Voraussetzung: n ist eine beliebige natürliche Zahl (einschließlich 0 und 1)."
+      "Voraussetzung: $n$ ist eine natürliche Zahl größer 1.",
+      "Behauptung: $n$ lässt sich (bis auf Reihenfolge) eindeutig in Primfaktoren zerlegen.",
+      "Behauptung: $n$ lässt sich auf genau zwei Arten in Primfaktoren zerlegen.",
+      "Voraussetzung: $n$ ist eine beliebige natürliche Zahl (einschließlich 0 und 1)."
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Folie 34 (Satz, Fundamentalsatz der Arithmetik): 'Für alle natürlichen Zahlen n gilt: Wenn n eine natürliche Zahl größer 1 ist, dann lässt sich n (bis auf Reihenfolge) eindeutig in Primfaktoren zerlegen.' 📄 Quelle: ari21_vl08, Folie 34 (S.34)",
+    "explanation": "Folie 34 (Satz, Fundamentalsatz der Arithmetik): 'Für alle natürlichen Zahlen $n$ gilt: Wenn $n$ eine natürliche Zahl größer 1 ist, dann lässt sich $n$ (bis auf Reihenfolge) eindeutig in Primfaktoren zerlegen.' 📄 Quelle: ari21_vl08, Folie 34 (S.34)",
     "source": "ari21_vl08, Folie 34 (S.34, Wichtiger Widerspruchsbeweis)"
   },
   {
@@ -996,15 +996,15 @@
     "type": "multi",
     "question": "Welche Formulierung gibt den Fundamentalsatz der Arithmetik korrekt wieder?",
     "options": [
-      "Für alle natürlichen Zahlen n gilt: Wenn n > 1, dann lässt sich n bis auf Reihenfolge eindeutig in Primfaktoren zerlegen.",
-      "Für alle natürlichen Zahlen n gilt: n lässt sich eindeutig als Summe von Primzahlen schreiben.",
+      "Für alle natürlichen Zahlen $n$ gilt: Wenn $n > 1$, dann lässt sich $n$ bis auf Reihenfolge eindeutig in Primfaktoren zerlegen.",
+      "Für alle natürlichen Zahlen $n$ gilt: $n$ lässt sich eindeutig als Summe von Primzahlen schreiben.",
       "Jede natürliche Zahl größer 1 hat unendlich viele Primfaktorzerlegungen.",
       "Jede natürliche Zahl lässt sich eindeutig als Produkt zweier Quadratzahlen schreiben."
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Zerlegung erfolgt in ein Produkt von Primfaktoren, eindeutig 'bis auf die Reihenfolge', und die Voraussetzung ist n > 1. Summen- oder Quadratzahl-Formulierungen sind falsch. 📄 Quelle: ari21_vl08, Folie 34 (S.34)",
+    "explanation": "Die Zerlegung erfolgt in ein Produkt von Primfaktoren, eindeutig 'bis auf die Reihenfolge', und die Voraussetzung ist $n > 1$. Summen- oder Quadratzahl-Formulierungen sind falsch. 📄 Quelle: ari21_vl08, Folie 34 (S.34)",
     "source": "ari21_vl08, Folie 34 (S.34, Wichtiger Widerspruchsbeweis)"
   },
   {
@@ -1014,7 +1014,7 @@
     "type": "multi",
     "question": "Wie lautet die Verneinung des Fundamentalsatzes der Arithmetik?",
     "options": [
-      "Es gibt natürliche Zahlen, für die gilt: n ist eine natürliche Zahl größer 1, und (dennoch) gibt es mindestens zwei Primfaktorzerlegungen für n.",
+      "Es gibt natürliche Zahlen, für die gilt: $n$ ist eine natürliche Zahl größer 1, und (dennoch) gibt es mindestens zwei Primfaktorzerlegungen für $n$.",
       "Für alle natürlichen Zahlen größer 1 gibt es genau eine Primfaktorzerlegung.",
       "Für alle natürlichen Zahlen gibt es keine Primfaktorzerlegung.",
       "Es gibt eine natürliche Zahl größer 1, die sich nicht in Primfaktoren zerlegen lässt."
@@ -1022,7 +1022,7 @@
     "correct": [
       0
     ],
-    "explanation": "Folie 35 (Verneinter Satz): 'Es gibt natürliche Zahlen, für die gilt: n ist eine natürliche Zahl größer 1, und (dennoch) gibt es mindestens zwei Primfaktorzerlegungen für n.' 📄 Quelle: ari21_vl08, Folie 35 (S.35)",
+    "explanation": "Folie 35 (Verneinter Satz): 'Es gibt natürliche Zahlen, für die gilt: $n$ ist eine natürliche Zahl größer 1, und (dennoch) gibt es mindestens zwei Primfaktorzerlegungen für $n$.' 📄 Quelle: ari21_vl08, Folie 35 (S.35)",
     "source": "ari21_vl08, Folie 35 (S.35, Wichtiger Widerspruchsbeweis)"
   },
   {
@@ -1030,11 +1030,11 @@
     "topic": "ari21_vl08_fundamentalsatz",
     "difficulty": 3,
     "type": "multi",
-    "question": "Welche Bausteine treten beim Bilden der Verneinung ¬(A ⇒ B) = A ∧ ¬B des Fundamentalsatzes auf?",
+    "question": "Welche Bausteine treten beim Bilden der Verneinung $\\neg(A \\Rightarrow B) = A \\wedge \\neg B$ des Fundamentalsatzes auf?",
     "options": [
       "Der Existenzquantor ('Es gibt') ersetzt den Allquantor ('Für alle').",
-      "Die Voraussetzung 'n ist eine natürliche Zahl größer 1' bleibt bestehen (A).",
-      "Die Folgerung wird zu 'mindestens zwei Primfaktorzerlegungen' (¬B).",
+      "Die Voraussetzung '$n$ ist eine natürliche Zahl größer 1' bleibt bestehen ($A$).",
+      "Die Folgerung wird zu 'mindestens zwei Primfaktorzerlegungen' ($\\neg B$).",
       "Die Folgerung wird zu 'genau eine Primfaktorzerlegung'."
     ],
     "correct": [
@@ -1042,7 +1042,7 @@
       1,
       2
     ],
-    "explanation": "Bei ¬(A ⇒ B) = A ∧ ¬B wird aus 'Für alle' ein 'Es gibt', A ('n > 1') bleibt erhalten, und die Folgerung wird negiert zu ¬B ('mindestens zwei Primfaktorzerlegungen'). 📄 Quelle: ari21_vl08, Folie 35 (S.35)",
+    "explanation": "Bei $\\neg(A \\Rightarrow B) = A \\wedge \\neg B$ wird aus 'Für alle' ein 'Es gibt', $A$ ('$n > 1$') bleibt erhalten, und die Folgerung wird negiert zu $\\neg B$ ('mindestens zwei Primfaktorzerlegungen'). 📄 Quelle: ari21_vl08, Folie 35 (S.35)",
     "source": "ari21_vl08, Folie 35 (S.35, Wichtiger Widerspruchsbeweis)"
   },
   {
@@ -1050,17 +1050,17 @@
     "topic": "ari21_vl08_eindeutigkeit_pfz",
     "difficulty": 1,
     "type": "multi",
-    "question": "Wie werden die beiden angenommenen Primfaktorzerlegungen einer Zahl n geschrieben?",
+    "question": "Wie werden die beiden angenommenen Primfaktorzerlegungen einer Zahl $n$ geschrieben?",
     "options": [
-      "n = p1·p2·…·pn und n = q1·q2·…·qn",
-      "n = p1 + p2 + … + pn und n = q1 + q2 + … + qn",
-      "n = p1·q1",
-      "n = p1 − q1"
+      "$n = p_1 \\cdot p_2 \\cdot \\dots \\cdot p_n$ und $n = q_1 \\cdot q_2 \\cdot \\dots \\cdot q_n$",
+      "$n = p_1 + p_2 + \\dots + p_n$ und $n = q_1 + q_2 + \\dots + q_n$",
+      "$n = p_1 \\cdot q_1$",
+      "$n = p_1 - q_1$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Folie 36: 'Wir nehmen an, dass es eine Zahl n mit zwei Primfaktorzerlegungen gibt: n = p1·p2·…·pn und n = q1·q2·…·qn.' 📄 Quelle: ari21_vl08, Folie 36 (S.36)",
+    "explanation": "Folie 36: 'Wir nehmen an, dass es eine Zahl $n$ mit zwei Primfaktorzerlegungen gibt: $n = p_1 \\cdot p_2 \\cdot \\dots \\cdot p_n$ und $n = q_1 \\cdot q_2 \\cdot \\dots \\cdot q_n$.' 📄 Quelle: ari21_vl08, Folie 36 (S.36)",
     "source": "ari21_vl08, Folie 36 (S.36, Wichtiger Widerspruchsbeweis)"
   },
   {
@@ -1068,17 +1068,17 @@
     "topic": "ari21_vl08_eindeutigkeit_pfz",
     "difficulty": 2,
     "type": "multi",
-    "question": "Warum muss bei zwei angenommenen Primfaktorzerlegungen von n eines der p verschieden zu einem der q sein?",
+    "question": "Warum muss bei zwei angenommenen Primfaktorzerlegungen von $n$ eines der $p$ verschieden zu einem der $q$ sein?",
     "options": [
       "Damit die beiden Primfaktorzerlegungen nicht gleich sind.",
       "Weil Primzahlen immer paarweise verschieden sind.",
-      "Damit n gerade ist.",
-      "Weil n selbst eine Primzahl sein muss."
+      "Damit $n$ gerade ist.",
+      "Weil $n$ selbst eine Primzahl sein muss."
     ],
     "correct": [
       0
     ],
-    "explanation": "Folie 36: 'Dabei muss eines der p verschieden zu einem der q sein (damit die Primfaktorzerlegungen nicht gleich sind).' 📄 Quelle: ari21_vl08, Folie 36 (S.36)",
+    "explanation": "Folie 36: 'Dabei muss eines der $p$ verschieden zu einem der $q$ sein (damit die Primfaktorzerlegungen nicht gleich sind).' 📄 Quelle: ari21_vl08, Folie 36 (S.36)",
     "source": "ari21_vl08, Folie 36 (S.36, Wichtiger Widerspruchsbeweis)"
   },
   {
@@ -1088,17 +1088,17 @@
     "type": "multi",
     "question": "Welche zusätzlichen Annahmen und Folgerungen werden im Beweis der Eindeutigkeit der Primfaktorzerlegung getroffen?",
     "options": [
-      "n ist die kleinste Zahl mit zwei Primfaktorzerlegungen.",
-      "p1 ist zu allen q verschieden (p1 ≠ q1; p1 ≠ q2 …; p1 ≠ qm).",
-      "Es gilt p1 | q1·q2·…·qm.",
-      "n ist selbst eine Primzahl."
+      "$n$ ist die kleinste Zahl mit zwei Primfaktorzerlegungen.",
+      "$p_1$ ist zu allen $q$ verschieden ($p_1 \\ne q_1$; $p_1 \\ne q_2 \\dots$; $p_1 \\ne q_m$).",
+      "Es gilt $p_1 \\mid q_1 \\cdot q_2 \\cdot \\dots \\cdot q_m$.",
+      "$n$ ist selbst eine Primzahl."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Folie 37: Man nimmt weiter an, dass n die kleinste Zahl mit zwei Primfaktorzerlegungen ist; sei p1 zu allen q verschieden, dann gilt p1 | q1·q2·…·qm mit p1 ≠ q1; p1 ≠ q2 …; p1 ≠ qm. 📄 Quelle: ari21_vl08, Folie 37 (S.37)",
+    "explanation": "Folie 37: Man nimmt weiter an, dass $n$ die kleinste Zahl mit zwei Primfaktorzerlegungen ist; sei $p_1$ zu allen $q$ verschieden, dann gilt $p_1 \\mid q_1 \\cdot q_2 \\cdot \\dots \\cdot q_m$ mit $p_1 \\ne q_1$; $p_1 \\ne q_2 \\dots$; $p_1 \\ne q_m$. 📄 Quelle: ari21_vl08, Folie 37 (S.37)",
     "source": "ari21_vl08, Folie 37 (S.37, Wichtiger Widerspruchsbeweis)"
   },
   {
@@ -1106,17 +1106,17 @@
     "topic": "ari21_vl08_eindeutigkeit_pfz",
     "difficulty": 3,
     "type": "multi",
-    "question": "Wie wird begründet, dass man n als kleinste Zahl mit zwei Primfaktorzerlegungen wählen darf bzw. dass ein p von allen q verschieden sein muss?",
+    "question": "Wie wird begründet, dass man $n$ als kleinste Zahl mit zwei Primfaktorzerlegungen wählen darf bzw. dass ein $p$ von allen $q$ verschieden sein muss?",
     "options": [
-      "Wären die Zerlegungen durch gemeinsame Faktoren teilbar, könnte man n durch diese gleichen Zahlen teilen und erhielte eine kleinere Zahl mit zwei Primfaktorzerlegungen.",
-      "Weil n sonst ungerade wäre.",
-      "Weil p1 sonst keine Primzahl wäre.",
+      "Wären die Zerlegungen durch gemeinsame Faktoren teilbar, könnte man $n$ durch diese gleichen Zahlen teilen und erhielte eine kleinere Zahl mit zwei Primfaktorzerlegungen.",
+      "Weil $n$ sonst ungerade wäre.",
+      "Weil $p_1$ sonst keine Primzahl wäre.",
       "Weil jede Zahl höchstens zwei Primfaktoren hat."
     ],
     "correct": [
       0
     ],
-    "explanation": "Folie 37: 'Sonst könnte man n durch diese gleichen Zahlen teilen. Man hätte dann eine kleinere Zahl als n gefunden, die zwei Primfaktorzerlegungen hat.' 📄 Quelle: ari21_vl08, Folie 37 (S.37)",
+    "explanation": "Folie 37: 'Sonst könnte man $n$ durch diese gleichen Zahlen teilen. Man hätte dann eine kleinere Zahl als $n$ gefunden, die zwei Primfaktorzerlegungen hat.' 📄 Quelle: ari21_vl08, Folie 37 (S.37)",
     "source": "ari21_vl08, Folie 37 (S.37, Wichtiger Widerspruchsbeweis)"
   },
   {
@@ -1124,18 +1124,18 @@
     "topic": "ari21_vl08_eindeutigkeit_pfz",
     "difficulty": 2,
     "type": "multi",
-    "question": "Was gilt für das zu allen q verschiedene p1?",
+    "question": "Was gilt für das zu allen $q$ verschiedene $p_1$?",
     "options": [
-      "p1 | q1·q2·…·qm (p1 teilt das Produkt der q).",
-      "p1 ist von jedem einzelnen qi verschieden (p1 ≠ q1; …; p1 ≠ qm).",
-      "p1 = q1",
-      "p1 teilt n nicht."
+      "$p_1 \\mid q_1 \\cdot q_2 \\cdot \\dots \\cdot q_m$ ($p_1$ teilt das Produkt der $q$).",
+      "$p_1$ ist von jedem einzelnen $q_i$ verschieden ($p_1 \\ne q_1$; $\\dots$; $p_1 \\ne q_m$).",
+      "$p_1 = q_1$",
+      "$p_1$ teilt $n$ nicht."
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Folie 37: p1 | q1·q2·…·qm mit p1 ≠ q1; p1 ≠ q2 …; p1 ≠ qm. p1 teilt also das Produkt der q, ist aber von jedem einzelnen q verschieden. 📄 Quelle: ari21_vl08, Folie 37 (S.37)",
+    "explanation": "Folie 37: $p_1 \\mid q_1 \\cdot q_2 \\cdot \\dots \\cdot q_m$ mit $p_1 \\ne q_1$; $p_1 \\ne q_2 \\dots$; $p_1 \\ne q_m$. $p_1$ teilt also das Produkt der $q$, ist aber von jedem einzelnen $q$ verschieden. 📄 Quelle: ari21_vl08, Folie 37 (S.37)",
     "source": "ari21_vl08, Folie 37 (S.37, Wichtiger Widerspruchsbeweis)"
   },
   {
@@ -1143,17 +1143,17 @@
     "topic": "ari21_vl08_eindeutigkeit_pfz",
     "difficulty": 2,
     "type": "multi",
-    "question": "Wie wird die Hilfszahl n' im Beweis gebildet?",
+    "question": "Wie wird die Hilfszahl $n'$ im Beweis gebildet?",
     "options": [
-      "Falls p1 < q1, bildet man n' := n − p1·(q2·…·qm).",
-      "n' := n + p1·(q2·…·qm)",
-      "n' := n · p1",
-      "n' := q1·q2·…·qm − n"
+      "Falls $p_1 < q_1$, bildet man $n' := n - p_1 \\cdot (q_2 \\cdot \\dots \\cdot q_m)$.",
+      "$n' := n + p_1 \\cdot (q_2 \\cdot \\dots \\cdot q_m)$",
+      "$n' := n \\cdot p_1$",
+      "$n' := q_1 \\cdot q_2 \\cdot \\dots \\cdot q_m - n$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Folie 38: 'Wenn p1 < q1, bildet man n' := n − p1·(q2·…·qm).' 📄 Quelle: ari21_vl08, Folie 38 (S.38)",
+    "explanation": "Folie 38: 'Wenn $p_1 < q_1$, bildet man $n' := n - p_1 \\cdot (q_2 \\cdot \\dots \\cdot q_m)$.' 📄 Quelle: ari21_vl08, Folie 38 (S.38)",
     "source": "ari21_vl08, Folie 38 (S.38, Wichtiger Widerspruchsbeweis)"
   },
   {
@@ -1161,19 +1161,19 @@
     "topic": "ari21_vl08_eindeutigkeit_pfz",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Aussagen zur Hilfszahl n' und zur Beweisstrategie sind korrekt?",
+    "question": "Welche Aussagen zur Hilfszahl $n'$ und zur Beweisstrategie sind korrekt?",
     "options": [
-      "Es gilt n' < n.",
-      "Ziel ist zu zeigen, dass n' auch zwei verschiedene Primfaktorzerlegungen hat.",
-      "Dass p1 | q1·q2·…·qm mit p1 ≠ q1; p1 ≠ q2 …; p1 ≠ qm gilt, ist noch kein Widerspruch.",
-      "n' ist selbst eine Primzahl."
+      "Es gilt $n' < n$.",
+      "Ziel ist zu zeigen, dass $n'$ auch zwei verschiedene Primfaktorzerlegungen hat.",
+      "Dass $p_1 \\mid q_1 \\cdot q_2 \\cdot \\dots \\cdot q_m$ mit $p_1 \\ne q_1$; $p_1 \\ne q_2 \\dots$; $p_1 \\ne q_m$ gilt, ist noch kein Widerspruch.",
+      "$n'$ ist selbst eine Primzahl."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Folie 38: n' < n; es ist 'noch kein Widerspruch'; man will zeigen, dass n' ebenfalls zwei verschiedene Primfaktorzerlegungen hat, was zuvor (Minimalität von n) ausgeschlossen wurde – das wäre der gewünschte Widerspruch. 📄 Quelle: ari21_vl08, Folie 38 (S.38)",
+    "explanation": "Folie 38: $n' < n$; es ist 'noch kein Widerspruch'; man will zeigen, dass $n'$ ebenfalls zwei verschiedene Primfaktorzerlegungen hat, was zuvor (Minimalität von $n$) ausgeschlossen wurde – das wäre der gewünschte Widerspruch. 📄 Quelle: ari21_vl08, Folie 38 (S.38)",
     "source": "ari21_vl08, Folie 38 (S.38, Wichtiger Widerspruchsbeweis)"
   },
   {
@@ -1199,18 +1199,18 @@
     "topic": "ari21_vl08_eindeutigkeit_pfz",
     "difficulty": 3,
     "type": "multi",
-    "question": "Welche Umformungen von n' (= n − p1·(q2·…·qm)) sind korrekt?",
+    "question": "Welche Umformungen von $n'$ ($= n - p_1 \\cdot (q_2 \\cdot \\dots \\cdot q_m)$) sind korrekt?",
     "options": [
-      "n' = n − p1·(q2·…·qm) = p1·…·pn − p1·(q2·…·qm) = p1·(p2·…·pn − q2·…·qm)",
-      "n' = q1·…·qn − p1·(q2·…·qm) = (q1 − p1)·(q2·…·qm)",
-      "n' = p1 + q1",
-      "n' = (q1 + p1)·(q2·…·qm)"
+      "$n' = n - p_1 \\cdot (q_2 \\cdot \\dots \\cdot q_m) = p_1 \\cdot \\dots \\cdot p_n - p_1 \\cdot (q_2 \\cdot \\dots \\cdot q_m) = p_1 \\cdot (p_2 \\cdot \\dots \\cdot p_n - q_2 \\cdot \\dots \\cdot q_m)$",
+      "$n' = q_1 \\cdot \\dots \\cdot q_n - p_1 \\cdot (q_2 \\cdot \\dots \\cdot q_m) = (q_1 - p_1) \\cdot (q_2 \\cdot \\dots \\cdot q_m)$",
+      "$n' = p_1 + q_1$",
+      "$n' = (q_1 + p_1) \\cdot (q_2 \\cdot \\dots \\cdot q_m)$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Folie 39: n' = n − p1·(q2·…·qm) = p1·…·pn − p1·(q2·…·qm) = p1·(p2·…·pn − q2·…·qm) und n' = q1·…·qn − p1·(q2·…·qm) = (q1 − p1)·(q2·…·qm). 📄 Quelle: ari21_vl08, Folie 39 (S.39)",
+    "explanation": "Folie 39: $n' = n - p_1 \\cdot (q_2 \\cdot \\dots \\cdot q_m) = p_1 \\cdot \\dots \\cdot p_n - p_1 \\cdot (q_2 \\cdot \\dots \\cdot q_m) = p_1 \\cdot (p_2 \\cdot \\dots \\cdot p_n - q_2 \\cdot \\dots \\cdot q_m)$ und $n' = q_1 \\cdot \\dots \\cdot q_n - p_1 \\cdot (q_2 \\cdot \\dots \\cdot q_m) = (q_1 - p_1) \\cdot (q_2 \\cdot \\dots \\cdot q_m)$. 📄 Quelle: ari21_vl08, Folie 39 (S.39)",
     "source": "ari21_vl08, Folie 39 (S.39, Wichtiger Widerspruchsbeweis)"
   },
   {
@@ -1218,17 +1218,17 @@
     "topic": "ari21_vl08_eindeutigkeit_pfz",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welcher Faktor wird in der ersten Umformung n' = p1·…·pn − p1·(q2·…·qm) ausgeklammert?",
+    "question": "Welcher Faktor wird in der ersten Umformung $n' = p_1 \\cdot \\dots \\cdot p_n - p_1 \\cdot (q_2 \\cdot \\dots \\cdot q_m)$ ausgeklammert?",
     "options": [
-      "Der Faktor p1: n' = p1·(p2·…·pn − q2·…·qm).",
-      "Der Faktor q1.",
-      "Der Faktor (q1 − p1).",
-      "Der Faktor n."
+      "Der Faktor $p_1$: $n' = p_1 \\cdot (p_2 \\cdot \\dots \\cdot p_n - q_2 \\cdot \\dots \\cdot q_m)$.",
+      "Der Faktor $q_1$.",
+      "Der Faktor $(q_1 - p_1)$.",
+      "Der Faktor $n$."
     ],
     "correct": [
       0
     ],
-    "explanation": "Folie 39 klammert in der 'oberen' Darstellung p1 aus: n' = p1·(p2·…·pn − q2·…·qm). 📄 Quelle: ari21_vl08, Folie 39 (S.39)",
+    "explanation": "Folie 39 klammert in der 'oberen' Darstellung $p_1$ aus: $n' = p_1 \\cdot (p_2 \\cdot \\dots \\cdot p_n - q_2 \\cdot \\dots \\cdot q_m)$. 📄 Quelle: ari21_vl08, Folie 39 (S.39)",
     "source": "ari21_vl08, Folie 39 (S.39, Wichtiger Widerspruchsbeweis)"
   },
   {
@@ -1236,18 +1236,18 @@
     "topic": "ari21_vl08_eindeutigkeit_pfz",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Faktoren enthalten die beiden Darstellungen von n'?",
+    "question": "Welche Faktoren enthalten die beiden Darstellungen von $n'$?",
     "options": [
-      "Die 'obere' Darstellung enthält den Faktor p1.",
-      "Die 'untere' Darstellung enthält den Faktor (q1 − p1).",
-      "Die untere Darstellung enthält den Faktor (q1 + p1).",
-      "Beide Darstellungen enthalten den Faktor q1."
+      "Die 'obere' Darstellung enthält den Faktor $p_1$.",
+      "Die 'untere' Darstellung enthält den Faktor $(q_1 - p_1)$.",
+      "Die untere Darstellung enthält den Faktor $(q_1 + p_1)$.",
+      "Beide Darstellungen enthalten den Faktor $q_1$."
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Folie 40: 'Die obere PFZ enthält den Faktor p1; die untere PFZ enthält den Faktor (q1 − p1).' 📄 Quelle: ari21_vl08, Folie 40 (S.40)",
+    "explanation": "Folie 40: 'Die obere PFZ enthält den Faktor $p_1$; die untere PFZ enthält den Faktor $(q_1 - p_1)$.' 📄 Quelle: ari21_vl08, Folie 40 (S.40)",
     "source": "ari21_vl08, Folie 40 (S.40, Wichtiger Widerspruchsbeweis)"
   },
   {
@@ -1255,17 +1255,17 @@
     "topic": "ari21_vl08_eindeutigkeit_pfz",
     "difficulty": 3,
     "type": "multi",
-    "question": "Warum teilt p1 den Faktor (q1 − p1) nicht?",
+    "question": "Warum teilt $p_1$ den Faktor $(q_1 - p_1)$ nicht?",
     "options": [
-      "Weil p1 sonst auch q1 teilen würde, was bereits ausgeschlossen wurde.",
-      "Weil (q1 − p1) negativ ist.",
-      "Weil p1 keine Primzahl ist.",
-      "Weil q1 − p1 stets gleich 1 ist."
+      "Weil $p_1$ sonst auch $q_1$ teilen würde, was bereits ausgeschlossen wurde.",
+      "Weil $(q_1 - p_1)$ negativ ist.",
+      "Weil $p_1$ keine Primzahl ist.",
+      "Weil $q_1 - p_1$ stets gleich 1 ist."
     ],
     "correct": [
       0
     ],
-    "explanation": "Folie 40: 'aber p1 teilt (q1 − p1) nicht, da p1 sonst auch q1 teilt, was wir bereits ausgeschlossen hatten.' 📄 Quelle: ari21_vl08, Folie 40 (S.40)",
+    "explanation": "Folie 40: 'aber $p_1$ teilt $(q_1 - p_1)$ nicht, da $p_1$ sonst auch $q_1$ teilt, was wir bereits ausgeschlossen hatten.' 📄 Quelle: ari21_vl08, Folie 40 (S.40)",
     "source": "ari21_vl08, Folie 40 (S.40, Wichtiger Widerspruchsbeweis)"
   },
   {
@@ -1273,17 +1273,17 @@
     "topic": "ari21_vl08_eindeutigkeit_pfz",
     "difficulty": 3,
     "type": "multi",
-    "question": "Warum teilt p1 auch den zweiten Faktor (q2·…·qm) der unteren Darstellung nicht?",
+    "question": "Warum teilt $p_1$ auch den zweiten Faktor $(q_2 \\cdot \\dots \\cdot q_m)$ der unteren Darstellung nicht?",
     "options": [
-      "Weil p1 von allen qi verschieden ist (p1 ≠ q1; p1 ≠ q2 …; p1 ≠ qm) und die qi Primzahlen sind.",
-      "Weil q2·…·qm ungerade ist.",
-      "Weil p1 = 1 ist.",
-      "Weil (q2·…·qm) kleiner als p1 ist."
+      "Weil $p_1$ von allen $q_i$ verschieden ist ($p_1 \\ne q_1$; $p_1 \\ne q_2 \\dots$; $p_1 \\ne q_m$) und die $q_i$ Primzahlen sind.",
+      "Weil $q_2 \\cdot \\dots \\cdot q_m$ ungerade ist.",
+      "Weil $p_1 = 1$ ist.",
+      "Weil $(q_2 \\cdot \\dots \\cdot q_m)$ kleiner als $p_1$ ist."
     ],
     "correct": [
       0
     ],
-    "explanation": "Folie 40: p1 teilt (q2·…·qm) nicht, da p1 ≠ q1; p1 ≠ q2 …; p1 ≠ qm (p1 ist von jedem der Primfaktoren q verschieden). 📄 Quelle: ari21_vl08, Folie 40 (S.40)",
+    "explanation": "Folie 40: $p_1$ teilt $(q_2 \\cdot \\dots \\cdot q_m)$ nicht, da $p_1 \\ne q_1$; $p_1 \\ne q_2 \\dots$; $p_1 \\ne q_m$ ($p_1$ ist von jedem der Primfaktoren $q$ verschieden). 📄 Quelle: ari21_vl08, Folie 40 (S.40)",
     "source": "ari21_vl08, Folie 40 (S.40, Wichtiger Widerspruchsbeweis)"
   },
   {
@@ -1293,8 +1293,8 @@
     "type": "multi",
     "question": "Welche Schlussfolgerungen ergeben sich am Ende des Beweises?",
     "options": [
-      "n' hat zwei verschiedene Primfaktorzerlegungen.",
-      "Das steht im Widerspruch zur Annahme (n sei die kleinste Zahl mit zwei Primfaktorzerlegungen).",
+      "$n'$ hat zwei verschiedene Primfaktorzerlegungen.",
+      "Das steht im Widerspruch zur Annahme ($n$ sei die kleinste Zahl mit zwei Primfaktorzerlegungen).",
       "Der verneinte Satz ist also falsch und der Satz damit richtig.",
       "Damit ist der Fundamentalsatz der Arithmetik widerlegt."
     ],
@@ -1303,7 +1303,7 @@
       1,
       2
     ],
-    "explanation": "Folie 41: 'Damit hat n' zwei verschiedene Primfaktorzerlegungen, was im Widerspruch zur Annahme steht. Der verneinte Satz ist also falsch und der Satz damit also richtig.' 📄 Quelle: ari21_vl08, Folie 41 (S.41)",
+    "explanation": "Folie 41: 'Damit hat $n'$ zwei verschiedene Primfaktorzerlegungen, was im Widerspruch zur Annahme steht. Der verneinte Satz ist also falsch und der Satz damit also richtig.' 📄 Quelle: ari21_vl08, Folie 41 (S.41)",
     "source": "ari21_vl08, Folie 41 (S.41, Wichtiger Widerspruchsbeweis)"
   },
   {

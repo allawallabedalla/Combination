@@ -6,16 +6,16 @@
     "type": "multi",
     "question": "Was gilt für das Bündeln von Nüssen in m-Bündeln?",
     "options": [
-      "m ist eine natürliche Zahl",
-      "Kinder lernen in m-Bündeln (mit m = 10, also in Zehnerbündeln) vorwärts und rückwärts zu zählen",
-      "m muss eine Primzahl sein",
-      "m ist zwingend auf den Wert 3 festgelegt"
+      "$m$ ist eine natürliche Zahl",
+      "Kinder lernen in m-Bündeln (mit $m = 10$, also in Zehnerbündeln) vorwärts und rückwärts zu zählen",
+      "$m$ muss eine Primzahl sein",
+      "$m$ ist zwingend auf den Wert 3 festgelegt"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Folie nennt: 'Nüsse in m-Bündeln (wobei m eine natürliche Zahl ist)' und 'Kinder lernen in m-Bündeln (mit m = 10, also in Zehnerbündeln) vorwärts und rückwärts zu zählen.' Eine Primzahl-Bedingung oder eine Festlegung auf 3 wird nicht genannt. 📄 Quelle: ari21_vl03, Folie 7 (S.7)",
+    "explanation": "Die Folie nennt: 'Nüsse in m-Bündeln (wobei $m$ eine natürliche Zahl ist)' und 'Kinder lernen in m-Bündeln (mit $m = 10$, also in Zehnerbündeln) vorwärts und rückwärts zu zählen.' Eine Primzahl-Bedingung oder eine Festlegung auf 3 wird nicht genannt. 📄 Quelle: ari21_vl03, Folie 7 (S.7)",
     "source": "ari21_vl03, Folie 7 (S.7, Erkundung II)"
   },
   {
@@ -23,11 +23,11 @@
     "topic": "ari21_vl03_buendeln",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Mit welchem Wert für m bündeln Kinder in Zehnerbündeln und lernen so, vorwärts und rückwärts zu zählen?",
+    "question": "Mit welchem Wert für $m$ bündeln Kinder in Zehnerbündeln und lernen so, vorwärts und rückwärts zu zählen?",
     "answer": 10,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Folie gibt an: 'Kinder lernen in m-Bündeln (mit m = 10, also in Zehnerbündeln) vorwärts und rückwärts zu zählen.' 📄 Quelle: ari21_vl03, Folie 7 (S.7)",
+    "explanation": "Die Folie gibt an: 'Kinder lernen in m-Bündeln (mit $m = 10$, also in Zehnerbündeln) vorwärts und rückwärts zu zählen.' 📄 Quelle: ari21_vl03, Folie 7 (S.7)",
     "source": "ari21_vl03, Folie 7 (S.7, Erkundung II)"
   },
   {
@@ -37,15 +37,15 @@
     "type": "single",
     "question": "Wie wird die Zahl 17 im Dreier-System (Basis 3) dargestellt?",
     "options": [
-      "(1 2 2)_3",
-      "(2 1 2)_3",
-      "(2 2 1)_3",
-      "(1 1 2 2)_3"
+      "$(1\\,2\\,2)_3$",
+      "$(2\\,1\\,2)_3$",
+      "$(2\\,2\\,1)_3$",
+      "$(1\\,1\\,2\\,2)_3$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie zeigt beim Zählen im Dreier-System die Darstellung (1 2 2)_3. 📄 Quelle: ari21_vl03, Folie 8 (S.8)",
+    "explanation": "Die Folie zeigt beim Zählen im Dreier-System die Darstellung $(1\\,2\\,2)_3$. 📄 Quelle: ari21_vl03, Folie 8 (S.8)",
     "source": "ari21_vl03, Folie 8 (S.8, Erkundung II)"
   },
   {
@@ -56,15 +56,15 @@
     "question": "Welche Aussagen zum Zählen von Nüssen in Dreierbündeln (Dreier-System) sind richtig?",
     "options": [
       "Die Nüsse werden in Dreierbündeln gebündelt und gezählt",
-      "Als Ziffern der dargestellten Zahl (1 2 2)_3 treten die Ziffern 1 und 2 auf",
+      "Als Ziffern der dargestellten Zahl $(1\\,2\\,2)_3$ treten die Ziffern 1 und 2 auf",
       "Es wird im Zweier-System gezählt",
-      "Die dargestellte Zahl lautet (2)_10"
+      "Die dargestellte Zahl lautet $(2)_{10}$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Folie 'Zählen Sie! im Dreier-System' zeigt in Dreierbündeln gebündelte Nüsse und die Darstellung (1 2 2)_3; deren Ziffern sind 1 und 2. Es handelt sich um das Dreier-System, nicht das Zweier-System. 📄 Quelle: ari21_vl03, Folie 8 (S.8)",
+    "explanation": "Die Folie 'Zählen Sie! im Dreier-System' zeigt in Dreierbündeln gebündelte Nüsse und die Darstellung $(1\\,2\\,2)_3$; deren Ziffern sind 1 und 2. Es handelt sich um das Dreier-System, nicht das Zweier-System. 📄 Quelle: ari21_vl03, Folie 8 (S.8)",
     "source": "ari21_vl03, Folie 8 (S.8, Erkundung II)"
   },
   {
@@ -74,16 +74,16 @@
     "type": "multi",
     "question": "Welche Zuordnung von Stellenwert-Ebene und Zehnerpotenz ist im Zehnersystem korrekt?",
     "options": [
-      "Einer-Ebene ↔ 10^0",
-      "Zehner-Ebene ↔ 10^1",
-      "Hunderter-Ebene ↔ 10^3",
-      "Tausender-Ebene ↔ 10^2"
+      "Einer-Ebene ↔ $10^0$",
+      "Zehner-Ebene ↔ $10^1$",
+      "Hunderter-Ebene ↔ $10^3$",
+      "Tausender-Ebene ↔ $10^2$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Tabelle 'Vom Stellenwert zum Zahlsystem: Zehnersystem (Potenzen zur Basis 10)' ordnet zu: Einer-Ebene 10^0, Zehner-Ebene 10^1, Hunderter-Ebene 10^2, Tausender-Ebene 10^3. Damit sind die Zuordnungen Hunderter↔10^3 und Tausender↔10^2 falsch. 📄 Quelle: ari21_vl03, Folie 9 (S.9)",
+    "explanation": "Die Tabelle 'Vom Stellenwert zum Zahlsystem: Zehnersystem (Potenzen zur Basis 10)' ordnet zu: Einer-Ebene $10^0$, Zehner-Ebene $10^1$, Hunderter-Ebene $10^2$, Tausender-Ebene $10^3$. Damit sind die Zuordnungen Hunderter↔$10^3$ und Tausender↔$10^2$ falsch. 📄 Quelle: ari21_vl03, Folie 9 (S.9)",
     "source": "ari21_vl03, Folie 9 (S.9, Erkundung II)"
   },
   {
@@ -93,15 +93,15 @@
     "type": "single",
     "question": "Welche Zehnerpotenz gehört im Zehnersystem zur Hunderter-Ebene?",
     "options": [
-      "10^2",
-      "10^1",
-      "10^0",
-      "10^3"
+      "$10^2$",
+      "$10^1$",
+      "$10^0$",
+      "$10^3$"
     ],
     "correct": [
       0
     ],
-    "explanation": "In der Tabelle des Zehnersystems ist der Hunderter-Ebene die Potenz 10^2 zugeordnet. 📄 Quelle: ari21_vl03, Folie 9 (S.9)",
+    "explanation": "In der Tabelle des Zehnersystems ist der Hunderter-Ebene die Potenz $10^2$ zugeordnet. 📄 Quelle: ari21_vl03, Folie 9 (S.9)",
     "source": "ari21_vl03, Folie 9 (S.9, Erkundung II)"
   },
   {
@@ -111,9 +111,9 @@
     "type": "multi",
     "question": "Welche Aussagen zur Darstellung von 1753 im Zehnersystem sind korrekt?",
     "options": [
-      "Die Einerziffer ist 3 (1753 = 175·10 + 3)",
-      "Die Zehnerziffer ist 5 (175 = 17·10 + 5)",
-      "Die Hunderterziffer ist 7 (17 = 1·10 + 7)",
+      "Die Einerziffer ist 3 ($1753 = 175\\cdot10 + 3$)",
+      "Die Zehnerziffer ist 5 ($175 = 17\\cdot10 + 5$)",
+      "Die Hunderterziffer ist 7 ($17 = 1\\cdot10 + 7$)",
       "Die Tausenderziffer ist 3"
     ],
     "correct": [
@@ -121,7 +121,7 @@
       1,
       2
     ],
-    "explanation": "Die fortgesetzte Division auf der Folie ergibt 1753 = 175·10 + 3, 175 = 17·10 + 5, 17 = 1·10 + 7, 1 = 0·10 + 1. Die Stellenwerttafel liest sich Tausender 1, Hunderter 7, Zehner 5, Einer 3. Die Tausenderziffer ist also 1, nicht 3. 📄 Quelle: ari21_vl03, Folie 10 (S.10)",
+    "explanation": "Die fortgesetzte Division auf der Folie ergibt $1753 = 175\\cdot10 + 3$, $175 = 17\\cdot10 + 5$, $17 = 1\\cdot10 + 7$, $1 = 0\\cdot10 + 1$. Die Stellenwerttafel liest sich Tausender 1, Hunderter 7, Zehner 5, Einer 3. Die Tausenderziffer ist also 1, nicht 3. 📄 Quelle: ari21_vl03, Folie 10 (S.10)",
     "source": "ari21_vl03, Folie 10 (S.10, Erkundung II)"
   },
   {
@@ -173,17 +173,17 @@
     "type": "multi",
     "question": "Welche Zuordnung von Zweierpotenz und Stellenwert ist korrekt?",
     "options": [
-      "2^0 = 1",
-      "2^1 = 2",
-      "2^4 = 16",
-      "2^3 = 6"
+      "$2^0 = 1$",
+      "$2^1 = 2$",
+      "$2^4 = 16$",
+      "$2^3 = 6$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie beschriftet die Stellenwerte mit Zweierpotenzen: 2^0 = 1, 2^1 = 2, 2^2 = 4, 2^3 = 8, 2^4 = 16. Somit ist 2^3 = 6 falsch (2^3 = 8). 📄 Quelle: ari21_vl03, Folie 13 (S.13)",
+    "explanation": "Die Folie beschriftet die Stellenwerte mit Zweierpotenzen: $2^0 = 1$, $2^1 = 2$, $2^2 = 4$, $2^3 = 8$, $2^4 = 16$. Somit ist $2^3 = 6$ falsch ($2^3 = 8$). 📄 Quelle: ari21_vl03, Folie 13 (S.13)",
     "source": "ari21_vl03, Folie 13 (S.13, Erkundung II)"
   },
   {
@@ -191,11 +191,11 @@
     "topic": "ari21_vl03_zweiersystem",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welchen Wert (Stellenwert) hat die Zweierpotenz 2^4?",
+    "question": "Welchen Wert (Stellenwert) hat die Zweierpotenz $2^4$?",
     "answer": 16,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Folie ordnet der Zweierpotenz 2^4 den Stellenwert 16 zu. 📄 Quelle: ari21_vl03, Folie 13 (S.13)",
+    "explanation": "Die Folie ordnet der Zweierpotenz $2^4$ den Stellenwert 16 zu. 📄 Quelle: ari21_vl03, Folie 13 (S.13)",
     "source": "ari21_vl03, Folie 13 (S.13, Erkundung II)"
   },
   {
@@ -207,7 +207,7 @@
     "answer": 100010,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Mit den Stellenwerten der Folie (…, 32, 16, 8, 4, 2, 1) gilt 34 = 32 + 2, also (100010)_2. 📄 Quelle: ari21_vl03, Folie 15 (S.15)",
+    "explanation": "Mit den Stellenwerten der Folie (…, 32, 16, 8, 4, 2, 1) gilt $34 = 32 + 2$, also $(100010)_2$. 📄 Quelle: ari21_vl03, Folie 15 (S.15)",
     "source": "ari21_vl03, Folie 15 (S.15, Erkundung II)"
   },
   {
@@ -226,7 +226,7 @@
       0,
       3
     ],
-    "explanation": "34 = 32 + 2, daher werden die Stellenwerte 32 und 2 benötigt (Zweiersystem: (100010)_2). 16 und 4 werden nicht benötigt. 📄 Quelle: ari21_vl03, Folie 15 (S.15)",
+    "explanation": "$34 = 32 + 2$, daher werden die Stellenwerte 32 und 2 benötigt (Zweiersystem: $(100010)_2$). 16 und 4 werden nicht benötigt. 📄 Quelle: ari21_vl03, Folie 15 (S.15)",
     "source": "ari21_vl03, Folie 15 (S.15, Erkundung II)"
   },
   {
@@ -238,7 +238,7 @@
     "answer": 1000101,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Mit den Stellenwerten der Folie gilt 69 = 64 + 4 + 1, also (1000101)_2. 📄 Quelle: ari21_vl03, Folie 16 (S.16)",
+    "explanation": "Mit den Stellenwerten der Folie gilt $69 = 64 + 4 + 1$, also $(1000101)_2$. 📄 Quelle: ari21_vl03, Folie 16 (S.16)",
     "source": "ari21_vl03, Folie 16 (S.16, Erkundung II)"
   },
   {
@@ -258,7 +258,7 @@
       2,
       3
     ],
-    "explanation": "69 = 64 + 4 + 1, daher werden die Stellenwerte 64, 4 und 1 benötigt (Zweiersystem: (1000101)_2). 32 wird nicht benötigt. 📄 Quelle: ari21_vl03, Folie 16 (S.16)",
+    "explanation": "$69 = 64 + 4 + 1$, daher werden die Stellenwerte 64, 4 und 1 benötigt (Zweiersystem: $(1000101)_2$). 32 wird nicht benötigt. 📄 Quelle: ari21_vl03, Folie 16 (S.16)",
     "source": "ari21_vl03, Folie 16 (S.16, Erkundung II)"
   },
   {
@@ -268,17 +268,17 @@
     "type": "multi",
     "question": "Welche Stellenwert-Potenz-Zuordnung ist beim Aufbau des Zehnersystems korrekt?",
     "options": [
-      "Zehntausender ↔ 10^4",
-      "Tausender ↔ 10^3",
-      "Hunderter ↔ 10^2",
-      "Zehner ↔ 10^2"
+      "Zehntausender ↔ $10^4$",
+      "Tausender ↔ $10^3$",
+      "Hunderter ↔ $10^2$",
+      "Zehner ↔ $10^2$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Tabelle 'Aufbau des Zehnersystems' zeigt: Einer 10^0, Zehner 10^1, Hunderter 10^2, Tausender 10^3, Zehntausender 10^4 (usw). Damit ist Zehner ↔ 10^2 falsch (Zehner ↔ 10^1). 📄 Quelle: ari21_vl03, Folie 17 (S.17)",
+    "explanation": "Die Tabelle 'Aufbau des Zehnersystems' zeigt: Einer $10^0$, Zehner $10^1$, Hunderter $10^2$, Tausender $10^3$, Zehntausender $10^4$ (usw). Damit ist Zehner ↔ $10^2$ falsch (Zehner ↔ $10^1$). 📄 Quelle: ari21_vl03, Folie 17 (S.17)",
     "source": "ari21_vl03, Folie 17 (S.17, Erkundung II)"
   },
   {
@@ -286,11 +286,11 @@
     "topic": "ari21_vl03_stellenwert",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welchen Exponenten hat die Zehnerpotenz, die im Zehnersystem zum Zehntausender gehört (10^?)?",
+    "question": "Welchen Exponenten hat die Zehnerpotenz, die im Zehnersystem zum Zehntausender gehört ($10^?$)?",
     "answer": 4,
     "tolerance": 0,
     "unit": "",
-    "explanation": "In der Tabelle 'Aufbau des Zehnersystems' ist dem Zehntausender die Potenz 10^4 zugeordnet; der Exponent ist 4. 📄 Quelle: ari21_vl03, Folie 17 (S.17)",
+    "explanation": "In der Tabelle 'Aufbau des Zehnersystems' ist dem Zehntausender die Potenz $10^4$ zugeordnet; der Exponent ist 4. 📄 Quelle: ari21_vl03, Folie 17 (S.17)",
     "source": "ari21_vl03, Folie 17 (S.17, Erkundung II)"
   },
   {
@@ -300,17 +300,17 @@
     "type": "multi",
     "question": "Welche Stellenwerte gehören zum Aufbau des Zweiersystems?",
     "options": [
-      "Einer 2^0 = 1",
-      "Achter 2^3 = 8",
-      "32er 2^5 = 32",
-      "Zehner 2^1 = 10"
+      "Einer $2^0 = 1$",
+      "Achter $2^3 = 8$",
+      "32er $2^5 = 32$",
+      "Zehner $2^1 = 10$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie zeigt die Stellenwerte des Zweiersystems als Zweierpotenzen: Einer 2^0=1, Zweier 2^1=2, Vierer 2^2=4, Achter 2^3=8, Sechzehner 2^4=16, 32er 2^5=32. Einen „Zehner 2^1=10“ gibt es nicht. 📄 Quelle: ari21_vl03, Folie 18 (S.18)",
+    "explanation": "Die Folie zeigt die Stellenwerte des Zweiersystems als Zweierpotenzen: Einer $2^0=1$, Zweier $2^1=2$, Vierer $2^2=4$, Achter $2^3=8$, Sechzehner $2^4=16$, 32er $2^5=32$. Einen „Zehner $2^1=10$“ gibt es nicht. 📄 Quelle: ari21_vl03, Folie 18 (S.18)",
     "source": "ari21_vl03, Folie 18 (S.18, Arithmetik – Erkundung II)"
   },
   {
@@ -318,11 +318,11 @@
     "topic": "ari21_vl03_stellenwertsystem",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welchen Stellenwert hat der „Achter“ (2^3) im Aufbau des Zweiersystems?",
+    "question": "Welchen Stellenwert hat der „Achter“ ($2^3$) im Aufbau des Zweiersystems?",
     "answer": 8,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Der Achter entspricht 2^3 = 8. 📄 Quelle: ari21_vl03, Folie 18 (S.18)",
+    "explanation": "Der Achter entspricht $2^3 = 8$. 📄 Quelle: ari21_vl03, Folie 18 (S.18)",
     "source": "ari21_vl03, Folie 18 (S.18, Arithmetik – Erkundung II)"
   },
   {
@@ -332,16 +332,16 @@
     "type": "multi",
     "question": "In welche Stellen der Stellenwerttafel des Zehnersystems wird die Zahl 34 eingetragen?",
     "options": [
-      "Zehner (10^1): 3",
-      "Einer (10^0): 4",
-      "Hunderter (10^2): 3",
-      "Zehner (10^1): 4"
+      "Zehner ($10^1$): 3",
+      "Einer ($10^0$): 4",
+      "Hunderter ($10^2$): 3",
+      "Zehner ($10^1$): 4"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "In der Zehnersystem-Tabelle steht bei 34 die 3 im Zehner (10^1) und die 4 im Einer (10^0). 📄 Quelle: ari21_vl03, Folie 18 (S.18)",
+    "explanation": "In der Zehnersystem-Tabelle steht bei 34 die 3 im Zehner ($10^1$) und die 4 im Einer ($10^0$). 📄 Quelle: ari21_vl03, Folie 18 (S.18)",
     "source": "ari21_vl03, Folie 18 (S.18, Arithmetik – Erkundung II)"
   },
   {
@@ -351,17 +351,17 @@
     "type": "multi",
     "question": "Wie wird die Zahl 34 im Zweiersystem dargestellt?",
     "options": [
-      "34 = 32 + 2",
-      "34 = 2^5 + 2^1",
-      "34 = (100010)_2",
-      "34 = 2^5 + 2^2"
+      "$34 = 32 + 2$",
+      "$34 = 2^5 + 2^1$",
+      "$34 = (100010)_2$",
+      "$34 = 2^5 + 2^2$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie: 34 = 32+2 = 2^5 + 2^1 = (100010)_2 (ausgehend von der größten Zweierpotenz). 📄 Quelle: ari21_vl03, Folie 19 (S.19)",
+    "explanation": "Die Folie: $34 = 32+2 = 2^5 + 2^1 = (100010)_2$ (ausgehend von der größten Zweierpotenz). 📄 Quelle: ari21_vl03, Folie 19 (S.19)",
     "source": "ari21_vl03, Folie 19 (S.19, Arithmetik – Erkundung II)"
   },
   {
@@ -373,7 +373,7 @@
     "answer": 100010,
     "tolerance": 0,
     "unit": "",
-    "explanation": "34 = (100010)_2, denn 34 = 2^5 + 2^1. 📄 Quelle: ari21_vl03, Folie 19 (S.19)",
+    "explanation": "$34 = (100010)_2$, denn $34 = 2^5 + 2^1$. 📄 Quelle: ari21_vl03, Folie 19 (S.19)",
     "source": "ari21_vl03, Folie 19 (S.19, Arithmetik – Erkundung II)"
   },
   {
@@ -385,13 +385,13 @@
     "options": [
       "von der größten Zweierpotenz",
       "von der kleinsten Zweierpotenz",
-      "von 2^0 aufwärts",
+      "von $2^0$ aufwärts",
       "von der größten Zehnerpotenz"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie vermerkt: „ausgehend von der größten Zweierpotenz: 34 = 32+2 = 2^5 + 2^1 = (100010)_2“. 📄 Quelle: ari21_vl03, Folie 19 (S.19)",
+    "explanation": "Die Folie vermerkt: „ausgehend von der größten Zweierpotenz: $34 = 32+2 = 2^5 + 2^1 = (100010)_2$“. 📄 Quelle: ari21_vl03, Folie 19 (S.19)",
     "source": "ari21_vl03, Folie 19 (S.19, Arithmetik – Erkundung II)"
   },
   {
@@ -401,17 +401,17 @@
     "type": "multi",
     "question": "Welche Stellenwerte gehören zum Aufbau des Dreiersystems?",
     "options": [
-      "Neuner 3^2 = 9",
-      "27er 3^3 = 27",
-      "81er 3^4 = 81",
-      "Neuner 3^2 = 6"
+      "Neuner $3^2 = 9$",
+      "27er $3^3 = 27$",
+      "81er $3^4 = 81$",
+      "Neuner $3^2 = 6$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie führt die Stellenwerte als Dreierpotenzen auf: Einer 3^0=1, Dreier 3^1=3, Neuner 3^2=9, 27er 3^3=27, 81er 3^4=81. 📄 Quelle: ari21_vl03, Folie 20 (S.20)",
+    "explanation": "Die Folie führt die Stellenwerte als Dreierpotenzen auf: Einer $3^0=1$, Dreier $3^1=3$, Neuner $3^2=9$, 27er $3^3=27$, 81er $3^4=81$. 📄 Quelle: ari21_vl03, Folie 20 (S.20)",
     "source": "ari21_vl03, Folie 20 (S.20, Arithmetik – Erkundung II)"
   },
   {
@@ -419,11 +419,11 @@
     "topic": "ari21_vl03_dreiersystem",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welchen Stellenwert hat der „27er“ (3^3) im Aufbau des Dreiersystems?",
+    "question": "Welchen Stellenwert hat der „27er“ ($3^3$) im Aufbau des Dreiersystems?",
     "answer": 27,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Der 27er entspricht 3^3 = 27. 📄 Quelle: ari21_vl03, Folie 20 (S.20)",
+    "explanation": "Der 27er entspricht $3^3 = 27$. 📄 Quelle: ari21_vl03, Folie 20 (S.20)",
     "source": "ari21_vl03, Folie 20 (S.20, Arithmetik – Erkundung II)"
   },
   {
@@ -433,17 +433,17 @@
     "type": "multi",
     "question": "Wie wird die Zahl 34 im Dreiersystem dargestellt?",
     "options": [
-      "34 = (1021)_3",
-      "34 = 27 + 2·3 + 1",
-      "34 = 3^3 + 2·3^1 + 3^0",
-      "34 = 3^3 + 3^2 + 1"
+      "$34 = (1021)_3$",
+      "$34 = 27 + 2\\cdot3 + 1$",
+      "$34 = 3^3 + 2\\cdot3^1 + 3^0$",
+      "$34 = 3^3 + 3^2 + 1$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie: „ausgehend von der größten Dreierpotenz: 34 = 27+7 = 27 + 2·3 + 1 = 3^3 + 2·3^1 + 3^0“, also 34 = (1021)_3. 📄 Quelle: ari21_vl03, Folie 21 (S.21)",
+    "explanation": "Die Folie: „ausgehend von der größten Dreierpotenz: $34 = 27+7 = 27 + 2\\cdot3 + 1 = 3^3 + 2\\cdot3^1 + 3^0$“, also $34 = (1021)_3$. 📄 Quelle: ari21_vl03, Folie 21 (S.21)",
     "source": "ari21_vl03, Folie 21 (S.21, Arithmetik – Erkundung II)"
   },
   {
@@ -455,7 +455,7 @@
     "answer": 1021,
     "tolerance": 0,
     "unit": "",
-    "explanation": "34 = (1021)_3, denn 34 = 3^3 + 2·3^1 + 3^0. 📄 Quelle: ari21_vl03, Folie 21 (S.21)",
+    "explanation": "$34 = (1021)_3$, denn $34 = 3^3 + 2\\cdot3^1 + 3^0$. 📄 Quelle: ari21_vl03, Folie 21 (S.21)",
     "source": "ari21_vl03, Folie 21 (S.21, Arithmetik – Erkundung II)"
   },
   {
@@ -467,7 +467,7 @@
     "answer": 1000101,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Folie: 69 = 64+4+1 = 2^6 + 2^2 + 2^0, also (1000101)_2. 📄 Quelle: ari21_vl03, Folie 22 (S.22)",
+    "explanation": "Die Folie: $69 = 64+4+1 = 2^6 + 2^2 + 2^0$, also $(1000101)_2$. 📄 Quelle: ari21_vl03, Folie 22 (S.22)",
     "source": "ari21_vl03, Folie 22 (S.22, Arithmetik – Erkundung II)"
   },
   {
@@ -477,17 +477,17 @@
     "type": "multi",
     "question": "Welche Zerlegung von 69 im Zweiersystem ist korrekt?",
     "options": [
-      "69 = 64 + 4 + 1",
-      "69 = 2^6 + 2^2 + 2^0",
-      "69 = (1000101)_2",
-      "69 = 2^6 + 2^2 + 2^1"
+      "$69 = 64 + 4 + 1$",
+      "$69 = 2^6 + 2^2 + 2^0$",
+      "$69 = (1000101)_2$",
+      "$69 = 2^6 + 2^2 + 2^1$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie: 69 = 64+4+1 = 2^6 + 2^2 + 2^0 = (1000101)_2. 📄 Quelle: ari21_vl03, Folie 22 (S.22)",
+    "explanation": "Die Folie: $69 = 64+4+1 = 2^6 + 2^2 + 2^0 = (1000101)_2$. 📄 Quelle: ari21_vl03, Folie 22 (S.22)",
     "source": "ari21_vl03, Folie 22 (S.22, Arithmetik – Erkundung II)"
   },
   {
@@ -495,11 +495,11 @@
     "topic": "ari21_vl03_zweiersystem",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Was ist (11001)_2 im Zehnersystem?",
+    "question": "Was ist $(11001)_2$ im Zehnersystem?",
     "answer": 25,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Folie rechnet (11001)_2 = 2^4 + 2^3 + 0 + 0 + 2^0 = 16 + 8 + 1 = 25. 📄 Quelle: ari21_vl03, Folie 24 (S.24)",
+    "explanation": "Die Folie rechnet $(11001)_2 = 2^4 + 2^3 + 0 + 0 + 2^0 = 16 + 8 + 1 = 25$. 📄 Quelle: ari21_vl03, Folie 24 (S.24)",
     "source": "ari21_vl03, Folie 24 (S.24, Arithmetik – Erkundung II)"
   },
   {
@@ -507,19 +507,19 @@
     "topic": "ari21_vl03_zweiersystem",
     "difficulty": 2,
     "type": "multi",
-    "question": "Wie berechnet man (11001)_2 im Zehnersystem?",
+    "question": "Wie berechnet man $(11001)_2$ im Zehnersystem?",
     "options": [
-      "2^4 + 2^3 + 2^0",
-      "16 + 8 + 1",
+      "$2^4 + 2^3 + 2^0$",
+      "$16 + 8 + 1$",
       "Ergebnis 25",
-      "2^4 + 2^3 + 2^1"
+      "$2^4 + 2^3 + 2^1$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie: (11001)_2 = 2^4 + 2^3 + 0 + 0 + 2^0 = 16 + 8 + 1 = 25. 📄 Quelle: ari21_vl03, Folie 24 (S.24)",
+    "explanation": "Die Folie: $(11001)_2 = 2^4 + 2^3 + 0 + 0 + 2^0 = 16 + 8 + 1 = 25$. 📄 Quelle: ari21_vl03, Folie 24 (S.24)",
     "source": "ari21_vl03, Folie 24 (S.24, Arithmetik – Erkundung II)"
   },
   {
@@ -527,11 +527,11 @@
     "topic": "ari21_vl03_dreiersystem",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Was ist (11001)_3 im Zehnersystem?",
+    "question": "Was ist $(11001)_3$ im Zehnersystem?",
     "answer": 109,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Folie rechnet (11001)_3 = 3^4 + 3^3 + 0 + 0 + 3^0 = 81 + 27 + 1 = 109. 📄 Quelle: ari21_vl03, Folie 26 (S.26)",
+    "explanation": "Die Folie rechnet $(11001)_3 = 3^4 + 3^3 + 0 + 0 + 3^0 = 81 + 27 + 1 = 109$. 📄 Quelle: ari21_vl03, Folie 26 (S.26)",
     "source": "ari21_vl03, Folie 26 (S.26, Arithmetik – Erkundung II)"
   },
   {
@@ -539,19 +539,19 @@
     "topic": "ari21_vl03_dreiersystem",
     "difficulty": 2,
     "type": "multi",
-    "question": "Wie berechnet man (11001)_3 im Zehnersystem?",
+    "question": "Wie berechnet man $(11001)_3$ im Zehnersystem?",
     "options": [
-      "3^4 + 3^3 + 3^0",
-      "81 + 27 + 1",
+      "$3^4 + 3^3 + 3^0$",
+      "$81 + 27 + 1$",
       "Ergebnis 109",
-      "3^4 + 3^3 + 3^1"
+      "$3^4 + 3^3 + 3^1$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie: (11001)_3 = 3^4 + 3^3 + 0 + 0 + 3^0 = 81 + 27 + 1 = 109. 📄 Quelle: ari21_vl03, Folie 26 (S.26)",
+    "explanation": "Die Folie: $(11001)_3 = 3^4 + 3^3 + 0 + 0 + 3^0 = 81 + 27 + 1 = 109$. 📄 Quelle: ari21_vl03, Folie 26 (S.26)",
     "source": "ari21_vl03, Folie 26 (S.26, Arithmetik – Erkundung II)"
   },
   {
@@ -559,11 +559,11 @@
     "topic": "ari21_vl03_zweiersystem",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Erster Umrechnungsschritt von 1753 ins Zweiersystem: 1753 = 876·2 + r. Wie groß ist der Rest r?",
+    "question": "Erster Umrechnungsschritt von 1753 ins Zweiersystem: $1753 = 876\\cdot2 + r$. Wie groß ist der Rest $r$?",
     "answer": 1,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Folie zeigt 1753 = 876·2 + 1; der eingekreiste Rest (einzeln übrig bleibende Nuss) ist 1. 📄 Quelle: ari21_vl03, Folie 27 (S.27)",
+    "explanation": "Die Folie zeigt $1753 = 876\\cdot2 + 1$; der eingekreiste Rest (einzeln übrig bleibende Nuss) ist 1. 📄 Quelle: ari21_vl03, Folie 27 (S.27)",
     "source": "ari21_vl03, Folie 27 (S.27, Arithmetik – Erkundung II)"
   },
   {
@@ -575,7 +575,7 @@
     "answer": 11011011001,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Folie ergibt aus der fortlaufenden Division durch 2: 1753 = (11011011001)_2. 📄 Quelle: ari21_vl03, Folie 28 (S.28)",
+    "explanation": "Die Folie ergibt aus der fortlaufenden Division durch 2: $1753 = (11011011001)_2$. 📄 Quelle: ari21_vl03, Folie 28 (S.28)",
     "source": "ari21_vl03, Folie 28 (S.28, Arithmetik – Erkundung II)"
   },
   {
@@ -585,17 +585,17 @@
     "type": "multi",
     "question": "Welche der folgenden fortlaufenden Divisionsschritte für die Umwandlung von 1753 ins Zweiersystem sind korrekt?",
     "options": [
-      "1753 = 876·2 + 1",
-      "219 = 109·2 + 1",
-      "27 = 13·2 + 1",
-      "876 = 438·2 + 1"
+      "$1753 = 876\\cdot2 + 1$",
+      "$219 = 109\\cdot2 + 1$",
+      "$27 = 13\\cdot2 + 1$",
+      "$876 = 438\\cdot2 + 1$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie listet u. a. 1753 = 876·2 + 1, 219 = 109·2 + 1, 27 = 13·2 + 1. Der Schritt 876 = 438·2 hat KEINEN Rest (nicht „+1“). 📄 Quelle: ari21_vl03, Folie 28 (S.28)",
+    "explanation": "Die Folie listet u. a. $1753 = 876\\cdot2 + 1$, $219 = 109\\cdot2 + 1$, $27 = 13\\cdot2 + 1$. Der Schritt $876 = 438\\cdot2$ hat KEINEN Rest (nicht „+1“). 📄 Quelle: ari21_vl03, Folie 28 (S.28)",
     "source": "ari21_vl03, Folie 28 (S.28, Arithmetik – Erkundung II)"
   },
   {
@@ -607,7 +607,7 @@
     "answer": 2101221,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Folie ergibt aus der fortlaufenden Division durch 3: 1753 = (2101221)_3. 📄 Quelle: ari21_vl03, Folie 30 (S.30)",
+    "explanation": "Die Folie ergibt aus der fortlaufenden Division durch 3: $1753 = (2101221)_3$. 📄 Quelle: ari21_vl03, Folie 30 (S.30)",
     "source": "ari21_vl03, Folie 30 (S.30, Arithmetik – Erkundung II)"
   },
   {
@@ -617,17 +617,17 @@
     "type": "multi",
     "question": "Welche der folgenden Divisionsschritte für die Umwandlung von 1753 ins Dreiersystem sind korrekt?",
     "options": [
-      "1753 = 584·3 + 1",
-      "584 = 194·3 + 2",
-      "64 = 21·3 + 1",
-      "21 = 7·3 + 1"
+      "$1753 = 584\\cdot3 + 1$",
+      "$584 = 194\\cdot3 + 2$",
+      "$64 = 21\\cdot3 + 1$",
+      "$21 = 7\\cdot3 + 1$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie listet u. a. 1753 = 584·3 + 1, 584 = 194·3 + 2, 64 = 21·3 + 1. Der Schritt 21 = 7·3 hat KEINEN Rest (nicht „+1“). 📄 Quelle: ari21_vl03, Folie 30 (S.30)",
+    "explanation": "Die Folie listet u. a. $1753 = 584\\cdot3 + 1$, $584 = 194\\cdot3 + 2$, $64 = 21\\cdot3 + 1$. Der Schritt $21 = 7\\cdot3$ hat KEINEN Rest (nicht „+1“). 📄 Quelle: ari21_vl03, Folie 30 (S.30)",
     "source": "ari21_vl03, Folie 30 (S.30, Arithmetik – Erkundung II)"
   },
   {
@@ -639,7 +639,7 @@
     "answer": 24003,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Folie ergibt aus der fortlaufenden Division durch 5: 1753 = (24003)_5. 📄 Quelle: ari21_vl03, Folie 32 (S.32)",
+    "explanation": "Die Folie ergibt aus der fortlaufenden Division durch 5: $1753 = (24003)_5$. 📄 Quelle: ari21_vl03, Folie 32 (S.32)",
     "source": "ari21_vl03, Folie 32 (S.32, Arithmetik – Erkundung II)"
   },
   {
@@ -649,17 +649,17 @@
     "type": "multi",
     "question": "Welche Aussagen zur Fünferdarstellung von 1753 sind korrekt?",
     "options": [
-      "1753 = 350·5 + 3",
-      "14 = 2·5 + 4",
-      "1753 = (24003)_5",
-      "1753 = 350·5 + 1"
+      "$1753 = 350\\cdot5 + 3$",
+      "$14 = 2\\cdot5 + 4$",
+      "$1753 = (24003)_5$",
+      "$1753 = 350\\cdot5 + 1$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie: 1753 = 350·5 + 3, … 14 = 2·5 + 4, … Ergebnis (24003)_5. Der erste Rest ist 3, nicht 1. 📄 Quelle: ari21_vl03, Folie 32 (S.32)",
+    "explanation": "Die Folie: $1753 = 350\\cdot5 + 3$, … $14 = 2\\cdot5 + 4$, … Ergebnis $(24003)_5$. Der erste Rest ist 3, nicht 1. 📄 Quelle: ari21_vl03, Folie 32 (S.32)",
     "source": "ari21_vl03, Folie 32 (S.32, Arithmetik – Erkundung II)"
   },
   {
@@ -669,16 +669,16 @@
     "type": "multi",
     "question": "Was besagt der „Satz von der eindeutigen Division mit Rest“?",
     "options": [
-      "Wenn n, m natürliche Zahlen sind, gibt es genau ein Paar natürlicher Zahlen q und r mit n = q·m + r.",
-      "Für den Rest r gilt r < m.",
-      "Für den Rest r gilt r > m.",
-      "Es gibt unendlich viele solche Paare (q, r)."
+      "Wenn $n$, $m$ natürliche Zahlen sind, gibt es genau ein Paar natürlicher Zahlen $q$ und $r$ mit $n = q\\cdot m + r$.",
+      "Für den Rest $r$ gilt $r < m$.",
+      "Für den Rest $r$ gilt $r > m$.",
+      "Es gibt unendlich viele solche Paare $(q, r)$."
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Folie: „Wenn n, m natürliche Zahlen sind, dann gibt es genau ein Paar natürlicher Zahlen q und r (mit 0), so dass n = q·m + r mit r < m gilt.“ (Satz von der eindeutigen Division mit Rest). 📄 Quelle: ari21_vl03, Folie 33 (S.33)",
+    "explanation": "Die Folie: „Wenn $n$, $m$ natürliche Zahlen sind, dann gibt es genau ein Paar natürlicher Zahlen $q$ und $r$ (mit 0), so dass $n = q\\cdot m + r$ mit $r < m$ gilt.“ (Satz von der eindeutigen Division mit Rest). 📄 Quelle: ari21_vl03, Folie 33 (S.33)",
     "source": "ari21_vl03, Folie 33 (S.33, Arithmetik – Erkundung II)"
   },
   {
@@ -688,15 +688,15 @@
     "type": "single",
     "question": "Wie kann man „7 : 2 = 3 Rest 1“ ohne weitere Definition schreiben?",
     "options": [
-      "7 = 3·2 + 1",
-      "7 = 2·3 + 2",
-      "7 = 3·2 + 2",
+      "$7 = 3\\cdot2 + 1$",
+      "$7 = 2\\cdot3 + 2$",
+      "$7 = 3\\cdot2 + 2$",
       "3 Rest 1 = 3·1"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie: „Ohne weitere Definition kann man wie oben schreiben: 7 = 3·2 + 1.“ 📄 Quelle: ari21_vl03, Folie 33 (S.33)",
+    "explanation": "Die Folie: „Ohne weitere Definition kann man wie oben schreiben: $7 = 3\\cdot2 + 1$.“ 📄 Quelle: ari21_vl03, Folie 33 (S.33)",
     "source": "ari21_vl03, Folie 33 (S.33, Arithmetik – Erkundung II)"
   },
   {
@@ -722,19 +722,19 @@
     "topic": "ari21_vl03_b_adisch",
     "difficulty": 2,
     "type": "multi",
-    "question": "Wie lässt sich eine natürliche Zahl n im b-adischen Stellenwertsystem darstellen?",
+    "question": "Wie lässt sich eine natürliche Zahl $n$ im b-adischen Stellenwertsystem darstellen?",
     "options": [
-      "n = a_m·b^m + a_{m-1}·b^{m-1} + … + a_1·b^1 + a_0·b^0",
-      "Für die Ziffern gilt 0 ≤ a_k < b.",
-      "Die a_k sind natürliche Zahlen größer gleich 0 und kleiner als b.",
-      "Für die Ziffern gilt 0 ≤ a_k ≤ b."
+      "$n = a_m\\cdot b^m + a_{m-1}\\cdot b^{m-1} + \\dots + a_1\\cdot b^1 + a_0\\cdot b^0$",
+      "Für die Ziffern gilt $0 \\le a_k < b$.",
+      "Die $a_k$ sind natürliche Zahlen größer gleich 0 und kleiner als $b$.",
+      "Für die Ziffern gilt $0 \\le a_k \\le b$."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie: n = a_m·b^m + a_{m-1}·b^{m-1} + … + a_1·b^1 + a_0·b^0; die a-Zahlen mit Index k sind natürliche Zahlen größer gleich 0 und kleiner als b, also 0 ≤ a_k < b. 📄 Quelle: ari21_vl03, Folie 34 (S.34)",
+    "explanation": "Die Folie: $n = a_m\\cdot b^m + a_{m-1}\\cdot b^{m-1} + \\dots + a_1\\cdot b^1 + a_0\\cdot b^0$; die a-Zahlen mit Index k sind natürliche Zahlen größer gleich 0 und kleiner als $b$, also $0 \\le a_k < b$. 📄 Quelle: ari21_vl03, Folie 34 (S.34)",
     "source": "ari21_vl03, Folie 34 (S.34, Arithmetik – Erkundung II)"
   },
   {
@@ -742,17 +742,17 @@
     "topic": "ari21_vl03_b_adisch",
     "difficulty": 1,
     "type": "single",
-    "question": "Welche Bedingung müssen die Ziffern a_k im b-adischen Stellenwertsystem erfüllen?",
+    "question": "Welche Bedingung müssen die Ziffern $a_k$ im b-adischen Stellenwertsystem erfüllen?",
     "options": [
-      "0 ≤ a_k < b",
-      "0 < a_k < b",
-      "0 ≤ a_k ≤ b",
-      "a_k = b"
+      "$0 \\le a_k < b$",
+      "$0 < a_k < b$",
+      "$0 \\le a_k \\le b$",
+      "$a_k = b$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie: „Dabei sind die a-Zahlen mit Index k natürliche Zahlen größer gleich 0 und kleiner als b, also 0 ≤ a_k < b.“ 📄 Quelle: ari21_vl03, Folie 34 (S.34)",
+    "explanation": "Die Folie: „Dabei sind die a-Zahlen mit Index k natürliche Zahlen größer gleich 0 und kleiner als b, also $0 \\le a_k < b$.“ 📄 Quelle: ari21_vl03, Folie 34 (S.34)",
     "source": "ari21_vl03, Folie 34 (S.34, Arithmetik – Erkundung II)"
   },
   {
@@ -762,17 +762,17 @@
     "type": "multi",
     "question": "Welche Beispiel-Darstellungen der Zahl 1752 werden als Beispiele für ein b-adisches Stellenwertsystem angegeben?",
     "options": [
-      "1752 = 1·10^3 + 7·10^2 + 5·10^1 + 2·10^0",
-      "1752 = 2·3^6 + 1·3^5 + 1·3^3 + 2·3^2 + 2·3^1 + 1·3^0",
+      "$1752 = 1\\cdot10^3 + 7\\cdot10^2 + 5\\cdot10^1 + 2\\cdot10^0$",
+      "$1752 = 2\\cdot3^6 + 1\\cdot3^5 + 1\\cdot3^3 + 2\\cdot3^2 + 2\\cdot3^1 + 1\\cdot3^0$",
       "Die dekadische (10er-)Darstellung ist ein Beispiel für ein b-adisches Stellenwertsystem.",
-      "1752 = 1·2^3 + 7·2^2 + 5·2^1 + 2·2^0"
+      "$1752 = 1\\cdot2^3 + 7\\cdot2^2 + 5\\cdot2^1 + 2\\cdot2^0$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie nennt als Beispiele 1752 = 1·10^3 + 7·10^2 + 5·10^1 + 2·10^0 (dekadisch) und 1752 = 2·3^6 + 1·3^5 + 1·3^3 + 2·3^2 + 2·3^1 + 1·3^0; das dekadische System wird ausdrücklich als Beispiel eines b-adischen Stellenwertsystems genannt. Hinweis: Die auf der Folie angegebene Dreier-Darstellung ist rechnerisch inkonsistent (sie ergibt 1753 statt 1752; korrekt wäre 1752 = 2·3^6 + 1·3^5 + 1·3^3 + 2·3^2 + 2·3^1 + 0·3^0); die Option wird jedoch folientreu wiedergegeben. 📄 Quelle: ari21_vl03, Folie 34 (S.34)",
+    "explanation": "Die Folie nennt als Beispiele $1752 = 1\\cdot10^3 + 7\\cdot10^2 + 5\\cdot10^1 + 2\\cdot10^0$ (dekadisch) und $1752 = 2\\cdot3^6 + 1\\cdot3^5 + 1\\cdot3^3 + 2\\cdot3^2 + 2\\cdot3^1 + 1\\cdot3^0$; das dekadische System wird ausdrücklich als Beispiel eines b-adischen Stellenwertsystems genannt. Hinweis: Die auf der Folie angegebene Dreier-Darstellung ist rechnerisch inkonsistent (sie ergibt 1753 statt 1752; korrekt wäre $1752 = 2\\cdot3^6 + 1\\cdot3^5 + 1\\cdot3^3 + 2\\cdot3^2 + 2\\cdot3^1 + 0\\cdot3^0$); die Option wird jedoch folientreu wiedergegeben. 📄 Quelle: ari21_vl03, Folie 34 (S.34)",
     "source": "ari21_vl03, Folie 34 (S.34, Arithmetik – Erkundung II)"
   },
   {
@@ -782,16 +782,16 @@
     "type": "multi",
     "question": "Welche der folgenden Umrechnungen der Zahlen 543 und 987 ins Dreiersystem sind korrekt?",
     "options": [
-      "543 = (202010)₃",
-      "987 = (1100120)₃",
-      "543 = (1100120)₃",
-      "987 = (202010)₃"
+      "$543 = (202010)_3$",
+      "$987 = (1100120)_3$",
+      "$543 = (1100120)_3$",
+      "$987 = (202010)_3$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Auf der Folie stehen 543 = (202010)₃ und 987 = (1100120)₃; diese werden stellenweise im Dreiersystem addiert. 📄 Quelle: ari21_vl03, Folie 36 (S.36)",
+    "explanation": "Auf der Folie stehen $543 = (202010)_3$ und $987 = (1100120)_3$; diese werden stellenweise im Dreiersystem addiert. 📄 Quelle: ari21_vl03, Folie 36 (S.36)",
     "source": "ari21_vl03, Folie 36 (S.36, Erkundung II – Rechnen in Zahlsystemen)"
   },
   {
@@ -799,11 +799,11 @@
     "topic": "ari21_vl03_stellenwertsysteme",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Die Probe der Addition im Dreiersystem rechnet 2·3⁶ + 2·3³ + 2·3² = 2·729 + 2·27 + 2·9. Welchen Wert im Zehnersystem ergibt sie (= Summe 543 + 987)?",
+    "question": "Die Probe der Addition im Dreiersystem rechnet $2\\cdot3^6 + 2\\cdot3^3 + 2\\cdot3^2 = 2\\cdot729 + 2\\cdot27 + 2\\cdot9$. Welchen Wert im Zehnersystem ergibt sie (= Summe $543 + 987$)?",
     "answer": 1530,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Probe laut Folie: 2·3⁶ + 2·3³ + 2·3² = 2·729 + 2·27 + 2·9 = 1458 + 54 + 18 = 1530, also 543 + 987 = 1530. 📄 Quelle: ari21_vl03, Folie 36 (S.36)",
+    "explanation": "Probe laut Folie: $2\\cdot3^6 + 2\\cdot3^3 + 2\\cdot3^2 = 2\\cdot729 + 2\\cdot27 + 2\\cdot9 = 1458 + 54 + 18 = 1530$, also $543 + 987 = 1530$. 📄 Quelle: ari21_vl03, Folie 36 (S.36)",
     "source": "ari21_vl03, Folie 36 (S.36, Erkundung II – Rechnen in Zahlsystemen)"
   },
   {
@@ -815,7 +815,7 @@
     "answer": 25,
     "tolerance": 0,
     "unit": "",
-    "explanation": "11001₂ = 1·16 + 1·8 + 0·4 + 0·2 + 1·1 = 16 + 8 + 1 = 25. Frage direkt von der Folie. 📄 Quelle: ari21_vl03, Folie 38 (S.38)",
+    "explanation": "$11001_2 = 1\\cdot16 + 1\\cdot8 + 0\\cdot4 + 0\\cdot2 + 1\\cdot1 = 16 + 8 + 1 = 25$. Frage direkt von der Folie. 📄 Quelle: ari21_vl03, Folie 38 (S.38)",
     "source": "ari21_vl03, Folie 38 (S.38, Vertiefung – Dualzahlen)"
   },
   {
@@ -833,7 +833,7 @@
     "correct": [
       0
     ],
-    "explanation": "34 = 32 + 2 = 1·2⁵ + 0·2⁴ + 0·2³ + 0·2² + 1·2¹ + 0·2⁰ = 100010₂. Frage direkt von der Folie. 📄 Quelle: ari21_vl03, Folie 38 (S.38)",
+    "explanation": "$34 = 32 + 2 = 1\\cdot2^5 + 0\\cdot2^4 + 0\\cdot2^3 + 0\\cdot2^2 + 1\\cdot2^1 + 0\\cdot2^0 = 100010_2$. Frage direkt von der Folie. 📄 Quelle: ari21_vl03, Folie 38 (S.38)",
     "source": "ari21_vl03, Folie 38 (S.38, Vertiefung – Dualzahlen)"
   },
   {
@@ -897,11 +897,11 @@
     "topic": "ari21_vl03_vierersystem_addition",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Vierer-System, Addition: Welchen Wert hat (133)₄ im Zehnersystem?",
+    "question": "Vierer-System, Addition: Welchen Wert hat $(133)_4$ im Zehnersystem?",
     "answer": 31,
     "tolerance": 0,
     "unit": "",
-    "explanation": "(133)₄ = 1·4² + 3·4¹ + 3·4⁰ = 16 + 12 + 3 = 31 (Probe auf der Folie). 📄 Quelle: ari21_vl03, Folie 42 (S.42)",
+    "explanation": "$(133)_4 = 1\\cdot4^2 + 3\\cdot4^1 + 3\\cdot4^0 = 16 + 12 + 3 = 31$ (Probe auf der Folie). 📄 Quelle: ari21_vl03, Folie 42 (S.42)",
     "source": "ari21_vl03, Folie 42 (S.42, Vertiefung – Addition im Vierer-System)"
   },
   {
@@ -909,11 +909,11 @@
     "topic": "ari21_vl03_vierersystem_addition",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Vierer-System, Addition: Welchen Wert hat (201)₄ im Zehnersystem?",
+    "question": "Vierer-System, Addition: Welchen Wert hat $(201)_4$ im Zehnersystem?",
     "answer": 33,
     "tolerance": 0,
     "unit": "",
-    "explanation": "(201)₄ = 2·4² + 0·4¹ + 1·4⁰ = 32 + 0 + 1 = 33 (Probe auf der Folie). 📄 Quelle: ari21_vl03, Folie 42 (S.42)",
+    "explanation": "$(201)_4 = 2\\cdot4^2 + 0\\cdot4^1 + 1\\cdot4^0 = 32 + 0 + 1 = 33$ (Probe auf der Folie). 📄 Quelle: ari21_vl03, Folie 42 (S.42)",
     "source": "ari21_vl03, Folie 42 (S.42, Vertiefung – Addition im Vierer-System)"
   },
   {
@@ -921,19 +921,19 @@
     "topic": "ari21_vl03_vierersystem_addition",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Aussagen zur Addition (133)₄ + (201)₄ sind richtig?",
+    "question": "Welche Aussagen zur Addition $(133)_4 + (201)_4$ sind richtig?",
     "options": [
-      "(133)₄ + (201)₄ = (1000)₄",
-      "Zur Probe: 31 + 33 = 64 und 64 = (1000)₄",
-      "64 = 4³ = (1000)₄",
-      "(133)₄ + (201)₄ = (1330)₄"
+      "$(133)_4 + (201)_4 = (1000)_4$",
+      "Zur Probe: $31 + 33 = 64$ und $64 = (1000)_4$",
+      "$64 = 4^3 = (1000)_4$",
+      "$(133)_4 + (201)_4 = (1330)_4$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Schriftliche Addition ergibt (1000)₄; Probe: (133)₄ = 31, (201)₄ = 33, 31 + 33 = 64 = 4³ = (1000)₄. 📄 Quelle: ari21_vl03, Folie 42 (S.42)",
+    "explanation": "Schriftliche Addition ergibt $(1000)_4$; Probe: $(133)_4 = 31$, $(201)_4 = 33$, $31 + 33 = 64 = 4^3 = (1000)_4$. 📄 Quelle: ari21_vl03, Folie 42 (S.42)",
     "source": "ari21_vl03, Folie 42 (S.42, Vertiefung – Addition im Vierer-System)"
   },
   {
@@ -941,7 +941,7 @@
     "topic": "ari21_vl03_vierersystem_subtraktion",
     "difficulty": 3,
     "type": "multi",
-    "question": "Welche Schritte gehören zur Erweiterungstechnik bei der schriftlichen Subtraktion 301₄ − 23₄?",
+    "question": "Welche Schritte gehören zur Erweiterungstechnik bei der schriftlichen Subtraktion $301_4 - 23_4$?",
     "options": [
       "Erweitern des Minuenden um 1 (nächster Stellenwert).",
       "Erweitern des Subtrahenden gleichzeitig um 1.",
@@ -960,11 +960,11 @@
     "topic": "ari21_vl03_vierersystem_subtraktion",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Im Zehnersystem entspricht die Aufgabe 301₄ − 23₄ der Rechnung 49 − 11. Wie lautet das Ergebnis im Zehnersystem?",
+    "question": "Im Zehnersystem entspricht die Aufgabe $301_4 - 23_4$ der Rechnung $49 - 11$. Wie lautet das Ergebnis im Zehnersystem?",
     "answer": 38,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Laut Folie: „Oder Sie übersetzen es ins Zehnersystem: 49 − 11 = 38“. 📄 Quelle: ari21_vl03, Folie 44 (S.44)",
+    "explanation": "Laut Folie: „Oder Sie übersetzen es ins Zehnersystem: $49 - 11 = 38$“. 📄 Quelle: ari21_vl03, Folie 44 (S.44)",
     "source": "ari21_vl03, Folie 44 (S.44, Vertiefung – Subtraktion im Vierer-System)"
   },
   {
@@ -972,19 +972,19 @@
     "topic": "ari21_vl03_vierersystem_subtraktion",
     "difficulty": 2,
     "type": "multi",
-    "question": "Wie lautet das Ergebnis von 301₄ − 23₄ und wie sieht die Probe aus?",
+    "question": "Wie lautet das Ergebnis von $301_4 - 23_4$ und wie sieht die Probe aus?",
     "options": [
-      "301₄ − 23₄ = 212₄",
-      "Probe: 23₄ + 212₄ = 301₄",
-      "Im Zehnersystem: 49 − 11 = 38",
-      "301₄ − 23₄ = 122₄"
+      "$301_4 - 23_4 = 212_4$",
+      "Probe: $23_4 + 212_4 = 301_4$",
+      "Im Zehnersystem: $49 - 11 = 38$",
+      "$301_4 - 23_4 = 122_4$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Schriftliche Subtraktion ergibt 212₄; Probe durch Addition 23₄ + 212₄ = 301₄ bzw. im Zehnersystem 49 − 11 = 38. 📄 Quelle: ari21_vl03, Folie 44 (S.44)",
+    "explanation": "Schriftliche Subtraktion ergibt $212_4$; Probe durch Addition $23_4 + 212_4 = 301_4$ bzw. im Zehnersystem $49 - 11 = 38$. 📄 Quelle: ari21_vl03, Folie 44 (S.44)",
     "source": "ari21_vl03, Folie 44 (S.44, Vertiefung – Subtraktion im Vierer-System)"
   },
   {
@@ -992,11 +992,11 @@
     "topic": "ari21_vl03_vierersystem_multiplikation",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Vierer-System, Multiplikation: Welchen Wert hat (23)₄ im Zehnersystem?",
+    "question": "Vierer-System, Multiplikation: Welchen Wert hat $(23)_4$ im Zehnersystem?",
     "answer": 11,
     "tolerance": 0,
     "unit": "",
-    "explanation": "(23)₄ = 2·4¹ + 3·4⁰ = 8 + 3 = 11 (Probe auf der Folie). 📄 Quelle: ari21_vl03, Folie 46 (S.46)",
+    "explanation": "$(23)_4 = 2\\cdot4^1 + 3\\cdot4^0 = 8 + 3 = 11$ (Probe auf der Folie). 📄 Quelle: ari21_vl03, Folie 46 (S.46)",
     "source": "ari21_vl03, Folie 46 (S.46, Vertiefung – Multiplikation im Vierer-System)"
   },
   {
@@ -1004,11 +1004,11 @@
     "topic": "ari21_vl03_vierersystem_multiplikation",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Vierer-System, Multiplikation: Welchen Wert hat (12)₄ im Zehnersystem?",
+    "question": "Vierer-System, Multiplikation: Welchen Wert hat $(12)_4$ im Zehnersystem?",
     "answer": 6,
     "tolerance": 0,
     "unit": "",
-    "explanation": "(12)₄ = 1·4¹ + 2·4⁰ = 4 + 2 = 6 (Probe auf der Folie). 📄 Quelle: ari21_vl03, Folie 46 (S.46)",
+    "explanation": "$(12)_4 = 1\\cdot4^1 + 2\\cdot4^0 = 4 + 2 = 6$ (Probe auf der Folie). 📄 Quelle: ari21_vl03, Folie 46 (S.46)",
     "source": "ari21_vl03, Folie 46 (S.46, Vertiefung – Multiplikation im Vierer-System)"
   },
   {
@@ -1016,19 +1016,19 @@
     "topic": "ari21_vl03_vierersystem_multiplikation",
     "difficulty": 3,
     "type": "multi",
-    "question": "Welche Aussagen zur Multiplikation (23)₄ · (12)₄ sind richtig?",
+    "question": "Welche Aussagen zur Multiplikation $(23)_4 \\cdot (12)_4$ sind richtig?",
     "options": [
-      "(23)₄ · (12)₄ = (1002)₄",
-      "Zur Probe: 11 · 6 = 66 und 66 = (1002)₄",
+      "$(23)_4 \\cdot (12)_4 = (1002)_4$",
+      "Zur Probe: $11 \\cdot 6 = 66$ und $66 = (1002)_4$",
       "Überträge treten bei Produkten ab 4 auf.",
-      "(23)₄ · (12)₄ = (312)₄"
+      "$(23)_4 \\cdot (12)_4 = (312)_4$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Schriftliche Multiplikation ergibt (1002)₄; Hinweis: „Überträge bei Produkten ab 4!“; Probe: 11 · 6 = 66 = (1002)₄. 📄 Quelle: ari21_vl03, Folie 46 (S.46)",
+    "explanation": "Schriftliche Multiplikation ergibt $(1002)_4$; Hinweis: „Überträge bei Produkten ab 4!“; Probe: $11 \\cdot 6 = 66 = (1002)_4$. 📄 Quelle: ari21_vl03, Folie 46 (S.46)",
     "source": "ari21_vl03, Folie 46 (S.46, Vertiefung – Multiplikation im Vierer-System)"
   },
   {
@@ -1036,19 +1036,19 @@
     "topic": "ari21_vl03_vierersystem_division",
     "difficulty": 3,
     "type": "multi",
-    "question": "Bei der Division 11322₄ : 21₄ werden Vielfache von 21 (im 4er-System) benötigt. Welche Angaben aus der Hilfstabelle sind korrekt?",
+    "question": "Bei der Division $11322_4 : 21_4$ werden Vielfache von 21 (im 4er-System) benötigt. Welche Angaben aus der Hilfstabelle sind korrekt?",
     "options": [
-      "1 · 21 = 21 (im 4er-System)",
-      "2 · 21 = 102 (im 4er-System)",
-      "3 · 21 = 123 (im 4er-System)",
-      "2 · 21 = 42 (im 4er-System)"
+      "$1 \\cdot 21 = 21$ (im 4er-System)",
+      "$2 \\cdot 21 = 102$ (im 4er-System)",
+      "$3 \\cdot 21 = 123$ (im 4er-System)",
+      "$2 \\cdot 21 = 42$ (im 4er-System)"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Hilfstabelle der Folie: 1·21 = 21, 2·21 = 102, 3·21 = 123 (jeweils im 4er-System). 📄 Quelle: ari21_vl03, Folie 48 (S.48)",
+    "explanation": "Hilfstabelle der Folie: $1\\cdot21 = 21$, $2\\cdot21 = 102$, $3\\cdot21 = 123$ (jeweils im 4er-System). 📄 Quelle: ari21_vl03, Folie 48 (S.48)",
     "source": "ari21_vl03, Folie 48 (S.48, Vertiefung – Division im Vierer-System)"
   },
   {
@@ -1056,17 +1056,17 @@
     "topic": "ari21_vl03_vierersystem_division",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lautet das Ergebnis der schriftlichen Division 11322₄ : 21₄ im 4er-System?",
+    "question": "Wie lautet das Ergebnis der schriftlichen Division $11322_4 : 21_4$ im 4er-System?",
     "options": [
-      "222₄",
-      "123₄",
-      "202₄",
-      "231₄"
+      "$222_4$",
+      "$123_4$",
+      "$202_4$",
+      "$231_4$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die schriftliche Division ergibt 11322₄ : 21₄ = 222₄ (Rest 0). 📄 Quelle: ari21_vl03, Folie 48 (S.48)",
+    "explanation": "Die schriftliche Division ergibt $11322_4 : 21_4 = 222_4$ (Rest 0). 📄 Quelle: ari21_vl03, Folie 48 (S.48)",
     "source": "ari21_vl03, Folie 48 (S.48, Vertiefung – Division im Vierer-System)"
   },
   {
@@ -1074,11 +1074,11 @@
     "topic": "ari21_vl03_vierersystem_division",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Vierer-System, Division: Welchen Wert hat (11322)₄ im Zehnersystem?",
+    "question": "Vierer-System, Division: Welchen Wert hat $(11322)_4$ im Zehnersystem?",
     "answer": 378,
     "tolerance": 0,
     "unit": "",
-    "explanation": "(11322)₄ = 1·4⁴ + 1·4³ + 3·4² + 2·4¹ + 2·4⁰ = 256 + 64 + 48 + 8 + 2 = 378 (Probe auf der Folie). 📄 Quelle: ari21_vl03, Folie 49 (S.49)",
+    "explanation": "$(11322)_4 = 1\\cdot4^4 + 1\\cdot4^3 + 3\\cdot4^2 + 2\\cdot4^1 + 2\\cdot4^0 = 256 + 64 + 48 + 8 + 2 = 378$ (Probe auf der Folie). 📄 Quelle: ari21_vl03, Folie 49 (S.49)",
     "source": "ari21_vl03, Folie 49 (S.49, Vertiefung – Division im Vierer-System)"
   },
   {
@@ -1086,11 +1086,11 @@
     "topic": "ari21_vl03_vierersystem_division",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Vierer-System, Division: Welchen Wert hat (21)₄ im Zehnersystem?",
+    "question": "Vierer-System, Division: Welchen Wert hat $(21)_4$ im Zehnersystem?",
     "answer": 9,
     "tolerance": 0,
     "unit": "",
-    "explanation": "(21)₄ = 2·4¹ + 1·4⁰ = 8 + 1 = 9 (Probe auf der Folie). 📄 Quelle: ari21_vl03, Folie 49 (S.49)",
+    "explanation": "$(21)_4 = 2\\cdot4^1 + 1\\cdot4^0 = 8 + 1 = 9$ (Probe auf der Folie). 📄 Quelle: ari21_vl03, Folie 49 (S.49)",
     "source": "ari21_vl03, Folie 49 (S.49, Vertiefung – Division im Vierer-System)"
   },
   {
@@ -1098,18 +1098,18 @@
     "topic": "ari21_vl03_vierersystem_division",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Aussagen zur Probe der Division 11322₄ : 21₄ sind richtig?",
+    "question": "Welche Aussagen zur Probe der Division $11322_4 : 21_4$ sind richtig?",
     "options": [
-      "(11322)₄ = 378 und (21)₄ = 9",
-      "378 : 9 = 42 und 42 = (222)₄",
-      "378 : 9 = 222 im Zehnersystem",
-      "(11322)₄ = 222 im Zehnersystem"
+      "$(11322)_4 = 378$ und $(21)_4 = 9$",
+      "$378 : 9 = 42$ und $42 = (222)_4$",
+      "$378 : 9 = 222$ im Zehnersystem",
+      "$(11322)_4 = 222$ im Zehnersystem"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Probe der Folie: (11322)₄ = 378, (21)₄ = 9, 378 : 9 = 42 = 2·4² + 2·4¹ + 2·4⁰ = (222)₄. 📄 Quelle: ari21_vl03, Folie 49 (S.49)",
+    "explanation": "Probe der Folie: $(11322)_4 = 378$, $(21)_4 = 9$, $378 : 9 = 42 = 2\\cdot4^2 + 2\\cdot4^1 + 2\\cdot4^0 = (222)_4$. 📄 Quelle: ari21_vl03, Folie 49 (S.49)",
     "source": "ari21_vl03, Folie 49 (S.49, Vertiefung – Division im Vierer-System)"
   }
 ]

@@ -1292,17 +1292,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 1,
     "type": "single",
-    "question": "Nach üblicher Konvention: Wie ist die Verkettung S_h ∘ S_g zweier Geradenspiegelungen zu lesen?",
+    "question": "Nach üblicher Konvention: Wie ist die Verkettung $S_h \\circ S_g$ zweier Geradenspiegelungen zu lesen?",
     "options": [
-      "„S_h nach S_g\", d. h. es wird zuerst S_g und dann S_h ausgeführt (analog zu g(f(x)) = g ∘ f)",
-      "„S_g nach S_h\", d. h. zuerst S_h und dann S_g",
+      "„$S_h$ nach $S_g$\", d. h. es wird zuerst $S_g$ und dann $S_h$ ausgeführt (analog zu $g(f(x)) = g \\circ f$)",
+      "„$S_g$ nach $S_h$\", d. h. zuerst $S_h$ und dann $S_g$",
       "Beide Geradenspiegelungen werden gleichzeitig ausgeführt",
       "Die Reihenfolge ist beliebig, da die Verkettung stets kommutativ ist"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie legt als Konvention fest: S_h ∘ S_g bedeutet „S_h nach S_g\" (wie g(f(x)) = g ∘ f), es wird also zuerst S_g und danach S_h angewandt. 📄 Quelle: ari20_vl12, Folie 6 (S.6)",
+    "explanation": "Die Folie legt als Konvention fest: $S_h \\circ S_g$ bedeutet „$S_h$ nach $S_g$\" (wie $g(f(x)) = g \\circ f$), es wird also zuerst $S_g$ und danach $S_h$ angewandt. 📄 Quelle: ari20_vl12, Folie 6 (S.6)",
     "source": "ari20_vl12, Folie 6 (S.6, Geometrie – Verkettung von Geradenspiegelungen)"
   },
   {
@@ -1310,11 +1310,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Aussagen zur Verknüpfung von Abbildungen bzw. zur Schreibweise S_h ∘ S_g treffen zu?",
+    "question": "Welche Aussagen zur Verknüpfung von Abbildungen bzw. zur Schreibweise $S_h \\circ S_g$ treffen zu?",
     "options": [
-      "S_h ∘ S_g bedeutet „S_h nach S_g\"",
-      "Die Schreibweise entspricht der Konvention g(f(x)) = g ∘ f",
-      "Bei S_h ∘ S_g wird zuerst S_h ausgeführt",
+      "$S_h \\circ S_g$ bedeutet „$S_h$ nach $S_g$\"",
+      "Die Schreibweise entspricht der Konvention $g(f(x)) = g \\circ f$",
+      "Bei $S_h \\circ S_g$ wird zuerst $S_h$ ausgeführt",
       "Ganz konkret wird die Verknüpfung zweier Geradenspiegelungen betrachtet"
     ],
     "correct": [
@@ -1322,7 +1322,7 @@ const SAMPLE_QUESTIONS = [
       1,
       3
     ],
-    "explanation": "S_h ∘ S_g heißt „S_h nach S_g\" (wie g(f(x)) = g ∘ f), es wird also zuerst S_g ausgeführt – nicht S_h. Konkret wird die Verknüpfung zweier Geradenspiegelungen untersucht. 📄 Quelle: ari20_vl12, Folie 7 (S.7)",
+    "explanation": "$S_h \\circ S_g$ heißt „$S_h$ nach $S_g$\" (wie $g(f(x)) = g \\circ f$), es wird also zuerst $S_g$ ausgeführt – nicht $S_h$. Konkret wird die Verknüpfung zweier Geradenspiegelungen untersucht. 📄 Quelle: ari20_vl12, Folie 7 (S.7)",
     "source": "ari20_vl12, Folie 7 (S.7, Geometrie – Verkettung von Geradenspiegelungen)"
   },
   {
@@ -1330,19 +1330,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Der Satz lautet: „Für alle Verkettungen zweier Geradenspiegelungen S_g und S_h an den Geraden g und h gilt …\". Welche der folgenden Aussagen gehören zum Satz?",
+    "question": "Der Satz lautet: „Für alle Verkettungen zweier Geradenspiegelungen $S_g$ und $S_h$ an den Geraden $g$ und $h$ gilt …\". Welche der folgenden Aussagen gehören zum Satz?",
     "options": [
-      "Wenn g = h gilt, dann gilt S_h ∘ S_g = id (identische Abbildung)",
-      "Wenn g ∥ h gilt, dann gilt S_h ∘ S_g = V_{2|AB|} (eine Verschiebung)",
-      "Wenn g ∩ h = {S} mit ∠gh = α gilt, dann gilt S_h ∘ S_g = D_{S,2α}",
-      "Wenn g ∥ h gilt, dann gilt S_h ∘ S_g = id (identische Abbildung)"
+      "Wenn $g = h$ gilt, dann gilt $S_h \\circ S_g = \\mathrm{id}$ (identische Abbildung)",
+      "Wenn $g \\parallel h$ gilt, dann gilt $S_h \\circ S_g = V_{2|AB|}$ (eine Verschiebung)",
+      "Wenn $g \\cap h = \\{S\\}$ mit $\\angle gh = \\alpha$ gilt, dann gilt $S_h \\circ S_g = D_{S,2\\alpha}$",
+      "Wenn $g \\parallel h$ gilt, dann gilt $S_h \\circ S_g = \\mathrm{id}$ (identische Abbildung)"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Der Satz unterscheidet drei Fälle: g = h ⇒ id, g ∥ h ⇒ Verschiebung V_{2|AB|}, g ∩ h = {S} mit ∠gh = α ⇒ Drehung D_{S,2α}. Der Fall g ∥ h liefert eine Verschiebung, nicht die Identität. 📄 Quelle: ari20_vl12, Folie 8 (S.8)",
+    "explanation": "Der Satz unterscheidet drei Fälle: $g = h \\Rightarrow \\mathrm{id}$, $g \\parallel h \\Rightarrow$ Verschiebung $V_{2|AB|}$, $g \\cap h = \\{S\\}$ mit $\\angle gh = \\alpha \\Rightarrow$ Drehung $D_{S,2\\alpha}$. Der Fall $g \\parallel h$ liefert eine Verschiebung, nicht die Identität. 📄 Quelle: ari20_vl12, Folie 8 (S.8)",
     "source": "ari20_vl12, Folie 8 (S.8, Geometrie – Verkettung von Geradenspiegelungen)"
   },
   {
@@ -1350,17 +1350,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "single",
-    "question": "Im Fall g ∥ h gilt S_h ∘ S_g = V_{2|AB|}. Welche Eigenschaft hat die Strecke AB laut Satz?",
+    "question": "Im Fall $g \\parallel h$ gilt $S_h \\circ S_g = V_{2|AB|}$. Welche Eigenschaft hat die Strecke $AB$ laut Satz?",
     "options": [
-      "AB steht senkrecht zu g (bzw. h) und reicht von g nach h",
-      "AB verläuft parallel zu g und h",
-      "AB reicht von h nach g und ist halb so lang wie der Geradenabstand",
-      "AB verbindet die beiden Fixpunkte der Spiegelungen"
+      "$AB$ steht senkrecht zu $g$ (bzw. $h$) und reicht von $g$ nach $h$",
+      "$AB$ verläuft parallel zu $g$ und $h$",
+      "$AB$ reicht von $h$ nach $g$ und ist halb so lang wie der Geradenabstand",
+      "$AB$ verbindet die beiden Fixpunkte der Spiegelungen"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Satz präzisiert im Fall g ∥ h: S_h ∘ S_g = V_{2|AB|}, wobei AB senkrecht zu g (bzw. h) steht und von g nach h reicht. 📄 Quelle: ari20_vl12, Folie 8 (S.8)",
+    "explanation": "Der Satz präzisiert im Fall $g \\parallel h$: $S_h \\circ S_g = V_{2|AB|}$, wobei $AB$ senkrecht zu $g$ (bzw. $h$) steht und von $g$ nach $h$ reicht. 📄 Quelle: ari20_vl12, Folie 8 (S.8)",
     "source": "ari20_vl12, Folie 8 (S.8, Geometrie – Verkettung von Geradenspiegelungen)"
   },
   {
@@ -1368,17 +1368,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "single",
-    "question": "Es sei g ∩ h = {S} mit ∠gh = α. Was ergibt die Verkettung S_h ∘ S_g laut Satz?",
+    "question": "Es sei $g \\cap h = \\{S\\}$ mit $\\angle gh = \\alpha$. Was ergibt die Verkettung $S_h \\circ S_g$ laut Satz?",
     "options": [
-      "Die Drehung D_{S,2α}",
-      "Die Drehung D_{S,α}",
-      "Die Verschiebung V_{2α}",
-      "Die identische Abbildung id"
+      "Die Drehung $D_{S,2\\alpha}$",
+      "Die Drehung $D_{S,\\alpha}$",
+      "Die Verschiebung $V_{2\\alpha}$",
+      "Die identische Abbildung $\\mathrm{id}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Schneiden sich g und h im Punkt S unter dem Winkel ∠gh = α, so gilt S_h ∘ S_g = D_{S,2α} – eine Drehung um S mit dem doppelten Winkel. 📄 Quelle: ari20_vl12, Folie 8 (S.8)",
+    "explanation": "Schneiden sich $g$ und $h$ im Punkt $S$ unter dem Winkel $\\angle gh = \\alpha$, so gilt $S_h \\circ S_g = D_{S,2\\alpha}$ – eine Drehung um $S$ mit dem doppelten Winkel. 📄 Quelle: ari20_vl12, Folie 8 (S.8)",
     "source": "ari20_vl12, Folie 8 (S.8, Geometrie – Verkettung von Geradenspiegelungen)"
   },
   {
@@ -1386,19 +1386,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 1,
     "type": "multi",
-    "question": "In welche drei Fälle wird die doppelte Geradenspiegelung an zwei Geraden g und h unterschieden?",
+    "question": "In welche drei Fälle wird die doppelte Geradenspiegelung an zwei Geraden $g$ und $h$ unterschieden?",
     "options": [
-      "g = h",
-      "g ∥ h",
-      "g ∩ h = {S}",
-      "g ⊥ h als eigenständiger vierter Grundfall"
+      "$g = h$",
+      "$g \\parallel h$",
+      "$g \\cap h = \\{S\\}$",
+      "$g \\perp h$ als eigenständiger vierter Grundfall"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Fallunterscheidung erfolgt in die drei Fälle g = h, g ∥ h und g ∩ h = {S}. Der Fall g ⊥ h ist kein eigener Grundfall, sondern ein Sonderfall des Schnittfalls (Fall 3a). 📄 Quelle: ari20_vl12, Folie 9 (S.9)",
+    "explanation": "Die Fallunterscheidung erfolgt in die drei Fälle $g = h$, $g \\parallel h$ und $g \\cap h = \\{S\\}$. Der Fall $g \\perp h$ ist kein eigener Grundfall, sondern ein Sonderfall des Schnittfalls (Fall 3a). 📄 Quelle: ari20_vl12, Folie 9 (S.9)",
     "source": "ari20_vl12, Folie 9 (S.9, Geometrie – Verkettung von Geradenspiegelungen)"
   },
   {
@@ -1406,11 +1406,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "In wie viele Fälle wird die doppelte Geradenspiegelung an den Geraden g und h unterschieden?",
+    "question": "In wie viele Fälle wird die doppelte Geradenspiegelung an den Geraden $g$ und $h$ unterschieden?",
     "answer": 3,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die doppelte Geradenspiegelung wird in drei Fälle unterschieden: g = h, g ∥ h und g ∩ h = {S}. 📄 Quelle: ari20_vl12, Folie 9 (S.9)",
+    "explanation": "Die doppelte Geradenspiegelung wird in drei Fälle unterschieden: $g = h$, $g \\parallel h$ und $g \\cap h = \\{S\\}$. 📄 Quelle: ari20_vl12, Folie 9 (S.9)",
     "source": "ari20_vl12, Folie 9 (S.9, Geometrie – Verkettung von Geradenspiegelungen)"
   },
   {
@@ -1418,17 +1418,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 1,
     "type": "single",
-    "question": "Fall 1: Für g = h – was ergibt die doppelte Geradenspiegelung S_h ∘ S_g?",
+    "question": "Fall 1: Für $g = h$ – was ergibt die doppelte Geradenspiegelung $S_h \\circ S_g$?",
     "options": [
-      "Die identische Abbildung id",
+      "Die identische Abbildung $\\mathrm{id}$",
       "Eine Verschiebung",
-      "Eine Drehung um 2α",
+      "Eine Drehung um $2\\alpha$",
       "Eine Punktspiegelung"
     ],
     "correct": [
       0
     ],
-    "explanation": "Im Fall g = h gilt S_h ∘ S_g = id, also die identische Abbildung. 📄 Quelle: ari20_vl12, Folie 10 (S.10)",
+    "explanation": "Im Fall $g = h$ gilt $S_h \\circ S_g = \\mathrm{id}$, also die identische Abbildung. 📄 Quelle: ari20_vl12, Folie 10 (S.10)",
     "source": "ari20_vl12, Folie 10 (S.10, Geometrie – Verkettung von Geradenspiegelungen)"
   },
   {
@@ -1436,17 +1436,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 1,
     "type": "single",
-    "question": "Für welche Lage der beiden Geraden g und h ergibt die doppelte Geradenspiegelung die identische Abbildung?",
+    "question": "Für welche Lage der beiden Geraden $g$ und $h$ ergibt die doppelte Geradenspiegelung die identische Abbildung?",
     "options": [
-      "g = h",
-      "g ∥ h (mit g ≠ h)",
-      "g ∩ h = {S}",
-      "Für keine Lage von g und h"
+      "$g = h$",
+      "$g \\parallel h$ (mit $g \\ne h$)",
+      "$g \\cap h = \\{S\\}$",
+      "Für keine Lage von $g$ und $h$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Nur für g = h gilt S_h ∘ S_g = id (identische Abbildung). 📄 Quelle: ari20_vl12, Folie 10 (S.10)",
+    "explanation": "Nur für $g = h$ gilt $S_h \\circ S_g = \\mathrm{id}$ (identische Abbildung). 📄 Quelle: ari20_vl12, Folie 10 (S.10)",
     "source": "ari20_vl12, Folie 10 (S.10, Geometrie – Verkettung von Geradenspiegelungen)"
   },
   {
@@ -1454,17 +1454,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "single",
-    "question": "Fall 2: Für g ∥ h ist die doppelte Geradenspiegelung eine Verschiebung. Um welche Weite wird verschoben?",
+    "question": "Fall 2: Für $g \\parallel h$ ist die doppelte Geradenspiegelung eine Verschiebung. Um welche Weite wird verschoben?",
     "options": [
-      "Um den doppelten Abstand der Geraden, 2·d(g;h)",
-      "Um den einfachen Abstand der Geraden, d(g;h)",
-      "Um den halben Abstand der Geraden, ½·d(g;h)",
+      "Um den doppelten Abstand der Geraden, $2\\cdot d(g;h)$",
+      "Um den einfachen Abstand der Geraden, $d(g;h)$",
+      "Um den halben Abstand der Geraden, $\\frac{1}{2}\\cdot d(g;h)$",
       "Um einen von der Lage der Figur abhängigen Betrag"
     ],
     "correct": [
       0
     ],
-    "explanation": "Für g ∥ h ergibt S_h ∘ S_g eine Verschiebung um den doppelten Abstand der Geraden, also 2·d(g;h). 📄 Quelle: ari20_vl12, Folie 11 (S.11)",
+    "explanation": "Für $g \\parallel h$ ergibt $S_h \\circ S_g$ eine Verschiebung um den doppelten Abstand der Geraden, also $2\\cdot d(g;h)$. 📄 Quelle: ari20_vl12, Folie 11 (S.11)",
     "source": "ari20_vl12, Folie 11 (S.11, Geometrie – Verkettung von Geradenspiegelungen)"
   },
   {
@@ -1472,11 +1472,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Die parallelen Geraden g und h haben den Abstand d(g;h) = 4 cm. Um welche Strecke verschiebt die doppelte Geradenspiegelung S_h ∘ S_g (mit g ∥ h)?",
+    "question": "Die parallelen Geraden $g$ und $h$ haben den Abstand $d(g;h) = 4\\,\\text{cm}$. Um welche Strecke verschiebt die doppelte Geradenspiegelung $S_h \\circ S_g$ (mit $g \\parallel h$)?",
     "answer": 8,
     "tolerance": 0,
     "unit": "cm",
-    "explanation": "Bei g ∥ h ist die Verschiebungsweite der doppelte Geradenabstand: 2·d(g;h) = 2·4 cm = 8 cm. 📄 Quelle: ari20_vl12, Folie 11 (S.11)",
+    "explanation": "Bei $g \\parallel h$ ist die Verschiebungsweite der doppelte Geradenabstand: $2\\cdot d(g;h) = 2\\cdot 4\\,\\text{cm} = 8\\,\\text{cm}$. 📄 Quelle: ari20_vl12, Folie 11 (S.11)",
     "source": "ari20_vl12, Folie 11 (S.11, Geometrie – Verkettung von Geradenspiegelungen)"
   },
   {
@@ -1484,19 +1484,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Fall 3: g ∩ h = {S} mit α = ∠(g;h). Welche Aussagen über S_h ∘ S_g = D_{S,2α} treffen zu?",
+    "question": "Fall 3: $g \\cap h = \\{S\\}$ mit $\\alpha = \\angle(g;h)$. Welche Aussagen über $S_h \\circ S_g = D_{S,2\\alpha}$ treffen zu?",
     "options": [
       "Es entsteht eine Drehung",
-      "Das Drehzentrum ist der Schnittpunkt S der Geraden",
-      "Der Drehwinkel beträgt 2α",
-      "Der Drehwinkel beträgt α"
+      "Das Drehzentrum ist der Schnittpunkt $S$ der Geraden",
+      "Der Drehwinkel beträgt $2\\alpha$",
+      "Der Drehwinkel beträgt $\\alpha$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Im Schnittfall entsteht die Drehung D_{S,2α} mit Drehzentrum S (dem Schnittpunkt von g und h) und Drehwinkel 2α = 2·∠(g;h). 📄 Quelle: ari20_vl12, Folie 12 (S.12)",
+    "explanation": "Im Schnittfall entsteht die Drehung $D_{S,2\\alpha}$ mit Drehzentrum $S$ (dem Schnittpunkt von $g$ und $h$) und Drehwinkel $2\\alpha = 2\\cdot\\angle(g;h)$. 📄 Quelle: ari20_vl12, Folie 12 (S.12)",
     "source": "ari20_vl12, Folie 12 (S.12, Geometrie – Verkettung von Geradenspiegelungen)"
   },
   {
@@ -1504,11 +1504,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Die Geraden g und h schneiden sich in S unter dem Winkel α = ∠(g;h) = 35°. Welchen Drehwinkel hat die Drehung D_{S,2α} = S_h ∘ S_g?",
+    "question": "Die Geraden $g$ und $h$ schneiden sich in $S$ unter dem Winkel $\\alpha = \\angle(g;h) = 35^\\circ$. Welchen Drehwinkel hat die Drehung $D_{S,2\\alpha} = S_h \\circ S_g$?",
     "answer": 70,
     "tolerance": 0,
     "unit": "°",
-    "explanation": "Der Drehwinkel ist der doppelte Schnittwinkel: 2α = 2·35° = 70°. 📄 Quelle: ari20_vl12, Folie 12 (S.12)",
+    "explanation": "Der Drehwinkel ist der doppelte Schnittwinkel: $2\\alpha = 2\\cdot 35^\\circ = 70^\\circ$. 📄 Quelle: ari20_vl12, Folie 12 (S.12)",
     "source": "ari20_vl12, Folie 12 (S.12, Geometrie – Verkettung von Geradenspiegelungen)"
   },
   {
@@ -1516,11 +1516,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Fall 3a: g ∩ h = {S} und ∠(g;h) = 90°. Welchen Drehwinkel hat dann die Drehung S_h ∘ S_g = D_{S,2α}?",
+    "question": "Fall 3a: $g \\cap h = \\{S\\}$ und $\\angle(g;h) = 90^\\circ$. Welchen Drehwinkel hat dann die Drehung $S_h \\circ S_g = D_{S,2\\alpha}$?",
     "answer": 180,
     "tolerance": 0,
     "unit": "°",
-    "explanation": "Bei ∠(g;h) = 90° gilt S_h ∘ S_g = D_{S,180°}, der Drehwinkel beträgt also 2·90° = 180°. 📄 Quelle: ari20_vl12, Folie 13 (S.13)",
+    "explanation": "Bei $\\angle(g;h) = 90^\\circ$ gilt $S_h \\circ S_g = D_{S,180^\\circ}$, der Drehwinkel beträgt also $2\\cdot 90^\\circ = 180^\\circ$. 📄 Quelle: ari20_vl12, Folie 13 (S.13)",
     "source": "ari20_vl12, Folie 13 (S.13, Geometrie – Verkettung von Geradenspiegelungen)"
   },
   {
@@ -1528,17 +1528,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "single",
-    "question": "Fall 3a: Stehen die Geraden g und h senkrecht zueinander (∠(g;h) = 90°), was ergibt die doppelte Geradenspiegelung S_h ∘ S_g?",
+    "question": "Fall 3a: Stehen die Geraden $g$ und $h$ senkrecht zueinander ($\\angle(g;h) = 90^\\circ$), was ergibt die doppelte Geradenspiegelung $S_h \\circ S_g$?",
     "options": [
-      "Die Drehung D_{S,180°}",
-      "Die Drehung D_{S,90°}",
-      "Die Verschiebung V_{2·d(g;h)}",
-      "Die identische Abbildung id"
+      "Die Drehung $D_{S,180^\\circ}$",
+      "Die Drehung $D_{S,90^\\circ}$",
+      "Die Verschiebung $V_{2\\cdot d(g;h)}$",
+      "Die identische Abbildung $\\mathrm{id}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Für ∠(g;h) = 90° ist S_h ∘ S_g = D_{S,180°} (Drehung um S mit Drehwinkel 180°). 📄 Quelle: ari20_vl12, Folie 13 (S.13)",
+    "explanation": "Für $\\angle(g;h) = 90^\\circ$ ist $S_h \\circ S_g = D_{S,180^\\circ}$ (Drehung um $S$ mit Drehwinkel $180^\\circ$). 📄 Quelle: ari20_vl12, Folie 13 (S.13)",
     "source": "ari20_vl12, Folie 13 (S.13, Geometrie – Verkettung von Geradenspiegelungen)"
   },
   {
@@ -1546,18 +1546,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "multi",
-    "question": "In der Vektorschreibweise des Satzes gilt für g ∥ h: S_h ∘ S_g = V_{2·a} (Verschiebung um den Vektor 2·a). Welche Aussagen treffen zu?",
+    "question": "In der Vektorschreibweise des Satzes gilt für $g \\parallel h$: $S_h \\circ S_g = V_{2\\cdot a}$ (Verschiebung um den Vektor $2\\cdot a$). Welche Aussagen treffen zu?",
     "options": [
-      "Die Verkettung ist eine Verschiebung V_{2·a}",
-      "Der Vektor a steht senkrecht zu g (bzw. h)",
-      "Der Vektor a verläuft parallel zu g",
-      "Die Verkettung ist eine Drehung um den Vektor a"
+      "Die Verkettung ist eine Verschiebung $V_{2\\cdot a}$",
+      "Der Vektor $a$ steht senkrecht zu $g$ (bzw. $h$)",
+      "Der Vektor $a$ verläuft parallel zu $g$",
+      "Die Verkettung ist eine Drehung um den Vektor $a$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Für g ∥ h gilt S_h ∘ S_g = V_{2·a}, wobei der Vektor a senkrecht zu g (bzw. h) steht. Es ist eine Verschiebung, keine Drehung. 📄 Quelle: ari20_vl12, Folie 14 (S.14)",
+    "explanation": "Für $g \\parallel h$ gilt $S_h \\circ S_g = V_{2\\cdot a}$, wobei der Vektor $a$ senkrecht zu $g$ (bzw. $h$) steht. Es ist eine Verschiebung, keine Drehung. 📄 Quelle: ari20_vl12, Folie 14 (S.14)",
     "source": "ari20_vl12, Folie 14 (S.14, Geometrie – Verkettung von Geradenspiegelungen)"
   },
   {
@@ -1565,17 +1565,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 1,
     "type": "single",
-    "question": "In welchem Fall gilt in Vektorschreibweise S_h ∘ S_g = V_{2·a} mit a senkrecht zu g?",
+    "question": "In welchem Fall gilt in Vektorschreibweise $S_h \\circ S_g = V_{2\\cdot a}$ mit $a$ senkrecht zu $g$?",
     "options": [
-      "g ∥ h",
-      "g = h",
-      "g ∩ h = {S}",
-      "g ⊥ h"
+      "$g \\parallel h$",
+      "$g = h$",
+      "$g \\cap h = \\{S\\}$",
+      "$g \\perp h$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Verschiebung V_{2·a} mit a senkrecht zu g (bzw. h) tritt im Fall g ∥ h auf. 📄 Quelle: ari20_vl12, Folie 14 (S.14)",
+    "explanation": "Die Verschiebung $V_{2\\cdot a}$ mit $a$ senkrecht zu $g$ (bzw. $h$) tritt im Fall $g \\parallel h$ auf. 📄 Quelle: ari20_vl12, Folie 14 (S.14)",
     "source": "ari20_vl12, Folie 14 (S.14, Geometrie – Verkettung von Geradenspiegelungen)"
   },
   {
@@ -1583,11 +1583,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 3,
     "type": "multi",
-    "question": "Man verschiebt bei g ∥ h die beiden Geraden g und h parallel mit gleichem Abstand. Welche Aussagen treffen zu?",
+    "question": "Man verschiebt bei $g \\parallel h$ die beiden Geraden $g$ und $h$ parallel mit gleichem Abstand. Welche Aussagen treffen zu?",
     "options": [
-      "Die einzelne Spiegelung S_g verändert sich",
-      "Die Gesamt-Abbildung S_h ∘ S_g (die doppelte Geradenspiegelung) verändert sich nicht, sie bleibt gleich",
-      "Die Gesamt-Abbildung S_h ∘ S_g verändert sich mit",
+      "Die einzelne Spiegelung $S_g$ verändert sich",
+      "Die Gesamt-Abbildung $S_h \\circ S_g$ (die doppelte Geradenspiegelung) verändert sich nicht, sie bleibt gleich",
+      "Die Gesamt-Abbildung $S_h \\circ S_g$ verändert sich mit",
       "Maßgeblich ist der (gleich bleibende) Abstand der Geraden, nicht ihre konkrete Lage"
     ],
     "correct": [
@@ -1595,7 +1595,7 @@ const SAMPLE_QUESTIONS = [
       1,
       3
     ],
-    "explanation": "Verschiebt man g und h parallel mit gleichem Abstand, verändert sich zwar die erste Spiegelung S_g, aber die Verknüpfung S_h ∘ S_g bleibt gleich – maßgeblich ist allein der (gleich bleibende) Abstand, nicht die konkrete Lage. 📄 Quelle: ari20_vl12, Folie 20 (S.20)",
+    "explanation": "Verschiebt man $g$ und $h$ parallel mit gleichem Abstand, verändert sich zwar die erste Spiegelung $S_g$, aber die Verknüpfung $S_h \\circ S_g$ bleibt gleich – maßgeblich ist allein der (gleich bleibende) Abstand, nicht die konkrete Lage. 📄 Quelle: ari20_vl12, Folie 20 (S.20)",
     "source": "ari20_vl12, Folie 20 (S.20, Geometrie – Verkettung von Geradenspiegelungen)"
   },
   {
@@ -1603,17 +1603,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "single",
-    "question": "Was bleibt unverändert, wenn man die parallelen Geraden g und h parallel um denselben Abstand verschiebt?",
+    "question": "Was bleibt unverändert, wenn man die parallelen Geraden $g$ und $h$ parallel um denselben Abstand verschiebt?",
     "options": [
-      "Die doppelte Geradenspiegelung S_h ∘ S_g",
-      "Die einzelne Spiegelung S_g",
-      "Die Lage der Geraden g",
-      "Der Bildpunkt A' unter S_g"
+      "Die doppelte Geradenspiegelung $S_h \\circ S_g$",
+      "Die einzelne Spiegelung $S_g$",
+      "Die Lage der Geraden $g$",
+      "Der Bildpunkt $A'$ unter $S_g$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Gesamt-Abbildung, die Verknüpfung S_h ∘ S_g, bleibt gleich; die einzelne Spiegelung S_g und die Lage der Geraden ändern sich hingegen. 📄 Quelle: ari20_vl12, Folie 20 (S.20)",
+    "explanation": "Die Gesamt-Abbildung, die Verknüpfung $S_h \\circ S_g$, bleibt gleich; die einzelne Spiegelung $S_g$ und die Lage der Geraden ändern sich hingegen. 📄 Quelle: ari20_vl12, Folie 20 (S.20)",
     "source": "ari20_vl12, Folie 20 (S.20, Geometrie – Verkettung von Geradenspiegelungen)"
   },
   {
@@ -1621,18 +1621,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Der Satz über die Verkettung zweier Geradenspiegelungen S_g und S_h an den Geraden g und h: Welche Voraussetzungen müssen für zwei weitere Geraden g' und h' erfüllt sein, damit S_h ∘ S_g = S_h' ∘ S_g' gilt?",
+    "question": "Der Satz über die Verkettung zweier Geradenspiegelungen $S_g$ und $S_h$ an den Geraden $g$ und $h$: Welche Voraussetzungen müssen für zwei weitere Geraden $g'$ und $h'$ erfüllt sein, damit $S_h \\circ S_g = S_{h'} \\circ S_{g'}$ gilt?",
     "options": [
-      "g ∥ h und g ∥ g' und g ∥ h' (alle Geraden parallel)",
-      "d(g,h) = d(g',h') (gleicher Abstand der Geradenpaare)",
-      "g und h schneiden sich in einem Punkt S",
-      "∡(g;h) = ∡(g';h') als gemeinsamer Schnittwinkel"
+      "$g \\parallel h$ und $g \\parallel g'$ und $g \\parallel h'$ (alle Geraden parallel)",
+      "$d(g,h) = d(g',h')$ (gleicher Abstand der Geradenpaare)",
+      "$g$ und $h$ schneiden sich in einem Punkt $S$",
+      "$\\measuredangle(g;h) = \\measuredangle(g';h')$ als gemeinsamer Schnittwinkel"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Der Parallelfall des Phänomsatzes fordert g ∥ h und g ∥ g' und g ∥ h' sowie den gleichen Abstand d(g,h) = d(g',h'). Ein gemeinsamer Schnittpunkt bzw. ein gleicher Schnittwinkel gehören zum anderen (Schnitt-)Fall. 📄 Quelle: ari20_vl12, Folie 21 (S.21)",
+    "explanation": "Der Parallelfall des Phänomsatzes fordert $g \\parallel h$ und $g \\parallel g'$ und $g \\parallel h'$ sowie den gleichen Abstand $d(g,h) = d(g',h')$. Ein gemeinsamer Schnittpunkt bzw. ein gleicher Schnittwinkel gehören zum anderen (Schnitt-)Fall. 📄 Quelle: ari20_vl12, Folie 21 (S.21)",
     "source": "ari20_vl12, Folie 21 (S.21, Geometrie)"
   },
   {
@@ -1640,17 +1640,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 1,
     "type": "single",
-    "question": "Sind im Parallelfall die Voraussetzungen g ∥ h ∥ g' ∥ h' und d(g,h) = d(g',h') erfüllt, was folgt für die Verkettungen der Geradenspiegelungen?",
+    "question": "Sind im Parallelfall die Voraussetzungen $g \\parallel h \\parallel g' \\parallel h'$ und $d(g,h) = d(g',h')$ erfüllt, was folgt für die Verkettungen der Geradenspiegelungen?",
     "options": [
-      "S_h ∘ S_g = S_h' ∘ S_g'",
-      "S_h ∘ S_g = S_g ∘ S_h",
-      "S_h ∘ S_g ≠ S_h' ∘ S_g'",
-      "S_g = S_h"
+      "$S_h \\circ S_g = S_{h'} \\circ S_{g'}$",
+      "$S_h \\circ S_g = S_g \\circ S_h$",
+      "$S_h \\circ S_g \\ne S_{h'} \\circ S_{g'}$",
+      "$S_g = S_h$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Satz schließt: dann ist S_h ∘ S_g = S_h' ∘ S_g'. Die doppelte Geradenspiegelung bleibt also gleich. 📄 Quelle: ari20_vl12, Folie 21 (S.21)",
+    "explanation": "Der Satz schließt: dann ist $S_h \\circ S_g = S_{h'} \\circ S_{g'}$. Die doppelte Geradenspiegelung bleibt also gleich. 📄 Quelle: ari20_vl12, Folie 21 (S.21)",
     "source": "ari20_vl12, Folie 21 (S.21, Geometrie)"
   },
   {
@@ -1658,19 +1658,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 3,
     "type": "multi",
-    "question": "Für den Fall sich schneidender Geraden: Welche Bedingungen müssen g' und h' erfüllen, damit S_h ∘ S_g = S_h' ∘ S_g' gilt?",
+    "question": "Für den Fall sich schneidender Geraden: Welche Bedingungen müssen $g'$ und $h'$ erfüllen, damit $S_h \\circ S_g = S_{h'} \\circ S_{g'}$ gilt?",
     "options": [
-      "g ∩ h = {S} mit ∡(g;h) = α",
-      "g' ∩ h' = {S}, also derselbe Schnittpunkt wie g ∩ h",
-      "∡(g';h') = α, also der gleiche Schnittwinkel wie bei g und h",
-      "d(g,h) = d(g',h') (gleicher Abstand der Geradenpaare)"
+      "$g \\cap h = \\{S\\}$ mit $\\measuredangle(g;h) = \\alpha$",
+      "$g' \\cap h' = \\{S\\}$, also derselbe Schnittpunkt wie $g \\cap h$",
+      "$\\measuredangle(g';h') = \\alpha$, also der gleiche Schnittwinkel wie bei $g$ und $h$",
+      "$d(g,h) = d(g',h')$ (gleicher Abstand der Geradenpaare)"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Im Schnittfall gilt: Wenn g ∩ h = {S} mit ∡(g;h) = α und g' ∩ h' = {S} (=g ∩ h) mit ∡g'h' = α (=∡(g;h)), dann ist S_h ∘ S_g = S_h' ∘ S_g'. Die Abstandsbedingung d(g,h) = d(g',h') gehört zum Parallelfall. 📄 Quelle: ari20_vl12, Folie 27 (S.27)",
+    "explanation": "Im Schnittfall gilt: Wenn $g \\cap h = \\{S\\}$ mit $\\measuredangle(g;h) = \\alpha$ und $g' \\cap h' = \\{S\\}$ ($= g \\cap h$) mit $\\measuredangle g'h' = \\alpha$ ($= \\measuredangle(g;h)$), dann ist $S_h \\circ S_g = S_{h'} \\circ S_{g'}$. Die Abstandsbedingung $d(g,h) = d(g',h')$ gehört zum Parallelfall. 📄 Quelle: ari20_vl12, Folie 27 (S.27)",
     "source": "ari20_vl12, Folie 27 (S.27, Geometrie)"
   },
   {
@@ -1678,17 +1678,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "single",
-    "question": "Im Schnittfall dürfen die beiden Geraden g und h zu g' und h' verändert werden, ohne dass sich die Verkettung ändert. Welche zwei Größen müssen dabei gleich bleiben?",
+    "question": "Im Schnittfall dürfen die beiden Geraden $g$ und $h$ zu $g'$ und $h'$ verändert werden, ohne dass sich die Verkettung ändert. Welche zwei Größen müssen dabei gleich bleiben?",
     "options": [
-      "Der gemeinsame Schnittpunkt S und der Schnittwinkel α",
+      "Der gemeinsame Schnittpunkt $S$ und der Schnittwinkel $\\alpha$",
       "Der Abstand der Geraden und ihre Richtung",
-      "Nur der Schnittpunkt S",
-      "Nur der Schnittwinkel α"
+      "Nur der Schnittpunkt $S$",
+      "Nur der Schnittwinkel $\\alpha$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Satz verlangt g' ∩ h' = {S} (=g ∩ h) und ∡g'h' = α (=∡(g;h)) — gleichbleibender Schnittpunkt UND gleichbleibender Schnittwinkel. 📄 Quelle: ari20_vl12, Folie 27 (S.27)",
+    "explanation": "Der Satz verlangt $g' \\cap h' = \\{S\\}$ ($= g \\cap h$) und $\\measuredangle g'h' = \\alpha$ ($= \\measuredangle(g;h)$) — gleichbleibender Schnittpunkt UND gleichbleibender Schnittwinkel. 📄 Quelle: ari20_vl12, Folie 27 (S.27)",
     "source": "ari20_vl12, Folie 27 (S.27, Geometrie)"
   },
   {
@@ -1696,18 +1696,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Der Satz über die Verknüpfung von drei Abbildungen gilt für alle Bewegungen (Kongruenzabbildungen) f, g und h. Welche Aussagen sind laut Satz korrekt?",
+    "question": "Der Satz über die Verknüpfung von drei Abbildungen gilt für alle Bewegungen (Kongruenzabbildungen) $f$, $g$ und $h$. Welche Aussagen sind laut Satz korrekt?",
     "options": [
-      "Für die Verkettung dreier Bewegungen gilt das Assoziativgesetz: (h ∘ g) ∘ f = h ∘ (g ∘ f)",
-      "Das Kommutativgesetz gilt nicht: im Allgemeinen ist f ∘ g ≠ g ∘ f",
-      "Für Bewegungen gilt stets f ∘ g = g ∘ f",
+      "Für die Verkettung dreier Bewegungen gilt das Assoziativgesetz: $(h \\circ g) \\circ f = h \\circ (g \\circ f)$",
+      "Das Kommutativgesetz gilt nicht: im Allgemeinen ist $f \\circ g \\ne g \\circ f$",
+      "Für Bewegungen gilt stets $f \\circ g = g \\circ f$",
       "Die Reihenfolge der Klammerung verändert das Ergebnis"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Der Satz besagt: Für die Verkettung dreier Bewegungen gilt das Assoziativgesetz (h ∘ g) ∘ f = h ∘ (g ∘ f); das Kommutativgesetz gilt jedoch nicht (im Allgemeinen f ∘ g ≠ g ∘ f). 📄 Quelle: ari20_vl12, Folie 29 (S.29)",
+    "explanation": "Der Satz besagt: Für die Verkettung dreier Bewegungen gilt das Assoziativgesetz $(h \\circ g) \\circ f = h \\circ (g \\circ f)$; das Kommutativgesetz gilt jedoch nicht (im Allgemeinen $f \\circ g \\ne g \\circ f$). 📄 Quelle: ari20_vl12, Folie 29 (S.29)",
     "source": "ari20_vl12, Folie 29 (S.29, Geometrie)"
   },
   {
@@ -1717,7 +1717,7 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Was gilt für das Kommutativgesetz bei der Verkettung von Bewegungen?",
     "options": [
-      "Es gilt im Allgemeinen nicht (f ∘ g ≠ g ∘ f)",
+      "Es gilt im Allgemeinen nicht ($f \\circ g \\ne g \\circ f$)",
       "Es gilt immer",
       "Es gilt nur bei Geradenspiegelungen",
       "Es gilt nur bei Drehungen"
@@ -1725,7 +1725,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie steht: 'Das Kommutativgesetz gilt nicht: im Allgemeinen ist f ∘ g ≠ g ∘ f.' 📄 Quelle: ari20_vl12, Folie 29 (S.29)",
+    "explanation": "Auf der Folie steht: 'Das Kommutativgesetz gilt nicht: im Allgemeinen ist $f \\circ g \\ne g \\circ f$.' 📄 Quelle: ari20_vl12, Folie 29 (S.29)",
     "source": "ari20_vl12, Folie 29 (S.29, Geometrie)"
   },
   {
@@ -1733,19 +1733,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Es seien f, g und h drei Geradenspiegelungen, bei denen je zwei der Geraden einen Schnittpunkt haben. Welche Aussagen treffen zu?",
+    "question": "Es seien $f$, $g$ und $h$ drei Geradenspiegelungen, bei denen je zwei der Geraden einen Schnittpunkt haben. Welche Aussagen treffen zu?",
     "options": [
-      "Die Verknüpfung g ∘ f ergibt eine Drehung",
-      "Auch die Verknüpfung h ∘ g ergibt eine Drehung",
-      "Ob erst Spiegelung f und dann Drehung (h ∘ g) oder erst Drehung (g ∘ f) und dann Spiegelung h ausgeführt wird, es ergibt die gleiche Abbildung",
-      "Die Verknüpfung g ∘ f ergibt eine Verschiebung"
+      "Die Verknüpfung $g \\circ f$ ergibt eine Drehung",
+      "Auch die Verknüpfung $h \\circ g$ ergibt eine Drehung",
+      "Ob erst Spiegelung $f$ und dann Drehung ($h \\circ g$) oder erst Drehung ($g \\circ f$) und dann Spiegelung $h$ ausgeführt wird, es ergibt die gleiche Abbildung",
+      "Die Verknüpfung $g \\circ f$ ergibt eine Verschiebung"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Da je zwei Geraden einen Schnittpunkt haben, ergeben g ∘ f und h ∘ g jeweils eine Drehung; das Beispiel zeigt (h ∘ g) ∘ f = h ∘ (g ∘ f), also gleiche Gesamtabbildung. Eine Verschiebung entstünde bei parallelen Geraden, nicht hier. 📄 Quelle: ari20_vl12, Folie 33 (S.33)",
+    "explanation": "Da je zwei Geraden einen Schnittpunkt haben, ergeben $g \\circ f$ und $h \\circ g$ jeweils eine Drehung; das Beispiel zeigt $(h \\circ g) \\circ f = h \\circ (g \\circ f)$, also gleiche Gesamtabbildung. Eine Verschiebung entstünde bei parallelen Geraden, nicht hier. 📄 Quelle: ari20_vl12, Folie 33 (S.33)",
     "source": "ari20_vl12, Folie 33 (S.33, Geometrie)"
   },
   {
@@ -1755,7 +1755,7 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Welches Gesetz für die Verkettung von Bewegungen wird durch ein Beispiel dreier hintereinander ausgeführter Geradenspiegelungen konkret illustriert?",
     "options": [
-      "Das Assoziativgesetz: (h ∘ g) ∘ f = h ∘ (g ∘ f)",
+      "Das Assoziativgesetz: $(h \\circ g) \\circ f = h \\circ (g \\circ f)$",
       "Das Kommutativgesetz",
       "Das Distributivgesetz",
       "Das Inversengesetz"
@@ -1763,7 +1763,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Das Beispiel schließt mit '(h ∘ g) ∘ f = h ∘ (g ∘ f)' und veranschaulicht damit das Assoziativgesetz. 📄 Quelle: ari20_vl12, Folie 33 (S.33)",
+    "explanation": "Das Beispiel schließt mit '$(h \\circ g) \\circ f = h \\circ (g \\circ f)$' und veranschaulicht damit das Assoziativgesetz. 📄 Quelle: ari20_vl12, Folie 33 (S.33)",
     "source": "ari20_vl12, Folie 33 (S.33, Geometrie)"
   },
   {
@@ -1829,7 +1829,7 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Die Fälle 1, 2 und 3 der dreifachen Geradenspiegelung: Welche Aussagen treffen zu?",
     "options": [
-      "Die Konfigurationen sind: g = h = i, oder g = h mit Parallele i, oder drei Parallelen",
+      "Die Konfigurationen sind: $g = h = i$, oder $g = h$ mit Parallele $i$, oder drei Parallelen",
       "Die dreifache Geradenspiegelung lässt sich durch eine einfache Geradenspiegelung ersetzen",
       "Die drei Geraden haben genau einen gemeinsamen Schnittpunkt",
       "Das Ergebnis ist eine Drehung"
@@ -1838,7 +1838,7 @@ const SAMPLE_QUESTIONS = [
       0,
       1
     ],
-    "explanation": "Fall 1, 2 und 3 (g = h = i oder g = h und Parallele i oder drei Parallelen): Die dreifache Geradenspiegelung lässt sich durch eine einfache Geradenspiegelung ersetzen. Ein gemeinsamer Schnittpunkt ist Fall 4. 📄 Quelle: ari20_vl12, Folie 36 (S.36)",
+    "explanation": "Fall 1, 2 und 3 ($g = h = i$ oder $g = h$ und Parallele $i$ oder drei Parallelen): Die dreifache Geradenspiegelung lässt sich durch eine einfache Geradenspiegelung ersetzen. Ein gemeinsamer Schnittpunkt ist Fall 4. 📄 Quelle: ari20_vl12, Folie 36 (S.36)",
     "source": "ari20_vl12, Folie 36 (S.36, Geometrie)"
   },
   {
@@ -1846,7 +1846,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 1,
     "type": "single",
-    "question": "Wodurch lässt sich in den Fällen 1–3 (g = h = i, oder g = h mit Parallele i, oder drei Parallelen) die dreifache Geradenspiegelung ersetzen?",
+    "question": "Wodurch lässt sich in den Fällen 1–3 ($g = h = i$, oder $g = h$ mit Parallele $i$, oder drei Parallelen) die dreifache Geradenspiegelung ersetzen?",
     "options": [
       "Durch eine einfache Geradenspiegelung",
       "Durch eine Drehung",
@@ -1866,9 +1866,9 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Fall 4 der dreifachen Geradenspiegelung: Welche Aussagen zu Voraussetzung, Ergebnis und Vorgehen sind korrekt?",
     "options": [
-      "g, h und i haben einen gemeinsamen Schnittpunkt",
+      "$g$, $h$ und $i$ haben einen gemeinsamen Schnittpunkt",
       "Die dreifache Geradenspiegelung lässt sich durch eine einfache Geradenspiegelung ersetzen",
-      "Man dreht g, h um ihren Schnittpunkt so, dass h' auf i liegt (h' und i heben sich auf)",
+      "Man dreht $g$, $h$ um ihren Schnittpunkt so, dass $h'$ auf $i$ liegt ($h'$ und $i$ heben sich auf)",
       "Die drei Geraden sind zueinander parallel"
     ],
     "correct": [
@@ -1876,7 +1876,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Fall 4: g, h und i haben einen gemeinsamen Schnittpunkt; die dreifache Geradenspiegelung lässt sich durch eine einfache ersetzen, indem man g, h um ihren Schnittpunkt dreht, bis h' auf i liegt (h' und i heben sich auf). Parallelität gehört nicht zu Fall 4. 📄 Quelle: ari20_vl12, Folie 37 (S.37)",
+    "explanation": "Fall 4: $g$, $h$ und $i$ haben einen gemeinsamen Schnittpunkt; die dreifache Geradenspiegelung lässt sich durch eine einfache ersetzen, indem man $g$, $h$ um ihren Schnittpunkt dreht, bis $h'$ auf $i$ liegt ($h'$ und $i$ heben sich auf). Parallelität gehört nicht zu Fall 4. 📄 Quelle: ari20_vl12, Folie 37 (S.37)",
     "source": "ari20_vl12, Folie 37 (S.37, Geometrie)"
   },
   {
@@ -1884,17 +1884,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "single",
-    "question": "Welches Vorgehen wird in Fall 4 (g, h und i mit gemeinsamem Schnittpunkt) beschrieben, um zwei Spiegelungen wegfallen zu lassen?",
+    "question": "Welches Vorgehen wird in Fall 4 ($g$, $h$ und $i$ mit gemeinsamem Schnittpunkt) beschrieben, um zwei Spiegelungen wegfallen zu lassen?",
     "options": [
-      "g und h um ihren Schnittpunkt drehen, bis h' auf i liegt",
-      "g und h parallel verschieben, bis sie zusammenfallen",
-      "i senkrecht zu g stellen",
+      "$g$ und $h$ um ihren Schnittpunkt drehen, bis $h'$ auf $i$ liegt",
+      "$g$ und $h$ parallel verschieben, bis sie zusammenfallen",
+      "$i$ senkrecht zu $g$ stellen",
       "alle drei Geraden zu einer einzigen zusammenfallen lassen"
     ],
     "correct": [
       0
     ],
-    "explanation": "Folie 37: 'Drehe g, h um ihren Schnittpunkt so, dass h' auf i liegt (h' und i heben sich auf).' 📄 Quelle: ari20_vl12, Folie 37 (S.37)",
+    "explanation": "Folie 37: 'Drehe $g$, $h$ um ihren Schnittpunkt so, dass $h'$ auf $i$ liegt ($h'$ und $i$ heben sich auf).' 📄 Quelle: ari20_vl12, Folie 37 (S.37)",
     "source": "ari20_vl12, Folie 37 (S.37, Geometrie)"
   },
   {
@@ -1902,18 +1902,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Wie sind die drei Geraden g, h und i in Fall 5 der dreifachen Geradenspiegelung angeordnet?",
+    "question": "Wie sind die drei Geraden $g$, $h$ und $i$ in Fall 5 der dreifachen Geradenspiegelung angeordnet?",
     "options": [
-      "g und h sind parallel",
-      "i steht senkrecht zu g und h",
+      "$g$ und $h$ sind parallel",
+      "$i$ steht senkrecht zu $g$ und $h$",
       "alle drei Geraden schneiden sich in einem gemeinsamen Punkt",
-      "g, h und i sind paarweise parallel"
+      "$g$, $h$ und $i$ sind paarweise parallel"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Fall 5: g und h sind parallel, i steht senkrecht zu g und h. (Womit sich die dreifache Geradenspiegelung ersetzen lässt, bleibt auf der Folie als offene Frage '???' stehen.) 📄 Quelle: ari20_vl12, Folie 38 (S.38)",
+    "explanation": "Fall 5: $g$ und $h$ sind parallel, $i$ steht senkrecht zu $g$ und $h$. (Womit sich die dreifache Geradenspiegelung ersetzen lässt, bleibt auf der Folie als offene Frage '???' stehen.) 📄 Quelle: ari20_vl12, Folie 38 (S.38)",
     "source": "ari20_vl12, Folie 38 (S.38, Geometrie)"
   },
   {
@@ -1958,19 +1958,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Definition Schubspiegelung: Eine Abbildung S_AB,g: E → E heißt Schubspiegelung genau dann, wenn welche Bedingungen erfüllt sind?",
+    "question": "Definition Schubspiegelung: Eine Abbildung $S_{AB,g}: E \\to E$ heißt Schubspiegelung genau dann, wenn welche Bedingungen erfüllt sind?",
     "options": [
-      "Durch AB ist eine Verschiebung festgelegt",
-      "Durch g ist eine Achsenspiegelung festgelegt",
-      "Es gilt g || AB (g parallel zu AB)",
-      "Es gilt g ⊥ AB (g senkrecht zu AB)"
+      "Durch $AB$ ist eine Verschiebung festgelegt",
+      "Durch $g$ ist eine Achsenspiegelung festgelegt",
+      "Es gilt $g \\parallel AB$ ($g$ parallel zu $AB$)",
+      "Es gilt $g \\perp AB$ ($g$ senkrecht zu $AB$)"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Laut Definition sind durch AB eine Verschiebung und durch g eine Achsenspiegelung festgelegt, und zwar mit g || AB. 📄 Quelle: ari20_vl12, Folie 45 (S.45)",
+    "explanation": "Laut Definition sind durch $AB$ eine Verschiebung und durch $g$ eine Achsenspiegelung festgelegt, und zwar mit $g \\parallel AB$. 📄 Quelle: ari20_vl12, Folie 45 (S.45)",
     "source": "ari20_vl12, Folie 45 (S.45, Definition Schubspiegelung)"
   },
   {
@@ -1978,17 +1978,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 1,
     "type": "single",
-    "question": "Welche Lagebeziehung muss zwischen der Spiegelachse g und der Verschiebungsstrecke AB bei einer Schubspiegelung gelten?",
+    "question": "Welche Lagebeziehung muss zwischen der Spiegelachse $g$ und der Verschiebungsstrecke $AB$ bei einer Schubspiegelung gelten?",
     "options": [
-      "g parallel zu AB",
-      "g senkrecht zu AB",
-      "g schneidet AB unter 45°",
+      "$g$ parallel zu $AB$",
+      "$g$ senkrecht zu $AB$",
+      "$g$ schneidet $AB$ unter $45^\\circ$",
       "keine besondere Bedingung"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Definition fordert ausdrücklich g || AB. 📄 Quelle: ari20_vl12, Folie 45 (S.45)",
+    "explanation": "Die Definition fordert ausdrücklich $g \\parallel AB$. 📄 Quelle: ari20_vl12, Folie 45 (S.45)",
     "source": "ari20_vl12, Folie 45 (S.45, Definition Schubspiegelung)"
   },
   {
@@ -2038,17 +2038,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lautet die Umkehrabbildung der Schubspiegelung S_AB,g?",
+    "question": "Wie lautet die Umkehrabbildung der Schubspiegelung $S_{AB,g}$?",
     "options": [
-      "S_BA,g",
-      "S_AB,g",
-      "S_AB,g mit gespiegelter Achse",
-      "S_BA mit senkrechter Achse"
+      "$S_{BA,g}$",
+      "$S_{AB,g}$",
+      "$S_{AB,g}$ mit gespiegelter Achse",
+      "$S_{BA}$ mit senkrechter Achse"
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie steht S_AB,g^(-1) = S_BA,g: die Verschiebungsrichtung wird umgekehrt (A und B vertauscht), die Spiegelachse g bleibt gleich. 📄 Quelle: ari20_vl12, Folie 46 (S.46)",
+    "explanation": "Auf der Folie steht $S_{AB,g}^{-1} = S_{BA,g}$: die Verschiebungsrichtung wird umgekehrt ($A$ und $B$ vertauscht), die Spiegelachse $g$ bleibt gleich. 📄 Quelle: ari20_vl12, Folie 46 (S.46)",
     "source": "ari20_vl12, Folie 46 (S.46, Schubspiegelung – Umkehrabbildung)"
   },
   {
@@ -2056,7 +2056,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "single",
-    "question": "Fall 6 (die drei Geraden g, h, i haben drei Schnittpunkte): Wodurch lässt sich die dreifache Geradenspiegelung ersetzen?",
+    "question": "Fall 6 (die drei Geraden $g$, $h$, $i$ haben drei Schnittpunkte): Wodurch lässt sich die dreifache Geradenspiegelung ersetzen?",
     "options": [
       "durch eine Schubspiegelung",
       "durch eine einfache Geradenspiegelung",
@@ -2098,16 +2098,16 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Fall 6 der dreifachen Geradenspiegelung (drei Geraden mit drei Schnittpunkten) – konkretes Vorgehen: Welche Drehschritte werden beschrieben?",
     "options": [
-      "Drehe g und h um ihren Schnittpunkt, so dass h' senkrecht zu i liegt",
-      "Drehe h' und i um ihren Schnittpunkt, so dass h'' senkrecht zu g' liegt",
-      "Verschiebe f und g, bis g' parallel zu i wird",
-      "Spiegle i an g, bis beide zusammenfallen"
+      "Drehe $g$ und $h$ um ihren Schnittpunkt, so dass $h'$ senkrecht zu $i$ liegt",
+      "Drehe $h'$ und $i$ um ihren Schnittpunkt, so dass $h''$ senkrecht zu $g'$ liegt",
+      "Verschiebe $f$ und $g$, bis $g'$ parallel zu $i$ wird",
+      "Spiegle $i$ an $g$, bis beide zusammenfallen"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Vorgehen: g und h so drehen, dass h' ⊥ i; danach h' und i so drehen, dass h'' ⊥ g'. 📄 Quelle: ari20_vl12, Folie 48 (S.48)",
+    "explanation": "Vorgehen: $g$ und $h$ so drehen, dass $h' \\perp i$; danach $h'$ und $i$ so drehen, dass $h'' \\perp g'$. 📄 Quelle: ari20_vl12, Folie 48 (S.48)",
     "source": "ari20_vl12, Folie 48 (S.48, Fall 6 – Drehschritte)"
   },
   {
@@ -2199,7 +2199,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Bei vier parallelen Geraden gilt S_i ∘ S_h ∘ S_g ∘ S_f = S_i ∘ S_f' = V_AB, also eine Verschiebung. 📄 Quelle: ari20_vl12, Folie 53 (S.53)",
+    "explanation": "Bei vier parallelen Geraden gilt $S_i \\circ S_h \\circ S_g \\circ S_f = S_i \\circ S_{f'} = V_{AB}$, also eine Verschiebung. 📄 Quelle: ari20_vl12, Folie 53 (S.53)",
     "source": "ari20_vl12, Folie 53 (S.53, Fall 1 – vier Parallelen)"
   },
   {
@@ -2207,17 +2207,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "single",
-    "question": "Fall 1 (vier Parallelen): Wie groß ist die Länge der Verschiebungsstrecke AB im Vergleich zum Abstand d(i, f')?",
+    "question": "Fall 1 (vier Parallelen): Wie groß ist die Länge der Verschiebungsstrecke $AB$ im Vergleich zum Abstand $d(i, f')$?",
     "options": [
-      "gleich dem doppelten Abstand d(i, f')",
-      "gleich dem Abstand d(i, f')",
-      "gleich dem halben Abstand d(i, f')",
-      "gleich dem vierfachen Abstand d(i, f')"
+      "gleich dem doppelten Abstand $d(i, f')$",
+      "gleich dem Abstand $d(i, f')$",
+      "gleich dem halben Abstand $d(i, f')$",
+      "gleich dem vierfachen Abstand $d(i, f')$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Länge der Strecke AB ist der doppelte Abstand von i und f', also 2·d(i, f'). 📄 Quelle: ari20_vl12, Folie 53 (S.53)",
+    "explanation": "Die Länge der Strecke $AB$ ist der doppelte Abstand von $i$ und $f'$, also $2\\cdot d(i, f')$. 📄 Quelle: ari20_vl12, Folie 53 (S.53)",
     "source": "ari20_vl12, Folie 53 (S.53, Fall 1 – Verschiebung)"
   },
   {
@@ -2225,17 +2225,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "single",
-    "question": "Fall 1: Wozu vereinfacht sich der Ausdruck S_i ∘ S_h ∘ S_g ∘ S_f (wie bei drei Geradenspiegelungen)?",
+    "question": "Fall 1: Wozu vereinfacht sich der Ausdruck $S_i \\circ S_h \\circ S_g \\circ S_f$ (wie bei drei Geradenspiegelungen)?",
     "options": [
-      "zu S_i ∘ S_f'",
-      "zu S_f'",
-      "zu S_i ∘ S_h",
+      "zu $S_i \\circ S_{f'}$",
+      "zu $S_{f'}$",
+      "zu $S_i \\circ S_h$",
       "zur Identität"
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie: S_i ∘ S_h ∘ S_g ∘ S_f = S_i ∘ S_f' = V_AB. 📄 Quelle: ari20_vl12, Folie 53 (S.53)",
+    "explanation": "Auf der Folie: $S_i \\circ S_h \\circ S_g \\circ S_f = S_i \\circ S_{f'} = V_{AB}$. 📄 Quelle: ari20_vl12, Folie 53 (S.53)",
     "source": "ari20_vl12, Folie 53 (S.53, Fall 1)"
   },
   {
@@ -2263,17 +2263,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Vierfache Geradenspiegelung, Fall 2 (alle vier Geraden durch einen gemeinsamen Punkt) – Begründung: Welche Zwischenschritte gelten?",
     "options": [
-      "Drei Geraden durch einen Punkt: S_h ∘ S_g ∘ S_f = S_f' (einfache Spiegelung)",
-      "Damit gilt S_i ∘ S_h ∘ S_g ∘ S_f = S_i ∘ S_f'",
-      "S_i ∘ S_f' ist eine zweifache Geradenspiegelung, also eine Drehung",
-      "S_i ∘ S_f' ist eine Verschiebung"
+      "Drei Geraden durch einen Punkt: $S_h \\circ S_g \\circ S_f = S_{f'}$ (einfache Spiegelung)",
+      "Damit gilt $S_i \\circ S_h \\circ S_g \\circ S_f = S_i \\circ S_{f'}$",
+      "$S_i \\circ S_{f'}$ ist eine zweifache Geradenspiegelung, also eine Drehung",
+      "$S_i \\circ S_{f'}$ ist eine Verschiebung"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Drei Geraden durch einen Punkt liefern S_h ∘ S_g ∘ S_f = S_f'; damit S_i ∘ S_h ∘ S_g ∘ S_f = S_i ∘ S_f', eine zweifache Geradenspiegelung und somit eine Drehung. 📄 Quelle: ari20_vl12, Folie 54 (S.54)",
+    "explanation": "Drei Geraden durch einen Punkt liefern $S_h \\circ S_g \\circ S_f = S_{f'}$; damit $S_i \\circ S_h \\circ S_g \\circ S_f = S_i \\circ S_{f'}$, eine zweifache Geradenspiegelung und somit eine Drehung. 📄 Quelle: ari20_vl12, Folie 54 (S.54)",
     "source": "ari20_vl12, Folie 54 (S.54, Fall 2)"
   },
   {
@@ -2301,15 +2301,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Fall 3: Um welchen Punkt erfolgt die Drehung?",
     "options": [
-      "um den Schnittpunkt von i und f' (bzw. i' und f)",
-      "um den Schnittpunkt von f und g",
+      "um den Schnittpunkt von $i$ und $f'$ (bzw. $i'$ und $f$)",
+      "um den Schnittpunkt von $f$ und $g$",
       "um den Mittelpunkt der Konfiguration",
       "um einen beliebig wählbaren Punkt"
     ],
     "correct": [
       0
     ],
-    "explanation": "Es ist eine Drehung um den Schnittpunkt von i und f' (bzw. i' und f). 📄 Quelle: ari20_vl12, Folie 55 (S.55)",
+    "explanation": "Es ist eine Drehung um den Schnittpunkt von $i$ und $f'$ (bzw. $i'$ und $f$). 📄 Quelle: ari20_vl12, Folie 55 (S.55)",
     "source": "ari20_vl12, Folie 55 (S.55, Fall 3)"
   },
   {
@@ -2319,16 +2319,16 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Vierfache Geradenspiegelung, Fall 4a (zwei Paare von Parallelen, vier Schnittpunkte): Welche Aussagen sind korrekt?",
     "options": [
-      "Es gilt f || g und h || i",
+      "Es gilt $f \\parallel g$ und $h \\parallel i$",
       "Der Fall wird auf den Fall mit sechs Schnittpunkten (Fall 6) zurückgeführt",
-      "Es gilt f || i und g || h",
+      "Es gilt $f \\parallel i$ und $g \\parallel h$",
       "Der Fall führt direkt zu einer einfachen Geradenspiegelung"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Fall 4a: zwei Paare paralleler Geraden f || g und h || i; durch Drehen von g und h entsteht ein Fall mit sechs Schnittpunkten (siehe Fall 6). 📄 Quelle: ari20_vl12, Folie 56 (S.56)",
+    "explanation": "Fall 4a: zwei Paare paralleler Geraden $f \\parallel g$ und $h \\parallel i$; durch Drehen von $g$ und $h$ entsteht ein Fall mit sechs Schnittpunkten (siehe Fall 6). 📄 Quelle: ari20_vl12, Folie 56 (S.56)",
     "source": "ari20_vl12, Folie 56 (S.56, Fall 4a)"
   },
   {
@@ -2356,8 +2356,8 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Fall 4b (keine Parallelen, vier Schnittpunkte; drei Geraden durch einen Punkt, die vierte schneidet die anderen drei): Welche Abbildung kann sich ergeben?",
     "options": [
-      "eine Drehung, falls i und f' nicht parallel sind (i ∦ f')",
-      "eine Verschiebung, falls i und f' parallel sind (i || f')",
+      "eine Drehung, falls $i$ und $f'$ nicht parallel sind ($i \\nparallel f'$)",
+      "eine Verschiebung, falls $i$ und $f'$ parallel sind ($i \\parallel f'$)",
       "stets eine Schubspiegelung",
       "stets eine einfache Geradenspiegelung"
     ],
@@ -2365,7 +2365,7 @@ const SAMPLE_QUESTIONS = [
       0,
       1
     ],
-    "explanation": "Es gilt S_i ∘ S_h ∘ S_g ∘ S_f = S_i ∘ S_f'; das ist eine Drehung (i ∦ f') oder eine Verschiebung (i || f'). 📄 Quelle: ari20_vl12, Folie 57 (S.57)",
+    "explanation": "Es gilt $S_i \\circ S_h \\circ S_g \\circ S_f = S_i \\circ S_{f'}$; das ist eine Drehung ($i \\nparallel f'$) oder eine Verschiebung ($i \\parallel f'$). 📄 Quelle: ari20_vl12, Folie 57 (S.57)",
     "source": "ari20_vl12, Folie 57 (S.57, Fall 4b)"
   },
   {
@@ -2375,15 +2375,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Fall 4b: Unter welcher Bedingung ergibt sich eine Verschiebung statt einer Drehung?",
     "options": [
-      "wenn i || f' (i parallel zu f')",
-      "wenn i ⊥ f' (i senkrecht zu f')",
-      "wenn i und f' sich schneiden",
+      "wenn $i \\parallel f'$ ($i$ parallel zu $f'$)",
+      "wenn $i \\perp f'$ ($i$ senkrecht zu $f'$)",
+      "wenn $i$ und $f'$ sich schneiden",
       "in keinem Fall"
     ],
     "correct": [
       0
     ],
-    "explanation": "Verschiebung genau dann, wenn i || f'; andernfalls (i ∦ f') eine Drehung. 📄 Quelle: ari20_vl12, Folie 57 (S.57)",
+    "explanation": "Verschiebung genau dann, wenn $i \\parallel f'$; andernfalls ($i \\nparallel f'$) eine Drehung. 📄 Quelle: ari20_vl12, Folie 57 (S.57)",
     "source": "ari20_vl12, Folie 57 (S.57, Fall 4b)"
   },
   {
@@ -2423,8 +2423,8 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Fall 6 (keine Parallelen, sechs Schnittpunkte; zwei Geradenpaare, jeweils ein Schnittpunkt): Welche Abbildung ergibt sich?",
     "options": [
-      "eine Verschiebung, wenn f' || i'",
-      "eine Drehung, wenn f' und i' nicht parallel sind",
+      "eine Verschiebung, wenn $f' \\parallel i'$",
+      "eine Drehung, wenn $f'$ und $i'$ nicht parallel sind",
       "stets eine Schubspiegelung",
       "stets eine einfache Geradenspiegelung"
     ],
@@ -2432,7 +2432,7 @@ const SAMPLE_QUESTIONS = [
       0,
       1
     ],
-    "explanation": "Es gilt S_i ∘ S_h ∘ S_g ∘ S_f = S_i' ∘ S_f'; ist f' || i', so ist die Abbildung eine Verschiebung, sonst eine Drehung. 📄 Quelle: ari20_vl12, Folie 59 (S.59)",
+    "explanation": "Es gilt $S_i \\circ S_h \\circ S_g \\circ S_f = S_{i'} \\circ S_{f'}$; ist $f' \\parallel i'$, so ist die Abbildung eine Verschiebung, sonst eine Drehung. 📄 Quelle: ari20_vl12, Folie 59 (S.59)",
     "source": "ari20_vl12, Folie 59 (S.59, Fall 6)"
   },
   {
@@ -2510,7 +2510,7 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Wie lässt sich begründen, warum man bei der Verkettung von fünf Geradenspiegelungen \"schon fertig\" ist?",
     "options": [
-      "5 Geraden sind 4 + 1 Geraden",
+      "5 Geraden sind $4 + 1$ Geraden",
       "4 Geradenspiegelungen lassen sich immer durch 2 Geradenspiegelungen ersetzen",
       "Es bleiben also drei Geradenspiegelungen übrig",
       "Fünf Geradenspiegelungen ergeben immer die Identität"
@@ -2520,7 +2520,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Die Folie führt schrittweise aus: \"5 Geraden sind 4 + 1 Geraden.\", \"4 Geradenspiegelungen lassen sich immer durch 2 Geradenspiegelungen ersetzen.\" und \"Es bleiben also drei Geradenspiegelungen übrig.\" Von der Identität ist nicht die Rede. 📄 Quelle: ari20_vl12, Folie 68 (S.68)",
+    "explanation": "Die Folie führt schrittweise aus: \"5 Geraden sind $4 + 1$ Geraden.\", \"4 Geradenspiegelungen lassen sich immer durch 2 Geradenspiegelungen ersetzen.\" und \"Es bleiben also drei Geradenspiegelungen übrig.\" Von der Identität ist nicht die Rede. 📄 Quelle: ari20_vl12, Folie 68 (S.68)",
     "source": "ari20_vl12, Folie 68 (S.68, Geometrie)"
   },
   {
@@ -2550,7 +2550,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 3,
     "tolerance": 0,
     "unit": "",
-    "explanation": "5 = 4 + 1; die 4 werden durch 2 ersetzt, also 2 + 1 = 3. Auf der Folie: \"Es bleiben also drei Geradenspiegelungen übrig.\" 📄 Quelle: ari20_vl12, Folie 68 (S.68)",
+    "explanation": "$5 = 4 + 1$; die 4 werden durch 2 ersetzt, also $2 + 1 = 3$. Auf der Folie: \"Es bleiben also drei Geradenspiegelungen übrig.\" 📄 Quelle: ari20_vl12, Folie 68 (S.68)",
     "source": "ari20_vl12, Folie 68 (S.68, Geometrie)"
   },
   {
@@ -2576,7 +2576,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 3,
     "type": "single",
-    "question": "Zu welcher Abbildung ist jede Verkettung von 2n Geradenspiegelungen (n ∈ N) identisch?",
+    "question": "Zu welcher Abbildung ist jede Verkettung von $2n$ Geradenspiegelungen ($n \\in \\mathbb{N}$) identisch?",
     "options": [
       "Zu einer zweifachen Geradenspiegelung (Drehung oder Verschiebung)",
       "Zu einer dreifachen Geradenspiegelung (Geradenspiegelung oder Schubspiegelung)",
@@ -2586,7 +2586,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Dritter Kasten: \"Jede Verkettung von 2n Geradenspiegelungen (n ∈ N) ist identisch zu einer zweifachen Geradenspiegelungen (Drehung oder Verschiebung).\" 📄 Quelle: ari20_vl12, Folie 71 (S.71)",
+    "explanation": "Dritter Kasten: \"Jede Verkettung von $2n$ Geradenspiegelungen ($n \\in \\mathbb{N}$) ist identisch zu einer zweifachen Geradenspiegelungen (Drehung oder Verschiebung).\" 📄 Quelle: ari20_vl12, Folie 71 (S.71)",
     "source": "ari20_vl12, Folie 71 (S.71, Geometrie)"
   },
   {
@@ -2598,7 +2598,7 @@ const SAMPLE_QUESTIONS = [
     "options": [
       "Verkettung von 2 Geradenspiegelungen",
       "Verkettung von 4 Geradenspiegelungen",
-      "Verkettung von 2n Geradenspiegelungen (n ∈ N)",
+      "Verkettung von $2n$ Geradenspiegelungen ($n \\in \\mathbb{N}$)",
       "Verkettung von 5 Geradenspiegelungen"
     ],
     "correct": [
@@ -2606,7 +2606,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Die drei Kästen der Folie nennen 2, 4 und 2n Geradenspiegelungen. Fünf (ungerade) Geradenspiegelungen gehören nicht dazu. 📄 Quelle: ari20_vl12, Folie 71 (S.71)",
+    "explanation": "Die drei Kästen der Folie nennen 2, 4 und $2n$ Geradenspiegelungen. Fünf (ungerade) Geradenspiegelungen gehören nicht dazu. 📄 Quelle: ari20_vl12, Folie 71 (S.71)",
     "source": "ari20_vl12, Folie 71 (S.71, Geometrie)"
   },
   {
@@ -2632,7 +2632,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 3,
     "type": "single",
-    "question": "Zu welcher Abbildung ist jede Verkettung von 2n + 1 Geradenspiegelungen (n ∈ N) identisch?",
+    "question": "Zu welcher Abbildung ist jede Verkettung von $2n + 1$ Geradenspiegelungen ($n \\in \\mathbb{N}$) identisch?",
     "options": [
       "Zu einer dreifachen Geradenspiegelung (Geradenspiegelung oder Schubspiegelung)",
       "Zu einer zweifachen Geradenspiegelung (Drehung oder Verschiebung)",
@@ -2642,7 +2642,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Dritter Kasten: \"Jede Verkettung von 2n + 1 Geradenspiegelungen (n ∈ N) ist identisch zu einer dreifachen Geradenspiegelungen (Geradenspiegelung oder Schubspiegelung).\" 📄 Quelle: ari20_vl12, Folie 74 (S.74)",
+    "explanation": "Dritter Kasten: \"Jede Verkettung von $2n + 1$ Geradenspiegelungen ($n \\in \\mathbb{N}$) ist identisch zu einer dreifachen Geradenspiegelungen (Geradenspiegelung oder Schubspiegelung).\" 📄 Quelle: ari20_vl12, Folie 74 (S.74)",
     "source": "ari20_vl12, Folie 74 (S.74, Geometrie)"
   },
   {
@@ -2654,15 +2654,15 @@ const SAMPLE_QUESTIONS = [
     "options": [
       "Verkettung von 3 Geradenspiegelungen",
       "Verkettung von 5 Geradenspiegelungen",
-      "Verkettung von 2n + 1 Geradenspiegelungen (n ∈ N)",
-      "Verkettung von 2n Geradenspiegelungen (n ∈ N)"
+      "Verkettung von $2n + 1$ Geradenspiegelungen ($n \\in \\mathbb{N}$)",
+      "Verkettung von $2n$ Geradenspiegelungen ($n \\in \\mathbb{N}$)"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die drei Kästen nennen 3, 5 und 2n + 1 (ungerade Anzahl). 2n (gerade Anzahl) reduziert sich dagegen auf eine zweifache Geradenspiegelung. 📄 Quelle: ari20_vl12, Folie 74 (S.74)",
+    "explanation": "Die drei Kästen nennen 3, 5 und $2n + 1$ (ungerade Anzahl). $2n$ (gerade Anzahl) reduziert sich dagegen auf eine zweifache Geradenspiegelung. 📄 Quelle: ari20_vl12, Folie 74 (S.74)",
     "source": "ari20_vl12, Folie 74 (S.74, Geometrie)"
   },
   {
@@ -2670,7 +2670,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 2,
     "type": "single",
-    "question": "Wenn 2n Geradenspiegelungen verkettet werden, lässt sich die Abbildung wodurch ersetzen und worauf reduzieren?",
+    "question": "Wenn $2n$ Geradenspiegelungen verkettet werden, lässt sich die Abbildung wodurch ersetzen und worauf reduzieren?",
     "options": [
       "Durch zwei Geradenspiegelungen, d.h. auf eine Drehung oder Verschiebung",
       "Durch drei Geradenspiegelungen, d.h. auf eine Schubspiegelung oder Achsenspiegelung",
@@ -2680,7 +2680,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Der Satz: \"Wenn 2n (2n+1) Geradenspiegelungen verkettet werden, dann lässt sich die Abbildung durch zwei (drei) Geradenspiegelungen ersetzen, d.h. auf eine Drehung oder Verschiebung (Schubspiegelung oder Achsenspiegelung) reduzieren.\" Für 2n gilt der Teil ohne Klammer. 📄 Quelle: ari20_vl12, Folie 76 (S.76)",
+    "explanation": "Der Satz: \"Wenn $2n$ ($2n+1$) Geradenspiegelungen verkettet werden, dann lässt sich die Abbildung durch zwei (drei) Geradenspiegelungen ersetzen, d.h. auf eine Drehung oder Verschiebung (Schubspiegelung oder Achsenspiegelung) reduzieren.\" Für $2n$ gilt der Teil ohne Klammer. 📄 Quelle: ari20_vl12, Folie 76 (S.76)",
     "source": "ari20_vl12, Folie 76 (S.76, Geometrie)"
   },
   {
@@ -2688,7 +2688,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "kongruenzabbildungen",
     "difficulty": 3,
     "type": "single",
-    "question": "Worauf lässt sich die Abbildung reduzieren, wenn 2n+1 Geradenspiegelungen verkettet werden?",
+    "question": "Worauf lässt sich die Abbildung reduzieren, wenn $2n+1$ Geradenspiegelungen verkettet werden?",
     "options": [
       "Auf eine Schubspiegelung oder Achsenspiegelung (durch drei Geradenspiegelungen)",
       "Auf eine Drehung oder Verschiebung (durch zwei Geradenspiegelungen)",
@@ -2698,7 +2698,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Im Satz gelten die Klammerangaben für den Fall 2n+1: durch drei Geradenspiegelungen ersetzbar, d.h. auf eine Schubspiegelung oder Achsenspiegelung reduzierbar. 📄 Quelle: ari20_vl12, Folie 76 (S.76)",
+    "explanation": "Im Satz gelten die Klammerangaben für den Fall $2n+1$: durch drei Geradenspiegelungen ersetzbar, d.h. auf eine Schubspiegelung oder Achsenspiegelung reduzierbar. 📄 Quelle: ari20_vl12, Folie 76 (S.76)",
     "source": "ari20_vl12, Folie 76 (S.76, Geometrie)"
   },
   {
@@ -2708,9 +2708,9 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Aussagen entsprechen dem Satz \"Für alle Verkettungen von Geradenspiegelungen gilt ...\"?",
     "options": [
-      "Eine gerade Anzahl (2n) Geradenspiegelungen reduziert sich auf eine Drehung oder Verschiebung",
-      "Eine ungerade Anzahl (2n+1) Geradenspiegelungen reduziert sich auf eine Schubspiegelung oder Achsenspiegelung",
-      "2n Geradenspiegelungen lassen sich durch zwei Geradenspiegelungen ersetzen",
+      "Eine gerade Anzahl ($2n$) Geradenspiegelungen reduziert sich auf eine Drehung oder Verschiebung",
+      "Eine ungerade Anzahl ($2n+1$) Geradenspiegelungen reduziert sich auf eine Schubspiegelung oder Achsenspiegelung",
+      "$2n$ Geradenspiegelungen lassen sich durch zwei Geradenspiegelungen ersetzen",
       "Jede Verkettung von Geradenspiegelungen ergibt stets eine Schubspiegelung"
     ],
     "correct": [
@@ -2718,7 +2718,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Der Satz unterscheidet 2n (zwei Geradenspiegelungen → Drehung/Verschiebung) und 2n+1 (drei Geradenspiegelungen → Schubspiegelung/Achsenspiegelung). Eine pauschale Schubspiegelung ist falsch. 📄 Quelle: ari20_vl12, Folie 76 (S.76)",
+    "explanation": "Der Satz unterscheidet $2n$ (zwei Geradenspiegelungen → Drehung/Verschiebung) und $2n+1$ (drei Geradenspiegelungen → Schubspiegelung/Achsenspiegelung). Eine pauschale Schubspiegelung ist falsch. 📄 Quelle: ari20_vl12, Folie 76 (S.76)",
     "source": "ari20_vl12, Folie 76 (S.76, Geometrie)"
   },
   {
@@ -4582,16 +4582,16 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Was gilt für das Bündeln von Nüssen in m-Bündeln?",
     "options": [
-      "m ist eine natürliche Zahl",
-      "Kinder lernen in m-Bündeln (mit m = 10, also in Zehnerbündeln) vorwärts und rückwärts zu zählen",
-      "m muss eine Primzahl sein",
-      "m ist zwingend auf den Wert 3 festgelegt"
+      "$m$ ist eine natürliche Zahl",
+      "Kinder lernen in m-Bündeln (mit $m = 10$, also in Zehnerbündeln) vorwärts und rückwärts zu zählen",
+      "$m$ muss eine Primzahl sein",
+      "$m$ ist zwingend auf den Wert 3 festgelegt"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Folie nennt: 'Nüsse in m-Bündeln (wobei m eine natürliche Zahl ist)' und 'Kinder lernen in m-Bündeln (mit m = 10, also in Zehnerbündeln) vorwärts und rückwärts zu zählen.' Eine Primzahl-Bedingung oder eine Festlegung auf 3 wird nicht genannt. 📄 Quelle: ari21_vl03, Folie 7 (S.7)",
+    "explanation": "Die Folie nennt: 'Nüsse in m-Bündeln (wobei $m$ eine natürliche Zahl ist)' und 'Kinder lernen in m-Bündeln (mit $m = 10$, also in Zehnerbündeln) vorwärts und rückwärts zu zählen.' Eine Primzahl-Bedingung oder eine Festlegung auf 3 wird nicht genannt. 📄 Quelle: ari21_vl03, Folie 7 (S.7)",
     "source": "ari21_vl03, Folie 7 (S.7, Erkundung II)"
   },
   {
@@ -4599,11 +4599,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Mit welchem Wert für m bündeln Kinder in Zehnerbündeln und lernen so, vorwärts und rückwärts zu zählen?",
+    "question": "Mit welchem Wert für $m$ bündeln Kinder in Zehnerbündeln und lernen so, vorwärts und rückwärts zu zählen?",
     "answer": 10,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Folie gibt an: 'Kinder lernen in m-Bündeln (mit m = 10, also in Zehnerbündeln) vorwärts und rückwärts zu zählen.' 📄 Quelle: ari21_vl03, Folie 7 (S.7)",
+    "explanation": "Die Folie gibt an: 'Kinder lernen in m-Bündeln (mit $m = 10$, also in Zehnerbündeln) vorwärts und rückwärts zu zählen.' 📄 Quelle: ari21_vl03, Folie 7 (S.7)",
     "source": "ari21_vl03, Folie 7 (S.7, Erkundung II)"
   },
   {
@@ -4613,15 +4613,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Wie wird die Zahl 17 im Dreier-System (Basis 3) dargestellt?",
     "options": [
-      "(1 2 2)_3",
-      "(2 1 2)_3",
-      "(2 2 1)_3",
-      "(1 1 2 2)_3"
+      "$(1\\,2\\,2)_3$",
+      "$(2\\,1\\,2)_3$",
+      "$(2\\,2\\,1)_3$",
+      "$(1\\,1\\,2\\,2)_3$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie zeigt beim Zählen im Dreier-System die Darstellung (1 2 2)_3. 📄 Quelle: ari21_vl03, Folie 8 (S.8)",
+    "explanation": "Die Folie zeigt beim Zählen im Dreier-System die Darstellung $(1\\,2\\,2)_3$. 📄 Quelle: ari21_vl03, Folie 8 (S.8)",
     "source": "ari21_vl03, Folie 8 (S.8, Erkundung II)"
   },
   {
@@ -4632,15 +4632,15 @@ const SAMPLE_QUESTIONS = [
     "question": "Welche Aussagen zum Zählen von Nüssen in Dreierbündeln (Dreier-System) sind richtig?",
     "options": [
       "Die Nüsse werden in Dreierbündeln gebündelt und gezählt",
-      "Als Ziffern der dargestellten Zahl (1 2 2)_3 treten die Ziffern 1 und 2 auf",
+      "Als Ziffern der dargestellten Zahl $(1\\,2\\,2)_3$ treten die Ziffern 1 und 2 auf",
       "Es wird im Zweier-System gezählt",
-      "Die dargestellte Zahl lautet (2)_10"
+      "Die dargestellte Zahl lautet $(2)_{10}$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Folie 'Zählen Sie! im Dreier-System' zeigt in Dreierbündeln gebündelte Nüsse und die Darstellung (1 2 2)_3; deren Ziffern sind 1 und 2. Es handelt sich um das Dreier-System, nicht das Zweier-System. 📄 Quelle: ari21_vl03, Folie 8 (S.8)",
+    "explanation": "Die Folie 'Zählen Sie! im Dreier-System' zeigt in Dreierbündeln gebündelte Nüsse und die Darstellung $(1\\,2\\,2)_3$; deren Ziffern sind 1 und 2. Es handelt sich um das Dreier-System, nicht das Zweier-System. 📄 Quelle: ari21_vl03, Folie 8 (S.8)",
     "source": "ari21_vl03, Folie 8 (S.8, Erkundung II)"
   },
   {
@@ -4650,16 +4650,16 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Zuordnung von Stellenwert-Ebene und Zehnerpotenz ist im Zehnersystem korrekt?",
     "options": [
-      "Einer-Ebene ↔ 10^0",
-      "Zehner-Ebene ↔ 10^1",
-      "Hunderter-Ebene ↔ 10^3",
-      "Tausender-Ebene ↔ 10^2"
+      "Einer-Ebene ↔ $10^0$",
+      "Zehner-Ebene ↔ $10^1$",
+      "Hunderter-Ebene ↔ $10^3$",
+      "Tausender-Ebene ↔ $10^2$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Tabelle 'Vom Stellenwert zum Zahlsystem: Zehnersystem (Potenzen zur Basis 10)' ordnet zu: Einer-Ebene 10^0, Zehner-Ebene 10^1, Hunderter-Ebene 10^2, Tausender-Ebene 10^3. Damit sind die Zuordnungen Hunderter↔10^3 und Tausender↔10^2 falsch. 📄 Quelle: ari21_vl03, Folie 9 (S.9)",
+    "explanation": "Die Tabelle 'Vom Stellenwert zum Zahlsystem: Zehnersystem (Potenzen zur Basis 10)' ordnet zu: Einer-Ebene $10^0$, Zehner-Ebene $10^1$, Hunderter-Ebene $10^2$, Tausender-Ebene $10^3$. Damit sind die Zuordnungen Hunderter↔$10^3$ und Tausender↔$10^2$ falsch. 📄 Quelle: ari21_vl03, Folie 9 (S.9)",
     "source": "ari21_vl03, Folie 9 (S.9, Erkundung II)"
   },
   {
@@ -4669,15 +4669,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Welche Zehnerpotenz gehört im Zehnersystem zur Hunderter-Ebene?",
     "options": [
-      "10^2",
-      "10^1",
-      "10^0",
-      "10^3"
+      "$10^2$",
+      "$10^1$",
+      "$10^0$",
+      "$10^3$"
     ],
     "correct": [
       0
     ],
-    "explanation": "In der Tabelle des Zehnersystems ist der Hunderter-Ebene die Potenz 10^2 zugeordnet. 📄 Quelle: ari21_vl03, Folie 9 (S.9)",
+    "explanation": "In der Tabelle des Zehnersystems ist der Hunderter-Ebene die Potenz $10^2$ zugeordnet. 📄 Quelle: ari21_vl03, Folie 9 (S.9)",
     "source": "ari21_vl03, Folie 9 (S.9, Erkundung II)"
   },
   {
@@ -4687,9 +4687,9 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Aussagen zur Darstellung von 1753 im Zehnersystem sind korrekt?",
     "options": [
-      "Die Einerziffer ist 3 (1753 = 175·10 + 3)",
-      "Die Zehnerziffer ist 5 (175 = 17·10 + 5)",
-      "Die Hunderterziffer ist 7 (17 = 1·10 + 7)",
+      "Die Einerziffer ist 3 ($1753 = 175\\cdot10 + 3$)",
+      "Die Zehnerziffer ist 5 ($175 = 17\\cdot10 + 5$)",
+      "Die Hunderterziffer ist 7 ($17 = 1\\cdot10 + 7$)",
       "Die Tausenderziffer ist 3"
     ],
     "correct": [
@@ -4697,7 +4697,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Die fortgesetzte Division auf der Folie ergibt 1753 = 175·10 + 3, 175 = 17·10 + 5, 17 = 1·10 + 7, 1 = 0·10 + 1. Die Stellenwerttafel liest sich Tausender 1, Hunderter 7, Zehner 5, Einer 3. Die Tausenderziffer ist also 1, nicht 3. 📄 Quelle: ari21_vl03, Folie 10 (S.10)",
+    "explanation": "Die fortgesetzte Division auf der Folie ergibt $1753 = 175\\cdot10 + 3$, $175 = 17\\cdot10 + 5$, $17 = 1\\cdot10 + 7$, $1 = 0\\cdot10 + 1$. Die Stellenwerttafel liest sich Tausender 1, Hunderter 7, Zehner 5, Einer 3. Die Tausenderziffer ist also 1, nicht 3. 📄 Quelle: ari21_vl03, Folie 10 (S.10)",
     "source": "ari21_vl03, Folie 10 (S.10, Erkundung II)"
   },
   {
@@ -4749,17 +4749,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Zuordnung von Zweierpotenz und Stellenwert ist korrekt?",
     "options": [
-      "2^0 = 1",
-      "2^1 = 2",
-      "2^4 = 16",
-      "2^3 = 6"
+      "$2^0 = 1$",
+      "$2^1 = 2$",
+      "$2^4 = 16$",
+      "$2^3 = 6$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie beschriftet die Stellenwerte mit Zweierpotenzen: 2^0 = 1, 2^1 = 2, 2^2 = 4, 2^3 = 8, 2^4 = 16. Somit ist 2^3 = 6 falsch (2^3 = 8). 📄 Quelle: ari21_vl03, Folie 13 (S.13)",
+    "explanation": "Die Folie beschriftet die Stellenwerte mit Zweierpotenzen: $2^0 = 1$, $2^1 = 2$, $2^2 = 4$, $2^3 = 8$, $2^4 = 16$. Somit ist $2^3 = 6$ falsch ($2^3 = 8$). 📄 Quelle: ari21_vl03, Folie 13 (S.13)",
     "source": "ari21_vl03, Folie 13 (S.13, Erkundung II)"
   },
   {
@@ -4767,11 +4767,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welchen Wert (Stellenwert) hat die Zweierpotenz 2^4?",
+    "question": "Welchen Wert (Stellenwert) hat die Zweierpotenz $2^4$?",
     "answer": 16,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Folie ordnet der Zweierpotenz 2^4 den Stellenwert 16 zu. 📄 Quelle: ari21_vl03, Folie 13 (S.13)",
+    "explanation": "Die Folie ordnet der Zweierpotenz $2^4$ den Stellenwert 16 zu. 📄 Quelle: ari21_vl03, Folie 13 (S.13)",
     "source": "ari21_vl03, Folie 13 (S.13, Erkundung II)"
   },
   {
@@ -4783,7 +4783,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 100010,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Mit den Stellenwerten der Folie (…, 32, 16, 8, 4, 2, 1) gilt 34 = 32 + 2, also (100010)_2. 📄 Quelle: ari21_vl03, Folie 15 (S.15)",
+    "explanation": "Mit den Stellenwerten der Folie (…, 32, 16, 8, 4, 2, 1) gilt $34 = 32 + 2$, also $(100010)_2$. 📄 Quelle: ari21_vl03, Folie 15 (S.15)",
     "source": "ari21_vl03, Folie 15 (S.15, Erkundung II)"
   },
   {
@@ -4802,7 +4802,7 @@ const SAMPLE_QUESTIONS = [
       0,
       3
     ],
-    "explanation": "34 = 32 + 2, daher werden die Stellenwerte 32 und 2 benötigt (Zweiersystem: (100010)_2). 16 und 4 werden nicht benötigt. 📄 Quelle: ari21_vl03, Folie 15 (S.15)",
+    "explanation": "$34 = 32 + 2$, daher werden die Stellenwerte 32 und 2 benötigt (Zweiersystem: $(100010)_2$). 16 und 4 werden nicht benötigt. 📄 Quelle: ari21_vl03, Folie 15 (S.15)",
     "source": "ari21_vl03, Folie 15 (S.15, Erkundung II)"
   },
   {
@@ -4814,7 +4814,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 1000101,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Mit den Stellenwerten der Folie gilt 69 = 64 + 4 + 1, also (1000101)_2. 📄 Quelle: ari21_vl03, Folie 16 (S.16)",
+    "explanation": "Mit den Stellenwerten der Folie gilt $69 = 64 + 4 + 1$, also $(1000101)_2$. 📄 Quelle: ari21_vl03, Folie 16 (S.16)",
     "source": "ari21_vl03, Folie 16 (S.16, Erkundung II)"
   },
   {
@@ -4834,7 +4834,7 @@ const SAMPLE_QUESTIONS = [
       2,
       3
     ],
-    "explanation": "69 = 64 + 4 + 1, daher werden die Stellenwerte 64, 4 und 1 benötigt (Zweiersystem: (1000101)_2). 32 wird nicht benötigt. 📄 Quelle: ari21_vl03, Folie 16 (S.16)",
+    "explanation": "$69 = 64 + 4 + 1$, daher werden die Stellenwerte 64, 4 und 1 benötigt (Zweiersystem: $(1000101)_2$). 32 wird nicht benötigt. 📄 Quelle: ari21_vl03, Folie 16 (S.16)",
     "source": "ari21_vl03, Folie 16 (S.16, Erkundung II)"
   },
   {
@@ -4844,17 +4844,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Stellenwert-Potenz-Zuordnung ist beim Aufbau des Zehnersystems korrekt?",
     "options": [
-      "Zehntausender ↔ 10^4",
-      "Tausender ↔ 10^3",
-      "Hunderter ↔ 10^2",
-      "Zehner ↔ 10^2"
+      "Zehntausender ↔ $10^4$",
+      "Tausender ↔ $10^3$",
+      "Hunderter ↔ $10^2$",
+      "Zehner ↔ $10^2$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Tabelle 'Aufbau des Zehnersystems' zeigt: Einer 10^0, Zehner 10^1, Hunderter 10^2, Tausender 10^3, Zehntausender 10^4 (usw). Damit ist Zehner ↔ 10^2 falsch (Zehner ↔ 10^1). 📄 Quelle: ari21_vl03, Folie 17 (S.17)",
+    "explanation": "Die Tabelle 'Aufbau des Zehnersystems' zeigt: Einer $10^0$, Zehner $10^1$, Hunderter $10^2$, Tausender $10^3$, Zehntausender $10^4$ (usw). Damit ist Zehner ↔ $10^2$ falsch (Zehner ↔ $10^1$). 📄 Quelle: ari21_vl03, Folie 17 (S.17)",
     "source": "ari21_vl03, Folie 17 (S.17, Erkundung II)"
   },
   {
@@ -4862,11 +4862,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welchen Exponenten hat die Zehnerpotenz, die im Zehnersystem zum Zehntausender gehört (10^?)?",
+    "question": "Welchen Exponenten hat die Zehnerpotenz, die im Zehnersystem zum Zehntausender gehört ($10^?$)?",
     "answer": 4,
     "tolerance": 0,
     "unit": "",
-    "explanation": "In der Tabelle 'Aufbau des Zehnersystems' ist dem Zehntausender die Potenz 10^4 zugeordnet; der Exponent ist 4. 📄 Quelle: ari21_vl03, Folie 17 (S.17)",
+    "explanation": "In der Tabelle 'Aufbau des Zehnersystems' ist dem Zehntausender die Potenz $10^4$ zugeordnet; der Exponent ist 4. 📄 Quelle: ari21_vl03, Folie 17 (S.17)",
     "source": "ari21_vl03, Folie 17 (S.17, Erkundung II)"
   },
   {
@@ -4876,17 +4876,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Stellenwerte gehören zum Aufbau des Zweiersystems?",
     "options": [
-      "Einer 2^0 = 1",
-      "Achter 2^3 = 8",
-      "32er 2^5 = 32",
-      "Zehner 2^1 = 10"
+      "Einer $2^0 = 1$",
+      "Achter $2^3 = 8$",
+      "32er $2^5 = 32$",
+      "Zehner $2^1 = 10$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie zeigt die Stellenwerte des Zweiersystems als Zweierpotenzen: Einer 2^0=1, Zweier 2^1=2, Vierer 2^2=4, Achter 2^3=8, Sechzehner 2^4=16, 32er 2^5=32. Einen „Zehner 2^1=10“ gibt es nicht. 📄 Quelle: ari21_vl03, Folie 18 (S.18)",
+    "explanation": "Die Folie zeigt die Stellenwerte des Zweiersystems als Zweierpotenzen: Einer $2^0=1$, Zweier $2^1=2$, Vierer $2^2=4$, Achter $2^3=8$, Sechzehner $2^4=16$, 32er $2^5=32$. Einen „Zehner $2^1=10$“ gibt es nicht. 📄 Quelle: ari21_vl03, Folie 18 (S.18)",
     "source": "ari21_vl03, Folie 18 (S.18, Arithmetik – Erkundung II)"
   },
   {
@@ -4894,11 +4894,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welchen Stellenwert hat der „Achter“ (2^3) im Aufbau des Zweiersystems?",
+    "question": "Welchen Stellenwert hat der „Achter“ ($2^3$) im Aufbau des Zweiersystems?",
     "answer": 8,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Der Achter entspricht 2^3 = 8. 📄 Quelle: ari21_vl03, Folie 18 (S.18)",
+    "explanation": "Der Achter entspricht $2^3 = 8$. 📄 Quelle: ari21_vl03, Folie 18 (S.18)",
     "source": "ari21_vl03, Folie 18 (S.18, Arithmetik – Erkundung II)"
   },
   {
@@ -4908,16 +4908,16 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "In welche Stellen der Stellenwerttafel des Zehnersystems wird die Zahl 34 eingetragen?",
     "options": [
-      "Zehner (10^1): 3",
-      "Einer (10^0): 4",
-      "Hunderter (10^2): 3",
-      "Zehner (10^1): 4"
+      "Zehner ($10^1$): 3",
+      "Einer ($10^0$): 4",
+      "Hunderter ($10^2$): 3",
+      "Zehner ($10^1$): 4"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "In der Zehnersystem-Tabelle steht bei 34 die 3 im Zehner (10^1) und die 4 im Einer (10^0). 📄 Quelle: ari21_vl03, Folie 18 (S.18)",
+    "explanation": "In der Zehnersystem-Tabelle steht bei 34 die 3 im Zehner ($10^1$) und die 4 im Einer ($10^0$). 📄 Quelle: ari21_vl03, Folie 18 (S.18)",
     "source": "ari21_vl03, Folie 18 (S.18, Arithmetik – Erkundung II)"
   },
   {
@@ -4927,17 +4927,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Wie wird die Zahl 34 im Zweiersystem dargestellt?",
     "options": [
-      "34 = 32 + 2",
-      "34 = 2^5 + 2^1",
-      "34 = (100010)_2",
-      "34 = 2^5 + 2^2"
+      "$34 = 32 + 2$",
+      "$34 = 2^5 + 2^1$",
+      "$34 = (100010)_2$",
+      "$34 = 2^5 + 2^2$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie: 34 = 32+2 = 2^5 + 2^1 = (100010)_2 (ausgehend von der größten Zweierpotenz). 📄 Quelle: ari21_vl03, Folie 19 (S.19)",
+    "explanation": "Die Folie: $34 = 32+2 = 2^5 + 2^1 = (100010)_2$ (ausgehend von der größten Zweierpotenz). 📄 Quelle: ari21_vl03, Folie 19 (S.19)",
     "source": "ari21_vl03, Folie 19 (S.19, Arithmetik – Erkundung II)"
   },
   {
@@ -4949,7 +4949,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 100010,
     "tolerance": 0,
     "unit": "",
-    "explanation": "34 = (100010)_2, denn 34 = 2^5 + 2^1. 📄 Quelle: ari21_vl03, Folie 19 (S.19)",
+    "explanation": "$34 = (100010)_2$, denn $34 = 2^5 + 2^1$. 📄 Quelle: ari21_vl03, Folie 19 (S.19)",
     "source": "ari21_vl03, Folie 19 (S.19, Arithmetik – Erkundung II)"
   },
   {
@@ -4961,13 +4961,13 @@ const SAMPLE_QUESTIONS = [
     "options": [
       "von der größten Zweierpotenz",
       "von der kleinsten Zweierpotenz",
-      "von 2^0 aufwärts",
+      "von $2^0$ aufwärts",
       "von der größten Zehnerpotenz"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie vermerkt: „ausgehend von der größten Zweierpotenz: 34 = 32+2 = 2^5 + 2^1 = (100010)_2“. 📄 Quelle: ari21_vl03, Folie 19 (S.19)",
+    "explanation": "Die Folie vermerkt: „ausgehend von der größten Zweierpotenz: $34 = 32+2 = 2^5 + 2^1 = (100010)_2$“. 📄 Quelle: ari21_vl03, Folie 19 (S.19)",
     "source": "ari21_vl03, Folie 19 (S.19, Arithmetik – Erkundung II)"
   },
   {
@@ -4977,17 +4977,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Stellenwerte gehören zum Aufbau des Dreiersystems?",
     "options": [
-      "Neuner 3^2 = 9",
-      "27er 3^3 = 27",
-      "81er 3^4 = 81",
-      "Neuner 3^2 = 6"
+      "Neuner $3^2 = 9$",
+      "27er $3^3 = 27$",
+      "81er $3^4 = 81$",
+      "Neuner $3^2 = 6$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie führt die Stellenwerte als Dreierpotenzen auf: Einer 3^0=1, Dreier 3^1=3, Neuner 3^2=9, 27er 3^3=27, 81er 3^4=81. 📄 Quelle: ari21_vl03, Folie 20 (S.20)",
+    "explanation": "Die Folie führt die Stellenwerte als Dreierpotenzen auf: Einer $3^0=1$, Dreier $3^1=3$, Neuner $3^2=9$, 27er $3^3=27$, 81er $3^4=81$. 📄 Quelle: ari21_vl03, Folie 20 (S.20)",
     "source": "ari21_vl03, Folie 20 (S.20, Arithmetik – Erkundung II)"
   },
   {
@@ -4995,11 +4995,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welchen Stellenwert hat der „27er“ (3^3) im Aufbau des Dreiersystems?",
+    "question": "Welchen Stellenwert hat der „27er“ ($3^3$) im Aufbau des Dreiersystems?",
     "answer": 27,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Der 27er entspricht 3^3 = 27. 📄 Quelle: ari21_vl03, Folie 20 (S.20)",
+    "explanation": "Der 27er entspricht $3^3 = 27$. 📄 Quelle: ari21_vl03, Folie 20 (S.20)",
     "source": "ari21_vl03, Folie 20 (S.20, Arithmetik – Erkundung II)"
   },
   {
@@ -5009,17 +5009,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Wie wird die Zahl 34 im Dreiersystem dargestellt?",
     "options": [
-      "34 = (1021)_3",
-      "34 = 27 + 2·3 + 1",
-      "34 = 3^3 + 2·3^1 + 3^0",
-      "34 = 3^3 + 3^2 + 1"
+      "$34 = (1021)_3$",
+      "$34 = 27 + 2\\cdot3 + 1$",
+      "$34 = 3^3 + 2\\cdot3^1 + 3^0$",
+      "$34 = 3^3 + 3^2 + 1$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie: „ausgehend von der größten Dreierpotenz: 34 = 27+7 = 27 + 2·3 + 1 = 3^3 + 2·3^1 + 3^0“, also 34 = (1021)_3. 📄 Quelle: ari21_vl03, Folie 21 (S.21)",
+    "explanation": "Die Folie: „ausgehend von der größten Dreierpotenz: $34 = 27+7 = 27 + 2\\cdot3 + 1 = 3^3 + 2\\cdot3^1 + 3^0$“, also $34 = (1021)_3$. 📄 Quelle: ari21_vl03, Folie 21 (S.21)",
     "source": "ari21_vl03, Folie 21 (S.21, Arithmetik – Erkundung II)"
   },
   {
@@ -5031,7 +5031,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 1021,
     "tolerance": 0,
     "unit": "",
-    "explanation": "34 = (1021)_3, denn 34 = 3^3 + 2·3^1 + 3^0. 📄 Quelle: ari21_vl03, Folie 21 (S.21)",
+    "explanation": "$34 = (1021)_3$, denn $34 = 3^3 + 2\\cdot3^1 + 3^0$. 📄 Quelle: ari21_vl03, Folie 21 (S.21)",
     "source": "ari21_vl03, Folie 21 (S.21, Arithmetik – Erkundung II)"
   },
   {
@@ -5043,7 +5043,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 1000101,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Folie: 69 = 64+4+1 = 2^6 + 2^2 + 2^0, also (1000101)_2. 📄 Quelle: ari21_vl03, Folie 22 (S.22)",
+    "explanation": "Die Folie: $69 = 64+4+1 = 2^6 + 2^2 + 2^0$, also $(1000101)_2$. 📄 Quelle: ari21_vl03, Folie 22 (S.22)",
     "source": "ari21_vl03, Folie 22 (S.22, Arithmetik – Erkundung II)"
   },
   {
@@ -5053,17 +5053,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Zerlegung von 69 im Zweiersystem ist korrekt?",
     "options": [
-      "69 = 64 + 4 + 1",
-      "69 = 2^6 + 2^2 + 2^0",
-      "69 = (1000101)_2",
-      "69 = 2^6 + 2^2 + 2^1"
+      "$69 = 64 + 4 + 1$",
+      "$69 = 2^6 + 2^2 + 2^0$",
+      "$69 = (1000101)_2$",
+      "$69 = 2^6 + 2^2 + 2^1$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie: 69 = 64+4+1 = 2^6 + 2^2 + 2^0 = (1000101)_2. 📄 Quelle: ari21_vl03, Folie 22 (S.22)",
+    "explanation": "Die Folie: $69 = 64+4+1 = 2^6 + 2^2 + 2^0 = (1000101)_2$. 📄 Quelle: ari21_vl03, Folie 22 (S.22)",
     "source": "ari21_vl03, Folie 22 (S.22, Arithmetik – Erkundung II)"
   },
   {
@@ -5071,11 +5071,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Was ist (11001)_2 im Zehnersystem?",
+    "question": "Was ist $(11001)_2$ im Zehnersystem?",
     "answer": 25,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Folie rechnet (11001)_2 = 2^4 + 2^3 + 0 + 0 + 2^0 = 16 + 8 + 1 = 25. 📄 Quelle: ari21_vl03, Folie 24 (S.24)",
+    "explanation": "Die Folie rechnet $(11001)_2 = 2^4 + 2^3 + 0 + 0 + 2^0 = 16 + 8 + 1 = 25$. 📄 Quelle: ari21_vl03, Folie 24 (S.24)",
     "source": "ari21_vl03, Folie 24 (S.24, Arithmetik – Erkundung II)"
   },
   {
@@ -5083,19 +5083,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 2,
     "type": "multi",
-    "question": "Wie berechnet man (11001)_2 im Zehnersystem?",
+    "question": "Wie berechnet man $(11001)_2$ im Zehnersystem?",
     "options": [
-      "2^4 + 2^3 + 2^0",
-      "16 + 8 + 1",
+      "$2^4 + 2^3 + 2^0$",
+      "$16 + 8 + 1$",
       "Ergebnis 25",
-      "2^4 + 2^3 + 2^1"
+      "$2^4 + 2^3 + 2^1$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie: (11001)_2 = 2^4 + 2^3 + 0 + 0 + 2^0 = 16 + 8 + 1 = 25. 📄 Quelle: ari21_vl03, Folie 24 (S.24)",
+    "explanation": "Die Folie: $(11001)_2 = 2^4 + 2^3 + 0 + 0 + 2^0 = 16 + 8 + 1 = 25$. 📄 Quelle: ari21_vl03, Folie 24 (S.24)",
     "source": "ari21_vl03, Folie 24 (S.24, Arithmetik – Erkundung II)"
   },
   {
@@ -5103,11 +5103,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Was ist (11001)_3 im Zehnersystem?",
+    "question": "Was ist $(11001)_3$ im Zehnersystem?",
     "answer": 109,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Folie rechnet (11001)_3 = 3^4 + 3^3 + 0 + 0 + 3^0 = 81 + 27 + 1 = 109. 📄 Quelle: ari21_vl03, Folie 26 (S.26)",
+    "explanation": "Die Folie rechnet $(11001)_3 = 3^4 + 3^3 + 0 + 0 + 3^0 = 81 + 27 + 1 = 109$. 📄 Quelle: ari21_vl03, Folie 26 (S.26)",
     "source": "ari21_vl03, Folie 26 (S.26, Arithmetik – Erkundung II)"
   },
   {
@@ -5115,19 +5115,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 2,
     "type": "multi",
-    "question": "Wie berechnet man (11001)_3 im Zehnersystem?",
+    "question": "Wie berechnet man $(11001)_3$ im Zehnersystem?",
     "options": [
-      "3^4 + 3^3 + 3^0",
-      "81 + 27 + 1",
+      "$3^4 + 3^3 + 3^0$",
+      "$81 + 27 + 1$",
       "Ergebnis 109",
-      "3^4 + 3^3 + 3^1"
+      "$3^4 + 3^3 + 3^1$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie: (11001)_3 = 3^4 + 3^3 + 0 + 0 + 3^0 = 81 + 27 + 1 = 109. 📄 Quelle: ari21_vl03, Folie 26 (S.26)",
+    "explanation": "Die Folie: $(11001)_3 = 3^4 + 3^3 + 0 + 0 + 3^0 = 81 + 27 + 1 = 109$. 📄 Quelle: ari21_vl03, Folie 26 (S.26)",
     "source": "ari21_vl03, Folie 26 (S.26, Arithmetik – Erkundung II)"
   },
   {
@@ -5135,11 +5135,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Erster Umrechnungsschritt von 1753 ins Zweiersystem: 1753 = 876·2 + r. Wie groß ist der Rest r?",
+    "question": "Erster Umrechnungsschritt von 1753 ins Zweiersystem: $1753 = 876\\cdot2 + r$. Wie groß ist der Rest $r$?",
     "answer": 1,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Folie zeigt 1753 = 876·2 + 1; der eingekreiste Rest (einzeln übrig bleibende Nuss) ist 1. 📄 Quelle: ari21_vl03, Folie 27 (S.27)",
+    "explanation": "Die Folie zeigt $1753 = 876\\cdot2 + 1$; der eingekreiste Rest (einzeln übrig bleibende Nuss) ist 1. 📄 Quelle: ari21_vl03, Folie 27 (S.27)",
     "source": "ari21_vl03, Folie 27 (S.27, Arithmetik – Erkundung II)"
   },
   {
@@ -5151,7 +5151,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 11011011001,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Folie ergibt aus der fortlaufenden Division durch 2: 1753 = (11011011001)_2. 📄 Quelle: ari21_vl03, Folie 28 (S.28)",
+    "explanation": "Die Folie ergibt aus der fortlaufenden Division durch 2: $1753 = (11011011001)_2$. 📄 Quelle: ari21_vl03, Folie 28 (S.28)",
     "source": "ari21_vl03, Folie 28 (S.28, Arithmetik – Erkundung II)"
   },
   {
@@ -5161,17 +5161,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche der folgenden fortlaufenden Divisionsschritte für die Umwandlung von 1753 ins Zweiersystem sind korrekt?",
     "options": [
-      "1753 = 876·2 + 1",
-      "219 = 109·2 + 1",
-      "27 = 13·2 + 1",
-      "876 = 438·2 + 1"
+      "$1753 = 876\\cdot2 + 1$",
+      "$219 = 109\\cdot2 + 1$",
+      "$27 = 13\\cdot2 + 1$",
+      "$876 = 438\\cdot2 + 1$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie listet u. a. 1753 = 876·2 + 1, 219 = 109·2 + 1, 27 = 13·2 + 1. Der Schritt 876 = 438·2 hat KEINEN Rest (nicht „+1“). 📄 Quelle: ari21_vl03, Folie 28 (S.28)",
+    "explanation": "Die Folie listet u. a. $1753 = 876\\cdot2 + 1$, $219 = 109\\cdot2 + 1$, $27 = 13\\cdot2 + 1$. Der Schritt $876 = 438\\cdot2$ hat KEINEN Rest (nicht „+1“). 📄 Quelle: ari21_vl03, Folie 28 (S.28)",
     "source": "ari21_vl03, Folie 28 (S.28, Arithmetik – Erkundung II)"
   },
   {
@@ -5183,7 +5183,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 2101221,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Folie ergibt aus der fortlaufenden Division durch 3: 1753 = (2101221)_3. 📄 Quelle: ari21_vl03, Folie 30 (S.30)",
+    "explanation": "Die Folie ergibt aus der fortlaufenden Division durch 3: $1753 = (2101221)_3$. 📄 Quelle: ari21_vl03, Folie 30 (S.30)",
     "source": "ari21_vl03, Folie 30 (S.30, Arithmetik – Erkundung II)"
   },
   {
@@ -5193,17 +5193,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche der folgenden Divisionsschritte für die Umwandlung von 1753 ins Dreiersystem sind korrekt?",
     "options": [
-      "1753 = 584·3 + 1",
-      "584 = 194·3 + 2",
-      "64 = 21·3 + 1",
-      "21 = 7·3 + 1"
+      "$1753 = 584\\cdot3 + 1$",
+      "$584 = 194\\cdot3 + 2$",
+      "$64 = 21\\cdot3 + 1$",
+      "$21 = 7\\cdot3 + 1$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie listet u. a. 1753 = 584·3 + 1, 584 = 194·3 + 2, 64 = 21·3 + 1. Der Schritt 21 = 7·3 hat KEINEN Rest (nicht „+1“). 📄 Quelle: ari21_vl03, Folie 30 (S.30)",
+    "explanation": "Die Folie listet u. a. $1753 = 584\\cdot3 + 1$, $584 = 194\\cdot3 + 2$, $64 = 21\\cdot3 + 1$. Der Schritt $21 = 7\\cdot3$ hat KEINEN Rest (nicht „+1“). 📄 Quelle: ari21_vl03, Folie 30 (S.30)",
     "source": "ari21_vl03, Folie 30 (S.30, Arithmetik – Erkundung II)"
   },
   {
@@ -5215,7 +5215,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 24003,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Folie ergibt aus der fortlaufenden Division durch 5: 1753 = (24003)_5. 📄 Quelle: ari21_vl03, Folie 32 (S.32)",
+    "explanation": "Die Folie ergibt aus der fortlaufenden Division durch 5: $1753 = (24003)_5$. 📄 Quelle: ari21_vl03, Folie 32 (S.32)",
     "source": "ari21_vl03, Folie 32 (S.32, Arithmetik – Erkundung II)"
   },
   {
@@ -5225,17 +5225,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Aussagen zur Fünferdarstellung von 1753 sind korrekt?",
     "options": [
-      "1753 = 350·5 + 3",
-      "14 = 2·5 + 4",
-      "1753 = (24003)_5",
-      "1753 = 350·5 + 1"
+      "$1753 = 350\\cdot5 + 3$",
+      "$14 = 2\\cdot5 + 4$",
+      "$1753 = (24003)_5$",
+      "$1753 = 350\\cdot5 + 1$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie: 1753 = 350·5 + 3, … 14 = 2·5 + 4, … Ergebnis (24003)_5. Der erste Rest ist 3, nicht 1. 📄 Quelle: ari21_vl03, Folie 32 (S.32)",
+    "explanation": "Die Folie: $1753 = 350\\cdot5 + 3$, … $14 = 2\\cdot5 + 4$, … Ergebnis $(24003)_5$. Der erste Rest ist 3, nicht 1. 📄 Quelle: ari21_vl03, Folie 32 (S.32)",
     "source": "ari21_vl03, Folie 32 (S.32, Arithmetik – Erkundung II)"
   },
   {
@@ -5245,16 +5245,16 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Was besagt der „Satz von der eindeutigen Division mit Rest“?",
     "options": [
-      "Wenn n, m natürliche Zahlen sind, gibt es genau ein Paar natürlicher Zahlen q und r mit n = q·m + r.",
-      "Für den Rest r gilt r < m.",
-      "Für den Rest r gilt r > m.",
-      "Es gibt unendlich viele solche Paare (q, r)."
+      "Wenn $n$, $m$ natürliche Zahlen sind, gibt es genau ein Paar natürlicher Zahlen $q$ und $r$ mit $n = q\\cdot m + r$.",
+      "Für den Rest $r$ gilt $r < m$.",
+      "Für den Rest $r$ gilt $r > m$.",
+      "Es gibt unendlich viele solche Paare $(q, r)$."
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Folie: „Wenn n, m natürliche Zahlen sind, dann gibt es genau ein Paar natürlicher Zahlen q und r (mit 0), so dass n = q·m + r mit r < m gilt.“ (Satz von der eindeutigen Division mit Rest). 📄 Quelle: ari21_vl03, Folie 33 (S.33)",
+    "explanation": "Die Folie: „Wenn $n$, $m$ natürliche Zahlen sind, dann gibt es genau ein Paar natürlicher Zahlen $q$ und $r$ (mit 0), so dass $n = q\\cdot m + r$ mit $r < m$ gilt.“ (Satz von der eindeutigen Division mit Rest). 📄 Quelle: ari21_vl03, Folie 33 (S.33)",
     "source": "ari21_vl03, Folie 33 (S.33, Arithmetik – Erkundung II)"
   },
   {
@@ -5264,15 +5264,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Wie kann man „7 : 2 = 3 Rest 1“ ohne weitere Definition schreiben?",
     "options": [
-      "7 = 3·2 + 1",
-      "7 = 2·3 + 2",
-      "7 = 3·2 + 2",
+      "$7 = 3\\cdot2 + 1$",
+      "$7 = 2\\cdot3 + 2$",
+      "$7 = 3\\cdot2 + 2$",
       "3 Rest 1 = 3·1"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie: „Ohne weitere Definition kann man wie oben schreiben: 7 = 3·2 + 1.“ 📄 Quelle: ari21_vl03, Folie 33 (S.33)",
+    "explanation": "Die Folie: „Ohne weitere Definition kann man wie oben schreiben: $7 = 3\\cdot2 + 1$.“ 📄 Quelle: ari21_vl03, Folie 33 (S.33)",
     "source": "ari21_vl03, Folie 33 (S.33, Arithmetik – Erkundung II)"
   },
   {
@@ -5298,19 +5298,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 2,
     "type": "multi",
-    "question": "Wie lässt sich eine natürliche Zahl n im b-adischen Stellenwertsystem darstellen?",
+    "question": "Wie lässt sich eine natürliche Zahl $n$ im b-adischen Stellenwertsystem darstellen?",
     "options": [
-      "n = a_m·b^m + a_{m-1}·b^{m-1} + … + a_1·b^1 + a_0·b^0",
-      "Für die Ziffern gilt 0 ≤ a_k < b.",
-      "Die a_k sind natürliche Zahlen größer gleich 0 und kleiner als b.",
-      "Für die Ziffern gilt 0 ≤ a_k ≤ b."
+      "$n = a_m\\cdot b^m + a_{m-1}\\cdot b^{m-1} + \\dots + a_1\\cdot b^1 + a_0\\cdot b^0$",
+      "Für die Ziffern gilt $0 \\le a_k < b$.",
+      "Die $a_k$ sind natürliche Zahlen größer gleich 0 und kleiner als $b$.",
+      "Für die Ziffern gilt $0 \\le a_k \\le b$."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie: n = a_m·b^m + a_{m-1}·b^{m-1} + … + a_1·b^1 + a_0·b^0; die a-Zahlen mit Index k sind natürliche Zahlen größer gleich 0 und kleiner als b, also 0 ≤ a_k < b. 📄 Quelle: ari21_vl03, Folie 34 (S.34)",
+    "explanation": "Die Folie: $n = a_m\\cdot b^m + a_{m-1}\\cdot b^{m-1} + \\dots + a_1\\cdot b^1 + a_0\\cdot b^0$; die a-Zahlen mit Index k sind natürliche Zahlen größer gleich 0 und kleiner als $b$, also $0 \\le a_k < b$. 📄 Quelle: ari21_vl03, Folie 34 (S.34)",
     "source": "ari21_vl03, Folie 34 (S.34, Arithmetik – Erkundung II)"
   },
   {
@@ -5318,17 +5318,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 1,
     "type": "single",
-    "question": "Welche Bedingung müssen die Ziffern a_k im b-adischen Stellenwertsystem erfüllen?",
+    "question": "Welche Bedingung müssen die Ziffern $a_k$ im b-adischen Stellenwertsystem erfüllen?",
     "options": [
-      "0 ≤ a_k < b",
-      "0 < a_k < b",
-      "0 ≤ a_k ≤ b",
-      "a_k = b"
+      "$0 \\le a_k < b$",
+      "$0 < a_k < b$",
+      "$0 \\le a_k \\le b$",
+      "$a_k = b$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie: „Dabei sind die a-Zahlen mit Index k natürliche Zahlen größer gleich 0 und kleiner als b, also 0 ≤ a_k < b.“ 📄 Quelle: ari21_vl03, Folie 34 (S.34)",
+    "explanation": "Die Folie: „Dabei sind die a-Zahlen mit Index k natürliche Zahlen größer gleich 0 und kleiner als b, also $0 \\le a_k < b$.“ 📄 Quelle: ari21_vl03, Folie 34 (S.34)",
     "source": "ari21_vl03, Folie 34 (S.34, Arithmetik – Erkundung II)"
   },
   {
@@ -5338,17 +5338,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Beispiel-Darstellungen der Zahl 1752 werden als Beispiele für ein b-adisches Stellenwertsystem angegeben?",
     "options": [
-      "1752 = 1·10^3 + 7·10^2 + 5·10^1 + 2·10^0",
-      "1752 = 2·3^6 + 1·3^5 + 1·3^3 + 2·3^2 + 2·3^1 + 1·3^0",
+      "$1752 = 1\\cdot10^3 + 7\\cdot10^2 + 5\\cdot10^1 + 2\\cdot10^0$",
+      "$1752 = 2\\cdot3^6 + 1\\cdot3^5 + 1\\cdot3^3 + 2\\cdot3^2 + 2\\cdot3^1 + 1\\cdot3^0$",
       "Die dekadische (10er-)Darstellung ist ein Beispiel für ein b-adisches Stellenwertsystem.",
-      "1752 = 1·2^3 + 7·2^2 + 5·2^1 + 2·2^0"
+      "$1752 = 1\\cdot2^3 + 7\\cdot2^2 + 5\\cdot2^1 + 2\\cdot2^0$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie nennt als Beispiele 1752 = 1·10^3 + 7·10^2 + 5·10^1 + 2·10^0 (dekadisch) und 1752 = 2·3^6 + 1·3^5 + 1·3^3 + 2·3^2 + 2·3^1 + 1·3^0; das dekadische System wird ausdrücklich als Beispiel eines b-adischen Stellenwertsystems genannt. Hinweis: Die auf der Folie angegebene Dreier-Darstellung ist rechnerisch inkonsistent (sie ergibt 1753 statt 1752; korrekt wäre 1752 = 2·3^6 + 1·3^5 + 1·3^3 + 2·3^2 + 2·3^1 + 0·3^0); die Option wird jedoch folientreu wiedergegeben. 📄 Quelle: ari21_vl03, Folie 34 (S.34)",
+    "explanation": "Die Folie nennt als Beispiele $1752 = 1\\cdot10^3 + 7\\cdot10^2 + 5\\cdot10^1 + 2\\cdot10^0$ (dekadisch) und $1752 = 2\\cdot3^6 + 1\\cdot3^5 + 1\\cdot3^3 + 2\\cdot3^2 + 2\\cdot3^1 + 1\\cdot3^0$; das dekadische System wird ausdrücklich als Beispiel eines b-adischen Stellenwertsystems genannt. Hinweis: Die auf der Folie angegebene Dreier-Darstellung ist rechnerisch inkonsistent (sie ergibt 1753 statt 1752; korrekt wäre $1752 = 2\\cdot3^6 + 1\\cdot3^5 + 1\\cdot3^3 + 2\\cdot3^2 + 2\\cdot3^1 + 0\\cdot3^0$); die Option wird jedoch folientreu wiedergegeben. 📄 Quelle: ari21_vl03, Folie 34 (S.34)",
     "source": "ari21_vl03, Folie 34 (S.34, Arithmetik – Erkundung II)"
   },
   {
@@ -5358,16 +5358,16 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche der folgenden Umrechnungen der Zahlen 543 und 987 ins Dreiersystem sind korrekt?",
     "options": [
-      "543 = (202010)₃",
-      "987 = (1100120)₃",
-      "543 = (1100120)₃",
-      "987 = (202010)₃"
+      "$543 = (202010)_3$",
+      "$987 = (1100120)_3$",
+      "$543 = (1100120)_3$",
+      "$987 = (202010)_3$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Auf der Folie stehen 543 = (202010)₃ und 987 = (1100120)₃; diese werden stellenweise im Dreiersystem addiert. 📄 Quelle: ari21_vl03, Folie 36 (S.36)",
+    "explanation": "Auf der Folie stehen $543 = (202010)_3$ und $987 = (1100120)_3$; diese werden stellenweise im Dreiersystem addiert. 📄 Quelle: ari21_vl03, Folie 36 (S.36)",
     "source": "ari21_vl03, Folie 36 (S.36, Erkundung II – Rechnen in Zahlsystemen)"
   },
   {
@@ -5375,11 +5375,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Die Probe der Addition im Dreiersystem rechnet 2·3⁶ + 2·3³ + 2·3² = 2·729 + 2·27 + 2·9. Welchen Wert im Zehnersystem ergibt sie (= Summe 543 + 987)?",
+    "question": "Die Probe der Addition im Dreiersystem rechnet $2\\cdot3^6 + 2\\cdot3^3 + 2\\cdot3^2 = 2\\cdot729 + 2\\cdot27 + 2\\cdot9$. Welchen Wert im Zehnersystem ergibt sie (= Summe $543 + 987$)?",
     "answer": 1530,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Probe laut Folie: 2·3⁶ + 2·3³ + 2·3² = 2·729 + 2·27 + 2·9 = 1458 + 54 + 18 = 1530, also 543 + 987 = 1530. 📄 Quelle: ari21_vl03, Folie 36 (S.36)",
+    "explanation": "Probe laut Folie: $2\\cdot3^6 + 2\\cdot3^3 + 2\\cdot3^2 = 2\\cdot729 + 2\\cdot27 + 2\\cdot9 = 1458 + 54 + 18 = 1530$, also $543 + 987 = 1530$. 📄 Quelle: ari21_vl03, Folie 36 (S.36)",
     "source": "ari21_vl03, Folie 36 (S.36, Erkundung II – Rechnen in Zahlsystemen)"
   },
   {
@@ -5391,7 +5391,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 25,
     "tolerance": 0,
     "unit": "",
-    "explanation": "11001₂ = 1·16 + 1·8 + 0·4 + 0·2 + 1·1 = 16 + 8 + 1 = 25. Frage direkt von der Folie. 📄 Quelle: ari21_vl03, Folie 38 (S.38)",
+    "explanation": "$11001_2 = 1\\cdot16 + 1\\cdot8 + 0\\cdot4 + 0\\cdot2 + 1\\cdot1 = 16 + 8 + 1 = 25$. Frage direkt von der Folie. 📄 Quelle: ari21_vl03, Folie 38 (S.38)",
     "source": "ari21_vl03, Folie 38 (S.38, Vertiefung – Dualzahlen)"
   },
   {
@@ -5409,7 +5409,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "34 = 32 + 2 = 1·2⁵ + 0·2⁴ + 0·2³ + 0·2² + 1·2¹ + 0·2⁰ = 100010₂. Frage direkt von der Folie. 📄 Quelle: ari21_vl03, Folie 38 (S.38)",
+    "explanation": "$34 = 32 + 2 = 1\\cdot2^5 + 0\\cdot2^4 + 0\\cdot2^3 + 0\\cdot2^2 + 1\\cdot2^1 + 0\\cdot2^0 = 100010_2$. Frage direkt von der Folie. 📄 Quelle: ari21_vl03, Folie 38 (S.38)",
     "source": "ari21_vl03, Folie 38 (S.38, Vertiefung – Dualzahlen)"
   },
   {
@@ -5473,11 +5473,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Vierer-System, Addition: Welchen Wert hat (133)₄ im Zehnersystem?",
+    "question": "Vierer-System, Addition: Welchen Wert hat $(133)_4$ im Zehnersystem?",
     "answer": 31,
     "tolerance": 0,
     "unit": "",
-    "explanation": "(133)₄ = 1·4² + 3·4¹ + 3·4⁰ = 16 + 12 + 3 = 31 (Probe auf der Folie). 📄 Quelle: ari21_vl03, Folie 42 (S.42)",
+    "explanation": "$(133)_4 = 1\\cdot4^2 + 3\\cdot4^1 + 3\\cdot4^0 = 16 + 12 + 3 = 31$ (Probe auf der Folie). 📄 Quelle: ari21_vl03, Folie 42 (S.42)",
     "source": "ari21_vl03, Folie 42 (S.42, Vertiefung – Addition im Vierer-System)"
   },
   {
@@ -5485,11 +5485,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Vierer-System, Addition: Welchen Wert hat (201)₄ im Zehnersystem?",
+    "question": "Vierer-System, Addition: Welchen Wert hat $(201)_4$ im Zehnersystem?",
     "answer": 33,
     "tolerance": 0,
     "unit": "",
-    "explanation": "(201)₄ = 2·4² + 0·4¹ + 1·4⁰ = 32 + 0 + 1 = 33 (Probe auf der Folie). 📄 Quelle: ari21_vl03, Folie 42 (S.42)",
+    "explanation": "$(201)_4 = 2\\cdot4^2 + 0\\cdot4^1 + 1\\cdot4^0 = 32 + 0 + 1 = 33$ (Probe auf der Folie). 📄 Quelle: ari21_vl03, Folie 42 (S.42)",
     "source": "ari21_vl03, Folie 42 (S.42, Vertiefung – Addition im Vierer-System)"
   },
   {
@@ -5497,19 +5497,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Aussagen zur Addition (133)₄ + (201)₄ sind richtig?",
+    "question": "Welche Aussagen zur Addition $(133)_4 + (201)_4$ sind richtig?",
     "options": [
-      "(133)₄ + (201)₄ = (1000)₄",
-      "Zur Probe: 31 + 33 = 64 und 64 = (1000)₄",
-      "64 = 4³ = (1000)₄",
-      "(133)₄ + (201)₄ = (1330)₄"
+      "$(133)_4 + (201)_4 = (1000)_4$",
+      "Zur Probe: $31 + 33 = 64$ und $64 = (1000)_4$",
+      "$64 = 4^3 = (1000)_4$",
+      "$(133)_4 + (201)_4 = (1330)_4$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Schriftliche Addition ergibt (1000)₄; Probe: (133)₄ = 31, (201)₄ = 33, 31 + 33 = 64 = 4³ = (1000)₄. 📄 Quelle: ari21_vl03, Folie 42 (S.42)",
+    "explanation": "Schriftliche Addition ergibt $(1000)_4$; Probe: $(133)_4 = 31$, $(201)_4 = 33$, $31 + 33 = 64 = 4^3 = (1000)_4$. 📄 Quelle: ari21_vl03, Folie 42 (S.42)",
     "source": "ari21_vl03, Folie 42 (S.42, Vertiefung – Addition im Vierer-System)"
   },
   {
@@ -5517,7 +5517,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 3,
     "type": "multi",
-    "question": "Welche Schritte gehören zur Erweiterungstechnik bei der schriftlichen Subtraktion 301₄ − 23₄?",
+    "question": "Welche Schritte gehören zur Erweiterungstechnik bei der schriftlichen Subtraktion $301_4 - 23_4$?",
     "options": [
       "Erweitern des Minuenden um 1 (nächster Stellenwert).",
       "Erweitern des Subtrahenden gleichzeitig um 1.",
@@ -5536,11 +5536,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Im Zehnersystem entspricht die Aufgabe 301₄ − 23₄ der Rechnung 49 − 11. Wie lautet das Ergebnis im Zehnersystem?",
+    "question": "Im Zehnersystem entspricht die Aufgabe $301_4 - 23_4$ der Rechnung $49 - 11$. Wie lautet das Ergebnis im Zehnersystem?",
     "answer": 38,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Laut Folie: „Oder Sie übersetzen es ins Zehnersystem: 49 − 11 = 38“. 📄 Quelle: ari21_vl03, Folie 44 (S.44)",
+    "explanation": "Laut Folie: „Oder Sie übersetzen es ins Zehnersystem: $49 - 11 = 38$“. 📄 Quelle: ari21_vl03, Folie 44 (S.44)",
     "source": "ari21_vl03, Folie 44 (S.44, Vertiefung – Subtraktion im Vierer-System)"
   },
   {
@@ -5548,19 +5548,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 2,
     "type": "multi",
-    "question": "Wie lautet das Ergebnis von 301₄ − 23₄ und wie sieht die Probe aus?",
+    "question": "Wie lautet das Ergebnis von $301_4 - 23_4$ und wie sieht die Probe aus?",
     "options": [
-      "301₄ − 23₄ = 212₄",
-      "Probe: 23₄ + 212₄ = 301₄",
-      "Im Zehnersystem: 49 − 11 = 38",
-      "301₄ − 23₄ = 122₄"
+      "$301_4 - 23_4 = 212_4$",
+      "Probe: $23_4 + 212_4 = 301_4$",
+      "Im Zehnersystem: $49 - 11 = 38$",
+      "$301_4 - 23_4 = 122_4$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Schriftliche Subtraktion ergibt 212₄; Probe durch Addition 23₄ + 212₄ = 301₄ bzw. im Zehnersystem 49 − 11 = 38. 📄 Quelle: ari21_vl03, Folie 44 (S.44)",
+    "explanation": "Schriftliche Subtraktion ergibt $212_4$; Probe durch Addition $23_4 + 212_4 = 301_4$ bzw. im Zehnersystem $49 - 11 = 38$. 📄 Quelle: ari21_vl03, Folie 44 (S.44)",
     "source": "ari21_vl03, Folie 44 (S.44, Vertiefung – Subtraktion im Vierer-System)"
   },
   {
@@ -5568,11 +5568,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Vierer-System, Multiplikation: Welchen Wert hat (23)₄ im Zehnersystem?",
+    "question": "Vierer-System, Multiplikation: Welchen Wert hat $(23)_4$ im Zehnersystem?",
     "answer": 11,
     "tolerance": 0,
     "unit": "",
-    "explanation": "(23)₄ = 2·4¹ + 3·4⁰ = 8 + 3 = 11 (Probe auf der Folie). 📄 Quelle: ari21_vl03, Folie 46 (S.46)",
+    "explanation": "$(23)_4 = 2\\cdot4^1 + 3\\cdot4^0 = 8 + 3 = 11$ (Probe auf der Folie). 📄 Quelle: ari21_vl03, Folie 46 (S.46)",
     "source": "ari21_vl03, Folie 46 (S.46, Vertiefung – Multiplikation im Vierer-System)"
   },
   {
@@ -5580,11 +5580,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Vierer-System, Multiplikation: Welchen Wert hat (12)₄ im Zehnersystem?",
+    "question": "Vierer-System, Multiplikation: Welchen Wert hat $(12)_4$ im Zehnersystem?",
     "answer": 6,
     "tolerance": 0,
     "unit": "",
-    "explanation": "(12)₄ = 1·4¹ + 2·4⁰ = 4 + 2 = 6 (Probe auf der Folie). 📄 Quelle: ari21_vl03, Folie 46 (S.46)",
+    "explanation": "$(12)_4 = 1\\cdot4^1 + 2\\cdot4^0 = 4 + 2 = 6$ (Probe auf der Folie). 📄 Quelle: ari21_vl03, Folie 46 (S.46)",
     "source": "ari21_vl03, Folie 46 (S.46, Vertiefung – Multiplikation im Vierer-System)"
   },
   {
@@ -5592,19 +5592,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 3,
     "type": "multi",
-    "question": "Welche Aussagen zur Multiplikation (23)₄ · (12)₄ sind richtig?",
+    "question": "Welche Aussagen zur Multiplikation $(23)_4 \\cdot (12)_4$ sind richtig?",
     "options": [
-      "(23)₄ · (12)₄ = (1002)₄",
-      "Zur Probe: 11 · 6 = 66 und 66 = (1002)₄",
+      "$(23)_4 \\cdot (12)_4 = (1002)_4$",
+      "Zur Probe: $11 \\cdot 6 = 66$ und $66 = (1002)_4$",
       "Überträge treten bei Produkten ab 4 auf.",
-      "(23)₄ · (12)₄ = (312)₄"
+      "$(23)_4 \\cdot (12)_4 = (312)_4$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Schriftliche Multiplikation ergibt (1002)₄; Hinweis: „Überträge bei Produkten ab 4!“; Probe: 11 · 6 = 66 = (1002)₄. 📄 Quelle: ari21_vl03, Folie 46 (S.46)",
+    "explanation": "Schriftliche Multiplikation ergibt $(1002)_4$; Hinweis: „Überträge bei Produkten ab 4!“; Probe: $11 \\cdot 6 = 66 = (1002)_4$. 📄 Quelle: ari21_vl03, Folie 46 (S.46)",
     "source": "ari21_vl03, Folie 46 (S.46, Vertiefung – Multiplikation im Vierer-System)"
   },
   {
@@ -5612,19 +5612,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 3,
     "type": "multi",
-    "question": "Bei der Division 11322₄ : 21₄ werden Vielfache von 21 (im 4er-System) benötigt. Welche Angaben aus der Hilfstabelle sind korrekt?",
+    "question": "Bei der Division $11322_4 : 21_4$ werden Vielfache von 21 (im 4er-System) benötigt. Welche Angaben aus der Hilfstabelle sind korrekt?",
     "options": [
-      "1 · 21 = 21 (im 4er-System)",
-      "2 · 21 = 102 (im 4er-System)",
-      "3 · 21 = 123 (im 4er-System)",
-      "2 · 21 = 42 (im 4er-System)"
+      "$1 \\cdot 21 = 21$ (im 4er-System)",
+      "$2 \\cdot 21 = 102$ (im 4er-System)",
+      "$3 \\cdot 21 = 123$ (im 4er-System)",
+      "$2 \\cdot 21 = 42$ (im 4er-System)"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Hilfstabelle der Folie: 1·21 = 21, 2·21 = 102, 3·21 = 123 (jeweils im 4er-System). 📄 Quelle: ari21_vl03, Folie 48 (S.48)",
+    "explanation": "Hilfstabelle der Folie: $1\\cdot21 = 21$, $2\\cdot21 = 102$, $3\\cdot21 = 123$ (jeweils im 4er-System). 📄 Quelle: ari21_vl03, Folie 48 (S.48)",
     "source": "ari21_vl03, Folie 48 (S.48, Vertiefung – Division im Vierer-System)"
   },
   {
@@ -5632,17 +5632,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lautet das Ergebnis der schriftlichen Division 11322₄ : 21₄ im 4er-System?",
+    "question": "Wie lautet das Ergebnis der schriftlichen Division $11322_4 : 21_4$ im 4er-System?",
     "options": [
-      "222₄",
-      "123₄",
-      "202₄",
-      "231₄"
+      "$222_4$",
+      "$123_4$",
+      "$202_4$",
+      "$231_4$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die schriftliche Division ergibt 11322₄ : 21₄ = 222₄ (Rest 0). 📄 Quelle: ari21_vl03, Folie 48 (S.48)",
+    "explanation": "Die schriftliche Division ergibt $11322_4 : 21_4 = 222_4$ (Rest 0). 📄 Quelle: ari21_vl03, Folie 48 (S.48)",
     "source": "ari21_vl03, Folie 48 (S.48, Vertiefung – Division im Vierer-System)"
   },
   {
@@ -5650,11 +5650,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Vierer-System, Division: Welchen Wert hat (11322)₄ im Zehnersystem?",
+    "question": "Vierer-System, Division: Welchen Wert hat $(11322)_4$ im Zehnersystem?",
     "answer": 378,
     "tolerance": 0,
     "unit": "",
-    "explanation": "(11322)₄ = 1·4⁴ + 1·4³ + 3·4² + 2·4¹ + 2·4⁰ = 256 + 64 + 48 + 8 + 2 = 378 (Probe auf der Folie). 📄 Quelle: ari21_vl03, Folie 49 (S.49)",
+    "explanation": "$(11322)_4 = 1\\cdot4^4 + 1\\cdot4^3 + 3\\cdot4^2 + 2\\cdot4^1 + 2\\cdot4^0 = 256 + 64 + 48 + 8 + 2 = 378$ (Probe auf der Folie). 📄 Quelle: ari21_vl03, Folie 49 (S.49)",
     "source": "ari21_vl03, Folie 49 (S.49, Vertiefung – Division im Vierer-System)"
   },
   {
@@ -5662,11 +5662,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Vierer-System, Division: Welchen Wert hat (21)₄ im Zehnersystem?",
+    "question": "Vierer-System, Division: Welchen Wert hat $(21)_4$ im Zehnersystem?",
     "answer": 9,
     "tolerance": 0,
     "unit": "",
-    "explanation": "(21)₄ = 2·4¹ + 1·4⁰ = 8 + 1 = 9 (Probe auf der Folie). 📄 Quelle: ari21_vl03, Folie 49 (S.49)",
+    "explanation": "$(21)_4 = 2\\cdot4^1 + 1\\cdot4^0 = 8 + 1 = 9$ (Probe auf der Folie). 📄 Quelle: ari21_vl03, Folie 49 (S.49)",
     "source": "ari21_vl03, Folie 49 (S.49, Vertiefung – Division im Vierer-System)"
   },
   {
@@ -5674,18 +5674,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Aussagen zur Probe der Division 11322₄ : 21₄ sind richtig?",
+    "question": "Welche Aussagen zur Probe der Division $11322_4 : 21_4$ sind richtig?",
     "options": [
-      "(11322)₄ = 378 und (21)₄ = 9",
-      "378 : 9 = 42 und 42 = (222)₄",
-      "378 : 9 = 222 im Zehnersystem",
-      "(11322)₄ = 222 im Zehnersystem"
+      "$(11322)_4 = 378$ und $(21)_4 = 9$",
+      "$378 : 9 = 42$ und $42 = (222)_4$",
+      "$378 : 9 = 222$ im Zehnersystem",
+      "$(11322)_4 = 222$ im Zehnersystem"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Probe der Folie: (11322)₄ = 378, (21)₄ = 9, 378 : 9 = 42 = 2·4² + 2·4¹ + 2·4⁰ = (222)₄. 📄 Quelle: ari21_vl03, Folie 49 (S.49)",
+    "explanation": "Probe der Folie: $(11322)_4 = 378$, $(21)_4 = 9$, $378 : 9 = 42 = 2\\cdot4^2 + 2\\cdot4^1 + 2\\cdot4^0 = (222)_4$. 📄 Quelle: ari21_vl03, Folie 49 (S.49)",
     "source": "ari21_vl03, Folie 49 (S.49, Vertiefung – Division im Vierer-System)"
   },
   {
@@ -8193,17 +8193,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 1,
     "type": "multi",
-    "question": "Für welche Belegung von A und B ist die Konjunktion A∧B wahr?",
+    "question": "Für welche Belegung von $A$ und $B$ ist die Konjunktion $A \\wedge B$ wahr?",
     "options": [
-      "A wahr, B wahr",
-      "A wahr, B falsch",
-      "A falsch, B wahr",
-      "A falsch, B falsch"
+      "$A$ wahr, $B$ wahr",
+      "$A$ wahr, $B$ falsch",
+      "$A$ falsch, $B$ wahr",
+      "$A$ falsch, $B$ falsch"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Wahrheitswertetafel für A∧B liefert von oben w, f, f, f. A∧B ist also nur dann wahr, wenn beide Teilaussagen wahr sind. 📄 Quelle: ari21_vl08, Folie 4 (S.4)",
+    "explanation": "Die Wahrheitswertetafel für $A \\wedge B$ liefert von oben w, f, f, f. $A \\wedge B$ ist also nur dann wahr, wenn beide Teilaussagen wahr sind. 📄 Quelle: ari21_vl08, Folie 4 (S.4)",
     "source": "ari21_vl08, Folie 4 (S.4, Arithmetik)"
   },
   {
@@ -8211,7 +8211,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie wird die Aussage ¬(A∧B) versprachlicht (A: 'es regnet', B: 'die Straße ist nass')?",
+    "question": "Wie wird die Aussage $\\neg(A \\wedge B)$ versprachlicht ($A$: 'es regnet', $B$: 'die Straße ist nass')?",
     "options": [
       "Es stimmt nicht, dass es regnet und die Straße nass ist",
       "Es regnet und die Straße ist nass",
@@ -8221,7 +8221,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Die Versprachlichung des Gegenteils ¬(A∧B) lautet auf der Folie: 'Es stimmt nicht, dass es regnet und die Straße nass ist.' 📄 Quelle: ari21_vl08, Folie 4 (S.4)",
+    "explanation": "Die Versprachlichung des Gegenteils $\\neg(A \\wedge B)$ lautet auf der Folie: 'Es stimmt nicht, dass es regnet und die Straße nass ist.' 📄 Quelle: ari21_vl08, Folie 4 (S.4)",
     "source": "ari21_vl08, Folie 4 (S.4, Arithmetik)"
   },
   {
@@ -8239,7 +8239,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Folie 5 hält fest: gleiche Wahrheitswertetafel ⇒ die Aussagen sind äquivalent (gleichwertig) zueinander. 📄 Quelle: ari21_vl08, Folie 5 (S.5)",
+    "explanation": "Folie 5 hält fest: gleiche Wahrheitswertetafel $\\Rightarrow$ die Aussagen sind äquivalent (gleichwertig) zueinander. 📄 Quelle: ari21_vl08, Folie 5 (S.5)",
     "source": "ari21_vl08, Folie 5 (S.5, Arithmetik)"
   },
   {
@@ -8249,16 +8249,16 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche beiden der folgenden Aussagen sind zueinander äquivalent (gleichwertig)?",
     "options": [
-      "¬(A∧B)",
-      "¬A ∨ ¬B",
-      "A ∧ B",
-      "A ∨ B"
+      "$\\neg(A \\wedge B)$",
+      "$\\neg A \\vee \\neg B$",
+      "$A \\wedge B$",
+      "$A \\vee B$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "¬(A∧B) und ¬A ∨ ¬B haben auf Folie 5 dieselbe Wahrheitswertetafel (f, w, w, w) und sind daher äquivalent. 📄 Quelle: ari21_vl08, Folie 5 (S.5)",
+    "explanation": "$\\neg(A \\wedge B)$ und $\\neg A \\vee \\neg B$ haben auf Folie 5 dieselbe Wahrheitswertetafel (f, w, w, w) und sind daher äquivalent. 📄 Quelle: ari21_vl08, Folie 5 (S.5)",
     "source": "ari21_vl08, Folie 5 (S.5, Arithmetik)"
   },
   {
@@ -8266,19 +8266,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 2,
     "type": "multi",
-    "question": "Für welche Belegungen ist ¬A ∨ ¬B wahr?",
+    "question": "Für welche Belegungen ist $\\neg A \\vee \\neg B$ wahr?",
     "options": [
-      "A wahr, B wahr",
-      "A wahr, B falsch",
-      "A falsch, B wahr",
-      "A falsch, B falsch"
+      "$A$ wahr, $B$ wahr",
+      "$A$ wahr, $B$ falsch",
+      "$A$ falsch, $B$ wahr",
+      "$A$ falsch, $B$ falsch"
     ],
     "correct": [
       1,
       2,
       3
     ],
-    "explanation": "Die Wahrheitswertetafel von ¬A ∨ ¬B liefert von oben f, w, w, w. Der Term ist also in allen Belegungen außer 'A wahr, B wahr' wahr. 📄 Quelle: ari21_vl08, Folie 5 (S.5)",
+    "explanation": "Die Wahrheitswertetafel von $\\neg A \\vee \\neg B$ liefert von oben f, w, w, w. Der Term ist also in allen Belegungen außer '$A$ wahr, $B$ wahr' wahr. 📄 Quelle: ari21_vl08, Folie 5 (S.5)",
     "source": "ari21_vl08, Folie 5 (S.5, Arithmetik)"
   },
   {
@@ -8286,7 +8286,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 1,
     "type": "single",
-    "question": "Wie wird ¬B versprachlicht (B: 'die Straße ist nass')?",
+    "question": "Wie wird $\\neg B$ versprachlicht ($B$: 'die Straße ist nass')?",
     "options": [
       "Die Straße ist nicht nass",
       "Die Straße ist nass",
@@ -8296,7 +8296,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Auf Folie 6 wird ¬B versprachlicht als 'Die Straße ist nicht nass.' 📄 Quelle: ari21_vl08, Folie 6 (S.6)",
+    "explanation": "Auf Folie 6 wird $\\neg B$ versprachlicht als 'Die Straße ist nicht nass.' 📄 Quelle: ari21_vl08, Folie 6 (S.6)",
     "source": "ari21_vl08, Folie 6 (S.6, Arithmetik)"
   },
   {
@@ -8304,7 +8304,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 2,
     "type": "multi",
-    "question": "Für welche Belegungen (A,B) ist B ∨ (A∧B) wahr?",
+    "question": "Für welche Belegungen $(A,B)$ ist $B \\vee (A \\wedge B)$ wahr?",
     "options": [
       "(w, w)",
       "(w, f)",
@@ -8315,7 +8315,7 @@ const SAMPLE_QUESTIONS = [
       0,
       2
     ],
-    "explanation": "Die Wahrheitswertetafel von B ∨ (A∧B) liefert von oben w, f, w, f; der Term ist also für (w,w) und (f,w) wahr. 📄 Quelle: ari21_vl08, Folie 6 (S.6)",
+    "explanation": "Die Wahrheitswertetafel von $B \\vee (A \\wedge B)$ liefert von oben w, f, w, f; der Term ist also für (w,w) und (f,w) wahr. 📄 Quelle: ari21_vl08, Folie 6 (S.6)",
     "source": "ari21_vl08, Folie 6 (S.6, Arithmetik)"
   },
   {
@@ -8325,16 +8325,16 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche zwei der folgenden Terme haben dieselbe Wahrheitswertetafel (f, w, w, f) und sind damit äquivalent?",
     "options": [
-      "(A∨B) ∧ ¬(A∧B)",
-      "(A∧¬B) ∨ (B∧¬A)",
-      "A ∧ B",
-      "A ∨ B"
+      "$(A \\vee B) \\wedge \\neg(A \\wedge B)$",
+      "$(A \\wedge \\neg B) \\vee (B \\wedge \\neg A)$",
+      "$A \\wedge B$",
+      "$A \\vee B$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Sowohl (A∨B) ∧ ¬(A∧B) als auch (A∧¬B) ∨ (B∧¬A) haben die Wahrheitswertetafel f, w, w, f und sind daher äquivalent (das exklusive Oder). 📄 Quelle: ari21_vl08, Folie 7 (S.7)",
+    "explanation": "Sowohl $(A \\vee B) \\wedge \\neg(A \\wedge B)$ als auch $(A \\wedge \\neg B) \\vee (B \\wedge \\neg A)$ haben die Wahrheitswertetafel f, w, w, f und sind daher äquivalent (das exklusive Oder). 📄 Quelle: ari21_vl08, Folie 7 (S.7)",
     "source": "ari21_vl08, Folie 7 (S.7, Arithmetik)"
   },
   {
@@ -8342,18 +8342,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 2,
     "type": "multi",
-    "question": "Für welche Belegungen ist (A∨B) ∧ ¬(A∧B) wahr?",
+    "question": "Für welche Belegungen ist $(A \\vee B) \\wedge \\neg(A \\wedge B)$ wahr?",
     "options": [
-      "A wahr, B wahr",
-      "A wahr, B falsch",
-      "A falsch, B wahr",
-      "A falsch, B falsch"
+      "$A$ wahr, $B$ wahr",
+      "$A$ wahr, $B$ falsch",
+      "$A$ falsch, $B$ wahr",
+      "$A$ falsch, $B$ falsch"
     ],
     "correct": [
       1,
       2
     ],
-    "explanation": "Die Wahrheitswertetafel liefert von oben f, w, w, f; der Term ist genau dann wahr, wenn A und B verschiedene Wahrheitswerte haben. 📄 Quelle: ari21_vl08, Folie 7 (S.7)",
+    "explanation": "Die Wahrheitswertetafel liefert von oben f, w, w, f; der Term ist genau dann wahr, wenn $A$ und $B$ verschiedene Wahrheitswerte haben. 📄 Quelle: ari21_vl08, Folie 7 (S.7)",
     "source": "ari21_vl08, Folie 7 (S.7, Arithmetik)"
   },
   {
@@ -8361,18 +8361,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 3,
     "type": "multi",
-    "question": "Für welche Belegungen ist (¬A∧¬B) ∨ (A∧B) wahr?",
+    "question": "Für welche Belegungen ist $(\\neg A \\wedge \\neg B) \\vee (A \\wedge B)$ wahr?",
     "options": [
-      "A wahr, B wahr",
-      "A wahr, B falsch",
-      "A falsch, B wahr",
-      "A falsch, B falsch"
+      "$A$ wahr, $B$ wahr",
+      "$A$ wahr, $B$ falsch",
+      "$A$ falsch, $B$ wahr",
+      "$A$ falsch, $B$ falsch"
     ],
     "correct": [
       0,
       3
     ],
-    "explanation": "Die Wahrheitswertetafel liefert von oben w, f, f, w; der Term ist genau dann wahr, wenn A und B denselben Wahrheitswert haben. 📄 Quelle: ari21_vl08, Folie 7 (S.7)",
+    "explanation": "Die Wahrheitswertetafel liefert von oben w, f, f, w; der Term ist genau dann wahr, wenn $A$ und $B$ denselben Wahrheitswert haben. 📄 Quelle: ari21_vl08, Folie 7 (S.7)",
     "source": "ari21_vl08, Folie 7 (S.7, Arithmetik)"
   },
   {
@@ -8380,17 +8380,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 2,
     "type": "single",
-    "question": "Für welche einzige Belegung ist die Implikation A⇒B falsch?",
+    "question": "Für welche einzige Belegung ist die Implikation $A \\Rightarrow B$ falsch?",
     "options": [
-      "A wahr, B falsch",
-      "A wahr, B wahr",
-      "A falsch, B wahr",
-      "A falsch, B falsch"
+      "$A$ wahr, $B$ falsch",
+      "$A$ wahr, $B$ wahr",
+      "$A$ falsch, $B$ wahr",
+      "$A$ falsch, $B$ falsch"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Wahrheitswertetafel von A⇒B liefert von oben w, f, w, w. A⇒B ist also nur dann falsch, wenn A wahr und B falsch ist. 📄 Quelle: ari21_vl08, Folie 8 (S.8)",
+    "explanation": "Die Wahrheitswertetafel von $A \\Rightarrow B$ liefert von oben w, f, w, w. $A \\Rightarrow B$ ist also nur dann falsch, wenn $A$ wahr und $B$ falsch ist. 📄 Quelle: ari21_vl08, Folie 8 (S.8)",
     "source": "ari21_vl08, Folie 8 (S.8, Arithmetik)"
   },
   {
@@ -8398,17 +8398,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 2,
     "type": "single",
-    "question": "Zu welcher Aussage ist A⇒B äquivalent (gleiche Wahrheitswertetafel)?",
+    "question": "Zu welcher Aussage ist $A \\Rightarrow B$ äquivalent (gleiche Wahrheitswertetafel)?",
     "options": [
-      "¬A ∨ B",
-      "A ∧ ¬B",
-      "¬A ∧ B",
-      "A ∨ ¬B"
+      "$\\neg A \\vee B$",
+      "$A \\wedge \\neg B$",
+      "$\\neg A \\wedge B$",
+      "$A \\vee \\neg B$"
     ],
     "correct": [
       0
     ],
-    "explanation": "A⇒B ist genau dann wahr, wenn ¬A ∨ B wahr ist; beide haben die Wahrheitswertetafel w, f, w, w. 📄 Quelle: ari21_vl08, Folie 8 (S.8)",
+    "explanation": "$A \\Rightarrow B$ ist genau dann wahr, wenn $\\neg A \\vee B$ wahr ist; beide haben die Wahrheitswertetafel w, f, w, w. 📄 Quelle: ari21_vl08, Folie 8 (S.8)",
     "source": "ari21_vl08, Folie 8 (S.8, Arithmetik)"
   },
   {
@@ -8416,11 +8416,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 1,
     "type": "numeric",
-    "question": "In wie vielen der vier möglichen Belegungen von A und B ist die Implikation A⇒B wahr?",
+    "question": "In wie vielen der vier möglichen Belegungen von $A$ und $B$ ist die Implikation $A \\Rightarrow B$ wahr?",
     "answer": 3,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Wahrheitswertetafel von A⇒B ist w, f, w, w; in drei der vier Belegungen ist die Implikation wahr. 📄 Quelle: ari21_vl08, Folie 8 (S.8)",
+    "explanation": "Die Wahrheitswertetafel von $A \\Rightarrow B$ ist w, f, w, w; in drei der vier Belegungen ist die Implikation wahr. 📄 Quelle: ari21_vl08, Folie 8 (S.8)",
     "source": "ari21_vl08, Folie 8 (S.8, Arithmetik)"
   },
   {
@@ -8430,15 +8430,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Welche Umformung hält die Regel von De Morgan fest?",
     "options": [
-      "¬(A∧B) = ¬A ∨ ¬B",
-      "¬(A∧B) = ¬A ∧ ¬B",
-      "¬(A∨B) = ¬A ∨ ¬B",
-      "¬(A∧B) = A ∨ B"
+      "$\\neg(A \\wedge B) = \\neg A \\vee \\neg B$",
+      "$\\neg(A \\wedge B) = \\neg A \\wedge \\neg B$",
+      "$\\neg(A \\vee B) = \\neg A \\vee \\neg B$",
+      "$\\neg(A \\wedge B) = A \\vee B$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die notierte Idee lautet ¬(A∧B) = ¬A ∨ ¬B (Regel von De Morgan). 📄 Quelle: ari21_vl08, Folie 10 (S.10)",
+    "explanation": "Die notierte Idee lautet $\\neg(A \\wedge B) = \\neg A \\vee \\neg B$ (Regel von De Morgan). 📄 Quelle: ari21_vl08, Folie 10 (S.10)",
     "source": "ari21_vl08, Folie 10 (S.10, Arithmetik)"
   },
   {
@@ -8446,17 +8446,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "de_morgan_verneinung",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lautet die Verneinung (Negation) von A∧B?",
+    "question": "Wie lautet die Verneinung (Negation) von $A \\wedge B$?",
     "options": [
-      "¬A ∨ ¬B",
-      "¬A ∧ ¬B",
-      "A ∨ B",
-      "¬A ⇒ ¬B"
+      "$\\neg A \\vee \\neg B$",
+      "$\\neg A \\wedge \\neg B$",
+      "$A \\vee B$",
+      "$\\neg A \\Rightarrow \\neg B$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Nach ¬(A∧B) = ¬A ∨ ¬B ist die Negation der Konjunktion A∧B gerade ¬A ∨ ¬B. 📄 Quelle: ari21_vl08, Folie 10 (S.10)",
+    "explanation": "Nach $\\neg(A \\wedge B) = \\neg A \\vee \\neg B$ ist die Negation der Konjunktion $A \\wedge B$ gerade $\\neg A \\vee \\neg B$. 📄 Quelle: ari21_vl08, Folie 10 (S.10)",
     "source": "ari21_vl08, Folie 10 (S.10, Arithmetik)"
   },
   {
@@ -8464,17 +8464,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lautet die Negation der Implikation, ¬(A⇒B)?",
+    "question": "Wie lautet die Negation der Implikation, $\\neg(A \\Rightarrow B)$?",
     "options": [
-      "A ∧ ¬B",
-      "¬A ∨ B",
-      "¬A ∧ ¬B",
-      "A ∨ ¬B"
+      "$A \\wedge \\neg B$",
+      "$\\neg A \\vee B$",
+      "$\\neg A \\wedge \\neg B$",
+      "$A \\vee \\neg B$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf Folie 11 wird ¬(A⇒B) = ¬(¬A ∨ B) = A ∧ ¬B hergeleitet. 📄 Quelle: ari21_vl08, Folie 11 (S.11)",
+    "explanation": "Auf Folie 11 wird $\\neg(A \\Rightarrow B) = \\neg(\\neg A \\vee B) = A \\wedge \\neg B$ hergeleitet. 📄 Quelle: ari21_vl08, Folie 11 (S.11)",
     "source": "ari21_vl08, Folie 11 (S.11, Arithmetik)"
   },
   {
@@ -8482,18 +8482,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 3,
     "type": "multi",
-    "question": "Welche Umformungsschritte zur Negation von A⇒B sind korrekt?",
+    "question": "Welche Umformungsschritte zur Negation von $A \\Rightarrow B$ sind korrekt?",
     "options": [
-      "¬(A⇒B) = ¬(¬A ∨ B)",
-      "¬(¬A ∨ B) = A ∧ ¬B",
-      "¬(A⇒B) = ¬A ∧ B",
-      "¬(A⇒B) = A ∨ ¬B"
+      "$\\neg(A \\Rightarrow B) = \\neg(\\neg A \\vee B)$",
+      "$\\neg(\\neg A \\vee B) = A \\wedge \\neg B$",
+      "$\\neg(A \\Rightarrow B) = \\neg A \\wedge B$",
+      "$\\neg(A \\Rightarrow B) = A \\vee \\neg B$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Folie zeigt ¬(A⇒B) = ¬(¬A ∨ B) = A ∧ ¬B; zunächst wird A⇒B durch ¬A ∨ B ersetzt, dann per De Morgan negiert. 📄 Quelle: ari21_vl08, Folie 11 (S.11)",
+    "explanation": "Die Folie zeigt $\\neg(A \\Rightarrow B) = \\neg(\\neg A \\vee B) = A \\wedge \\neg B$; zunächst wird $A \\Rightarrow B$ durch $\\neg A \\vee B$ ersetzt, dann per De Morgan negiert. 📄 Quelle: ari21_vl08, Folie 11 (S.11)",
     "source": "ari21_vl08, Folie 11 (S.11, Arithmetik)"
   },
   {
@@ -8501,17 +8501,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 2,
     "type": "single",
-    "question": "Auf welcher Äquivalenz beruht der Zwischenschritt ¬(A⇒B) = ¬(¬A ∨ B)?",
+    "question": "Auf welcher Äquivalenz beruht der Zwischenschritt $\\neg(A \\Rightarrow B) = \\neg(\\neg A \\vee B)$?",
     "options": [
-      "A⇒B ist äquivalent zu ¬A ∨ B",
-      "A⇒B ist äquivalent zu A ∧ B",
-      "A⇒B ist äquivalent zu A ∨ ¬B",
-      "A⇒B ist äquivalent zu B ⇒ A"
+      "$A \\Rightarrow B$ ist äquivalent zu $\\neg A \\vee B$",
+      "$A \\Rightarrow B$ ist äquivalent zu $A \\wedge B$",
+      "$A \\Rightarrow B$ ist äquivalent zu $A \\vee \\neg B$",
+      "$A \\Rightarrow B$ ist äquivalent zu $B \\Rightarrow A$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Umformung nutzt, dass A⇒B äquivalent zu ¬A ∨ B ist; deshalb kann A⇒B beim Negieren durch ¬A ∨ B ersetzt werden. 📄 Quelle: ari21_vl08, Folie 11 (S.11)",
+    "explanation": "Die Umformung nutzt, dass $A \\Rightarrow B$ äquivalent zu $\\neg A \\vee B$ ist; deshalb kann $A \\Rightarrow B$ beim Negieren durch $\\neg A \\vee B$ ersetzt werden. 📄 Quelle: ari21_vl08, Folie 11 (S.11)",
     "source": "ari21_vl08, Folie 11 (S.11, Arithmetik)"
   },
   {
@@ -8519,17 +8519,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 1,
     "type": "single",
-    "question": "Wie wird der Satz 'Für alle Elemente einer Menge M gilt: Wenn A, dann B' symbolisch notiert?",
+    "question": "Wie wird der Satz 'Für alle Elemente einer Menge $M$ gilt: Wenn $A$, dann $B$' symbolisch notiert?",
     "options": [
-      "A ⇒ B",
-      "A ∧ B",
-      "A ⇔ B",
-      "A ∨ B"
+      "$A \\Rightarrow B$",
+      "$A \\wedge B$",
+      "$A \\Leftrightarrow B$",
+      "$A \\vee B$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Satz 'Wenn A, dann B' wird auf Folie 12 als A ⇒ B notiert. 📄 Quelle: ari21_vl08, Folie 12 (S.12)",
+    "explanation": "Der Satz 'Wenn $A$, dann $B$' wird auf Folie 12 als $A \\Rightarrow B$ notiert. 📄 Quelle: ari21_vl08, Folie 12 (S.12)",
     "source": "ari21_vl08, Folie 12 (S.12, Arithmetik)"
   },
   {
@@ -8537,19 +8537,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "beweismethoden",
     "difficulty": 1,
     "type": "multi",
-    "question": "In einem Beispiel zur Aussagenlogik werden die Grundmenge M und die Aussagen A und B festgelegt. Welche Festlegungen gehören dazu?",
+    "question": "In einem Beispiel zur Aussagenlogik werden die Grundmenge $M$ und die Aussagen $A$ und $B$ festgelegt. Welche Festlegungen gehören dazu?",
     "options": [
-      "M := alle Tage im Jahr",
-      "A := die Sonne scheint",
-      "B := ich gehe joggen",
-      "M := alle Stunden eines Tages"
+      "$M :=$ alle Tage im Jahr",
+      "$A :=$ die Sonne scheint",
+      "$B :=$ ich gehe joggen",
+      "$M :=$ alle Stunden eines Tages"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Folie 14 legt fest: M := alle Tage im Jahr, A := die Sonne scheint, B := ich gehe joggen. 📄 Quelle: ari21_vl08, Folie 14 (S.14)",
+    "explanation": "Folie 14 legt fest: $M :=$ alle Tage im Jahr, $A :=$ die Sonne scheint, $B :=$ ich gehe joggen. 📄 Quelle: ari21_vl08, Folie 14 (S.14)",
     "source": "ari21_vl08, Folie 14 (S.14, Arithmetik)"
   },
   {
@@ -8557,7 +8557,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "beweismethoden",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lautet der konkrete Beispielsatz zur Grundmenge 'alle Tage im Jahr' mit A: 'die Sonne scheint' und B: 'ich gehe joggen'?",
+    "question": "Wie lautet der konkrete Beispielsatz zur Grundmenge 'alle Tage im Jahr' mit $A$: 'die Sonne scheint' und $B$: 'ich gehe joggen'?",
     "options": [
       "Für alle Tage im Jahr gilt: Wenn die Sonne scheint, dann gehe ich joggen",
       "Für alle Tage im Jahr gilt: Wenn ich joggen gehe, dann scheint die Sonne",
@@ -8575,17 +8575,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 2,
     "type": "single",
-    "question": "Zu welchen symbolischen Formen wird 'Wenn A, dann B' gleichgesetzt?",
+    "question": "Zu welchen symbolischen Formen wird 'Wenn $A$, dann $B$' gleichgesetzt?",
     "options": [
-      "A ⇒ B bzw. ¬A ∨ B",
-      "A ∧ B bzw. ¬A ∧ B",
-      "A ⇔ B bzw. ¬A ∨ ¬B",
-      "B ⇒ A bzw. ¬B ∨ A"
+      "$A \\Rightarrow B$ bzw. $\\neg A \\vee B$",
+      "$A \\wedge B$ bzw. $\\neg A \\wedge B$",
+      "$A \\Leftrightarrow B$ bzw. $\\neg A \\vee \\neg B$",
+      "$B \\Rightarrow A$ bzw. $\\neg B \\vee A$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf Folie 14 steht in Klammern: (Wenn A, dann B; A ⇒ B; ¬A ∨ B). 📄 Quelle: ari21_vl08, Folie 14 (S.14)",
+    "explanation": "Auf Folie 14 steht in Klammern: (Wenn $A$, dann $B$; $A \\Rightarrow B$; $\\neg A \\vee B$). 📄 Quelle: ari21_vl08, Folie 14 (S.14)",
     "source": "ari21_vl08, Folie 14 (S.14, Arithmetik)"
   },
   {
@@ -8611,17 +8611,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 1,
     "type": "single",
-    "question": "Welche Gleichwertigkeit zur Implikation A ⇒ B ist korrekt?",
+    "question": "Welche Gleichwertigkeit zur Implikation $A \\Rightarrow B$ ist korrekt?",
     "options": [
-      "A ⇒ B = ¬A ∨ B",
-      "A ⇒ B = A ∧ ¬B",
-      "A ⇒ B = ¬A ∧ B",
-      "A ⇒ B = A ∨ B"
+      "$A \\Rightarrow B = \\neg A \\vee B$",
+      "$A \\Rightarrow B = A \\wedge \\neg B$",
+      "$A \\Rightarrow B = \\neg A \\wedge B$",
+      "$A \\Rightarrow B = A \\vee B$"
     ],
     "correct": [
       0
     ],
-    "explanation": "In der Klammer auf Folie 16 steht: (Wenn A, dann B; A ⇒ B = ¬A ∨ B). 📄 Quelle: ari21_vl08, Folie 16 (S.16)",
+    "explanation": "In der Klammer auf Folie 16 steht: (Wenn $A$, dann $B$; $A \\Rightarrow B = \\neg A \\vee B$). 📄 Quelle: ari21_vl08, Folie 16 (S.16)",
     "source": "ari21_vl08, Folie 16 (S.16, Arithmetik)"
   },
   {
@@ -8629,17 +8629,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "de_morgan_verneinung",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lässt sich die Implikation \"A ⇒ B\" logisch gleichwertig darstellen?",
+    "question": "Wie lässt sich die Implikation \"$A \\Rightarrow B$\" logisch gleichwertig darstellen?",
     "options": [
-      "¬A ∨ B",
-      "A ∧ B",
-      "¬A ∧ ¬B",
-      "A ∨ ¬B"
+      "$\\neg A \\vee B$",
+      "$A \\wedge B$",
+      "$\\neg A \\wedge \\neg B$",
+      "$A \\vee \\neg B$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie wird notiert: A ⇒ B = ¬A ∨ B. 📄 Quelle: ari21_vl08, Folie 17 (S.17)",
+    "explanation": "Auf der Folie wird notiert: $A \\Rightarrow B = \\neg A \\vee B$. 📄 Quelle: ari21_vl08, Folie 17 (S.17)",
     "source": "ari21_vl08, Folie 17 (S.17, Arithmetik)"
   },
   {
@@ -8647,17 +8647,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "de_morgan_verneinung",
     "difficulty": 2,
     "type": "single",
-    "question": "Die Verneinung der Implikation, Nicht(A ⇒ B), ist gleich zu welchem Ausdruck?",
+    "question": "Die Verneinung der Implikation, Nicht($A \\Rightarrow B$), ist gleich zu welchem Ausdruck?",
     "options": [
-      "A ∧ ¬B",
-      "¬A ∨ B",
-      "¬A ∧ B",
-      "A ∨ B"
+      "$A \\wedge \\neg B$",
+      "$\\neg A \\vee B$",
+      "$\\neg A \\wedge B$",
+      "$A \\vee B$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie zeigt: ist gleich zu [¬(¬A ∨ B) = A ∧ ¬B]. 📄 Quelle: ari21_vl08, Folie 17 (S.17)",
+    "explanation": "Die Folie zeigt: ist gleich zu [$\\neg(\\neg A \\vee B) = A \\wedge \\neg B$]. 📄 Quelle: ari21_vl08, Folie 17 (S.17)",
     "source": "ari21_vl08, Folie 17 (S.17, Arithmetik)"
   },
   {
@@ -8685,15 +8685,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Wie lautet die Verneinung von \"Wenn die Sonne scheint, dann gehe ich joggen\"?",
     "options": [
-      "Die Sonne scheint und ich gehe nicht joggen. (A ∧ ¬B)",
-      "Wenn die Sonne nicht scheint, gehe ich joggen. (¬A ⇒ B)",
-      "Die Sonne scheint nicht und ich gehe joggen. (¬A ∧ B)",
-      "Die Sonne scheint nicht oder ich gehe joggen. (¬A ∨ B)"
+      "Die Sonne scheint und ich gehe nicht joggen. ($A \\wedge \\neg B$)",
+      "Wenn die Sonne nicht scheint, gehe ich joggen. ($\\neg A \\Rightarrow B$)",
+      "Die Sonne scheint nicht und ich gehe joggen. ($\\neg A \\wedge B$)",
+      "Die Sonne scheint nicht oder ich gehe joggen. ($\\neg A \\vee B$)"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der verneinte Satz (A ∧ ¬B): \"Die Sonne scheint und ich gehe nicht joggen.\" 📄 Quelle: ari21_vl08, Folie 18 (S.18)",
+    "explanation": "Der verneinte Satz ($A \\wedge \\neg B$): \"Die Sonne scheint und ich gehe nicht joggen.\" 📄 Quelle: ari21_vl08, Folie 18 (S.18)",
     "source": "ari21_vl08, Folie 18 (S.18, Arithmetik)"
   },
   {
@@ -8701,17 +8701,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "beweismethoden",
     "difficulty": 2,
     "type": "single",
-    "question": "Was zeigt man beim Widerspruchsbeweis, statt den Satz (A ⇒ B) direkt zu beweisen?",
+    "question": "Was zeigt man beim Widerspruchsbeweis, statt den Satz ($A \\Rightarrow B$) direkt zu beweisen?",
     "options": [
-      "Dass die Verneinung des Satzes (A ∧ ¬B) immer falsch ist",
-      "Dass die Umkehrung (B ⇒ A) immer wahr ist",
-      "Dass ¬A ∨ B immer falsch ist",
-      "Dass A und B nie zugleich wahr sind"
+      "Dass die Verneinung des Satzes ($A \\wedge \\neg B$) immer falsch ist",
+      "Dass die Umkehrung ($B \\Rightarrow A$) immer wahr ist",
+      "Dass $\\neg A \\vee B$ immer falsch ist",
+      "Dass $A$ und $B$ nie zugleich wahr sind"
     ],
     "correct": [
       0
     ],
-    "explanation": "Beweisidee: Statt A ⇒ B zu zeigen, zeigen wir, dass die Verneinung des Satzes (A ∧ ¬B) immer falsch ist. 📄 Quelle: ari21_vl08, Folie 19 (S.19)",
+    "explanation": "Beweisidee: Statt $A \\Rightarrow B$ zu zeigen, zeigen wir, dass die Verneinung des Satzes ($A \\wedge \\neg B$) immer falsch ist. 📄 Quelle: ari21_vl08, Folie 19 (S.19)",
     "source": "ari21_vl08, Folie 19 (S.19, Arithmetik)"
   },
   {
@@ -8719,17 +8719,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "beweismethoden",
     "difficulty": 1,
     "type": "single",
-    "question": "Welche logische Form hat die Verneinung eines Satzes A ⇒ B, deren Falschheit beim Widerspruchsbeweis gezeigt wird?",
+    "question": "Welche logische Form hat die Verneinung eines Satzes $A \\Rightarrow B$, deren Falschheit beim Widerspruchsbeweis gezeigt wird?",
     "options": [
-      "A ∧ ¬B",
-      "¬A ∨ B",
-      "A ⇒ B",
-      "¬A ∧ ¬B"
+      "$A \\wedge \\neg B$",
+      "$\\neg A \\vee B$",
+      "$A \\Rightarrow B$",
+      "$\\neg A \\wedge \\neg B$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Verneinung des Satzes wird auf der Folie als (A ∧ ¬B) angegeben. 📄 Quelle: ari21_vl08, Folie 19 (S.19)",
+    "explanation": "Die Verneinung des Satzes wird auf der Folie als ($A \\wedge \\neg B$) angegeben. 📄 Quelle: ari21_vl08, Folie 19 (S.19)",
     "source": "ari21_vl08, Folie 19 (S.19, Arithmetik)"
   },
   {
@@ -8737,18 +8737,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeitsregeln",
     "difficulty": 2,
     "type": "multi",
-    "question": "Der direkte Beweis von \"Wenn a gerade ist, dann ist a² gerade\" setzt a = 2·n. Was gilt dann?",
+    "question": "Der direkte Beweis von \"Wenn $a$ gerade ist, dann ist $a^2$ gerade\" setzt $a = 2 \\cdot n$. Was gilt dann?",
     "options": [
-      "a² = (2·n)² = 4·n²",
-      "a² ist eine gerade Zahl",
-      "a² = 2·n²",
-      "a² ist ungerade"
+      "$a^2 = (2 \\cdot n)^2 = 4 \\cdot n^2$",
+      "$a^2$ ist eine gerade Zahl",
+      "$a^2 = 2 \\cdot n^2$",
+      "$a^2$ ist ungerade"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Mit a = 2·n folgt a² = (2·n)² = 4·n², und das ist eine gerade Zahl. 📄 Quelle: ari21_vl08, Folie 20 (S.20)",
+    "explanation": "Mit $a = 2 \\cdot n$ folgt $a^2 = (2 \\cdot n)^2 = 4 \\cdot n^2$, und das ist eine gerade Zahl. 📄 Quelle: ari21_vl08, Folie 20 (S.20)",
     "source": "ari21_vl08, Folie 20 (S.20, Arithmetik)"
   },
   {
@@ -8756,17 +8756,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeitsregeln",
     "difficulty": 1,
     "type": "single",
-    "question": "Wie wird eine gerade Zahl a im direkten Beweis dargestellt?",
+    "question": "Wie wird eine gerade Zahl $a$ im direkten Beweis dargestellt?",
     "options": [
-      "a = 2·n",
-      "a = n²",
-      "a = 2·n + 1",
-      "a = 4·n"
+      "$a = 2 \\cdot n$",
+      "$a = n^2$",
+      "$a = 2 \\cdot n + 1$",
+      "$a = 4 \\cdot n$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie schreibt: a = 2·n, dann ist a² = (2·n)² = 4·n². 📄 Quelle: ari21_vl08, Folie 20 (S.20)",
+    "explanation": "Die Folie schreibt: $a = 2 \\cdot n$, dann ist $a^2 = (2 \\cdot n)^2 = 4 \\cdot n^2$. 📄 Quelle: ari21_vl08, Folie 20 (S.20)",
     "source": "ari21_vl08, Folie 20 (S.20, Arithmetik)"
   },
   {
@@ -8774,17 +8774,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeitsregeln",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lautet die Umkehrung des Satzes \"Wenn a gerade ist, dann ist a² gerade\"?",
+    "question": "Wie lautet die Umkehrung des Satzes \"Wenn $a$ gerade ist, dann ist $a^2$ gerade\"?",
     "options": [
-      "Wenn a² gerade ist, dann ist a gerade",
-      "Wenn a nicht gerade ist, dann ist a² nicht gerade",
-      "Wenn a² ungerade ist, dann ist a gerade",
-      "Wenn a gerade ist, dann ist a² ungerade"
+      "Wenn $a^2$ gerade ist, dann ist $a$ gerade",
+      "Wenn $a$ nicht gerade ist, dann ist $a^2$ nicht gerade",
+      "Wenn $a^2$ ungerade ist, dann ist $a$ gerade",
+      "Wenn $a$ gerade ist, dann ist $a^2$ ungerade"
     ],
     "correct": [
       0
     ],
-    "explanation": "Umkehrung des Satzes: Für alle natürlichen Zahlen gilt: Wenn a² gerade ist, dann ist a gerade. 📄 Quelle: ari21_vl08, Folie 22 (S.22)",
+    "explanation": "Umkehrung des Satzes: Für alle natürlichen Zahlen gilt: Wenn $a^2$ gerade ist, dann ist $a$ gerade. 📄 Quelle: ari21_vl08, Folie 22 (S.22)",
     "source": "ari21_vl08, Folie 22 (S.22, Arithmetik)"
   },
   {
@@ -8792,17 +8792,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeitsregeln",
     "difficulty": 2,
     "type": "single",
-    "question": "Beim Widerspruchsbeweis der Umkehrung lautet die Gegenannahme (¬(A ⇒ B) = A ∧ ¬B): \"Es gibt natürliche Zahlen, für die gilt …\". Wie geht es weiter?",
+    "question": "Beim Widerspruchsbeweis der Umkehrung lautet die Gegenannahme ($\\neg(A \\Rightarrow B) = A \\wedge \\neg B$): \"Es gibt natürliche Zahlen, für die gilt …\". Wie geht es weiter?",
     "options": [
-      "a² ist gerade und (dennoch) ist a ungerade",
-      "a² ist ungerade und a ist gerade",
-      "a ist gerade und a² ist ungerade",
-      "a² ist gerade und a ist gerade"
+      "$a^2$ ist gerade und (dennoch) ist $a$ ungerade",
+      "$a^2$ ist ungerade und $a$ ist gerade",
+      "$a$ ist gerade und $a^2$ ist ungerade",
+      "$a^2$ ist gerade und $a$ ist gerade"
     ],
     "correct": [
       0
     ],
-    "explanation": "Gegenannahme: Es gibt natürliche Zahlen, für die gilt: a² ist gerade und (dennoch) ist a ungerade. 📄 Quelle: ari21_vl08, Folie 23 (S.23)",
+    "explanation": "Gegenannahme: Es gibt natürliche Zahlen, für die gilt: $a^2$ ist gerade und (dennoch) ist $a$ ungerade. 📄 Quelle: ari21_vl08, Folie 23 (S.23)",
     "source": "ari21_vl08, Folie 23 (S.23, Arithmetik)"
   },
   {
@@ -8810,11 +8810,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeitsregeln",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Erste Überlegung anhand eines Beispiels (¬B: a ist ungerade): Man wählt a = 5. Welchen Wert hat dann a²?",
+    "question": "Erste Überlegung anhand eines Beispiels ($\\neg B$: $a$ ist ungerade): Man wählt $a = 5$. Welchen Wert hat dann $a^2$?",
     "answer": 25,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Für a = 5 gilt a² = 5² = 25, und 25 ist nicht gerade (= nicht A). 📄 Quelle: ari21_vl08, Folie 23 (S.23)",
+    "explanation": "Für $a = 5$ gilt $a^2 = 5^2 = 25$, und 25 ist nicht gerade (= nicht $A$). 📄 Quelle: ari21_vl08, Folie 23 (S.23)",
     "source": "ari21_vl08, Folie 23 (S.23, Arithmetik)"
   },
   {
@@ -8822,18 +8822,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeitsregeln",
     "difficulty": 2,
     "type": "multi",
-    "question": "Für ein allgemeines ungerades a = 2n+1 wird a² berechnet. Was ergibt sich?",
+    "question": "Für ein allgemeines ungerades $a = 2n+1$ wird $a^2$ berechnet. Was ergibt sich?",
     "options": [
-      "a² = (2n+1)² = 4n² + 4n + 1",
-      "a² ist nicht gerade (ungerade)",
-      "a² = 4n²",
-      "a² ist gerade"
+      "$a^2 = (2n+1)^2 = 4n^2 + 4n + 1$",
+      "$a^2$ ist nicht gerade (ungerade)",
+      "$a^2 = 4n^2$",
+      "$a^2$ ist gerade"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Für ¬B (a ist ungerade), a = 2n+1: a² = (2n+1)² = (2n)² + 2·2n + 1² = 4n² + 4n + 1, das ist nicht gerade (= nicht A). 📄 Quelle: ari21_vl08, Folie 24 (S.24)",
+    "explanation": "Für $\\neg B$ ($a$ ist ungerade), $a = 2n+1$: $a^2 = (2n+1)^2 = (2n)^2 + 2 \\cdot 2n + 1^2 = 4n^2 + 4n + 1$, das ist nicht gerade (= nicht $A$). 📄 Quelle: ari21_vl08, Folie 24 (S.24)",
     "source": "ari21_vl08, Folie 24 (S.24, Arithmetik)"
   },
   {
@@ -8841,17 +8841,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "beweismethoden",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie schließt der Widerspruchsbeweis der Umkehrung \"Wenn a² gerade ist, dann ist a gerade\" ab?",
+    "question": "Wie schließt der Widerspruchsbeweis der Umkehrung \"Wenn $a^2$ gerade ist, dann ist $a$ gerade\" ab?",
     "options": [
-      "A und ¬B sind nie zugleich wahr, d.h. ¬(A ⇒ B) ist falsch und damit A ⇒ B wahr",
-      "A und ¬B sind immer zugleich wahr, damit ist A ⇒ B falsch",
-      "¬B ist wahr, also ist A ⇒ B falsch",
-      "A ist falsch, damit ist der Satz nicht beweisbar"
+      "$A$ und $\\neg B$ sind nie zugleich wahr, d.h. $\\neg(A \\Rightarrow B)$ ist falsch und damit $A \\Rightarrow B$ wahr",
+      "$A$ und $\\neg B$ sind immer zugleich wahr, damit ist $A \\Rightarrow B$ falsch",
+      "$\\neg B$ ist wahr, also ist $A \\Rightarrow B$ falsch",
+      "$A$ ist falsch, damit ist der Satz nicht beweisbar"
     ],
     "correct": [
       0
     ],
-    "explanation": "Das ist ein Widerspruch zu A (A und ¬B sind nie zugleich wahr), d.h. ¬(A ⇒ B) ist falsch und damit A ⇒ B wahr. 📄 Quelle: ari21_vl08, Folie 24 (S.24)",
+    "explanation": "Das ist ein Widerspruch zu $A$ ($A$ und $\\neg B$ sind nie zugleich wahr), d.h. $\\neg(A \\Rightarrow B)$ ist falsch und damit $A \\Rightarrow B$ wahr. 📄 Quelle: ari21_vl08, Folie 24 (S.24)",
     "source": "ari21_vl08, Folie 24 (S.24, Arithmetik)"
   },
   {
@@ -8859,17 +8859,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 2,
     "type": "single",
-    "question": "Aus dem Satz \"Wenn a gerade ist, dann ist a² gerade\" (A ⇒ B) und seiner Umkehrung (B ⇒ A) folgt welcher Satz?",
+    "question": "Aus dem Satz \"Wenn $a$ gerade ist, dann ist $a^2$ gerade\" ($A \\Rightarrow B$) und seiner Umkehrung ($B \\Rightarrow A$) folgt welcher Satz?",
     "options": [
-      "Genau dann wenn a gerade ist, ist a² gerade (A ⇔ B)",
-      "Wenn a gerade ist, dann ist a² ungerade",
-      "Nur A ⇒ B gilt",
-      "Nur B ⇒ A gilt"
+      "Genau dann wenn $a$ gerade ist, ist $a^2$ gerade ($A \\Leftrightarrow B$)",
+      "Wenn $a$ gerade ist, dann ist $a^2$ ungerade",
+      "Nur $A \\Rightarrow B$ gilt",
+      "Nur $B \\Rightarrow A$ gilt"
     ],
     "correct": [
       0
     ],
-    "explanation": "Es gelten A ⇒ B ∧ B ⇒ A und damit der Satz (A ⇔ B): Genau dann wenn a gerade ist, dann ist a² gerade. 📄 Quelle: ari21_vl08, Folie 25 (S.25)",
+    "explanation": "Es gelten $A \\Rightarrow B \\wedge B \\Rightarrow A$ und damit der Satz ($A \\Leftrightarrow B$): Genau dann wenn $a$ gerade ist, dann ist $a^2$ gerade. 📄 Quelle: ari21_vl08, Folie 25 (S.25)",
     "source": "ari21_vl08, Folie 25 (S.25, Arithmetik)"
   },
   {
@@ -8877,18 +8877,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "aussagenlogik",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche beiden Sätze wurden gezeigt, sodass daraus die Äquivalenz A ⇔ B (a gerade ⇔ a² gerade) folgt?",
+    "question": "Welche beiden Sätze wurden gezeigt, sodass daraus die Äquivalenz $A \\Leftrightarrow B$ ($a$ gerade $\\Leftrightarrow a^2$ gerade) folgt?",
     "options": [
-      "Wenn a gerade ist, dann ist a² gerade (A ⇒ B)",
-      "Wenn a² gerade ist, dann ist a gerade (B ⇒ A)",
-      "Wenn a ungerade ist, dann ist a² gerade",
-      "Wenn a² ungerade ist, dann ist a gerade"
+      "Wenn $a$ gerade ist, dann ist $a^2$ gerade ($A \\Rightarrow B$)",
+      "Wenn $a^2$ gerade ist, dann ist $a$ gerade ($B \\Rightarrow A$)",
+      "Wenn $a$ ungerade ist, dann ist $a^2$ gerade",
+      "Wenn $a^2$ ungerade ist, dann ist $a$ gerade"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Gezeigt wurden der Satz (A ⇒ B) und seine Umkehrung (B ⇒ A); es gelten A ⇒ B ∧ B ⇒ A. 📄 Quelle: ari21_vl08, Folie 25 (S.25)",
+    "explanation": "Gezeigt wurden der Satz ($A \\Rightarrow B$) und seine Umkehrung ($B \\Rightarrow A$); es gelten $A \\Rightarrow B \\wedge B \\Rightarrow A$. 📄 Quelle: ari21_vl08, Folie 25 (S.25)",
     "source": "ari21_vl08, Folie 25 (S.25, Arithmetik)"
   },
   {
@@ -8898,7 +8898,7 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Wie lautet der Satz von Euklid über die Menge der Primzahlen?",
     "options": [
-      "Wenn P die Menge der Primzahlen ist, dann ist P unendlich",
+      "Wenn $P$ die Menge der Primzahlen ist, dann ist $P$ unendlich",
       "Es gibt unendlich viele Primzahlen",
       "Es gibt nur endlich viele Primzahlen",
       "Die Menge der Primzahlen ist endlich"
@@ -8907,7 +8907,7 @@ const SAMPLE_QUESTIONS = [
       0,
       1
     ],
-    "explanation": "Satz (Euklid): Wenn P die Menge der Primzahlen ist, dann ist P unendlich. (Es gibt unendlich viele Primzahlen.) 📄 Quelle: ari21_vl08, Folie 26 (S.26)",
+    "explanation": "Satz (Euklid): Wenn $P$ die Menge der Primzahlen ist, dann ist $P$ unendlich. (Es gibt unendlich viele Primzahlen.) 📄 Quelle: ari21_vl08, Folie 26 (S.26)",
     "source": "ari21_vl08, Folie 26 (S.26, Arithmetik)"
   },
   {
@@ -8936,16 +8936,16 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Wie lautet der verneinte Satz von Euklid (Verneinung von \"Die Menge der Primzahlen ist unendlich\")?",
     "options": [
-      "P ist die Menge der Primzahlen und P ist (dennoch) nicht unendlich",
-      "P ist die Menge der Primzahlen und P ist (dennoch) endlich",
-      "P ist die Menge der Primzahlen und P ist unendlich",
-      "P ist keine Menge von Primzahlen"
+      "$P$ ist die Menge der Primzahlen und $P$ ist (dennoch) nicht unendlich",
+      "$P$ ist die Menge der Primzahlen und $P$ ist (dennoch) endlich",
+      "$P$ ist die Menge der Primzahlen und $P$ ist unendlich",
+      "$P$ ist keine Menge von Primzahlen"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Verneinter Satz: P ist die Menge der Primzahlen und P ist (dennoch) nicht unendlich = P ist die Menge der Primzahlen und P ist (dennoch) endlich. 📄 Quelle: ari21_vl08, Folie 28 (S.28)",
+    "explanation": "Verneinter Satz: $P$ ist die Menge der Primzahlen und $P$ ist (dennoch) nicht unendlich = $P$ ist die Menge der Primzahlen und $P$ ist (dennoch) endlich. 📄 Quelle: ari21_vl08, Folie 28 (S.28)",
     "source": "ari21_vl08, Folie 28 (S.28, Arithmetik)"
   },
   {
@@ -8953,11 +8953,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeit_primzahlen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Beispiel mit der endlichen Menge P = {3; 5}: Man baut a als Produkt aller Primzahlen und addiert 1, also a = 3·5 + 1. Welchen Wert hat a?",
+    "question": "Beispiel mit der endlichen Menge $P = \\{3; 5\\}$: Man baut $a$ als Produkt aller Primzahlen und addiert 1, also $a = 3 \\cdot 5 + 1$. Welchen Wert hat $a$?",
     "answer": 16,
     "tolerance": 0,
     "unit": "",
-    "explanation": "a = 3·5 + 1 = 16. 📄 Quelle: ari21_vl08, Folie 30 (S.30)",
+    "explanation": "$a = 3 \\cdot 5 + 1 = 16$. 📄 Quelle: ari21_vl08, Folie 30 (S.30)",
     "source": "ari21_vl08, Folie 30 (S.30, Arithmetik)"
   },
   {
@@ -8965,17 +8965,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeit_primzahlen",
     "difficulty": 2,
     "type": "single",
-    "question": "Warum liefert a = 16 (aus P = {3; 5}) einen Widerspruch?",
+    "question": "Warum liefert $a = 16$ (aus $P = \\{3; 5\\}$) einen Widerspruch?",
     "options": [
-      "q = 2 teilt die 16, hat genau zwei Teiler, war aber nicht in der Menge {3; 5}",
-      "16 ist selbst eine Primzahl, die in P fehlt",
+      "$q = 2$ teilt die 16, hat genau zwei Teiler, war aber nicht in der Menge $\\{3; 5\\}$",
+      "16 ist selbst eine Primzahl, die in $P$ fehlt",
       "16 ist durch 3 und 5 teilbar",
-      "16 ist kleiner als alle Primzahlen in P"
+      "16 ist kleiner als alle Primzahlen in $P$"
     ],
     "correct": [
       0
     ],
-    "explanation": "q = 2 teilt die 16, hat genau zwei Teiler, war aber nicht in der Menge der Primzahlen {3; 5} — Widerspruch dazu, dass {3; 5} alle Primzahlen sind. 📄 Quelle: ari21_vl08, Folie 30 (S.30)",
+    "explanation": "$q = 2$ teilt die 16, hat genau zwei Teiler, war aber nicht in der Menge der Primzahlen $\\{3; 5\\}$ — Widerspruch dazu, dass $\\{3; 5\\}$ alle Primzahlen sind. 📄 Quelle: ari21_vl08, Folie 30 (S.30)",
     "source": "ari21_vl08, Folie 30 (S.30, Arithmetik)"
   },
   {
@@ -8983,11 +8983,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeit_primzahlen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Beispiel mit P = {2; 3; 5; 7}: a = 2·3·5·7 + 1. Welchen Wert hat a?",
+    "question": "Beispiel mit $P = \\{2; 3; 5; 7\\}$: $a = 2 \\cdot 3 \\cdot 5 \\cdot 7 + 1$. Welchen Wert hat $a$?",
     "answer": 211,
     "tolerance": 0,
     "unit": "",
-    "explanation": "a = 2·3·5·7 + 1 = 211 (Primzahl). 📄 Quelle: ari21_vl08, Folie 31 (S.31)",
+    "explanation": "$a = 2 \\cdot 3 \\cdot 5 \\cdot 7 + 1 = 211$ (Primzahl). 📄 Quelle: ari21_vl08, Folie 31 (S.31)",
     "source": "ari21_vl08, Folie 31 (S.31, Arithmetik)"
   },
   {
@@ -8995,17 +8995,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeit_primzahlen",
     "difficulty": 2,
     "type": "single",
-    "question": "Warum liefert a = 211 (aus P = {2; 3; 5; 7}) einen Widerspruch?",
+    "question": "Warum liefert $a = 211$ (aus $P = \\{2; 3; 5; 7\\}$) einen Widerspruch?",
     "options": [
-      "211 ist selbst eine Primzahl und taucht in P nicht auf",
+      "211 ist selbst eine Primzahl und taucht in $P$ nicht auf",
       "211 ist durch 2, 3, 5 und 7 teilbar",
       "211 ist keine natürliche Zahl",
-      "211 ist gleich 2·3·5·7"
+      "211 ist gleich $2 \\cdot 3 \\cdot 5 \\cdot 7$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Widerspruch dazu, dass {2, 3, 5, 7} alle Primzahlen sind, denn auch 211 ist Primzahl und taucht in P nicht auf. 📄 Quelle: ari21_vl08, Folie 31 (S.31)",
+    "explanation": "Widerspruch dazu, dass $\\{2, 3, 5, 7\\}$ alle Primzahlen sind, denn auch 211 ist Primzahl und taucht in $P$ nicht auf. 📄 Quelle: ari21_vl08, Folie 31 (S.31)",
     "source": "ari21_vl08, Folie 31 (S.31, Arithmetik)"
   },
   {
@@ -9013,18 +9013,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeit_primzahlen",
     "difficulty": 3,
     "type": "multi",
-    "question": "Im allgemeinen Beweis (Euklid) bildet man a = p₁·…·pₙ + 1. Welche Fälle werden unterschieden?",
+    "question": "Im allgemeinen Beweis (Euklid) bildet man $a = p_1 \\cdot \\dots \\cdot p_n + 1$. Welche Fälle werden unterschieden?",
     "options": [
-      "1. Fall: a könnte eine neue Primzahl sein (Widerspruch zum verneinten Satz)",
-      "2. Fall: Wenn a keine Primzahl ist, lässt sich a durch eine Primzahl q teilen",
-      "1. Fall: a ist immer durch p₁ teilbar",
-      "2. Fall: a ist stets gerade"
+      "1. Fall: $a$ könnte eine neue Primzahl sein (Widerspruch zum verneinten Satz)",
+      "2. Fall: Wenn $a$ keine Primzahl ist, lässt sich $a$ durch eine Primzahl $q$ teilen",
+      "1. Fall: $a$ ist immer durch $p_1$ teilbar",
+      "2. Fall: $a$ ist stets gerade"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "1. Fall: a könnte eine neue Primzahl sein (Widerspruch zum verneinten Satz). 2. Fall: Wenn a keine Primzahl ist, lässt sich a durch eine Primzahl q teilen. 📄 Quelle: ari21_vl08, Folie 32 (S.32)",
+    "explanation": "1. Fall: $a$ könnte eine neue Primzahl sein (Widerspruch zum verneinten Satz). 2. Fall: Wenn $a$ keine Primzahl ist, lässt sich $a$ durch eine Primzahl $q$ teilen. 📄 Quelle: ari21_vl08, Folie 32 (S.32)",
     "source": "ari21_vl08, Folie 32 (S.32, Arithmetik)"
   },
   {
@@ -9032,17 +9032,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "beweismethoden",
     "difficulty": 2,
     "type": "single",
-    "question": "Welche zu \"A ⇒ B\" gleichwertige Umformung gibt es?",
+    "question": "Welche zu \"$A \\Rightarrow B$\" gleichwertige Umformung gibt es?",
     "options": [
-      "Die Kontraposition ¬B ⇒ ¬A",
-      "Die Umkehrung B ⇒ A",
-      "Die Verneinung ¬A ⇒ ¬B",
-      "Die Konjunktion A ∧ B"
+      "Die Kontraposition $\\neg B \\Rightarrow \\neg A$",
+      "Die Umkehrung $B \\Rightarrow A$",
+      "Die Verneinung $\\neg A \\Rightarrow \\neg B$",
+      "Die Konjunktion $A \\wedge B$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie nennt die gleichwertige Kontraposition (A ⇒ B ist gleichwertig zu ¬B ⇒ ¬A). 📄 Quelle: ari21_vl08, Folie 32 (S.32)",
+    "explanation": "Die Folie nennt die gleichwertige Kontraposition ($A \\Rightarrow B$ ist gleichwertig zu $\\neg B \\Rightarrow \\neg A$). 📄 Quelle: ari21_vl08, Folie 32 (S.32)",
     "source": "ari21_vl08, Folie 32 (S.32, Arithmetik)"
   },
   {
@@ -9052,16 +9052,16 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welches Ergebnis wurde zuvor bewiesen und im allgemeinen Beweis verwendet?",
     "options": [
-      "Wenn q teilt p₁·…·pₙ und q teilt (p₁·…·pₙ + c), dann teilt q auch c",
-      "Wenn q nicht c (=1) teilt, dann teilt q nicht p₁·…·pₙ oder p₁·…·pₙ + 1",
-      "Wenn q das Produkt p₁·…·pₙ teilt, dann teilt q immer 1",
-      "q teilt jede natürliche Zahl"
+      "Wenn $q$ teilt $p_1 \\cdot \\dots \\cdot p_n$ und $q$ teilt $(p_1 \\cdot \\dots \\cdot p_n + c)$, dann teilt $q$ auch $c$",
+      "Wenn $q$ nicht $c$ ($=1$) teilt, dann teilt $q$ nicht $p_1 \\cdot \\dots \\cdot p_n$ oder $p_1 \\cdot \\dots \\cdot p_n + 1$",
+      "Wenn $q$ das Produkt $p_1 \\cdot \\dots \\cdot p_n$ teilt, dann teilt $q$ immer 1",
+      "$q$ teilt jede natürliche Zahl"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Bewiesen: Wenn q teilt p₁·…·pₙ und q teilt (p₁·…·pₙ + c), dann q teilt c; per Kontraposition: Wenn q nicht c (=1) teilt, dann teilt q nicht p₁·…·pₙ oder p₁·…·pₙ + 1. 📄 Quelle: ari21_vl08, Folie 32 (S.32)",
+    "explanation": "Bewiesen: Wenn $q$ teilt $p_1 \\cdot \\dots \\cdot p_n$ und $q$ teilt $(p_1 \\cdot \\dots \\cdot p_n + c)$, dann $q$ teilt $c$; per Kontraposition: Wenn $q$ nicht $c$ ($=1$) teilt, dann teilt $q$ nicht $p_1 \\cdot \\dots \\cdot p_n$ oder $p_1 \\cdot \\dots \\cdot p_n + 1$. 📄 Quelle: ari21_vl08, Folie 32 (S.32)",
     "source": "ari21_vl08, Folie 32 (S.32, Arithmetik)"
   },
   {
@@ -9071,15 +9071,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Wie ergibt sich im allgemeinen Beweis (2. Fall) der Widerspruch zum verneinten Satz?",
     "options": [
-      "Da q die Zahl a = p₁·…·pₙ + 1 teilt, teilt q nicht p₁·…·pₙ und kann keine der Zahlen p₁, …, pₙ sein",
-      "q teilt sowohl a als auch alle p₁, …, pₙ",
-      "q ist gleich einer der Zahlen p₁, …, pₙ",
-      "q teilt 1, also ist q selbst prim"
+      "Da $q$ die Zahl $a = p_1 \\cdot \\dots \\cdot p_n + 1$ teilt, teilt $q$ nicht $p_1 \\cdot \\dots \\cdot p_n$ und kann keine der Zahlen $p_1, \\dots, p_n$ sein",
+      "$q$ teilt sowohl $a$ als auch alle $p_1, \\dots, p_n$",
+      "$q$ ist gleich einer der Zahlen $p_1, \\dots, p_n$",
+      "$q$ teilt 1, also ist $q$ selbst prim"
     ],
     "correct": [
       0
     ],
-    "explanation": "Da q die Zahl a = p₁·…·pₙ + 1 teilt (weil a keine Primzahl ist), teilt q also p₁·…·pₙ nicht und kann damit keine der Zahlen p₁, …, pₙ sein — Widerspruch zum verneinten Satz. 📄 Quelle: ari21_vl08, Folie 32 (S.32)",
+    "explanation": "Da $q$ die Zahl $a = p_1 \\cdot \\dots \\cdot p_n + 1$ teilt (weil $a$ keine Primzahl ist), teilt $q$ also $p_1 \\cdot \\dots \\cdot p_n$ nicht und kann damit keine der Zahlen $p_1, \\dots, p_n$ sein — Widerspruch zum verneinten Satz. 📄 Quelle: ari21_vl08, Folie 32 (S.32)",
     "source": "ari21_vl08, Folie 32 (S.32, Arithmetik)"
   },
   {
@@ -9089,17 +9089,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Aussagen zur Logik des Widerspruchsbeweises von Euklid sind korrekt?",
     "options": [
-      "Ist ein Satz (A ⇒ B) falsch, ist dessen Verneinung ¬(A ⇒ B) wahr.",
-      "Wenn der verneinte Satz ¬(A ⇒ B) falsch ist, ist dessen Verneinung ¬(¬(A ⇒ B)), also A ⇒ B, wahr.",
+      "Ist ein Satz ($A \\Rightarrow B$) falsch, ist dessen Verneinung $\\neg(A \\Rightarrow B)$ wahr.",
+      "Wenn der verneinte Satz $\\neg(A \\Rightarrow B)$ falsch ist, ist dessen Verneinung $\\neg(\\neg(A \\Rightarrow B))$, also $A \\Rightarrow B$, wahr.",
       "Der verneinte Satz führt immer zum Widerspruch.",
-      "Ist ein Satz (A ⇒ B) falsch, ist auch dessen Verneinung ¬(A ⇒ B) falsch."
+      "Ist ein Satz ($A \\Rightarrow B$) falsch, ist auch dessen Verneinung $\\neg(A \\Rightarrow B)$ falsch."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Folie 33 hält fest: Ist (A ⇒ B) falsch, ist ¬(A ⇒ B) wahr; ist umgekehrt der verneinte Satz ¬(A ⇒ B) falsch, so ist ¬(¬(A ⇒ B)), also A ⇒ B, wahr. Der verneinte Satz (P endlich) führt immer zum Widerspruch. Die letzte Option verdreht dies. 📄 Quelle: ari21_vl08, Folie 33 (S.33)",
+    "explanation": "Folie 33 hält fest: Ist ($A \\Rightarrow B$) falsch, ist $\\neg(A \\Rightarrow B)$ wahr; ist umgekehrt der verneinte Satz $\\neg(A \\Rightarrow B)$ falsch, so ist $\\neg(\\neg(A \\Rightarrow B))$, also $A \\Rightarrow B$, wahr. Der verneinte Satz ($P$ endlich) führt immer zum Widerspruch. Die letzte Option verdreht dies. 📄 Quelle: ari21_vl08, Folie 33 (S.33)",
     "source": "ari21_vl08, Folie 33 (S.33, Berühmter Widerspruchsbeweis)"
   },
   {
@@ -9109,7 +9109,7 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Wie lautet der durch den berühmten Widerspruchsbeweis bestätigte Satz (Euklid)?",
     "options": [
-      "Wenn P die Menge der Primzahlen ist, dann ist P unendlich.",
+      "Wenn $P$ die Menge der Primzahlen ist, dann ist $P$ unendlich.",
       "Es gibt unendlich viele Primzahlen.",
       "Die Menge der Primzahlen ist endlich.",
       "Es gibt eine größte Primzahl."
@@ -9118,7 +9118,7 @@ const SAMPLE_QUESTIONS = [
       0,
       1
     ],
-    "explanation": "Der Satz auf Folie 33 lautet: 'Wenn P die Menge der Primzahlen ist, dann ist P unendlich. (Es gibt unendlich viele Primzahlen.)' Die endliche Menge bzw. eine größte Primzahl gehören zum widerlegten verneinten Satz. 📄 Quelle: ari21_vl08, Folie 33 (S.33)",
+    "explanation": "Der Satz auf Folie 33 lautet: 'Wenn $P$ die Menge der Primzahlen ist, dann ist $P$ unendlich. (Es gibt unendlich viele Primzahlen.)' Die endliche Menge bzw. eine größte Primzahl gehören zum widerlegten verneinten Satz. 📄 Quelle: ari21_vl08, Folie 33 (S.33)",
     "source": "ari21_vl08, Folie 33 (S.33, Berühmter Widerspruchsbeweis)"
   },
   {
@@ -9126,11 +9126,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "beweismethoden",
     "difficulty": 2,
     "type": "multi",
-    "question": "Womit erzeugt man den Widerspruch zur Annahme, die Menge P der Primzahlen sei endlich?",
+    "question": "Womit erzeugt man den Widerspruch zur Annahme, die Menge $P$ der Primzahlen sei endlich?",
     "options": [
-      "Mit einer Zahl, die entweder selbst Primzahl ist oder durch eine neue (nicht in P enthaltene) Primzahl teilbar ist.",
+      "Mit einer Zahl, die entweder selbst Primzahl ist oder durch eine neue (nicht in $P$ enthaltene) Primzahl teilbar ist.",
       "Mit einer Zahl, die keine Teiler besitzt.",
-      "Mit der Summe aller Elemente von P.",
+      "Mit der Summe aller Elemente von $P$.",
       "Mit dem kleinsten gemeinsamen Vielfachen von 2 und 3."
     ],
     "correct": [
@@ -9146,16 +9146,16 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Voraussetzung und welche Behauptung gehören zum Fundamentalsatz der Arithmetik?",
     "options": [
-      "Voraussetzung: n ist eine natürliche Zahl größer 1.",
-      "Behauptung: n lässt sich (bis auf Reihenfolge) eindeutig in Primfaktoren zerlegen.",
-      "Behauptung: n lässt sich auf genau zwei Arten in Primfaktoren zerlegen.",
-      "Voraussetzung: n ist eine beliebige natürliche Zahl (einschließlich 0 und 1)."
+      "Voraussetzung: $n$ ist eine natürliche Zahl größer 1.",
+      "Behauptung: $n$ lässt sich (bis auf Reihenfolge) eindeutig in Primfaktoren zerlegen.",
+      "Behauptung: $n$ lässt sich auf genau zwei Arten in Primfaktoren zerlegen.",
+      "Voraussetzung: $n$ ist eine beliebige natürliche Zahl (einschließlich 0 und 1)."
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Folie 34 (Satz, Fundamentalsatz der Arithmetik): 'Für alle natürlichen Zahlen n gilt: Wenn n eine natürliche Zahl größer 1 ist, dann lässt sich n (bis auf Reihenfolge) eindeutig in Primfaktoren zerlegen.' 📄 Quelle: ari21_vl08, Folie 34 (S.34)",
+    "explanation": "Folie 34 (Satz, Fundamentalsatz der Arithmetik): 'Für alle natürlichen Zahlen $n$ gilt: Wenn $n$ eine natürliche Zahl größer 1 ist, dann lässt sich $n$ (bis auf Reihenfolge) eindeutig in Primfaktoren zerlegen.' 📄 Quelle: ari21_vl08, Folie 34 (S.34)",
     "source": "ari21_vl08, Folie 34 (S.34, Wichtiger Widerspruchsbeweis)"
   },
   {
@@ -9165,15 +9165,15 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Formulierung gibt den Fundamentalsatz der Arithmetik korrekt wieder?",
     "options": [
-      "Für alle natürlichen Zahlen n gilt: Wenn n > 1, dann lässt sich n bis auf Reihenfolge eindeutig in Primfaktoren zerlegen.",
-      "Für alle natürlichen Zahlen n gilt: n lässt sich eindeutig als Summe von Primzahlen schreiben.",
+      "Für alle natürlichen Zahlen $n$ gilt: Wenn $n > 1$, dann lässt sich $n$ bis auf Reihenfolge eindeutig in Primfaktoren zerlegen.",
+      "Für alle natürlichen Zahlen $n$ gilt: $n$ lässt sich eindeutig als Summe von Primzahlen schreiben.",
       "Jede natürliche Zahl größer 1 hat unendlich viele Primfaktorzerlegungen.",
       "Jede natürliche Zahl lässt sich eindeutig als Produkt zweier Quadratzahlen schreiben."
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Zerlegung erfolgt in ein Produkt von Primfaktoren, eindeutig 'bis auf die Reihenfolge', und die Voraussetzung ist n > 1. Summen- oder Quadratzahl-Formulierungen sind falsch. 📄 Quelle: ari21_vl08, Folie 34 (S.34)",
+    "explanation": "Die Zerlegung erfolgt in ein Produkt von Primfaktoren, eindeutig 'bis auf die Reihenfolge', und die Voraussetzung ist $n > 1$. Summen- oder Quadratzahl-Formulierungen sind falsch. 📄 Quelle: ari21_vl08, Folie 34 (S.34)",
     "source": "ari21_vl08, Folie 34 (S.34, Wichtiger Widerspruchsbeweis)"
   },
   {
@@ -9183,7 +9183,7 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Wie lautet die Verneinung des Fundamentalsatzes der Arithmetik?",
     "options": [
-      "Es gibt natürliche Zahlen, für die gilt: n ist eine natürliche Zahl größer 1, und (dennoch) gibt es mindestens zwei Primfaktorzerlegungen für n.",
+      "Es gibt natürliche Zahlen, für die gilt: $n$ ist eine natürliche Zahl größer 1, und (dennoch) gibt es mindestens zwei Primfaktorzerlegungen für $n$.",
       "Für alle natürlichen Zahlen größer 1 gibt es genau eine Primfaktorzerlegung.",
       "Für alle natürlichen Zahlen gibt es keine Primfaktorzerlegung.",
       "Es gibt eine natürliche Zahl größer 1, die sich nicht in Primfaktoren zerlegen lässt."
@@ -9191,7 +9191,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Folie 35 (Verneinter Satz): 'Es gibt natürliche Zahlen, für die gilt: n ist eine natürliche Zahl größer 1, und (dennoch) gibt es mindestens zwei Primfaktorzerlegungen für n.' 📄 Quelle: ari21_vl08, Folie 35 (S.35)",
+    "explanation": "Folie 35 (Verneinter Satz): 'Es gibt natürliche Zahlen, für die gilt: $n$ ist eine natürliche Zahl größer 1, und (dennoch) gibt es mindestens zwei Primfaktorzerlegungen für $n$.' 📄 Quelle: ari21_vl08, Folie 35 (S.35)",
     "source": "ari21_vl08, Folie 35 (S.35, Wichtiger Widerspruchsbeweis)"
   },
   {
@@ -9199,11 +9199,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "beweismethoden",
     "difficulty": 3,
     "type": "multi",
-    "question": "Welche Bausteine treten beim Bilden der Verneinung ¬(A ⇒ B) = A ∧ ¬B des Fundamentalsatzes auf?",
+    "question": "Welche Bausteine treten beim Bilden der Verneinung $\\neg(A \\Rightarrow B) = A \\wedge \\neg B$ des Fundamentalsatzes auf?",
     "options": [
       "Der Existenzquantor ('Es gibt') ersetzt den Allquantor ('Für alle').",
-      "Die Voraussetzung 'n ist eine natürliche Zahl größer 1' bleibt bestehen (A).",
-      "Die Folgerung wird zu 'mindestens zwei Primfaktorzerlegungen' (¬B).",
+      "Die Voraussetzung '$n$ ist eine natürliche Zahl größer 1' bleibt bestehen ($A$).",
+      "Die Folgerung wird zu 'mindestens zwei Primfaktorzerlegungen' ($\\neg B$).",
       "Die Folgerung wird zu 'genau eine Primfaktorzerlegung'."
     ],
     "correct": [
@@ -9211,7 +9211,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Bei ¬(A ⇒ B) = A ∧ ¬B wird aus 'Für alle' ein 'Es gibt', A ('n > 1') bleibt erhalten, und die Folgerung wird negiert zu ¬B ('mindestens zwei Primfaktorzerlegungen'). 📄 Quelle: ari21_vl08, Folie 35 (S.35)",
+    "explanation": "Bei $\\neg(A \\Rightarrow B) = A \\wedge \\neg B$ wird aus 'Für alle' ein 'Es gibt', $A$ ('$n > 1$') bleibt erhalten, und die Folgerung wird negiert zu $\\neg B$ ('mindestens zwei Primfaktorzerlegungen'). 📄 Quelle: ari21_vl08, Folie 35 (S.35)",
     "source": "ari21_vl08, Folie 35 (S.35, Wichtiger Widerspruchsbeweis)"
   },
   {
@@ -9219,17 +9219,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "beweismethoden",
     "difficulty": 1,
     "type": "multi",
-    "question": "Wie werden die beiden angenommenen Primfaktorzerlegungen einer Zahl n geschrieben?",
+    "question": "Wie werden die beiden angenommenen Primfaktorzerlegungen einer Zahl $n$ geschrieben?",
     "options": [
-      "n = p1·p2·…·pn und n = q1·q2·…·qn",
-      "n = p1 + p2 + … + pn und n = q1 + q2 + … + qn",
-      "n = p1·q1",
-      "n = p1 − q1"
+      "$n = p_1 \\cdot p_2 \\cdot \\dots \\cdot p_n$ und $n = q_1 \\cdot q_2 \\cdot \\dots \\cdot q_n$",
+      "$n = p_1 + p_2 + \\dots + p_n$ und $n = q_1 + q_2 + \\dots + q_n$",
+      "$n = p_1 \\cdot q_1$",
+      "$n = p_1 - q_1$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Folie 36: 'Wir nehmen an, dass es eine Zahl n mit zwei Primfaktorzerlegungen gibt: n = p1·p2·…·pn und n = q1·q2·…·qn.' 📄 Quelle: ari21_vl08, Folie 36 (S.36)",
+    "explanation": "Folie 36: 'Wir nehmen an, dass es eine Zahl $n$ mit zwei Primfaktorzerlegungen gibt: $n = p_1 \\cdot p_2 \\cdot \\dots \\cdot p_n$ und $n = q_1 \\cdot q_2 \\cdot \\dots \\cdot q_n$.' 📄 Quelle: ari21_vl08, Folie 36 (S.36)",
     "source": "ari21_vl08, Folie 36 (S.36, Wichtiger Widerspruchsbeweis)"
   },
   {
@@ -9237,17 +9237,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "beweismethoden",
     "difficulty": 2,
     "type": "multi",
-    "question": "Warum muss bei zwei angenommenen Primfaktorzerlegungen von n eines der p verschieden zu einem der q sein?",
+    "question": "Warum muss bei zwei angenommenen Primfaktorzerlegungen von $n$ eines der $p$ verschieden zu einem der $q$ sein?",
     "options": [
       "Damit die beiden Primfaktorzerlegungen nicht gleich sind.",
       "Weil Primzahlen immer paarweise verschieden sind.",
-      "Damit n gerade ist.",
-      "Weil n selbst eine Primzahl sein muss."
+      "Damit $n$ gerade ist.",
+      "Weil $n$ selbst eine Primzahl sein muss."
     ],
     "correct": [
       0
     ],
-    "explanation": "Folie 36: 'Dabei muss eines der p verschieden zu einem der q sein (damit die Primfaktorzerlegungen nicht gleich sind).' 📄 Quelle: ari21_vl08, Folie 36 (S.36)",
+    "explanation": "Folie 36: 'Dabei muss eines der $p$ verschieden zu einem der $q$ sein (damit die Primfaktorzerlegungen nicht gleich sind).' 📄 Quelle: ari21_vl08, Folie 36 (S.36)",
     "source": "ari21_vl08, Folie 36 (S.36, Wichtiger Widerspruchsbeweis)"
   },
   {
@@ -9257,17 +9257,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche zusätzlichen Annahmen und Folgerungen werden im Beweis der Eindeutigkeit der Primfaktorzerlegung getroffen?",
     "options": [
-      "n ist die kleinste Zahl mit zwei Primfaktorzerlegungen.",
-      "p1 ist zu allen q verschieden (p1 ≠ q1; p1 ≠ q2 …; p1 ≠ qm).",
-      "Es gilt p1 | q1·q2·…·qm.",
-      "n ist selbst eine Primzahl."
+      "$n$ ist die kleinste Zahl mit zwei Primfaktorzerlegungen.",
+      "$p_1$ ist zu allen $q$ verschieden ($p_1 \\ne q_1$; $p_1 \\ne q_2 \\dots$; $p_1 \\ne q_m$).",
+      "Es gilt $p_1 \\mid q_1 \\cdot q_2 \\cdot \\dots \\cdot q_m$.",
+      "$n$ ist selbst eine Primzahl."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Folie 37: Man nimmt weiter an, dass n die kleinste Zahl mit zwei Primfaktorzerlegungen ist; sei p1 zu allen q verschieden, dann gilt p1 | q1·q2·…·qm mit p1 ≠ q1; p1 ≠ q2 …; p1 ≠ qm. 📄 Quelle: ari21_vl08, Folie 37 (S.37)",
+    "explanation": "Folie 37: Man nimmt weiter an, dass $n$ die kleinste Zahl mit zwei Primfaktorzerlegungen ist; sei $p_1$ zu allen $q$ verschieden, dann gilt $p_1 \\mid q_1 \\cdot q_2 \\cdot \\dots \\cdot q_m$ mit $p_1 \\ne q_1$; $p_1 \\ne q_2 \\dots$; $p_1 \\ne q_m$. 📄 Quelle: ari21_vl08, Folie 37 (S.37)",
     "source": "ari21_vl08, Folie 37 (S.37, Wichtiger Widerspruchsbeweis)"
   },
   {
@@ -9275,17 +9275,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "beweismethoden",
     "difficulty": 3,
     "type": "multi",
-    "question": "Wie wird begründet, dass man n als kleinste Zahl mit zwei Primfaktorzerlegungen wählen darf bzw. dass ein p von allen q verschieden sein muss?",
+    "question": "Wie wird begründet, dass man $n$ als kleinste Zahl mit zwei Primfaktorzerlegungen wählen darf bzw. dass ein $p$ von allen $q$ verschieden sein muss?",
     "options": [
-      "Wären die Zerlegungen durch gemeinsame Faktoren teilbar, könnte man n durch diese gleichen Zahlen teilen und erhielte eine kleinere Zahl mit zwei Primfaktorzerlegungen.",
-      "Weil n sonst ungerade wäre.",
-      "Weil p1 sonst keine Primzahl wäre.",
+      "Wären die Zerlegungen durch gemeinsame Faktoren teilbar, könnte man $n$ durch diese gleichen Zahlen teilen und erhielte eine kleinere Zahl mit zwei Primfaktorzerlegungen.",
+      "Weil $n$ sonst ungerade wäre.",
+      "Weil $p_1$ sonst keine Primzahl wäre.",
       "Weil jede Zahl höchstens zwei Primfaktoren hat."
     ],
     "correct": [
       0
     ],
-    "explanation": "Folie 37: 'Sonst könnte man n durch diese gleichen Zahlen teilen. Man hätte dann eine kleinere Zahl als n gefunden, die zwei Primfaktorzerlegungen hat.' 📄 Quelle: ari21_vl08, Folie 37 (S.37)",
+    "explanation": "Folie 37: 'Sonst könnte man $n$ durch diese gleichen Zahlen teilen. Man hätte dann eine kleinere Zahl als $n$ gefunden, die zwei Primfaktorzerlegungen hat.' 📄 Quelle: ari21_vl08, Folie 37 (S.37)",
     "source": "ari21_vl08, Folie 37 (S.37, Wichtiger Widerspruchsbeweis)"
   },
   {
@@ -9293,18 +9293,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "beweismethoden",
     "difficulty": 2,
     "type": "multi",
-    "question": "Was gilt für das zu allen q verschiedene p1?",
+    "question": "Was gilt für das zu allen $q$ verschiedene $p_1$?",
     "options": [
-      "p1 | q1·q2·…·qm (p1 teilt das Produkt der q).",
-      "p1 ist von jedem einzelnen qi verschieden (p1 ≠ q1; …; p1 ≠ qm).",
-      "p1 = q1",
-      "p1 teilt n nicht."
+      "$p_1 \\mid q_1 \\cdot q_2 \\cdot \\dots \\cdot q_m$ ($p_1$ teilt das Produkt der $q$).",
+      "$p_1$ ist von jedem einzelnen $q_i$ verschieden ($p_1 \\ne q_1$; $\\dots$; $p_1 \\ne q_m$).",
+      "$p_1 = q_1$",
+      "$p_1$ teilt $n$ nicht."
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Folie 37: p1 | q1·q2·…·qm mit p1 ≠ q1; p1 ≠ q2 …; p1 ≠ qm. p1 teilt also das Produkt der q, ist aber von jedem einzelnen q verschieden. 📄 Quelle: ari21_vl08, Folie 37 (S.37)",
+    "explanation": "Folie 37: $p_1 \\mid q_1 \\cdot q_2 \\cdot \\dots \\cdot q_m$ mit $p_1 \\ne q_1$; $p_1 \\ne q_2 \\dots$; $p_1 \\ne q_m$. $p_1$ teilt also das Produkt der $q$, ist aber von jedem einzelnen $q$ verschieden. 📄 Quelle: ari21_vl08, Folie 37 (S.37)",
     "source": "ari21_vl08, Folie 37 (S.37, Wichtiger Widerspruchsbeweis)"
   },
   {
@@ -9312,17 +9312,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "beweismethoden",
     "difficulty": 2,
     "type": "multi",
-    "question": "Wie wird die Hilfszahl n' im Beweis gebildet?",
+    "question": "Wie wird die Hilfszahl $n'$ im Beweis gebildet?",
     "options": [
-      "Falls p1 < q1, bildet man n' := n − p1·(q2·…·qm).",
-      "n' := n + p1·(q2·…·qm)",
-      "n' := n · p1",
-      "n' := q1·q2·…·qm − n"
+      "Falls $p_1 < q_1$, bildet man $n' := n - p_1 \\cdot (q_2 \\cdot \\dots \\cdot q_m)$.",
+      "$n' := n + p_1 \\cdot (q_2 \\cdot \\dots \\cdot q_m)$",
+      "$n' := n \\cdot p_1$",
+      "$n' := q_1 \\cdot q_2 \\cdot \\dots \\cdot q_m - n$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Folie 38: 'Wenn p1 < q1, bildet man n' := n − p1·(q2·…·qm).' 📄 Quelle: ari21_vl08, Folie 38 (S.38)",
+    "explanation": "Folie 38: 'Wenn $p_1 < q_1$, bildet man $n' := n - p_1 \\cdot (q_2 \\cdot \\dots \\cdot q_m)$.' 📄 Quelle: ari21_vl08, Folie 38 (S.38)",
     "source": "ari21_vl08, Folie 38 (S.38, Wichtiger Widerspruchsbeweis)"
   },
   {
@@ -9330,19 +9330,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "beweismethoden",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Aussagen zur Hilfszahl n' und zur Beweisstrategie sind korrekt?",
+    "question": "Welche Aussagen zur Hilfszahl $n'$ und zur Beweisstrategie sind korrekt?",
     "options": [
-      "Es gilt n' < n.",
-      "Ziel ist zu zeigen, dass n' auch zwei verschiedene Primfaktorzerlegungen hat.",
-      "Dass p1 | q1·q2·…·qm mit p1 ≠ q1; p1 ≠ q2 …; p1 ≠ qm gilt, ist noch kein Widerspruch.",
-      "n' ist selbst eine Primzahl."
+      "Es gilt $n' < n$.",
+      "Ziel ist zu zeigen, dass $n'$ auch zwei verschiedene Primfaktorzerlegungen hat.",
+      "Dass $p_1 \\mid q_1 \\cdot q_2 \\cdot \\dots \\cdot q_m$ mit $p_1 \\ne q_1$; $p_1 \\ne q_2 \\dots$; $p_1 \\ne q_m$ gilt, ist noch kein Widerspruch.",
+      "$n'$ ist selbst eine Primzahl."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Folie 38: n' < n; es ist 'noch kein Widerspruch'; man will zeigen, dass n' ebenfalls zwei verschiedene Primfaktorzerlegungen hat, was zuvor (Minimalität von n) ausgeschlossen wurde – das wäre der gewünschte Widerspruch. 📄 Quelle: ari21_vl08, Folie 38 (S.38)",
+    "explanation": "Folie 38: $n' < n$; es ist 'noch kein Widerspruch'; man will zeigen, dass $n'$ ebenfalls zwei verschiedene Primfaktorzerlegungen hat, was zuvor (Minimalität von $n$) ausgeschlossen wurde – das wäre der gewünschte Widerspruch. 📄 Quelle: ari21_vl08, Folie 38 (S.38)",
     "source": "ari21_vl08, Folie 38 (S.38, Wichtiger Widerspruchsbeweis)"
   },
   {
@@ -9368,18 +9368,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "beweismethoden",
     "difficulty": 3,
     "type": "multi",
-    "question": "Welche Umformungen von n' (= n − p1·(q2·…·qm)) sind korrekt?",
+    "question": "Welche Umformungen von $n'$ ($= n - p_1 \\cdot (q_2 \\cdot \\dots \\cdot q_m)$) sind korrekt?",
     "options": [
-      "n' = n − p1·(q2·…·qm) = p1·…·pn − p1·(q2·…·qm) = p1·(p2·…·pn − q2·…·qm)",
-      "n' = q1·…·qn − p1·(q2·…·qm) = (q1 − p1)·(q2·…·qm)",
-      "n' = p1 + q1",
-      "n' = (q1 + p1)·(q2·…·qm)"
+      "$n' = n - p_1 \\cdot (q_2 \\cdot \\dots \\cdot q_m) = p_1 \\cdot \\dots \\cdot p_n - p_1 \\cdot (q_2 \\cdot \\dots \\cdot q_m) = p_1 \\cdot (p_2 \\cdot \\dots \\cdot p_n - q_2 \\cdot \\dots \\cdot q_m)$",
+      "$n' = q_1 \\cdot \\dots \\cdot q_n - p_1 \\cdot (q_2 \\cdot \\dots \\cdot q_m) = (q_1 - p_1) \\cdot (q_2 \\cdot \\dots \\cdot q_m)$",
+      "$n' = p_1 + q_1$",
+      "$n' = (q_1 + p_1) \\cdot (q_2 \\cdot \\dots \\cdot q_m)$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Folie 39: n' = n − p1·(q2·…·qm) = p1·…·pn − p1·(q2·…·qm) = p1·(p2·…·pn − q2·…·qm) und n' = q1·…·qn − p1·(q2·…·qm) = (q1 − p1)·(q2·…·qm). 📄 Quelle: ari21_vl08, Folie 39 (S.39)",
+    "explanation": "Folie 39: $n' = n - p_1 \\cdot (q_2 \\cdot \\dots \\cdot q_m) = p_1 \\cdot \\dots \\cdot p_n - p_1 \\cdot (q_2 \\cdot \\dots \\cdot q_m) = p_1 \\cdot (p_2 \\cdot \\dots \\cdot p_n - q_2 \\cdot \\dots \\cdot q_m)$ und $n' = q_1 \\cdot \\dots \\cdot q_n - p_1 \\cdot (q_2 \\cdot \\dots \\cdot q_m) = (q_1 - p_1) \\cdot (q_2 \\cdot \\dots \\cdot q_m)$. 📄 Quelle: ari21_vl08, Folie 39 (S.39)",
     "source": "ari21_vl08, Folie 39 (S.39, Wichtiger Widerspruchsbeweis)"
   },
   {
@@ -9387,17 +9387,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "beweismethoden",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welcher Faktor wird in der ersten Umformung n' = p1·…·pn − p1·(q2·…·qm) ausgeklammert?",
+    "question": "Welcher Faktor wird in der ersten Umformung $n' = p_1 \\cdot \\dots \\cdot p_n - p_1 \\cdot (q_2 \\cdot \\dots \\cdot q_m)$ ausgeklammert?",
     "options": [
-      "Der Faktor p1: n' = p1·(p2·…·pn − q2·…·qm).",
-      "Der Faktor q1.",
-      "Der Faktor (q1 − p1).",
-      "Der Faktor n."
+      "Der Faktor $p_1$: $n' = p_1 \\cdot (p_2 \\cdot \\dots \\cdot p_n - q_2 \\cdot \\dots \\cdot q_m)$.",
+      "Der Faktor $q_1$.",
+      "Der Faktor $(q_1 - p_1)$.",
+      "Der Faktor $n$."
     ],
     "correct": [
       0
     ],
-    "explanation": "Folie 39 klammert in der 'oberen' Darstellung p1 aus: n' = p1·(p2·…·pn − q2·…·qm). 📄 Quelle: ari21_vl08, Folie 39 (S.39)",
+    "explanation": "Folie 39 klammert in der 'oberen' Darstellung $p_1$ aus: $n' = p_1 \\cdot (p_2 \\cdot \\dots \\cdot p_n - q_2 \\cdot \\dots \\cdot q_m)$. 📄 Quelle: ari21_vl08, Folie 39 (S.39)",
     "source": "ari21_vl08, Folie 39 (S.39, Wichtiger Widerspruchsbeweis)"
   },
   {
@@ -9405,18 +9405,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "beweismethoden",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Faktoren enthalten die beiden Darstellungen von n'?",
+    "question": "Welche Faktoren enthalten die beiden Darstellungen von $n'$?",
     "options": [
-      "Die 'obere' Darstellung enthält den Faktor p1.",
-      "Die 'untere' Darstellung enthält den Faktor (q1 − p1).",
-      "Die untere Darstellung enthält den Faktor (q1 + p1).",
-      "Beide Darstellungen enthalten den Faktor q1."
+      "Die 'obere' Darstellung enthält den Faktor $p_1$.",
+      "Die 'untere' Darstellung enthält den Faktor $(q_1 - p_1)$.",
+      "Die untere Darstellung enthält den Faktor $(q_1 + p_1)$.",
+      "Beide Darstellungen enthalten den Faktor $q_1$."
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Folie 40: 'Die obere PFZ enthält den Faktor p1; die untere PFZ enthält den Faktor (q1 − p1).' 📄 Quelle: ari21_vl08, Folie 40 (S.40)",
+    "explanation": "Folie 40: 'Die obere PFZ enthält den Faktor $p_1$; die untere PFZ enthält den Faktor $(q_1 - p_1)$.' 📄 Quelle: ari21_vl08, Folie 40 (S.40)",
     "source": "ari21_vl08, Folie 40 (S.40, Wichtiger Widerspruchsbeweis)"
   },
   {
@@ -9424,17 +9424,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "beweismethoden",
     "difficulty": 3,
     "type": "multi",
-    "question": "Warum teilt p1 den Faktor (q1 − p1) nicht?",
+    "question": "Warum teilt $p_1$ den Faktor $(q_1 - p_1)$ nicht?",
     "options": [
-      "Weil p1 sonst auch q1 teilen würde, was bereits ausgeschlossen wurde.",
-      "Weil (q1 − p1) negativ ist.",
-      "Weil p1 keine Primzahl ist.",
-      "Weil q1 − p1 stets gleich 1 ist."
+      "Weil $p_1$ sonst auch $q_1$ teilen würde, was bereits ausgeschlossen wurde.",
+      "Weil $(q_1 - p_1)$ negativ ist.",
+      "Weil $p_1$ keine Primzahl ist.",
+      "Weil $q_1 - p_1$ stets gleich 1 ist."
     ],
     "correct": [
       0
     ],
-    "explanation": "Folie 40: 'aber p1 teilt (q1 − p1) nicht, da p1 sonst auch q1 teilt, was wir bereits ausgeschlossen hatten.' 📄 Quelle: ari21_vl08, Folie 40 (S.40)",
+    "explanation": "Folie 40: 'aber $p_1$ teilt $(q_1 - p_1)$ nicht, da $p_1$ sonst auch $q_1$ teilt, was wir bereits ausgeschlossen hatten.' 📄 Quelle: ari21_vl08, Folie 40 (S.40)",
     "source": "ari21_vl08, Folie 40 (S.40, Wichtiger Widerspruchsbeweis)"
   },
   {
@@ -9442,17 +9442,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "beweismethoden",
     "difficulty": 3,
     "type": "multi",
-    "question": "Warum teilt p1 auch den zweiten Faktor (q2·…·qm) der unteren Darstellung nicht?",
+    "question": "Warum teilt $p_1$ auch den zweiten Faktor $(q_2 \\cdot \\dots \\cdot q_m)$ der unteren Darstellung nicht?",
     "options": [
-      "Weil p1 von allen qi verschieden ist (p1 ≠ q1; p1 ≠ q2 …; p1 ≠ qm) und die qi Primzahlen sind.",
-      "Weil q2·…·qm ungerade ist.",
-      "Weil p1 = 1 ist.",
-      "Weil (q2·…·qm) kleiner als p1 ist."
+      "Weil $p_1$ von allen $q_i$ verschieden ist ($p_1 \\ne q_1$; $p_1 \\ne q_2 \\dots$; $p_1 \\ne q_m$) und die $q_i$ Primzahlen sind.",
+      "Weil $q_2 \\cdot \\dots \\cdot q_m$ ungerade ist.",
+      "Weil $p_1 = 1$ ist.",
+      "Weil $(q_2 \\cdot \\dots \\cdot q_m)$ kleiner als $p_1$ ist."
     ],
     "correct": [
       0
     ],
-    "explanation": "Folie 40: p1 teilt (q2·…·qm) nicht, da p1 ≠ q1; p1 ≠ q2 …; p1 ≠ qm (p1 ist von jedem der Primfaktoren q verschieden). 📄 Quelle: ari21_vl08, Folie 40 (S.40)",
+    "explanation": "Folie 40: $p_1$ teilt $(q_2 \\cdot \\dots \\cdot q_m)$ nicht, da $p_1 \\ne q_1$; $p_1 \\ne q_2 \\dots$; $p_1 \\ne q_m$ ($p_1$ ist von jedem der Primfaktoren $q$ verschieden). 📄 Quelle: ari21_vl08, Folie 40 (S.40)",
     "source": "ari21_vl08, Folie 40 (S.40, Wichtiger Widerspruchsbeweis)"
   },
   {
@@ -9462,8 +9462,8 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Schlussfolgerungen ergeben sich am Ende des Beweises?",
     "options": [
-      "n' hat zwei verschiedene Primfaktorzerlegungen.",
-      "Das steht im Widerspruch zur Annahme (n sei die kleinste Zahl mit zwei Primfaktorzerlegungen).",
+      "$n'$ hat zwei verschiedene Primfaktorzerlegungen.",
+      "Das steht im Widerspruch zur Annahme ($n$ sei die kleinste Zahl mit zwei Primfaktorzerlegungen).",
       "Der verneinte Satz ist also falsch und der Satz damit richtig.",
       "Damit ist der Fundamentalsatz der Arithmetik widerlegt."
     ],
@@ -9472,7 +9472,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Folie 41: 'Damit hat n' zwei verschiedene Primfaktorzerlegungen, was im Widerspruch zur Annahme steht. Der verneinte Satz ist also falsch und der Satz damit also richtig.' 📄 Quelle: ari21_vl08, Folie 41 (S.41)",
+    "explanation": "Folie 41: 'Damit hat $n'$ zwei verschiedene Primfaktorzerlegungen, was im Widerspruch zur Annahme steht. Der verneinte Satz ist also falsch und der Satz damit also richtig.' 📄 Quelle: ari21_vl08, Folie 41 (S.41)",
     "source": "ari21_vl08, Folie 41 (S.41, Wichtiger Widerspruchsbeweis)"
   },
   {
@@ -10250,11 +10250,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechne die Summe der ersten zehn natürlichen Zahlen: 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10.",
+    "question": "Berechne die Summe der ersten zehn natürlichen Zahlen: $1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10$.",
     "answer": 55,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Aufgabe 2a fordert das Addieren der ersten zehn Zahlen; 1+2+3+4+5+6+7+8+9+10 = 55. 📄 Quelle: ari23_vl01, Folie 6 (S.6)",
+    "explanation": "Aufgabe 2a fordert das Addieren der ersten zehn Zahlen; $1+2+3+4+5+6+7+8+9+10 = 55$. 📄 Quelle: ari23_vl01, Folie 6 (S.6)",
     "source": "ari23_vl01, Folie 6 (S.6, Erkundung: ICH)"
   },
   {
@@ -10262,11 +10262,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Es gilt 1 + 2 + 3 + 4 + … + 30 = 31 · 15. Welchen Wert hat diese Summe?",
+    "question": "Es gilt $1 + 2 + 3 + 4 + \\dots + 30 = 31 \\cdot 15$. Welchen Wert hat diese Summe?",
     "answer": 465,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Der auf der Folie angegebene Zahlensatz 1+2+3+4+…+30 = 31·15 ergibt 31·15 = 465. 📄 Quelle: ari23_vl01, Folie 6 (S.6)",
+    "explanation": "Der auf der Folie angegebene Zahlensatz $1+2+3+4+\\dots+30 = 31\\cdot 15$ ergibt $31\\cdot 15 = 465$. 📄 Quelle: ari23_vl01, Folie 6 (S.6)",
     "source": "ari23_vl01, Folie 6 (S.6, Erkundung: ICH)"
   },
   {
@@ -10296,7 +10296,7 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Wie bildet der \"kleine Gauß\" die Summe 1 + 2 + … + 10 geschickt?",
     "options": [
-      "Er addiert Paare aus erster und letzter Zahl (1+10, 2+9, …), die jeweils 11 ergeben",
+      "Er addiert Paare aus erster und letzter Zahl ($1+10$, $2+9$, …), die jeweils 11 ergeben",
       "Er verdoppelt die größte Zahl",
       "Er zieht die kleinste von der größten Zahl ab",
       "Er multipliziert alle Zahlen miteinander"
@@ -10304,7 +10304,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie bildet der kleine Gauß Paare (1 und 10, 2 und 9, …) mit jeweils der Summe 11; es entstehen 5 solche Paare, also 5·11 = 55. 📄 Quelle: ari23_vl01, Folie 7 (S.7)",
+    "explanation": "Auf der Folie bildet der kleine Gauß Paare (1 und 10, 2 und 9, …) mit jeweils der Summe 11; es entstehen 5 solche Paare, also $5\\cdot 11 = 55$. 📄 Quelle: ari23_vl01, Folie 7 (S.7)",
     "source": "ari23_vl01, Folie 7 (S.7, Erkundung: ICH)"
   },
   {
@@ -10314,15 +10314,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Welche Formel gilt für die Summe der ersten n natürlichen Zahlen?",
     "options": [
-      "n/2 · (n+1)",
-      "n · (n+1)",
-      "n/2 · (n−1)",
-      "(n+1)/2 · (n+2)"
+      "$\\frac{n}{2} \\cdot (n+1)$",
+      "$n \\cdot (n+1)$",
+      "$\\frac{n}{2} \\cdot (n-1)$",
+      "$\\frac{n+1}{2} \\cdot (n+2)$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie hält fest: die Summe der ersten n Zahlen ist gleich n/2 · (n+1). 📄 Quelle: ari23_vl01, Folie 7 (S.7)",
+    "explanation": "Die Folie hält fest: die Summe der ersten n Zahlen ist gleich $\\frac{n}{2} \\cdot (n+1)$. 📄 Quelle: ari23_vl01, Folie 7 (S.7)",
     "source": "ari23_vl01, Folie 7 (S.7, Erkundung: ICH)"
   },
   {
@@ -10330,11 +10330,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Es gilt \"Summe bis 6\" = 3 · 7. Welchen Wert hat 1 + 2 + 3 + 4 + 5 + 6?",
+    "question": "Es gilt \"Summe bis 6\" = $3 \\cdot 7$. Welchen Wert hat $1 + 2 + 3 + 4 + 5 + 6$?",
     "answer": 21,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Der auf der Folie notierte Zusammenhang \"Summe bis 6 ist 3·7\" ergibt 3·7 = 21 = 1+2+3+4+5+6. 📄 Quelle: ari23_vl01, Folie 7 (S.7)",
+    "explanation": "Der auf der Folie notierte Zusammenhang \"Summe bis 6 ist $3\\cdot 7$\" ergibt $3\\cdot 7 = 21 = 1+2+3+4+5+6$. 📄 Quelle: ari23_vl01, Folie 7 (S.7)",
     "source": "ari23_vl01, Folie 7 (S.7, Erkundung: ICH)"
   },
   {
@@ -10399,7 +10399,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Darstellungsformen werden zur Systematisierung der Summe 1 + 2 + … + 100 unterschieden?",
+    "question": "Welche Darstellungsformen werden zur Systematisierung der Summe $1 + 2 + \\dots + 100$ unterschieden?",
     "options": [
       "Darstellung der Päckchenbildung",
       "Balkendiagramm",
@@ -10419,11 +10419,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "In der Päckchenbildung entstehen für 1 + 2 + 3 + … + 100 genau 50 Päckchen mit der Summe 101. Welchen Wert hat 50 · 101?",
+    "question": "In der Päckchenbildung entstehen für $1 + 2 + 3 + \\dots + 100$ genau 50 Päckchen mit der Summe 101. Welchen Wert hat $50 \\cdot 101$?",
     "answer": 5050,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Folie bildet 50 Päckchen à 101, also 1+2+3+…+100 = 50·101 = 5050. 📄 Quelle: ari23_vl01, Folie 11 (S.11)",
+    "explanation": "Die Folie bildet 50 Päckchen à 101, also $1+2+3+\\dots+100 = 50\\cdot 101 = 5050$. 📄 Quelle: ari23_vl01, Folie 11 (S.11)",
     "source": "ari23_vl01, Folie 11 (S.11, Erkundung: ICH)"
   },
   {
@@ -10431,17 +10431,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 3,
     "type": "single",
-    "question": "Wie ergibt sich im Balkendiagramm-Ansatz die gesuchte Summe 1 + 2 + … + 100?",
+    "question": "Wie ergibt sich im Balkendiagramm-Ansatz die gesuchte Summe $1 + 2 + \\dots + 100$?",
     "options": [
-      "Als (100 · 101) : 2, da das Diagramm die doppelte Summe (100 · 101) darstellt",
-      "Als 100 · 101, ohne Halbierung",
-      "Als 100 + 101",
-      "Als 100² : 2"
+      "Als $(100 \\cdot 101) : 2$, da das Diagramm die doppelte Summe $(100 \\cdot 101)$ darstellt",
+      "Als $100 \\cdot 101$, ohne Halbierung",
+      "Als $100 + 101$",
+      "Als $100^2 : 2$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Im Balkendiagramm entsteht das Rechteck 100·101 = 10100, das die doppelte Summe darstellt; die gesuchte Summe ist daher (100·101):2. 📄 Quelle: ari23_vl01, Folie 11 (S.11)",
+    "explanation": "Im Balkendiagramm entsteht das Rechteck $100\\cdot 101 = 10100$, das die doppelte Summe darstellt; die gesuchte Summe ist daher $(100\\cdot 101):2$. 📄 Quelle: ari23_vl01, Folie 11 (S.11)",
     "source": "ari23_vl01, Folie 11 (S.11, Erkundung: ICH)"
   },
   {
@@ -10451,15 +10451,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Wie wird die Summe der ersten n natürlichen Zahlen allgemein notiert?",
     "options": [
-      "1 + 2 + 3 + … + (n−2) + (n−1) + n",
-      "1 + 3 + 5 + … + (2n−1)",
-      "2 + 4 + 6 + … + n",
-      "1 · 2 · 3 · … · n"
+      "$1 + 2 + 3 + \\dots + (n-2) + (n-1) + n$",
+      "$1 + 3 + 5 + \\dots + (2n-1)$",
+      "$2 + 4 + 6 + \\dots + n$",
+      "$1 \\cdot 2 \\cdot 3 \\cdot \\dots \\cdot n$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Verallgemeinerung für die ersten n natürlichen Zahlen wird als 1 + 2 + 3 + … + (n−2) + (n−1) + n mit n ∈ ℕ notiert. 📄 Quelle: ari23_vl01, Folie 12 (S.12)",
+    "explanation": "Die Verallgemeinerung für die ersten n natürlichen Zahlen wird als $1 + 2 + 3 + \\dots + (n-2) + (n-1) + n$ mit $n \\in \\mathbb{N}$ notiert. 📄 Quelle: ari23_vl01, Folie 12 (S.12)",
     "source": "ari23_vl01, Folie 12 (S.12, Erkundung: ICH)"
   },
   {
@@ -10469,15 +10469,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Für welche Zahlen n gilt die allgemeine Summenformel für 1 + 2 + 3 + … + n?",
     "options": [
-      "für alle n ∈ ℕ",
+      "für alle $n \\in \\mathbb{N}$",
       "nur für gerade n",
-      "nur für n ≤ 100",
+      "nur für $n \\le 100$",
       "nur für Primzahlen n"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie formuliert die Verallgemeinerung ausdrücklich für n ∈ ℕ, also für alle natürlichen Zahlen. 📄 Quelle: ari23_vl01, Folie 12 (S.12)",
+    "explanation": "Die Folie formuliert die Verallgemeinerung ausdrücklich für $n \\in \\mathbb{N}$, also für alle natürlichen Zahlen. 📄 Quelle: ari23_vl01, Folie 12 (S.12)",
     "source": "ari23_vl01, Folie 12 (S.12, Erkundung: ICH)"
   },
   {
@@ -10485,17 +10485,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 2,
     "type": "single",
-    "question": "Warum werden in der allgemeinen Summe 1 + 2 + … + (n−2) + (n−1) + n auch die Glieder n−2 und n−1 mit aufgeschrieben?",
+    "question": "Warum werden in der allgemeinen Summe $1 + 2 + \\dots + (n-2) + (n-1) + n$ auch die Glieder $n-2$ und $n-1$ mit aufgeschrieben?",
     "options": [
-      "Um nicht nur den letzten Summanden (n) vor Augen zu haben, sondern das Bildungsmuster deutlich zu machen",
+      "Um nicht nur den letzten Summanden ($n$) vor Augen zu haben, sondern das Bildungsmuster deutlich zu machen",
       "Weil die Summe sonst falsch wäre",
-      "Weil n−2 und n−1 die einzigen relevanten Summanden sind",
+      "Weil $n-2$ und $n-1$ die einzigen relevanten Summanden sind",
       "Um die Zahl der Summanden zu halbieren"
     ],
     "correct": [
       0
     ],
-    "explanation": "Im Text der Folie werden n−2 und n−1 als Glieder aufgeführt, um nicht nur den letzten Summanden n vor Augen zu haben, sondern das Muster der Summe zu verdeutlichen. 📄 Quelle: ari23_vl01, Folie 12 (S.12)",
+    "explanation": "Im Text der Folie werden $n-2$ und $n-1$ als Glieder aufgeführt, um nicht nur den letzten Summanden $n$ vor Augen zu haben, sondern das Muster der Summe zu verdeutlichen. 📄 Quelle: ari23_vl01, Folie 12 (S.12)",
     "source": "ari23_vl01, Folie 12 (S.12, Erkundung: ICH)"
   },
   {
@@ -10503,17 +10503,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "beweismethoden",
     "difficulty": 3,
     "type": "single",
-    "question": "Auf welcher Idee beruht die Begründung der Summenformel 1 + 2 + … + n = n · (n+1) / 2?",
+    "question": "Auf welcher Idee beruht die Begründung der Summenformel $1 + 2 + \\dots + n = \\frac{n \\cdot (n+1)}{2}$?",
     "options": [
-      "Die Summe wird zweimal notiert (aufsteigend und absteigend); je zwei übereinanderstehende Glieder ergeben n+1",
+      "Die Summe wird zweimal notiert (aufsteigend und absteigend); je zwei übereinanderstehende Glieder ergeben $n+1$",
       "Die Summe wird durch fortgesetztes Verdoppeln der größten Zahl gebildet",
       "Man wendet vollständige Induktion über n an",
-      "Man integriert die Funktion f(x) = x"
+      "Man integriert die Funktion $f(x) = x$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Begründung notiert die Summe zweimal (einmal aufsteigend, einmal absteigend); je zwei übereinanderstehende Glieder ergeben n+1, und es gibt n solche Spalten. 📄 Quelle: ari23_vl01, Folie 13 (S.13)",
+    "explanation": "Die Begründung notiert die Summe zweimal (einmal aufsteigend, einmal absteigend); je zwei übereinanderstehende Glieder ergeben $n+1$, und es gibt n solche Spalten. 📄 Quelle: ari23_vl01, Folie 13 (S.13)",
     "source": "ari23_vl01, Folie 13 (S.13, Erkundung: ICH)"
   },
   {
@@ -10521,17 +10521,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "beweismethoden",
     "difficulty": 2,
     "type": "single",
-    "question": "Welche Gleichung ergibt sich bei der Begründung der Summenformel 1 + 2 + … + n zunächst, bevor am Ende halbiert wird?",
+    "question": "Welche Gleichung ergibt sich bei der Begründung der Summenformel $1 + 2 + \\dots + n$ zunächst, bevor am Ende halbiert wird?",
     "options": [
-      "2 · (1 + 2 + 3 + … + n) = n · (n+1)",
-      "1 + 2 + 3 + … + n = n · (n+1)",
-      "1 + 2 + 3 + … + n = n · (n−1)",
-      "2 · (1 + 2 + 3 + … + n) = (n+1)²"
+      "$2 \\cdot (1 + 2 + 3 + \\dots + n) = n \\cdot (n+1)$",
+      "$1 + 2 + 3 + \\dots + n = n \\cdot (n+1)$",
+      "$1 + 2 + 3 + \\dots + n = n \\cdot (n-1)$",
+      "$2 \\cdot (1 + 2 + 3 + \\dots + n) = (n+1)^2$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Da die Summe doppelt notiert wird und jede der n Spalten n+1 ergibt, folgt zunächst 2·(1+2+3+…+n) = n·(n+1). 📄 Quelle: ari23_vl01, Folie 13 (S.13)",
+    "explanation": "Da die Summe doppelt notiert wird und jede der n Spalten $n+1$ ergibt, folgt zunächst $2\\cdot(1+2+3+\\dots+n) = n\\cdot(n+1)$. 📄 Quelle: ari23_vl01, Folie 13 (S.13)",
     "source": "ari23_vl01, Folie 13 (S.13, Erkundung: ICH)"
   },
   {
@@ -10539,9 +10539,9 @@ const SAMPLE_QUESTIONS = [
     "topic": "beweismethoden",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie erhält man aus 2 · (1 + 2 + 3 + … + n) = n · (n+1) die Summenformel?",
+    "question": "Wie erhält man aus $2 \\cdot (1 + 2 + 3 + \\dots + n) = n \\cdot (n+1)$ die Summenformel?",
     "options": [
-      "Man halbiert die Gleichung und erhält 1 + 2 + 3 + … + n = n · (n+1) / 2",
+      "Man halbiert die Gleichung und erhält $1 + 2 + 3 + \\dots + n = \\frac{n \\cdot (n+1)}{2}$",
       "Man quadriert beide Seiten",
       "Man subtrahiert n auf beiden Seiten",
       "Man multipliziert beide Seiten mit 2"
@@ -10549,7 +10549,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Laut Folie wird die letzte Zeile halbiert, weil zunächst nur eine Formel für das Doppelte der Summe gefunden war; so ergibt sich 1+2+3+…+n = n·(n+1)/2. 📄 Quelle: ari23_vl01, Folie 13 (S.13)",
+    "explanation": "Laut Folie wird die letzte Zeile halbiert, weil zunächst nur eine Formel für das Doppelte der Summe gefunden war; so ergibt sich $1+2+3+\\dots+n = \\frac{n\\cdot(n+1)}{2}$. 📄 Quelle: ari23_vl01, Folie 13 (S.13)",
     "source": "ari23_vl01, Folie 13 (S.13, Erkundung: ICH)"
   },
   {
@@ -10559,15 +10559,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Welche Aussage wird im Beweis zur Summe der ersten n natürlichen Zahlen gezeigt?",
     "options": [
-      "∑ von k=1 bis n über k = n · (n+1) / 2 für n ∈ ℕ",
-      "∑ von k=1 bis n über k = n²",
-      "∑ von k=1 bis n über k² = n(n+1)(2n+1)/6",
-      "∑ von k=1 bis n über k = 2^n − 1"
+      "$\\sum_{k=1}^{n} k = \\frac{n \\cdot (n+1)}{2}$ für $n \\in \\mathbb{N}$",
+      "$\\sum_{k=1}^{n} k = n^2$",
+      "$\\sum_{k=1}^{n} k^2 = \\frac{n(n+1)(2n+1)}{6}$",
+      "$\\sum_{k=1}^{n} k = 2^n - 1$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Beweis nennt als zu zeigende Aussage 1+2+3+…+n = ∑_{k=1}^{n} k = n·(n+1)/2 für n ∈ ℕ. 📄 Quelle: ari23_vl01, Folie 14 (S.14)",
+    "explanation": "Der Beweis nennt als zu zeigende Aussage $1+2+3+\\dots+n = \\sum_{k=1}^{n} k = \\frac{n\\cdot(n+1)}{2}$ für $n \\in \\mathbb{N}$. 📄 Quelle: ari23_vl01, Folie 14 (S.14)",
     "source": "ari23_vl01, Folie 14 (S.14, Erkundung: ICH)"
   },
   {
@@ -10579,7 +10579,7 @@ const SAMPLE_QUESTIONS = [
     "options": [
       "Die Summe wird mit 2 multipliziert",
       "Die zweite Summe wird in umgekehrter Reihenfolge notiert",
-      "Je zwei zusammengehörige Summanden ergeben n+1, wodurch n · (n+1) entsteht",
+      "Je zwei zusammengehörige Summanden ergeben $n+1$, wodurch $n \\cdot (n+1)$ entsteht",
       "Es wird der binomische Lehrsatz angewendet"
     ],
     "correct": [
@@ -10587,7 +10587,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Der Beweis multipliziert die Summe mit 2, notiert die zweite Summe rückwärts, fasst je zwei Summanden zu n+1 zusammen (n·(n+1)) und teilt am Ende durch 2. Der binomische Lehrsatz wird nicht verwendet. 📄 Quelle: ari23_vl01, Folie 14 (S.14)",
+    "explanation": "Der Beweis multipliziert die Summe mit 2, notiert die zweite Summe rückwärts, fasst je zwei Summanden zu $n+1$ zusammen ($n\\cdot(n+1)$) und teilt am Ende durch 2. Der binomische Lehrsatz wird nicht verwendet. 📄 Quelle: ari23_vl01, Folie 14 (S.14)",
     "source": "ari23_vl01, Folie 14 (S.14, Erkundung: ICH)"
   },
   {
@@ -10597,15 +10597,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "In welche Form werden die Summanden nach dem Umkehren der zweiten Summe zusammengefasst?",
     "options": [
-      "Jede Spalte ergibt (n+1); insgesamt n Spalten, also n · (n+1)",
-      "Jede Spalte ergibt n; insgesamt n Spalten, also n · n",
-      "Jede Spalte ergibt 2n; insgesamt n Spalten, also 2n²",
-      "Jede Spalte ergibt n−1; insgesamt n Spalten, also n · (n−1)"
+      "Jede Spalte ergibt $(n+1)$; insgesamt n Spalten, also $n \\cdot (n+1)$",
+      "Jede Spalte ergibt $n$; insgesamt n Spalten, also $n \\cdot n$",
+      "Jede Spalte ergibt $2n$; insgesamt n Spalten, also $2n^2$",
+      "Jede Spalte ergibt $n-1$; insgesamt n Spalten, also $n \\cdot (n-1)$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Nach dem Umkehren der zweiten Summe ergibt jede der n Spalten (n+1), sodass 2·∑ = n·(n+1) und nach Halbierung ∑ = n·(n+1)/2 folgt. 📄 Quelle: ari23_vl01, Folie 14 (S.14)",
+    "explanation": "Nach dem Umkehren der zweiten Summe ergibt jede der n Spalten $(n+1)$, sodass $2\\cdot\\sum = n\\cdot(n+1)$ und nach Halbierung $\\sum = \\frac{n\\cdot(n+1)}{2}$ folgt. 📄 Quelle: ari23_vl01, Folie 14 (S.14)",
     "source": "ari23_vl01, Folie 14 (S.14, Erkundung: ICH)"
   },
   {
@@ -10725,17 +10725,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 2,
     "type": "single",
-    "question": "Sₙ sei die Summe der ersten n natürlichen Zahlen, also Sₙ = 1 + 2 + 3 + … + (n-2) + (n-1) + n. Welche Formel wird als Vermutung angegeben?",
+    "question": "$S_n$ sei die Summe der ersten n natürlichen Zahlen, also $S_n = 1 + 2 + 3 + \\dots + (n-2) + (n-1) + n$. Welche Formel wird als Vermutung angegeben?",
     "options": [
-      "Sₙ = n/2 · (n+1)",
-      "Sₙ = n · (n+1)",
-      "Sₙ = (n/2) · (n-1)",
-      "Sₙ = n²"
+      "$S_n = \\frac{n}{2} \\cdot (n+1)$",
+      "$S_n = n \\cdot (n+1)$",
+      "$S_n = \\frac{n}{2} \\cdot (n-1)$",
+      "$S_n = n^2$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Vermutung lautet: dann ist Sₙ = n/2 · (n+1). 📄 Quelle: ari23_vl01, Folie 23 (S.23)",
+    "explanation": "Die Vermutung lautet: dann ist $S_n = \\frac{n}{2} \\cdot (n+1)$. 📄 Quelle: ari23_vl01, Folie 23 (S.23)",
     "source": "ari23_vl01, Folie 23 (S.23, Erkundung: WIR)"
   },
   {
@@ -10746,16 +10746,16 @@ const SAMPLE_QUESTIONS = [
     "question": "Was besagt die Vermutung zur Summe der ersten n natürlichen Zahlen?",
     "options": [
       "Sie gilt für alle natürlichen Zahlen n",
-      "Sₙ = 1 + 2 + 3 + … + (n-2) + (n-1) + n",
-      "Dann ist Sₙ = n/2 · (n+1)",
-      "Dann ist Sₙ = n²"
+      "$S_n = 1 + 2 + 3 + \\dots + (n-2) + (n-1) + n$",
+      "Dann ist $S_n = \\frac{n}{2} \\cdot (n+1)$",
+      "Dann ist $S_n = n^2$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Vermutung: „Für alle natürlichen Zahlen n gilt: Wenn Sₙ = 1 + 2 + … + n, dann ist Sₙ = n/2 · (n+1).\" Sₙ = n² ist die Formel für die ungeraden Zahlen, nicht hier. 📄 Quelle: ari23_vl01, Folie 23 (S.23)",
+    "explanation": "Die Vermutung: „Für alle natürlichen Zahlen n gilt: Wenn $S_n = 1 + 2 + \\dots + n$, dann ist $S_n = \\frac{n}{2} \\cdot (n+1)$.\" $S_n = n^2$ ist die Formel für die ungeraden Zahlen, nicht hier. 📄 Quelle: ari23_vl01, Folie 23 (S.23)",
     "source": "ari23_vl01, Folie 23 (S.23, Erkundung: WIR)"
   },
   {
@@ -10763,11 +10763,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Im Beweis werden die Zahlen 1..50 über und die Zahlen 50..1 unter einer Tabelle angeordnet. Welche Summe steht in jeder Spalte zusammen (für n = 50)?",
+    "question": "Im Beweis werden die Zahlen 1..50 über und die Zahlen 50..1 unter einer Tabelle angeordnet. Welche Summe steht in jeder Spalte zusammen (für $n = 50$)?",
     "answer": 51,
     "tolerance": 0,
     "unit": "",
-    "explanation": "In jeder Spalte stehen zusammen 51 (bzw. n+1). 📄 Quelle: ari23_vl01, Folie 24 (S.24)",
+    "explanation": "In jeder Spalte stehen zusammen 51 (bzw. $n+1$). 📄 Quelle: ari23_vl01, Folie 24 (S.24)",
     "source": "ari23_vl01, Folie 24 (S.24, Erkundung: WIR)"
   },
   {
@@ -10775,7 +10775,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 2,
     "type": "single",
-    "question": "Warum ergibt das Produkt aus Spaltensumme und Spaltenanzahl (50 · 51) nicht direkt Sₙ, sondern das Doppelte?",
+    "question": "Warum ergibt das Produkt aus Spaltensumme und Spaltenanzahl ($50 \\cdot 51$) nicht direkt $S_n$, sondern das Doppelte?",
     "options": [
       "Weil man beim Zusammenzählen die Summe der ersten Zahlen doppelt gezählt hat",
       "Weil eine Spalte fehlt",
@@ -10785,7 +10785,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "„Zählt man alles zusammen, so hat man die Summe der ersten 50 (bzw. n) Zahlen aber doppelt gezählt: 50 · 51.\" 📄 Quelle: ari23_vl01, Folie 24 (S.24)",
+    "explanation": "„Zählt man alles zusammen, so hat man die Summe der ersten 50 (bzw. n) Zahlen aber doppelt gezählt: $50 \\cdot 51$.\" 📄 Quelle: ari23_vl01, Folie 24 (S.24)",
     "source": "ari23_vl01, Folie 24 (S.24, Erkundung: WIR)"
   },
   {
@@ -10793,19 +10793,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 2,
     "type": "multi",
-    "question": "Für den Tabellenbeweis der Summenformel werden die Zahlen 1..50 und darunter 50..1 angeordnet (n = 50). Welche Aussagen dazu sind richtig?",
+    "question": "Für den Tabellenbeweis der Summenformel werden die Zahlen 1..50 und darunter 50..1 angeordnet ($n = 50$). Welche Aussagen dazu sind richtig?",
     "options": [
-      "In jeder Spalte stehen zusammen 51 (bzw. n+1)",
+      "In jeder Spalte stehen zusammen 51 (bzw. $n+1$)",
       "Es gibt 50 (bzw. n) Spalten",
-      "Das Produkt 50 · 51 zählt die gesuchte Summe doppelt",
-      "Daher ist Sₙ = n · (n+1) ohne Halbierung"
+      "Das Produkt $50 \\cdot 51$ zählt die gesuchte Summe doppelt",
+      "Daher ist $S_n = n \\cdot (n+1)$ ohne Halbierung"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Jede Spalte ergibt n+1, es gibt n Spalten, das Produkt zählt die Summe doppelt – daher muss halbiert werden (Sₙ = n/2 · (n+1)), nicht n·(n+1). 📄 Quelle: ari23_vl01, Folie 24 (S.24)",
+    "explanation": "Jede Spalte ergibt $n+1$, es gibt n Spalten, das Produkt zählt die Summe doppelt – daher muss halbiert werden ($S_n = \\frac{n}{2} \\cdot (n+1)$), nicht $n\\cdot(n+1)$. 📄 Quelle: ari23_vl01, Folie 24 (S.24)",
     "source": "ari23_vl01, Folie 24 (S.24, Erkundung: WIR)"
   },
   {
@@ -10813,7 +10813,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 1,
     "type": "single",
-    "question": "Mit welcher Darstellungsform wird die Summe 1 + 2 + 3 + … + 10 als dreiecksförmige Anordnung veranschaulicht?",
+    "question": "Mit welcher Darstellungsform wird die Summe $1 + 2 + 3 + \\dots + 10$ als dreiecksförmige Anordnung veranschaulicht?",
     "options": [
       "Darstellung durch figurierte Zahlen",
       "Stellenwerttafel",
@@ -10833,15 +10833,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Eine dreiecksförmige Anordnung von Plättchen hat in aufeinanderfolgenden Reihen 1, 2, 3, …, 10 Plättchen. Welche Summe stellt sie dar?",
     "options": [
-      "Die Summe der ersten 10 natürlichen Zahlen (1+2+3+…+10)",
+      "Die Summe der ersten 10 natürlichen Zahlen ($1+2+3+\\dots+10$)",
       "Die Summe der ersten 10 ungeraden Zahlen",
-      "Das Produkt 1·2·3·…·10",
+      "Das Produkt $1\\cdot 2\\cdot 3\\cdot \\dots \\cdot 10$",
       "Die Summe der ersten 5 Quadratzahlen"
     ],
     "correct": [
       0
     ],
-    "explanation": "Über der Figur steht 1+2+3+4+5+6+7+8+9+10. 📄 Quelle: ari23_vl01, Folie 25 (S.25)",
+    "explanation": "Über der Figur steht $1+2+3+4+5+6+7+8+9+10$. 📄 Quelle: ari23_vl01, Folie 25 (S.25)",
     "source": "ari23_vl01, Folie 25 (S.25, Erkundung: WIR)"
   },
   {
@@ -10849,11 +10849,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "beweismethoden",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Es gilt 1 + 2 + 3 + … + 10 = 5 · 11. Welchen Wert hat die Summe 1 + 2 + 3 + … + 10?",
+    "question": "Es gilt $1 + 2 + 3 + \\dots + 10 = 5 \\cdot 11$. Welchen Wert hat die Summe $1 + 2 + 3 + \\dots + 10$?",
     "answer": 55,
     "tolerance": 0,
     "unit": "",
-    "explanation": "1+2+3+…+10 = 5 · 11 = 55 (= 10/2 · (10+1)). 📄 Quelle: ari23_vl01, Folie 26 (S.26)",
+    "explanation": "$1+2+3+\\dots+10 = 5 \\cdot 11 = 55$ (= $\\frac{10}{2} \\cdot (10+1)$). 📄 Quelle: ari23_vl01, Folie 26 (S.26)",
     "source": "ari23_vl01, Folie 26 (S.26, Erkundung: WIR)"
   },
   {
@@ -10861,7 +10861,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "beweismethoden",
     "difficulty": 2,
     "type": "single",
-    "question": "Worauf weist ein Warnhinweis zur Rechnung 1 + 2 + 3 + … + 10 = 5 · 11 hin?",
+    "question": "Worauf weist ein Warnhinweis zur Rechnung $1 + 2 + 3 + \\dots + 10 = 5 \\cdot 11$ hin?",
     "options": [
       "Dies ist nur ein Beispiel und kein Beweis für jede beliebige natürliche Zahl n",
       "Die Rechnung ist falsch",
@@ -10879,17 +10879,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "beweismethoden",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie wird die Summe 1 + 2 + 3 + … + 10 nach der Gauß-Idee umgeformt?",
+    "question": "Wie wird die Summe $1 + 2 + 3 + \\dots + 10$ nach der Gauß-Idee umgeformt?",
     "options": [
-      "= 5 · 11 = 10/2 · (10+1)",
-      "= 10 · 11 = 10 · (10+1)",
-      "= 11/2 · 10",
-      "= 5 · 10 = 50"
+      "$= 5 \\cdot 11 = \\frac{10}{2} \\cdot (10+1)$",
+      "$= 10 \\cdot 11 = 10 \\cdot (10+1)$",
+      "$= \\frac{11}{2} \\cdot 10$",
+      "$= 5 \\cdot 10 = 50$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie: 1+2+3+…+10 = 5 · 11 = 10/2 · (10+1). 📄 Quelle: ari23_vl01, Folie 26 (S.26)",
+    "explanation": "Auf der Folie: $1+2+3+\\dots+10 = 5 \\cdot 11 = \\frac{10}{2} \\cdot (10+1)$. 📄 Quelle: ari23_vl01, Folie 26 (S.26)",
     "source": "ari23_vl01, Folie 26 (S.26, Erkundung: WIR)"
   },
   {
@@ -10897,11 +10897,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "beweismethoden",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Prüfe die Summenformel für n = 5: Welchen Wert hat 1 + 2 + 3 + 4 + 5?",
+    "question": "Prüfe die Summenformel für $n = 5$: Welchen Wert hat $1 + 2 + 3 + 4 + 5$?",
     "answer": 15,
     "tolerance": 0,
     "unit": "",
-    "explanation": "„für n = 5 ergibt sich 1 + 2 + 3 + 4 + 5 = 15\". 📄 Quelle: ari23_vl01, Folie 27 (S.27)",
+    "explanation": "„für $n = 5$ ergibt sich $1 + 2 + 3 + 4 + 5 = 15$\". 📄 Quelle: ari23_vl01, Folie 27 (S.27)",
     "source": "ari23_vl01, Folie 27 (S.27, Erkundung: WIR)"
   },
   {
@@ -10909,11 +10909,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "beweismethoden",
     "difficulty": 2,
     "type": "single",
-    "question": "Worin besteht die „mathematische Falle\" beim Prüfen einzelner Fälle (n = 1, 2, 5, …) einer Summenformel?",
+    "question": "Worin besteht die „mathematische Falle\" beim Prüfen einzelner Fälle ($n = 1, 2, 5, \\dots$) einer Summenformel?",
     "options": [
       "Man kann die Aussage prüfen, aber nur in unendlicher Zeit für unendlich viele Zahlen",
       "Die geprüften Werte sind falsch",
-      "Die Formel gilt nur für n = 1",
+      "Die Formel gilt nur für $n = 1$",
       "Einzelfälle sind bereits ein vollständiger Beweis"
     ],
     "correct": [
@@ -10965,11 +10965,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechnen Sie: 1 + 3 + 5 + 7 + 9 = ?",
+    "question": "Berechnen Sie: $1 + 3 + 5 + 7 + 9$ = ?",
     "answer": 25,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Beispiel der Folie: 1 + 3 + 5 + 7 + 9 = 25. 📄 Quelle: ari23_vl01, Folie 30 (S.30)",
+    "explanation": "Beispiel der Folie: $1 + 3 + 5 + 7 + 9 = 25$. 📄 Quelle: ari23_vl01, Folie 30 (S.30)",
     "source": "ari23_vl01, Folie 30 (S.30, Erkundung: WIR)"
   },
   {
@@ -10977,7 +10977,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 1,
     "type": "single",
-    "question": "Was fällt bei den Summen der ersten n ungeraden Zahlen (1+3=4; 1+3+5=9; 1+3+5+7=16; 1+3+5+7+9=25) auf?",
+    "question": "Was fällt bei den Summen der ersten n ungeraden Zahlen ($1+3=4$; $1+3+5=9$; $1+3+5+7=16$; $1+3+5+7+9=25$) auf?",
     "options": [
       "Es sind alles Quadratzahlen",
       "Es sind alles Primzahlen",
@@ -10999,13 +10999,13 @@ const SAMPLE_QUESTIONS = [
     "options": [
       "2 zum Quadrat (= 4)",
       "3 zum Quadrat (= 9)",
-      "2 · 3 (= 6)",
+      "$2 \\cdot 3$ (= 6)",
       "1 zum Quadrat (= 1)"
     ],
     "correct": [
       0
     ],
-    "explanation": "„Bei der Summe der ersten beiden ungeraden Zahlen kommt 2 zum Quadrat heraus\" (1 + 3 = 4). 📄 Quelle: ari23_vl01, Folie 30 (S.30)",
+    "explanation": "„Bei der Summe der ersten beiden ungeraden Zahlen kommt 2 zum Quadrat heraus\" ($1 + 3 = 4$). 📄 Quelle: ari23_vl01, Folie 30 (S.30)",
     "source": "ari23_vl01, Folie 30 (S.30, Erkundung: WIR)"
   },
   {
@@ -11015,16 +11015,16 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Wie kann man eine ungerade Zahl allgemein ausdrücken?",
     "options": [
-      "m = 2n + 1",
-      "m = 2n − 1",
-      "m = 2n",
-      "m = n²"
+      "$m = 2n + 1$",
+      "$m = 2n - 1$",
+      "$m = 2n$",
+      "$m = n^2$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "„Eine ungerade Zahl allgemein kann man ausdrücken durch m = 2n + 1 oder = 2n − 1.\" 📄 Quelle: ari23_vl01, Folie 31 (S.31)",
+    "explanation": "„Eine ungerade Zahl allgemein kann man ausdrücken durch $m = 2n + 1$ oder $= 2n - 1$.\" 📄 Quelle: ari23_vl01, Folie 31 (S.31)",
     "source": "ari23_vl01, Folie 31 (S.31, Erkundung: WIR)"
   },
   {
@@ -11032,17 +11032,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 2,
     "type": "single",
-    "question": "Warum wählt man beim Summieren der ersten n ungeraden Zahlen die Variante m = 2n − 1 (statt 2n + 1)?",
+    "question": "Warum wählt man beim Summieren der ersten n ungeraden Zahlen die Variante $m = 2n - 1$ (statt $2n + 1$)?",
     "options": [
       "Damit die zweite ungerade Zahl 3 ist",
       "Damit die erste ungerade Zahl 0 ist",
-      "Weil 2n + 1 keine ungerade Zahl liefert",
-      "Weil 2n − 1 immer gerade ist"
+      "Weil $2n + 1$ keine ungerade Zahl liefert",
+      "Weil $2n - 1$ immer gerade ist"
     ],
     "correct": [
       0
     ],
-    "explanation": "„Die zweite ungerade Zahl soll 3 sein, also wählt man die zweite Variante\" (für n = 2: 2·2 − 1 = 3). 📄 Quelle: ari23_vl01, Folie 31 (S.31)",
+    "explanation": "„Die zweite ungerade Zahl soll 3 sein, also wählt man die zweite Variante\" (für $n = 2$: $2\\cdot 2 - 1 = 3$). 📄 Quelle: ari23_vl01, Folie 31 (S.31)",
     "source": "ari23_vl01, Folie 31 (S.31, Erkundung: WIR)"
   },
   {
@@ -11052,10 +11052,10 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Summiert man die ersten n ungeraden Zahlen, welches Ergebnis erhält man?",
     "options": [
-      "n zum Quadrat (n²)",
-      "2n − 1",
-      "n/2 · (n+1)",
-      "2n"
+      "n zum Quadrat ($n^2$)",
+      "$2n - 1$",
+      "$\\frac{n}{2} \\cdot (n+1)$",
+      "$2n$"
     ],
     "correct": [
       0
@@ -11068,17 +11068,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 1,
     "type": "single",
-    "question": "Sₙ sei die Summe der ersten n ungeraden natürlichen Zahlen, also Sₙ = 1 + 3 + … + (2n-1). Welche Formel gilt laut Satz?",
+    "question": "$S_n$ sei die Summe der ersten n ungeraden natürlichen Zahlen, also $S_n = 1 + 3 + \\dots + (2n-1)$. Welche Formel gilt laut Satz?",
     "options": [
-      "Sₙ = n²",
-      "Sₙ = 2n − 1",
-      "Sₙ = n/2 · (n+1)",
-      "Sₙ = 2n²"
+      "$S_n = n^2$",
+      "$S_n = 2n - 1$",
+      "$S_n = \\frac{n}{2} \\cdot (n+1)$",
+      "$S_n = 2n^2$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Satz: „…dann ist Sₙ = n².\" 📄 Quelle: ari23_vl01, Folie 32 (S.32)",
+    "explanation": "Der Satz: „…dann ist $S_n = n^2$.\" 📄 Quelle: ari23_vl01, Folie 32 (S.32)",
     "source": "ari23_vl01, Folie 32 (S.32, Erkundung: WIR)"
   },
   {
@@ -11089,16 +11089,16 @@ const SAMPLE_QUESTIONS = [
     "question": "Was besagt der Satz zur Summe der ersten n ungeraden Zahlen genau?",
     "options": [
       "Er gilt für alle natürlichen Zahlen n",
-      "Sₙ ist die Summe der ersten n ungeraden natürlichen Zahlen",
-      "Sₙ = 1 + 3 + … + (2n-1)",
-      "Dann ist Sₙ = 2n − 1"
+      "$S_n$ ist die Summe der ersten n ungeraden natürlichen Zahlen",
+      "$S_n = 1 + 3 + \\dots + (2n-1)$",
+      "Dann ist $S_n = 2n - 1$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "„Für alle natürlichen Zahlen n gilt: Wenn Sₙ die Summe der ersten n ungeraden natürlichen Zahlen ist, also Sₙ = 1 + 3 + … + (2n-1), dann ist Sₙ = n².\" Nicht 2n−1. 📄 Quelle: ari23_vl01, Folie 32 (S.32)",
+    "explanation": "„Für alle natürlichen Zahlen n gilt: Wenn $S_n$ die Summe der ersten n ungeraden natürlichen Zahlen ist, also $S_n = 1 + 3 + \\dots + (2n-1)$, dann ist $S_n = n^2$.\" Nicht $2n-1$. 📄 Quelle: ari23_vl01, Folie 32 (S.32)",
     "source": "ari23_vl01, Folie 32 (S.32, Erkundung: WIR)"
   },
   {
@@ -11106,11 +11106,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Berechnen Sie mit der Formel Sₙ = n² die Summe der ersten 7 ungeraden natürlichen Zahlen.",
+    "question": "Berechnen Sie mit der Formel $S_n = n^2$ die Summe der ersten 7 ungeraden natürlichen Zahlen.",
     "answer": 49,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Nach dem Satz Sₙ = n² gilt für n = 7: S₇ = 7² = 49 (= 1+3+5+7+9+11+13). 📄 Quelle: ari23_vl01, Folie 32 (S.32)",
+    "explanation": "Nach dem Satz $S_n = n^2$ gilt für $n = 7$: $S_7 = 7^2 = 49$ (= $1+3+5+7+9+11+13$). 📄 Quelle: ari23_vl01, Folie 32 (S.32)",
     "source": "ari23_vl01, Folie 32 (S.32, Erkundung: WIR)"
   },
   {
@@ -11136,11 +11136,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Ergänzt man ein Quadrat aus 4 Plättchen um die nächste ungerade Zahl 5, entsteht ein größeres Quadrat. Berechne 4 + 5.",
+    "question": "Ergänzt man ein Quadrat aus 4 Plättchen um die nächste ungerade Zahl 5, entsteht ein größeres Quadrat. Berechne $4 + 5$.",
     "answer": 9,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Auf der Folie: 4 + 5 = 9 (= 3²). 📄 Quelle: ari23_vl01, Folie 35 (S.35)",
+    "explanation": "Auf der Folie: $4 + 5 = 9$ (= $3^2$). 📄 Quelle: ari23_vl01, Folie 35 (S.35)",
     "source": "ari23_vl01, Folie 35 (S.35, Erkundung: WIR)"
   },
   {
@@ -11166,7 +11166,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "folgen_fibonacci",
     "difficulty": 2,
     "type": "multi",
-    "question": "Was gehört zur Definition einer (endlichen) Folge (a)ₙ?",
+    "question": "Was gehört zur Definition einer (endlichen) Folge $(a)_n$?",
     "options": [
       "Eine Folge ist eine Funktion",
       "Jedem Element aus den natürlichen Zahlen (bzw. einer endlichen Teilmenge) wird genau ein Element einer Menge X zugeordnet",
@@ -11178,7 +11178,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "„Eine (endliche) Folge (a)ₙ … ist eine Funktion, bei der jedem Element aus den natürlichen Zahlen (bzw. einer endlichen Teilmenge) genau ein Element einer anderen Menge X (bei uns: Natürliche Zahlen) zugeordnet wird.\" Genau ein Element, nicht beliebig viele. 📄 Quelle: ari23_vl01, Folie 37 (S.37)",
+    "explanation": "„Eine (endliche) Folge $(a)_n$ … ist eine Funktion, bei der jedem Element aus den natürlichen Zahlen (bzw. einer endlichen Teilmenge) genau ein Element einer anderen Menge X (bei uns: Natürliche Zahlen) zugeordnet wird.\" Genau ein Element, nicht beliebig viele. 📄 Quelle: ari23_vl01, Folie 37 (S.37)",
     "source": "ari23_vl01, Folie 37 (S.37, Erkundung: WIR)"
   },
   {
@@ -11186,7 +11186,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "folgen_fibonacci",
     "difficulty": 1,
     "type": "single",
-    "question": "Als was wird eine (endliche) Folge (a)ₙ definiert?",
+    "question": "Als was wird eine (endliche) Folge $(a)_n$ definiert?",
     "options": [
       "Als eine Funktion",
       "Als eine Menge",
@@ -11222,9 +11222,9 @@ const SAMPLE_QUESTIONS = [
     "topic": "summenformeln_gauss",
     "difficulty": 2,
     "type": "single",
-    "question": "Was versteht man unter der Summen-Folge zu einer Folge (a)ₙ?",
+    "question": "Was versteht man unter der Summen-Folge zu einer Folge $(a)_n$?",
     "options": [
-      "Die Summen der jeweils ersten n Glieder einer Folge (a)ₙ",
+      "Die Summen der jeweils ersten n Glieder einer Folge $(a)_n$",
       "Das Produkt der ersten n Glieder",
       "Die Differenz aufeinanderfolgender Glieder",
       "Die n-te Wurzel der Glieder"
@@ -11232,7 +11232,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "„Die Summen der jeweils ersten n Glieder einer Folge (a)ₙ nennen wir Summen-Folge zu (a)ₙ.\" 📄 Quelle: ari23_vl01, Folie 38 (S.38)",
+    "explanation": "„Die Summen der jeweils ersten n Glieder einer Folge $(a)_n$ nennen wir Summen-Folge zu $(a)_n$.\" 📄 Quelle: ari23_vl01, Folie 38 (S.38)",
     "source": "ari23_vl01, Folie 38 (S.38, Ein neuer Begriff: Summen-Folge)"
   },
   {
@@ -11274,7 +11274,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 210,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Laut Lösung auf der Folie: 210 Plättchen (21 · 10 = 210). 📄 Quelle: ari23_vl01, Folie 39 (S.39)",
+    "explanation": "Laut Lösung auf der Folie: 210 Plättchen ($21 \\cdot 10 = 210$). 📄 Quelle: ari23_vl01, Folie 39 (S.39)",
     "source": "ari23_vl01, Folie 39 (S.39, Erkundung: WIR)"
   },
   {
@@ -11284,15 +11284,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Bei einer Dreiecksanordnung mit 20 Plättchen in der untersten Reihe: Wie wird die Gesamtzahl 210 berechnet?",
     "options": [
-      "21 · 10 = 210",
-      "20 · 10 = 200",
-      "20 · 11 = 220",
-      "21 · 11 = 231"
+      "$21 \\cdot 10 = 210$",
+      "$20 \\cdot 10 = 200$",
+      "$20 \\cdot 11 = 220$",
+      "$21 \\cdot 11 = 231$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie steht: 21 · 10 = 210. 📄 Quelle: ari23_vl01, Folie 39 (S.39)",
+    "explanation": "Auf der Folie steht: $21 \\cdot 10 = 210$. 📄 Quelle: ari23_vl01, Folie 39 (S.39)",
     "source": "ari23_vl01, Folie 39 (S.39, Erkundung: WIR)"
   },
   {
@@ -11383,7 +11383,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 16,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Tabelle nennt für Fläche 1 (2 mm × 2 mm) den Flächeninhalt 4, für Fläche 2 (2 mm × 4 mm) den Flächeninhalt 8 und für Fläche 3 (4 mm × 4 mm) den Flächeninhalt 16 Millimeterquadrate. 📄 Quelle: ari23_vl01, Folie 60 (S.60)",
+    "explanation": "Die Tabelle nennt für Fläche 1 ($2\\,\\text{mm} \\times 2\\,\\text{mm}$) den Flächeninhalt 4, für Fläche 2 ($2\\,\\text{mm} \\times 4\\,\\text{mm}$) den Flächeninhalt 8 und für Fläche 3 ($4\\,\\text{mm} \\times 4\\,\\text{mm}$) den Flächeninhalt 16 Millimeterquadrate. 📄 Quelle: ari23_vl01, Folie 60 (S.60)",
     "source": "ari23_vl01, Folie 60 (S.60, Erkundung 1: Flächen vergrößern und verkleinern)"
   },
   {
@@ -12743,17 +12743,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Aus welchen Bestandteilen besteht die Technik der vollständigen Induktion?",
     "options": [
-      "Induktionsanfang: A(n) ist wahr für n=1 (bzw. die kleinste natürliche Zahl)",
-      "Induktionsvoraussetzung: A(n) sei wahr für ein beliebiges, aber festes n ∈ ℕ",
-      "Induktionsschluss: n → (n+1)",
-      "Induktionsende: A(n) ist wahr für alle n ∈ ℝ"
+      "Induktionsanfang: $A(n)$ ist wahr für $n=1$ (bzw. die kleinste natürliche Zahl)",
+      "Induktionsvoraussetzung: $A(n)$ sei wahr für ein beliebiges, aber festes $n \\in \\mathbb{N}$",
+      "Induktionsschluss: $n \\to (n+1)$",
+      "Induktionsende: $A(n)$ ist wahr für alle $n \\in \\mathbb{R}$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie nennt genau Induktionsanfang, Induktionsvoraussetzung und Induktionsschluss (n → n+1). Von reellen Zahlen ℝ ist keine Rede; die Aussage betrifft natürliche Zahlen. 📄 Quelle: ari23_vl04, Folie 4 (S.4)",
+    "explanation": "Die Folie nennt genau Induktionsanfang, Induktionsvoraussetzung und Induktionsschluss ($n \\to n+1$). Von reellen Zahlen $\\mathbb{R}$ ist keine Rede; die Aussage betrifft natürliche Zahlen. 📄 Quelle: ari23_vl04, Folie 4 (S.4)",
     "source": "ari23_vl04, Folie 4 (S.4, Vollständige Induktion)"
   },
   {
@@ -12761,17 +12761,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "vollstaendige_induktion",
     "difficulty": 2,
     "type": "single",
-    "question": "Was darf beim Induktionsschluss (n → n+1) einer vollständigen Induktion verwendet werden?",
+    "question": "Was darf beim Induktionsschluss ($n \\to n+1$) einer vollständigen Induktion verwendet werden?",
     "options": [
       "die Induktionsvoraussetzung (I.V.)",
       "nur der Induktionsanfang",
       "ein Gegenbeispiel",
-      "die Behauptung A(n+1) als bereits bewiesen"
+      "die Behauptung $A(n+1)$ als bereits bewiesen"
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie: 'Man zeigt, dass die Aussage für A(n+1) wahr ist (dabei darf die I.V. verwendet werden).' 📄 Quelle: ari23_vl04, Folie 4 (S.4)",
+    "explanation": "Auf der Folie: 'Man zeigt, dass die Aussage für $A(n+1)$ wahr ist (dabei darf die I.V. verwendet werden).' 📄 Quelle: ari23_vl04, Folie 4 (S.4)",
     "source": "ari23_vl04, Folie 4 (S.4, Vollständige Induktion)"
   },
   {
@@ -12799,11 +12799,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "erkundungsmethodik",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Die modifizierte Fibonacci-Folge ist definiert durch f̃_1=4, f̃_2=7 und f̃_n = f̃_{n-2} + f̃_{n-1} für n>2. Wie lautet das 6. Glied f̃_6?",
+    "question": "Die modifizierte Fibonacci-Folge ist definiert durch $\\tilde{f}_1=4$, $\\tilde{f}_2=7$ und $\\tilde{f}_n = \\tilde{f}_{n-2} + \\tilde{f}_{n-1}$ für $n>2$. Wie lautet das 6. Glied $\\tilde{f}_6$?",
     "answer": 47,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Tabelle listet 4, 7, 11, 18, 29, 47; also f̃_6 = 47. 📄 Quelle: ari23_vl04, Folie 5 (S.5)",
+    "explanation": "Die Tabelle listet 4, 7, 11, 18, 29, 47; also $\\tilde{f}_6 = 47$. 📄 Quelle: ari23_vl04, Folie 5 (S.5)",
     "source": "ari23_vl04, Folie 5 (S.5, Erkundung II)"
   },
   {
@@ -12811,11 +12811,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "erkundungsmethodik",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Wie groß ist die Summe der ersten 5 modifizierten Fibonacci-Zahlen (S̃_5) mit den Startwerten f̃_1=4, f̃_2=7 (und f̃_n = f̃_{n-2} + f̃_{n-1})?",
+    "question": "Wie groß ist die Summe der ersten 5 modifizierten Fibonacci-Zahlen ($\\tilde{S}_5$) mit den Startwerten $\\tilde{f}_1=4$, $\\tilde{f}_2=7$ (und $\\tilde{f}_n = \\tilde{f}_{n-2} + \\tilde{f}_{n-1}$)?",
     "answer": 69,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Summenspalte der Tabelle zeigt bei n=5 den Wert 69. 📄 Quelle: ari23_vl04, Folie 5 (S.5)",
+    "explanation": "Die Summenspalte der Tabelle zeigt bei $n=5$ den Wert 69. 📄 Quelle: ari23_vl04, Folie 5 (S.5)",
     "source": "ari23_vl04, Folie 5 (S.5, Erkundung II)"
   },
   {
@@ -12823,17 +12823,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "erkundungsmethodik",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lautet die Gleichung (GL1) für das n-te Glied f̃_n der modifizierten Fibonacci-Folge (mit Startzahlen s_1, s_2 und der ursprünglichen Fibonacci-Folge f)?",
+    "question": "Wie lautet die Gleichung (GL1) für das $n$-te Glied $\\tilde{f}_n$ der modifizierten Fibonacci-Folge (mit Startzahlen $s_1$, $s_2$ und der ursprünglichen Fibonacci-Folge $f$)?",
     "options": [
-      "f̃_n = f_{n-2}·s_1 + f_{n-1}·s_2",
-      "f̃_n = f_{n-1}·s_1 + f_{n-2}·s_2",
-      "f̃_n = f_{n-2} + f_{n-1}",
-      "f̃_n = f_n·s_1 + f_{n+1}·s_2"
+      "$\\tilde{f}_n = f_{n-2}\\cdot s_1 + f_{n-1}\\cdot s_2$",
+      "$\\tilde{f}_n = f_{n-1}\\cdot s_1 + f_{n-2}\\cdot s_2$",
+      "$\\tilde{f}_n = f_{n-2} + f_{n-1}$",
+      "$\\tilde{f}_n = f_n\\cdot s_1 + f_{n+1}\\cdot s_2$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die eingerahmte Gleichung (GL1) lautet f̃_n = f_{n-2}·s_1 + f_{n-1}·s_2, wobei f die ursprüngliche Fibonacci-Folge und s_1, s_2 die Startzahlen sind. 📄 Quelle: ari23_vl04, Folie 5 (S.5)",
+    "explanation": "Die eingerahmte Gleichung (GL1) lautet $\\tilde{f}_n = f_{n-2}\\cdot s_1 + f_{n-1}\\cdot s_2$, wobei $f$ die ursprüngliche Fibonacci-Folge und $s_1$, $s_2$ die Startzahlen sind. 📄 Quelle: ari23_vl04, Folie 5 (S.5)",
     "source": "ari23_vl04, Folie 5 (S.5, Erkundung II)"
   },
   {
@@ -12841,19 +12841,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "erkundungsmethodik",
     "difficulty": 3,
     "type": "multi",
-    "question": "Welche Umformungen der Summe S̃_n der modifizierten Fibonacci-Folge (Startzahlen s_1, s_2) sind korrekt?",
+    "question": "Welche Umformungen der Summe $\\tilde{S}_n$ der modifizierten Fibonacci-Folge (Startzahlen $s_1$, $s_2$) sind korrekt?",
     "options": [
-      "S̃_n = f̃_{n+2} − 7",
-      "S_n = f̃_{n+2} − s_2",
-      "mit (GL1): f̃_{n+2} = f_n·s_1 + f_{n+1}·s_2",
-      "S̃_n = f̃_{n+2} + 7"
+      "$\\tilde{S}_n = \\tilde{f}_{n+2} - 7$",
+      "$S_n = \\tilde{f}_{n+2} - s_2$",
+      "mit (GL1): $\\tilde{f}_{n+2} = f_n\\cdot s_1 + f_{n+1}\\cdot s_2$",
+      "$\\tilde{S}_n = \\tilde{f}_{n+2} + 7$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie zeigt S̃_n = f̃_{n+2} − 7, allgemein S_n = f̃_{n+2} − s_2 und setzt mit (GL1) f̃_{n+2} = f_n·s_1 + f_{n+1}·s_2 ein. Die Variante mit '+7' ist falsch. 📄 Quelle: ari23_vl04, Folie 5 (S.5)",
+    "explanation": "Die Folie zeigt $\\tilde{S}_n = \\tilde{f}_{n+2} - 7$, allgemein $S_n = \\tilde{f}_{n+2} - s_2$ und setzt mit (GL1) $\\tilde{f}_{n+2} = f_n\\cdot s_1 + f_{n+1}\\cdot s_2$ ein. Die Variante mit '+7' ist falsch. 📄 Quelle: ari23_vl04, Folie 5 (S.5)",
     "source": "ari23_vl04, Folie 5 (S.5, Erkundung II)"
   },
   {
@@ -12861,7 +12861,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "erkundungsmethodik",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche drei Schritte folgen, nachdem die Vermutung (Formel für S̃_n) aufgestellt wurde?",
+    "question": "Welche drei Schritte folgen, nachdem die Vermutung (Formel für $\\tilde{S}_n$) aufgestellt wurde?",
     "options": [
       "Beispiele machen, um die gefundene Formel (Vermutung) zu testen",
       "Einen mathematischen Satz formulieren",
@@ -12881,17 +12881,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "erkundungsmethodik",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lautet die Vermutung für die Summe S̃_n der modifizierten Fibonacci-Zahlen (mit Startzahlen s_1, s_2 und der ursprünglichen Fibonacci-Folge f)?",
+    "question": "Wie lautet die Vermutung für die Summe $\\tilde{S}_n$ der modifizierten Fibonacci-Zahlen (mit Startzahlen $s_1$, $s_2$ und der ursprünglichen Fibonacci-Folge $f$)?",
     "options": [
-      "S̃_n = f_n·s_1 + (f_{n+1} − 1)·s_2",
-      "S̃_n = f_n·s_1 + f_{n+1}·s_2",
-      "S̃_n = f̃_{n+2} − 1",
-      "S̃_n = (f_n − 1)·s_1 + f_{n+1}·s_2"
+      "$\\tilde{S}_n = f_n\\cdot s_1 + (f_{n+1} - 1)\\cdot s_2$",
+      "$\\tilde{S}_n = f_n\\cdot s_1 + f_{n+1}\\cdot s_2$",
+      "$\\tilde{S}_n = \\tilde{f}_{n+2} - 1$",
+      "$\\tilde{S}_n = (f_n - 1)\\cdot s_1 + f_{n+1}\\cdot s_2$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die eingerahmte Vermutung lautet S̃_n = f_n·s_1 + (f_{n+1} − 1)·s_2, mit S̃_n = f̃_1 + f̃_2 + … + f̃_n. 📄 Quelle: ari23_vl04, Folie 6 (S.6)",
+    "explanation": "Die eingerahmte Vermutung lautet $\\tilde{S}_n = f_n\\cdot s_1 + (f_{n+1} - 1)\\cdot s_2$, mit $\\tilde{S}_n = \\tilde{f}_1 + \\tilde{f}_2 + \\ldots + \\tilde{f}_n$. 📄 Quelle: ari23_vl04, Folie 6 (S.6)",
     "source": "ari23_vl04, Folie 6 (S.6, Erkundung II)"
   },
   {
@@ -12901,8 +12901,8 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Was zeigt das Testen der Summenformel-Vermutung an drei modifizierten Fibonacci-Folgen mit unterschiedlichen Startzahlen?",
     "options": [
-      "Alle Folgen folgen dem gleichen Bildungsprinzip a_{n+2} = a_{n+1} + a_n",
-      "Die Startzahlen s_1, s_2 (bzw. f̃_1, f̃_2) dürfen unterschiedlich gewählt werden",
+      "Alle Folgen folgen dem gleichen Bildungsprinzip $a_{n+2} = a_{n+1} + a_n$",
+      "Die Startzahlen $s_1$, $s_2$ (bzw. $\\tilde{f}_1$, $\\tilde{f}_2$) dürfen unterschiedlich gewählt werden",
       "Die Probe (Formelwert) stimmt jeweils mit der tatsächlichen Summe überein",
       "Nur die klassische Fibonacci-Folge (Start 1, 1) erfüllt die Summenformel"
     ],
@@ -12911,7 +12911,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Die Folie testet drei Folgen mit verschiedenen Startzahlen (u. a. 1/1, 4/7, 13/9); handschriftlich: 'andere Startzahlen, aber gleiches Prinzip a_{n+2}=a_{n+1}+a_n'. Die Probe (Formel) stimmt jeweils mit der Summe überein. 📄 Quelle: ari23_vl04, Folie 7 (S.7)",
+    "explanation": "Die Folie testet drei Folgen mit verschiedenen Startzahlen (u. a. 1/1, 4/7, 13/9); handschriftlich: 'andere Startzahlen, aber gleiches Prinzip $a_{n+2}=a_{n+1}+a_n$'. Die Probe (Formel) stimmt jeweils mit der Summe überein. 📄 Quelle: ari23_vl04, Folie 7 (S.7)",
     "source": "ari23_vl04, Folie 7 (S.7, Erkundung II)"
   },
   {
@@ -12919,11 +12919,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "erkundungsmethodik",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Für die modifizierte Fibonacci-Folge mit den Startzahlen s_1=13, s_2=9 (also 13, 9, 22, 31, …): Wie groß ist die Summe der ersten 4 Folgenglieder (S̃_4)?",
+    "question": "Für die modifizierte Fibonacci-Folge mit den Startzahlen $s_1=13$, $s_2=9$ (also 13, 9, 22, 31, …): Wie groß ist die Summe der ersten 4 Folgenglieder ($\\tilde{S}_4$)?",
     "answer": 75,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Folge lautet 13, 9, 22, 31, …; die Summenspalte (Probe) zeigt bei n=4 den Wert 75. 📄 Quelle: ari23_vl04, Folie 7 (S.7)",
+    "explanation": "Die Folge lautet 13, 9, 22, 31, …; die Summenspalte (Probe) zeigt bei $n=4$ den Wert 75. 📄 Quelle: ari23_vl04, Folie 7 (S.7)",
     "source": "ari23_vl04, Folie 7 (S.7, Erkundung II)"
   },
   {
@@ -12931,11 +12931,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "erkundungsmethodik",
     "difficulty": 3,
     "type": "numeric",
-    "question": "Berechnen Sie mit der Vermutung S̃_n = f_n·s_1 + (f_{n+1} − 1)·s_2 den Wert S̃_3 für s_1=4, s_2=7 (mit f_3=2, f_4=3).",
+    "question": "Berechnen Sie mit der Vermutung $\\tilde{S}_n = f_n\\cdot s_1 + (f_{n+1} - 1)\\cdot s_2$ den Wert $\\tilde{S}_3$ für $s_1=4$, $s_2=7$ (mit $f_3=2$, $f_4=3$).",
     "answer": 22,
     "tolerance": 0,
     "unit": "",
-    "explanation": "S̃_3 = f_3·s_1 + (f_4 − 1)·s_2 = 2·4 + (3 − 1)·7 = 8 + 14 = 22. 📄 Quelle: ari23_vl04, Folie 8 (S.8)",
+    "explanation": "$\\tilde{S}_3 = f_3\\cdot s_1 + (f_4 - 1)\\cdot s_2 = 2\\cdot 4 + (3 - 1)\\cdot 7 = 8 + 14 = 22$. 📄 Quelle: ari23_vl04, Folie 8 (S.8)",
     "source": "ari23_vl04, Folie 8 (S.8, Erkundung II)"
   },
   {
@@ -12943,11 +12943,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "erkundungsmethodik",
     "difficulty": 3,
     "type": "numeric",
-    "question": "Berechnen Sie mit der Vermutung S̃_n = f_n·s_1 + (f_{n+1} − 1)·s_2 den Wert S̃_4 für s_1=13, s_2=9 (mit f_4=3, f_5=5).",
+    "question": "Berechnen Sie mit der Vermutung $\\tilde{S}_n = f_n\\cdot s_1 + (f_{n+1} - 1)\\cdot s_2$ den Wert $\\tilde{S}_4$ für $s_1=13$, $s_2=9$ (mit $f_4=3$, $f_5=5$).",
     "answer": 75,
     "tolerance": 0,
     "unit": "",
-    "explanation": "S̃_4 = f_4·s_1 + (f_5 − 1)·s_2 = 3·13 + (5 − 1)·9 = 39 + 36 = 75. 📄 Quelle: ari23_vl04, Folie 8 (S.8)",
+    "explanation": "$\\tilde{S}_4 = f_4\\cdot s_1 + (f_5 - 1)\\cdot s_2 = 3\\cdot 13 + (5 - 1)\\cdot 9 = 39 + 36 = 75$. 📄 Quelle: ari23_vl04, Folie 8 (S.8)",
     "source": "ari23_vl04, Folie 8 (S.8, Erkundung II)"
   },
   {
@@ -12955,18 +12955,18 @@ const SAMPLE_QUESTIONS = [
     "topic": "erkundungsmethodik",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche ursprünglichen Fibonacci-Zahlen werden bei der Berechnung von S̃_3 mit der Vermutung S̃_n = f_n·s_1 + (f_{n+1} − 1)·s_2 eingesetzt?",
+    "question": "Welche ursprünglichen Fibonacci-Zahlen werden bei der Berechnung von $\\tilde{S}_3$ mit der Vermutung $\\tilde{S}_n = f_n\\cdot s_1 + (f_{n+1} - 1)\\cdot s_2$ eingesetzt?",
     "options": [
-      "f_3 = 2",
-      "f_4 = 3",
-      "f_5 = 5",
-      "f_2 = 1"
+      "$f_3 = 2$",
+      "$f_4 = 3$",
+      "$f_5 = 5$",
+      "$f_2 = 1$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "S̃_3 = f_3·s_1 + (f_4 − 1)·s_2 verwendet f_3 = 2 und f_4 = 3. 📄 Quelle: ari23_vl04, Folie 8 (S.8)",
+    "explanation": "$\\tilde{S}_3 = f_3\\cdot s_1 + (f_4 - 1)\\cdot s_2$ verwendet $f_3 = 2$ und $f_4 = 3$. 📄 Quelle: ari23_vl04, Folie 8 (S.8)",
     "source": "ari23_vl04, Folie 8 (S.8, Erkundung II)"
   },
   {
@@ -12976,17 +12976,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Voraussetzungen nennt der Satz über die Summe modifizierter Fibonacci-Zahlen?",
     "options": [
-      "s_1 und s_2 sind Startzahlen einer modifizierten Fibonacci-Folge, also s_1 = f̃_1 und s_2 = f̃_2",
-      "S̃_n = f̃_1 + f̃_2 + … + f̃_n ist die Summe der ersten n modifizierten Fibonacci-Zahlen",
-      "f_n sind die Zahlen der ursprünglichen Fibonacci-Folge",
-      "Die Aussage gilt nur für gerade n"
+      "$s_1$ und $s_2$ sind Startzahlen einer modifizierten Fibonacci-Folge, also $s_1 = \\tilde{f}_1$ und $s_2 = \\tilde{f}_2$",
+      "$\\tilde{S}_n = \\tilde{f}_1 + \\tilde{f}_2 + \\ldots + \\tilde{f}_n$ ist die Summe der ersten $n$ modifizierten Fibonacci-Zahlen",
+      "$f_n$ sind die Zahlen der ursprünglichen Fibonacci-Folge",
+      "Die Aussage gilt nur für gerade $n$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Der Satz gilt 'für alle natürlichen Zahlen n' und setzt voraus: s_1 = f̃_1, s_2 = f̃_2 als Startzahlen, S̃_n als Summe der ersten n modifizierten Zahlen, und f_n als ursprüngliche Fibonacci-Zahlen. Eine Einschränkung auf gerade n gibt es nicht. 📄 Quelle: ari23_vl04, Folie 9 (S.9)",
+    "explanation": "Der Satz gilt 'für alle natürlichen Zahlen $n$' und setzt voraus: $s_1 = \\tilde{f}_1$, $s_2 = \\tilde{f}_2$ als Startzahlen, $\\tilde{S}_n$ als Summe der ersten $n$ modifizierten Zahlen, und $f_n$ als ursprüngliche Fibonacci-Zahlen. Eine Einschränkung auf gerade $n$ gibt es nicht. 📄 Quelle: ari23_vl04, Folie 9 (S.9)",
     "source": "ari23_vl04, Folie 9 (S.9, Erkundung II)"
   },
   {
@@ -13050,11 +13050,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "folgen_fibonacci",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Welchem Grenzwert (goldener Schnitt φ) nähert sich das Verhältnis f_n/f_{n-1} benachbarter Fibonacci-Zahlen an? (auf 3 Nachkommastellen)",
+    "question": "Welchem Grenzwert (goldener Schnitt $\\varphi$) nähert sich das Verhältnis $\\frac{f_n}{f_{n-1}}$ benachbarter Fibonacci-Zahlen an? (auf 3 Nachkommastellen)",
     "answer": 1.618,
     "tolerance": 0.001,
     "unit": "",
-    "explanation": "Folie 11: Major : Minor = φ ≈ 1,618. 📄 Quelle: ari23_vl04, Folie 11 (S.11)",
+    "explanation": "Folie 11: Major : Minor $= \\varphi \\approx 1{,}618$. 📄 Quelle: ari23_vl04, Folie 11 (S.11)",
     "source": "ari23_vl04, Folie 11 (S.11, Fibonacci-Zahlen / Zahlenmagie)"
   },
   {
@@ -13066,7 +13066,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 1.625,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Folie 11: 13 : 8 = 1,625. 📄 Quelle: ari23_vl04, Folie 11 (S.11)",
+    "explanation": "Folie 11: $13 : 8 = 1{,}625$. 📄 Quelle: ari23_vl04, Folie 11 (S.11)",
     "source": "ari23_vl04, Folie 11 (S.11, Fibonacci-Zahlen / Zahlenmagie)"
   },
   {
@@ -13074,19 +13074,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "folgen_fibonacci",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Aussagen zum goldenen Schnitt (Verhältnis f_n/f_{n-1} benachbarter Fibonacci-Zahlen) sind richtig?",
+    "question": "Welche Aussagen zum goldenen Schnitt (Verhältnis $\\frac{f_n}{f_{n-1}}$ benachbarter Fibonacci-Zahlen) sind richtig?",
     "options": [
-      "Das Verhältnis f_n/f_{n-1} entspricht dem Verhältnis Major : Minor",
-      "Der goldene Schnitt φ beträgt ungefähr 1,618",
+      "Das Verhältnis $\\frac{f_n}{f_{n-1}}$ entspricht dem Verhältnis Major : Minor",
+      "Der goldene Schnitt $\\varphi$ beträgt ungefähr 1,618",
       "Der Major-Anteil beträgt ca. 61,8 %, der Minor-Anteil ca. 38,2 %",
-      "Das Verhältnis f_n/f_{n-1} strebt gegen 2"
+      "Das Verhältnis $\\frac{f_n}{f_{n-1}}$ strebt gegen 2"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Folie 11 stellt das Verhältnis f_n/f_{n-1} als Major : Minor dar, gibt φ ≈ 1,618 an und zeigt die Aufteilung ca. 61,8 % / 38,2 %. Gegen 2 strebt das Verhältnis nicht. 📄 Quelle: ari23_vl04, Folie 11 (S.11)",
+    "explanation": "Folie 11 stellt das Verhältnis $\\frac{f_n}{f_{n-1}}$ als Major : Minor dar, gibt $\\varphi \\approx 1{,}618$ an und zeigt die Aufteilung ca. 61,8 % / 38,2 %. Gegen 2 strebt das Verhältnis nicht. 📄 Quelle: ari23_vl04, Folie 11 (S.11)",
     "source": "ari23_vl04, Folie 11 (S.11, Fibonacci-Zahlen / Zahlenmagie)"
   },
   {
@@ -13094,7 +13094,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "folgen_fibonacci",
     "difficulty": 2,
     "type": "single",
-    "question": "Was gilt für die aus benachbarten Fibonacci-Zahlen gebildeten Brüche f_n/f_{n-1} bezüglich Kettenbrüchen?",
+    "question": "Was gilt für die aus benachbarten Fibonacci-Zahlen gebildeten Brüche $\\frac{f_n}{f_{n-1}}$ bezüglich Kettenbrüchen?",
     "options": [
       "Sie lassen sich durch sogenannte Kettenbrüche nur mit 1en ausdrücken",
       "Sie sind stets ganzzahlig",
@@ -13104,7 +13104,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Folie 12: 'Alle Brüche f_n/f_{n-1} lassen sich durch sogenannte Kettenbrüche nur mit 1en ausdrücken!' 📄 Quelle: ari23_vl04, Folie 12 (S.12)",
+    "explanation": "Folie 12: 'Alle Brüche $\\frac{f_n}{f_{n-1}}$ lassen sich durch sogenannte Kettenbrüche nur mit 1en ausdrücken!' 📄 Quelle: ari23_vl04, Folie 12 (S.12)",
     "source": "ari23_vl04, Folie 12 (S.12, Fibonacci-Zahlen / Zahlenmagie)"
   },
   {
@@ -13112,11 +13112,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "folgen_fibonacci",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Welchen Wert hat der Kettenbruch 1/(1 + 1/1)?",
+    "question": "Welchen Wert hat der Kettenbruch $\\frac{1}{1 + \\frac{1}{1}}$?",
     "answer": 0.5,
     "tolerance": 0,
     "unit": "",
-    "explanation": "1/(1 + 1/1) = 1/2 = 0,5. Auf Folie 12 wird 1/2 als dieser Kettenbruch dargestellt. 📄 Quelle: ari23_vl04, Folie 12 (S.12)",
+    "explanation": "$\\frac{1}{1 + \\frac{1}{1}} = \\frac{1}{2} = 0{,}5$. Auf Folie 12 wird $\\frac{1}{2}$ als dieser Kettenbruch dargestellt. 📄 Quelle: ari23_vl04, Folie 12 (S.12)",
     "source": "ari23_vl04, Folie 12 (S.12, Fibonacci-Zahlen / Zahlenmagie)"
   },
   {
@@ -13144,11 +13144,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "folgen_fibonacci",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Wie lautet die 13. Fibonacci-Zahl f_13?",
+    "question": "Wie lautet die 13. Fibonacci-Zahl $f_{13}$?",
     "answer": 233,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Tabelle führt f_13 = 233 auf. 📄 Quelle: ari23_vl04, Folie 13 (S.13)",
+    "explanation": "Die Tabelle führt $f_{13} = 233$ auf. 📄 Quelle: ari23_vl04, Folie 13 (S.13)",
     "source": "ari23_vl04, Folie 13 (S.13, Fibonacci-Zahlen / Architektur)"
   },
   {
@@ -13230,11 +13230,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Durch welche Fibonacci-Zahl f_11 wird bei der 'Zahlenmagie' die Zahl 1 geteilt?",
+    "question": "Durch welche Fibonacci-Zahl $f_{11}$ wird bei der 'Zahlenmagie' die Zahl 1 geteilt?",
     "answer": 89,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Folie 16: 'Teilen Sie 1 durch f_11 = 89'. 📄 Quelle: ari23_vl04, Folie 16 (S.16)",
+    "explanation": "Folie 16: 'Teilen Sie 1 durch $f_{11} = 89$'. 📄 Quelle: ari23_vl04, Folie 16 (S.16)",
     "source": "ari23_vl04, Folie 16 (S.16, Fibonacci-Zahlen / Zahlenmagie)"
   },
   {
@@ -13242,7 +13242,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 1,
     "type": "single",
-    "question": "Wie beginnt die Dezimaldarstellung von 1/89?",
+    "question": "Wie beginnt die Dezimaldarstellung von $\\frac{1}{89}$?",
     "options": [
       "0,0112359…",
       "0,0123456…",
@@ -13252,7 +13252,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Folie 16: 1/89 = 0,0112359… 📄 Quelle: ari23_vl04, Folie 16 (S.16)",
+    "explanation": "Folie 16: $\\frac{1}{89} = 0{,}0112359\\ldots$ 📄 Quelle: ari23_vl04, Folie 16 (S.16)",
     "source": "ari23_vl04, Folie 16 (S.16, Fibonacci-Zahlen / Zahlenmagie)"
   },
   {
@@ -13260,11 +13260,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Wie groß ist der größte gemeinsame Teiler l = ggT(8; 12)?",
+    "question": "Wie groß ist der größte gemeinsame Teiler $l = \\operatorname{ggT}(8; 12)$?",
     "answer": 4,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Folie 18: ggT(8; 12) = 4 =: l. 📄 Quelle: ari23_vl04, Folie 18 (S.18)",
+    "explanation": "Folie 18: $\\operatorname{ggT}(8; 12) = 4 =: l$. 📄 Quelle: ari23_vl04, Folie 18 (S.18)",
     "source": "ari23_vl04, Folie 18 (S.18, Fibonacci-Zahlen / Zahlenmagie)"
   },
   {
@@ -13272,11 +13272,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Bestimmen Sie ggT(f_8; f_12) = ggT(21; 144).",
+    "question": "Bestimmen Sie $\\operatorname{ggT}(f_8; f_{12}) = \\operatorname{ggT}(21; 144)$.",
     "answer": 3,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Folie 18: ggT(f_8; f_12) = ggT(21; 144) = 3. 📄 Quelle: ari23_vl04, Folie 18 (S.18)",
+    "explanation": "Folie 18: $\\operatorname{ggT}(f_8; f_{12}) = \\operatorname{ggT}(21; 144) = 3$. 📄 Quelle: ari23_vl04, Folie 18 (S.18)",
     "source": "ari23_vl04, Folie 18 (S.18, Fibonacci-Zahlen / Zahlenmagie)"
   },
   {
@@ -13286,17 +13286,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welcher Zusammenhang für den größten gemeinsamen Teiler von Fibonacci-Zahlen ist anhand der folgenden Beispiele richtig?",
     "options": [
-      "ggT(f_m; f_n) = f_{ggT(m; n)}",
-      "Für m=8, n=12: ggT(f_8; f_12) = ggT(21; 144) = 3 = f_4",
-      "Für m=10, n=5: ggT(f_10; f_5) = ggT(55; 5) = 5 = f_5",
-      "ggT(f_m; f_n) = f_m · f_n"
+      "$\\operatorname{ggT}(f_m; f_n) = f_{\\operatorname{ggT}(m; n)}$",
+      "Für $m=8$, $n=12$: $\\operatorname{ggT}(f_8; f_{12}) = \\operatorname{ggT}(21; 144) = 3 = f_4$",
+      "Für $m=10$, $n=5$: $\\operatorname{ggT}(f_{10}; f_5) = \\operatorname{ggT}(55; 5) = 5 = f_5$",
+      "$\\operatorname{ggT}(f_m; f_n) = f_m \\cdot f_n$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Beispiele zeigen ggT(f_m; f_n) = f_{ggT(m;n)}: für m=10, n=5 ist ggT(55;5)=5=f_5 (l=ggT(10;5)=5) und für m=8, n=12 ist ggT(21;144)=3=f_4 (l=ggT(8;12)=4). Ein Produkt f_m·f_n ist es nicht. 📄 Quelle: ari23_vl04, Folie 18 (S.18)",
+    "explanation": "Die Beispiele zeigen $\\operatorname{ggT}(f_m; f_n) = f_{\\operatorname{ggT}(m;n)}$: für $m=10$, $n=5$ ist $\\operatorname{ggT}(55;5)=5=f_5$ ($l=\\operatorname{ggT}(10;5)=5$) und für $m=8$, $n=12$ ist $\\operatorname{ggT}(21;144)=3=f_4$ ($l=\\operatorname{ggT}(8;12)=4$). Ein Produkt $f_m\\cdot f_n$ ist es nicht. 📄 Quelle: ari23_vl04, Folie 18 (S.18)",
     "source": "ari23_vl04, Folie 18 (S.18, Fibonacci-Zahlen / Zahlenmagie)"
   },
   {
@@ -13304,11 +13304,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "folgen_fibonacci",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welchen Wert hat die 10. Fibonacci-Zahl f_10?",
+    "question": "Welchen Wert hat die 10. Fibonacci-Zahl $f_{10}$?",
     "answer": 55,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Tabelle listet f_1=1, f_2=1, f_3=2, f_4=3, f_5=5, f_6=8, f_7=13, f_8=21, f_9=34, f_10=55, f_11=89, f_12=144, f_13=233. 📄 Quelle: ari23_vl04, Folie 19 (S.19)",
+    "explanation": "Die Tabelle listet $f_1=1$, $f_2=1$, $f_3=2$, $f_4=3$, $f_5=5$, $f_6=8$, $f_7=13$, $f_8=21$, $f_9=34$, $f_{10}=55$, $f_{11}=89$, $f_{12}=144$, $f_{13}=233$. 📄 Quelle: ari23_vl04, Folie 19 (S.19)",
     "source": "ari23_vl04, Folie 19 (S.19, Fibonacci-Zahlen)"
   },
   {
@@ -13316,17 +13316,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "folgen_fibonacci",
     "difficulty": 2,
     "type": "single",
-    "question": "Welche Gesetzmäßigkeit gilt für den ggT zweier Fibonacci-Zahlen f_m und f_n?",
+    "question": "Welche Gesetzmäßigkeit gilt für den $\\operatorname{ggT}$ zweier Fibonacci-Zahlen $f_m$ und $f_n$?",
     "options": [
-      "ggT(f_m, f_n) = f_l = f_ggT(m,n)",
-      "ggT(f_m, f_n) = f_m + f_n",
-      "ggT(f_m, f_n) = f_(m·n)",
-      "ggT(f_m, f_n) = ggT(m,n)"
+      "$\\operatorname{ggT}(f_m, f_n) = f_l = f_{\\operatorname{ggT}(m,n)}$",
+      "$\\operatorname{ggT}(f_m, f_n) = f_m + f_n$",
+      "$\\operatorname{ggT}(f_m, f_n) = f_{m\\cdot n}$",
+      "$\\operatorname{ggT}(f_m, f_n) = \\operatorname{ggT}(m,n)$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie hält fest: Bildet man ggT(m;n)=l, so ist ggT(f_m, f_n) = f_l = f_ggT(m,n). 📄 Quelle: ari23_vl04, Folie 19 (S.19)",
+    "explanation": "Die Folie hält fest: Bildet man $\\operatorname{ggT}(m;n)=l$, so ist $\\operatorname{ggT}(f_m, f_n) = f_l = f_{\\operatorname{ggT}(m,n)}$. 📄 Quelle: ari23_vl04, Folie 19 (S.19)",
     "source": "ari23_vl04, Folie 19 (S.19, Fibonacci-Zahlen)"
   },
   {
@@ -13334,11 +13334,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "folgen_fibonacci",
     "difficulty": 3,
     "type": "numeric",
-    "question": "Bestimme mit der Regel ggT(f_m, f_n) = f_ggT(m,n) den Wert von ggT(f_8, f_12).",
+    "question": "Bestimme mit der Regel $\\operatorname{ggT}(f_m, f_n) = f_{\\operatorname{ggT}(m,n)}$ den Wert von $\\operatorname{ggT}(f_8, f_{12})$.",
     "answer": 3,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Es ist ggT(8;12)=4, also ggT(f_8, f_12)=f_4=3 (Kontrolle: ggT(21;144)=3). 📄 Quelle: ari23_vl04, Folie 19 (S.19)",
+    "explanation": "Es ist $\\operatorname{ggT}(8;12)=4$, also $\\operatorname{ggT}(f_8, f_{12})=f_4=3$ (Kontrolle: $\\operatorname{ggT}(21;144)=3$). 📄 Quelle: ari23_vl04, Folie 19 (S.19)",
     "source": "ari23_vl04, Folie 19 (S.19, Fibonacci-Zahlen)"
   },
   {
@@ -13364,11 +13364,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welchen Wert hat das Quadrat der 7. Fibonacci-Zahl (f_7 = 13) gemäß der Tabelle?",
+    "question": "Welchen Wert hat das Quadrat der 7. Fibonacci-Zahl ($f_7 = 13$) gemäß der Tabelle?",
     "answer": 169,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Spalte 'Quadrate' zeigt für n=7 den Wert 13^2 = 169. 📄 Quelle: ari23_vl04, Folie 20 (S.20)",
+    "explanation": "Die Spalte 'Quadrate' zeigt für $n=7$ den Wert $13^2 = 169$. 📄 Quelle: ari23_vl04, Folie 20 (S.20)",
     "source": "ari23_vl04, Folie 20 (S.20, Summe der Quadrate der Fibonacci-Zahlen)"
   },
   {
@@ -13376,11 +13376,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Wie groß ist die Summe S_6 der Quadrate der ersten 6 Fibonacci-Zahlen gemäß der Tabelle?",
+    "question": "Wie groß ist die Summe $S_6$ der Quadrate der ersten 6 Fibonacci-Zahlen gemäß der Tabelle?",
     "answer": 104,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Spalte 'Summe' zeigt für n=6 den Wert 104 (=1+1+4+9+25+64). 📄 Quelle: ari23_vl04, Folie 20 (S.20)",
+    "explanation": "Die Spalte 'Summe' zeigt für $n=6$ den Wert 104 ($=1+1+4+9+25+64$). 📄 Quelle: ari23_vl04, Folie 20 (S.20)",
     "source": "ari23_vl04, Folie 20 (S.20, Summe der Quadrate der Fibonacci-Zahlen)"
   },
   {
@@ -13390,15 +13390,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Was wurde in Erkundung II bezüglich der Fibonacci-Zahlen untersucht?",
     "options": [
-      "Die Summe S_n der Quadrate der ersten n Fibonacci-Zahlen",
-      "Das Produkt der ersten n Fibonacci-Zahlen",
-      "Der ggT aufeinanderfolgender Fibonacci-Zahlen",
+      "Die Summe $S_n$ der Quadrate der ersten $n$ Fibonacci-Zahlen",
+      "Das Produkt der ersten $n$ Fibonacci-Zahlen",
+      "Der $\\operatorname{ggT}$ aufeinanderfolgender Fibonacci-Zahlen",
       "Die Differenz benachbarter Fibonacci-Zahlen"
     ],
     "correct": [
       0
     ],
-    "explanation": "Text der Folie: 'Sie haben in Erkundung II ... die Summe S_n der Quadrate der ersten n Fibonacci-Zahlen untersucht.' 📄 Quelle: ari23_vl04, Folie 20 (S.20)",
+    "explanation": "Text der Folie: 'Sie haben in Erkundung II ... die Summe $S_n$ der Quadrate der ersten $n$ Fibonacci-Zahlen untersucht.' 📄 Quelle: ari23_vl04, Folie 20 (S.20)",
     "source": "ari23_vl04, Folie 20 (S.20, Summe der Quadrate der Fibonacci-Zahlen)"
   },
   {
@@ -13406,17 +13406,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 2,
     "type": "single",
-    "question": "Welche Vermutung gilt für die Summe der Quadrate der ersten n Fibonacci-Zahlen?",
+    "question": "Welche Vermutung gilt für die Summe der Quadrate der ersten $n$ Fibonacci-Zahlen?",
     "options": [
-      "S_n = f_1^2 + f_2^2 + ... + f_n^2 = f_n · f_(n+1)",
-      "S_n = f_1^2 + ... + f_n^2 = f_n + f_(n+1)",
-      "S_n = f_1^2 + ... + f_n^2 = (f_n)^2",
-      "S_n = f_1^2 + ... + f_n^2 = f_(2n)"
+      "$S_n = f_1^2 + f_2^2 + \\ldots + f_n^2 = f_n \\cdot f_{n+1}$",
+      "$S_n = f_1^2 + \\ldots + f_n^2 = f_n + f_{n+1}$",
+      "$S_n = f_1^2 + \\ldots + f_n^2 = (f_n)^2$",
+      "$S_n = f_1^2 + \\ldots + f_n^2 = f_{2n}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Vermutung lautet S_n = f_1^2 + f_2^2 + f_3^2 + ... + f_(n-1)^2 + f_n^2 = f_n · f_(n+1). 📄 Quelle: ari23_vl04, Folie 22 (S.22)",
+    "explanation": "Die Vermutung lautet $S_n = f_1^2 + f_2^2 + f_3^2 + \\ldots + f_{n-1}^2 + f_n^2 = f_n \\cdot f_{n+1}$. 📄 Quelle: ari23_vl04, Folie 22 (S.22)",
     "source": "ari23_vl04, Folie 22 (S.22, Summe der Quadrate der Fibonacci-Zahlen)"
   },
   {
@@ -13424,11 +13424,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Berechne mit der Vermutung S_n = f_n · f_(n+1) den Wert von S_5 (es ist f_5 = 5, f_6 = 8).",
+    "question": "Berechne mit der Vermutung $S_n = f_n \\cdot f_{n+1}$ den Wert von $S_5$ (es ist $f_5 = 5$, $f_6 = 8$).",
     "answer": 40,
     "tolerance": 0,
     "unit": "",
-    "explanation": "S_5 = f_5 · f_6 = 5 · 8 = 40 (auf der Folie als 5·8=40=S_5 notiert). 📄 Quelle: ari23_vl04, Folie 22 (S.22)",
+    "explanation": "$S_5 = f_5 \\cdot f_6 = 5 \\cdot 8 = 40$ (auf der Folie als $5\\cdot 8=40=S_5$ notiert). 📄 Quelle: ari23_vl04, Folie 22 (S.22)",
     "source": "ari23_vl04, Folie 22 (S.22, Summe der Quadrate der Fibonacci-Zahlen)"
   },
   {
@@ -13436,7 +13436,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 2,
     "type": "single",
-    "question": "Als welcher Schritt im mathematischen Arbeiten wird das Erkennen des Zusammenhangs S_n = f_n · f_(n+1) (Summe der Quadrate der ersten n Fibonacci-Zahlen) bezeichnet?",
+    "question": "Als welcher Schritt im mathematischen Arbeiten wird das Erkennen des Zusammenhangs $S_n = f_n \\cdot f_{n+1}$ (Summe der Quadrate der ersten $n$ Fibonacci-Zahlen) bezeichnet?",
     "options": [
       "Entdeckung eines Musters (Aufstellen einer Hypothese)",
       "Beweis durch vollständige Induktion",
@@ -13475,15 +13475,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Welcher Satz soll im Anschluss an die Erkundung zur Summe der Quadrate der Fibonacci-Zahlen mit vollständiger Induktion bewiesen werden?",
     "options": [
-      "Der Satz über die Summe der Quadrate der ersten n Fibonacci-Zahlen",
-      "Der Satz über den ggT zweier Fibonacci-Zahlen",
-      "Der Satz über die Summe der ersten n natürlichen Zahlen",
+      "Der Satz über die Summe der Quadrate der ersten $n$ Fibonacci-Zahlen",
+      "Der Satz über den $\\operatorname{ggT}$ zweier Fibonacci-Zahlen",
+      "Der Satz über die Summe der ersten $n$ natürlichen Zahlen",
       "Der Satz über die Zweierpotenzen im Pascalschen Dreieck"
     ],
     "correct": [
       0
     ],
-    "explanation": "Aufgabe der Folie: 'Beweisen Sie den Satz über die Summe der Quadrate der ersten n Fibonacci-Zahlen mit Hilfe der vollständigen Induktion!' 📄 Quelle: ari23_vl04, Folie 23 (S.23)",
+    "explanation": "Aufgabe der Folie: 'Beweisen Sie den Satz über die Summe der Quadrate der ersten $n$ Fibonacci-Zahlen mit Hilfe der vollständigen Induktion!' 📄 Quelle: ari23_vl04, Folie 23 (S.23)",
     "source": "ari23_vl04, Folie 23 (S.23, Vollständige Induktion)"
   },
   {
@@ -13569,15 +13569,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Welche rekursive Vorschrift beschreibt die 'Folge von Einsen' (1, 1, 1, 1, ...)?",
     "options": [
-      "a_(n+1) = a_n + 0, mit a_1 := 1",
-      "a_(n+1) = a_n + 1, mit a_1 := 1",
-      "a_(n+1) = a_n · 0, mit a_1 := 1",
-      "a_(n+1) = a_n + a_(n-1), mit a_1 := 1"
+      "$a_{n+1} = a_n + 0$, mit $a_1 := 1$",
+      "$a_{n+1} = a_n + 1$, mit $a_1 := 1$",
+      "$a_{n+1} = a_n \\cdot 0$, mit $a_1 := 1$",
+      "$a_{n+1} = a_n + a_{n-1}$, mit $a_1 := 1$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Zur 'Folge von Einsen' notiert die Folie: 1,1,1,1,...; 1^0, 2^0, 3^0, 4^0, ...; a_(n+1) = a_n + 0, mit a_1 := 1. 📄 Quelle: ari23_vl04, Folie 27 (S.27)",
+    "explanation": "Zur 'Folge von Einsen' notiert die Folie: 1,1,1,1,...; $1^0, 2^0, 3^0, 4^0, \\ldots$; $a_{n+1} = a_n + 0$, mit $a_1 := 1$. 📄 Quelle: ari23_vl04, Folie 27 (S.27)",
     "source": "ari23_vl04, Folie 27 (S.27, Erkundung II)"
   },
   {
@@ -13587,15 +13587,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Als welche Potenzen lassen sich die Glieder der Folge von Einsen (1, 1, 1, 1, ...) schreiben?",
     "options": [
-      "1^0, 2^0, 3^0, 4^0, ...",
-      "1^1, 2^1, 3^1, 4^1, ...",
-      "2^0, 2^1, 2^2, 2^3, ...",
-      "1^2, 2^2, 3^2, 4^2, ..."
+      "$1^0, 2^0, 3^0, 4^0, \\ldots$",
+      "$1^1, 2^1, 3^1, 4^1, \\ldots$",
+      "$2^0, 2^1, 2^2, 2^3, \\ldots$",
+      "$1^2, 2^2, 3^2, 4^2, \\ldots$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie schreibt die Folge von Einsen als 1^0, 2^0, 3^0, 4^0, ... (jede Zahl hoch 0 ergibt 1). 📄 Quelle: ari23_vl04, Folie 27 (S.27)",
+    "explanation": "Die Folie schreibt die Folge von Einsen als $1^0, 2^0, 3^0, 4^0, \\ldots$ (jede Zahl hoch 0 ergibt 1). 📄 Quelle: ari23_vl04, Folie 27 (S.27)",
     "source": "ari23_vl04, Folie 27 (S.27, Erkundung II)"
   },
   {
@@ -13606,16 +13606,16 @@ const SAMPLE_QUESTIONS = [
     "question": "Welche Angaben sind für die 'Folge der natürlichen Zahlen' (1, 2, 3, 4, ...) korrekt? (Mehrfachauswahl möglich)",
     "options": [
       "Sie entsteht, indem man stets 1 zum vorherigen Folgenglied hinzuzählt",
-      "a_(n+1) = a_n + 1, mit a_1 := 1",
-      "a_n = n",
-      "a_n = 2n"
+      "$a_{n+1} = a_n + 1$, mit $a_1 := 1$",
+      "$a_n = n$",
+      "$a_n = 2n$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie: 'Zähle stets 1 zum vorherigen Folgenglied hinzu, Folge der natürlichen Zahlen'; 1,2,3,4,...; a_(n+1) = a_n + 1, mit a_1 := 1; a_n = n. 📄 Quelle: ari23_vl04, Folie 28 (S.28)",
+    "explanation": "Die Folie: 'Zähle stets 1 zum vorherigen Folgenglied hinzu, Folge der natürlichen Zahlen'; 1,2,3,4,...; $a_{n+1} = a_n + 1$, mit $a_1 := 1$; $a_n = n$. 📄 Quelle: ari23_vl04, Folie 28 (S.28)",
     "source": "ari23_vl04, Folie 28 (S.28, Erkundung II)"
   },
   {
@@ -13623,11 +13623,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Wie groß ist die 5. Dreieckszahl a_5 = 1+2+3+4+5?",
+    "question": "Wie groß ist die 5. Dreieckszahl $a_5 = 1+2+3+4+5$?",
     "answer": 15,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Folge der Dreieckszahlen lautet 1, 3, 6, 10, 15, 21, ...; a_5 = 1+2+3+4+5 = 15. 📄 Quelle: ari23_vl04, Folie 29 (S.29)",
+    "explanation": "Die Folge der Dreieckszahlen lautet 1, 3, 6, 10, 15, 21, ...; $a_5 = 1+2+3+4+5 = 15$. 📄 Quelle: ari23_vl04, Folie 29 (S.29)",
     "source": "ari23_vl04, Folie 29 (S.29, Erkundung II)"
   },
   {
@@ -13637,15 +13637,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Wie entstehen die Dreieckszahlen?",
     "options": [
-      "Als Summe der ersten n natürlichen Zahlen: a_n = 1+2+3+...+(n-1)+n",
-      "Als Produkt der ersten n natürlichen Zahlen",
-      "Als Summe der ersten n Fibonacci-Zahlen",
+      "Als Summe der ersten $n$ natürlichen Zahlen: $a_n = 1+2+3+\\ldots+(n-1)+n$",
+      "Als Produkt der ersten $n$ natürlichen Zahlen",
+      "Als Summe der ersten $n$ Fibonacci-Zahlen",
       "Als Zweierpotenzen 1, 2, 4, 8, ..."
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie: 'Summe der ersten n natürlichen Zahlen, Dreieckszahlen'; a_n = 1 + 2 + 3 + ... + (n-1) + n; Folge 1, 3, 6, 10, 15, 21, ... 📄 Quelle: ari23_vl04, Folie 29 (S.29)",
+    "explanation": "Die Folie: 'Summe der ersten $n$ natürlichen Zahlen, Dreieckszahlen'; $a_n = 1 + 2 + 3 + \\ldots + (n-1) + n$; Folge 1, 3, 6, 10, 15, 21, ... 📄 Quelle: ari23_vl04, Folie 29 (S.29)",
     "source": "ari23_vl04, Folie 29 (S.29, Erkundung II)"
   },
   {
@@ -13653,11 +13653,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Die Folge der Summe der Dreieckszahlen lautet 1, 4, 10, 20, 35, ... . Welchen Wert hat a_4 = 1+3+6+10?",
+    "question": "Die Folge der Summe der Dreieckszahlen lautet 1, 4, 10, 20, 35, ... . Welchen Wert hat $a_4 = 1+3+6+10$?",
     "answer": 20,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Folie: a_4 = 1 + 3 + 6 + 10 = 20 (Folge 1, 4, 10, 20, 35, ...); es gilt a_n = S_n. 📄 Quelle: ari23_vl04, Folie 30 (S.30)",
+    "explanation": "Die Folie: $a_4 = 1 + 3 + 6 + 10 = 20$ (Folge 1, 4, 10, 20, 35, ...); es gilt $a_n = S_n$. 📄 Quelle: ari23_vl04, Folie 30 (S.30)",
     "source": "ari23_vl04, Folie 30 (S.30, Erkundung II)"
   },
   {
@@ -13667,7 +13667,7 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Wie entsteht die Folge 1, 4, 10, 20, 35, ... ?",
     "options": [
-      "Als Folge der Summe der Dreieckszahlen (a_n = S_n)",
+      "Als Folge der Summe der Dreieckszahlen ($a_n = S_n$)",
       "Als Folge der Zweierpotenzen",
       "Als Folge der Fibonacci-Zahlen",
       "Als Folge der natürlichen Zahlen"
@@ -13675,7 +13675,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Die Folie: 'Folge der Summe der Dreieckszahlen'; 1, 4, 10, 20, 35, ...; a_n = S_n. 📄 Quelle: ari23_vl04, Folie 30 (S.30)",
+    "explanation": "Die Folie: 'Folge der Summe der Dreieckszahlen'; 1, 4, 10, 20, 35, ...; $a_n = S_n$. 📄 Quelle: ari23_vl04, Folie 30 (S.30)",
     "source": "ari23_vl04, Folie 30 (S.30, Erkundung II)"
   },
   {
@@ -13683,11 +13683,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "erkundungsmethodik",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Als Diagonalsummen im Zahlendreieck ergibt sich die Folge der Fibonacci-Zahlen 1, 1, 2, 3, 5, 8, ... . Welchen Wert hat a_6 = 1+4+3+1?",
+    "question": "Als Diagonalsummen im Zahlendreieck ergibt sich die Folge der Fibonacci-Zahlen 1, 1, 2, 3, 5, 8, ... . Welchen Wert hat $a_6 = 1+4+3+1$?",
     "answer": 8,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Folie: 'Folge der Fibonacci-Zahlen' 1, 1, 2, 3, 5, 8, 13, 21, ...; a_6 = 1+4+3+1 = 8. 📄 Quelle: ari23_vl04, Folie 31 (S.31)",
+    "explanation": "Die Folie: 'Folge der Fibonacci-Zahlen' 1, 1, 2, 3, 5, 8, 13, 21, ...; $a_6 = 1+4+3+1 = 8$. 📄 Quelle: ari23_vl04, Folie 31 (S.31)",
     "source": "ari23_vl04, Folie 31 (S.31, Erkundung II)"
   },
   {
@@ -13705,7 +13705,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Die Folie: 'Folge der Fibonacci-Zahlen' 1, 1, 2, 3, 5, 8, 13, 21, ...; mit a_3 = 1+1 = 2, a_4 = 1+2 = 3, a_5 = 1+3+1 = 5, a_6 = 1+4+3+1 = 8. 📄 Quelle: ari23_vl04, Folie 31 (S.31)",
+    "explanation": "Die Folie: 'Folge der Fibonacci-Zahlen' 1, 1, 2, 3, 5, 8, 13, 21, ...; mit $a_3 = 1+1 = 2$, $a_4 = 1+2 = 3$, $a_5 = 1+3+1 = 5$, $a_6 = 1+4+3+1 = 8$. 📄 Quelle: ari23_vl04, Folie 31 (S.31)",
     "source": "ari23_vl04, Folie 31 (S.31, Erkundung II)"
   },
   {
@@ -13713,11 +13713,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Die Zeilensummen des Zahlendreiecks ergeben die Folge der Zweierpotenzen 1, 2, 4, 8, 16, ... . Welchen Wert hat a_5 = 1+4+6+4+1?",
+    "question": "Die Zeilensummen des Zahlendreiecks ergeben die Folge der Zweierpotenzen 1, 2, 4, 8, 16, ... . Welchen Wert hat $a_5 = 1+4+6+4+1$?",
     "answer": 16,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Folie: 'Folge der Zweierpotenzen' 1, 2, 4, 8, 16, 32, ...; a_5 = 1+4+6+4+1 = 16. 📄 Quelle: ari23_vl04, Folie 32 (S.32)",
+    "explanation": "Die Folie: 'Folge der Zweierpotenzen' 1, 2, 4, 8, 16, 32, ...; $a_5 = 1+4+6+4+1 = 16$. 📄 Quelle: ari23_vl04, Folie 32 (S.32)",
     "source": "ari23_vl04, Folie 32 (S.32, Erkundung II)"
   },
   {
@@ -13735,7 +13735,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Die Folie: 'Folge der Zweierpotenzen' 1, 2, 4, 8, 16, 32, ...; z. B. a_3 = 1+2+1 = 4, a_4 = 1+3+3+1 = 8. 📄 Quelle: ari23_vl04, Folie 32 (S.32)",
+    "explanation": "Die Folie: 'Folge der Zweierpotenzen' 1, 2, 4, 8, 16, 32, ...; z. B. $a_3 = 1+2+1 = 4$, $a_4 = 1+3+3+1 = 8$. 📄 Quelle: ari23_vl04, Folie 32 (S.32)",
     "source": "ari23_vl04, Folie 32 (S.32, Erkundung II)"
   },
   {
@@ -13743,17 +13743,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lässt sich die n-te Dreieckszahl d_n darstellen?",
+    "question": "Wie lässt sich die $n$-te Dreieckszahl $d_n$ darstellen?",
     "options": [
-      "d_n = n·(n+1)/2",
-      "d_n = n^2",
-      "d_n = (n-1)·n/2",
-      "d_n = 2^n"
+      "$d_n = \\frac{n\\cdot(n+1)}{2}$",
+      "$d_n = n^2$",
+      "$d_n = \\frac{(n-1)\\cdot n}{2}$",
+      "$d_n = 2^n$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie leitet aus 3 = 6/2 = 2·3/2 = 2·(2+1)/2, 6 = 3·4/2, 10 = 4·5/2 die Formel d_n = n·(n+1)/2 her. 📄 Quelle: ari23_vl04, Folie 34 (S.34)",
+    "explanation": "Die Folie leitet aus $3 = \\frac{6}{2} = \\frac{2\\cdot 3}{2} = \\frac{2\\cdot(2+1)}{2}$, $6 = \\frac{3\\cdot 4}{2}$, $10 = \\frac{4\\cdot 5}{2}$ die Formel $d_n = \\frac{n\\cdot(n+1)}{2}$ her. 📄 Quelle: ari23_vl04, Folie 34 (S.34)",
     "source": "ari23_vl04, Folie 34 (S.34, Erkundung II)"
   },
   {
@@ -13761,11 +13761,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Berechne mit der Formel d_n = n·(n+1)/2 die 6. Dreieckszahl d_6.",
+    "question": "Berechne mit der Formel $d_n = \\frac{n\\cdot(n+1)}{2}$ die 6. Dreieckszahl $d_6$.",
     "answer": 21,
     "tolerance": 0,
     "unit": "",
-    "explanation": "d_6 = 6·(6+1)/2 = 6·7/2 = 21. 📄 Quelle: ari23_vl04, Folie 34 (S.34)",
+    "explanation": "$d_6 = \\frac{6\\cdot(6+1)}{2} = \\frac{6\\cdot 7}{2} = 21$. 📄 Quelle: ari23_vl04, Folie 34 (S.34)",
     "source": "ari23_vl04, Folie 34 (S.34, Erkundung II)"
   },
   {
@@ -13773,17 +13773,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 3,
     "type": "single",
-    "question": "Wie wird das allgemeine Glied a_n der Folge 1, 4, 10, 20, 35, ... beschrieben?",
+    "question": "Wie wird das allgemeine Glied $a_n$ der Folge 1, 4, 10, 20, 35, ... beschrieben?",
     "options": [
-      "a_n = S_n = Summe der ersten n Dreieckszahlen: S_n = 1 + 3 + 6 + ... + n·(n+1)/2",
-      "a_n = n·(n+1)/2",
-      "a_n = f_n · f_(n+1)",
-      "a_n = 2^(n-1)"
+      "$a_n = S_n$ = Summe der ersten $n$ Dreieckszahlen: $S_n = 1 + 3 + 6 + \\ldots + \\frac{n\\cdot(n+1)}{2}$",
+      "$a_n = \\frac{n\\cdot(n+1)}{2}$",
+      "$a_n = f_n \\cdot f_{n+1}$",
+      "$a_n = 2^{n-1}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie: a_n = S_n = Summe der ersten n Dreieckszahlen: S_n = 1 + 3 + 6 + ... + n·(n+1)/2. 📄 Quelle: ari23_vl04, Folie 34 (S.34)",
+    "explanation": "Die Folie: $a_n = S_n$ = Summe der ersten $n$ Dreieckszahlen: $S_n = 1 + 3 + 6 + \\ldots + \\frac{n\\cdot(n+1)}{2}$. 📄 Quelle: ari23_vl04, Folie 34 (S.34)",
     "source": "ari23_vl04, Folie 34 (S.34, Erkundung II)"
   },
   {
@@ -13791,17 +13791,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 3,
     "type": "single",
-    "question": "Wie lautet die rekursive Darstellung von S_n (Summe der ersten n Dreieckszahlen)?",
+    "question": "Wie lautet die rekursive Darstellung von $S_n$ (Summe der ersten $n$ Dreieckszahlen)?",
     "options": [
-      "S_n = S_(n-1) + n·(n+1)/2",
-      "S_n = S_(n-1) + n",
-      "S_n = S_(n-1) · n·(n+1)/2",
-      "S_n = S_(n+1) - n·(n+1)/2"
+      "$S_n = S_{n-1} + \\frac{n\\cdot(n+1)}{2}$",
+      "$S_n = S_{n-1} + n$",
+      "$S_n = S_{n-1} \\cdot \\frac{n\\cdot(n+1)}{2}$",
+      "$S_n = S_{n+1} - \\frac{n\\cdot(n+1)}{2}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie stellt S_n = 1 + 3 + 6 + ... + n·(n+1)/2 rekursiv dar als S_n = S_(n-1) + n·(n+1)/2. 📄 Quelle: ari23_vl04, Folie 35 (S.35)",
+    "explanation": "Die Folie stellt $S_n = 1 + 3 + 6 + \\ldots + \\frac{n\\cdot(n+1)}{2}$ rekursiv dar als $S_n = S_{n-1} + \\frac{n\\cdot(n+1)}{2}$. 📄 Quelle: ari23_vl04, Folie 35 (S.35)",
     "source": "ari23_vl04, Folie 35 (S.35, Erkundung II)"
   },
   {
@@ -13811,7 +13811,7 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Woran wird im Zusammenhang mit den Dreieckszahlen erinnert?",
     "options": [
-      "Eine Dreieckszahl ist die Summe der ersten n natürlichen Zahlen",
+      "Eine Dreieckszahl ist die Summe der ersten $n$ natürlichen Zahlen",
       "Eine Dreieckszahl ist eine Zweierpotenz",
       "Eine Dreieckszahl ist das Produkt zweier Fibonacci-Zahlen",
       "Eine Dreieckszahl ist das Quadrat einer natürlichen Zahl"
@@ -13819,7 +13819,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Der Erinnerungskasten der Folie: 'eine Dreieckszahl ist die Summe der ersten n natürlichen Zahlen'. 📄 Quelle: ari23_vl04, Folie 35 (S.35)",
+    "explanation": "Der Erinnerungskasten der Folie: 'eine Dreieckszahl ist die Summe der ersten $n$ natürlichen Zahlen'. 📄 Quelle: ari23_vl04, Folie 35 (S.35)",
     "source": "ari23_vl04, Folie 35 (S.35, Erkundung II)"
   },
   {
@@ -13845,11 +13845,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welchen Wert hat die 'Summe der Dreieckszahlen (Summe II)' für n = 6 laut Tabelle?",
+    "question": "Welchen Wert hat die 'Summe der Dreieckszahlen (Summe II)' für $n = 6$ laut Tabelle?",
     "answer": 56,
     "tolerance": 0,
     "unit": "",
-    "explanation": "In der Tabelle steht für n = 6: Summe I = 21, Summe II = 56. 📄 Quelle: ari23_vl04, Folie 36 (S.36)",
+    "explanation": "In der Tabelle steht für $n = 6$: Summe I = 21, Summe II = 56. 📄 Quelle: ari23_vl04, Folie 36 (S.36)",
     "source": "ari23_vl04, Folie 36 (S.36, Arithmetik)"
   },
   {
@@ -13857,7 +13857,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche der folgenden Zahlen sind laut Tabelle Dreieckszahlen (Summe I) für n = 1 bis 7?",
+    "question": "Welche der folgenden Zahlen sind laut Tabelle Dreieckszahlen (Summe I) für $n = 1$ bis 7?",
     "options": [
       "1",
       "6",
@@ -13880,11 +13880,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Berechne S_4 nach der Rechnung S_4 = 4 · 15 / 3.",
+    "question": "Berechne $S_4$ nach der Rechnung $S_4 = \\frac{4 \\cdot 15}{3}$.",
     "answer": 20,
     "tolerance": 0,
     "unit": "",
-    "explanation": "S_4 = 4·15/3 = 60/3 = 20 (= Summe II für n = 4). 📄 Quelle: ari23_vl04, Folie 37 (S.37)",
+    "explanation": "$S_4 = \\frac{4\\cdot 15}{3} = \\frac{60}{3} = 20$ (= Summe II für $n = 4$). 📄 Quelle: ari23_vl04, Folie 37 (S.37)",
     "source": "ari23_vl04, Folie 37 (S.37, Arithmetik)"
   },
   {
@@ -13892,17 +13892,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 2,
     "type": "single",
-    "question": "S_n bezeichnet die Summe der ersten n Dreieckszahlen. Wie lautet die (noch rekursive) allgemeine Formel für S_n mit der Dreieckszahl d_{n+1}?",
+    "question": "$S_n$ bezeichnet die Summe der ersten $n$ Dreieckszahlen. Wie lautet die (noch rekursive) allgemeine Formel für $S_n$ mit der Dreieckszahl $d_{n+1}$?",
     "options": [
-      "S_n = n · d_{n+1} / 3",
-      "S_n = n · d_n / 3",
-      "S_n = n · d_{n+1} / 2",
-      "S_n = (n+1) · d_n / 3"
+      "$S_n = \\frac{n \\cdot d_{n+1}}{3}$",
+      "$S_n = \\frac{n \\cdot d_n}{3}$",
+      "$S_n = \\frac{n \\cdot d_{n+1}}{2}$",
+      "$S_n = \\frac{(n+1) \\cdot d_n}{3}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie steht S_n = n · d_{n+1} / 3 mit der Dreieckszahl d_{n+1}; sie heißt 'noch immer rekursiv', weil d_{n+1} noch benötigt wird. 📄 Quelle: ari23_vl04, Folie 37 (S.37)",
+    "explanation": "Auf der Folie steht $S_n = \\frac{n \\cdot d_{n+1}}{3}$ mit der Dreieckszahl $d_{n+1}$; sie heißt 'noch immer rekursiv', weil $d_{n+1}$ noch benötigt wird. 📄 Quelle: ari23_vl04, Folie 37 (S.37)",
     "source": "ari23_vl04, Folie 37 (S.37, Arithmetik)"
   },
   {
@@ -13910,17 +13910,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 2,
     "type": "single",
-    "question": "Welche geschlossene Formel gilt für die Dreieckszahl d_{n+1}?",
+    "question": "Welche geschlossene Formel gilt für die Dreieckszahl $d_{n+1}$?",
     "options": [
-      "d_{n+1} = (n+1)·(n+2) / 2",
-      "d_{n+1} = (n+1)·(n+2) / 3",
-      "d_{n+1} = n·(n+1) / 2",
-      "d_{n+1} = (n+1)·(n+2)"
+      "$d_{n+1} = \\frac{(n+1)\\cdot(n+2)}{2}$",
+      "$d_{n+1} = \\frac{(n+1)\\cdot(n+2)}{3}$",
+      "$d_{n+1} = \\frac{n\\cdot(n+1)}{2}$",
+      "$d_{n+1} = (n+1)\\cdot(n+2)$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Aus 6 = 3·4/2, 10 = 4·5/2, 15 = 5·6/2, 21 = 6·7/2 folgt d_{n+1} = (n+1)·(n+2)/2. 📄 Quelle: ari23_vl04, Folie 38 (S.38)",
+    "explanation": "Aus $6 = \\frac{3\\cdot 4}{2}$, $10 = \\frac{4\\cdot 5}{2}$, $15 = \\frac{5\\cdot 6}{2}$, $21 = \\frac{6\\cdot 7}{2}$ folgt $d_{n+1} = \\frac{(n+1)\\cdot(n+2)}{2}$. 📄 Quelle: ari23_vl04, Folie 38 (S.38)",
     "source": "ari23_vl04, Folie 38 (S.38, Arithmetik)"
   },
   {
@@ -13928,17 +13928,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 2,
     "type": "single",
-    "question": "S_n ist die Summe der ersten n Dreieckszahlen. Wie lautet die nicht-rekursive (geschlossene) Formel für S_n?",
+    "question": "$S_n$ ist die Summe der ersten $n$ Dreieckszahlen. Wie lautet die nicht-rekursive (geschlossene) Formel für $S_n$?",
     "options": [
-      "S_n = n·(n+1)·(n+2) / (3·2)",
-      "S_n = n·(n+1) / 2",
-      "S_n = n·(n+1)·(n+2) / 2",
-      "S_n = n·(n+1)·(n+2) / 3"
+      "$S_n = \\frac{n\\cdot(n+1)\\cdot(n+2)}{3\\cdot 2}$",
+      "$S_n = \\frac{n\\cdot(n+1)}{2}$",
+      "$S_n = \\frac{n\\cdot(n+1)\\cdot(n+2)}{2}$",
+      "$S_n = \\frac{n\\cdot(n+1)\\cdot(n+2)}{3}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Einsetzen von d_{n+1} = (n+1)(n+2)/2 in S_n = n·d_{n+1}/3 ergibt S_n = n·(n+1)·(n+2)/(3·2). 📄 Quelle: ari23_vl04, Folie 38 (S.38)",
+    "explanation": "Einsetzen von $d_{n+1} = \\frac{(n+1)(n+2)}{2}$ in $S_n = \\frac{n\\cdot d_{n+1}}{3}$ ergibt $S_n = \\frac{n\\cdot(n+1)\\cdot(n+2)}{3\\cdot 2}$. 📄 Quelle: ari23_vl04, Folie 38 (S.38)",
     "source": "ari23_vl04, Folie 38 (S.38, Arithmetik)"
   },
   {
@@ -13946,11 +13946,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Berechne S_5 mit der geschlossenen Formel S_n = n·(n+1)·(n+2)/(3·2).",
+    "question": "Berechne $S_5$ mit der geschlossenen Formel $S_n = \\frac{n\\cdot(n+1)\\cdot(n+2)}{3\\cdot 2}$.",
     "answer": 35,
     "tolerance": 0,
     "unit": "",
-    "explanation": "S_5 = 5·6·7/(3·2) = 210/6 = 35 (= Summe II für n = 5). 📄 Quelle: ari23_vl04, Folie 38 (S.38)",
+    "explanation": "$S_5 = \\frac{5\\cdot 6\\cdot 7}{3\\cdot 2} = \\frac{210}{6} = 35$ (= Summe II für $n = 5$). 📄 Quelle: ari23_vl04, Folie 38 (S.38)",
     "source": "ari23_vl04, Folie 38 (S.38, Arithmetik)"
   },
   {
@@ -13958,17 +13958,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 1,
     "type": "single",
-    "question": "Welchen allgemeinen Term (in Zeile n) hat die Spalte 'Dreieckszahlen (Summe I)'?",
+    "question": "Welchen allgemeinen Term (in Zeile $n$) hat die Spalte 'Dreieckszahlen (Summe I)'?",
     "options": [
-      "n·(n+1) / 2",
-      "n·(n+1)·(n+2) / (3·2)",
-      "n·(n+1)",
-      "n² / 2"
+      "$\\frac{n\\cdot(n+1)}{2}$",
+      "$\\frac{n\\cdot(n+1)\\cdot(n+2)}{3\\cdot 2}$",
+      "$n\\cdot(n+1)$",
+      "$\\frac{n^2}{2}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "In der Zeile n steht für Summe I der Term n·(n+1)/2. 📄 Quelle: ari23_vl04, Folie 38 (S.38)",
+    "explanation": "In der Zeile $n$ steht für Summe I der Term $\\frac{n\\cdot(n+1)}{2}$. 📄 Quelle: ari23_vl04, Folie 38 (S.38)",
     "source": "ari23_vl04, Folie 38 (S.38, Arithmetik)"
   },
   {
@@ -13976,19 +13976,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Was besagt der Satz über die Summe der ersten n Dreieckszahlen S_n? (Mehrfachauswahl)",
+    "question": "Was besagt der Satz über die Summe der ersten $n$ Dreieckszahlen $S_n$? (Mehrfachauswahl)",
     "options": [
-      "Er gilt für alle natürlichen Zahlen n",
-      "Voraussetzung: S_n = 1 + 3 + 6 + … + n·(n+1)/2",
-      "Behauptung: S_n = n·(n+1)·(n+2)/(3·2)",
-      "Er gilt nur für gerade n"
+      "Er gilt für alle natürlichen Zahlen $n$",
+      "Voraussetzung: $S_n = 1 + 3 + 6 + \\ldots + \\frac{n\\cdot(n+1)}{2}$",
+      "Behauptung: $S_n = \\frac{n\\cdot(n+1)\\cdot(n+2)}{3\\cdot 2}$",
+      "Er gilt nur für gerade $n$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Der Satz lautet: Für alle natürlichen Zahlen n gilt: Wenn S_n = 1 + 3 + 6 + … + n·(n+1)/2, dann S_n = n·(n+1)·(n+2)/(3·2). 📄 Quelle: ari23_vl04, Folie 41 (S.41)",
+    "explanation": "Der Satz lautet: Für alle natürlichen Zahlen $n$ gilt: Wenn $S_n = 1 + 3 + 6 + \\ldots + \\frac{n\\cdot(n+1)}{2}$, dann $S_n = \\frac{n\\cdot(n+1)\\cdot(n+2)}{3\\cdot 2}$. 📄 Quelle: ari23_vl04, Folie 41 (S.41)",
     "source": "ari23_vl04, Folie 41 (S.41, Arithmetik)"
   },
   {
@@ -13996,7 +13996,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 1,
     "type": "single",
-    "question": "Welches Beweisverfahren bietet sich zum Beweis des Satzes über die Summe der ersten n Dreieckszahlen an?",
+    "question": "Welches Beweisverfahren bietet sich zum Beweis des Satzes über die Summe der ersten $n$ Dreieckszahlen an?",
     "options": [
       "Vollständige Induktion",
       "Widerspruchsbeweis",
@@ -14014,17 +14014,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lautet der letzte angeschriebene Summand in der Voraussetzung S_n = 1 + 3 + 6 + … + ? (Summe der ersten n Dreieckszahlen)?",
+    "question": "Wie lautet der letzte angeschriebene Summand in der Voraussetzung $S_n = 1 + 3 + 6 + \\ldots +$ ? (Summe der ersten $n$ Dreieckszahlen)?",
     "options": [
-      "n·(n+1)/2",
-      "n·(n+1)·(n+2)/(3·2)",
-      "n·(n+1)",
-      "(n+1)·(n+2)/2"
+      "$\\frac{n\\cdot(n+1)}{2}$",
+      "$\\frac{n\\cdot(n+1)\\cdot(n+2)}{3\\cdot 2}$",
+      "$n\\cdot(n+1)$",
+      "$\\frac{(n+1)\\cdot(n+2)}{2}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Summanden sind die Dreieckszahlen; der n-te ist n·(n+1)/2. 📄 Quelle: ari23_vl04, Folie 41 (S.41)",
+    "explanation": "Die Summanden sind die Dreieckszahlen; der $n$-te ist $\\frac{n\\cdot(n+1)}{2}$. 📄 Quelle: ari23_vl04, Folie 41 (S.41)",
     "source": "ari23_vl04, Folie 41 (S.41, Arithmetik)"
   },
   {
@@ -14053,7 +14053,7 @@ const SAMPLE_QUESTIONS = [
     "question": "Welche Aussagen über das Pascalsche Dreieck sind richtig? (Mehrfachauswahl)",
     "options": [
       "Von der Spitze zu einer Zahl gibt es (mit 'nur nach unten') genauso viele verschiedene Wege, wie die Zahl angibt",
-      "Wirft man 2^n Kugeln oben ein, die nach links oder rechts abgelenkt werden, kommen im Mittel so viele Kugeln unten an, wie die Zahl angibt",
+      "Wirft man $2^n$ Kugeln oben ein, die nach links oder rechts abgelenkt werden, kommen im Mittel so viele Kugeln unten an, wie die Zahl angibt",
       "Es gibt stets genau einen Weg von der Spitze zu jeder Zahl",
       "Die Summe zweier benachbarter Zeilen ergibt jeweils die nächste Zeile"
     ],
@@ -14061,7 +14061,7 @@ const SAMPLE_QUESTIONS = [
       0,
       1
     ],
-    "explanation": "Beide Aussagen (Anzahl der Wege = Zahl; Galton-Brett-Interpretation mit 2^n Kugeln) stehen auf der Folie. 📄 Quelle: ari23_vl04, Folie 43 (S.43)",
+    "explanation": "Beide Aussagen (Anzahl der Wege = Zahl; Galton-Brett-Interpretation mit $2^n$ Kugeln) stehen auf der Folie. 📄 Quelle: ari23_vl04, Folie 43 (S.43)",
     "source": "ari23_vl04, Folie 43 (S.43, Arithmetik)"
   },
   {
@@ -14111,7 +14111,7 @@ const SAMPLE_QUESTIONS = [
     "options": [
       "Spalte 0: Folge von Einsen (zähle zu 1 stets die 0 hinzu)",
       "Spalte 1: Folge der natürlichen Zahlen (zähle stets 1 zum vorherigen Glied hinzu)",
-      "Spalte 2: Dreieckszahlen (Summe der ersten n natürlichen Zahlen)",
+      "Spalte 2: Dreieckszahlen (Summe der ersten $n$ natürlichen Zahlen)",
       "Spalte 3: Folge der Quadratzahlen"
     ],
     "correct": [
@@ -14137,7 +14137,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Spalte 2 = Summe der ersten n natürlichen Zahlen = Dreieckszahlen. 📄 Quelle: ari23_vl04, Folie 46 (S.46)",
+    "explanation": "Spalte 2 = Summe der ersten $n$ natürlichen Zahlen = Dreieckszahlen. 📄 Quelle: ari23_vl04, Folie 46 (S.46)",
     "source": "ari23_vl04, Folie 46 (S.46, Arithmetik)"
   },
   {
@@ -14163,17 +14163,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "pascal_binomial",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie ist der Binomialkoeffizient (n über k) definiert?",
+    "question": "Wie ist der Binomialkoeffizient $\\binom{n}{k}$ definiert?",
     "options": [
-      "(n über k) := n! / (k! · (n−k)!)",
-      "(n über k) := n! / (k! · (n+k)!)",
-      "(n über k) := n! / (n−k)!",
-      "(n über k) := k! / (n! · (n−k)!)"
+      "$\\binom{n}{k} := \\frac{n!}{k! \\cdot (n-k)!}$",
+      "$\\binom{n}{k} := \\frac{n!}{k! \\cdot (n+k)!}$",
+      "$\\binom{n}{k} := \\frac{n!}{(n-k)!}$",
+      "$\\binom{n}{k} := \\frac{k!}{n! \\cdot (n-k)!}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Definition laut Folie: (n über k) := n! / (k! · (n−k)!). 📄 Quelle: ari23_vl04, Folie 47 (S.47)",
+    "explanation": "Definition laut Folie: $\\binom{n}{k} := \\frac{n!}{k! \\cdot (n-k)!}$. 📄 Quelle: ari23_vl04, Folie 47 (S.47)",
     "source": "ari23_vl04, Folie 47 (S.47, Arithmetik)"
   },
   {
@@ -14181,7 +14181,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "pascal_binomial",
     "difficulty": 1,
     "type": "single",
-    "question": "Wie liest man das Symbol (n über k)?",
+    "question": "Wie liest man das Symbol $\\binom{n}{k}$?",
     "options": [
       "'Zeile über Spalte' bzw. 'n über k'",
       "'n geteilt durch k'",
@@ -14199,11 +14199,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "pascal_binomial",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Berechne (7 über 4) = 7! / (4! · 3!).",
+    "question": "Berechne $\\binom{7}{4} = \\frac{7!}{4! \\cdot 3!}$.",
     "answer": 35,
     "tolerance": 0,
     "unit": "",
-    "explanation": "(7 über 4) = 7!/(4!·3!) = (7·6·5)/6 = 35. 📄 Quelle: ari23_vl04, Folie 47 (S.47)",
+    "explanation": "$\\binom{7}{4} = \\frac{7!}{4!\\cdot 3!} = \\frac{7\\cdot 6\\cdot 5}{6} = 35$. 📄 Quelle: ari23_vl04, Folie 47 (S.47)",
     "source": "ari23_vl04, Folie 47 (S.47, Arithmetik)"
   },
   {
@@ -14211,11 +14211,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "pascal_binomial",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechne (4 über 3) = 4! / (3! · 1!).",
+    "question": "Berechne $\\binom{4}{3} = \\frac{4!}{3! \\cdot 1!}$.",
     "answer": 4,
     "tolerance": 0,
     "unit": "",
-    "explanation": "(4 über 3) = 4!/(3!·1!) = 24/6 = 4. 📄 Quelle: ari23_vl04, Folie 47 (S.47)",
+    "explanation": "$\\binom{4}{3} = \\frac{4!}{3!\\cdot 1!} = \\frac{24}{6} = 4$. 📄 Quelle: ari23_vl04, Folie 47 (S.47)",
     "source": "ari23_vl04, Folie 47 (S.47, Arithmetik)"
   },
   {
@@ -14223,17 +14223,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "pascal_binomial",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lautet der Binomialkoeffizient für die Elemente der Spalte 3 ('n über 3')?",
+    "question": "Wie lautet der Binomialkoeffizient für die Elemente der Spalte 3 ($\\binom{n}{3}$)?",
     "options": [
-      "(n über 3) = n! / (3! · (n−3)!)",
-      "(n über 3) = n! / (3! · (n+3)!)",
-      "(n über 3) = n! / (n−3)!",
-      "(n über 3) = 3! / (n! · (n−3)!)"
+      "$\\binom{n}{3} = \\frac{n!}{3! \\cdot (n-3)!}$",
+      "$\\binom{n}{3} = \\frac{n!}{3! \\cdot (n+3)!}$",
+      "$\\binom{n}{3} = \\frac{n!}{(n-3)!}$",
+      "$\\binom{n}{3} = \\frac{3!}{n! \\cdot (n-3)!}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Für Spalte 3: (n über 3) = n!/(3!·(n−3)!). 📄 Quelle: ari23_vl04, Folie 48 (S.48)",
+    "explanation": "Für Spalte 3: $\\binom{n}{3} = \\frac{n!}{3!\\cdot(n-3)!}$. 📄 Quelle: ari23_vl04, Folie 48 (S.48)",
     "source": "ari23_vl04, Folie 48 (S.48, Arithmetik)"
   },
   {
@@ -14241,11 +14241,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "pascal_binomial",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Im Pascalschen Dreieck ist jeder Eintrag die Summe der beiden darüberstehenden Einträge. Welchen Wert hat 21 + 35?",
+    "question": "Im Pascalschen Dreieck ist jeder Eintrag die Summe der beiden darüberstehenden Einträge. Welchen Wert hat $21 + 35$?",
     "answer": 56,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Nach der Additionsregel im Pascalschen Dreieck: 56 = 21 + 35. 📄 Quelle: ari23_vl04, Folie 48 (S.48)",
+    "explanation": "Nach der Additionsregel im Pascalschen Dreieck: $56 = 21 + 35$. 📄 Quelle: ari23_vl04, Folie 48 (S.48)",
     "source": "ari23_vl04, Folie 48 (S.48, Arithmetik)"
   },
   {
@@ -14255,15 +14255,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Wie lautet die Additionsregel für die Elemente der 3. Spalte des Pascalschen Dreiecks?",
     "options": [
-      "(n über 3) = (n−1 über 2) + (n−1 über 3), mit n ≥ 3",
-      "(n über 3) = (n über 2) + (n über 3)",
-      "(n über 3) = (n+1 über 2) + (n+1 über 3)",
-      "(n über 3) = (n−1 über 2) − (n−1 über 3)"
+      "$\\binom{n}{3} = \\binom{n-1}{2} + \\binom{n-1}{3}$, mit $n \\ge 3$",
+      "$\\binom{n}{3} = \\binom{n}{2} + \\binom{n}{3}$",
+      "$\\binom{n}{3} = \\binom{n+1}{2} + \\binom{n+1}{3}$",
+      "$\\binom{n}{3} = \\binom{n-1}{2} - \\binom{n-1}{3}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Für alle Elemente der 3. Spalte gilt (n über 3) = (n−1 über 2) + (n−1 über 3), mit n ≥ 3. 📄 Quelle: ari23_vl04, Folie 49 (S.49)",
+    "explanation": "Für alle Elemente der 3. Spalte gilt $\\binom{n}{3} = \\binom{n-1}{2} + \\binom{n-1}{3}$, mit $n \\ge 3$. 📄 Quelle: ari23_vl04, Folie 49 (S.49)",
     "source": "ari23_vl04, Folie 49 (S.49, Arithmetik)"
   },
   {
@@ -14271,17 +14271,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "pascal_binomial",
     "difficulty": 1,
     "type": "single",
-    "question": "Für welche n gilt die Additionsregel der 3. Spalte (n über 3) = (n−1 über 2) + (n−1 über 3)?",
+    "question": "Für welche $n$ gilt die Additionsregel der 3. Spalte $\\binom{n}{3} = \\binom{n-1}{2} + \\binom{n-1}{3}$?",
     "options": [
-      "n ≥ 3",
-      "n ≥ 0",
-      "n ≥ 1",
-      "nur für gerade n"
+      "$n \\ge 3$",
+      "$n \\ge 0$",
+      "$n \\ge 1$",
+      "nur für gerade $n$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie gibt die Bedingung 'mit n ≥ 3' an. 📄 Quelle: ari23_vl04, Folie 49 (S.49)",
+    "explanation": "Die Folie gibt die Bedingung 'mit $n \\ge 3$' an. 📄 Quelle: ari23_vl04, Folie 49 (S.49)",
     "source": "ari23_vl04, Folie 49 (S.49, Arithmetik)"
   },
   {
@@ -14289,7 +14289,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "beweismethoden",
     "difficulty": 1,
     "type": "single",
-    "question": "Welche Beweisart wird für die Additionsregel der 3. Spalte (n über 3) = (n−1 über 2) + (n−1 über 3) verwendet?",
+    "question": "Welche Beweisart wird für die Additionsregel der 3. Spalte $\\binom{n}{3} = \\binom{n-1}{2} + \\binom{n-1}{3}$ verwendet?",
     "options": [
       "Direkter Beweis",
       "Vollständige Induktion",
@@ -14307,17 +14307,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "beweismethoden",
     "difficulty": 3,
     "type": "single",
-    "question": "Zu welchem geschlossenen Ausdruck vereinfacht der direkte Beweis die Summe S_{n−2} = (n−1 über 2) + (n−1 über 3)?",
+    "question": "Zu welchem geschlossenen Ausdruck vereinfacht der direkte Beweis die Summe $S_{n-2} = \\binom{n-1}{2} + \\binom{n-1}{3}$?",
     "options": [
-      "(n−2)·(n−1)·n / (3·2)",
-      "n·(n+1)·(n+2) / (3·2)",
-      "(n−1)·n·(n+1) / (3·2)",
-      "(n−2)·(n−1)·n / 2"
+      "$\\frac{(n-2)\\cdot(n-1)\\cdot n}{3\\cdot 2}$",
+      "$\\frac{n\\cdot(n+1)\\cdot(n+2)}{3\\cdot 2}$",
+      "$\\frac{(n-1)\\cdot n\\cdot(n+1)}{3\\cdot 2}$",
+      "$\\frac{(n-2)\\cdot(n-1)\\cdot n}{2}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Beweis endet mit S_{n−2} = (n−2)·(n−1)·n/(3·2) (q.e.d.). 📄 Quelle: ari23_vl04, Folie 50 (S.50)",
+    "explanation": "Der Beweis endet mit $S_{n-2} = \\frac{(n-2)\\cdot(n-1)\\cdot n}{3\\cdot 2}$ (q.e.d.). 📄 Quelle: ari23_vl04, Folie 50 (S.50)",
     "source": "ari23_vl04, Folie 50 (S.50, Arithmetik)"
   },
   {
@@ -14337,13 +14337,13 @@ const SAMPLE_QUESTIONS = [
     "topic": "figurierte_zahlen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche n-Quadratlinge sollen laut dem Erkundungsauftrag gefunden werden? (Mehrfachauswahl)",
+    "question": "Welche $n$-Quadratlinge sollen laut dem Erkundungsauftrag gefunden werden? (Mehrfachauswahl)",
     "options": [
-      "Drei-Quadratlinge (n=3)",
-      "Vier-Quadratlinge (n=4)",
-      "Fünf-Quadratlinge (n=5)",
-      "Sechs-Quadratlinge (n=6)",
-      "Sieben-Quadratlinge (n=7)"
+      "Drei-Quadratlinge ($n=3$)",
+      "Vier-Quadratlinge ($n=4$)",
+      "Fünf-Quadratlinge ($n=5$)",
+      "Sechs-Quadratlinge ($n=6$)",
+      "Sieben-Quadratlinge ($n=7$)"
     ],
     "correct": [
       0,
@@ -14351,7 +14351,7 @@ const SAMPLE_QUESTIONS = [
       2,
       3
     ],
-    "explanation": "Der Auftrag nennt Drei-, Vier-, Fünf- und Sechs-Quadratlinge (n = 3, 4, 5, 6). 📄 Quelle: ari23_vl04, Folie 52 (S.52)",
+    "explanation": "Der Auftrag nennt Drei-, Vier-, Fünf- und Sechs-Quadratlinge ($n = 3, 4, 5, 6$). 📄 Quelle: ari23_vl04, Folie 52 (S.52)",
     "source": "ari23_vl04, Folie 52 (S.52, Arithmetik)"
   },
   {
@@ -18718,19 +18718,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "restklassen_kongruenzen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Aussagen gehören zum \"Satz von der eindeutigen Division mit Rest\" für natürliche Zahlen n und m?",
+    "question": "Welche Aussagen gehören zum \"Satz von der eindeutigen Division mit Rest\" für natürliche Zahlen $n$ und $m$?",
     "options": [
-      "Voraussetzung: n ≥ m",
-      "Es gibt genau ein Paar natürlicher Zahlen q und r mit n = q·m + r",
-      "Für den Rest gilt 0 ≤ r < m",
-      "Für den Rest gilt 0 < r ≤ m"
+      "Voraussetzung: $n \\ge m$",
+      "Es gibt genau ein Paar natürlicher Zahlen $q$ und $r$ mit $n = q \\cdot m + r$",
+      "Für den Rest gilt $0 \\le r < m$",
+      "Für den Rest gilt $0 < r \\le m$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Der Satz lautet: Für alle natürlichen Zahlen n, m gilt: Wenn n ≥ m ist, dann gibt es genau ein Paar natürlicher Zahlen q und r, so dass n = q·m + r mit 0 ≤ r < m gilt. 📄 Quelle: ari23_vl10, Folie 4 (S.4)",
+    "explanation": "Der Satz lautet: Für alle natürlichen Zahlen $n$, $m$ gilt: Wenn $n \\ge m$ ist, dann gibt es genau ein Paar natürlicher Zahlen $q$ und $r$, so dass $n = q \\cdot m + r$ mit $0 \\le r < m$ gilt. 📄 Quelle: ari23_vl10, Folie 4 (S.4)",
     "source": "ari23_vl10, Folie 4 (S.4, Rückblick)"
   },
   {
@@ -18738,17 +18738,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "restklassen_kongruenzen",
     "difficulty": 1,
     "type": "single",
-    "question": "Wie lautet die Bedingung an den Rest r im Satz von der eindeutigen Division mit Rest (n = q·m + r)?",
+    "question": "Wie lautet die Bedingung an den Rest $r$ im Satz von der eindeutigen Division mit Rest ($n = q \\cdot m + r$)?",
     "options": [
-      "0 ≤ r < m",
-      "0 < r < m",
-      "0 ≤ r ≤ m",
-      "1 ≤ r < m"
+      "$0 \\le r < m$",
+      "$0 < r < m$",
+      "$0 \\le r \\le m$",
+      "$1 \\le r < m$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Rest r erfüllt 0 ≤ r < m; er kann also 0 werden (bei Teilbarkeit), ist aber stets kleiner als der Divisor m. 📄 Quelle: ari23_vl10, Folie 4 (S.4)",
+    "explanation": "Der Rest $r$ erfüllt $0 \\le r < m$; er kann also 0 werden (bei Teilbarkeit), ist aber stets kleiner als der Divisor $m$. 📄 Quelle: ari23_vl10, Folie 4 (S.4)",
     "source": "ari23_vl10, Folie 4 (S.4, Rückblick)"
   },
   {
@@ -18756,17 +18756,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "stellenwertsysteme",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie wird eine natürliche Zahl n im dekadischen Stellenwertsystem dargestellt?",
+    "question": "Wie wird eine natürliche Zahl $n$ im dekadischen Stellenwertsystem dargestellt?",
     "options": [
-      "n = a_m·10^m + a_{m-1}·10^{m-1} + … + a_1·10^1 + a_0·10^0",
-      "n = a_m·2^m + a_{m-1}·2^{m-1} + … + a_1·2^1 + a_0·2^0",
-      "n = a_m·10^m + a_{m-1}·10^{m-1} + … + a_1·10 + a_0·10",
-      "n = a_m·10 + a_{m-1}·10 + … + a_1·10 + a_0·10"
+      "$n = a_m \\cdot 10^m + a_{m-1} \\cdot 10^{m-1} + \\ldots + a_1 \\cdot 10^1 + a_0 \\cdot 10^0$",
+      "$n = a_m \\cdot 2^m + a_{m-1} \\cdot 2^{m-1} + \\ldots + a_1 \\cdot 2^1 + a_0 \\cdot 2^0$",
+      "$n = a_m \\cdot 10^m + a_{m-1} \\cdot 10^{m-1} + \\ldots + a_1 \\cdot 10 + a_0 \\cdot 10$",
+      "$n = a_m \\cdot 10 + a_{m-1} \\cdot 10 + \\ldots + a_1 \\cdot 10 + a_0 \\cdot 10$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Im dekadischen Stellenwertsystem gilt n = a_m·10^m + a_{m-1}·10^{m-1} + … + a_1·10^1 + a_0·10^0, die Ziffern werden also mit fallenden Zehnerpotenzen gewichtet. 📄 Quelle: ari23_vl10, Folie 4 (S.4)",
+    "explanation": "Im dekadischen Stellenwertsystem gilt $n = a_m \\cdot 10^m + a_{m-1} \\cdot 10^{m-1} + \\ldots + a_1 \\cdot 10^1 + a_0 \\cdot 10^0$, die Ziffern werden also mit fallenden Zehnerpotenzen gewichtet. 📄 Quelle: ari23_vl10, Folie 4 (S.4)",
     "source": "ari23_vl10, Folie 4 (S.4, Rückblick)"
   },
   {
@@ -18779,14 +18779,14 @@ const SAMPLE_QUESTIONS = [
       "Für die Teilbarkeit durch 2 betrachtet man die letzte Ziffer.",
       "Für die Teilbarkeit durch 4 betrachtet man die letzten zwei Ziffern.",
       "Für die Teilbarkeit durch 8 betrachtet man die letzten vier Ziffern.",
-      "Für die Teilbarkeit durch 2^k betrachtet man die letzten k Ziffern."
+      "Für die Teilbarkeit durch $2^k$ betrachtet man die letzten $k$ Ziffern."
     ],
     "correct": [
       0,
       1,
       3
     ],
-    "explanation": "Für 2 betrachtet man die letzte Ziffer, für 4 die letzten zwei, für 8 die letzten DREI (nicht vier) Ziffern, allgemein für 2^k die letzten k Ziffern. 📄 Quelle: ari23_vl10, Folie 5 (S.5)",
+    "explanation": "Für 2 betrachtet man die letzte Ziffer, für 4 die letzten zwei, für 8 die letzten DREI (nicht vier) Ziffern, allgemein für $2^k$ die letzten $k$ Ziffern. 📄 Quelle: ari23_vl10, Folie 5 (S.5)",
     "source": "ari23_vl10, Folie 5 (S.5, Rückblick – Endstellenregeln)"
   },
   {
@@ -18796,15 +18796,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Auf welcher Zerlegung beruht die Beweisidee zu den Endstellenregeln für Zweierpotenzen?",
     "options": [
-      "10^k = 2^k · 5^k",
-      "10^k = 2 · 5^k",
-      "10^k = 2^k + 5^k",
-      "10 = 2 + 5"
+      "$10^k = 2^k \\cdot 5^k$",
+      "$10^k = 2 \\cdot 5^k$",
+      "$10^k = 2^k + 5^k$",
+      "$10 = 2 + 5$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Beweisidee nutzt direkt die Darstellung im dekadischen Stellenwertsystem mit 10 = 2·5, 10² = 2²·5², … , 10^k = 2^k·5^k. 📄 Quelle: ari23_vl10, Folie 5 (S.5)",
+    "explanation": "Die Beweisidee nutzt direkt die Darstellung im dekadischen Stellenwertsystem mit $10 = 2 \\cdot 5$, $10^2 = 2^2 \\cdot 5^2$, … , $10^k = 2^k \\cdot 5^k$. 📄 Quelle: ari23_vl10, Folie 5 (S.5)",
     "source": "ari23_vl10, Folie 5 (S.5, Rückblick – Endstellenregeln)"
   },
   {
@@ -18812,11 +18812,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeitsregeln",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechne gemäß der Beweisidee (10^k = 2^k·5^k) den Wert von 2^3 · 5^3.",
+    "question": "Berechne gemäß der Beweisidee ($10^k = 2^k \\cdot 5^k$) den Wert von $2^3 \\cdot 5^3$.",
     "answer": 1000,
     "tolerance": 0,
     "unit": "",
-    "explanation": "2^3·5^3 = (2·5)^3 = 10^3 = 1000; das entspricht der Beweisidee 10^k = 2^k·5^k. 📄 Quelle: ari23_vl10, Folie 5 (S.5)",
+    "explanation": "$2^3 \\cdot 5^3 = (2 \\cdot 5)^3 = 10^3 = 1000$; das entspricht der Beweisidee $10^k = 2^k \\cdot 5^k$. 📄 Quelle: ari23_vl10, Folie 5 (S.5)",
     "source": "ari23_vl10, Folie 5 (S.5, Rückblick – Endstellenregeln)"
   },
   {
@@ -18836,7 +18836,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Für 5 zählt die letzte Ziffer, für 25 die letzten zwei, für 125 die letzten DREI Ziffern (nicht zwei), allgemein für 5^k die letzten k Ziffern. 📄 Quelle: ari23_vl10, Folie 6 (S.6)",
+    "explanation": "Für 5 zählt die letzte Ziffer, für 25 die letzten zwei, für 125 die letzten DREI Ziffern (nicht zwei), allgemein für $5^k$ die letzten $k$ Ziffern. 📄 Quelle: ari23_vl10, Folie 6 (S.6)",
     "source": "ari23_vl10, Folie 6 (S.6, Rückblick – Endstellenregeln)"
   },
   {
@@ -18844,11 +18844,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeitsregeln",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welche Zahl 5^k betrachtet man bei der Endstellenregel mit den letzten drei Ziffern? Gib 5^3 als Zahl an.",
+    "question": "Welche Zahl $5^k$ betrachtet man bei der Endstellenregel mit den letzten drei Ziffern? Gib $5^3$ als Zahl an.",
     "answer": 125,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Für die letzten drei Ziffern gilt die Regel für 5^3 = 125. 📄 Quelle: ari23_vl10, Folie 6 (S.6)",
+    "explanation": "Für die letzten drei Ziffern gilt die Regel für $5^3 = 125$. 📄 Quelle: ari23_vl10, Folie 6 (S.6)",
     "source": "ari23_vl10, Folie 6 (S.6, Rückblick – Endstellenregeln)"
   },
   {
@@ -18866,7 +18866,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Die letzten ZWEI Ziffern entscheiden über die Teilbarkeit durch 25 (= 5^2). 📄 Quelle: ari23_vl10, Folie 6 (S.6)",
+    "explanation": "Die letzten ZWEI Ziffern entscheiden über die Teilbarkeit durch 25 (= $5^2$). 📄 Quelle: ari23_vl10, Folie 6 (S.6)",
     "source": "ari23_vl10, Folie 6 (S.6, Rückblick – Endstellenregeln)"
   },
   {
@@ -18874,11 +18874,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "erkundungsmethodik",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welchen Rest lässt 100 beim Teilen durch 3? (Es gilt 100 = 33·3 + 1.)",
+    "question": "Welchen Rest lässt 100 beim Teilen durch 3? (Es gilt $100 = 33 \\cdot 3 + 1$.)",
     "answer": 1,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Laut Tabelle gilt 100 = 33·3 + 1, also ist der Rest 1. 📄 Quelle: ari23_vl10, Folie 8 (S.8)",
+    "explanation": "Laut Tabelle gilt $100 = 33 \\cdot 3 + 1$, also ist der Rest 1. 📄 Quelle: ari23_vl10, Folie 8 (S.8)",
     "source": "ari23_vl10, Folie 8 (S.8, Erkundung II)"
   },
   {
@@ -18886,11 +18886,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "erkundungsmethodik",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welchen Rest lässt 40 beim Teilen durch 3? (Es gilt 40 = 13·3 + 1.)",
+    "question": "Welchen Rest lässt 40 beim Teilen durch 3? (Es gilt $40 = 13 \\cdot 3 + 1$.)",
     "answer": 1,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Laut Tabelle gilt 40 = 13·3 + 1, also ist der Rest 1. 📄 Quelle: ari23_vl10, Folie 8 (S.8)",
+    "explanation": "Laut Tabelle gilt $40 = 13 \\cdot 3 + 1$, also ist der Rest 1. 📄 Quelle: ari23_vl10, Folie 8 (S.8)",
     "source": "ari23_vl10, Folie 8 (S.8, Erkundung II)"
   },
   {
@@ -18900,17 +18900,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche der folgenden Gleichungen (Division durch 3 mit Rest) sind korrekt?",
     "options": [
-      "10 = 3·3 + 1",
-      "20 = 6·3 + 2",
-      "200 = 66·3 + 2",
-      "300 = 99·3 + 3"
+      "$10 = 3 \\cdot 3 + 1$",
+      "$20 = 6 \\cdot 3 + 2$",
+      "$200 = 66 \\cdot 3 + 2$",
+      "$300 = 99 \\cdot 3 + 3$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Es gilt 10 = 3·3+1, 20 = 6·3+2, 200 = 66·3+2. Die Tabelle zeigt für 300 hingegen 300 = 100·3 + 0 (Rest 0), nicht 99·3+3. 📄 Quelle: ari23_vl10, Folie 8 (S.8)",
+    "explanation": "Es gilt $10 = 3 \\cdot 3 + 1$, $20 = 6 \\cdot 3 + 2$, $200 = 66 \\cdot 3 + 2$. Die Tabelle zeigt für 300 hingegen $300 = 100 \\cdot 3 + 0$ (Rest 0), nicht $99 \\cdot 3 + 3$. 📄 Quelle: ari23_vl10, Folie 8 (S.8)",
     "source": "ari23_vl10, Folie 8 (S.8, Erkundung II)"
   },
   {
@@ -18940,7 +18940,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 2,
     "tolerance": 0,
     "unit": "",
-    "explanation": "2 = 0·3+2, 20 = 6·3+2 und 200 = 66·3+2 – alle lassen den Rest 2. 📄 Quelle: ari23_vl10, Folie 9 (S.9)",
+    "explanation": "$2 = 0 \\cdot 3 + 2$, $20 = 6 \\cdot 3 + 2$ und $200 = 66 \\cdot 3 + 2$ – alle lassen den Rest 2. 📄 Quelle: ari23_vl10, Folie 9 (S.9)",
     "source": "ari23_vl10, Folie 9 (S.9, Erkundung II)"
   },
   {
@@ -18952,7 +18952,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 0,
     "tolerance": 0,
     "unit": "",
-    "explanation": "3 = 1·3+0, 30 = 10·3+0 und 300 = 100·3+0 – alle lassen den Rest 0. 📄 Quelle: ari23_vl10, Folie 9 (S.9)",
+    "explanation": "$3 = 1 \\cdot 3 + 0$, $30 = 10 \\cdot 3 + 0$ und $300 = 100 \\cdot 3 + 0$ – alle lassen den Rest 0. 📄 Quelle: ari23_vl10, Folie 9 (S.9)",
     "source": "ari23_vl10, Folie 9 (S.9, Erkundung II)"
   },
   {
@@ -18980,17 +18980,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Beim Teilen durch 3 mit über 2 hinaus fortgeschriebenen Resten: Welche der folgenden Gleichungen sind korrekt?",
     "options": [
-      "30 = 9·3 + 3",
-      "400 = 132·3 + 4",
-      "50 = 15·3 + 5",
-      "5 = 1·3 + 2"
+      "$30 = 9 \\cdot 3 + 3$",
+      "$400 = 132 \\cdot 3 + 4$",
+      "$50 = 15 \\cdot 3 + 5$",
+      "$5 = 1 \\cdot 3 + 2$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "In der fortgeschriebenen Tabelle gilt 30 = 9·3+3, 400 = 132·3+4 und 50 = 15·3+5. Für 5 steht hier 5 = 0·3+5 (Rest = Ziffernwert), nicht 1·3+2. 📄 Quelle: ari23_vl10, Folie 10 (S.10)",
+    "explanation": "In der fortgeschriebenen Tabelle gilt $30 = 9 \\cdot 3+3$, $400 = 132 \\cdot 3+4$ und $50 = 15 \\cdot 3+5$. Für 5 steht hier $5 = 0 \\cdot 3+5$ (Rest = Ziffernwert), nicht $1 \\cdot 3+2$. 📄 Quelle: ari23_vl10, Folie 10 (S.10)",
     "source": "ari23_vl10, Folie 10 (S.10, Erkundung II)"
   },
   {
@@ -19018,15 +19018,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Wie lautet die Quersummenregel für 3 (für unser Dezimalsystem)?",
     "options": [
-      "Wenn die Quersumme einer Zahl n durch 3 teilbar ist, dann ist die Zahl n durch 3 teilbar.",
-      "Wenn n durch 3 teilbar ist, dann ist die Quersumme durch 9 teilbar.",
-      "Wenn die Quersumme durch 2 teilbar ist, dann ist n durch 3 teilbar.",
-      "Wenn die letzte Ziffer durch 3 teilbar ist, dann ist n durch 3 teilbar."
+      "Wenn die Quersumme einer Zahl $n$ durch 3 teilbar ist, dann ist die Zahl $n$ durch 3 teilbar.",
+      "Wenn $n$ durch 3 teilbar ist, dann ist die Quersumme durch 9 teilbar.",
+      "Wenn die Quersumme durch 2 teilbar ist, dann ist $n$ durch 3 teilbar.",
+      "Wenn die letzte Ziffer durch 3 teilbar ist, dann ist $n$ durch 3 teilbar."
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Satz lautet: Für alle natürlichen Zahlen n gilt: Wenn die Quersumme einer Zahl n durch 3 teilbar ist, dann ist die Zahl n durch 3 teilbar. 📄 Quelle: ari23_vl10, Folie 11 (S.11)",
+    "explanation": "Der Satz lautet: Für alle natürlichen Zahlen $n$ gilt: Wenn die Quersumme einer Zahl $n$ durch 3 teilbar ist, dann ist die Zahl $n$ durch 3 teilbar. 📄 Quelle: ari23_vl10, Folie 11 (S.11)",
     "source": "ari23_vl10, Folie 11 (S.11, Quersummenregel)"
   },
   {
@@ -19068,17 +19068,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Formaler Beweis der Quersummenregel für 3: Welche Aussagen sind korrekt?",
     "options": [
-      "Der erste Teil des Terms, bestehend aus Vielfachen von (10^k − 1), ist durch 3 teilbar.",
-      "Der zweite Teil des Terms entspricht genau der Quersumme a_m + a_{m-1} + … + a_1 + a_0.",
-      "Ist 3 ein Teiler der Quersumme, dann ist die Zahl n durch 3 teilbar.",
-      "Der zweite Teil des Terms ist stets durch 3 teilbar, unabhängig von n."
+      "Der erste Teil des Terms, bestehend aus Vielfachen von $(10^k - 1)$, ist durch 3 teilbar.",
+      "Der zweite Teil des Terms entspricht genau der Quersumme $a_m + a_{m-1} + \\ldots + a_1 + a_0$.",
+      "Ist 3 ein Teiler der Quersumme, dann ist die Zahl $n$ durch 3 teilbar.",
+      "Der zweite Teil des Terms ist stets durch 3 teilbar, unabhängig von $n$."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Im Beweis wird n so umgeformt, dass der erste Teil (Vielfache von 10^k − 1) durch 3 teilbar ist und der zweite Teil genau die Quersumme ist (der Rest, der bleibt). Teilt 3 die Quersumme, so ist n durch 3 teilbar; der zweite Teil ist NICHT unabhängig von n durch 3 teilbar. 📄 Quelle: ari23_vl10, Folie 13 (S.13)",
+    "explanation": "Im Beweis wird $n$ so umgeformt, dass der erste Teil (Vielfache von $10^k - 1$) durch 3 teilbar ist und der zweite Teil genau die Quersumme ist (der Rest, der bleibt). Teilt 3 die Quersumme, so ist $n$ durch 3 teilbar; der zweite Teil ist NICHT unabhängig von $n$ durch 3 teilbar. 📄 Quelle: ari23_vl10, Folie 13 (S.13)",
     "source": "ari23_vl10, Folie 13 (S.13, Quersummenregel – Beweis)"
   },
   {
@@ -19088,15 +19088,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Welcher algebraische Trick wird im formalen Beweis der Quersummenregel für 3 verwendet?",
     "options": [
-      "Jede Zehnerpotenz 10^k wird als (10^k − 1) + 1 geschrieben.",
+      "Jede Zehnerpotenz $10^k$ wird als $(10^k - 1) + 1$ geschrieben.",
       "Jede Ziffer wird einzeln durch 3 geteilt.",
-      "10^k wird als 2^k · 5^k geschrieben.",
-      "n wird als Produkt seiner Primfaktoren geschrieben."
+      "$10^k$ wird als $2^k \\cdot 5^k$ geschrieben.",
+      "$n$ wird als Produkt seiner Primfaktoren geschrieben."
     ],
     "correct": [
       0
     ],
-    "explanation": "Im Beweis wird a_k·10^k = a_k·((10^k − 1) + 1) geschrieben; die (10^k − 1)-Anteile sind durch 3 teilbar, die zurückbleibenden Einsen liefern die Quersumme. 📄 Quelle: ari23_vl10, Folie 13 (S.13)",
+    "explanation": "Im Beweis wird $a_k \\cdot 10^k = a_k \\cdot ((10^k - 1) + 1)$ geschrieben; die $(10^k - 1)$-Anteile sind durch 3 teilbar, die zurückbleibenden Einsen liefern die Quersumme. 📄 Quelle: ari23_vl10, Folie 13 (S.13)",
     "source": "ari23_vl10, Folie 13 (S.13, Quersummenregel – Beweis)"
   },
   {
@@ -19104,11 +19104,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeitsregeln",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Im formalen Beweis tritt der Term 10^2 − 1 auf. Welchen Wert hat 10^2 − 1?",
+    "question": "Im formalen Beweis tritt der Term $10^2 - 1$ auf. Welchen Wert hat $10^2 - 1$?",
     "answer": 99,
     "tolerance": 0,
     "unit": "",
-    "explanation": "10^2 − 1 = 99; dieser Wert ist durch 3 teilbar (99 = 33·3), was den Beweis trägt. 📄 Quelle: ari23_vl10, Folie 13 (S.13)",
+    "explanation": "$10^2 - 1 = 99$; dieser Wert ist durch 3 teilbar ($99 = 33 \\cdot 3$), was den Beweis trägt. 📄 Quelle: ari23_vl10, Folie 13 (S.13)",
     "source": "ari23_vl10, Folie 13 (S.13, Quersummenregel – Beweis)"
   },
   {
@@ -19116,7 +19116,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeitsregeln",
     "difficulty": 2,
     "type": "single",
-    "question": "Was zeigt die rekursive Betrachtung 10 = 3·3 + 1, 100 = 3·(…) + 1, 1000 = 3·(…) + 1?",
+    "question": "Was zeigt die rekursive Betrachtung $10 = 3 \\cdot 3 + 1$, $100 = 3 \\cdot (\\ldots) + 1$, $1000 = 3 \\cdot (\\ldots) + 1$?",
     "options": [
       "Jede Zehnerpotenz lässt beim Teilen durch 3 den Rest 1.",
       "Jede Zehnerpotenz ist durch 3 teilbar.",
@@ -19126,7 +19126,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Über die rekursive Betrachtung (100 = 10·10 usw.) zeigt sich, dass jede Zehnerpotenz beim Teilen durch 3 den Rest 1 lässt, also 'Zehnerpotenz minus 1' durch 3 teilbar ist. 📄 Quelle: ari23_vl10, Folie 14 (S.14)",
+    "explanation": "Über die rekursive Betrachtung ($100 = 10 \\cdot 10$ usw.) zeigt sich, dass jede Zehnerpotenz beim Teilen durch 3 den Rest 1 lässt, also 'Zehnerpotenz minus 1' durch 3 teilbar ist. 📄 Quelle: ari23_vl10, Folie 14 (S.14)",
     "source": "ari23_vl10, Folie 14 (S.14, Quersummenregel – Lücken)"
   },
   {
@@ -19134,11 +19134,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeitsregeln",
     "difficulty": 1,
     "type": "numeric",
-    "question": "In der rekursiven Betrachtung wird 100 als 3·(…) + Rest geschrieben. Welchen Rest ergibt 100 beim Teilen durch 3?",
+    "question": "In der rekursiven Betrachtung wird 100 als $3 \\cdot (\\ldots) + \\text{Rest}$ geschrieben. Welchen Rest ergibt 100 beim Teilen durch 3?",
     "answer": 1,
     "tolerance": 0,
     "unit": "",
-    "explanation": "100 = 10·10 = (3·3+1)·(3·3+1) = 3·(…) + 1, also Rest 1. 📄 Quelle: ari23_vl10, Folie 14 (S.14)",
+    "explanation": "$100 = 10 \\cdot 10 = (3 \\cdot 3+1) \\cdot (3 \\cdot 3+1) = 3 \\cdot (\\ldots) + 1$, also Rest 1. 📄 Quelle: ari23_vl10, Folie 14 (S.14)",
     "source": "ari23_vl10, Folie 14 (S.14, Quersummenregel – Lücken)"
   },
   {
@@ -19148,17 +19148,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Gleichungen der rekursiven Betrachtung (Warum ist jede Zehnerpotenz minus 1 durch 3 teilbar?) sind korrekt?",
     "options": [
-      "10 = 3·3 + 1",
-      "100 = (3·3 + 1)·(3·3 + 1)",
-      "100 = (3·3)² + 2·(3·3) + 1",
-      "1000 = 3·(…) + 0"
+      "$10 = 3 \\cdot 3 + 1$",
+      "$100 = (3 \\cdot 3 + 1) \\cdot (3 \\cdot 3 + 1)$",
+      "$100 = (3 \\cdot 3)^2 + 2 \\cdot (3 \\cdot 3) + 1$",
+      "$1000 = 3 \\cdot (\\ldots) + 0$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Es gilt 10 = 3·3+1, 100 = (3·3+1)·(3·3+1) = (3·3)² + 2·(3·3) + 1 = 3·(…) + 1. Auch 1000 = 3·(…) + 1 (Rest 1), nicht + 0. 📄 Quelle: ari23_vl10, Folie 14 (S.14)",
+    "explanation": "Es gilt $10 = 3 \\cdot 3+1$, $100 = (3 \\cdot 3+1) \\cdot (3 \\cdot 3+1) = (3 \\cdot 3)^2 + 2 \\cdot (3 \\cdot 3) + 1 = 3 \\cdot (\\ldots) + 1$. Auch $1000 = 3 \\cdot (\\ldots) + 1$ (Rest 1), nicht + 0. 📄 Quelle: ari23_vl10, Folie 14 (S.14)",
     "source": "ari23_vl10, Folie 14 (S.14, Quersummenregel – Lücken)"
   },
   {
@@ -19166,19 +19166,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeitsregeln",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Zerlegungen der Zahlen 9, 99, 999 sind korrekt (Untersuchung: bei welchen Divisoren m bleibt der Rest 1)?",
+    "question": "Welche Zerlegungen der Zahlen 9, 99, 999 sind korrekt (Untersuchung: bei welchen Divisoren $m$ bleibt der Rest 1)?",
     "options": [
-      "99 = 3·3·11",
-      "999 = 3·3·3·37",
-      "9 = 3·3",
-      "9 = 3·3·3"
+      "$99 = 3 \\cdot 3 \\cdot 11$",
+      "$999 = 3 \\cdot 3 \\cdot 3 \\cdot 37$",
+      "$9 = 3 \\cdot 3$",
+      "$9 = 3 \\cdot 3 \\cdot 3$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Es gilt 9 = 3·3, 99 = 3·33 = 3·3·11 und 999 = 3·333 = 3·3·111 = 3·3·3·37. Die Zerlegung 9 = 3·3·3 ist falsch. 📄 Quelle: ari23_vl10, Folie 15 (S.15)",
+    "explanation": "Es gilt $9 = 3 \\cdot 3$, $99 = 3 \\cdot 33 = 3 \\cdot 3 \\cdot 11$ und $999 = 3 \\cdot 333 = 3 \\cdot 3 \\cdot 111 = 3 \\cdot 3 \\cdot 3 \\cdot 37$. Die Zerlegung $9 = 3 \\cdot 3 \\cdot 3$ ist falsch. 📄 Quelle: ari23_vl10, Folie 15 (S.15)",
     "source": "ari23_vl10, Folie 15 (S.15, Quersummenregel – Lücken)"
   },
   {
@@ -19186,11 +19186,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeitsregeln",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Zerlegt man 999 = 3·3·3·? in Primfaktoren: Wie lautet der letzte (von 3 verschiedene) Faktor?",
+    "question": "Zerlegt man $999 = 3 \\cdot 3 \\cdot 3 \\cdot ?$ in Primfaktoren: Wie lautet der letzte (von 3 verschiedene) Faktor?",
     "answer": 37,
     "tolerance": 0,
     "unit": "",
-    "explanation": "999 = 3·333 = 3·3·111 = 3·3·3·37, also ist der letzte Faktor 37. 📄 Quelle: ari23_vl10, Folie 15 (S.15)",
+    "explanation": "$999 = 3 \\cdot 333 = 3 \\cdot 3 \\cdot 111 = 3 \\cdot 3 \\cdot 3 \\cdot 37$, also ist der letzte Faktor 37. 📄 Quelle: ari23_vl10, Folie 15 (S.15)",
     "source": "ari23_vl10, Folie 15 (S.15, Quersummenregel – Lücken)"
   },
   {
@@ -19218,15 +19218,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Wie lautet die Quersummenregel für 9 (für unser Dezimalsystem)?",
     "options": [
-      "Wenn die Quersumme einer Zahl n durch 9 teilbar ist, dann ist die Zahl n durch 9 teilbar.",
-      "Wenn die Quersumme durch 3 teilbar ist, dann ist n durch 9 teilbar.",
-      "Wenn n durch 9 teilbar ist, dann ist die letzte Ziffer eine 9.",
-      "Wenn die Quersumme gerade ist, dann ist n durch 9 teilbar."
+      "Wenn die Quersumme einer Zahl $n$ durch 9 teilbar ist, dann ist die Zahl $n$ durch 9 teilbar.",
+      "Wenn die Quersumme durch 3 teilbar ist, dann ist $n$ durch 9 teilbar.",
+      "Wenn $n$ durch 9 teilbar ist, dann ist die letzte Ziffer eine 9.",
+      "Wenn die Quersumme gerade ist, dann ist $n$ durch 9 teilbar."
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Satz lautet: Für alle natürlichen Zahlen n gilt: Wenn die Quersumme einer Zahl n durch 9 teilbar ist, dann ist die Zahl n durch 9 teilbar. 📄 Quelle: ari23_vl10, Folie 16 (S.16)",
+    "explanation": "Der Satz lautet: Für alle natürlichen Zahlen $n$ gilt: Wenn die Quersumme einer Zahl $n$ durch 9 teilbar ist, dann ist die Zahl $n$ durch 9 teilbar. 📄 Quelle: ari23_vl10, Folie 16 (S.16)",
     "source": "ari23_vl10, Folie 16 (S.16, Quersummenregel für 9)"
   },
   {
@@ -19252,17 +19252,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "restklassen_kongruenzen",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lautet die Mischregel für einen zusammengesetzten Divisor m (m ist keine Primzahl)?",
+    "question": "Wie lautet die Mischregel für einen zusammengesetzten Divisor $m$ ($m$ ist keine Primzahl)?",
     "options": [
-      "n ist durch m teilbar, wenn n durch jeden Primfaktor von m teilbar ist.",
-      "n ist durch m teilbar, wenn n durch einen Primfaktor von m teilbar ist.",
-      "n ist durch m teilbar, wenn die Quersumme von n durch m teilbar ist.",
-      "n ist durch m teilbar, wenn m durch n teilbar ist."
+      "$n$ ist durch $m$ teilbar, wenn $n$ durch jeden Primfaktor von $m$ teilbar ist.",
+      "$n$ ist durch $m$ teilbar, wenn $n$ durch einen Primfaktor von $m$ teilbar ist.",
+      "$n$ ist durch $m$ teilbar, wenn die Quersumme von $n$ durch $m$ teilbar ist.",
+      "$n$ ist durch $m$ teilbar, wenn $m$ durch $n$ teilbar ist."
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Mischregel: Ist der Divisor m keine Primzahl, dann ist n durch m teilbar, wenn n durch jeden Primfaktor von m teilbar ist. 📄 Quelle: ari23_vl10, Folie 18 (S.18)",
+    "explanation": "Die Mischregel: Ist der Divisor $m$ keine Primzahl, dann ist $n$ durch $m$ teilbar, wenn $n$ durch jeden Primfaktor von $m$ teilbar ist. 📄 Quelle: ari23_vl10, Folie 18 (S.18)",
     "source": "ari23_vl10, Folie 18 (S.18, Teilbarkeitsregeln – Mischregeln)"
   },
   {
@@ -19270,7 +19270,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "restklassen_kongruenzen",
     "difficulty": 1,
     "type": "multi",
-    "question": "Welche Teilbarkeitsregeln muss man laut Beispiel prüfen, um zu entscheiden, ob n durch 6 teilbar ist?",
+    "question": "Welche Teilbarkeitsregeln muss man laut Beispiel prüfen, um zu entscheiden, ob $n$ durch 6 teilbar ist?",
     "options": [
       "die Regel für 2",
       "die Regel für 3",
@@ -19281,7 +19281,7 @@ const SAMPLE_QUESTIONS = [
       0,
       1
     ],
-    "explanation": "6 = 2·3, also ist n durch 6 teilbar, wenn n durch 2 UND durch 3 teilbar ist; man prüft die Regeln für 2 und 3. 📄 Quelle: ari23_vl10, Folie 18 (S.18)",
+    "explanation": "$6 = 2 \\cdot 3$, also ist $n$ durch 6 teilbar, wenn $n$ durch 2 UND durch 3 teilbar ist; man prüft die Regeln für 2 und 3. 📄 Quelle: ari23_vl10, Folie 18 (S.18)",
     "source": "ari23_vl10, Folie 18 (S.18, Teilbarkeitsregeln – Mischregeln)"
   },
   {
@@ -19291,7 +19291,7 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Die Mischregel führt die Teilbarkeit durch einen zusammengesetzten Divisor auf dessen Primfaktoren zurück. Welche Frage bleibt danach noch offen?",
     "options": [
-      "Wie lauten Teilbarkeitsregeln, wenn der Divisor eine Primzahl ≥ 5 ist?",
+      "Wie lauten Teilbarkeitsregeln, wenn der Divisor eine Primzahl $\\ge 5$ ist?",
       "Wie dividiert man überhaupt durch 6?",
       "Ist 6 eine Primzahl?",
       "Wie lautet die Quersummenregel für 3?"
@@ -19299,7 +19299,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Am Ende steht die Frage: 'Und wenn der Divisor eine Primzahl ≥ 5 ist?' 📄 Quelle: ari23_vl10, Folie 18 (S.18)",
+    "explanation": "Am Ende steht die Frage: 'Und wenn der Divisor eine Primzahl $\\ge 5$ ist?' 📄 Quelle: ari23_vl10, Folie 18 (S.18)",
     "source": "ari23_vl10, Folie 18 (S.18, Teilbarkeitsregeln – Mischregeln)"
   },
   {
@@ -19309,16 +19309,16 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Darstellungen von 11 zeigt der Rückblick zu positiven und negativen Resten?",
     "options": [
-      "11 = 3·3 + 2 (positiver Rest)",
-      "11 = 4·3 − 1 (negativer Rest)",
-      "11 = 2·3 + 5",
-      "11 = 5·3 − 4"
+      "$11 = 3 \\cdot 3 + 2$ (positiver Rest)",
+      "$11 = 4 \\cdot 3 - 1$ (negativer Rest)",
+      "$11 = 2 \\cdot 3 + 5$",
+      "$11 = 5 \\cdot 3 - 4$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Folie zeigt 11 = 3·3 + 2 (positiver Rest) und 11 = 4·3 − 1 (negativer Rest). 📄 Quelle: ari23_vl10, Folie 19 (S.19)",
+    "explanation": "Die Folie zeigt $11 = 3 \\cdot 3 + 2$ (positiver Rest) und $11 = 4 \\cdot 3 - 1$ (negativer Rest). 📄 Quelle: ari23_vl10, Folie 19 (S.19)",
     "source": "ari23_vl10, Folie 19 (S.19, Rückblick – Teilbarkeitsregeln)"
   },
   {
@@ -19326,11 +19326,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "restklassen_kongruenzen",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welchen (negativen) Rest hat 11 beim Teilen durch 3 gemäß der Darstellung 11 = 4·3 − 1?",
+    "question": "Welchen (negativen) Rest hat 11 beim Teilen durch 3 gemäß der Darstellung $11 = 4 \\cdot 3 - 1$?",
     "answer": -1,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Aus 11 = 4·3 − 1 ergibt sich der negative Rest −1. 📄 Quelle: ari23_vl10, Folie 19 (S.19)",
+    "explanation": "Aus $11 = 4 \\cdot 3 - 1$ ergibt sich der negative Rest $-1$. 📄 Quelle: ari23_vl10, Folie 19 (S.19)",
     "source": "ari23_vl10, Folie 19 (S.19, Rückblick – Teilbarkeitsregeln)"
   },
   {
@@ -19356,11 +19356,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "erkundungsmethodik",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welchen Rest lässt 10 beim Teilen durch 7? (Es gilt 10 = 1·7 + 3.)",
+    "question": "Welchen Rest lässt 10 beim Teilen durch 7? (Es gilt $10 = 1 \\cdot 7 + 3$.)",
     "answer": 3,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Laut Tabelle gilt 10 = 1·7 + 3, also ist der Rest 3. 📄 Quelle: ari23_vl10, Folie 20 (S.20)",
+    "explanation": "Laut Tabelle gilt $10 = 1 \\cdot 7 + 3$, also ist der Rest 3. 📄 Quelle: ari23_vl10, Folie 20 (S.20)",
     "source": "ari23_vl10, Folie 20 (S.20, Rückblick – Teilbarkeitsregeln)"
   },
   {
@@ -19368,11 +19368,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "erkundungsmethodik",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welchen Rest lässt 100 beim Teilen durch 7? (Es gilt 100 = 14·7 + 2.)",
+    "question": "Welchen Rest lässt 100 beim Teilen durch 7? (Es gilt $100 = 14 \\cdot 7 + 2$.)",
     "answer": 2,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Laut Tabelle gilt 100 = 14·7 + 2, also ist der Rest 2. 📄 Quelle: ari23_vl10, Folie 20 (S.20)",
+    "explanation": "Laut Tabelle gilt $100 = 14 \\cdot 7 + 2$, also ist der Rest 2. 📄 Quelle: ari23_vl10, Folie 20 (S.20)",
     "source": "ari23_vl10, Folie 20 (S.20, Rückblick – Teilbarkeitsregeln)"
   },
   {
@@ -19380,19 +19380,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "erkundungsmethodik",
     "difficulty": 2,
     "type": "multi",
-    "question": "Rückblick (m = 7, Reste größer 2 fortgeschrieben): Welche Gleichungen der Tabelle sind korrekt?",
+    "question": "Rückblick ($m = 7$, Reste größer 2 fortgeschrieben): Welche Gleichungen der Tabelle sind korrekt?",
     "options": [
-      "20 = 2·7 + 6",
-      "30 = 3·7 + 9",
-      "300 = 42·7 + 6",
-      "40 = 4·7 + 10"
+      "$20 = 2 \\cdot 7 + 6$",
+      "$30 = 3 \\cdot 7 + 9$",
+      "$300 = 42 \\cdot 7 + 6$",
+      "$40 = 4 \\cdot 7 + 10$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Es gilt 20 = 2·7+6, 30 = 3·7+9 und 300 = 42·7+6. Für 40 zeigt die Tabelle 40 = 4·7 + 12 (nicht + 10). 📄 Quelle: ari23_vl10, Folie 20 (S.20)",
+    "explanation": "Es gilt $20 = 2 \\cdot 7+6$, $30 = 3 \\cdot 7+9$ und $300 = 42 \\cdot 7+6$. Für 40 zeigt die Tabelle $40 = 4 \\cdot 7 + 12$ (nicht + 10). 📄 Quelle: ari23_vl10, Folie 20 (S.20)",
     "source": "ari23_vl10, Folie 20 (S.20, Rückblick – Teilbarkeitsregeln)"
   },
   {
@@ -19400,7 +19400,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "erkundungsmethodik",
     "difficulty": 2,
     "type": "single",
-    "question": "Welche Beobachtung hält der Rückblick für m = 7 fest?",
+    "question": "Welche Beobachtung hält der Rückblick für $m = 7$ fest?",
     "options": [
       "Die Stellenwerte sind mit dem ersten Rest gewichtet.",
       "Alle Stellen lassen beim Teilen durch 7 den gleichen Rest.",
@@ -19410,7 +19410,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Für m = 7 gilt: Stellenwerte gewichtet mit dem ersten Rest (z. B. 10 lässt Rest 3, 20 Rest 6 = 2·3, 30 Rest 9 = 3·3 usw.). 📄 Quelle: ari23_vl10, Folie 20 (S.20)",
+    "explanation": "Für $m = 7$ gilt: Stellenwerte gewichtet mit dem ersten Rest (z. B. 10 lässt Rest 3, 20 Rest $6 = 2 \\cdot 3$, 30 Rest $9 = 3 \\cdot 3$ usw.). 📄 Quelle: ari23_vl10, Folie 20 (S.20)",
     "source": "ari23_vl10, Folie 20 (S.20, Rückblick – Teilbarkeitsregeln)"
   },
   {
@@ -19418,11 +19418,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeitsregeln",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Teilt man 1000 durch 7 und schreibt 1000 = 142 · 7 + r (mit positivem Rest r): Wie groß ist r?",
+    "question": "Teilt man 1000 durch 7 und schreibt $1000 = 142 \\cdot 7 + r$ (mit positivem Rest $r$): Wie groß ist $r$?",
     "answer": 6,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Auf der Folie steht 1000 = 142 · 7 + 6 (142 · 7 = 994, 994 + 6 = 1000). 📄 Quelle: ari23_vl10, Folie 21 (S.21)",
+    "explanation": "Auf der Folie steht $1000 = 142 \\cdot 7 + 6$ ($142 \\cdot 7 = 994$, $994 + 6 = 1000$). 📄 Quelle: ari23_vl10, Folie 21 (S.21)",
     "source": "ari23_vl10, Folie 21 (S.21, Teilbarkeitsregeln)"
   },
   {
@@ -19430,11 +19430,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeitsregeln",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Stellt man 1000 beim Teilen durch 7 mit negativem Rest als 1000 = 143 · 7 − r dar: Wie groß ist r?",
+    "question": "Stellt man 1000 beim Teilen durch 7 mit negativem Rest als $1000 = 143 \\cdot 7 - r$ dar: Wie groß ist $r$?",
     "answer": 1,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Folie zeigt 1000 = 142 · 7 + 6 = 143 · 7 − 1 (mit negativem Rest); 143 · 7 = 1001, 1001 − 1 = 1000. 📄 Quelle: ari23_vl10, Folie 21 (S.21)",
+    "explanation": "Die Folie zeigt $1000 = 142 \\cdot 7 + 6 = 143 \\cdot 7 - 1$ (mit negativem Rest); $143 \\cdot 7 = 1001$, $1001 - 1 = 1000$. 📄 Quelle: ari23_vl10, Folie 21 (S.21)",
     "source": "ari23_vl10, Folie 21 (S.21, Teilbarkeitsregeln)"
   },
   {
@@ -19442,19 +19442,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeitsregeln",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Aussagen zum Rückblick 'Teilbarkeitsregeln' (Teilen durch m = 7) sind korrekt?",
+    "question": "Welche Aussagen zum Rückblick 'Teilbarkeitsregeln' (Teilen durch $m = 7$) sind korrekt?",
     "options": [
       "Die Stellenwerte werden mit dem ersten Rest gewichtet.",
-      "10000 = 1428 · 7 + 4",
-      "100000 = 14285 · 7 + 5",
-      "2000 = 284 · 7 + 8"
+      "$10000 = 1428 \\cdot 7 + 4$",
+      "$100000 = 14285 \\cdot 7 + 5$",
+      "$2000 = 284 \\cdot 7 + 8$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie notiert 'Stellenwerte gewichtet mit dem ersten Rest', 10000 = 1428 · 7 + 4, 100000 = 14285 · 7 + 5 sowie 2000 = 284 · 7 + 12 (nicht + 8). 📄 Quelle: ari23_vl10, Folie 21 (S.21)",
+    "explanation": "Die Folie notiert 'Stellenwerte gewichtet mit dem ersten Rest', $10000 = 1428 \\cdot 7 + 4$, $100000 = 14285 \\cdot 7 + 5$ sowie $2000 = 284 \\cdot 7 + 12$ (nicht + 8). 📄 Quelle: ari23_vl10, Folie 21 (S.21)",
     "source": "ari23_vl10, Folie 21 (S.21, Teilbarkeitsregeln)"
   },
   {
@@ -19464,15 +19464,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Mit welcher Gewichtsfolge (von hinten, periodisch) arbeitet die gewichtete Quersummenregel für die Teilbarkeit durch 7?",
     "options": [
-      "1, 3, 2, -1, -3, -2",
-      "1, 3, 2, 1, 3, 2",
-      "1, -1, 1, -1",
-      "1, 3, 9, 27"
+      "$1, 3, 2, -1, -3, -2$",
+      "$1, 3, 2, 1, 3, 2$",
+      "$1, -1, 1, -1$",
+      "$1, 3, 9, 27$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Satz zur Teilbarkeit für 7 verwendet die von hinten periodisch mit 1, 3, 2, -1, -3, -2 gewichtete Quersumme. 📄 Quelle: ari23_vl10, Folie 22 (S.22)",
+    "explanation": "Der Satz zur Teilbarkeit für 7 verwendet die von hinten periodisch mit $1, 3, 2, -1, -3, -2$ gewichtete Quersumme. 📄 Quelle: ari23_vl10, Folie 22 (S.22)",
     "source": "ari23_vl10, Folie 22 (S.22, Teilbarkeitsregeln)"
   },
   {
@@ -19482,15 +19482,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Wie lautet die gewichtete Quersummenregel für die Teilbarkeit durch 7?",
     "options": [
-      "Wenn die mit 1, 3, 2, -1, -3, -2 gewichtete Quersumme einer Zahl n durch 7 teilbar ist, dann ist n durch 7 teilbar.",
-      "Wenn die gewichtete Quersumme durch 7 teilbar ist, dann ist n durch 3 teilbar.",
-      "Wenn die gewichtete Quersumme durch 7 teilbar ist, ist n nur dann durch 7 teilbar, wenn n gerade ist.",
-      "Wenn die gewichtete Quersumme durch 7 teilbar ist, dann ist n nicht durch 7 teilbar."
+      "Wenn die mit $1, 3, 2, -1, -3, -2$ gewichtete Quersumme einer Zahl $n$ durch 7 teilbar ist, dann ist $n$ durch 7 teilbar.",
+      "Wenn die gewichtete Quersumme durch 7 teilbar ist, dann ist $n$ durch 3 teilbar.",
+      "Wenn die gewichtete Quersumme durch 7 teilbar ist, ist $n$ nur dann durch 7 teilbar, wenn $n$ gerade ist.",
+      "Wenn die gewichtete Quersumme durch 7 teilbar ist, dann ist $n$ nicht durch 7 teilbar."
     ],
     "correct": [
       0
     ],
-    "explanation": "Satz (gewichtete Quersummenregel): Wenn die von hinten periodisch mit 1, 3, 2, -1, -3, -2 gewichtete Quersumme einer Zahl n durch 7 teilbar ist, dann ist die Zahl n durch 7 teilbar. 📄 Quelle: ari23_vl10, Folie 22 (S.22)",
+    "explanation": "Satz (gewichtete Quersummenregel): Wenn die von hinten periodisch mit $1, 3, 2, -1, -3, -2$ gewichtete Quersumme einer Zahl $n$ durch 7 teilbar ist, dann ist die Zahl $n$ durch 7 teilbar. 📄 Quelle: ari23_vl10, Folie 22 (S.22)",
     "source": "ari23_vl10, Folie 22 (S.22, Teilbarkeitsregeln)"
   },
   {
@@ -19498,11 +19498,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeitsregeln",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Schreibt man 100 = 14 · 7 + r: Wie groß ist r?",
+    "question": "Schreibt man $100 = 14 \\cdot 7 + r$: Wie groß ist $r$?",
     "answer": 2,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Es gilt 100 = 14 · 7 + 2 (14 · 7 = 98, 98 + 2 = 100). 📄 Quelle: ari23_vl10, Folie 22 (S.22)",
+    "explanation": "Es gilt $100 = 14 \\cdot 7 + 2$ ($14 \\cdot 7 = 98$, $98 + 2 = 100$). 📄 Quelle: ari23_vl10, Folie 22 (S.22)",
     "source": "ari23_vl10, Folie 22 (S.22, Teilbarkeitsregeln)"
   },
   {
@@ -19512,15 +19512,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Mit welcher Gewichtsfolge (von hinten, periodisch) arbeitet die gewichtete Quersummenregel für die Teilbarkeit durch 11?",
     "options": [
-      "1, -1",
-      "1, 3, 2, -1, -3, -2",
-      "1, -3, -4, -1, 3, 4",
-      "1, 1, 1, 1"
+      "$1, -1$",
+      "$1, 3, 2, -1, -3, -2$",
+      "$1, -3, -4, -1, 3, 4$",
+      "$1, 1, 1, 1$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Satz zur Teilbarkeit für 11 verwendet die von hinten periodisch mit 1, -1 gewichtete Quersumme. 📄 Quelle: ari23_vl10, Folie 23 (S.23)",
+    "explanation": "Der Satz zur Teilbarkeit für 11 verwendet die von hinten periodisch mit $1, -1$ gewichtete Quersumme. 📄 Quelle: ari23_vl10, Folie 23 (S.23)",
     "source": "ari23_vl10, Folie 23 (S.23, Teilbarkeitsregeln)"
   },
   {
@@ -19528,11 +19528,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeitsregeln",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Schreibt man 100 = 9 · 11 + r: Wie groß ist r?",
+    "question": "Schreibt man $100 = 9 \\cdot 11 + r$: Wie groß ist $r$?",
     "answer": 1,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Es gilt 100 = 9 · 11 + 1 (9 · 11 = 99, 99 + 1 = 100). 📄 Quelle: ari23_vl10, Folie 23 (S.23)",
+    "explanation": "Es gilt $100 = 9 \\cdot 11 + 1$ ($9 \\cdot 11 = 99$, $99 + 1 = 100$). 📄 Quelle: ari23_vl10, Folie 23 (S.23)",
     "source": "ari23_vl10, Folie 23 (S.23, Teilbarkeitsregeln)"
   },
   {
@@ -19542,15 +19542,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Wie lautet die gewichtete Quersummenregel für die Teilbarkeit durch 11?",
     "options": [
-      "Wenn die mit 1, -1 gewichtete Quersumme einer Zahl n durch 11 teilbar ist, dann ist n durch 11 teilbar.",
-      "Wenn die mit 1, -1 gewichtete Quersumme durch 11 teilbar ist, dann ist n durch 7 teilbar.",
-      "Wenn die Quersumme (ungewichtet) durch 11 teilbar ist, dann ist n durch 11 teilbar.",
-      "Wenn die mit 1, 3, 2, -1, -3, -2 gewichtete Quersumme durch 11 teilbar ist, dann ist n durch 11 teilbar."
+      "Wenn die mit $1, -1$ gewichtete Quersumme einer Zahl $n$ durch 11 teilbar ist, dann ist $n$ durch 11 teilbar.",
+      "Wenn die mit $1, -1$ gewichtete Quersumme durch 11 teilbar ist, dann ist $n$ durch 7 teilbar.",
+      "Wenn die Quersumme (ungewichtet) durch 11 teilbar ist, dann ist $n$ durch 11 teilbar.",
+      "Wenn die mit $1, 3, 2, -1, -3, -2$ gewichtete Quersumme durch 11 teilbar ist, dann ist $n$ durch 11 teilbar."
     ],
     "correct": [
       0
     ],
-    "explanation": "Satz: Wenn die von hinten periodisch mit 1, -1 gewichtete Quersumme einer Zahl n durch 11 teilbar ist, dann ist die Zahl n durch 11 teilbar. 📄 Quelle: ari23_vl10, Folie 23 (S.23)",
+    "explanation": "Satz: Wenn die von hinten periodisch mit $1, -1$ gewichtete Quersumme einer Zahl $n$ durch 11 teilbar ist, dann ist die Zahl $n$ durch 11 teilbar. 📄 Quelle: ari23_vl10, Folie 23 (S.23)",
     "source": "ari23_vl10, Folie 23 (S.23, Teilbarkeitsregeln)"
   },
   {
@@ -19560,15 +19560,15 @@ const SAMPLE_QUESTIONS = [
     "type": "single",
     "question": "Mit welcher Gewichtsfolge (von hinten, periodisch) arbeitet die gewichtete Quersummenregel für die Teilbarkeit durch 13?",
     "options": [
-      "1, -3, -4, -1, 3, 4",
-      "1, 3, 2, -1, -3, -2",
-      "1, -1",
-      "1, 3, 4, 1, 3, 4"
+      "$1, -3, -4, -1, 3, 4$",
+      "$1, 3, 2, -1, -3, -2$",
+      "$1, -1$",
+      "$1, 3, 4, 1, 3, 4$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Satz zur Teilbarkeit für 13 verwendet die von hinten periodisch mit 1, -3, -4, -1, 3, 4 gewichtete Quersumme. 📄 Quelle: ari23_vl10, Folie 24 (S.24)",
+    "explanation": "Der Satz zur Teilbarkeit für 13 verwendet die von hinten periodisch mit $1, -3, -4, -1, 3, 4$ gewichtete Quersumme. 📄 Quelle: ari23_vl10, Folie 24 (S.24)",
     "source": "ari23_vl10, Folie 24 (S.24, Teilbarkeitsregeln)"
   },
   {
@@ -19576,11 +19576,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeitsregeln",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Stellt man 100 beim Teilen durch 13 mit negativem Rest als 100 = 8 · 13 − r dar: Wie groß ist r?",
+    "question": "Stellt man 100 beim Teilen durch 13 mit negativem Rest als $100 = 8 \\cdot 13 - r$ dar: Wie groß ist $r$?",
     "answer": 4,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Folie zeigt 100 = 7 · 13 + 9 = 8 · 13 − 4 (8 · 13 = 104, 104 − 4 = 100). 📄 Quelle: ari23_vl10, Folie 24 (S.24)",
+    "explanation": "Die Folie zeigt $100 = 7 \\cdot 13 + 9 = 8 \\cdot 13 - 4$ ($8 \\cdot 13 = 104$, $104 - 4 = 100$). 📄 Quelle: ari23_vl10, Folie 24 (S.24)",
     "source": "ari23_vl10, Folie 24 (S.24, Teilbarkeitsregeln)"
   },
   {
@@ -19590,17 +19590,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche der folgenden Darstellungen von Zehnerpotenzen beim Teilen durch 13 sind korrekt?",
     "options": [
-      "10 = 1 · 13 − 3",
-      "100 = 7 · 13 + 9",
-      "1000 = 77 · 13 − 1",
-      "10.000 = 769 · 13 + 4"
+      "$10 = 1 \\cdot 13 - 3$",
+      "$100 = 7 \\cdot 13 + 9$",
+      "$1000 = 77 \\cdot 13 - 1$",
+      "$10.000 = 769 \\cdot 13 + 4$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie zeigt 10 = 0 · 13 + 10 = 1 · 13 − 3, 100 = 7 · 13 + 9 = 8 · 13 − 4, 1000 = 76 · 13 + 12 = 77 · 13 − 1 sowie 10.000 = 769 · 13 + 3 (nicht + 4). 📄 Quelle: ari23_vl10, Folie 24 (S.24)",
+    "explanation": "Die Folie zeigt $10 = 0 \\cdot 13 + 10 = 1 \\cdot 13 - 3$, $100 = 7 \\cdot 13 + 9 = 8 \\cdot 13 - 4$, $1000 = 76 \\cdot 13 + 12 = 77 \\cdot 13 - 1$ sowie $10.000 = 769 \\cdot 13 + 3$ (nicht + 4). 📄 Quelle: ari23_vl10, Folie 24 (S.24)",
     "source": "ari23_vl10, Folie 24 (S.24, Teilbarkeitsregeln)"
   },
   {
@@ -19611,8 +19611,8 @@ const SAMPLE_QUESTIONS = [
     "question": "Welche Aussagen zur Teilbarkeit durch 17 und 19 sind korrekt?",
     "options": [
       "Bei 17 und 19 gibt es keine schnelle Periode.",
-      "Die Reste beim Teilen durch 17 sind: -2, -3, 4, 6, 8, 5, -1, 7, 2.",
-      "Die Reste beim Teilen durch 19 sind: 5, -7, 6, 3, -8, -4, -2, -1, 9, -5.",
+      "Die Reste beim Teilen durch 17 sind: $-2, -3, 4, 6, 8, 5, -1, 7, 2$.",
+      "Die Reste beim Teilen durch 19 sind: $5, -7, 6, 3, -8, -4, -2, -1, 9, -5$.",
       "Für 17 und 19 gibt es eine besonders kurze, schnelle Periode."
     ],
     "correct": [
@@ -19620,7 +19620,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Die Folie hält fest: 17 und 19 sind unangenehm, es gibt keine schnelle Periode; Reste bei 17: -2, -3, 4, 6, 8, 5, -1, 7, 2; Reste bei 19: 5, -7, 6, 3, -8, -4, -2, -1, 9, -5. 📄 Quelle: ari23_vl10, Folie 25 (S.25)",
+    "explanation": "Die Folie hält fest: 17 und 19 sind unangenehm, es gibt keine schnelle Periode; Reste bei 17: $-2, -3, 4, 6, 8, 5, -1, 7, 2$; Reste bei 19: $5, -7, 6, 3, -8, -4, -2, -1, 9, -5$. 📄 Quelle: ari23_vl10, Folie 25 (S.25)",
     "source": "ari23_vl10, Folie 25 (S.25, Teilbarkeitsregeln)"
   },
   {
@@ -19648,17 +19648,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Einträge der Verknüpfungstafel für die Addition gerader (g) und ungerader (u) Zahlen sind korrekt?",
     "options": [
-      "g + g = g",
-      "g + u = u",
-      "u + u = g",
-      "u + u = u"
+      "$g + g = g$",
+      "$g + u = u$",
+      "$u + u = g$",
+      "$u + u = u$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Verknüpfungstafel (Addition) zeigt g + g = g, g + u = u, u + g = u und u + u = g. 📄 Quelle: ari23_vl10, Folie 27 (S.27)",
+    "explanation": "Die Verknüpfungstafel (Addition) zeigt $g + g = g$, $g + u = u$, $u + g = u$ und $u + u = g$. 📄 Quelle: ari23_vl10, Folie 27 (S.27)",
     "source": "ari23_vl10, Folie 27 (S.27, Rechnen mit geraden und ungeraden Zahlen)"
   },
   {
@@ -19666,17 +19666,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeitsregeln",
     "difficulty": 2,
     "type": "single",
-    "question": "Mit g = 2n und u = 2m + 1: Wie begründet man formal, dass die Summe zweier ungerader Zahlen gerade ist?",
+    "question": "Mit $g = 2n$ und $u = 2m + 1$: Wie begründet man formal, dass die Summe zweier ungerader Zahlen gerade ist?",
     "options": [
-      "u + u = (2m₁+1) + (2m₂+1) = 2m₁ + 2m₂ + 2 = 2(m₁+m₂+1) = g",
-      "u + u = (2m₁+1) + (2m₂+1) = 2(m₁+m₂) + 1 = u",
-      "u + u = 2m₁ · 2m₂ = 4m₁m₂ = g",
-      "u + u = (2m+1) + 2m = 2(n+m) + 1 = u"
+      "$u + u = (2m_1+1) + (2m_2+1) = 2m_1 + 2m_2 + 2 = 2(m_1+m_2+1) = g$",
+      "$u + u = (2m_1+1) + (2m_2+1) = 2(m_1+m_2) + 1 = u$",
+      "$u + u = 2m_1 \\cdot 2m_2 = 4m_1m_2 = g$",
+      "$u + u = (2m+1) + 2m = 2(n+m) + 1 = u$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie rechnet u + u = (2m₁+1) + (2m₂+1) = 2m₁ + 2m₂ + 2 = 2(m₁+m₂+1) = g. 📄 Quelle: ari23_vl10, Folie 27 (S.27)",
+    "explanation": "Die Folie rechnet $u + u = (2m_1+1) + (2m_2+1) = 2m_1 + 2m_2 + 2 = 2(m_1+m_2+1) = g$. 📄 Quelle: ari23_vl10, Folie 27 (S.27)",
     "source": "ari23_vl10, Folie 27 (S.27, Rechnen mit geraden und ungeraden Zahlen)"
   },
   {
@@ -19686,17 +19686,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Einträge der Verknüpfungstafel für die Multiplikation gerader (g) und ungerader (u) Zahlen sind korrekt?",
     "options": [
-      "g · g = g",
-      "g · u = g",
-      "u · u = u",
-      "u · u = g"
+      "$g \\cdot g = g$",
+      "$g \\cdot u = g$",
+      "$u \\cdot u = u$",
+      "$u \\cdot u = g$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Verknüpfungstafel (Multiplikation) zeigt g · g = g, g · u = g, u · g = g und u · u = u. 📄 Quelle: ari23_vl10, Folie 28 (S.28)",
+    "explanation": "Die Verknüpfungstafel (Multiplikation) zeigt $g \\cdot g = g$, $g \\cdot u = g$, $u \\cdot g = g$ und $u \\cdot u = u$. 📄 Quelle: ari23_vl10, Folie 28 (S.28)",
     "source": "ari23_vl10, Folie 28 (S.28, Rechnen mit geraden und ungeraden Zahlen)"
   },
   {
@@ -19704,17 +19704,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "teilbarkeitsregeln",
     "difficulty": 2,
     "type": "single",
-    "question": "Mit g = 2n und u = 2m + 1: Wie begründet man formal, dass das Produkt zweier ungerader Zahlen ungerade ist?",
+    "question": "Mit $g = 2n$ und $u = 2m + 1$: Wie begründet man formal, dass das Produkt zweier ungerader Zahlen ungerade ist?",
     "options": [
-      "u · u = (2m₁+1)(2m₂+1) = 2m₁·2m₂ + 2m₁ + 2m₂ + 1 = 2(2m₁·m₂ + m₁ + m₂) + 1 = u",
-      "u · u = (2m₁+1)(2m₂+1) = 4m₁m₂ = g",
-      "u · u = 2n · (2m+1) = 2(n(2m+1)) = g",
-      "u · u = (2m₁+1) + (2m₂+1) = 2(m₁+m₂+1) = g"
+      "$u \\cdot u = (2m_1+1)(2m_2+1) = 2m_1 \\cdot 2m_2 + 2m_1 + 2m_2 + 1 = 2(2m_1 \\cdot m_2 + m_1 + m_2) + 1 = u$",
+      "$u \\cdot u = (2m_1+1)(2m_2+1) = 4m_1m_2 = g$",
+      "$u \\cdot u = 2n \\cdot (2m+1) = 2(n(2m+1)) = g$",
+      "$u \\cdot u = (2m_1+1) + (2m_2+1) = 2(m_1+m_2+1) = g$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie rechnet u · u = (2m₁+1)·(2m₂+1) = 2m₁·2m₂ + 2m₁ + 2m₂ + 1 = 2(2m₁·m₂ + m₁ + m₂) + 1 = u. 📄 Quelle: ari23_vl10, Folie 28 (S.28)",
+    "explanation": "Die Folie rechnet $u \\cdot u = (2m_1+1) \\cdot (2m_2+1) = 2m_1 \\cdot 2m_2 + 2m_1 + 2m_2 + 1 = 2(2m_1 \\cdot m_2 + m_1 + m_2) + 1 = u$. 📄 Quelle: ari23_vl10, Folie 28 (S.28)",
     "source": "ari23_vl10, Folie 28 (S.28, Rechnen mit geraden und ungeraden Zahlen)"
   },
   {
@@ -19760,17 +19760,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "restklassen_kongruenzen",
     "difficulty": 3,
     "type": "single",
-    "question": "Warum ist die Addition auf der Menge {t (durch 3 teilbar), n (nicht durch 3 teilbar)} mathematisch 'nicht wohldefiniert'?",
+    "question": "Warum ist die Addition auf der Menge $\\{t \\text{ (durch 3 teilbar)}, n \\text{ (nicht durch 3 teilbar)}\\}$ mathematisch 'nicht wohldefiniert'?",
     "options": [
-      "Weil bei n + n zwei Ergebnisse (t oder n) herauskommen können.",
-      "Weil t + t kein eindeutiges Ergebnis hat.",
+      "Weil bei $n + n$ zwei Ergebnisse ($t$ oder $n$) herauskommen können.",
+      "Weil $t + t$ kein eindeutiges Ergebnis hat.",
       "Weil die Menge nur zwei Elemente enthält.",
-      "Weil t und n nicht vertauschbar sind."
+      "Weil $t$ und $n$ nicht vertauschbar sind."
     ],
     "correct": [
       0
     ],
-    "explanation": "Bei n + n kann sowohl t als auch n herauskommen (Eintrag n/t). Eine Operation ist nicht wohldefiniert, weil zwei Ergebnisse herauskommen können; nötig ist eine Unterscheidung zwischen n = 3k+1 und n = 3k+2. 📄 Quelle: ari23_vl10, Folie 31 (S.31)",
+    "explanation": "Bei $n + n$ kann sowohl $t$ als auch $n$ herauskommen (Eintrag $n/t$). Eine Operation ist nicht wohldefiniert, weil zwei Ergebnisse herauskommen können; nötig ist eine Unterscheidung zwischen $n = 3k+1$ und $n = 3k+2$. 📄 Quelle: ari23_vl10, Folie 31 (S.31)",
     "source": "ari23_vl10, Folie 31 (S.31, Rechnen mit Resten / Restklassen)"
   },
   {
@@ -19778,19 +19778,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "restklassen_kongruenzen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Einträge der Multiplikationstafel für t (durch 3 teilbar) und n (nicht durch 3 teilbar) sind korrekt?",
+    "question": "Welche Einträge der Multiplikationstafel für $t$ (durch 3 teilbar) und $n$ (nicht durch 3 teilbar) sind korrekt?",
     "options": [
-      "t · t = t",
-      "t · n = t",
-      "n · n = n",
-      "n · n = t"
+      "$t \\cdot t = t$",
+      "$t \\cdot n = t$",
+      "$n \\cdot n = n$",
+      "$n \\cdot n = t$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Multiplikationstafel zeigt t · t = t, t · n = t, n · t = t und n · n = n. 📄 Quelle: ari23_vl10, Folie 31 (S.31)",
+    "explanation": "Die Multiplikationstafel zeigt $t \\cdot t = t$, $t \\cdot n = t$, $n \\cdot t = t$ und $n \\cdot n = n$. 📄 Quelle: ari23_vl10, Folie 31 (S.31)",
     "source": "ari23_vl10, Folie 31 (S.31, Rechnen mit Resten / Restklassen)"
   },
   {
@@ -19800,17 +19800,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Wie sind die Restklassen beim Teilen durch 3 definiert?",
     "options": [
-      "0̄ = {0, 3, 6, ...} = {n ∈ ℕ | n = 3k, k ∈ ℕ₀}",
-      "1̄ = {1, 4, 7, ...} = {n ∈ ℕ | n = 3k+1, k ∈ ℕ₀}",
-      "2̄ = {2, 5, 8, ...} = {n ∈ ℕ | n = 3k+2, k ∈ ℕ₀}",
-      "0̄ = {1, 2, 3, ...} = {n ∈ ℕ | n = 3k−1}"
+      "$\\overline{0} = \\{0, 3, 6, \\ldots\\} = \\{n \\in \\mathbb{N} \\mid n = 3k,\\ k \\in \\mathbb{N}_0\\}$",
+      "$\\overline{1} = \\{1, 4, 7, \\ldots\\} = \\{n \\in \\mathbb{N} \\mid n = 3k+1,\\ k \\in \\mathbb{N}_0\\}$",
+      "$\\overline{2} = \\{2, 5, 8, \\ldots\\} = \\{n \\in \\mathbb{N} \\mid n = 3k+2,\\ k \\in \\mathbb{N}_0\\}$",
+      "$\\overline{0} = \\{1, 2, 3, \\ldots\\} = \\{n \\in \\mathbb{N} \\mid n = 3k-1\\}$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie definiert 0̄ = {0,3,6,...} = {n∈ℕ | n=3k}, 1̄ = {1,4,7,...} = {n∈ℕ | n=3k+1} und 2̄ = {2,5,8,...} = {n∈ℕ | n=3k+2}, jeweils mit k ∈ ℕ₀. 📄 Quelle: ari23_vl10, Folie 31 (S.31)",
+    "explanation": "Die Folie definiert $\\overline{0} = \\{0,3,6,\\ldots\\} = \\{n \\in \\mathbb{N} \\mid n = 3k\\}$, $\\overline{1} = \\{1,4,7,\\ldots\\} = \\{n \\in \\mathbb{N} \\mid n = 3k+1\\}$ und $\\overline{2} = \\{2,5,8,\\ldots\\} = \\{n \\in \\mathbb{N} \\mid n = 3k+2\\}$, jeweils mit $k \\in \\mathbb{N}_0$. 📄 Quelle: ari23_vl10, Folie 31 (S.31)",
     "source": "ari23_vl10, Folie 31 (S.31, Rechnen mit Resten / Restklassen)"
   },
   {
@@ -19818,17 +19818,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "restklassen_kongruenzen",
     "difficulty": 1,
     "type": "single",
-    "question": "Was ist die Restklasse 0̄ (beim Teilen durch 3)?",
+    "question": "Was ist die Restklasse $\\overline{0}$ (beim Teilen durch 3)?",
     "options": [
-      "Die Menge aller Zahlen, die beim Teilen durch 3 den Rest 0 lassen, also alle Zahlen der Form n = 3k.",
-      "Die Menge aller Zahlen der Form n = 3k + 1.",
+      "Die Menge aller Zahlen, die beim Teilen durch 3 den Rest 0 lassen, also alle Zahlen der Form $n = 3k$.",
+      "Die Menge aller Zahlen der Form $n = 3k + 1$.",
       "Die Menge aller ungeraden Zahlen.",
       "Die Menge aller Primzahlen."
     ],
     "correct": [
       0
     ],
-    "explanation": "Beispiel auf der Folie: 0̄ ist die Menge der Zahlen (Restklasse), die beim Teilen durch eine andere Zahl m (hier 3) den Rest 0 lässt, also alle Zahlen der Form n = 3k. 📄 Quelle: ari23_vl10, Folie 31 (S.31)",
+    "explanation": "Beispiel auf der Folie: $\\overline{0}$ ist die Menge der Zahlen (Restklasse), die beim Teilen durch eine andere Zahl $m$ (hier 3) den Rest 0 lässt, also alle Zahlen der Form $n = 3k$. 📄 Quelle: ari23_vl10, Folie 31 (S.31)",
     "source": "ari23_vl10, Folie 31 (S.31, Rechnen mit Resten / Restklassen)"
   },
   {
@@ -19836,17 +19836,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "restklassen_kongruenzen",
     "difficulty": 1,
     "type": "single",
-    "question": "Welches Ergebnis hat die Addition der Restklassen 2̄ + 1̄ (beim Teilen durch 3)?",
+    "question": "Welches Ergebnis hat die Addition der Restklassen $\\overline{2} + \\overline{1}$ (beim Teilen durch 3)?",
     "options": [
-      "0̄",
-      "1̄",
-      "2̄",
-      "3̄"
+      "$\\overline{0}$",
+      "$\\overline{1}$",
+      "$\\overline{2}$",
+      "$\\overline{3}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie zeigt 2̄ + 1̄ = 0̄ (formal und ikonisch). 📄 Quelle: ari23_vl10, Folie 32 (S.32)",
+    "explanation": "Die Folie zeigt $\\overline{2} + \\overline{1} = \\overline{0}$ (formal und ikonisch). 📄 Quelle: ari23_vl10, Folie 32 (S.32)",
     "source": "ari23_vl10, Folie 32 (S.32, Rechnen mit Resten / Restklassen)"
   },
   {
@@ -19854,17 +19854,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "restklassen_kongruenzen",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie begründet man formal, dass 2̄ + 1̄ = 0̄ (beim Teilen durch 3) gilt?",
+    "question": "Wie begründet man formal, dass $\\overline{2} + \\overline{1} = \\overline{0}$ (beim Teilen durch 3) gilt?",
     "options": [
-      "(3k₁+2) + (3k₂+1) = 3k₁ + 3k₂ + 2 + 1 = 3(k₁+k₂) + 3, also durch 3 teilbar (Rest 0).",
-      "(3k₁+2) + (3k₂+1) = 3(k₁+k₂) + 1, also Rest 1.",
-      "(3k₁+2) · (3k₂+1) = 3(3k₁k₂ + k₁ + 2k₂) + 2, also Rest 2.",
-      "(3k₁+2) + (3k₂+2) = 3(k₁+k₂+1) + 1, also Rest 1."
+      "$(3k_1+2) + (3k_2+1) = 3k_1 + 3k_2 + 2 + 1 = 3(k_1+k_2) + 3$, also durch 3 teilbar (Rest 0).",
+      "$(3k_1+2) + (3k_2+1) = 3(k_1+k_2) + 1$, also Rest 1.",
+      "$(3k_1+2) \\cdot (3k_2+1) = 3(3k_1k_2 + k_1 + 2k_2) + 2$, also Rest 2.",
+      "$(3k_1+2) + (3k_2+2) = 3(k_1+k_2+1) + 1$, also Rest 1."
     ],
     "correct": [
       0
     ],
-    "explanation": "Formal (Addition): (3k₁+2) + (3k₂+1) = 3k₁ + 3k₂ + 2 + 1 = 3(k₁+k₂) + 3 = 3(k₁+k₂+1), also durch 3 teilbar → Restklasse 0̄. 📄 Quelle: ari23_vl10, Folie 32 (S.32)",
+    "explanation": "Formal (Addition): $(3k_1+2) + (3k_2+1) = 3k_1 + 3k_2 + 2 + 1 = 3(k_1+k_2) + 3 = 3(k_1+k_2+1)$, also durch 3 teilbar → Restklasse $\\overline{0}$. 📄 Quelle: ari23_vl10, Folie 32 (S.32)",
     "source": "ari23_vl10, Folie 32 (S.32, Rechnen mit Resten / Restklassen)"
   },
   {
@@ -19874,17 +19874,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Einträge der Additionstafel der Restklassen (mod 3) sind korrekt?",
     "options": [
-      "1̄ + 1̄ = 2̄",
-      "1̄ + 2̄ = 0̄",
-      "2̄ + 1̄ = 0̄",
-      "1̄ + 1̄ = 0̄"
+      "$\\overline{1} + \\overline{1} = \\overline{2}$",
+      "$\\overline{1} + \\overline{2} = \\overline{0}$",
+      "$\\overline{2} + \\overline{1} = \\overline{0}$",
+      "$\\overline{1} + \\overline{1} = \\overline{0}$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Additionstafel zeigt u. a. 1̄ + 1̄ = 2̄, 1̄ + 2̄ = 0̄ und 2̄ + 1̄ = 0̄. 📄 Quelle: ari23_vl10, Folie 32 (S.32)",
+    "explanation": "Die Additionstafel zeigt u. a. $\\overline{1} + \\overline{1} = \\overline{2}$, $\\overline{1} + \\overline{2} = \\overline{0}$ und $\\overline{2} + \\overline{1} = \\overline{0}$. 📄 Quelle: ari23_vl10, Folie 32 (S.32)",
     "source": "ari23_vl10, Folie 32 (S.32, Rechnen mit Resten / Restklassen)"
   },
   {
@@ -19892,17 +19892,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "restklassen_kongruenzen",
     "difficulty": 2,
     "type": "single",
-    "question": "Welches Ergebnis hat die Addition der Restklassen 2̄ + 2̄ (beim Teilen durch 3)?",
+    "question": "Welches Ergebnis hat die Addition der Restklassen $\\overline{2} + \\overline{2}$ (beim Teilen durch 3)?",
     "options": [
-      "1̄",
-      "0̄",
-      "2̄",
-      "4̄"
+      "$\\overline{1}$",
+      "$\\overline{0}$",
+      "$\\overline{2}$",
+      "$\\overline{4}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Formal: (3k₁+2) + (3k₂+2) = 3(k₁+k₂) + 4 = 3(k₁+k₂+1) + 1, also 2̄ + 2̄ = 1̄. 📄 Quelle: ari23_vl10, Folie 33 (S.33)",
+    "explanation": "Formal: $(3k_1+2) + (3k_2+2) = 3(k_1+k_2) + 4 = 3(k_1+k_2+1) + 1$, also $\\overline{2} + \\overline{2} = \\overline{1}$. 📄 Quelle: ari23_vl10, Folie 33 (S.33)",
     "source": "ari23_vl10, Folie 33 (S.33, Rechnen mit Resten / Restklassen)"
   },
   {
@@ -19910,17 +19910,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "restklassen_kongruenzen",
     "difficulty": 2,
     "type": "single",
-    "question": "Welcher Restklasse entspricht die Restklasse 4̄ (beim Teilen durch 3)?",
+    "question": "Welcher Restklasse entspricht die Restklasse $\\overline{4}$ (beim Teilen durch 3)?",
     "options": [
-      "1̄",
-      "0̄",
-      "2̄",
-      "3̄"
+      "$\\overline{1}$",
+      "$\\overline{0}$",
+      "$\\overline{2}$",
+      "$\\overline{3}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Wegen 3(k₁+k₂) + 4 = 3(k₁+k₂+1) + 1 gilt: die Restklasse 4̄ entspricht der Restklasse 1̄. 📄 Quelle: ari23_vl10, Folie 33 (S.33)",
+    "explanation": "Wegen $3(k_1+k_2) + 4 = 3(k_1+k_2+1) + 1$ gilt: die Restklasse $\\overline{4}$ entspricht der Restklasse $\\overline{1}$. 📄 Quelle: ari23_vl10, Folie 33 (S.33)",
     "source": "ari23_vl10, Folie 33 (S.33, Rechnen mit Resten / Restklassen)"
   },
   {
@@ -19928,17 +19928,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "restklassen_kongruenzen",
     "difficulty": 1,
     "type": "single",
-    "question": "Welches Ergebnis hat die Multiplikation der Restklassen 2̄ · 1̄ (beim Teilen durch 3)?",
+    "question": "Welches Ergebnis hat die Multiplikation der Restklassen $\\overline{2} \\cdot \\overline{1}$ (beim Teilen durch 3)?",
     "options": [
-      "2̄",
-      "0̄",
-      "1̄",
-      "3̄"
+      "$\\overline{2}$",
+      "$\\overline{0}$",
+      "$\\overline{1}$",
+      "$\\overline{3}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie zeigt 2̄ · 1̄ = 2̄. 📄 Quelle: ari23_vl10, Folie 35 (S.35)",
+    "explanation": "Die Folie zeigt $\\overline{2} \\cdot \\overline{1} = \\overline{2}$. 📄 Quelle: ari23_vl10, Folie 35 (S.35)",
     "source": "ari23_vl10, Folie 35 (S.35, Rechnen mit Resten / Restklassen)"
   },
   {
@@ -19946,17 +19946,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "restklassen_kongruenzen",
     "difficulty": 3,
     "type": "single",
-    "question": "Wie begründet man formal, dass 2̄ · 1̄ = 2̄ (beim Teilen durch 3) gilt?",
+    "question": "Wie begründet man formal, dass $\\overline{2} \\cdot \\overline{1} = \\overline{2}$ (beim Teilen durch 3) gilt?",
     "options": [
-      "(3k₁+2)·(3k₂+1) = 9k₁k₂ + 3k₁ + 6k₂ + 2 = 3(3k₁k₂ + k₁ + 2k₂) + 2, also Rest 2.",
-      "(3k₁+2)·(3k₂+1) = 3(3k₁k₂ + k₁ + k₂) + 1, also Rest 1.",
-      "(3k₁+2)·(3k₂+1) = 3(3k₁k₂ + 2k₁ + 2k₂ + 1) + 1, also Rest 1.",
-      "(3k₁+2) + (3k₂+1) = 3(k₁+k₂) + 3, also Rest 0."
+      "$(3k_1+2) \\cdot (3k_2+1) = 9k_1k_2 + 3k_1 + 6k_2 + 2 = 3(3k_1k_2 + k_1 + 2k_2) + 2$, also Rest 2.",
+      "$(3k_1+2) \\cdot (3k_2+1) = 3(3k_1k_2 + k_1 + k_2) + 1$, also Rest 1.",
+      "$(3k_1+2) \\cdot (3k_2+1) = 3(3k_1k_2 + 2k_1 + 2k_2 + 1) + 1$, also Rest 1.",
+      "$(3k_1+2) + (3k_2+1) = 3(k_1+k_2) + 3$, also Rest 0."
     ],
     "correct": [
       0
     ],
-    "explanation": "Formal (Multiplikation): (3k₁+2)·(3k₂+1) = 3k₁·3k₂ + 3k₁·1 + 2·3k₂ + 2·1 = 9k₁k₂ + 3k₁ + 6k₂ + 2 = 3(3k₁k₂ + k₁ + 2k₂) + 2 → Restklasse 2̄. 📄 Quelle: ari23_vl10, Folie 35 (S.35)",
+    "explanation": "Formal (Multiplikation): $(3k_1+2) \\cdot (3k_2+1) = 3k_1 \\cdot 3k_2 + 3k_1 \\cdot 1 + 2 \\cdot 3k_2 + 2 \\cdot 1 = 9k_1k_2 + 3k_1 + 6k_2 + 2 = 3(3k_1k_2 + k_1 + 2k_2) + 2$ → Restklasse $\\overline{2}$. 📄 Quelle: ari23_vl10, Folie 35 (S.35)",
     "source": "ari23_vl10, Folie 35 (S.35, Rechnen mit Resten / Restklassen)"
   },
   {
@@ -19964,17 +19964,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "restklassen_kongruenzen",
     "difficulty": 1,
     "type": "single",
-    "question": "Welches Ergebnis hat die Multiplikation der Restklassen 1̄ · 1̄ (beim Teilen durch 3)?",
+    "question": "Welches Ergebnis hat die Multiplikation der Restklassen $\\overline{1} \\cdot \\overline{1}$ (beim Teilen durch 3)?",
     "options": [
-      "1̄",
-      "0̄",
-      "2̄",
-      "3̄"
+      "$\\overline{1}$",
+      "$\\overline{0}$",
+      "$\\overline{2}$",
+      "$\\overline{3}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Formal: (3k₁+1)·(3k₂+1) = 3(3k₁k₂ + k₁ + k₂) + 1, also 1̄ · 1̄ = 1̄. 📄 Quelle: ari23_vl10, Folie 36 (S.36)",
+    "explanation": "Formal: $(3k_1+1) \\cdot (3k_2+1) = 3(3k_1k_2 + k_1 + k_2) + 1$, also $\\overline{1} \\cdot \\overline{1} = \\overline{1}$. 📄 Quelle: ari23_vl10, Folie 36 (S.36)",
     "source": "ari23_vl10, Folie 36 (S.36, Rechnen mit Resten / Restklassen)"
   },
   {
@@ -19982,17 +19982,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "restklassen_kongruenzen",
     "difficulty": 2,
     "type": "single",
-    "question": "Welches Ergebnis hat die Multiplikation der Restklassen 2̄ · 2̄ (beim Teilen durch 3)?",
+    "question": "Welches Ergebnis hat die Multiplikation der Restklassen $\\overline{2} \\cdot \\overline{2}$ (beim Teilen durch 3)?",
     "options": [
-      "1̄",
-      "2̄",
-      "0̄",
-      "4̄"
+      "$\\overline{1}$",
+      "$\\overline{2}$",
+      "$\\overline{0}$",
+      "$\\overline{4}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Formal: (3k₁+2)·(3k₂+2) = 9k₁k₂ + 6k₁ + 6k₂ + 4 = 3(3k₁k₂ + 2k₁ + 2k₂ + 1) + 1, also 2̄ · 2̄ = 1̄. 📄 Quelle: ari23_vl10, Folie 36 (S.36)",
+    "explanation": "Formal: $(3k_1+2) \\cdot (3k_2+2) = 9k_1k_2 + 6k_1 + 6k_2 + 4 = 3(3k_1k_2 + 2k_1 + 2k_2 + 1) + 1$, also $\\overline{2} \\cdot \\overline{2} = \\overline{1}$. 📄 Quelle: ari23_vl10, Folie 36 (S.36)",
     "source": "ari23_vl10, Folie 36 (S.36, Rechnen mit Resten / Restklassen)"
   },
   {
@@ -20002,17 +20002,17 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Produkte von Restklassen (mod 3) sind korrekt?",
     "options": [
-      "2̄ · 1̄ = 2̄",
-      "1̄ · 1̄ = 1̄",
-      "2̄ · 2̄ = 1̄",
-      "2̄ · 2̄ = 2̄"
+      "$\\overline{2} \\cdot \\overline{1} = \\overline{2}$",
+      "$\\overline{1} \\cdot \\overline{1} = \\overline{1}$",
+      "$\\overline{2} \\cdot \\overline{2} = \\overline{1}$",
+      "$\\overline{2} \\cdot \\overline{2} = \\overline{2}$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie leitet her: 2̄ · 1̄ = 2̄, 1̄ · 1̄ = 1̄ und 2̄ · 2̄ = 1̄. 📄 Quelle: ari23_vl10, Folie 36 (S.36)",
+    "explanation": "Die Folie leitet her: $\\overline{2} \\cdot \\overline{1} = \\overline{2}$, $\\overline{1} \\cdot \\overline{1} = \\overline{1}$ und $\\overline{2} \\cdot \\overline{2} = \\overline{1}$. 📄 Quelle: ari23_vl10, Folie 36 (S.36)",
     "source": "ari23_vl10, Folie 36 (S.36, Rechnen mit Resten / Restklassen)"
   },
   {
@@ -20020,19 +20020,19 @@ const SAMPLE_QUESTIONS = [
     "topic": "restklassen_kongruenzen",
     "difficulty": 1,
     "type": "multi",
-    "question": "Was zeigt die vollständige Multiplikationstafel der Restklassen (mod 3) für die Restklasse 0̄?",
+    "question": "Was zeigt die vollständige Multiplikationstafel der Restklassen (mod 3) für die Restklasse $\\overline{0}$?",
     "options": [
-      "0̄ · 0̄ = 0̄",
-      "0̄ · 1̄ = 0̄",
-      "0̄ · 2̄ = 0̄",
-      "0̄ · 2̄ = 2̄"
+      "$\\overline{0} \\cdot \\overline{0} = \\overline{0}$",
+      "$\\overline{0} \\cdot \\overline{1} = \\overline{0}$",
+      "$\\overline{0} \\cdot \\overline{2} = \\overline{0}$",
+      "$\\overline{0} \\cdot \\overline{2} = \\overline{2}$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "In der vollständigen Multiplikationstafel ist die gesamte 0̄-Zeile und 0̄-Spalte gleich 0̄: 0̄ · 0̄ = 0̄, 0̄ · 1̄ = 0̄, 0̄ · 2̄ = 0̄. 📄 Quelle: ari23_vl10, Folie 37 (S.37)",
+    "explanation": "In der vollständigen Multiplikationstafel ist die gesamte $\\overline{0}$-Zeile und $\\overline{0}$-Spalte gleich $\\overline{0}$: $\\overline{0} \\cdot \\overline{0} = \\overline{0}$, $\\overline{0} \\cdot \\overline{1} = \\overline{0}$, $\\overline{0} \\cdot \\overline{2} = \\overline{0}$. 📄 Quelle: ari23_vl10, Folie 37 (S.37)",
     "source": "ari23_vl10, Folie 37 (S.37, Rechnen mit Resten / Restklassen)"
   },
   {
@@ -20040,17 +20040,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "restklassen_kongruenzen",
     "difficulty": 1,
     "type": "single",
-    "question": "Welches Ergebnis hat die Multiplikation der Restklassen 1̄ · 2̄ (beim Teilen durch 3) laut vollständiger Multiplikationstafel?",
+    "question": "Welches Ergebnis hat die Multiplikation der Restklassen $\\overline{1} \\cdot \\overline{2}$ (beim Teilen durch 3) laut vollständiger Multiplikationstafel?",
     "options": [
-      "2̄",
-      "1̄",
-      "0̄",
-      "3̄"
+      "$\\overline{2}$",
+      "$\\overline{1}$",
+      "$\\overline{0}$",
+      "$\\overline{3}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die vollständige Multiplikationstafel (mod 3) zeigt 1̄ · 2̄ = 2̄. 📄 Quelle: ari23_vl10, Folie 37 (S.37)",
+    "explanation": "Die vollständige Multiplikationstafel (mod 3) zeigt $\\overline{1} \\cdot \\overline{2} = \\overline{2}$. 📄 Quelle: ari23_vl10, Folie 37 (S.37)",
     "source": "ari23_vl10, Folie 37 (S.37, Rechnen mit Resten / Restklassen)"
   },
   {

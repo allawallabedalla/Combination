@@ -4,19 +4,19 @@
     "topic": "ari23_vl10_division_mit_rest",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Aussagen gehören zum \"Satz von der eindeutigen Division mit Rest\" für natürliche Zahlen n und m?",
+    "question": "Welche Aussagen gehören zum \"Satz von der eindeutigen Division mit Rest\" für natürliche Zahlen $n$ und $m$?",
     "options": [
-      "Voraussetzung: n ≥ m",
-      "Es gibt genau ein Paar natürlicher Zahlen q und r mit n = q·m + r",
-      "Für den Rest gilt 0 ≤ r < m",
-      "Für den Rest gilt 0 < r ≤ m"
+      "Voraussetzung: $n \\ge m$",
+      "Es gibt genau ein Paar natürlicher Zahlen $q$ und $r$ mit $n = q \\cdot m + r$",
+      "Für den Rest gilt $0 \\le r < m$",
+      "Für den Rest gilt $0 < r \\le m$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Der Satz lautet: Für alle natürlichen Zahlen n, m gilt: Wenn n ≥ m ist, dann gibt es genau ein Paar natürlicher Zahlen q und r, so dass n = q·m + r mit 0 ≤ r < m gilt. 📄 Quelle: ari23_vl10, Folie 4 (S.4)",
+    "explanation": "Der Satz lautet: Für alle natürlichen Zahlen $n$, $m$ gilt: Wenn $n \\ge m$ ist, dann gibt es genau ein Paar natürlicher Zahlen $q$ und $r$, so dass $n = q \\cdot m + r$ mit $0 \\le r < m$ gilt. 📄 Quelle: ari23_vl10, Folie 4 (S.4)",
     "source": "ari23_vl10, Folie 4 (S.4, Rückblick)"
   },
   {
@@ -24,17 +24,17 @@
     "topic": "ari23_vl10_division_mit_rest",
     "difficulty": 1,
     "type": "single",
-    "question": "Wie lautet die Bedingung an den Rest r im Satz von der eindeutigen Division mit Rest (n = q·m + r)?",
+    "question": "Wie lautet die Bedingung an den Rest $r$ im Satz von der eindeutigen Division mit Rest ($n = q \\cdot m + r$)?",
     "options": [
-      "0 ≤ r < m",
-      "0 < r < m",
-      "0 ≤ r ≤ m",
-      "1 ≤ r < m"
+      "$0 \\le r < m$",
+      "$0 < r < m$",
+      "$0 \\le r \\le m$",
+      "$1 \\le r < m$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Rest r erfüllt 0 ≤ r < m; er kann also 0 werden (bei Teilbarkeit), ist aber stets kleiner als der Divisor m. 📄 Quelle: ari23_vl10, Folie 4 (S.4)",
+    "explanation": "Der Rest $r$ erfüllt $0 \\le r < m$; er kann also 0 werden (bei Teilbarkeit), ist aber stets kleiner als der Divisor $m$. 📄 Quelle: ari23_vl10, Folie 4 (S.4)",
     "source": "ari23_vl10, Folie 4 (S.4, Rückblick)"
   },
   {
@@ -42,17 +42,17 @@
     "topic": "ari23_vl10_stellenwertsystem",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie wird eine natürliche Zahl n im dekadischen Stellenwertsystem dargestellt?",
+    "question": "Wie wird eine natürliche Zahl $n$ im dekadischen Stellenwertsystem dargestellt?",
     "options": [
-      "n = a_m·10^m + a_{m-1}·10^{m-1} + … + a_1·10^1 + a_0·10^0",
-      "n = a_m·2^m + a_{m-1}·2^{m-1} + … + a_1·2^1 + a_0·2^0",
-      "n = a_m·10^m + a_{m-1}·10^{m-1} + … + a_1·10 + a_0·10",
-      "n = a_m·10 + a_{m-1}·10 + … + a_1·10 + a_0·10"
+      "$n = a_m \\cdot 10^m + a_{m-1} \\cdot 10^{m-1} + \\ldots + a_1 \\cdot 10^1 + a_0 \\cdot 10^0$",
+      "$n = a_m \\cdot 2^m + a_{m-1} \\cdot 2^{m-1} + \\ldots + a_1 \\cdot 2^1 + a_0 \\cdot 2^0$",
+      "$n = a_m \\cdot 10^m + a_{m-1} \\cdot 10^{m-1} + \\ldots + a_1 \\cdot 10 + a_0 \\cdot 10$",
+      "$n = a_m \\cdot 10 + a_{m-1} \\cdot 10 + \\ldots + a_1 \\cdot 10 + a_0 \\cdot 10$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Im dekadischen Stellenwertsystem gilt n = a_m·10^m + a_{m-1}·10^{m-1} + … + a_1·10^1 + a_0·10^0, die Ziffern werden also mit fallenden Zehnerpotenzen gewichtet. 📄 Quelle: ari23_vl10, Folie 4 (S.4)",
+    "explanation": "Im dekadischen Stellenwertsystem gilt $n = a_m \\cdot 10^m + a_{m-1} \\cdot 10^{m-1} + \\ldots + a_1 \\cdot 10^1 + a_0 \\cdot 10^0$, die Ziffern werden also mit fallenden Zehnerpotenzen gewichtet. 📄 Quelle: ari23_vl10, Folie 4 (S.4)",
     "source": "ari23_vl10, Folie 4 (S.4, Rückblick)"
   },
   {
@@ -65,14 +65,14 @@
       "Für die Teilbarkeit durch 2 betrachtet man die letzte Ziffer.",
       "Für die Teilbarkeit durch 4 betrachtet man die letzten zwei Ziffern.",
       "Für die Teilbarkeit durch 8 betrachtet man die letzten vier Ziffern.",
-      "Für die Teilbarkeit durch 2^k betrachtet man die letzten k Ziffern."
+      "Für die Teilbarkeit durch $2^k$ betrachtet man die letzten $k$ Ziffern."
     ],
     "correct": [
       0,
       1,
       3
     ],
-    "explanation": "Für 2 betrachtet man die letzte Ziffer, für 4 die letzten zwei, für 8 die letzten DREI (nicht vier) Ziffern, allgemein für 2^k die letzten k Ziffern. 📄 Quelle: ari23_vl10, Folie 5 (S.5)",
+    "explanation": "Für 2 betrachtet man die letzte Ziffer, für 4 die letzten zwei, für 8 die letzten DREI (nicht vier) Ziffern, allgemein für $2^k$ die letzten $k$ Ziffern. 📄 Quelle: ari23_vl10, Folie 5 (S.5)",
     "source": "ari23_vl10, Folie 5 (S.5, Rückblick – Endstellenregeln)"
   },
   {
@@ -82,15 +82,15 @@
     "type": "single",
     "question": "Auf welcher Zerlegung beruht die Beweisidee zu den Endstellenregeln für Zweierpotenzen?",
     "options": [
-      "10^k = 2^k · 5^k",
-      "10^k = 2 · 5^k",
-      "10^k = 2^k + 5^k",
-      "10 = 2 + 5"
+      "$10^k = 2^k \\cdot 5^k$",
+      "$10^k = 2 \\cdot 5^k$",
+      "$10^k = 2^k + 5^k$",
+      "$10 = 2 + 5$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Beweisidee nutzt direkt die Darstellung im dekadischen Stellenwertsystem mit 10 = 2·5, 10² = 2²·5², … , 10^k = 2^k·5^k. 📄 Quelle: ari23_vl10, Folie 5 (S.5)",
+    "explanation": "Die Beweisidee nutzt direkt die Darstellung im dekadischen Stellenwertsystem mit $10 = 2 \\cdot 5$, $10^2 = 2^2 \\cdot 5^2$, … , $10^k = 2^k \\cdot 5^k$. 📄 Quelle: ari23_vl10, Folie 5 (S.5)",
     "source": "ari23_vl10, Folie 5 (S.5, Rückblick – Endstellenregeln)"
   },
   {
@@ -98,11 +98,11 @@
     "topic": "ari23_vl10_endstellenregeln",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechne gemäß der Beweisidee (10^k = 2^k·5^k) den Wert von 2^3 · 5^3.",
+    "question": "Berechne gemäß der Beweisidee ($10^k = 2^k \\cdot 5^k$) den Wert von $2^3 \\cdot 5^3$.",
     "answer": 1000,
     "tolerance": 0,
     "unit": "",
-    "explanation": "2^3·5^3 = (2·5)^3 = 10^3 = 1000; das entspricht der Beweisidee 10^k = 2^k·5^k. 📄 Quelle: ari23_vl10, Folie 5 (S.5)",
+    "explanation": "$2^3 \\cdot 5^3 = (2 \\cdot 5)^3 = 10^3 = 1000$; das entspricht der Beweisidee $10^k = 2^k \\cdot 5^k$. 📄 Quelle: ari23_vl10, Folie 5 (S.5)",
     "source": "ari23_vl10, Folie 5 (S.5, Rückblick – Endstellenregeln)"
   },
   {
@@ -122,7 +122,7 @@
       1,
       2
     ],
-    "explanation": "Für 5 zählt die letzte Ziffer, für 25 die letzten zwei, für 125 die letzten DREI Ziffern (nicht zwei), allgemein für 5^k die letzten k Ziffern. 📄 Quelle: ari23_vl10, Folie 6 (S.6)",
+    "explanation": "Für 5 zählt die letzte Ziffer, für 25 die letzten zwei, für 125 die letzten DREI Ziffern (nicht zwei), allgemein für $5^k$ die letzten $k$ Ziffern. 📄 Quelle: ari23_vl10, Folie 6 (S.6)",
     "source": "ari23_vl10, Folie 6 (S.6, Rückblick – Endstellenregeln)"
   },
   {
@@ -130,11 +130,11 @@
     "topic": "ari23_vl10_endstellenregeln",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welche Zahl 5^k betrachtet man bei der Endstellenregel mit den letzten drei Ziffern? Gib 5^3 als Zahl an.",
+    "question": "Welche Zahl $5^k$ betrachtet man bei der Endstellenregel mit den letzten drei Ziffern? Gib $5^3$ als Zahl an.",
     "answer": 125,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Für die letzten drei Ziffern gilt die Regel für 5^3 = 125. 📄 Quelle: ari23_vl10, Folie 6 (S.6)",
+    "explanation": "Für die letzten drei Ziffern gilt die Regel für $5^3 = 125$. 📄 Quelle: ari23_vl10, Folie 6 (S.6)",
     "source": "ari23_vl10, Folie 6 (S.6, Rückblick – Endstellenregeln)"
   },
   {
@@ -152,7 +152,7 @@
     "correct": [
       0
     ],
-    "explanation": "Die letzten ZWEI Ziffern entscheiden über die Teilbarkeit durch 25 (= 5^2). 📄 Quelle: ari23_vl10, Folie 6 (S.6)",
+    "explanation": "Die letzten ZWEI Ziffern entscheiden über die Teilbarkeit durch 25 (= $5^2$). 📄 Quelle: ari23_vl10, Folie 6 (S.6)",
     "source": "ari23_vl10, Folie 6 (S.6, Rückblick – Endstellenregeln)"
   },
   {
@@ -160,11 +160,11 @@
     "topic": "ari23_vl10_reste_erkundung",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welchen Rest lässt 100 beim Teilen durch 3? (Es gilt 100 = 33·3 + 1.)",
+    "question": "Welchen Rest lässt 100 beim Teilen durch 3? (Es gilt $100 = 33 \\cdot 3 + 1$.)",
     "answer": 1,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Laut Tabelle gilt 100 = 33·3 + 1, also ist der Rest 1. 📄 Quelle: ari23_vl10, Folie 8 (S.8)",
+    "explanation": "Laut Tabelle gilt $100 = 33 \\cdot 3 + 1$, also ist der Rest 1. 📄 Quelle: ari23_vl10, Folie 8 (S.8)",
     "source": "ari23_vl10, Folie 8 (S.8, Erkundung II)"
   },
   {
@@ -172,11 +172,11 @@
     "topic": "ari23_vl10_reste_erkundung",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welchen Rest lässt 40 beim Teilen durch 3? (Es gilt 40 = 13·3 + 1.)",
+    "question": "Welchen Rest lässt 40 beim Teilen durch 3? (Es gilt $40 = 13 \\cdot 3 + 1$.)",
     "answer": 1,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Laut Tabelle gilt 40 = 13·3 + 1, also ist der Rest 1. 📄 Quelle: ari23_vl10, Folie 8 (S.8)",
+    "explanation": "Laut Tabelle gilt $40 = 13 \\cdot 3 + 1$, also ist der Rest 1. 📄 Quelle: ari23_vl10, Folie 8 (S.8)",
     "source": "ari23_vl10, Folie 8 (S.8, Erkundung II)"
   },
   {
@@ -186,17 +186,17 @@
     "type": "multi",
     "question": "Welche der folgenden Gleichungen (Division durch 3 mit Rest) sind korrekt?",
     "options": [
-      "10 = 3·3 + 1",
-      "20 = 6·3 + 2",
-      "200 = 66·3 + 2",
-      "300 = 99·3 + 3"
+      "$10 = 3 \\cdot 3 + 1$",
+      "$20 = 6 \\cdot 3 + 2$",
+      "$200 = 66 \\cdot 3 + 2$",
+      "$300 = 99 \\cdot 3 + 3$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Es gilt 10 = 3·3+1, 20 = 6·3+2, 200 = 66·3+2. Die Tabelle zeigt für 300 hingegen 300 = 100·3 + 0 (Rest 0), nicht 99·3+3. 📄 Quelle: ari23_vl10, Folie 8 (S.8)",
+    "explanation": "Es gilt $10 = 3 \\cdot 3 + 1$, $20 = 6 \\cdot 3 + 2$, $200 = 66 \\cdot 3 + 2$. Die Tabelle zeigt für 300 hingegen $300 = 100 \\cdot 3 + 0$ (Rest 0), nicht $99 \\cdot 3 + 3$. 📄 Quelle: ari23_vl10, Folie 8 (S.8)",
     "source": "ari23_vl10, Folie 8 (S.8, Erkundung II)"
   },
   {
@@ -226,7 +226,7 @@
     "answer": 2,
     "tolerance": 0,
     "unit": "",
-    "explanation": "2 = 0·3+2, 20 = 6·3+2 und 200 = 66·3+2 – alle lassen den Rest 2. 📄 Quelle: ari23_vl10, Folie 9 (S.9)",
+    "explanation": "$2 = 0 \\cdot 3 + 2$, $20 = 6 \\cdot 3 + 2$ und $200 = 66 \\cdot 3 + 2$ – alle lassen den Rest 2. 📄 Quelle: ari23_vl10, Folie 9 (S.9)",
     "source": "ari23_vl10, Folie 9 (S.9, Erkundung II)"
   },
   {
@@ -238,7 +238,7 @@
     "answer": 0,
     "tolerance": 0,
     "unit": "",
-    "explanation": "3 = 1·3+0, 30 = 10·3+0 und 300 = 100·3+0 – alle lassen den Rest 0. 📄 Quelle: ari23_vl10, Folie 9 (S.9)",
+    "explanation": "$3 = 1 \\cdot 3 + 0$, $30 = 10 \\cdot 3 + 0$ und $300 = 100 \\cdot 3 + 0$ – alle lassen den Rest 0. 📄 Quelle: ari23_vl10, Folie 9 (S.9)",
     "source": "ari23_vl10, Folie 9 (S.9, Erkundung II)"
   },
   {
@@ -266,17 +266,17 @@
     "type": "multi",
     "question": "Beim Teilen durch 3 mit über 2 hinaus fortgeschriebenen Resten: Welche der folgenden Gleichungen sind korrekt?",
     "options": [
-      "30 = 9·3 + 3",
-      "400 = 132·3 + 4",
-      "50 = 15·3 + 5",
-      "5 = 1·3 + 2"
+      "$30 = 9 \\cdot 3 + 3$",
+      "$400 = 132 \\cdot 3 + 4$",
+      "$50 = 15 \\cdot 3 + 5$",
+      "$5 = 1 \\cdot 3 + 2$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "In der fortgeschriebenen Tabelle gilt 30 = 9·3+3, 400 = 132·3+4 und 50 = 15·3+5. Für 5 steht hier 5 = 0·3+5 (Rest = Ziffernwert), nicht 1·3+2. 📄 Quelle: ari23_vl10, Folie 10 (S.10)",
+    "explanation": "In der fortgeschriebenen Tabelle gilt $30 = 9 \\cdot 3+3$, $400 = 132 \\cdot 3+4$ und $50 = 15 \\cdot 3+5$. Für 5 steht hier $5 = 0 \\cdot 3+5$ (Rest = Ziffernwert), nicht $1 \\cdot 3+2$. 📄 Quelle: ari23_vl10, Folie 10 (S.10)",
     "source": "ari23_vl10, Folie 10 (S.10, Erkundung II)"
   },
   {
@@ -304,15 +304,15 @@
     "type": "single",
     "question": "Wie lautet die Quersummenregel für 3 (für unser Dezimalsystem)?",
     "options": [
-      "Wenn die Quersumme einer Zahl n durch 3 teilbar ist, dann ist die Zahl n durch 3 teilbar.",
-      "Wenn n durch 3 teilbar ist, dann ist die Quersumme durch 9 teilbar.",
-      "Wenn die Quersumme durch 2 teilbar ist, dann ist n durch 3 teilbar.",
-      "Wenn die letzte Ziffer durch 3 teilbar ist, dann ist n durch 3 teilbar."
+      "Wenn die Quersumme einer Zahl $n$ durch 3 teilbar ist, dann ist die Zahl $n$ durch 3 teilbar.",
+      "Wenn $n$ durch 3 teilbar ist, dann ist die Quersumme durch 9 teilbar.",
+      "Wenn die Quersumme durch 2 teilbar ist, dann ist $n$ durch 3 teilbar.",
+      "Wenn die letzte Ziffer durch 3 teilbar ist, dann ist $n$ durch 3 teilbar."
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Satz lautet: Für alle natürlichen Zahlen n gilt: Wenn die Quersumme einer Zahl n durch 3 teilbar ist, dann ist die Zahl n durch 3 teilbar. 📄 Quelle: ari23_vl10, Folie 11 (S.11)",
+    "explanation": "Der Satz lautet: Für alle natürlichen Zahlen $n$ gilt: Wenn die Quersumme einer Zahl $n$ durch 3 teilbar ist, dann ist die Zahl $n$ durch 3 teilbar. 📄 Quelle: ari23_vl10, Folie 11 (S.11)",
     "source": "ari23_vl10, Folie 11 (S.11, Quersummenregel)"
   },
   {
@@ -354,17 +354,17 @@
     "type": "multi",
     "question": "Formaler Beweis der Quersummenregel für 3: Welche Aussagen sind korrekt?",
     "options": [
-      "Der erste Teil des Terms, bestehend aus Vielfachen von (10^k − 1), ist durch 3 teilbar.",
-      "Der zweite Teil des Terms entspricht genau der Quersumme a_m + a_{m-1} + … + a_1 + a_0.",
-      "Ist 3 ein Teiler der Quersumme, dann ist die Zahl n durch 3 teilbar.",
-      "Der zweite Teil des Terms ist stets durch 3 teilbar, unabhängig von n."
+      "Der erste Teil des Terms, bestehend aus Vielfachen von $(10^k - 1)$, ist durch 3 teilbar.",
+      "Der zweite Teil des Terms entspricht genau der Quersumme $a_m + a_{m-1} + \\ldots + a_1 + a_0$.",
+      "Ist 3 ein Teiler der Quersumme, dann ist die Zahl $n$ durch 3 teilbar.",
+      "Der zweite Teil des Terms ist stets durch 3 teilbar, unabhängig von $n$."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Im Beweis wird n so umgeformt, dass der erste Teil (Vielfache von 10^k − 1) durch 3 teilbar ist und der zweite Teil genau die Quersumme ist (der Rest, der bleibt). Teilt 3 die Quersumme, so ist n durch 3 teilbar; der zweite Teil ist NICHT unabhängig von n durch 3 teilbar. 📄 Quelle: ari23_vl10, Folie 13 (S.13)",
+    "explanation": "Im Beweis wird $n$ so umgeformt, dass der erste Teil (Vielfache von $10^k - 1$) durch 3 teilbar ist und der zweite Teil genau die Quersumme ist (der Rest, der bleibt). Teilt 3 die Quersumme, so ist $n$ durch 3 teilbar; der zweite Teil ist NICHT unabhängig von $n$ durch 3 teilbar. 📄 Quelle: ari23_vl10, Folie 13 (S.13)",
     "source": "ari23_vl10, Folie 13 (S.13, Quersummenregel – Beweis)"
   },
   {
@@ -374,15 +374,15 @@
     "type": "single",
     "question": "Welcher algebraische Trick wird im formalen Beweis der Quersummenregel für 3 verwendet?",
     "options": [
-      "Jede Zehnerpotenz 10^k wird als (10^k − 1) + 1 geschrieben.",
+      "Jede Zehnerpotenz $10^k$ wird als $(10^k - 1) + 1$ geschrieben.",
       "Jede Ziffer wird einzeln durch 3 geteilt.",
-      "10^k wird als 2^k · 5^k geschrieben.",
-      "n wird als Produkt seiner Primfaktoren geschrieben."
+      "$10^k$ wird als $2^k \\cdot 5^k$ geschrieben.",
+      "$n$ wird als Produkt seiner Primfaktoren geschrieben."
     ],
     "correct": [
       0
     ],
-    "explanation": "Im Beweis wird a_k·10^k = a_k·((10^k − 1) + 1) geschrieben; die (10^k − 1)-Anteile sind durch 3 teilbar, die zurückbleibenden Einsen liefern die Quersumme. 📄 Quelle: ari23_vl10, Folie 13 (S.13)",
+    "explanation": "Im Beweis wird $a_k \\cdot 10^k = a_k \\cdot ((10^k - 1) + 1)$ geschrieben; die $(10^k - 1)$-Anteile sind durch 3 teilbar, die zurückbleibenden Einsen liefern die Quersumme. 📄 Quelle: ari23_vl10, Folie 13 (S.13)",
     "source": "ari23_vl10, Folie 13 (S.13, Quersummenregel – Beweis)"
   },
   {
@@ -390,11 +390,11 @@
     "topic": "ari23_vl10_quersummenregel",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Im formalen Beweis tritt der Term 10^2 − 1 auf. Welchen Wert hat 10^2 − 1?",
+    "question": "Im formalen Beweis tritt der Term $10^2 - 1$ auf. Welchen Wert hat $10^2 - 1$?",
     "answer": 99,
     "tolerance": 0,
     "unit": "",
-    "explanation": "10^2 − 1 = 99; dieser Wert ist durch 3 teilbar (99 = 33·3), was den Beweis trägt. 📄 Quelle: ari23_vl10, Folie 13 (S.13)",
+    "explanation": "$10^2 - 1 = 99$; dieser Wert ist durch 3 teilbar ($99 = 33 \\cdot 3$), was den Beweis trägt. 📄 Quelle: ari23_vl10, Folie 13 (S.13)",
     "source": "ari23_vl10, Folie 13 (S.13, Quersummenregel – Beweis)"
   },
   {
@@ -402,7 +402,7 @@
     "topic": "ari23_vl10_quersummenregel",
     "difficulty": 2,
     "type": "single",
-    "question": "Was zeigt die rekursive Betrachtung 10 = 3·3 + 1, 100 = 3·(…) + 1, 1000 = 3·(…) + 1?",
+    "question": "Was zeigt die rekursive Betrachtung $10 = 3 \\cdot 3 + 1$, $100 = 3 \\cdot (\\ldots) + 1$, $1000 = 3 \\cdot (\\ldots) + 1$?",
     "options": [
       "Jede Zehnerpotenz lässt beim Teilen durch 3 den Rest 1.",
       "Jede Zehnerpotenz ist durch 3 teilbar.",
@@ -412,7 +412,7 @@
     "correct": [
       0
     ],
-    "explanation": "Über die rekursive Betrachtung (100 = 10·10 usw.) zeigt sich, dass jede Zehnerpotenz beim Teilen durch 3 den Rest 1 lässt, also 'Zehnerpotenz minus 1' durch 3 teilbar ist. 📄 Quelle: ari23_vl10, Folie 14 (S.14)",
+    "explanation": "Über die rekursive Betrachtung ($100 = 10 \\cdot 10$ usw.) zeigt sich, dass jede Zehnerpotenz beim Teilen durch 3 den Rest 1 lässt, also 'Zehnerpotenz minus 1' durch 3 teilbar ist. 📄 Quelle: ari23_vl10, Folie 14 (S.14)",
     "source": "ari23_vl10, Folie 14 (S.14, Quersummenregel – Lücken)"
   },
   {
@@ -420,11 +420,11 @@
     "topic": "ari23_vl10_quersummenregel",
     "difficulty": 1,
     "type": "numeric",
-    "question": "In der rekursiven Betrachtung wird 100 als 3·(…) + Rest geschrieben. Welchen Rest ergibt 100 beim Teilen durch 3?",
+    "question": "In der rekursiven Betrachtung wird 100 als $3 \\cdot (\\ldots) + \\text{Rest}$ geschrieben. Welchen Rest ergibt 100 beim Teilen durch 3?",
     "answer": 1,
     "tolerance": 0,
     "unit": "",
-    "explanation": "100 = 10·10 = (3·3+1)·(3·3+1) = 3·(…) + 1, also Rest 1. 📄 Quelle: ari23_vl10, Folie 14 (S.14)",
+    "explanation": "$100 = 10 \\cdot 10 = (3 \\cdot 3+1) \\cdot (3 \\cdot 3+1) = 3 \\cdot (\\ldots) + 1$, also Rest 1. 📄 Quelle: ari23_vl10, Folie 14 (S.14)",
     "source": "ari23_vl10, Folie 14 (S.14, Quersummenregel – Lücken)"
   },
   {
@@ -434,17 +434,17 @@
     "type": "multi",
     "question": "Welche Gleichungen der rekursiven Betrachtung (Warum ist jede Zehnerpotenz minus 1 durch 3 teilbar?) sind korrekt?",
     "options": [
-      "10 = 3·3 + 1",
-      "100 = (3·3 + 1)·(3·3 + 1)",
-      "100 = (3·3)² + 2·(3·3) + 1",
-      "1000 = 3·(…) + 0"
+      "$10 = 3 \\cdot 3 + 1$",
+      "$100 = (3 \\cdot 3 + 1) \\cdot (3 \\cdot 3 + 1)$",
+      "$100 = (3 \\cdot 3)^2 + 2 \\cdot (3 \\cdot 3) + 1$",
+      "$1000 = 3 \\cdot (\\ldots) + 0$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Es gilt 10 = 3·3+1, 100 = (3·3+1)·(3·3+1) = (3·3)² + 2·(3·3) + 1 = 3·(…) + 1. Auch 1000 = 3·(…) + 1 (Rest 1), nicht + 0. 📄 Quelle: ari23_vl10, Folie 14 (S.14)",
+    "explanation": "Es gilt $10 = 3 \\cdot 3+1$, $100 = (3 \\cdot 3+1) \\cdot (3 \\cdot 3+1) = (3 \\cdot 3)^2 + 2 \\cdot (3 \\cdot 3) + 1 = 3 \\cdot (\\ldots) + 1$. Auch $1000 = 3 \\cdot (\\ldots) + 1$ (Rest 1), nicht + 0. 📄 Quelle: ari23_vl10, Folie 14 (S.14)",
     "source": "ari23_vl10, Folie 14 (S.14, Quersummenregel – Lücken)"
   },
   {
@@ -452,19 +452,19 @@
     "topic": "ari23_vl10_quersummenregel",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Zerlegungen der Zahlen 9, 99, 999 sind korrekt (Untersuchung: bei welchen Divisoren m bleibt der Rest 1)?",
+    "question": "Welche Zerlegungen der Zahlen 9, 99, 999 sind korrekt (Untersuchung: bei welchen Divisoren $m$ bleibt der Rest 1)?",
     "options": [
-      "99 = 3·3·11",
-      "999 = 3·3·3·37",
-      "9 = 3·3",
-      "9 = 3·3·3"
+      "$99 = 3 \\cdot 3 \\cdot 11$",
+      "$999 = 3 \\cdot 3 \\cdot 3 \\cdot 37$",
+      "$9 = 3 \\cdot 3$",
+      "$9 = 3 \\cdot 3 \\cdot 3$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Es gilt 9 = 3·3, 99 = 3·33 = 3·3·11 und 999 = 3·333 = 3·3·111 = 3·3·3·37. Die Zerlegung 9 = 3·3·3 ist falsch. 📄 Quelle: ari23_vl10, Folie 15 (S.15)",
+    "explanation": "Es gilt $9 = 3 \\cdot 3$, $99 = 3 \\cdot 33 = 3 \\cdot 3 \\cdot 11$ und $999 = 3 \\cdot 333 = 3 \\cdot 3 \\cdot 111 = 3 \\cdot 3 \\cdot 3 \\cdot 37$. Die Zerlegung $9 = 3 \\cdot 3 \\cdot 3$ ist falsch. 📄 Quelle: ari23_vl10, Folie 15 (S.15)",
     "source": "ari23_vl10, Folie 15 (S.15, Quersummenregel – Lücken)"
   },
   {
@@ -472,11 +472,11 @@
     "topic": "ari23_vl10_quersummenregel",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Zerlegt man 999 = 3·3·3·? in Primfaktoren: Wie lautet der letzte (von 3 verschiedene) Faktor?",
+    "question": "Zerlegt man $999 = 3 \\cdot 3 \\cdot 3 \\cdot ?$ in Primfaktoren: Wie lautet der letzte (von 3 verschiedene) Faktor?",
     "answer": 37,
     "tolerance": 0,
     "unit": "",
-    "explanation": "999 = 3·333 = 3·3·111 = 3·3·3·37, also ist der letzte Faktor 37. 📄 Quelle: ari23_vl10, Folie 15 (S.15)",
+    "explanation": "$999 = 3 \\cdot 333 = 3 \\cdot 3 \\cdot 111 = 3 \\cdot 3 \\cdot 3 \\cdot 37$, also ist der letzte Faktor 37. 📄 Quelle: ari23_vl10, Folie 15 (S.15)",
     "source": "ari23_vl10, Folie 15 (S.15, Quersummenregel – Lücken)"
   },
   {
@@ -504,15 +504,15 @@
     "type": "single",
     "question": "Wie lautet die Quersummenregel für 9 (für unser Dezimalsystem)?",
     "options": [
-      "Wenn die Quersumme einer Zahl n durch 9 teilbar ist, dann ist die Zahl n durch 9 teilbar.",
-      "Wenn die Quersumme durch 3 teilbar ist, dann ist n durch 9 teilbar.",
-      "Wenn n durch 9 teilbar ist, dann ist die letzte Ziffer eine 9.",
-      "Wenn die Quersumme gerade ist, dann ist n durch 9 teilbar."
+      "Wenn die Quersumme einer Zahl $n$ durch 9 teilbar ist, dann ist die Zahl $n$ durch 9 teilbar.",
+      "Wenn die Quersumme durch 3 teilbar ist, dann ist $n$ durch 9 teilbar.",
+      "Wenn $n$ durch 9 teilbar ist, dann ist die letzte Ziffer eine 9.",
+      "Wenn die Quersumme gerade ist, dann ist $n$ durch 9 teilbar."
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Satz lautet: Für alle natürlichen Zahlen n gilt: Wenn die Quersumme einer Zahl n durch 9 teilbar ist, dann ist die Zahl n durch 9 teilbar. 📄 Quelle: ari23_vl10, Folie 16 (S.16)",
+    "explanation": "Der Satz lautet: Für alle natürlichen Zahlen $n$ gilt: Wenn die Quersumme einer Zahl $n$ durch 9 teilbar ist, dann ist die Zahl $n$ durch 9 teilbar. 📄 Quelle: ari23_vl10, Folie 16 (S.16)",
     "source": "ari23_vl10, Folie 16 (S.16, Quersummenregel für 9)"
   },
   {
@@ -538,17 +538,17 @@
     "topic": "ari23_vl10_mischregeln",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lautet die Mischregel für einen zusammengesetzten Divisor m (m ist keine Primzahl)?",
+    "question": "Wie lautet die Mischregel für einen zusammengesetzten Divisor $m$ ($m$ ist keine Primzahl)?",
     "options": [
-      "n ist durch m teilbar, wenn n durch jeden Primfaktor von m teilbar ist.",
-      "n ist durch m teilbar, wenn n durch einen Primfaktor von m teilbar ist.",
-      "n ist durch m teilbar, wenn die Quersumme von n durch m teilbar ist.",
-      "n ist durch m teilbar, wenn m durch n teilbar ist."
+      "$n$ ist durch $m$ teilbar, wenn $n$ durch jeden Primfaktor von $m$ teilbar ist.",
+      "$n$ ist durch $m$ teilbar, wenn $n$ durch einen Primfaktor von $m$ teilbar ist.",
+      "$n$ ist durch $m$ teilbar, wenn die Quersumme von $n$ durch $m$ teilbar ist.",
+      "$n$ ist durch $m$ teilbar, wenn $m$ durch $n$ teilbar ist."
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Mischregel: Ist der Divisor m keine Primzahl, dann ist n durch m teilbar, wenn n durch jeden Primfaktor von m teilbar ist. 📄 Quelle: ari23_vl10, Folie 18 (S.18)",
+    "explanation": "Die Mischregel: Ist der Divisor $m$ keine Primzahl, dann ist $n$ durch $m$ teilbar, wenn $n$ durch jeden Primfaktor von $m$ teilbar ist. 📄 Quelle: ari23_vl10, Folie 18 (S.18)",
     "source": "ari23_vl10, Folie 18 (S.18, Teilbarkeitsregeln – Mischregeln)"
   },
   {
@@ -556,7 +556,7 @@
     "topic": "ari23_vl10_mischregeln",
     "difficulty": 1,
     "type": "multi",
-    "question": "Welche Teilbarkeitsregeln muss man laut Beispiel prüfen, um zu entscheiden, ob n durch 6 teilbar ist?",
+    "question": "Welche Teilbarkeitsregeln muss man laut Beispiel prüfen, um zu entscheiden, ob $n$ durch 6 teilbar ist?",
     "options": [
       "die Regel für 2",
       "die Regel für 3",
@@ -567,7 +567,7 @@
       0,
       1
     ],
-    "explanation": "6 = 2·3, also ist n durch 6 teilbar, wenn n durch 2 UND durch 3 teilbar ist; man prüft die Regeln für 2 und 3. 📄 Quelle: ari23_vl10, Folie 18 (S.18)",
+    "explanation": "$6 = 2 \\cdot 3$, also ist $n$ durch 6 teilbar, wenn $n$ durch 2 UND durch 3 teilbar ist; man prüft die Regeln für 2 und 3. 📄 Quelle: ari23_vl10, Folie 18 (S.18)",
     "source": "ari23_vl10, Folie 18 (S.18, Teilbarkeitsregeln – Mischregeln)"
   },
   {
@@ -577,7 +577,7 @@
     "type": "single",
     "question": "Die Mischregel führt die Teilbarkeit durch einen zusammengesetzten Divisor auf dessen Primfaktoren zurück. Welche Frage bleibt danach noch offen?",
     "options": [
-      "Wie lauten Teilbarkeitsregeln, wenn der Divisor eine Primzahl ≥ 5 ist?",
+      "Wie lauten Teilbarkeitsregeln, wenn der Divisor eine Primzahl $\\ge 5$ ist?",
       "Wie dividiert man überhaupt durch 6?",
       "Ist 6 eine Primzahl?",
       "Wie lautet die Quersummenregel für 3?"
@@ -585,7 +585,7 @@
     "correct": [
       0
     ],
-    "explanation": "Am Ende steht die Frage: 'Und wenn der Divisor eine Primzahl ≥ 5 ist?' 📄 Quelle: ari23_vl10, Folie 18 (S.18)",
+    "explanation": "Am Ende steht die Frage: 'Und wenn der Divisor eine Primzahl $\\ge 5$ ist?' 📄 Quelle: ari23_vl10, Folie 18 (S.18)",
     "source": "ari23_vl10, Folie 18 (S.18, Teilbarkeitsregeln – Mischregeln)"
   },
   {
@@ -595,16 +595,16 @@
     "type": "multi",
     "question": "Welche Darstellungen von 11 zeigt der Rückblick zu positiven und negativen Resten?",
     "options": [
-      "11 = 3·3 + 2 (positiver Rest)",
-      "11 = 4·3 − 1 (negativer Rest)",
-      "11 = 2·3 + 5",
-      "11 = 5·3 − 4"
+      "$11 = 3 \\cdot 3 + 2$ (positiver Rest)",
+      "$11 = 4 \\cdot 3 - 1$ (negativer Rest)",
+      "$11 = 2 \\cdot 3 + 5$",
+      "$11 = 5 \\cdot 3 - 4$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Folie zeigt 11 = 3·3 + 2 (positiver Rest) und 11 = 4·3 − 1 (negativer Rest). 📄 Quelle: ari23_vl10, Folie 19 (S.19)",
+    "explanation": "Die Folie zeigt $11 = 3 \\cdot 3 + 2$ (positiver Rest) und $11 = 4 \\cdot 3 - 1$ (negativer Rest). 📄 Quelle: ari23_vl10, Folie 19 (S.19)",
     "source": "ari23_vl10, Folie 19 (S.19, Rückblick – Teilbarkeitsregeln)"
   },
   {
@@ -612,11 +612,11 @@
     "topic": "ari23_vl10_negative_reste",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welchen (negativen) Rest hat 11 beim Teilen durch 3 gemäß der Darstellung 11 = 4·3 − 1?",
+    "question": "Welchen (negativen) Rest hat 11 beim Teilen durch 3 gemäß der Darstellung $11 = 4 \\cdot 3 - 1$?",
     "answer": -1,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Aus 11 = 4·3 − 1 ergibt sich der negative Rest −1. 📄 Quelle: ari23_vl10, Folie 19 (S.19)",
+    "explanation": "Aus $11 = 4 \\cdot 3 - 1$ ergibt sich der negative Rest $-1$. 📄 Quelle: ari23_vl10, Folie 19 (S.19)",
     "source": "ari23_vl10, Folie 19 (S.19, Rückblick – Teilbarkeitsregeln)"
   },
   {
@@ -642,11 +642,11 @@
     "topic": "ari23_vl10_reste_erkundung",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welchen Rest lässt 10 beim Teilen durch 7? (Es gilt 10 = 1·7 + 3.)",
+    "question": "Welchen Rest lässt 10 beim Teilen durch 7? (Es gilt $10 = 1 \\cdot 7 + 3$.)",
     "answer": 3,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Laut Tabelle gilt 10 = 1·7 + 3, also ist der Rest 3. 📄 Quelle: ari23_vl10, Folie 20 (S.20)",
+    "explanation": "Laut Tabelle gilt $10 = 1 \\cdot 7 + 3$, also ist der Rest 3. 📄 Quelle: ari23_vl10, Folie 20 (S.20)",
     "source": "ari23_vl10, Folie 20 (S.20, Rückblick – Teilbarkeitsregeln)"
   },
   {
@@ -654,11 +654,11 @@
     "topic": "ari23_vl10_reste_erkundung",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welchen Rest lässt 100 beim Teilen durch 7? (Es gilt 100 = 14·7 + 2.)",
+    "question": "Welchen Rest lässt 100 beim Teilen durch 7? (Es gilt $100 = 14 \\cdot 7 + 2$.)",
     "answer": 2,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Laut Tabelle gilt 100 = 14·7 + 2, also ist der Rest 2. 📄 Quelle: ari23_vl10, Folie 20 (S.20)",
+    "explanation": "Laut Tabelle gilt $100 = 14 \\cdot 7 + 2$, also ist der Rest 2. 📄 Quelle: ari23_vl10, Folie 20 (S.20)",
     "source": "ari23_vl10, Folie 20 (S.20, Rückblick – Teilbarkeitsregeln)"
   },
   {
@@ -666,19 +666,19 @@
     "topic": "ari23_vl10_reste_erkundung",
     "difficulty": 2,
     "type": "multi",
-    "question": "Rückblick (m = 7, Reste größer 2 fortgeschrieben): Welche Gleichungen der Tabelle sind korrekt?",
+    "question": "Rückblick ($m = 7$, Reste größer 2 fortgeschrieben): Welche Gleichungen der Tabelle sind korrekt?",
     "options": [
-      "20 = 2·7 + 6",
-      "30 = 3·7 + 9",
-      "300 = 42·7 + 6",
-      "40 = 4·7 + 10"
+      "$20 = 2 \\cdot 7 + 6$",
+      "$30 = 3 \\cdot 7 + 9$",
+      "$300 = 42 \\cdot 7 + 6$",
+      "$40 = 4 \\cdot 7 + 10$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Es gilt 20 = 2·7+6, 30 = 3·7+9 und 300 = 42·7+6. Für 40 zeigt die Tabelle 40 = 4·7 + 12 (nicht + 10). 📄 Quelle: ari23_vl10, Folie 20 (S.20)",
+    "explanation": "Es gilt $20 = 2 \\cdot 7+6$, $30 = 3 \\cdot 7+9$ und $300 = 42 \\cdot 7+6$. Für 40 zeigt die Tabelle $40 = 4 \\cdot 7 + 12$ (nicht + 10). 📄 Quelle: ari23_vl10, Folie 20 (S.20)",
     "source": "ari23_vl10, Folie 20 (S.20, Rückblick – Teilbarkeitsregeln)"
   },
   {
@@ -686,7 +686,7 @@
     "topic": "ari23_vl10_reste_erkundung",
     "difficulty": 2,
     "type": "single",
-    "question": "Welche Beobachtung hält der Rückblick für m = 7 fest?",
+    "question": "Welche Beobachtung hält der Rückblick für $m = 7$ fest?",
     "options": [
       "Die Stellenwerte sind mit dem ersten Rest gewichtet.",
       "Alle Stellen lassen beim Teilen durch 7 den gleichen Rest.",
@@ -696,7 +696,7 @@
     "correct": [
       0
     ],
-    "explanation": "Für m = 7 gilt: Stellenwerte gewichtet mit dem ersten Rest (z. B. 10 lässt Rest 3, 20 Rest 6 = 2·3, 30 Rest 9 = 3·3 usw.). 📄 Quelle: ari23_vl10, Folie 20 (S.20)",
+    "explanation": "Für $m = 7$ gilt: Stellenwerte gewichtet mit dem ersten Rest (z. B. 10 lässt Rest 3, 20 Rest $6 = 2 \\cdot 3$, 30 Rest $9 = 3 \\cdot 3$ usw.). 📄 Quelle: ari23_vl10, Folie 20 (S.20)",
     "source": "ari23_vl10, Folie 20 (S.20, Rückblick – Teilbarkeitsregeln)"
   },
   {
@@ -704,11 +704,11 @@
     "topic": "ari23_vl10_teilbarkeit_7",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Teilt man 1000 durch 7 und schreibt 1000 = 142 · 7 + r (mit positivem Rest r): Wie groß ist r?",
+    "question": "Teilt man 1000 durch 7 und schreibt $1000 = 142 \\cdot 7 + r$ (mit positivem Rest $r$): Wie groß ist $r$?",
     "answer": 6,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Auf der Folie steht 1000 = 142 · 7 + 6 (142 · 7 = 994, 994 + 6 = 1000). 📄 Quelle: ari23_vl10, Folie 21 (S.21)",
+    "explanation": "Auf der Folie steht $1000 = 142 \\cdot 7 + 6$ ($142 \\cdot 7 = 994$, $994 + 6 = 1000$). 📄 Quelle: ari23_vl10, Folie 21 (S.21)",
     "source": "ari23_vl10, Folie 21 (S.21, Teilbarkeitsregeln)"
   },
   {
@@ -716,11 +716,11 @@
     "topic": "ari23_vl10_teilbarkeit_7",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Stellt man 1000 beim Teilen durch 7 mit negativem Rest als 1000 = 143 · 7 − r dar: Wie groß ist r?",
+    "question": "Stellt man 1000 beim Teilen durch 7 mit negativem Rest als $1000 = 143 \\cdot 7 - r$ dar: Wie groß ist $r$?",
     "answer": 1,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Folie zeigt 1000 = 142 · 7 + 6 = 143 · 7 − 1 (mit negativem Rest); 143 · 7 = 1001, 1001 − 1 = 1000. 📄 Quelle: ari23_vl10, Folie 21 (S.21)",
+    "explanation": "Die Folie zeigt $1000 = 142 \\cdot 7 + 6 = 143 \\cdot 7 - 1$ (mit negativem Rest); $143 \\cdot 7 = 1001$, $1001 - 1 = 1000$. 📄 Quelle: ari23_vl10, Folie 21 (S.21)",
     "source": "ari23_vl10, Folie 21 (S.21, Teilbarkeitsregeln)"
   },
   {
@@ -728,19 +728,19 @@
     "topic": "ari23_vl10_teilbarkeit_7",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Aussagen zum Rückblick 'Teilbarkeitsregeln' (Teilen durch m = 7) sind korrekt?",
+    "question": "Welche Aussagen zum Rückblick 'Teilbarkeitsregeln' (Teilen durch $m = 7$) sind korrekt?",
     "options": [
       "Die Stellenwerte werden mit dem ersten Rest gewichtet.",
-      "10000 = 1428 · 7 + 4",
-      "100000 = 14285 · 7 + 5",
-      "2000 = 284 · 7 + 8"
+      "$10000 = 1428 \\cdot 7 + 4$",
+      "$100000 = 14285 \\cdot 7 + 5$",
+      "$2000 = 284 \\cdot 7 + 8$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie notiert 'Stellenwerte gewichtet mit dem ersten Rest', 10000 = 1428 · 7 + 4, 100000 = 14285 · 7 + 5 sowie 2000 = 284 · 7 + 12 (nicht + 8). 📄 Quelle: ari23_vl10, Folie 21 (S.21)",
+    "explanation": "Die Folie notiert 'Stellenwerte gewichtet mit dem ersten Rest', $10000 = 1428 \\cdot 7 + 4$, $100000 = 14285 \\cdot 7 + 5$ sowie $2000 = 284 \\cdot 7 + 12$ (nicht + 8). 📄 Quelle: ari23_vl10, Folie 21 (S.21)",
     "source": "ari23_vl10, Folie 21 (S.21, Teilbarkeitsregeln)"
   },
   {
@@ -750,15 +750,15 @@
     "type": "single",
     "question": "Mit welcher Gewichtsfolge (von hinten, periodisch) arbeitet die gewichtete Quersummenregel für die Teilbarkeit durch 7?",
     "options": [
-      "1, 3, 2, -1, -3, -2",
-      "1, 3, 2, 1, 3, 2",
-      "1, -1, 1, -1",
-      "1, 3, 9, 27"
+      "$1, 3, 2, -1, -3, -2$",
+      "$1, 3, 2, 1, 3, 2$",
+      "$1, -1, 1, -1$",
+      "$1, 3, 9, 27$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Satz zur Teilbarkeit für 7 verwendet die von hinten periodisch mit 1, 3, 2, -1, -3, -2 gewichtete Quersumme. 📄 Quelle: ari23_vl10, Folie 22 (S.22)",
+    "explanation": "Der Satz zur Teilbarkeit für 7 verwendet die von hinten periodisch mit $1, 3, 2, -1, -3, -2$ gewichtete Quersumme. 📄 Quelle: ari23_vl10, Folie 22 (S.22)",
     "source": "ari23_vl10, Folie 22 (S.22, Teilbarkeitsregeln)"
   },
   {
@@ -768,15 +768,15 @@
     "type": "single",
     "question": "Wie lautet die gewichtete Quersummenregel für die Teilbarkeit durch 7?",
     "options": [
-      "Wenn die mit 1, 3, 2, -1, -3, -2 gewichtete Quersumme einer Zahl n durch 7 teilbar ist, dann ist n durch 7 teilbar.",
-      "Wenn die gewichtete Quersumme durch 7 teilbar ist, dann ist n durch 3 teilbar.",
-      "Wenn die gewichtete Quersumme durch 7 teilbar ist, ist n nur dann durch 7 teilbar, wenn n gerade ist.",
-      "Wenn die gewichtete Quersumme durch 7 teilbar ist, dann ist n nicht durch 7 teilbar."
+      "Wenn die mit $1, 3, 2, -1, -3, -2$ gewichtete Quersumme einer Zahl $n$ durch 7 teilbar ist, dann ist $n$ durch 7 teilbar.",
+      "Wenn die gewichtete Quersumme durch 7 teilbar ist, dann ist $n$ durch 3 teilbar.",
+      "Wenn die gewichtete Quersumme durch 7 teilbar ist, ist $n$ nur dann durch 7 teilbar, wenn $n$ gerade ist.",
+      "Wenn die gewichtete Quersumme durch 7 teilbar ist, dann ist $n$ nicht durch 7 teilbar."
     ],
     "correct": [
       0
     ],
-    "explanation": "Satz (gewichtete Quersummenregel): Wenn die von hinten periodisch mit 1, 3, 2, -1, -3, -2 gewichtete Quersumme einer Zahl n durch 7 teilbar ist, dann ist die Zahl n durch 7 teilbar. 📄 Quelle: ari23_vl10, Folie 22 (S.22)",
+    "explanation": "Satz (gewichtete Quersummenregel): Wenn die von hinten periodisch mit $1, 3, 2, -1, -3, -2$ gewichtete Quersumme einer Zahl $n$ durch 7 teilbar ist, dann ist die Zahl $n$ durch 7 teilbar. 📄 Quelle: ari23_vl10, Folie 22 (S.22)",
     "source": "ari23_vl10, Folie 22 (S.22, Teilbarkeitsregeln)"
   },
   {
@@ -784,11 +784,11 @@
     "topic": "ari23_vl10_teilbarkeit_7",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Schreibt man 100 = 14 · 7 + r: Wie groß ist r?",
+    "question": "Schreibt man $100 = 14 \\cdot 7 + r$: Wie groß ist $r$?",
     "answer": 2,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Es gilt 100 = 14 · 7 + 2 (14 · 7 = 98, 98 + 2 = 100). 📄 Quelle: ari23_vl10, Folie 22 (S.22)",
+    "explanation": "Es gilt $100 = 14 \\cdot 7 + 2$ ($14 \\cdot 7 = 98$, $98 + 2 = 100$). 📄 Quelle: ari23_vl10, Folie 22 (S.22)",
     "source": "ari23_vl10, Folie 22 (S.22, Teilbarkeitsregeln)"
   },
   {
@@ -798,15 +798,15 @@
     "type": "single",
     "question": "Mit welcher Gewichtsfolge (von hinten, periodisch) arbeitet die gewichtete Quersummenregel für die Teilbarkeit durch 11?",
     "options": [
-      "1, -1",
-      "1, 3, 2, -1, -3, -2",
-      "1, -3, -4, -1, 3, 4",
-      "1, 1, 1, 1"
+      "$1, -1$",
+      "$1, 3, 2, -1, -3, -2$",
+      "$1, -3, -4, -1, 3, 4$",
+      "$1, 1, 1, 1$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Satz zur Teilbarkeit für 11 verwendet die von hinten periodisch mit 1, -1 gewichtete Quersumme. 📄 Quelle: ari23_vl10, Folie 23 (S.23)",
+    "explanation": "Der Satz zur Teilbarkeit für 11 verwendet die von hinten periodisch mit $1, -1$ gewichtete Quersumme. 📄 Quelle: ari23_vl10, Folie 23 (S.23)",
     "source": "ari23_vl10, Folie 23 (S.23, Teilbarkeitsregeln)"
   },
   {
@@ -814,11 +814,11 @@
     "topic": "ari23_vl10_teilbarkeit_11",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Schreibt man 100 = 9 · 11 + r: Wie groß ist r?",
+    "question": "Schreibt man $100 = 9 \\cdot 11 + r$: Wie groß ist $r$?",
     "answer": 1,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Es gilt 100 = 9 · 11 + 1 (9 · 11 = 99, 99 + 1 = 100). 📄 Quelle: ari23_vl10, Folie 23 (S.23)",
+    "explanation": "Es gilt $100 = 9 \\cdot 11 + 1$ ($9 \\cdot 11 = 99$, $99 + 1 = 100$). 📄 Quelle: ari23_vl10, Folie 23 (S.23)",
     "source": "ari23_vl10, Folie 23 (S.23, Teilbarkeitsregeln)"
   },
   {
@@ -828,15 +828,15 @@
     "type": "single",
     "question": "Wie lautet die gewichtete Quersummenregel für die Teilbarkeit durch 11?",
     "options": [
-      "Wenn die mit 1, -1 gewichtete Quersumme einer Zahl n durch 11 teilbar ist, dann ist n durch 11 teilbar.",
-      "Wenn die mit 1, -1 gewichtete Quersumme durch 11 teilbar ist, dann ist n durch 7 teilbar.",
-      "Wenn die Quersumme (ungewichtet) durch 11 teilbar ist, dann ist n durch 11 teilbar.",
-      "Wenn die mit 1, 3, 2, -1, -3, -2 gewichtete Quersumme durch 11 teilbar ist, dann ist n durch 11 teilbar."
+      "Wenn die mit $1, -1$ gewichtete Quersumme einer Zahl $n$ durch 11 teilbar ist, dann ist $n$ durch 11 teilbar.",
+      "Wenn die mit $1, -1$ gewichtete Quersumme durch 11 teilbar ist, dann ist $n$ durch 7 teilbar.",
+      "Wenn die Quersumme (ungewichtet) durch 11 teilbar ist, dann ist $n$ durch 11 teilbar.",
+      "Wenn die mit $1, 3, 2, -1, -3, -2$ gewichtete Quersumme durch 11 teilbar ist, dann ist $n$ durch 11 teilbar."
     ],
     "correct": [
       0
     ],
-    "explanation": "Satz: Wenn die von hinten periodisch mit 1, -1 gewichtete Quersumme einer Zahl n durch 11 teilbar ist, dann ist die Zahl n durch 11 teilbar. 📄 Quelle: ari23_vl10, Folie 23 (S.23)",
+    "explanation": "Satz: Wenn die von hinten periodisch mit $1, -1$ gewichtete Quersumme einer Zahl $n$ durch 11 teilbar ist, dann ist die Zahl $n$ durch 11 teilbar. 📄 Quelle: ari23_vl10, Folie 23 (S.23)",
     "source": "ari23_vl10, Folie 23 (S.23, Teilbarkeitsregeln)"
   },
   {
@@ -846,15 +846,15 @@
     "type": "single",
     "question": "Mit welcher Gewichtsfolge (von hinten, periodisch) arbeitet die gewichtete Quersummenregel für die Teilbarkeit durch 13?",
     "options": [
-      "1, -3, -4, -1, 3, 4",
-      "1, 3, 2, -1, -3, -2",
-      "1, -1",
-      "1, 3, 4, 1, 3, 4"
+      "$1, -3, -4, -1, 3, 4$",
+      "$1, 3, 2, -1, -3, -2$",
+      "$1, -1$",
+      "$1, 3, 4, 1, 3, 4$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der Satz zur Teilbarkeit für 13 verwendet die von hinten periodisch mit 1, -3, -4, -1, 3, 4 gewichtete Quersumme. 📄 Quelle: ari23_vl10, Folie 24 (S.24)",
+    "explanation": "Der Satz zur Teilbarkeit für 13 verwendet die von hinten periodisch mit $1, -3, -4, -1, 3, 4$ gewichtete Quersumme. 📄 Quelle: ari23_vl10, Folie 24 (S.24)",
     "source": "ari23_vl10, Folie 24 (S.24, Teilbarkeitsregeln)"
   },
   {
@@ -862,11 +862,11 @@
     "topic": "ari23_vl10_teilbarkeit_13",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Stellt man 100 beim Teilen durch 13 mit negativem Rest als 100 = 8 · 13 − r dar: Wie groß ist r?",
+    "question": "Stellt man 100 beim Teilen durch 13 mit negativem Rest als $100 = 8 \\cdot 13 - r$ dar: Wie groß ist $r$?",
     "answer": 4,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Folie zeigt 100 = 7 · 13 + 9 = 8 · 13 − 4 (8 · 13 = 104, 104 − 4 = 100). 📄 Quelle: ari23_vl10, Folie 24 (S.24)",
+    "explanation": "Die Folie zeigt $100 = 7 \\cdot 13 + 9 = 8 \\cdot 13 - 4$ ($8 \\cdot 13 = 104$, $104 - 4 = 100$). 📄 Quelle: ari23_vl10, Folie 24 (S.24)",
     "source": "ari23_vl10, Folie 24 (S.24, Teilbarkeitsregeln)"
   },
   {
@@ -876,17 +876,17 @@
     "type": "multi",
     "question": "Welche der folgenden Darstellungen von Zehnerpotenzen beim Teilen durch 13 sind korrekt?",
     "options": [
-      "10 = 1 · 13 − 3",
-      "100 = 7 · 13 + 9",
-      "1000 = 77 · 13 − 1",
-      "10.000 = 769 · 13 + 4"
+      "$10 = 1 \\cdot 13 - 3$",
+      "$100 = 7 \\cdot 13 + 9$",
+      "$1000 = 77 \\cdot 13 - 1$",
+      "$10.000 = 769 \\cdot 13 + 4$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie zeigt 10 = 0 · 13 + 10 = 1 · 13 − 3, 100 = 7 · 13 + 9 = 8 · 13 − 4, 1000 = 76 · 13 + 12 = 77 · 13 − 1 sowie 10.000 = 769 · 13 + 3 (nicht + 4). 📄 Quelle: ari23_vl10, Folie 24 (S.24)",
+    "explanation": "Die Folie zeigt $10 = 0 \\cdot 13 + 10 = 1 \\cdot 13 - 3$, $100 = 7 \\cdot 13 + 9 = 8 \\cdot 13 - 4$, $1000 = 76 \\cdot 13 + 12 = 77 \\cdot 13 - 1$ sowie $10.000 = 769 \\cdot 13 + 3$ (nicht + 4). 📄 Quelle: ari23_vl10, Folie 24 (S.24)",
     "source": "ari23_vl10, Folie 24 (S.24, Teilbarkeitsregeln)"
   },
   {
@@ -897,8 +897,8 @@
     "question": "Welche Aussagen zur Teilbarkeit durch 17 und 19 sind korrekt?",
     "options": [
       "Bei 17 und 19 gibt es keine schnelle Periode.",
-      "Die Reste beim Teilen durch 17 sind: -2, -3, 4, 6, 8, 5, -1, 7, 2.",
-      "Die Reste beim Teilen durch 19 sind: 5, -7, 6, 3, -8, -4, -2, -1, 9, -5.",
+      "Die Reste beim Teilen durch 17 sind: $-2, -3, 4, 6, 8, 5, -1, 7, 2$.",
+      "Die Reste beim Teilen durch 19 sind: $5, -7, 6, 3, -8, -4, -2, -1, 9, -5$.",
       "Für 17 und 19 gibt es eine besonders kurze, schnelle Periode."
     ],
     "correct": [
@@ -906,7 +906,7 @@
       1,
       2
     ],
-    "explanation": "Die Folie hält fest: 17 und 19 sind unangenehm, es gibt keine schnelle Periode; Reste bei 17: -2, -3, 4, 6, 8, 5, -1, 7, 2; Reste bei 19: 5, -7, 6, 3, -8, -4, -2, -1, 9, -5. 📄 Quelle: ari23_vl10, Folie 25 (S.25)",
+    "explanation": "Die Folie hält fest: 17 und 19 sind unangenehm, es gibt keine schnelle Periode; Reste bei 17: $-2, -3, 4, 6, 8, 5, -1, 7, 2$; Reste bei 19: $5, -7, 6, 3, -8, -4, -2, -1, 9, -5$. 📄 Quelle: ari23_vl10, Folie 25 (S.25)",
     "source": "ari23_vl10, Folie 25 (S.25, Teilbarkeitsregeln)"
   },
   {
@@ -934,17 +934,17 @@
     "type": "multi",
     "question": "Welche Einträge der Verknüpfungstafel für die Addition gerader (g) und ungerader (u) Zahlen sind korrekt?",
     "options": [
-      "g + g = g",
-      "g + u = u",
-      "u + u = g",
-      "u + u = u"
+      "$g + g = g$",
+      "$g + u = u$",
+      "$u + u = g$",
+      "$u + u = u$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Verknüpfungstafel (Addition) zeigt g + g = g, g + u = u, u + g = u und u + u = g. 📄 Quelle: ari23_vl10, Folie 27 (S.27)",
+    "explanation": "Die Verknüpfungstafel (Addition) zeigt $g + g = g$, $g + u = u$, $u + g = u$ und $u + u = g$. 📄 Quelle: ari23_vl10, Folie 27 (S.27)",
     "source": "ari23_vl10, Folie 27 (S.27, Rechnen mit geraden und ungeraden Zahlen)"
   },
   {
@@ -952,17 +952,17 @@
     "topic": "ari23_vl10_gerade_ungerade",
     "difficulty": 2,
     "type": "single",
-    "question": "Mit g = 2n und u = 2m + 1: Wie begründet man formal, dass die Summe zweier ungerader Zahlen gerade ist?",
+    "question": "Mit $g = 2n$ und $u = 2m + 1$: Wie begründet man formal, dass die Summe zweier ungerader Zahlen gerade ist?",
     "options": [
-      "u + u = (2m₁+1) + (2m₂+1) = 2m₁ + 2m₂ + 2 = 2(m₁+m₂+1) = g",
-      "u + u = (2m₁+1) + (2m₂+1) = 2(m₁+m₂) + 1 = u",
-      "u + u = 2m₁ · 2m₂ = 4m₁m₂ = g",
-      "u + u = (2m+1) + 2m = 2(n+m) + 1 = u"
+      "$u + u = (2m_1+1) + (2m_2+1) = 2m_1 + 2m_2 + 2 = 2(m_1+m_2+1) = g$",
+      "$u + u = (2m_1+1) + (2m_2+1) = 2(m_1+m_2) + 1 = u$",
+      "$u + u = 2m_1 \\cdot 2m_2 = 4m_1m_2 = g$",
+      "$u + u = (2m+1) + 2m = 2(n+m) + 1 = u$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie rechnet u + u = (2m₁+1) + (2m₂+1) = 2m₁ + 2m₂ + 2 = 2(m₁+m₂+1) = g. 📄 Quelle: ari23_vl10, Folie 27 (S.27)",
+    "explanation": "Die Folie rechnet $u + u = (2m_1+1) + (2m_2+1) = 2m_1 + 2m_2 + 2 = 2(m_1+m_2+1) = g$. 📄 Quelle: ari23_vl10, Folie 27 (S.27)",
     "source": "ari23_vl10, Folie 27 (S.27, Rechnen mit geraden und ungeraden Zahlen)"
   },
   {
@@ -972,17 +972,17 @@
     "type": "multi",
     "question": "Welche Einträge der Verknüpfungstafel für die Multiplikation gerader (g) und ungerader (u) Zahlen sind korrekt?",
     "options": [
-      "g · g = g",
-      "g · u = g",
-      "u · u = u",
-      "u · u = g"
+      "$g \\cdot g = g$",
+      "$g \\cdot u = g$",
+      "$u \\cdot u = u$",
+      "$u \\cdot u = g$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Verknüpfungstafel (Multiplikation) zeigt g · g = g, g · u = g, u · g = g und u · u = u. 📄 Quelle: ari23_vl10, Folie 28 (S.28)",
+    "explanation": "Die Verknüpfungstafel (Multiplikation) zeigt $g \\cdot g = g$, $g \\cdot u = g$, $u \\cdot g = g$ und $u \\cdot u = u$. 📄 Quelle: ari23_vl10, Folie 28 (S.28)",
     "source": "ari23_vl10, Folie 28 (S.28, Rechnen mit geraden und ungeraden Zahlen)"
   },
   {
@@ -990,17 +990,17 @@
     "topic": "ari23_vl10_gerade_ungerade",
     "difficulty": 2,
     "type": "single",
-    "question": "Mit g = 2n und u = 2m + 1: Wie begründet man formal, dass das Produkt zweier ungerader Zahlen ungerade ist?",
+    "question": "Mit $g = 2n$ und $u = 2m + 1$: Wie begründet man formal, dass das Produkt zweier ungerader Zahlen ungerade ist?",
     "options": [
-      "u · u = (2m₁+1)(2m₂+1) = 2m₁·2m₂ + 2m₁ + 2m₂ + 1 = 2(2m₁·m₂ + m₁ + m₂) + 1 = u",
-      "u · u = (2m₁+1)(2m₂+1) = 4m₁m₂ = g",
-      "u · u = 2n · (2m+1) = 2(n(2m+1)) = g",
-      "u · u = (2m₁+1) + (2m₂+1) = 2(m₁+m₂+1) = g"
+      "$u \\cdot u = (2m_1+1)(2m_2+1) = 2m_1 \\cdot 2m_2 + 2m_1 + 2m_2 + 1 = 2(2m_1 \\cdot m_2 + m_1 + m_2) + 1 = u$",
+      "$u \\cdot u = (2m_1+1)(2m_2+1) = 4m_1m_2 = g$",
+      "$u \\cdot u = 2n \\cdot (2m+1) = 2(n(2m+1)) = g$",
+      "$u \\cdot u = (2m_1+1) + (2m_2+1) = 2(m_1+m_2+1) = g$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie rechnet u · u = (2m₁+1)·(2m₂+1) = 2m₁·2m₂ + 2m₁ + 2m₂ + 1 = 2(2m₁·m₂ + m₁ + m₂) + 1 = u. 📄 Quelle: ari23_vl10, Folie 28 (S.28)",
+    "explanation": "Die Folie rechnet $u \\cdot u = (2m_1+1) \\cdot (2m_2+1) = 2m_1 \\cdot 2m_2 + 2m_1 + 2m_2 + 1 = 2(2m_1 \\cdot m_2 + m_1 + m_2) + 1 = u$. 📄 Quelle: ari23_vl10, Folie 28 (S.28)",
     "source": "ari23_vl10, Folie 28 (S.28, Rechnen mit geraden und ungeraden Zahlen)"
   },
   {
@@ -1046,17 +1046,17 @@
     "topic": "ari23_vl10_restklassen",
     "difficulty": 3,
     "type": "single",
-    "question": "Warum ist die Addition auf der Menge {t (durch 3 teilbar), n (nicht durch 3 teilbar)} mathematisch 'nicht wohldefiniert'?",
+    "question": "Warum ist die Addition auf der Menge $\\{t \\text{ (durch 3 teilbar)}, n \\text{ (nicht durch 3 teilbar)}\\}$ mathematisch 'nicht wohldefiniert'?",
     "options": [
-      "Weil bei n + n zwei Ergebnisse (t oder n) herauskommen können.",
-      "Weil t + t kein eindeutiges Ergebnis hat.",
+      "Weil bei $n + n$ zwei Ergebnisse ($t$ oder $n$) herauskommen können.",
+      "Weil $t + t$ kein eindeutiges Ergebnis hat.",
       "Weil die Menge nur zwei Elemente enthält.",
-      "Weil t und n nicht vertauschbar sind."
+      "Weil $t$ und $n$ nicht vertauschbar sind."
     ],
     "correct": [
       0
     ],
-    "explanation": "Bei n + n kann sowohl t als auch n herauskommen (Eintrag n/t). Eine Operation ist nicht wohldefiniert, weil zwei Ergebnisse herauskommen können; nötig ist eine Unterscheidung zwischen n = 3k+1 und n = 3k+2. 📄 Quelle: ari23_vl10, Folie 31 (S.31)",
+    "explanation": "Bei $n + n$ kann sowohl $t$ als auch $n$ herauskommen (Eintrag $n/t$). Eine Operation ist nicht wohldefiniert, weil zwei Ergebnisse herauskommen können; nötig ist eine Unterscheidung zwischen $n = 3k+1$ und $n = 3k+2$. 📄 Quelle: ari23_vl10, Folie 31 (S.31)",
     "source": "ari23_vl10, Folie 31 (S.31, Rechnen mit Resten / Restklassen)"
   },
   {
@@ -1064,19 +1064,19 @@
     "topic": "ari23_vl10_restklassen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Einträge der Multiplikationstafel für t (durch 3 teilbar) und n (nicht durch 3 teilbar) sind korrekt?",
+    "question": "Welche Einträge der Multiplikationstafel für $t$ (durch 3 teilbar) und $n$ (nicht durch 3 teilbar) sind korrekt?",
     "options": [
-      "t · t = t",
-      "t · n = t",
-      "n · n = n",
-      "n · n = t"
+      "$t \\cdot t = t$",
+      "$t \\cdot n = t$",
+      "$n \\cdot n = n$",
+      "$n \\cdot n = t$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Multiplikationstafel zeigt t · t = t, t · n = t, n · t = t und n · n = n. 📄 Quelle: ari23_vl10, Folie 31 (S.31)",
+    "explanation": "Die Multiplikationstafel zeigt $t \\cdot t = t$, $t \\cdot n = t$, $n \\cdot t = t$ und $n \\cdot n = n$. 📄 Quelle: ari23_vl10, Folie 31 (S.31)",
     "source": "ari23_vl10, Folie 31 (S.31, Rechnen mit Resten / Restklassen)"
   },
   {
@@ -1086,17 +1086,17 @@
     "type": "multi",
     "question": "Wie sind die Restklassen beim Teilen durch 3 definiert?",
     "options": [
-      "0̄ = {0, 3, 6, ...} = {n ∈ ℕ | n = 3k, k ∈ ℕ₀}",
-      "1̄ = {1, 4, 7, ...} = {n ∈ ℕ | n = 3k+1, k ∈ ℕ₀}",
-      "2̄ = {2, 5, 8, ...} = {n ∈ ℕ | n = 3k+2, k ∈ ℕ₀}",
-      "0̄ = {1, 2, 3, ...} = {n ∈ ℕ | n = 3k−1}"
+      "$\\overline{0} = \\{0, 3, 6, \\ldots\\} = \\{n \\in \\mathbb{N} \\mid n = 3k,\\ k \\in \\mathbb{N}_0\\}$",
+      "$\\overline{1} = \\{1, 4, 7, \\ldots\\} = \\{n \\in \\mathbb{N} \\mid n = 3k+1,\\ k \\in \\mathbb{N}_0\\}$",
+      "$\\overline{2} = \\{2, 5, 8, \\ldots\\} = \\{n \\in \\mathbb{N} \\mid n = 3k+2,\\ k \\in \\mathbb{N}_0\\}$",
+      "$\\overline{0} = \\{1, 2, 3, \\ldots\\} = \\{n \\in \\mathbb{N} \\mid n = 3k-1\\}$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie definiert 0̄ = {0,3,6,...} = {n∈ℕ | n=3k}, 1̄ = {1,4,7,...} = {n∈ℕ | n=3k+1} und 2̄ = {2,5,8,...} = {n∈ℕ | n=3k+2}, jeweils mit k ∈ ℕ₀. 📄 Quelle: ari23_vl10, Folie 31 (S.31)",
+    "explanation": "Die Folie definiert $\\overline{0} = \\{0,3,6,\\ldots\\} = \\{n \\in \\mathbb{N} \\mid n = 3k\\}$, $\\overline{1} = \\{1,4,7,\\ldots\\} = \\{n \\in \\mathbb{N} \\mid n = 3k+1\\}$ und $\\overline{2} = \\{2,5,8,\\ldots\\} = \\{n \\in \\mathbb{N} \\mid n = 3k+2\\}$, jeweils mit $k \\in \\mathbb{N}_0$. 📄 Quelle: ari23_vl10, Folie 31 (S.31)",
     "source": "ari23_vl10, Folie 31 (S.31, Rechnen mit Resten / Restklassen)"
   },
   {
@@ -1104,17 +1104,17 @@
     "topic": "ari23_vl10_restklassen",
     "difficulty": 1,
     "type": "single",
-    "question": "Was ist die Restklasse 0̄ (beim Teilen durch 3)?",
+    "question": "Was ist die Restklasse $\\overline{0}$ (beim Teilen durch 3)?",
     "options": [
-      "Die Menge aller Zahlen, die beim Teilen durch 3 den Rest 0 lassen, also alle Zahlen der Form n = 3k.",
-      "Die Menge aller Zahlen der Form n = 3k + 1.",
+      "Die Menge aller Zahlen, die beim Teilen durch 3 den Rest 0 lassen, also alle Zahlen der Form $n = 3k$.",
+      "Die Menge aller Zahlen der Form $n = 3k + 1$.",
       "Die Menge aller ungeraden Zahlen.",
       "Die Menge aller Primzahlen."
     ],
     "correct": [
       0
     ],
-    "explanation": "Beispiel auf der Folie: 0̄ ist die Menge der Zahlen (Restklasse), die beim Teilen durch eine andere Zahl m (hier 3) den Rest 0 lässt, also alle Zahlen der Form n = 3k. 📄 Quelle: ari23_vl10, Folie 31 (S.31)",
+    "explanation": "Beispiel auf der Folie: $\\overline{0}$ ist die Menge der Zahlen (Restklasse), die beim Teilen durch eine andere Zahl $m$ (hier 3) den Rest 0 lässt, also alle Zahlen der Form $n = 3k$. 📄 Quelle: ari23_vl10, Folie 31 (S.31)",
     "source": "ari23_vl10, Folie 31 (S.31, Rechnen mit Resten / Restklassen)"
   },
   {
@@ -1122,17 +1122,17 @@
     "topic": "ari23_vl10_restklassen_addition",
     "difficulty": 1,
     "type": "single",
-    "question": "Welches Ergebnis hat die Addition der Restklassen 2̄ + 1̄ (beim Teilen durch 3)?",
+    "question": "Welches Ergebnis hat die Addition der Restklassen $\\overline{2} + \\overline{1}$ (beim Teilen durch 3)?",
     "options": [
-      "0̄",
-      "1̄",
-      "2̄",
-      "3̄"
+      "$\\overline{0}$",
+      "$\\overline{1}$",
+      "$\\overline{2}$",
+      "$\\overline{3}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie zeigt 2̄ + 1̄ = 0̄ (formal und ikonisch). 📄 Quelle: ari23_vl10, Folie 32 (S.32)",
+    "explanation": "Die Folie zeigt $\\overline{2} + \\overline{1} = \\overline{0}$ (formal und ikonisch). 📄 Quelle: ari23_vl10, Folie 32 (S.32)",
     "source": "ari23_vl10, Folie 32 (S.32, Rechnen mit Resten / Restklassen)"
   },
   {
@@ -1140,17 +1140,17 @@
     "topic": "ari23_vl10_restklassen_addition",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie begründet man formal, dass 2̄ + 1̄ = 0̄ (beim Teilen durch 3) gilt?",
+    "question": "Wie begründet man formal, dass $\\overline{2} + \\overline{1} = \\overline{0}$ (beim Teilen durch 3) gilt?",
     "options": [
-      "(3k₁+2) + (3k₂+1) = 3k₁ + 3k₂ + 2 + 1 = 3(k₁+k₂) + 3, also durch 3 teilbar (Rest 0).",
-      "(3k₁+2) + (3k₂+1) = 3(k₁+k₂) + 1, also Rest 1.",
-      "(3k₁+2) · (3k₂+1) = 3(3k₁k₂ + k₁ + 2k₂) + 2, also Rest 2.",
-      "(3k₁+2) + (3k₂+2) = 3(k₁+k₂+1) + 1, also Rest 1."
+      "$(3k_1+2) + (3k_2+1) = 3k_1 + 3k_2 + 2 + 1 = 3(k_1+k_2) + 3$, also durch 3 teilbar (Rest 0).",
+      "$(3k_1+2) + (3k_2+1) = 3(k_1+k_2) + 1$, also Rest 1.",
+      "$(3k_1+2) \\cdot (3k_2+1) = 3(3k_1k_2 + k_1 + 2k_2) + 2$, also Rest 2.",
+      "$(3k_1+2) + (3k_2+2) = 3(k_1+k_2+1) + 1$, also Rest 1."
     ],
     "correct": [
       0
     ],
-    "explanation": "Formal (Addition): (3k₁+2) + (3k₂+1) = 3k₁ + 3k₂ + 2 + 1 = 3(k₁+k₂) + 3 = 3(k₁+k₂+1), also durch 3 teilbar → Restklasse 0̄. 📄 Quelle: ari23_vl10, Folie 32 (S.32)",
+    "explanation": "Formal (Addition): $(3k_1+2) + (3k_2+1) = 3k_1 + 3k_2 + 2 + 1 = 3(k_1+k_2) + 3 = 3(k_1+k_2+1)$, also durch 3 teilbar → Restklasse $\\overline{0}$. 📄 Quelle: ari23_vl10, Folie 32 (S.32)",
     "source": "ari23_vl10, Folie 32 (S.32, Rechnen mit Resten / Restklassen)"
   },
   {
@@ -1160,17 +1160,17 @@
     "type": "multi",
     "question": "Welche Einträge der Additionstafel der Restklassen (mod 3) sind korrekt?",
     "options": [
-      "1̄ + 1̄ = 2̄",
-      "1̄ + 2̄ = 0̄",
-      "2̄ + 1̄ = 0̄",
-      "1̄ + 1̄ = 0̄"
+      "$\\overline{1} + \\overline{1} = \\overline{2}$",
+      "$\\overline{1} + \\overline{2} = \\overline{0}$",
+      "$\\overline{2} + \\overline{1} = \\overline{0}$",
+      "$\\overline{1} + \\overline{1} = \\overline{0}$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Additionstafel zeigt u. a. 1̄ + 1̄ = 2̄, 1̄ + 2̄ = 0̄ und 2̄ + 1̄ = 0̄. 📄 Quelle: ari23_vl10, Folie 32 (S.32)",
+    "explanation": "Die Additionstafel zeigt u. a. $\\overline{1} + \\overline{1} = \\overline{2}$, $\\overline{1} + \\overline{2} = \\overline{0}$ und $\\overline{2} + \\overline{1} = \\overline{0}$. 📄 Quelle: ari23_vl10, Folie 32 (S.32)",
     "source": "ari23_vl10, Folie 32 (S.32, Rechnen mit Resten / Restklassen)"
   },
   {
@@ -1178,17 +1178,17 @@
     "topic": "ari23_vl10_restklassen_addition",
     "difficulty": 2,
     "type": "single",
-    "question": "Welches Ergebnis hat die Addition der Restklassen 2̄ + 2̄ (beim Teilen durch 3)?",
+    "question": "Welches Ergebnis hat die Addition der Restklassen $\\overline{2} + \\overline{2}$ (beim Teilen durch 3)?",
     "options": [
-      "1̄",
-      "0̄",
-      "2̄",
-      "4̄"
+      "$\\overline{1}$",
+      "$\\overline{0}$",
+      "$\\overline{2}$",
+      "$\\overline{4}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Formal: (3k₁+2) + (3k₂+2) = 3(k₁+k₂) + 4 = 3(k₁+k₂+1) + 1, also 2̄ + 2̄ = 1̄. 📄 Quelle: ari23_vl10, Folie 33 (S.33)",
+    "explanation": "Formal: $(3k_1+2) + (3k_2+2) = 3(k_1+k_2) + 4 = 3(k_1+k_2+1) + 1$, also $\\overline{2} + \\overline{2} = \\overline{1}$. 📄 Quelle: ari23_vl10, Folie 33 (S.33)",
     "source": "ari23_vl10, Folie 33 (S.33, Rechnen mit Resten / Restklassen)"
   },
   {
@@ -1196,17 +1196,17 @@
     "topic": "ari23_vl10_restklassen_addition",
     "difficulty": 2,
     "type": "single",
-    "question": "Welcher Restklasse entspricht die Restklasse 4̄ (beim Teilen durch 3)?",
+    "question": "Welcher Restklasse entspricht die Restklasse $\\overline{4}$ (beim Teilen durch 3)?",
     "options": [
-      "1̄",
-      "0̄",
-      "2̄",
-      "3̄"
+      "$\\overline{1}$",
+      "$\\overline{0}$",
+      "$\\overline{2}$",
+      "$\\overline{3}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Wegen 3(k₁+k₂) + 4 = 3(k₁+k₂+1) + 1 gilt: die Restklasse 4̄ entspricht der Restklasse 1̄. 📄 Quelle: ari23_vl10, Folie 33 (S.33)",
+    "explanation": "Wegen $3(k_1+k_2) + 4 = 3(k_1+k_2+1) + 1$ gilt: die Restklasse $\\overline{4}$ entspricht der Restklasse $\\overline{1}$. 📄 Quelle: ari23_vl10, Folie 33 (S.33)",
     "source": "ari23_vl10, Folie 33 (S.33, Rechnen mit Resten / Restklassen)"
   },
   {
@@ -1214,17 +1214,17 @@
     "topic": "ari23_vl10_restklassen_multiplikation",
     "difficulty": 1,
     "type": "single",
-    "question": "Welches Ergebnis hat die Multiplikation der Restklassen 2̄ · 1̄ (beim Teilen durch 3)?",
+    "question": "Welches Ergebnis hat die Multiplikation der Restklassen $\\overline{2} \\cdot \\overline{1}$ (beim Teilen durch 3)?",
     "options": [
-      "2̄",
-      "0̄",
-      "1̄",
-      "3̄"
+      "$\\overline{2}$",
+      "$\\overline{0}$",
+      "$\\overline{1}$",
+      "$\\overline{3}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die Folie zeigt 2̄ · 1̄ = 2̄. 📄 Quelle: ari23_vl10, Folie 35 (S.35)",
+    "explanation": "Die Folie zeigt $\\overline{2} \\cdot \\overline{1} = \\overline{2}$. 📄 Quelle: ari23_vl10, Folie 35 (S.35)",
     "source": "ari23_vl10, Folie 35 (S.35, Rechnen mit Resten / Restklassen)"
   },
   {
@@ -1232,17 +1232,17 @@
     "topic": "ari23_vl10_restklassen_multiplikation",
     "difficulty": 3,
     "type": "single",
-    "question": "Wie begründet man formal, dass 2̄ · 1̄ = 2̄ (beim Teilen durch 3) gilt?",
+    "question": "Wie begründet man formal, dass $\\overline{2} \\cdot \\overline{1} = \\overline{2}$ (beim Teilen durch 3) gilt?",
     "options": [
-      "(3k₁+2)·(3k₂+1) = 9k₁k₂ + 3k₁ + 6k₂ + 2 = 3(3k₁k₂ + k₁ + 2k₂) + 2, also Rest 2.",
-      "(3k₁+2)·(3k₂+1) = 3(3k₁k₂ + k₁ + k₂) + 1, also Rest 1.",
-      "(3k₁+2)·(3k₂+1) = 3(3k₁k₂ + 2k₁ + 2k₂ + 1) + 1, also Rest 1.",
-      "(3k₁+2) + (3k₂+1) = 3(k₁+k₂) + 3, also Rest 0."
+      "$(3k_1+2) \\cdot (3k_2+1) = 9k_1k_2 + 3k_1 + 6k_2 + 2 = 3(3k_1k_2 + k_1 + 2k_2) + 2$, also Rest 2.",
+      "$(3k_1+2) \\cdot (3k_2+1) = 3(3k_1k_2 + k_1 + k_2) + 1$, also Rest 1.",
+      "$(3k_1+2) \\cdot (3k_2+1) = 3(3k_1k_2 + 2k_1 + 2k_2 + 1) + 1$, also Rest 1.",
+      "$(3k_1+2) + (3k_2+1) = 3(k_1+k_2) + 3$, also Rest 0."
     ],
     "correct": [
       0
     ],
-    "explanation": "Formal (Multiplikation): (3k₁+2)·(3k₂+1) = 3k₁·3k₂ + 3k₁·1 + 2·3k₂ + 2·1 = 9k₁k₂ + 3k₁ + 6k₂ + 2 = 3(3k₁k₂ + k₁ + 2k₂) + 2 → Restklasse 2̄. 📄 Quelle: ari23_vl10, Folie 35 (S.35)",
+    "explanation": "Formal (Multiplikation): $(3k_1+2) \\cdot (3k_2+1) = 3k_1 \\cdot 3k_2 + 3k_1 \\cdot 1 + 2 \\cdot 3k_2 + 2 \\cdot 1 = 9k_1k_2 + 3k_1 + 6k_2 + 2 = 3(3k_1k_2 + k_1 + 2k_2) + 2$ → Restklasse $\\overline{2}$. 📄 Quelle: ari23_vl10, Folie 35 (S.35)",
     "source": "ari23_vl10, Folie 35 (S.35, Rechnen mit Resten / Restklassen)"
   },
   {
@@ -1250,17 +1250,17 @@
     "topic": "ari23_vl10_restklassen_multiplikation",
     "difficulty": 1,
     "type": "single",
-    "question": "Welches Ergebnis hat die Multiplikation der Restklassen 1̄ · 1̄ (beim Teilen durch 3)?",
+    "question": "Welches Ergebnis hat die Multiplikation der Restklassen $\\overline{1} \\cdot \\overline{1}$ (beim Teilen durch 3)?",
     "options": [
-      "1̄",
-      "0̄",
-      "2̄",
-      "3̄"
+      "$\\overline{1}$",
+      "$\\overline{0}$",
+      "$\\overline{2}$",
+      "$\\overline{3}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Formal: (3k₁+1)·(3k₂+1) = 3(3k₁k₂ + k₁ + k₂) + 1, also 1̄ · 1̄ = 1̄. 📄 Quelle: ari23_vl10, Folie 36 (S.36)",
+    "explanation": "Formal: $(3k_1+1) \\cdot (3k_2+1) = 3(3k_1k_2 + k_1 + k_2) + 1$, also $\\overline{1} \\cdot \\overline{1} = \\overline{1}$. 📄 Quelle: ari23_vl10, Folie 36 (S.36)",
     "source": "ari23_vl10, Folie 36 (S.36, Rechnen mit Resten / Restklassen)"
   },
   {
@@ -1268,17 +1268,17 @@
     "topic": "ari23_vl10_restklassen_multiplikation",
     "difficulty": 2,
     "type": "single",
-    "question": "Welches Ergebnis hat die Multiplikation der Restklassen 2̄ · 2̄ (beim Teilen durch 3)?",
+    "question": "Welches Ergebnis hat die Multiplikation der Restklassen $\\overline{2} \\cdot \\overline{2}$ (beim Teilen durch 3)?",
     "options": [
-      "1̄",
-      "2̄",
-      "0̄",
-      "4̄"
+      "$\\overline{1}$",
+      "$\\overline{2}$",
+      "$\\overline{0}$",
+      "$\\overline{4}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Formal: (3k₁+2)·(3k₂+2) = 9k₁k₂ + 6k₁ + 6k₂ + 4 = 3(3k₁k₂ + 2k₁ + 2k₂ + 1) + 1, also 2̄ · 2̄ = 1̄. 📄 Quelle: ari23_vl10, Folie 36 (S.36)",
+    "explanation": "Formal: $(3k_1+2) \\cdot (3k_2+2) = 9k_1k_2 + 6k_1 + 6k_2 + 4 = 3(3k_1k_2 + 2k_1 + 2k_2 + 1) + 1$, also $\\overline{2} \\cdot \\overline{2} = \\overline{1}$. 📄 Quelle: ari23_vl10, Folie 36 (S.36)",
     "source": "ari23_vl10, Folie 36 (S.36, Rechnen mit Resten / Restklassen)"
   },
   {
@@ -1288,17 +1288,17 @@
     "type": "multi",
     "question": "Welche Produkte von Restklassen (mod 3) sind korrekt?",
     "options": [
-      "2̄ · 1̄ = 2̄",
-      "1̄ · 1̄ = 1̄",
-      "2̄ · 2̄ = 1̄",
-      "2̄ · 2̄ = 2̄"
+      "$\\overline{2} \\cdot \\overline{1} = \\overline{2}$",
+      "$\\overline{1} \\cdot \\overline{1} = \\overline{1}$",
+      "$\\overline{2} \\cdot \\overline{2} = \\overline{1}$",
+      "$\\overline{2} \\cdot \\overline{2} = \\overline{2}$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie leitet her: 2̄ · 1̄ = 2̄, 1̄ · 1̄ = 1̄ und 2̄ · 2̄ = 1̄. 📄 Quelle: ari23_vl10, Folie 36 (S.36)",
+    "explanation": "Die Folie leitet her: $\\overline{2} \\cdot \\overline{1} = \\overline{2}$, $\\overline{1} \\cdot \\overline{1} = \\overline{1}$ und $\\overline{2} \\cdot \\overline{2} = \\overline{1}$. 📄 Quelle: ari23_vl10, Folie 36 (S.36)",
     "source": "ari23_vl10, Folie 36 (S.36, Rechnen mit Resten / Restklassen)"
   },
   {
@@ -1306,19 +1306,19 @@
     "topic": "ari23_vl10_restklassen_multiplikation",
     "difficulty": 1,
     "type": "multi",
-    "question": "Was zeigt die vollständige Multiplikationstafel der Restklassen (mod 3) für die Restklasse 0̄?",
+    "question": "Was zeigt die vollständige Multiplikationstafel der Restklassen (mod 3) für die Restklasse $\\overline{0}$?",
     "options": [
-      "0̄ · 0̄ = 0̄",
-      "0̄ · 1̄ = 0̄",
-      "0̄ · 2̄ = 0̄",
-      "0̄ · 2̄ = 2̄"
+      "$\\overline{0} \\cdot \\overline{0} = \\overline{0}$",
+      "$\\overline{0} \\cdot \\overline{1} = \\overline{0}$",
+      "$\\overline{0} \\cdot \\overline{2} = \\overline{0}$",
+      "$\\overline{0} \\cdot \\overline{2} = \\overline{2}$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "In der vollständigen Multiplikationstafel ist die gesamte 0̄-Zeile und 0̄-Spalte gleich 0̄: 0̄ · 0̄ = 0̄, 0̄ · 1̄ = 0̄, 0̄ · 2̄ = 0̄. 📄 Quelle: ari23_vl10, Folie 37 (S.37)",
+    "explanation": "In der vollständigen Multiplikationstafel ist die gesamte $\\overline{0}$-Zeile und $\\overline{0}$-Spalte gleich $\\overline{0}$: $\\overline{0} \\cdot \\overline{0} = \\overline{0}$, $\\overline{0} \\cdot \\overline{1} = \\overline{0}$, $\\overline{0} \\cdot \\overline{2} = \\overline{0}$. 📄 Quelle: ari23_vl10, Folie 37 (S.37)",
     "source": "ari23_vl10, Folie 37 (S.37, Rechnen mit Resten / Restklassen)"
   },
   {
@@ -1326,17 +1326,17 @@
     "topic": "ari23_vl10_restklassen_multiplikation",
     "difficulty": 1,
     "type": "single",
-    "question": "Welches Ergebnis hat die Multiplikation der Restklassen 1̄ · 2̄ (beim Teilen durch 3) laut vollständiger Multiplikationstafel?",
+    "question": "Welches Ergebnis hat die Multiplikation der Restklassen $\\overline{1} \\cdot \\overline{2}$ (beim Teilen durch 3) laut vollständiger Multiplikationstafel?",
     "options": [
-      "2̄",
-      "1̄",
-      "0̄",
-      "3̄"
+      "$\\overline{2}$",
+      "$\\overline{1}$",
+      "$\\overline{0}$",
+      "$\\overline{3}$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Die vollständige Multiplikationstafel (mod 3) zeigt 1̄ · 2̄ = 2̄. 📄 Quelle: ari23_vl10, Folie 37 (S.37)",
+    "explanation": "Die vollständige Multiplikationstafel (mod 3) zeigt $\\overline{1} \\cdot \\overline{2} = \\overline{2}$. 📄 Quelle: ari23_vl10, Folie 37 (S.37)",
     "source": "ari23_vl10, Folie 37 (S.37, Rechnen mit Resten / Restklassen)"
   }
 ]
