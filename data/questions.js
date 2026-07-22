@@ -31047,7 +31047,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       1
     ],
-    "explanation": "Wegen 1000 = 8·125 gilt: eine Zahl ist genau dann durch 125 teilbar, wenn die aus ihren letzten drei Ziffern gebildete Zahl durch 125 teilbar ist. Hier sind die letzten drei Ziffern 175; 175 = 125 + 50 ist nicht durch 125 teilbar, also ist 87175 nicht durch 125 teilbar. 📄 Quelle: klausur_ss20, Folie 2 (S.2)",
+    "explanation": "Wegen $1000 = 8 \\cdot 125$ gilt: eine Zahl ist genau dann durch 125 teilbar, wenn die aus ihren letzten drei Ziffern gebildete Zahl durch 125 teilbar ist. Hier sind die letzten drei Ziffern 175; $175 = 125 + 50$ ist nicht durch 125 teilbar, also ist 87175 nicht durch 125 teilbar. 📄 Quelle: klausur_ss20, Folie 2 (S.2)",
     "source": "klausur_ss20, Folie 2 (S.2, Aufgabe 1a)"
   },
   {
@@ -31065,7 +31065,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "125 = 5³ und 1000 = 8·125, also ist 1000 durch 125 teilbar. Damit ist eine Zahl genau dann durch 125 teilbar, wenn die aus ihren letzten drei Ziffern gebildete Zahl durch 125 teilbar ist. 📄 Quelle: klausur_ss20, Folie 2 (S.2)",
+    "explanation": "$125 = 5^3$ und $1000 = 8 \\cdot 125$, also ist 1000 durch 125 teilbar. Damit ist eine Zahl genau dann durch 125 teilbar, wenn die aus ihren letzten drei Ziffern gebildete Zahl durch 125 teilbar ist. 📄 Quelle: klausur_ss20, Folie 2 (S.2)",
     "source": "klausur_ss20, Folie 2 (S.2, Aufgabe 1a)"
   },
   {
@@ -31073,11 +31073,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "pruefung",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Bestimmen Sie 2̄ − 7̄ im Modul 8 (die Restklasse darf kein negatives Vorzeichen haben). Geben Sie den Repräsentanten aus {0, 1, …, 7} an.",
+    "question": "Bestimmen Sie $\\overline{2} - \\overline{7}$ im Modul 8 (die Restklasse darf kein negatives Vorzeichen haben). Geben Sie den Repräsentanten aus $\\{0, 1, \\ldots, 7\\}$ an.",
     "answer": 3,
     "tolerance": 0,
     "unit": "",
-    "explanation": "2̄ − 7̄ = (2 − 7)‾ = −5‾. Wegen −5 + 8 = 3 gilt −5 ≡ 3 (mod 8), also 2̄ − 7̄ = 3̄. 📄 Quelle: klausur_ss20, Folie 3 (S.3)",
+    "explanation": "$\\overline{2} - \\overline{7} = \\overline{(2 - 7)} = \\overline{-5}$. Wegen $-5 + 8 = 3$ gilt $-5 \\equiv 3 \\pmod{8}$, also $\\overline{2} - \\overline{7} = \\overline{3}$. 📄 Quelle: klausur_ss20, Folie 3 (S.3)",
     "source": "klausur_ss20, Folie 3 (S.3, Aufgabe 1c)"
   },
   {
@@ -31085,11 +31085,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "pruefung",
     "difficulty": 3,
     "type": "numeric",
-    "question": "Welchen Rest lässt 10.000.000.000 (= 10^10) beim Teilen durch 97?",
+    "question": "Welchen Rest lässt 10.000.000.000 (= $10^{10}$) beim Teilen durch 97?",
     "answer": 49,
     "tolerance": 0,
     "unit": "",
-    "explanation": "10² = 100 ≡ 3 (mod 97), also 10⁴ ≡ 3² = 9, 10⁸ ≡ 9² = 81 und 10^10 = 10⁸·10² ≡ 81·3 = 243 ≡ 243 − 2·97 = 49 (mod 97). Der Rest ist 49. 📄 Quelle: klausur_ss20, Folie 3 (S.3)",
+    "explanation": "$10^2 = 100 \\equiv 3 \\pmod{97}$, also $10^4 \\equiv 3^2 = 9$, $10^8 \\equiv 9^2 = 81$ und $10^{10} = 10^8 \\cdot 10^2 \\equiv 81 \\cdot 3 = 243 \\equiv 243 - 2 \\cdot 97 = 49 \\pmod{97}$. Der Rest ist 49. 📄 Quelle: klausur_ss20, Folie 3 (S.3)",
     "source": "klausur_ss20, Folie 3 (S.3, Aufgabe 1d)"
   },
   {
@@ -31101,7 +31101,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 8,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Quadratseitenlänge muss beide Seitenlängen teilen; die größtmögliche ist der ggT(1024, 24). Euklidischer Algorithmus: 1024 = 42·24 + 16; 24 = 1·16 + 8; 16 = 2·8 + 0. Also ggT(1024, 24) = 8, d.h. das Quadrat hat die Seitenlänge 8. 📄 Quelle: klausur_ss20, Folie 6 (S.6)",
+    "explanation": "Die Quadratseitenlänge muss beide Seitenlängen teilen; die größtmögliche ist der $\\operatorname{ggT}(1024, 24)$. Euklidischer Algorithmus: $1024 = 42 \\cdot 24 + 16$; $24 = 1 \\cdot 16 + 8$; $16 = 2 \\cdot 8 + 0$. Also $\\operatorname{ggT}(1024, 24) = 8$, d.h. das Quadrat hat die Seitenlänge 8. 📄 Quelle: klausur_ss20, Folie 6 (S.6)",
     "source": "klausur_ss20, Folie 6 (S.6, Aufgabe 4a)"
   },
   {
@@ -31109,17 +31109,17 @@ const SAMPLE_QUESTIONS = [
     "topic": "pruefung",
     "difficulty": 2,
     "type": "multi",
-    "question": "Man bildet das Quadrat einer natürlichen Zahl n und das Quadrat der um 1 verminderten Zahl (n−1) und subtrahiert das kleinere vom größeren. Welches Muster ergibt sich für die Differenzen n² − (n−1)²?",
+    "question": "Man bildet das Quadrat einer natürlichen Zahl $n$ und das Quadrat der um 1 verminderten Zahl $(n-1)$ und subtrahiert das kleinere vom größeren. Welches Muster ergibt sich für die Differenzen $n^2 - (n-1)^2$?",
     "options": [
-      "n² − (n−1)² = 2n − 1; die Differenzen durchlaufen die aufeinanderfolgenden ungeraden Zahlen.",
-      "n² − (n−1)² = 2n; die Differenzen durchlaufen die aufeinanderfolgenden geraden Zahlen.",
-      "n² − (n−1)² = 2n + 1; die Differenzen durchlaufen die aufeinanderfolgenden geraden Zahlen.",
-      "n² − (n−1)² = n² − 1; die Differenzen wachsen quadratisch."
+      "$n^2 - (n-1)^2 = 2n - 1$; die Differenzen durchlaufen die aufeinanderfolgenden ungeraden Zahlen.",
+      "$n^2 - (n-1)^2 = 2n$; die Differenzen durchlaufen die aufeinanderfolgenden geraden Zahlen.",
+      "$n^2 - (n-1)^2 = 2n + 1$; die Differenzen durchlaufen die aufeinanderfolgenden geraden Zahlen.",
+      "$n^2 - (n-1)^2 = n^2 - 1$; die Differenzen wachsen quadratisch."
     ],
     "correct": [
       0
     ],
-    "explanation": "n² − (n−1)² = n² − (n² − 2n + 1) = 2n − 1. Für n = 1, 2, 3, … ergeben sich die Werte 1, 3, 5, 7, …, also die aufeinanderfolgenden ungeraden Zahlen. 📄 Quelle: klausur_ss20, Folie 7 (S.7)",
+    "explanation": "$n^2 - (n-1)^2 = n^2 - (n^2 - 2n + 1) = 2n - 1$. Für $n = 1, 2, 3, \\ldots$ ergeben sich die Werte 1, 3, 5, 7, …, also die aufeinanderfolgenden ungeraden Zahlen. 📄 Quelle: klausur_ss20, Folie 7 (S.7)",
     "source": "klausur_ss20, Folie 7 (S.7, Aufgabe 5)"
   },
   {
