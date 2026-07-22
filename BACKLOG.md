@@ -98,7 +98,12 @@ Ziel: echte Formeldarstellung statt Unicode-Behelf (Brüche, Wurzeln, Indizes, S
   `mathify()` in js/app.js rendert `$…$` (inline) / `$$…$$` (abgesetzt), überall an den Content-Stellen
   eingebunden (Quiz/Prüfung: Frage, Optionen, Erklärung; Mündlich: frage, musterantwort, kriterien).
   Kein `$` → normales HTML-escaping (Unicode-Altbestand bleibt unversehrt). Pilot: `oral-pythagoras-4`.
-- **Stufe 2 – Inhalts-Migration: ⏭️ OFFEN (der große Teil).** Unicode-Mathe → `$…$`-LaTeX in
+- **Stufe 2 – Inhalts-Migration: ⏭️ OFFEN (der große Teil).**
+  > STATUS 2026-07-22: Lauf mit 17 Subagenten gestartet, aber ALLE am **wöchentlichen Nutzungslimit**
+  > gescheitert (Reset 22.07. 11:00 UTC) — es wurde nichts geschrieben, gen/ unverändert. Nach Reset
+  > erneut starten: Bündel via inline-Skript neu erzeugen (`material/_texbundles/`), Regeln
+  > `material/_tex_rules.md`, Subagenten dispatchen, Patches sammeln, JEDE `$…$`-Formel per KaTeX
+  > validieren, dann `pipeline/build_content.py` + App-Test + Commit auf `main`. Unicode-Mathe → `$…$`-LaTeX in
   **allen** Fragen: `material/oral.json` (65) **und** `gen/*.json` (2099, Felder question/options/explanation).
   Vorgehen wie bei den bisherigen Läufen: Subagenten je Skript-Bündel, Regel „nur Mathe in `$…$` fassen,
   Antwort-Key/Bedeutung unverändert", danach `pipeline/build_content.py` (baut questions.js + oral.js) +

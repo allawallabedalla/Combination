@@ -27,3 +27,6 @@ material/_rewrite_plan.json
 material/refs_fix.json
 material/refs_aufwaendig.json
 material/exam/_verify_rules.md
+material/_texbundles/
+material/_tex_rules.md
+material/_verify_rules.md
