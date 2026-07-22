@@ -116,11 +116,11 @@
     "topic": "did_vl02_einf_kommunikation",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechne für das Aufgabenpärchen a): (4000 + 2) + (4000 - 2). Welche Summe ergibt sich?",
+    "question": "Berechne für das Aufgabenpärchen a): $(4000 + 2) + (4000 - 2)$. Welche Summe ergibt sich?",
     "answer": 8000,
     "tolerance": 0,
     "unit": "",
-    "explanation": "(4000 + 2) + (4000 - 2) = 4002 + 3998 = 8000; die Folie gibt für a) das Ergebnis 8000 an. 📄 Quelle: did_vl02_einf, Folie 6 (S.6)",
+    "explanation": "$(4000 + 2) + (4000 - 2) = 4002 + 3998 = 8000$; die Folie gibt für a) das Ergebnis 8000 an. 📄 Quelle: did_vl02_einf, Folie 6 (S.6)",
     "source": "did_vl02_einf, Folie 6 (S.6, Einführung)"
   },
   {
@@ -166,7 +166,7 @@
     "topic": "did_vl02_einf_problemloesen",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lautet die 'Entdeckung' zu den Aufgabenpärchen der Form (a + b) + (a − b)?",
+    "question": "Wie lautet die 'Entdeckung' zu den Aufgabenpärchen der Form $(a + b) + (a - b)$?",
     "options": [
       "Die Summe der beiden Ergebnisse ist das Doppelte der jeweils ersten Zahl",
       "Die Summe der beiden Ergebnisse ist das Doppelte der jeweils zweiten Zahl",
@@ -218,7 +218,7 @@
     "options": [
       "Argumentieren",
       "Darstellen",
-      "Beispiel-Darstellung: 4000 + 2 + 4000 (in einer Zeile oder am Rechenstrich)",
+      "Beispiel-Darstellung: $4000 + 2 + 4000$ (in einer Zeile oder am Rechenstrich)",
       "Auswendiglernen der Ergebnisse ohne Begründung"
     ],
     "correct": [
@@ -226,7 +226,7 @@
       1,
       2
     ],
-    "explanation": "Die Folie verbindet das Erklären durch Argumente und die geeignete Darstellungsform mit den Kompetenzen ARGUMENTIEREN und DARSTELLEN und nennt als Beispiel '4000 + 2 + 4000 (in einer Zeile oder am Rechenstrich)'. 📄 Quelle: did_vl02_einf, Folie 8 (S.8)",
+    "explanation": "Die Folie verbindet das Erklären durch Argumente und die geeignete Darstellungsform mit den Kompetenzen ARGUMENTIEREN und DARSTELLEN und nennt als Beispiel '$4000 + 2 + 4000$ (in einer Zeile oder am Rechenstrich)'. 📄 Quelle: did_vl02_einf, Folie 8 (S.8)",
     "source": "did_vl02_einf, Folie 8 (S.8, Einführung)"
   },
   {
@@ -234,9 +234,9 @@
     "topic": "did_vl02_einf_argumentieren_darstellen",
     "difficulty": 2,
     "type": "single",
-    "question": "Welche Darstellungsform wird beispielhaft für das Aufgabenpärchen (4000 + 2) + (4000 − 2) genannt?",
+    "question": "Welche Darstellungsform wird beispielhaft für das Aufgabenpärchen $(4000 + 2) + (4000 - 2)$ genannt?",
     "options": [
-      "4000 + 2 + 4000 (in einer Zeile oder am Rechenstrich)",
+      "$4000 + 2 + 4000$ (in einer Zeile oder am Rechenstrich)",
       "Ein Balkendiagramm der fünf Ergebnisse",
       "Eine Stellenwerttafel bis zur Zehntausenderstelle",
       "Ein Koordinatensystem mit eingetragenen Punkten"
@@ -244,7 +244,7 @@
     "correct": [
       0
     ],
-    "explanation": "Als geeignete Darstellungsform nennt die Folie: '4000 + 2 + 4000 (in einer Zeile oder am Rechenstrich)'. 📄 Quelle: did_vl02_einf, Folie 8 (S.8)",
+    "explanation": "Als geeignete Darstellungsform nennt die Folie: '$4000 + 2 + 4000$ (in einer Zeile oder am Rechenstrich)'. 📄 Quelle: did_vl02_einf, Folie 8 (S.8)",
     "source": "did_vl02_einf, Folie 8 (S.8, Einführung)"
   },
   {
@@ -1047,7 +1047,7 @@
     "topic": "did_vl02_einf_zahlengitter",
     "difficulty": 2,
     "type": "numeric",
-    "question": "In einem 3×3-Zahlengitter wird die Startzahl (hier 0) in das linke obere Feld eingetragen; nach rechts wird die obere Pluszahl (+2), nach unten die linke Pluszahl (+5) addiert. Welche Zahl steht im mittleren Feld (Mittelzahl)?",
+    "question": "In einem $3 \\times 3$-Zahlengitter wird die Startzahl (hier 0) in das linke obere Feld eingetragen; nach rechts wird die obere Pluszahl (+2), nach unten die linke Pluszahl (+5) addiert. Welche Zahl steht im mittleren Feld (Mittelzahl)?",
     "answer": 7,
     "tolerance": 0,
     "unit": "",

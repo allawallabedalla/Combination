@@ -22672,7 +22672,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "didaktik_grundlagen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Beim Rechnen über die Zehn zur Aufgabe 6+7: Wie viel muss zur 6 dazugetan werden, um zunächst die 10 zu erreichen?",
+    "question": "Beim Rechnen über die Zehn zur Aufgabe $6+7$: Wie viel muss zur 6 dazugetan werden, um zunächst die 10 zu erreichen?",
     "answer": 4,
     "tolerance": 0,
     "unit": "",
@@ -22684,7 +22684,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "didaktik_grundlagen",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Beim Rechnen über die Zehn zu '6+7': Wie viel muss laut Dialog zur 10 noch dazugetan werden?",
+    "question": "Beim Rechnen über die Zehn zu '$6+7$': Wie viel muss laut Dialog zur 10 noch dazugetan werden?",
     "answer": 3,
     "tolerance": 0,
     "unit": "",
@@ -22696,7 +22696,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "didaktik_grundlagen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Ein Kind rechnet 6+7 zunächst über die Fastverdopplung (6+6=12, +1=13); die Lehrkraft führt anschließend zum Rechnen über die Zehn. Welche Aussagen über die Denk- und Lernwege von Kindern treffen zu?",
+    "question": "Ein Kind rechnet $6+7$ zunächst über die Fastverdopplung ($6+6=12$, $+1=13$); die Lehrkraft führt anschließend zum Rechnen über die Zehn. Welche Aussagen über die Denk- und Lernwege von Kindern treffen zu?",
     "options": [
       "Das Kind nutzt zunächst einen eigenen Weg über die Verdopplung ('6 und 6 ist 12, noch 1 dazu ist 13').",
       "Die Lehrperson lenkt anschließend auf das Rechnen über die Zehn ('erst bis zur 10') um.",
@@ -22708,7 +22708,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Das Kind rechnet zuerst über die Fastverdopplung (6+6=12, +1=13, Ergebnis 13); die Lehrperson führt danach zum Zehnerübergang (zur 6 noch 4, zur 10 noch 3). 📄 Quelle: did_vl01_ueberblick, Folie 17 (S.17)",
+    "explanation": "Das Kind rechnet zuerst über die Fastverdopplung ($6+6=12$, $+1=13$, Ergebnis 13); die Lehrperson führt danach zum Zehnerübergang (zur 6 noch 4, zur 10 noch 3). 📄 Quelle: did_vl01_ueberblick, Folie 17 (S.17)",
     "source": "did_vl01_ueberblick, Folie 17 (S.17, Einführung)"
   },
   {
@@ -23124,11 +23124,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "bildungsstandards",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Berechne für das Aufgabenpärchen a): (4000 + 2) + (4000 - 2). Welche Summe ergibt sich?",
+    "question": "Berechne für das Aufgabenpärchen a): $(4000 + 2) + (4000 - 2)$. Welche Summe ergibt sich?",
     "answer": 8000,
     "tolerance": 0,
     "unit": "",
-    "explanation": "(4000 + 2) + (4000 - 2) = 4002 + 3998 = 8000; die Folie gibt für a) das Ergebnis 8000 an. 📄 Quelle: did_vl02_einf, Folie 6 (S.6)",
+    "explanation": "$(4000 + 2) + (4000 - 2) = 4002 + 3998 = 8000$; die Folie gibt für a) das Ergebnis 8000 an. 📄 Quelle: did_vl02_einf, Folie 6 (S.6)",
     "source": "did_vl02_einf, Folie 6 (S.6, Einführung)"
   },
   {
@@ -23174,7 +23174,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "bildungsstandards",
     "difficulty": 2,
     "type": "single",
-    "question": "Wie lautet die 'Entdeckung' zu den Aufgabenpärchen der Form (a + b) + (a − b)?",
+    "question": "Wie lautet die 'Entdeckung' zu den Aufgabenpärchen der Form $(a + b) + (a - b)$?",
     "options": [
       "Die Summe der beiden Ergebnisse ist das Doppelte der jeweils ersten Zahl",
       "Die Summe der beiden Ergebnisse ist das Doppelte der jeweils zweiten Zahl",
@@ -23226,7 +23226,7 @@ const SAMPLE_QUESTIONS = [
     "options": [
       "Argumentieren",
       "Darstellen",
-      "Beispiel-Darstellung: 4000 + 2 + 4000 (in einer Zeile oder am Rechenstrich)",
+      "Beispiel-Darstellung: $4000 + 2 + 4000$ (in einer Zeile oder am Rechenstrich)",
       "Auswendiglernen der Ergebnisse ohne Begründung"
     ],
     "correct": [
@@ -23234,7 +23234,7 @@ const SAMPLE_QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Die Folie verbindet das Erklären durch Argumente und die geeignete Darstellungsform mit den Kompetenzen ARGUMENTIEREN und DARSTELLEN und nennt als Beispiel '4000 + 2 + 4000 (in einer Zeile oder am Rechenstrich)'. 📄 Quelle: did_vl02_einf, Folie 8 (S.8)",
+    "explanation": "Die Folie verbindet das Erklären durch Argumente und die geeignete Darstellungsform mit den Kompetenzen ARGUMENTIEREN und DARSTELLEN und nennt als Beispiel '$4000 + 2 + 4000$ (in einer Zeile oder am Rechenstrich)'. 📄 Quelle: did_vl02_einf, Folie 8 (S.8)",
     "source": "did_vl02_einf, Folie 8 (S.8, Einführung)"
   },
   {
@@ -23242,9 +23242,9 @@ const SAMPLE_QUESTIONS = [
     "topic": "bildungsstandards",
     "difficulty": 2,
     "type": "single",
-    "question": "Welche Darstellungsform wird beispielhaft für das Aufgabenpärchen (4000 + 2) + (4000 − 2) genannt?",
+    "question": "Welche Darstellungsform wird beispielhaft für das Aufgabenpärchen $(4000 + 2) + (4000 - 2)$ genannt?",
     "options": [
-      "4000 + 2 + 4000 (in einer Zeile oder am Rechenstrich)",
+      "$4000 + 2 + 4000$ (in einer Zeile oder am Rechenstrich)",
       "Ein Balkendiagramm der fünf Ergebnisse",
       "Eine Stellenwerttafel bis zur Zehntausenderstelle",
       "Ein Koordinatensystem mit eingetragenen Punkten"
@@ -23252,7 +23252,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Als geeignete Darstellungsform nennt die Folie: '4000 + 2 + 4000 (in einer Zeile oder am Rechenstrich)'. 📄 Quelle: did_vl02_einf, Folie 8 (S.8)",
+    "explanation": "Als geeignete Darstellungsform nennt die Folie: '$4000 + 2 + 4000$ (in einer Zeile oder am Rechenstrich)'. 📄 Quelle: did_vl02_einf, Folie 8 (S.8)",
     "source": "did_vl02_einf, Folie 8 (S.8, Einführung)"
   },
   {
@@ -24055,7 +24055,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "bildungsstandards",
     "difficulty": 2,
     "type": "numeric",
-    "question": "In einem 3×3-Zahlengitter wird die Startzahl (hier 0) in das linke obere Feld eingetragen; nach rechts wird die obere Pluszahl (+2), nach unten die linke Pluszahl (+5) addiert. Welche Zahl steht im mittleren Feld (Mittelzahl)?",
+    "question": "In einem $3 \\times 3$-Zahlengitter wird die Startzahl (hier 0) in das linke obere Feld eingetragen; nach rechts wird die obere Pluszahl (+2), nach unten die linke Pluszahl (+5) addiert. Welche Zahl steht im mittleren Feld (Mittelzahl)?",
     "answer": 7,
     "tolerance": 0,
     "unit": "",
@@ -24359,7 +24359,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 239,
     "tolerance": 0,
     "unit": "€",
-    "explanation": "Die Aufgabe (vor der Behandlung der Division mit großen Zahlen) lautet: 956 Euro werden auf vier Klassen verteilt; 956 : 4 = 239. 📄 Quelle: did_vl03_bildungsstd, Folie 10 (S.10)",
+    "explanation": "Die Aufgabe (vor der Behandlung der Division mit großen Zahlen) lautet: 956 Euro werden auf vier Klassen verteilt; $956 : 4 = 239$. 📄 Quelle: did_vl03_bildungsstd, Folie 10 (S.10)",
     "source": "did_vl03_bildungsstd, Folie 10 (S.10, Einführung – Kommunizieren Beispiel Klasse 4)"
   },
   {
@@ -24385,10 +24385,10 @@ const SAMPLE_QUESTIONS = [
     "topic": "bildungsstandards",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche Lösungswege für 956 : 4 dokumentieren die Kinderlösungen von Nicole und Mira?",
+    "question": "Welche Lösungswege für $956 : 4$ dokumentieren die Kinderlösungen von Nicole und Mira?",
     "options": [
-      "Aufteilen der Aufgabe in Teilschritte (z. B. 800 : 4 = 200 usw.)",
-      "Zweimaliges Halbieren: 956 : 2 = 478 und 478 : 2 = 239",
+      "Aufteilen der Aufgabe in Teilschritte (z. B. $800 : 4 = 200$ usw.)",
+      "Zweimaliges Halbieren: $956 : 2 = 478$ und $478 : 2 = 239$",
       "Schriftliche Division mit ausführlichem Rest-Verfahren",
       "Runden auf 1000 und anschließendes Multiplizieren"
     ],
@@ -24396,7 +24396,7 @@ const SAMPLE_QUESTIONS = [
       0,
       1
     ],
-    "explanation": "Nicole teilte die Aufgabe in Teilschritte auf (u.a. 800 : 4 = 200); Mira rechnete durch zweimaliges Halbieren: 956 : 2 = 478, dann 478 : 2 = 239. 📄 Quelle: did_vl03_bildungsstd, Folie 11 (S.11)",
+    "explanation": "Nicole teilte die Aufgabe in Teilschritte auf (u.a. $800 : 4 = 200$); Mira rechnete durch zweimaliges Halbieren: $956 : 2 = 478$, dann $478 : 2 = 239$. 📄 Quelle: did_vl03_bildungsstd, Folie 11 (S.11)",
     "source": "did_vl03_bildungsstd, Folie 11 (S.11, Einführung – Kommunizieren Beispiel Klasse 4)"
   },
   {
@@ -24404,11 +24404,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "bildungsstandards",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Zu welchem Ergebnis kommt Miras Lösungsweg (956 : 2 = 478; 478 : 2 = ...) für die Aufgabe 956 : 4?",
+    "question": "Zu welchem Ergebnis kommt Miras Lösungsweg ($956 : 2 = 478$; $478 : 2 = \\dots$) für die Aufgabe $956 : 4$?",
     "answer": 239,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Mira halbiert zweimal: 956 : 2 = 478 und 478 : 2 = 239; das Ergebnis ist 239. 📄 Quelle: did_vl03_bildungsstd, Folie 11 (S.11)",
+    "explanation": "Mira halbiert zweimal: $956 : 2 = 478$ und $478 : 2 = 239$; das Ergebnis ist 239. 📄 Quelle: did_vl03_bildungsstd, Folie 11 (S.11)",
     "source": "did_vl03_bildungsstd, Folie 11 (S.11, Einführung – Kommunizieren Beispiel Klasse 4)"
   },
   {
@@ -24434,11 +24434,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "bildungsstandards",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Murat rechnet 956 : 4, indem er zunächst 1000 : 4 = 250 bestimmt und davon 11 abzieht. Welches Ergebnis erhält er?",
+    "question": "Murat rechnet $956 : 4$, indem er zunächst $1000 : 4 = 250$ bestimmt und davon 11 abzieht. Welches Ergebnis erhält er?",
     "answer": 239,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Murat rechnet 1000:4=250, dann 250 − 11 = 239. Sein Ergebnis für 956 : 4 ist 239. 📄 Quelle: did_vl03_bildungsstd, Folie 12 (S.12)",
+    "explanation": "Murat rechnet $1000 : 4 = 250$, dann $250 - 11 = 239$. Sein Ergebnis für $956 : 4$ ist 239. 📄 Quelle: did_vl03_bildungsstd, Folie 12 (S.12)",
     "source": "did_vl03_bildungsstd, Folie 12 (S.12, Einführung – Kommunizieren)"
   },
   {
@@ -24507,7 +24507,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 11,
     "tolerance": 0,
     "unit": "",
-    "explanation": "1+4=5, 4+2=6, 5+6=11. Der Zielstein ist 11 – der größte der vier Beispiele, weil die größte Zahl (4) in der Mitte steht (bestätigt die Vermutung). 📄 Quelle: did_vl03_bildungsstd, Folie 14 (S.14)",
+    "explanation": "$1+4=5$, $4+2=6$, $5+6=11$. Der Zielstein ist 11 – der größte der vier Beispiele, weil die größte Zahl (4) in der Mitte steht (bestätigt die Vermutung). 📄 Quelle: did_vl03_bildungsstd, Folie 14 (S.14)",
     "source": "did_vl03_bildungsstd, Folie 14 (S.14, Einführung – Argumentieren)"
   },
   {
@@ -24632,7 +24632,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "bildungsstandards",
     "difficulty": 2,
     "type": "single",
-    "question": "Zu welchem Schluss kommt das Kind im Beispiel bei seiner Modellierung (Rechnung 4000 : 50 = 80)?",
+    "question": "Zu welchem Schluss kommt das Kind im Beispiel bei seiner Modellierung (Rechnung $4000 : 50 = 80$)?",
     "options": [
       "Nein, es gibt keine Klasse, in der 80 Kinder sind.",
       "Ja, in jeder Klasse sind genau 80 Kinder.",
@@ -24642,7 +24642,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Das Kind überschlägt 4000 : 50 = 80 und begründet: „Nein, es gibt keine Klasse, in der 80 Kinder sind\" – es prüft die Angaben auf Plausibilität. 📄 Quelle: did_vl03_bildungsstd, Folie 17 (S.17)",
+    "explanation": "Das Kind überschlägt $4000 : 50 = 80$ und begründet: „Nein, es gibt keine Klasse, in der 80 Kinder sind\" – es prüft die Angaben auf Plausibilität. 📄 Quelle: did_vl03_bildungsstd, Folie 17 (S.17)",
     "source": "did_vl03_bildungsstd, Folie 17 (S.17, Einführung – Modellieren)"
   },
   {
@@ -25313,11 +25313,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "didaktik_geometrie",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Ein rechteckiges Punktefeld besteht aus 3 Reihen mit je 4 Punkten. Welches Produkt (Ergebnis) veranschaulicht dieses Rechteckfeld (3·4)?",
+    "question": "Ein rechteckiges Punktefeld besteht aus 3 Reihen mit je 4 Punkten. Welches Produkt (Ergebnis) veranschaulicht dieses Rechteckfeld ($3 \\cdot 4$)?",
     "answer": 12,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Das rechteckige Punktefeld veranschaulicht 3·4 = 12 (bzw. 4·3 = 12). 📄 Quelle: did_vl03_geohintergr, Folie 19 (S.19)",
+    "explanation": "Das rechteckige Punktefeld veranschaulicht $3 \\cdot 4 = 12$ (bzw. $4 \\cdot 3 = 12$). 📄 Quelle: did_vl03_geohintergr, Folie 19 (S.19)",
     "source": "did_vl03_geohintergr, Folie 19 (S.19, Kap. 1.1; vgl. Krauthausen & Scherer 2001, S. 51/52)"
   },
   {
@@ -25327,10 +25327,10 @@ const SAMPLE_QUESTIONS = [
     "type": "multi",
     "question": "Welche Zerlegungen der Zahl 7 lassen sich am Punktefeld zur geometrischen Veranschaulichung in der Arithmetik darstellen?",
     "options": [
-      "2+3+2 = 7",
-      "1+6 = 7",
-      "5+2 = 7",
-      "4+3 = 7"
+      "$2+3+2 = 7$",
+      "$1+6 = 7$",
+      "$5+2 = 7$",
+      "$4+3 = 7$"
     ],
     "correct": [
       0,
@@ -25338,7 +25338,7 @@ const SAMPLE_QUESTIONS = [
       2,
       3
     ],
-    "explanation": "Am Punktefeld werden die Zerlegungen 2+3+2=7, 1+6=7, 5+2=7 und 4+3=7 gezeigt. 📄 Quelle: did_vl03_geohintergr, Folie 19 (S.19)",
+    "explanation": "Am Punktefeld werden die Zerlegungen $2+3+2=7$, $1+6=7$, $5+2=7$ und $4+3=7$ gezeigt. 📄 Quelle: did_vl03_geohintergr, Folie 19 (S.19)",
     "source": "did_vl03_geohintergr, Folie 19 (S.19, Kap. 1.1; vgl. Krauthausen & Scherer 2001, S. 51/52)"
   },
   {
@@ -25591,7 +25591,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "didaktik_geometrie",
     "difficulty": 2,
     "type": "single",
-    "question": "Der Term '3·2=6' ist auf der Illustrationsfolie ein Beispiel für welche Darstellungsform?",
+    "question": "Der Term '$3 \\cdot 2 = 6$' ist auf der Illustrationsfolie ein Beispiel für welche Darstellungsform?",
     "options": [
       "mathematische Symbole",
       "Bilder",
@@ -25601,7 +25601,7 @@ const SAMPLE_QUESTIONS = [
     "correct": [
       0
     ],
-    "explanation": "Der Term '3·2=6' illustriert die Darstellungsform 'mathematische Symbole'. 📄 Quelle: did_vl04_ebenefiguren, Folie 12 (S.12)",
+    "explanation": "Der Term '$3 \\cdot 2 = 6$' illustriert die Darstellungsform 'mathematische Symbole'. 📄 Quelle: did_vl04_ebenefiguren, Folie 12 (S.12)",
     "source": "did_vl04_ebenefiguren, Folie 12 (S.12, 1.2 Ebene Figuren)"
   },
   {
@@ -26134,7 +26134,7 @@ const SAMPLE_QUESTIONS = [
     "question": "Welche Merkmale sollen laut Aktivität zur genaueren Charakterisierung der Vierecke genutzt werden?",
     "options": [
       "Anzahl der Ecken und Anzahl der Seiten",
-      "Winkel (90°)",
+      "Winkel ($90^\\circ$)",
       "Lage der Seiten zueinander",
       "Länge der Seiten",
       "Farbe der Figur"
@@ -26145,7 +26145,7 @@ const SAMPLE_QUESTIONS = [
       2,
       3
     ],
-    "explanation": "Die Folie nennt als Merkmale: Anzahl der Ecken, Anzahl der Seiten, Winkel (90°), Lage der Seiten zueinander und Länge der Seiten. Die Farbe ist kein genanntes Merkmal. 📄 Quelle: did_vl05_begriffe, Folie 5 (S.5)",
+    "explanation": "Die Folie nennt als Merkmale: Anzahl der Ecken, Anzahl der Seiten, Winkel ($90^\\circ$), Lage der Seiten zueinander und Länge der Seiten. Die Farbe ist kein genanntes Merkmal. 📄 Quelle: did_vl05_begriffe, Folie 5 (S.5)",
     "source": "did_vl05_begriffe, Folie 5 (S.5, 1.3 Begriffsbildung)"
   },
   {
@@ -26176,7 +26176,7 @@ const SAMPLE_QUESTIONS = [
     "question": "Wie wird das Parallelogramm in der Klassifizierungstabelle charakterisiert?",
     "options": [
       "4 Ecken und 4 Seiten",
-      "0 rechte Winkel (90°)",
+      "0 rechte Winkel ($90^\\circ$)",
       "gegenüberliegende Seiten sind parallel und gleich lang",
       "je zwei aneinandergrenzende Seiten sind gleich lang"
     ],
@@ -26211,11 +26211,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "flaecheninhalte",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Wie viele rechte Winkel (90°) hat das Parallelogramm laut Klassifizierungstabelle?",
+    "question": "Wie viele rechte Winkel ($90^\\circ$) hat das Parallelogramm laut Klassifizierungstabelle?",
     "answer": 0,
     "tolerance": 0,
     "unit": "",
-    "explanation": "In der Spalte „Winkel (90°)\" ist für das Parallelogramm der Wert 0 eingetragen. 📄 Quelle: did_vl05_begriffe, Folie 6 (S.6)",
+    "explanation": "In der Spalte „Winkel ($90^\\circ$)\" ist für das Parallelogramm der Wert 0 eingetragen. 📄 Quelle: did_vl05_begriffe, Folie 6 (S.6)",
     "source": "did_vl05_begriffe, Folie 6 (S.6, 1.3 Begriffsbildung)"
   },
   {
@@ -26244,9 +26244,9 @@ const SAMPLE_QUESTIONS = [
     "question": "Wie wird das Quadrat in der Klassifizierungstabelle charakterisiert?",
     "options": [
       "4 Ecken und 4 Seiten",
-      "4 rechte Winkel (90°)",
+      "4 rechte Winkel ($90^\\circ$)",
       "gegenüberliegende Seiten sind parallel, alle sind gleich lang",
-      "0 rechte Winkel (90°)"
+      "0 rechte Winkel ($90^\\circ$)"
     ],
     "correct": [
       0,
@@ -26261,7 +26261,7 @@ const SAMPLE_QUESTIONS = [
     "topic": "flaecheninhalte",
     "difficulty": 2,
     "type": "multi",
-    "question": "Welche der Figuren haben laut Klassifizierungstabelle 4 rechte Winkel (90°)?",
+    "question": "Welche der Figuren haben laut Klassifizierungstabelle 4 rechte Winkel ($90^\\circ$)?",
     "options": [
       "Quadrat",
       "Rechteck",
@@ -26280,11 +26280,11 @@ const SAMPLE_QUESTIONS = [
     "topic": "flaecheninhalte",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Wie viele rechte Winkel (90°) hat das Rechteck laut Klassifizierungstabelle?",
+    "question": "Wie viele rechte Winkel ($90^\\circ$) hat das Rechteck laut Klassifizierungstabelle?",
     "answer": 4,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Für das Rechteck ist in der Spalte „Winkel (90°)\" der Wert 4 eingetragen. 📄 Quelle: did_vl05_begriffe, Folie 10 (S.10)",
+    "explanation": "Für das Rechteck ist in der Spalte „Winkel ($90^\\circ$)\" der Wert 4 eingetragen. 📄 Quelle: did_vl05_begriffe, Folie 10 (S.10)",
     "source": "did_vl05_begriffe, Folie 10 (S.10, 1.3 Begriffsbildung)"
   },
   {
@@ -28838,7 +28838,7 @@ const SAMPLE_QUESTIONS = [
     "answer": 4,
     "tolerance": 0,
     "unit": "cm",
-    "explanation": "Das quadratische Faltblatt für die Ecken misst laut Folie 4 cm × 4 cm, hat also eine Seitenlänge von 4 cm. 📄 Quelle: did_vl08_raum2, Folie 32 (S.32)",
+    "explanation": "Das quadratische Faltblatt für die Ecken misst laut Folie $4\\,\\text{cm} \\times 4\\,\\text{cm}$, hat also eine Seitenlänge von 4 cm. 📄 Quelle: did_vl08_raum2, Folie 32 (S.32)",
     "source": "did_vl08_raum2, Folie 32 (S.32, 1.5 Räumliche Objekte)"
   },
   {

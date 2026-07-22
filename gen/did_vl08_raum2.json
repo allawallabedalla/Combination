@@ -953,7 +953,7 @@
     "answer": 4,
     "tolerance": 0,
     "unit": "cm",
-    "explanation": "Das quadratische Faltblatt für die Ecken misst laut Folie 4 cm × 4 cm, hat also eine Seitenlänge von 4 cm. 📄 Quelle: did_vl08_raum2, Folie 32 (S.32)",
+    "explanation": "Das quadratische Faltblatt für die Ecken misst laut Folie $4\\,\\text{cm} \\times 4\\,\\text{cm}$, hat also eine Seitenlänge von 4 cm. 📄 Quelle: did_vl08_raum2, Folie 32 (S.32)",
     "source": "did_vl08_raum2, Folie 32 (S.32, 1.5 Räumliche Objekte)"
   },
   {

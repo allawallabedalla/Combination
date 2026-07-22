@@ -498,7 +498,7 @@
     "topic": "did_vl01_ueberblick_denk_lernwege",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Beim Rechnen über die Zehn zur Aufgabe 6+7: Wie viel muss zur 6 dazugetan werden, um zunächst die 10 zu erreichen?",
+    "question": "Beim Rechnen über die Zehn zur Aufgabe $6+7$: Wie viel muss zur 6 dazugetan werden, um zunächst die 10 zu erreichen?",
     "answer": 4,
     "tolerance": 0,
     "unit": "",
@@ -510,7 +510,7 @@
     "topic": "did_vl01_ueberblick_denk_lernwege",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Beim Rechnen über die Zehn zu '6+7': Wie viel muss laut Dialog zur 10 noch dazugetan werden?",
+    "question": "Beim Rechnen über die Zehn zu '$6+7$': Wie viel muss laut Dialog zur 10 noch dazugetan werden?",
     "answer": 3,
     "tolerance": 0,
     "unit": "",
@@ -522,7 +522,7 @@
     "topic": "did_vl01_ueberblick_denk_lernwege",
     "difficulty": 2,
     "type": "multi",
-    "question": "Ein Kind rechnet 6+7 zunächst über die Fastverdopplung (6+6=12, +1=13); die Lehrkraft führt anschließend zum Rechnen über die Zehn. Welche Aussagen über die Denk- und Lernwege von Kindern treffen zu?",
+    "question": "Ein Kind rechnet $6+7$ zunächst über die Fastverdopplung ($6+6=12$, $+1=13$); die Lehrkraft führt anschließend zum Rechnen über die Zehn. Welche Aussagen über die Denk- und Lernwege von Kindern treffen zu?",
     "options": [
       "Das Kind nutzt zunächst einen eigenen Weg über die Verdopplung ('6 und 6 ist 12, noch 1 dazu ist 13').",
       "Die Lehrperson lenkt anschließend auf das Rechnen über die Zehn ('erst bis zur 10') um.",
@@ -534,7 +534,7 @@
       1,
       2
     ],
-    "explanation": "Das Kind rechnet zuerst über die Fastverdopplung (6+6=12, +1=13, Ergebnis 13); die Lehrperson führt danach zum Zehnerübergang (zur 6 noch 4, zur 10 noch 3). 📄 Quelle: did_vl01_ueberblick, Folie 17 (S.17)",
+    "explanation": "Das Kind rechnet zuerst über die Fastverdopplung ($6+6=12$, $+1=13$, Ergebnis 13); die Lehrperson führt danach zum Zehnerübergang (zur 6 noch 4, zur 10 noch 3). 📄 Quelle: did_vl01_ueberblick, Folie 17 (S.17)",
     "source": "did_vl01_ueberblick, Folie 17 (S.17, Einführung)"
   },
   {

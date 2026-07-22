@@ -249,7 +249,7 @@
     "topic": "did_vl04_ebenefiguren_darstellungsformen",
     "difficulty": 2,
     "type": "single",
-    "question": "Der Term '3·2=6' ist auf der Illustrationsfolie ein Beispiel für welche Darstellungsform?",
+    "question": "Der Term '$3 \\cdot 2 = 6$' ist auf der Illustrationsfolie ein Beispiel für welche Darstellungsform?",
     "options": [
       "mathematische Symbole",
       "Bilder",
@@ -259,7 +259,7 @@
     "correct": [
       0
     ],
-    "explanation": "Der Term '3·2=6' illustriert die Darstellungsform 'mathematische Symbole'. 📄 Quelle: did_vl04_ebenefiguren, Folie 12 (S.12)",
+    "explanation": "Der Term '$3 \\cdot 2 = 6$' illustriert die Darstellungsform 'mathematische Symbole'. 📄 Quelle: did_vl04_ebenefiguren, Folie 12 (S.12)",
     "source": "did_vl04_ebenefiguren, Folie 12 (S.12, 1.2 Ebene Figuren)"
   },
   {

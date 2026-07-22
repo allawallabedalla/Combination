@@ -478,11 +478,11 @@
     "topic": "did_vl03_geohintergr_arithmetik_bezug",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Ein rechteckiges Punktefeld besteht aus 3 Reihen mit je 4 Punkten. Welches Produkt (Ergebnis) veranschaulicht dieses Rechteckfeld (3·4)?",
+    "question": "Ein rechteckiges Punktefeld besteht aus 3 Reihen mit je 4 Punkten. Welches Produkt (Ergebnis) veranschaulicht dieses Rechteckfeld ($3 \\cdot 4$)?",
     "answer": 12,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Das rechteckige Punktefeld veranschaulicht 3·4 = 12 (bzw. 4·3 = 12). 📄 Quelle: did_vl03_geohintergr, Folie 19 (S.19)",
+    "explanation": "Das rechteckige Punktefeld veranschaulicht $3 \\cdot 4 = 12$ (bzw. $4 \\cdot 3 = 12$). 📄 Quelle: did_vl03_geohintergr, Folie 19 (S.19)",
     "source": "did_vl03_geohintergr, Folie 19 (S.19, Kap. 1.1; vgl. Krauthausen & Scherer 2001, S. 51/52)"
   },
   {
@@ -492,10 +492,10 @@
     "type": "multi",
     "question": "Welche Zerlegungen der Zahl 7 lassen sich am Punktefeld zur geometrischen Veranschaulichung in der Arithmetik darstellen?",
     "options": [
-      "2+3+2 = 7",
-      "1+6 = 7",
-      "5+2 = 7",
-      "4+3 = 7"
+      "$2+3+2 = 7$",
+      "$1+6 = 7$",
+      "$5+2 = 7$",
+      "$4+3 = 7$"
     ],
     "correct": [
       0,
@@ -503,7 +503,7 @@
       2,
       3
     ],
-    "explanation": "Am Punktefeld werden die Zerlegungen 2+3+2=7, 1+6=7, 5+2=7 und 4+3=7 gezeigt. 📄 Quelle: did_vl03_geohintergr, Folie 19 (S.19)",
+    "explanation": "Am Punktefeld werden die Zerlegungen $2+3+2=7$, $1+6=7$, $5+2=7$ und $4+3=7$ gezeigt. 📄 Quelle: did_vl03_geohintergr, Folie 19 (S.19)",
     "source": "did_vl03_geohintergr, Folie 19 (S.19, Kap. 1.1; vgl. Krauthausen & Scherer 2001, S. 51/52)"
   }
 ]
