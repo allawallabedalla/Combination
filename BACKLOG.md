@@ -98,12 +98,21 @@ Ziel: echte Formeldarstellung statt Unicode-Behelf (Brüche, Wurzeln, Indizes, S
   `mathify()` in js/app.js rendert `$…$` (inline) / `$$…$$` (abgesetzt), überall an den Content-Stellen
   eingebunden (Quiz/Prüfung: Frage, Optionen, Erklärung; Mündlich: frage, musterantwort, kriterien).
   Kein `$` → normales HTML-escaping (Unicode-Altbestand bleibt unversehrt). Pilot: `oral-pythagoras-4`.
-- **Stufe 2 – Inhalts-Migration: ⏭️ OFFEN (der große Teil).**
-  > STATUS 2026-07-22: Lauf mit 17 Subagenten gestartet, aber ALLE am **wöchentlichen Nutzungslimit**
-  > gescheitert (Reset 22.07. 11:00 UTC) — es wurde nichts geschrieben, gen/ unverändert. Nach Reset
-  > erneut starten: Bündel via inline-Skript neu erzeugen (`material/_texbundles/`), Regeln
-  > `material/_tex_rules.md`, Subagenten dispatchen, Patches sammeln, JEDE `$…$`-Formel per KaTeX
-  > validieren, dann `pipeline/build_content.py` + App-Test + Commit auf `main`. Unicode-Mathe → `$…$`-LaTeX in
+- **Stufe 2 – Inhalts-Migration: 🔄 LÄUFT (iterativ, je Runde committen).**
+  > Methode (bewährt): pro Skript ein Subagent liest `material/_tex_rules.md` + konvertiert
+  > gen/<code>.json → Patch nach scratchpad/tex/tpatch_<code>.json. Dann:
+  > `python3 <scratch>/apply_tex.py <patches…>` → `python3 pipeline/build_content.py` →
+  > `node <scratch>/validate_tex.mjs` (KaTeX, muss 0 Fehler zeigen) → commit + push auf `main`.
+  > Wiederaufnahme-Helfer liegen unter dem Session-Scratchpad; sind sie weg, aus BACKLOG neu bauen.
+  >
+  > **FERTIG (committet):** klausur_ss20, ari23_vl04, ari20_vl12, ari23_vl10, ari21_vl08, ari23_vl01,
+  > ari21_vl03, ari23_vl06, ari23_vl07, ari21_vl02, ari21_vl01, ari23_vl11, ari21_vl06. (Runde 4 lief:
+  > ari23_vl02, ari23_vl05, ari23_vl09, ari21_vl04, ari21_vl05, ari21_vl07 — evtl. schon committet.)
+  > **OFFEN:** alle übrigen gen-Skripte + `material/oral.json` (mündliche Fragen, außer oral-pythagoras-4).
+  > **Resume-Check:** „fertig" = gen/<code>.json enthält `$`. Zu konvertieren sind Skripte OHNE `$`
+  >   in question/options/explanation, sofern sie Mathe enthalten (reine Didaktik-Skripte bleiben ohne).
+  >   `for f in gen/*.json; do grep -Lq '\$' "$f" && echo "$f"; done`  → Kandidatenliste.
+  > Zum Schluss: mündliche Fragen konvertieren, `build_content.py`, voller App-Smoke-Test, Commit. Unicode-Mathe → `$…$`-LaTeX in
   **allen** Fragen: `material/oral.json` (65) **und** `gen/*.json` (2099, Felder question/options/explanation).
   Vorgehen wie bei den bisherigen Läufen: Subagenten je Skript-Bündel, Regel „nur Mathe in `$…$` fassen,
   Antwort-Key/Bedeutung unverändert", danach `pipeline/build_content.py` (baut questions.js + oral.js) +

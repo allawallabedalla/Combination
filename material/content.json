@@ -5677,17 +5677,17 @@
       "topic": "restklassen_kongruenzen",
       "difficulty": 1,
       "type": "single",
-      "question": "Satz von der eindeutigen Division mit Rest: Für natürliche Zahlen n, m gibt es genau ein Paar natürlicher Zahlen q und r mit n = q·m + r. Welche Bedingung muss der Rest r erfüllen?",
+      "question": "Satz von der eindeutigen Division mit Rest: Für natürliche Zahlen n, m gibt es genau ein Paar natürlicher Zahlen q und r mit $n = q \\cdot m + r$. Welche Bedingung muss der Rest r erfüllen?",
       "options": [
-        "r < m",
-        "r ≤ m",
-        "r < q",
-        "r > m"
+        "$r < m$",
+        "$r \\le m$",
+        "$r < q$",
+        "$r > m$"
       ],
       "correct": [
         0
       ],
-      "explanation": "Auf der Folie steht: es gibt genau ein Paar q und r, so dass n = q·m + r mit r < m gilt. 📄 Quelle: ari21_vl04, Folie 4 (S.4)",
+      "explanation": "Auf der Folie steht: es gibt genau ein Paar q und r, so dass $n = q \\cdot m + r$ mit $r < m$ gilt. 📄 Quelle: ari21_vl04, Folie 4 (S.4)",
       "source": "ari21_vl04, Folie 4 (S.4, Rückblick)"
     },
     {
@@ -5697,18 +5697,18 @@
       "type": "multi",
       "question": "Welche Aussagen gehören zum Satz von der eindeutigen Division mit Rest (n, m natürliche Zahlen)?",
       "options": [
-        "Es gibt genau ein Paar (q, r) mit n = q·m + r.",
-        "Für den Rest gilt r < m.",
+        "Es gibt genau ein Paar (q, r) mit $n = q \\cdot m + r$.",
+        "Für den Rest gilt $r < m$.",
         "q und r sind natürliche Zahlen.",
         "Es gibt mehrere mögliche Paare (q, r).",
-        "Der Rest r darf beliebig groß sein, solange r < n gilt."
+        "Der Rest r darf beliebig groß sein, solange $r < n$ gilt."
       ],
       "correct": [
         0,
         1,
         2
       ],
-      "explanation": "Die Folie formuliert: Wenn n, m natürliche Zahlen sind, dann gibt es genau ein Paar natürlicher Zahlen q und r, so dass n = q·m + r mit r < m gilt (Satz von der eindeutigen Division mit Rest). 'Genau ein Paar' schließt mehrere Paare aus; r ist durch r < m beschränkt. 📄 Quelle: ari21_vl04, Folie 4 (S.4)",
+      "explanation": "Die Folie formuliert: Wenn n, m natürliche Zahlen sind, dann gibt es genau ein Paar natürlicher Zahlen q und r, so dass $n = q \\cdot m + r$ mit $r < m$ gilt (Satz von der eindeutigen Division mit Rest). 'Genau ein Paar' schließt mehrere Paare aus; r ist durch $r < m$ beschränkt. 📄 Quelle: ari21_vl04, Folie 4 (S.4)",
       "source": "ari21_vl04, Folie 4 (S.4, Rückblick)"
     },
     {
@@ -5716,17 +5716,17 @@
       "topic": "restklassen_kongruenzen",
       "difficulty": 2,
       "type": "single",
-      "question": "In der Stellenwertdarstellung n = a_m·b^m + a_(m-1)·b^(m-1) + ... + a_1·b^1 + a_0·b^0 ist der höchste auftretende Exponent von b gleich:",
+      "question": "In der Stellenwertdarstellung $n = a_m \\cdot b^m + a_{m-1} \\cdot b^{m-1} + \\ldots + a_1 \\cdot b^1 + a_0 \\cdot b^0$ ist der höchste auftretende Exponent von b gleich:",
       "options": [
         "m",
-        "m-1",
+        "$m-1$",
         "1",
         "0"
       ],
       "correct": [
         0
       ],
-      "explanation": "Der erste (höchste) Summand ist a_m·b^m, der Exponent der höchsten Potenz von b ist also m; der letzte Summand ist a_0·b^0. 📄 Quelle: ari21_vl04, Folie 4 (S.4)",
+      "explanation": "Der erste (höchste) Summand ist $a_m \\cdot b^m$, der Exponent der höchsten Potenz von b ist also m; der letzte Summand ist $a_0 \\cdot b^0$. 📄 Quelle: ari21_vl04, Folie 4 (S.4)",
       "source": "ari21_vl04, Folie 4 (S.4, Rückblick)"
     },
     {
@@ -5736,18 +5736,18 @@
       "type": "multi",
       "question": "Welche Produkte der Multiplikationstabelle im Vierer-System sind korrekt?",
       "options": [
-        "2 · 2 = 10",
-        "2 · 3 = 12",
-        "3 · 3 = 21",
-        "3 · 3 = 12",
-        "2 · 2 = 4"
+        "$2 \\cdot 2 = 10$",
+        "$2 \\cdot 3 = 12$",
+        "$3 \\cdot 3 = 21$",
+        "$3 \\cdot 3 = 12$",
+        "$2 \\cdot 2 = 4$"
       ],
       "correct": [
         0,
         1,
         2
       ],
-      "explanation": "Laut Einmaleins-Tabelle im 4er-System gilt 2·2 = 10, 2·3 = 12 und 3·3 = 21 (jeweils Ziffern des Vierersystems). '3·3 = 12' und '2·2 = 4' sind falsch (4 existiert im 4er-System nicht als Ziffer). 📄 Quelle: ari21_vl04, Folie 7 (S.7)",
+      "explanation": "Laut Einmaleins-Tabelle im 4er-System gilt $2 \\cdot 2 = 10$, $2 \\cdot 3 = 12$ und $3 \\cdot 3 = 21$ (jeweils Ziffern des Vierersystems). '$3 \\cdot 3 = 12$' und '$2 \\cdot 2 = 4$' sind falsch (4 existiert im 4er-System nicht als Ziffer). 📄 Quelle: ari21_vl04, Folie 7 (S.7)",
       "source": "ari21_vl04, Folie 7 (S.7, Rückblick)"
     },
     {
@@ -5773,11 +5773,11 @@
       "topic": "natuerliche_zahlen_peano",
       "difficulty": 2,
       "type": "numeric",
-      "question": "Welchen Wert hat (23)_4 im Dezimalsystem?",
+      "question": "Welchen Wert hat $(23)_4$ im Dezimalsystem?",
       "answer": 11,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Probe auf der Folie: (23)_4 = 2·4^1 + 3·4^0 = 8 + 3 = 11. 📄 Quelle: ari21_vl04, Folie 7 (S.7)",
+      "explanation": "Probe auf der Folie: $(23)_4 = 2 \\cdot 4^1 + 3 \\cdot 4^0 = 8 + 3 = 11$. 📄 Quelle: ari21_vl04, Folie 7 (S.7)",
       "source": "ari21_vl04, Folie 7 (S.7, Rückblick)"
     },
     {
@@ -5785,11 +5785,11 @@
       "topic": "natuerliche_zahlen_peano",
       "difficulty": 3,
       "type": "numeric",
-      "question": "Das Produkt (23)_4 · (12)_4 wird per Übersetzung ins Zehnersystem geprüft. Welchen dezimalen Wert hat dieses Produkt?",
+      "question": "Das Produkt $(23)_4 \\cdot (12)_4$ wird per Übersetzung ins Zehnersystem geprüft. Welchen dezimalen Wert hat dieses Produkt?",
       "answer": 66,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Probe: (23)_4 = 11 und (12)_4 = 1·4^1 + 2·4^0 = 6, also 11·6 = 66, was (1002)_4 entspricht. 📄 Quelle: ari21_vl04, Folie 7 (S.7)",
+      "explanation": "Probe: $(23)_4 = 11$ und $(12)_4 = 1 \\cdot 4^1 + 2 \\cdot 4^0 = 6$, also $11 \\cdot 6 = 66$, was $(1002)_4$ entspricht. 📄 Quelle: ari21_vl04, Folie 7 (S.7)",
       "source": "ari21_vl04, Folie 7 (S.7, Rückblick)"
     },
     {
@@ -5799,17 +5799,17 @@
       "type": "multi",
       "question": "Welche Vielfachen von 21 im Vierer-System (aus der Nebenrechnungstabelle) sind korrekt?",
       "options": [
-        "1 · 21 = 21",
-        "2 · 21 = 102",
-        "3 · 21 = 123",
-        "2 · 21 = 42"
+        "$1 \\cdot 21 = 21$",
+        "$2 \\cdot 21 = 102$",
+        "$3 \\cdot 21 = 123$",
+        "$2 \\cdot 21 = 42$"
       ],
       "correct": [
         0,
         1,
         2
       ],
-      "explanation": "Die Vielfachentabelle im 4er-System zeigt 1·21 = 21, 2·21 = 102 und 3·21 = 123. '2·21 = 42' ist keine gültige 4er-Darstellung. 📄 Quelle: ari21_vl04, Folie 9 (S.9)",
+      "explanation": "Die Vielfachentabelle im 4er-System zeigt $1 \\cdot 21 = 21$, $2 \\cdot 21 = 102$ und $3 \\cdot 21 = 123$. '$2 \\cdot 21 = 42$' ist keine gültige 4er-Darstellung. 📄 Quelle: ari21_vl04, Folie 9 (S.9)",
       "source": "ari21_vl04, Folie 9 (S.9, Rückblick)"
     },
     {
@@ -5817,7 +5817,7 @@
       "topic": "restklassen_kongruenzen",
       "difficulty": 2,
       "type": "single",
-      "question": "Was ergibt die schriftliche Division (11322) : (21) im Vierer-System?",
+      "question": "Was ergibt die schriftliche Division $(11322) : (21)$ im Vierer-System?",
       "options": [
         "222",
         "212",
@@ -5827,7 +5827,7 @@
       "correct": [
         0
       ],
-      "explanation": "Die schriftliche Division im 4er-System liefert 11322 : 21 = 222 (Rest 0). 📄 Quelle: ari21_vl04, Folie 9 (S.9)",
+      "explanation": "Die schriftliche Division im 4er-System liefert $11322 : 21 = 222$ (Rest 0). 📄 Quelle: ari21_vl04, Folie 9 (S.9)",
       "source": "ari21_vl04, Folie 9 (S.9, Rückblick)"
     },
     {
@@ -5835,11 +5835,11 @@
       "topic": "restklassen_kongruenzen",
       "difficulty": 3,
       "type": "numeric",
-      "question": "Welchen Wert hat (11322)_4 im Dezimalsystem?",
+      "question": "Welchen Wert hat $(11322)_4$ im Dezimalsystem?",
       "answer": 378,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Probe: (11322)_4 = 1·4^4 + 1·4^3 + 3·4^2 + 2·4^1 + 2·4^0 = 1·256 + 1·64 + 3·16 + 2·4 + 2·1 = 378. 📄 Quelle: ari21_vl04, Folie 10 (S.10)",
+      "explanation": "Probe: $(11322)_4 = 1 \\cdot 4^4 + 1 \\cdot 4^3 + 3 \\cdot 4^2 + 2 \\cdot 4^1 + 2 \\cdot 4^0 = 1 \\cdot 256 + 1 \\cdot 64 + 3 \\cdot 16 + 2 \\cdot 4 + 2 \\cdot 1 = 378$. 📄 Quelle: ari21_vl04, Folie 10 (S.10)",
       "source": "ari21_vl04, Folie 10 (S.10, Rückblick)"
     },
     {
@@ -5847,11 +5847,11 @@
       "topic": "restklassen_kongruenzen",
       "difficulty": 2,
       "type": "numeric",
-      "question": "Welchen Wert hat (21)_4 im Dezimalsystem?",
+      "question": "Welchen Wert hat $(21)_4$ im Dezimalsystem?",
       "answer": 9,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Probe: (21)_4 = 2·4^1 + 1·4^0 = 8 + 1 = 9. 📄 Quelle: ari21_vl04, Folie 10 (S.10)",
+      "explanation": "Probe: $(21)_4 = 2 \\cdot 4^1 + 1 \\cdot 4^0 = 8 + 1 = 9$. 📄 Quelle: ari21_vl04, Folie 10 (S.10)",
       "source": "ari21_vl04, Folie 10 (S.10, Rückblick)"
     },
     {
@@ -5859,11 +5859,11 @@
       "topic": "restklassen_kongruenzen",
       "difficulty": 2,
       "type": "numeric",
-      "question": "Die Probe der Division wird im Zehnersystem durchgeführt: 378 : 9 = ?",
+      "question": "Die Probe der Division wird im Zehnersystem durchgeführt: $378 : 9 = ?$",
       "answer": 42,
       "tolerance": 0,
       "unit": "",
-      "explanation": "378 : 9 = 42, und 42 = 2·4^2 + 2·4^1 + 2·4^0 = (222)_4 bestätigt das Ergebnis der 4er-Division. 📄 Quelle: ari21_vl04, Folie 10 (S.10)",
+      "explanation": "$378 : 9 = 42$, und $42 = 2 \\cdot 4^2 + 2 \\cdot 4^1 + 2 \\cdot 4^0 = (222)_4$ bestätigt das Ergebnis der 4er-Division. 📄 Quelle: ari21_vl04, Folie 10 (S.10)",
       "source": "ari21_vl04, Folie 10 (S.10, Rückblick)"
     },
     {
@@ -5894,7 +5894,7 @@
       "question": "Wie wird ein Teiler einer Zahl n in der „plausiblen Geschichte“ der Erkundung II (Nüsse in Bündel stecken) charakterisiert?",
       "options": [
         "Ein Teiler lässt keinen Rest (die Nüsse lassen sich restlos in Bündel stecken).",
-        "Ein Teiler lässt stets einen Rest r < m.",
+        "Ein Teiler lässt stets einen Rest $r < m$.",
         "Ein Teiler ist immer eine Primzahl.",
         "Ein Teiler ist die Anzahl der Nüsse selbst."
       ],
@@ -5912,8 +5912,8 @@
       "question": "Welche Aussagen gehören zum Beispiel der Erkundung II (378 Nüsse, Aufteilung in 9er-Bündel bzw. im Vierersystem)?",
       "options": [
         "378 Nüsse lassen sich in 42 9er-Bündel aufteilen.",
-        "(11322)_4 Nüsse lassen sich in (222)_4 Bündel der Größe (21)_4 aufteilen.",
-        "(21)_4 = 9.",
+        "$(11322)_4$ Nüsse lassen sich in $(222)_4$ Bündel der Größe $(21)_4$ aufteilen.",
+        "$(21)_4 = 9$.",
         "378 lässt sich nicht ohne Rest in 9er-Bündel aufteilen."
       ],
       "correct": [
@@ -5921,7 +5921,7 @@
         1,
         2
       ],
-      "explanation": "Beispiel der Folie: 378 Nüsse lassen sich in 42 9er-Bündel aufteilen; (11322)_4 Nüsse lassen sich in (222)_4 (21)_4-er-Bündel aufteilen und (21)_4 = 9. 📄 Quelle: ari21_vl04, Folie 12 (S.12)",
+      "explanation": "Beispiel der Folie: 378 Nüsse lassen sich in 42 9er-Bündel aufteilen; $(11322)_4$ Nüsse lassen sich in $(222)_4$ $(21)_4$-er-Bündel aufteilen und $(21)_4 = 9$. 📄 Quelle: ari21_vl04, Folie 12 (S.12)",
       "source": "ari21_vl04, Folie 12 (S.12, Erkundung II)"
     },
     {
@@ -5987,17 +5987,17 @@
       "topic": "teilbarkeit_primzahlen",
       "difficulty": 2,
       "type": "multi",
-      "question": "Wann teilt eine natürliche Zahl a eine natürliche Zahl b (a | b) laut Definition?",
+      "question": "Wann teilt eine natürliche Zahl a eine natürliche Zahl b ($a \\mid b$) laut Definition?",
       "options": [
-        "Genau dann, wenn es zu a eine natürliche Zahl c gibt, so dass a · c = b ist.",
-        "Genau dann, wenn a · c = b für alle natürlichen Zahlen c gilt.",
-        "Genau dann, wenn es eine natürliche Zahl c gibt mit b · c = a.",
+        "Genau dann, wenn es zu a eine natürliche Zahl c gibt, so dass $a \\cdot c = b$ ist.",
+        "Genau dann, wenn $a \\cdot c = b$ für alle natürlichen Zahlen c gilt.",
+        "Genau dann, wenn es eine natürliche Zahl c gibt mit $b \\cdot c = a$.",
         "Immer, unabhängig von a und b."
       ],
       "correct": [
         0
       ],
-      "explanation": "Definition: a teilt b (a | b) genau dann, wenn es zu a eine natürliche Zahl c gibt, so dass a · c = b ist. 📄 Quelle: ari21_vl04, Folie 15 (S.15)",
+      "explanation": "Definition: a teilt b ($a \\mid b$) genau dann, wenn es zu a eine natürliche Zahl c gibt, so dass $a \\cdot c = b$ ist. 📄 Quelle: ari21_vl04, Folie 15 (S.15)",
       "source": "ari21_vl04, Folie 15 (S.15, Teilen)"
     },
     {
@@ -6005,7 +6005,7 @@
       "topic": "teilbarkeit_primzahlen",
       "difficulty": 1,
       "type": "single",
-      "question": "Wie nennt man a, wenn a | b gilt?",
+      "question": "Wie nennt man a, wenn $a \\mid b$ gilt?",
       "options": [
         "Teiler von b",
         "Vielfaches von b",
@@ -6015,7 +6015,7 @@
       "correct": [
         0
       ],
-      "explanation": "Gilt a | b, so nennt man a einen Teiler von b. 📄 Quelle: ari21_vl04, Folie 15 (S.15)",
+      "explanation": "Gilt $a \\mid b$, so nennt man a einen Teiler von b. 📄 Quelle: ari21_vl04, Folie 15 (S.15)",
       "source": "ari21_vl04, Folie 15 (S.15, Teilen)"
     },
     {
@@ -6026,15 +6026,15 @@
       "question": "Welche Schreibweisen bedeuten dasselbe wie „a teilt b“?",
       "options": [
         "a teilt b",
-        "a | b",
-        "b | a",
-        "a · b"
+        "$a \\mid b$",
+        "$b \\mid a$",
+        "$a \\cdot b$"
       ],
       "correct": [
         0,
         1
       ],
-      "explanation": "Die Folie nennt die gleichwertigen Schreibweisen „a teilt b“ bzw. a | b. 📄 Quelle: ari21_vl04, Folie 15 (S.15)",
+      "explanation": "Die Folie nennt die gleichwertigen Schreibweisen „a teilt b“ bzw. $a \\mid b$. 📄 Quelle: ari21_vl04, Folie 15 (S.15)",
       "source": "ari21_vl04, Folie 15 (S.15, Teilen)"
     },
     {
@@ -6042,11 +6042,11 @@
       "topic": "teilbarkeit_primzahlen",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Mit welchem c ∈ ℕ zeigt man gemäß Definition, dass 2 | 6 gilt (2 · c = 6)?",
+      "question": "Mit welchem $c \\in \\mathbb{N}$ zeigt man gemäß Definition, dass $2 \\mid 6$ gilt ($2 \\cdot c = 6$)?",
       "answer": 3,
       "tolerance": 0,
       "unit": "",
-      "explanation": "2 | 6, denn mit c = 3 gilt 2 · 3 = 6. 📄 Quelle: ari21_vl04, Folie 18 (S.18)",
+      "explanation": "$2 \\mid 6$, denn mit $c = 3$ gilt $2 \\cdot 3 = 6$. 📄 Quelle: ari21_vl04, Folie 18 (S.18)",
       "source": "ari21_vl04, Folie 18 (S.18, Teilen)"
     },
     {
@@ -6054,11 +6054,11 @@
       "topic": "teilbarkeit_primzahlen",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Welches c belegt 1 | 5, also 1 · c = 5?",
+      "question": "Welches c belegt $1 \\mid 5$, also $1 \\cdot c = 5$?",
       "answer": 5,
       "tolerance": 0,
       "unit": "",
-      "explanation": "1 | 5, denn 1 · 5 = 5, also c = 5. 📄 Quelle: ari21_vl04, Folie 18 (S.18)",
+      "explanation": "$1 \\mid 5$, denn $1 \\cdot 5 = 5$, also $c = 5$. 📄 Quelle: ari21_vl04, Folie 18 (S.18)",
       "source": "ari21_vl04, Folie 18 (S.18, Teilen)"
     },
     {
@@ -6068,17 +6068,17 @@
       "type": "multi",
       "question": "Welche der folgenden Begründungen für Teilbarkeit sind korrekt?",
       "options": [
-        "2 | 6, denn mit c = 3 gilt 2 · 3 = 6",
-        "3 | 0, denn 3 · 0 = 0",
-        "0 | 0, denn 0 · 1 = 0",
-        "6 | 2, denn es gibt ein c mit 6 · c = 2"
+        "$2 \\mid 6$, denn mit $c = 3$ gilt $2 \\cdot 3 = 6$",
+        "$3 \\mid 0$, denn $3 \\cdot 0 = 0$",
+        "$0 \\mid 0$, denn $0 \\cdot 1 = 0$",
+        "$6 \\mid 2$, denn es gibt ein c mit $6 \\cdot c = 2$"
       ],
       "correct": [
         0,
         1,
         2
       ],
-      "explanation": "Auf der Folie werden 2|6 (c=3), 3|0 (3·0=0) und 0|0 (0·1=0) korrekt begründet; 6|2 gilt nicht, da es kein natürliches c mit 6·c=2 gibt. 📄 Quelle: ari21_vl04, Folie 18 (S.18)",
+      "explanation": "Auf der Folie werden $2 \\mid 6$ ($c=3$), $3 \\mid 0$ ($3 \\cdot 0=0$) und $0 \\mid 0$ ($0 \\cdot 1=0$) korrekt begründet; $6 \\mid 2$ gilt nicht, da es kein natürliches c mit $6 \\cdot c=2$ gibt. 📄 Quelle: ari21_vl04, Folie 18 (S.18)",
       "source": "ari21_vl04, Folie 18 (S.18, Teilen)"
     },
     {
@@ -6088,17 +6088,17 @@
       "type": "multi",
       "question": "Welche allgemeinen Teilbarkeitsaussagen lassen sich mit der Definition begründen?",
       "options": [
-        "1 | b, denn 1 · b = b (1 teilt jede natürliche Zahl b)",
-        "b | b, denn b · 1 = b (jede Zahl teilt sich selbst)",
-        "a | 0, denn a · 0 = 0 (jede Zahl teilt 0)",
-        "0 | b für jedes b > 0"
+        "$1 \\mid b$, denn $1 \\cdot b = b$ (1 teilt jede natürliche Zahl b)",
+        "$b \\mid b$, denn $b \\cdot 1 = b$ (jede Zahl teilt sich selbst)",
+        "$a \\mid 0$, denn $a \\cdot 0 = 0$ (jede Zahl teilt 0)",
+        "$0 \\mid b$ für jedes $b > 0$"
       ],
       "correct": [
         0,
         1,
         2
       ],
-      "explanation": "Begründet werden 1|b (1·b=b), b|b (b·1=b) und a|0 (a·0=0); dagegen teilt 0 keine Zahl b>0. 📄 Quelle: ari21_vl04, Folie 20 (S.20)",
+      "explanation": "Begründet werden $1 \\mid b$ ($1 \\cdot b=b$), $b \\mid b$ ($b \\cdot 1=b$) und $a \\mid 0$ ($a \\cdot 0=0$); dagegen teilt 0 keine Zahl $b>0$. 📄 Quelle: ari21_vl04, Folie 20 (S.20)",
       "source": "ari21_vl04, Folie 20 (S.20, Teilen)"
     },
     {
@@ -6106,17 +6106,17 @@
       "topic": "teilbarkeit_primzahlen",
       "difficulty": 2,
       "type": "single",
-      "question": "Warum teilt 0 keine natürliche Zahl b > 0?",
+      "question": "Warum teilt 0 keine natürliche Zahl $b > 0$?",
       "options": [
-        "Weil es kein c gibt mit 0 · c = b (für b > 0)",
-        "Weil 0 · c = b für jedes c gilt",
+        "Weil es kein c gibt mit $0 \\cdot c = b$ (für $b > 0$)",
+        "Weil $0 \\cdot c = b$ für jedes c gilt",
         "Weil 0 keine natürliche Zahl ist",
-        "Weil b · 0 = 0 ist"
+        "Weil $b \\cdot 0 = 0$ ist"
       ],
       "correct": [
         0
       ],
-      "explanation": "Für b > 0 gibt es kein c mit 0 · c = b (denn 0 · c = 0 ≠ b), daher teilt 0 keine solche Zahl. 📄 Quelle: ari21_vl04, Folie 20 (S.20)",
+      "explanation": "Für $b > 0$ gibt es kein c mit $0 \\cdot c = b$ (denn $0 \\cdot c = 0 \\ne b$), daher teilt 0 keine solche Zahl. 📄 Quelle: ari21_vl04, Folie 20 (S.20)",
       "source": "ari21_vl04, Folie 20 (S.20, Teilen)"
     },
     {
@@ -6124,11 +6124,11 @@
       "topic": "teilbarkeit_primzahlen",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Mit welchem c begründet man a | 0, also a · c = 0?",
+      "question": "Mit welchem c begründet man $a \\mid 0$, also $a \\cdot c = 0$?",
       "answer": 0,
       "tolerance": 0,
       "unit": "",
-      "explanation": "a | 0, denn a · 0 = 0, also c = 0. 📄 Quelle: ari21_vl04, Folie 20 (S.20)",
+      "explanation": "$a \\mid 0$, denn $a \\cdot 0 = 0$, also $c = 0$. 📄 Quelle: ari21_vl04, Folie 20 (S.20)",
       "source": "ari21_vl04, Folie 20 (S.20, Teilen)"
     },
     {
@@ -6225,7 +6225,7 @@
       "options": [
         "Wenn n eine natürliche Zahl größer 1 ist, dann lässt sie sich (bis auf die Reihenfolge) eindeutig in Primfaktoren zerlegen.",
         "Die Primfaktorzerlegung ist auch in der Reihenfolge der Faktoren eindeutig.",
-        "Jede natürliche Zahl n ≥ 1 lässt sich eindeutig in Primfaktoren zerlegen.",
+        "Jede natürliche Zahl $n \\ge 1$ lässt sich eindeutig in Primfaktoren zerlegen.",
         "Manche Zahlen größer 1 haben keine Primfaktorzerlegung."
       ],
       "correct": [
@@ -6262,14 +6262,14 @@
         "Die Voraussetzung ist, dass n eine natürliche Zahl größer 1 ist.",
         "Die Blätter eines Zahlenbäumchens sind gleich, nur ihre Reihenfolge kann unterschiedlich sein.",
         "Die Zerlegung in Primfaktoren ist eindeutig bis auf die Reihenfolge.",
-        "Die Voraussetzung n > 1 kann weggelassen werden."
+        "Die Voraussetzung $n > 1$ kann weggelassen werden."
       ],
       "correct": [
         0,
         1,
         2
       ],
-      "explanation": "Voraussetzung ist n > 1; die Zerlegung ist bis auf die Reihenfolge eindeutig, entsprechend sind die Blätter eines Zahlenbäumchens gleich und nur ihre Reihenfolge kann variieren. 📄 Quelle: ari21_vl04, Folie 24 (S.24)",
+      "explanation": "Voraussetzung ist $n > 1$; die Zerlegung ist bis auf die Reihenfolge eindeutig, entsprechend sind die Blätter eines Zahlenbäumchens gleich und nur ihre Reihenfolge kann variieren. 📄 Quelle: ari21_vl04, Folie 24 (S.24)",
       "source": "ari21_vl04, Folie 24 (S.24, Teilen)"
     },
     {
@@ -6297,17 +6297,17 @@
       "type": "multi",
       "question": "Welche der folgenden Darstellungen der Zahl 12 sind korrekt?",
       "options": [
-        "3·2·2",
-        "2·2·3",
-        "2²·3",
-        "2·3·3"
+        "$3 \\cdot 2 \\cdot 2$",
+        "$2 \\cdot 2 \\cdot 3$",
+        "$2^2 \\cdot 3$",
+        "$2 \\cdot 3 \\cdot 3$"
       ],
       "correct": [
         0,
         1,
         2
       ],
-      "explanation": "Auf der Folie steht: 12 = 3·2·2 = 2·2·3 = 2²·3. Die Darstellung 2·3·3 = 18 kommt nicht vor. 📄 Quelle: ari21_vl05, Folie 6 (S.6)",
+      "explanation": "Auf der Folie steht: $12 = 3 \\cdot 2 \\cdot 2 = 2 \\cdot 2 \\cdot 3 = 2^2 \\cdot 3$. Die Darstellung $2 \\cdot 3 \\cdot 3 = 18$ kommt nicht vor. 📄 Quelle: ari21_vl05, Folie 6 (S.6)",
       "source": "ari21_vl05, Folie 6 (S.6, Arithmetik)"
     },
     {
@@ -6315,11 +6315,11 @@
       "topic": "beweismethoden",
       "difficulty": 1,
       "type": "numeric",
-      "question": "In der Darstellung 12 = 2²·3: Welchen Exponenten hat die Basis 2?",
+      "question": "In der Darstellung $12 = 2^2 \\cdot 3$: Welchen Exponenten hat die Basis 2?",
       "answer": 2,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Die Folie schreibt 12 = 2²·3, die Basis 2 hat also den Exponenten 2. 📄 Quelle: ari21_vl05, Folie 6 (S.6)",
+      "explanation": "Die Folie schreibt $12 = 2^2 \\cdot 3$, die Basis 2 hat also den Exponenten 2. 📄 Quelle: ari21_vl05, Folie 6 (S.6)",
       "source": "ari21_vl05, Folie 6 (S.6, Arithmetik)"
     },
     {
@@ -6337,7 +6337,7 @@
       "correct": [
         0
       ],
-      "explanation": "Auf der Folie: Aus der Primfaktorzerlegung 12 = 3·2·2 = 2·2·3 = 2²·3 ergibt sich mit einem Baum die Menge aller Teiler der Zahl 12. 📄 Quelle: ari21_vl05, Folie 7 (S.7)",
+      "explanation": "Auf der Folie: Aus der Primfaktorzerlegung $12 = 3 \\cdot 2 \\cdot 2 = 2 \\cdot 2 \\cdot 3 = 2^2 \\cdot 3$ ergibt sich mit einem Baum die Menge aller Teiler der Zahl 12. 📄 Quelle: ari21_vl05, Folie 7 (S.7)",
       "source": "ari21_vl05, Folie 7 (S.7, Arithmetik)"
     },
     {
@@ -6369,16 +6369,16 @@
       "type": "multi",
       "question": "Welche Aussagen geben den Satz zur Teilbarkeitsrelation (Transitivität) korrekt wieder?",
       "options": [
-        "Für natürliche Zahlen a, b, c gilt: Wenn a|b und b|c, dann a|c",
+        "Für natürliche Zahlen $a, b, c$ gilt: Wenn $a \\mid b$ und $b \\mid c$, dann $a \\mid c$",
         "Die Teilbarkeitsrelation ist transitiv",
-        "Für natürliche Zahlen a, b, c gilt: Wenn a|b und a|c, dann a|(b+c)",
-        "Wenn a|b und b|c, dann c|a"
+        "Für natürliche Zahlen $a, b, c$ gilt: Wenn $a \\mid b$ und $a \\mid c$, dann $a \\mid (b+c)$",
+        "Wenn $a \\mid b$ und $b \\mid c$, dann $c \\mid a$"
       ],
       "correct": [
         0,
         1
       ],
-      "explanation": "Der Satz auf der Folie lautet: Die Teilbarkeitsrelation ist transitiv. Für natürliche Zahlen a, b, c gilt: Wenn a|b und b|c, dann a|c. 📄 Quelle: ari21_vl05, Folie 9 (S.9)",
+      "explanation": "Der Satz auf der Folie lautet: Die Teilbarkeitsrelation ist transitiv. Für natürliche Zahlen $a, b, c$ gilt: Wenn $a \\mid b$ und $b \\mid c$, dann $a \\mid c$. 📄 Quelle: ari21_vl05, Folie 9 (S.9)",
       "source": "ari21_vl05, Folie 9 (S.9, Arithmetik)"
     },
     {
@@ -6388,16 +6388,16 @@
       "type": "multi",
       "question": "Welche der folgenden Beispiele bestätigen die Transitivität der Teilbarkeit?",
       "options": [
-        "2|4 und 4|12, dann auch 2|12",
-        "7|21 und 21|63, dann auch 7|63",
-        "2|4 und 2|12, dann auch 2|6",
-        "3|9 und 9|18, dann auch 18|3"
+        "$2 \\mid 4$ und $4 \\mid 12$, dann auch $2 \\mid 12$",
+        "$7 \\mid 21$ und $21 \\mid 63$, dann auch $7 \\mid 63$",
+        "$2 \\mid 4$ und $2 \\mid 12$, dann auch $2 \\mid 6$",
+        "$3 \\mid 9$ und $9 \\mid 18$, dann auch $18 \\mid 3$"
       ],
       "correct": [
         0,
         1
       ],
-      "explanation": "Auf der Folie stehen die Beispiele: 2|4 und 4|12, dann auch 2|12 sowie 7|21 und 21|63, dann auch 7|63. 📄 Quelle: ari21_vl05, Folie 9 (S.9)",
+      "explanation": "Auf der Folie stehen die Beispiele: $2 \\mid 4$ und $4 \\mid 12$, dann auch $2 \\mid 12$ sowie $7 \\mid 21$ und $21 \\mid 63$, dann auch $7 \\mid 63$. 📄 Quelle: ari21_vl05, Folie 9 (S.9)",
       "source": "ari21_vl05, Folie 9 (S.9, Arithmetik)"
     },
     {
@@ -6441,7 +6441,7 @@
       "topic": "beweismethoden",
       "difficulty": 2,
       "type": "multi",
-      "question": "Womit soll die Voraussetzung „a|b und b|c“ umgeformt werden, um zum Ziel „a|c“ zu gelangen?",
+      "question": "Womit soll die Voraussetzung „$a \\mid b$ und $b \\mid c$“ umgeformt werden, um zum Ziel „$a \\mid c$“ zu gelangen?",
       "options": [
         "mit der Definition (der Teilbarkeit)",
         "mit anderen Sätzen",
@@ -6460,18 +6460,18 @@
       "topic": "teilbarkeit_primzahlen",
       "difficulty": 2,
       "type": "multi",
-      "question": "Wie werden im direkten Beweis die Voraussetzungen a|b und b|c mit der Definition der Teilbarkeit umgesetzt?",
+      "question": "Wie werden im direkten Beweis die Voraussetzungen $a \\mid b$ und $b \\mid c$ mit der Definition der Teilbarkeit umgesetzt?",
       "options": [
-        "a·q = b",
-        "b·p = c",
-        "a·p = b",
-        "c·p = b"
+        "$a \\cdot q = b$",
+        "$b \\cdot p = c$",
+        "$a \\cdot p = b$",
+        "$c \\cdot p = b$"
       ],
       "correct": [
         0,
         1
       ],
-      "explanation": "In der Tabelle „Definition umgesetzt“ steht a·q = b und b·p = c. 📄 Quelle: ari21_vl05, Folie 11 (S.11)",
+      "explanation": "In der Tabelle „Definition umgesetzt“ steht $a \\cdot q = b$ und $b \\cdot p = c$. 📄 Quelle: ari21_vl05, Folie 11 (S.11)",
       "source": "ari21_vl05, Folie 11 (S.11, Arithmetik)"
     },
     {
@@ -6479,17 +6479,17 @@
       "topic": "teilbarkeit_primzahlen",
       "difficulty": 2,
       "type": "single",
-      "question": "Welche Umformung zeigt im direkten Beweis, dass a|c gilt?",
+      "question": "Welche Umformung zeigt im direkten Beweis, dass $a \\mid c$ gilt?",
       "options": [
-        "b·p = a·q·p = a·(q·p) = c",
-        "b·p = a + q + p = c",
-        "b·p = a·(q + p) = c",
-        "b·p = a − q·p = c"
+        "$b \\cdot p = a \\cdot q \\cdot p = a \\cdot (q \\cdot p) = c$",
+        "$b \\cdot p = a + q + p = c$",
+        "$b \\cdot p = a \\cdot (q + p) = c$",
+        "$b \\cdot p = a - q \\cdot p = c$"
       ],
       "correct": [
         0
       ],
-      "explanation": "Aus b·p = c und a·q = b folgt b·p = a·q·p = a·(q·p) = c; multipliziert man a mit (p·q), so ergibt sich c, also a|c. 📄 Quelle: ari21_vl05, Folie 11 (S.11)",
+      "explanation": "Aus $b \\cdot p = c$ und $a \\cdot q = b$ folgt $b \\cdot p = a \\cdot q \\cdot p = a \\cdot (q \\cdot p) = c$; multipliziert man $a$ mit $(p \\cdot q)$, so ergibt sich $c$, also $a \\mid c$. 📄 Quelle: ari21_vl05, Folie 11 (S.11)",
       "source": "ari21_vl05, Folie 11 (S.11, Arithmetik)"
     },
     {
@@ -6515,17 +6515,17 @@
       "topic": "teilbarkeit_primzahlen",
       "difficulty": 3,
       "type": "single",
-      "question": "Wie wird c bei der Veranschaulichung der Transitivität mit figurierten Zahlen ausgedrückt?",
+      "question": "Wie wird $c$ bei der Veranschaulichung der Transitivität mit figurierten Zahlen ausgedrückt?",
       "options": [
-        "= q·b = q·a·p = a·(q·p) = c",
-        "= q + b = a·(q + p) = c",
-        "= q·b = a·q·p·b = c",
-        "= p·b = a·(p·q) = c"
+        "$= q \\cdot b = q \\cdot a \\cdot p = a \\cdot (q \\cdot p) = c$",
+        "$= q + b = a \\cdot (q + p) = c$",
+        "$= q \\cdot b = a \\cdot q \\cdot p \\cdot b = c$",
+        "$= p \\cdot b = a \\cdot (p \\cdot q) = c$"
       ],
       "correct": [
         0
       ],
-      "explanation": "Bei den figurierten Zahlen wird b (= a·p) insgesamt q mal wiederholt: = q·b = q·a·p = a·(q·p) = c, also a|c. 📄 Quelle: ari21_vl05, Folie 12 (S.12)",
+      "explanation": "Bei den figurierten Zahlen wird $b$ ($= a \\cdot p$) insgesamt $q$ mal wiederholt: $= q \\cdot b = q \\cdot a \\cdot p = a \\cdot (q \\cdot p) = c$, also $a \\mid c$. 📄 Quelle: ari21_vl05, Folie 12 (S.12)",
       "source": "ari21_vl05, Folie 12 (S.12, Arithmetik)"
     },
     {
@@ -6533,17 +6533,17 @@
       "topic": "teilbarkeit_primzahlen",
       "difficulty": 1,
       "type": "single",
-      "question": "Wie oft wird bei der figurierten Darstellung das Rechteck (das b darstellt) wiederholt, um c darzustellen?",
+      "question": "Wie oft wird bei der figurierten Darstellung das Rechteck (das $b$ darstellt) wiederholt, um $c$ darzustellen?",
       "options": [
-        "q mal",
-        "p mal",
-        "a mal",
-        "b mal"
+        "$q$ mal",
+        "$p$ mal",
+        "$a$ mal",
+        "$b$ mal"
       ],
       "correct": [
         0
       ],
-      "explanation": "Auf der Folie ist die Wiederholung des b-Rechtecks mit „q mal“ beschriftet. 📄 Quelle: ari21_vl05, Folie 12 (S.12)",
+      "explanation": "Auf der Folie ist die Wiederholung des $b$-Rechtecks mit „$q$ mal“ beschriftet. 📄 Quelle: ari21_vl05, Folie 12 (S.12)",
       "source": "ari21_vl05, Folie 12 (S.12, Arithmetik)"
     },
     {
@@ -6551,18 +6551,18 @@
       "topic": "teilbarkeit_primzahlen",
       "difficulty": 2,
       "type": "multi",
-      "question": "Wie lautet die Summenregel für natürliche Zahlen a, b, c?",
+      "question": "Wie lautet die Summenregel für natürliche Zahlen $a, b, c$?",
       "options": [
-        "Wenn a|b und a|c, dann a|(b+c)",
-        "Wenn a Teiler von b und c ist, dann ist a auch Teiler von (b+c)",
-        "Wenn a|b und b|c, dann a|c",
-        "Wenn a|b und a|c, dann a|(b·c)"
+        "Wenn $a \\mid b$ und $a \\mid c$, dann $a \\mid (b+c)$",
+        "Wenn $a$ Teiler von $b$ und $c$ ist, dann ist $a$ auch Teiler von $(b+c)$",
+        "Wenn $a \\mid b$ und $b \\mid c$, dann $a \\mid c$",
+        "Wenn $a \\mid b$ und $a \\mid c$, dann $a \\mid (b \\cdot c)$"
       ],
       "correct": [
         0,
         1
       ],
-      "explanation": "Der Satz (Summenregel) auf der Folie: Für natürliche Zahlen a, b, c gilt: Wenn a|b und a|c, dann a|(b+c). In Worten: Wenn a Teiler von b und c ist, dann ist auch a Teiler von (b+c). 📄 Quelle: ari21_vl05, Folie 13 (S.13)",
+      "explanation": "Der Satz (Summenregel) auf der Folie: Für natürliche Zahlen $a, b, c$ gilt: Wenn $a \\mid b$ und $a \\mid c$, dann $a \\mid (b+c)$. In Worten: Wenn $a$ Teiler von $b$ und $c$ ist, dann ist auch $a$ Teiler von $(b+c)$. 📄 Quelle: ari21_vl05, Folie 13 (S.13)",
       "source": "ari21_vl05, Folie 13 (S.13, Arithmetik)"
     },
     {
@@ -6570,11 +6570,11 @@
       "topic": "teilbarkeit_primzahlen",
       "difficulty": 2,
       "type": "numeric",
-      "question": "Es gilt 2|4 und 2|12 (mit 2·2=4 und 2·6=12). Welchen Wert hat 2·(2+6)?",
+      "question": "Es gilt $2 \\mid 4$ und $2 \\mid 12$ (mit $2 \\cdot 2 = 4$ und $2 \\cdot 6 = 12$). Welchen Wert hat $2 \\cdot (2+6)$?",
       "answer": 16,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Auf der Folie: 2·2=4 und 2·6=12, dann auch 2·(2+6)=16. 📄 Quelle: ari21_vl05, Folie 13 (S.13)",
+      "explanation": "Auf der Folie: $2 \\cdot 2 = 4$ und $2 \\cdot 6 = 12$, dann auch $2 \\cdot (2+6) = 16$. 📄 Quelle: ari21_vl05, Folie 13 (S.13)",
       "source": "ari21_vl05, Folie 13 (S.13, Arithmetik)"
     },
     {
@@ -6582,11 +6582,11 @@
       "topic": "teilbarkeit_primzahlen",
       "difficulty": 2,
       "type": "numeric",
-      "question": "Es gilt 7|21 und 7|63 (mit 7·3=21 und 7·9=63). Welchen Wert hat 7·(3+9)?",
+      "question": "Es gilt $7 \\mid 21$ und $7 \\mid 63$ (mit $7 \\cdot 3 = 21$ und $7 \\cdot 9 = 63$). Welchen Wert hat $7 \\cdot (3+9)$?",
       "answer": 84,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Auf der Folie: 7·3=21 und 7·9=63, dann auch 7·(3+9)=84. 📄 Quelle: ari21_vl05, Folie 13 (S.13)",
+      "explanation": "Auf der Folie: $7 \\cdot 3 = 21$ und $7 \\cdot 9 = 63$, dann auch $7 \\cdot (3+9) = 84$. 📄 Quelle: ari21_vl05, Folie 13 (S.13)",
       "source": "ari21_vl05, Folie 13 (S.13, Arithmetik)"
     },
     {
@@ -6594,18 +6594,18 @@
       "topic": "teilbarkeit_primzahlen",
       "difficulty": 2,
       "type": "multi",
-      "question": "Wie werden im Beweis der Summenregel die Voraussetzungen a|b und a|c mit der Definition umgesetzt?",
+      "question": "Wie werden im Beweis der Summenregel die Voraussetzungen $a \\mid b$ und $a \\mid c$ mit der Definition umgesetzt?",
       "options": [
-        "a·p = b",
-        "a·q = c",
-        "b·p = a",
-        "a·p = c"
+        "$a \\cdot p = b$",
+        "$a \\cdot q = c$",
+        "$b \\cdot p = a$",
+        "$a \\cdot p = c$"
       ],
       "correct": [
         0,
         1
       ],
-      "explanation": "In der Tabelle „Definition umgesetzt“ steht a·p = b und a·q = c. 📄 Quelle: ari21_vl05, Folie 14 (S.14)",
+      "explanation": "In der Tabelle „Definition umgesetzt“ steht $a \\cdot p = b$ und $a \\cdot q = c$. 📄 Quelle: ari21_vl05, Folie 14 (S.14)",
       "source": "ari21_vl05, Folie 14 (S.14, Arithmetik)"
     },
     {
@@ -6613,17 +6613,17 @@
       "topic": "teilbarkeit_primzahlen",
       "difficulty": 2,
       "type": "single",
-      "question": "Welche Umformung begründet im direkten Beweis, dass a|(b+c) gilt?",
+      "question": "Welche Umformung begründet im direkten Beweis, dass $a \\mid (b+c)$ gilt?",
       "options": [
-        "b+c = a·p + a·q = a·(p+q)",
-        "b+c = a·p · a·q = a·(p·q)",
-        "b+c = a·(p − q)",
-        "b+c = a + (p+q)"
+        "$b+c = a \\cdot p + a \\cdot q = a \\cdot (p+q)$",
+        "$b+c = a \\cdot p \\cdot a \\cdot q = a \\cdot (p \\cdot q)$",
+        "$b+c = a \\cdot (p - q)$",
+        "$b+c = a + (p+q)$"
       ],
       "correct": [
         0
       ],
-      "explanation": "Auf der Folie: b+c = a·p + a·q, also a·(p+q) = b+c; multipliziert man a mit (p+q), so ergibt sich (b+c), also a|(b+c). 📄 Quelle: ari21_vl05, Folie 14 (S.14)",
+      "explanation": "Auf der Folie: $b+c = a \\cdot p + a \\cdot q$, also $a \\cdot (p+q) = b+c$; multipliziert man $a$ mit $(p+q)$, so ergibt sich $(b+c)$, also $a \\mid (b+c)$. 📄 Quelle: ari21_vl05, Folie 14 (S.14)",
       "source": "ari21_vl05, Folie 14 (S.14, Arithmetik)"
     },
     {
@@ -6631,17 +6631,17 @@
       "topic": "teilbarkeit_primzahlen",
       "difficulty": 3,
       "type": "single",
-      "question": "Wie wird b+c bei der Veranschaulichung der Summenregel mit figurierten Zahlen ausgedrückt?",
+      "question": "Wie wird $b+c$ bei der Veranschaulichung der Summenregel mit figurierten Zahlen ausgedrückt?",
       "options": [
-        "= a·(p+q) = b+c, also a|(b+c)",
-        "= a·(p·q) = b·c, also a|(b·c)",
-        "= a·(p−q) = c, also a|c",
-        "= (a+p)·(a+q) = b+c"
+        "$= a \\cdot (p+q) = b+c$, also $a \\mid (b+c)$",
+        "$= a \\cdot (p \\cdot q) = b \\cdot c$, also $a \\mid (b \\cdot c)$",
+        "$= a \\cdot (p-q) = c$, also $a \\mid c$",
+        "$= (a+p) \\cdot (a+q) = b+c$"
       ],
       "correct": [
         0
       ],
-      "explanation": "Bei den figurierten Zahlen werden die p Spalten von b und die q Spalten von c zu p+q Spalten zusammengefügt: = a·(p+q) = b+c, also a|(b+c). 📄 Quelle: ari21_vl05, Folie 15 (S.15)",
+      "explanation": "Bei den figurierten Zahlen werden die $p$ Spalten von $b$ und die $q$ Spalten von $c$ zu $p+q$ Spalten zusammengefügt: $= a \\cdot (p+q) = b+c$, also $a \\mid (b+c)$. 📄 Quelle: ari21_vl05, Folie 15 (S.15)",
       "source": "ari21_vl05, Folie 15 (S.15, Arithmetik)"
     },
     {
@@ -6649,17 +6649,17 @@
       "topic": "teilbarkeit_primzahlen",
       "difficulty": 1,
       "type": "single",
-      "question": "Wie viele Spalten hat bei der figurierten Darstellung der Summenregel die Darstellung von b+c?",
+      "question": "Wie viele Spalten hat bei der figurierten Darstellung der Summenregel die Darstellung von $b+c$?",
       "options": [
-        "p + q",
-        "p",
-        "q",
-        "p · q"
+        "$p + q$",
+        "$p$",
+        "$q$",
+        "$p \\cdot q$"
       ],
       "correct": [
         0
       ],
-      "explanation": "Auf der Folie ist die Darstellung von b+c mit „p + q“ Spalten beschriftet. 📄 Quelle: ari21_vl05, Folie 15 (S.15)",
+      "explanation": "Auf der Folie ist die Darstellung von $b+c$ mit „$p + q$“ Spalten beschriftet. 📄 Quelle: ari21_vl05, Folie 15 (S.15)",
       "source": "ari21_vl05, Folie 15 (S.15, Arithmetik)"
     },
     {
@@ -6667,18 +6667,18 @@
       "topic": "teilbarkeit_primzahlen",
       "difficulty": 2,
       "type": "multi",
-      "question": "Wie lautet die „andere Summenregel“ für natürliche Zahlen a, b, c?",
+      "question": "Wie lautet die „andere Summenregel“ für natürliche Zahlen $a, b, c$?",
       "options": [
-        "Wenn a|b und a|(b+c), dann a|c",
-        "Wenn a Teiler von b und von (b+c) ist, dann ist a auch Teiler von c",
-        "Wenn a|b und a|c, dann a|(b+c)",
-        "Wenn a|b und a|(b+c), dann a|(b·c)"
+        "Wenn $a \\mid b$ und $a \\mid (b+c)$, dann $a \\mid c$",
+        "Wenn $a$ Teiler von $b$ und von $(b+c)$ ist, dann ist $a$ auch Teiler von $c$",
+        "Wenn $a \\mid b$ und $a \\mid c$, dann $a \\mid (b+c)$",
+        "Wenn $a \\mid b$ und $a \\mid (b+c)$, dann $a \\mid (b \\cdot c)$"
       ],
       "correct": [
         0,
         1
       ],
-      "explanation": "Der Satz (andere Summenregel) auf der Folie: Für natürliche Zahlen a, b, c gilt: Wenn a|b und a|(b+c), dann a|c. In Worten: Wenn a Teiler von b und von (b+c) ist, dann ist auch a Teiler von c. 📄 Quelle: ari21_vl05, Folie 16 (S.16)",
+      "explanation": "Der Satz (andere Summenregel) auf der Folie: Für natürliche Zahlen $a, b, c$ gilt: Wenn $a \\mid b$ und $a \\mid (b+c)$, dann $a \\mid c$. In Worten: Wenn $a$ Teiler von $b$ und von $(b+c)$ ist, dann ist auch $a$ Teiler von $c$. 📄 Quelle: ari21_vl05, Folie 16 (S.16)",
       "source": "ari21_vl05, Folie 16 (S.16, Arithmetik)"
     },
     {
@@ -6686,11 +6686,11 @@
       "topic": "teilbarkeit_primzahlen",
       "difficulty": 2,
       "type": "numeric",
-      "question": "Es gilt 2|4 und 2|10 (mit 2·2=4 und 2·5=10). Welchen Wert hat 2·(5−2)?",
+      "question": "Es gilt $2 \\mid 4$ und $2 \\mid 10$ (mit $2 \\cdot 2 = 4$ und $2 \\cdot 5 = 10$). Welchen Wert hat $2 \\cdot (5-2)$?",
       "answer": 6,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Auf der Folie: 2·2=4 und 2·5=10, dann auch 2·(5−2)=2·3=6 (mit 6=10−4). 📄 Quelle: ari21_vl05, Folie 16 (S.16)",
+      "explanation": "Auf der Folie: $2 \\cdot 2 = 4$ und $2 \\cdot 5 = 10$, dann auch $2 \\cdot (5-2) = 2 \\cdot 3 = 6$ (mit $6 = 10 - 4$). 📄 Quelle: ari21_vl05, Folie 16 (S.16)",
       "source": "ari21_vl05, Folie 16 (S.16, Arithmetik)"
     },
     {
@@ -6698,11 +6698,11 @@
       "topic": "teilbarkeit_primzahlen",
       "difficulty": 2,
       "type": "numeric",
-      "question": "Es gilt 7|21 und 7|105 (mit 7·3=21 und 7·15=105). Welchen Wert hat 7·(15−3)?",
+      "question": "Es gilt $7 \\mid 21$ und $7 \\mid 105$ (mit $7 \\cdot 3 = 21$ und $7 \\cdot 15 = 105$). Welchen Wert hat $7 \\cdot (15-3)$?",
       "answer": 84,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Auf der Folie: 7·3=21 und 7·15=105, dann auch 7·(15−3)=7·12=84 (mit 84=105−21). 📄 Quelle: ari21_vl05, Folie 16 (S.16)",
+      "explanation": "Auf der Folie: $7 \\cdot 3 = 21$ und $7 \\cdot 15 = 105$, dann auch $7 \\cdot (15-3) = 7 \\cdot 12 = 84$ (mit $84 = 105 - 21$). 📄 Quelle: ari21_vl05, Folie 16 (S.16)",
       "source": "ari21_vl05, Folie 16 (S.16, Arithmetik)"
     },
     {
@@ -6710,18 +6710,18 @@
       "topic": "teilbarkeit_primzahlen",
       "difficulty": 2,
       "type": "multi",
-      "question": "Wie werden im Beweis der „anderen Summenregel“ die Voraussetzungen a|b und a|(b+c) mit der Definition umgesetzt?",
+      "question": "Wie werden im Beweis der „anderen Summenregel“ die Voraussetzungen $a \\mid b$ und $a \\mid (b+c)$ mit der Definition umgesetzt?",
       "options": [
-        "a·p = b",
-        "a·q = (b+c)",
-        "a·q = c",
-        "a·p = (b+c)"
+        "$a \\cdot p = b$",
+        "$a \\cdot q = (b+c)$",
+        "$a \\cdot q = c$",
+        "$a \\cdot p = (b+c)$"
       ],
       "correct": [
         0,
         1
       ],
-      "explanation": "In der Tabelle „Definition umgesetzt“ steht a·p = b und a·q = (b+c). 📄 Quelle: ari21_vl05, Folie 17 (S.17)",
+      "explanation": "In der Tabelle „Definition umgesetzt“ steht $a \\cdot p = b$ und $a \\cdot q = (b+c)$. 📄 Quelle: ari21_vl05, Folie 17 (S.17)",
       "source": "ari21_vl05, Folie 17 (S.17, Arithmetik)"
     },
     {
@@ -6729,17 +6729,17 @@
       "topic": "teilbarkeit_primzahlen",
       "difficulty": 3,
       "type": "single",
-      "question": "Welche Umformung liefert im Beweis der „anderen Summenregel“ den Ausdruck für c und begründet a|c?",
+      "question": "Welche Umformung liefert im Beweis der „anderen Summenregel“ den Ausdruck für $c$ und begründet $a \\mid c$?",
       "options": [
-        "c = a·q − a·p = a·(q−p)",
-        "c = a·q + a·p = a·(q+p)",
-        "c = a·p − a·q = a·(p−q)",
-        "c = a·(p·q)"
+        "$c = a \\cdot q - a \\cdot p = a \\cdot (q-p)$",
+        "$c = a \\cdot q + a \\cdot p = a \\cdot (q+p)$",
+        "$c = a \\cdot p - a \\cdot q = a \\cdot (p-q)$",
+        "$c = a \\cdot (p \\cdot q)$"
       ],
       "correct": [
         0
       ],
-      "explanation": "Auf der Folie: aus b+c = a·p + c und b+c = a·q erhält man a·p + c = a·q, also c = a·q − a·p = a·(q−p), somit a|c. 📄 Quelle: ari21_vl05, Folie 17 (S.17)",
+      "explanation": "Auf der Folie: aus $b+c = a \\cdot p + c$ und $b+c = a \\cdot q$ erhält man $a \\cdot p + c = a \\cdot q$, also $c = a \\cdot q - a \\cdot p = a \\cdot (q-p)$, somit $a \\mid c$. 📄 Quelle: ari21_vl05, Folie 17 (S.17)",
       "source": "ari21_vl05, Folie 17 (S.17, Arithmetik)"
     },
     {
@@ -6747,17 +6747,17 @@
       "topic": "teilbarkeit_primzahlen",
       "difficulty": 3,
       "type": "single",
-      "question": "Wie wird c bei der Veranschaulichung der „anderen Summenregel“ mit figurierten Zahlen ausgedrückt?",
+      "question": "Wie wird $c$ bei der Veranschaulichung der „anderen Summenregel“ mit figurierten Zahlen ausgedrückt?",
       "options": [
-        "= a·q, also a|c",
-        "= a·p, also a|c",
-        "= a·(p+q), also a|c",
-        "= a·(p−q), also a|(b+c)"
+        "$= a \\cdot q$, also $a \\mid c$",
+        "$= a \\cdot p$, also $a \\mid c$",
+        "$= a \\cdot (p+q)$, also $a \\mid c$",
+        "$= a \\cdot (p-q)$, also $a \\mid (b+c)$"
       ],
       "correct": [
         0
       ],
-      "explanation": "Bei den figurierten Zahlen bleibt für c ein Rechteck mit a Zeilen und q Spalten: = a·q, also a|c. 📄 Quelle: ari21_vl05, Folie 18 (S.18)",
+      "explanation": "Bei den figurierten Zahlen bleibt für $c$ ein Rechteck mit $a$ Zeilen und $q$ Spalten: $= a \\cdot q$, also $a \\mid c$. 📄 Quelle: ari21_vl05, Folie 18 (S.18)",
       "source": "ari21_vl05, Folie 18 (S.18, Arithmetik)"
     },
     {
@@ -6765,17 +6765,17 @@
       "topic": "teilbarkeit_primzahlen",
       "difficulty": 1,
       "type": "single",
-      "question": "Wie viele Spalten hat bei der figurierten Darstellung der „anderen Summenregel“ die Darstellung von (b+c)?",
+      "question": "Wie viele Spalten hat bei der figurierten Darstellung der „anderen Summenregel“ die Darstellung von $(b+c)$?",
       "options": [
-        "p + q",
-        "q",
-        "p",
-        "p · q"
+        "$p + q$",
+        "$q$",
+        "$p$",
+        "$p \\cdot q$"
       ],
       "correct": [
         0
       ],
-      "explanation": "Auf der Folie ist die Darstellung von (b+c) mit „p + q“ Spalten beschriftet, während b nur p Spalten hat. 📄 Quelle: ari21_vl05, Folie 18 (S.18)",
+      "explanation": "Auf der Folie ist die Darstellung von $(b+c)$ mit „$p + q$“ Spalten beschriftet, während $b$ nur $p$ Spalten hat. 📄 Quelle: ari21_vl05, Folie 18 (S.18)",
       "source": "ari21_vl05, Folie 18 (S.18, Arithmetik)"
     },
     {
@@ -7546,17 +7546,17 @@
       "type": "multi",
       "question": "Welche Zuordnungen zur Mengennotation sind korrekt?",
       "options": [
-        "x ∈ M bedeutet: x ist Element von M",
-        "A ⊂ M bedeutet: A ist Teilmenge von M",
-        "M = {a, b, c, ...} ist die aufzählende Schreibweise",
-        "x ∉ M bedeutet: x ist eine Teilmenge von M"
+        "$x \\in M$ bedeutet: x ist Element von M",
+        "$A \\subset M$ bedeutet: A ist Teilmenge von M",
+        "$M = \\{a, b, c, \\dots\\}$ ist die aufzählende Schreibweise",
+        "$x \\notin M$ bedeutet: x ist eine Teilmenge von M"
       ],
       "correct": [
         0,
         1,
         2
       ],
-      "explanation": "Die Folie nennt: Elemente von Mengen (x ∈ M; x ∉ M), Teilmengen (A ⊂ M) und die aufzählende Schreibweise M = {a, b, c, ...}. x ∉ M bedeutet, dass x kein Element von M ist – nicht, dass es eine Teilmenge ist. 📄 Quelle: ari21_vl07, Folie 4 (S.4)",
+      "explanation": "Die Folie nennt: Elemente von Mengen ($x \\in M$; $x \\notin M$), Teilmengen ($A \\subset M$) und die aufzählende Schreibweise $M = \\{a, b, c, \\dots\\}$. $x \\notin M$ bedeutet, dass x kein Element von M ist – nicht, dass es eine Teilmenge ist. 📄 Quelle: ari21_vl07, Folie 4 (S.4)",
       "source": "ari21_vl07, Folie 4 (S.4, Rückblick – Mengen)"
     },
     {
@@ -7564,7 +7564,7 @@
       "topic": "aussagenlogik",
       "difficulty": 1,
       "type": "single",
-      "question": "Was bedeutet die Schreibweise x ∉ M?",
+      "question": "Was bedeutet die Schreibweise $x \\notin M$?",
       "options": [
         "x ist kein Element von M",
         "x ist ein Element von M",
@@ -7574,7 +7574,7 @@
       "correct": [
         0
       ],
-      "explanation": "Auf der Folie steht x ∈ M (x ist Element von M) und x ∉ M als Gegenstück, also: x ist kein Element von M. 📄 Quelle: ari21_vl07, Folie 4 (S.4)",
+      "explanation": "Auf der Folie steht $x \\in M$ (x ist Element von M) und $x \\notin M$ als Gegenstück, also: x ist kein Element von M. 📄 Quelle: ari21_vl07, Folie 4 (S.4)",
       "source": "ari21_vl07, Folie 4 (S.4, Rückblick – Mengen)"
     },
     {
@@ -7582,7 +7582,7 @@
       "topic": "aussagenlogik",
       "difficulty": 1,
       "type": "single",
-      "question": "Wie heißt die Schreibweise M = {a, b, c, ...}?",
+      "question": "Wie heißt die Schreibweise $M = \\{a, b, c, \\dots\\}$?",
       "options": [
         "aufzählende Schreibweise",
         "beschreibende Schreibweise",
@@ -7592,7 +7592,7 @@
       "correct": [
         0
       ],
-      "explanation": "Die Folie bezeichnet M = {a, b, c, ...} als die aufzählende Schreibweise einer Menge. 📄 Quelle: ari21_vl07, Folie 4 (S.4)",
+      "explanation": "Die Folie bezeichnet $M = \\{a, b, c, \\dots\\}$ als die aufzählende Schreibweise einer Menge. 📄 Quelle: ari21_vl07, Folie 4 (S.4)",
       "source": "ari21_vl07, Folie 4 (S.4, Rückblick – Mengen)"
     },
     {
@@ -7618,7 +7618,7 @@
       "topic": "aussagenlogik",
       "difficulty": 1,
       "type": "single",
-      "question": "Wie lautet zur Aussage A: „Es regnet.“ das sprachliche Gegenteil ¬A?",
+      "question": "Wie lautet zur Aussage A: „Es regnet.“ das sprachliche Gegenteil $\\neg A$?",
       "options": [
         "„Es regnet nicht.“",
         "„Es schneit.“",
@@ -7628,7 +7628,7 @@
       "correct": [
         0
       ],
-      "explanation": "Als Beispiel für die Bildung sprachlicher Gegenteile gibt die Folie A: „Es regnet.“ und ¬A: „Es regnet nicht.“ an. 📄 Quelle: ari21_vl07, Folie 5 (S.5)",
+      "explanation": "Als Beispiel für die Bildung sprachlicher Gegenteile gibt die Folie A: „Es regnet.“ und $\\neg A$: „Es regnet nicht.“ an. 📄 Quelle: ari21_vl07, Folie 5 (S.5)",
       "source": "ari21_vl07, Folie 5 (S.5, Rückblick – Aussagen)"
     },
     {
@@ -7638,7 +7638,7 @@
       "type": "multi",
       "question": "Welche Punkte zum Thema Gegenteile von Aussagen treffen zu?",
       "options": [
-        "Man kann sprachliche Gegenteile bilden (z. B. ¬A: „Es regnet nicht.“)",
+        "Man kann sprachliche Gegenteile bilden (z. B. $\\neg A$: „Es regnet nicht.“)",
         "Es gibt einen Unterschied zwischen dem kontradiktorischen und dem konträren Gegenteil",
         "Als Beispiel dazu dient die Aussage A: „Alle sind da“",
         "Kontradiktorisches und konträres Gegenteil sind immer identisch"
@@ -7656,7 +7656,7 @@
       "topic": "aussagenlogik",
       "difficulty": 2,
       "type": "multi",
-      "question": "In welchen Zeilen der Wahrheitswertetafel (konventionelle Reihenfolge) ist die Verknüpfung A ∨ ¬B wahr? (A: Es regnet, B: Die Straße ist nass)",
+      "question": "In welchen Zeilen der Wahrheitswertetafel (konventionelle Reihenfolge) ist die Verknüpfung $A \\lor \\neg B$ wahr? (A: Es regnet, B: Die Straße ist nass)",
       "options": [
         "A = w, B = w",
         "A = w, B = f",
@@ -7668,7 +7668,7 @@
         1,
         3
       ],
-      "explanation": "Die Wahrheitswertetafel der Folie zeigt für A ∨ ¬B die Werte w, w, f, w (Zeilen ww, wf, fw, ff). Nur bei A = f, B = w ist die Verknüpfung falsch. 📄 Quelle: ari21_vl07, Folie 6 (S.6)",
+      "explanation": "Die Wahrheitswertetafel der Folie zeigt für $A \\lor \\neg B$ die Werte w, w, f, w (Zeilen ww, wf, fw, ff). Nur bei A = f, B = w ist die Verknüpfung falsch. 📄 Quelle: ari21_vl07, Folie 6 (S.6)",
       "source": "ari21_vl07, Folie 6 (S.6, Rückblick – Aussagen verknüpfen)"
     },
     {
@@ -7676,7 +7676,7 @@
       "topic": "aussagenlogik",
       "difficulty": 2,
       "type": "single",
-      "question": "Wie lautet die Versprachlichung der Verknüpfung A ∨ ¬B? (A: Es regnet, B: Die Straße ist nass)",
+      "question": "Wie lautet die Versprachlichung der Verknüpfung $A \\lor \\neg B$? (A: Es regnet, B: Die Straße ist nass)",
       "options": [
         "„Es regnet oder die Straße ist nicht nass.“",
         "„Es regnet und die Straße ist nass.“",
@@ -7686,7 +7686,7 @@
       "correct": [
         0
       ],
-      "explanation": "Die Folie versprachlicht A ∨ ¬B als „Es regnet oder die Straße ist nicht nass.“ 📄 Quelle: ari21_vl07, Folie 6 (S.6)",
+      "explanation": "Die Folie versprachlicht $A \\lor \\neg B$ als „Es regnet oder die Straße ist nicht nass.“ 📄 Quelle: ari21_vl07, Folie 6 (S.6)",
       "source": "ari21_vl07, Folie 6 (S.6, Rückblick – Aussagen verknüpfen)"
     },
     {
@@ -7696,7 +7696,7 @@
       "type": "multi",
       "question": "Welche Fähigkeiten gehören zum Verknüpfen von Aussagen?",
       "options": [
-        "Aussagen mit „nicht“ (¬), „und“ und „oder“ verknüpfen",
+        "Aussagen mit „nicht“ ($\\neg$), „und“ und „oder“ verknüpfen",
         "Passende Wahrheitswertetafeln (mit konventioneller Reihenfolge) bilden",
         "Darstellung im Mengendiagramm",
         "Versprachlichung der Aussage"
@@ -7717,15 +7717,15 @@
       "type": "single",
       "question": "Welche Verknüpfung ist nur in der Zeile (A = w, B = w) wahr, sonst überall falsch („ein Feld wahr“)?",
       "options": [
-        "A ∧ B",
-        "A ∨ B",
-        "¬A ∧ ¬B",
-        "A ∧ ¬B"
+        "$A \\land B$",
+        "$A \\lor B$",
+        "$\\neg A \\land \\neg B$",
+        "$A \\land \\neg B$"
       ],
       "correct": [
         0
       ],
-      "explanation": "In der Übersicht „ein Feld wahr“ hat A ∧ B nur in der Zeile ww den Wert w (sonst f). 📄 Quelle: ari21_vl07, Folie 8 (S.8)",
+      "explanation": "In der Übersicht „ein Feld wahr“ hat $A \\land B$ nur in der Zeile ww den Wert w (sonst f). 📄 Quelle: ari21_vl07, Folie 8 (S.8)",
       "source": "ari21_vl07, Folie 8 (S.8, Aussagen verknüpfen – ein Feld wahr)"
     },
     {
@@ -7735,15 +7735,15 @@
       "type": "single",
       "question": "Welche Verknüpfung entspricht der Versprachlichung „Es regnet nicht und die Straße ist nass.“? (A: Es regnet, B: Die Straße ist nass)",
       "options": [
-        "¬A ∧ B",
-        "A ∧ ¬B",
-        "A ∧ B",
-        "¬A ∧ ¬B"
+        "$\\neg A \\land B$",
+        "$A \\land \\neg B$",
+        "$A \\land B$",
+        "$\\neg A \\land \\neg B$"
       ],
       "correct": [
         0
       ],
-      "explanation": "Auf der Folie wird „Es regnet nicht und die Straße ist nass.“ als ¬A ∧ B dargestellt (¬A = „Es regnet nicht“, B = „die Straße ist nass“). 📄 Quelle: ari21_vl07, Folie 8 (S.8)",
+      "explanation": "Auf der Folie wird „Es regnet nicht und die Straße ist nass.“ als $\\neg A \\land B$ dargestellt ($\\neg A$ = „Es regnet nicht“, B = „die Straße ist nass“). 📄 Quelle: ari21_vl07, Folie 8 (S.8)",
       "source": "ari21_vl07, Folie 8 (S.8, Aussagen verknüpfen – ein Feld wahr)"
     },
     {
@@ -7753,10 +7753,10 @@
       "type": "multi",
       "question": "Welche Verknüpfungen zweier Aussagen A und B haben in ihrer Wahrheitswertetafel genau ein wahres Feld?",
       "options": [
-        "A ∧ B",
-        "A ∧ ¬B",
-        "¬A ∧ B",
-        "¬A ∧ ¬B"
+        "$A \\land B$",
+        "$A \\land \\neg B$",
+        "$\\neg A \\land B$",
+        "$\\neg A \\land \\neg B$"
       ],
       "correct": [
         0,
@@ -7764,7 +7764,7 @@
         2,
         3
       ],
-      "explanation": "Die Folie zeigt vier Wahrheitswertetafeln mit jeweils genau einem wahren Feld: A ∧ B, A ∧ ¬B, ¬A ∧ B und ¬A ∧ ¬B. 📄 Quelle: ari21_vl07, Folie 8 (S.8)",
+      "explanation": "Die Folie zeigt vier Wahrheitswertetafeln mit jeweils genau einem wahren Feld: $A \\land B$, $A \\land \\neg B$, $\\neg A \\land B$ und $\\neg A \\land \\neg B$. 📄 Quelle: ari21_vl07, Folie 8 (S.8)",
       "source": "ari21_vl07, Folie 8 (S.8, Aussagen verknüpfen – ein Feld wahr)"
     },
     {
@@ -7772,7 +7772,7 @@
       "topic": "de_morgan_verneinung",
       "difficulty": 2,
       "type": "multi",
-      "question": "In welchen Zeilen (konventionelle Reihenfolge) ist die Verknüpfung A ∨ B wahr („drei Felder wahr“)?",
+      "question": "In welchen Zeilen (konventionelle Reihenfolge) ist die Verknüpfung $A \\lor B$ wahr („drei Felder wahr“)?",
       "options": [
         "A = w, B = w",
         "A = w, B = f",
@@ -7784,7 +7784,7 @@
         1,
         2
       ],
-      "explanation": "Die Wahrheitswertetafel für A ∨ B auf der Folie zeigt w, w, w, f – nur bei A = f, B = f ist A ∨ B falsch. 📄 Quelle: ari21_vl07, Folie 9 (S.9)",
+      "explanation": "Die Wahrheitswertetafel für $A \\lor B$ auf der Folie zeigt w, w, w, f – nur bei A = f, B = f ist $A \\lor B$ falsch. 📄 Quelle: ari21_vl07, Folie 9 (S.9)",
       "source": "ari21_vl07, Folie 9 (S.9, Aussagen verknüpfen – drei Felder wahr)"
     },
     {
@@ -7792,17 +7792,17 @@
       "topic": "de_morgan_verneinung",
       "difficulty": 2,
       "type": "single",
-      "question": "Wie lautet nach der De-Morgan-Regel die Verneinung ¬(A ∨ B)?",
+      "question": "Wie lautet nach der De-Morgan-Regel die Verneinung $\\neg(A \\lor B)$?",
       "options": [
-        "¬A ∧ ¬B",
-        "¬A ∨ ¬B",
-        "A ∧ B",
-        "¬A ∧ B"
+        "$\\neg A \\land \\neg B$",
+        "$\\neg A \\lor \\neg B$",
+        "$A \\land B$",
+        "$\\neg A \\land B$"
       ],
       "correct": [
         0
       ],
-      "explanation": "Die Folie notiert ¬(A ∨ B) = ¬A ∧ ¬B (Gegenteil / De-Morgan-Regel), veranschaulicht am Mengendiagramm. 📄 Quelle: ari21_vl07, Folie 9 (S.9)",
+      "explanation": "Die Folie notiert $\\neg(A \\lor B) = \\neg A \\land \\neg B$ (Gegenteil / De-Morgan-Regel), veranschaulicht am Mengendiagramm. 📄 Quelle: ari21_vl07, Folie 9 (S.9)",
       "source": "ari21_vl07, Folie 9 (S.9, Aussagen verknüpfen – drei Felder wahr)"
     },
     {
@@ -7810,17 +7810,17 @@
       "topic": "de_morgan_verneinung",
       "difficulty": 2,
       "type": "single",
-      "question": "Wozu ist ¬(¬A ∧ ¬B) gleich?",
+      "question": "Wozu ist $\\neg(\\neg A \\land \\neg B)$ gleich?",
       "options": [
-        "A ∨ B",
-        "A ∧ B",
-        "¬A ∨ ¬B",
-        "¬A ∧ ¬B"
+        "$A \\lor B$",
+        "$A \\land B$",
+        "$\\neg A \\lor \\neg B$",
+        "$\\neg A \\land \\neg B$"
       ],
       "correct": [
         0
       ],
-      "explanation": "Die Folie hält fest: ¬(¬A ∧ ¬B) = A ∨ B. 📄 Quelle: ari21_vl07, Folie 9 (S.9)",
+      "explanation": "Die Folie hält fest: $\\neg(\\neg A \\land \\neg B) = A \\lor B$. 📄 Quelle: ari21_vl07, Folie 9 (S.9)",
       "source": "ari21_vl07, Folie 9 (S.9, Aussagen verknüpfen – drei Felder wahr)"
     },
     {
@@ -7828,9 +7828,9 @@
       "topic": "aussagenlogik",
       "difficulty": 2,
       "type": "single",
-      "question": "In welchem Fall ist die Aussage A ⇒ B (wenn A, dann B) falsch?",
+      "question": "In welchem Fall ist die Aussage $A \\Rightarrow B$ (wenn A, dann B) falsch?",
       "options": [
-        "Wenn A wahr ist, aber B falsch ist (A ∧ ¬B).",
+        "Wenn A wahr ist, aber B falsch ist ($A \\land \\neg B$).",
         "Wenn A falsch ist und B wahr ist.",
         "Wenn A und B beide wahr sind.",
         "Wenn A und B beide falsch sind."
@@ -7838,7 +7838,7 @@
       "correct": [
         0
       ],
-      "explanation": "Laut Folie ist A ⇒ B genau dann falsch, wenn A wahr ist, aber B falsch (A ∧ ¬B). 📄 Quelle: ari21_vl07, Folie 14 (S.14)",
+      "explanation": "Laut Folie ist $A \\Rightarrow B$ genau dann falsch, wenn A wahr ist, aber B falsch ($A \\land \\neg B$). 📄 Quelle: ari21_vl07, Folie 14 (S.14)",
       "source": "ari21_vl07, Folie 14 (S.14, Arithmetik)"
     },
     {
@@ -7846,17 +7846,17 @@
       "topic": "aussagenlogik",
       "difficulty": 2,
       "type": "single",
-      "question": "Welche verknüpfte Aussage muss wahr sein, damit A ⇒ B falsch ist?",
+      "question": "Welche verknüpfte Aussage muss wahr sein, damit $A \\Rightarrow B$ falsch ist?",
       "options": [
-        "A ∧ ¬B",
-        "¬A ∨ B",
-        "A ∨ B",
-        "¬A ∧ B"
+        "$A \\land \\neg B$",
+        "$\\neg A \\lor B$",
+        "$A \\lor B$",
+        "$\\neg A \\land B$"
       ],
       "correct": [
         0
       ],
-      "explanation": "A ⇒ B ist genau dann falsch, wenn A wahr und B falsch ist, also wenn A ∧ ¬B wahr ist. 📄 Quelle: ari21_vl07, Folie 14 (S.14)",
+      "explanation": "$A \\Rightarrow B$ ist genau dann falsch, wenn A wahr und B falsch ist, also wenn $A \\land \\neg B$ wahr ist. 📄 Quelle: ari21_vl07, Folie 14 (S.14)",
       "source": "ari21_vl07, Folie 14 (S.14, Arithmetik)"
     },
     {
@@ -7864,17 +7864,17 @@
       "topic": "aussagenlogik",
       "difficulty": 2,
       "type": "single",
-      "question": "A ⇒ B (wenn A, dann B) ist genau dann wahr, wenn welche Aussage wahr ist?",
+      "question": "$A \\Rightarrow B$ (wenn A, dann B) ist genau dann wahr, wenn welche Aussage wahr ist?",
       "options": [
-        "¬A ∨ B",
-        "A ∧ ¬B",
-        "A ∧ B",
-        "¬A ∧ ¬B"
+        "$\\neg A \\lor B$",
+        "$A \\land \\neg B$",
+        "$A \\land B$",
+        "$\\neg A \\land \\neg B$"
       ],
       "correct": [
         0
       ],
-      "explanation": "Aus der Falsch-Bedingung ergibt sich: A ⇒ B ist genau dann wahr, wenn ¬A ∨ B wahr ist. 📄 Quelle: ari21_vl07, Folie 15 (S.15)",
+      "explanation": "Aus der Falsch-Bedingung ergibt sich: $A \\Rightarrow B$ ist genau dann wahr, wenn $\\neg A \\lor B$ wahr ist. 📄 Quelle: ari21_vl07, Folie 15 (S.15)",
       "source": "ari21_vl07, Folie 15 (S.15, Arithmetik)"
     },
     {
@@ -7882,18 +7882,18 @@
       "topic": "aussagenlogik",
       "difficulty": 2,
       "type": "multi",
-      "question": "Welche Aussagen über A ⇒ B (wenn A, dann B) stimmen?",
+      "question": "Welche Aussagen über $A \\Rightarrow B$ (wenn A, dann B) stimmen?",
       "options": [
-        "A ⇒ B ist genau dann falsch, wenn A ∧ ¬B wahr ist.",
-        "A ⇒ B ist genau dann wahr, wenn ¬A ∨ B wahr ist.",
-        "A ⇒ B ist genau dann wahr, wenn A ∧ ¬B wahr ist.",
-        "A ⇒ B ist genau dann falsch, wenn ¬A ∨ B wahr ist."
+        "$A \\Rightarrow B$ ist genau dann falsch, wenn $A \\land \\neg B$ wahr ist.",
+        "$A \\Rightarrow B$ ist genau dann wahr, wenn $\\neg A \\lor B$ wahr ist.",
+        "$A \\Rightarrow B$ ist genau dann wahr, wenn $A \\land \\neg B$ wahr ist.",
+        "$A \\Rightarrow B$ ist genau dann falsch, wenn $\\neg A \\lor B$ wahr ist."
       ],
       "correct": [
         0,
         1
       ],
-      "explanation": "Die Folie hält beide Bedingungen fest: falsch bei A ∧ ¬B, wahr bei ¬A ∨ B. 📄 Quelle: ari21_vl07, Folie 15 (S.15)",
+      "explanation": "Die Folie hält beide Bedingungen fest: falsch bei $A \\land \\neg B$, wahr bei $\\neg A \\lor B$. 📄 Quelle: ari21_vl07, Folie 15 (S.15)",
       "source": "ari21_vl07, Folie 15 (S.15, Arithmetik)"
     },
     {
@@ -7901,17 +7901,17 @@
       "topic": "aussagenlogik",
       "difficulty": 2,
       "type": "single",
-      "question": "Wie ist die Aussage A ⇒ B mathematisch definiert?",
+      "question": "Wie ist die Aussage $A \\Rightarrow B$ mathematisch definiert?",
       "options": [
-        "A ⇒ B :⇔ ¬A ∨ B",
-        "A ⇒ B :⇔ A ∧ ¬B",
-        "A ⇒ B :⇔ A ∨ B",
-        "A ⇒ B :⇔ ¬A ∧ B"
+        "$A \\Rightarrow B :\\Leftrightarrow \\neg A \\lor B$",
+        "$A \\Rightarrow B :\\Leftrightarrow A \\land \\neg B$",
+        "$A \\Rightarrow B :\\Leftrightarrow A \\lor B$",
+        "$A \\Rightarrow B :\\Leftrightarrow \\neg A \\land B$"
       ],
       "correct": [
         0
       ],
-      "explanation": "Definition der Folie: Die Aussage A ⇒ B ist mathematisch definiert als ¬A ∨ B, d. h. A ⇒ B :⇔ ¬A ∨ B. 📄 Quelle: ari21_vl07, Folie 16 (S.16)",
+      "explanation": "Definition der Folie: Die Aussage $A \\Rightarrow B$ ist mathematisch definiert als $\\neg A \\lor B$, d. h. $A \\Rightarrow B :\\Leftrightarrow \\neg A \\lor B$. 📄 Quelle: ari21_vl07, Folie 16 (S.16)",
       "source": "ari21_vl07, Folie 16 (S.16, Arithmetik)"
     },
     {
@@ -7919,17 +7919,17 @@
       "topic": "aussagenlogik",
       "difficulty": 1,
       "type": "single",
-      "question": "Womit ist die Aussage A ⇒ B laut Definition gleichbedeutend?",
+      "question": "Womit ist die Aussage $A \\Rightarrow B$ laut Definition gleichbedeutend?",
       "options": [
-        "¬A ∨ B",
-        "A ∧ B",
-        "¬A ∧ B",
-        "A ∨ ¬B"
+        "$\\neg A \\lor B$",
+        "$A \\land B$",
+        "$\\neg A \\land B$",
+        "$A \\lor \\neg B$"
       ],
       "correct": [
         0
       ],
-      "explanation": "Die Folie definiert A ⇒ B als ¬A ∨ B; beide sind damit gleichbedeutend. 📄 Quelle: ari21_vl07, Folie 16 (S.16)",
+      "explanation": "Die Folie definiert $A \\Rightarrow B$ als $\\neg A \\lor B$; beide sind damit gleichbedeutend. 📄 Quelle: ari21_vl07, Folie 16 (S.16)",
       "source": "ari21_vl07, Folie 16 (S.16, Arithmetik)"
     },
     {
@@ -7939,16 +7939,16 @@
       "type": "multi",
       "question": "Im Beispiel 'Wenn die Sonne scheint, dann gehe ich joggen' — welche Zuordnungen von A und B sind korrekt?",
       "options": [
-        "A := die Sonne scheint",
-        "B := ich gehe joggen",
-        "A := ich gehe joggen",
-        "B := die Sonne scheint"
+        "$A :=$ die Sonne scheint",
+        "$B :=$ ich gehe joggen",
+        "$A :=$ ich gehe joggen",
+        "$B :=$ die Sonne scheint"
       ],
       "correct": [
         0,
         1
       ],
-      "explanation": "Zur Versprachlichung setzt die Folie A := die Sonne scheint und B := ich gehe joggen. 📄 Quelle: ari21_vl07, Folie 17 (S.17)",
+      "explanation": "Zur Versprachlichung setzt die Folie $A :=$ die Sonne scheint und $B :=$ ich gehe joggen. 📄 Quelle: ari21_vl07, Folie 17 (S.17)",
       "source": "ari21_vl07, Folie 17 (S.17, Arithmetik)"
     },
     {
@@ -7958,15 +7958,15 @@
       "type": "single",
       "question": "Welcher logischen Form entspricht der Satz 'Wenn die Sonne scheint, dann gehe ich joggen'?",
       "options": [
-        "A ⇒ B",
-        "A ∧ B",
-        "A ⇔ B",
-        "B ⇒ A"
+        "$A \\Rightarrow B$",
+        "$A \\land B$",
+        "$A \\Leftrightarrow B$",
+        "$B \\Rightarrow A$"
       ],
       "correct": [
         0
       ],
-      "explanation": "Der Satz 'Wenn A, dann B' ist die Versprachlichung von A ⇒ B. 📄 Quelle: ari21_vl07, Folie 17 (S.17)",
+      "explanation": "Der Satz 'Wenn A, dann B' ist die Versprachlichung von $A \\Rightarrow B$. 📄 Quelle: ari21_vl07, Folie 17 (S.17)",
       "source": "ari21_vl07, Folie 17 (S.17, Arithmetik)"
     },
     {
@@ -7974,7 +7974,7 @@
       "topic": "aussagenlogik",
       "difficulty": 2,
       "type": "single",
-      "question": "Wann ist die Aussage 'Wenn die Sonne scheint, dann gehe ich joggen' (A ⇒ B) nicht wahr (falsch)?",
+      "question": "Wann ist die Aussage 'Wenn die Sonne scheint, dann gehe ich joggen' ($A \\Rightarrow B$) nicht wahr (falsch)?",
       "options": [
         "Die Sonne scheint und ich gehe nicht joggen.",
         "Die Sonne scheint nicht und ich gehe joggen.",
@@ -7984,7 +7984,7 @@
       "correct": [
         0
       ],
-      "explanation": "Laut Folie ist A ⇒ B falsch, wenn die Sonne scheint UND ich NICHT joggen gehe (A ∧ ¬B ist wahr). 📄 Quelle: ari21_vl07, Folie 19 (S.19)",
+      "explanation": "Laut Folie ist $A \\Rightarrow B$ falsch, wenn die Sonne scheint UND ich NICHT joggen gehe ($A \\land \\neg B$ ist wahr). 📄 Quelle: ari21_vl07, Folie 19 (S.19)",
       "source": "ari21_vl07, Folie 19 (S.19, Arithmetik)"
     },
     {
@@ -7992,17 +7992,17 @@
       "topic": "aussagenlogik",
       "difficulty": 2,
       "type": "single",
-      "question": "Welche verknüpfte Aussage ist im Beispiel wahr, wenn A ⇒ B falsch ist?",
+      "question": "Welche verknüpfte Aussage ist im Beispiel wahr, wenn $A \\Rightarrow B$ falsch ist?",
       "options": [
-        "A ∧ ¬B",
-        "¬A ∨ B",
-        "¬A ∧ ¬B",
-        "A ∧ B"
+        "$A \\land \\neg B$",
+        "$\\neg A \\lor B$",
+        "$\\neg A \\land \\neg B$",
+        "$A \\land B$"
       ],
       "correct": [
         0
       ],
-      "explanation": "Wenn A ⇒ B falsch ist, ist A ∧ ¬B wahr ('die Sonne scheint und ich gehe nicht joggen'). 📄 Quelle: ari21_vl07, Folie 19 (S.19)",
+      "explanation": "Wenn $A \\Rightarrow B$ falsch ist, ist $A \\land \\neg B$ wahr ('die Sonne scheint und ich gehe nicht joggen'). 📄 Quelle: ari21_vl07, Folie 19 (S.19)",
       "source": "ari21_vl07, Folie 19 (S.19, Arithmetik)"
     },
     {
@@ -8010,17 +8010,17 @@
       "topic": "aussagenlogik",
       "difficulty": 2,
       "type": "single",
-      "question": "Zu welchem Ausdruck ist ¬(A ∧ ¬B) äquivalent?",
+      "question": "Zu welchem Ausdruck ist $\\neg(A \\land \\neg B)$ äquivalent?",
       "options": [
-        "¬A ∨ B",
-        "A ∨ ¬B",
-        "¬A ∧ B",
-        "A ∧ B"
+        "$\\neg A \\lor B$",
+        "$A \\lor \\neg B$",
+        "$\\neg A \\land B$",
+        "$A \\land B$"
       ],
       "correct": [
         0
       ],
-      "explanation": "Die Folie hält die Umformung ¬(A ∧ ¬B) = ¬A ∨ B fest. 📄 Quelle: ari21_vl07, Folie 20 (S.20)",
+      "explanation": "Die Folie hält die Umformung $\\neg(A \\land \\neg B) = \\neg A \\lor B$ fest. 📄 Quelle: ari21_vl07, Folie 20 (S.20)",
       "source": "ari21_vl07, Folie 20 (S.20, Arithmetik)"
     },
     {
@@ -8030,15 +8030,15 @@
       "type": "single",
       "question": "Welche der folgenden De-Morgan-Umformungen ist korrekt?",
       "options": [
-        "¬(A ∧ ¬B) = ¬A ∨ B",
-        "¬(A ∧ ¬B) = A ∨ ¬B",
-        "¬(A ∨ B) = ¬A ∨ ¬B",
-        "A ∧ ¬B = ¬A ∨ B"
+        "$\\neg(A \\land \\neg B) = \\neg A \\lor B$",
+        "$\\neg(A \\land \\neg B) = A \\lor \\neg B$",
+        "$\\neg(A \\lor B) = \\neg A \\lor \\neg B$",
+        "$A \\land \\neg B = \\neg A \\lor B$"
       ],
       "correct": [
         0
       ],
-      "explanation": "Die Folie zeigt die De-Morgan-Umformung ¬(A ∧ ¬B) = ¬A ∨ B. 📄 Quelle: ari21_vl07, Folie 20 (S.20)",
+      "explanation": "Die Folie zeigt die De-Morgan-Umformung $\\neg(A \\land \\neg B) = \\neg A \\lor B$. 📄 Quelle: ari21_vl07, Folie 20 (S.20)",
       "source": "ari21_vl07, Folie 20 (S.20, Arithmetik)"
     },
     {
@@ -8046,7 +8046,7 @@
       "topic": "aussagenlogik",
       "difficulty": 2,
       "type": "multi",
-      "question": "In welchen Fällen (A, B) ist die Aussage A ⇒ B wahr?",
+      "question": "In welchen Fällen (A, B) ist die Aussage $A \\Rightarrow B$ wahr?",
       "options": [
         "A = w, B = w",
         "A = w, B = f",
@@ -8058,7 +8058,7 @@
         2,
         3
       ],
-      "explanation": "A ⇒ B ist genau dann wahr, wenn ¬A ∨ B wahr ist — das trifft in allen Fällen außer A = w, B = f zu. 📄 Quelle: ari21_vl07, Folie 21 (S.21)",
+      "explanation": "$A \\Rightarrow B$ ist genau dann wahr, wenn $\\neg A \\lor B$ wahr ist — das trifft in allen Fällen außer A = w, B = f zu. 📄 Quelle: ari21_vl07, Folie 21 (S.21)",
       "source": "ari21_vl07, Folie 21 (S.21, Arithmetik)"
     },
     {
@@ -8066,7 +8066,7 @@
       "topic": "aussagenlogik",
       "difficulty": 1,
       "type": "single",
-      "question": "In welchem einzigen Fall ist A ⇒ B falsch?",
+      "question": "In welchem einzigen Fall ist $A \\Rightarrow B$ falsch?",
       "options": [
         "A = w, B = f",
         "A = w, B = w",
@@ -8076,7 +8076,7 @@
       "correct": [
         0
       ],
-      "explanation": "A ⇒ B ist nur falsch, wenn A wahr und B falsch ist (¬A ∨ B ist dann falsch). 📄 Quelle: ari21_vl07, Folie 21 (S.21)",
+      "explanation": "$A \\Rightarrow B$ ist nur falsch, wenn A wahr und B falsch ist ($\\neg A \\lor B$ ist dann falsch). 📄 Quelle: ari21_vl07, Folie 21 (S.21)",
       "source": "ari21_vl07, Folie 21 (S.21, Arithmetik)"
     },
     {
@@ -8086,15 +8086,15 @@
       "type": "single",
       "question": "Wie ist ein typischer mathematischer Satz über die Elemente einer Menge M aufgebaut?",
       "options": [
-        "Für alle Elemente einer Menge M gilt: Wenn A, dann B (A ⇒ B).",
+        "Für alle Elemente einer Menge M gilt: Wenn A, dann B ($A \\Rightarrow B$).",
         "Es gibt ein Element einer Menge M mit: Wenn A, dann B.",
-        "Für alle Elemente einer Menge M gilt: A und B (A ∧ B).",
+        "Für alle Elemente einer Menge M gilt: A und B ($A \\land B$).",
         "Für kein Element einer Menge M gilt: Wenn A, dann B."
       ],
       "correct": [
         0
       ],
-      "explanation": "Der Satz lautet: 'Für alle Elemente einer Menge M gilt: Wenn A, dann B.' (A ⇒ B). 📄 Quelle: ari21_vl07, Folie 22 (S.22)",
+      "explanation": "Der Satz lautet: 'Für alle Elemente einer Menge M gilt: Wenn A, dann B.' ($A \\Rightarrow B$). 📄 Quelle: ari21_vl07, Folie 22 (S.22)",
       "source": "ari21_vl07, Folie 22 (S.22, Arithmetik)"
     },
     {
@@ -8102,17 +8102,17 @@
       "topic": "aussagenlogik",
       "difficulty": 2,
       "type": "single",
-      "question": "Wann ist die Aussage A ⇔ B (genau dann wenn A, dann B) wahr?",
+      "question": "Wann ist die Aussage $A \\Leftrightarrow B$ (genau dann wenn A, dann B) wahr?",
       "options": [
-        "Wenn A ⇒ B und B ⇒ A beide wahr sind.",
-        "Wenn A ⇒ B oder B ⇒ A wahr ist.",
-        "Wenn nur A ⇒ B wahr ist.",
-        "Wenn A ∧ B wahr ist."
+        "Wenn $A \\Rightarrow B$ und $B \\Rightarrow A$ beide wahr sind.",
+        "Wenn $A \\Rightarrow B$ oder $B \\Rightarrow A$ wahr ist.",
+        "Wenn nur $A \\Rightarrow B$ wahr ist.",
+        "Wenn $A \\land B$ wahr ist."
       ],
       "correct": [
         0
       ],
-      "explanation": "A ⇔ B ist genau dann wahr, wenn A ⇒ B und B ⇒ A wahr sind (sonst falsch). 📄 Quelle: ari21_vl07, Folie 23 (S.23)",
+      "explanation": "$A \\Leftrightarrow B$ ist genau dann wahr, wenn $A \\Rightarrow B$ und $B \\Rightarrow A$ wahr sind (sonst falsch). 📄 Quelle: ari21_vl07, Folie 23 (S.23)",
       "source": "ari21_vl07, Folie 23 (S.23, Arithmetik)"
     },
     {
@@ -8120,7 +8120,7 @@
       "topic": "aussagenlogik",
       "difficulty": 3,
       "type": "multi",
-      "question": "In welchen Fällen (A, B) ist die Aussage A ⇔ B wahr?",
+      "question": "In welchen Fällen (A, B) ist die Aussage $A \\Leftrightarrow B$ wahr?",
       "options": [
         "A = w, B = w",
         "A = w, B = f",
@@ -8131,7 +8131,7 @@
         0,
         3
       ],
-      "explanation": "A ⇔ B ist wahr, wenn (A ⇒ B) ∧ (B ⇒ A) wahr ist — also genau dann, wenn A und B denselben Wahrheitswert haben (w/w und f/f). 📄 Quelle: ari21_vl07, Folie 23 (S.23)",
+      "explanation": "$A \\Leftrightarrow B$ ist wahr, wenn $(A \\Rightarrow B) \\land (B \\Rightarrow A)$ wahr ist — also genau dann, wenn A und B denselben Wahrheitswert haben (w/w und f/f). 📄 Quelle: ari21_vl07, Folie 23 (S.23)",
       "source": "ari21_vl07, Folie 23 (S.23, Arithmetik)"
     },
     {
@@ -8139,17 +8139,17 @@
       "topic": "aussagenlogik",
       "difficulty": 1,
       "type": "single",
-      "question": "Welchen Wahrheitswert hat A ⇒ B, wenn A falsch und B wahr ist?",
+      "question": "Welchen Wahrheitswert hat $A \\Rightarrow B$, wenn A falsch und B wahr ist?",
       "options": [
         "wahr (w)",
         "falsch (f)",
         "unbestimmt",
-        "abhängig von B ⇒ A"
+        "abhängig von $B \\Rightarrow A$"
       ],
       "correct": [
         0
       ],
-      "explanation": "In der Spalte A ⇒ B der Tabelle steht für A = f, B = w der Wert w (wahr). 📄 Quelle: ari21_vl07, Folie 23 (S.23)",
+      "explanation": "In der Spalte $A \\Rightarrow B$ der Tabelle steht für A = f, B = w der Wert w (wahr). 📄 Quelle: ari21_vl07, Folie 23 (S.23)",
       "source": "ari21_vl07, Folie 23 (S.23, Arithmetik)"
     },
     {
@@ -14399,17 +14399,17 @@
       "topic": "pascal_binomial",
       "difficulty": 2,
       "type": "single",
-      "question": "Wie ist der Binomialkoeffizient (n über k) definiert?",
+      "question": "Wie ist der Binomialkoeffizient $\\binom{n}{k}$ definiert?",
       "options": [
-        "(n über k) := n! / (k! · (n−k)!)",
-        "(n über k) := n! / (k! · (n+k)!)",
-        "(n über k) := (n·k)! / (k! · n!)",
-        "(n über k) := n! / (n−k)!"
+        "$\\binom{n}{k} := \\frac{n!}{k! \\cdot (n-k)!}$",
+        "$\\binom{n}{k} := \\frac{n!}{k! \\cdot (n+k)!}$",
+        "$\\binom{n}{k} := \\frac{(n \\cdot k)!}{k! \\cdot n!}$",
+        "$\\binom{n}{k} := \\frac{n!}{(n-k)!}$"
       ],
       "correct": [
         0
       ],
-      "explanation": "Definition auf der Folie: (n über k) := n! / (k! · (n−k)!). Gelesen wird 'Zeile über Spalte' bzw. 'n über k'. 📄 Quelle: ari23_vl05, Folie 5 (S.5)",
+      "explanation": "Definition auf der Folie: $\\binom{n}{k} := \\frac{n!}{k! \\cdot (n-k)!}$. Gelesen wird 'Zeile über Spalte' bzw. 'n über k'. 📄 Quelle: ari23_vl05, Folie 5 (S.5)",
       "source": "ari23_vl05, Folie 5 (S.5, Erkundung II)"
     },
     {
@@ -14417,11 +14417,11 @@
       "topic": "pascal_binomial",
       "difficulty": 2,
       "type": "numeric",
-      "question": "Berechne den Binomialkoeffizienten (7 über 4) = 7! / (4! · (7−4)!).",
+      "question": "Berechne den Binomialkoeffizienten $\\binom{7}{4} = \\frac{7!}{4! \\cdot (7-4)!}$.",
       "answer": 35,
       "tolerance": 0,
       "unit": "",
-      "explanation": "(7 über 4) = 7!/(4!·3!) = (7·6·5)/6 = 7·5 = 35. 📄 Quelle: ari23_vl05, Folie 5 (S.5)",
+      "explanation": "$\\binom{7}{4} = \\frac{7!}{4! \\cdot 3!} = \\frac{7 \\cdot 6 \\cdot 5}{6} = 7 \\cdot 5 = 35$. 📄 Quelle: ari23_vl05, Folie 5 (S.5)",
       "source": "ari23_vl05, Folie 5 (S.5, Erkundung II)"
     },
     {
@@ -14429,11 +14429,11 @@
       "topic": "pascal_binomial",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Berechne den Binomialkoeffizienten (4 über 3) = 4! / (3! · (4−3)!).",
+      "question": "Berechne den Binomialkoeffizienten $\\binom{4}{3} = \\frac{4!}{3! \\cdot (4-3)!}$.",
       "answer": 4,
       "tolerance": 0,
       "unit": "",
-      "explanation": "(4 über 3) = 4!/(3!·1!) = (4·3·2·1)/(3·2·1·1) = 4. 📄 Quelle: ari23_vl05, Folie 5 (S.5)",
+      "explanation": "$\\binom{4}{3} = \\frac{4!}{3! \\cdot 1!} = \\frac{4 \\cdot 3 \\cdot 2 \\cdot 1}{3 \\cdot 2 \\cdot 1 \\cdot 1} = 4$. 📄 Quelle: ari23_vl05, Folie 5 (S.5)",
       "source": "ari23_vl05, Folie 5 (S.5, Erkundung II)"
     },
     {
@@ -14441,17 +14441,17 @@
       "topic": "pascal_binomial",
       "difficulty": 2,
       "type": "single",
-      "question": "Wie lautet die Formel für ein Element der 3. Spalte, (n über 3)?",
+      "question": "Wie lautet die Formel für ein Element der 3. Spalte, $\\binom{n}{3}$?",
       "options": [
-        "(n über 3) = n! / (3! · (n−3)!)",
-        "(n über 3) = n! / (3! · (n+3)!)",
-        "(n über 3) = n! / (3! · 3!)",
-        "(n über 3) = 3! / (n! · (n−3)!)"
+        "$\\binom{n}{3} = \\frac{n!}{3! \\cdot (n-3)!}$",
+        "$\\binom{n}{3} = \\frac{n!}{3! \\cdot (n+3)!}$",
+        "$\\binom{n}{3} = \\frac{n!}{3! \\cdot 3!}$",
+        "$\\binom{n}{3} = \\frac{3!}{n! \\cdot (n-3)!}$"
       ],
       "correct": [
         0
       ],
-      "explanation": "Auf der Folie: (n über 3) = n! / (3! · (n−3)!). 📄 Quelle: ari23_vl05, Folie 6 (S.6)",
+      "explanation": "Auf der Folie: $\\binom{n}{3} = \\frac{n!}{3! \\cdot (n-3)!}$. 📄 Quelle: ari23_vl05, Folie 6 (S.6)",
       "source": "ari23_vl05, Folie 6 (S.6, Erkundung II)"
     },
     {
@@ -14459,17 +14459,17 @@
       "topic": "figurierte_zahlen",
       "difficulty": 3,
       "type": "single",
-      "question": "Wenn S_n = 1 + 3 + 6 + … + n·(n+1)/2 die Summe der ersten n Dreieckszahlen ist, wie lautet der geschlossene Ausdruck für S_n?",
+      "question": "Wenn $S_n = 1 + 3 + 6 + \\dots + \\frac{n \\cdot (n+1)}{2}$ die Summe der ersten n Dreieckszahlen ist, wie lautet der geschlossene Ausdruck für $S_n$?",
       "options": [
-        "S_n = n·(n+1)·(n+2) / (3·2)",
-        "S_n = n·(n+1) / 2",
-        "S_n = n·(n+1)·(n+2) / (2·2)",
-        "S_n = n·(n+1)·(n+2)·(n+3) / 24"
+        "$S_n = \\frac{n \\cdot (n+1) \\cdot (n+2)}{3 \\cdot 2}$",
+        "$S_n = \\frac{n \\cdot (n+1)}{2}$",
+        "$S_n = \\frac{n \\cdot (n+1) \\cdot (n+2)}{2 \\cdot 2}$",
+        "$S_n = \\frac{n \\cdot (n+1) \\cdot (n+2) \\cdot (n+3)}{24}$"
       ],
       "correct": [
         0
       ],
-      "explanation": "Der auf der Folie eingerahmte Satz lautet: Wenn S_n = 1 + 3 + 6 + … + n·(n+1)/2 ist, dann gilt S_n = n·(n+1)·(n+2) / (3·2). 📄 Quelle: ari23_vl05, Folie 6 (S.6)",
+      "explanation": "Der auf der Folie eingerahmte Satz lautet: Wenn $S_n = 1 + 3 + 6 + \\dots + \\frac{n \\cdot (n+1)}{2}$ ist, dann gilt $S_n = \\frac{n \\cdot (n+1) \\cdot (n+2)}{3 \\cdot 2}$. 📄 Quelle: ari23_vl05, Folie 6 (S.6)",
       "source": "ari23_vl05, Folie 6 (S.6, Erkundung II)"
     },
     {
@@ -14477,17 +14477,17 @@
       "topic": "pascal_binomial",
       "difficulty": 2,
       "type": "single",
-      "question": "Für alle Elemente der 3. Spalte gilt eine Additionsregel (mit n ≥ 3). Wie lautet sie?",
+      "question": "Für alle Elemente der 3. Spalte gilt eine Additionsregel (mit $n \\ge 3$). Wie lautet sie?",
       "options": [
-        "(n über 3) = ((n−1) über 2) + ((n−1) über 3)",
-        "(n über 3) = ((n−1) über 3) + ((n−1) über 4)",
-        "(n über 3) = (n über 2) + (n über 3)",
-        "(n über 3) = ((n+1) über 2) + ((n+1) über 3)"
+        "$\\binom{n}{3} = \\binom{n-1}{2} + \\binom{n-1}{3}$",
+        "$\\binom{n}{3} = \\binom{n-1}{3} + \\binom{n-1}{4}$",
+        "$\\binom{n}{3} = \\binom{n}{2} + \\binom{n}{3}$",
+        "$\\binom{n}{3} = \\binom{n+1}{2} + \\binom{n+1}{3}$"
       ],
       "correct": [
         0
       ],
-      "explanation": "Auf der Folie: Für alle Elemente der 3. Spalte gilt (n über 3) = ((n−1) über 2) + ((n−1) über 3) mit n ≥ 3; konkret notiert als (7 über 3) = (6 über 2) + (6 über 3). 📄 Quelle: ari23_vl05, Folie 7 (S.7)",
+      "explanation": "Auf der Folie: Für alle Elemente der 3. Spalte gilt $\\binom{n}{3} = \\binom{n-1}{2} + \\binom{n-1}{3}$ mit $n \\ge 3$; konkret notiert als $\\binom{7}{3} = \\binom{6}{2} + \\binom{6}{3}$. 📄 Quelle: ari23_vl05, Folie 7 (S.7)",
       "source": "ari23_vl05, Folie 7 (S.7, Erkundung II)"
     },
     {
@@ -14495,17 +14495,17 @@
       "topic": "pascal_binomial",
       "difficulty": 2,
       "type": "single",
-      "question": "Welche Voraussetzung gilt für die Additionsregel der 3. Spalte, (n über 3) = ((n−1) über 2) + ((n−1) über 3)?",
+      "question": "Welche Voraussetzung gilt für die Additionsregel der 3. Spalte, $\\binom{n}{3} = \\binom{n-1}{2} + \\binom{n-1}{3}$?",
       "options": [
-        "n ≥ 3",
-        "n ≥ 0",
-        "n > 0 und n gerade",
-        "n ≥ 4"
+        "$n \\ge 3$",
+        "$n \\ge 0$",
+        "$n > 0$ und n gerade",
+        "$n \\ge 4$"
       ],
       "correct": [
         0
       ],
-      "explanation": "Die Regel gilt laut Folie 'mit n ≥ 3'. 📄 Quelle: ari23_vl05, Folie 7 (S.7)",
+      "explanation": "Die Regel gilt laut Folie 'mit $n \\ge 3$'. 📄 Quelle: ari23_vl05, Folie 7 (S.7)",
       "source": "ari23_vl05, Folie 7 (S.7, Erkundung II)"
     },
     {
@@ -14515,15 +14515,15 @@
       "type": "single",
       "question": "Wie lautet die Verallgemeinerung der Summen-/Additionsregel für die k-te Spalte des Pascal'schen Dreiecks?",
       "options": [
-        "S_{n−k+1} = ((n−1) über (k−1)) + ((n−1) über k) = n·(n−1)·(n−2)·…·(n−k+1) / k!",
-        "S_{n−k+1} = ((n−1) über (k−1)) · ((n−1) über k) = n·(n−1)·…·(n−k+1) / k",
-        "S_{n+k} = ((n+1) über (k−1)) + ((n+1) über k) = n·(n−1)·…·(n−k+1) / k!",
-        "S_{n−k+1} = ((n−1) über (k−1)) + ((n−1) über k) = n! / k!"
+        "$S_{n-k+1} = \\binom{n-1}{k-1} + \\binom{n-1}{k} = \\frac{n \\cdot (n-1) \\cdot (n-2) \\cdot \\dots \\cdot (n-k+1)}{k!}$",
+        "$S_{n-k+1} = \\binom{n-1}{k-1} \\cdot \\binom{n-1}{k} = \\frac{n \\cdot (n-1) \\cdot \\dots \\cdot (n-k+1)}{k}$",
+        "$S_{n+k} = \\binom{n+1}{k-1} + \\binom{n+1}{k} = \\frac{n \\cdot (n-1) \\cdot \\dots \\cdot (n-k+1)}{k!}$",
+        "$S_{n-k+1} = \\binom{n-1}{k-1} + \\binom{n-1}{k} = \\frac{n!}{k!}$"
       ],
       "correct": [
         0
       ],
-      "explanation": "Auf der Folie: S_{n−k+1} = ((n−1) über (k−1)) + ((n−1) über k) = n·(n−1)·(n−2)·…·(n−k+1) / k!. 📄 Quelle: ari23_vl05, Folie 8 (S.8)",
+      "explanation": "Auf der Folie: $S_{n-k+1} = \\binom{n-1}{k-1} + \\binom{n-1}{k} = \\frac{n \\cdot (n-1) \\cdot (n-2) \\cdot \\dots \\cdot (n-k+1)}{k!}$. 📄 Quelle: ari23_vl05, Folie 8 (S.8)",
       "source": "ari23_vl05, Folie 8 (S.8, Erkundung II)"
     },
     {
@@ -14531,17 +14531,17 @@
       "topic": "figurierte_zahlen",
       "difficulty": 2,
       "type": "single",
-      "question": "Was ergibt die Verallgemeinerung für k = 2? Es ist S_{n−1} = ((n−1) über 1) + ((n−1) über 2) = …",
+      "question": "Was ergibt die Verallgemeinerung für $k = 2$? Es ist $S_{n-1} = \\binom{n-1}{1} + \\binom{n-1}{2} = \\dots$",
       "options": [
-        "n·(n−1) / 2",
-        "n·(n+1) / 2",
-        "n·(n−1) / 3",
-        "(n−1)·(n−2) / 2"
+        "$\\frac{n \\cdot (n-1)}{2}$",
+        "$\\frac{n \\cdot (n+1)}{2}$",
+        "$\\frac{n \\cdot (n-1)}{3}$",
+        "$\\frac{(n-1) \\cdot (n-2)}{2}$"
       ],
       "correct": [
         0
       ],
-      "explanation": "Für k = 2 gilt laut Folie: S_{n−1} = ((n−1) über 1) + ((n−1) über 2) = n·(n−1) / 2! = n·(n−1) / 2. 📄 Quelle: ari23_vl05, Folie 8 (S.8)",
+      "explanation": "Für $k = 2$ gilt laut Folie: $S_{n-1} = \\binom{n-1}{1} + \\binom{n-1}{2} = \\frac{n \\cdot (n-1)}{2!} = \\frac{n \\cdot (n-1)}{2}$. 📄 Quelle: ari23_vl05, Folie 8 (S.8)",
       "source": "ari23_vl05, Folie 8 (S.8, Erkundung II)"
     },
     {
@@ -14549,17 +14549,17 @@
       "topic": "figurierte_zahlen",
       "difficulty": 2,
       "type": "single",
-      "question": "Was ergibt die Verallgemeinerung für k = 3? Es ist S_{n−2} = ((n−1) über 2) + ((n−1) über 3) = …",
+      "question": "Was ergibt die Verallgemeinerung für $k = 3$? Es ist $S_{n-2} = \\binom{n-1}{2} + \\binom{n-1}{3} = \\dots$",
       "options": [
-        "n·(n−1)·(n−2) / (3·2)",
-        "n·(n−1)·(n−2) / 3",
-        "n·(n+1)·(n+2) / (3·2)",
-        "n·(n−1)·(n−2) / 2"
+        "$\\frac{n \\cdot (n-1) \\cdot (n-2)}{3 \\cdot 2}$",
+        "$\\frac{n \\cdot (n-1) \\cdot (n-2)}{3}$",
+        "$\\frac{n \\cdot (n+1) \\cdot (n+2)}{3 \\cdot 2}$",
+        "$\\frac{n \\cdot (n-1) \\cdot (n-2)}{2}$"
       ],
       "correct": [
         0
       ],
-      "explanation": "Für k = 3 gilt laut Folie: S_{n−2} = ((n−1) über 2) + ((n−1) über 3) = n·(n−1)·(n−2) / 3! = n·(n−1)·(n−2) / (3·2). 📄 Quelle: ari23_vl05, Folie 9 (S.9)",
+      "explanation": "Für $k = 3$ gilt laut Folie: $S_{n-2} = \\binom{n-1}{2} + \\binom{n-1}{3} = \\frac{n \\cdot (n-1) \\cdot (n-2)}{3!} = \\frac{n \\cdot (n-1) \\cdot (n-2)}{3 \\cdot 2}$. 📄 Quelle: ari23_vl05, Folie 9 (S.9)",
       "source": "ari23_vl05, Folie 9 (S.9, Erkundung II)"
     },
     {
@@ -14567,11 +14567,11 @@
       "topic": "figurierte_zahlen",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Für k = 3 steht im Nenner der Formel für S_{n−2} der Ausdruck 3! (= 3·2). Welchen Zahlenwert hat 3!?",
+      "question": "Für $k = 3$ steht im Nenner der Formel für $S_{n-2}$ der Ausdruck $3!$ ($= 3 \\cdot 2$). Welchen Zahlenwert hat $3!$?",
       "answer": 6,
       "tolerance": 0,
       "unit": "",
-      "explanation": "3! = 3·2·1 = 6; auf der Folie als 3·2 geschrieben. 📄 Quelle: ari23_vl05, Folie 9 (S.9)",
+      "explanation": "$3! = 3 \\cdot 2 \\cdot 1 = 6$; auf der Folie als $3 \\cdot 2$ geschrieben. 📄 Quelle: ari23_vl05, Folie 9 (S.9)",
       "source": "ari23_vl05, Folie 9 (S.9, Erkundung II)"
     },
     {
@@ -14581,15 +14581,15 @@
       "type": "single",
       "question": "Für welchen Zahlbereich gilt der mittels vollständiger Induktion bewiesene Satz zur k-ten Spalte des Pascal'schen Dreiecks?",
       "options": [
-        "Für alle natürlichen Zahlen n mit n ≥ k",
+        "Für alle natürlichen Zahlen n mit $n \\ge k$",
         "Für alle ganzen Zahlen n",
         "Für alle reellen Zahlen n",
-        "Für alle natürlichen Zahlen n mit n ≤ k"
+        "Für alle natürlichen Zahlen n mit $n \\le k$"
       ],
       "correct": [
         0
       ],
-      "explanation": "Auf der Folie: 'Für alle natürlichen Zahlen n und n ≥ k gilt …'. 📄 Quelle: ari23_vl05, Folie 10 (S.10)",
+      "explanation": "Auf der Folie: 'Für alle natürlichen Zahlen n und $n \\ge k$ gilt …'. 📄 Quelle: ari23_vl05, Folie 10 (S.10)",
       "source": "ari23_vl05, Folie 10 (S.10, Erkundung II – vollständige Induktion)"
     },
     {
@@ -14597,17 +14597,17 @@
       "topic": "vollstaendige_induktion",
       "difficulty": 3,
       "type": "single",
-      "question": "Wie lautet die mittels vollständiger Induktion zu zeigende Behauptung für die k-te Spalte, wenn S_{n−k+1} = ((n−1) über (k−1)) + ((n−1) über k) ist?",
+      "question": "Wie lautet die mittels vollständiger Induktion zu zeigende Behauptung für die k-te Spalte, wenn $S_{n-k+1} = \\binom{n-1}{k-1} + \\binom{n-1}{k}$ ist?",
       "options": [
-        "S_{n−k+1} = n·(n−1)·(n−2)·…·(n−k+1) / k!",
-        "S_{n−k+1} = n·(n−1)·(n−2)·…·(n−k+1) / (k−1)!",
-        "S_{n−k+1} = n! / (k! · (n−k)!)",
-        "S_{n−k+1} = ((n−1) über (k−1)) − ((n−1) über k)"
+        "$S_{n-k+1} = \\frac{n \\cdot (n-1) \\cdot (n-2) \\cdot \\dots \\cdot (n-k+1)}{k!}$",
+        "$S_{n-k+1} = \\frac{n \\cdot (n-1) \\cdot (n-2) \\cdot \\dots \\cdot (n-k+1)}{(k-1)!}$",
+        "$S_{n-k+1} = \\frac{n!}{k! \\cdot (n-k)!}$",
+        "$S_{n-k+1} = \\binom{n-1}{k-1} - \\binom{n-1}{k}$"
       ],
       "correct": [
         0
       ],
-      "explanation": "Auf der Folie: Wenn S_{n−k+1} = ((n−1) über (k−1)) + ((n−1) über k) ist, dann gilt S_{n−k+1} = n·(n−1)·(n−2)·…·(n−k+1) / k!. 📄 Quelle: ari23_vl05, Folie 10 (S.10)",
+      "explanation": "Auf der Folie: Wenn $S_{n-k+1} = \\binom{n-1}{k-1} + \\binom{n-1}{k}$ ist, dann gilt $S_{n-k+1} = \\frac{n \\cdot (n-1) \\cdot (n-2) \\cdot \\dots \\cdot (n-k+1)}{k!}$. 📄 Quelle: ari23_vl05, Folie 10 (S.10)",
       "source": "ari23_vl05, Folie 10 (S.10, Erkundung II – vollständige Induktion)"
     },
     {
@@ -14615,17 +14615,17 @@
       "topic": "vollstaendige_induktion",
       "difficulty": 3,
       "type": "single",
-      "question": "Für die 4. Spalte (k = 4, n ≥ 4) gilt: Wenn S_{n−3} = 1 + 4 + 10 + 20 + … + n·(n+1)·(n+2)/6 ist, wie lautet dann der geschlossene Ausdruck für S_{n−3}?",
+      "question": "Für die 4. Spalte ($k = 4$, $n \\ge 4$) gilt: Wenn $S_{n-3} = 1 + 4 + 10 + 20 + \\dots + \\frac{n \\cdot (n+1) \\cdot (n+2)}{6}$ ist, wie lautet dann der geschlossene Ausdruck für $S_{n-3}$?",
       "options": [
-        "S_{n−3} = n·(n+1)·(n+2)·(n+3) / 24",
-        "S_{n−3} = n·(n+1)·(n+2) / 6",
-        "S_{n−3} = n·(n+1)·(n+2)·(n+3) / 6",
-        "S_{n−3} = n·(n−1)·(n−2)·(n−3) / 24"
+        "$S_{n-3} = \\frac{n \\cdot (n+1) \\cdot (n+2) \\cdot (n+3)}{24}$",
+        "$S_{n-3} = \\frac{n \\cdot (n+1) \\cdot (n+2)}{6}$",
+        "$S_{n-3} = \\frac{n \\cdot (n+1) \\cdot (n+2) \\cdot (n+3)}{6}$",
+        "$S_{n-3} = \\frac{n \\cdot (n-1) \\cdot (n-2) \\cdot (n-3)}{24}$"
       ],
       "correct": [
         0
       ],
-      "explanation": "Auf Folie 11 (Spalte 4, k = 4): Wenn S_{n−3} = 1 + 4 + 10 + 20 + … + n·(n+1)·(n+2)/6 ist, dann gilt S_{n−3} = n·(n+1)·(n+2)·(n+3) / 24. 📄 Quelle: ari23_vl05, Folie 11 (S.11)",
+      "explanation": "Auf Folie 11 (Spalte 4, $k = 4$): Wenn $S_{n-3} = 1 + 4 + 10 + 20 + \\dots + \\frac{n \\cdot (n+1) \\cdot (n+2)}{6}$ ist, dann gilt $S_{n-3} = \\frac{n \\cdot (n+1) \\cdot (n+2) \\cdot (n+3)}{24}$. 📄 Quelle: ari23_vl05, Folie 11 (S.11)",
       "source": "ari23_vl05, Folie 11 (S.11, Erkundung II – vollständige Induktion)"
     },
     {
@@ -14633,19 +14633,19 @@
       "topic": "vollstaendige_induktion",
       "difficulty": 2,
       "type": "multi",
-      "question": "Welche Aussagen zum Satz für die 4. Spalte (k = 4) des Pascal'schen Dreiecks sind korrekt?",
+      "question": "Welche Aussagen zum Satz für die 4. Spalte ($k = 4$) des Pascal'schen Dreiecks sind korrekt?",
       "options": [
-        "Die Voraussetzung lautet: für alle natürlichen Zahlen n ≥ 4.",
-        "Die Summe beginnt mit den Summanden 1 + 4 + 10 + 20 + …",
-        "Der geschlossene Ausdruck ist S_{n−3} = n·(n+1)·(n+2)·(n+3) / 24.",
-        "Der letzte angegebene Summand der Summe ist n·(n+1)/2."
+        "Die Voraussetzung lautet: für alle natürlichen Zahlen $n \\ge 4$.",
+        "Die Summe beginnt mit den Summanden $1 + 4 + 10 + 20 + \\dots$",
+        "Der geschlossene Ausdruck ist $S_{n-3} = \\frac{n \\cdot (n+1) \\cdot (n+2) \\cdot (n+3)}{24}$.",
+        "Der letzte angegebene Summand der Summe ist $\\frac{n \\cdot (n+1)}{2}$."
       ],
       "correct": [
         0,
         1,
         2
       ],
-      "explanation": "Auf der Folie: n ≥ 4; S_{n−3} = 1 + 4 + 10 + 20 + … + n·(n+1)·(n+2)/6 (der letzte Summand ist n·(n+1)·(n+2)/6, nicht n·(n+1)/2); geschlossen S_{n−3} = n·(n+1)·(n+2)·(n+3)/24. 📄 Quelle: ari23_vl05, Folie 11 (S.11)",
+      "explanation": "Auf der Folie: $n \\ge 4$; $S_{n-3} = 1 + 4 + 10 + 20 + \\dots + \\frac{n \\cdot (n+1) \\cdot (n+2)}{6}$ (der letzte Summand ist $\\frac{n \\cdot (n+1) \\cdot (n+2)}{6}$, nicht $\\frac{n \\cdot (n+1)}{2}$); geschlossen $S_{n-3} = \\frac{n \\cdot (n+1) \\cdot (n+2) \\cdot (n+3)}{24}$. 📄 Quelle: ari23_vl05, Folie 11 (S.11)",
       "source": "ari23_vl05, Folie 11 (S.11, Erkundung II – vollständige Induktion)"
     },
     {
@@ -14712,17 +14712,17 @@
       "topic": "beweismethoden",
       "difficulty": 3,
       "type": "single",
-      "question": "Wie lautet der Ansatz eines indirekten Beweises? Statt „Für alle Elemente einer Menge gilt: A ⟹ B“ setzt man an: …",
+      "question": "Wie lautet der Ansatz eines indirekten Beweises? Statt „Für alle Elemente einer Menge gilt: $A \\Rightarrow B$“ setzt man an: …",
       "options": [
-        "Es gibt Elemente einer Menge, für die gilt: A ∧ ¬B, und man zeigt, dass diese Verneinung nicht wahr ist (Widerspruch).",
-        "Für alle Elemente einer Menge gilt: B ⟹ A, und man rechnet dies direkt nach.",
-        "Man zeigt A(1) und die Implikation A(n) ⟹ A(n+1).",
-        "Man gibt möglichst viele Beispiele an, für die A ⟹ B gilt."
+        "Es gibt Elemente einer Menge, für die gilt: $A \\land \\neg B$, und man zeigt, dass diese Verneinung nicht wahr ist (Widerspruch).",
+        "Für alle Elemente einer Menge gilt: $B \\Rightarrow A$, und man rechnet dies direkt nach.",
+        "Man zeigt $A(1)$ und die Implikation $A(n) \\Rightarrow A(n+1)$.",
+        "Man gibt möglichst viele Beispiele an, für die $A \\Rightarrow B$ gilt."
       ],
       "correct": [
         0
       ],
-      "explanation": "Auf der Folie: Beim indirekten Beweis setzt man an 'Es gibt Elemente einer Menge, für die gilt: A ∧ ¬B' und versucht zu zeigen, dass diese Verneinung nicht wahr ist (Widerspruch). 📄 Quelle: ari23_vl05, Folie 14 (S.14)",
+      "explanation": "Auf der Folie: Beim indirekten Beweis setzt man an 'Es gibt Elemente einer Menge, für die gilt: $A \\land \\neg B$' und versucht zu zeigen, dass diese Verneinung nicht wahr ist (Widerspruch). 📄 Quelle: ari23_vl05, Folie 14 (S.14)",
       "source": "ari23_vl05, Folie 14 (S.14, Beweise)"
     },
     {
@@ -14732,15 +14732,15 @@
       "type": "single",
       "question": "Welche vorgegebene Form hat die vollständige Induktion?",
       "options": [
-        "Man zeigt, dass A(1) wahr ist und dass die Implikation A(n) ⟹ A(n+1) wahr ist.",
-        "Man zeigt, dass A(1) falsch ist und A(n) ⟹ A(n−1) gilt.",
-        "Man nimmt A ∧ ¬B an und leitet einen Widerspruch her.",
+        "Man zeigt, dass $A(1)$ wahr ist und dass die Implikation $A(n) \\Rightarrow A(n+1)$ wahr ist.",
+        "Man zeigt, dass $A(1)$ falsch ist und $A(n) \\Rightarrow A(n-1)$ gilt.",
+        "Man nimmt $A \\land \\neg B$ an und leitet einen Widerspruch her.",
         "Man akzeptiert auch geometrische Argumente ohne feste Form."
       ],
       "correct": [
         0
       ],
-      "explanation": "Auf der Folie: Die vollständige Induktion hat eine vorgegebene Form, indem man zeigt, dass A(1) wahr ist und die Implikation A(n) ⟹ A(n+1) wahr ist. 📄 Quelle: ari23_vl05, Folie 14 (S.14)",
+      "explanation": "Auf der Folie: Die vollständige Induktion hat eine vorgegebene Form, indem man zeigt, dass $A(1)$ wahr ist und die Implikation $A(n) \\Rightarrow A(n+1)$ wahr ist. 📄 Quelle: ari23_vl05, Folie 14 (S.14)",
       "source": "ari23_vl05, Folie 14 (S.14, Beweise)"
     },
     {
@@ -14748,11 +14748,11 @@
       "topic": "beweismethoden",
       "difficulty": 1,
       "type": "numeric",
-      "question": "Betrachtet wird der Term n² + n + 41. Welchen Wert hat er für n = 10?",
+      "question": "Betrachtet wird der Term $n^2 + n + 41$. Welchen Wert hat er für $n = 10$?",
       "answer": 151,
       "tolerance": 0,
       "unit": "",
-      "explanation": "Für n = 10: 10² + 10 + 41 = 100 + 10 + 41 = 151 (so auch in der Tabelle der Folie). 📄 Quelle: ari23_vl05, Folie 15 (S.15)",
+      "explanation": "Für $n = 10$: $10^2 + 10 + 41 = 100 + 10 + 41 = 151$ (so auch in der Tabelle der Folie). 📄 Quelle: ari23_vl05, Folie 15 (S.15)",
       "source": "ari23_vl05, Folie 15 (S.15, Muster, Vermutungen, Sätze und Beweise)"
     },
     {
@@ -14760,11 +14760,11 @@
       "topic": "beweismethoden",
       "difficulty": 2,
       "type": "single",
-      "question": "Welche Kernbotschaft veranschaulicht die Vermutung „Wenn n eine natürliche Zahl ist, dann ist n² + n + 41 eine Primzahl“?",
+      "question": "Welche Kernbotschaft veranschaulicht die Vermutung „Wenn n eine natürliche Zahl ist, dann ist $n^2 + n + 41$ eine Primzahl“?",
       "options": [
         "Nicht jede Vermutung ist richtig.",
         "Jede durch eine Tabelle gestützte Vermutung ist bewiesen.",
-        "n² + n + 41 ist für jede natürliche Zahl n eine Primzahl.",
+        "$n^2 + n + 41$ ist für jede natürliche Zahl n eine Primzahl.",
         "Eine Vermutung gilt als bewiesen, sobald 21 Beispiele passen."
       ],
       "correct": [
@@ -14816,17 +14816,17 @@
       "topic": "teilbarkeit_primzahlen",
       "difficulty": 1,
       "type": "single",
-      "question": "Erinnerung zur Teilbarkeit: Wann gilt a|b?",
+      "question": "Erinnerung zur Teilbarkeit: Wann gilt $a \\mid b$?",
       "options": [
-        "Genau dann, wenn es eine natürliche Zahl x gibt mit a·x = b",
-        "Genau dann, wenn es eine natürliche Zahl x gibt mit b·x = a",
-        "Genau dann, wenn es eine reelle Zahl x gibt mit a·x = b",
-        "Genau dann, wenn für alle natürlichen Zahlen x gilt a·x = b"
+        "Genau dann, wenn es eine natürliche Zahl x gibt mit $a \\cdot x = b$",
+        "Genau dann, wenn es eine natürliche Zahl x gibt mit $b \\cdot x = a$",
+        "Genau dann, wenn es eine reelle Zahl x gibt mit $a \\cdot x = b$",
+        "Genau dann, wenn für alle natürlichen Zahlen x gilt $a \\cdot x = b$"
       ],
       "correct": [
         0
       ],
-      "explanation": "Laut Erinnerung gilt a|b genau dann, wenn es eine natürliche Zahl x gibt mit a·x = b. 📄 Quelle: ari23_vl05, Folie 18 (S.18)",
+      "explanation": "Laut Erinnerung gilt $a \\mid b$ genau dann, wenn es eine natürliche Zahl x gibt mit $a \\cdot x = b$. 📄 Quelle: ari23_vl05, Folie 18 (S.18)",
       "source": "ari23_vl05, Folie 18 (S.18, n-Quadratlinge)"
     },
     {
@@ -14834,18 +14834,18 @@
       "topic": "teilbarkeit_primzahlen",
       "difficulty": 2,
       "type": "multi",
-      "question": "Welche Aussagen zur Teilbarkeit a|b treffen zu?",
+      "question": "Welche Aussagen zur Teilbarkeit $a \\mid b$ treffen zu?",
       "options": [
         "x ist eine natürliche Zahl",
-        "Es gilt a·x = b",
+        "Es gilt $a \\cdot x = b$",
         "x muss eine Primzahl sein",
-        "Es gilt a + x = b"
+        "Es gilt $a + x = b$"
       ],
       "correct": [
         0,
         1
       ],
-      "explanation": "Die Folie definiert: a|b genau dann, wenn es eine Natürliche Zahl x gibt mit a·x = b. Somit ist x natürlich und es gilt a·x = b; eine Primzahl-Bedingung oder eine Additionsgleichung stehen nicht auf der Folie. 📄 Quelle: ari23_vl05, Folie 18 (S.18)",
+      "explanation": "Die Folie definiert: $a \\mid b$ genau dann, wenn es eine Natürliche Zahl x gibt mit $a \\cdot x = b$. Somit ist x natürlich und es gilt $a \\cdot x = b$; eine Primzahl-Bedingung oder eine Additionsgleichung stehen nicht auf der Folie. 📄 Quelle: ari23_vl05, Folie 18 (S.18)",
       "source": "ari23_vl05, Folie 18 (S.18, n-Quadratlinge)"
     },
     {
@@ -15003,7 +15003,7 @@
       "question": "Was ist im Zusammenhang mit der „Parkettierung der Ebene“ mit der „Ebene“ gemeint?",
       "options": [
         "Die zu allen Seiten unendlich gedachte Fläche",
-        "Ein 6×8-Rechteck",
+        "Ein $6 \\times 8$-Rechteck",
         "Eine endliche, begrenzte Fläche",
         "Die Oberfläche eines Würfels"
       ],

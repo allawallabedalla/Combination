@@ -24,17 +24,17 @@
     "type": "multi",
     "question": "Welche der folgenden Darstellungen der Zahl 12 sind korrekt?",
     "options": [
-      "3·2·2",
-      "2·2·3",
-      "2²·3",
-      "2·3·3"
+      "$3 \\cdot 2 \\cdot 2$",
+      "$2 \\cdot 2 \\cdot 3$",
+      "$2^2 \\cdot 3$",
+      "$2 \\cdot 3 \\cdot 3$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Auf der Folie steht: 12 = 3·2·2 = 2·2·3 = 2²·3. Die Darstellung 2·3·3 = 18 kommt nicht vor. 📄 Quelle: ari21_vl05, Folie 6 (S.6)",
+    "explanation": "Auf der Folie steht: $12 = 3 \\cdot 2 \\cdot 2 = 2 \\cdot 2 \\cdot 3 = 2^2 \\cdot 3$. Die Darstellung $2 \\cdot 3 \\cdot 3 = 18$ kommt nicht vor. 📄 Quelle: ari21_vl05, Folie 6 (S.6)",
     "source": "ari21_vl05, Folie 6 (S.6, Arithmetik)"
   },
   {
@@ -42,11 +42,11 @@
     "topic": "ari21_vl05_primfaktorzerlegung",
     "difficulty": 1,
     "type": "numeric",
-    "question": "In der Darstellung 12 = 2²·3: Welchen Exponenten hat die Basis 2?",
+    "question": "In der Darstellung $12 = 2^2 \\cdot 3$: Welchen Exponenten hat die Basis 2?",
     "answer": 2,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Die Folie schreibt 12 = 2²·3, die Basis 2 hat also den Exponenten 2. 📄 Quelle: ari21_vl05, Folie 6 (S.6)",
+    "explanation": "Die Folie schreibt $12 = 2^2 \\cdot 3$, die Basis 2 hat also den Exponenten 2. 📄 Quelle: ari21_vl05, Folie 6 (S.6)",
     "source": "ari21_vl05, Folie 6 (S.6, Arithmetik)"
   },
   {
@@ -64,7 +64,7 @@
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie: Aus der Primfaktorzerlegung 12 = 3·2·2 = 2·2·3 = 2²·3 ergibt sich mit einem Baum die Menge aller Teiler der Zahl 12. 📄 Quelle: ari21_vl05, Folie 7 (S.7)",
+    "explanation": "Auf der Folie: Aus der Primfaktorzerlegung $12 = 3 \\cdot 2 \\cdot 2 = 2 \\cdot 2 \\cdot 3 = 2^2 \\cdot 3$ ergibt sich mit einem Baum die Menge aller Teiler der Zahl 12. 📄 Quelle: ari21_vl05, Folie 7 (S.7)",
     "source": "ari21_vl05, Folie 7 (S.7, Arithmetik)"
   },
   {
@@ -96,16 +96,16 @@
     "type": "multi",
     "question": "Welche Aussagen geben den Satz zur Teilbarkeitsrelation (Transitivität) korrekt wieder?",
     "options": [
-      "Für natürliche Zahlen a, b, c gilt: Wenn a|b und b|c, dann a|c",
+      "Für natürliche Zahlen $a, b, c$ gilt: Wenn $a \\mid b$ und $b \\mid c$, dann $a \\mid c$",
       "Die Teilbarkeitsrelation ist transitiv",
-      "Für natürliche Zahlen a, b, c gilt: Wenn a|b und a|c, dann a|(b+c)",
-      "Wenn a|b und b|c, dann c|a"
+      "Für natürliche Zahlen $a, b, c$ gilt: Wenn $a \\mid b$ und $a \\mid c$, dann $a \\mid (b+c)$",
+      "Wenn $a \\mid b$ und $b \\mid c$, dann $c \\mid a$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Der Satz auf der Folie lautet: Die Teilbarkeitsrelation ist transitiv. Für natürliche Zahlen a, b, c gilt: Wenn a|b und b|c, dann a|c. 📄 Quelle: ari21_vl05, Folie 9 (S.9)",
+    "explanation": "Der Satz auf der Folie lautet: Die Teilbarkeitsrelation ist transitiv. Für natürliche Zahlen $a, b, c$ gilt: Wenn $a \\mid b$ und $b \\mid c$, dann $a \\mid c$. 📄 Quelle: ari21_vl05, Folie 9 (S.9)",
     "source": "ari21_vl05, Folie 9 (S.9, Arithmetik)"
   },
   {
@@ -115,16 +115,16 @@
     "type": "multi",
     "question": "Welche der folgenden Beispiele bestätigen die Transitivität der Teilbarkeit?",
     "options": [
-      "2|4 und 4|12, dann auch 2|12",
-      "7|21 und 21|63, dann auch 7|63",
-      "2|4 und 2|12, dann auch 2|6",
-      "3|9 und 9|18, dann auch 18|3"
+      "$2 \\mid 4$ und $4 \\mid 12$, dann auch $2 \\mid 12$",
+      "$7 \\mid 21$ und $21 \\mid 63$, dann auch $7 \\mid 63$",
+      "$2 \\mid 4$ und $2 \\mid 12$, dann auch $2 \\mid 6$",
+      "$3 \\mid 9$ und $9 \\mid 18$, dann auch $18 \\mid 3$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Auf der Folie stehen die Beispiele: 2|4 und 4|12, dann auch 2|12 sowie 7|21 und 21|63, dann auch 7|63. 📄 Quelle: ari21_vl05, Folie 9 (S.9)",
+    "explanation": "Auf der Folie stehen die Beispiele: $2 \\mid 4$ und $4 \\mid 12$, dann auch $2 \\mid 12$ sowie $7 \\mid 21$ und $21 \\mid 63$, dann auch $7 \\mid 63$. 📄 Quelle: ari21_vl05, Folie 9 (S.9)",
     "source": "ari21_vl05, Folie 9 (S.9, Arithmetik)"
   },
   {
@@ -168,7 +168,7 @@
     "topic": "ari21_vl05_beweisen",
     "difficulty": 2,
     "type": "multi",
-    "question": "Womit soll die Voraussetzung „a|b und b|c“ umgeformt werden, um zum Ziel „a|c“ zu gelangen?",
+    "question": "Womit soll die Voraussetzung „$a \\mid b$ und $b \\mid c$“ umgeformt werden, um zum Ziel „$a \\mid c$“ zu gelangen?",
     "options": [
       "mit der Definition (der Teilbarkeit)",
       "mit anderen Sätzen",
@@ -187,18 +187,18 @@
     "topic": "ari21_vl05_transitivitaet",
     "difficulty": 2,
     "type": "multi",
-    "question": "Wie werden im direkten Beweis die Voraussetzungen a|b und b|c mit der Definition der Teilbarkeit umgesetzt?",
+    "question": "Wie werden im direkten Beweis die Voraussetzungen $a \\mid b$ und $b \\mid c$ mit der Definition der Teilbarkeit umgesetzt?",
     "options": [
-      "a·q = b",
-      "b·p = c",
-      "a·p = b",
-      "c·p = b"
+      "$a \\cdot q = b$",
+      "$b \\cdot p = c$",
+      "$a \\cdot p = b$",
+      "$c \\cdot p = b$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "In der Tabelle „Definition umgesetzt“ steht a·q = b und b·p = c. 📄 Quelle: ari21_vl05, Folie 11 (S.11)",
+    "explanation": "In der Tabelle „Definition umgesetzt“ steht $a \\cdot q = b$ und $b \\cdot p = c$. 📄 Quelle: ari21_vl05, Folie 11 (S.11)",
     "source": "ari21_vl05, Folie 11 (S.11, Arithmetik)"
   },
   {
@@ -206,17 +206,17 @@
     "topic": "ari21_vl05_transitivitaet",
     "difficulty": 2,
     "type": "single",
-    "question": "Welche Umformung zeigt im direkten Beweis, dass a|c gilt?",
+    "question": "Welche Umformung zeigt im direkten Beweis, dass $a \\mid c$ gilt?",
     "options": [
-      "b·p = a·q·p = a·(q·p) = c",
-      "b·p = a + q + p = c",
-      "b·p = a·(q + p) = c",
-      "b·p = a − q·p = c"
+      "$b \\cdot p = a \\cdot q \\cdot p = a \\cdot (q \\cdot p) = c$",
+      "$b \\cdot p = a + q + p = c$",
+      "$b \\cdot p = a \\cdot (q + p) = c$",
+      "$b \\cdot p = a - q \\cdot p = c$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Aus b·p = c und a·q = b folgt b·p = a·q·p = a·(q·p) = c; multipliziert man a mit (p·q), so ergibt sich c, also a|c. 📄 Quelle: ari21_vl05, Folie 11 (S.11)",
+    "explanation": "Aus $b \\cdot p = c$ und $a \\cdot q = b$ folgt $b \\cdot p = a \\cdot q \\cdot p = a \\cdot (q \\cdot p) = c$; multipliziert man $a$ mit $(p \\cdot q)$, so ergibt sich $c$, also $a \\mid c$. 📄 Quelle: ari21_vl05, Folie 11 (S.11)",
     "source": "ari21_vl05, Folie 11 (S.11, Arithmetik)"
   },
   {
@@ -242,17 +242,17 @@
     "topic": "ari21_vl05_transitivitaet",
     "difficulty": 3,
     "type": "single",
-    "question": "Wie wird c bei der Veranschaulichung der Transitivität mit figurierten Zahlen ausgedrückt?",
+    "question": "Wie wird $c$ bei der Veranschaulichung der Transitivität mit figurierten Zahlen ausgedrückt?",
     "options": [
-      "= q·b = q·a·p = a·(q·p) = c",
-      "= q + b = a·(q + p) = c",
-      "= q·b = a·q·p·b = c",
-      "= p·b = a·(p·q) = c"
+      "$= q \\cdot b = q \\cdot a \\cdot p = a \\cdot (q \\cdot p) = c$",
+      "$= q + b = a \\cdot (q + p) = c$",
+      "$= q \\cdot b = a \\cdot q \\cdot p \\cdot b = c$",
+      "$= p \\cdot b = a \\cdot (p \\cdot q) = c$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Bei den figurierten Zahlen wird b (= a·p) insgesamt q mal wiederholt: = q·b = q·a·p = a·(q·p) = c, also a|c. 📄 Quelle: ari21_vl05, Folie 12 (S.12)",
+    "explanation": "Bei den figurierten Zahlen wird $b$ ($= a \\cdot p$) insgesamt $q$ mal wiederholt: $= q \\cdot b = q \\cdot a \\cdot p = a \\cdot (q \\cdot p) = c$, also $a \\mid c$. 📄 Quelle: ari21_vl05, Folie 12 (S.12)",
     "source": "ari21_vl05, Folie 12 (S.12, Arithmetik)"
   },
   {
@@ -260,17 +260,17 @@
     "topic": "ari21_vl05_transitivitaet",
     "difficulty": 1,
     "type": "single",
-    "question": "Wie oft wird bei der figurierten Darstellung das Rechteck (das b darstellt) wiederholt, um c darzustellen?",
+    "question": "Wie oft wird bei der figurierten Darstellung das Rechteck (das $b$ darstellt) wiederholt, um $c$ darzustellen?",
     "options": [
-      "q mal",
-      "p mal",
-      "a mal",
-      "b mal"
+      "$q$ mal",
+      "$p$ mal",
+      "$a$ mal",
+      "$b$ mal"
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie ist die Wiederholung des b-Rechtecks mit „q mal“ beschriftet. 📄 Quelle: ari21_vl05, Folie 12 (S.12)",
+    "explanation": "Auf der Folie ist die Wiederholung des $b$-Rechtecks mit „$q$ mal“ beschriftet. 📄 Quelle: ari21_vl05, Folie 12 (S.12)",
     "source": "ari21_vl05, Folie 12 (S.12, Arithmetik)"
   },
   {
@@ -278,18 +278,18 @@
     "topic": "ari21_vl05_summenregel",
     "difficulty": 2,
     "type": "multi",
-    "question": "Wie lautet die Summenregel für natürliche Zahlen a, b, c?",
+    "question": "Wie lautet die Summenregel für natürliche Zahlen $a, b, c$?",
     "options": [
-      "Wenn a|b und a|c, dann a|(b+c)",
-      "Wenn a Teiler von b und c ist, dann ist a auch Teiler von (b+c)",
-      "Wenn a|b und b|c, dann a|c",
-      "Wenn a|b und a|c, dann a|(b·c)"
+      "Wenn $a \\mid b$ und $a \\mid c$, dann $a \\mid (b+c)$",
+      "Wenn $a$ Teiler von $b$ und $c$ ist, dann ist $a$ auch Teiler von $(b+c)$",
+      "Wenn $a \\mid b$ und $b \\mid c$, dann $a \\mid c$",
+      "Wenn $a \\mid b$ und $a \\mid c$, dann $a \\mid (b \\cdot c)$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Der Satz (Summenregel) auf der Folie: Für natürliche Zahlen a, b, c gilt: Wenn a|b und a|c, dann a|(b+c). In Worten: Wenn a Teiler von b und c ist, dann ist auch a Teiler von (b+c). 📄 Quelle: ari21_vl05, Folie 13 (S.13)",
+    "explanation": "Der Satz (Summenregel) auf der Folie: Für natürliche Zahlen $a, b, c$ gilt: Wenn $a \\mid b$ und $a \\mid c$, dann $a \\mid (b+c)$. In Worten: Wenn $a$ Teiler von $b$ und $c$ ist, dann ist auch $a$ Teiler von $(b+c)$. 📄 Quelle: ari21_vl05, Folie 13 (S.13)",
     "source": "ari21_vl05, Folie 13 (S.13, Arithmetik)"
   },
   {
@@ -297,11 +297,11 @@
     "topic": "ari21_vl05_summenregel",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Es gilt 2|4 und 2|12 (mit 2·2=4 und 2·6=12). Welchen Wert hat 2·(2+6)?",
+    "question": "Es gilt $2 \\mid 4$ und $2 \\mid 12$ (mit $2 \\cdot 2 = 4$ und $2 \\cdot 6 = 12$). Welchen Wert hat $2 \\cdot (2+6)$?",
     "answer": 16,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Auf der Folie: 2·2=4 und 2·6=12, dann auch 2·(2+6)=16. 📄 Quelle: ari21_vl05, Folie 13 (S.13)",
+    "explanation": "Auf der Folie: $2 \\cdot 2 = 4$ und $2 \\cdot 6 = 12$, dann auch $2 \\cdot (2+6) = 16$. 📄 Quelle: ari21_vl05, Folie 13 (S.13)",
     "source": "ari21_vl05, Folie 13 (S.13, Arithmetik)"
   },
   {
@@ -309,11 +309,11 @@
     "topic": "ari21_vl05_summenregel",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Es gilt 7|21 und 7|63 (mit 7·3=21 und 7·9=63). Welchen Wert hat 7·(3+9)?",
+    "question": "Es gilt $7 \\mid 21$ und $7 \\mid 63$ (mit $7 \\cdot 3 = 21$ und $7 \\cdot 9 = 63$). Welchen Wert hat $7 \\cdot (3+9)$?",
     "answer": 84,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Auf der Folie: 7·3=21 und 7·9=63, dann auch 7·(3+9)=84. 📄 Quelle: ari21_vl05, Folie 13 (S.13)",
+    "explanation": "Auf der Folie: $7 \\cdot 3 = 21$ und $7 \\cdot 9 = 63$, dann auch $7 \\cdot (3+9) = 84$. 📄 Quelle: ari21_vl05, Folie 13 (S.13)",
     "source": "ari21_vl05, Folie 13 (S.13, Arithmetik)"
   },
   {
@@ -321,18 +321,18 @@
     "topic": "ari21_vl05_summenregel",
     "difficulty": 2,
     "type": "multi",
-    "question": "Wie werden im Beweis der Summenregel die Voraussetzungen a|b und a|c mit der Definition umgesetzt?",
+    "question": "Wie werden im Beweis der Summenregel die Voraussetzungen $a \\mid b$ und $a \\mid c$ mit der Definition umgesetzt?",
     "options": [
-      "a·p = b",
-      "a·q = c",
-      "b·p = a",
-      "a·p = c"
+      "$a \\cdot p = b$",
+      "$a \\cdot q = c$",
+      "$b \\cdot p = a$",
+      "$a \\cdot p = c$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "In der Tabelle „Definition umgesetzt“ steht a·p = b und a·q = c. 📄 Quelle: ari21_vl05, Folie 14 (S.14)",
+    "explanation": "In der Tabelle „Definition umgesetzt“ steht $a \\cdot p = b$ und $a \\cdot q = c$. 📄 Quelle: ari21_vl05, Folie 14 (S.14)",
     "source": "ari21_vl05, Folie 14 (S.14, Arithmetik)"
   },
   {
@@ -340,17 +340,17 @@
     "topic": "ari21_vl05_summenregel",
     "difficulty": 2,
     "type": "single",
-    "question": "Welche Umformung begründet im direkten Beweis, dass a|(b+c) gilt?",
+    "question": "Welche Umformung begründet im direkten Beweis, dass $a \\mid (b+c)$ gilt?",
     "options": [
-      "b+c = a·p + a·q = a·(p+q)",
-      "b+c = a·p · a·q = a·(p·q)",
-      "b+c = a·(p − q)",
-      "b+c = a + (p+q)"
+      "$b+c = a \\cdot p + a \\cdot q = a \\cdot (p+q)$",
+      "$b+c = a \\cdot p \\cdot a \\cdot q = a \\cdot (p \\cdot q)$",
+      "$b+c = a \\cdot (p - q)$",
+      "$b+c = a + (p+q)$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie: b+c = a·p + a·q, also a·(p+q) = b+c; multipliziert man a mit (p+q), so ergibt sich (b+c), also a|(b+c). 📄 Quelle: ari21_vl05, Folie 14 (S.14)",
+    "explanation": "Auf der Folie: $b+c = a \\cdot p + a \\cdot q$, also $a \\cdot (p+q) = b+c$; multipliziert man $a$ mit $(p+q)$, so ergibt sich $(b+c)$, also $a \\mid (b+c)$. 📄 Quelle: ari21_vl05, Folie 14 (S.14)",
     "source": "ari21_vl05, Folie 14 (S.14, Arithmetik)"
   },
   {
@@ -358,17 +358,17 @@
     "topic": "ari21_vl05_summenregel",
     "difficulty": 3,
     "type": "single",
-    "question": "Wie wird b+c bei der Veranschaulichung der Summenregel mit figurierten Zahlen ausgedrückt?",
+    "question": "Wie wird $b+c$ bei der Veranschaulichung der Summenregel mit figurierten Zahlen ausgedrückt?",
     "options": [
-      "= a·(p+q) = b+c, also a|(b+c)",
-      "= a·(p·q) = b·c, also a|(b·c)",
-      "= a·(p−q) = c, also a|c",
-      "= (a+p)·(a+q) = b+c"
+      "$= a \\cdot (p+q) = b+c$, also $a \\mid (b+c)$",
+      "$= a \\cdot (p \\cdot q) = b \\cdot c$, also $a \\mid (b \\cdot c)$",
+      "$= a \\cdot (p-q) = c$, also $a \\mid c$",
+      "$= (a+p) \\cdot (a+q) = b+c$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Bei den figurierten Zahlen werden die p Spalten von b und die q Spalten von c zu p+q Spalten zusammengefügt: = a·(p+q) = b+c, also a|(b+c). 📄 Quelle: ari21_vl05, Folie 15 (S.15)",
+    "explanation": "Bei den figurierten Zahlen werden die $p$ Spalten von $b$ und die $q$ Spalten von $c$ zu $p+q$ Spalten zusammengefügt: $= a \\cdot (p+q) = b+c$, also $a \\mid (b+c)$. 📄 Quelle: ari21_vl05, Folie 15 (S.15)",
     "source": "ari21_vl05, Folie 15 (S.15, Arithmetik)"
   },
   {
@@ -376,17 +376,17 @@
     "topic": "ari21_vl05_summenregel",
     "difficulty": 1,
     "type": "single",
-    "question": "Wie viele Spalten hat bei der figurierten Darstellung der Summenregel die Darstellung von b+c?",
+    "question": "Wie viele Spalten hat bei der figurierten Darstellung der Summenregel die Darstellung von $b+c$?",
     "options": [
-      "p + q",
-      "p",
-      "q",
-      "p · q"
+      "$p + q$",
+      "$p$",
+      "$q$",
+      "$p \\cdot q$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie ist die Darstellung von b+c mit „p + q“ Spalten beschriftet. 📄 Quelle: ari21_vl05, Folie 15 (S.15)",
+    "explanation": "Auf der Folie ist die Darstellung von $b+c$ mit „$p + q$“ Spalten beschriftet. 📄 Quelle: ari21_vl05, Folie 15 (S.15)",
     "source": "ari21_vl05, Folie 15 (S.15, Arithmetik)"
   },
   {
@@ -394,18 +394,18 @@
     "topic": "ari21_vl05_summenregel",
     "difficulty": 2,
     "type": "multi",
-    "question": "Wie lautet die „andere Summenregel“ für natürliche Zahlen a, b, c?",
+    "question": "Wie lautet die „andere Summenregel“ für natürliche Zahlen $a, b, c$?",
     "options": [
-      "Wenn a|b und a|(b+c), dann a|c",
-      "Wenn a Teiler von b und von (b+c) ist, dann ist a auch Teiler von c",
-      "Wenn a|b und a|c, dann a|(b+c)",
-      "Wenn a|b und a|(b+c), dann a|(b·c)"
+      "Wenn $a \\mid b$ und $a \\mid (b+c)$, dann $a \\mid c$",
+      "Wenn $a$ Teiler von $b$ und von $(b+c)$ ist, dann ist $a$ auch Teiler von $c$",
+      "Wenn $a \\mid b$ und $a \\mid c$, dann $a \\mid (b+c)$",
+      "Wenn $a \\mid b$ und $a \\mid (b+c)$, dann $a \\mid (b \\cdot c)$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Der Satz (andere Summenregel) auf der Folie: Für natürliche Zahlen a, b, c gilt: Wenn a|b und a|(b+c), dann a|c. In Worten: Wenn a Teiler von b und von (b+c) ist, dann ist auch a Teiler von c. 📄 Quelle: ari21_vl05, Folie 16 (S.16)",
+    "explanation": "Der Satz (andere Summenregel) auf der Folie: Für natürliche Zahlen $a, b, c$ gilt: Wenn $a \\mid b$ und $a \\mid (b+c)$, dann $a \\mid c$. In Worten: Wenn $a$ Teiler von $b$ und von $(b+c)$ ist, dann ist auch $a$ Teiler von $c$. 📄 Quelle: ari21_vl05, Folie 16 (S.16)",
     "source": "ari21_vl05, Folie 16 (S.16, Arithmetik)"
   },
   {
@@ -413,11 +413,11 @@
     "topic": "ari21_vl05_summenregel",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Es gilt 2|4 und 2|10 (mit 2·2=4 und 2·5=10). Welchen Wert hat 2·(5−2)?",
+    "question": "Es gilt $2 \\mid 4$ und $2 \\mid 10$ (mit $2 \\cdot 2 = 4$ und $2 \\cdot 5 = 10$). Welchen Wert hat $2 \\cdot (5-2)$?",
     "answer": 6,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Auf der Folie: 2·2=4 und 2·5=10, dann auch 2·(5−2)=2·3=6 (mit 6=10−4). 📄 Quelle: ari21_vl05, Folie 16 (S.16)",
+    "explanation": "Auf der Folie: $2 \\cdot 2 = 4$ und $2 \\cdot 5 = 10$, dann auch $2 \\cdot (5-2) = 2 \\cdot 3 = 6$ (mit $6 = 10 - 4$). 📄 Quelle: ari21_vl05, Folie 16 (S.16)",
     "source": "ari21_vl05, Folie 16 (S.16, Arithmetik)"
   },
   {
@@ -425,11 +425,11 @@
     "topic": "ari21_vl05_summenregel",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Es gilt 7|21 und 7|105 (mit 7·3=21 und 7·15=105). Welchen Wert hat 7·(15−3)?",
+    "question": "Es gilt $7 \\mid 21$ und $7 \\mid 105$ (mit $7 \\cdot 3 = 21$ und $7 \\cdot 15 = 105$). Welchen Wert hat $7 \\cdot (15-3)$?",
     "answer": 84,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Auf der Folie: 7·3=21 und 7·15=105, dann auch 7·(15−3)=7·12=84 (mit 84=105−21). 📄 Quelle: ari21_vl05, Folie 16 (S.16)",
+    "explanation": "Auf der Folie: $7 \\cdot 3 = 21$ und $7 \\cdot 15 = 105$, dann auch $7 \\cdot (15-3) = 7 \\cdot 12 = 84$ (mit $84 = 105 - 21$). 📄 Quelle: ari21_vl05, Folie 16 (S.16)",
     "source": "ari21_vl05, Folie 16 (S.16, Arithmetik)"
   },
   {
@@ -437,18 +437,18 @@
     "topic": "ari21_vl05_summenregel",
     "difficulty": 2,
     "type": "multi",
-    "question": "Wie werden im Beweis der „anderen Summenregel“ die Voraussetzungen a|b und a|(b+c) mit der Definition umgesetzt?",
+    "question": "Wie werden im Beweis der „anderen Summenregel“ die Voraussetzungen $a \\mid b$ und $a \\mid (b+c)$ mit der Definition umgesetzt?",
     "options": [
-      "a·p = b",
-      "a·q = (b+c)",
-      "a·q = c",
-      "a·p = (b+c)"
+      "$a \\cdot p = b$",
+      "$a \\cdot q = (b+c)$",
+      "$a \\cdot q = c$",
+      "$a \\cdot p = (b+c)$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "In der Tabelle „Definition umgesetzt“ steht a·p = b und a·q = (b+c). 📄 Quelle: ari21_vl05, Folie 17 (S.17)",
+    "explanation": "In der Tabelle „Definition umgesetzt“ steht $a \\cdot p = b$ und $a \\cdot q = (b+c)$. 📄 Quelle: ari21_vl05, Folie 17 (S.17)",
     "source": "ari21_vl05, Folie 17 (S.17, Arithmetik)"
   },
   {
@@ -456,17 +456,17 @@
     "topic": "ari21_vl05_summenregel",
     "difficulty": 3,
     "type": "single",
-    "question": "Welche Umformung liefert im Beweis der „anderen Summenregel“ den Ausdruck für c und begründet a|c?",
+    "question": "Welche Umformung liefert im Beweis der „anderen Summenregel“ den Ausdruck für $c$ und begründet $a \\mid c$?",
     "options": [
-      "c = a·q − a·p = a·(q−p)",
-      "c = a·q + a·p = a·(q+p)",
-      "c = a·p − a·q = a·(p−q)",
-      "c = a·(p·q)"
+      "$c = a \\cdot q - a \\cdot p = a \\cdot (q-p)$",
+      "$c = a \\cdot q + a \\cdot p = a \\cdot (q+p)$",
+      "$c = a \\cdot p - a \\cdot q = a \\cdot (p-q)$",
+      "$c = a \\cdot (p \\cdot q)$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie: aus b+c = a·p + c und b+c = a·q erhält man a·p + c = a·q, also c = a·q − a·p = a·(q−p), somit a|c. 📄 Quelle: ari21_vl05, Folie 17 (S.17)",
+    "explanation": "Auf der Folie: aus $b+c = a \\cdot p + c$ und $b+c = a \\cdot q$ erhält man $a \\cdot p + c = a \\cdot q$, also $c = a \\cdot q - a \\cdot p = a \\cdot (q-p)$, somit $a \\mid c$. 📄 Quelle: ari21_vl05, Folie 17 (S.17)",
     "source": "ari21_vl05, Folie 17 (S.17, Arithmetik)"
   },
   {
@@ -474,17 +474,17 @@
     "topic": "ari21_vl05_summenregel",
     "difficulty": 3,
     "type": "single",
-    "question": "Wie wird c bei der Veranschaulichung der „anderen Summenregel“ mit figurierten Zahlen ausgedrückt?",
+    "question": "Wie wird $c$ bei der Veranschaulichung der „anderen Summenregel“ mit figurierten Zahlen ausgedrückt?",
     "options": [
-      "= a·q, also a|c",
-      "= a·p, also a|c",
-      "= a·(p+q), also a|c",
-      "= a·(p−q), also a|(b+c)"
+      "$= a \\cdot q$, also $a \\mid c$",
+      "$= a \\cdot p$, also $a \\mid c$",
+      "$= a \\cdot (p+q)$, also $a \\mid c$",
+      "$= a \\cdot (p-q)$, also $a \\mid (b+c)$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Bei den figurierten Zahlen bleibt für c ein Rechteck mit a Zeilen und q Spalten: = a·q, also a|c. 📄 Quelle: ari21_vl05, Folie 18 (S.18)",
+    "explanation": "Bei den figurierten Zahlen bleibt für $c$ ein Rechteck mit $a$ Zeilen und $q$ Spalten: $= a \\cdot q$, also $a \\mid c$. 📄 Quelle: ari21_vl05, Folie 18 (S.18)",
     "source": "ari21_vl05, Folie 18 (S.18, Arithmetik)"
   },
   {
@@ -492,17 +492,17 @@
     "topic": "ari21_vl05_summenregel",
     "difficulty": 1,
     "type": "single",
-    "question": "Wie viele Spalten hat bei der figurierten Darstellung der „anderen Summenregel“ die Darstellung von (b+c)?",
+    "question": "Wie viele Spalten hat bei der figurierten Darstellung der „anderen Summenregel“ die Darstellung von $(b+c)$?",
     "options": [
-      "p + q",
-      "q",
-      "p",
-      "p · q"
+      "$p + q$",
+      "$q$",
+      "$p$",
+      "$p \\cdot q$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie ist die Darstellung von (b+c) mit „p + q“ Spalten beschriftet, während b nur p Spalten hat. 📄 Quelle: ari21_vl05, Folie 18 (S.18)",
+    "explanation": "Auf der Folie ist die Darstellung von $(b+c)$ mit „$p + q$“ Spalten beschriftet, während $b$ nur $p$ Spalten hat. 📄 Quelle: ari21_vl05, Folie 18 (S.18)",
     "source": "ari21_vl05, Folie 18 (S.18, Arithmetik)"
   }
 ]

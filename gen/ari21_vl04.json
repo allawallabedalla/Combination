@@ -4,17 +4,17 @@
     "topic": "ari21_vl04_division_mit_rest",
     "difficulty": 1,
     "type": "single",
-    "question": "Satz von der eindeutigen Division mit Rest: Für natürliche Zahlen n, m gibt es genau ein Paar natürlicher Zahlen q und r mit n = q·m + r. Welche Bedingung muss der Rest r erfüllen?",
+    "question": "Satz von der eindeutigen Division mit Rest: Für natürliche Zahlen n, m gibt es genau ein Paar natürlicher Zahlen q und r mit $n = q \\cdot m + r$. Welche Bedingung muss der Rest r erfüllen?",
     "options": [
-      "r < m",
-      "r ≤ m",
-      "r < q",
-      "r > m"
+      "$r < m$",
+      "$r \\le m$",
+      "$r < q$",
+      "$r > m$"
     ],
     "correct": [
       0
     ],
-    "explanation": "Auf der Folie steht: es gibt genau ein Paar q und r, so dass n = q·m + r mit r < m gilt. 📄 Quelle: ari21_vl04, Folie 4 (S.4)",
+    "explanation": "Auf der Folie steht: es gibt genau ein Paar q und r, so dass $n = q \\cdot m + r$ mit $r < m$ gilt. 📄 Quelle: ari21_vl04, Folie 4 (S.4)",
     "source": "ari21_vl04, Folie 4 (S.4, Rückblick)"
   },
   {
@@ -24,18 +24,18 @@
     "type": "multi",
     "question": "Welche Aussagen gehören zum Satz von der eindeutigen Division mit Rest (n, m natürliche Zahlen)?",
     "options": [
-      "Es gibt genau ein Paar (q, r) mit n = q·m + r.",
-      "Für den Rest gilt r < m.",
+      "Es gibt genau ein Paar (q, r) mit $n = q \\cdot m + r$.",
+      "Für den Rest gilt $r < m$.",
       "q und r sind natürliche Zahlen.",
       "Es gibt mehrere mögliche Paare (q, r).",
-      "Der Rest r darf beliebig groß sein, solange r < n gilt."
+      "Der Rest r darf beliebig groß sein, solange $r < n$ gilt."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Folie formuliert: Wenn n, m natürliche Zahlen sind, dann gibt es genau ein Paar natürlicher Zahlen q und r, so dass n = q·m + r mit r < m gilt (Satz von der eindeutigen Division mit Rest). 'Genau ein Paar' schließt mehrere Paare aus; r ist durch r < m beschränkt. 📄 Quelle: ari21_vl04, Folie 4 (S.4)",
+    "explanation": "Die Folie formuliert: Wenn n, m natürliche Zahlen sind, dann gibt es genau ein Paar natürlicher Zahlen q und r, so dass $n = q \\cdot m + r$ mit $r < m$ gilt (Satz von der eindeutigen Division mit Rest). 'Genau ein Paar' schließt mehrere Paare aus; r ist durch $r < m$ beschränkt. 📄 Quelle: ari21_vl04, Folie 4 (S.4)",
     "source": "ari21_vl04, Folie 4 (S.4, Rückblick)"
   },
   {
@@ -43,17 +43,17 @@
     "topic": "ari21_vl04_division_mit_rest",
     "difficulty": 2,
     "type": "single",
-    "question": "In der Stellenwertdarstellung n = a_m·b^m + a_(m-1)·b^(m-1) + ... + a_1·b^1 + a_0·b^0 ist der höchste auftretende Exponent von b gleich:",
+    "question": "In der Stellenwertdarstellung $n = a_m \\cdot b^m + a_{m-1} \\cdot b^{m-1} + \\ldots + a_1 \\cdot b^1 + a_0 \\cdot b^0$ ist der höchste auftretende Exponent von b gleich:",
     "options": [
       "m",
-      "m-1",
+      "$m-1$",
       "1",
       "0"
     ],
     "correct": [
       0
     ],
-    "explanation": "Der erste (höchste) Summand ist a_m·b^m, der Exponent der höchsten Potenz von b ist also m; der letzte Summand ist a_0·b^0. 📄 Quelle: ari21_vl04, Folie 4 (S.4)",
+    "explanation": "Der erste (höchste) Summand ist $a_m \\cdot b^m$, der Exponent der höchsten Potenz von b ist also m; der letzte Summand ist $a_0 \\cdot b^0$. 📄 Quelle: ari21_vl04, Folie 4 (S.4)",
     "source": "ari21_vl04, Folie 4 (S.4, Rückblick)"
   },
   {
@@ -63,18 +63,18 @@
     "type": "multi",
     "question": "Welche Produkte der Multiplikationstabelle im Vierer-System sind korrekt?",
     "options": [
-      "2 · 2 = 10",
-      "2 · 3 = 12",
-      "3 · 3 = 21",
-      "3 · 3 = 12",
-      "2 · 2 = 4"
+      "$2 \\cdot 2 = 10$",
+      "$2 \\cdot 3 = 12$",
+      "$3 \\cdot 3 = 21$",
+      "$3 \\cdot 3 = 12$",
+      "$2 \\cdot 2 = 4$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Laut Einmaleins-Tabelle im 4er-System gilt 2·2 = 10, 2·3 = 12 und 3·3 = 21 (jeweils Ziffern des Vierersystems). '3·3 = 12' und '2·2 = 4' sind falsch (4 existiert im 4er-System nicht als Ziffer). 📄 Quelle: ari21_vl04, Folie 7 (S.7)",
+    "explanation": "Laut Einmaleins-Tabelle im 4er-System gilt $2 \\cdot 2 = 10$, $2 \\cdot 3 = 12$ und $3 \\cdot 3 = 21$ (jeweils Ziffern des Vierersystems). '$3 \\cdot 3 = 12$' und '$2 \\cdot 2 = 4$' sind falsch (4 existiert im 4er-System nicht als Ziffer). 📄 Quelle: ari21_vl04, Folie 7 (S.7)",
     "source": "ari21_vl04, Folie 7 (S.7, Rückblick)"
   },
   {
@@ -100,11 +100,11 @@
     "topic": "ari21_vl04_multiplikation_4er",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Welchen Wert hat (23)_4 im Dezimalsystem?",
+    "question": "Welchen Wert hat $(23)_4$ im Dezimalsystem?",
     "answer": 11,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Probe auf der Folie: (23)_4 = 2·4^1 + 3·4^0 = 8 + 3 = 11. 📄 Quelle: ari21_vl04, Folie 7 (S.7)",
+    "explanation": "Probe auf der Folie: $(23)_4 = 2 \\cdot 4^1 + 3 \\cdot 4^0 = 8 + 3 = 11$. 📄 Quelle: ari21_vl04, Folie 7 (S.7)",
     "source": "ari21_vl04, Folie 7 (S.7, Rückblick)"
   },
   {
@@ -112,11 +112,11 @@
     "topic": "ari21_vl04_multiplikation_4er",
     "difficulty": 3,
     "type": "numeric",
-    "question": "Das Produkt (23)_4 · (12)_4 wird per Übersetzung ins Zehnersystem geprüft. Welchen dezimalen Wert hat dieses Produkt?",
+    "question": "Das Produkt $(23)_4 \\cdot (12)_4$ wird per Übersetzung ins Zehnersystem geprüft. Welchen dezimalen Wert hat dieses Produkt?",
     "answer": 66,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Probe: (23)_4 = 11 und (12)_4 = 1·4^1 + 2·4^0 = 6, also 11·6 = 66, was (1002)_4 entspricht. 📄 Quelle: ari21_vl04, Folie 7 (S.7)",
+    "explanation": "Probe: $(23)_4 = 11$ und $(12)_4 = 1 \\cdot 4^1 + 2 \\cdot 4^0 = 6$, also $11 \\cdot 6 = 66$, was $(1002)_4$ entspricht. 📄 Quelle: ari21_vl04, Folie 7 (S.7)",
     "source": "ari21_vl04, Folie 7 (S.7, Rückblick)"
   },
   {
@@ -126,17 +126,17 @@
     "type": "multi",
     "question": "Welche Vielfachen von 21 im Vierer-System (aus der Nebenrechnungstabelle) sind korrekt?",
     "options": [
-      "1 · 21 = 21",
-      "2 · 21 = 102",
-      "3 · 21 = 123",
-      "2 · 21 = 42"
+      "$1 \\cdot 21 = 21$",
+      "$2 \\cdot 21 = 102$",
+      "$3 \\cdot 21 = 123$",
+      "$2 \\cdot 21 = 42$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Die Vielfachentabelle im 4er-System zeigt 1·21 = 21, 2·21 = 102 und 3·21 = 123. '2·21 = 42' ist keine gültige 4er-Darstellung. 📄 Quelle: ari21_vl04, Folie 9 (S.9)",
+    "explanation": "Die Vielfachentabelle im 4er-System zeigt $1 \\cdot 21 = 21$, $2 \\cdot 21 = 102$ und $3 \\cdot 21 = 123$. '$2 \\cdot 21 = 42$' ist keine gültige 4er-Darstellung. 📄 Quelle: ari21_vl04, Folie 9 (S.9)",
     "source": "ari21_vl04, Folie 9 (S.9, Rückblick)"
   },
   {
@@ -144,7 +144,7 @@
     "topic": "ari21_vl04_division_4er",
     "difficulty": 2,
     "type": "single",
-    "question": "Was ergibt die schriftliche Division (11322) : (21) im Vierer-System?",
+    "question": "Was ergibt die schriftliche Division $(11322) : (21)$ im Vierer-System?",
     "options": [
       "222",
       "212",
@@ -154,7 +154,7 @@
     "correct": [
       0
     ],
-    "explanation": "Die schriftliche Division im 4er-System liefert 11322 : 21 = 222 (Rest 0). 📄 Quelle: ari21_vl04, Folie 9 (S.9)",
+    "explanation": "Die schriftliche Division im 4er-System liefert $11322 : 21 = 222$ (Rest 0). 📄 Quelle: ari21_vl04, Folie 9 (S.9)",
     "source": "ari21_vl04, Folie 9 (S.9, Rückblick)"
   },
   {
@@ -162,11 +162,11 @@
     "topic": "ari21_vl04_division_4er",
     "difficulty": 3,
     "type": "numeric",
-    "question": "Welchen Wert hat (11322)_4 im Dezimalsystem?",
+    "question": "Welchen Wert hat $(11322)_4$ im Dezimalsystem?",
     "answer": 378,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Probe: (11322)_4 = 1·4^4 + 1·4^3 + 3·4^2 + 2·4^1 + 2·4^0 = 1·256 + 1·64 + 3·16 + 2·4 + 2·1 = 378. 📄 Quelle: ari21_vl04, Folie 10 (S.10)",
+    "explanation": "Probe: $(11322)_4 = 1 \\cdot 4^4 + 1 \\cdot 4^3 + 3 \\cdot 4^2 + 2 \\cdot 4^1 + 2 \\cdot 4^0 = 1 \\cdot 256 + 1 \\cdot 64 + 3 \\cdot 16 + 2 \\cdot 4 + 2 \\cdot 1 = 378$. 📄 Quelle: ari21_vl04, Folie 10 (S.10)",
     "source": "ari21_vl04, Folie 10 (S.10, Rückblick)"
   },
   {
@@ -174,11 +174,11 @@
     "topic": "ari21_vl04_division_4er",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Welchen Wert hat (21)_4 im Dezimalsystem?",
+    "question": "Welchen Wert hat $(21)_4$ im Dezimalsystem?",
     "answer": 9,
     "tolerance": 0,
     "unit": "",
-    "explanation": "Probe: (21)_4 = 2·4^1 + 1·4^0 = 8 + 1 = 9. 📄 Quelle: ari21_vl04, Folie 10 (S.10)",
+    "explanation": "Probe: $(21)_4 = 2 \\cdot 4^1 + 1 \\cdot 4^0 = 8 + 1 = 9$. 📄 Quelle: ari21_vl04, Folie 10 (S.10)",
     "source": "ari21_vl04, Folie 10 (S.10, Rückblick)"
   },
   {
@@ -186,11 +186,11 @@
     "topic": "ari21_vl04_division_4er",
     "difficulty": 2,
     "type": "numeric",
-    "question": "Die Probe der Division wird im Zehnersystem durchgeführt: 378 : 9 = ?",
+    "question": "Die Probe der Division wird im Zehnersystem durchgeführt: $378 : 9 = ?$",
     "answer": 42,
     "tolerance": 0,
     "unit": "",
-    "explanation": "378 : 9 = 42, und 42 = 2·4^2 + 2·4^1 + 2·4^0 = (222)_4 bestätigt das Ergebnis der 4er-Division. 📄 Quelle: ari21_vl04, Folie 10 (S.10)",
+    "explanation": "$378 : 9 = 42$, und $42 = 2 \\cdot 4^2 + 2 \\cdot 4^1 + 2 \\cdot 4^0 = (222)_4$ bestätigt das Ergebnis der 4er-Division. 📄 Quelle: ari21_vl04, Folie 10 (S.10)",
     "source": "ari21_vl04, Folie 10 (S.10, Rückblick)"
   },
   {
@@ -221,7 +221,7 @@
     "question": "Wie wird ein Teiler einer Zahl n in der „plausiblen Geschichte“ der Erkundung II (Nüsse in Bündel stecken) charakterisiert?",
     "options": [
       "Ein Teiler lässt keinen Rest (die Nüsse lassen sich restlos in Bündel stecken).",
-      "Ein Teiler lässt stets einen Rest r < m.",
+      "Ein Teiler lässt stets einen Rest $r < m$.",
       "Ein Teiler ist immer eine Primzahl.",
       "Ein Teiler ist die Anzahl der Nüsse selbst."
     ],
@@ -239,8 +239,8 @@
     "question": "Welche Aussagen gehören zum Beispiel der Erkundung II (378 Nüsse, Aufteilung in 9er-Bündel bzw. im Vierersystem)?",
     "options": [
       "378 Nüsse lassen sich in 42 9er-Bündel aufteilen.",
-      "(11322)_4 Nüsse lassen sich in (222)_4 Bündel der Größe (21)_4 aufteilen.",
-      "(21)_4 = 9.",
+      "$(11322)_4$ Nüsse lassen sich in $(222)_4$ Bündel der Größe $(21)_4$ aufteilen.",
+      "$(21)_4 = 9$.",
       "378 lässt sich nicht ohne Rest in 9er-Bündel aufteilen."
     ],
     "correct": [
@@ -248,7 +248,7 @@
       1,
       2
     ],
-    "explanation": "Beispiel der Folie: 378 Nüsse lassen sich in 42 9er-Bündel aufteilen; (11322)_4 Nüsse lassen sich in (222)_4 (21)_4-er-Bündel aufteilen und (21)_4 = 9. 📄 Quelle: ari21_vl04, Folie 12 (S.12)",
+    "explanation": "Beispiel der Folie: 378 Nüsse lassen sich in 42 9er-Bündel aufteilen; $(11322)_4$ Nüsse lassen sich in $(222)_4$ $(21)_4$-er-Bündel aufteilen und $(21)_4 = 9$. 📄 Quelle: ari21_vl04, Folie 12 (S.12)",
     "source": "ari21_vl04, Folie 12 (S.12, Erkundung II)"
   },
   {
@@ -314,17 +314,17 @@
     "topic": "ari21_vl04_teilbarkeit",
     "difficulty": 2,
     "type": "multi",
-    "question": "Wann teilt eine natürliche Zahl a eine natürliche Zahl b (a | b) laut Definition?",
+    "question": "Wann teilt eine natürliche Zahl a eine natürliche Zahl b ($a \\mid b$) laut Definition?",
     "options": [
-      "Genau dann, wenn es zu a eine natürliche Zahl c gibt, so dass a · c = b ist.",
-      "Genau dann, wenn a · c = b für alle natürlichen Zahlen c gilt.",
-      "Genau dann, wenn es eine natürliche Zahl c gibt mit b · c = a.",
+      "Genau dann, wenn es zu a eine natürliche Zahl c gibt, so dass $a \\cdot c = b$ ist.",
+      "Genau dann, wenn $a \\cdot c = b$ für alle natürlichen Zahlen c gilt.",
+      "Genau dann, wenn es eine natürliche Zahl c gibt mit $b \\cdot c = a$.",
       "Immer, unabhängig von a und b."
     ],
     "correct": [
       0
     ],
-    "explanation": "Definition: a teilt b (a | b) genau dann, wenn es zu a eine natürliche Zahl c gibt, so dass a · c = b ist. 📄 Quelle: ari21_vl04, Folie 15 (S.15)",
+    "explanation": "Definition: a teilt b ($a \\mid b$) genau dann, wenn es zu a eine natürliche Zahl c gibt, so dass $a \\cdot c = b$ ist. 📄 Quelle: ari21_vl04, Folie 15 (S.15)",
     "source": "ari21_vl04, Folie 15 (S.15, Teilen)"
   },
   {
@@ -332,7 +332,7 @@
     "topic": "ari21_vl04_teilbarkeit",
     "difficulty": 1,
     "type": "single",
-    "question": "Wie nennt man a, wenn a | b gilt?",
+    "question": "Wie nennt man a, wenn $a \\mid b$ gilt?",
     "options": [
       "Teiler von b",
       "Vielfaches von b",
@@ -342,7 +342,7 @@
     "correct": [
       0
     ],
-    "explanation": "Gilt a | b, so nennt man a einen Teiler von b. 📄 Quelle: ari21_vl04, Folie 15 (S.15)",
+    "explanation": "Gilt $a \\mid b$, so nennt man a einen Teiler von b. 📄 Quelle: ari21_vl04, Folie 15 (S.15)",
     "source": "ari21_vl04, Folie 15 (S.15, Teilen)"
   },
   {
@@ -353,15 +353,15 @@
     "question": "Welche Schreibweisen bedeuten dasselbe wie „a teilt b“?",
     "options": [
       "a teilt b",
-      "a | b",
-      "b | a",
-      "a · b"
+      "$a \\mid b$",
+      "$b \\mid a$",
+      "$a \\cdot b$"
     ],
     "correct": [
       0,
       1
     ],
-    "explanation": "Die Folie nennt die gleichwertigen Schreibweisen „a teilt b“ bzw. a | b. 📄 Quelle: ari21_vl04, Folie 15 (S.15)",
+    "explanation": "Die Folie nennt die gleichwertigen Schreibweisen „a teilt b“ bzw. $a \\mid b$. 📄 Quelle: ari21_vl04, Folie 15 (S.15)",
     "source": "ari21_vl04, Folie 15 (S.15, Teilen)"
   },
   {
@@ -369,11 +369,11 @@
     "topic": "ari21_vl04_teilbarkeit",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Mit welchem c ∈ ℕ zeigt man gemäß Definition, dass 2 | 6 gilt (2 · c = 6)?",
+    "question": "Mit welchem $c \\in \\mathbb{N}$ zeigt man gemäß Definition, dass $2 \\mid 6$ gilt ($2 \\cdot c = 6$)?",
     "answer": 3,
     "tolerance": 0,
     "unit": "",
-    "explanation": "2 | 6, denn mit c = 3 gilt 2 · 3 = 6. 📄 Quelle: ari21_vl04, Folie 18 (S.18)",
+    "explanation": "$2 \\mid 6$, denn mit $c = 3$ gilt $2 \\cdot 3 = 6$. 📄 Quelle: ari21_vl04, Folie 18 (S.18)",
     "source": "ari21_vl04, Folie 18 (S.18, Teilen)"
   },
   {
@@ -381,11 +381,11 @@
     "topic": "ari21_vl04_teilbarkeit",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Welches c belegt 1 | 5, also 1 · c = 5?",
+    "question": "Welches c belegt $1 \\mid 5$, also $1 \\cdot c = 5$?",
     "answer": 5,
     "tolerance": 0,
     "unit": "",
-    "explanation": "1 | 5, denn 1 · 5 = 5, also c = 5. 📄 Quelle: ari21_vl04, Folie 18 (S.18)",
+    "explanation": "$1 \\mid 5$, denn $1 \\cdot 5 = 5$, also $c = 5$. 📄 Quelle: ari21_vl04, Folie 18 (S.18)",
     "source": "ari21_vl04, Folie 18 (S.18, Teilen)"
   },
   {
@@ -395,17 +395,17 @@
     "type": "multi",
     "question": "Welche der folgenden Begründungen für Teilbarkeit sind korrekt?",
     "options": [
-      "2 | 6, denn mit c = 3 gilt 2 · 3 = 6",
-      "3 | 0, denn 3 · 0 = 0",
-      "0 | 0, denn 0 · 1 = 0",
-      "6 | 2, denn es gibt ein c mit 6 · c = 2"
+      "$2 \\mid 6$, denn mit $c = 3$ gilt $2 \\cdot 3 = 6$",
+      "$3 \\mid 0$, denn $3 \\cdot 0 = 0$",
+      "$0 \\mid 0$, denn $0 \\cdot 1 = 0$",
+      "$6 \\mid 2$, denn es gibt ein c mit $6 \\cdot c = 2$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Auf der Folie werden 2|6 (c=3), 3|0 (3·0=0) und 0|0 (0·1=0) korrekt begründet; 6|2 gilt nicht, da es kein natürliches c mit 6·c=2 gibt. 📄 Quelle: ari21_vl04, Folie 18 (S.18)",
+    "explanation": "Auf der Folie werden $2 \\mid 6$ ($c=3$), $3 \\mid 0$ ($3 \\cdot 0=0$) und $0 \\mid 0$ ($0 \\cdot 1=0$) korrekt begründet; $6 \\mid 2$ gilt nicht, da es kein natürliches c mit $6 \\cdot c=2$ gibt. 📄 Quelle: ari21_vl04, Folie 18 (S.18)",
     "source": "ari21_vl04, Folie 18 (S.18, Teilen)"
   },
   {
@@ -415,17 +415,17 @@
     "type": "multi",
     "question": "Welche allgemeinen Teilbarkeitsaussagen lassen sich mit der Definition begründen?",
     "options": [
-      "1 | b, denn 1 · b = b (1 teilt jede natürliche Zahl b)",
-      "b | b, denn b · 1 = b (jede Zahl teilt sich selbst)",
-      "a | 0, denn a · 0 = 0 (jede Zahl teilt 0)",
-      "0 | b für jedes b > 0"
+      "$1 \\mid b$, denn $1 \\cdot b = b$ (1 teilt jede natürliche Zahl b)",
+      "$b \\mid b$, denn $b \\cdot 1 = b$ (jede Zahl teilt sich selbst)",
+      "$a \\mid 0$, denn $a \\cdot 0 = 0$ (jede Zahl teilt 0)",
+      "$0 \\mid b$ für jedes $b > 0$"
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Begründet werden 1|b (1·b=b), b|b (b·1=b) und a|0 (a·0=0); dagegen teilt 0 keine Zahl b>0. 📄 Quelle: ari21_vl04, Folie 20 (S.20)",
+    "explanation": "Begründet werden $1 \\mid b$ ($1 \\cdot b=b$), $b \\mid b$ ($b \\cdot 1=b$) und $a \\mid 0$ ($a \\cdot 0=0$); dagegen teilt 0 keine Zahl $b>0$. 📄 Quelle: ari21_vl04, Folie 20 (S.20)",
     "source": "ari21_vl04, Folie 20 (S.20, Teilen)"
   },
   {
@@ -433,17 +433,17 @@
     "topic": "ari21_vl04_teilbarkeit",
     "difficulty": 2,
     "type": "single",
-    "question": "Warum teilt 0 keine natürliche Zahl b > 0?",
+    "question": "Warum teilt 0 keine natürliche Zahl $b > 0$?",
     "options": [
-      "Weil es kein c gibt mit 0 · c = b (für b > 0)",
-      "Weil 0 · c = b für jedes c gilt",
+      "Weil es kein c gibt mit $0 \\cdot c = b$ (für $b > 0$)",
+      "Weil $0 \\cdot c = b$ für jedes c gilt",
       "Weil 0 keine natürliche Zahl ist",
-      "Weil b · 0 = 0 ist"
+      "Weil $b \\cdot 0 = 0$ ist"
     ],
     "correct": [
       0
     ],
-    "explanation": "Für b > 0 gibt es kein c mit 0 · c = b (denn 0 · c = 0 ≠ b), daher teilt 0 keine solche Zahl. 📄 Quelle: ari21_vl04, Folie 20 (S.20)",
+    "explanation": "Für $b > 0$ gibt es kein c mit $0 \\cdot c = b$ (denn $0 \\cdot c = 0 \\ne b$), daher teilt 0 keine solche Zahl. 📄 Quelle: ari21_vl04, Folie 20 (S.20)",
     "source": "ari21_vl04, Folie 20 (S.20, Teilen)"
   },
   {
@@ -451,11 +451,11 @@
     "topic": "ari21_vl04_teilbarkeit",
     "difficulty": 1,
     "type": "numeric",
-    "question": "Mit welchem c begründet man a | 0, also a · c = 0?",
+    "question": "Mit welchem c begründet man $a \\mid 0$, also $a \\cdot c = 0$?",
     "answer": 0,
     "tolerance": 0,
     "unit": "",
-    "explanation": "a | 0, denn a · 0 = 0, also c = 0. 📄 Quelle: ari21_vl04, Folie 20 (S.20)",
+    "explanation": "$a \\mid 0$, denn $a \\cdot 0 = 0$, also $c = 0$. 📄 Quelle: ari21_vl04, Folie 20 (S.20)",
     "source": "ari21_vl04, Folie 20 (S.20, Teilen)"
   },
   {
@@ -552,7 +552,7 @@
     "options": [
       "Wenn n eine natürliche Zahl größer 1 ist, dann lässt sie sich (bis auf die Reihenfolge) eindeutig in Primfaktoren zerlegen.",
       "Die Primfaktorzerlegung ist auch in der Reihenfolge der Faktoren eindeutig.",
-      "Jede natürliche Zahl n ≥ 1 lässt sich eindeutig in Primfaktoren zerlegen.",
+      "Jede natürliche Zahl $n \\ge 1$ lässt sich eindeutig in Primfaktoren zerlegen.",
       "Manche Zahlen größer 1 haben keine Primfaktorzerlegung."
     ],
     "correct": [
@@ -589,14 +589,14 @@
       "Die Voraussetzung ist, dass n eine natürliche Zahl größer 1 ist.",
       "Die Blätter eines Zahlenbäumchens sind gleich, nur ihre Reihenfolge kann unterschiedlich sein.",
       "Die Zerlegung in Primfaktoren ist eindeutig bis auf die Reihenfolge.",
-      "Die Voraussetzung n > 1 kann weggelassen werden."
+      "Die Voraussetzung $n > 1$ kann weggelassen werden."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Voraussetzung ist n > 1; die Zerlegung ist bis auf die Reihenfolge eindeutig, entsprechend sind die Blätter eines Zahlenbäumchens gleich und nur ihre Reihenfolge kann variieren. 📄 Quelle: ari21_vl04, Folie 24 (S.24)",
+    "explanation": "Voraussetzung ist $n > 1$; die Zerlegung ist bis auf die Reihenfolge eindeutig, entsprechend sind die Blätter eines Zahlenbäumchens gleich und nur ihre Reihenfolge kann variieren. 📄 Quelle: ari21_vl04, Folie 24 (S.24)",
     "source": "ari21_vl04, Folie 24 (S.24, Teilen)"
   }
 ]
