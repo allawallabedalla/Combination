@@ -98,7 +98,10 @@ Ziel: echte Formeldarstellung statt Unicode-Behelf (Brüche, Wurzeln, Indizes, S
   `mathify()` in js/app.js rendert `$…$` (inline) / `$$…$$` (abgesetzt), überall an den Content-Stellen
   eingebunden (Quiz/Prüfung: Frage, Optionen, Erklärung; Mündlich: frage, musterantwort, kriterien).
   Kein `$` → normales HTML-escaping (Unicode-Altbestand bleibt unversehrt). Pilot: `oral-pythagoras-4`.
-- **Stufe 2 – Inhalts-Migration: 🔄 LÄUFT (iterativ, je Runde committen).**
+- **Stufe 2 – Inhalts-Migration: ✅ FERTIG.** Alle mathematischen Texte des Katalogs auf $…$-LaTeX
+  konvertiert (62/70 gen-Skripte mit Formeln + material/oral.json; 8 Skripte sind rein textlich/leer).
+  KaTeX-Validierung: 8835 Formeln, 0 Render-Fehler. App-Test: Quiz + mündliche Prüfung rendern, 0 Konsolenfehler.
+  Historie (Alt-Status unten nur zur Doku):
   > Methode (bewährt): pro Skript ein Subagent liest `material/_tex_rules.md` + konvertiert
   > gen/<code>.json → Patch nach scratchpad/tex/tpatch_<code>.json. Dann:
   > `python3 <scratch>/apply_tex.py <patches…>` → `python3 pipeline/build_content.py` →
